@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: FavoritesView.maxloadradius
+solution: Experience Manager
+title: FavoritesView.maxloadradius
+topic: Dynamic media
+uuid: 52347bee-2cdf-4bb4-bb6f-eefff06b82af
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# FavoritesView.maxloadradius{#favoritesview-maxloadradius}
+
+` [FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`
+
+<table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>如果设置为 <span class="codeph"> -1</span>，则在初始化组件或更改资产时，将同时加载所有缩略图。 </p> <p>设置为 <span class="codeph"> 0时</span>，只加载可见的缩览图。 </p> <p> 设置为preloadnbr <span class="codeph"><span class="varname"> 时</span></span>，可指定预加载可见区域周围的不可见行数。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+
+可选。
+
+## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
+
+`1`
+
+## 示例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+
+`maxloadradius=0`
