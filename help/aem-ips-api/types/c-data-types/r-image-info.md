@@ -1,0 +1,139 @@
+---
+description: 图像资产的属性。
+seo-description: 图像资产的属性。
+seo-title: ImageInfo
+solution: Experience Manager
+title: ImageInfo
+topic: Scene7 Image Production System API
+uuid: 89138f10-c80b-49b8-886f-45b0960038b8
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# ImageInfo{#imageinfo}
+
+图像资产的属性。
+
+语法
+
+## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+<table id="table_04100BB8ABD84EF68B0A7CE3AD946414"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>名称 </p> </th> 
+   <th colname="col2" class="entry"> <p>类型 </p> </th> 
+   <th colname="col3" class="entry"> <p>说明 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> original <span class="varname"> Path</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>原始文件的相对路径。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>文件名. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>IPS优化图像文件的路径。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 优 <span class="varname"> 化文件</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>经过IPS优化的图像文件。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 遮 <span class="varname"> 罩路径</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>图像蒙版的路径。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 遮 <span class="varname"> 罩文件</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>遮罩的文件名。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> width</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col3"> <p>图像宽度（以像素为单位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> height</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col3"> <p>图像高度（以像素为单位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 文 <span class="varname"> 件大小</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col3"> <p>图像大小（以字节为单位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 分 <span class="varname"> 辨率</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
+   <td colname="col3"> <p>每英寸像素数。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>产品 ID. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 说 <span class="varname"> 明</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>图像描述。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 注释</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>注释（已弃用）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 用 <span class="varname"> 户数据</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>与图像关联的用户信息（已弃用）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 锚 <span class="varname"> 点X</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col3"> <p>水平锚点（以像素为单位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 锚 <span class="varname"> 点Y</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col3"> <p>以像素为单位的垂直锚点。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> url修饰符</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>图像服务器URL参数。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> urlPostApplyModifier <span class="varname"></span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>连接到urlModifier结尾的 <span class="codeph"> 参数</span>。 查询字符串格式列表作为命令的参数到图像服务器。 值位于图像服务器协议指南中。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
+   <td colname="col3"> <p>缩放目标阵列（最多5个）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 蒙版</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：MaskArray</span> </td> 
+   <td colname="col3"> <p>蒙版数组。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> imageMaps <span class="varname"></span></span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageMapsArray</span> </td> 
+   <td colname="col3"> <p>图像映射数组。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
