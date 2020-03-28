@@ -1,0 +1,44 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: Swatches.scrollstep
+solution: Experience Manager
+title: Swatches.scrollstep
+topic: Dynamic media
+uuid: 0228e690-191a-4fcf-8d9e-8a51283314ea
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Swatches.scrollstep{#swatches-scrollstep}
+
+` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
+
+<table id="table_DC890B3CAB6847318081AC74424147B9"> 
+ <tbody> 
+  <tr> 
+   <td> <p> <span class="codeph"> 步 <span class="varname"> 骤</span></span> </p> </td> 
+   <td> <p>水平步骤。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p> <span class="codeph"> <span class="varname"> vStep</span></span> </p> </td> 
+   <td> <p>垂直步骤。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+指定每次单击或点按相应的滚动按钮时要滚动的色板数。
+
+## 属性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
+
+可选。
+
+## 默认 {#section-fcb06fd8e7e945e590094efcf9a1d510}
+
+`3,3`
+
+## 示例 {#section-3a188ab955c445bcb2efa3c49722c10d}
+
+`scrollstep=1,1`
