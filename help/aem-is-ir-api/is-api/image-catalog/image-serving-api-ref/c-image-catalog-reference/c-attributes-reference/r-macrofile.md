@@ -1,0 +1,29 @@
+---
+description: 宏定义文件路径。 指定包含此图像目录宏定义的文件。
+seo-description: 宏定义文件路径。 指定包含此图像目录宏定义的文件。
+seo-title: MacroFile
+solution: Experience Manager
+title: MacroFile
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a383b00a-47f8-4c1c-9fd0-0701d8f78b18
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# MacroFile{#macrofile}
+
+宏定义文件路径。 指定包含此图像目录宏定义的文件。
+
+## 属性 {#section-e55829aecc3a412f9121a73d70f83a1a}
+
+文本字符串值。 相对于目录文件夹的绝对文件路径或路径。
+
+## 默认 {#section-903de40cff734254aaf64c14258dc4a7}
+
+空，表示此图像目录没有专用宏定义。
+
+## 另请参阅 {#section-0d6179011b574922bc25e399fa73879d}
+
+[宏定义](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
