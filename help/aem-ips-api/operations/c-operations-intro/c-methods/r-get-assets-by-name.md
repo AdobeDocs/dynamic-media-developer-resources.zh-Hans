@@ -1,0 +1,157 @@
+---
+description: 根据资产名称的数组返回资产。
+seo-description: 根据资产名称的数组返回资产。
+seo-title: getAssetsByName
+solution: Experience Manager
+title: getAssetsByName
+topic: Scene7 Image Production System API
+uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# getAssetsByName{#getassetsbyname}
+
+根据资产名称的数组返回资产。
+
+语法
+
+## 授权用户类型 {#section-754790841ea242d5ae8bedd587d7730e}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `TrialSiteAdmin`
+* `TrialSiteUser`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+
+>[!NOTE]
+>
+>仅返回用户具有读取访问权限的资产。
+
+## 参数 {#section-f64e93c127b84a29aa3bf2fdd916cca9}
+
+**输入(getAssetsByNameParam)**
+
+<table id="table_CE7B503B0E074719A523B458DF3A7286"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 名称 </th> 
+   <th colname="col2" class="entry"> 类型 </th> 
+   <th colname="col3" class="entry"> 必需 </th> 
+   <th colname="col4" class="entry"> 说明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 是 </td> 
+   <td colname="col4"> 公司的把手。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 以其他用户身份提供访问。 仅适用于管理员。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 用于按特定组进行筛选。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 是 </td> 
+   <td colname="col4"> 要检索的资产名称的数组。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 已检索资产允许的资产类型数组。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 已检索资产排除的资产类型数组。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 已检索资产允许的资产子类型的数组。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> strictSubType <span class="varname"> 检查</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> <p>如 <span class="codeph"> 果为true</span> , <span class="codeph"> 且assetSubTypeArray不为空，则仅返回其子类型位于assetSubTypeArray中</span> 的资产 <span class="codeph"></span> 。 </p> <p>如果 <span class="codeph"> 为false</span>，则包含未定义子类型的资产。 </p> <p>The default value is <span class="codeph"> false</span>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 包含响应中包含的字段和子字段的列表。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> excludeFieldArray <span class="varname"></span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 包含从响应中排除的字段和子字段的列表。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**输出(getAssetsByNameReturn)**
+
+| 名称 | 类型 | 必需 | 说明 |
+|---|---|---|---|
+| ` *`assetArray`*` | `types:AssetArray` | 否 | 符合筛选条件的资产数组。 |
+
+## 示例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
+
+此代码示例返回两个图像类型资产。
+
+**请求**
+
+```java
+<getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
+   <companyHandle>c|3</companyHandle>
+   <nameArray>
+      <items>B010</items>
+      <items>IMG_0103</items>
+   </nameArray>
+   <assetTypeArray>
+      <items>Image</items>
+   </assetTypeArray>
+</getAssetsByNameParam>
+```
+
+**响应**
+
+```java
+<getAssetsByNameReturn xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
+   <assetArray>
+      <items>
+         <assetHandle>a|210</assetHandle>
+         <type>Image</type>
+         <name>B010</name>
+         ...</items>
+      <items>
+         <assetHandle>a|189</assetHandle>
+         <type>Image</type>
+         <name>IMG_0103</name>
+         ...
+      </items>
+   </assetArray>
+</getAssetsByNameReturn>
+```
+
