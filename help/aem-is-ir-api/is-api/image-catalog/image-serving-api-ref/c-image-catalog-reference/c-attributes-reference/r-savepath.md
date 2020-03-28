@@ -1,0 +1,31 @@
+---
+description: saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+seo-description: saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+seo-title: SavePath
+solution: Experience Manager
+title: SavePath
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# SavePath{#savepath}
+
+saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+
+`SavePath` 是文本字符串值。
+
+## 属性 {#section-343d1371e966491c92854a8df14c3c50}
+
+文本字符串。 必须为空或有效的相对文件夹路径。 始终与配置的绝对根路径相结合 `ImageServer::SaveDirectory`。
+
+## 默认 {#section-ae751eea97654f399c6aaee3f3252cbb}
+
+如果未定义， `default::SavePath` 则从中继承。 如果解析的值为空，则保存到文件将被禁用。
+
+## 另请参阅 {#section-b38b045bbf084ca5a4b24ea12c4877ae}
+
+[req=saveToFile](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
