@@ -1,0 +1,138 @@
+---
+description: 所有查看器通用的参数。
+seo-description: 所有查看器通用的参数。
+seo-title: config
+solution: Experience Manager
+title: config
+topic: Dynamic media
+uuid: 9e9bb580-a33a-4405-b05c-56962d702145
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# config{#config}
+
+所有查看器通用的参数。
+
+` config= *`configId`*`
+
+<table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span></span> </p> </td> 
+   <td colname="col2"> <p>查看器配置的目录/ID。 </p> <p> 指定包含catalog::UserData中的查看器配置属 <span class="codeph"> 性的图像目录条目 </span>。 当此命令存在时，查看器将向服务器发 <span class="codeph"> 送配置ID的req=userdata命令，并 </span><span class="codeph"></span> 从回复中提取属性。 属性用于初始化查看器。 如果URL字符串指定相同的属性，则它们会覆盖 <span class="codeph"> catalog::UserData中的值 </span>。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+可以在期望、、、和 `catalog::UserData` 本身中指 `asset`定的所 `serverUrl`有查 `contentUrl`看 `searchServerUrl`器命 `config` 令。
+
+## 属性 {#section-10ee45d637134e0fbcd943c62578cb78}
+
+可选。
+
+## 默认 {#section-d411e450028c460392cb8508f8ccc5d9}
+
+无。
+
+## Example 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
+
+名为2020的图像目录包含该条目 `preset-oct`。 此目 `catalog::UserData` 录条目的字段包括以下数据：
+
+```
+style=customStyle.css
+```
+
+使用以下命令加载查看器：
+
+```
+config=2020/preset-oct
+```
+
+这等效于在URL中明确指定的以下命令：
+
+```
+style=customStyle.css
+```
+
+## Example 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
+
+名为2019的图像目录包含该条目 `spin-oct`。 此目 `catalog::UserData` 录条目的字段包括以下数据：
+
+```
+zoomStep=3 
+maxZoom=200
+```
+
+使用以下命令加载查看器：
+
+```
+config=2019/spin-oct
+```
+
+这等效于在URL中明确指定的以下命令：
+
+```
+zoomStep=3&maxZoom=200
+```
+
+## Example 3 {#section-2b3a42c3926e4eb19fa14434def9195f}
+
+名为的查看器预 `Shoppable_Banner` 设包含以下数据：
+
+```
+style=etc/dam/presets/css/html5_interactiveimage.css
+```
+
+使用以下命令加载查看器：
+
+```
+config=/etc/dam/presets/viewer/Shoppable_Banner
+```
+
+这等效于在URL中明确指定的以下命令：
+
+`style=etc/dam/presets/css/html5_interactiveimage.css`
+
+## Example 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+
+名为的查看器预 `Shoppable_Video_Dark` 设包含以下数据：
+
+```
+style=etc/dam/presets/css/html5_interactivevideo_dark.css
+```
+
+使用以下命令加载查看器：
+
+```
+config=/etc/dam/presets/viewer/Shoppable_Video_Dark
+```
+
+这等效于在URL中明确指定的以下命令：
+
+```
+style=etc/dam/presets/css/html5_interactivevideo_dark.css
+```
+
+## Example 5 {#section-19b988551d1d492a9079948e0b04b38f}
+
+名为以下数据的 `Carousel_Dotted_light` 查看器预设：
+
+```
+style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
+```
+
+使用以下命令加载查看器：
+
+```
+config=/etc/dam/presets/viewer/Carousel_Dotted_light
+```
+
+这等效于在URL中明确指定的以下命令：
+
+```
+style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
+```
+
