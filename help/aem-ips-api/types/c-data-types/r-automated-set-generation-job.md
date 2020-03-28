@@ -1,0 +1,85 @@
+---
+description: 使用资产句柄列表数组将文件分组为多个组。
+seo-description: 使用资产句柄列表数组将文件分组为多个组。
+seo-title: AutomatedSetGenerationJob
+solution: Experience Manager
+title: AutomatedSetGenerationJob
+topic: Scene7 Image Production System API
+uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# AutomatedSetGenerationJob{#automatedsetgenerationjob}
+
+使用资产句柄列表数组将文件分组为多个组。
+
+语法
+
+## 参数 {#section-939b2e6946a64238be3709fec2cd0b84}
+
+<table id="table_0E031B2014B646BDA2A94D7E0B55DD5B"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 名称 </th> 
+   <th colname="col2" class="entry"> 类型 </th> 
+   <th colname="col3" class="entry"> 说明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col3">用于创建集的一组资产句柄。 <p>默认情况下，数组中最多可包含1000个资产。 </p></td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> destFolder <span class="varname"></span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 要保存集的文件夹的路径。 默认情况下，保存到公司根文件夹。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 就 <span class="varname"> 绪发布</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> 设置一个标志以指示是否应发布资产。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">可以在上传的文件上运行的一组集代脚本。 请参阅 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> 电子 <span class="varname"> 邮件设置</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>为作业设置自动电子邮件通知。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**emailSetting选项**
+
+该参 `emailSetting` 数包括以下选项：
+
+| 选项 | 退货 |
+|---|---|
+| `All` | 指定收件人的所有作业通知（错误、警告、完成）。 |
+| `Error` | 指定收件人的作业错误。 |
+| `ErrorAndWarning` | 指定收件人的作业错误和警告。 |
+| `JobCompletion` | 指定收件人的作业完成通知。 |
+| `None` | 作业不会向指定的收件人发送任何作业通知。 |
+
+## 示例 {#section-d01ee7671f274a1fa12737e8df91d2cf}
+
+```
+<complexType name="AutomatedSetGenerationJob">
+  <sequence>
+    <element name="assetHandleArray" type="types:HandleArray"/>
+    <element name="destFolder" type="xsd:string" minOccurs="0"/>
+    <element name="readyForPublish" type="xsd:boolean"/>
+    <element name="autoSetCreationOptions" type="types:AutoSetCreationOptions"/>
+    <element name="emailSetting" type="xsd:string"/>
+  </sequence>
+</complexType>
+```
+
