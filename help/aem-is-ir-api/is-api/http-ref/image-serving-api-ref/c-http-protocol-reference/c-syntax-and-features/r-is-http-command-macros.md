@@ -1,0 +1,56 @@
+---
+description: 命令宏为命令集提供命名的快捷键。 宏在单独的宏定义文件中定义，这些文件可以附加到图像目录或默认目录。
+seo-description: 命令宏为命令集提供命名的快捷键。 宏在单独的宏定义文件中定义，这些文件可以附加到图像目录或默认目录。
+seo-title: 命令宏
+solution: Experience Manager
+title: 命令宏
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a6ff5642-6716-484f-b37e-066994362a9b
+translation-type: tm+mt
+source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+
+---
+
+
+# 命令宏{#command-macros}
+
+命令宏为命令集提供命名的快捷键。 宏在单独的宏定义文件中定义，这些文件可以附加到图像目录或默认目录。
+
+`$ *`名称`*$`
+
+<table id="simpletable_A03541622C354F60B5F304B999C4EF8E"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名称</span></span> </p> </td> 
+  <td class="stentry"> <p>宏名称。 </p></td> 
+ </tr> 
+</table>
+
+` *`name`*` 不区分大小写，它可能由ASCII字母、数字、“-”、“_”和“.”的任意组合组成 字符.
+
+宏可以在“?”之后的请求中的任意位置以及某个或字段中的任意 `catalog::Modifier` 位置被 `catalog::PostModifier` 调用。 宏只能表示一个或多个完整的图像服务命令，并且必须与具有“&amp;”分隔符的其他命令分开。
+
+在解析过程中，宏调用会被替换为其替换字符串。 如果宏中的命令在请求中的宏调用之前发生，则它们将覆盖请求中的相同命令。 这与请求字符串 `catalog::Modifier`中的命令始终覆盖字符串中的命令不同，而 `catalog::Modifier` 不管请求中的位置如何。
+
+命令宏不能有参数值，但自定义变量可用于将值从请求传递到宏。
+
+宏可以嵌套，但有以下限制：只有在分析宏定义时已定义宏时，才能调用该宏，方法是先在同一宏定义文件中显示，或将此类嵌入宏的定义放入默认宏定义文件中。
+
+## 示例 {#section-2f73d36ac8d64254a03bae5afeae2fb9}
+
+如果将相同的属性应用于不同的图像，则宏可能很有用。
+
+`http://server/cat/1345?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/1435?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/8243?wid=480&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
+
+我们可以为常见属性定义一个宏：
+
+`view wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
+
+宏的用法如下：
+
+`http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
+
+由于 `wid=` 第三个请求不同，我们只需在调用宏 *后* (指定 `wid=`*before *`$view$`不会产生任何效果)覆盖值。
+
+## 另请参阅 {#section-8cdba0ed2480444ca61e719e54f8871c}
+
+[catalog:::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md)[, Macro Definition Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
