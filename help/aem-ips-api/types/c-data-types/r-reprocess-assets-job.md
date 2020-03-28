@@ -1,0 +1,173 @@
+---
+description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
+seo-description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
+seo-title: 重新处理AssetsJob
+solution: Experience Manager
+title: 重新处理AssetsJob
+topic: Scene7 Image Production System API
+uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
+translation-type: tm+mt
+source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+
+---
+
+
+# 重新处理AssetsJob{#reprocessassetsjob}
+
+作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
+
+语法
+
+## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+<table id="table_04100BB8ABD84EF68B0A7CE3AD946414"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>名称 </p> </th> 
+   <th colname="col2" class="entry"> <p>类型 </p> </th> 
+   <th colname="col3" class="entry"> <p>说明 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col3"> <p>资产句柄。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 就 <span class="varname"> 绪发布</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col3"> <p>文件是否已标记为可发布。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 保 <span class="varname"> 留PublishState</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col3"> <p>控制在覆盖时是否保留现有资产的发布状态。 如果未设置，则使用公司默认设置。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 创 <span class="varname"> 建蒙版</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col3"> <p>是否创建蒙版。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 保 <span class="varname"> 留裁剪</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col3">控制任何现有裁切定义的保留。 默认为 <span class="codeph"> true</span>。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 手 <span class="varname"> 动裁剪选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ManualCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>手动裁剪选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：AutoColorCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于根据颜色自动裁切图像的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoTransparentCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>根据透明度从图像边缘删除空白。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> photoshop <span class="varname"> 选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：PhotoshopOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于将Photoshop文件上传到图像服务器的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：PostScriptOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于将PostScript文件上传到图像服务器的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：PDFOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于将PDF文件上传到图像服务器的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 媒 <span class="varname"> 体选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：MediaOptions</span> </p> </td> 
+   <td colname="col3"> <p>A/V媒体文件选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustrator选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：IllustratorOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于将Illustrator文件上传到图像服务器的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 颜 <span class="varname"> 色管理选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ColorManagementOptions</span> </p> </td> 
+   <td colname="col3"> <p>可在上传过程中指定的选项。 该设置会影响为上传管理颜色的方式。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AutoSetCreationOptions</span> </p> </td> 
+   <td colname="col3"> <p>要应用于已上载文件的自动设置生成脚本的数组。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col3"> <p>一组项目句柄。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 电子 <span class="varname"> 邮件设置</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>电子邮件设置选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col3"> <p>是否仅上传文件。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>文件上传位置的URL。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageServingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>要在上载完成后运行的图像服务发布作业的作业详细信息。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:ImageRenderingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>要在上载完成后运行的图像渲染发布作业的作业详细信息。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：VideoPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>要在上传完成后运行的视频发布作业的作业详细信息。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesign选项</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：InDesignOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于将InDesign文件上传到图像服务器的选项。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 挖 <span class="varname"> 空背景</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> USMsharpMaskOptions</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：USMsharpMaskOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参 <a href="https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_unsharp_mask_options.html"> 阅USMsharpMaskOptions</a>。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**说明**
+
+可供选择 `*CropOptions` 的包括：
+
+* `manualCropOptions`
+* `autoColorCropOptions`
+* `autoTransparentCropOptions`
+
+可供选择 `*PublishJob` 的包括：
+
+* `postImageServingPublishJob`
+* `postImageRenderingPublishJob`
+* `postVideoPublishJob`
+
