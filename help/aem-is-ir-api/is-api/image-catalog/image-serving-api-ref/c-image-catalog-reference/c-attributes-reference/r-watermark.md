@@ -1,0 +1,31 @@
+---
+description: 水印选择器。 指定用作水印图像或模板的目录记录的目录ID。
+seo-description: 水印选择器。 指定用作水印图像或模板的目录记录的目录ID。
+seo-title: 水印
+solution: Experience Manager
+title: 水印
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
+translation-type: tm+mt
+source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+
+---
+
+
+# 水印{#watermark}
+
+水印选择器。 指定用作水印图像或模板的目录记录的catalog::Id。
+
+如果指定，则服务器将水印应用于所有图像请求的所请求图像数据( `req=img`)。
+
+## 属性 {#section-fad6ffff4c5f4b5c8010281bc1377055}
+
+文本字符串。 如果指定，则必须是此图像目 `Catalog::Id` 录（或默认目录中，如果在中指定）中的有效 [!DNL default.ini]值。
+
+## 默认 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
+
+如果未定义， `default::Watermark` 则从中继承。 如果已定义但为空，则即使已定义，也不会为此图像目录应用 `default::Watermark` 水印。
+
+## 另请参阅 {#section-f15dbe31013849828d78588742dde58e}
+
+[catalog:::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
