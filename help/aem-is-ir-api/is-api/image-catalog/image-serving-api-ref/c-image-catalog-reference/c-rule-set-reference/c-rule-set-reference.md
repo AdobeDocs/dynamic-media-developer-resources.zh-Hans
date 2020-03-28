@@ -1,0 +1,148 @@
+---
+description: 图像服务支持基于规则表达式匹配和替换规则的简单请求预处理机制。
+seo-description: 图像服务支持基于规则表达式匹配和替换规则的简单请求预处理机制。
+seo-title: 规则集引用
+solution: Experience Manager
+title: 规则集引用
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
+translation-type: tm+mt
+source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+
+---
+
+
+# 规则集引用{#rule-set-reference}
+
+图像服务支持基于规则表达式匹配和替换规则的简单请求预处理机制。
+
+可以将预处理规则集(*规则集*)附加到图像目录或默认目录。 仅当请求未识别特定主图像目录时，默认目录中的规则才适用。
+
+请求预处理规则可以在请求的路径和查询部分由平台服务器的分析器处理之前对其进行修改，包括操作路径、添加命令、更改命令值以及应用模板或宏。 规则还可用于配置和覆盖某些安全功能，这些功能通常仅通过目录属性进行控制，例如请求模糊化、水印标记以及将服务限制到特定客户端IP地址。
+
+规则集存储为XML文档文件。 必须在中指定规则集文件的相对或绝对路径 `attribute::RuleSetFile`。
+
+## 一般结构 {#section-8bcbd91ea8a946f28051bde8ad21827f}
+
+```
+ <?xml version="1.0" encoding="UTF-8"?> 
+<ruleset> 
+   <rule> 
+      <expression> 
+<varname>
+  expression 
+</varname></expression> 
+      <substitution> 
+<varname>
+  substitution 
+</varname></substitution> 
+      <addressfilter> 
+<varname>
+  addressFilter 
+</varname></addressfilter> 
+      <header> 
+<varname>
+  headerValue 
+</varname></header>  
+   </rule> 
+</ruleset>
+```
+
+有效 `<?xml>` 的规 `<ruleset>` 则集XML文件中始终需要这些元素和元素，即使没有定义实际的规则。
+
+允许 `<ruleset>` 一个包含任意数量的元 `<rule>` 素的元素。
+
+预处理规则文件的内容区分大小写。
+
+## 规则集验证 {#section-d8d101a0b4d74580835e37d128d05567}
+
+目录文件夹 [!DNL RuleSet.xsd] 中提供了一份规则集文件，在将规则集文件注册到文件之前，应使用它验证该 [!DNL catalog.ini] 文件。 请注意，图像服务使用内部副本进 [!DNL RuleSet.xsd] 行验证。
+
+## URL预处理 {#section-2c09a2d79ada46b994857c6a7fb4c13a}
+
+在进行任何其他处理之前，将部分分析传入的HTTP请求以确定应应用哪个图像目录。 在标识目录后，将应用选定目录（或默认目录，如果未标识特定目录）的规则集。
+
+按 `<rule>` 照与元素()的内容匹配的指定顺序搜索 `<expression>` 元素( *`expression`*)。
+
+如果匹 `<rule>` 配，则应用可选 *`substitution`* 请求字符串并将修改的请求字符串传递给服务器的请求分析器以进行正常处理。
+
+如果到达结束时未成功匹配，则请 `<ruleset>` 求将传递给分析器，而无需修改。
+
+## OnMatch属性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
+
+可以使用元素的属性修改 `OnMatch` 默认行 `<rule>` 为。 `OnMatch` 可以设置为 `break` （默认）、 `continue`或 `error`。
+
+<table id="table_6680A81492B24CE593330DA7B0075E8F"> 
+ <thead> 
+  <tr> 
+   <th class="entry"> <b>元素和属性</b> </th> 
+   <th class="entry"> <b>匹配时的行为</b> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td> <p> <span class="codeph"> &lt;rule onMatch="break"&gt; </span> </p> </td> 
+   <td> <p>规则处理在应用此规则的替换后立即终止。 默认. </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p> <span class="codeph"> &lt;rule onMatch="continue"&gt; </span> </p> </td> 
+   <td> <p>将应用替换，并且处理将继续执行下一个规则。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p> <span class="codeph"> &lt;rule OnMatch="error"&gt; </span> </p> </td> 
+   <td> <p>规则处理会立即终止，并且“请求已拒绝”响应状态会返回到客户端。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 覆盖目录属性 {#section-3f1e33a65c5346d1b4a69958c61432f3}
+
+`<rule>` 元素可以选择定义在规则成功匹配时覆盖相应目录属性的属性。 如果多个匹配的规则设置了相同的属性，则最后一个规则占上风。 请参阅元素的说 ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` 明，了解可以使用规则控制的属性列表。
+
+## 常规表达式 {#section-3f77bb9a265147b38c645f63ab1bad8b}
+
+简单的字符串匹配适用于非常基本的应用程序，但大多数情况下都需要常规表达式。 虽然常规表达式是行业标准，但具体实施因实例而异。
+
+[ [!DNL包java.util.regex]介绍 ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) 图像服务使用的特定常规表达式实现。
+
+## 捕获的子字符串 {#section-066e659406d5403599cd26ae35e80d68}
+
+为了便于复杂的URL修改，子字符串可以在表达式中通过用括号(...)括起子字符串来捕获。 捕获的子字符串根据前括号的位置以1开始按顺序编号。 捕获的子字符串可以使用 ` $ *`n`*`，其中 *`n`* 是捕获的子字符串的序列号。
+
+## 管理规则集文件 {#section-0598a608e4044bb4805fe93ceebe10a9}
+
+一个规则集文件可以附加到具有目录属性的每个图像目录 `attribute::RuleSetFile`。 虽然您可以随时编辑规则集文件，但图像服务器只有在重新加载关联的图像目录时才能识别所做的更改。 当平台服务器启动或重新启动时，以及每当具有文件后缀的主目录文件被修改或“改动”以更改文件日期时，都会发生此重新加载。 [!DNL .ini]
+
+## 示例 {#section-aa769437d967459299b83a4bf34fe924}
+
+**示例A.** 定义一个规则，该规则在图像名称具有后缀“ [!DNL _hg]”时增加图像质量设置：
+
+```
+<rule> 
+   <expression>(?i)_hg$</expression> 
+   <substitution>\?&amp;qlt=95,1&amp;resmode=bicub</substitution> 
+</rule>
+```
+
+规则表达式指定URL字符串末尾的“ [!DNL _hg]”不区分大小写的匹配项。 后缀将替换为更改图像质量设置的指定查询字符串。 请注意，替 `?` 换字符串中的字符是转义的，因为这是常规表达式中的特殊字符。
+
+>[!NOTE]
+>
+>&amp;符字符所需的编码。 或者，替换字符串可以包含在CDATA块中：
+
+`<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
+
+**示例B.** 特定Web应用程序不允许查询字符串。 定义一个规则，该规则将尾随路径 `small`元素 `medium`、 `large` 或转换为模板，使用路径的其余部分作为图像名称。 例如， `myCat/myImage/small` 将转换为 `myCat/smallTemplate?src=myCat/myImage`。
+
+我们可以使用子字符串来重构请求：
+
+```
+<rule> 
+   <expression>([^/]+)/(small|medium|large)$</expression> 
+   <substitution>$2Template?src=sample/$1</substitution> 
+</rule>
+```
+
+## 另请参阅 {#section-9b748e7c5cff4759a70f96657bd43352}
+
+[包java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
