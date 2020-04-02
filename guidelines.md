@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Adobe Dynamic Media开发人员资源文档贡献指南
 
-## Adobe Dynamic Media开发人员资源文档理念
+## 文档哲学
 
 我们知道Adobe Dynamic Media用户在竞争激烈的环境中工作，努力创建让他们与竞争对手分开的数字体验。 因此，当Adobe推出高级新工具时，这些工具必须辅以准确、清晰的文档，以便客户能够立即利用其Dynamic Media投资并实现最大的投资回报。
 
@@ -35,9 +35,9 @@ translation-type: tm+mt
 
 任何需要改进文档的想法均欢迎您作为贡献。 但是，评论、问题和拉取请求仅用于 *稿件* 。 它们不用于回答您有关如何使用Dynamic Media、实施您的项目或解决技术问题的问题。
 
-如果您对Dynamic Media的使用或技术错误有任何疑问，应通过正常的支持流程进行报告。
+如果您对Dynamic Media的使用或技术错误有任何疑问，应通过 [Experience Cloud Enterprise Support门户报告](https://helpx.adobe.com/contact/enterprise-support.ec.html) ，或在 [Experience Manager社区中讨论。](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***文档稿件不是Adobe支持的替代品*** ，任何此类稿件将被拒绝，以寻求与支持相关的问题的答案。
+***文档捐助不是Adobe客户关怀的替代品*** ，任何寻求支持相关问题的答案的此类贡献都将被拒绝。
 
 ### 稿件必须明确引用受影响的文档页面。
 
