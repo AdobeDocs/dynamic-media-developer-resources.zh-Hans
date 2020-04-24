@@ -7,7 +7,7 @@ title: 限制和已知问题
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 * 非吡唑化的Tiff或暗角请求会生成类似的错误消息
 
-   *“图像C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt没有有效的DSF,2.25MPixel的面积超过最大2MPixel”* 。
+   *“图像`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`没有有效的DSF,2.25MPixel的面积超过2MPixel的最大面积”* 。
 
    最佳做法是使用吡唑并Tiff和晕影。 如果您需要使用非吡喃藏獒或晕影，请按照以下说明增加大小限制。
 
