@@ -7,7 +7,7 @@ title: 属性
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` *[!DNL propertyValue]*` 可以是空的。 在每行的开始和结尾以及“=”分隔符前后的空白是可选的。 单引号或多次引号可用于圈住字符串值，但不是必需的。
 
-字符串值可能包含JAVA样式转义字符，如\n、\t、\:。 或者 \\.
+字符串值可能包含JAVA样式转义字符， `\n`如 `\t`、 `\:`。 或者 `\\`.
 
 **另请参阅**
 
