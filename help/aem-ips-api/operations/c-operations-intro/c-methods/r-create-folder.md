@@ -7,18 +7,21 @@ title: 建立資料夾
 topic: Scene7 Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 22%
 
 ---
 
 
-# 建立資料夾{#createfolder}
+# [!DNL createFolder]{#createfolder}
 
 创建文件夹。
 
 >[!NOTE]
 >
->新文件夹将从属于“图像”文件夹，即使您指定了指示 `/` 公司的根文件夹也是如此。
+>新文件夹从属于“图像”文件夹，即使您指定 `/` 了公司的根文件夹。
 
 语法
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->用户必须具有对父文件夹的读／写访问权限。
+>用户必须具有对父文件夹的读／写权限。
 
 ## 参数 {#section-c00d8d89cf114886a535056f2a1bf892}
 
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司 |
-| ` *`folderPath`*` | `xsd:string` | 是 | 用于将文件夹和所有子文件夹检索到叶级的根文件夹。 如果排除，则使用公司根。 |
+| ` *`folderPath`*` | `xsd:string` | 是 | 用于检索文件夹和所有子文件夹到叶级别的根文件夹。 如果排除，则使用公司根。 |
 
 **输出(createFolderParam)**
 
@@ -52,7 +55,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-此示例代码在公司的根位置创建一个文件夹。 响应将返回新创建的文件夹的句柄。
+此示例代码在公司的根中创建文件夹。 响应将返回新创建的文件夹的句柄。
 
 **请求**
 
