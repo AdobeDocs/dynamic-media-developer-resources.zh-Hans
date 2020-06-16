@@ -1,24 +1,27 @@
 ---
-description: 上传设置以将ZIP和TAR文件作为主资产（无）处理，或提取并上传其内容（解压缩）。
-seo-description: 上传设置以将ZIP和TAR文件作为主资产（无）处理，或提取并上传其内容（解压缩）。
+description: 上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
+seo-description: 上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
 seo-title: UnCompressOptions
 solution: Experience Manager
 title: UnCompressOptions
 topic: Scene7 Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 6%
 
 ---
 
 
 # UnCompressOptions{#uncompressoptions}
 
-上传设置以将ZIP和TAR文件作为主资产（无）处理，或提取并上传其内容（解压缩）。
+上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
 
 >[!NOTE]
 >
->`None` 默认。
+>`None` 。
 
 ## 参数 {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -32,13 +35,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 过 <span class="varname"> 程</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 过程</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>控制ZIP和TAR存档文件处理。 提供2个选项： 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：</span> 作为主资产处理。 </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：</span> 作为主要资产处理。 </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解压缩：</span> 提取和处理内容。 </li>
-     </ul><p>注意：字符串常量区分大小写。 使用 <span class="codeph"> UnCompress</span>，而不是 <span class="codeph"> uncompress</span> 或 <span class="codeph"> unCompress</span>。 </p></p> </td> 
+     </ul><p>注意： 字符串常量区分大小写。 使用 <span class="codeph"> UnCompress</span>，而不 <span class="codeph"> 是解压</span> 或 <span class="codeph"> unCompress</span>。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +61,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 使用者 {#section-b2a829cf5511412e968bb2000f85cc31}
 
-类 `unCompressionOptions` 型由以下用户使用：
+类 `unCompressionOptions` 型由：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
