@@ -1,20 +1,23 @@
 ---
-description: 使用要发布到图像服务器的原始集定义字符串创建通用资产集。
-seo-description: 使用要发布到图像服务器的原始集定义字符串创建通用资产集。
+description: 创建包含要发布到图像服务器的原始集定义字符串的通用资产集。
+seo-description: 创建包含要发布到图像服务器的原始集定义字符串的通用资产集。
 seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
 topic: Scene7 Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 9%
 
 ---
 
 
 # createAssetSet{#createassetset}
 
-使用要发布到图像服务器的原始集定义字符串创建通用资产集。
+创建包含要发布到图像服务器的原始集定义字符串的通用资产集。
 
 语法
 
@@ -42,58 +45,58 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 负责人 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 将包含资产集的公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 文件 <span class="varname"> 夹处理 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 将在其中创建新资产集的文件夹的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 资产名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 子类型 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 客户端为资产集类型创建的唯一标识符。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> setDefinition <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 设置定义字符串中的参数。 <p>这些属性必须解析为目标查看器指定的格式。 </p> </td> 
+   <td colname="col4"> 设置定义字符串中的参数。 <p>必须解析为目标查看器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 缩略图 <span class="varname"> 资产句柄 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 用作新图像集缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资源。 </td> 
+   <td colname="col4"> 用作新图像集的缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资产。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition的替换函数**
 
-可以在目录查找或发布期间解析的行中指定替换函数。 替换字符串的格式为 `${<substitution_func>}`。 可用函数列举如下。
+可以在目录查找或发布期间解析的行中指定替代函数。 替换字符串的格式为 `${<substitution_func>}`。 可用函数列举如下。
 
 >[!NOTE]
 >
->参数列表中的句柄文本必须用括号括起来 `([])`。 在分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
+>参数列表中的句柄文字必须用括号括起来 `([])`。 分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
 
 | **替换函数** | **退货** |
 |---|---|
-| `getFilePath([asset_handle>])` | 资产的主文件路径。 |
+| `getFilePath([asset_handle>])` | 资产的主源文件路径。 |
 | `getCatalogId([<asset_handle>])` | 资产的目录ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 资产的元数据值。 |
-| `getThumbCatalogId([<asset_handle>])` | 资产的目录ID（仅限基于图像的资产）。关联的缩略图资产的目录ID（适用于其他资产）。 如果关联的缩略图资产不可用，该函数将返回空字符串。 |
+| `getThumbCatalogId([<asset_handle>])` | 资产的目录ID（仅适用于基于图像的资产）。关联的缩略图资产的目录ID（适用于其他资产）。 如果关联的缩略图资产不可用，该函数将返回空字符串。 |
 
 **示例媒体setDefinition字符串**
 
