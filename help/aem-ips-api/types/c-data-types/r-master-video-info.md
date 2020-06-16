@@ -1,18 +1,21 @@
 ---
 description: 主视频资产的文件信息。
 seo-description: 主视频资产的文件信息。
-seo-title: MasterVideoInfo
+seo-title: 主视频信息
 solution: Experience Manager
-title: MasterVideoInfo
+title: 主视频信息
 topic: Scene7 Image Production System API
 uuid: 19f814c9-dddb-41ff-aef2-fb7ea91c130b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 25%
 
 ---
 
 
-# MasterVideoInfo{#mastervideoinfo}
+# 主视频信息{#mastervideoinfo}
 
 主视频资产的文件信息。
 
