@@ -1,28 +1,31 @@
 ---
-description: 用于视频图像查看器的JavaScript API参考。
-seo-description: 用于视频图像查看器的JavaScript API参考。
-seo-title: init
+description: Interactive Image Viewer的JavaScript API参考。
+seo-description: Interactive Image Viewer的JavaScript API参考。
+seo-title: 初始化
 solution: Experience Manager
-title: init
+title: 初始化
 topic: Dynamic media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bea6e8f949a9ef0f3f56faac40092b5681a16ff6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
 
-# init{#init}
+# 初始化{#init}
 
-用于视频图像查看器的JavaScript API参考。
+Interactive Image Viewer的JavaScript API参考。
 
 `init()`
 
-开始Video Image Viewer的初始化。 此时，必须创建容器DOM元素，以便查看器代码能够按其ID找到它。
+开始Interactive Image Viewer的初始化。 此时，必须创建容器DOM元素，以便查看器代码能够按其ID找到它。
 
-如果容器元素尚不是网页布局的一部分（例如，它可能使用分配给它的样式隐藏），则查看器将暂停其初始化过程，直到网页将容器元素返回到布局为止。 `display:none` 发生这种情况时，查看器加载会自动恢复。
+如果容器元素尚不是网页布局的一部分(例如，它可能使用分配给它的样式被隐藏 `display:none` )，则查看器将暂停其初始化过程，直到网页将容器元素重新引回到布局为止。 发生这种情况时，查看器加载会自动恢复。
 
-在查看器生命周期中只调用此方法一次；随后的调用将被忽略。
+在查看器生命周期中只调用一次此方法； 将忽略后续调用。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
