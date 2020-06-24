@@ -1,20 +1,23 @@
 ---
-description: 作业类型允许授权导出以前上传的文件。
-seo-description: 作业类型允许授权导出以前上传的文件。
+description: 允许授权导出以前上传的文件的作业类型。
+seo-description: 允许授权导出以前上传的文件的作业类型。
 seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
 topic: Scene7 Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 15%
 
 ---
 
 
 # ExportJob{#exportjob}
 
-作业类型允许授权导出以前上传的文件。
+允许授权导出以前上传的文件的作业类型。
 
 ExportJob不支持以下资产类型：
 
@@ -37,33 +40,33 @@ ExportJob不支持以下资产类型：
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> types:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>列表 <span class="codeph"> 需要导出的</span> assetHandle。 请参 <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> 阅HandleArray</a>。 </p> </td> 
+   <td colname="col3" valign="top"> <p>需要 <span class="codeph"> 导出</span> 的资产句柄列表。 请参 <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> 阅HandleArray</a>。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fm</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定导出的类 <span class="codeph"> 型。可能的值</span>:[原始，转换] </p> <p> 
+   <td colname="col3"> <p>指定export.Possible <span class="codeph"> Values的类型</span>: [原始，转换] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">如果 <span class="codeph"> fmt=orig</span>，则资源将作为原始资源导出 </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">如 <span class="codeph"> 果fmt=convert</span>，则资产将转换为is_modifer或宏输入参数中 <span class="codeph"> 指定的格式</span> , <span class="codeph"> 或</span> macro input参数 </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">如果 <span class="codeph"> fmt=orig</span>，则资产将作为原始资产导出 </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">如果 <span class="codeph"> fmt=convert</span>，则资产将转换为is_modifer或宏输入参数 <span class="codeph"> 中指定的格式</span><span class="codeph"> ,</span> 即为is_modifer </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定ImageServer <span class="codeph"> rendering URL字符串，该字符串将附加到ExportJob</span> convert请求中 <span class="codeph"></span> 。 </p> <p>有关发送IS修饰符 <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/" scope="external" format="html"> 的详细信息</a> ，请参阅IS文档。 </p> </td> 
+   <td colname="col3"> <p>指定ImageServer <span class="codeph"> 渲染</span> URL字符串，该字符串会附加到ExportJob转 <span class="codeph"> 换请求</span> 。 </p> <p>有关发送IS修 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> 饰符的详细信息</a> ，请参阅IS文档。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 宏</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 宏</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 电子 <span class="varname"> 邮件设置</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>选择电子邮件设置。 可能的值︰ </p> <p> 
+   <td colname="col3"> <p>电子邮件设置选项。 可能的值︰ </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> 所有</span> </li> 
       <li id="li_59E14E7EBFA64432A5FAC15DA21A0521"> <span class="codeph"> 错误</span> </li> 
@@ -73,14 +76,14 @@ ExportJob不支持以下资产类型：
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> 客 <span class="varname"> 户端ID</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>指定启动导出请求的客户端或客户的IP地址。 </p> <p> <p>注意： 此参数当前未填充，且仅保留为将来使用。 </p> </p> </td> 
+   <td colname="col3"> <p>指定启动导出请求的客户端或客户的IP地址。 </p> <p> <p>注意：  此参数当前未填充，且严格保留以备将来使用。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-对于同时提供和 `fmt=convert` 提供的 `is_modifier` ExportJob `macro` 请求，目标文件遵循由提供的格式 `macro`。 例如：
+对于同时提供 `fmt=convert` 和 `is_modifier` 的ExportJob `macro` 请求，目标文件遵循提供的格式 `macro`。 例如：
 
 ```
 input_file = fileToExport.jpg
