@@ -7,7 +7,10 @@ title: 图像大小限制
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## IS::MaxMessageSize —— 响应大小限制 {#section-bd942385d4d144cd904003695d72c85e}
 
-限制允许图像服务器发送到平台服务器的数据大小。 这有效地限制了图像服务可通过HTTP(MB)返回到客户端的编码／压缩响应图像的大小。
+限制允许图像服务器发送到平台服务器的数据大小。 这有效地限制了图像服务可通过HTTP(MB)返回给客户端的编码／压缩响应图像的大小。
 
 ## IS::MaxRenderRgnPixels —— 输出图像大小限制 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## IS::MaxNonDsfSize —— 非PTIFF输入图像的大小限制 {#section-50de28a7158a436393cce5da0d1e4d46}
 
-允许图像服务器打开的非PTIFF图像的最大大小（以M像素为单位）。 当尝试访问大于此限制的非PTIFF图像时，图像服务将返回错误。
+允许图像服务器打开的非PTIFF图像的最大大小（以M像素为单位）。 尝试访问大于此限制的非PTIFF图像时，图像服务将返回错误。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->将此值设置得过高可能会导致图像服务器内存不足，并导致故障（包括崩溃）。
+>将此值设置得过高可能会导致图像服务器内存不足，并导致故障，包括崩溃。
 
