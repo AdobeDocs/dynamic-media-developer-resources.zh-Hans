@@ -7,7 +7,10 @@ title: SVG支持
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -16,39 +19,39 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 图像服务支持可缩放矢量图形(SVG)文件作为源数据。 需要符合SVG 1.1。
 
-图像服务仅识别静态SVG内容；不支持动画、脚本和其他交互内容。
+图像服务仅识别静态SVG内容； 不支持动画、脚本和其他交互内容。
 
-可以在允许图像文件（URL路径、和）的任何位置 `src=`指定SVG `mask=`。 栅格化SVG文件的内容后，其处理方式与图像一样。
+可以在允许图像文件（URL路径、和）的 `src=`任何地方指 `mask=`定SVG。 栅格化SVG文件的内容后，它的处理方式与图像一样。
 
 与图像类似，SVG文件可以指定为图像目录条目或相对文件路径。
 
 ## 替换变量 {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` 替换变量可以包括在值字符串元素和任何元素属 `<text>` 性中的SVG文件中。
+` $ *[!DNL var]*$` 替换变量可以包括在SVG文件的值字符串元素和 `<text>` 任何元素属性中。
 
-嵌入式图像服务请求的查询部分中的重要变量不会直接被替换。 相反，所有可用的变量定义都会附加到请求中，这允许图像服务在解析请求时替换变量。
+嵌入式图像服务请求的查询部分中的重要变量不会直接替换。 而是会将所有可用的变量定义附加到请求中，这允许图像服务在解析请求时替换变量。
 
-有关其 [他信息，请参阅](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) “替换变量”。
+有关其 [他信息](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) ，请参阅替代变量。
 
 ## 图像引用 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-图像可以使用该元素插入SVG `<image>` 中。 元素属性引 `xlink::href` 用的图像必 `<image>` 须是有效的图像服务请求。 不允许使用外国URL。
+可以使用元素将图像插入 `<image>` SVG。 元素属性引 `xlink::href` 用的图像 `<image>` 必须是有效的图像服务请求。 不允许使用外国URL。
 
-指定完整的图像服务请求(从开始 `http://`)或相对url（从开始） `/is/image`。 如果指定了完整的HTTP路径，则域名将从路径中删除以转换为相对格式。 使用完整的HTTP路径可能是有益的，因为它允许使用第三方SVG渲染器预览文件。
+指定完整的图像服务请求（以开头） `http://`或相对url(以开头 `/is/image`)。 如果指定了完整的HTTP路径，则将从路径中删除域名，以转换为相对格式。 使用完整的HTTP路径可能是有益的，因为它允许使用第三方SVG渲染器预览文件。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->此版本图像服务中对渲染图像的支持有限。 仅在传统图像服务分层和模板机制不足以达到所需效果的情况下，才应使用SVG中引用图像。 在任何情况下，都不应使用SVG生成多图像合成。
+>此版本图像服务中对渲染图像的支持有限。 仅在传统图像服务分层和模板机制不足以达到预期效果的情况下，才应在SVG中引用图像。 在任何情况下都不应使用SVG生成多图像复合图像。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
->此时，嵌入到SVG中的图像不会自动调整大小。 确保所有图像参考都包含必要的“图像服务”命令，以设置所需的图像大小(例如， `wid=`)。 如果未显式设置图像大小，则 `attribute::DefaultPix` 将应用图像大小。
+>此时，嵌入在SVG中的图像不会自动调整大小。 确保所有图像参考都包含必要的图像服务命令以设置所需的图像大小(如 `wid=`)。 如果未显式设置图像大小，则 `attribute::DefaultPix` 将应用图像大小。
 
 ## Color management {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-所有嵌入在SVG文件中并通过替换变量传递到SVG模板的颜色值都假定存在于色 `sRgb` 彩空间中。
+所有嵌入在SVG文件中并通过替换变量传递到SVG模板的颜色值都假定存在于 `sRgb` 色彩空间中。
 
-当图像嵌入到SVG中时，不执行颜色转换。 要确保颜色保真度，请务必为所 `icc=sRgb` 有嵌入的图像请求指定。
+将图像嵌入到SVG中时，不执行颜色转换。 要确保颜色保真度，请确保为所 `icc=sRgb` 有嵌入的图像请求指定。
 
 栅格化后，SVG图像与任何其他图像一样参与颜色管理。
 
@@ -64,7 +67,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## Restrictions {#section-daa5eccd07204aaf993be41e87822d54}
 
-SVG文件必须是独立的，不得引用任何次要文件或资源，但与图像服务或图像渲染请求相关的外部图像除外（请参阅上文）。
+SVG文件必须是独立的，不得引用任何辅助文件或资源，但“图像服务”或“图像渲染”请求引用的外部图像除外（请参阅上文）。
 
 只渲染静态内容。 动画、交互功能，如按钮等。 可能存在，但可能无法按预期呈现。
 
