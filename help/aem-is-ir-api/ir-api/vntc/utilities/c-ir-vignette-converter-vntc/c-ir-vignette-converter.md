@@ -7,9 +7,9 @@ title: 暗角转换器
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL vntc] 默认限制为最多3GB内存。 当Vntc达到此限制时，它将停止处理并产生错误。 此限制可使用更改 `-maxmem`。
 
->[!NOTE] {class=&quot;-主题／注释&quot;
+>[!NOTE]
 >
 >图像创作中的晕影更新工具还可用于准备晕影以用于图像渲染。 同样，内容创作工具能够生成用于图像渲染的文件柜样式文件。 如果 [!DNL vntc] 要自动处理，请使用。 图像创作中的工具包含一个图形用户界面，因此通常更容易交互使用。
 
