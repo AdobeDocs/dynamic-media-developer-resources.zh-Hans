@@ -7,9 +7,9 @@ title: 重新处理AssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '484'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3">控制任何现有裁剪定义的保留。 默认为 <span class="codeph"> true</span>。 </td> 
+   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应值，则无论preserveCrop值如何，新值（不包括0,0,0,0）都将应用于资产。</p><p>如果不提 <i>供</i> manualCropOptions参数，则保留PreserveCrop的值。 并且，如果为true，则保留现有的preserveCrop值； 如果为false，则删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190<br />&lt;/left&gt;<br />&lt;right&gt;310&lt;/right<br />&gt;&lt;top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -149,7 +149,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoudBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
