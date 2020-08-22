@@ -1,22 +1,25 @@
 ---
-description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中就不包括保留字符'='、'&'和'%'。
-seo-description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中就不包括保留字符'='、'&'和'%'。
+description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&”和“%”。
+seo-description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&”和“%”。
 seo-title: 图像服务HTTP编码
 solution: Experience Manager
 title: 图像服务HTTP编码
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 21%
 
 ---
 
 
 # 图像服务HTTP编码{#image-serving-http-encoding}
 
-命令值必须使用%xx转义序列进行http编码，这样值字符串中就不包括保留字符&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。
+命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&amp;”和“%”。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如和）进行编 `<return>` 码 `<tab>`。 字符的URL编码由“%”符号组成，后跟字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点有：
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如和）进行编 `<return>` 码 `<tab>`。 字符的URL编码由“%”符号组成，后跟字符的ISO-拉丁语代码点的两位数十六进制表示法（不区分大小写）。 不安全字符和代码点为：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -28,7 +31,7 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>空格 </p> </td> 
+   <td colname="col1"> <p>空间 </p> </td> 
    <td colname="col2"> <p>20 </p> </td> 
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
@@ -58,12 +61,12 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>{ </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>} </p> </td> 
+   <td colname="col1"> <p>&amp;rbrace; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,12 +91,12 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>[ </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>] </p> </td> 
+   <td colname="col1"> <p>&amp;rbrack; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
@@ -177,10 +180,10 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-如果应用了模糊处理，则编码可限制为删除“=”、“&amp;”和“%”字符：
+如果应用了模糊处理，则编码可限于删除“=”、“&amp;”和“%”字符：
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 另请参阅 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[请求模糊](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)化， [HTTP/1.1规范(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[请求模糊](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)化 [,HTTP/1.1规范(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
