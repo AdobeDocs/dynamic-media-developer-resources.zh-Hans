@@ -7,7 +7,10 @@ title: FavoritesView.fmt
 topic: Dynamic media
 uuid: 777411ee-c73f-4921-8ee1-7eb002ac3e95
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以 <span class="codeph"> -alpha结尾</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式值，组件将图像视为不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以-alpha结 <span class="codeph"> 尾</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式值，组件将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,8 +34,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 
-[!DNL `jpeg`
+`jpeg`
 
 ## 示例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-[!DNL `fmt=png-alpha`]
+`fmt=png-alpha`
