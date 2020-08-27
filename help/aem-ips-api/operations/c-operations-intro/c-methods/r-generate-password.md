@@ -7,7 +7,10 @@ title: generatePassword
 topic: Scene7 Image Production System API
 uuid: e3367bfc-d437-4a61-83e8-69830154dc61
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 676a020ede1f460aa78e9c34eb3ed37f9e610b17
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `IpsUser`
 * `IpsAdmin`
 * `IpsCompanyAdmin`
+* `TrialSiteAdmin`
 * `TrialSiteUser`
 * `ImagePortalAdmin`
 * `ImagePortalUser`
@@ -43,7 +47,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-此代码示例生成密码。 这很不寻常，因为请求只是一个没有任何封闭元素或值的参数。 IPS返回强口令。
+此代码示例生成密码。 这是不寻常的，因为请求只是一个没有任何封闭元素或值的参数。 IPS返回强口令。
 
 **请求**
 
