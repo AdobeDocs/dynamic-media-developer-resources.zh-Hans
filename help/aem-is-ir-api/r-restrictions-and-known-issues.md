@@ -145,7 +145,7 @@ ht-degree: 0%
 ## 限制仅适用于图像渲染 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * 壁板和壁材无法拆卸。
-* 纹理的大小相对于暗角视图的大小是有限的。 在极少的情况下，默认限制为视图大小的425%可能会干扰使用大型非可重复纹理的应用程序。 如果无法将应用程序或内容更改为在预定义的限制范围内工作，则百分比可以增加如下。 使用文本编辑器打开[! *[!DNL install_root]* DNL /ImageServing/conf/ImageServerRegistry.xml]，找 `IrMaxTextureSizeFactor` 到并输入新的百分比值。 更改将立即生效，无需重新启动图像服务器。
+* 纹理的大小相对于暗角视图的大小是有限的。 在极少的情况下，默认限制为视图大小的425%可能会干扰使用大型非可重复纹理的应用程序。 如果无法将应用程序或内容更改为在预定义的限制范围内工作，则百分比可以增加如下。 使用文本编辑器打开[!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml]，找 `IrMaxTextureSizeFactor` 到并输入新的百分比值。 更改将立即生效，无需重新启动图像服务器。
 
 * Netscape和Opera缓存响应数据中的JavaScript引擎，即使已设置nocache头。 这妨碍了有国家要求的正常运行。
 
