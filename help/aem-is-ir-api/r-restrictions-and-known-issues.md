@@ -7,9 +7,9 @@ title: 限制和已知问题
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 0%
 * 如果最后一行文本不适合，整个行将丢弃，而不显示为截止。
 * `\slmult` 并且 `\sl` 其行为方式与MS Word不同 `text=`，它们只会对当前和后续段落生效。
 
-* `\sb` 适用于MS Word和Adobe InDesign `text=`和Photoshop的第一段落，但不适用。
+* `\sb` 适用于MS Word和Adobe InDesign和Photoshop `text=`的第一段，不适用。
 
-* `\sa` 适用于MS Word和Adobe InDesign `text=`和Photoshop的最后一段。
+* `\sa` 适用于MS Word和Adobe InDesign和Photoshop `text=`的最后一段，不适用。
 
 ## 向后兼容性 {#section-a76842f751944f4fb664af296d064122}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 * 具有定位的点文本和文本路径可能显示剪切。
 * `text=` 仅应用于 `\sa` 整个 `\sb` 文本块，而不是每个段落。
 
-* 当使用URL中定义的公司和为该或修饰符定义的 `src=` 其他公司 `mask=` 时，您必须在为此形式的请求定义的公司或为该形式的请求定义的前 `src=``mask=` 加一个正斜杠。
+* 当使用URL中定义的公司和为该或修饰符定义的 `src=` 其他公司 `mask=` 时，您必须在为此形式的请求定义的公司或为该形式的请 `src=` 求定义 `mask=` 的前加一个正斜杠。
 
    *示例*:
 
@@ -89,19 +89,19 @@ ht-degree: 0%
 
    *解决问题*:
 
-   对于图像渲染非吡唑化晕影，请增加[!DNL/ImageServing/bin/ ImageServerRegistry.xml]配 *[!DNL install_root]*&#x200B;置文件中IrMaxNonPyrVignetteSize的属性值。
+   对于图像渲染非吡唑化晕影，请在配置文件中增加IrMaxNonPyrVignetteSize的 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 属性值。
 
-   对于未吡唑化的TIFF图像服务，请增 `MaxNonDsfSize` 加[!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml]配置文件的属性值。
+   对于图像服务非吡唑并TIFF，增加配置文 `MaxNonDsfSize` 件中的 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 属性值。
 
-* 默认情况下，Adobe Photoshop CS3不保存图层式PSD文件，即合成图像。
+* Adobe PhotoshopCS3默认情况下不保存复合图像的分层PSD文件。
 
    *症状*:
 
-   Adobe Photoshop CS3分层PSD文件显示为黑色，并显示文本声明：“此分层Photoshop文件未与复合图像一起保存。” （在IPS中）。
+   Adobe PhotoshopCS3分层PSD文件显示为黑色，并显示文本声明：“此分层的Photoshop文件未与复合图像一起保存。” （在IPS中）。
 
    *解決辦法*︰
 
-   打开最大兼容性时保存Adobe Photoshop CS3文件。
+   打开最大兼容性保存Adobe PhotoshopCS3文件。
 
 * 将ICC用户档案指定给CMYK/JPEG回复图像会导致某些浏览器中的颜色发生反转。*解决问题*:
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 * 嵌入了颜色用户档案的PNG图像的颜色校正使用硬编码选项。 渲染意图是相对比色的，并且PhotoFont文本的黑点补偿处于开启状态。
 * 在公司文件中启用区域设置转换时，不支持基于文件的 [!DNL ini] 查找。
 * 图像服务无法正确写入非闭合的Photoshop路径。
-* 图像服务当前不支持处理使用Adobe Media Encoder 4.0.1或更早版本导出的TIFF文件。 Premiere Pro CS4、After Effects CS4和Creative Suite 4 Production Premium包含Adobe Media Encoder。
+* 图像服务当前不支持处理使用Adobe Media Encoder4.0.1或更早版本导出的TIFF文件。 Adobe Media Encoder包含在Premiere ProCS4、After EffectsCS4和Creative Suite4 Production Premium中。
 * 在自 `text=` 动调整图层大小时使用不支持使用多个行对齐设置的RTF字符串。
 
    *示例*
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    *解决方法*
 
-   在[!DNL `svgProvider.fontRoot=` /ImageServing/conf/PlatformServer.conf]中 *[!DNL install_root]* 设置属性。
+   在中设置 `svgProvider.fontRoot=` 属性 [!DNL install_root/ImageServing/conf/PlatformServer.conf] 。
 
 * 当前使用裁切 `bgColor=` 而不是 `color=` 填充任何新扩展区域。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 ## 限制仅适用于图像渲染 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * 壁板和壁材无法拆卸。
-* 纹理的大小相对于暗角视图的大小是有限的。 在极少的情况下，默认限制为视图大小的425%可能会干扰使用大型非可重复纹理的应用程序。 如果无法将应用程序或内容更改为在预定义的限制范围内工作，则百分比可以增加如下。 使用文本编辑器打开[!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml]，找 `IrMaxTextureSizeFactor` 到并输入新的百分比值。 更改将立即生效，无需重新启动图像服务器。
+* 纹理的大小相对于暗角视图的大小是有限的。 在极少的情况下，默认限制为视图大小的425%可能会干扰使用大型非可重复纹理的应用程序。 如果无法将应用程序或内容更改为在预定义限制范围内工作，则百分比可以增加如下。 使用文本编辑器，打 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]开、定 `IrMaxTextureSizeFactor` 位并输入新的百分比值。 更改将立即生效，无需重新启动图像服务器。
 
 * Netscape和Opera缓存响应数据中的JavaScript引擎，即使已设置nocache头。 这妨碍了有国家要求的正常运行。
 
