@@ -7,7 +7,7 @@ title: 请求锁定
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果启用此功能，请注意其使用存在以下限制：<br>- Dynamic Media用户界面可能无法显示上次发布字段的正确 **[!UICONTROL 详细信息]** 。 但是，此影响不会影响发布。<br>-当前，启用请求模糊处理和请&#x200B;**[!UICONTROL 求锁定时]**,HLS **[!UICONTROL 视频流无]** 法播放。
+>如果启用此功能，请注意其使用存在以下限制：<br>- Dynamic Media用户界面可能无法显示“上次发布时间”字段的正确 **[!UICONTROL 详细信息]** 。 但是，此影响不会影响发布。<br>-当前，启用请求模糊处理和请&#x200B;**[!UICONTROL 求锁定时]**,HLS **[!UICONTROL 视频流无]** 法播放。
 
 C++示例代码生成请求锁定值：
 
