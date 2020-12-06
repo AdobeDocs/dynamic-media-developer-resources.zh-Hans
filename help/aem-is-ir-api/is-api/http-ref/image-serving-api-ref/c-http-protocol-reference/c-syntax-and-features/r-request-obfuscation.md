@@ -7,9 +7,9 @@ title: 请求模糊化
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果启用此功能，请注意其使用存在以下限制：<br>- Dynamic Media用户界面可能无法显示“上次发布时间”字段的正确 **[!UICONTROL 详细信息]** 。 但是，此影响不会影响发布。<br>-当前，启用请求模糊化和请&#x200B;**[!UICONTROL 求锁定时]**, **[!UICONTROL HLS视频流]** 将不工作。
+>如果启用此功能，请注意其使用存在以下限制：<br>- Dynamic Media用户界面可能无法显示“上次发布时间”字段的正确 **[!UICONTROL 详细信息]** 。 但是，此影响不会影响发布。<br>-当前，启用请求模糊化和请&#x200B;**[!UICONTROL 求锁定时]**, **[!UICONTROL HLS视频流]** 将不工作。<br>-当前，启用请求模糊化和请求锁定时， **[!UICONTROL 某些Dynamic]** Media查 **[!UICONTROL 看器无法工作]** 。
 
 ## 示例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
