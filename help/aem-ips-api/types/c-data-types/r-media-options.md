@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
 
-# 媒体选项{#mediaoptions}
+# MediaOptions{#mediaoptions}
 
 为视频生成缩略图。
 
@@ -30,19 +33,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> videoEncodingPresetsArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">引用视频编码预 <span class="codeph"></span> 设以转码视频的一组PropertySet句柄。 </td> 
+   <td colname="col3">引用视频编码预设进行转码视频的<span class="codeph"> PropertySet</span>句柄数组。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 如果为true，则提取视频的第一帧并用作缩略图图像。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 缩 <span class="varname"> 略图选项</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ThumbnailOptions</span> </td> 
-   <td colname="col3">可选。允许您选择要用作缩略图的特定视频帧。 <p>要指定缩略图图像，请传递要使用的帧的时间(以视频开始的毫秒为单位)。 值的范围从0到视频结尾。 <p>注意：如果指定时间不正确，则 <span class="codeph"> 生成Thumbnail</span> 默认值为true。 </p></p><p>请参阅 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 缩略图选项</a>。 </p></td> 
+   <td colname="col3">可选。允许您选择特定视频帧作为缩略图图像。 <p>要指定缩略图图像，请传递您要使用的帧的时间(从视频开始开始的毫秒)。 值范围从0到视频结尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>将默认值设置为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +62,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
+## 由{#section-87cb83407198432c95eaa2db9f12f9db}使用
 
-类 `mediaOptions` 型由以下用户使用：
+`mediaOptions`类型由：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
