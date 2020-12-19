@@ -19,7 +19,7 @@ ht-degree: 1%
 
 修改时间戳。 指定上次修改此暗角的日期／时间。
 
-如果 `attribute::UseLastModified` 设置为，则在HTTP `vignette::TimeStamp` 响 `catalog::TimeStamp`应中，会作为上次修改的头返回暗角的最近和值以及请求中涉及的所有材料。
+如果设置`attribute::UseLastModified`，则在HTTP响应中作为上次修改的头返回暗角的最近`vignette::TimeStamp`和`catalog::TimeStamp`值以及请求中涉及的所有材料。
 
 >[!NOTE]
 >
@@ -31,15 +31,15 @@ ht-degree: 1%
 
 Java格式的日期／时间值。 可以是自1970年1月1日午夜(UTC/GMT)以来的毫秒数，也可以是日期／时间字符串值，其格式如下之一：
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:  *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]**[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:*[!DNL ss]*GMT  *[!DNL offset]*
 
 * *[!DNL hh]* 在0到23的范围内。
-* *[!DNL zzz]* 是3或4个字符的时区代码，如“GMT”或“PST”。 夏令时必须在时区代码中计算（例如，“太平洋标准时间”为“PST”，而“太平洋夏令时”为“PDT”）。
-* *[!DNL offset]* 是相对于GMT的时区偏移量，以小时或小时为单位：分钟。 例如，“PDT”等效于“GMT -7”。
+* *[!DNL zzz]* 是3或4个字符的时区代码，如“GMT”或“PST”。夏令时必须在时区代码中计算（例如，“太平洋标准时间”为“PST”，而“太平洋夏令时”为“PDT”）。
+* *[!DNL offset]* 是相对于GMT的时区偏移量，以小时或小时为单位：分钟。例如，“PDT”等效于“GMT -7”。
 
-字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，而改用[!DNL. *[!DNL catalog]* ini]文件的修改时间。
+字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，并改用[!DNL *[!DNL catalog]*.ini]文件的修改时间。
 
 ## 默认 {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
