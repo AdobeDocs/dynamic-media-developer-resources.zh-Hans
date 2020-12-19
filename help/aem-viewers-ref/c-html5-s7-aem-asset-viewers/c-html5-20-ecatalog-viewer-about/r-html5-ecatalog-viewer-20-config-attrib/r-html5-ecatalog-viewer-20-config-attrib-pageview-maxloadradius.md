@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定组件预载行为。 </p> <p>设置为-1 <span class="codeph"> 时</span> ，组件将在空闲状态中预加载所有目录帧。 </p> <p> 设置为 <span class="codeph"> 0时</span> ，组件仅加载当前可见的帧、上一帧和下一帧。 </p> <p>设置 <span class="codeph"><span class="varname"> preloadnbr</span></span> ，以定义当前显示的帧周围在空闲状态中预加载的不可见帧数。 </p> </td> 
+   <td colname="col2"> <p>指定组件预载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，组件在空闲状态下预加载所有目录帧。 </p> <p> 当设置为<span class="codeph"> 0</span>时，组件仅加载当前可见的帧、上一帧和下一帧。 </p> <p>设置<span class="codeph"><span class="varname"> preloadnbr</span></span>以定义当前显示的帧周围有多少不可见帧处于空闲状态。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
