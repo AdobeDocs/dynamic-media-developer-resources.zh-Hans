@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 授权用户类型{#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`userHandle`*` | `xsd:sting` | 否 | 用户句柄。 |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司阵列。 |
+| ` *`membersArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司阵列。 |
 
 **输出(setCompanyMembershipParam)**
 
