@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 
 本节介绍目录数据字段。
 
-* [Image_SVG数据](r-image-svg-data.md)
+* [图像_SVG数据](r-image-svg-data.md)
 * [静态内容数据](r-static-contents-data.md)
 * [宏定义](r-macro-definitions.md)
 * [字体映射](r-font-maps.md)
