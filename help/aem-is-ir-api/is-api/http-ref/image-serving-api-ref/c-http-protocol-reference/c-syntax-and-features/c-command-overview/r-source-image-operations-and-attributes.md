@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
 
-# 源图像操作{#source-image-operations}
+# 源映像操作{#source-image-operations}
 
 这些命令适用于在简单请求中或在图像图层中使用的源图像，以及附加到纯色图层的蒙版。
 
