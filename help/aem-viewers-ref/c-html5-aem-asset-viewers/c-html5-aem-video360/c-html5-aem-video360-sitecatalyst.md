@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 6%
 
 ---
 
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
-默认情况下，查看器向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+默认情况下，查看器会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
-## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，必须侦听查看器回调，并 `trackEvent` 根据需要处 `eventInfo` 理回调函数的参数。 以下代码就是此类处理函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调并根据需要处理回调函数的`eventInfo`参数。 下面的代码就是此类处理函数的一个示例：
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -65,7 +68,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用setAsset()API在查看器中交换 <span class="codeph"> 资产时 </span> 。 </p> </td> 
+   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在查看器中交换资产时。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -81,10 +84,10 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>当播放达到以下某个里程碑时：0%、25%、50%、75%或100%。 </p> </td> 
+   <td colname="col2"> <p>当播放达到以下里程碑之一时：0%、25%、50%、75%或100%。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
    <td colname="col2"> <p>每次用户单击交互式色板时。 </p> </td> 
   </tr> 
  </tbody> 
