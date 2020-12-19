@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-827e24a3019543418b0a635d46c1edfd}
+## 授权用户类型{#section-827e24a3019543418b0a635d46c1edfd}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +43,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-此代码范例从公司中删除图像格式。 从其他操作获取图像格式句柄。
+此代码范例将从公司中删除图像格式。 从其他操作获取图像格式句柄。
 
 **请求**
 
