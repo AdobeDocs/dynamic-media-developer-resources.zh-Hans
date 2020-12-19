@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
 source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
 
 从标记字段的字典中删除标记字段值。
 
-## 授权用户类型 {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## 授权用户类型{#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,7 +33,7 @@ source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
 | ` *`fieldHandle`*` | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
-| ` *`valueArray`*` | `types:StringArray` | 是 | 要从字段的词典中删除的标记值数组。 |
+| ` *`valueArray`*` | `types:StringArray` | 是 | 要从字段的字典中删除的标记值的数组。 |
 
 **输出(deleteTagFieldValuesParam)**
 
