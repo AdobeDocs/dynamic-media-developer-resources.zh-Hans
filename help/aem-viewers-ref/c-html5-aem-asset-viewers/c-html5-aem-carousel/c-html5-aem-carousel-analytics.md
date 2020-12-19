@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
-## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
-默认情况下，查看器将向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+默认情况下，查看器会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
-要与第三方分析系统集成，必须侦听查看器回调，并 `trackEvent` 根据需要处 `eventInfo` 理回调函数的参数。 以下代码就是此类处理函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调并根据需要处理回调函数的`eventInfo`参数。 下面的代码就是此类处理函数的一个示例：
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,7 +60,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
    <td colname="col2"> <p>首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 横幅 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 横幅  </span> </p> </td> 
    <td colname="col2"> <p>轮盘横幅图像已更改。 </p> </td> 
   </tr> 
   <tr> 
