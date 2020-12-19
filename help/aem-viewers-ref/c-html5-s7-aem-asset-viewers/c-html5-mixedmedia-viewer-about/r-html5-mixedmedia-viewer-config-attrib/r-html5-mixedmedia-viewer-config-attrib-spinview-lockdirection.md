@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b46a3d78-e381-4351-a4f4-a228386df527
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定在2D旋转集的情况下是否允许旋转方向发生更改。 </p> <p>当设置为 <span class="codeph"> 1时， </span>该组件在手势开始标识主要的拖动或轻扫方向（水平或垂直）。 之后，它将保持该方向直到手势结束。 例如，如果用户开始水平旋转，然后决定在垂直方向继续拖动手势，则组件不执行垂直旋转；相反，它只考虑鼠标或轻扫的水平移动。 </p> <p>值为 <span class="codeph"> 0 </span> 可让用户在手势进度期间随时更改旋转方向。 如果旋转集为1D，则设置不会受到影响。 </p> </td> 
+   <td colname="col2"> <p> 指定在2D旋转集的情况下是否允许旋转方向发生更改。 </p> <p>当设置为<span class="codeph"> 1 </span>时，该组件在手势开始标识主拖动或轻扫方向（水平或垂直）。 之后，它会保持该方向直到手势结束。 例如，如果用户开始水平旋转，然后决定在垂直方向继续拖动手势，则组件不执行垂直旋转；相反，它只考虑鼠标或轻扫的水平移动。 </p> <p>值<span class="codeph"> 0 </span>允许用户在手势进度期间随时更改旋转方向。 如果旋转集为1D，则设置不会影响。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
