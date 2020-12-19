@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 371f6dad-e7ba-434d-9a12-dbc9b871735e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 视频查看器的主类是VideoViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
-在以下所有示例中， `<instance>` 是从类实例化的JavaScript查看器对象的实际名 `s7viewers.VideoViewer` 称。
+在以下所有示例中，`<instance>`是从`s7viewers.VideoViewer`类实例化的JavaScript查看器对象的实际名称。
