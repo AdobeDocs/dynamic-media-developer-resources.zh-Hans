@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7flyoutviewer
@@ -43,13 +46,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有白色背景( `#FFFFFF`)的弹出查看器，并使其大小为260 x 500像素。
+示例——设置具有白色背景(`#FFFFFF`)的弹出查看器，并使其大小为260 x 500像素。
 
 ```
 .s7flyoutviewer { 
