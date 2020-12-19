@@ -1,6 +1,6 @@
 ---
-description: 包含有关资产的摘要信息的元数据搜索结果。
-seo-description: 包含有关资产的摘要信息的元数据搜索结果。
+description: 包含资产摘要信息的元数据搜索结果。
+seo-description: 包含资产摘要信息的元数据搜索结果。
 seo-title: 资产摘要
 solution: Experience Manager
 title: 资产摘要
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
 
 # 资产摘要{#assetsummary}
 
-包含有关资产的摘要信息的元数据搜索结果。
+包含资产摘要信息的元数据搜索结果。
 
 语法
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|
 | ` *`assetHandle`*` | `xsd:string` | 资产句柄。 |
 | ` *`类型`*` | `xsd:string` | 资源类型. “资产类型”常量定义可能的值。 可选。 |
-| ` *`名称`*` | `xsd:string` | 资产名称。 可选。 |
+| ` *`name`*` | `xsd:string` | 资产名称。 可选。 |
 | ` *`文件夹`*` | `xsd:string` | 包含资产的文件夹。 |
 | ` *`文件名`*` | `xsd:string` | 资产的文件名。 |
 | ` *`created`*` | `xsd:dateTime` | 资产创建日期。 |
@@ -33,5 +36,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`lastModifyUser`*` | `xsd:string` | 上次修改资产的用户。 |
 | ` *`metadataArray`*` | `types:MetadataArray` | 与资产关联的元数据值的数组。 |
 | ` *`分数`*` | `xsd:double` | 定义相似性搜索时的精度（0 =无匹配，1 =精确匹配）。 |
-| ` *`scoreDetail`*` | `xsd:string` | 保留作为相似性搜索结果的类似区域的详细信息。 |
+| ` *`scoreDetail`*` | `xsd:string` | 保存作为相似性搜索结果的类似区域的详细信息。 |
 
