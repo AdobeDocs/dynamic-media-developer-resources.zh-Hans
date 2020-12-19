@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-773db3753b4842e5a4623ad810176508}
+## 授权用户类型{#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -28,9 +31,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`includeExpired`*` | `xsd:boolean` | 是 | 设置为true可返回已过期和未过期的公司。 |
+| ` *`includeExpired`*` | `xsd:boolean` | 是 | 设置为true可返回过期和未过期的公司。 |
 
-**输出(getAllCompaniesReturn)**
+**输出(getAllCompanysReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -38,7 +41,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代码示例返回数组中IPS中的所有公司。 注意，样本响应被截断以简化。
+此代码示例返回数组中IPS中的所有公司。 注意，样本响应被截断以便简短。
 
 **请求**
 
