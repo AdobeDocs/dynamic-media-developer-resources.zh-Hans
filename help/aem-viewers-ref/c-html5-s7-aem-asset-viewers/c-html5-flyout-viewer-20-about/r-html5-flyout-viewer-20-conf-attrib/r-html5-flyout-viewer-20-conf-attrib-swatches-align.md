@@ -1,27 +1,30 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 色板。align
+seo-title: Swatches.align
 solution: Experience Manager
-title: 色板。align
+title: Swatches.align
 topic: Dynamic media
 uuid: 4437ee11-8675-4c11-b436-414cdbb4b2e7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 7%
 
 ---
 
 
-# 色板。align{#swatches-align}
+# Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定色板容器在组件区域内的内部对齐（锚定）。 在“色板”中，内部缩览图容器的大小会调整为仅显示整数个色板。 因此，内部容器与外部组件边界之间有一些填充。 此命令指定内部色板容器在组件内的放置方式。
+指定组件区域内色板容器的内部对齐（锚定）。 在“色板”中，内部缩略图容器的大小会调整为仅显示整个数量的色板。 因此，内部容器和外部组件边界之间存在一些填充。 此命令指定内部色板容器在组件中的定位方式。
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右</span> </p> </td> 
    <td colname="col2"> <p> 设置水平色板对齐方式。 </p> </td> 
   </tr> 
   <tr> 
