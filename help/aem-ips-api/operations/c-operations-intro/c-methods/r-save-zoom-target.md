@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-823cd9f0557045bca51da66768b5ba74}
+## 授权用户类型{#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +39,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandle`*` | `xsd:string` | 是 | 带有要保存的缩放公司的目标的手柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 缩放目标的手柄。 |
 | ` *`zoomTargetHandle`*` | `xsd:string` | 否 | 编辑或创建缩放目标。 |
-| ` *`名称`*` | `xsd:string` | 是 | 缩放目标名称。 |
-| ` *`xPosition`*` | `xsd:int` | 是 | 左侧像素位置。 |
+| ` *`name`*` | `xsd:string` | 是 | 缩放目标名称。 |
+| ` *`xPosition`*` | `xsd:int` | 是 | 左像素位置。 |
 | ` *`yPosition`*` | `xsd:int` | 是 | 顶部像素位置。 |
 | ` *`width`*` | `xsd:int` | 是 | 缩放目标宽度。 |
 | ` *`height`*` | `xsd:int` | 是 | 缩放目标高度。 |
@@ -51,7 +54,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-此代码范例保存缩放目标。 响应会返回缩放目标手柄。
+此代码示例保存缩放目标。 响应返回缩放目标手柄。
 
 **请求**
 
