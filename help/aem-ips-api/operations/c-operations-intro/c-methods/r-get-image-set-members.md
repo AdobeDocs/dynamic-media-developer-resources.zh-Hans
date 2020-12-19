@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 授权用户类型{#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的手柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 图像集资产句柄。 |
 
 **输出(getImageSetMembersReturn)**
