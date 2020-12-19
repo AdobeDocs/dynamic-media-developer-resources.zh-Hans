@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 
-要启用跟踪，请将正确的公司预设名称作为参 `config2` 数传递。
+要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
 
-默认情况下，查看器向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+默认情况下，查看器会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
-## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，必须侦听查看器回调，并 `trackEvent` 根据需要处 `eventInfo` 理回调函数的参数。 以下代码就是此类处理函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调并根据需要处理回调函数的`eventInfo`参数。 下面的代码就是此类处理函数的一个示例：
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -63,7 +66,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用setAsset()API在查看器中交换 <span class="codeph"> 资产时 </span> 。 </p> </td> 
+   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在查看器中交换资产时。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -79,7 +82,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>当播放达到以下某个里程碑时：0%、25%、50%、75%或100%。 </p> </td> 
+   <td colname="col2"> <p>当播放达到以下里程碑之一时：0%、25%、50%、75%或100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
