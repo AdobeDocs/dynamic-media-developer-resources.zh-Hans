@@ -1,13 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: InitialFrame
+seo-title: 初始帧
 solution: Experience Manager
-title: InitialFrame
+title: 初始帧
 topic: Dynamic media
 uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定在加载查看器时显示的从零开始的跨页索引。 索引与横向模式下跨页的索引匹配。 如果将查看器旋转为纵向，则查看器将显示由frameIdx指向的跨页中最左侧的 <span class="codeph"> 页面</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定在加载查看器时显示的从零开始的跨页索引。 索引与横向模式下跨页的索引匹配。 如果查看器旋转为纵向，则查看器将显示跨页中最左侧的页面，该跨页由<span class="codeph"> frameIdx</span>指向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
