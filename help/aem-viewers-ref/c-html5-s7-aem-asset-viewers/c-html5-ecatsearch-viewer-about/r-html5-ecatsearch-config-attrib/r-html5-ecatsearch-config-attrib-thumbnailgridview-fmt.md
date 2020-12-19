@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 62ec1b74-2a2b-4195-b2aa-ea27cd50fae6
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>指定组件用于从图像服务器加载图像的图像格式。 它可以是图像服务器和客户端浏览器支持的任何值。 如果指定的格式以 <span class="codeph"> -alpha结尾</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件将图像视为不透明。 </p> </td> 
+   <td> <p>指定组件用于从图像服务器加载图像的图像格式。 它可以是图像服务器和客户端浏览器支持的任何值。 如果指定的格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
