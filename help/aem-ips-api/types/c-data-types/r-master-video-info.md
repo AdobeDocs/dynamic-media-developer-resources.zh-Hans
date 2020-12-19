@@ -15,7 +15,7 @@ ht-degree: 25%
 ---
 
 
-# 主视频信息{#mastervideoinfo}
+# MasterVideoInfo{#mastervideoinfo}
 
 主视频资产的文件信息。
 
