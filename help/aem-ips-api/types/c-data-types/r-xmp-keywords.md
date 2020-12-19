@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 项目</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 项目</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>以逗号分隔的关键字列表，它们被合并到 <span class="codeph"> dc:subject=</span> XMP属性节点中。 如果逗号出现在任何单个值中，它需要用反斜杠(\)字符转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
+   <td colname="col3"> <p>被合并到<span class="codeph"> dc:subject=</span>XMP属性节点的以逗号分隔的关键字列表。 如果逗号出现在任何单个值中，则需要用反斜杠(\)字符进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
