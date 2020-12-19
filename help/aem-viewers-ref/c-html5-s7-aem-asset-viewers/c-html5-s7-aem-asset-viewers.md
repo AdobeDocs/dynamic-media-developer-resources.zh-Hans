@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: AEM资产和Dynamic Media Classic的查看器
+seo-title: AEM Assets和Dynamic Media经典
 solution: Experience Manager
-title: AEM资产和Dynamic Media Classic的查看器
+title: AEM Assets和Dynamic Media经典
 topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 16%
 
 ---
 
 
-# AEM资产和Dynamic Media Classic的查看器{#viewers-for-aem-assets-and-dynamic-media-classic}
+# AEM Assets和Dynamic Media经典观众{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-以下查看器可在Adobe Experience Manager资产下或在Dynamic Media Classic下工作。
+以下查看器在Adobe Experience Manager资产和Dynamic Media经典下工作。
 
 * [基本缩放](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
