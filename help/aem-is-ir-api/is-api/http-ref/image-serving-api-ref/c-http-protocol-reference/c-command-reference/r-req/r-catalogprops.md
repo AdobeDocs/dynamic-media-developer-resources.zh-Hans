@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 10%
 
 ---
 
 
-# 目录属性{#catalogprops}
+# catalogprops{#catalogprops}
 
 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 
@@ -25,15 +28,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-忽略目录id以检索默认目录属性( [!DNL default.ini])。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
+忽略目录id以检索默认目录属性([!DNL default.ini])。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
-支持JSONP响应格式的请求允许您使用参数的扩展语法指定JS回调处理函数的 `req=` 名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。 仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
-返回以下属性值：
+将返回以下属性值：
 
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
@@ -80,11 +83,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:LastModified</span>，或者，如果不存在，则为catalog <span class="varname"> .ini文件的上次修</span><span class="filepath"> 改时间</span> 。 </p> </td> 
+   <td> <p> <span class="codeph"> attribute:::LastModified</span>，或者（如果不存在）catalog.infile的上次修 <span class="varname"> 改时</span><span class="filepath"> </span> 间 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
-   <td> <p> int, bool </p> </td> 
+   <td> <p> int,bool </p> </td> 
    <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +107,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> 属性：:ResMode</span> </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +122,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> 属性：:ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
@@ -129,12 +132,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
+   <td> <p> 枚举 </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> 属性：:ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
