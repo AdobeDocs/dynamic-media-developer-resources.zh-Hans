@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## 授权用户类型{#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,55 +49,55 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 负责人 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 包含要保存的图像映射的公司的手柄。 </td> 
+   <td colname="col4"> 包含要保存的图像映射的公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产处理 </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 图像映射所属的图像资产的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> imageMapHandle <span class="varname"> Adobe </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 图像映射的手柄。 如果为NULL，则创建图像映射。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称 </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 创建或保存的图像映射的名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 形 <span class="varname"> 状类型 </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 选择区域形状。 </td> 
+   <td colname="col4"> 区域形状的选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 地区 </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 地区  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 用逗号分隔的点列表，定义区域。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 动作 </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 行动  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>与IPS <span class="codeph"> 界 </span> 面中指定的图像映射关联的href值。 </p> <p>要获取 <span class="codeph"> href值， </span> 请单击IPS界面中的图像，将URL复制并粘贴到此元素中，然后将IPS URL格式化为正确的URL。 例如， <span class="codeph"> &amp;变 </span> 为 <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>与IPS接口中指定的图像映射关联的<span class="codeph"> href </span>值。 </p> <p>要获取<span class="codeph"> href </span>值，请单击IPS界面中的图像，将URL复制并粘贴到此元素中，然后将IPS URL格式化为正确的URL。 例如，<span class="codeph">和</span>变为<span class="codeph"> &amp;</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 位置 </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 位置  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 图像映射列表（Z轴）的顺序。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 已启用 <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 启用  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"></td> 
@@ -106,7 +109,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`imageMapHandle`*` | `xsd:string` | 是 | 新图像或已编辑图像映射的手柄。 |
+| ` *`imageMapHandle`*` | `xsd:string` | 是 | 新图像或已编辑图像映射的句柄。 |
 
 ## 示例 {#section-fdac488b640f427c8aa3d549c5032851}
 
