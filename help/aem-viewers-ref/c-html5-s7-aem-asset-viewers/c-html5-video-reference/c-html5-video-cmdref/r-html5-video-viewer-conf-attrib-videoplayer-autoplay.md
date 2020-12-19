@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否开始在加载时播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
