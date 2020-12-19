@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>设置为 <span class="codeph"> 1可 </span> 以显示关闭按钮。 或者，设置为 <span class="codeph"> 0 </span> 可隐藏关闭按钮。 </p> <p>关闭按钮仅在触控设备上受支持；不能在桌面系统上显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> 1 </span>可显示关闭按钮。 或者，设置为<span class="codeph"> 0 </span>隐藏关闭按钮。 </p> <p>关闭按钮仅在触控设备上受支持；无法在桌面系统上显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
