@@ -1,6 +1,6 @@
 ---
-description: 获取资产的作业日志。 数组中返回的项目包含有关该资产的作业日志中每个条目的详细信息。 logMessage响应字段已基于authHeader字段进行本地化。
-seo-description: 获取资产的作业日志。 数组中返回的项目包含有关该资产的作业日志中每个条目的详细信息。 logMessage响应字段已基于authHeader字段进行本地化。
+description: 获取资产的作业日志。 数组中返回的项目包含有关该资产作业日志中每个条目的详细信息。 日志消息响应字段根据authHeader字段进行本地化。
+seo-description: 获取资产的作业日志。 数组中返回的项目包含有关该资产作业日志中每个条目的详细信息。 日志消息响应字段根据authHeader字段进行本地化。
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 
 # getAssetJobLogs{#getassetjoblogs}
 
-获取资产的作业日志。 数组中返回的项目包含有关该资产的作业日志中每个条目的详细信息。 logMessage响应字段已基于authHeader字段进行本地化。
+获取资产的作业日志。 数组中返回的项目包含有关该资产作业日志中每个条目的详细信息。 日志消息响应字段根据authHeader字段进行本地化。
 
 语法
 
-## 授权用户类型 {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## 授权用户类型{#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 包含要检索的作业日志的资产的处理。 |
+| ` *`assetHandle`*` | `xsd:string` | 是 | 要检索的作业日志对资产的处理。 |
 
 **输出(getAssetJobLogsReturn)**
 
