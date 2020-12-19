@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
 
-# 图像目录参考{#image-catalog-reference}
+# 图像目录引用{#image-catalog-reference}
 
 图像目录向服务器提供有关图像和支持数据(如字体和ICC用户档案)的信息。
 
