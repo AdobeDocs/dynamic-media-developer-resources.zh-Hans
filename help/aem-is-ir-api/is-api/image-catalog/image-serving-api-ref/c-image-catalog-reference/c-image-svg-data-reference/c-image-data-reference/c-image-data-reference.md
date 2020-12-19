@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
-# 图像数据参考{#image-data-reference}
+# 图像数据引用{#image-data-reference}
 
 本节介绍图像数据属性。
 
