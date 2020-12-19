@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 05aac11b-249c-4c44-943d-fa6bf35d3637
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -22,9 +25,9 @@ ZIP文件中的条目。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`名称`*` | `xsd:string` | 条目名称。 |
+| ` *`name`*` | `xsd:string` | 条目名称。 |
 | ` *`isDirectory`*` | `xsd:boolean` | 确定条目是否为目录。 |
 | ` *`lastModified`*` | `xsd:dateTime` | 上次修改的日期和时间。 |
 | ` *`compressedSize`*` | `xsd:long` | 压缩大小。 |
-| ` *`uncompressedSize`*` | `xsd:long` | 未压缩的大小。 |
+| ` *`uncompressedSize`*` | `xsd:long` | 未压缩大小。 |
 
