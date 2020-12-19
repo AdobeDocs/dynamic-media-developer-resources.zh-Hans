@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-d3eb923fcf5741b99967634db809e09e}
+## 授权用户类型{#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,7 +44,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此代码示例指定了一个公司句柄、一个文件夹句柄以及一个包含文件夹详细信息的权限数组。 它对父级文件夹的子级应用相同的权限。
+此代码示例指定公司句柄、文件夹句柄以及包含文件夹详细信息的权限数组。 它对父级文件夹的子级应用相同的权限。
 
 **请求**
 
