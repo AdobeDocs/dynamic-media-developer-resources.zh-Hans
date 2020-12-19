@@ -1,6 +1,6 @@
 ---
-description: 获取与指定公司关联的属性集类型，或者，如果未指定公司，则获取全局属性集类型。
-seo-description: 获取与指定公司关联的属性集类型，或者，如果未指定公司，则获取全局属性集类型。
+description: 获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
+seo-description: 获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 12%
 
 ---
 
 
 # getPropertySetTypes{#getpropertysettypes}
 
-获取与指定公司关联的属性集类型，或者，如果未指定公司，则获取全局属性集类型。
+获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
 
 语法
 
-## 授权用户类型 {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## 授权用户类型{#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">属性集类型所关联的公司的句柄。 <p>如果要返回全局属性集类型，则忽略。 </p> </td> 
