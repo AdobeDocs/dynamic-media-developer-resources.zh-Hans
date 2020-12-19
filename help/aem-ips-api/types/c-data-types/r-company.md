@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 33%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 公司手柄。 |
-| ` *`名称`*` | `xsd:string` | 公司名称. |
+| ` *`name`*` | `xsd:string` | 公司名称. |
 | ` *`rootPath`*` | `xsd:string` | 公司的根路径。 |
 | ` *`expires`*` | `xsd:dateTime` | 公司过期的日期和时间。 |
 
