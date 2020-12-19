@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## 授权用户类型{#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,8 +34,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 否 | 具有要删除的会员资格的用户的处理。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | 是 | 要将用户从中删除的公司的手柄。 |
+| ` *`userHandle`*` | `xsd:string` | 否 | 要删除的成员资格的用户的句柄。 |
+| ` *`companyHandleArray`*` | `types:HandleArray` | 是 | 要从中删除用户的公司的句柄。 |
 
 **输出(removeCompanyMembershipReturn)**
 
@@ -40,7 +43,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-此代码示例将用户从公司中删除。 忽略可选的用户句柄，以从公司句柄数组中指定的公司中删除所有用户。
+此代码示例从公司中删除用户。 忽略可选的用户句柄，从公司句柄数组中指定的公司中删除所有用户。
 
 **请求**
 
