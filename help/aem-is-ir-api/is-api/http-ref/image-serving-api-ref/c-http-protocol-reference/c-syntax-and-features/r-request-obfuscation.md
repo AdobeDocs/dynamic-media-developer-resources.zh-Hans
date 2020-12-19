@@ -19,11 +19,11 @@ ht-degree: 1%
 
 通过应用标准base64编码，可以遮住请求字符串的整个修饰符部分的内容（包括可选的锁定后缀）。
 
-如果已设置，服务器将尝 `attribute::RequestObfuscation` 试解码。 如果解码失败，则请求被拒绝。 如果同时应用了请求锁定和请求模糊处理，则必须在base64编码之前生成并附加锁后缀。
+如果设置了`attribute::RequestObfuscation`，服务器将尝试进行解码。 如果解码失败，则请求被拒绝。 如果同时应用了请求锁定和请求模糊处理，则必须在base64编码之前生成并附加锁后缀。
 
 >[!IMPORTANT]
 >
->如果启用此功能，请注意其使用存在以下限制：<br>- Dynamic Media用户界面可能无法显示“上次发布时间”字段的正确 **[!UICONTROL 详细信息]** 。 但是，此影响不会影响发布。<br>-当前，启用请求模糊化和请&#x200B;**[!UICONTROL 求锁定时]**, **[!UICONTROL HLS视频流]** 将不工作。<br>-当前，启用请求模糊化和请求锁定时， **[!UICONTROL 某些Dynamic]** Media查 **[!UICONTROL 看器无法工作]** 。
+>如果启用此功能，请注意其使用存在以下某些限制：<br>-Dynamic Media用户界面可能无法显示&#x200B;**[!UICONTROL 上次发布时间]**&#x200B;字段的正确详细信息。 但是，此影响不会影响发布。<br>-当前，启用请求模糊处理和请&#x200B;**[!UICONTROL 求锁]** 定时， **[!UICONTROL HLS视]** 频流无法工作。<br>-目前，启用请求模糊处理和请求锁定 **[!UICONTROL 后，某]** 些Dynamic Media查 **[!UICONTROL 看]** 器将无法工作。
 
 ## 示例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-值字符串中“=”、“&amp;”和“%”的任何出现都必须使用“%xx”编码进行转义，然后才能对请求进行模糊处理。 在模糊处理之前或之后，即使应用 *了请求锁定* ，也不必对请求的修饰符部分进行HTTP编码，因为base64编码对HTTP传输是安全的。
+值字符串中“=”、“&amp;”和“%”的任何出现都必须使用“%xx”编码进行转义，然后才能对请求进行模糊处理。 在模糊化之前或之后，即使应用了请求锁定，也不必对请求的&#x200B;*修饰符*&#x200B;部分进行http编码，因为base64编码对http传输是安全的。
 
 ## 另请参阅 {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
