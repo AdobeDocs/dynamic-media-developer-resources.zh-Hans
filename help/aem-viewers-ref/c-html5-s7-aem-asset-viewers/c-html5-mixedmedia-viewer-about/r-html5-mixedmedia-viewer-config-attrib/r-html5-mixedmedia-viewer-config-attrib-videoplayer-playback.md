@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7016d414-aa93-4854-8f95-24e94082b5ce
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动——渐进</span> </p> </td> 
-   <td colname="col2"> <p> 设置查看器使用的播放类型。 设置 <span class="codeph"> 自动</span> 后，在大多数桌面浏览器和所有iOS设备上，查看器使用HLS格式的HTML5流视频。 它回归到某些系统（如旧版Internet Explorer和Android）上渐进式HTML5播放。 </p> <p>如果指 <span class="codeph"> 定渐进式</span> ，则查看器仅依赖HTML5播放（浏览器本身支持），并在所有系统上渐进式播放视频。 </p> <p>有关在自动和渐进模式中选择回放的详细信息，请参阅《Viewer SDK用户指南》。 </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 当设置<span class="codeph"> auto</span>时，在大多数桌面浏览器和所有iOS设备上，查看器使用HLS格式的HTML5流视频。 它归结于某些系统（如旧版Internet Explorer和Android）上的渐进式HTML5播放。 </p> <p>如果指定<span class="codeph">渐进式</span>，则查看器仅依赖HTML5播放（浏览器本机支持），并在所有系统上渐进式播放视频。 </p> <p>有关在自动和渐进模式下播放选择的详细信息，请参阅《Viewer SDK用户指南》。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
