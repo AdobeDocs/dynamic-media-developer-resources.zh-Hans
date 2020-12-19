@@ -1,18 +1,21 @@
 ---
 description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
 seo-description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
-seo-title: ExcludeInsublareCondition
+seo-title: ExcludeBysculalCondition
 solution: Experience Manager
-title: ExcludeInsublareCondition
+title: ExcludeBysculalCondition
 topic: Scene7 Image Production System API
 uuid: 70581512-7b26-4319-b12b-27fbb205d871
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
 
-# ExcludeInsublareCondition{#excludebyproductcondition}
+# ExcludeBybloudCondition{#excludebyproductcondition}
 
 确定要从搜索结果中排除的生成引擎和生成的资产类型。
 
