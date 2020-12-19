@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2972405c-5c89-45d0-a542-19c7463901b4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 12%
 
 ---
 
@@ -21,8 +24,8 @@ Video360查看器的配置属性。
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 配置单击／点按的映射以切换播放／暂停。 设置为 <span class="codeph"> 无</span> ，将禁用单击／点按播放／暂停。 如果设置为 <span class="codeph"> playPause</span> ，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，将禁 <span class="codeph"> 用单击</span> 行为。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|playPause</span> </p> </td> 
+   <td colname="col2"> <p> 配置单击／点按以切换播放／暂停的映射。 设置为<span class="codeph"> none</span>将禁用单击／点按以播放／暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，禁用<span class="codeph">单点单击</span>行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
