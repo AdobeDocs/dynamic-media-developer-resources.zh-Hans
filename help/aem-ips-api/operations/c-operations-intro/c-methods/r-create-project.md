@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 语法
 
-## 授权用户类型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 授权用户类型{#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +47,7 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 ## 示例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此代码示例创建一个在由其句柄 `ApiTestProject` 指定的公司中调用的项目。 响应会将句柄返回到项目。
+此代码示例在其句柄指定的公司中创建一个名为`ApiTestProject`的项目。 该响应会将句柄返回给项目。
 
 **请求**
 
