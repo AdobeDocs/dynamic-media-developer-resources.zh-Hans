@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media图像生成系统API
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 3%
 ---
 
 
-# Dynamic Media Image Production System API {#image-production-api}
+# Dynamic Media图像生产系统API {#image-production-api}
 
-+ [动态媒体开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [关于Dynamic Media Image Production System API](c-overview.md)
++ [Dynamic Media开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [关于Dynamic Media图像生产系统API](c-overview.md)
 + [已弃用的调用](c-deprecated-calls.md)
 + [IPS Web服务WSDL版本](c-wsdl-versions.md)
-+ 操作方法 {#operation-methods}
++ 操作方法{#operation-methods}
    + [操作方法](operations/c-operations-intro/c-operations-intro.md)
-   + 操作参数 {#operation-parameters}
+   + 操作参数{#operation-parameters}
       + [操作参数概述](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -123,7 +123,7 @@ ht-degree: 3%
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
       + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
       + [moveAssets](operations/c-operations-intro/c-methods/r-move-assets.md)
-      + [MoveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
+      + [moveFolder](operations/c-operations-intro/c-methods/r-move-folder.md)
       + [pauseJob](operations/c-operations-intro/c-methods/r-pause-job.md)
       + [removeAssetPermissions](operations/c-operations-intro/c-methods/r-remove-asset-permissions.md)
       + [removeCompanyMembership](operations/c-operations-intro/c-methods/r-remove-company-membership.md)
@@ -178,7 +178,7 @@ ht-degree: 3%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ Data types {#data-types}
++ 数据类型{#data-types}
    + [数据类型](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -287,7 +287,7 @@ ht-degree: 3%
    + [手动裁剪选项](types/c-data-types/r-manual-crop-options.md)
    + [蒙版](types/c-data-types/r-mask.md)
    + [MaskArray](types/c-data-types/r-mask-array.md)
-   + [元数据](types/c-data-types/r-mask-info.md)
+   + [蒙版信息](types/c-data-types/r-mask-info.md)
    + [主视频信息](types/c-data-types/r-master-video-info.md)
    + [媒体选项](types/c-data-types/r-media-options.md)
    + [元数据](types/c-data-types/r-metadata.md)
@@ -313,7 +313,7 @@ ht-degree: 3%
    + [PermissionArray](types/c-data-types/r-permission-array.md)
    + [PermissonSet](types/c-data-types/r-permission-set.md)
    + [PermissionSetArray](types/c-data-types/r-permission-set-array.md)
-   + [PermissionUpdate](types/c-data-types/r-permission-update.md)
+   + [权限更新](types/c-data-types/r-permission-update.md)
    + [PermissionUpdateArray](types/c-data-types/r-permission-update-array.md)
    + [透视四轴](types/c-data-types/r-perspective-quad.md)
    + [PhotoshopOptions](types/c-data-types/r-photoshop-options.md)
@@ -400,7 +400,7 @@ ht-degree: 3%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 字符串常量 {#sting-constants}
++ 字符串常量{#sting-constants}
    + [字符串常量](string-constants/c-string-constants/c-string-constants.md)
    + [活动作业状态](string-constants/c-string-constants/r-active-job-states.md)
    + [资产搜索系统字段](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -441,39 +441,39 @@ ht-degree: 3%
    + [用户角色](string-constants/c-string-constants/r-user-roles.md)
    + [用户排序字段](string-constants/c-string-constants/r-user-sort-fields.md)
    + [查看器类型](string-constants/c-string-constants/r-viewer-type.md)
-+ 故障 {#faults}
++ 故障{#faults}
    + [错误概述](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Change log {#change-log}
++ 更改日志{#change-log}
    + [更改日志](change-log/c-change-log.md)
-   + Version 6.0 {#version-6-0}
+   + 版本6.0 {#version-6-0}
       + [6.0版](change-log/c-change-log/c-6/c-6.md)
       + [操作：新建和已修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-6/r-6-types.md)
-   + Version 4.5 {#version-4-5}
+   + 版本4.5 {#version-4-5}
       + [4.5版](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新建和已修改](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [受限使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + Version 4.4 {#version-4-4}
+   + 版本4.4 {#version-4-4}
       + [4.4版](change-log/c-change-log/c-4-4/c-4-4.md)
       + [操作：新建和已修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字符串常量：新建和已修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + Version 4.2 {#version-4-2}
+   + 版本4.2 {#version-4-2}
       + [4.2版](change-log/c-change-log/c-4-2/c-4-2.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + Version 4.0 {#version-4-0}
+   + 版本4.0 {#version-4-0}
       + [4.0版](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新增和更改](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + Version 3.8 {#version-3-8}
+   + 版本3.8 {#version-3-8}
       + [版本3.8](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新建和已修改](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [字符串常量：新建和已修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + Version 3.7 {#version-3-7}
+   + 版本3.7 {#version-3-7}
       + [版本3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [操作：新建和已修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [数据类型：新建和已修改](change-log/c-change-log/c-3-7/r-3-7-types.md)
