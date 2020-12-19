@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 ## 参数 {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-资产会为每个发布状态和上下文保留一个单独的标记。 使用setAssetsContextState设置发 [布状态](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)。
+资产会为每个发布状态和上下文保留一个单独的标记。 使用[setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)设置发布状态。
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
