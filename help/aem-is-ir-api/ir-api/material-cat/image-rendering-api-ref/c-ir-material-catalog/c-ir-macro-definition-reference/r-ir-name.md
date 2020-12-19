@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5b81b450-5c3d-4a9e-95dd-6f12b6a9a5ae
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 属性 {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
-文本字符串。 必需. 每个宏：：名称值在表中必须是唯一的。
+文本字符串。 必需. 每个宏：：名称值在表中必须唯一。
 
 ## 默认 {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 
