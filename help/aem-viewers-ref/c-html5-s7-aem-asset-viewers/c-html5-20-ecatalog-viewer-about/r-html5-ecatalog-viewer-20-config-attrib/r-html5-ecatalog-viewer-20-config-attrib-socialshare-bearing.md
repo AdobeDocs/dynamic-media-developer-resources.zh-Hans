@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: SocialShare.bearding
+seo-title: SocialShare.bearing
 solution: Experience Manager
-title: SocialShare.bearding
+title: SocialShare.bearing
 topic: Dynamic media
 uuid: e48b39bb-c23d-42ce-9dc6-6e8b0d9b04ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
 
-# SocialShare.bearding{#socialshare-bearing}
+# SocialShare.bearing{#socialshare-bearing}
 
 `[SocialShare.|<containerId>_socialShare.]bearing= up|down|left|right|fit-vertical|fit-lateral`
 
 <table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit vertical|fit-lateral </span> </p> </td> 
-   <td colname="col2"> <p> 指定按钮容器的幻灯片动画方向。 </p> <p> 当设置为向上 <span class="codeph"> 、向下 </span>或向左 <span class="codeph"> 向上时， </span><span class="codeph"></span><span class="codeph"></span>面板将沿指定方向滚出，而不进行额外的边界检查。 此行为可能导致面板被外部容器裁切。 </p> <p>当设置为 <span class="codeph"> 适合垂直 </span>时，组件首先将基板位置移至SocialShare的底部，并尝试从底部、右侧或左侧从此基本位置展开面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试均失败，则组件会尝试将基板位置移到顶部，并重复从顶部、右侧和左侧的滚出尝试。 </p> <p>当设置为 <span class="codeph"></span>fit-lateral时，该组件使用与fit-vertical类似的逻辑，而是将基座移向右首尝试右、下和上滚出方向——然后将基座移向左、尝试左、下和上滚出方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateral  </span> </p> </td> 
+   <td colname="col2"> <p> 指定按钮容器的幻灯片动画方向。 </p> <p> 当设置为<span class="codeph"> up </span>、<span class="codeph"> down </span>、<span class="codeph"> left </span>或<span class="codeph"> right </span>时，面板将沿指定方向滚出，而不进行额外的边界检查。 此行为可能导致外部容器裁切面板。 </p> <p>当设置为<span class="codeph"> fit-vertical </span>时，组件首先将基板位置移至SocialShare的底部，并尝试从底部、右侧或左侧从此基本位置展开面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基板位置移到顶部，并从顶部、右侧和左侧重复滚出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral </span>时，组件使用与fit-vertical类似的逻辑，而是将基础移向右首先、向下和向上滚动方向，然后将基础移向左侧，尝试左、向下和向上滚动方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
