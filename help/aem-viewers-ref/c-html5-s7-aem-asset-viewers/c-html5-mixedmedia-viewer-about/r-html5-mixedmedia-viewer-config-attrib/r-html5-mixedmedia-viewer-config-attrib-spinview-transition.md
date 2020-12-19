@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: SpinView.过渡
+seo-title: SpinView.transition
 solution: Experience Manager
-title: SpinView.过渡
+title: SpinView.transition
 topic: Dynamic media
 uuid: d5cc319a-fb0b-41d3-a118-f00376a127e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
 
-# SpinView.过渡{#spinview-transition}
+# SpinView.transition{#spinview-transition}
 
 ` [SpinView.|<containerId>_spinView.]transition= *`调`*[, *`整`*]`
 
@@ -24,15 +27,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 放松</span></span> </p> </td> 
-   <td colname="col2"> <p> 创建加速或减速幻觉，使过渡看起来更自然。 可以将放松设置为以下任一选项： </p> <p> 
+   <td colname="col2"> <p> 创建加速或减速幻觉，使过渡更自然。 可以将放松设置为以下任一设置： </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0（自动） </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1（线性） </li> 
       <li id="li_7A0F9F1186604E75BAA19626A844236A"> 2（二次） </li> 
       <li id="li_B8D4C40D795642AB835925582B707158"> 3（立方） </li> 
       <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4（四分） </li> 
-      <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5（5次） </li> 
-     </ul> </p> <p>在禁用弹性缩放时，自动模式始终使用线性过渡（默认）。 否则，它将基于过渡时间适合其他放松功能之一。 即，过渡时间越短，使用放松功能加速加速或减速效果越高。 </p> </td> 
+      <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5（五次） </li> 
+     </ul> </p> <p>禁用弹性缩放时，自动模式始终使用线性过渡（默认）。 否则，它将适合基于过渡时间的其他放松功能之一。 即，过渡时间越短，使用放松功能加速加速或减速效果的时间越高。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
