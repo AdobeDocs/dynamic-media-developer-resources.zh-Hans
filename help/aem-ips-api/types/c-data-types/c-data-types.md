@@ -15,7 +15,7 @@ ht-degree: 5%
 ---
 
 
-# Data types{#data-types}
+# 数据类型{#data-types}
 
 + [AcoInfo](r-aco-info.md)
 + [ActiveJob](r-active-job.md)
