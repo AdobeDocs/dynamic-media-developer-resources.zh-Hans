@@ -21,7 +21,7 @@ ht-degree: 9%
 
 语法
 
-## 授权用户类型 {#section-d670d3af552147199b65c7eb847544a3}
+## 授权用户类型{#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,38 +45,38 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 将包含资产集的公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 将在其中创建新资产集的文件夹的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 资产名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 客户端为资产集类型创建的唯一标识符。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 设置定义字符串中的参数。 <p>必须解析为目标查看器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用作新图像集的缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资产。 </td> 
   </tr> 
@@ -85,11 +85,11 @@ ht-degree: 9%
 
 **setDefinition的替换函数**
 
-可以在目录查找或发布期间解析的行中指定替代函数。 替换字符串的格式为 `${<substitution_func>}`。 可用函数列举如下。
+可以在目录查找或发布期间解析的行中指定替代函数。 替换字符串的格式为`${<substitution_func>}`。 可用函数列举如下。
 
 >[!NOTE]
 >
->参数列表中的句柄文字必须用括号括起来 `([])`。 分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
+>参数列表中的句柄文字必须用括号`([])`括起来。 分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
 
 | **替换函数** | **退货** |
 |---|---|
