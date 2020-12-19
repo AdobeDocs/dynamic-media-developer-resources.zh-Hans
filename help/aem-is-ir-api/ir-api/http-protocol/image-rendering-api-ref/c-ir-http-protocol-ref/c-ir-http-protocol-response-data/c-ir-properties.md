@@ -1,6 +1,6 @@
 ---
-description: 属性数据将返回以响应以下req=类型imageprop和prop。
-seo-description: 属性数据将返回以响应以下req=类型imageprop和prop。
+description: 属性数据将返回，以响应以下req=类型imageprop和prop。
+seo-description: 属性数据将返回，以响应以下req=类型imageprop和prop。
 seo-title: 属性
 solution: Experience Manager
 title: 属性
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 5%
 
 ---
 
 
 # 属性{#properties}
 
-属性数据会返回以响应以下req=类型：imageprops和props。
+属性数据会根据以下req=类型返回：imageprops和props。
 
-回复数据的格式设置为可读为Java属性。 典型的文本属性响应具有以下常规结构：
+回复数据的格式设置为可读为Java属性。 典型文本属性响应具有以下一般结构：
 
 `#S7Z OK`
 
@@ -26,9 +29,9 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ...
 
-` *[!DNL propertyValue]*` 可以是空的。 在每行的开始和结尾以及“=”分隔符前后的空白是可选的。 单引号或多次引号可用于圈住字符串值，但不是必需的。
+` *[!DNL propertyValue]*` 可以是空的。在每行的开始和结尾以及“=”分隔符前后，空白是可选的。 单引号或多次引号可用于圈住字符串值，但不是必需的。
 
-字符串值可能包含JAVA样式转义字符， `\n`如 `\t`、 `\:`。 或者 `\\`.
+字符串值可能包含JAVA样式转义字符，如`\n`、`\t`、`\:`。 或者 `\\`.
 
 **另请参阅**
 
