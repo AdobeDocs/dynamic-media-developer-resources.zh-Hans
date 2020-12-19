@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# 缩放视图{#zoom-view}
 
 主视图由可缩放图像组成。
 
@@ -20,7 +23,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7basiczoomviewer .s7zoomview
@@ -35,11 +38,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 以主视图的十六进制格式显示的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
    <td colname="col2"> <p>光标显示在主视图上。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-在桌面系统上，组件支持属 `cursortype` 性选择器，该选择器可应用于类，并基于组件状态和用户操作 `.s7zoomview` 控制光标类型。 The following `cursortype` values are supported:
+在桌面系统上，组件支持`cursortype`属性选择器，该选择器可应用于`.s7zoomview`类，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -65,11 +68,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>当图像因图像分辨率较低或组件设置而无法缩放时显示，或者同时显示。 </p> </td> 
+   <td colname="col2"> <p>当图像因图像分辨率较低或组件设置（或两者）而无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 猪 </span> </p> </td> 
-   <td colname="col2"> <p>可以放大图像时显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
+   <td colname="col2"> <p>当图像可以放大时显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
