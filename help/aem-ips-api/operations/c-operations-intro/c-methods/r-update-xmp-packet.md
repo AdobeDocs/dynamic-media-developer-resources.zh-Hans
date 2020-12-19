@@ -1,6 +1,6 @@
 ---
-description: 设置或更新资产的XMP元数据包。
-seo-description: 设置或更新资产的XMP元数据包。
+description: 为资产设置或更新XMP元数据包。
+seo-description: 为资产设置或更新XMP元数据包。
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 22%
 
 ---
 
 
 # updateXMPPacket{#updatexmppacket}
 
-设置或更新资产的XMP元数据包。
+为资产设置或更新XMP元数据包。
 
 语法
 
-## 授权用户类型 {#section-ee88a759f4774482a4734201a971f610}
+## 授权用户类型{#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,13 +39,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要设置或更新的XMP包。 |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要设置或更新的XMP数据包。 |
 
 **输出(updateXMPPacketReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`成功`*` | `xsd:boolean` | 是 | 返回 `true` 包是否已更新。 |
+| ` *`成功`*` | `xsd:boolean` | 是 | 如果更新了数据包，则返回`true`。 |
 
 ## 示例 {#section-38b556b94e5044bf97a954519ff6c212}
 
