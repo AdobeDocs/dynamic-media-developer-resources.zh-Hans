@@ -1,6 +1,6 @@
 ---
-description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
-seo-description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
+description: 默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
+seo-description: 默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
 seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
 
 # BkgColor{#bkgcolor}
 
-默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
+默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
 
 ## 属性 {#section-2768b2beee214676aa32f17e2a0e3343}
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-如果未定义 `default::BkgColor` 或为空，则从中继承。
+如果未定义或为空，则从`default::BkgColor`继承。
 
 ## 另请参阅 {#section-90967e515a0d46bd8a9361fd49fc43cf}
 
