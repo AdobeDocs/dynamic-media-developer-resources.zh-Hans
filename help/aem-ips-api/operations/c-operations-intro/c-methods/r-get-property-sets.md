@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-da858360b72941bfa8d9558b4da7d4da}
+## 授权用户类型{#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,7 +51,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-1358af974eab4259864910337a6f0bd2}
 
-此代码示例返回其主要所有者的属性集，由类型句柄指定。
+此代码示例返回由类型句柄指定的主要所有者的属性集。
 
 **请求**
 
