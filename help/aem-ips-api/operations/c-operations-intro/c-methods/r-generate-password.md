@@ -21,7 +21,7 @@ ht-degree: 18%
 
 语法
 
-## 授权用户类型 {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## 授权用户类型{#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
