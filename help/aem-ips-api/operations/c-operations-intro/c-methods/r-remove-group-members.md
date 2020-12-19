@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 **删除命令之间的差异**
 
 * `removeGroupMembers`:从组中删除多个用户。
-* `removeGroupMembership`:从组阵列中删除单个用户。
+* `removeGroupMembership`:从一组组中删除单个用户。
 
-## 授权用户类型 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 授权用户类型{#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 与要处理的用户公司的句柄。 |
 | ` *`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要删除其用户组成员关系的用户的一组句柄。 |
+| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
 
 **输出(removeGroupMembersParam)**
 
