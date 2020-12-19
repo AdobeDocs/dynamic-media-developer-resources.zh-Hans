@@ -1,6 +1,6 @@
 ---
-description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新元数据字段。
-seo-description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新元数据字段。
+description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
+seo-description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
@@ -8,19 +8,22 @@ topic: Scene7 Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
 
 # saveMetadataField{#savemetadatafield}
 
-创建或编辑元数据字段。 忽略可选字段句柄以创建新元数据字段。
+创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
 
 >[!NOTE]
 >
 >此方法已弃用。
 
-## 授权用户类型 {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## 授权用户类型{#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,43 +45,43 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产类型</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 资产类型</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 选择要从中保存元数据的资产类型。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 字段名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元数据字段类型的选择。 </td> 
+   <td colname="col4"> 元数据字段类型的选项。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 所有资产的字段默认值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
@@ -87,7 +90,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在setAssetMetadata <span class="codeph"> /batchSetAssetMetadata中设置了非法值，则会引</span> 发错误<span class="codeph"></span>。 </p> </td> 
+   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +103,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代码示例创建了一个受“资产类型”和“元数据字段类型”字符串常量限制的新元数据字段。 如果元 `fieldHandle` 素具有有效的字段句柄值，则会更改元数据值并获得您在请求中指定的相同字段句柄。
+此代码示例创建一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它将更改元数据值并获得您在请求中指定的相同字段句柄。
 
 **请求**
 
