@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-b2bc2fa0cc944cea8be82524838307cc}
+## 授权用户类型{#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -38,7 +41,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员数组。 |
+| ` *`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员资格的数组。 |
 
 ## 示例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
