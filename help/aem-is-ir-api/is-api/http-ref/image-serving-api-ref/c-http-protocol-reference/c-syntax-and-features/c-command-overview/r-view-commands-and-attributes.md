@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> 适合</a> </p></td> 
-  <td class="stentry"> <p>使视图适合合成图像。 </p></td> 
+  <td class="stentry"> <p>适合复合图像的视图。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96" type="reference" format="dita" scope="local"> hei</a> </p> </td> 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rgn</a> </p> </td> 
-  <td class="stentry"> <p>指定合成图像中的目标区域。 </p></td> 
+  <td class="stentry"> <p>指定复合图像中的感兴趣区域。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc" type="reference" format="dita" scope="local"> scl</a> </p></td> 
