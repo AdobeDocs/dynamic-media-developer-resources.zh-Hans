@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-48e5f908276c4a549fd33a8828bad326}
+## 授权用户类型{#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,9 +34,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果 `companyHandle` 未传递调用者为调用者 `IpsAdmin`，则将创建全局属性集类型。 |
-| ` *`名称`*` | `xsd:string` | 是 | 属性集类型的名称。 |
-| ` *`propertyType`*` | `xsd:string` | 是 | 选择属性集类型。 |
+| ` *`companyHandle`*` | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果未传递`companyHandle`且调用者为`IpsAdmin`，则将创建全局属性集类型。 |
+| ` *`name`*` | `xsd:string` | 是 | 属性集类型的名称。 |
+| ` *`propertyType`*` | `xsd:string` | 是 | 属性集类型的选择。 |
 | ` *`allowMultiple`*` | `xsd:boolean` | 是 | 确定项目是否可以有多个属性集。 |
 
 **输出(createPropertySetTypeReturn)**
@@ -44,7 +47,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代码示例创建一个属性集，其名称和类型由常数指 `PropertySet Types` 定。 拥有属性集类型的公司的句柄。 如果未传递companyHandle且调用者是IpsAdmin，则将创建全局属性集类型。
+此代码示例创建一个属性集，该属性集的名称和类型由`PropertySet Types`常量指定。 拥有属性集类型的公司的句柄。 如果companyHandle未传递，且调用者是IpsAdmin，则将创建全局属性集类型。
 
 **请求**
 
