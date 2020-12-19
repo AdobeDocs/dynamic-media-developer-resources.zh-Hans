@@ -1,6 +1,6 @@
 ---
-description: 膨胀／腐蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
-seo-description: 膨胀／腐蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
+description: 膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
+seo-description: 膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
 seo-title: op_growMaskR
 solution: Experience Manager
 title: op_growMaskR
@@ -8,28 +8,31 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
 
 # op_growMaskR{#op-growmaskr}
 
-膨胀／腐蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius &lt; 0)。
+膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius &lt; 0)。
 
 `op_growMaskR= *`radiusR`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>无论蒙版是否进行缩减采样 <span class="codeph"><span class="varname"></span></span> (int -100..100)，以原样应用radiusR的像素为单位扩大／侵蚀半径。 </p></td> 
+  <td class="stentry"> <p>无论蒙版是否进行缩减采样(int -100..100)，以像素为单位，其中<span class="codeph"><span class="varname"> radiusR</span></span>按原样应用。 </p></td> 
  </tr> 
 </table>
 
-主要用于稍微增大或缩小蒙版以避免蒙版边缘周围出现伪影。
+主要用于稍微增大或缩小遮罩以避免遮罩边缘周围出现伪影。
 
 ## 属性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-应用于当前图层，或应用于 `0` 图层(如果 `layer=comp`)。
+应用于当前层，如果`layer=comp`，则应用于层`0`。
 
 ## 默认 {#section-14c908bb87cb42acbea709effea2f964}
 
