@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b2dde5f4-0449-4cad-a1f2-e336027f92c6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值 </span> </p> </td> 
-   <td colname="col2"> <p>设置用于在桌面上初始播放视频的视频比特率（以千位／秒为单位）或kbps-。 </p> <p>如果自适应视频集中不存在此比特率值，则视频播放器会开始具有下一最低比特率的视频。 </p> <p>如果设置为 <span class="codeph"> 0, </span> 则视频播放器会从最低的可能比特率开始。 仅适用于不支持HTML5 HLS视频（在Windows 10上为Firefox、Chrome和Internet Explorer 11浏览器）的系统，以及当播放模式设置为自动时的 <span class="codeph"> 系统 </span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 值  </span> </p> </td> 
+   <td colname="col2"> <p>设置用于在桌面上初始播放视频的视频比特率（以千位／秒为单位）或kbps-。 </p> <p>如果自适应视频集中不存在此比特率值，则视频播放器将开始具有下一最低比特率的视频。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则视频播放器会从最低的可能比特率开始。 仅适用于不支持HTML5 HLS视频（Windows 10上的Firefox、Chrome和Internet Explorer 11浏览器）的系统，以及当播放模式设置为<span class="codeph">自动</span>时。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
