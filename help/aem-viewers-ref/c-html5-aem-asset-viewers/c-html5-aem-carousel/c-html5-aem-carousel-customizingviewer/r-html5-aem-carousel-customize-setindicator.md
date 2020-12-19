@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>设置指示符的十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +46,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->设置指示符支持模式属性选择器，您可以使用该选择器对虚线和数字操作模式应用不同的样式。 特别是对 `mode="numeric"` 应于数字操作模式；对 `mode="dotted"` 应于默认点状态。
+>设置指示符支持模式属性选择器，您可以使用它对点和数字操作模式应用不同的样式。 具体来说，`mode="numeric"`对应于数字操作模式；`mode="dotted"`对应于默认点状态。
 
 示例——设置具有白色背景的设置指示符：
 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-使用CSS类选择器控制单个设置指示符点的外观。 它适用于点线和数字操作模式下的项目。
+单个设置指示符点的外观由CSS类选择器控制。 它适用于点线和数字操作模式下的项目。
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -74,47 +77,47 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>设置指示符点的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左边距  </span> </p> </td> 
    <td colname="col2"> <p>左边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
    <td colname="col2"> <p>上边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
    <td colname="col2"> <p>右边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距——底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距——底部  </span> </p> </td> 
    <td colname="col2"> <p>底边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>边框半径（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>十六进制格式的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>字体颜色。 </p> </td> 
+   <td colname="col2"> <p>字体的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 垂直对齐 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 垂直对齐  </span> </p> </td> 
    <td colname="col2"> <p>横幅索引的垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行高  </span> </p> </td> 
    <td colname="col2"> <p>横幅索引的文本高度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -122,9 +125,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->设置指示符项支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 与集合中的当前元素相对应；对 `state="unselected"` 应于默认项目状态。
+>设置指示符项支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 特别是`state="selected"`对应于集合中的当前元素；`state="unselected"`对应于默认项状态。
 
-示例——在虚线模式中设置指示符，以使桌面系统距查看器底部20像素的位置。 未选中的点为黑色，透明度为50%，圆角为15 x 15像素。 选定的点为黑色，透明度为90%,18 x 18像素，圆角为9像素。 点之间的间距为5像素。
+示例——在虚线模式下设置指示符，使桌面系统距查看器底部20像素。 未选中的点为黑色，具有50%的透明度，15 x 15像素，7像素为圆角。 选定的点为黑色，透明度为90%,18 x 18像素，圆角为9像素。 点之间的间距为5像素。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
