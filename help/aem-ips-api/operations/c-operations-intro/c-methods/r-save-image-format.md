@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->字 `urlModifier` 段值必须由有效的XML组成。 例如，更 `&` 改为 `&`。 从IPS `urlModfier` 用户界面获取值。
+>`urlModifier`字段值必须由有效的XML组成。 例如，将`&`更改为`&`。 从IPS用户界面获取`urlModfier`值。
 
-## 授权用户类型 {#section-12c9d8d5933f4692bafb194060b4f882}
+## 授权用户类型{#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,10 +36,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，其中包含您要处理的图像格式。 |
-| ` *`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的图像格式处理。 |
-| ` *`名称`*` | `xsd:string` | 是 | 图像格式名称。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建URL修饰符，然后剪切并粘贴查询字符串。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，使用您要处理的图像格式。 |
+| ` *`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的图像格式句柄。 |
+| ` *`name`*` | `xsd:string` | 是 | 图像格式名称。 |
+| ` *`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建一个修饰符，然后剪切并粘贴查询字符串。 |
 
 **输出(saveImageFormatReturn)**
 
@@ -46,7 +49,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此代码范例创建一种图像格式。 在此示例中， `urlModifier` 由IPS用户界面中具有有效HTML格式的值确定。
+此代码示例创建图像格式。 在此示例中，`urlModifier`由其在IPS用户界面中的值决定，该界面具有有效的HTML格式。
 
 **请求**
 
