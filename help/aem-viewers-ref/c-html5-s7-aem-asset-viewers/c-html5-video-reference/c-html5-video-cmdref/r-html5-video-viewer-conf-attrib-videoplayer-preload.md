@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2aaae96d-d42d-4984-aec9-86e06b3c711c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1, </span> 则视频在资产设置完成后立即开始下载；否则，仅在最终用户或API调用启动播放后预载开始。 </p> <p>如果设置为 <span class="codeph"> 0, </span> 某些特性在播放开始后才能工作；具体而言，搜索操作不会更新视频帧。 如果海报图像被禁用，则查看器将显示为空区域而不是第一个视频帧。 </p> <p>请注意，在某些版本的Internet Explorer 11和Edge浏览器上禁用视频预载可能会被忽略。 </p> </td> 
+   <td colname="col2"> <p> 如果设置为<span class="codeph"> 1 </span>，则在资产设置完成后，视频即开始下载；否则，仅在最终用户或API调用启动播放后预载开始。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则某些功能在播放开始前可能无法使用；具体而言，搜索操作不会更新视频帧。 如果禁用海报图像，则查看器将显示为空白区域而不是第一个视频帧。 </p> <p>请注意，在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预载。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
