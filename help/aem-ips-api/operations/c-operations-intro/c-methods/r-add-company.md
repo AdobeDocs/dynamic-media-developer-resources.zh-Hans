@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 发送要添加到系统的公司的名称，并（可选）发送公司是否过期。
 
-调用此操作时，系统将获取一个 ` *`companyInfo`*` 类型，其中包含公司句柄和描述性字段。 如果请求的公司名称在系统中已存在，则会引发问题 `ipsApiFault`。
+调用此操作时，系统将获取` *`companyInfo`*`类型，该类型包含公司句柄和描述性字段。 如果请求的公司名在系统中已存在，则会引发`ipsApiFault`。
 
-## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
+## 授权用户类型{#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要添加的公司的名称。 </p> </td> 
@@ -50,7 +53,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的到期日。 为时区提供此字段的请求。 时区将调整为中央时间。 </p> </td> 
+   <td colname="col4"> <p>公司的过期日期。 为时区提供此字段的请求。 时区将调整为中央时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +71,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> companyInfo <span class="varname"></span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>处理新公司的名称、根路径、过期日期和时间。 </p> </td> 
@@ -78,7 +81,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-此示例演示了向IPS系统添加公司的请求以及详细说明执行其他操作所需的已添加公司信息的响应。
+此示例演示了向IPS系统添加公司的请求以及详细说明执行其他操作所需添加公司的信息的响应。
 
 **请求**
 
