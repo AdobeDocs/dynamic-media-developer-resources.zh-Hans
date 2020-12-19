@@ -1,6 +1,6 @@
 ---
-description: 本节中的主题介绍了HTTP协议的语法和功能。
-seo-description: 本节中的主题介绍了HTTP协议的语法和功能。
+description: 本节中的主题介绍HTTP协议的语法和功能。
+seo-description: 本节中的主题介绍HTTP协议的语法和功能。
 seo-title: 语法和功能
 solution: Experience Manager
 title: 语法和功能
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
 
 # 语法和功能{#syntax-and-features}
 
-本节中的主题介绍了HTTP协议的语法和功能。
+本节中的主题介绍HTTP协议的语法和功能。
 
 * [图像服务HTTP协议基本语法](r-basic-syntax.md)
 * [图像服务HTTP协议命令概述](c-command-overview/c-command-overview.md)
@@ -33,7 +36,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 * [图像服务颜色管理](r-color-management.md)
 * [图像服务HTTP编码](r-http-encoding.md)
 * [请求锁定](r-request-locking.md)
-* [请求模糊处理](r-request-obfuscation.md)
+* [请求模糊化](r-request-obfuscation.md)
 * [水印](r-watermarks.md)
 * [提供静态（非图像）内容](r-serving-static-non-image-content.md)
 * [媒体集请求](r-media-set-requests.md)
