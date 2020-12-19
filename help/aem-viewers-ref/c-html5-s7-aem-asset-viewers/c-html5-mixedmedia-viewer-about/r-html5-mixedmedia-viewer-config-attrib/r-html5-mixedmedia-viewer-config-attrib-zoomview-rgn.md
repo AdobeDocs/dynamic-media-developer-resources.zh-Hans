@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e0aa04a8-069e-4499-8d06-7b800940dba3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_A5BFF854E2064B048BF9AA8D576F7DA2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span><span class="codeph"> ,</span>w<span class="codeph"> ,h</span> </p> </td> 
    <td colname="col2"> <p> 像素坐标中的初始感兴趣区域。 如果未指定，则整个图像将适合初始视区。 </p> </td> 
   </tr> 
  </tbody> 
