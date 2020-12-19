@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b19b831-b40c-4f26-83a4-732c578dbbf0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 
 
-# Character encoding{#character-encoding}
+# 字符编码{#character-encoding}
 
 使用以下命令对字符进行编码。
 
@@ -28,31 +31,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <tr> 
    <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
    <td> <p>单个8位字符。 </p> </td> 
-   <td> <p><span class="varname"> HH</span> 必须为2位数的十六进制值。 </p> </td> 
+   <td> <p><span class="varname"> 该</span> 值必须是2位数的十六进制值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
+   <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
    <td> <p>单个Unicode字符。 </p> </td> 
-   <td> <p><span class="varname"> N</span> 是带符号的2字节整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
+   <td> <p><span class="varname"> Nis</span> 是带符号的2字节整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
+   <td> <span class="codeph">\<span class="varname"> ucN</span></span> </td> 
    <td> <p>Unicode字符大小。 </p> </td> 
    <td> <p>与给定的Unicode字符对应的字节数。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \loch </span> </td> 
+   <td> <span class="codeph"> \loch  </span> </td> 
    <td> <p>下面是低ANSI区域的字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \hic </span> </td> 
-   <td> <p>下面是高ANSI区域的字符。 </p> </td> 
+   <td> <span class="codeph"> \hc  </span> </td> 
+   <td> <p>高ANSI区域的字符后面是。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \dbch </span> </td> 
-   <td> <p>多次字节字符。 </p> </td> 
+   <td> <span class="codeph"> \dbch  </span> </td> 
+   <td> <p>多次字节字符后面是。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
