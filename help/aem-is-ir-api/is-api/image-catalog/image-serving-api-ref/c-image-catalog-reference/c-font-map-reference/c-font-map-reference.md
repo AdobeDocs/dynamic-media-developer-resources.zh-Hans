@@ -1,24 +1,27 @@
 ---
 description: 如果图像目录需要字体映射，则必须在属性FontMapFile中指定字体映射文件的相对或绝对路径。
 seo-description: 如果图像目录需要字体映射，则必须在属性FontMapFile中指定字体映射文件的相对或绝对路径。
-seo-title: 字体映射参考
+seo-title: 字体映射引用
 solution: Experience Manager
-title: 字体映射参考
+title: 字体映射引用
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
 
-# 字体映射参考{#font-map-reference}
+# 字体映射引用{#font-map-reference}
 
-如果图像目录需要字体映射，则必须在属性：:FontMapFile中指定字体映射文件的相对路径或绝对路径。
+如果图像目录需要字体映射，则必须在属性：:FontMapFile中指定字体映射文件的相对或绝对路径。
 
 特定图像目录的字体映射中的条目将覆盖默认目录的字体映射中的条目。
 
-图像服务支持Adobe Type 1、OpenType和TrueType字体。
+图像服务支持Adobe类型1、OpenType和TrueType字体。
 
 `textPs=` 还支持CID、ATC和位图字体。
 
