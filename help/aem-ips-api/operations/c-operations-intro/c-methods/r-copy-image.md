@@ -1,6 +1,6 @@
 ---
-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令以生成新副本
-seo-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令以生成新副本
+description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
+seo-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
 seo-title: copyImage
 solution: Experience Manager
 title: copyImage
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 19%
 
 ---
 
 
 # copyImage{#copyimage}
 
-创建现有图像资产的副本。 将应用指定的图像服务器协议命令以生成新副本
+创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
 
 语法
 
-## 授权用户类型 {#section-c9fe7abb550e495f832234f845db7d6e}
+## 授权用户类型{#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,31 +45,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>包含图像的公司的手柄。 </p> </td> 
+   <td colname="col4"> <p>包含图像的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 资 <span class="varname"> 产句柄</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>图像资产的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 文件 <span class="varname"> 夹处理</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要复制图像的文件夹的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 名称</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 名称</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>新图像的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> url修饰符</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -87,7 +90,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 资 <span class="varname"> 产句柄</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>复制图像的手柄。 </p> </td> 
