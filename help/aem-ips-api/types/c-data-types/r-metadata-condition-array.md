@@ -1,6 +1,6 @@
 ---
-description: 一组元数据条件。
-seo-description: 一组元数据条件。
+description: 元数据条件的数组。
+seo-description: 元数据条件的数组。
 seo-title: MetadataConditionArray
 solution: Experience Manager
 title: MetadataConditionArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 235cafa9-3d96-464f-9943-9f0addfa05c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
 
 # MetadataConditionArray{#metadataconditionarray}
 
-一组元数据条件。
+元数据条件的数组。
 
 语法
 
