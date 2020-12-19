@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-fe950150718a474d8df30d0f4453c022}
+## 授权用户类型{#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,16 +42,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 用 <span class="varname"> 户句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>处理要添加其用户组成员关系的用户。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>您希望公司所属的组的句柄数组。 </p> </td> 
+   <td colname="col4"> <p>希望公司所属的组的句柄数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +62,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-此示例将组添加到具有groupHandleArray的 ` *`公司中`*`。 此示例仅使用一个组。
+此示例向具有` *`groupHandleArray`*`的公司添加组。 此示例仅使用一个组。
 
 **请求**
 
