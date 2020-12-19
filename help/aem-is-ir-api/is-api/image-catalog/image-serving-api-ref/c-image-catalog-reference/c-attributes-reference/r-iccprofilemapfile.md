@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: da7e6b02-8fe6-4045-b4c5-b46d7bdd6ee2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ ICC用户档案映射文件路径。 指定包含此图像目录的ICC用户档�
 
 ## 默认 {#section-c368cbef2a24435ea97cc7c83bbe2ce8}
 
-空，表示此图像目录不包括专用ICC用户档案。
+空，表示此图像目录不包含专用ICC用户档案。
 
 ## 另请参阅 {#section-3ed772259c8e4209b5a7766fae1d6efd}
 
