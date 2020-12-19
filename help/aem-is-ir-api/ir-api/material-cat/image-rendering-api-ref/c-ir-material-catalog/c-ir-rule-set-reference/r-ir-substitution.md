@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 
 
-# 替代{#substitution}
+# 替换{#substitution}
 
-替换字符串元素。 元素中为可 `<rule>` 选。
+替换字符串元素。 在`<rule>`元素中为可选。
 
 ## 属性 {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -30,12 +33,12 @@ source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
 
 如果模式表达式包括子表达式（用括号分隔），则用替换字符串替换第一匹配的子字符串。 如果模式表达式不包括子表达式，则替换整个匹配字符串。
 
-如果 `<expression>` 为空或不存在，则替换字符串将附加到路径或查询。
+如果`<expression>`为空或不存在，则替换字符串会附加到路径或查询。
 
-如果 `<substitution>` 为空，则删除匹配的字符串或子字符串。 如果 `<substitution>` 未指定，则不修改路径或查询字符串。
+如果`<substitution>`为空，则删除匹配的字符串或子字符串。 如果未指定`<substitution>`，则不修改路径或查询字符串。
 
 ## 注意 {#section-90fe89bb17a04804b7ff3c93df082892}
 
-替换字符串不能包含文本&lt;和&amp;字符。 这些保留字符可以分别用 `&` 和 `<`编码，或者整个字符串可以包含在XML部 `CDATA` 分中：
+替换字符串不能包含文本&lt;和&amp;字符。 这些保留字符可以分别用`&`和`<`进行编码，或者整个字符串可以包含在XML `CDATA`部分中：
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
