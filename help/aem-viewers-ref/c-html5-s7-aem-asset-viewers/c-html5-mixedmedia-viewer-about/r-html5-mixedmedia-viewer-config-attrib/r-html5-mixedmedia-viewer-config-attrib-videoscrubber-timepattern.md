@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6034dc22-c1d4-4a37-93de-42a88b99234a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 设置时间泡泡中显示的时间模式，其中 <span class="codeph"> h</span> 为小时， <span class="codeph"> m为分钟，</span> s <span class="codeph"></span> 为秒。 </p> <p>用于每个时间单位的字母数确定单位要显示的数字数。 如果数字不能适合给定数字，则等效值将以后的单位显示。 </p> <p>例如，如果当前电影时间为67分5秒，则时间模式 <span class="codeph"> m:ss</span> 显示为67:05。 如果给定的时间模式为 <span class="codeph"> h:mm:s，则同一时间显示为1:07:5</span>。 </p> </td> 
+   <td colname="col2"> <p> 设置在时间泡中显示的时间模式，其中<span class="codeph"> h</span>是小时，<span class="codeph"> m</span>是分钟，<span class="codeph"> s</span>是秒。 </p> <p>每个时间单位使用的字母数决定单位要显示的数字数。 如果数字不能适应给定数字，则等效值将以后的单位显示。 </p> <p>例如，如果当前电影时间为67分5秒，则时间模式<span class="codeph"> m:ss</span>显示为67:05。 如果给定的时间模式为<span class="codeph"> h:mm:s</span>，则同一时间显示为1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
