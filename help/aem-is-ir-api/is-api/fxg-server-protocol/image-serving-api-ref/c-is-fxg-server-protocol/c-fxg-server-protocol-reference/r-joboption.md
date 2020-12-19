@@ -1,6 +1,6 @@
 ---
-description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在InDesign的“另存为PDF选项”对话框或PDF预设中生成的文件。
-seo-description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在InDesign的“另存为PDF选项”对话框或PDF预设中生成的文件。
+description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框或InDesign的PDF预设中生成的文件。
+seo-description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框或InDesign的PDF预设中生成的文件。
 seo-title: 作业选项
 solution: Experience Manager
 title: 作业选项
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
-# 作业选项{#joboption}
+# joboption{#joboption}
 
-应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在InDesign的“另存为PDF选项”对话框或PDF预设中生成的文件。
+应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框或InDesign的PDF预设中生成的文件。
 
 ` joboption= *`值`*`
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-作业选项文件可由IPS/SPS上传和发布。 生成PDF时，将使用作业选项文件中包含的PDF选项。
+作业选项文件可以由IPS/SPS上传和发布。 生成PDF时，将使用作业选项文件中包含的PDF选项。
 
 当前支持以下选项：
 
@@ -36,7 +39,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>图像 </p></td> 
-  <td class="stentry"> <p> 缩减像素取样颜色、灰色和单声道的分辨率、阈值和压缩 </p> </td> 
+  <td class="stentry"> <p> 缩减像素取样颜色、灰色和单色的分辨率、阈值和压缩 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字体 </p></td> 
