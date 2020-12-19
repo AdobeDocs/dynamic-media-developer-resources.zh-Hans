@@ -1,6 +1,6 @@
 ---
-description: 资产的句柄以及将资产移动到的位置。
-seo-description: 资产的句柄以及将资产移动到的位置。
+description: 资产的手柄以及资产移动位置的手柄。
+seo-description: 资产的手柄以及资产移动位置的手柄。
 seo-title: 资产移动
 solution: Experience Manager
 title: 资产移动
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 71335886-efe7-4565-a088-769bcbe7abaf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 
 # 资产移动{#assetmove}
 
-资产的句柄以及将资产移动到的位置。
+资产的手柄以及资产移动位置的手柄。
 
 语法
 
