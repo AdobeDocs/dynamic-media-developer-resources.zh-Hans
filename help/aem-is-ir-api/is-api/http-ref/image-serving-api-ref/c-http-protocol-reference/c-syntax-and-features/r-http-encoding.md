@@ -19,7 +19,7 @@ ht-degree: 21%
 
 命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&amp;”和“%”。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如和）进行编 `<return>` 码 `<tab>`。 字符的URL编码由“%”符号组成，后跟字符的ISO-拉丁语代码点的两位数十六进制表示法（不区分大小写）。 不安全字符和代码点为：
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由“%”符号组成，后跟字符的ISO-拉丁语代码点的两位数十六进制表示法（不区分大小写）。 不安全字符和代码点为：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -36,7 +36,7 @@ ht-degree: 21%
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ ht-degree: 21%
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>` </p> </td> 
+   <td colname="col1"> <p>“ </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
