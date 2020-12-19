@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 允许绝对URL作为图像源。
 
-启用或禁用对和命令中嵌入的绝对URL `src=` 的 `mask=` 支持。 禁用时，仅允许相对 `attribute::RootUrl` 的URL。
+启用或禁用对`src=`和`mask=`命令中嵌入的绝对URL的支持。 禁用后，仅允许相对于`attribute::RootUrl`的URL。
 
 ## 属性 {#section-192825a6b02e4cc4a6aa102f93be89f0}
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
-如果未定义 `default::AllowDirectUrls` 或为空，则从中继承。
+如果未定义或为空，则从`default::AllowDirectUrls`继承。
 
 ## 另请参阅 {#section-604f9500749c4e1a968b260b9a3812b2}
 
