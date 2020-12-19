@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用或禁用自动旋转动画。 为获得最佳的自动旋转体验，建议通过将maxloadradius设置为 <span class="codeph"> -1来预载所</span> 有帧 <span class="codeph"></span>。 但是，请注意，这会增加加载时间和更高的带宽使用。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用自动旋转动画。 为获得最佳自动旋转体验，建议通过将<span class="codeph"> maxloadradius</span>设置为<span class="codeph"> -1</span>预载所有帧。 但是，请注意，这会增加加载时间和更高的带宽使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> 旋转方向为0 <span class="codeph"></span> ，旋转方向为 <span class="codeph"> 1</span> 。 </p> </td> 
+   <td colname="col2"> <p> 旋转方向为<span class="codeph">0</span>，用于旋转东方，旋转方向为<span class="codeph">1</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 自动旋转停止之前完成的完全旋转数。 该数字是浮点数。 设置为 <span class="codeph"> -1</span> ，可实现无限自动旋转。 </p> </td> 
+   <td colname="col2"> <p> 自动旋转停止之前完成的完全旋转数。 该数字是浮点数。 设置为<span class="codeph"> -1</span>可实现无限自动旋转。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
