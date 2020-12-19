@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 7b1850ca-6a8c-402d-8c8f-4528d978245f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
 
-# 权限更新{#permissionupdate}
+# PermissionUpdate{#permissionupdate}
 
 描述权限更改。
 
