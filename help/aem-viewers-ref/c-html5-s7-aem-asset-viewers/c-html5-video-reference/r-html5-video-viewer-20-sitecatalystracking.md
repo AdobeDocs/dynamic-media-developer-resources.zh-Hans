@@ -1,6 +1,6 @@
 ---
-description: 视频查看器支持Adobe Analytics现成跟踪。
-seo-description: 视频查看器支持Adobe Analytics现成跟踪。
+description: 视频查看器支持Adobe Analytics开箱即用跟踪。
+seo-description: 视频查看器支持Adobe Analytics开箱即用跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
@@ -8,25 +8,28 @@ topic: Dynamic media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
-视频查看器支持Adobe Analytics现成跟踪。
+视频查看器支持Adobe Analytics开箱即用跟踪。
 
-## 现成跟踪 {#section-3b101fe30be943c1b679fd5c273569ca}
+## 现成跟踪{#section-3b101fe30be943c1b679fd5c273569ca}
 
-视频查看器支持Adobe Analytics现成跟踪。
+视频查看器支持Adobe Analytics开箱即用跟踪。
 
-要启用跟踪，请将正确的公司预设名称作为参 `config2` 数传递。
+要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
 
 查看器还向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
-## 自定义跟踪 {#section-ab10bd7caf184721a366cf3953071934}
+## 自定义跟踪{#section-ab10bd7caf184721a366cf3953071934}
 
-要与第三方分析系统集成，必须根据需要侦听查 `trackEvent` 看器回调并处 `eventInfo` 理回调函数的参数。 以下代码就是此类处理函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调并根据需要处理回调函数的`eventInfo`参数。 下面的代码就是此类处理函数的一个示例：
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -67,7 +70,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在查看器中，使用 <span class="codeph"> setAsset() </span> API交换资产。 </p> </td> 
+   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在查看器中交换资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -75,7 +78,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>播放暂停。 </p> </td> 
+   <td colname="col2"> <p>播放已暂停。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -83,7 +86,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>播放到达以下磨盘之一：0%、25%、50%、75%和100%。 </p> </td> 
+   <td colname="col2"> <p>播放达到以下重点之一：0%、25%、50%、75%和100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
