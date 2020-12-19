@@ -1,20 +1,23 @@
 ---
-description: 查看器在最初在AEM资产的Dynamic Media —— 点播中创作热点的地方，在主视图上显示热点图标。
-seo-description: 查看器在最初在AEM资产的Dynamic Media —— 点播中创作热点的地方，在主视图上显示热点图标。
-seo-title: 热点和图像映射
+description: 查看器在最初在AEM AssetsDynamic Media（按需）创作热点的地方，在主视图上显示热点图标。
+seo-description: 查看器在最初在AEM AssetsDynamic Media（按需）创作热点的地方，在主视图上显示热点图标。
+seo-title: 热点和图像地图
 solution: Experience Manager
-title: 热点和图像映射
+title: 热点和图像地图
 topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
 
 # 热点和图像映射{#hotspots-and-image-maps}
 
-查看器在最初在AEM资产的Dynamic Media —— 点播中创作热点的地方，在主视图上显示热点图标。
+查看器在最初在AEM AssetsDynamic Media（按需）创作热点的地方，在主视图上显示热点图标。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>热点图标图稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS Sprite，则在图稿Sprite中定位。 </p> <p>请参 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p>在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-示例——设置56 x 56像素热点图标，该图标为两个不同的图标状态中的每一个状态显示不同的图像：
+示例——设置一个56 x 56像素的热点图标，该图标会为两个不同的图标状态中的每一个状态显示不同的图像：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -83,21 +86,21 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B)或 </span>RGBA(R,G,B,A)格式指定此颜色 <span class="codeph"></span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
+   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以 <span class="codeph"> #RRGGBB </span>、 <span class="codeph"> RGB(R,G,B)或 </span>RGBA(R,G,B,A)格式指定此颜色 <span class="codeph"></span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B)</span>或<span class="codeph"> RGBA(R,G,B,A)</span>格式指定此颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域边框样式。 应指定为宽度实色 <span class="codeph"></span> "，其中以像素表示，宽度表示为 <span class="codeph"> "R,G, </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>B,R,G,B,A"，以像素表示，宽度表示为RGB(R,G,B,A)，或RGBA(R,G,B,A); </p> </td> 
+   <td colname="col2"> <p> 图像映射区域边框样式。 应指定为" <span class="codeph">宽度</span> <span class="codeph">纯色</span>"，其中<span class="codeph">宽度</span>以像素表示，<span class="codeph">颜色</span>设置为<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R,G,B))</span>或<span class="codeph"> RGBA(R,G,B,A)</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个带有一个像素黑色边框的透明图像映射区域：
+示例——设置具有一个像素黑色边框的透明图像映射区域：
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 
