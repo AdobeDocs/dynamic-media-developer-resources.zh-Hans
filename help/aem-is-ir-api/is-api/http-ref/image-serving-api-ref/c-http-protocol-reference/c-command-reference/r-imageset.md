@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ecfb3905-e3ef-4ab8-a2c4-2c3f200e0f0f
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
@@ -25,11 +28,11 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
  </tr> 
 </table>
 
-要转义该值并确保包含的修饰符不解释为URL查询字符串的一部分，整个值应用大括号括起来。 如果在净路径中指定了目录记录，则此修改量值将覆盖主 `catalog::ImageSet` 记录中的修改量值。 有关有效图像集语法的说明，请参阅 `catalog::ImageSet` 文档。
+要转义该值并确保包含的修饰符不解释为URL查询字符串的一部分，整个值应用大括号括起来。 如果在净路径中指定目录记录，则此修饰符值将覆盖主记录中的`catalog::ImageSet`。 有关有效图像集语法的说明，请参阅`catalog::ImageSet`文档。
 
 ## 属性 {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 
-请求属性。 可选。从主 `catalog::ImageSet` 记录改写。
+请求属性。 可选。重写主记录中的`catalog::ImageSet`。
 
 ## 默认 {#section-e8622ff40408450fb79d028f8d37fa6b}
 
@@ -37,10 +40,10 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 ## 示例 {#section-68513d3c601f477399602a0741dab390}
 
-指定要与请求一起使用的图 `req=set` 像集：
+指定要与`req=set`请求一起使用的图像集：
 
 `http://server/myRootId?imageSet={asset1,asset2,asset3}&req=set`
 
 ## 另请参阅 {#section-7e0320b2e09d475897082711a8f023a9}
 
-[catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) , [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Media Set Requests](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) ,  [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Media Set  [Requests](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
