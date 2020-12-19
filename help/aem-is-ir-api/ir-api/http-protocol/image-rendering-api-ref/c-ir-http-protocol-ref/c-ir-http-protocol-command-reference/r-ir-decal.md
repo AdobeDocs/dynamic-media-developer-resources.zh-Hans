@@ -1,27 +1,30 @@
 ---
-description: 倾倒式材料选择器。 开始用于非可重复的倾覆材料的材料规范段(MSS)。
-seo-description: 倾倒式材料选择器。 开始用于非可重复的倾覆材料的材料规范段(MSS)。
-seo-title: 癸
+description: 倾倒式材料选择器。 开始用于非可重复的倾倒材料的材料规格段(MSS)。
+seo-description: 倾倒式材料选择器。 开始用于非可重复的倾倒材料的材料规格段(MSS)。
+seo-title: 倾倒
 solution: Experience Manager
-title: 癸
+title: 倾倒
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
 # decal{#decal}
 
-倾倒式材料选择器。 开始用于非可重复的倾覆材料的材料规范段(MSS)。
+倾倒式材料选择器。 开始用于非可重复的倾倒材料的材料规格段(MSS)。
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>忽略。 </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p>已忽略。 </p> </td> 
  </tr> 
 </table>
 
