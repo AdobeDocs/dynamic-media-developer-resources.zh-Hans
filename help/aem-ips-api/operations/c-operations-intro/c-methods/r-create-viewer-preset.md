@@ -1,6 +1,6 @@
 ---
-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中可用的任何类型。 预设视图在资产发布时应用。
-seo-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中可用的任何类型。 预设视图在资产发布时应用。
+description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
+seo-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
 
 # createViewerPreset{#createviewerpreset}
 
-创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中可用的任何类型。 预设视图在资产发布时应用。
+创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
 
 语法
 
-## 授权用户类型 {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 授权用户类型{#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,15 +36,15 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含查看器预设和资产的公司的句柄。 |
 | ` *`folderHandle`*` | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
-| ` *`名称`*` | `xsd:string` | 是 | 查看器名称。 |
+| ` *`name`*` | `xsd:string` | 是 | 查看器名称。 |
 | ` *`类型`*` | `xsd:string` | 是 | 查看器类型. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 一个数组，其中包含要应用预设的图像的名称、值和句柄。 |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含要应用预设的图像的名称、值和句柄的数组。 |
 
 **输出(createViewerPresetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | 是 | 对查看器处理预设。 |
+| ` *`viewerPresetHandle`*` | `xsd:string` | 是 | 将预设处理到查看器。 |
 
 ## 示例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
