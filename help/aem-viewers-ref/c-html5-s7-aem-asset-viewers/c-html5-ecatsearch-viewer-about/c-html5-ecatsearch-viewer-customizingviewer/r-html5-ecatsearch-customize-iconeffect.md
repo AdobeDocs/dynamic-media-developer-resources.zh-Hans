@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# 图标效果{#icon-effect}
 
 缩放指示器覆盖在主视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
 
@@ -20,7 +23,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7iconeffect
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p> 缩放指示符图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col2"> <p> 缩放指示器图稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -55,9 +58,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->图标效果支持属 `media-type` 性选择器，您可以使用它在不同设备上应用不同的图标效果。 特别地，对 `media-type='standard'` 应于桌面系统，其中鼠标输入通常被使用，并对 `media-type='multitouch'` 应于具有触摸输入的设备。
+>图标效果支持`media-type`属性选择器，您可以使用它在不同设备上应用不同的图标效果。 具体而言，`media-type='standard'`对应于桌面系统，其中鼠标输入通常被使用，`media-type='multitouch'`对应于具有触摸输入的设备。
 
-示例——为桌面系统和触控设备设置100 x 100像素缩放指示器，并使用不同图稿。
+示例——为桌面系统和触控设备设置100 x 100像素缩放指示器，具有不同的图稿。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7iconeffect { 
