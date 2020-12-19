@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 965dcff5-30e1-4237-aa71-ee7533a674d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
@@ -22,4 +25,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-如果未定义 `default::ShowOverlapObjs` 或为空，则从中继承。
+如果未定义或为空，则从`default::ShowOverlapObjs`继承。
