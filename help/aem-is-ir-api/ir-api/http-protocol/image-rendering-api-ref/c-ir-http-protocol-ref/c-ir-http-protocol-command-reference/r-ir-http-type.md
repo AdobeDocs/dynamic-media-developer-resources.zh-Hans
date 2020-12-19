@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>未知，服务器使用默认值 </p></td> 
+  <td class="stentry"> <p>未知，服务器使用默认 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>漆／漆 </p></td> 
+  <td class="stentry"> <p>搪瓷／漆 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -61,7 +64,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p></td> 
-  <td class="stentry"> <p>实心曲面 </p></td> 
+  <td class="stentry"> <p>实体曲面 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p></td> 
@@ -93,7 +96,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>纯织物 </p></td> 
+  <td class="stentry"> <p>Shere Fabric </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -101,16 +104,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-与和一起使用 `gloss=` 以控 `rough=` 制反射和光泽效果行为。 不同的材料将产生不同的效果，即使 `gloss=` 和相 `rough=` 同的材料也是如此。
+与`gloss=`和`rough=`结合使用以控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，不同的材料也会产生不同的效果。
 
 ## 属性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料属性。 如果暗角不包含3D反射数据或在暗角中禁用了光泽效果，则忽略此问题。
+材料属性。 如果暗角不包含3-D反射数据或在暗角中禁用了光泽效果，则忽略此问题。
 
 ## 默认 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料基于目录条目。 Otherwise `type=0`. 如果未指定，或者，服 `type=0`务器将根据目标对象和其他材料属性选择合适的默认值。
+`catalog::Type` 如果材料基于目录条目。否则`type=0`。 如果未指定，或如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的默认值。
 
 ## 另请参阅 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ，粗 [糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [粗糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
