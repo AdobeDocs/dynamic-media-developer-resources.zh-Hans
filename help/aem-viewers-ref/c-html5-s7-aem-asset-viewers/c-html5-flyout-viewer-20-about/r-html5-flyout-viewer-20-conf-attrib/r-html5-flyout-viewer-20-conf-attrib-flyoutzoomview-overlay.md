@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 控制弹出窗口处于活动状态时的主视图高亮外观。 当设置为 <span class="codeph"> 0</span>时，弹出窗口中当前可见的区域将使用由 <span class="codeph"> .s7highlight</span> 或 <span class="codeph"> .s7highlight</span> CSS光标名称提供的样式高亮显示(取决于highlightmode修饰符 <span class="codeph"></span> 的值)。 当设置为 <span class="codeph"> 1</span> 、组件进入当前区域完全透明(设置为大写为大写为大写为大写为大写为。s7cursor <span class="codeph"> )或以CSS类名称(大写为大写高亮名称</span> )的。S7cursor <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> （Case高亮名称）样式的“反”模式时，将光标设置为反向Comblay，但周围区域被提供。7的CSS类填充。 </p> </td> 
+   <td colname="col2"> <p> 控制弹出处于活动状态时的主视图高亮外观。 当设置为<span class="codeph"> 0</span>时，使用<span class="codeph"> .s7highlight</span>或<span class="codeph"> .s7cursor</span> CSS类名称提供的样式（取决于<span class="codeph"> highlightmode</span>修饰符的值）高亮显示弹出窗口中当前可见的区域。 当设置为<span class="codeph"> 1</span>组件时，进入“反向”模式，其中当前查看的区域为完全透明（如果<span class="codeph"> highlightmode</span>设置为<span class="codeph"> highlight</span>）或设置为<span class="codeph"> .s7cursor</span> CSS类名称（如果<span class="codeph"> highlightmode</span>）设置为<span class="codeph"> cursor</span>)，但使用<span class="codeph"> .s7overlay</span> CSS类名提供的样式填充周围区域。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
