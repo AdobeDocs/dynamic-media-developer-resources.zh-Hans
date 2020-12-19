@@ -3,24 +3,27 @@ description: HTTP响应头元素。 在<rule>元素中为可选。
 seo-description: HTTP响应头元素。 在<rule>元素中为可选。
 seo-title: header
 solution: Experience Manager
-title: header
+title: 标题
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # header{#header}
 
-HTTP响应头元素。 元素中为可 `<rule>` 选。
+HTTP响应头元素。 在`<rule>`元素中为可选。
 
 ## 属性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**:必需。 指定HTTP头的名称。
+**`Name`= &quot;*text*&quot;** :必需。指定HTTP头的名称。
 
-**`Action`= &quot;set&quot;|`"add"`**:可选。 默认值`"set"`为，它替换任何当前标题值。 指定`"add"`以在标题值后面附加，以逗号分隔。
+**`Action`= &quot;set&quot; |`"add"`**:可选。默认值为`"set"`，它替换任何当前标题值。 指定`"add"`以附加以逗号分隔的标题值。
 
 ## 数据 {#section-a387f541396c49d99c29692a38032914}
 
@@ -28,7 +31,7 @@ HTTP响应头元素。 元素中为可 `<rule>` 选。
 
 ## 说明 {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-允许添加新的HTTP响应头以及添加或替换预定义头的值。 名称和值必须符合HTTP标准。 不会应用任何其他编码。
+允许添加新的HTTP响应头以及添加或替换预定义头的值。 名称和值必须符合HTTP标准。 将不应用任何其他编码。
 
 图像服务替换变量可用于标题名称和标题值。 这允许从请求控制两个字符串。
 
@@ -43,6 +46,6 @@ HTTP响应头元素。 元素中为可 `<rule>` 选。
 </rule>
 ```
 
-此规则由以下请求触发，设置HTTP响应头 `Edge-Control::no-store`:
+此规则由以下请求触发，设置HTTP响应头`Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
