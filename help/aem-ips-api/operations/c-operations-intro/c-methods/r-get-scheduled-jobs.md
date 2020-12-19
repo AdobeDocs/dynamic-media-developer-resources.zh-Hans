@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 授权用户类型{#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +39,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`jobHandle`*` | `xsd:string` | 否 | 工作负责人。 |
-| ` *`originalName`*` | `xsd:string` | 否 | 由指定的名称 `submitJob`。 |
+| ` *`jobHandle`*` | `xsd:string` | 否 | 工作。 |
+| ` *`originalName`*` | `xsd:string` | 否 | 由`submitJob`指定的名称。 |
 
 **输出(getScheduledJobsReturn)**
 
