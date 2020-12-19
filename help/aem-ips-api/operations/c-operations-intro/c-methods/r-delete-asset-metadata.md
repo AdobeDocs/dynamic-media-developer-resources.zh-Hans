@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-e913be43b684491daf02bc73211e4290}
+## 授权用户类型{#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -58,7 +61,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col4"> <p>要删除的资产的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>metadataDelete </p> </td> 
+   <td colname="col1"> <p>元数据删除 </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要从资产中删除的元数据。 </p> </td> 
