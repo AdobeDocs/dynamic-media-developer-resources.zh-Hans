@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 15c01750-958a-497d-a999-cacf359bb985
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="simpletable_015459EC2F4642A59B04F0B8064070B1"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>忽略。 </p></td> 
+  <td class="stentry"> <p>已忽略。 </p></td> 
  </tr> 
 </table>
 
 ## 属性 {#section-2952fa43df0547b187b834c819c517ca}
 
-应用于当前组或对象选择。 如果当前选择不包括任何重叠对象或窗口覆盖框架，或者没有可见的重叠对象，则忽略该选项。
+应用于当前组或对象选择。 如果当前选择不包含任何重叠对象或窗口覆盖框架，或者没有可见重叠对象，则忽略此选项。
 
 ## 默认 {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
