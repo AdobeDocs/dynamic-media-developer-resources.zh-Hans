@@ -23,7 +23,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以-alpha结 <span class="codeph"> 尾</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式值，组件将图像视为不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像呈现为透明内容。 对于所有其他图像格式值，组件将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
