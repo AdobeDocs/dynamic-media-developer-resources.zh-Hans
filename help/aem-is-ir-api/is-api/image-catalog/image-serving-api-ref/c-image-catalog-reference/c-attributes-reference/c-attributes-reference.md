@@ -1,22 +1,25 @@
 ---
 description: 除目录RootId外，所有目录属性都是可选的。
 seo-description: 除目录RootId外，所有目录属性都是可选的。
-seo-title: 属性参考
+seo-title: 属性引用
 solution: Experience Manager
-title: 属性参考
+title: 属性引用
 topic: Scene7 Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 3%
 
 ---
 
 
-# 属性参考{#attributes-reference}
+# 属性引用{#attributes-reference}
 
-除catalog::RootId外，所有目录属性都是可选的。
+所有目录属性都是可选的，但目录：:RootId除外。
 
-默认目录属性文件( [!DNL default.ini])中要求所有属性。
+默认目录属性文件([!DNL default.ini])中需要所有属性。
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrl](r-allowdirecturls.md)
@@ -27,10 +30,10 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 * [CacheValidationPolicy](r-cachevalidationpolicy.md)
 * [ClientAddressFilter](r-clientaddressfilter.md)
 * [CatalogFile](r-catalogfile.md)
-* [DefaultExpiration](r-defaultexpiration.md)
-* [DefaultExt](r-defaultext.md)
+* [默认过期](r-defaultexpiration.md)
+* [默认文本](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
-* [DefaultImage](r-is-cat-defaultimage.md)
+* [默认图像](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
 * [默认区域设置](r-defaultlocale.md)
 * [DefaultPix](r-defaultpix.md)
@@ -57,25 +60,25 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 * [JpegQuality](r-jpegquality.md)
 * [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
-* [MacroFile](r-macrofile.md)
+* [宏文件](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
 * [打印分辨率](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [请求模糊处理](r-requestobfuscation.md)
+* [请求模糊化](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [分辨率](r-resolution.md)
 * [RootId](r-rootid.md)
-* [RootPath](r-rootpath.md)
+* [根路径](r-rootpath.md)
 * [RootUrl](r-rooturl.md)
-* [RuleSetFile](r-rulesetfile.md)
+* [规则集文件](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SyntherizeFontStyles](r-synthesizefontstyles.md)
-* [ThumbBkgColor](r-thumbbkgcolor.md)
+* [SynthesingFontStyles](r-synthesizefontstyles.md)
+* [缩略图BkgColor](r-thumbbkgcolor.md)
 * [缩略图对齐](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
@@ -85,5 +88,5 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 * [TrustedDomains](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [VideoBitRate](r-videobitrate-cat.md)
-* [VideoSize](r-videosize-cat.md)
+* [视频大小](r-videosize-cat.md)
 * [水印](r-watermark.md)
