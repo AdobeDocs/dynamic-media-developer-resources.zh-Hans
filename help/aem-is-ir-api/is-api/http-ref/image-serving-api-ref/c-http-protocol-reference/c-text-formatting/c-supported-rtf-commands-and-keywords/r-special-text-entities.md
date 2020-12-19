@@ -39,34 +39,34 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>反斜杠。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>大括号。 </p> </td> 
    <td> <p>大括号必须采用HTTP编码。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> (&amp;r)brace;  </span> </td> 
    <td> <p>大括号。 </p> </td> 
    <td> <p>大括号必须采用HTTP编码。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>不间断空间。 </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>不间断连字符。 </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>可选连字符。 </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
