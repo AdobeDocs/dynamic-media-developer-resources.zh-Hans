@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ef9870f9-599b-449d-b713-66abafb80311
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -25,15 +28,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoRootPath <span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则将应用为页面提供服务的域。 标准URI路径分辨率适用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则将应用提供页面的域。 应用标准URI路径解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 属性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-可选。标准软件不需要作为服务使用。
+可选。标准软件作为服务用途不需要。
 
 ## 默认 {#section-d411e450028c460392cb8508f8ccc5d9}
 
