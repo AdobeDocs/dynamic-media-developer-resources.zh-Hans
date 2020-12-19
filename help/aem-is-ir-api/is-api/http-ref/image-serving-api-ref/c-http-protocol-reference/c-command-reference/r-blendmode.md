@@ -1,6 +1,6 @@
 ---
-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
-seo-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+seo-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
 
 # blendMode{#blendmode}
 
-混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## 属性 {#section-418aad5a417f49929d1953e226e5c8dd}
 
-图层属性。 和忽 `layer=0` 略 `layer=comp`。
+图层属性。 被`layer=0`和`layer=comp`忽略。
 
 ## 默认 {#section-69829acc6532448d8612a4a54e86f00e}
 
