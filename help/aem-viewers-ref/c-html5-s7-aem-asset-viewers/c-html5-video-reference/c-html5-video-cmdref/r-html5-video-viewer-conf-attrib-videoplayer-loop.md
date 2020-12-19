@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92081e9a-2b4a-4258-9843-32c214e7b9bd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频是否应在播放完成后再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
