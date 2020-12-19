@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 包含服务器主管配置设置。
 
-编辑此XML文件时，请务必保持有效的XML语法，否则图像服务器可能无法开始。
+编辑此XML文件时，请确保保持有效的XML语法，否则图像服务器可能无法开始。
 
-编辑此文件后，重新启动图像服务，以确保您所做的更改生效。 只支持以下突出显示的元素／属性值进行修改。 仅在Scene7技术支持建议时，才编辑此文件的所有其他内容。
+编辑此文件后重新启动图像服务，以确保您所做的更改生效。 只有下面突出显示的元素／属性值才支持修改。 仅在Scene7技术支持提供建议时编辑此文件的所有其他内容。
 
 ```
 <supervisor>
