@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 31575fa3-8cc4-468e-b590-77edc3b148d4
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> 启用或禁用用户使用鼠标或使用触控手势滚动色板的功能 </p> </td> 
+   <td> <p> 启用或禁用用户使用鼠标或触控手势滚动样本的功能 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td> <p> 在0- <span class="codeph"> 1范围内的函 </span> 数。 它是一个 <span class="codeph"> %值， </span> 用于在实际速度的错误方向上移动。 如果设置为 <span class="codeph"> 1, </span>则它随鼠标移动。 如果设置为 <span class="codeph"> 0 </span>，则完全不会让您向错误的方向移动。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td> <p> 在<span class="codeph"> 0-1 </span>范围内的函数。 它是一个<span class="codeph"> % </span>值，用于沿实际速度的错误方向移动。 如果它设置为<span class="codeph"> 1 </span>，则它随鼠标移动。 如果它设置为<span class="codeph"> 0 </span>，则它不允许您向错误的方向移动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
