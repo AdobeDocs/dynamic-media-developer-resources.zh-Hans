@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 授权用户类型{#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyName`*` | `xsd:string` | 是 | 公司手柄。 |
 | ` *`projectHandle`*` | `xsd:string` | 是 | 项目句柄。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄数组。 |
+| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄的数组。 |
 
 **输出(setProjectAssetsReturn)**
 
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此代码示例将资产分配给项目。 该请求将返回一个成功计数。
+此代码示例将资产分配给项目。 请求返回成功计数1。
 
 **请求**
 
