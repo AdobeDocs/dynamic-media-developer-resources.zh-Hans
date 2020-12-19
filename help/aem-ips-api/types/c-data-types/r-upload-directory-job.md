@@ -84,8 +84,8 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 挖空背景</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参 <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 阅KnockoutBackgroundOptions</a>。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> types:KnockoudBackgroundOptions</span> </td> 
+   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -95,7 +95,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：MediaOptions</span> </td> 
-   <td colname="col3"> <p>用于从视频中设置缩略图的选项。 </p> <p>请参阅 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 媒体选项</a>。 </p> </td> 
+   <td colname="col3"> <p>用于从视频中设置缩略图的选项。 </p> <p>请参阅<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆盖</span> </span> </td> 
@@ -118,7 +118,7 @@ ht-degree: 6%
    <td colname="col3"> <p>文件上传目标的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>上载完成后运行的图像渲染发布作业的详细信息。 </p> </td> 
   </tr> 
@@ -175,12 +175,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>使用这些可选设置提取并处理已上传的TAR/ZIP文件的内容。 </p> <p>请参 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> 阅UnCompressOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>使用这些可选设置提取并处理已上传的TAR/ZIP文件的内容。 </p> <p>请参阅<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:USMsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> 阅USMsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
@@ -192,13 +192,13 @@ ht-degree: 6%
 
 ## 说明 {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-对 `CropOptions`于，您只能选择以下选项之一：
+对于`CropOptions`，您只能选择以下选项之一：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-对 `PublishJob`于，您只能选择以下选项之一：
+对于`PublishJob`，您只能选择以下选项之一：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
