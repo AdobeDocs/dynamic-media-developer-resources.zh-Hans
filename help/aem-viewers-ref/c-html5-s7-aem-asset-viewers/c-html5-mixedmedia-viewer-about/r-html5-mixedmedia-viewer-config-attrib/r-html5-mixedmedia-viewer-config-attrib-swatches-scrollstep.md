@@ -8,28 +8,31 @@ topic: Dynamic media
 uuid: c7a9d85b-df3e-457c-9386-b6188a4aa4d4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`hStepvStep`*, *``*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 步 <span class="varname"> 骤</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 步骤</span> </span> </p> </td> 
    <td> <p>水平步骤。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> vStep</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
    <td> <p>垂直步骤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-指定每次单击或点按相应的滚动按钮时要滚动的色板数。
+指定每次单击或点按相应的滚动按钮时要滚动的样本数。
 
 ## 属性 {#section-65be9301796240e38f31818229da7acc}
 
