@@ -1,6 +1,6 @@
 ---
-description: RTF文件资产的属性。
-seo-description: RTF文件资产的属性。
+description: RTF文件资源的属性。
+seo-description: RTF文件资源的属性。
 seo-title: RTFInfo
 solution: Experience Manager
 title: RTFInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: cd7744bd-d033-4095-82c7-2a7b7db7e97f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 25%
 
 ---
 
 
 # RTFInfo{#rtfinfo}
 
-RTF文件资产的属性。
+RTF文件资源的属性。
 
 语法
 
