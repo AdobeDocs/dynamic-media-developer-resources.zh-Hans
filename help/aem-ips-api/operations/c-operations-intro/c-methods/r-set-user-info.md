@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-6c28db5d15b3449492a73749e4f981ac}
+## 授权用户类型{#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,10 +38,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`firstName`*` | `xsd:string` | 是 | 名字。 |
 | ` *`lastName`*` | `xsd:string` | 是 | 姓氏。 |
 | ` *`电子邮件`*` | `xsd:string` | 是 | 用户电子邮件。 |
-| ` *`defaultRole`*` | `xsd:string` | 是 | 在用户所属的每个公司中设置用户的角色。 但是，请注意，该角 `IpsAdmin` 色会覆盖其他按公司设置。 |
-| ` *`passwordExpires`*` | `xsd:dateTime` | 否 | 设置的密码过期日期。 |
+| ` *`defaultRole`*` | `xsd:string` | 是 | 在用户所属的每个公司中设置用户的角色。 但是，请注意，`IpsAdmin`角色将覆盖其他每公司设置。 |
+| ` *`passwordExpires`*` | `xsd:dateTime` | 否 | 设置密码过期日期。 |
 | ` *`isValid`*` | `xsd:boolean` | 是 | 确定用户是否为有效的IPS用户。 |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一组公司手柄。 |
+| ` *`membersArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一组公司手柄。 |
 
 **输出(setUserInfoReturn)**
 
