@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 授权用户类型{#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->用户必须具有目标文件夹的读／写访问权限。
+>用户必须具有对目标文件夹的读／写访问权限。
 
 ## 参数 {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -37,11 +40,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 图像集所属公司的手柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 图像集所属公司的句柄。 |
 | ` *`folderHandle`*` | `xsd:string` | 是 | 文件夹的句柄。 |
-| ` *`名称`*` | `xsd:string` | 是 | 图像集名称。 |
+| ` *`name`*` | `xsd:string` | 是 | 图像集名称。 |
 | ` *`类型`*` | `xsd:string` | 是 | 图像集类型。 |
-| ` *`thumbAssetHandle`*` | `xsd:string` | 否 | 用作新图像集缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资源。 |
+| ` *`thumbAssetHandle`*` | `xsd:string` | 否 | 用作新图像集的缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资产。 |
 
 **输出**
 
