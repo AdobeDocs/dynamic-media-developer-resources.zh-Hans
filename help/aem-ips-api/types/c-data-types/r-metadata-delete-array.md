@@ -1,13 +1,16 @@
 ---
 description: 要从资产中删除的一组元数据。
 seo-description: 要从资产中删除的一组元数据。
-seo-title: MetadataDeleteArray
+seo-title: 元数据删除阵列
 solution: Experience Manager
-title: MetadataDeleteArray
+title: 元数据删除阵列
 topic: Scene7 Image Production System API
 uuid: 02bf3cb4-1643-4b97-9353-abb5001b1aa2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
