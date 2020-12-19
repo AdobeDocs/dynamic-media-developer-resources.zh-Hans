@@ -1,20 +1,23 @@
 ---
-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非图层式请求，大多数都没有意义。 它们不应用于效果图层。
-seo-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非图层式请求，大多数都没有意义。 它们不应用于效果图层。
-seo-title: 常见图层命令
+description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单、非分层的请求，大多没有意义。 它们不应用于效果图层。
+seo-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单、非分层的请求，大多没有意义。 它们不应用于效果图层。
+seo-title: 常用图层命令
 solution: Experience Manager
-title: 常见图层命令
+title: 常用图层命令
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
-# 常见图层命令{#common-layer-commands}
+# 常用层命令{#common-layer-commands}
 
-这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非图层式请求，大多数都没有意义。 它们不应用于效果图层。
+这些命令适用于图像、文本和纯色图层。 对于合成图像和简单、非分层的请求，大多没有意义。 它们不应用于效果图层。
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
@@ -27,14 +30,14 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> 扩展</a> </p></td> 
-  <td class="stentry"> <p>延伸（或裁切）图层矩形。 </p></td> 
+  <td class="stentry"> <p>扩展（或裁切）图层矩形。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
   <td class="stentry"> <p>指定图层颜色和不透明度。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d" type="reference" format="dita" scope="local"> 图层</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d" type="reference" format="dita" scope="local"> 层</a> </p></td> 
   <td class="stentry"> <p>选择图层并指定z顺序。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,7 +46,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5" type="reference" format="dita" scope="local"> opac</a> </p></td> 
-  <td class="stentry"> <p>减少图层不透明度。 </p></td> 
+  <td class="stentry"> <p>降低图层不透明度。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> 来源</a> </p></td> 
