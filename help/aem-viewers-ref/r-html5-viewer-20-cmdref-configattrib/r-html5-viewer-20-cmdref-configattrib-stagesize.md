@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 宽度</span>，高<span class="varname"> 度</span></span> </p> </td> 
-   <td colname="col2"> <p> 查看器的总体宽度和高度。 值为 <span class="codeph"> 0,0表示查看器根据</span> CSS规则和网页布局调整大小。 </p> </td> 
+   <td colname="col2"> <p> 查看器的整体宽度和高度。 值<span class="codeph"> 0,0</span>表示查看器的大小根据CSS规则和网页布局而定。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
