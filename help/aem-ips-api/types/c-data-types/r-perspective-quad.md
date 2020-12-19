@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
 
-# 透视四轴{#perspectivequad}
+# PerspectiveQuad{#perspectivequad}
 
 getPhotoshopPath操作返回的图像位置坐标。
 
@@ -22,18 +25,18 @@ getPhotoshopPath操作返回的图像位置坐标。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`x0`*` | `xsd:double` | 左上角的x轴坐标。 |
-| ` *`y0`*` | `xsd:double` | 左上角的y轴坐标。 |
+| ` *`x0`*` | `xsd:double` | 左上角x轴坐标。 |
+| ` *`y0`*` | `xsd:double` | 左上角y轴坐标。 |
 | ` *`x1`*` | `xsd:double` | 右上x轴坐标。 |
 | ` *`y1`*` | `xsd:double` | 右上Y轴坐标。 |
 | ` *`x2`*` | `xsd:double` | 右下x轴坐标。 |
 | ` *`y2`*` | `xsd:double` | 右下Y轴坐标。 |
 | ` *`x3`*` | `xsd:double` | 左下X轴坐标。 |
-| ` *`y3`*` | `xsd:double` | 左下方的y轴坐标。 |
+| ` *`y3`*` | `xsd:double` | 左下Y轴坐标。 |
 
 ## 示例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-类 `PerspectiveQuad` 型按以下顺序返回数据：
+`PerspectiveQuad`类型按以下顺序返回数据：
 
 ```
 <complexType name="PerspectiveQuad">
