@@ -1,6 +1,6 @@
 ---
-description: 显示重叠对象。 使所有以前隐藏的重叠对象（包括窗口覆盖框架对象）在当前选择中都可见。
-seo-description: 显示重叠对象。 使所有以前隐藏的重叠对象（包括窗口覆盖框架对象）在当前选择中都可见。
+description: 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
+seo-description: 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 seo-title: 顯示
 solution: Experience Manager
 title: 顯示
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 8%
 
 ---
 
 
 # 顯示{#show}
 
-显示重叠对象。 使所有以前隐藏的重叠对象（包括窗口覆盖框架对象）在当前选择中都可见。
+显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 
 `Show[= *`val`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>忽略。 </p></td> 
+  <td class="stentry"> <p>已忽略。 </p></td> 
  </tr> 
 </table>
 
