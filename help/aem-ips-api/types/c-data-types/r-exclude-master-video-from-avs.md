@@ -33,7 +33,7 @@ ht-degree: 13%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>从自适应视频集中排除主视频文件。 </p> <p>默认值为true。 </p> </td> 
+   <td colname="col3"> <p>从自适应视频集中排除主控视频文件。 </p> <p>默认值为true。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
