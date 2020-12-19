@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 如果指定的格式以 <span class="codeph"> -alpha结尾</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件将图像视为不透明。 </p> <p>请注意，默认情况下，该组件具有白色背景。 因此，要使其完全透明，请将 <span class="codeph"> background-color</span> CSS属性设置为 <span class="codeph"> 透明</span>。 </p> </td> 
+   <td colname="col2"> <p> 如果指定的格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件将图像视为不透明。 </p> <p>请注意，默认情况下，该组件具有白色背景。 因此，要使其完全透明，请将<span class="codeph"> background-color</span> CSS属性设置为<span class="codeph"> transparent</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
