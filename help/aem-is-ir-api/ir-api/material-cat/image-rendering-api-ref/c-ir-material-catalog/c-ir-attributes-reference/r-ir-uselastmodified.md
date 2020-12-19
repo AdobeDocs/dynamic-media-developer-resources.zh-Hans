@@ -19,7 +19,7 @@ ht-degree: 2%
 
 启用上次修改的响应标头。 启用或禁用在由图像渲染发出的可缓存HTTP响应中包含上次修改时间的头。
 
-服务器使用响应中 `vignette::TimeStamp` 涉及 `catalog::TimeStamp` 的所有暗角和材料目录／目录记录的最新和值作为“上次修改时间”标题值。
+服务器使用响应中涉及的所有暗角和材料目录／目录记录的最新`vignette::TimeStamp`和`catalog::TimeStamp`值作为“上次修改时间”标题值。
 
 仅当使用不支持etag头的分布式缓存网络（如Akamai）时，才应启用。
 
@@ -27,10 +27,10 @@ ht-degree: 2%
 >
 >在涉及多个图像服务／渲染主机的负载平衡环境中使用上次修改时，必须小心。 如果由于某种原因，服务器对同一目录条目具有不同的时间戳，则客户端缓存可能会失败并增加服务器负载。 这种情况可能发生如下：
 
-* 既 `catalog::TimeStamp`不定 `vignette::TimeStamp`义，也不定 `attribute::TimeStamp` 义，因此文件的修改时间 [!DNL catalog.ini] 将用作默认值 `catalog::TimeStamp`。
+* 既未定义`catalog::TimeStamp`、`vignette::TimeStamp`和`attribute::TimeStamp`，因此将[!DNL catalog.ini]文件的修改时间用作`catalog::TimeStamp`的默认值。
 
 * 每台服务器在本地文件系统上都有自己的目录文件实例，而不是通过网络装载来共享材料目录文件。
-* 同一文件的两个或多个实例具 [!DNL catalog.ini] 有不同的文件修改日期，这可能是由于文件复制不当所致。
+* 同一[!DNL catalog.ini]文件的两个或多个实例具有不同的文件修改日期，这可能是由于文件复制不当所致。
 
 ## 属性 {#section-453952244193452caccfaf7f601007c1}
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ## 默认 {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-如果未定 `default::UseLastModified` 义或为空，则从继承。
+如果未定义或为空，则从`default::UseLastModified`继承。
 
 ## 另请参阅 {#section-1536715169da48b0aecc4ab7326c86db}
 
