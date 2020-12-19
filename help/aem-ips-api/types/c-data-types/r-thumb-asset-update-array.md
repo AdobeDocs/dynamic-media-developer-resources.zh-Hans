@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 43b96b01-3a88-48cc-b653-262c9fb798a5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`项目`*` | `types:ThumbAssetUpdates` | 一组缩略图资源更新。 |
+| ` *`项目`*` | `types:ThumbAssetUpdates` | 一组经验资源更新。 |
 
