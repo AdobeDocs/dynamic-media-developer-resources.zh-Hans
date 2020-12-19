@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-cc36a437394c491594e704a08a161c87}
+## 授权用户类型{#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | 是 | 要返回的标记值的字段句柄数组。 |
+| ` *`fieldHandleArray`*` | `types:HandleArray` | 是 | 用于标记要返回的值的字段句柄的数组。 |
 
 **输出(getTagFieldValuesReturn)**
 
