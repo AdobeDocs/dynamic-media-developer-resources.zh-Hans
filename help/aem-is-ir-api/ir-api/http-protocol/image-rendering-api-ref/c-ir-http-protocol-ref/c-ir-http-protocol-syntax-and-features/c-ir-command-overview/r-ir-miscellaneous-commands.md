@@ -1,18 +1,21 @@
 ---
 description: 这些命令也可用。
 seo-description: 这些命令也可用。
-seo-title: 其他命令
+seo-title: 杂项命令
 solution: Experience Manager
-title: 其他命令
+title: 杂项命令
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 0%
 
 ---
 
 
-# 其他命令{#miscellaneous-commands}
+# 杂项命令{#miscellaneous-commands}
 
 这些命令也可用。
 
