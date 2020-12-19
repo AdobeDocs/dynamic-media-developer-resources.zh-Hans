@@ -1,6 +1,6 @@
 ---
-description: 一组资产操作故障。
-seo-description: 一组资产操作故障。
+description: 一组资产操作错误。
+seo-description: 一组资产操作错误。
 seo-title: AssetOperationFaultArray
 solution: Experience Manager
 title: AssetOperationFaultArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 78a77da2-2d0e-40d2-916f-28db0dd68154
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-一组资产操作故障。
+一组资产操作错误。
 
 语法
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`项目`*` | `types:AssetOperationFault` | 资产操作错误项的数组。 |
+| ` *`项目`*` | `types:AssetOperationFault` | 资产操作故障项的数组。 |
 
