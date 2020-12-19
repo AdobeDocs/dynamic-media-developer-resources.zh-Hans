@@ -1,6 +1,6 @@
 ---
-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
-seo-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
+description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
+seo-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
 seo-title: 缩放视图
 solution: Experience Manager
 title: 缩放视图
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# 缩放视图{#zoom-view}
 
-在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
+在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7mixedmediaviewer .s7zoomview
@@ -35,11 +38,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 以主视图的十六进制格式显示的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
    <td colname="col2"> <p>光标显示在主视图上。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,15 +56,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-在桌面系统上，该组件支 `cursortype` 持可应用于类的属性选择 `.s7zoomview` 器。 它根据组件状态和用户操作控制光标的类型。 The following `cursortype` values are supported:
+在桌面系统上，该组件支持`cursortype`属性选择器，该选择器可应用于`.s7zoomview`类。 它根据组件状态和用户操作控制光标的类型。 支持以下`cursortype`值：
 
 * `default`
 
-   当图像因图像分辨率较低或组件设置而无法缩放时显示，或者同时显示。
+   当图像因图像分辨率较低或组件设置（或两者）而无法缩放时显示。
 
 * `zoomin`
 
-   可放大图像时显示。
+   当图像可放大时显示。
 
 * `reset`
 
