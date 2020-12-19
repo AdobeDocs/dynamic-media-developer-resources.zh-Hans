@@ -1,6 +1,6 @@
 ---
-description: 返回包含指定Photoshop路径的四边形的坐标。
-seo-description: 返回包含指定Photoshop路径的四边形的坐标。
+description: 返回包含命名Photoshop路径的四边形的坐标。
+seo-description: 返回包含命名Photoshop路径的四边形的坐标。
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
 
 # getPhotoshopPath{#getphotoshoppath}
 
-返回包含指定Photoshop路径的四边形的坐标。
+返回包含命名Photoshop路径的四边形的坐标。
 
 语法
 
-## 授权用户类型 {#section-c417a287612847cb98dd0aa9c67fd78a}
+## 授权用户类型{#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +30,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## 参数 {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -43,7 +46,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根据路径返回图像坐标。 请参阅 [透视四轴](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根据路径返回图像坐标。 请参阅[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
 
 ## 示例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
