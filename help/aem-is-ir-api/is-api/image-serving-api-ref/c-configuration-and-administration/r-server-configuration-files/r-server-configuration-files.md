@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->大多数服务器配置文件包含其他属性和值，本文档中未对此进行说明。 这些属性仅供内部服务器使用，除非Scene7技术支持部门特别指示，否则不得修改。
+>大多数服务器配置文件都包含其他属性和值，这些属性和值在本文档中没有说明。 这些属性仅供内部服务器使用，除非Scene7技术支持部门明确指示，否则不得进行修改。
 
 本文档讨论以下配置文件的设置：
 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>服务器主管配置。 </p> </td> 
+   <td> <p>服务器管理器配置。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -57,4 +60,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tbody> 
 </table>
 
-本文档稍后将更详细地讨论这些配置文件。
+此文档稍后将更详细地讨论配置文件。
