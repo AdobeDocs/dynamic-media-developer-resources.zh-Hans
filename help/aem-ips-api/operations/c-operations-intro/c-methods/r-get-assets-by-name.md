@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-754790841ea242d5ae8bedd587d7730e}
+## 授权用户类型{#section-754790841ea242d5ae8bedd587d7730e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->仅返回用户具有读取访问权限的资产。
+>仅返回用户具有读取权限的资产。
 
 ## 参数 {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -48,61 +51,61 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 以其他用户身份提供访问。 仅适用于管理员。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用于按特定组进行筛选。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 要检索的资产名称的数组。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已检索资产允许的资产类型数组。 </td> 
+   <td colname="col4"> 检索的资产允许的资产类型的数组。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已检索资产排除的资产类型数组。 </td> 
+   <td colname="col4"> 已检索资产的已排除资产类型的数组。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 已检索资产允许的资产子类型的数组。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> strictSubType <span class="varname"> 检查</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>如 <span class="codeph"> 果为true</span> , <span class="codeph"> 且assetSubTypeArray不为空，则仅返回其子类型位于assetSubTypeArray中</span> 的资产 <span class="codeph"></span> 。 </p> <p>如果 <span class="codeph"> 为false</span>，则包含未定义子类型的资产。 </p> <p>The default value is <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不为空，则只返回子类型位于<span class="codeph"> assetSubTypeArray</span>中的资产。 </p> <p>如果<span class="codeph"> false</span>，则不包括未定义子类型的资产。 </p> <p>默认值为<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含响应中包含的字段和子字段的列表。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> excludeFieldArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含从响应中排除的字段和子字段的列表。 </td> 
