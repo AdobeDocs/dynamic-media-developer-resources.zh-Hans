@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-用于微调渲染外观。 使用晕影创作工具（Scene7图像创作包的一部分）的渲染功能创建渲染设置字符串。
+用于微调渲染外观。 使用晕影创作工具(Scene7图像创作包的一部分)的渲染功能创建渲染设置字符串。
 
 ## 属性 {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-47e4811882574441a4d517e42a35f352}
 
-在图像创作方面进行了一些试验后，确定USM锐化(USM)为给定的应用程序和材料提供了正确的锐化量。 配置USM的渲染设置字符串被复制到命令 `rs=` 中以与以下材料一起使用：
+在进行图像创作方面的一些试验后，确定USM为给定的应用程序和材料提供了正确的锐化量。 配置USM的渲染设置字符串被复制到`rs=`命令中以与此材料一起使用：
 
 `…&rs=U2V20W50X2&…`
 
