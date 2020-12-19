@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2e911d35-155e-4afa-aede-52e9d00ae211
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放时从自适应视频集播放的所需视频比特率（以千位／秒或kbps为单位）。 </p> <p>该组件会选取尽可能最接近（但不超过）指定值的比特率的视频流。 如果自适应视频集中的所有视频流的质量都高于指定值，则逻辑选择质量最低的比特率。 </p> </td> 
+   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放时从自适应视频集播放的所需视频比特率（以千位／秒或kbps为单位）。 </p> <p>该组件选取最接近（但不超过）指定值的比特率的视频流。 如果自适应视频集中的所有视频流的质量都高于指定值，则逻辑将选择质量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
