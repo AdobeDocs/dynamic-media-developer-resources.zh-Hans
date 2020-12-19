@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
 
 # 支持分析跟踪{#support-for-analytics-tracking}
 
-## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
-默认情况下，查看器将向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+默认情况下，查看器会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
-要与第三方分析系统集成，必须侦听查看器回调，并 `trackEvent` 根据需要处 `eventInfo` 理回调函数的参数。 以下代码就是此类处理函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调并根据需要处理回调函数的`eventInfo`参数。 下面的代码就是此类处理函数的一个示例：
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
