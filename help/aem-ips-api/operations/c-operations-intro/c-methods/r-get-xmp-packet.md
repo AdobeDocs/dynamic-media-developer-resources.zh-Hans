@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## 授权用户类型{#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +37,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司处理要返回的包(例如 `c|656`)。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 应检索其XMP包的资产。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 要返回的包的公司句柄（例如`c|656`）。 |
+| ` *`assetHandle`*` | `xsd:string` | 是 | 应检索XMP数据包的资产。 |
 
 **输出(getXMPPacketReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP包。 |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP数据包。 |
 
 ## 示例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
