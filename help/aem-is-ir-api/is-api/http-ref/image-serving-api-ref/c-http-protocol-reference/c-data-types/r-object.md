@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 1%
 
 ---
 
@@ -20,42 +23,42 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId </span></span> </p> </td> 
-  <td class="stentry"> <p>图像目录的名称( <span class="codeph"> 属性：:RootId </span>) </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId  </span> </span> </p> </td> 
+  <td class="stentry"> <p>图像目录的名称（<span class="codeph">属性：:RootId </span>） </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span></span> </p> </td> 
-  <td class="stentry"> <p>指定图像目录、主图像目录或默认图像目录中的图像ID、SVG、模板或ICC用户档案记录 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId  </span> </span> </p> </td> 
+  <td class="stentry"> <p>指定、主或默认图像目录中的图像、SVG、模板或ICC用户档案记录的id </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 路径 </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 路径  </span> </span> </p> </td> 
   <td class="stentry"> <p>相对图像、蒙版或ICC用户档案文件路径和名称 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 对象 </span></span> </p> </td> 
-  <td class="stentry"> <p>可能出现在主URL路径中，或出现在 <span class="codeph"> src=、 </span><span class="codeph"> mask= </span>或 <span class="codeph"> icc=命 </span> 令中 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 对象  </span> </span> </p> </td> 
+  <td class="stentry"> <p>可能出现在主URL路径中，或出现在<span class="codeph"> src= </span>、<span class="codeph"> mask= </span>或<span class="codeph"> icc= </span>命令中 </p> </td> 
  </tr> 
 </table>
 
-*`rootId`* 标识图像目录。 (See [Image Catalog](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) for details.) 如果 *`rootId`* 在URL路径中指定了该目录，则该目录将成 *为此请求的主目录* 。 否则，默认目录将用作主目录。 同一请求中可以使用多个不同的图像目录。
+*`rootId`* 标识图像目录。（有关详细信息，请参阅[图像目录](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)。） 如果在URL路径中指定了&#x200B;*`rootId`*，则该目录将成为此请求的&#x200B;*主目录*。 否则，默认目录将用作主目录。 可在同一请求中使用多个不同的图像目录。
 
-服务器最初假定 *`rootId`* 在、 `src=``mask=`和命令中省略，并 `icc=` 且将尝试在主目录中查找目录条目。 实际上，服务器会尝试将整个字符串 *`object`* 用作 *`objId.`*
+服务器最初假定`src=`、`mask=`和`icc=`命令中省略&#x200B;*`rootId`*，并将尝试在主目录中查找目录条目。 有效地，服务器会尝试将整个&#x200B;*`object`*&#x200B;字符串用作&#x200B;*`objId.`*
 
-如果找到目录条目，则使用它；否则，服务器下次尝试匹配图 *`rootId`* 像目录。 如果识别了目录，则会搜索该目录 *`objId`*。 如果找到并输入，则使用它。
+如果找到目录条目，则使用它；否则，服务器将尝试匹配图像目录的&#x200B;*`rootId`*。 如果已识别目录，则搜索&#x200B;*`objId`*。 如果找到并输入，则使用它。
 
-否则， *`object`* 假定为显式文件路径。 在这种情况下，如 `attribute::FullMatch` 果在主目录中设置，则忽略此对象的目录，而改用默认目录。 如果 `attribute::FullMatch` 未设置，则主目录用于进一步处理。
+否则，假定&#x200B;*`object`*&#x200B;为显式文件路径。 在这种情况下，如果在主目录中设置`attribute::FullMatch`，则忽略此对象的目录，而改用默认目录。 如果未设置`attribute::FullMatch`，则主目录用于进一步处理。
 
-和 *`rootId`* 均 *`objId`* 区分大小写。 *`path`* 仅在UNIX上区分大小写。
+*`rootId`*&#x200B;和&#x200B;*`objId`*&#x200B;均区分大小写。 *`path`* 仅在UNIX上区分大小写。
 
-如果指定了前导“/”，则将搜索默认目录而不是主目录。 当显式路径需要而非主目录的条目时，这 `default::RootPath` 一功能主要有用 `attribute::RootPath`，但也可以用于访问默认目录中的条目，否则这些条目将被主目录中的条目覆盖。
+如果指定了前导“/”，则将搜索默认目录，而不是主目录。 当显式路径需要`default::RootPath`而非主目录的`attribute::RootPath`时，此功能主要有用，但也可用于访问默认目录中的条目，否则这些条目将被主目录中的条目覆盖。
 
-有关如何将 *内容转换为物理文件路径的详细信息，请参阅《服务器配置指南* 》中 ***`path`* 的“管理内容”。
+有关如何将&#x200B;*`path`*&#x200B;转换为物理文件路径的详细信息，请参阅&#x200B;*服务器配置指南*&#x200B;中的&#x200B;*管理内容*。
 
 >[!NOTE]
 >
->不允许在 *`object.`*
+>在&#x200B;*`object.`*&#x200B;中不允许使用逗号“,”字符
 
-## 支持的图像文件格式 {#section-12c85aead78e4f759856ca9ff10637d7}
+## 支持的图像文件格式{#section-12c85aead78e4f759856ca9ff10637d7}
 
 有关所支持文件格式的完整列表，请参阅IC（图像转换器）实用程序的说明。
 
@@ -65,22 +68,22 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 **在两个不同的图像目录中访问图像和ICC用户档案**
 
-在标识为“ [!DNL myImage]”的图像目录中检索图像“ [!DNL myCatalog]”，并附加位于名为“ [!DNL sRGB]”的图像目录中的ICC用户档案“ [!DNL myProfiles]”:
+在标识为“ [!DNL myCatalog]”的图像目录中检索图像“ [!DNL myImage]”，并连接名为“ [!DNL myProfiles]”的图像目录中的ICC用户档案“ [!DNL sRGB]”:
 
 ` http:// *`伺服器`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
 使用具有分层的单个图像目录
 
-**构建一个由三个图层组成的简单复合图像，所有图层都从“[!DNL myCatalog]”检索：**
+**构建一个由三个图层组成的简单复合图像，所有图层均从“ [!DNL myCatalog]”检索：**
 
 ` http:// *`伺服器`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
-**在仍使用目录提供属性的同时直接访问图像文件**
+**直接访问图像文件，同时仍使用目录提供属性**
 
-访 [!DNL my/image/path/myImage.tif]问，使用在以下位置配置的默认jpg属性 `myImageCatalog`:
+使用`myImageCatalog`中配置的默认jpg属性访问[!DNL my/image/path/myImage.tif]:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 
 ## 另请参阅 {#section-b6eccefad63f441d922699c4aba58fc9}
 
-[IC实用程序](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [属性：:FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
+[IC实用程](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b)序 [,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)src= [,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)mask= [，属性：:FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
