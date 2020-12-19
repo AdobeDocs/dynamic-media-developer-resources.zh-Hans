@@ -1,6 +1,6 @@
 ---
-description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中手柄与类型以及属性类型相对应。
-seo-description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中手柄与类型以及属性类型相对应。
+description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
+seo-description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
 
 # getPropertySetType{#getpropertysettype}
 
-使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中手柄与类型以及属性类型相对应。
+使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
 
 语法
 
-## 授权用户类型 {#section-2b291d32f95b4a3d854429124cbae24c}
+## 授权用户类型{#section-2b291d32f95b4a3d854429124cbae24c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可选，因为属性集类型可以属于多个公司。 |
-| ` *`名称`*` | `xsd:string` | 是 | 属性集类型名称。 |
+| ` *`name`*` | `xsd:string` | 是 | 属性集类型名称。 |
 
 **输出(getPropertySetTypeReturn)**
 
@@ -52,10 +55,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 类型</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 类型</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">包含以下内容的类型结构： 
+   <td colname="col4">包含以下项的类型结构： 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
      <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">处理。 </li> 
      <li id="li_6004406A0D1341648A714FF3C61E4004">键入名称。 </li> 
