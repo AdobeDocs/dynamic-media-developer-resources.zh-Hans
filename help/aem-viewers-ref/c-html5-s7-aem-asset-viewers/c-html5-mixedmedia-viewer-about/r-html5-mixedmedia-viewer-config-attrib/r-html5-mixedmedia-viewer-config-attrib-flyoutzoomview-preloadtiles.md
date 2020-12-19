@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> ，以启用预加载缩放的图像。 </p> <p>设置为 <span class="codeph"> 0</span> ，以根据需要逐步加载缩放图像。 </p> <p> <p>注意： 请注意，如果启用此选项，可能会导致带宽使用率大幅提高，因为缩放后的图像必须全部加载——即使用户未执行缩放操作也是如此。 </p> </p> </td> 
+   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>以启用预加载缩放图像。 </p> <p>设置为<span class="codeph"> 0</span>可根据需要增量加载缩放图像。 </p> <p> <p>注意： 请注意，如果启用此选项，则会导致带宽使用率显着提高，因为缩放图像必须全部加载——即使用户未执行缩放操作也是如此。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
