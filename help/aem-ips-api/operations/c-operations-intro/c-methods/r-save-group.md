@@ -1,6 +1,6 @@
 ---
-description: 创建或编辑用户组。
-seo-description: 创建或编辑用户组。
+description: 创建或编辑组。
+seo-description: 创建或编辑组。
 seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 21%
 
 ---
 
 
 # saveGroup{#savegroup}
 
-创建或编辑用户组。
+创建或编辑组。
 
 语法
 
-## 授权用户类型 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 授权用户类型{#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,8 +35,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 包含要保存的组的公司的句柄。 |
 | ` *`groupHandle`*` | `xsd:string` | 否 | 组的句柄。 |
-| ` *`名称`*` | `xsd:string` | 是 | 群组名称. |
-| ` *`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 默认。 |
+| ` *`name`*` | `xsd:string` | 是 | 群组名称. |
+| ` *`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 。 |
 
 **输出(saveGroupReturn)**
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-此代码示例创建属于特定公司的组。 如果组已存在，则会使用您指定的参数值保存该组。
+此代码示例创建属于特定公司的组。 如果组已存在，则会使用您指定的参数值进行保存。
 
 **请求**
 
