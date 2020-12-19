@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# fm{#fmt}
+# fmt{#fmt}
 
 回复图像格式。 指定发送到客户端的图像数据的图像编码格式和HTTP响应头的相应响应MIME类型。
 
@@ -83,7 +83,7 @@ ht-degree: 4%
   <td class="stentry"> <p>具有255种颜色的GIF以及键色透明度。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> pixelType  </span> </p> </td> 
   <td class="stentry"> <p>rgb </p> </td> 
   <td class="stentry"> <p>返回RGB图像数据。 </p> </td> 
  </tr> 
@@ -98,7 +98,7 @@ ht-degree: 4%
   <td class="stentry"> <p>返回CMYK图像数据。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="varname"> tiffCompression </span> </td> 
+  <td class="stentry"> <span class="varname"> tiffCompression  </span> </td> 
   <td class="stentry"> <p>无 </p> </td> 
   <td class="stentry"> <p>未压缩. </p> </td> 
  </tr> 
@@ -119,21 +119,21 @@ ht-degree: 4%
  </tr> 
 </table>
 
-*`pixelType`* 不指定时效果输出色 `icc=` 彩空间转换；将应用与对应的默认颜 *`pixelType`* 色用户档案。 如果禁用颜色管理，则应用天真的转换。 *`pixelType`* 指定时将 `icc=` 忽略，这将决定输出像素类型。
+*`pixelType`* 不指定时效果输出 `icc=` 色彩空间转换；将应用与对应的默 *`pixelType`* 认颜色用户档案。如果禁用颜色管理，则应用天真的转换。 *`pixelType`* 当指定时 `icc=` 将忽略，这将确定输出像素类型。
 
-*`compression`* 仅当将tif、tif-alpha或PDF指定为时，才允许 *`format`*。 有关这些图像格式支持的压缩选项，请参阅下表。
+*`compression`* 仅当将tif、tif-alpha或PDF指定为时，才允许 *`format`*。有关这些图像格式支持的压缩选项，请参阅下表。
 
-`qlt-` 为以下格式设置JPEG编码选项：JPEG、带JPEG压缩的TIFF、带JPEG压缩的PDF和SWF文件。 在或 `quantize=` 时 `fmt=gif` 使用 `fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+`qlt-` 为以下格式设置JPEG编码选项：JPEG、带JPEG压缩的TIFF、带JPEG压缩的PDF和SWF文件。如果`fmt=gif`或`fmt=gif-alpha`，请使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
 对于所有格式和像素类型，返回8位／像素组件。
 
-下表列表了有效的组合 *`format`* 和 *`pixelType`*&#x200B;相应的HTTP响应MIME类型，是否可以嵌入ICC用户档案(请参阅 [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f))，以及可以应用哪些格式特定的选项命令。
+下表列表了&#x200B;*`format`*&#x200B;和&#x200B;*`pixelType`*&#x200B;的有效组合、相应的HTTP响应MIME类型、是否可以嵌入ICC用户档案（请参阅[iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)）以及可应用哪些格式特定的选项命令。
 
 <table id="table_3461A367632E4B5A8AB578850A439024"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p> <span class="varname"> 格式 </span> </p> </th> 
-   <th colname="col2" class="entry"> <p> <span class="varname"> pixelType </span> </p> </th> 
+   <th colname="col2" class="entry"> <p> <span class="varname"> pixelType  </span> </p> </th> 
    <th colname="col3" class="entry"> <p>响应MIME类型 </p> </th> 
    <th colname="col4" class="entry"> <p>嵌入ICC用户档案 </p> </th> 
    <th colname="col5" class="entry"> <p>选项 </p> </th> 
@@ -143,56 +143,56 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p>jpeg, jpg </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <span class="codeph"> qlt= </span> </td> 
+   <td colname="col5"> <span class="codeph"> qlt=  </span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>png, png-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
    <td colname="col2"> <p>rgb </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg),pathEmbed=,qlt </span> </p> <p>(除 <span class="codeph"> 非tiffCompression设 </span> 置为“jpeg”，否 <span class="varname"></span> 则将忽略qlt=。) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression  </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg),pathEmbed=,qlt  </span> </p> <p>（除非将<span class="varname"> tiffCompression </span>设置为“jpeg”，否则将忽略<span class="codeph"> qlt= </span>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf,swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
    <td colname="col4"> <p>否 </p> <p>(该Flash Player忽略嵌入的ICC用户档案。) </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt=, </span>属 <span class="codeph"> 性：:TrustedDomains </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt=, </span>属 <span class="codeph"> 性：:TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pdf </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> （无|zip|jpeg）,qlt= </span> </p> <p> (除 <span class="codeph"> 非tiffCompression设 </span> 置为“jpeg”，否 <span class="varname"></span> 则将忽略qlt=。) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression  </span> </p> <p> <span class="codeph"> （无|zip|jpeg）,qlt=  </span> </p> <p> （除非将<span class="varname"> tiffCompression </span>设置为“jpeg”，否则将忽略<span class="codeph"> qlt= </span>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
    <td colname="col2"> <p>rgb、灰色、cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>是 </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed=  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>gif, gif-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰色 </p> <p>（数据在转换为灰色或rgb后转换为调色板。） </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>否 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -201,7 +201,7 @@ ht-degree: 4%
 
 指定发送到客户端的回复图像数据的编码格式以及HTTP回复标头的相应响应MIME类型。
 
-`png-alpha` 返回未关联的alpha（即，alpha不预乘像素值）, `tif-alpha`而返回 `swf-alpha` 关联的alpha（即，alpha值与alpha值预乘）。 Alpha渠道与暗角的背景遮罩的逆对 `req=img`应，在情况下与组或对象遮罩对应 `req=object`。 要在使用嵌套IR请求时应用Alpha, `fmt=` 请向嵌入的IR请求和主请求添加相应的Alpha文件格式。 如果使用CMYK或灰度ICC用户档案指定，则不返回Alpha数据 `icc=`。
+`png-alpha` 返回未关联的alpha（即，alpha不会预乘像素值），而 `tif-alpha`返回 `swf-alpha` 关联的alpha（即，alpha值与alpha值预乘）。alpha渠道与`req=img`的暗角背景遮罩的反比，与`req=object`的组或对象遮罩相对应。 要在使用嵌套的IR请求时应用alpha，请向嵌入的IR请求和主请求添加具有相应alpha文件格式的`fmt=`。 如果使用`icc=`指定了CMYK或灰度ICC用户档案，则不返回alpha数据。
 
 ## 属性 {#section-eb12a82c69d84622bcea153dd84d95b3}
 
@@ -209,8 +209,8 @@ ht-degree: 4%
 
 ## 默认 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* 默认值 `attribute::Format`为 *`tiffCompression`* ，默认值为 `attribute::TiffEncoding`。 *`pixelType`* 如果未 `rgb` 指 `icc=` 定，则默认为，否则它与指定ICC用户档案的像素类型相对应。
+*`format`* 默认值 `attribute::Format`为， *`tiffCompression`* 默认值为 `attribute::TiffEncoding`。*`pixelType`* 如果未 `rgb` 指 `icc=` 定，则默认为，否则它与指定ICC用户档案的像素类型相对应。
 
 ## 另请参阅 {#section-c55efc881fc94c70bff91b870e026a7b}
 
-[属性：：格式](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) ，属 [性：:JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50)，属 [性：:TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), qlt=,iccEmbed [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)[=路径Embed=路径，reqReq==,Qreq=ze=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)
+[属性：：格式](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) ，属 [性：:JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50)，属 [性：:TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), qlt=,iccIcc [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd) [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f) [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb) [=嵌入路径，Embed=路径，req=,qreq=embed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)
