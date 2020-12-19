@@ -1,6 +1,6 @@
 ---
-description: 返回给定图像的Photoshop路径名数组。
-seo-description: 返回给定图像的Photoshop路径名数组。
+description: 返回给定图像的Photoshop路径名称数组。
+seo-description: 返回给定图像的Photoshop路径名称数组。
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-返回给定图像的Photoshop路径名数组。
+返回给定图像的Photoshop路径名称数组。
 
 语法
 
-## 授权用户类型 {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 授权用户类型{#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | 是 | 图像中的Photoshop路径名称数组。 |
+| ` *`pathNameArray`*` | `types:StringArray` | 是 | 图像中的一组Photoshop路径名。 |
 
 ## 示例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
