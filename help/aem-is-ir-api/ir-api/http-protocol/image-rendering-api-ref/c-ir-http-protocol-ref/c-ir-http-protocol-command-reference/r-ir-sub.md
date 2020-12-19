@@ -1,20 +1,23 @@
 ---
-description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
-seo-description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
+description: 子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
+seo-description: 子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
 seo-title: sub
 solution: Experience Manager
-title: sub
+title: 子
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 7%
 
 ---
 
 
 # sub{#sub}
 
-子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
+子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
 
 `sub=0|1|2|3|4|5`
 
@@ -45,9 +48,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-当前仅支持墙对象。 终止前面的MSS并开始新的MSS以将材料应用于指定的子选择。
+当前仅支持墙对象。 终止前一个MSS并开始新的MSS以应用到指定的子选择。
 
-为上壁或下壁指定的材料将应用于整个壁，除非为另一半壁指定不同的材料。
+为上壁或下壁指定的材料将应用于整个壁，除非也为另一半壁指定了不同的材料。
 
 ## 属性 {#section-b202139d6d0847cc8d520a154104ab9d}
 
