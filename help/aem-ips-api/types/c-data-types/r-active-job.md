@@ -63,7 +63,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">随作业提 <span class="codeph"> 交的</span> ActiveJob类型的原始名称。 </td> 
+   <td colname="col3">随作业提交的<span class="codeph"> ActiveJob</span>类型的原始名称。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 类型</span> </span> </td> 
@@ -83,12 +83,12 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置 <span class="codeph"> 指定为&lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写、双字母代码，可选国家／地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为： <span class="codeph"> CN</span>。 </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写、双字母代码，可选国家／地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：<span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初在submitJob中指定的作 <span class="codeph"> 业描述</span>。 </td> 
+   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业描述。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -173,7 +173,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上传的文件。 请参阅 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>。 </td> 
+   <td colname="col3">允许授权导出以前上传的文件。 请参阅<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">导出作业</a>。 </td> 
   </tr> 
  </tbody> 
 </table>
