@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-eab49f4b6d1041179000326a10fee889}
+## 授权用户类型{#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 对要重新启动的作业的公司的句柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 要重新启动的作业的公司的句柄。 |
 | ` *`jobHandle`*` | `xsd:string` | 是 | 暂停作业的句柄。 |
 
 **输出(resumeJobReturn)**
