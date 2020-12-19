@@ -1,6 +1,6 @@
 ---
-description: Video360查看器的URL命令。
-seo-description: Video360查看器的URL命令。
+description: 用于Video360查看器的URL命令。
+seo-description: 用于Video360查看器的URL命令。
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
@@ -8,21 +8,24 @@ topic: Dynamic media
 uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 
 # videoServerUrl{#videoserverurl}
 
-Video360查看器的URL命令。
+用于Video360查看器的URL命令。
 
 ` videoServerUrl= *`videoRootPath`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoRootPath <span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则将应用为页面提供服务的域。 标准URI路径分辨率适用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则将应用提供页面的域。 应用标准URI路径解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
