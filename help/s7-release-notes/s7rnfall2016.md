@@ -1,9 +1,9 @@
 ---
-description: Adobe Scene7 2016年秋季版本的最新发行说明是该Adobe Marketing Cloud中Adobe Experience Manager解决方案的一部分。
-seo-description: Adobe Scene7 2016年秋季版本的最新发行说明是该Adobe Marketing Cloud中Adobe Experience Manager解决方案的一部分。
-seo-title: Scene7 2016年秋发布
+description: Adobe Scene72016年秋季版本的最新发行说明是Adobe Marketing CloudAdobe Experience Manager解决方案的一部分。
+seo-description: Adobe Scene72016年秋季版本的最新发行说明是Adobe Marketing CloudAdobe Experience Manager解决方案的一部分。
+seo-title: Scene72016年秋发布
 solution: Experience Manager
-title: Scene7 2016年秋发布
+title: Scene72016年秋发布
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
@@ -15,38 +15,38 @@ ht-degree: 0%
 ---
 
 
-# Scene7 2016年秋发布{#scene-fall-release}
+# Scene72016年秋发布{#scene-fall-release}
 
-Adobe Scene7 2016年秋季版本的最新发行说明是该Adobe Marketing Cloud中Adobe Experience Manager解决方案的一部分。
+Adobe Scene72016年秋季版本的最新发行说明是Adobe Marketing CloudAdobe Experience Manager解决方案的一部分。
 
-## Scene7 2016年秋发布 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene72016年秋发布{#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-2016年秋季版本 [!DNL Adobe Scene7] 的最新发行说明，是解决方案 [!DNL Adobe Experience Manager] 的一部分 [!DNL Adobe Marketing Cloud]。
+[!DNL Adobe Marketing Cloud]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Scene7] 2016年秋季版本部分的最新发行说明。
 
 * [常规](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7出版系统](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [查看器（图像服务5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [查看器（图像服务5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [查看器（图像服务5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5查看器SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2和图像渲染6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Scene7HTML5查看器SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Scene7图像服务6.3.2和图像渲染6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 常规 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
+Adobe兴奋地宣布推出HTTP/2投放的内容，同时提高性能的整体优势。
 
-请参 [阅HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+请参阅[HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
-## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
+## Scene7出版系统{#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅 [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+有关完整文档，请参阅[https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 
 **新增功能、增强和错误修复**
 
-* 从用户界面删除了视 [!DNL Adobe Scene7 Publishing System] 频剪辑功能。
-* 在必要和可能的情况下，为所有Scene7 Servlet添加身份验证。
+* 从[!DNL Adobe Scene7 Publishing System]用户界面删除了视频剪辑功能。
+* 在必要和可能的情况下，为所有Scene7Servlet添加身份验证。
 * 涉及垃圾桶中列表视图的错误修复。
-* 由于 **安全考虑** ，已从用户管理中删除创建SPSAdmin用户功能。
+* 由于安全考虑，已从“用户管理”中删除了&#x200B;**创建SPSAdmin**&#x200B;用户功能。
 * FTP WebAdmin现在支持OKTA身份验证。
 * 删除了为新Media Portal用户创建的默认密码的功能。
 * 错误修复，涉及添加新用户时生成的临时密码。 密码不符合必要的密码要求。
@@ -56,12 +56,12 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 * 错误修复，涉及发送给未包含身份验证的新Scene7用户的欢迎电子邮件以控制某些设置。
 * 错误修复：如果文件夹名称中有特殊字符，则无法检索FTP文件夹列表。
 * 为Scene7服务提供商配置OKTA环境。
-* 增加了对查看器Analytics的Marketing Cloud组织ID的支持。
-* 已实现Scene7 SAML使用者。
+* 增加了对查看器分析Marketing Cloud组织ID的支持。
+* 实施了Scene7SAML消费者。
 
-## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## 查看器（图像服务5.5.3）{#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参 [阅查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **图像服务5.5.3的错误修复**
 
@@ -69,18 +69,18 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
    在查看器部署期间整合的SDK JS缓存。
 
-## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
+## 查看器（图像服务5.5.2）{#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参 [阅查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **图像服务5.5.2的错误修复**
 
 * 在Windows 7上的Internet Explorer 11中播放视频失败。
 * `initialframe` 未影响HTML5 eCatalog的移动设备上的纵向模式。
 
-## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
+## 查看器（图像服务5.5.1）{#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参 [阅查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.1的新增功能、增强和错误修复**
 
@@ -90,7 +90,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 * 为Analytics集成添加了Marketing Cloud组织ID支持。
 * 将AppMeasurement JavaScript库更新至版本1.6.1。
 * 在eCatalog查看器中增加了对从右到左方向的支持。
-* 修复了 `tip=0,-1,0` 导致超出范围错误的问题。
+* 修复了`tip=0,-1,0`导致超出范围错误的问题。
 
 **兼容性说明**
 
@@ -129,8 +129,8 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * HTML5视频
 
-   * Internet Explorer 9: 自定义海报图像不显示。
-   * `IntialBitRate` 只有软件HLS和Flash HDS播放支持修改器。 当播放使用本机播放器时，它不工作。
+   * Internet Explorer 9:自定义海报图像不显示。
+   * `IntialBitRate` 只有软件HLS和FlashHDS回放才支持修改程序。当播放使用本机播放器时，它不工作。
    * 目前不支持OGG和WebM渐进式播放。
    * 浏览器缩放可能导致视频播放器以不正确的大小显示（包括Windows OS控制面板显示设置）
    * 在Safari上使用HLS流进行视频搜索可能不一致。
@@ -148,32 +148,32 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * Safari
 
-   * Safari 6.1或更高版本： Internet插件设置可能会阻止Flash视频回放。
+   * Safari 6.1或更高版本：Internet插件设置可能会阻止Flash视频回放。
    * 在Safari上使用HLS流的视频“搜索”可能不一致。
    * 无法在使用HLS流的Safari 6上寻找视频结束。
 
 **已知问题和限制**
 
-* 来源的图像服务修 `iscommands` 饰符不会按设计 `req=set` 添加到请求中。 仅影响图像显示的修饰符可以正常工作。 影响大小的修改量必须用于复杂资产。 例如，
+* `iscommands`中的图像服务修饰符不会按设计添加到`req=set`请求中。 仅影响图像显示的修饰符可以正常工作。 影响大小的修改量必须用于复杂资产。 例如，
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [弹出] IE9有时在鼠标关闭后仍保留在屏幕上。
+* [关] 闭鼠标后，FlyoutIE9有时仍保留在屏幕上。
 * 浏览器缩放会导致错误的大小调整。
-* iPad 2: 大型eCatalog资源将使iOS上的Safari崩溃。
+* iPad 2:大型eCatalog资源将使iOS上的Safari崩溃。
 * 所有查看器
 
    * 不支持水印、模糊处理和锁定。
    * 不支持图像预设。
-   * 目前不支持使用CSS或 `display:none` 通过从父节点动态分离查看器来在DOM中添加或删除查看器。
+   * 目前不支持使用`display:none` CSS或通过从父节点动态分离来在DOM中添加或删除查看器。
 
 * HTML5所有查看器
 
    * 将查看器嵌入表中可能会导致查看器在非本机全屏模式下的大小调整或位置不正确。 建议改用DIV。
-   * 代码中具有显式实例名称的参数要求URL中的实例名称也被覆盖(例如 `zoomView.iconfeffect=0`)。
+   * 代码中具有显式实例名称的参数要求URL中的实例名称也被覆盖（例如，`zoomView.iconfeffect=0`）。
    * 此时不支持图像服务命令裁剪。
    * 仅当查看器在子窗口中打开时，“关闭”按钮才起作用。
-   * 该修 `iscommands` 饰符不支持影响图像大小的图像服务修饰符。
+   * `iscommands`修饰符不支持影响图像大小的图像服务修饰符。
 
 * HTML5电子目录
 
@@ -189,13 +189,13 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * HTML5 Social
 
-   * 要在传出电子邮件中正确呈现缩览 `serverurl` 图，修饰符必须具有绝对URL。
+   * 要在传出电子邮件中正确呈现缩略图，`serverurl`修饰符必须具有绝对URL。
 
 * HTML5视频
 
    * 海报图像可能遇到“最大大小”错误。 公司可能需要增加图像服务发布的限制设置。
-   * 如果从外部服务器（而非Scene7服务器）提供托管HTML页面的视频字幕，则视频字幕需要公司规则集。 联系Adobe支持寻求帮助。
-   * Analytics跟踪可能报告播放百分比不正确，因为缓冲
+   * 如果从外部服务器(而非Scene7服务器)提供托管HTML页面的视频字幕，则视频字幕需要公司规则集。 联系Adobe支持寻求帮助。
+   * 由于缓冲，分析跟踪可能报告播放百分比不正确
    * 黑框（而非海报图像）可能显示在iPad或Android设备上。
    * 在iPad或Android设备上加载查看器时，黑框可能在屏幕上闪烁。
    * 当背景在iPad设备上设置为白色／透明时，VideoPlayer组件一侧显示黑色边框。
@@ -204,14 +204,14 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
    * 海报图像在Microsoft Edge浏览器中可能首次不显示访客。
    * 在Internet Explorer 9中加载视频后，当使用渐进式回放时，海报图像可能会隐藏。
 
-## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7HTML5查看器SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-用户指南位于客户端安装的Adobe HTML5查看器SDK文件夹中。 组件API文档位于客户端安装的docs子文件夹中。
+《用户指南》位于客户端安装的AdobeHTML5查看器SDK文件夹中。 组件API文档位于客户端安装的docs子文件夹中。
 
 **3.0.2的错误修复**
 
 * VideoPlayer —— 在Windows 7上的Internet Explorer 11中播放视频失败
-* TableOfContents —— 不 `initialframe` 影响HTML5 eCatalog查看器的移动设备上的纵向模式。
+* TableOfContents - `initialframe`不影响HTML5 eCatalog查看器的移动设备上的纵向模式。
 
 **3.0.1的新增功能、增强和错误修复**
 
@@ -229,7 +229,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * 浮动缩放视图
 
-   * 修复了 `tip=0,-1,0` 导致超出范围错误的情况。
+   * 修复了`tip=0,-1,0`导致超出范围错误的情况。
 
 **兼容性说明**
 
@@ -294,9 +294,9 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * 所有组件
 
-   * 在版本2.7.2及更早版本中，某些组件已使用API添加到 `insertBefore()` DOM。 因此，无论何时创建组件实例相对于其他组件，这些组件都会将自己置于堆叠顺序的底部。 在2.8.1版本中，所有组件现在都在使 `appendChild()` 用API，这意味着组件堆叠顺序将与实例创建顺序匹配。
+   * 在版本2.7.2及更早版本中，使用`insertBefore()` API将一些组件添加到DOM。 因此，无论何时创建组件实例相对于其他组件，这些组件都会将自己置于堆叠顺序的底部。 在2.8.1版本中，所有组件现在都在使用`appendChild()` API，这意味着组件堆叠顺序将与实例创建顺序匹配。
 
-   * 不支 `iscommand` 持使用修饰符设置图像Alpha渠道格式。 请改用 `FMT` 组件参数。
+   * 不支持使用`iscommand`修饰符设置图像alpha渠道格式。 请改用组件`FMT`参数。
    * 目前不支持CSS转换属性。
 
 * 触控设备
@@ -305,7 +305,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * 容器
 
-   * 不支持容器上的边框、边距和边距。 Adobe建议向父DIV中添加样式元素。
+   * 不支持容器上的边框、边距和边距。 Adobe建议向父DIV添加样式元素。
    * 需要显式设置容器大小，否则可以正确调整组件大小。
 
 * 打印组件
@@ -314,7 +314,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * IconEffect组件
 
-   * 如果禁用（设置为）,IconEffect在Internet `autohide` Explorer上生成脚本 `0`错误。
+   * 如果`autohide`被禁用（设置为`0`）,IconEffect会在Internet Explorer上生成脚本错误。
 
 * ImageMapEffect组件
 
@@ -330,7 +330,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 
 * PageScrubber组件
 
-   * 在iPhone 5上，当PageScrubber气泡设置为文本时，它在按轨道滑动按钮时显示伪影。 在样 `-webkit-background-clip: content;` 式中使用可以解决问题。
+   * 在iPhone 5上，当PageScrubber气泡设置为文本时，它在按轨道滑动按钮时显示伪影。 在样式中使用`-webkit-background-clip: content;`可解决该问题。
 
 * 旋转视图组件
 
@@ -339,7 +339,7 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
 * 色板组件
 
    * 选择越界色板时，将显示2个高亮。
-   * 方法自动滚 `selectSwatch()` 动工作不正确。
+   * 使用`selectSwatch()`方法的自动滚动工作不正确。
 
 * VideoPlayer
 
@@ -348,8 +348,8 @@ Adobe欣然宣布推出HTTP/2投放内容，并从整体上改善性能。
    * 海报图像在Microsoft Edge浏览器中可能首次不显示访客。
    * 在Internet Explorer 9中加载视频后，当使用渐进式回放时，海报图像可能会隐藏。
 
-## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Scene7图像服务6.3.2和图像渲染6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC实用程序 `downsample2x2` -不再支持标志。 此标志是质量较差的2x2下采样器，IPS不再使用它。
-* CORS头——当前，已为请求配置CORS `/is/content/` 头。
+* 不再支持IC实用程序- `downsample2x2`标志。 此标志是质量较差的2x2下采样器，IPS不再使用它。
+* CORS头——当前，为`/is/content/`请求配置了CORS头。
 
