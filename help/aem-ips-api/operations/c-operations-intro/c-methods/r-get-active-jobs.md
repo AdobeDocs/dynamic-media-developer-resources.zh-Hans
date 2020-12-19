@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-125557a6ea7b4fc894d4bb468cd02118}
+## 授权用户类型{#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,7 +39,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
-| ` *`jobHandle`*` | `xsd:string` | 否 | 工作的处理。 |
+| ` *`jobHandle`*` | `xsd:string` | 否 | 工作的手。 |
 | ` *`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
 
 **输出(getActiveJobsReturn)**
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，由于IPS调度协调器处于禁用状态，并且没有正在运行的活动作业，因此该响应是不正常的。 在正常情况下，应对措施将会返回一些活跃的工作。
+此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，由于IPS调度协调器处于禁用状态且没有运行活动作业，因此该响应异常。 在正常情况下，响应会返回一些活跃的工作。
 
 **请求**
 
