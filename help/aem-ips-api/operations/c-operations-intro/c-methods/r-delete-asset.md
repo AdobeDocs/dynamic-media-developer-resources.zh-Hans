@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-e913be43b684491daf02bc73211e4290}
+## 授权用户类型{#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +49,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-d5657289f5234bb0a613dcf691507958}
 
-此示例代码从特定公司中删除任何类型的资产。 它需要一个资产句柄，您必须从其他操作获取该句柄。
+此示例代码从特定公司删除任何类型的资产。 它需要一个资产句柄，您必须从其他操作获取该句柄。
 
 **请求**
 
