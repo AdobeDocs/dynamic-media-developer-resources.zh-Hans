@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 eCatalog Search Viewer的主类是eCatalogSearchViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
-在以下所有示例中， `<instance>` 代表从类实例化的JavaScript查看器对象的实际名 `s7viewers.eCatalogSearchViewer` 称。
+在以下所有示例中，`<instance>`代表从`s7viewers.eCatalogSearchViewer`类实例化的JavaScript查看器对象的实际名称。
 
-* [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
+* [处置](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
 * [getComponent](r-html5-ecatsearch-javascriptapiref-getcomponent.md)
-* [init](r-html5-ecatsearch-javascriptapiref-init.md)
+* [初始化](r-html5-ecatsearch-javascriptapiref-init.md)
 * [setAsset](r-html5-ecatsearch-javascriptapiref-setasset.md)
 * [setContainerId](r-html5-ecatsearch-javascriptapiref-setcontainerid.md)
 * [setHandlers](r-html5-ecatsearch-javascriptapiref-sethandlers.md)
-* [setLocalizedText](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
+* [setLocalizedTexts](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-ecatsearch-javascriptapiref-setparam.md)
 * [setParams](r-html5-ecatsearch-javascriptapiref-setparams.md)
