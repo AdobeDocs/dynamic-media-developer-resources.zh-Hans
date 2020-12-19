@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 显示打印机标记。 指定如何显示打印机标记。
 
-` printerMark= *`裁切标`*, *`记出血`*, *`标记注`*, *`册标记颜`*, *`色条`*, *``*, *`纹信息线`*, *`粗细图层嵌入`*`
+` printerMark= *`裁切标`*, *`记出`*, *`血标记`*, *`注`*, *`册标`*, *``*, *`记颜色`*, *`标记线加权图嵌入`*`
 
 可以关闭或打开不同的标记。 还可以控制打印机标记的样式。
 
@@ -55,7 +58,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>行权重= </p></td> 
-  <td class="stentry"> <p>0.125 - 2.0范围内的任何值，包括这两个值。 </p></td> 
+  <td class="stentry"> <p>范围0.125 - 2.0中的任意值，包括这两个值。 </p></td> 
   <td class="stentry"> <p>默认值为 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
