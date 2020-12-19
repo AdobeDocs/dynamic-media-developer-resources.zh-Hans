@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c7727267-05b6-4011-9ddf-7f3134e9609b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 7%
 
 ---
 
@@ -30,27 +33,27 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 标记字段句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">取决于标记字段类型以及是使用value或valueArray字段。 
+   <td colname="col3">取决于标记字段类型以及是否使用valueArray字段。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果 <span class="codeph"> 传递了值</span> ，则 <span class="codeph"></span> op必须是字符串常数Matches。 该条件匹配与标记值关联的任何资产。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果 <span class="codeph"> 传递了valueArray</span> ，则op字段可以是单值或多值标记字段的常 <span class="codeph"> 量MatchesAny</span> 。 “匹 <span class="codeph"> 配任何</span> ”条件匹配与valueArray中至少一个标记值关联的任何资 <span class="codeph"> 产</span>。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，op字段可设置为常量MatchesAll <span class="codeph"> (与valueArray字段</span> 一起) <span class="codeph"></span> 。 在这种情况下，该条件仅匹配与valueArray中所有标记值(可能除了其他标记值之外 <span class="codeph"></span> )关联的资产。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果传递了<span class="codeph">值</span>，则<span class="codeph"> op</span>必须是字符串常数Matches。 该条件匹配与标记值关联的任何资产。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果传递了<span class="codeph"> valueArray</span>，则op字段可以是单个或多值标记字段的常数<span class="codeph"> MatchesAny</span>。 <span class="codeph"> MatchesAny</span>条件匹配与<span class="codeph"> valueArray</span>中至少一个标记值关联的任何资产。 </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，op字段可设置为常数<span class="codeph"> MatchesAll</span>和<span class="codeph"> valueArray</span>字段。 在这种情况下，该条件仅匹配与<span class="codeph"> valueArray</span>中的所有标记值（可能是除其他标记值之外）关联的资产。 </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 匹配值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> valueArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 多个匹配值。 </td> 
   </tr> 
