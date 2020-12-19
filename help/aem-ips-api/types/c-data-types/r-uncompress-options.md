@@ -39,9 +39,9 @@ ht-degree: 6%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>控制ZIP和TAR存档文件处理。 提供2个选项： 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：</span> 作为主要资产处理。 </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 解压缩：</span> 提取和处理内容。 </li>
-     </ul><p>注意： 字符串常量区分大小写。 使用 <span class="codeph"> UnCompress</span>，而不 <span class="codeph"> 是解压</span> 或 <span class="codeph"> unCompress</span>。 </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：作</span> 为主资产处理。 </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress：提</span> 取和处理内容。 </li>
+     </ul><p>注意：字符串常量区分大小写。 使用<span class="codeph"> UnCompress</span>，而不是<span class="codeph">解压缩</span>或<span class="codeph"> unCompress</span>。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +59,9 @@ ht-degree: 6%
     </complexType>
 ```
 
-## 使用者 {#section-b2a829cf5511412e968bb2000f85cc31}
+## 由{#section-b2a829cf5511412e968bb2000f85cc31}使用
 
-类 `unCompressionOptions` 型由：
+`unCompressionOptions`类型由：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
