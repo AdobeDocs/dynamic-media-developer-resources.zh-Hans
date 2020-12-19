@@ -8,14 +8,17 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 05e97255-db4d-4587-94d2-a7ea608ff7d4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
 
-# Restrictions{#restrictions}
+# 限制{#restrictions}
 
 嵌套和嵌入有一些限制。
 
-为了获得良好的服务器性能，嵌套请求返回的图像分辨率应与应用材料的对象的纹理分辨率合理匹配。
+为获得良好的服务器性能，嵌套请求返回的图像分辨率应与应用材料的对象的纹理分辨率合理匹配。
 
-外部图像在本地缓存。 只有在本地缓存条目失效（基于过期的HTTP头）后，才会检测对此类图像所做的任何更改。
+外部图像在本地缓存。 只有本地缓存条目失效（基于过期的HTTP头）后，才会检测对此类图像所做的任何更改。
