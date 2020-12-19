@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe387eba-a30d-49d5-9e53-2083f42a5dd0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,6 +25,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`名称`*` | `xsd:string` | 属性名称。 |
+| ` *`name`*` | `xsd:string` | 属性名称。 |
 | ` *`值`*` | `xsd:string` | 属性值。 |
 
