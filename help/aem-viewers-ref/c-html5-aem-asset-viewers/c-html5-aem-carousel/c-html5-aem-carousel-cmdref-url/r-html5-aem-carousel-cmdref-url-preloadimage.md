@@ -1,13 +1,16 @@
 ---
 description: 传送查看器的URL命令。
 seo-description: 传送查看器的URL命令。
-seo-title: preloadimage**
+seo-title: preloadimage*
 solution: Experience Manager
-title: preloadimage**
+title: preloadimage*
 topic: Dynamic media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用(<span class="codeph"> 1</span>)或禁用(<span class="codeph"> 0</span>)预载图像功能。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 预载图像</a>。 </p> </td> 
+   <td colname="col2"> <p> 启用(<span class="codeph"> 1</span>)或禁用(<span class="codeph"> 0</span>)预载图像功能。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local">预载图像</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
