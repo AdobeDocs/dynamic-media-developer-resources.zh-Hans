@@ -1,13 +1,16 @@
 ---
 description: 资产集类型资产的属性。
 seo-description: 资产集类型资产的属性。
-seo-title: AssetSetInfo
+seo-title: 资产集信息
 solution: Experience Manager
-title: AssetSetInfo
+title: 资产集信息
 topic: Scene7 Image Production System API
 uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`setDefinition`*` | `xsd:string` | 根据目标IS查看器的要求设置格式的资产集定义。 可以包含可选的IPS替换参数。 |
+| ` *`setDefinition`*` | `xsd:string` | 资产集定义根据目标IS查看器的要求设置格式。 可以包含可选的IPS替换参数。 |
 
