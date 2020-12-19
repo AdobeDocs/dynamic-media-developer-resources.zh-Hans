@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 010814a8-1d29-4b02-8449-cb26e4335e07
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 故障类型 {#section-425697675cac4b2ab5c48bd463956401}
+## 故障类型{#section-425697675cac4b2ab5c48bd463956401}
 
 | ID | 故障 |
 |---|---|
@@ -25,10 +28,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 30002 | `IPS_API_FAULT_CODE_MISSING_PARAMETER` |
 | 30003 | `IPS_API_FAULT_CODE_INVALID_REQUEST_XML` |
 
-## 故障字段 {#section-37fe1aef1d5f4ca480071ca933aba826}
+## 故障字段{#section-37fe1aef1d5f4ca480071ca933aba826}
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `code` | `xsd:int` | 错误ID |
-| `reason` | `xsd:string` | 描述错误的信息消息。 |
+| `reason` | `xsd:string` | 描述错误的信息。 |
 
