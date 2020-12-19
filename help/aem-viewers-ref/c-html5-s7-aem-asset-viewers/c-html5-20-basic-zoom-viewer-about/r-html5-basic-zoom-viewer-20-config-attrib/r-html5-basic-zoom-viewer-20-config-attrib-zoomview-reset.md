@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3f46660f-28d4-421b-b35a-27c3bfb53579
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在帧（图像）更改时重置视图端口。 如果设置为 <span class="varname"> 0</span> ，则保留当前视图端口，并尽可能保持最佳匹配，同时保留新设置图像的长宽比。 </p> </td> 
+   <td colname="col2"> <p> 当帧（图像）更改时重置视图端口。 如果设置为<span class="varname"> 0</span>，则保留当前视图端口，同时保留新设置图像的长宽比，并尽可能保持最佳的适合。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
