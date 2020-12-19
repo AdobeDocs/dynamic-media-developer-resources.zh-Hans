@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 22302bb0-914a-4d50-a188-9c3ee58e0481
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
@@ -22,8 +25,8 @@ batchSetAssetMetadata操作中单个更新的警告或错误详细信息。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 设置其元数据失败的资产。 |
-| ` *`fieldHandle`*` | `xsd:string` | 设置其值的元数据字段的句柄未成功。 |
+| ` *`assetHandle`*` | `xsd:string` | 元数据设置失败的资产。 |
+| ` *`fieldHandle`*` | `xsd:string` | 元数据字段的句柄，其值设置失败。 |
 | ` *`代码`*` | `xsd:int` | 错误代码。 |
 | ` *`原因`*` | `xsd:string` | 错误描述（纯文本）。 |
 
