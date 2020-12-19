@@ -19,6 +19,6 @@ ht-degree: 0%
 
 请使用以下内容与技术支持联系。
 
-* **电话** - 800-898-9743，美国太平洋时间，星期一至星期五，除节假日外，06:00至18:00。
-* **创建支持案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **电话** - 800-898-9743，美国太平洋时间，星期一至星期五，06:00至18:00，除节假日外。
+* **创建支持案例** -  [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
