@@ -8,31 +8,34 @@ topic: Dynamic media
 uuid: c8d63ad9-6867-4b90-a113-6a75e394f706
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
 
 # PageView.iconEffect{#pageview-iconeffect}
 
-[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *`countfadeauto`*][, *``*][, *`隐藏`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`]
 
 <table id="table_DD66FFC263A34220876DD204BFE62D49"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当图像 <span class="codeph"> 处于重置状态</span> ，使图标效果能够显示在图像的顶部，并提示可用的操作与图像交互。 </p> </td> 
+   <td colname="col2"> <p> 使<span class="codeph"> iconeffect</span>在图像处于重置状态时显示在图像顶部，并提示有可用的操作与图像交互。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定图标效果显示和重新显 <span class="codeph"> 示</span> 的最大次数。 值为-1 <span class="codeph"> 表示</span> ，该图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定<span class="codeph"> iconeffect</span>出现和重新出现的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 淡出</span></span> </p> </td> 
    <td colname="col2"> <p>指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>设置图标效果在自动隐藏 <span class="codeph"> 之前</span> 保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置为 <span class="codeph"> 0</span> 将禁用自动隐藏行为。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 自动隐藏</span></span> </p> </td> 
+   <td colname="col2"> <p>设置在自动隐藏<span class="codeph"> iconeffect</span>之前保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置<span class="codeph"> 0</span>将禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
