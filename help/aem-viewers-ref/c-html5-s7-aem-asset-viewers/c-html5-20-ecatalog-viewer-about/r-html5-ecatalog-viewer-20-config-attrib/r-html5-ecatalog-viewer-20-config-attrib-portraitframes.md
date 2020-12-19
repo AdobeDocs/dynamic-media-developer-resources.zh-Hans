@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: dd3777e1-4369-4f7e-a055-970b8eb3b018
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拆分|实体</span> </p> </td> 
-   <td colname="col2"> <p>设置为 <span class="codeph"> split</span> ，当在移动设备上纵向使用时，查看器可将多次页跨页显示为单独的页面。 设置为 <span class="codeph"> solid</span> ，始终将多次页跨页显示为纯图像，而与设备方向无关。 </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> split</span>，当在移动设备上以纵向方向使用时，查看器将多次页跨页显示为单独的页面。 设置为<span class="codeph"> solid</span>始终将多次页跨页显示为实体图像，而与设备方向无关。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
