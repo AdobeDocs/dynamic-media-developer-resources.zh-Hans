@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 8%
 
 ---
 
@@ -19,12 +22,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> 限制</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 根据页数和运行时组件大小配置自动隐藏行为。 </p> <p> <span class="codeph"> 0</span> 关闭自动隐藏。 </p> <p> <span class="codeph"> 1</span> 启用自动隐藏。 如果以下至少一个条件变为真，则组件将隐藏其点： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limit</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 根据页数和运行时组件大小配置自动隐藏行为。 </p> <p> <span class="codeph"> 0</span> 关闭自动隐藏。 </p> <p> <span class="codeph"> 1</span> 启用自动隐藏。如果以下任一条件变为真，则组件将隐藏其点： </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
-      <li id="li_39332158806445DF874C5A52F1331B8B">带有点的行变得比运行时组件的宽度宽，或者 </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">为此组件设置的页数超过了limit参数配置的 <span class="codeph"><span class="varname"> 限制</span></span> 。 </li> 
-     </ul> </p> <p> 将限 <span class="codeph"><span class="varname"> 制设置为</span></span> -1 <span class="codeph"></span> 将禁用第二个自动隐藏条件。 </p> </td> 
+      <li id="li_39332158806445DF874C5A52F1331B8B">带点的行变得比运行时组件宽度宽，或者 </li> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">为此组件设置的页数超过了<span class="codeph"><span class="varname"> limit</span></span>参数配置的限制。 </li> 
+     </ul> </p> <p> 将<span class="codeph"><span class="varname"> limit</span></span>设置为<span class="codeph"> -1</span>将禁用第二个自动隐藏条件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
