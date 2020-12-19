@@ -1,6 +1,6 @@
 ---
-description: 输入焦点突出显示显示在聚焦的查看器用户界面元素周围。
-seo-description: 输入焦点突出显示显示在聚焦的查看器用户界面元素周围。
+description: 在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+seo-description: 在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
 seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 0bd36795-e663-4f0e-8310-a57c2ffae4a2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
 
 # 焦点突出显示{#focus-highlight}
 
-输入焦点突出显示显示在聚焦的查看器用户界面元素周围。
+在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-焦点高亮的外观由以下CSS类选择器控制：
+焦点突出显示的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogviewer *:focus
@@ -29,7 +32,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 轮廓 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大纲  </span> </p> </td> 
    <td colname="col2"> <p> 焦点突出显示样式。 </p> </td> 
   </tr> 
  </tbody> 
