@@ -1,6 +1,6 @@
 ---
-description: Flash Streaming Server URL前缀。 在生成具有req=mbrSet的多位速率f4m响应时使用的Flash Streaming Server URL前缀。
-seo-description: Flash Streaming Server URL前缀。 在生成具有req=mbrSet的多位速率f4m响应时使用的Flash Streaming Server URL前缀。
+description: Flash流服务器URL前缀。 Flash流服务器URL前缀，用于生成具有req=mbrSet的多位速率f4m响应。
+seo-description: Flash流服务器URL前缀。 Flash流服务器URL前缀，用于生成具有req=mbrSet的多位速率f4m响应。
 seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash Streaming Server URL前缀。 在生成具有req=mbrSet的多位速率f4m响应时使用的Flash Streaming Server URL前缀。
+Flash流服务器URL前缀。 Flash流服务器URL前缀，用于生成具有req=mbrSet的多位速率f4m响应。
 
 ## 属性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-表示URL前缀的字符串。 (eg. `http://my.server.com/flash/streaming`)
+表示URL前缀的字符串。 (例如`http://my.server.com/flash/streaming`
 
 ## 默认 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 
