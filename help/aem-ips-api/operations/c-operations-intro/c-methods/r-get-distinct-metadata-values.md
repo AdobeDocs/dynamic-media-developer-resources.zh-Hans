@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 授权用户类型{#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要获取其数据的公司的句柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 要获取公司的句柄。 |
 | ` *`metadataKey`*` | `xsd:string` | 是 | 点记号中的元数据键。 |
 
 **输出(getDistinctMetadataValuesReturn)**
