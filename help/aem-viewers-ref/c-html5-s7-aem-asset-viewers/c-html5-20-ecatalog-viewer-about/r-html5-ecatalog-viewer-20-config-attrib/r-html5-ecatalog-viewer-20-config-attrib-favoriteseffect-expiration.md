@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7d78a9b5-6daf-47cb-a220-aa2d8c1a5634
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 天数</span></span> </p> </td> 
-   <td colname="col2"> <p> 收藏集在到期前保留在客户端系统中的天数。 每次用户访问目录并更改收藏夹（如添加或删除）时，将重置过期计时器。 </p> </td> 
+   <td colname="col2"> <p> 收藏夹集合在客户端系统过期前保留的天数。 每次用户访问目录并更改收藏夹（如添加或删除）时，过期计时器都会重置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
