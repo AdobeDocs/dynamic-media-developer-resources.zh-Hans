@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授权用户类型{#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +47,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代码示例返回一组系统属性。 响应因简短而截断。
+此代码示例返回一组系统属性。 响应被截断以简化。
 
 **请求**
 
