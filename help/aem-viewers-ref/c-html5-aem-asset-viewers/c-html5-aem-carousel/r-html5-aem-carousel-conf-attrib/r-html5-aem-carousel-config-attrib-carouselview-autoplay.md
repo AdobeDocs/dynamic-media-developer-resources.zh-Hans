@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][，持续时间][，方向]</span> </p> </td> 
-   <td colname="col2"> <p> 指定开／关、持续时间，以在传送中显示每个横幅以及自动循环的方向。 </p> <p>设置为 <span class="codeph"> 0</span> ，自动循环关闭。 </p> <p>将 <span class="codeph"> 1设置为</span> “自动开启”,过渡持续时间以秒为单位由持续时间 <span class="codeph"> 控制</span>。 </p> <p>自动回路方向由方向控制 <span class="codeph"></span>。 方 <span class="codeph"> 向</span> ，从右至左至右的范围为1 <span class="codeph"> ,</span> 从左至右的范围为0 <span class="codeph"></span> 。 </p> </td> 
+   <td colname="col2"> <p> 指定开启／关闭、持续时间以在传送和自动循环方向中显示每个横幅。 </p> <p>设置为<span class="codeph"> 0</span>以关闭自动循环。 </p> <p>将<span class="codeph"> 1</span>设置为自动循环，过渡持续时间（以秒为单位）由<span class="codeph">持续时间</span>控制。 </p> <p>自动回路的方向以<span class="codeph">方向</span>进行控制。 <span class="codeph">方向</span>的范围为从右至左和从左至右的<span class="codeph">1</span>和<span class="codeph">0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
