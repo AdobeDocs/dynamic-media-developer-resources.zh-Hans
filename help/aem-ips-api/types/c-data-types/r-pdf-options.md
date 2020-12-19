@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7558b6b5-ad32-4baf-896b-f4e2bd48f2ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
@@ -24,8 +27,8 @@ PDF文件选项。
 |---|---|---|
 | ` *`进度`*` | `xsd:string` | 选择“PDF流程”。 |
 | ` *`分辨率`*` | `xsd:double` | 文件分辨率。 |
-| ` *`颜色空间`*` | `xsd:string` | “后脚本色彩空间模式”选项。 |
+| ` *`颜色空间`*` | `xsd:string` | 后脚本色彩空间模式选择。 |
 | ` *`pdfCatalog`*` | `xsd:boolean` | 渲染后是否将多页PDF合并到电子目录中（默认为true）。 |
-| ` *`extractSearchWords`*` | `xsd:boolean` | 是否从PDF文件中提取搜索词。 |
+| ` *`extractSearchWords`*` | `xsd:boolean` | 是否从PDF文件提取搜索词。 |
 | ` *`extractLinks`*` | `xsd:boolean` | 是否将PDF链接提取到指定给IPS中栅格化页面的图像映射中。 |
 
