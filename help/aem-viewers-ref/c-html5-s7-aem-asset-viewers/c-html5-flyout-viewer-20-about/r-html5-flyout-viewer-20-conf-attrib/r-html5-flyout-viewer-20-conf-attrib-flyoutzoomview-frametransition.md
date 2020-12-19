@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 无|淡入淡出</span> </p> </td> 
-   <td colname="col2"> <p> 指定在资产更改时应用于主视图的效果类型。 “ <span class="codeph"> 无</span> ”表示无过渡，主要视图变化会立即发生。 淡 <span class="codeph"> 入淡出</span> ，激活交叉淡出过渡，其中旧图像淡出，新图像淡入 </p> </td> 
+   <td colname="col2"> <p> 指定在资产更改时应用于主视图的效果类型。 <span class="codeph"> none</span>表示无过渡，主视图更改会立即发生。 <span class="codeph">淡入淡出</span>激活交叉淡出过渡，其中旧图像淡出，新图像淡入淡出。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
