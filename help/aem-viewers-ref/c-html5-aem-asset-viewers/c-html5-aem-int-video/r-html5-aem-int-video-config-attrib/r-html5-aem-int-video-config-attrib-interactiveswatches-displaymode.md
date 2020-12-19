@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 连续|段</span> </p> </td> 
-   <td colname="col2"> <p> 无论区段边界如何，都可连续使用缩略图填充交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
+   <td colname="col2"> <p> 无论区段边界如何，都可连续填充带缩略图的交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
