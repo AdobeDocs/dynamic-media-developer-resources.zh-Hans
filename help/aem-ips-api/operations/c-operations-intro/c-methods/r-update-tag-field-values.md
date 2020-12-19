@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-0372b742b1344979b0668faacb36fcc6}
+## 授权用户类型{#section-0372b742b1344979b0668faacb36fcc6}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,19 +42,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司手柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 标记字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">要更新的标记字段值的数组。 <p>注意： 仅更新标记字符串值。 不影响资产关联。 </p> </td> 
@@ -67,7 +70,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
 | ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
 | ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，这些资产生成了警告。 |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 在操作尝试更新标记字段时生成错误的与资产关联的详细信息数组。 |
+| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
