@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 语法
 
-## 授权用户类型 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 授权用户类型{#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,14 +37,14 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 >[!NOTE]
 >
->在调用 ` *`此方法时指定autoColorCropOptions`*`` *`或autoTransparentCropOptions`*` 。
+>在调用此方法时，指定` *`autoColorCropOptions`*`或` *`autoTransparentCropOptions`*`。
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 要处理的资产的公司的句柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 要处理的资产的句柄。 |
-| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根据颜色计算裁剪矩形。 请参 [阅AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
-| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根据透明度计算裁剪矩形。 请参 [阅AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
+| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根据颜色计算裁剪矩形。 请参阅[ AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
+| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根据透明度计算裁剪矩形。 请参阅[AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
 
 **输出(getAutoCropRectReturn)**
 
