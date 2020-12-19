@@ -1,6 +1,6 @@
 ---
-description: 通过CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
-seo-description: 通过CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+description: 通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
+seo-description: 通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
 seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 3eee3e59-d926-4a7c-ba2b-a3b9b8522f9c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 
 # 焦点突出显示{#focus-highlight}
 
-通过CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS属性**
 
-使用以下CSS类选择器控制外观：
+外观由以下CSS类选择器控制：
 
 ```
 .s7carouselviewer *:focus
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 轮廓 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大纲  </span> </p> </td> 
    <td colname="col2"> <p>焦点突出显示样式。 </p> </td> 
   </tr> 
  </tbody> 
