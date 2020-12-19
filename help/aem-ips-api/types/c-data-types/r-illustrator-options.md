@@ -1,18 +1,21 @@
 ---
 description: Adobe Illustrator文件的选项。
 seo-description: Adobe Illustrator文件的选项。
-seo-title: Illustrator选项
+seo-title: IllustratorOptions
 solution: Experience Manager
-title: Illustrator选项
+title: IllustratorOptions
 topic: Scene7 Image Production System API
 uuid: 87b38464-33db-4512-aa16-607b96a40673
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 
 
-# Illustrator选项{#illustratoroptions}
+# IllustratorOptions{#illustratoroptions}
 
 Adobe Illustrator文件的选项。
 
