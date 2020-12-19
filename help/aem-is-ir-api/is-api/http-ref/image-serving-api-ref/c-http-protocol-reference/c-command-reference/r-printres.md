@@ -1,6 +1,6 @@
 ---
-description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
-seo-description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
+description: 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
+seo-description: 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
 seo-title: printRes
 solution: Experience Manager
 title: printRes
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
 
 # printRes{#printres}
 
-打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
+打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
 
 `printRes= *`val`*`
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-打印分辨率通常由目录条目 `catalog::PrintResolution` 的情况下定义，否则由嵌入在源图像中的打印分辨率值定义。 对于模板或分层复合图像，嵌入响应文件中的默认打印分辨率是具有最低图层编号的图层图像的打印分辨率。
+打印分辨率通常由`catalog::PrintResolution`定义（如果是目录条目），否则由嵌入在源图像中的打印分辨率值定义。 如果是模板或分层复合图像，则嵌入响应文件中的默认打印分辨率是具有最低图层编号的图层图像的打印分辨率。
 
-设置打印分辨率不会更改回复图像的像素大小。
+设置打印分辨率不会改变回复图像的像素大小。
 
 ## 属性 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-请求属性。 无论当前图层设置如何，均可应用。
+请求属性。 无论当前图层设置如何，均适用。
 
 ## 默认 {#section-d7d89fd235cc418fb381014612530f00}
 
