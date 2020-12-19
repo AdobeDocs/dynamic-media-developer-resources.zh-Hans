@@ -1,13 +1,16 @@
 ---
 description: 视频大小。 允许指定与每个视频记录关联的大小。
 seo-description: 视频大小。 允许指定与每个视频记录关联的大小。
-seo-title: VideoSize
+seo-title: 视频大小
 solution: Experience Manager
-title: VideoSize
+title: 视频大小
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 078508a7-8b06-4c40-9497-82b365b96fe2
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
 
 视频大小。 允许指定与每个视频记录关联的大小。
 
-请求用 `req=set` 于导出视频大小数据。
+`req=set`请求用于导出视频大小数据。
 
 ## 属性 {#section-93a2631a57e2423ea6b40f68c55062a1}
 
-宽度和高度（例如，512,288）的以逗号分隔的整数值。
+宽度和高度的以逗号分隔的整数值（例如，512,288）。
 
 ## 默认 {#section-baaee759ef344c54bbc014dc8944768a}
 
