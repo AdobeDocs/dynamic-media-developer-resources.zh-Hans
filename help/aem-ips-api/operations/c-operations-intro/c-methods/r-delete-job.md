@@ -1,6 +1,6 @@
 ---
-description: 删除当前或已计划的作业。
-seo-description: 删除当前或已计划的作业。
+description: 删除当前或计划的作业。
+seo-description: 删除当前或计划的作业。
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
 
 # deleteJob{#deletejob}
 
-删除当前或已计划的作业。
+删除当前或计划的作业。
 
 语法
 
-## 授权用户类型 {#section-1b959679dc8147c291126ddf7e061742}
+## 授权用户类型{#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,7 +47,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-此代码示例删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从其他操作获得该句柄。
+此代码示例删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从其他操作获取该句柄。
 
 **请求**
 
