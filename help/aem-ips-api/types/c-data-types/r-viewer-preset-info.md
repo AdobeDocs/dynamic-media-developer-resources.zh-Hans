@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0117488d-b89d-48d4-b081-af177a22f71f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
@@ -22,6 +25,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`类型`*` | `xsd:string` | 查看器类型的选择。 |
+| ` *`类型`*` | `xsd:string` | 查看器类型的选项。 |
 | ` *`configSettingArray`*` | `types:ConfigSettingArray` | 查看器配置设置阵列。 |
 
