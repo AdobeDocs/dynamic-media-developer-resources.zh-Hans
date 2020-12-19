@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 在此类型中，pageReset字段对RenderSet和Catalog图像资产类型有意义：
 
-* 对于 `RenderSet`, `pageReset` 指示新渲染视图/色板组的开始。
+* 对于`RenderSet`,`pageReset`指示新渲染视图/样本组的开始。
 
-* 对于“目 `pageReset` 录”，指示新页面视图的开始。 通常，每页视图有2个页面图像，但您可以拥有更多或更少。
+* 对于“目录”,`pageReset`指示新页面开始的视图。 通常，每页视图有2个页面图像，但您可以拥有更多或更少。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +35,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 图像集成员阵列中的资产句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">重置页面。 <p>忽略设置，并强制将ImageSet和SpinSet的 <span class="codeph"> 值设置</span><span class="codeph"> 为true</span>。 </p></td> 
+   <td colname="col3">重置页面。 <p>忽略设置，并将<span class="codeph"> ImageSet</span>和<span class="codeph"> SpinSet</span>的值强制设置为true。 </p></td> 
   </tr> 
  </tbody> 
 </table>
