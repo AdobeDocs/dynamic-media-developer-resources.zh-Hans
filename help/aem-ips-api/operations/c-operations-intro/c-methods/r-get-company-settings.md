@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 授权用户类型{#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
