@@ -1,6 +1,6 @@
 ---
-description: 以下示例展示了文本命令的示例及其对文本的影响。
-seo-description: 以下示例展示了文本命令的示例及其对文本的影响。
+description: 以下示例展示了文本命令的示例及其如何影响文本。
+seo-description: 以下示例展示了文本命令的示例及其如何影响文本。
 seo-title: RTF编码示例
 solution: Experience Manager
 title: RTF编码示例
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
 
 # RTF编码示例{#rtf-encoding-examples}
 
-以下示例展示了文本命令的示例及其对文本的影响。
+以下示例展示了文本命令的示例及其如何影响文本。
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
@@ -54,4 +57,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 另请参阅 {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
-[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) , [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767), textAttr= [,](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)ENCODING [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)[, HTTP RTF 1.6规范](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
+[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=, ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)HTTP Encoding [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7) [,  RTF 1.6规范](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
