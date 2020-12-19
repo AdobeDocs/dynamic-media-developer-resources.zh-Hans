@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '3073'
+ht-degree: 2%
 
 ---
 
@@ -37,25 +40,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-可以通过在“社交共享”面板的CSS类上设置 `display:none` CSS属性，从中删除该按钮。
+通过设置其CSS类的`display:none` CSS属性，可以从“社交共享”面板中删除该按钮。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个28 x 28像素的电子邮件共享按钮，该按钮为四个不同按钮状态中的每个状态显示一个不同的图像。
+示例——设置一个28 x 28像素的电子邮件共享按钮，该按钮为四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7emailshare { 
@@ -76,7 +79,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
+当对话框处于活动状态时覆盖网页的背景叠加由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay
@@ -87,17 +90,17 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
    <td colname="col2"> <p> 背景叠加不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>背景叠加颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将背景叠加设置为灰色且不透明度为70%:
+示例——将背景叠加设置为灰色，不透明度为70%:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7backoverlay { 
@@ -106,7 +109,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-默认情况下，模态对话框显示在桌面系统屏幕的中心位置，并在触控设备上占据整个网页区域。 在所有情况下，对话框的定位和大小调整都由组件管理。 使用以下CSS类选择器控制对话框：
+默认情况下，模态对话框显示在桌面系统屏幕的中心位置，并在触控设备上占据整个网页区域。 在所有情况下，对话框的定位和大小都由组件管理。 使用以下CSS类选择器控制对话框：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialog
@@ -117,25 +120,25 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> 对话框边框半径（如果对话框不占用整个浏览器窗口）; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 对话框背景色； </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 对话框背景颜色； </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 应取消设置，或设置为100%，此时对话框将占据整个浏览器窗口（触控设备首选此模式）; </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col2"> <p> 应取消设置，或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（触控设备首选此模式）; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> 应取消设置，或设置为100%，此时对话框将占据整个浏览器窗口（触控设备首选此模式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p> 应取消设置或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（触控设备首选此模式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置对话框以使用整个浏览器窗口并在触控设备上具有白色背景：
+示例——设置对话框以使用整个浏览器窗口并在触控设备上显示白色背景：
 
 ```
 .s7ecatalogsearchviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -162,7 +165,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-图标和标题文本将打包到由
+图标和标题文本将打包到一个附加容器中，
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -179,7 +182,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-标题图标由以下CSS类选择器控制：
+标题图标通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadericon
@@ -190,25 +193,25 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>图标图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标题标题由以下CSS类选择器控制：
+标题标题通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadertext
@@ -219,15 +222,15 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -256,35 +259,35 @@ background-color: #ffffff;
    <td colname="col2"> <p> 相对于标题容器的水平按钮位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>按钮的内填充。 </p> </td> 
+   <td colname="col2"> <p>按钮的内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-“关闭”按钮工具提示和对话框标题可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+“关闭”按钮工具提示和对话框标题可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置具有填充、24 x 17像素图标、粗体16点标题和28 x 28像素“关闭”按钮的对话框标题，该按钮距对话框容器的顶部和右侧分别放置两个像素和两个像素：
+示例——要设置具有边距、24 x 17像素图标、粗体16点标题和28 x 28像素“关闭”按钮的对话框标题，位于距对话框容器顶部两个像素和距离对话框右侧两个像素的位置：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader { 
@@ -324,7 +327,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框页脚由“取消”和“发送电子邮件”按钮组成。 使用以下CSS类选择器控制页脚容器:
+对话框页脚由“取消”和“发送电子邮件”按钮组成。 页脚容器由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter
@@ -341,7 +344,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-页脚具有一个内容器，该内部区域保留两个按钮。 它由以下CSS类选择器控制：
+页脚具有保留两个按钮的内部容器。 它由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbuttoncontainer
@@ -369,11 +372,11 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -381,7 +384,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -389,9 +392,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-使用以下CSS类选择器控制“发送电子邮件”按钮：
+“发送电子邮件”按钮由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogactionbutton
@@ -402,19 +405,19 @@ background-color: #ffffff;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -422,9 +425,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-此外，两个按钮共享相同的公用CSS类，该类可包含其他对话框按钮相同的CSS设置：
+此外，两个按钮共享相同的通用CSS类，这些类可包含其他对话框按钮相同的CSS设置：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter .s7button
@@ -435,35 +438,35 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行高  </span> </p> </td> 
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框——阴影  </span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
    <td colname="col2"> <p>右按钮边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-此按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+此按钮工具提示可进行本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个对话框页脚，其中显示64 x 34“取消”按钮和82 x 34“发送电子邮件”按钮，并且每个按钮状态的文本颜色和背景颜色不同：
+示例——要设置一个对话框页脚，其中显示64 x 34“取消”按钮和82 x 34“发送电子邮件”按钮，并且每个按钮状态的文本颜色和背景颜色不同：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogfooter { 
@@ -523,7 +526,7 @@ background-color: #ffffff;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）包含可滚动对话框内容和右侧的滚动面板。 在所有情况下，组件都管理此区域的宽度，无法在CSS中设置它。 使用以下CSS类选择器控制主对话框区域：
+主对话框区域（页眉和页脚之间）包含可滚动对话框内容和右侧的滚动面板。 在所有情况下，组件都管理此区域的宽度，无法在CSS中设置它。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea
@@ -534,11 +537,11 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p> 主对话框区域的高度。 仅当对话框在桌面模式下工作时才应指定它。 当该对话框的大小调整为占用整个浏览器窗口时，它不适用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -550,9 +553,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->主对话框区域支持可选的属性选 `state` 择器。 该设置为提交 `sendsuccess` 电子邮件表单时，对话框将显示确认消息。 只要确认消息很小，此属性选择器就可用于在显示此类确认消息时降低对话框高度。
+>主对话框区域支持可选的`state`属性选择器。 在提交电子邮件表单时，它设置为`sendsuccess`，对话框将显示确认消息。 只要确认消息很小，在显示此类确认消息时，该属性选择器就可以用于减小对话框的高度。
 
-示例——要将主对话框区域设置为初始高度为300像素，显示确认消息时高度为100像素，请设置为10像素边距，然后使用白色背景：
+示例——要将主对话框区域设置为初始高度为300像素，显示确认消息时高度为100像素，应具有10像素边距，并使用白色背景：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogviewarea { 
@@ -565,7 +568,7 @@ background-color: #ffffff;
 }
 ```
 
-所有表单内容（如标签和输入字段）都驻留在使用以下CSS类选择器控制的容器中：
+所有表单内容（如标签和输入字段）都驻留在由以下CSS类选择器控制的容器中：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody
@@ -592,7 +595,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框表单逐行填写，其中每行都包含表单内容的一部分（如标签和文本输入字段）。 使用以下CSS类选择器控制单个表单行：
+对话框表单逐行填写，其中每行都包含表单内容的一部分（如标签和文本输入字段）。 单个表单行由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
@@ -604,12 +607,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内线填充。 </p> </td> 
+   <td colname="col2"> <p>内线边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个对话框表单以使每行具有十个像素填充：
+示例——设置一个对话框表单，使每行具有十个像素填充：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -617,38 +620,38 @@ background-color: #ffffff;
 }
 ```
 
-对话框表单中的所有静态标签都使用以下CSS类选择器进行控制：
+对话框表单中的所有静态标签都通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoglabel
 ```
 
-此类不适合控制标签大小或位置，因为您可以将它应用于表单用户界面中不同位置的文本。
+此类不适合控制标签大小或位置，因为您可以将它应用于表单用户界面的不同位置的文本。
 
 **对话框标签的CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>标签字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>标签文本颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
+   <td colname="col2"> <p>标记文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-对话框标签可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+可以本地化对话框标签。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例——将所有标签设置为灰色、粗体，字体为9像素：
 
@@ -660,7 +663,7 @@ background-color: #ffffff;
 }
 ```
 
-在表单输入字段左侧显示的所有静态标签都通过以下方式进行控制：
+表单输入字段左侧显示的所有静态标签都通过以下方式进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel
@@ -671,15 +674,15 @@ background-color: #ffffff;
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>静态标签的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文本对齐 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 文本对齐  </span> </p> </td> 
    <td colname="col2"> <p>水平文本对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
    <td colname="col2"> <p>静态标签边距。 </p> </td> 
   </tr> 
   <tr> 
@@ -723,9 +726,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->输入字段容器支持可选的 `state` 属性选择器。 它设置为当用 `verifyerror` 户在输入数据格式上出错并且内联验证失败时。 此属性选择器可用于突出显示表单中错误的用户输入。
+>输入字段容器支持可选的`state`属性选择器。 当用户在输入数据格式中出错并且内联验证失败时，它设置为`verifyerror`。 此属性选择器可用于突出显示表单中不正确的用户输入。
 
-从对话框主体左边的标签到右边缘（包括“从”字段和“消息”字段）扩展的大多数输入字段都通过以下CSS类选择器进行控制：
+大多数从对话框主体左上角的标签扩展到右边缘的输入字段（包括“从”字段和“消息”字段）都通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputwide
@@ -736,7 +739,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>输入字段宽度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -753,13 +756,13 @@ background-color: #ffffff;
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>输入字段宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将表单设置为在所有输入字段周围有一个像素灰色边框，边框的边距为9像素；对于未通过验证的字段，要使用红色的相同边框，则“至”字段的宽度为250像素，其余输入字段的宽度为300像素：
+示例——设置一个表单，在所有输入字段周围有一个带九个像素填充的像素灰色边框；对于验证失败的字段，要使用相同的红色边框，要使“收件人”字段具有250像素宽，其余输入字段具有300像素宽：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -777,30 +780,30 @@ background-color: #ffffff;
 }
 ```
 
-电子邮件输入字段还受以下控件控制：
+电子邮件输入字段还受以下各项控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-此类允许您为基础元素设置特定属 `TEXTAREA` 性。
+此类允许您为基础`TEXTAREA`元素设置特定属性。
 
 **对话框消息的CSS属性**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>消息高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自动换行 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 换行  </span> </p> </td> 
    <td colname="col2"> <p>自动换行样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将电子邮件设置为50像素高并使用自动换行 `break-word` :
+示例——将电子邮件设置为高50像素，并使用`break-word`自动换行：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -820,39 +823,39 @@ background-color: #ffffff;
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
    <td colname="col2"> <p>每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
    <td colname="col2"> <p>按钮区域内的按钮图像位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行高  </span> </p> </td> 
    <td colname="col2"> <p>按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文本对齐 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 文本对齐  </span> </p> </td> 
    <td colname="col2"> <p>水平文本对齐。 </p> </td> 
   </tr> 
   <tr> 
@@ -864,11 +867,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——要将“添加其他电子邮件地址”按钮设置为高25像素，请使用右对齐的12磅粗体字体，并为每个状态使用不同的文本颜色和图像：
+示例——要将“添加其他电子邮件地址”按钮设置为25像素高，请使用12磅粗体，右对齐，并为每个状态使用不同的文本颜色和图像：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogaddemailbutton { 
@@ -910,29 +913,29 @@ background-color: #ffffff;
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例——将“删除”按钮设置为25 x 25像素，并对每个状态使用不同的图像：
 
@@ -955,7 +958,7 @@ background-color: #ffffff;
 }
 ```
 
-正在共享的内容显示在对话框正文的底部，并包括缩略图、标题、来源URL和说明。 它被包装到由以下CSS类选择器控制的容器中：
+正在共享的内容显示在对话框正文的底部，包括缩略图、标题、来源URL和说明。 它打包在由以下CSS类选择器控制的容器中：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent
@@ -976,7 +979,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例——设置底部容器，使其具有一个像素虚线边框且无填充：
+示例——设置底部容器，使其具有一个像素点线边框，且无填充：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
@@ -991,23 +994,23 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-属性 `background-image` 由组件逻辑设置。
+`background-image`属性由组件逻辑设置。
 
 **对话框缩略图图像的CSS属性**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>缩略图宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>缩览图高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p>缩略图高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 垂直对齐 </span> </p> </td> 
-   <td colname="col2"> <p>垂直对齐缩览图。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 垂直对齐  </span> </p> </td> 
+   <td colname="col2"> <p>垂直对齐缩略图。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
@@ -1038,7 +1041,7 @@ background-color: #ffffff;
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>面板宽度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1063,25 +1066,25 @@ background-color: #ffffff;
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
    <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置内容标题以使用粗体字体，并具有十个像素边距：
+示例——设置内容标题以使用粗体字体并具有十像素边距：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle { 
@@ -1101,25 +1104,25 @@ background-color: #ffffff;
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
    <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将内容来源设置为具有十像素边距：
+示例——设置内容来源以具有十像素边距：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogorigin { 
@@ -1138,25 +1141,25 @@ background-color: #ffffff;
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
    <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将内容描述设置为具有十像素边距并使用九点字体：
+示例——将内容描述设置为具有10像素边距并使用9点字体：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogdescription { 
@@ -1165,7 +1168,7 @@ background-color: #ffffff;
 }
 ```
 
-当用户输入错误的输入数据且内联验证失败时，或者当对话框在提交表单时需要呈现错误或确认消息时，对话框正文的顶部会显示一条消息。 它由以下CSS类选择器控制：
+当用户输入错误的输入数据且内联验证失败，或者当对话框需要在提交表单时呈现错误或确认消息时，对话框正文的顶部会显示一条消息。 它由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
@@ -1176,31 +1179,31 @@ background-color: #ffffff;
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p> 错误图标。 默认为感叹号。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
    <td colname="col2"> <p> 消息区域内的错误图标位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
    <td colname="col2"> <p>消息文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 行高  </span> </p> </td> 
    <td colname="col2"> <p> 消息中的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
@@ -1212,11 +1215,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此消息支持具有 `state` 以下可能值的属性选择器： `verifyerror`、 `senderror`和 `sendsuccess`。 `verifyerror` 在由于内联输入验证失败而显示消息时设置；在后端 `senderror` 电子邮件服务报告错误时设置；设置 `sendsuccess` 为成功发送电子邮件时。 这样，根据对话框状态，可以以不同的方式设置消息的样式。
+>此消息支持具有以下可能值的`state`属性选择器：`verifyerror`、`senderror`和`sendsuccess`。 `verifyerror` 在由于内联输入验证失败而显示消息时设置； `senderror` 在后端电子邮件服务报告错误时设置； `sendsuccess` 设置为电子邮件成功发送时。这样，根据对话框状态，可以以不同方式设置消息的样式。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——要设置消息以使用十点粗体字体、行高为25像素、左边距为20像素、出错时使用感叹号图标、红色文本、成功时不使用图标和绿色文本，请执行以下操作：
+示例——要设置消息以使用10点粗体字体、行高为25像素、左边距为20像素、出错时使用感叹号图标、红色文本，成功时不使用图标和绿色文本：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1251,7 +1254,7 @@ background-color: #ffffff;
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>滚动面板宽度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1276,7 +1279,7 @@ background-color: #ffffff;
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p> 滚动条宽度。 </p> </td> 
   </tr> 
   <tr> 
@@ -1285,16 +1288,16 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直滚动条与滚动面板底部的偏移量。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条与滚动面板底部的偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 水平滚动条与滚动面板的右边缘偏移。 </p> </td> 
+   <td colname="col2"> <p> 水平滚动条与滚动面板右边缘的偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置宽28像素的滚动条，从滚动面板的顶部、右侧和底部设置8个像素的边距：
+示例——要设置宽度为28像素的滚动条，从滚动面板的顶部、右侧和底部设置8个像素的边距：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar { 
@@ -1316,17 +1319,17 @@ background-color: #ffffff;
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>轨道宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>音轨背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置宽28像素且背景为灰色的滚动条轨道：
+示例——设置宽为28像素且背景为灰色的滚动条轨道：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolltrack { 
@@ -1335,7 +1338,7 @@ background-color: #B2B2B2;
 }
 ```
 
-滚动条缩略图在滚动轨道区域内垂直移动。 其垂直位置完全由组件逻辑控制，但缩略图高度不会根据内容的数量而动态更改。 可以使用以下CSS类选择器配置缩略图高度和其他方面：
+滚动条缩略图在滚动轨道区域内垂直移动。 其垂直位置完全由组件逻辑控制，但缩略图高度不会根据内容的数量动态改变。 可以使用以下CSS类选择器配置缩略图高度和其他方面：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb
@@ -1346,37 +1349,37 @@ background-color: #B2B2B2;
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>缩略图宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>缩略图高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
    <td colname="col2"> <p> 轨道顶部之间的垂直填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
    <td colname="col2"> <p> 轨道底部之间的垂直填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>为给定的缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态： `up`、 `down`、 `over`和 `disabled`。
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的缩略图状态：`up`、`down`、`over`和`disabled`。
 
-示例——设置滚动条缩略图，该缩略图为28 x 45像素，顶部和底部有10个像素边距，并且每个状态的图稿各不相同：
+示例——要设置滚动条缩略图，该缩略图为28 x 45像素，顶部和底部有10个像素边距，并且每个状态的图稿不同：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollthumb { 
@@ -1409,38 +1412,38 @@ background-color: #B2B2B2;
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-无法使用CSS、、和属性定位 `top`滚动 `left`按 `bottom`钮 `right` 。 相反，查看器逻辑会自动定位它们。
+无法使用CSS `top`、`left`、`bottom`和`right`属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
 **顶部和底部滚动按钮的CSS属性**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->这些按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态： `up`、 `down`、 `over`和 `disabled`。
+>这些按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态：`up`、`down`、`over`和`disabled`。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置28 x 32像素的滚动按钮，并且每个状态的图稿不同：
+示例——设置28 x 32像素的滚动按钮，每个状态的图稿各不相同：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrollupbutton { 
