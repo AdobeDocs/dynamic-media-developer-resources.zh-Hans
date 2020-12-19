@@ -1,6 +1,6 @@
 ---
-description: 将一个或多个资产添加到项目。
-seo-description: 将一个或多个资产添加到项目。
+description: 向项目添加一个或多个资源。
+seo-description: 向项目添加一个或多个资源。
 seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
 
 # addProjectAssets{#addprojectassets}
 
-将一个或多个资产添加到项目。
+向项目添加一个或多个资源。
 
 语法
 
-## 授权用户类型 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 授权用户类型{#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +37,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 处理与当前项目关联的公司。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 处理要添加资产的项目。 |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | 是 | 要添加到当前项目的资产数组。 |
+| ` *`projectHandle`*` | `xsd:string` | 是 | 处理要向其添加资产的项目。 |
+| ` *`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要添加到当前项目的资源数组。 |
 
 **输出(addProjectAssetsParam)**
 
@@ -43,13 +46,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
 | ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试将资产添加到项目时生成的错误数。 |
+| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的错误数。 |
 | ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的警告数组。 |
 | ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的错误数组。 |
 
 ## 示例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-此示例将资产句柄数组中的单个资产（由其句柄引用）添加到请求中指定的项目。 当响应返回时，操作已成功 `successCount` 完成 `1`。
+此示例将资产句柄数组中的单个资产（由其句柄引用）添加到请求中指定的项目。 当响应`successCount`返回`1`时，操作成功完成。
 
 **请求**
 
