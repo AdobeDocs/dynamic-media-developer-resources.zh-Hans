@@ -1,6 +1,6 @@
 ---
-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
-seo-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
+description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
+seo-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
 seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: efba09ad-200b-4540-8876-c9e462ec233a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 0%
 
 ---
 
 
-# 本地化用户界面元素{#localization-of-user-interface-elements}
+# 用户界面元素本地化{#localization-of-user-interface-elements}
 
-弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
+弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
 
-查看器中每个可本地化的文本内容都由称为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置( `"en"`)的默认关联文本值。 它还可能根据需要设置用户定义的值，以适应所需的区域设置。
+查看器中每个可本地化的文本内容都由一个称为SYMBOL的特殊查看器SDK标识符来表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可能根据需要为任意区域设置用户定义的值。
 
-查看器开始时，它检查当前区域设置，以查看区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它会回落到现成的默认文本。
+查看器开始时，它检查当前区域设置，以查看区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它将返回现成的默认文本。
 
-用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
+用户定义的本地化数据可作为本地化JSON对象传递到查看器。 此类对象包含支持的语言环境列表、每个语言环境的SYMBOL文本值以及默认语言环境。
 
 此类本地化对象的示例如下：
 
@@ -38,9 +41,9 @@ defaultLocale:"en"
 }
 ```
 
-在上例中，本地化对象定义两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
+在上例中，本地化对象定义两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供本地化。
 
-网页代码应将本地化对象作为配置对象字段的值传递给查看器构 `localizedTexts` 造函数。 替代选项是通过调用方法传递本地化对 `setLocalizedTexts(localizationInfo)` 象。
+网页代码应将本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 替代选项是通过调用`setLocalizedTexts(localizationInfo)`方法传递本地化对象。
 
 支持以下SYMBOL:
 
@@ -53,39 +56,39 @@ defaultLocale:"en"
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容器.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 容器.LABEL  </span> </p> </td> 
    <td colname="col2"> <p>顶级查看器元素的ARIA标签。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>主视图组件的ARIA角色描述。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
    <td colname="col2"> <p>键盘用户的ARIA使用提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_OVER  </span> </p> </td> 
    <td colname="col2"> <p>桌面系统的信息消息。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_TAP  </span> </p> </td> 
    <td colname="col2"> <p>触控设备的信息消息。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>滚动左键的工具提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>滚动右键的工具提示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col2"> <p>右滚动按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>向上滚动按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>向下滚动按钮的工具提示。 </p> </td> 
   </tr> 
  </tbody> 
