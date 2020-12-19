@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
-# 视图“所有收藏夹”按钮{#view-all-favorites-button}
+# 视图所有收藏夹按钮{#view-all-favorites-button}
 
 按钮的位置完全由“收藏夹”菜单管理。
 
@@ -29,12 +32,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,11 +52,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->此按钮同时支持 `state` 和属 `selected` 性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别是，与用 `selected='true'` 户通过单击或点按添加新的“收藏夹”图标时的状态相对应。 `selected='false'` 对应于用户可缩放、平移和交换页面时的正常操作模式。
+>此按钮支持`state`和`selected`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别是，`selected='true'`与用户通过单击或点按添加新的“收藏夹”图标时的状态相对应。 `selected='false'` 对应于用户可缩放、平移和交换页面时的正常操作模式。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个28 x 28像素的“全部视图”收藏夹按钮，并在选择或未选择四个不同按钮状态中的每个状态时显示不同的图像。
+示例——设置一个28 x 28像素的“所有视图”收藏夹按钮，并在选择或未选择四个不同按钮状态中的每个状态时显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7viewallfavoritebutton { 
