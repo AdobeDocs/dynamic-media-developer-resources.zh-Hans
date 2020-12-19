@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -18,12 +21,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` navigation= *`文件`*`
 
-查看器通过托管WebVTT文件支持视频章节导航。 不支持提示定位操作符。
+查看器通过托管WebVTT文件支持视频章节导航。 不支持提示定位运算符。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文 <span class="varname"> 件</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 文件</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT导航内容的URL或路径。 图像服务应托管WebVTT文件。 </p> </td> 
   </tr> 
  </tbody> 
