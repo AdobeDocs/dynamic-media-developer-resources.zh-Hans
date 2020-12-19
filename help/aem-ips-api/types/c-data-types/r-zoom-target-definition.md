@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9180b87b-13f5-4c63-83ff-3eb20b12ec19
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 22%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`名称`*` | `xsd:string` | 目标名称. |
+| ` *`name`*` | `xsd:string` | 目标名称. |
 | ` *`xPosition`*` | `xsd:int` | 缩放目标的X位置。 |
 | ` *`yPosition`*` | `xsd:int` | 缩放目标的Y位置。 |
 | ` *`width`*` | `xsd:int` | 缩放目标宽度。 |
