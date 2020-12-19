@@ -49,15 +49,15 @@ ht-degree: 1%
 
 * eCatalog以纵向和横向显示不正确的页面跨页。
 
-## HTC移动设备 {#section-dc42c80414c842e488738fc157c55b01}
+## HTC移动设备{#section-dc42c80414c842e488738fc157c55b01}
 
 * 无法禁用本机手指开合缩放是HTC UI包装器(HTC Sense)的“功能”。 在查看器上使用“手指开合缩放”手势时，此功能可能导致整个页面缩放。 请改用多次点击手势。
 * 如果图像映射很小并且很接近，则图像映射图标可能会重叠。
 
-## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## HTML5视频查看器{#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` 只有软件HLS和flash HDS回放才支持修改器。 当播放使用本机播放器时，它不工作。
-* 不支持OGG和WebM渐进式播放。
+* `IntialBitRate` 只有软件HLS和flash HDS回放才支持修改器。当播放使用本机播放器时，它不工作。
+* 不支持OGG和WebM渐进式回放。
 * 浏览器缩放可能导致视频播放器以不正确的大小显示（包括Windows OS控制面板显示设置）。
 * 在Safari上使用HLS流进行视频搜索可能不一致。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1或更高版本： Internet插件设置可能会阻止Flash视频回放。
+* Safari 6.1或更高版本：Internet插件设置可能会阻止Flash视频回放。
 * 在Safari上使用HLS流进行视频搜索可能不一致。
 * 无法在使用HLS流的Safari 6上寻找视频结束。
 
