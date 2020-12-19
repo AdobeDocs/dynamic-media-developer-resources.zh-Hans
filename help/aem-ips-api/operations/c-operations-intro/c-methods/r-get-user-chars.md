@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-7023871be4d2442daf51ff060ca06d9a}
+## 授权用户类型{#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`charField`*` | `xsd:string` | 是 | 确定要搜索的垃圾桶状态。 |
-| ` *`includeInactive`*` | `xsd:boolean` | 是 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能授权其进行任何API调用。 如果用户没有活动的公司会员资格，则将返回授权错误。 |
+| ` *`includeInactive`*` | `xsd:boolean` | 是 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能获得进行任何API调用的授权。 如果用户没有活动的公司成员资格，则将返回授权错误。 |
 | ` *`includInvalid`*` | `xsd:boolean` | 否 | 包括或排除无效用户。 |
 | ` *`companyHandleArray`*` | `types:HandleArray` | 否 | 根据公司筛选结果。 |
 | ` *`groupHandleArray`*` | `types:HandleArray` | 否 | 过滤器结果基于组。 |
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 此代码示例返回：
 
-* 特定公司用户的姓氏的首字符。
+* 特定公司用户姓氏的首个字符。
 * 一组组。
 * 一组用户角色。
 
