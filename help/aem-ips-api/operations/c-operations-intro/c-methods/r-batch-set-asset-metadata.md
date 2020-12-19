@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-5310d9fd00604cbf9756944900378855}
+## 授权用户类型{#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,10 +44,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | 是 | 成功设置元数据的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 尝试设置元数据时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 尝试设置元数据时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试为资产批量设置元数据时生成警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
+| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
+| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试为资产批量设置元数据时会生成警告。 |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-2de798ac920e4b47b971b1729a64395b}
 
