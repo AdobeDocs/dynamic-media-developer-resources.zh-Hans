@@ -1,6 +1,6 @@
 ---
-description: 仅适用于Scene 7开发人员。 请参阅“图像渲染材料目录参考目录属性”部分。
-seo-description: 仅适用于Scene 7开发人员。 请参阅“图像渲染材料目录参考目录属性”部分。
+description: 仅适用于Scene 7开发人员。 请参阅图像渲染材料目录参考目录属性部分。
+seo-description: 仅适用于Scene 7开发人员。 请参阅图像渲染材料目录参考目录属性部分。
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 12%
 
 ---
 
 
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
-仅适用于Scene 7开发人员。 请参阅“图像渲染材料目录参考目录属性”部分。
+仅适用于Scene 7开发人员。 请参阅图像渲染材料目录参考目录属性部分。
 
 语法
 
