@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐方式（或锚定）。 </p> <p>在“收藏夹”视图中，内部缩览图容器的大小会调整为仅显示整个数量的缩览图。 因此，内部容器与外部组件边界之间有一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右|上|中|下</span> </p> </td> 
+   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐或锚定。 </p> <p>在FavoritesView中，内部缩略图容器的大小会调整为只显示整个缩略图数。 因此，内部容器和外部组件边界之间存在一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
