@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a95d4051-7bc1-4b3f-8478-c5b7ab28fa61
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 区域</span></span> </p> </td> 
-   <td colname="col2"> <p> 为“收藏夹”缩览图指定裁剪区域。 表示为相对于总帧大小的相对值，范围从 <span class="codeph"> 0</span> 到 <span class="codeph"> 1.0</span>。 </p> <p>值为 <span class="codeph"> 1表示</span> ，整个帧图像用于缩略图。 </p> <p>值为 <span class="codeph"> 0.1表示</span> ，只使用帧大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定收藏夹缩略图的裁剪区域。 以相对于总帧大小的相对值表示，范围从<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值<span class="codeph"> 1</span>表示整个帧图像用于缩略图。 </p> <p>值<span class="codeph"> 0.1</span>表示只使用帧大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
