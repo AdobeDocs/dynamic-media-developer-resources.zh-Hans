@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 27c11719-ac8f-43b2-a08a-cb46f47b8006
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 24%
 
 ---
 
@@ -22,7 +25,7 @@ Microsoft Excel文件的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | 文件路径。 |
+| ` *`originalPath`*` | `xsd:string` | 文件的路径。 |
 | ` *`originalFile`*` | `xsd:string` | 文件名. |
 | ` *`fileSize`*` | `xsd:int` | 文件大小. |
 
