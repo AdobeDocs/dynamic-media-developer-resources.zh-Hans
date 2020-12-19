@@ -1,6 +1,6 @@
 ---
-description: 用户数据. 服务器响应req=userdata，将此字段的内容返回给客户端。
-seo-description: 用户数据. 服务器响应req=userdata，将此字段的内容返回给客户端。
+description: 用户数据. 服务器响应req=userdata将此字段的内容返回给客户端。
+seo-description: 用户数据. 服务器响应req=userdata将此字段的内容返回给客户端。
 seo-title: 用户数据 *
 solution: Experience Manager
 title: 用户数据 *
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ed4dfc19-8923-4e99-aa07-b6a9fab4eded
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 18%
 
 ---
 
 
 # 用户数据 *{#userdata}
 
-用户数据. 服务器响应req=userdata，将此字段的内容返回给客户端。
+用户数据. 服务器响应req=userdata将此字段的内容返回给客户端。
 
-新行可以用“??”进行转义。 服务器将替换“?” 在返 `<cr><lf>` 回此字段的内容之前。
+新行可以用“??”进行转义。 服务器将替换“?” 返回此字段的内容之前，使用`<cr><lf>`。
 
 ## 属性 {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
