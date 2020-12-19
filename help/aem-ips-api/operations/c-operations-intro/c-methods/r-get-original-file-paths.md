@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-da8d8561e9174e938f3595a5d6e50089}
+## 授权用户类型{#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->需要对资产具有读取访问权限。
+>需要对资产具有读取权限。
 
 ## 参数 {#section-a6b394daba6e49a8882cf3051035d9d1}
 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资产的句柄数组。 |
+| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
 
 **输出(getOriginalFilePathsReturn)**
 
