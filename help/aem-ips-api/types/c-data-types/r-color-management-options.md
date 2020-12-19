@@ -1,6 +1,6 @@
 ---
-description: 上传期间指定的选项。 影响上传的颜色管理方式。
-seo-description: 上传期间指定的选项。 影响上传的颜色管理方式。
+description: 上传过程中指定的选项。 影响上传的颜色管理方式。
+seo-description: 上传过程中指定的选项。 影响上传的颜色管理方式。
 seo-title: 颜色管理选项
 solution: Experience Manager
 title: 颜色管理选项
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
-# 颜色管理选项{#colormanagementoptions}
+# ColorManagementOptions{#colormanagementoptions}
 
-上传期间指定的选项。 影响上传的颜色管理方式。
+上传过程中指定的选项。 影响上传的颜色管理方式。
 
 语法
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`colorManagement`*` | `xsd:string` | 颜色管理模式选择。 |
-| ` *`sourceProfileHandle`*` | `xsd:string` | 源用户档案手柄。 |
-| ` *`outputProfileHandle`*` | `xsd:string` | 输出用户档案手柄。 |
+| ` *`颜色管理`*` | `xsd:string` | 颜色管理模式选择。 |
+| ` *`sourceProfileHandle`*` | `xsd:string` | 源用户档案句柄。 |
+| ` *`outputProfileHandle`*` | `xsd:string` | 输出用户档案句柄。 |
 
