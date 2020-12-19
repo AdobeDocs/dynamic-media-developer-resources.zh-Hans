@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09f20e5e-8ef1-48fe-8b3c-719d219159ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-fd5b5f0417bd444189b20494d179193e}
 
-如果未定义 `default::RequestLock` 或为空，则从中继承。
+如果未定义或为空，则从`default::RequestLock`继承。
 
 ## 另请参阅 {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 
