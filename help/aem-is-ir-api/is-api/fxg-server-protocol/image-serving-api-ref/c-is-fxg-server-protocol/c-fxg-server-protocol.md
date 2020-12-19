@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 translation-type: tm+mt
 source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 86%
 
 ---
 
@@ -16,14 +19,14 @@ source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
 
 要处理图形，您可以使用参考点（类似于罗经点）。
 
-使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点有 `northWest`、、 `north`、 `northEast`、 `west`、 `center``east`和 `southWest``south``southeast`等。 例如，通过使用 center 参考点，您可以将一个图形绕其中心旋转 45 度。下图显示了参考点的位置、一个图形、该图形从其 `northWest` 参考点旋转 20 度所得到的图形和从其 `east` 参考点旋转 20 度所得到的图形。
+使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点为`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通过使用 center 参考点，您可以将一个图形绕其中心旋转 45 度。下图显示了参考点的位置、一个图形、该图形从其 `northWest` 参考点旋转 20 度所得到的图形和从其 `east` 参考点旋转 20 度所得到的图形。
 
 ![](assets/wp_ref_points.png)
 
-* 答：参考点位置
+* A.参考点位置
 * B.图形
-* C. The graphic rotated 20 degrees from its `northWest` reference point
-* D. The graphic rotated 20 degrees from its `east` reference point
+* C.图形从其`northWest`参考点旋转20度
+* D.图形从其`east`参考点旋转20度
 
 语法如下：
 
