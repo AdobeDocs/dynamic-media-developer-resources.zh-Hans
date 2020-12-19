@@ -1,6 +1,6 @@
 ---
-description: 色板由一行缩览图图像组成，左侧和右侧带有可选滚动按钮。
-seo-description: 色板由一行缩览图图像组成，左侧和右侧带有可选滚动按钮。
+description: 色板由一行缩略图图像组成，左侧和右侧带有可选滚动按钮。
+seo-description: 色板由一行缩略图图像组成，左侧和右侧带有可选滚动按钮。
 seo-title: 調色板
 solution: Experience Manager
 title: 調色板
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 92360088-7199-49c3-80ee-e175d234a78e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 3%
 
 ---
 
 
 # 調色板{#swatches}
 
-色板由一行缩览图图像组成，左侧和右侧带有可选滚动按钮。
+色板由一行缩略图图像组成，左侧和右侧带有可选滚动按钮。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-仅当所有缩略图都不能适合容器的宽度时，滚动按钮才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不显示滚动按钮。
+仅当所有缩略图都不能适合容器的宽度时，滚动按钮才在桌面上可见。 在移动设备上，或者缩略图可以适合容器宽度，则不显示滚动按钮。
 
 **色板的CSS属性**
 
@@ -46,7 +49,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直色板相对于查看器容器偏移。 </p> </td> 
+   <td colname="col2"> <p> 垂直色板相对于查看器容器的偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +63,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**缩览图样本间距的CSS属性**
+**缩略图样本间距的CSS属性**
 
-使用CSS类选择器控制色板缩略图之间的间距：
+色板缩览图之间的间距由CSS类选择器控制：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -78,7 +81,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于。s7thumbcell设置的左边距和右 <span class="codeph"> 边距的总和 </span>。 </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于为<span class="codeph"> .s7thumbcell </span>设置的左边距和右边距的和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,9 +94,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-**缩览图色板的CSS属性**
+**缩略图样本的CSS属性**
 
-使用以下CSS类选择器控制单个缩略图的外观：
+单个缩略图的外观由以下CSS类选择器控制：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb
@@ -108,11 +111,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p> 缩略图样本的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>缩略图样本的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +127,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，该选择器用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"` 与当前在主视图中显示的图像的缩略图相对应，与其余的缩略图相对应，并且 `state="default"``state="over"` 用于鼠标悬停。
+>缩略图支持`state`属性选择器，该选择器用于将不同的外观应用到不同的缩略图状态。 尤其是，`state="selected"`与当前在主视图中显示的图像的缩略图相对应，`state="default"`与缩略图的其余部分相对应，`state="over"`用于鼠标悬停。
 
 示例——要设置56 x 56像素的缩略图，请使用浅灰色默认边框和深灰色选定边框：
 
@@ -143,14 +146,14 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 **左右滚动按钮的CSS属性**
 
-左侧和右侧滚动按钮的外观由以下CSS类选择器控制：
+左和右滚动按钮的外观由以下CSS类选择器控制：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-无法使用CSS、、和属性定位 `top`滚动 `left`按 `bottom`钮 `right` 。 相反，查看器逻辑会自动定位它们。
+无法使用CSS `top`、`left`、`bottom`和`right`属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,31 +164,31 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p> 滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器用于将不同的外观应用于按钮状态 `up`、 `down`、 `over`和 `disabled`。
+>此按钮支持`state`属性选择器，该选择器用于将不同的外观应用于按钮状态`up`、`down`、`over`和`disabled`。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
 
-示例——设置56 x 56像素的滚动按钮，并且每个状态的图稿不同：
+示例——设置56 x 56像素的滚动按钮，每个状态的图稿各不相同：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 
