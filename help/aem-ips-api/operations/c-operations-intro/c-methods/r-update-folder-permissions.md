@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授权用户类型{#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
 | ` *`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| ` *`updateChildren`*` | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限更新子项。 |
+| ` *`updateChildren`*` | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限更新子级。 |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | 是 | 要应用到该文件夹的权限更新的数组。 |
 
 **输出(updateFolderPermissionsReturn)**
