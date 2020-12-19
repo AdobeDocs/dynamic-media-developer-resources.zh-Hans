@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +28,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定查看器在加载时显示的从零开始的帧索引。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>当设备纵向时，跨页中从零开始的页面索引。 在“从左至右”环境中， <span class="codeph"> 0表示</span> “左页”, <span class="codeph"> 1表示“右页</span> ”。 在“从右到左”中，情况正好相反： <span class="codeph"> 0表示</span> “右页”, <span class="codeph"> 1表示</span> “左页”。 </p> <p>如果未指定，则 <span class="codeph"> 默认情况下</span> ，假定为0。 设备横向时忽略。 </p> </td> 
+   <td colname="col2"> <p>设备纵向时跨页中页面的从零开始的索引。 在“从左到右”环境<span class="codeph"> 0</span>表示“左页”,<span class="codeph"> 1</span>表示“右页”。 在“从右到左”中，情况恰恰相反：<span class="codeph"> 0</span>表示“right page”,<span class="codeph"> 1</span>表示“left page”。 </p> <p>如果未指定，则默认情况下假定<span class="codeph"> 0</span>。 设备横向时忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
