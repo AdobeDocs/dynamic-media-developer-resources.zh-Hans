@@ -1,13 +1,16 @@
 ---
 description: 资产的发布历史记录。
 seo-description: 资产的发布历史记录。
-seo-title: PublishHistory
+seo-title: 发布历史记录
 solution: Experience Manager
-title: PublishHistory
+title: 发布历史记录
 topic: Scene7 Image Production System API
 uuid: 842eafd8-dc41-4df0-96b0-de14357ac495
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
