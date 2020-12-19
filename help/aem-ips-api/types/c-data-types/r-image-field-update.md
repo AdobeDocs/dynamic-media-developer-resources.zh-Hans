@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 8%
 
 ---
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | ` *`assetHandle`*` | `xsd:string` | 资产句柄。 |
-| ` *`分辨率`*` | `xsd:double` | 图像分辨率，以像素／英寸为单位。 |
+| ` *`分辨率`*` | `xsd:double` | 图像分辨率（以每英寸像素为单位）。 |
 | ` *`anchorX`*` | `xsd:int` | X轴图像锚点。 |
 | ` *`anchorY`*` | `xsd:int` | Y轴图像锚点。 |
-| ` *`用户数据`*` | `xsd:string` | 元数据 `userData` 字段的值，该字段发布到图像服务用户数据目录字段。 |
+| ` *`用户数据`*` | `xsd:string` | `userData`元数据字段的值，该字段发布到图像服务用户数据目录字段。 |
 
