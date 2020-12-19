@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 searchAssets操作的系统字段搜索条件。
 
-对于一次比较，根据系统字段类 `boolVal`型仅传递 `longVal`一个 `doubleVal`值(、、或 `dateVal`)。 对于搜索范围，传 `min<Type>` 递和 `max<Type>` 参数，并传递 `op` 值 `Between` 或 `NotBetween`。
+对于一次比较，根据系统字段类型，只传递一个值（`boolVal`、`longVal`、`doubleVal`或`dateVal`）。 对于搜索范围，传递`min<Type>`和`max<Type>`参数，传递`op`值`Between`或`NotBetween`。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -26,8 +29,8 @@ searchAssets操作的系统字段搜索条件。
 | ` *`op`*` | `xsd:string` | 字符串比较运算符的选择。 |
 | ` *`值`*` | `xsd:string` | 要测试的值。 |
 | ` *`boolVal`*` | `xsd:boolean` | 布尔比较值。 |
-| ` *`longVal`*` | `xsd:long` | 比较值很长。 |
-| ` *`minLong`*` | `xsd:long` | 长程的下边界。 |
+| ` *`longVal`*` | `xsd:long` | 比较值较长。 |
+| ` *`minLong`*` | `xsd:long` | 远程的下边界。 |
 | ` *`maxLong`*` | `xsd:long` | 长程上界。 |
 | ` *`doubleVal`*` | `xsd:double` | 多次比较值。 |
 | ` *`minDouble`*` | `xsd:double` | 多次范围的下边界。 |
