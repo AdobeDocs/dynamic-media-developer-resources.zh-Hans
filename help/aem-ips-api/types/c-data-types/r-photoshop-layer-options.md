@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -22,8 +25,8 @@ Photoshop图像图层选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`layerNaming`*` | `xsd:string` | 选择Photoshop图层命名模式。 |
-| ` *`锚记`*` | `xsd:string` | 选择Photoshop锚点模式。 |
+| ` *`layerNaming`*` | `xsd:string` | 选择Photoshop层命名模式。 |
+| ` *`锚记`*` | `xsd:string` | 选择Photoshop锚模式。 |
 | ` *`createTemplate`*` | `xsd:boolean` | 是否从Photoshop图层创建模板。 |
 | ` *`extractText`*` | `xsd:boolean` | 是否将文本提取为文本图层。 |
 | ` *`extendLayers`*` | `xsd:boolean` | 是否将图层扩展到背景的完全大小。 |
