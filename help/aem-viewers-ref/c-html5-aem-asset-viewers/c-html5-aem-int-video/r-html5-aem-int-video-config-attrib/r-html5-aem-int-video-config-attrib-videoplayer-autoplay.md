@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否开始在加载时播放视频。 请注意，某些系统（如某些移动设备）可能不支持自动播放。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 请注意，某些系统（如某些移动设备）可能不支持自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
