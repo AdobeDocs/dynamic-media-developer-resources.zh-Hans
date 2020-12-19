@@ -1,6 +1,6 @@
 ---
-description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
-seo-description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
+description: 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
+seo-description: 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
 seo-title: printRes
 solution: Experience Manager
 title: printRes
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5bca705a-3a48-4e5e-83eb-c200b6318564
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 2%
 
 ---
 
 
 # printRes{#printres}
 
-打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
+打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
 
 `printRes= *`val`*`
 
@@ -27,12 +30,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 打印分辨率通常由嵌入在暗角中的打印分辨率值定义。
 
-设置打印分辨率不会更改回复图像的像素大小。
+设置打印分辨率不会改变回复图像的像素大小。
 
 ## 属性 {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
-可以在请求中的任意位置指定。
+可以在请求的任意位置指定。
 
 ## 默认 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-嵌入到暗角中的打印分辨率。
+嵌入在暗角中的打印分辨率。
