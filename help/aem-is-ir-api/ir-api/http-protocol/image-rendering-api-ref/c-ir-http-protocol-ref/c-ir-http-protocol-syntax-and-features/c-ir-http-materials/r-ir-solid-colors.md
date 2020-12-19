@@ -1,6 +1,6 @@
 ---
-description: 该材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
-seo-description: 该材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
+description: 此材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
+seo-description: 此材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
 seo-title: 纯色
 solution: Experience Manager
 title: 纯色
@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 2%
 
 ---
 
 
 # 纯色{#solid-colors}
 
-该材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
+此材料类别包括用于墙壁、木工和装饰、汽车以及不需要纹理的任何其他应用的颜料。
 
-例如，您可以使用纯色改变不需要纹理更改的服装项上的颜色，或者设置汽车内饰的塑料装饰和地毯的颜色。 如果MSS中不存在任何值，则材 `src=` 料被视为纯色。
+例如，您可以使用纯色改变不需要纹理更改的服装项上的颜色，或者为汽车内饰的塑料装饰和地毯设置颜色。 如果MSS中不存在`src=`值，则材料被视为纯色。
 
 纯色可应用于所有可渲染的对象。
 
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> 颜色= </span></a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
    <td colname="col2"> <p> 灰色或RGB颜色值；必填。 </p> </td> 
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 
