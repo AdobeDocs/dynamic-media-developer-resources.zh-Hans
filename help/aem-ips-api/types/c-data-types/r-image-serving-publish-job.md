@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ab207299-ecb8-4acc-a5b3-b7553149b7b8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | ` *`publishType`*` | `xsd:string` | 可用的发布类型之一。 |
-| ` *`emailSetting`*` | `xsd:string` | 选择电子邮件设置。 |
+| ` *`emailSetting`*` | `xsd:string` | 电子邮件设置选项。 |
 | ` *`httpCompletionUrl`*` | `xsd:string` | 发送完成通知的URL。 |
 
