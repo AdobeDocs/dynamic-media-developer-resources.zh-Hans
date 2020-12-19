@@ -19,7 +19,7 @@ ht-degree: 1%
 
 文件修改时间戳。 指定附加到此目录记录的图像和／或数据文件上次修改的日期／时间。
 
-如果 `attribute::UseLastModified` 设置为，则请求中涉及 `catalog::TimeStamp` 的 `vignette::TimeStamp` 所有材料和暗角的最新值和值在HTTP响应中作为上次修改的头返回。
+如果设置`attribute::UseLastModified`，则所有材料的`catalog::TimeStamp`和`vignette::TimeStamp`值以及请求中涉及的暗角的最新值将作为上次修改的标头在HTTP响应中返回。
 
 >[!NOTE]
 >
@@ -31,15 +31,15 @@ ht-degree: 1%
 
 Java格式的日期／时间值。 可以是自1970年1月1日午夜(UTC/GMT)以来的毫秒数，也可以是日期／时间字符串值，其格式如下之一：
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*:  *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]**[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
+*[!DNL mm]*/  *[!DNL dd]*/  *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT  *[!DNL offset]*
 
 * *[!DNL hh]* 在0到23的范围内。
-* *[!DNL zzz]* 是3或4个字符的时区代码，如“GMT”或“PST”。 夏令时必须在时区代码中计算（例如，“太平洋标准时间”为“PST”，而“太平洋夏令时”为“PDT”）。
-* *[!DNL offset]* 是相对于GMT的时区偏移量，以小时或小时为单位：分钟。 例如，“PDT”等效于“GMT -7”。
+* *[!DNL zzz]* 是3或4个字符的时区代码，如“GMT”或“PST”。夏令时必须在时区代码中计算（例如，“太平洋标准时间”为“PST”，而“太平洋夏令时”为“PDT”）。
+* *[!DNL offset]* 是相对于GMT的时区偏移量，以小时或小时为单位：分钟。例如，“PDT”等效于“GMT -7”。
 
-字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，并改用 *catalog*.ini文件的修改时间。
+字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，而改用&#x200B;*catalog*.ini文件的修改时间。
 
 ## 默认 {#section-e2c126c9e7294662b23944ab8d14866b}
 
@@ -47,4 +47,4 @@ Java格式的日期／时间值。 可以是自1970年1月1日午夜(UTC/GMT)以
 
 ## 另请参阅 {#section-876f1d1b50dc4501b605820015a29451}
 
-[属性：:TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) , [属性：:UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)，属 [性：:CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4), [暗角：:TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
+[属性：:TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) ，属 [性：:UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)，属 [性：:CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4), [暗角：:TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
