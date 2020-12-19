@@ -1,6 +1,6 @@
 ---
-description: 将所有用户置于一个阵列中。
-seo-description: 将所有用户置于一个阵列中。
+description: 获取阵列中的所有用户。
+seo-description: 获取阵列中的所有用户。
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
 
 # getAllUsers{#getallusers}
 
-将所有用户置于一个阵列中。
+获取阵列中的所有用户。
 
 语法
 
-## 授权用户类型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授权用户类型{#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,13 +43,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">设置为： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> ，以包含无效用户。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> ，以忽略无效用户。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto</span> 包含无效用户。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falle不漏掉无效用户。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +64,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此代码示例返回所有用户。 响应被截断以简化。
+此代码示例返回所有用户。 响应被截断以便简短。
 
 **请求**
 
