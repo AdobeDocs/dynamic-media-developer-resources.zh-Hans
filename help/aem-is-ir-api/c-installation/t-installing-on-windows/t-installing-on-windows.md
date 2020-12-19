@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2646f61-24f4-4b15-b148-f8d615378fe0
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
@@ -18,5 +21,5 @@ source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
 
 * [首次安装](t-first-time-installation-win.md)
 * [使用管理员以外的其他用户帐户进行安装](t-diff-account-win.md)
-* [从IS 4.7.4或更高版本进行更新](t-update-win.md)
+* [从IS 4.7.4或更高版本更新](t-update-win.md)
 * [验证安装](t-verify-win.md)
