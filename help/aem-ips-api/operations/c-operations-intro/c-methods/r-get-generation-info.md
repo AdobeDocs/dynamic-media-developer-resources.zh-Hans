@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-9cc2216b32c74107be07aeacecc11401}
+## 授权用户类型{#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,9 +40,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`代码短语`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 在这一代中使用的引擎。 请参阅字体样式。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 为生成的资产处理要查询的资产。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 资产对查询的处理，用于生成资产和引擎。 |
+| ` *`代码短语`*` | `xsd:string` | 否 | 那代人使用的引擎。 请参阅字体样式。 |
+| ` *`代码短语`*` | `xsd:string` | 否 | 为生成的资产处理查询的资产。 |
+| ` *`代码短语`*` | `xsd:string` | 否 | 资产与查询在生成资产时使用的资产和引擎的句柄。 |
 | ` *`代码短语`*` | `xsd:StringArray` | 否 | 包含在操作中的属性。 |
 | ` *`代码短语`*` | `xsd:StringArray` | 否 | 操作中排除的属性。 |
 
@@ -51,7 +54,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-此代码示例返回有关从特定资产生成的资产的信息。 它不会检索有关用于生成指定资产的步骤的信息。 响应被截断以简化。
+此代码示例返回有关从特定资产生成的资产的信息。 它不会检索有关用于生成指定资产的步骤的信息。 响应被截断以便简短。
 
 **请求**
 
