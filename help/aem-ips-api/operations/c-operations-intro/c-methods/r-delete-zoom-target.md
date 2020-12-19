@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
 source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
 
 删除缩放目标。
 
-## 授权用户类型 {#section-09ca82bc817e49048271c5cba545702e}
+## 授权用户类型{#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +38,7 @@ source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 缩放目标所属公司的手柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 缩放公司所属的目标的手柄。 |
 | ` *`zoomTargetHandle`*` | `xsd:string` | 是 | 要删除的缩放目标的手柄。 |
 
 **输出(deleteZoomTargetParam)**
