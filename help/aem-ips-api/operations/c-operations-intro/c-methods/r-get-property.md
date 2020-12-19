@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 10%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`:用于呈现SVG资源的URL前缀。
-* `SvgRenderEnabled`:如果SVG资源可以由渲染，则为true `SvgRenderRootUrl`。
+* `SvgRenderEnabled`:如果SVG资源可以由呈现，则为 `SvgRenderRootUrl`true。
 
-* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位） [!DNL POST]。 系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`:上载中允许的文件数据最大大小（以字节为单位） [!DNL POST]。系统拒绝大于最大限制的文件。
 
-## 授权用户类型 {#section-2cd36bbd46ed414b8753569d5895530e}
+## 授权用户类型{#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`名称`*` | `xsd:string` | 是 | 要获取的属性的名称。 |
+| ` *`name`*` | `xsd:string` | 是 | 要获取的属性的名称。 |
 
 **输出(getPropertyReturn)**
 
@@ -55,7 +58,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-此代码示例使用IPS属性字符串常数来返回特定值。 在此示例中，IPS属性是IPS服务器的版本。
+此代码示例使用IPS属性字符串常数返回特定值。 在此示例中，IPS属性是IPS服务器的版本。
 
 **请求**
 
