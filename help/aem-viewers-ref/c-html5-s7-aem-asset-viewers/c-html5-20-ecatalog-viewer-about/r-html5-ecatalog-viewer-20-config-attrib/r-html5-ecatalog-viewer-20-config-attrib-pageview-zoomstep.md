@@ -8,23 +8,26 @@ topic: Dynamic media
 uuid: 11458300-4a1b-4623-8ea1-db804daab3cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 9%
 
 ---
 
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-` [PageView.|<containerId>_pageView.]zoomstep= *``*[, *`Steplimit`*]`
+` [PageView.|<containerId>_pageView.]zoomstep= *`斯`*[, *`特普利特`*]`
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p> 配置将分辨率提高或降低两倍所需的放大和缩小操作数。 每个缩放操作的分辨率更改是每步2^1。 设置为 <span class="codeph"> 0</span> ，通过一次缩放操作可缩放到全分辨率。 </p> </td> 
+   <td colname="col2"> <p> 配置增大或减小分辨率所需的放大和缩小操作数（2倍）。 每个缩放操作的分辨率更改是每步2^1。 设置为<span class="codeph"> 0</span>，通过单个缩放操作缩放到完整分辨率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 限制</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认值为 <span class="codeph"> 1.0</span>，这不允许缩放超出完整分辨率。 </p> </td> 
+   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认值为<span class="codeph"> 1.0</span>，它不允许缩放超出完整分辨率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
