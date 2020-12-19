@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +25,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 设置初始加载时视频回放的静音模式。 如果设置为 <span class="codeph"> 1, </span> 则音量将静音；否则，视频将播放声音。 在某些设备上，在加载时将视频回放静音的播放也允许视频自动播放。 </p> </td> 
+   <td colname="col2"> <p> 设置初始加载时视频回放的静音模式。 如果设置为<span class="codeph"> 1 </span>，则将静音卷；否则，视频会播放声音。 在某些设备上，在加载时静音视频回放还允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
