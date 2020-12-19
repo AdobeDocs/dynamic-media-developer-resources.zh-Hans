@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 包含平台服务器设置。
 
-修改此XML文件时，必须注意维护有效的XML语法，否则平台服务器可能无法开始。
+修改此XML文件时，必须注意保持有效的XML语法，否则平台服务器可能无法开始。
 
 要使更改生效，必须在编辑此文件后重新启动平台服务器。
 
-下图说明了该文件中可更改的设置。 有关这些设置的说明，请参阅本文档前面的相应部分。 请注意，此图不是完整的表示形式 [!DNL server.xml]。
+下图说明了在此文件中可更改的设置。 请参阅本文档前面的相应部分，以了解这些设置的说明。 请注意，此图不是[!DNL server.xml]的完整表示形式。
 
 ```
 <Server>
