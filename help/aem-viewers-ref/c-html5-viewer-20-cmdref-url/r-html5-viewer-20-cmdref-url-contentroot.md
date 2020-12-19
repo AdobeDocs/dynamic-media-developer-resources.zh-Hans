@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contentUrl <span class="varname"> 路径</span></span> </p> </td> 
-   <td colname="col2"> <p>指定自定义CSS文件、任何隐藏的字幕内容或导航内容的基本路径。 </p> <p>如果路径没有前导/ <span class="filepath"></span>，则它相对于查看器HTML页面的位置。 如果路径具有前导/ <span class="filepath"></span>，则它指定同一服务器上的绝对路径。 </p> <p> 不指定样式命令时，不影响默认CSS文件的加载。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>指定自定义CSS文件、任何隐藏的字幕内容或导航内容的基本路径。 </p> <p>如果路径没有前导<span class="filepath"> /</span>，则它相对于查看器HTML页面的位置。 如果路径具有前导<span class="filepath"> /</span> ，则它指定同一服务器上的绝对路径。 </p> <p> 不指定样式命令时不影响默认CSS文件的加载。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
