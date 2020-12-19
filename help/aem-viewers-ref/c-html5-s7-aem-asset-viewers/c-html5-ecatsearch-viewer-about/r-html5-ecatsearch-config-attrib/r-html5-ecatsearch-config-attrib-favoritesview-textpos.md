@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 851e3631-0fd9-4ed5-bef9-af5dca6e7646
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 底部|顶部|左侧|右侧|无|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>指定工 <span class="codeph"> 具提示</span> ，标签文本将作为浮动工具提示显示在缩略图上。 </p> <p>当设置为 <span class="codeph"> none</span>时，它将关闭标签显示。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 下|上|左|右|无</span> </p> </td> 
+   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>指定<span class="codeph">工具提示</span>时，标签文本将作为浮动工具提示显示在缩略图上。 </p> <p>当设置为<span class="codeph"> none</span>时，将关闭标签显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
