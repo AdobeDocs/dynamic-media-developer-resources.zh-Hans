@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 属性 {#section-52a4b91bbfa045c49c9541444fad2027}
 
-文本字符串。 必需. ICC用户档案映射的主索引键。 每 `icc::Name` 个值在表中必须是唯一的，且不得包含字符“,”。
+文本字符串。 必需. ICC用户档案映射的主索引键。 每个`icc::Name`值在表中必须唯一，且不能包含“,”字符。
 
 ## 默认 {#section-9d23d9b082f541b5b29b4ff92e942942}
 
