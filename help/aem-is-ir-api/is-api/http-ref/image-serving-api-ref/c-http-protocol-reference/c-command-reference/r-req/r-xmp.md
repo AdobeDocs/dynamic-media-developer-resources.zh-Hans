@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 11%
 
 ---
 
@@ -18,17 +21,17 @@ XMP元数据。 返回与在请求路径中指定的图像关联的XMP元数据�
 
 `req=xmp`
 
-其他命令将被忽略。 UTF-8编码适用。 响应的格式设置为MIME类型的XML `text/xml`。
+其他命令将被忽略。 UTF-8编码适用。 响应的格式为MIME类型为`text/xml`的XML。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
 ## 属性 {#section-0d26b6a56c844153ae5cea4880370d00}
 
-请求属性。 无论当前图层设置如何，均可应用。
+请求属性。 无论当前图层设置如何，均适用。
 
 ## 默认 {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-如果URL不包括图像路径或修饰符，则：
+如果URL不包含图像路径或修饰符，则：
 
 ```
 #S7Z OK 
@@ -36,7 +39,7 @@ HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserved.
 ```
 
-Otherwise, `req=img`
+否则，`req=img`
 
 ## 示例 {#section-34213692deab4a0f9037d5844132ee14}
 
@@ -61,7 +64,7 @@ Otherwise, `req=img`
 </script>
 ```
 
-检索特定目录条目的遮罩图像，缩放到原始大小的25%:
+检索特定目录条目的蒙版图像，缩放到原始大小的25%:
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=mask&scale=0.25`
 
@@ -83,4 +86,4 @@ Otherwise, `req=img`
 
 ## 另请参阅 {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , catalog:::目标 [,](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)catalog:UserData [，缩](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)放缩略图 [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f)[](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)[，属性映射，Image图像映射](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ，编录：:目标 [,](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)目录：:UserData [，缩](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)略图缩放 [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) [，缩略图属性映射，图](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
