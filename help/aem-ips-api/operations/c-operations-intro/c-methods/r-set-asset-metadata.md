@@ -1,6 +1,6 @@
 ---
-description: 设置资产的元数据值。 使用元数据更新的数组，以批量设置值。
-seo-description: 设置资产的元数据值。 使用元数据更新的数组，以批量设置值。
+description: 设置资产的元数据值。 使用一组元数据更新在批处理中设置值。
+seo-description: 设置资产的元数据值。 使用一组元数据更新在批处理中设置值。
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
 
 # setAssetMetadata{#setassetmetadata}
 
-设置资产的元数据值。 使用元数据更新的数组，以批量设置值。
+设置资产的元数据值。 使用一组元数据更新在批处理中设置值。
 
 语法
 
-## 授权用户类型 {#section-9dcacb0c924044648f8324bfed183dca}
+## 授权用户类型{#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要更新的资产所在公司的句柄。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 要更新的资产公司的句柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 资产的句柄。 |
 | ` *`updateArray`*` | `types:MetadataUpdateArray` | 是 | 元数据更新阵列中的更新。 |
 
