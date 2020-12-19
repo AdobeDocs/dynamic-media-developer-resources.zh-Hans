@@ -1,6 +1,6 @@
 ---
-description: 从选定资产中删除权限。
-seo-description: 从选定资产中删除权限。
+description: 从选定资产删除权限。
+seo-description: 从选定资产删除权限。
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
 
 # removeAssetPermissions{#removeassetpermissions}
 
-从选定资产中删除权限。
+从选定资产删除权限。
 
 语法
 
-## 授权用户类型 {#section-239058fdb4454e519ac327e621cb3abc}
+## 授权用户类型{#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 您要删除的具有权限的资产的处理。 |
+| ` *`assetHandle`*` | `xsd:string` | 是 | 您要删除的具有权限的资产的句柄。 |
 
 **输出(removeAssetPermissionsReturn)**
 
