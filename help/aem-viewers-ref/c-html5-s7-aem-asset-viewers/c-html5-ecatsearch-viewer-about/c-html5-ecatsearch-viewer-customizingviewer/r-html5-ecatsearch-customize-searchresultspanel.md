@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 2%
 
 ---
 
@@ -35,17 +38,17 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>叠加的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
    <td colname="col2"> <p>颜色的不透明度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-搜索结果面板始终占据所有可用的查看器高度。 但是，您可以配置宽度。 可以将宽度设置为绝对像素值，这是大中型断点的默认设置。 或者，可将宽度设置为100%，以使搜索结果面板占据整个查看器区域。 面板宽度由以下CSS类选择器控制：
+搜索结果面板始终占据所有可用的查看器高度。 但是，您可以配置宽度。 可以将宽度设置为绝对像素值，这是大中型断点的默认设置。 或者，可将宽度设置为100%，以使搜索结果面板占用整个查看器区域。 面板宽度由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -73,7 +76,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-搜索结果面板的顶部专用于搜索输入框。 输入框两侧的填充由以下CSS类选择器控制：
+搜索结果面板的顶部专用于搜索输入框。 输入框两侧的边距由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
@@ -85,7 +88,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 输入框周围的填充。 </p> </td> 
+   <td colname="col2"> <p> 在输入框周围填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +108,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>搜索输入字段的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 填充左  </span> </p> </td> 
    <td colname="col2"> <p> 输入字段边界与输入文本之间的内填充。 </p> </td> 
   </tr> 
   <tr> 
@@ -117,13 +120,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>搜索输入字段的边距 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>文本字体的大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个搜索输入字段，该字段具有0像素高和14像素文本字体：
+示例——设置具有0像素高和14像素文本字体的搜索输入字段：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput { 
@@ -144,19 +147,19 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p>“外观玻璃”图标图像的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景大小  </span> </p> </td> 
    <td colname="col2"> <p>“外观玻璃”图标的大小。 </p> </td> 
   </tr> 
   <tr> 
@@ -164,13 +167,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>搜索输入按钮的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-例如，设置一个26 x 26像素的“眼镜”图标的搜索按钮；大小为30像素，边框为1像素：
+示例——设置一个26 x 26像素的“镜头”图标的搜索按钮；大小为30像素，边框为1像素：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -198,15 +201,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p> 文本的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>水平文本对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>字体文本的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->此文本面板支持属 `state` 性选择器，该选择器可用于将不同样式应用于不同的文本消息。 特别是， `state='prompt'` 与首次调用面板时显示的文本提示相对应；对应 `state='results'` 于包含搜索点击信息的文本；和 `state='no_results'` 与搜索查询未返回任何结果时显示的文本相对应。
+>此文本面板支持`state`属性选择器，该选择器可用于将不同的样式应用于不同的文本消息。 特别是，`state='prompt'`对应于首次调用面板时显示的文本提示；`state='results'`与含有搜索点击信息的文本相对应；`state='no_results'`与搜索查询未返回任何结果时显示的文本相对应。
 
-消息文本可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+消息文本可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例——设置使用灰色18像素字体的文本面板：
 
@@ -227,19 +230,19 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-对于具有搜索点击量的页面，搜索结果将呈现为单列或单行缩略图。 通过以下CSS类选择器控制搜索结果缩略图之间的间距：
+对于具有搜索点击量的页面，搜索结果将呈现为单列或单行缩略图。 搜索结果缩览图之间的间距由以下CSS类选择器控制：
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**缩览图单元格的CSS属性**
+**缩略图单元格的CSS属性**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于。s7thumbcell设置的上边距和下边距 <span class="codeph"> 的和 </span>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距  </span> </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于为<span class="codeph"> .s7thumbcell </span>设置的上边距和下边距之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,11 +266,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +280,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-示例——要设置215 x 129像素的缩略图，请设置一个浅灰色默认边框和一个深灰色选定边框：
+示例——要设置215 x 129像素的缩略图，请使用浅灰色默认边框和深灰色选定边框：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -286,7 +289,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-缩览图标签的外观由以下CSS类选择器控制：
+缩略图标签的外观由以下CSS类选择器控制：
 
 ```
  .s7ecatalogsearchviewer 
@@ -298,15 +301,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
    <td colname="col2"> <p> 文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>文本字体的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -322,43 +325,43 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-在使用鼠标输入的系统上，搜索结果面板底部显示两个滚动按钮，供用户滚动浏览搜索结果。 上下滚动按钮的外观由以下CSS类选择器控制：
+在使用鼠标输入的系统上，用户在搜索结果面板底部滚动两个滚动按钮，以浏览搜索结果。 上下滚动按钮的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-无法使用CSS top、left、bottom和right属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
+无法使用CSS顶部、左侧、底部和右侧属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
 **上下滚动按钮的CSS属性**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>另请参 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用 `"up"`于 `"down"`、 `"over"`、和 `"disabled"` 按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于`"up"`、`"down"`、`"over"`和`"disabled"`按钮状态。
 
-按钮工具提示可以本地化。 有关 [详细信息，请参阅用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例——设置一个125 x 35像素的向上滚动按钮，每个状态的图稿不同：
 
