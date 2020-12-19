@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
 
-# 命令参考{#command-reference}
+# 命令引用{#command-reference}
 
 本节介绍HTTP协议命令。
 
-**仅适用于AEM中的Dynamic Media**:除了用户界面中提供的基本图像设置之外， [!DNL Dynamic Media] AEM( [!DNL Adobe Experience Manager])中还支持许多可在图像修饰符字段中指定的高级图像 **修改** 。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
+**仅针对AEM的Dynamic Media**:除了用户界面中提供的基本图像设置，AEM() [!DNL Dynamic Media] 中还 [!DNL Adobe Experience Manager]支持许多可在图像修改器斯菲尔德中指定的高级 **图像** 修改。这些参数定义如下。 但是，请注意，AEM的Dynamic Media不支持以下功能。
 
-* 颜色校正命令： `icc=` 和 `iccEmbed=`。
-* 基本模板和文本渲染命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`。
-* 本地化命令： `locale=` 和 `req=xlate`。
-* `req=set` 不可用于常规用途。
+* 颜色校正命令：`icc=`和`iccEmbed=`。
+* 基本模板和文本渲染命令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
+* 本地化命令：`locale=`和`req=xlate`。
+* `req=set` 不可用于一般用途。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
@@ -30,7 +33,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另请参阅AEM 6.5 [文档中的Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) Image Preset选项。
+另请参阅AEM 6.5文档中的Dynamic Media[图像预设选项](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options)。
 
 * [对齐](r-align.md)
 * [锚记](r-anchor.md)
@@ -58,7 +61,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [图层](r-layer.md)
+* [层](r-layer.md)
 * [locale](r-locale.md)
 * [地图](r-map.md)
 * [遮罩](r-mask.md)
