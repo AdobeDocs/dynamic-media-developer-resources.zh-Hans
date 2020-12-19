@@ -1,18 +1,21 @@
 ---
 description: 本节介绍静态内容数据属性。
 seo-description: 本节介绍静态内容数据属性。
-seo-title: 静态内容数据参考
+seo-title: 静态内容数据引用
 solution: Experience Manager
-title: 静态内容数据参考
+title: 静态内容数据引用
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1e8af0a9-bc08-4e7f-bab2-344ec644e873
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 7%
 
 ---
 
 
-# 静态内容数据参考{#static-content-data-reference}
+# 静态内容数据引用{#static-content-data-reference}
 
 本节介绍静态内容数据属性。
 
