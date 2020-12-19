@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 SvgRender组件是独立的Java应用程序。
 
-SVG配置设置位于、 [!DNL PlatformServer.conf]、 [!DNL SVG.conf]和 [!DNL ImageServerRegistry.xml]中 [!DNL ServerSupervisorRegistry.xml]。
+SVG配置设置位于[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml]和[!DNL ServerSupervisorRegistry.xml]中。
 
-套接字连接用于在SvgRender和图像服务器之间通信。 端口号为27346。 如果需要，可以通过将中值和中 `SVGRender.port` 值设 [!DNL svg.conf] 置 `<SVGTcpPort>` 为新 [!DNL ImageServerRegistry.xml] 值来更改它。
+套接字连接用于在SvgRender和图像服务器之间通信。 端口号为27346。 如有必要，可将[!DNL svg.conf]中的`SVGRender.port`和[!DNL ImageServerRegistry.xml]中的`<SVGTcpPort>`设置为新值，以更改它。
 
 ## 另请参阅 {#section-c085b47d54d44059bdaa67fd5e226e91}
 
