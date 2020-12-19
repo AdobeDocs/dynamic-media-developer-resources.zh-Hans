@@ -1,6 +1,6 @@
 ---
-description: 关于任务项的一组信息。
-seo-description: 关于任务项的一组信息。
+description: 有关任务项的信息数组。
+seo-description: 有关任务项的信息数组。
 seo-title: TaskItemProgressArray
 solution: Experience Manager
 title: TaskItemProgressArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: f62f1123-bd7c-4099-b36d-58aff283bdb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
 
 # TaskItemProgressArray{#taskitemprogressarray}
 
-关于任务项的一组信息。
+有关任务项的信息数组。
 
 语法
 
