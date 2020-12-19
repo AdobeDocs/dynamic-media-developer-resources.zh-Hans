@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授权用户类型{#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`assetType`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
+| ` *`资产类型`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
 
 **输出(getMetadataFieldsParam)**
 
