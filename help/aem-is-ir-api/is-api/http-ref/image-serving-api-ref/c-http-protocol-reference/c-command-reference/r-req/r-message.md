@@ -1,6 +1,6 @@
 ---
-description: 客户端消息。 为客户端提供一种机制，以将短文本消息插入服务器日志。
-seo-description: 客户端消息。 为客户端提供一种机制，以将短文本消息插入服务器日志。
+description: 客户端消息。 为客户端提供一种将短文本消息插入服务器日志的机制。
+seo-description: 客户端消息。 为客户端提供一种将短文本消息插入服务器日志的机制。
 seo-title: 消息
 solution: Experience Manager
 title: 消息
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
 
 # 消息{#message}
 
-客户端消息。 为客户端提供一种机制，以将短文本消息插入服务器日志。
+客户端消息。 为客户端提供一种将短文本消息插入服务器日志的机制。
 
 `req=message&message= *`字串`*`
 
@@ -25,4 +28,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-HTTP响应不可缓存。 将返回MIME类型为空的响应 `text/plain`。
+HTTP响应不可缓存。 返回MIME类型为`text/plain`的空响应。
