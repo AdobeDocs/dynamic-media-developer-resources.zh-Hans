@@ -1,20 +1,23 @@
 ---
-description: 添加搜索词以与searchAssets一起使用。
-seo-description: 添加搜索词以与searchAssets一起使用。
-seo-title: MetadataCondition
+description: 添加搜索词以用于searchAssets。
+seo-description: 添加搜索词以用于searchAssets。
+seo-title: 元数据条件
 solution: Experience Manager
-title: MetadataCondition
+title: 元数据条件
 topic: Scene7 Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 7%
 
 ---
 
 
 # MetadataCondition{#metadatacondition}
 
-添加搜索词以与searchAssets一起使用。
+添加搜索词以用于searchAssets。
 
 语法
 
@@ -30,7 +33,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 字 <span class="varname"> 段句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 字段句柄。 </td> 
   </tr> 
@@ -40,64 +43,64 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col3"> 字符串比较运算符的选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 要测试的值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Boolean比较值（仅适用于Boolean类型字段）。 </td> 
+   <td colname="col3"> 布尔比较值（仅用于布尔类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> long Val</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 长比较值（仅适用于int-typed字段）。 </td> 
+   <td colname="col3"> 长比较值（仅限int类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 最长</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最小长值（仅限int-typed字段）。 </td> 
+   <td colname="col3"> 范围比较中的最小长值（仅限int类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最大长值（仅适用于int-typed字段）。 </td> 
+   <td colname="col3"> 范围比较中的最大长值（仅限int类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 多次比较值（仅适用于浮点型字段）。 </td> 
+   <td colname="col3"> 多次比较值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 最 <span class="varname"> 小双</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最小多次值（仅适用于浮点型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最小多次值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最大多次值（仅适用于浮点型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最大多次值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 日期比较值（仅适用于日期类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 最 <span class="varname"> 小日期</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 范围比较中的最小日期值（仅适用于日期类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 范围比较中的最大日期值（仅适用于日期类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 区分大小写 <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 区分大小写</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 在searchAssetsByMetadata调 <span class="codeph"> 用中使用</span> 。 </p> <p>请参 <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> 阅searchAssetsByMetadata</a>。 </p> </td> 
+   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 用于<span class="codeph"> searchAssetsByMetadata</span>调用。 </p> <p>请参阅<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
