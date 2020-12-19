@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-11bec77e50b24461bb8c8aacf016eec8}
+## 授权用户类型{#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,19 +48,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 资产句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">可用状态： 
@@ -67,8 +70,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 代码短语  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,7 +84,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-c31ead6d0e594317a12c120509527792}
 
-此代码示例使用设置资产的发布状态 `NotMarkedForPublish`。
+此代码示例使用`NotMarkedForPublish`设置资产的发布状态。
 
 **请求**
 
