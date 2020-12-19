@@ -8,27 +8,30 @@ topic: Dynamic media
 uuid: 58d49de7-4828-46ae-b2e7-eb9398e98a99
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
 
 # FlyoutZoomView.zoomfactor{#flyoutzoomview-zoomfactor}
 
-` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *`PrimaryFactorsecondaryFactorscople`*[,[ *``*][, *``*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *`PrimaryFactorsecondaryFactors放`*[,[ *``*][, *`大`*]]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 主 <span class="varname"> 因子</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定弹出视图相对于主视图的图像放大率。必须是整数或浮点值 <span class="codeph"> 1.0或更大</span> 。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定弹出视图相对于主视图的图像放大率。必须为整数或浮点值<span class="codeph"> 1.0</span>或更大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryFactor <span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p> 可以指定可选的次要因子，当高亮显示处于活动状态时，单击或点按主视图即可访问该次要因子。 再次单击或点按时间会还原为主缩放因子。 值为-1 <span class="codeph"> 将禁用</span> 辅助缩放因子。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 
+   <td colname="col2"> <p> 可以指定可选的辅助因子，当高亮处于活动状态时，单击或点按主视图即可访问该辅助因子。 再次单击或点按时间会还原为主缩放因子。 值<span class="codeph"> -1</span>将禁用次缩放因子。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 高档</span></span> </p> </td> 
-   <td colname="col2"> <p>指定组件处理小图像的方式。 </p> <p>如果设置为 <span class="codeph"> 1</span> ，则组件会向上缩放主图像，使其适合主视图。 此外，它还会放大缩放图像，以使其完全填充已配置的弹出窗口区域。 </p> <p>如果设置为 <span class="codeph"> 0</span> ，则以原始分辨率显示小图像，并以主视图区域和弹出窗口的中心显示。 您可以配置图像周围显示的额外空白，其背景或类似的 <span class="codeph"> s7flyoutzoomview</span> 和 <span class="codeph"> s7flyoutzoom</span> CSS类分别位于主视图和弹出窗口中。 </p> </td> 
+   <td colname="col2"> <p>指定组件处理小图像的方式。 </p> <p>如果设置为<span class="codeph"> 1</span>，则组件会上升显示主图像，使其适合主视图。 此外，它还会放大缩放图像，使其完全填充配置的弹出窗口区域。 </p> <p>如果设置为<span class="codeph"> 0</span>，则以其原始分辨率显示小图像，并以主视图区和弹出窗口的中心显示。 您可以配置图像周围显示的额外空白，该空白分别位于主视图和弹出窗口中<span class="codeph"> s7flyoutzoomview</span>和<span class="codeph"> s7flyoutzoom</span> CSS类的背景或类似的CSS属性。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
