@@ -15,7 +15,7 @@ ht-degree: 5%
 ---
 
 
-# 重新处理AssetsJob{#reprocessassetsjob}
+# ReprocessAssetsJob{#reprocessassetsjob}
 
 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
 
@@ -55,7 +55,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应值，则无论preserveCrop值如何，新值（不包括0,0,0,0）都将应用于资产。</p><p>如果不提 <i>供</i> manualCropOptions参数，则保留PreserveCrop的值。 并且，如果为true，则保留现有的preserveCrop值； 如果为false，则删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190<br />&lt;/left&gt;<br />&lt;right&gt;310&lt;/right<br />&gt;&lt;top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应值，则无论preserveCrop值如何，新值（不包括0,0,0,0）都将应用于资产。</p><p>如果<i>不</i>提供manualCropOptions参数，则保留Crop的值。 并且，如果为true，则保留现有的preserveCrop值；如果为false，则删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt; 190&lt;/left&gt;<br />    &lt;right&gt; 310&lt;/right&gt;<br />    &lt;top&gt; 160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -145,7 +145,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>将InDesign文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将InDesign文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
@@ -155,20 +155,20 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> usmsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:USMsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> 阅USMsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **说明**
 
-选项 `*CropOptions` 包括：
+`*CropOptions`的选项包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-选项 `*PublishJob` 包括：
+`*PublishJob`的选项包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
