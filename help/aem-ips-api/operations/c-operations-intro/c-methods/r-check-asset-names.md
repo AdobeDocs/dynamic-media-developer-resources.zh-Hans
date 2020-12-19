@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-8efcbb3f555f417a870219e4714374db}
+## 授权用户类型{#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## 参数 {#section-9c75b00f2072453abea0bdefc6ad7c99}
+## 参数{#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **输入(checkAssetNamesParam)**
 
@@ -42,11 +45,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`inUseNameArray`*` | `types:StringArray` | 是 | 一组正在使用的资源名称。 |
+| ` *`inUseNameArray`*` | `types:StringArray` | 是 | 正在使用的资产名称的数组。 |
 
 ## 示例 {#section-bc5d120d74614a63a425ca3acc337219}
 
-此示例代码请求用于指定公司的资产名称。 该响应会返回一组正在使用的资产名称。
+此示例代码请求在指定公司中使用的资产名称。 该响应会返回一组正在使用的资产名称。
 
 **请求**
 
