@@ -1,6 +1,6 @@
 ---
-description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
-seo-description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+description: 允许管理员创建新的元数据字段以与内容管理系统协调或进行模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+seo-description: 允许管理员创建新的元数据字段以与内容管理系统协调或进行模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
 seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
 
 # createMetadataField{#createmetadatafield}
 
-允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+允许管理员创建新的元数据字段以与内容管理系统协调或进行模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
 
 语法
 
-## 授权用户类型 {#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 授权用户类型{#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -37,37 +40,37 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 元数据字段所属公司的名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产类型</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 资产类型</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 资源类型. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 要创建的元数据字段的名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">元数据字段类型。 <p>元数据字段类型常量定义可用的类型。 </p> </td> 
+   <td colname="col4">元数据字段类型。 <p>元数据字段类型常量定义可用类型。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要创建的元数据字段的默认值(例如， <span class="codeph"> Scene 7</span>)。 </p> <p>标记字段类型不支持默认值，必须忽略默认值。 如果为标记字段类型指定了非空默认值，则将返回一个错误。 </p> </td> 
+   <td colname="col4"> <p>要创建的元数据字段的默认值（例如，<span class="codeph"> Scene 7</span>）。 </p> <p>标记字段类型不支持默认值，必须忽略默认值。 如果为标记字段类型指定非空默认值，则将返回错误。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
@@ -76,13 +79,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在setAssetMetadata <span class="codeph"> /batchSetAssetMetadata中设置了非法值，则会引</span> 发错误<span class="codeph"></span>。 </p> </td> 
+   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可以指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 允许您创建一组共享枚举值，选定标记可指向这些值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +98,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此代码示例创建一个名为的字符串类型元数据字段 `createMetadataField`。 响应将返回新元数据字段的句柄。
+此代码示例创建一个名为`createMetadataField`的字符串类型元数据字段。 该响应会将句柄返回到新元数据字段。
 
 **请求**
 
