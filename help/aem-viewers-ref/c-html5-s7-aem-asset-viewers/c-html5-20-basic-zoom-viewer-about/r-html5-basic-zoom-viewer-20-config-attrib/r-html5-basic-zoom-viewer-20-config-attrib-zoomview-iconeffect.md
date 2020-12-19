@@ -8,31 +8,34 @@ topic: Dynamic media
 uuid: 38350e3d-515b-454c-bc85-39b91ad06e8b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 5%
 
 ---
 
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`countfadeauto`*][, *``*][, *`隐藏`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当图像处于重置状态并且提示可以与图像交互的操作时，使IconEffect显示在图像顶部。 </p> </td> 
+   <td colname="col2"> <p> 当图像处于重置状态时，使IconEffect能够显示在图像顶部，并提示可以执行与图像交互的操作。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值为-1 <span class="codeph"> 表示</span> ，该图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 计数</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 淡入淡出</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 淡出</span> </span> </p> </td> 
    <td colname="col2"> <p>指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自 <span class="varname"> 动隐藏</span></span> </p> </td> 
-   <td colname="col2"> <p>设置自动隐藏IconEffect之前保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置为 <span class="codeph"> 0</span> 将禁用自动隐藏行为。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 自动隐藏</span> </span> </p> </td> 
+   <td colname="col2"> <p>设置自动隐藏IconEffect前保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置<span class="codeph"> 0</span>将禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
