@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
+## 授权用户类型{#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -38,6 +41,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`类型`*` | `xsd:string` | 是 | 配置设置适用的查看器类型。 |
+| ` *`类型`*` | `xsd:string` | 是 | 应用配置设置的查看器类型。 |
 | ` *`configSettingsArray`*` | `types:ConfigSettingsArray` | 是 | 查看器配置设置的数组。 |
 
