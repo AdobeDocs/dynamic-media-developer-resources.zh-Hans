@@ -1,6 +1,6 @@
 ---
-description: 返回标记为发布的资产的发布上下文。
-seo-description: 返回标记为发布的资产的发布上下文。
+description: 返回标记为要发布的资产的发布上下文。
+seo-description: 返回标记为要发布的资产的发布上下文。
 seo-title: batchGetAssetPublishContexts
 solution: Experience Manager
 title: batchGetAssetPublishContexts
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-返回标记为发布的资产的发布上下文。
+返回标记为要发布的资产的发布上下文。
 
 语法
 
-## 授权用户类型 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 授权用户类型{#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,6 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 >
 >* 用户必须具有读取权限才能返回资产。
 >* 所有用户都有权访问共享公司。
+
 >
 
 
@@ -45,13 +49,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要列表以激活（标记为发布）上下文的资产的查询。 |
+| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要列表为活动（标记为发布）上下文的资产的查询。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一组发布上下文，其中每个资产都标记为发布。 |
+| ` *`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一组发布上下文，其中每个资产都标记为要发布。 |
 
 ## 示例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
