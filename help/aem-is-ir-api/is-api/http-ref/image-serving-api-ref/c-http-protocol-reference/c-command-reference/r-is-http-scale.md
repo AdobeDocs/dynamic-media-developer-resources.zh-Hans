@@ -3,11 +3,14 @@ description: 缩放图像。 相对于全分辨率图像按因子缩放图层源
 seo-description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
 seo-title: scale
 solution: Experience Manager
-title: scale
+title: 规模
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
@@ -25,15 +28,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-No scaling is applied when `scale=1`. *`factor`* 小于1.0的缩小和大于1.0的放大源图像。
+`scale=1`时不应用缩放。 *`factor`* 小于1.0的缩小和大于1.0放大源图像。
 
 ## 属性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-源图像／蒙版属性。 如果同时 `size=` 为当前图层指定，则忽略该参数。 Overrides `res=`. 如果为指定，则应用于图层0 `layer=comp`。 如果图层未与图像或蒙版关联，则忽略此选项。
+源图像／蒙版属性。 如果同时为当前层指定`size=`，则忽略。 覆盖`res=`。 如果为`layer=comp`指定，则应用于层0。 如果图层未与图像或蒙版关联，则忽略此项。
 
 ## 默认 {#section-26e64904362342a5a62c5f6598f330c4}
 
-如果未指定，则 `res=` 使用。 如果 `res=` 未指定，则不使用缩放来使用图像。
+如果未指定，则使用`res=`。 如果未指定`res=`，则使用图像时不进行缩放。
 
 ## 另请参阅 {#section-61a11f30d37341d58c10df759bfff951}
 
