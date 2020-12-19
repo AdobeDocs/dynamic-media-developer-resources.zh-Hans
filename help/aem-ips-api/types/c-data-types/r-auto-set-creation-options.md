@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 5%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`autoSetsArray`*` | `types:HandleArray` | 定义在上 [!DNL PropertySet] 传期间应用的自动集生成脚本的句柄数组。 |
+| ` *`autoSetsArray`*` | `types:HandleArray` | 定义在上传过程中应用的自动设置生成脚本的[!DNL PropertySet]句柄数组。 |
 
