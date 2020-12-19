@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 610fe9a9-897d-4e20-8879-334587c54a5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
 
-# Intended audience{#intended-audience}
+# 预期受众{#intended-audience}
 
 希望将Scene7图像服务用于网站或自定义应用程序的经验丰富的程序员和网站开发人员。
 
