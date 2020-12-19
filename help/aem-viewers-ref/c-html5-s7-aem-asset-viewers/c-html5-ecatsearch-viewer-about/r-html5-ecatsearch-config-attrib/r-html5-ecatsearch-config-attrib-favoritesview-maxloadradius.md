@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>如果设置为 <span class="codeph"> -1</span>，则在初始化组件或更改资产时，将同时加载所有缩略图。 </p> <p>设置为 <span class="codeph"> 0时</span>，只加载可见的缩览图。 </p> <p> 设置为preloadnbr <span class="codeph"><span class="varname"> 时</span></span>，可指定预加载可见区域周围的不可见行数。 </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>如果设置为<span class="codeph"> -1</span>，则在初始化组件或更改资产时，会同时加载所有缩略图。 </p> <p>设置为<span class="codeph"> 0</span>时，只加载可见的缩略图。 </p> <p> 当设置为<span class="codeph"><span class="varname"> preloadnbr</span></span>时，可指定预加载可见区域周围的不可见行数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
