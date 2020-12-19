@@ -3,11 +3,14 @@ description: 缩放图像。 相对于全分辨率图像按因子缩放图像。
 seo-description: 缩放图像。 相对于全分辨率图像按因子缩放图像。
 seo-title: scale
 solution: Experience Manager
-title: scale
+title: 规模
 topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
