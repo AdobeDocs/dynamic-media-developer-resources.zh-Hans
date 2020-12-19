@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 授权用户类型{#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，其中包含要获取的图像格式。 |
+| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，包含您要获取的图像格式。 |
 
 **输出(getImageFormatsParam)**
 
