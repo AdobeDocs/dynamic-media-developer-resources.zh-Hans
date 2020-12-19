@@ -1,6 +1,6 @@
 ---
-description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
-seo-description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
+description: 纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
+seo-description: 纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
 seo-title: 重复
 solution: Experience Manager
 title: 重复
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 19%
 
 ---
 
 
 # 重复{#repeat}
 
-纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
+纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
 
 ## 属性 {#section-cef4109cddf54ce095c3293d85bc412d}
 
 枚举。 仅用于可重复的纹理。 忽略所有其他材料。
 
-允许对可重复的纹理材料使用以下值：
+允许以下值用于可重复的纹理材料：
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
@@ -41,11 +44,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>四分之一的墙纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>四分之一的壁纸挂着。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>三投壁纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>三滴壁纸挂着。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
@@ -57,11 +60,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>翻转壁纸挂起。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>翻墙纸挂着。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>随机贴壁纸。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>随机壁纸挂着。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
