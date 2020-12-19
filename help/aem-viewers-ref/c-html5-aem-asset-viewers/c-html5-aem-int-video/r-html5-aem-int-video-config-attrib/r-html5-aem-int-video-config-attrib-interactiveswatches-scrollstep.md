@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p>指定每次点按相应的滚动按钮时要滚动的色板数。 </p> <p>如果指定的值大于可见的交互式色板的数量，则每次点按只滚动可见色板的数量，以防止遗漏任何色板。 </p> </td> 
+   <td colname="col2"> <p>指定每次点按相应的滚动按钮时要滚动的色板数。 </p> <p>如果指定的值大于可见的交互式色板数，则每次点按仅滚动可见色板数，以防止遗漏任何色板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
