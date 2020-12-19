@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: add69c62-1139-4993-acf7-2e11e734ea83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 30%
 
 ---
 
@@ -30,27 +33,27 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> original <span class="varname"> Path</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>GIF文件的路径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 原始 <span class="varname"> 文件</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>文件名. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedPath</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS优化图像文件的路径。 </p> </td> 
+   <td colname="col3"> <p>IPS优化的图像文件的路径。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> optimizedFile</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>经过IPS优化的图像文件。 </p> </td> 
+   <td colname="col3"> <p>IPS优化的图像文件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 文 <span class="varname"> 件大小</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>文件大小. </p> </td> 
   </tr> 
