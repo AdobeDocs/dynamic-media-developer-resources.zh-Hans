@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# 旋转视图{#spin-view}
 
 当当前资产是旋转集时，主视图由旋转图像组成。
 
@@ -20,7 +23,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -35,8 +38,8 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 旋转视图的十六进制格式背景色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 旋转视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
