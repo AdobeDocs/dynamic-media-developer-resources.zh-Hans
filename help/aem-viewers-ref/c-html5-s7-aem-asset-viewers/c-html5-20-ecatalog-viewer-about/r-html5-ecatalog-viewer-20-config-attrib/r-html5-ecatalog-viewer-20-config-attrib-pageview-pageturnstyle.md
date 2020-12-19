@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3192d810-fb30-44ae-9939-98e890c76e5c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdiverColordiverOpacityborderOnOffborderColorfillColor`*`
 
-在桌面系统上将组件设 `PageView.frametransition` 置为或设 `turn` 置为 `auto` 组件外观。
+在桌面系统上将`PageView.frametransition`设置为`turn`或`auto`时控制组件外观。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 分页阴影的宽度（以像素为单位），用于分隔跨页中的左页和右页。 它还控制在翻页旁边显示的正在运行的阴影的宽度。 </p> </td> 
+   <td colname="col2"> <p> 分页阴影的宽度（以像素为单位），用于分隔跨页中的左页和右页。 它还控制在车削页面旁边显示的正在运行的阴影的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
@@ -30,11 +33,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>在0到1范围内的阴 <span class="codeph"> 影不透明</span><span class="codeph"> 度</span>。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>的范围内的阴影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 打开和关闭 <span class="codeph"> 翻页周围的边框的标</span> 志(0 <span class="codeph"> 或1</span>)。 </p> </td> 
+   <td colname="col2"> <p> 标志（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>），可打开和关闭翻页周围的边框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> 在翻页动画过程中使用的组件区域的实心填充颜色，采用RRGGBB格式。 </p> </td> 
+   <td colname="col2"> <p> 在翻页动画期间使用的组件区域的实心填充颜色，RRGGBB格式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
