@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 2%
 
 ---
 
@@ -20,17 +23,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 属性 {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-请求属性。 如果源图像不包含路径数据，则忽略该值。 路径数据会像图像数据一样缩放和旋转。 只处理源图像的 `layer=0` 路径；忽略来自其他图层图像的路径。
+请求属性。 如果源图像不包含路径数据，则忽略。 路径数据会像图像数据一样进行缩放和旋转。 只处理`layer=0`源图像的路径；将忽略来自其他图层图像的路径。
 
-如果输出图像格式不支持路径嵌入，则忽略该选项。 有关支持路径嵌 `fmt=` 入的输出图像格式列表，请参阅的说明。
+如果输出图像格式不支持路径嵌入，则忽略。 有关支持路径嵌入的输出图像格式列表，请参阅`fmt=`的说明。
 
-## Restrictions {#section-697cddb79a1542bc8457d2f4f59eec69}
+## 限制{#section-697cddb79a1542bc8457d2f4f59eec69}
 
-目前，不支持将开放Photoshop路径（不形成闭合循环的路径）嵌入到响应图像中。
+此时，不支持将开放Photoshop路径（不形成闭环的路径）嵌入到响应图像中。
 
 ## 默认 {#section-62f113ad71c04517a2741d93319a2b5d}
 
-`pathEmbed=0`，因为输出图像中不嵌入路径。
+`pathEmbed=0`, for no embedding of paths in output images.
 
 ## 另请参阅 {#section-9c20adb4147e45758ab109a543cc5862}
 
