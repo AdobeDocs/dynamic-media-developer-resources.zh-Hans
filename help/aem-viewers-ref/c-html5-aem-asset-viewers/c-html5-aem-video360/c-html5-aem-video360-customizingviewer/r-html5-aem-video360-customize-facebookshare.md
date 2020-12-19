@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8575fde4-4d03-4b87-a628-ff06ff8c91c9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
@@ -37,25 +40,25 @@ Facebook共享按钮的外观由以下CSS类选择器控制：
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中定位（如果使用CSS Sprite）。 </p> <p>请参 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 阅CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持属 `state` 性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
 
-可以通过在“社交共享”面板的CSS类上设置 `display:none` CSS属性，从中删除该按钮。
+通过设置其CSS类的`display:none` CSS属性，可以从“社交共享”面板中删除该按钮。
 
-按钮工具提示可以本地化。 请参 [阅用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按钮工具提示可以本地化。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例** -设置一个28 x 28像素的Facebook共享按钮，并为四个不同的按钮状态中的每一个状态显示一个不同的图像：
+**示例** -设置一个28 x 28像素的Facebook共享按钮，并针对四个不同按钮状态中的每一种显示不同图像：
 
 ```
 .s7video360viewer .s7facebookshare { 
