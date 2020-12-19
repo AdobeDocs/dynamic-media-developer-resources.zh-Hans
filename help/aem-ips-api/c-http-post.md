@@ -1,6 +1,6 @@
 ---
-description: 将资产上传到Scene7 Production System涉及一个或多个HTTP POST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
-seo-description: 将资产上传到Scene7 Production System涉及一个或多个HTTP POST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
+description: 将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
+seo-description: 将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
 seo-title: 通过HTTP POST将资产上传到UploadFile Servlet
 solution: Experience Manager
 title: 通过HTTP POST将资产上传到UploadFile Servlet
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
 source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 1%
 
 ---
 
 
 # 通过HTTP POST将资产上传到UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-将资产上传到Scene7 Production System涉及一个或多个HTTP POST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
+将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
 
 使用以下URL访问UploadFile Servlet:
 
@@ -24,16 +27,16 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->上传作业的所有POST请求都必须源于相同的IP地址。
+>上传作业的所有POST请求必须源自相同的IP地址。
 
-**访问Scene7区域的URL**
+**访问Scene7地区的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>地理位置 </p> </th> 
    <th colname="col2" class="entry"> <p>生产URL </p> </th> 
-   <th colname="col3" class="entry"> <p>暂存URL（用于预生产开发和测试） </p> </th> 
+   <th colname="col3" class="entry"> <p>暂存URL（用于预制作开发和测试） </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -55,40 +58,44 @@ https://<server>/scene7/UploadFile
  </tbody> 
 </table>
 
-## 上传作业的工作流 {#section-873625b9512f477c992f5cdd77267094}
+## 上载作业{#section-873625b9512f477c992f5cdd77267094}的工作流
 
-上传作业由一个或多个HTTP POST组成，这些HTTP POST使用通 `jobHandle` 用方式将处理关联到同一作业中。 每个请求都 `multipart/form-data` 经过编码，由以下表单部分组成：
+上传作业由一个或多个HTTP POST组成，这些HTTP POST使用通用`jobHandle`将处理关联到同一作业中。 每个请求都编码为`multipart/form-data`，由以下表单部分组成：
 
 >[!NOTE]
 >
->上传作业的所有POST请求都必须源于相同的IP地址。
+>上传作业的所有POST请求必须源自相同的IP地址。
 
-| HTTP POST表单部分|说明||-|-||`auth`|必需。 指定身份验证和客户端信息的XML authHeader文档。 请参 **阅SOAP下的** “请求 [身份验证](/help/aem-ips-api/c-wsdl-versions.md)”。 |
-|`file params` |  可选. 您可以包含一个或多个要随每个POST请求一起上传的文件。 每个文件部分都可以在Content-Disposition头中包含一个文件名参数，如果未指定任何参数，则该参数将用作IPS中的目标 `uploadPostParams/fileName` 文件名。 |
+| HTTPPOST表单部分|说明|
+|-|-|
+|`auth`|  必需。 指定身份验证和客户端信息的XML authHeader文档。 请参阅[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**请求身份验证**。 |
+|`file params` |  可选. 您可以包含一个或多个要随每个POST请求一起上传的文件。 每个文件部件都可以在Content-Disposition头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
 
-| HTTP POST表单部分| uploadPostParams元素名称|类型|说明||-|-|-|-||`uploadParams` (必需。 指定上 `uploadParams` 传参数的XML文档)| `companyHandle`|`xsd:string`|必需。 处理要将文件上传到的公司。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`jobName`|`xsd:string`| `jobName` |需要或 `jobHandle` 必需。 上传作业的名称。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`jobHandle`|`xsd:string`| `jobName` |需要或 `jobHandle` 必需。 处理在上一个请求中启动的上传作业。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`locale`|`xsd:string`|可选。 本地化语言和国家代码。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`description`|`xsd:string`|可选。 作业的说明。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`destFolder`|`xsd:string`|可选。 目标文件夹路径以作为文件名属性前缀，尤其是对于浏览器和其他可能不支持文件名完整路径的客户端。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`fileName`|`xsd:string`|可选。 目标文件的名称。 覆盖filename属性。 |
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`endJob`|`xsd:boolean`|可选。 默认值为 false。|
-|`uploadParams` (必需. 指定上 `uploadParams` 传参数的XML文档)|`uploadParams`|`types:UploadPostJob`|如果这是现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽 `uploadParams` 略该作业，并使用现有的作业上传参数。 请参 [阅UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| HTTPPOST表单部分  | uploadPostParams元素名称  |类型  |说明  |
+|-|-|-|-|
+|`uploadParams`（必需）。 指定上传参数的XML `uploadParams`文档)  |  `companyHandle` | `xsd:string` |必需。 处理要将文件上传到的公司。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`jobName` | `xsd:string` | `jobName`或`jobHandle`是必需的。 上传作业的名称。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`jobHandle` | `xsd:string` | `jobName`或`jobHandle`是必需的。 处理在先前请求中启动的上传作业。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`locale` | `xsd:string` |可选。 本地化的语言和国家代码。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`description` | `xsd:string` |可选。 作业的说明。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`destFolder` | `xsd:string` |可选。 目标文件夹路径以为文件名属性添加前缀，尤其是对于浏览器和其他可能不支持文件名完整路径的客户端。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`fileName` | `xsd:string` |可选。 目标文件的名称。 覆盖filename属性。 |
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`endJob` | `xsd:boolean` |可选。 默认值为 false。|
+|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`uploadParams` | `types:UploadPostJob` |如果这是现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽略`uploadParams`并使用现有作业上传参数。 请参阅[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-块内有 `<uploadPostParams>` 指定所包 `<uploadParams>` 含文件处理的块。
+在`<uploadPostParams>`块中是指定处理所包含文件的`<uploadParams>`块。
 
-请参 [阅UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)。
+请参阅[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)。
 
-虽然您可能认为，作 `uploadParams` 为同一作业的一部分，单个文件的参数可以更改，但情况并非如此。 对整个作 `uploadParams` 业使用相同的参数。
+虽然您可能假定作为同一作业的一部分单个文件的`uploadParams`参数可以更改，但情况并非如此。 对整个作业使用相同的`uploadParams`参数。
 
-对新上传作业的初始POST请求应指定该参数，优选地，使用唯一作业名来简化后续作业状态轮询和作业日志查询。 `jobName` 对同一上传作业的其他POST请求应使用从 `jobHandle` 初始请求返回的 `jobName`值指定 `jobHandle` 该参数而不是参数。
+对新上传作业的初始POST请求应指定`jobName`参数，最好使用唯一的作业名称来简化后续作业状态轮询和作业日志查询。 对同一上传作业的其他POST请求应使用从初始请求返回的`jobHandle`值指定`jobHandle`参数，而不是`jobName`。
 
-上传作业的最终POST请求应将该参 `endJob` 数设置为true，以便此作业不会对将来的文件进行POST。 而这又允许在收录所有POST文件后立即完成作业。 否则，如果在30分钟内未收到任何其他POST请求，则作业将超时。
+上传作业的最终POST请求应将`endJob`参数设置为true，以便此作业不会对将来的文件进行POST。 反过来，这又允许在收录所有POST文件后立即完成作业。 否则，如果在30分钟内未收到任何其他POST请求，则作业将超时。
 
-## UploadPOST响应 {#section-421df5cc04d44e23a464059aad86d64e}
+## UploadPOST响应{#section-421df5cc04d44e23a464059aad86d64e}
 
-对于成功的POST请求，响应体将是XML `uploadPostReturn` 文档，如XSD在以下内容中所指定：
+对于成功的POST请求，响应主体将是XML `uploadPostReturn`文档，如XSD在以下代码中所指定：
 
 ```
 <element name="uploadPostReturn"> 
@@ -100,11 +107,11 @@ https://<server>/scene7/UploadFile
     </element>
 ```
 
-返回 `jobHandle` 的内容会传递到同一作 `uploadPostParams`业的任何后 `jobHandle` 续POST请求的／参数中。 您还可以使用它对工序的作业状态进行 `getActiveJobs` 轮询，或将作业日志与工序查询 `getJobLogDetails` 。
+返回的`jobHandle`将在`uploadPostParams`/ `jobHandle`参数中传递给同一作业的任何后续POST请求。 您还可以使用它对作业状态进行`getActiveJobs`操作轮询，或将作业日志与`getJobLogDetails`操作查询。
 
-如果处理POST请求时出错，则响应主体由Faults中所述的API故障类型之一组 [成](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)。
+如果处理POST请求时出错，则响应主体由[Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)中所述的API故障类型之一组成。
 
-## POST请求示例 {#section-810fe32abdb9426ba0fea488dffadd1e}
+## POST请求示例{#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```
 POST /scene7/UploadFile HTTP/1.1 
@@ -174,7 +181,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## POST响应示例——成功 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## POST响应示例——成功{#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
@@ -188,7 +195,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## POST响应示例——错误 {#section-efc32bb371554982858b8690b05090ec}
+## POST响应示例——错误{#section-efc32bb371554982858b8690b05090ec}
 
 ```
 HTTP/1.1 200 OK 
