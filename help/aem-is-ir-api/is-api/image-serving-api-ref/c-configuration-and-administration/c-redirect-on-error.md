@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 错误时重定向{#redirect-on-error}
+# 重定向到错误{#redirect-on-error}
 
 可以将IS服务器配置为对涉及源映像的请求故障切换到替代服务器，而源映像无法成功打开或读取。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 在任何其他情况下都不会发生错误重定向。
 
-当启用请求时，当在请求处理过程中发生此类错误时，主服务器将将请求发送给从属服务器进行处理。 无论响应是否表示成功或失败，都会直接转发给客户端。 主服务器用缓存标记此类转发请求的日志条目 `REMOTE`。 响应数据不由主服务器本地缓存。
+当启用请求时，当在请求处理过程中发生此类错误时，主服务器将将请求发送给从属服务器进行处理。 无论响应是否表示成功或失败，都会直接转发给客户端。 主服务器使用缓存`REMOTE`标记此类转发请求的日志条目。 响应数据不由主服务器本地缓存。
 
-通过设置为辅助服 `PS::errorRedirect.rootUrl` 务器的HTTP域名和端口号，启用错误重定向。 此外，连接超时已配置为 `PS::errorRedirect.connectTimeout` ，并且主服务器在将错误返回到客户端之前等待从属服务器响应的最长时间已配置为 `PS::errorRedirect.socketTimeout`。
+通过将`PS::errorRedirect.rootUrl`设置为辅助服务器的HTTP域名和端口号，可启用错误重定向。 此外，连接超时配置为`PS::errorRedirect.connectTimeout`，主服务器在将错误返回到客户端之前等待从从属服务器响应的最长时间配置为`PS::errorRedirect.socketTimeout`。
 
 >[!NOTE]
 >
