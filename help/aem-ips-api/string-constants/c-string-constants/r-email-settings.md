@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
 
 语法
 
-## 使用者 {#section-7f81d4ca6f104877afa64ed1e25c79fb}
+## 由{#section-7f81d4ca6f104877afa64ed1e25c79fb}使用
 
 * [!DNL `ImageServingPublishJob/emailSetting`]
 * [!DNL `ImageRenderingPublishJob/emailSetting`]
