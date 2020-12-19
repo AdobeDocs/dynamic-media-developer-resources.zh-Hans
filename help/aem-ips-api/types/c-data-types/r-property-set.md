@@ -1,13 +1,16 @@
 ---
 description: 属性集的类型和值。
 seo-description: 属性集的类型和值。
-seo-title: PropertySet
+seo-title: 属性集
 solution: Experience Manager
-title: PropertySet
+title: 属性集
 topic: Scene7 Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | ` *`setHandle`*` | `xsd:string` | 属性集句柄。 |
-| ` *`typeHandle`*` | `xsd:string` | 属性集类型的句柄。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | 名称——值对。 可以包含零个项目。 |
+| ` *`typeHandle`*` | `xsd:string` | 处理属性集类型。 |
+| ` *`propertyArray`*` | `types:PropertyArray` | 名称——值对。 可包含零个项目。 |
 
