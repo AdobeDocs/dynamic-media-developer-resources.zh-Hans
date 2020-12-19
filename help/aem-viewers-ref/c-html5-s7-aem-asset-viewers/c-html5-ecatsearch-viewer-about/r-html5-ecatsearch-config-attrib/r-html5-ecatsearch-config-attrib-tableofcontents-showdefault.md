@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 设置为 <span class="codeph"> 1时</span> ，组件会在下拉面板中填充所有页面的元素，即使那些未定义标签的页面也是如此。 </p> <p>当设置为 <span class="codeph"> 0时</span> ，下拉面板中仅显示具有显式标签的项目。 </p> </td> 
+   <td> <p> 当设置为<span class="codeph"> 1</span>时，组件将使用所有页面的元素填充下拉面板，即使那些未定义标签的页面也是如此。 </p> <p>设置为<span class="codeph"> 0</span>时，下拉面板中仅显示具有显式标签的项目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
