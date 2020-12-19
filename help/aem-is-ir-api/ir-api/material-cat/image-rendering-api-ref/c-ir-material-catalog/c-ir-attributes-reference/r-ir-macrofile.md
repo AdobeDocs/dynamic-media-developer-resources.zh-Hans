@@ -1,20 +1,23 @@
 ---
-description: 宏定义文件路径。 指定包含此材料目录宏定义的文件。
-seo-description: 宏定义文件路径。 指定包含此材料目录宏定义的文件。
-seo-title: MacroFile
+description: 宏定义文件路径。 指定包含此材料目录的宏定义的文件。
+seo-description: 宏定义文件路径。 指定包含此材料目录的宏定义的文件。
+seo-title: 宏文件
 solution: Experience Manager
-title: MacroFile
+title: 宏文件
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cbf7fd62-b868-4891-8b95-0aaf38078a36
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # MacroFile{#macrofile}
 
-宏定义文件路径。 指定包含此材料目录宏定义的文件。
+宏定义文件路径。 指定包含此材料目录的宏定义的文件。
 
 ## 属性 {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
