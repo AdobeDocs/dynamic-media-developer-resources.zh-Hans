@@ -1,18 +1,21 @@
 ---
 description: 支持searchAssets操作中的副产品筛选。
 seo-description: 支持searchAssets操作中的副产品筛选。
-seo-title: ExcludeBinculableArray
+seo-title: ExcludeBybloudArray
 solution: Experience Manager
-title: ExcludeBinculableArray
+title: ExcludeBybloudArray
 topic: Scene7 Image Production System API
 uuid: 35c97446-ca7e-465d-9575-15d9480d5a87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
 
-# ExcludeBinculableArray{#excludebyproductarray}
+# ExcludeBybloudArray{#excludebyproductarray}
 
 支持searchAssets操作中的副产品筛选。
 
