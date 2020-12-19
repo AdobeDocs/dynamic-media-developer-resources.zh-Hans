@@ -21,7 +21,7 @@ ht-degree: 2%
 
 图像集由一个按逗号分隔的排序列表项组成，每个项由一个或多个子项（图像id、样本id、媒体文件路径、标签等）组成，分隔为分号和／或冒号。
 
-大括 `{ }` 号和圆 `( )` 括号可用于限定某些内容（如颜色值）或指示嵌套集。 使用这种方式的大括号或圆括号不能进行编码，并且必须始终显示为匹配对，否则将发生目录分析错误。
+大括号`{ }`和括号`( )`可用于限定某些内容（如颜色值）或指示嵌套集。 使用这种方式的大括号或圆括号不能进行编码，并且必须始终显示为匹配对，否则将发生目录分析错误。
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 有关图像集的结构和使用的其他详细信息，请参阅图像服务查看器文档。
 
-服务器返回此字段的内容，而无需对请求进行任何 `req=imageset` 修改。
+服务器返回此字段的内容，无需修改以响应`req=imageset`请求。
 
-## 标准集 {#section-5ecc8ffee7224668b63f601383665564}
+## 标准集{#section-5ecc8ffee7224668b63f601383665564}
 
-图像服务本身支持以下集定义，通过某些查看器进行访问涉及对集进行服务器端分析、验证和处理。 通过在中指定相应的值，可以识别每个集类型 `catalog::AssetType`。
+图像服务本身支持以下集定义，通过某些查看器进行访问涉及对集进行服务器端分析、验证和处理。 通过在`catalog::AssetType`中指定相应的值可以识别每个设置类型。
 
 **基本样本集**
 
@@ -119,9 +119,9 @@ ht-degree: 2%
 
 ## 属性 {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-文本字符串。 以逗号分隔的值 `catalog::Id` 列表、绝对图像服务器文件路径或相对于的文件路径 `attribute::RootPath`。 同一图像在集合中可被引用多次。 定义目录记录可能出现在集合中的任意位置。
+文本字符串。 以逗号分隔的`catalog::Id`值、绝对图像服务器文件路径或相对于`attribute::RootPath`的文件路径的列表。 同一图像在集合中可被引用多次。 定义目录记录可能出现在集合中的任意位置。
 
-此字段参与文本字符串本地化。 除字符串 *`label`* （部分）外，如果所有分隔 *`solidColorSpecifier`*&#x200B;字段至少包含一个“ ”本地化令牌，则这些字段 `^loc=…^`都将本地化。 有关详细信息， [请参阅](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) “HTTP协 *议参考”中的“文* 本字符串”本地化。
+此字段参与文本字符串本地化。 除了&#x200B;*`label`*&#x200B;字符串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果所有分隔字段至少包含一个“ `^loc=…^`”本地化令牌，则这些字段将本地化。 有关详细信息，请参阅&#x200B;*HTTP协议参考*&#x200B;中的[文本字符串本地化符](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 ## 默认 {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +129,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，属 [性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)，对 [象ID转换](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ，文本字 [符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，图像服务查看器文档
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ，属 [性：:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)，对 [象ID转换，文本字符串](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) 本地化 [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) ，图像服务查看器文档
