@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 7%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->该参 `renameFiles` 数已在先前发行版中弃用，并从中删除 `renameAsset`。 虚拟文件路径将更改为与新资产名称匹配（保留文件扩展名），而物理文件路径则不受影响。 API客户端在更新到新API版本时需要删除对此参数的引用。
+>`renameFiles`参数已在以前的版本中弃用，并从`renameAsset`中删除。 虚拟文件路径会更改为与新资产名称（保留文件扩展名）匹配，而物理文件路径则不受影响。 API客户端在更新到新API版本时需要删除对此参数的引用。
 
-## 授权用户类型 {#section-cc27ad713c6d498b8f056850b20976f4}
+## 授权用户类型{#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,11 +45,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 要重命名的资产的句柄。 |
 | ` *`newName`*` | `xsd:string` | 是 | 资产的新名称。 |
-| ` *`validateName`*` | `xsd:boolean` | 是 | 如果为 `validateName` 且资 `true` 源类型需要唯一的IPS ID，则检查新名称的全局唯一性，如果它不唯一，则 `renameAsset` 将引发错误。 |
+| ` *`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`是`true`，且资产类型需要唯一的IPS ID，则检查新名称的全局唯一性，如果它不唯一，则`renameAsset`将引发错误。 |
 
 **输出(renameAssetReturn)**
 
-IPS API不返回此操作的响应。 有关此元素的警告，请 `<ns1:validateName>` 参阅元素的说明。
+IPS API不返回此操作的响应。 有关此元素的注意事项，请参见`<ns1:validateName>`元素的说明。
 
 ## 示例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
