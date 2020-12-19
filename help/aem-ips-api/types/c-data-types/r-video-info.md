@@ -1,13 +1,16 @@
 ---
 description: 视频资产属性。
 seo-description: 视频资产属性。
-seo-title: VideoInfo
+seo-title: 视频信息
 solution: Experience Manager
-title: VideoInfo
+title: 视频信息
 topic: Scene7 Image Production System API
 uuid: c90f2a56-64ff-4f04-bfed-739e33d9a319
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
