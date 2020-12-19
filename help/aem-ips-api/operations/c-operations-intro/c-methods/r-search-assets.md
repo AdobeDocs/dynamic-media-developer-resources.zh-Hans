@@ -21,19 +21,19 @@ ht-degree: 12%
 
 语法
 
-## searchAssets: 关于 {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets:关于{#section-4ad74f12eb754768bf85bd235a7e25f0}
 
-`searchAssets` 是检索IPS资源的主要方法。 此方法用于多种用途，如浏览文件夹层次结构或按名称查找特定资产。
+`searchAssets` 是检索IPS资源的主要方法。此方法用于多种用途，如浏览文件夹层次结构或按名称查找特定资产。
 
 **响应大小**
 
-`searchAssets` 在一次电话会议中最多可返回1000个资产。 要在每次呼叫中返回最多10,000个资源，请将响应数据限制为 `totalRows`、、 `name`、 `handle`和 `type`字段的 `subType` 子集。 要返回较大的集，请使用参数设置 `resultPage` 分页。
+`searchAssets` 在一次电话会议中最多可返回1000个资产。要在每次呼叫中返回最多10,000个资源，请将响应数据限制为`totalRows`、`name`、`handle`、`type`和`subType`字段的子集。 要返回较大的集，请使用`resultPage`参数设置分页。
 
 **使用responseFieldArray或excludeFieldArray限制结果文件大小**
 
-使用或参数限制数据集 `responseFieldArray` 的大 `excludFieldArray` 小。 这些参数有助于减少内存使用和带宽，并可缩短服务器响应时间。
+使用`responseFieldArray`或`excludFieldArray`参数限制数据集的大小。 这些参数有助于减少内存使用和带宽，并可缩短服务器响应时间。
 
-## 授权用户类型 {#section-9c4bc41bb8b4493982197eb13c7cdc55}
+## 授权用户类型{#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -93,7 +93,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">设置为 <span class="codeph"> true</span> 可搜索子文件夹。 </td> 
+   <td colname="col4">设置为<span class="codeph"> true</span>可搜索子文件夹。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -105,25 +105,25 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 垃圾状态</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">垃圾状态选择。 默认值 <span class="codeph"> 为NotInTrash</span>。 </td> 
+   <td colname="col4">垃圾状态选择。 默认值为<span class="codeph"> NotInTrash</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>组合关键字数组结果的搜索匹 <span class="codeph"> 配模式</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray和</span>metadataConditionArray <span class="codeph"> 中</span>。 默认为“ <span class="codeph"> 全部匹配</span>”。 </p> </td> 
+   <td colname="col4"> <p>组合<span class="codeph">关键字数组</span>结果的搜索匹配模式选择 </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>和metadataCondition <span class="codeph"> Array</span>。默认值为<span class="codeph"> MatchAll</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p> <p>注意：  已弃用的参数。 建议您不要使用它。 </p> </p> <p>要匹配的关键字字符串数组。 </p> </td> 
+   <td colname="col4"> <p> <p>注意： 已弃用的参数。 建议您不要使用它。 </p> </p> <p>要匹配的关键字字符串数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>选择“搜索匹配模式”以组合 <span class="codeph"> systemFieldCondition</span> 匹配。 默认为“全部匹 <span class="codeph"> 配”</span> </p>。 </td> 
+   <td colname="col4"> <p>组合<span class="codeph"> systemFieldCondition</span>匹配的搜索匹配模式选择。 默认值为<span class="codeph"> MatchAll</span> </p>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -135,19 +135,19 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">搜索匹配模式字符串常量。 默认值为 <span class="codeph"> MatchAll</span>。 </td> 
+   <td colname="col4">搜索匹配模式字符串常量。 默认值为<span class="codeph"> MatchAll</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagConditionArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>标记字段搜索谓词的数组。 </p> <p>谓词根据tagMatchMode设置 <span class="codeph"> 进行组合</span> ，然后与关键字Array <span class="codeph"> 、systemFieldConditionArray中的任何术</span>语、systemFieldConditionArray <span class="codeph"> ，以及MetadataConditionArray中的任何术语根</span><span class="codeph"></span><span class="codeph"></span> 据条件MatchMode设置进行组合。 </p> </td> 
+   <td colname="col4"> <p>标记字段搜索谓词的数组。 </p> <p>谓词根据<span class="codeph"> tagMatchMode</span>设置进行组合，然后根据<span class="codeph">条件Match将谓词与<span class="codeph"> keywordArray</span>、<span class="codeph"> systemFieldConditionArray</span>和<span class="codeph"> metadataConditionArray</span>中的任何术语组合Mode</span>设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">搜索匹配模式以组合元 <span class="codeph"> 数据条件</span> 匹配。 默认为“ <span class="codeph"> 全部匹配</span>”。 </td> 
+   <td colname="col4">搜索用于组合<span class="codeph"> metadataCondition</span>匹配的匹配模式。 默认值为<span class="codeph"> MatchAll</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -177,7 +177,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">如果 <span class="codeph"> 为</span> true <span class="codeph"> 且assetSubTypeArray不为空</span> ，则只返回子类型为assetSubTypeArray中 <span class="codeph"> 的资产</span> 。 如果 <span class="codeph"> 为false</span> （默认），则返回没有定义子类型的资产。 </td> 
+   <td colname="col4">如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不为空，则只返回子类型位于<span class="codeph"> assetSubTypeArray</span>中的资产。 如果<span class="codeph"> false</span>（默认），则返回未定义子类型的资产。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeIsproubles</span> </span> </td> 
@@ -207,7 +207,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">根据recordsPerPage页面大小指定要返回的 <span class="codeph"> 结果页</span> 。 </td> 
+   <td colname="col4">根据<span class="codeph"> recordsPerPage</span>页面大小指定要返回的结果页。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 排序依据</span> </span> </td> 
