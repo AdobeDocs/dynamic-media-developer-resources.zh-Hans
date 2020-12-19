@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 底部|顶部|左侧|右侧|无|工具提示</span> </p> </td> 
-   <td> <p> 指定相对于样本缩略图图像绘制标签的位置。 即，标签在相对于样本缩略图的指定位置居中。 指定工 <span class="codeph"> 具提示</span> ，则不会绘制标签。 </p> </td> 
+   <td> <p> <span class="codeph"> 下|上|左|右|无</span> </p> </td> 
+   <td> <p> 指定相对于样本缩略图图像绘制标签的位置。 即，标签在相对于样本缩略图的指定位置居中。 指定<span class="codeph">工具提示</span>时，不会绘制标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
