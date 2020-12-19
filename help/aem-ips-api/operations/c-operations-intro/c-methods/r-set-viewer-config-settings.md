@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-81c429ba9f4c4359986a30ea7ebea8d2}
+## 授权用户类型{#section-81c429ba9f4c4359986a30ea7ebea8d2}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,9 +36,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
 | ` *`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| ` *`名称`*` | `xsd:string` | 是 | 资产名称。 |
+| ` *`name`*` | `xsd:string` | 是 | 资产名称。 |
 | ` *`类型`*` | `xsd:string` | 是 | 要将查看器配置应用到的资产类型。 |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 应用于资 `ConfigSettings` 产的数组。 |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 应用于资产的`ConfigSettings`数组。 |
 
 **输出(setViewerConfigSettingsParam)**
 
