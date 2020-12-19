@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-63e7d17f4b434995a872838bfff7f9ff}
+## 授权用户类型{#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +42,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-此代码示例删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传 `deleteMetadataFieldParam` 递到IPS Web服务器中的字段来执行此操作。
+此代码示例删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传递到IPS Web服务器的`deleteMetadataFieldParam`中的字段来执行此操作。
 
 **请求**
 
@@ -52,4 +55,4 @@ IPS API不返回此操作的响应。
 
 **响应**
 
-None.0
+无。0
