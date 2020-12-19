@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7496fea1-8a69-4749-ab4b-ae6d375441b8
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 应用于所有缩略图的图像服务命令字符串。 如果在URL中指定，则&amp;和 <span class="codeph"> =的所有出现都必须以HTTP编码，分别为</span> %26 <span class="codeph"> 和</span><span class="codeph"></span><span class="codeph"></span>%3D Exconded。 </p> </td> 
+   <td colname="col2"> <p> 应用于所有缩略图的图像服务命令字符串。 如果在URL中指定，则所有<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的匹配项必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
