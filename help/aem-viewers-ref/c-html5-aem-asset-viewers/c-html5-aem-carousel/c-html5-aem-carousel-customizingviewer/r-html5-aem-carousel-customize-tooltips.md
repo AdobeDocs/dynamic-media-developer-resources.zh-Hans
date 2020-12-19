@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: c720c896-e540-4c1e-a0dc-31cc0300fea8
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
 
-# Tooltips{#tooltips}
+# 工具提示{#tooltips}
 
 在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 
@@ -35,15 +38,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> 背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框颜色  </span> </p> </td> 
    <td colname="col2"> <p> 背景边框颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 背景颜色. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>文本字体名称. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
    <td colname="col2"> <p>文本字体大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +66,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 >[!NOTE]
 >
->如果工具提示样式是从嵌入网页中自定义的，则所有属性必须包含规 `!IMPORTANT` 则。 如果在查看器的CSS文件中自定义了工具提示，则不必这样做。
+>如果工具提示样式是从嵌入网页中自定义的，则所有属性必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则不必这样做。
 
-示例——设置工具提示，其中灰色边框的角半径为3像素，黑色背景和白色文本以Arial格式，大小为11像素：
+示例——设置具有灰色边框的工具提示，该边框以Arial格式、大小为11像素，圆角半径为3像素，背景为黑色，文本为白色：
 
 ```
 .s7tooltip { 
