@@ -1,6 +1,6 @@
 ---
-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层图像请求，它们通常也很有用。
-seo-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层图像请求，它们通常也很有用。
+description: 这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
+seo-description: 这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
 seo-title: 常见操作
 solution: Experience Manager
 title: 常见操作
@@ -8,18 +8,21 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
 
 # 常见操作{#common-operations}
 
-这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层图像请求，它们通常也很有用。
+这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md#reference-00638f29e59b49c99f6bba27daf24668" type="reference" format="dita" scope="local"> op_blur</a> </p></td> 
-  <td class="stentry"> <p>使图层变模糊。 </p></td> 
+  <td class="stentry"> <p>模糊图层。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a" type="reference" format="dita" scope="local"> op_brightness</a> </p></td> 
@@ -27,7 +30,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md#reference-fb6af4ecf0f842d3adfdda342834a8fd" type="reference" format="dita" scope="local"> op_colorbalance</a> </p></td> 
-  <td class="stentry"> <p>分别调整红色、绿色、蓝色。 </p></td> 
+  <td class="stentry"> <p>分别调整红、绿、蓝。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> op_colorize</a> </p></td> 
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md#reference-763c4a890fe24bb6bb5ae9dad4e2da94" type="reference" format="dita" scope="local"> op_noise</a> </p></td> 
-  <td class="stentry"> <p>向图层添加杂色。 </p></td> 
+  <td class="stentry"> <p>为图层添加杂色。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-saturation.md#reference-6b7ee05a462f4f01b1fb7108230d90d9" type="reference" format="dita" scope="local"> op_saturation</a> </p></td> 
