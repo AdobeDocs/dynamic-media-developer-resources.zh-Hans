@@ -32,7 +32,7 @@ ht-degree: 4%
       ]&gt;</code> </p> <p>内容模板的实际语法如下： </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>即，模板必须与&lt;info&gt;元素开始, <span class="codeph"> &lt;info</span> &gt;元素可能包含可选 <span class="codeph"> 的默认&lt;var&gt;元素</span> 。 模板内容本身 <span class="codeph"> TEMPLATE_CONTENT</span> 是HTML文本。 此外，内容模板可能包含包含$字符的变 <span class="codeph"> 量</span> 名称。 这些字符将替换为信息服务器返回的变量值或默认值。 </p> <p>在模板中定义的默认变量可以是全局变量（如果未设置滚动属性），也可以是特定于某个滚动键（如果存在滚动属性）的变量。 </p> <p>在模板处理过程中，特定于滚动键的变量优先于全局变量。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>即，模板必须与<span class="codeph"> &lt;info&gt;</span>元素开始，元素可能包含可选的默认<span class="codeph"> &lt;var&gt;</span>元素。 模板内容本身<span class="codeph"> TEMPLATE_CONTENT</span>是HTML文本。 此外，内容模板可能包含包含在<span class="codeph"> $</span>字符中的变量名称。 这些字符将替换为信息服务器返回的变量值或默认值。 </p> <p>在模板中定义的默认变量可以是全局变量（如果未设置滚动属性），也可以是特定于某个滚动键（如果存在滚动属性）的变量。 </p> <p>在模板处理过程中，特定于滚动键的变量优先于全局变量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +51,6 @@ ht-degree: 4%
 
 ## 示例 {#section-16d184665c484964af9a22f79ff3f840}
 
-假定信息服务器响应将产品名称作为变量返回， `$1$` 而产品图像URL作为变量返回 `$2$`。
+假定信息服务器响应将产品名称返回为变量`$1$`，而产品图像URL返回为变量`$2$`。
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
