@@ -1,20 +1,23 @@
 ---
-description: 遮住（挖空）所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认情况下为关闭的可选参数。
-seo-description: 遮住（挖空）所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认情况下为关闭的可选参数。
-seo-title: KnockoutBackgroundOptions
+description: 对所选图像的背景进行蒙版（挖空）。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认为关闭的可选参数。
+seo-description: 对所选图像的背景进行蒙版（挖空）。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认为关闭的可选参数。
+seo-title: 挖空背景选项
 solution: Experience Manager
-title: KnockoutBackgroundOptions
+title: 挖空背景选项
 topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-遮住（挖空）所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认情况下为关闭的可选参数。
+对所选图像的背景进行蒙版（挖空）。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 默认为关闭的可选参数。
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 转角</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 角</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">选择要处理的角。 <span class="codeph"> corner</span> 接受以下值： 
+   <td colname="col3">选择要处理的角。 <span class="codeph"> </span> corner接受以下值： 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> 左上角</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> 左下</span></li>
@@ -41,21 +44,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 容 <span class="varname"> 差</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 容差</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3">可选设置，用于根据透明度从图像边缘删除空白。 接受0.0到1.0之间的值范围。指定： 
+   <td colname="col3">一个可选设置，用于根据透明度从图像边缘删除空白。 接受0.0到1.0之间的值范围。指定： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0与颜色完全匹配。 </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1以启用最大的颜色差异。 </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1以启用最多的颜色差异。 </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 填 <span class="varname"> 充方法</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>在角变量指定的位置控制像素透 <span class="codeph"><span class="varname"> 明度</span></span> 。 fillMethod <span class="codeph"> 接受</span> 下列值： </p> 
+   <td colname="col3"> <p>在由<span class="codeph"><span class="varname"> corner</span></span>变量指定的位置控制像素透明度。 <span class="codeph"> fillMethod</span>接受以下值： </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>:将指定角中的所有像素变为透明。 </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>:将所有匹配的像素变为透明，而不管位置如何。 </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>:将所有匹配的像素变为透明，而不管它们的位置如何。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,9 +79,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 使用者 {#section-28c43baafe85434a9ee9e303ed10569a}
+## 由{#section-28c43baafe85434a9ee9e303ed10569a}使用
 
-类 `KnockoutBackgroundOptions` 型由以下用户使用：
+`KnockoutBackgroundOptions`类型由：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
