@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 设置字体元数据字段。
 
-## 授权用户类型 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 授权用户类型{#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,9 +41,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | 是 | 成功设置字体字段的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 尝试设置字体字段时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 尝试设置字体字段时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，这些资产生成了警告。 |
+| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的警告数。 |
+| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的错误数。 |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
 | ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
