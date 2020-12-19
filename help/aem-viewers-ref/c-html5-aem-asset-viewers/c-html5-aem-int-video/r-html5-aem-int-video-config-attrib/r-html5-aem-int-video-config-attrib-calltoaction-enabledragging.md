@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -25,8 +28,8 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
    <td colname="col2"> <p> 启用或禁用用户使用鼠标或触控手势滚动缩略图的功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> 在0- <span class="codeph"> 1范围内， </span> 它是实际速度错误方向上移动的百分比值。 </p> <p>如果设置为 <span class="codeph"> 1, </span> 则它将随鼠标移动。 </p> <p>如果设置为 <span class="codeph"> 0, </span> 则不会让您向错误的方向移动。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> 在<span class="codeph"> 0-1 </span>范围内，它是实际速度错误方向的移动的百分比值。 </p> <p>如果设置为<span class="codeph"> 1 </span>，则它随鼠标移动。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则不允许您向错误的方向移动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
