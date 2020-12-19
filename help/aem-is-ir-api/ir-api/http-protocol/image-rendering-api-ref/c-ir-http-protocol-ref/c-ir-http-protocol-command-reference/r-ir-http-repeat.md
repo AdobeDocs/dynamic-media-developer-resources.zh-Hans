@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 16%
 
 ---
 
@@ -37,11 +40,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>四分之一的墙纸挂着。 </p> </td> 
+  <td class="stentry"> <p>四分之一的壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>三投壁纸挂着。 </p> </td> 
+  <td class="stentry"> <p>三滴壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -57,7 +60,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>随机贴壁纸。 </p> </td> 
+  <td class="stentry"> <p>随机壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -101,7 +104,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-随机绗缝模式(14...18)可用于从不易重复的图像合成纹理；该算法将根据原始图像创建完全随机或部分随机的纹理。
+随机绗缝模式(14...18)可用于从不容易重复的图像合成纹理；该算法根据原始图像创建完全随机或部分随机的纹理。
 
 ## 属性 {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +112,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，如果材料基于目录条目，则为其他情况( `0` 直接重复)。
+`catalog::Repeat`，如果材料基于目录条目，则 `0` 为（直重复）。
 
 ## 另请参阅 {#section-ac99113b64654d75a3a86e41db546269}
 
