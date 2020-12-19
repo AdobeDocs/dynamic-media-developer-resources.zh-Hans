@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]:具有不可修 [!DNL `SingleFixedTag`] 改的字典的特殊情况被初始化为值 [!DNL `True`] 和 [!DNL `False`]。
+* [!DNL `BooleanTag`]:具有不可修 [!DNL `SingleFixedTag`] 改的字典的特例，该字典初始化为值 [!DNL `True`] 和 [!DNL `False`]。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +33,9 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]:关闭词典中的零个或多个字符串值。 只有管理员用户可以修改词典。
+* [!DNL `MultiFixedTag`]:关闭的字典中的零个或多个字符串值。只有管理员用户才能修改字典。
 * [!DNL `MultiTag`]:零个或多个字符串值。
-* [!DNL `SingleFixedTag`]:封闭词典中的单个字符串值。 如果 `setAssetMetadata` 使用 `batchSetAssetMetadata` 词典中不存在的值调用或调用，则将返回错误。 只有管理员用户可以修改词典。
+* [!DNL `SingleFixedTag`]:封闭字典中的单个字符串值。如果调用`setAssetMetadata`或`batchSetAssetMetadata`时的值不在字典中，则将返回错误。 只有管理员用户才能修改字典。
 
 * [!DNL `SingleTag`]:任何单个字符串值。
 * [!DNL `String`]
