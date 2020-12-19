@@ -21,7 +21,7 @@ ht-degree: 2%
 
 `src = *`catalogEntrymaterialFileembeddedReqmaterialFile`*|{{ *``*| *``*}[, *``*]`
 
-`srcE= *`名称`*`
+`srcE= *`name`*`
 
 `srcN= *`指数`*`
 
@@ -36,19 +36,19 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'ir&amp;lbrace;'ir&amp;<span class="varname"> rbrace;'irReq</span>'&amp;rbrace;'&amp;foroieignReieReq'&amp;;&amp;rap;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;<span class="varname"> rbrace;'isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;<span class="varname"> </span>req<span class="varname"> '&amp;rbrace;'|&amp;lbrace;'&amp;</span>lbrace;'forignReq'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>材料目录<span class="codeph"> ID(属性：:RootId</span>)。 </p></td> 
+  <td class="stentry"> <p>材料目录ID（<span class="codeph">属性：:RootId</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>材料目录条目<span class="codeph"> (目录：:Id</span>)。 </p></td> 
+  <td class="stentry"> <p>材料目录条目（<span class="codeph">目录：:Id</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>材料样式文<span class="filepath"> 件(</span> .vnc <span class="filepath"> 或。vnw</span>)。 </p></td> 
+  <td class="stentry"> <p>材料样式文件（<span class="filepath"> .vnc</span>或<span class="filepath"> .vnw</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -67,7 +67,7 @@ ht-degree: 2%
   <td class="stentry"> <p>请求到外部服务器。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 名称</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
   <td class="stentry"> <p>嵌入材料的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,21 +78,21 @@ ht-degree: 2%
 
 可重复的纹理、贴花和墙纸材料需要单个图像，该图像可指定为文件或嵌入的请求。
 
-文件柜材料需要文件柜样式 [!DNL .vnc]文件()，不能将其指定为嵌套请求。 纹理图像文件对于文件柜是可选的，如果指定，它可以是文件或嵌入请求。
+文件柜材料需要文件柜样式文件([!DNL .vnc])，不能将其指定为嵌套请求。 纹理图像文件对于文件柜是可选的，如果指定，它可以是文件或嵌入请求。
 
-窗口覆盖材料需要窗口覆盖样式文件( [!DNL .vnw])，不能将其指定为嵌套请求。 纹理文件是可选的，如果指定，它可以是文件或嵌入的请求。
+窗口覆盖材料需要窗口覆盖样式文件([!DNL .vnw])，不能将其指定为嵌套请求。 纹理文件是可选的，如果指定，它可以是文件或嵌入的请求。
 
-图像渲染使用与图像服务相同的规则来查找材料目录、目录条目和数据文件。 有关详细信息，请参 *`object`* 阅图像服务文档中数据类型的说明。
+图像渲染使用与图像服务相同的规则来查找材料目录、目录条目和数据文件。 有关详细信息，请参阅图像服务文档中&#x200B;*`object`*&#x200B;数据类型的说明。
 
 *`materialFile`* 是相对于的路径 `attribute::RootPath`。
 
 *`foreignReq`* 可以是相对于的URL, `attribute::RootUrl`也可以是绝对URL(如 `attribute::AllowDirectUrls` 果已设置)。
 
-如果 *`catId`* 未指定，则使用会话目录。
+如果未指定&#x200B;*`catId`*，则使用会话目录。
 
 `srcE=` 并提 `srcN=` 供对暗角中嵌入材料的访问。
 
-## 支持的文件格式 {#section-f2186d3eef834fc8bbecb2bc68daacad}
+## 支持的文件格式{#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 图像渲染支持与Scene7图像服务相同的源图像格式。
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-同一材料可以位于记录“ ” `'cat`的材料目录 `12-3-2`中：
+同一材料可以位于记录“ `12-3-2`”中的材料目录`'cat`中：
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
