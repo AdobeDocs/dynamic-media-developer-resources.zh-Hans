@@ -1,6 +1,6 @@
 ---
-description: 属性集是特定于应用程序的名称——值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
-seo-description: 属性集是特定于应用程序的名称——值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+description: 属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+seo-description: 属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
 
 # createPropertySet{#createpropertyset}
 
-属性集是特定于应用程序的名称——值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
 
 语法
 
-## 授权用户类型 {#section-f9b6187ba636475787c997fc27bb192a}
+## 授权用户类型{#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-此代码示例创建一个包含属性名称和值的属性集。 响应将返回新属性集的句柄。
+此代码示例创建一个属性集，其中包含属性的名称和值。 该响应将返回新属性集的句柄。
 
 **请求**
 
