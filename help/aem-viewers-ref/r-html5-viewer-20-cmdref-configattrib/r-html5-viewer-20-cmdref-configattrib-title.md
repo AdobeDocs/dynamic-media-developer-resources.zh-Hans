@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 窗 <span class="varname"> 口标题图像</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
    <td colname="col2"> <p>指定包含查看器的浏览器窗口的标题。 </p> </td> 
   </tr> 
  </tbody> 
