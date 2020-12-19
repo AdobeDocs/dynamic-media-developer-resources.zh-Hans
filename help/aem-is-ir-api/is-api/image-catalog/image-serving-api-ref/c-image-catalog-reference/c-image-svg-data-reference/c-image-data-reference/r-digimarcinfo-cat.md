@@ -1,6 +1,6 @@
 ---
-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
-seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
+description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
+seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
@@ -8,26 +8,29 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 13%
 
 ---
 
 
 # DigimarcInfo{#digimarcinfo}
 
-Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
+Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
 
 ## 属性 {#section-62af219e8bac422b8541841221c9ce4f}
 
-四个整数值，以逗号分隔。
+四个整数值，用逗号分隔。
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`type`*` 启用Digimarc嵌入并指定水印类型：
+` *``*` typeenables Digimarc嵌入并指定水印类型：
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 类型</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> 类型</span> </span> </p> </th> 
    <th class="entry"> <p><b>水印类型</b> </p> </th> 
   </tr> 
  </thead>
@@ -55,12 +58,12 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
  </tbody> 
 </table>
 
-` *`flags`*` 是具有三个值的位字段。 设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
+` *`标`*` 出一个具有三个值的位字段。设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 标记</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> 标志</span> </span> </p> </th> 
    <th class="entry"> <p><b>说明</b> </p> </th> 
   </tr> 
  </thead>
@@ -70,7 +73,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>受复制保护。 </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +103,14 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
  </tbody> 
 </table>
 
-val1和 ` *`val2的解释`*` , ` *`取决于类`*` 型 ` *``*`:
+` *`val1`*`和` *`val2`*`的解释取决于` *`类型`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 类型</span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> 类型</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -141,15 +144,15 @@ val1和 ` *`val2的解释`*` , ` *`取决于类`*` 型 ` *``*`:
 
 ## 默认 {#section-4bb97e5f79074be89cc691e73449eb43}
 
-从属性：:DigimarcInfo继承（如果字段不存在或为空）。
+继承自属性：:DigimarcInfo（如果字段不存在或为空）。
 
 ## 示例 {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-“0,0,0,0”禁用此图像的Digimarc水印。
+“0,0,0,0”将禁用此图像的Digimarc水印。
 
-“1,5,0,0”指定基本水印，并设置受成人和复制保护的内容标志。
+“1,5,0,0”指定设置了成人和受复制保护的内容标志的基本水印。
 
-“2,0,4567,0”指定具有图像ID的水印。
+“2,0,4567,0”指定带有图像ID的水印。
 
 “3,2,56483,0”指定具有事务ID和受限内容标志设置的水印。
 
@@ -157,4 +160,4 @@ val1和 ` *`val2的解释`*` , ` *`取决于类`*` 型 ` *``*`:
 
 ## 另请参阅 {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[attribute:::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[属性：:DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [属性：:DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
