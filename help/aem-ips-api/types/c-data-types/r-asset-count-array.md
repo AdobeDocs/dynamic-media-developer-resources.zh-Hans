@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1e93b8d7-5cd5-487d-84e6-69495221219a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`项目`*` | `types:AssetCount` | 资产计数的数组。 |
+| ` *`项目`*` | `types:AssetCount` | 资产计数的阵列。 |
 
