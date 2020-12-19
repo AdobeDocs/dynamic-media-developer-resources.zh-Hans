@@ -1,6 +1,6 @@
 ---
-description: 服务器缓存验证策略。 指定何时验证服务器端缓存条目。
-seo-description: 服务器缓存验证策略。 指定何时验证服务器端缓存条目。
+description: 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
+seo-description: 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-服务器缓存验证策略。 指定何时验证服务器端缓存条目。
+服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 
-借助基于过期的验证，系统会定期检查源图像是否已更改。 使用基于目录的验证，源图像仅在值更改后 `catalog::TimeStamp` 才被检查。
+借助基于过期时间的验证，将定期检查源图像是否已更改。 使用基于目录的验证，源图像仅在`catalog::TimeStamp`值发生更改后才被检查。
 
-使用图像目录时，建议使用基于目录的验证。 在直接引用图像时应使用基于过期的验证，而不使用图像目录。
+使用图像目录时，建议使用基于目录的验证。 在直接引用图像时应使用基于过期的验证，而无需使用图像目录。
 
 ## 属性 {#section-650cbddd81a24c3b8b70479248a45dc9}
 
@@ -26,7 +29,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 默认 {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-如果未定义 `default::CacheValidationPolicy` 或为空，则从中继承。
+如果未定义或为空，则从`default::CacheValidationPolicy`继承。
 
 ## 另请参阅 {#section-a0c922fa519641f2bce05e75e4eb51d0}
 
