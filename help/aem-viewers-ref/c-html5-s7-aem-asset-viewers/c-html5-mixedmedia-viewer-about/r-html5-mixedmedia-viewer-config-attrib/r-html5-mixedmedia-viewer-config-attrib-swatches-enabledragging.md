@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 色板。启用拖动
+seo-title: Swatches.enabledragging
 solution: Experience Manager
-title: 色板。启用拖动
+title: Swatches.enabledragging
 topic: Dynamic media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
 
-# 色板。启用拖动{#swatches-enabledragging}
+# Swatches.enabledragging{#swatches-enabledragging}
 
 ` [Swatches.|<containerId>_swatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> 启用或禁用用户使用鼠标或使用触控手势滚动色板的功能 </p> </td> 
+   <td> <p> 启用或禁用用户使用鼠标或触控手势滚动样本的功能 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td> <p> 在0- <span class="codeph"> 1范围内的函 </span> 数。 它是一个 <span class="codeph"> %值， </span> 用于在实际速度的错误方向上移动。 如果设置为 <span class="codeph"> 1, </span>则它随鼠标移动。 如果设置为 <span class="codeph"> 0 </span>，则完全不会让您向错误的方向移动。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td> <p> 在<span class="codeph"> 0-1 </span>范围内的函数。 它是一个<span class="codeph"> % </span>值，用于沿实际速度的错误方向移动。 如果它设置为<span class="codeph"> 1 </span>，则它随鼠标移动。 如果它设置为<span class="codeph"> 0 </span>，则它不允许您向错误的方向移动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
