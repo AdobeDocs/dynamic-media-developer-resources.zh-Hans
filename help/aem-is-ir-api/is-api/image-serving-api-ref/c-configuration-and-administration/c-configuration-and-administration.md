@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 95cc72b9-0e99-42ff-8caf-8f3b35cb5cd2
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
 * [配置SVG](c-configuring-svg.md)
 * [服务器配置](c-manual-server-configuration.md)
 * [定义SSL密码](r-ssl-ciphers.md)
-* [服务器主管](c-server-supervisor.md)
+* [服务器管理器](c-server-supervisor.md)
 * [服务器日志记录](c-server-logging/c-server-logging.md)
 * [服务器监控](c-server-monitoring/c-server-monitoring.md)
 * [管理内容](c-managing-content/c-managing-content.md)
