@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 3%
 
 ---
 
@@ -16,39 +19,39 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 图层来源。
 
-`origin= *`coord`*`
+`origin= *`坐标`*`
 
 `originN= *`coordN`*`
 
 <table id="simpletable_A270FD92B1E841FE81F5AB300351FE01"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> coord</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> 坐标</span> </p></td> 
   <td class="stentry"> <p>图层矩形左上角的像素偏移量(int, int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> coordN</span> </p></td> 
-  <td class="stentry"> <p>与层矩形中心的标准化偏移(real、real)。 </p></td> 
+  <td class="stentry"> <p>与层矩形中心的归一化偏移量(real、real)。 </p></td> 
  </tr> 
 </table>
 
 >[!NOTE]
 >
->层矩形始终包含对的任何修改 `extend=`。
+>层矩形始终包括`extend=`所做的任何修改。
 
-定义图层矩形的对齐点，该矩形用于通过将图层矩形相对于图层0定位 `pos=`。 `originN=0,0` 将图层来源放在图层矩形的中心。 `originN=-0.5,-0.5` 并且 `origin=0,0` 是图层矩形的左上 `originN=0.5,0.5` 角和右下角。
+定义层矩形的对齐点，该对齐点用于通过`pos=`相对于层0定位层矩形。 `originN=0,0` 将图层来源放在图层矩形的中心。`originN=-0.5,-0.5` 和 `origin=0,0` 左上角，也 `originN=0.5,0.5` 是图层矩形的右下角。
 
 ## 属性 {#section-60f639e36ada43d1abc6bfc100afc925}
 
-图层属性。 应用于当前层，或应用于层0（如果） `layer=comp`。 不受应用于图层源的图 `crop=`层变 `scale=`换( `rotate=`、、 `flip=`、)的影响。 Overrides `anchor=`. 被效果图层忽略。
+图层属性。 应用于当前层，或应用于`layer=comp`时的层0。 不受应用于层源的层变换(`crop=`、`scale=`、`rotate=`、`flip=`)的影响。 覆盖`anchor=`。 被效果图层忽略。
 
 ## 默认 {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-如果 `origin=` 未指定，则通过将图层变换应用到图像锚点来确定图层来源。 如果图像锚点未知，则使用图层矩形( `originN=0,0`)的中心。
+如果未指定`origin=`，则通过将图层变换应用于图像锚点来确定图层来源。 如果图像锚点未知，则使用层矩形的中心(`originN=0,0`)。
 
 ## 示例 {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
-请参阅模板中的 [示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
+请参阅[Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的示例A。
 
 ## 另请参阅 {#section-a9f9c42c86fe45798deb2daaf27ea5b7}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [pos=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [pos=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
