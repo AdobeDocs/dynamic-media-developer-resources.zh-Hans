@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 色板。partial色板
+seo-title: Swatches.partialswatches
 solution: Experience Manager
-title: 色板。partial色板
+title: Swatches.partialswatches
 topic: Dynamic media
 uuid: 5b15b367-a643-4a4a-9ed5-91c1da3169be
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
 
 
-# 色板。partial色板{#swatches-partialswatches}
+# Swatches.partialswatches{#swatches-partialswatches}
 
 `[Swatches.|<containerId>_swatches.]partialswatches=0|1`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定组件是否允许在任何色板部分可见时停止滚动（滚动未对齐）。 建议的值为 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定当任何色板部分可见时（滚动未对齐）组件是否允许停止滚动。 建议的值为<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
