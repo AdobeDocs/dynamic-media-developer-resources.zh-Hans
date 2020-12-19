@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Video360查看器的配置属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽高`*, *``*[,0|1][; *``*, *`双高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽`*, *``*[,0|1][; *``*, *`高双高`*[,0|1]]`
 
-在嵌入共享模式对话框中为大小组合框指定嵌入大小的列表。
+在嵌入共享模式对话框中为大小组合框指定嵌入大小列表。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
