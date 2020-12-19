@@ -1,6 +1,6 @@
 ---
-description: 为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
-seo-description: 为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
+description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
+seo-description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 9%
 
 ---
 
 
 # setAssetsContextState{#setassetscontextstate}
 
-为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
+为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
 
-## 授权用户类型 {#section-815eb031f85143278c1560c18c5e3431}
+## 授权用户类型{#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -52,7 +55,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 示例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此代码示例使用设置资产的发布状态 `NotMarkedForPublish`。
+此代码示例使用`NotMarkedForPublish`设置资产的发布状态。
 
 **请求**
 
