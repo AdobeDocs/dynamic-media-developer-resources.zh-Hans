@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 设置与图像集关联的资产的列表。
 
-此操作将忽略 `pageReset` 和的 `ImageSets` 参数， `SpinSets` 并强制将值设为true。
+此操作将忽略`ImageSets`和`SpinSets`的`pageReset`参数，并将该值强制为true。
 
-## 授权用户类型 {#section-8968d6a39a344cfc8521020d92ae8916}
+## 授权用户类型{#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->用户必须具有对图像集资产的读和写访问权限，并且对每个成员资产具有读访问权限。
+>用户必须具有对图像集资产的读和写访问权限，并对每个成员资产具有读访问权限。
 
 ## 参数 {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -46,19 +49,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司手柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 资 <span class="varname"> 产句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 图像集手柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 属于图像集的资产成员的数组。 </td> 
