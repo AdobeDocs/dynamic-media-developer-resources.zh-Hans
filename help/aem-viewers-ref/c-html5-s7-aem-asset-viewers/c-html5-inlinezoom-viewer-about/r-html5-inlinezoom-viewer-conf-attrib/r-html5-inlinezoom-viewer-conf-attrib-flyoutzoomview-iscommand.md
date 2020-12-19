@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大视图的图像服务命令字符串。 如果在URL中指定了该属性，请确保将&amp;和 <span class="codeph"> =</span> ( <span class="codeph"> &amp;26</span> )的所有匹配项 <span class="codeph"> （分别编码为%3D）</span><span class="codeph"></span>和%3D。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大视图的图像服务命令字符串。 如果在URL中指定了该属性，请确保对<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项进行HTTP编码，分别作为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
