@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
 
-# 使用多个照明图{#using-multiple-illumination-maps}
+# 使用多个照明映射{#using-multiple-illumination-maps}
 
 某些应用可能需要针对不同种类的材料制作不同的照明图。
 
-可为每个暗角创作最多三个照明图。 使用和或命令选择用于渲染操作的照 `illum=` 明映 `gloss=` 射。
+可为每个暗角创作最多三个照明图。 使用`illum=`和／或`gloss=`命令选择用于渲染操作的照明映射。
 
-**默认选择** 如果既未指定 `illum=` ，也未 `gloss=` 指定，则渲染器将使用第一个创作的照明映射（通常为映射A，也称为“平面”照明映射）。
+**默认** 选择 `illum=` 如果 `gloss=` 既未指定，也未指定，则呈示器将使用第一个创作的照明图（通常为映射A，即“平面”照明图）。
 
-**如果未指定或`gloss=`**设`illum=`置为-1，则渲染器将指定值与暗角中与每个照明映射相关联的光泽值进行比较，并选择其光泽值最接近指定值的照明映射`gloss=``gloss=`。
+**自动选`gloss=`** 择如 `illum=` 果未指定或设置为-1，则渲染器将指定值与与暗角中每个照明 `gloss=` 图关联的光泽值进行比较，并选择其光泽值最接近指定的照明图 `gloss=`。
 
-**明确选择`illum=`**如`illum=`果指定为0、1或2，则渲染器将使用相应的照明图；为`gloss=`了选择照明图而忽略。
+**明确选`illum=`** 择如 `illum=` 果被指定并设置为0、1或2，则渲染器将使用相应的照明图； `gloss=` 为了选择照明图而忽略。
 
-如果暗角仅包含一个照明映射，则渲染器将使用该映射并忽略 `illum=` 和命 `gloss=` 令。
+如果暗角只包含一个照明映射，则渲染器将使用该映射并忽略`illum=`和`gloss=`命令。
