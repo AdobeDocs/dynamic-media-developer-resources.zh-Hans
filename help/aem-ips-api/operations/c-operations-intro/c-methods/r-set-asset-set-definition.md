@@ -21,7 +21,7 @@ ht-degree: 6%
 
 语法
 
-## 授权用户类型 {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 授权用户类型{#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,15 +44,15 @@ ht-degree: 6%
 
 IPS API不返回此操作的响应。
 
-## setDefinition参数： 关于 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition参数：关于{#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition函数**
 
-在 `setDefinition` 行中指定替换函数。 在目录查找或发布时，会解决这些问题。 替换字符串的格式 `${<substitution_func>}`如下所示：
+在行中指定`setDefinition`替换函数。 在目录查找或发布时，会解决这些问题。 替换字符串的格式为`${<substitution_func>}`，并包含以下内容：
 
 >[!NOTE]
 >
->处理参数列表中的文字必须用括号括起来 `([])`。 在分辨率期间，替换字符串外的文本将复制到输出字符串。
+>处理参数列表中的文字必须用括号`([])`括起来。 在分辨率期间，替换字符串外的文本将复制到输出字符串。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ IPS API不返回此操作的响应。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> 主文件路径。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> 目录ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> 元数据值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> 目录ID。 适用于基于图像的资产(图像、调整后的视图、图层视图)。 <p>对于其他资产，返回缩略图资产的目录ID（如果有）。 如果没有与资产关联的缩略图资产，该函数将返回一个空字符串。 </p> </td> 
   </tr> 
  </tbody> 
