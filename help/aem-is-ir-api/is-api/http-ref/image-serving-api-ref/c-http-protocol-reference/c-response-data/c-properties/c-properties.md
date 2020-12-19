@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # 属性{#properties}
 
-属性数据会返回以响应以下类 `req=` 型：
+返回属性数据以响应以下`req=`类型：
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 仅当响应的内容遵循属性格式时，响应才 `catalog::UserData` 会被格式化为属性。
+`userdata` 仅当响应的内容采用属性格式时，响应 `catalog::UserData` 才格式化为属性。
 
 * [文本(Java)属性](r-text-java-properties.md)
 * [JavaScript属性](r-javascript-properties.md)
