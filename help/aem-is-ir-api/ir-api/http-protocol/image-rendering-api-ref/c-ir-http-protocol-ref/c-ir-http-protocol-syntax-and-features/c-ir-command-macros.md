@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 1%
 
 ---
 
@@ -20,17 +23,17 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 ** *[!DNL name]* **宏名称
 
-宏在单独的宏定义文件中定义，这些文件可以附加到材料目录或默认目录。
+宏在单独的宏定义文件中定义，可附加到材料目录或默认目录。
 
-*[!DNL name]* 不区分大小写，并且可以由ASCII字母、数字、“-”、“_”和“.”的任意组合组成 字符.
+*[!DNL name]* 不区分大小写，并且可以由ASCII字母、数字、“-”、“_”和“.”的任意组合组成字符.
 
-在“?”之后的请求中的任意位置或字段中的任意位置调用 `vignette::Modifier` 宏。 宏只能表示一个或多个完整的图像渲染命令，并且必须与具有“&amp;”分隔符的其他命令分开。
+在“?”后或`vignette::Modifier`字段内的任意位置调用请求中的宏。 宏只能表示一个或多个完整的图像渲染命令，并且必须与具有“&amp;”分隔符的其他命令分开。
 
-在解析过程中，宏调用会被替换为其替换字符串。 如果宏中的命令在请求中的宏调用之前发生，则它们会覆盖请求中的相同命令。 这与请求字符串 `vignette::Modifier`中的命令始终覆盖字符串中的命令不同，而 `vignette::Modifier` 不管请求中的位置如何。
+在分析的早期，宏调用被其替换字符串替换。 如果宏中的命令在请求中调用宏之前发生，则它们会覆盖请求中的相同命令。 这与`vignette::Modifier`不同，其中请求字符串中的命令始终会覆盖`vignette::Modifier`字符串中的命令，而不管请求中的位置如何。
 
-命令宏不能有参数值，但自定义变量可用于将值从请求传递到宏。
+命令宏不能有参数值，但可以使用自定义变量将值从请求传递到宏。
 
-宏不能嵌套。
+宏可能未嵌套。
 
 **示例**
 
@@ -46,7 +49,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-由于 `qlt=` 第三个请求不同，我们只需在调用宏之后覆盖值(在 `qlt=`*之前&#x200B;*`$render$`指定不会产生任何效果)。
+由于第三个请求的`qlt=`不同，我们只需在调用宏后覆盖该值（在&#x200B;*`$render$`之前指定`qlt=`*&#x200B;将不会产生任何效果）。
 
 **另请参阅**
 
