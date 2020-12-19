@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 语法
 
-## 授权用户类型 {#section-b4406c54ed7c4827be4c1acc957e0057}
+## 授权用户类型{#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 | ` *`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要添加到组的用户的一组句柄。 |
+| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要添加到组的用户的句柄数组。 |
 
 **输出(addGroupMembersParam)**
 
@@ -40,7 +43,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-此示例使 ` *`用addGroupMembersParam`*` 将用户添加到单个公司。 IPS API不返回此操作的响应。
+此示例使用` *`addGroupMembersParam`*`将用户添加到单个公司。 IPS API不返回此操作的响应。
 
 **请求**
 
