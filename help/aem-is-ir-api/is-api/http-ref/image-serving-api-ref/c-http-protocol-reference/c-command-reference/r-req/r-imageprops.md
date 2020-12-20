@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 10%
 
 ---
 
@@ -29,11 +32,11 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
 请求字符串中的其他命令将被忽略。
 
-支持JSONP响应格式的请求允许您使用参数的扩展语法指定JS回调处理函数的 `req=` 名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。 仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
 返回以下属性：
 
@@ -47,12 +50,12 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Anchor</span> or the default anchor point </p> </td> 
+   <td> <p> <span class="codeph"> catalog:：锚</span> 点或默认锚点 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> 双 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Expiration</span> or the default time to live </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> 过期或默认的生存时间 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -71,23 +74,23 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
-   <td> <p> boolean </p> </td> 
+   <td> <p> 布尔 </p> </td> 
    <td> <p> 1，如果图像包含Photoshop路径数据 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. embeddedXmpData</span> </p> </td> 
-   <td> <p> boolean </p> </td> 
-   <td> <p> 如果图像包含XMP数据，则为1 </p> </td> 
+   <td> <p> 布尔 </p> </td> 
+   <td> <p> 1，如果图像包含XMP数据 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> 0表示无蒙版，1表示预乘的alpha,2表示非预乘的alpha,3表示单独的蒙版图像 </p> </td> 
+   <td> <p> 枚举 </p> </td> 
+   <td> <p> 无蒙版为0，预乘α为1，非预乘α为2，单独的蒙版图像为3 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> catalog:::Modifier</span> ，如果不是目录条目，则为空 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Modifieror </span> empty if not a catalog entry </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. photoshopPathNames</span> </p> </td> 
@@ -102,7 +105,7 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PostModifier</span> ，如果不是目录条目，则为空 </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:</span> PostModifier或空（如果不是目录条目） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,32 +115,32 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Resolution</span> or the default object resolution </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Resolution</span> 或默认对象分辨率 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p>修改日期／时间(来 <span class="codeph"> 自目录：:TimeStamp</span> or the image file) </p> </td> 
+   <td> <p>修改日期／时间（来自<span class="codeph">目录：:TimeStamp</span>或图像文件） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbRes</span> 或默认缩略图分辨率 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::ThumbResor</span> 默认缩略图分辨率 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> catalog::ThumbType</span> 或默认缩略图类型 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
-   <td> <p> integer </p> </td> 
+   <td> <p> 整数 </p> </td> 
    <td> <p> 全分辨率图像宽度（以像素为单位） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 将路径中指定的对 <span class="varname"> 象解析到</span> (请参阅对象ID转换 <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"></a>)的目录ID。 </p> </td> 
+   <td> <p> 将路径中指定的<span class="varname">对象</span>解析到的目录ID（请参阅<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local">对象ID转换</a>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
