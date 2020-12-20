@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 17%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 获取公司作业日志的详细信息。
 
-响 `logMessage` 应字段基于该字段进行 `authHeader``locale` 本地化。
+`logMessage`响应字段根据`authHeader` `locale`字段进行本地化。
 
-## 授权用户类型 {#section-6f720a7baad64eb3805868c88af9a960}
+## 授权用户类型{#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,52 +47,52 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 公司 <span class="varname"> 句柄</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 作业日志所属公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 作 <span class="varname"> 业处理</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 活动或已完成作业的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 原 <span class="varname"> 始名称</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 作业日志的原始名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 一个或多个日志类型常量。 如果存在，则只返回指定的日志类型。 默认情况下，将返回所有日志类型。 </td> 
+   <td colname="col4"> 一个或多个日志类型常量。 如果存在，则只返回指定的日志类型。 默认情况下，返回所有日志类型。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 每 <span class="varname"> 页记录</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的 <span class="codeph"> detailArray项</span> （最大数）。 最大值和默认值是1000。 </td> 
+   <td colname="col4">要返回的<span class="codeph"> detailArray</span>项的最大数。 最大值和默认值为1000。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 结 <span class="varname"> 果页</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的 <span class="codeph"> recordsPerPage</span>-results的页码。 預設值為 1。 </td> 
+   <td colname="col4">要返回的<span class="codeph"> recordsPerPage</span>-results的页码。 預設值為 1。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 排序方式</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 排序依据</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>任一“作业详细信息排序”字段常数值（Date或LogType）。 默认值为日期。 </p> </td> 
+   <td colname="col4"> <p>作业详细信息排序字段常量值之一（日期或日志类型）。 默认值为日期。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>Sort Direction字符串常量之一。 默认值为升序。 </p> </td> 
+   <td colname="col4"> <p>排序方向字符串常量之一。 默认值为升序。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +101,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:JobLogArray` | 是 | 作业日志阵列。 |
+| ` *`jobLogArray`*` | `types:JobLogArray` | 是 | 作业日志的数组。 |
 
 ## 示例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
