@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 
@@ -36,7 +39,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [数字／日期比较运算符](r-numeric-date-comparison-operators.md)
 * [PDF流程](r-pdf-processes.md)
 * [权限类型](r-permission-types.md)
-* [Photoshop锚点模式](r-photoshop-anchor-modes.md)
+* [Photoshop锚模式](r-photoshop-anchor-modes.md)
 * [Photoshop图层命名模式](r-photoshop-layer-naming-modes.md)
 * [PostScript色彩空间模式](r-postscript-colorspace-modes.md)
 * [用户档案类](r-profile-classes.md)
@@ -48,8 +51,8 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [搜索匹配模式](r-search-match-modes.md)
 * [排序方向](r-sort-directions.md)
 * [字符串比较运算符](r-string-comparison-operators.md)
-* [垃圾桶状态](r-trash-state.md)
-* [用户字符过滤器字段](r-user-char-filter-fields.md)
+* [垃圾州](r-trash-state.md)
+* [用户字符筛选器字段](r-user-char-filter-fields.md)
 * [用户角色](r-user-roles.md)
 * [用户排序字段](r-user-sort-fields.md)
 * [查看器类型](r-viewer-type.md)
