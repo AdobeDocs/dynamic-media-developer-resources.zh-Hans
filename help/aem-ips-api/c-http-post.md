@@ -7,10 +7,10 @@ title: 通过HTTP POST将资产上传到UploadFile Servlet
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -66,22 +66,22 @@ https://<server>/scene7/UploadFile
 >
 >上传作业的所有POST请求必须源自相同的IP地址。
 
-| HTTPPOST表单部分|说明|
-|-|-|
-|`auth`|  必需。 指定身份验证和客户端信息的XML authHeader文档。 请参阅[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**请求身份验证**。 |
-|`file params` |  可选. 您可以包含一个或多个要随每个POST请求一起上传的文件。 每个文件部件都可以在Content-Disposition头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
+|  HTTPPOST表单部分  |  说明  |
+|---|---|
+| `auth`  |   必需. 指定身份验证和客户端信息的XML authHeader文档。 请参阅[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**请求身份验证**。 |
+| `file params`  |   可选. 您可以包含一个或多个要随每个POST请求一起上传的文件。 每个文件部件都可以在Content-Disposition头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
 
-| HTTPPOST表单部分  | uploadPostParams元素名称  |类型  |说明  |
-|-|-|-|-|
-|`uploadParams`（必需）。 指定上传参数的XML `uploadParams`文档)  |  `companyHandle` | `xsd:string` |必需。 处理要将文件上传到的公司。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`jobName` | `xsd:string` | `jobName`或`jobHandle`是必需的。 上传作业的名称。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`jobHandle` | `xsd:string` | `jobName`或`jobHandle`是必需的。 处理在先前请求中启动的上传作业。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`locale` | `xsd:string` |可选。 本地化的语言和国家代码。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`description` | `xsd:string` |可选。 作业的说明。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`destFolder` | `xsd:string` |可选。 目标文件夹路径以为文件名属性添加前缀，尤其是对于浏览器和其他可能不支持文件名完整路径的客户端。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`fileName` | `xsd:string` |可选。 目标文件的名称。 覆盖filename属性。 |
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`endJob` | `xsd:boolean` |可选。 默认值为 false。|
-|`uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)|`uploadParams` | `types:UploadPostJob` |如果这是现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽略`uploadParams`并使用现有作业上传参数。 请参阅[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+|  HTTPPOST表单部分   |  uploadPostParams元素名称   |  类型   |  说明   |
+|---|---|---|---|
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档)   |   `companyHandle`  |  `xsd:string`  | 必需. 处理要将文件上传到的公司。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `jobName`  |  `xsd:string`  | `jobName`或`jobHandle`是必需的。 上传作业的名称。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `jobHandle`  |  `xsd:string`  | `jobName`或`jobHandle`是必需的。 处理在先前请求中启动的上传作业。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `locale`  |  `xsd:string`  | 可选。本地化的语言和国家代码。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `description`  |  `xsd:string`  | 可选。作业的说明。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `destFolder`  |  `xsd:string`  | 可选。目标文件夹路径以为文件名属性添加前缀，尤其是对于浏览器和其他可能不支持文件名完整路径的客户端。  |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `fileName`  |  `xsd:string`  | 可选。目标文件的名称。 覆盖filename属性。 |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `endJob`  |  `xsd:boolean`  | 可选。默认值为 false。 |
+| `uploadParams` (必需. 指定上传参数的XML `uploadParams`文档) | `uploadParams`  |  `types:UploadPostJob`  | 如果这是现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽略`uploadParams`并使用现有作业上传参数。 请参阅[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 在`<uploadPostParams>`块中是指定处理所包含文件的`<uploadParams>`块。
 
