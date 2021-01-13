@@ -7,7 +7,7 @@ title: 兼容性说明
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 兼容性说明{#compatibility-notes}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13,2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 操作系统、浏览器和移动设备的兼容性说明。
 
@@ -76,4 +76,3 @@ ht-degree: 1%
 * Safari 6.1或更高版本：Internet插件设置可能会阻止Flash视频回放。
 * 在Safari上使用HLS流进行视频搜索可能不一致。
 * 无法在使用HLS流的Safari 6上寻找视频结束。
-
