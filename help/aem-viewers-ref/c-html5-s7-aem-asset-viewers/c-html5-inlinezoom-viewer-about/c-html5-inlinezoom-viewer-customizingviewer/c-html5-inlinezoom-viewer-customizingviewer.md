@@ -1,16 +1,14 @@
 ---
-description: 'null'
+description: 自定义内联缩放查看器
 keywords: responsive
-seo-description: 'null'
-seo-title: 自定义内联缩放查看器
 solution: Experience Manager
 title: 自定义内联缩放查看器
 topic: Dynamic media
 uuid: c9203ea7-47dc-40f6-add8-04e4258da7c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
