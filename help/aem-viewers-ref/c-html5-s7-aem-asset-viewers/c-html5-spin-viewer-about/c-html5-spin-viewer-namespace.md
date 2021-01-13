@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 查看器SDK命名空间
+description: 查看器SDK命名空间
 solution: Experience Manager
 title: 查看器SDK命名空间
 topic: Dynamic media
 uuid: 476860e0-2685-4d6c-9555-acbc1d21138a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
