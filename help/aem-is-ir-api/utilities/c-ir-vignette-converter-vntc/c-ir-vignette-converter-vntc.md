@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 暗角转换器(vntc)
+description: 暗角转换器(vntc)
 solution: Experience Manager
 title: 暗角转换器(vntc)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 10%
+source-wordcount: '26'
+ht-degree: 3%
 
 ---
 
