@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 关闭按钮
+description: 关闭按钮
 solution: Experience Manager
 title: 关闭按钮
 topic: Dynamic media
 uuid: 2095fe87-94cf-4773-8901-5582b9ed5d67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 29%
+source-wordcount: '22'
+ht-degree: 22%
 
 ---
 
