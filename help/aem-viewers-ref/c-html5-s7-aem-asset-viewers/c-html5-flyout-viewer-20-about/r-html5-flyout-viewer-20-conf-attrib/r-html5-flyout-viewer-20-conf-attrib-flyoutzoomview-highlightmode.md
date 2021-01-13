@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.highlightmode
+description: FlyoutZoomView.highlightmode
 solution: Experience Manager
 title: FlyoutZoomView.highlightmode
 topic: Dynamic media
 uuid: 397c1af0-f806-4555-83fa-ec7548b59a60
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
-   <td colname="col2"> <p> 控制导航框架定位。 </p> <p>如果图像</span>上的<span class="codeph">设置为&lt;a0/&gt;，则导航框架只能位于主视图内实际图像区域内。 </span></p> <p>如果设置为<span class="codeph">自由</span>，则用户可以将导航框架移动到逻辑主视图区域的任意位置，甚至是图像内容之外。 </p> </td> 
+   <td colname="col2"> <p> 控制导航框架定位。 </p> <p>如果图像</span>上的<span class="codeph">设置为，则导航框架只能位于主视图内实际图像区域内。 </span></p> <p>如果设置为<span class="codeph">自由</span>，则用户可以将导航框架移动到逻辑主视图区域的任意位置，甚至是图像内容之外。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
