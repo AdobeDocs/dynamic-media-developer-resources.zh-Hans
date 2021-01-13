@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 過期
+description: 過期
 solution: Experience Manager
 title: 過期
 topic: Scene7 Image Serving - Image Rendering API
 uuid: a727bbfc-940b-4d65-96d6-b2159b70bac1
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '262'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 3%
 
 用于管理客户端和代理服务器缓存。 服务器通过将此值添加到传输的时间／日期来计算HTTP响应数据的到期时间／日期。
 
-浏览器使用文件的过期时间管理缓存。 在向服务器传递请求之前，浏览器会检查其缓存，以查看文件是否已下载。 如果是，并且文件尚未过期，则浏览器会发送条件GET请求（例如，在请求标头中设置了If-Modified-Since字段），而不是普通GET请求。 服务器具有以“304”状态进行响应而不传输图像的选项。 然后，浏览器从其缓存中加载文件。 这可以显着提高经常访问数据的整体性能。
+浏览器使用文件的过期时间管理缓存。 在向服务器传递请求之前，浏览器会检查其缓存，以查看文件是否已下载。 如果是，并且文件尚未过期，则浏览器会发送条件GET请求（例如，在请求标头中设置了If-Modified-Since字段），而不是普通GET请求。 服务器具有以“304”状态进行响应而不传输图像的选项。 然后，浏览器将从其缓存加载文件。 这可以显着提高经常访问数据的整体性能。
 
 过期用于以下响应类型：
 
