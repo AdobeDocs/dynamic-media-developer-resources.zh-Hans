@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 下载
+description: 下载
 solution: Experience Manager
 title: 下载
 topic: Dynamic media
 uuid: 73f012dc-4fd0-4460-87d8-3079bcd7a9de
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
