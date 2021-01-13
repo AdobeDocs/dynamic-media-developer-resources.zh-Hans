@@ -1,15 +1,12 @@
 ---
+title: 在同一服务器上安装多个Dynamic Media查看器
 description: 有关安装Dynamic Media查看器API的说明。
-seo-description: 有关安装Dynamic Media查看器API的说明。
-seo-title: 在同一服务器上安装多个查看器
 solution: Experience Manager
-title: 在同一服务器上安装多个查看器
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 在同一服务器上安装多个查看器{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 有关安装Dynamic Media查看器API的说明。
 
@@ -27,12 +24,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->没有为图像服务查看器安装升级。 Adobe建议在继续安装之前备份任何现有的Dynamic Media查看器目录。
+>没有为图像服务查看器安装升级。 Adobe建议您先备份任何现有的Dynamic Media查看器(s7viewers)目录，然后再继续安装。
 
-**在同一服务器上安装查看器**
+**在同一服务器上安装多个查看器**
 
 1. 将查看器。war重命名为所需的上下文，并将文件部署到所需位置。
 1. 在`config.js`中设置`this.isViewerRoot`参数。
 1. 打开位于新创建的查看器文件夹根目录中的`config.js`。
-1. 将参数`this.isViewerRoot = "/s7viewers"`设置为`s7viewers.war`文件的上下文。 示例, `"/s7viewers-4.0"`. 保存并关闭文件。
+1. 将参数`this.isViewerRoot = "/s7viewers"`设置为`s7viewers.war`文件的上下文。 例如，`"/s7viewers-4.0"`。
 1. 保存文件并关闭。
