@@ -4,12 +4,12 @@ seo-description: 背景颜色. 指定可着色的纹理和装饰的相减颜色�
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 图像渲染的纹理着色算法非常简单——将纹理像素的分量值减去`bgc=`，添加`color=`，最后将结果裁切为`0,0,0`和`255,255,255`。
 
-对于纹理着色的典型用途，`bgc=`的值可能是纹理图像中最重要或最主要的颜色。 Scene7图像创作提供半自动工具，可从纹理图像中提取合理的`bgc=`颜色值。
+对于纹理着色的典型用途，`bgc=`的值可能是纹理图像中最重要或最主要的颜色。 Dynamic Media图像创作提供半自动工具，可从纹理图像中提取合理的`bgc=`颜色值。
 
 当将纹理材料应用于非纹理暗角对象时，如果未指定`color=`，则将`bgc=`应用为前景色。
 
