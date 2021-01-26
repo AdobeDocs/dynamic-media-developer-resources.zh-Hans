@@ -4,10 +4,10 @@ seo-description: 设置与资产图像关联的缩放目标。 它覆盖现有�
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 12%
@@ -36,15 +36,15 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 具有要设置的缩放目标的资产。 |
-| ` *`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 是 | 缩放目标定义的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 具有要设置的缩放目标的资产。 |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 是 | 缩放目标定义的数组。 |
 
 **输出(setZoomTargetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 此操作创建的缩放目标的手柄集。 |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 此操作创建的缩放目标的手柄集。 |
 
 ## 示例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
