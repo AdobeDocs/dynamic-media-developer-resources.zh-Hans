@@ -4,10 +4,10 @@ seo-description: 此文档提供有关FXG服务器协议及其语法的信息。
 seo-title: FXG服务器协议参考
 solution: Experience Manager
 title: FXG服务器协议参考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 6%
