@@ -4,10 +4,10 @@ seo-description: 获取资产的作业日志。 数组中返回的项目包含�
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 8%
@@ -39,14 +39,14 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 要检索的作业日志对资产的处理。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 要检索的作业日志对资产的处理。 |
 
 **输出(getAssetJobLogsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作业日志阵列。 |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作业日志阵列。 |
 
 ## 示例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
