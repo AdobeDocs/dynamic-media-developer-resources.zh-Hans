@@ -4,10 +4,10 @@ seo-description: 使用属性数组更新属性集。
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 13%
@@ -39,9 +39,9 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | 是 | 处理属性集。 |
-| ` *`replaceProperties`*` | `xsd:string` | 否 | 设置为`true`可替换属性。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | 是 | 属性集的已更新属性的数组。 |
+| `*`setHandle`*` | `xsd:string` | 是 | 处理属性集。 |
+| `*`replaceProperties`*` | `xsd:string` | 否 | 设置为`true`可替换属性。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 是 | 属性集的已更新属性的数组。 |
 
 **输出(updatePropertySetReturn)**
 
