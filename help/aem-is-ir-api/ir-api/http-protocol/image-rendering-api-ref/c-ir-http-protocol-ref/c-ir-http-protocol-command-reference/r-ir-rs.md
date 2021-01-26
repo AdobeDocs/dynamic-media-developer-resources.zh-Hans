@@ -4,12 +4,12 @@ seo-description: 高级渲染设置。 指定渲染当前选择时要应用的�
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-用于微调渲染外观。 使用晕影创作工具(Scene7图像创作包的一部分)的渲染功能创建渲染设置字符串。
+用于微调渲染外观。 使用晕影创作工具(Dynamic Media图像创作包的一部分)的渲染功能创建渲染设置字符串。
 
 ## 属性 {#section-9a2b2228789046658cb80eddf343af75}
 
