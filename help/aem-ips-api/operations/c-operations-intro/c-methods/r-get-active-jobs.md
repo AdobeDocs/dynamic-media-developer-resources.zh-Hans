@@ -4,10 +4,10 @@ seo-description: 获取所有当前活动的作业。
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 15%
@@ -38,15 +38,15 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
-| ` *`jobHandle`*` | `xsd:string` | 否 | 工作的手。 |
-| ` *`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 工作的手。 |
+| `*`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
 
 **输出(getActiveJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | 是 | 活动作业的数组。 |
+| `*`jobArray`*` | `xsd:string` | 是 | 活动作业的数组。 |
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
