@@ -4,10 +4,10 @@ seo-description: 根据传入的参数返回2种不同类型的信息。 origina
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 8%
@@ -39,18 +39,18 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`代码短语`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 那代人使用的引擎。 请参阅字体样式。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 为生成的资产处理查询的资产。 |
-| ` *`代码短语`*` | `xsd:string` | 否 | 资产与查询在生成资产时使用的资产和引擎的句柄。 |
-| ` *`代码短语`*` | `xsd:StringArray` | 否 | 包含在操作中的属性。 |
-| ` *`代码短语`*` | `xsd:StringArray` | 否 | 操作中排除的属性。 |
+| `*`代码短语`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`代码短语`*` | `xsd:string` | 否 | 那代人使用的引擎。 请参阅字体样式。 |
+| `*`代码短语`*` | `xsd:string` | 否 | 为生成的资产处理查询的资产。 |
+| `*`代码短语`*` | `xsd:string` | 否 | 资产与查询在生成资产时使用的资产和引擎的句柄。 |
+| `*`代码短语`*` | `xsd:StringArray` | 否 | 包含在操作中的属性。 |
+| `*`代码短语`*` | `xsd:StringArray` | 否 | 操作中排除的属性。 |
 
 **输出(getGenerationInfoReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | 是 | 生成信息的数组。 |
+| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 生成信息的数组。 |
 
 ## 示例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
