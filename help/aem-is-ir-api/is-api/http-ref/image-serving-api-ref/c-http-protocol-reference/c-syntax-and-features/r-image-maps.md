@@ -4,10 +4,10 @@ seo-description: IS提供了简化HTML图像映射使用的机制。 IS中基于
 seo-title: 图像映射
 solution: Experience Manager
 title: 图像映射
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
