@@ -1,16 +1,13 @@
 ---
 description: 将用户添加到一个或多个公司。
-seo-description: 将用户添加到一个或多个公司。
-seo-title: addCompanyMembership
 solution: Experience Manager
 title: addCompanyMembership
-topic: Scene7 Image Production System API
-uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 13%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
@@ -34,8 +31,8 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 否 | 要添加其会员资格的用户的句柄。 |
-| ` *`membersArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司的数组。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要添加其会员资格的用户的句柄。 |
+| `*`membersArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司的数组。 |
 
 **输出(addCompanyMembershipReturn)**
 
@@ -43,7 +40,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-5469f88bac7047cca131faa6b021e437}
 
-此示例使用` *`companyHandleArray`*`将用户添加到单个公司。
+此示例使用`*`companyHandleArray`*`将用户添加到单个公司。
 
 **请求**
 
