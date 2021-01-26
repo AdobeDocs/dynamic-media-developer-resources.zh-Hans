@@ -4,10 +4,10 @@ seo-description: 获取由公司、组和用户角色句柄指定的一组用户
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -29,22 +29,22 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | 否 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能获得进行任何API调用的授权。 如果用户没有活动的公司成员资格，则将返回授权错误。 |
-| ` *`includeInvalid`*` | `xsd:boolean` | 否 | 允许您包含／排除无效用户。 |
-| ` *`companyHandleArray`*` | `types:HandleArray` | 否 | 按公司筛选结果。 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | 否 | 按组过滤结果。 |
-| ` *`userRoleArray`*` | `types:StringArray` | 否 | 按用户角色筛选结果。 |
-| ` *`charFilterField`*` | `xsd:string` | 否 | 按字段的字符串前缀筛选结果(请参阅[!DNL Trash State).] |
-| ` *`charFilter`*` | `xsd:string` | 否 | 按特定字符过滤结果。 |
-| ` *`排序依据`*` | `xsd:string` | 否 | 用户排序字段的选项。 |
-| ` *`recordsPerPage`*` | `xsd:int` | 否 | 返回每页指定的记录数。 |
-| ` *`resultsPage`*` | `xsd:int` | 否 | 结果页面。 |
+| `*`includeInactive`*` | `xsd:boolean` | 否 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能获得进行任何API调用的授权。 如果用户没有活动的公司成员资格，则将返回授权错误。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 否 | 允许您包含／排除无效用户。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | 否 | 按公司筛选结果。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 按组过滤结果。 |
+| `*`userRoleArray`*` | `types:StringArray` | 否 | 按用户角色筛选结果。 |
+| `*`charFilterField`*` | `xsd:string` | 否 | 按字段的字符串前缀筛选结果(请参阅[!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | 否 | 按特定字符过滤结果。 |
+| `*`排序依据`*` | `xsd:string` | 否 | 用户排序字段的选项。 |
+| `*`recordsPerPage`*` | `xsd:int` | 否 | 返回每页指定的记录数。 |
+| `*`resultsPage`*` | `xsd:int` | 否 | 结果页面。 |
 
 **输出(getUsersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | 是 | 一组用户。 |
+| `*`userArray`*` | `types:UserArray` | 是 | 一组用户。 |
 
 ## 示例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
