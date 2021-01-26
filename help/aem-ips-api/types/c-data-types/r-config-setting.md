@@ -1,23 +1,20 @@
 ---
-description: 仅供Scene7开发人员使用。
-seo-description: 仅供Scene7开发人员使用。
-seo-title: 配置设置
+description: 仅供Dynamic Media开发人员使用。
 solution: Experience Manager
 title: 配置设置
-topic: Scene7 Image Production System API
-uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
 
 # ConfigSetting{#configsetting}
 
-仅供Scene7开发人员使用。
+仅供Dynamic Media开发人员使用。
 
 语法
 
@@ -25,7 +22,7 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | 配置名称。 |
-| ` *`值`*` | `xsd:string` | 配置值。 |
-| ` *`处理`*` | `xsd:string` | 处理存储的配置。 |
+| `*`name`*` | `xsd:string` | 配置名称。 |
+| `*`值`*` | `xsd:string` | 配置值。 |
+| `*`处理`*` | `xsd:string` | 处理存储的配置。 |
 
