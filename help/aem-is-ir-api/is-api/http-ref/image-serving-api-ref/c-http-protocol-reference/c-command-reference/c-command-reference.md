@@ -4,10 +4,10 @@ seo-description: 本节介绍HTTP协议命令。
 seo-title: 命令参考
 solution: Experience Manager
 title: 命令参考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
-source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 10%
