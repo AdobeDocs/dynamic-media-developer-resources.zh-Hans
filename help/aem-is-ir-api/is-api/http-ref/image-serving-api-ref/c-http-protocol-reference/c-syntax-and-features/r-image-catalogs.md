@@ -4,10 +4,10 @@ seo-description: 本节介绍了图像目录的功能和语法。
 seo-title: 图像目录
 solution: Experience Manager
 title: 图像目录
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * 允许将图像与某些元数据和修饰符命令永久关联。
 
-   图像目录中的条目使用快捷记号` *`rootId/objId`*`引用，其中` *`rootId`*`标识图像目录，而` *`objId`*`标识目录中的数据记录。
+   图像目录中的条目使用快捷记号`*`rootId/objId`*`引用，其中`*`rootId`*`标识图像目录，而`*`objId`*`标识目录中的数据记录。
 * 为某些请求属性（如JPEG质量或是否要应用水印）提供默认值。
 * 管理字体、ICC用户档案、宏定义和请求模板
 
 即使未定义特定图像目录，图像目录的所有功能也可通过默认目录([!DNL default.ini])使用。
 
-如果请求的URL路径中的` *`rootId`*`与特定图像目录的`attribute::RootId`匹配，则该目录将成为此请求的主目录。 主目录提供整个请求的默认属性和设置。 如果未找到匹配项，则改用默认目录。
+如果请求的URL路径中的`*`rootId`*`与特定图像目录的`attribute::RootId`匹配，则该目录将成为此请求的主目录。 主目录提供整个请求的默认属性和设置。 如果未找到匹配项，则改用默认目录。
 
 `src=`或`mask=`命令中标识的目录向当前层提供以下目录属性和数据：
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 `icc=`命令中标识的目录仅用于从目录的ICC用户档案表中查找条目。 不涉及其他目录属性或数据。
 
-如果` *`rootId`*`解析为目录，且` *`objId`*`与此目录中的`catalog::Id`匹配，则` *`rootId/objId`*`将被目录条目有效替换，如下所示：
+如果`*`rootId`*`解析为目录，且`*`objId`*`与此目录中的`catalog::Id`匹配，则`*`rootId/objId`*`将被目录条目有效替换，如下所示：
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
