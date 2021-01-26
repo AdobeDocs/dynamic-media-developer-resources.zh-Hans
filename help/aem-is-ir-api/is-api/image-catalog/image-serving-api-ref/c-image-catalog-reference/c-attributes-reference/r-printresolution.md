@@ -4,10 +4,10 @@ seo-description: 默认打印分辨率。 提供默认的打印分辨率，以�
 seo-title: 打印分辨率
 solution: Experience Manager
 title: 打印分辨率
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
