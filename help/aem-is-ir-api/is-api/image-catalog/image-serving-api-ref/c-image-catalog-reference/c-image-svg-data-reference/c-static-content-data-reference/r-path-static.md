@@ -2,12 +2,12 @@
 description: 路径
 solution: Experience Manager
 title: 路径
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 有关所支持图像文件格式的完整列表，请参阅图像转换器(IC)实用程序的说明。
 
-使用Scene7金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 IC实用程序用于从任何支持的图像格式创建PTIFF图像。
+使用Dynamic Media金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 IC实用程序用于从任何支持的图像格式创建PTIFF图像。
 
 ## 默认 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
