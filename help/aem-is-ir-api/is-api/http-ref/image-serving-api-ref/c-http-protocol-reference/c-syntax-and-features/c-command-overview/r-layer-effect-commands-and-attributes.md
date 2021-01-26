@@ -4,10 +4,10 @@ seo-description: 这些命令可用于定义图层效果，如投影或发光效
 seo-title: 图层效果命令
 solution: Experience Manager
 title: 图层效果命令
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5fef90d1-0507-497b-9187-869672996852
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 1%
