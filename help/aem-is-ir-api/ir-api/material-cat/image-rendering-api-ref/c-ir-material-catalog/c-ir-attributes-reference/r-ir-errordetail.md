@@ -4,13 +4,13 @@ seo-description: 错误消息详细信息。 指定通过HTTP返回的错误消�
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 * 对于可公开访问的实时服务器，建议使用0级。
 * 建议使用2级升级、质量保证和应用程序开发服务器。
-* 在将问题报告给Scene7技术支持时，第3级信息可能很有用。
+* 在将问题报告给Dynamic Media技术支持时，第3级信息可能有用。
 
 ## 属性 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
