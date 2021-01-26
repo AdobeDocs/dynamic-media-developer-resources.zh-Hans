@@ -4,12 +4,12 @@ seo-description: 这是主日志，用于跟踪向平台服务器发出的所有
 seo-title: 访问日志
 solution: Experience Manager
 title: 访问日志
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->除了图像服务([!DNL /is/image/*])和图像渲染([!DNL /ir/render/*])的客户端流量外，访问日志还可能包括某些内部流量：访问平台服务器目录系统([!DNL /is-catalog/*])、缓存共享和错误重定向请求([!DNL /is/cache/*])、访问部署到平台服务器的其他包(如Scene7查看器([!DNL /is-viewers/*]))、静态流量和平台服务器服务的静态内容请求(例如，[!DNL /is-docs/*])。
+>除了图像服务([!DNL /is/image/*])和图像渲染([!DNL /ir/render/*])的客户端流量外，访问日志还可能包括某些内部流量：访问平台服务器目录系统([!DNL /is-catalog/*])、缓存共享和错误重定向请求([!DNL /is/cache/*])、访问部署到平台服务器的其他包(如Dynamic Media查看器([!DNL /is-viewers/*]))、静态流量和平台服务器服务的静态内容请求(例如，[!DNL /is-docs/*])。
 
 具有[!DNL /is-catalog]和[!DNL /is/cache]根路径的请求应始终从任何客户端通信分析中排除。
