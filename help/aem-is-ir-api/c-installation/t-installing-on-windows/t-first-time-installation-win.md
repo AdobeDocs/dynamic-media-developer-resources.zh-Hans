@@ -4,10 +4,10 @@ seo-description: 使用这些步骤在Windows上首次安装图像服务。
 seo-title: 首次安装
 solution: Experience Manager
 title: 首次安装
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
