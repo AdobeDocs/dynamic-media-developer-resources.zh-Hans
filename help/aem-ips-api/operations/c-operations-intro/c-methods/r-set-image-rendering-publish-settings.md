@@ -4,10 +4,10 @@ seo-description: 仅适用于Scene 7开发人员。 请参阅图像渲染材料�
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`publishSettingsArray`*` | `types:ConfigSettingArray` | 是 | 仅适用于Scene 7开发人员。 |
-| ` *`contextHandle`*` | `xsd:string` | 否 | 处理发布上下文。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | 是 | 仅适用于Scene 7开发人员。 |
+| `*`contextHandle`*` | `xsd:string` | 否 | 处理发布上下文。 |
 
