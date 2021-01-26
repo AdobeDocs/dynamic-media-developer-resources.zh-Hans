@@ -4,10 +4,10 @@ seo-description: 获取与类型句柄关联的属性集。
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 17%
@@ -39,15 +39,15 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | 是 | 属性集类型的句柄。 |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | 是 | 绑定到数据库对象的数据的主所有者。 |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | 否 | 数据的可选辅助所有者。 |
+| `*`typeHandle`*` | `xsd:string` | 是 | 属性集类型的句柄。 |
+| `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 绑定到数据库对象的数据的主所有者。 |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 数据的可选辅助所有者。 |
 
 **输出(getPropertySetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | 是 | 属性集的数组。 |
+| `*`setArray`*` | `types:PropertySetArray` | 是 | 属性集的数组。 |
 
 ## 示例 {#section-1358af974eab4259864910337a6f0bd2}
 
