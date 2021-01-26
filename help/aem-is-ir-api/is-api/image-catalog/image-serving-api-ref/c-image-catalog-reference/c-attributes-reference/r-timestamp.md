@@ -4,10 +4,10 @@ seo-description: 默认图像修改时间戳。 提供目录TimeStamp的默认�
 seo-title: 时间戳
 solution: Experience Manager
 title: 时间戳
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 默认 {#section-ac465313c97943ed97d41ea852329177}
 
-如果为空或未定义，则服务器将使用此` *`catalog`*.ini`文件的文件修改时间。
+如果为空或未定义，则服务器将使用此`*`catalog`*.ini`文件的文件修改时间。
 
 ## 另请参阅 {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 
