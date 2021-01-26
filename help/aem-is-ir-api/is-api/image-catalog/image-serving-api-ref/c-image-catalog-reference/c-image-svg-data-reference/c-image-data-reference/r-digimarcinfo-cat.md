@@ -4,10 +4,10 @@ seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 13%
@@ -23,9 +23,9 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
 
 四个整数值，用逗号分隔。
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` typeenables Digimarc嵌入并指定水印类型：
+`*``*` typeenables Digimarc嵌入并指定水印类型：
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
  </tbody> 
 </table>
 
-` *`标`*` 出一个具有三个值的位字段。设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
+`*`标`*` 出一个具有三个值的位字段。设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -81,7 +81,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>受限。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受复制保护，受限。 </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
  </tbody> 
 </table>
 
-` *`val1`*`和` *`val2`*`的解释取决于` *`类型`*`:
+`*`val1`*`和`*`val2`*`的解释取决于`*`类型`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -120,7 +120,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>未使用。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
