@@ -1,15 +1,15 @@
 ---
-description: 本文档讨论服务器管理问题并介绍Scene7图像渲染的配置设置。
-seo-description: 本文档讨论服务器管理问题并介绍Scene7图像渲染的配置设置。
+description: 本文档讨论服务器管理问题并介绍Dynamic Media图像渲染的配置设置。
+seo-description: 本文档讨论服务器管理问题并介绍Dynamic Media图像渲染的配置设置。
 seo-title: 服务器管理序言
 solution: Experience Manager
 title: 服务器管理序言
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # 服务器管理序言{#server-administration-preface}
 
-本文档讨论服务器管理问题并介绍Scene7图像渲染的配置设置。
+本文档讨论服务器管理问题并介绍Dynamic Media图像渲染的配置设置。
 
 **预期受众**
 
-本文档面向需要安装、配置和管理Scene7图像渲染的系统管理员和Web主人。
+本文档面向需要安装、配置和管理Dynamic Media图像渲染的系统管理员和Web主人。
 
 **文档惯例**
 
