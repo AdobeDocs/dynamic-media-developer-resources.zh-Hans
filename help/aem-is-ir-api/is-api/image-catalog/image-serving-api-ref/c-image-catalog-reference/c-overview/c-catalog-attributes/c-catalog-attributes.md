@@ -4,10 +4,10 @@ seo-description: 本节中描述的属性在目录属性文件中可识别。
 seo-title: 目录属性
 solution: Experience Manager
 title: 目录属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d5b12e71-0a60-4bff-b169-d07171d5d64d
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
