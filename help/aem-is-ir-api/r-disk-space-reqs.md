@@ -1,15 +1,12 @@
 ---
 description: '除了安装软件所需的空间之外，映像服务还有以下磁盘空间要求 '
-seo-description: '除了安装软件所需的空间之外，映像服务还有以下磁盘空间要求 '
-seo-title: 磁盘空间要求和建议
 solution: Experience Manager
 title: 磁盘空间要求和建议
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ ht-degree: 0%
 
 ## 源映像{#section-317da75099ad480d9a461c7e706d4f1c}的磁盘空间要求
 
-建议使用图像转换器命令行工具(IC)将所有源图像转换为金字塔TIFF文件格式(PTIFF)。 此转换可确保所有应用程序的图像服务的最佳运行时性能。 虽然图像服务器可以处理IC接受的所有源文件格式，但Scene7不提供此类用途的支持。
+建议使用图像转换器命令行工具(IC)将所有源图像转换为金字塔TIFF文件格式(PTIFF)。 此转换可确保所有应用程序的图像服务的最佳运行时性能。 虽然图像服务器可以处理IC接受的所有源文件格式，但Dynamic Media不提供此类用途的支持。
 
 使用PTIFF文件时，以下经验法则可以帮助您确定空间要求。
 
