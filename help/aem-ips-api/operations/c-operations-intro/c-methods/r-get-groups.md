@@ -4,10 +4,10 @@ seo-description: 返回公司组。
 seo-title: getGroups
 solution: Experience Manager
 title: getGroups
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d6e1542d-83a2-4b25-a986-2465e9e5a145
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 21%
@@ -33,13 +33,13 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 
 **输出(getGroupsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | 是 | 组数组。 |
+| `*`groupArray`*` | `types:GroupArray` | 是 | 组数组。 |
 
 ## 示例 {#section-ed0708f611574354bf0c6ea83912b531}
 
