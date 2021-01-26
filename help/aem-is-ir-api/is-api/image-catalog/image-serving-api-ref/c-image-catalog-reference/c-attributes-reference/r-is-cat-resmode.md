@@ -4,10 +4,10 @@ seo-description: 默认重新取样模式。 指定用于缩放图像数据的�
 seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14d184bd-6664-4f8f-b551-a92cb92a0d84
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 5%
