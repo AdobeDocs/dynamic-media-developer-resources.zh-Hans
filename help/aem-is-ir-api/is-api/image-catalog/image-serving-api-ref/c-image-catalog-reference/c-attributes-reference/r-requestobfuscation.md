@@ -4,10 +4,10 @@ seo-description: 请求模糊化模式。 指定必须应用于有效请求的�
 seo-title: 请求模糊化
 solution: Experience Manager
 title: 请求模糊化
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
