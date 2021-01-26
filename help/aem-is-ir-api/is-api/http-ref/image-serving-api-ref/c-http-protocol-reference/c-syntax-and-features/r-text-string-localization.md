@@ -4,10 +4,10 @@ seo-description: 文本字符串本地化允许图像目录包含同一字符串
 seo-title: 文本字符串本地化
 solution: Experience Manager
 title: 文本字符串本地化
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 多个&#x200B;*`locId`*&#x200B;值可以与转换映射中的每个&#x200B;*`locale`*&#x200B;相关联。 这允许为选择&#x200B;*`stringElements`*&#x200B;支持国家／地区特定的变体或地区特定的变体（例如，美国英语与英国英语），同时使用通用基本区域设置处理大多数内容（例如国际英语）。
 
-对于我们的示例，我们希望添加对美国特定英语(` *`locId`* EUS`)和英国特定英语(` *`locId`* EUK`)的支持，以支持临时的替代拼写。 如果EUK或EUS不存在，我们将回归E。同样，在大多数情况下返回通用德语&#x200B;*`localizedStrings`*（标有`D`）时，可以根据需要提供奥地利特定的德语变体(`DAT`)。
+对于我们的示例，我们希望添加对美国特定英语(`*`locId`* EUS`)和英国特定英语(`*`locId`* EUK`)的支持，以支持临时的替代拼写。 如果EUK或EUS不存在，我们将回归E。同样，在大多数情况下返回通用德语&#x200B;*`localizedStrings`*（标有`D`）时，可以根据需要提供奥地利特定的德语变体(`DAT`)。
 
 `attribute::LocaleStrMap` 会是这样：
 
@@ -152,7 +152,7 @@ ht-degree: 3%
    <td> <p>英文 </p> <p>英语 </p> <p>德文 </p> <p>奥地利 </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch  </span> </p> <p> 请注意，在此示例中，<span class="codeph">属性&lt;a2/&gt;中不存在<span class="varname"> locId </span> DDE::LocaleStrMap </span>，因此不返回与此<span class="varname"> locId </span>关联的子字符串。 </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch  </span> </p> <p> 请注意，在此示例中，<span class="codeph">属性中不存在<span class="varname"> locId </span> DDE::LocaleStrMap </span>，因此不返回与此<span class="varname"> locId </span>关联的子字符串。 </p> </td> 
    <td> <p> en, en uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>所有其他 </p> </td> 
    <td> <p>英文 </p> <p>美国——英语 </p> <p>德文 </p> <p>- </p> </td> 
   </tr> 
