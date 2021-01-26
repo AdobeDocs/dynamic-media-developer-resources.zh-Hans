@@ -4,12 +4,12 @@ seo-description: 使用属性CacheValidationPolicy（在default.ini或特定图�
 seo-title: 响应缓存验证
 solution: Experience Manager
 title: 响应缓存验证
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Scene7金字塔TIFF(PTIFF)图像会在文件头中内部维护文件日期，以进行验证。 文件系统所维护的文件修改时间用于检查非PTIFF文件是否已更改。
+>Dynamic Media金字塔TIFF(PTIFF)图像会在文件头中内部维护文件日期，以进行验证。 文件系统所维护的文件修改时间用于检查非PTIFF文件是否已更改。
 
 只有图像文件参与缓存验证过程。 对字体文件或ICC用户档案文件所做的更改不会导致缓存条目的自动失效。
