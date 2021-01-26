@@ -1,15 +1,12 @@
 ---
 description: 将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
-seo-description: 将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
-seo-title: 通过HTTP POST将资产上传到UploadFile Servlet
 solution: Experience Manager
 title: 通过HTTP POST将资产上传到UploadFile Servlet
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >上传作业的所有POST请求必须源自相同的IP地址。
 
-**访问Scene7地区的URL**
+**访问Dynamic Media地区的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
