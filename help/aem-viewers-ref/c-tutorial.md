@@ -1,15 +1,12 @@
 ---
-description: 查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看者是基于Web的应用程序，允许将Adobe Scene7提供的丰富媒体内容嵌入网页中。
-seo-description: 查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看者是基于Web的应用程序，允许将Adobe Scene7提供的丰富媒体内容嵌入网页中。
-seo-title: 查看器SDK教程
+description: 查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看器是基于Web的应用程序，允许将Dynamic MediaAdobe提供的丰富媒体内容嵌入网页中。
 solution: Experience Manager
 title: 查看器SDK教程
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # 查看器SDK教程{#viewer-sdk-tutorial}
 
-查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看者是基于Web的应用程序，允许将Adobe Scene7提供的丰富媒体内容嵌入网页中。
+查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看器是基于Web的应用程序，允许将Dynamic MediaAdobe提供的丰富媒体内容嵌入网页中。
 
-例如，SDK提供交互式缩放和平移。 它还提供通过后端应用程序SPS(Scene7发布系统)上传到Adobe Scene7的资源的360°视图和视频回放。
+例如，SDK提供交互式缩放和平移。 它还提供360°视图和视频回放，这些资源通过称为SPS(Scene7出版系统)的后端应用程序上传到Dynamic MediaAdobe。
 
 尽管这些组件依赖HTML5功能，但它们设计为可用于Android和Apple iOS设备以及桌面（包括Internet Explorer及更高版本）。 这种体验意味着您可以为所有受支持的平台提供单个工作流。
 
@@ -67,8 +64,8 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和具有某�
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和具有某�
 
    基本的缩放查看器现已完成。
 
-   本查看器教程涉及Scene7查看器SDK提供的基础知识。 使用SDK时，您可以使用各种标准组件轻松为目标受众构建丰富的查看体验并为其添加样式。
+   本查看器教程涉及Dynamic Media查看器SDK提供的基础知识。 使用SDK时，您可以使用各种标准组件轻松为目标受众构建丰富的查看体验并为其添加样式。
 
