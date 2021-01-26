@@ -4,10 +4,10 @@ seo-description: 获取与指定公司关联的属性集类型，或者如果未
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 12%
@@ -60,7 +60,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`typeArray`*` | `types:PropertySetTypeArray` | 是 | 与指定公司关联的属性集类型的数组，或者如果未指定公司，则全局属性集类型。 |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | 是 | 与指定公司关联的属性集类型的数组，或者如果未指定公司，则全局属性集类型。 |
 
 ## 示例 {#section-280c406a90864409856aee44d4069a52}
 
