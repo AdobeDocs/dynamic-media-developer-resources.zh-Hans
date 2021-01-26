@@ -4,10 +4,10 @@ seo-description: 命令值必须使用%xx转义序列进行http编码，这样�
 seo-title: 图像渲染HTTP编码
 solution: Experience Manager
 title: 图像渲染HTTP编码
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 1%
