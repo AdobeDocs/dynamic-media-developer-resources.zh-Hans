@@ -4,12 +4,12 @@ seo-description: 材料文件。 指定材料数据，以单个材料目录引�
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ## 支持的文件格式{#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-图像渲染支持与Scene7图像服务相同的源图像格式。
+图像渲染支持与Dynamic Media图像服务相同的源图像格式。
 
 使用Scene7金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 图像服务包括图像转换器(IC)实用程序，它可以根据任何支持的格式创建PTIFF图像。
 
