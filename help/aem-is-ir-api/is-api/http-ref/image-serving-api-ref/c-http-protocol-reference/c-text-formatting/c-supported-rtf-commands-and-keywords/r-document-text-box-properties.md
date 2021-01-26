@@ -4,12 +4,12 @@ seo-description: 文本框支持以下文档属性。
 seo-title: 文档（文本框）属性
 solution: Experience Manager
 title: 文档（文本框）属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYK颜色表。 </p> </td> 
-   <td> <p>Scene7分机。 </p> </td> 
+   <td> <p>Dynamic Media分机。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>图像服务颜色的颜色表。 </p> </td> 
-   <td> <p>Scene7延展；<span class="codeph">文本Ps= </span> </p> </td> 
+   <td> <p>Dynamic Media延展；<span class="codeph">文本Ps= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \青 <span class="varname"> N  </span> </span> </td> 
    <td> <p>青色组件。 </p> </td> 
-   <td> <p>Scene7延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>洋红色组件。 </p> </td> 
-   <td> <p>Scene7延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \黄色 <span class="varname"> N  </span> </span> </td> 
    <td> <p>黄色组件。 </p> </td> 
-   <td> <p>Scene7延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \黑色 <span class="varname"> N  </span> </span> </td> 
    <td> <p>黑色组件。 </p> </td> 
-   <td> <p>Scene7延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
+   <td> <p>Dynamic Media延展；只能出现在<span class="codeph"> \cmykcolortbl </span>中；0..100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
