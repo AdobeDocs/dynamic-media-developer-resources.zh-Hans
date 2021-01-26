@@ -4,10 +4,10 @@ seo-description: 图像服务器将记录写入此日志文件以记录警告和
 seo-title: 图像服务器日志
 solution: Experience Manager
 title: 图像服务器日志
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5a1a54bd-5553-43a4-9cd6-182ba474c2d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
