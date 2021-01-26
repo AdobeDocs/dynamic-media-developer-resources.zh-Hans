@@ -1,35 +1,32 @@
 ---
-description: 将提供的URL列表转发给Scene7CDN（内容分发网络）提供商，使其现有的HTTP响应缓存失效。
-seo-description: 将提供的URL列表转发给Scene7CDN（内容分发网络）提供商，使其现有的HTTP响应缓存失效。
-seo-title: cdnCacheInvalidation
+description: 将提供的URL列表转发给Dynamic MediaCDN（内容分发网络）提供商，使其现有的HTTP响应缓存失效。
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 5%
 
 ---
 
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-将提供的URL列表转发给Scene7CDN（内容分发网络）提供商，使其现有的HTTP响应缓存失效。
+将提供的URL列表转发给Dynamic MediaCDN（内容分发网络）提供商，使其现有的HTTP响应缓存失效。
 
 ## cdnCacheInvalidation:关于{#section-4f70d2bc79d64288b961836ab17e9690}
 
-一旦通过CDN网络处理此无效请求，CDN缓存失效将强制针对Scene7网络上当前已发布的数据重新验证这些URL的所有HTTP请求。 任何未连接到Scene7服务URL结构并直接与创建公司时分配的Scene7公司根ID匹配的URL都将导致整个请求的API错误。 CDN不支持的任何无效URL如果认为无效，也会导致整个请求出现API错误。
+CDN缓存失效强制通过CDN网络处理这些URL的所有HTTP请求后，将针对Dynamic Media网络上当前发布的数据重新验证此失效请求。 任何未连接到Dynamic Media服务URL结构并直接与创建公司时分配的Dynamic Media公司根ID匹配的URL都将导致整个请求的API错误。 CDN不支持的任何无效URL如果认为无效，也会导致整个请求出现API错误。
 
 **使用频率：规则**
 
-控制此功能使用频率的规则由Scene7的CDN合作伙伴控制。 CDN可自行降低这些失效的响应度，以保持其服务对用户的最佳性能。 如果Scene7收到过度使用此功能的通知，我们需要根据每个公司或完全在服务中禁用该功能。
+控制此功能使用频率的规则由Dynamic Media的CDN合作伙伴控制。 CDN可自行降低这些失效的响应度，以保持其服务对用户的最佳性能。 如果Dynamic Media收到过度使用此功能的通知，我们需要根据每个公司或完全在服务中禁用该功能。
 
 **确认电子邮件**
 
-来自Scene7CDN合作伙伴的确认电子邮件可发送给列表的创建者或最多5个其他电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认信息。 如果提供的URL数超过Scene7通过单个通知可向CDN合作伙伴提供的数量，则对`cdnCacheInvalidation`的一次调用可以发送多个电子邮件。 目前，如果请求超过100个URL，但可能根据CDN合作伙伴的请求进行更改，则为此情况。
+来自Dynamic MediaCDN合作伙伴的确认电子邮件可发送给列表的创建者或最多5个其他电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认信息。 如果提供的URL数超过Dynamic Media通过单个通知可向CDN合作伙伴提供的数量，则对`cdnCacheInvalidation`的一次调用可以发送多个电子邮件。 目前，如果请求超过100个URL，但可能根据CDN合作伙伴的请求进行更改，则为此情况。
 
 **支持时间**
 
@@ -64,7 +61,7 @@ ht-degree: 4%
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> types:UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
-   <td> <p> 从CDN缓存中列表的URL数最多为1000个。 所有URL必须包含要失效的Scene7公司根ID。 </p> </td> 
+   <td> <p> 从CDN缓存中列表的URL数最多为1000个。 所有URL必须包含要失效的Dynamic Media公司根ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
