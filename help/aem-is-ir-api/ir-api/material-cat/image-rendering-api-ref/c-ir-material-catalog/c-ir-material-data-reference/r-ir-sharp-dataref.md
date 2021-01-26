@@ -4,10 +4,10 @@ seo-description: 锐化. 锐化属性，确定渲染期间何时锐化材料。
 seo-title: 清晰
 solution: Experience Manager
 title: 清晰
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 11%
