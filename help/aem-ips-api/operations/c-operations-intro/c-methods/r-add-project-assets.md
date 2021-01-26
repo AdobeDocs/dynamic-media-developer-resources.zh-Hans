@@ -1,15 +1,12 @@
 ---
 description: 向项目添加一个或多个资源。
-seo-description: 向项目添加一个或多个资源。
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理与当前项目关联的公司。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 处理要向其添加资产的项目。 |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要添加到当前项目的资源数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理与当前项目关联的公司。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 处理要向其添加资产的项目。 |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要添加到当前项目的资源数组。 |
 
 **输出(addProjectAssetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的错误数。 |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的警告数组。 |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的错误数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的错误数。 |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的警告数组。 |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的错误数组。 |
 
 ## 示例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
