@@ -4,10 +4,10 @@ seo-description: 创建图像格式。
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%
@@ -36,16 +36,16 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，使用您要处理的图像格式。 |
-| ` *`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的图像格式句柄。 |
-| ` *`name`*` | `xsd:string` | 是 | 图像格式名称。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建一个修饰符，然后剪切并粘贴查询字符串。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，使用您要处理的图像格式。 |
+| `*`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的图像格式句柄。 |
+| `*`name`*` | `xsd:string` | 是 | 图像格式名称。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建一个修饰符，然后剪切并粘贴查询字符串。 |
 
 **输出(saveImageFormatReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | 是 | 处理图像格式。 |
+| `*`imageFormatHandle`*` | `xsd:string` | 是 | 处理图像格式。 |
 
 ## 示例 {#section-c7bd733212ef494297a97093f3af193f}
 
