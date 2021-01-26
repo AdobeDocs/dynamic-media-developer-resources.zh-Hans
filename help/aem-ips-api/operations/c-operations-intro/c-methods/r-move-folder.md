@@ -4,10 +4,10 @@ seo-description: 将文件夹移到新位置。
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 25%
@@ -36,15 +36,15 @@ ht-degree: 25%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| ` *`destFolderHandle`*` | `xsd:string` | 是 | 处理目标文件夹。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
+| `*`destFolderHandle`*` | `xsd:string` | 是 | 处理目标文件夹。 |
 
 **输出(moveFolderReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | 是 | 处理已移动的文件夹。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 处理已移动的文件夹。 |
 
 ## 示例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
