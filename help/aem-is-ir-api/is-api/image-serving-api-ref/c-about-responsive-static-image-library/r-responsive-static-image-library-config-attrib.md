@@ -4,12 +4,12 @@ seo-description: 配置属性直接定义为响应式图像库管理的IMG元素
 seo-title: 命令引用——配置属性
 solution: Experience Manager
 title: 命令引用——配置属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-AEM 6.4及更高版本以及Scene7查看器5.9及更高版本中提供以下两种智能裁剪模式：
+AEM 6.4及更高版本以及Dynamic Media查看器5.9及更高版本中提供以下两种智能裁剪模式：
 
 * **手动** -用户定义的断点和相应的图像服务命令是在图像元素的属性中定义的。
 * **智能裁剪** -从投放服务器自动检索计算出的智能裁剪演绎版。使用图像元素的运行时大小选择最佳再现。
