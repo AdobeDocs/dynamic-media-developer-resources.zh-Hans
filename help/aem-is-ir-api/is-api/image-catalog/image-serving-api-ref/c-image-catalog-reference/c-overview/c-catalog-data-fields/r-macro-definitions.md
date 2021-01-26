@@ -4,10 +4,10 @@ seo-description: 宏定义文件中可识别以下字段。
 seo-title: 宏定义
 solution: Experience Manager
 title: 宏定义
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%
