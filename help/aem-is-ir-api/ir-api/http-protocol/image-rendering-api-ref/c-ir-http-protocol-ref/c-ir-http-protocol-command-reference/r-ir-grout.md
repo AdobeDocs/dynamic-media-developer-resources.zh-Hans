@@ -4,10 +4,10 @@ seo-description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的�
 seo-title: 灌浆
 solution: Experience Manager
 title: 灌浆
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ grout= *`color`*[,*`width`*]
 
 ## 属性 {#section-de78b678245b4ffda48097c345949e77}
 
-材料属性。 ` *`颜`*` 色必须是RGB颜色值。` *`宽`*` 度必须为实数值0或更大。
+材料属性。 `*`颜`*` 色必须是RGB颜色值。`*`宽`*` 度必须为实数值0或更大。
 
 如果repeat = 4、5、7、8、9、14或更高，或者为可重复纹理以外的材料指定时，则忽略。
 
 ## 默认 {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-如果未指定`grout=`，则不修改图像中的灌浆。 如果指定` grout= *`color`*`，则` *`width`*`默认为`catalog::GroutWidth`。
+如果未指定`grout=`，则不修改图像中的灌浆。 如果指定` grout= *`color`*`，则`*`width`*`默认为`catalog::GroutWidth`。
 
 ## 另请参阅 {#section-8d472906a44943f5a8557e98f2fbc71f}
 
