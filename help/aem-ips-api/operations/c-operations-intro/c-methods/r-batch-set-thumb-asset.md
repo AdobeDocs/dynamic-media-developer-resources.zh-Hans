@@ -4,10 +4,10 @@ seo-description: 为一个或多个资产设置缩略图。
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 13%
@@ -50,18 +50,18 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含资产的公司的句柄。 |
-| ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | 是 | 更新的阵列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含资产的公司的句柄。 |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | 是 | 更新的阵列。 |
 
 **输出(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功设置缩略图的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功设置缩略图的数量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-6de69a8680c24c1486c5f01488393381}
 
