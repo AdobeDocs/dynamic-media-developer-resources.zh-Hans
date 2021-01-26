@@ -4,10 +4,10 @@ seo-description: ID转换映射。 指定用于将通用图像ID转换为区域�
 seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ID转换映射。 指定用于将通用图像ID转换为区域设置特定ID的规则。
 
-` *`itemitem`*&#42;['|' *``*]`
+`*`itemitem`*&#42;['|' *``*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
