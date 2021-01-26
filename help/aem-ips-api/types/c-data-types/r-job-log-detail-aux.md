@@ -4,10 +4,10 @@ seo-description: 包含与主作业日志消息(JobDetail)关联的补充消息�
 seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`logMessage`*` | `xsd:string` | 辅助信息。 |
-| ` *`logType`*` | `xsd:string` | 日志类型：`IPSJobLog.gcUploadWarning`或`IPSJobLog.gcUploadError`。 |
-| ` *`dateCreated`*` | `xsd:dateTime` | 辅助作业日志创建日期。 |
+| `*`logMessage`*` | `xsd:string` | 辅助信息。 |
+| `*`logType`*` | `xsd:string` | 日志类型：`IPSJobLog.gcUploadWarning`或`IPSJobLog.gcUploadError`。 |
+| `*`dateCreated`*` | `xsd:dateTime` | 辅助作业日志创建日期。 |
 
