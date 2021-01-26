@@ -4,10 +4,10 @@ seo-description: 介绍IPS API 3.8版的新数据类型和已更改的数据类�
 seo-title: 数据类型新增和修改
 solution: Experience Manager
 title: 数据类型新增和修改
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
