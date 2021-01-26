@@ -1,16 +1,13 @@
 ---
 description: 返回标记为要发布的资产的发布上下文。
-seo-description: 返回标记为要发布的资产的发布上下文。
-seo-title: batchGetAssetPublishContexts
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -48,14 +45,14 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要列表为活动（标记为发布）上下文的资产的查询。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要列表为活动（标记为发布）上下文的资产的查询。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一组发布上下文，其中每个资产都标记为要发布。 |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一组发布上下文，其中每个资产都标记为要发布。 |
 
 ## 示例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
