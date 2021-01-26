@@ -4,10 +4,10 @@ seo-description: 创建一个预设视图，它确定用户可以看到的内容
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含查看器预设和资产的公司的句柄。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
-| ` *`name`*` | `xsd:string` | 是 | 查看器名称。 |
-| ` *`类型`*` | `xsd:string` | 是 | 查看器类型. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含要应用预设的图像的名称、值和句柄的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含查看器预设和资产的公司的句柄。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
+| `*`name`*` | `xsd:string` | 是 | 查看器名称。 |
+| `*`类型`*` | `xsd:string` | 是 | 查看器类型. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含要应用预设的图像的名称、值和句柄的数组。 |
 
 **输出(createViewerPresetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | 是 | 将预设处理到查看器。 |
+| `*`viewerPresetHandle`*` | `xsd:string` | 是 | 将预设处理到查看器。 |
 
 ## 示例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
