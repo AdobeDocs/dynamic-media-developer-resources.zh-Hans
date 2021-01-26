@@ -2,10 +2,10 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 24%
@@ -77,7 +77,7 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`publishContextArray`*` | types:PublishContextArray | 是 | 公司的发布上下文数组，根据上下文类型进行筛选（如果需要）。 |
+| `*`publishContextArray`*` | types:PublishContextArray | 是 | 公司的发布上下文数组，根据上下文类型进行筛选（如果需要）。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
