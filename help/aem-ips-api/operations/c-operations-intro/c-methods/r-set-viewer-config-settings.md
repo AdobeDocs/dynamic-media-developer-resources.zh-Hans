@@ -4,10 +4,10 @@ seo-description: 将查看器配置设置附加到资产。 这些预设可以�
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 10%
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| ` *`name`*` | `xsd:string` | 是 | 资产名称。 |
-| ` *`类型`*` | `xsd:string` | 是 | 要将查看器配置应用到的资产类型。 |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 应用于资产的`ConfigSettings`数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
+| `*`name`*` | `xsd:string` | 是 | 资产名称。 |
+| `*`类型`*` | `xsd:string` | 是 | 要将查看器配置应用到的资产类型。 |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 应用于资产的`ConfigSettings`数组。 |
 
 **输出(setViewerConfigSettingsParam)**
 
