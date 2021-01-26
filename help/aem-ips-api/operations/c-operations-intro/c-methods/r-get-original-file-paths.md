@@ -4,10 +4,10 @@ seo-description: 获取公司资源的原始文件路径。
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 14%
@@ -41,14 +41,14 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
 
 **输出(getOriginalFilePathsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | 是 | 表示原始文件路径的字符串数组。 |
+| `*`originalFileArray`*` | `types:StringArray` | 是 | 表示原始文件路径的字符串数组。 |
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
