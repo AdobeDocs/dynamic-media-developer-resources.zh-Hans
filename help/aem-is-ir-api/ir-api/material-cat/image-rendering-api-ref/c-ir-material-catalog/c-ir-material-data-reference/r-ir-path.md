@@ -4,12 +4,12 @@ seo-description: 图像文件路径。 纹理或贴图图像文件的相对路�
 seo-title: 路径 *
 solution: Experience Manager
 title: 路径 *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 3%
 
 ## 支持的文件格式{#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-图像渲染支持与Scene7图像服务相同的源图像格式。
+图像渲染支持与Dynamic Media图像服务相同的源图像格式。
 
-使用Scene7金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 图像服务包括图像转换器(IC)实用程序，它可以根据任何支持的格式创建PTIFF图像。
+使用Dynamic Media金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 图像服务包括图像转换器(IC)实用程序，它可以根据任何支持的格式创建PTIFF图像。
 
 有关所支持文件格式的完整列表，请参阅图像服务文档中IC实用程序的说明。
 
