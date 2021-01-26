@@ -4,10 +4,10 @@ seo-description: 目录属性文件可以具有任何名称，但必须具有。
 seo-title: 目录属性文件
 solution: Experience Manager
 title: 目录属性文件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 目录属性文件由一组文本记录组成，由单个`<CR>`（ASCII代码`0xD`）、单个`<LF>`（ASCII代码`0xA`）或`<CR><LF>`对分隔。 每个记录都包含一个属性名称和一个或多个以逗号分隔的属性值：
 
-` *`名`*= *`称值`*{<CR>|<LF>|<CR><LF }`
+`*`名`*= *`称值`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
