@@ -4,10 +4,10 @@ seo-description: 为一个或多个图像资产设置特定于图像的字段。
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 9%
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含图像资产的公司的句柄。 |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | 是 | 图像字段更新的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像资产的公司的句柄。 |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | 是 | 图像字段更新的数组。 |
 
 **输出(batchSetImageFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功设置图像字段的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功设置图像字段的数量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
