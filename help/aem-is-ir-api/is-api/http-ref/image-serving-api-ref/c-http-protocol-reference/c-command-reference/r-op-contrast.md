@@ -4,10 +4,10 @@ seo-description: 调整对比度。 通过增加亮度超过50%的像素的亮�
 seo-title: op_contrast
 solution: Experience Manager
 title: op_contrast
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d17b0b49-792b-41ce-a154-5e7635c9ab43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
