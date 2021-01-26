@@ -4,10 +4,10 @@ seo-description: 预载服务器缓存。 执行请求的方式与req=img类似�
 seo-title: 加载缓存
 solution: Experience Manager
 title: 加载缓存
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44f0db05-2323-4aa2-853c-f78e656a4308
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
