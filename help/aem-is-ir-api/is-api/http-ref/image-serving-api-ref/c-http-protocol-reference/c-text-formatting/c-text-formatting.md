@@ -4,12 +4,12 @@ seo-description: 图像服务提供了多种文本渲染替代方法，可通过
 seo-title: 文本格式
 solution: Experience Manager
 title: 文本格式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 6%
 
 可以手动组合符合RTF的字符串，或者通过在能够保存RTF文件的文本编辑器或文字处理器中设置所需文本的格式来组合字符串。 然后，可以在纯文本编辑器中打开RTF文件，并将文件的相关原始RTF内容复制到请求URL。
 
-一些字处理器生成较大的文件，其中包括Scene7图像服务不使用的大量前导码。 建议先从字符串中删除未使用的RTF元素，然后再将字符串传递给文本命令。
+一些字处理器生成较大的文件，其中包括Dynamic Media图像服务不使用的大量前导码。 建议先从字符串中删除未使用的RTF元素，然后再将字符串传递给文本命令。
 
 RTF字符串支持基于UTF-8和ISO标准的语言编码，作为标准RTF字符编码机制的替代方法。 这允许应用程序在不了解RTF编码的情况下向服务器发送非英语文本。
 
