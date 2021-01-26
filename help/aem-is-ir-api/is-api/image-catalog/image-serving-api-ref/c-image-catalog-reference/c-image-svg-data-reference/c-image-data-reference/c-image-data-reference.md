@@ -4,10 +4,10 @@ seo-description: 本节介绍图像数据属性。
 seo-title: 图像数据参考
 solution: Experience Manager
 title: 图像数据参考
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 22%
