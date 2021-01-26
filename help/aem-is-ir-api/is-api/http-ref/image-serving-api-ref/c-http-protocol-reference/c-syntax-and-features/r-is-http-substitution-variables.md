@@ -4,10 +4,10 @@ seo-description: 替换变量用于将值从请求URL传输到图像目录中存
 seo-title: 替换变量
 solution: Experience Manager
 title: 替换变量
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 预定义路径变量{#section-930d0dd12e8f49499becc9fe8df24092}
 
-在请求路径中指定的&#x200B;*`object`*&#x200B;被分配给预定义变量` *`$object`*`。 “ ` $ *`object`*$`”可以放置在请求中、请求引用的模板中或允许此类对象的嵌套／嵌入式请求中的任意位置，包括`src=`和`mask=`的值以及嵌套／嵌入式请求的路径。
+在请求路径中指定的&#x200B;*`object`*&#x200B;被分配给预定义变量`*`$object`*`。 “ ` $ *`object`*$`”可以放置在请求中、请求引用的模板中或允许此类对象的嵌套／嵌入式请求中的任意位置，包括`src=`和`mask=`的值以及嵌套／嵌入式请求的路径。
 
 例如，以下请求将重复使用路径中指定的图像作为嵌套请求中图层的源：
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-` *`$object`*`的定义可以通过显式指定具有所需值的` $ *`object`*=`来覆盖。
+`*`$object`*`的定义可以通过显式指定具有所需值的` $ *`object`*=`来覆盖。
 
 预定义的路径变量通常与`template=`结合使用。
 
 ## 默认 {#section-b02483d15529444586a2e9504805b155}
 
-无. 只有已定义的变量将由服务器替换（预定义路径变量$object除外，它将始终被替换）。 如果` *`var`*`不能与现有变量定义匹配，则任何` $ *`var`*$`的匹配项都保留为文字。
+无. 只有已定义的变量将由服务器替换（预定义路径变量$object除外，它将始终被替换）。 如果`*`var`*`不能与现有变量定义匹配，则任何` $ *`var`*$`的匹配项都保留为文字。
 
 ## 示例 {#section-fba9393df6984247b7e30b3f93992e86}
 
