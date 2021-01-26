@@ -4,10 +4,10 @@ seo-description: 静态（非图像）内容目录支持以下字段。
 seo-title: 静态内容数据
 solution: Experience Manager
 title: 静态内容数据
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 translation-type: tm+mt
-source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
