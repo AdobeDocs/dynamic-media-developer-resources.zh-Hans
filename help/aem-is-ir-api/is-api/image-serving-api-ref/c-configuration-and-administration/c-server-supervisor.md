@@ -1,15 +1,15 @@
 ---
-description: 图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Scene7图像服务”)。
-seo-description: 图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Scene7图像服务”)。
+description: 图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Dynamic Media图像服务”)。
+seo-description: 图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Dynamic Media图像服务”)。
 seo-title: 服务器管理器
 solution: Experience Manager
 title: 服务器管理器
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 服务器管理器{#server-supervisor}
 
-图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Scene7图像服务”)。
+图像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Dynamic Media图像服务”)。
 
 除了启动和停止其他图像服务组件外，服务器主管还负责确保这些其他组件的运行状况。 如果组件发生崩溃，将自动重新启动它以最大限度地减少任何服务中断。
 
