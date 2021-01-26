@@ -1,16 +1,13 @@
 ---
 description: 高级渲染设置。 高级渲染设置用于控制渲染引擎的低级方面，如材料锐化类型和参数或照明算法的某些参数。
-seo-description: 高级渲染设置。 高级渲染设置用于控制渲染引擎的低级方面，如材料锐化类型和参数或照明算法的某些参数。
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 19823ca5-51a1-4885-b578-d7c9852acab6
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 2%
 
 ## 属性 {#section-b4c8fe595efc4838ac598659bc820607}
 
-文本字符串。 可选，适用于所有材料。 如果指定，则它必须是有效的渲染设置字符串，如晕影创作工具(Scene7图像创作包的一部分)所定义。
+文本字符串。 可选，适用于所有材料。 如果指定，则它必须是有效的渲染设置字符串，如晕影创作工具(Dynamic Media图像创作包的一部分)所定义。
 
 ## 默认 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
