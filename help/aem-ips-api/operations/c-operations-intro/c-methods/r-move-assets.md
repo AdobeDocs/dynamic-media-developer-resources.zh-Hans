@@ -4,10 +4,10 @@ seo-description: 分别移动多个资产。 它使用assetMoveArray中包含的
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 11%
@@ -36,8 +36,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要移动资产的公司的句柄。 |
-| ` *`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 资产移动阵列。 它包含一个资产和一个资产目标文件夹。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要移动资产的公司的句柄。 |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 资产移动阵列。 它包含一个资产和一个资产目标文件夹。 |
 
 **输出(moveAssetsReturn)**
 
