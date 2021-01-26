@@ -4,10 +4,10 @@ seo-description: 客户端消息。 为客户端提供一种将短文本消息�
 seo-title: 消息
 solution: Experience Manager
 title: 消息
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 7%
