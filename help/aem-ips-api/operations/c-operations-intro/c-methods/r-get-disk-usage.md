@@ -4,10 +4,10 @@ seo-description: 返回有关公司结构（文件数等）的信息。
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 12%
@@ -32,13 +32,13 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要获取其磁盘使用情况的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其磁盘使用情况的公司的句柄。 |
 
 **输出(getDiskUsageReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁盘使用的阵列。 |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁盘使用的阵列。 |
 
 ## 示例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
