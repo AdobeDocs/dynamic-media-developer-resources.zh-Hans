@@ -4,10 +4,10 @@ seo-description: 宏定义。 由一个或多个完整命令组成的渲染服�
 seo-title: 定义
 solution: Experience Manager
 title: 定义
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 9%
