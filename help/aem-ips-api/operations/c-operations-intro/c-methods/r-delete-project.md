@@ -4,10 +4,10 @@ seo-description: 从公司中删除项目。 资源与项目之间的链接将�
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 7%
@@ -36,8 +36,8 @@ ht-degree: 7%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 是 | 与项目关联的公司的名称。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 要删除的项目的句柄。 |
+| `*`companyName`*` | `xsd:string` | 是 | 与项目关联的公司的名称。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 要删除的项目的句柄。 |
 
 **输出(deleteProjectReturn)**
 
