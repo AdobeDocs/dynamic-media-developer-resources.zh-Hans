@@ -4,10 +4,10 @@ seo-description: 材料颜色。 纯色材料的主色和着色纹理材料的�
 seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 9%
