@@ -1,16 +1,13 @@
 ---
 description: 向现有标记字段的字典添加新标记值。
-seo-description: 向现有标记字段的字典添加新标记值。
-seo-title: addTagFieldValues
 solution: Experience Manager
 title: addTagFieldValues
-topic: Scene7 Image Production System API
-uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -33,9 +30,9 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
-| ` *`valueArray`*` | `xsd:string` | 是 | 要添加到字段现有词典的标记值的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
+| `*`valueArray`*` | `xsd:string` | 是 | 要添加到字段现有词典的标记值的数组。 |
 
 **输出(addTagFieldValuesParam)**
 
