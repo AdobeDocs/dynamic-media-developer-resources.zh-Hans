@@ -4,10 +4,10 @@ seo-description: 返回元数据字段的所有值。
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 21%
@@ -37,14 +37,14 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要获取公司的句柄。 |
-| ` *`metadataKey`*` | `xsd:string` | 是 | 点记号中的元数据键。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要获取公司的句柄。 |
+| `*`metadataKey`*` | `xsd:string` | 是 | 点记号中的元数据键。 |
 
 **输出(getDistinctMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`valueArray`*` | `types:ValueArray` | 是 | 请求的元数据字段的值。 |
+| `*`valueArray`*` | `types:ValueArray` | 是 | 请求的元数据字段的值。 |
 
 ## 示例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
