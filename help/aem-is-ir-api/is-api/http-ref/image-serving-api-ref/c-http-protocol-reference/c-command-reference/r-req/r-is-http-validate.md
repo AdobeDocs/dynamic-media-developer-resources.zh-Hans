@@ -4,10 +4,10 @@ seo-description: 请求验证。
 seo-title: 确认
 solution: Experience Manager
 title: 确认
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5322c484-2cf5-4022-9863-73fc525beb56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 5%
