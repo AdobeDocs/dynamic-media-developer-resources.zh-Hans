@@ -4,10 +4,10 @@ seo-description: 光泽地图图像。 提供对可重复纹理、墙纸／边�
 seo-title: 舌面图
 solution: Experience Manager
 title: 舌面图
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 属性 {#section-26375672d69849be9b026cc93c3bc558}
 
-材料属性。 支持可重复的纹理、墙纸和边框以及贴花。 被纯色、机柜和窗口覆盖材料忽略。 有关详细信息，请参见[ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)。
+材料属性。 支持可重复的纹理、墙纸和边框以及装饰。 被纯色、机柜和窗口覆盖材料忽略。 有关详细信息，请参见[ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)。
 
 ## 默认 {#section-d9ac031fb2f94482ac3fe2283d7cb168}
 
