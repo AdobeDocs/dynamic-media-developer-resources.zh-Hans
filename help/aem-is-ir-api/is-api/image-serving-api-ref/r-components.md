@@ -4,12 +4,12 @@ seo-description: 'Scene 7图像服务由以下组件组成 '
 seo-title: 图像服务组件
 solution: Experience Manager
 title: 图像服务组件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Scene 7图像服务包含以下组件：
    <td colname="col2"> <p>独立的Java应用程序（不由Tomcat托管）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7图像渲染(aka. 渲染服务器) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media图像渲染(aka. 渲染服务器) </p> </td> 
    <td colname="col2"> <p>需要单独的许可证才能激活。 位于<span class="filepath"> /ir/render</span>的HTTP访问。 所有图像渲染功能都集成到平台服务器和图像服务器中，没有单独的可执行组件。 </p> </td> 
   </tr> 
  </tbody> 
