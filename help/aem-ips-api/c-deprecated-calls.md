@@ -1,15 +1,12 @@
 ---
-description: 不再使用的图像生产系统API调用及其关联参数。
-seo-description: 不再使用的图像生产系统API调用及其关联参数。
-seo-title: 已弃用的调用
-solution: Experience Manager
 title: 已弃用的调用
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: 不再在Dynamic Media使用的图像生产系统API调用及其关联参数。
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 ## 已弃用的调用{#topic-654c0466e6434fe4a95953322255b08c}
 
-不再使用的图像生产系统API调用及其关联参数。
+不再在Dynamic Media使用的图像生产系统API调用及其关联参数。
 
 * `addMediaPortalEvent` -操作中已弃用。此调用允许您向IPS添加媒体门户事件。
 * `getMediaPortalEvent` -操作中已弃用。此调用可让您获得符合指定条件的媒体门户事件。
