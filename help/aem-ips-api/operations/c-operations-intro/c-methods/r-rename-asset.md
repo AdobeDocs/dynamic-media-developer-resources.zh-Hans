@@ -4,10 +4,10 @@ seo-description: 重命名资产。
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ ht-degree: 7%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 要重命名的资产的句柄。 |
-| ` *`newName`*` | `xsd:string` | 是 | 资产的新名称。 |
-| ` *`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`是`true`，且资产类型需要唯一的IPS ID，则检查新名称的全局唯一性，如果它不唯一，则`renameAsset`将引发错误。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 要重命名的资产的句柄。 |
+| `*`newName`*` | `xsd:string` | 是 | 资产的新名称。 |
+| `*`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`是`true`，且资产类型需要唯一的IPS ID，则检查新名称的全局唯一性，如果它不唯一，则`renameAsset`将引发错误。 |
 
 **输出(renameAssetReturn)**
 
