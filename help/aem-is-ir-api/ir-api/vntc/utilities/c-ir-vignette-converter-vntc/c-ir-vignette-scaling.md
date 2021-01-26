@@ -4,12 +4,12 @@ seo-description: 支持四种一般类型的制作晕影。
 seo-title: 暗角缩放
 solution: Experience Manager
 title: 暗角缩放
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    建议在所有所需的渲染图像大小均已知时使用。 与单分辨率和金字塔晕影相比，提供更好的质量和更快的渲染，因为渲染后无需缩放图像。
 * 金字塔
 
-   最佳用途，建议在需要多个图像大小且未预先确定确切大小以及使用某个Scene7Flash缩放查看器时使用。
+   最佳用途，建议在需要多个图像大小且未预先确定确切大小和使用Dynamic Media缩放查看器时使用。
 * 具有一个或多个附加分辨率的金字塔
 
    为特定尺寸提供高质量，同时仍提供灵活性和缩放查看器支持。
