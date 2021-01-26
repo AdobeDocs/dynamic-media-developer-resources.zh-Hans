@@ -4,10 +4,10 @@ seo-description: 属性集的类型和值。
 seo-title: 属性集
 solution: Experience Manager
 title: 属性集
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`setHandle`*` | `xsd:string` | 属性集句柄。 |
-| ` *`typeHandle`*` | `xsd:string` | 处理属性集类型。 |
-| ` *`propertyArray`*` | `types:PropertyArray` | 名称——值对。 可包含零个项目。 |
+| `*`setHandle`*` | `xsd:string` | 属性集句柄。 |
+| `*`typeHandle`*` | `xsd:string` | 处理属性集类型。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 名称——值对。 可包含零个项目。 |
 
