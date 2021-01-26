@@ -4,12 +4,12 @@ seo-description: 包含图像服务器配置设置。
 seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 修改此XML文件时，必须注意保持有效的XML语法，否则图像服务器可能无法开始。
 
-要使更改生效，请在编辑此文件后重新启动图像服务器。 只有下面列出的元素值才支持修改。 只有在Scene7技术支持提供建议时，才能编辑此文件的任何其他内容。
+要使更改生效，请在编辑此文件后重新启动图像服务器。 只有下面列出的元素值才支持修改。 只有在Dynamic Media技术支持提供建议时，才能编辑此文件的任何其他内容。
 
 >[!NOTE]
 >
