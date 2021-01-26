@@ -4,12 +4,12 @@ seo-description: 图像目录用于向服务器提供有关图像和支持数据
 seo-title: 概述
 solution: Experience Manager
 title: 概述
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 目录属性文件必须具有[!DNL .ini]文件后缀，并且必须位于平台服务器的目录文件夹(`PlatformServer::catalog.rootPath`)中。 目录数据文件可以位于平台服务器可访问的同一文件夹或任何其他文件夹中。
 
-本文档介绍Scene7图像服务系统的图像目录文件格式。 预期受众是经验丰富的程序员和网站开发人员，他们希望将Scene7图像服务用于Web或自定义应用程序。
+本文档介绍Dynamic Media图像服务系统的图像目录文件格式。 预期受众是经验丰富的程序员和网站开发人员，他们希望将Dynamic Media图像服务用于Web或自定义应用程序。
 
-假定读者通常熟悉Scene7图像服务系统、一般HTTP协议标准和惯例以及基本的图像术语。
+假定读者通常熟悉Dynamic Media图像服务系统、一般HTTP协议标准和惯例以及基本的图像术语。
