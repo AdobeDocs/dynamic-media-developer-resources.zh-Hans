@@ -4,10 +4,10 @@ seo-description: 图像服务提供了一种将外部对象ID转换为特定于�
 seo-title: 对象ID转换
 solution: Experience Manager
 title: 对象ID转换
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 `attribute::LocaleMap` 定义服务器用于确定本地化内容的ID的规则，该规则给定为输入通用对象ID和 `locale=` 值。
 
-`attribute::LocaleMap` 由输入区域设置列表 *(* 与指定的值匹配 `locale=`)组成 ` *`，每个区域设置后缀没有或更多输出区域设置后缀(`*`locSuffixes)。
+`attribute::LocaleMap` 由输入区域设置列表 *(* 与指定的值匹配 `locale=`)组成 `*`，每个区域设置后缀没有或更多输出区域设置后缀(`*`locSuffixes)。
 
 例如，`attribute::LocaleMap`可能如下所示：
 
