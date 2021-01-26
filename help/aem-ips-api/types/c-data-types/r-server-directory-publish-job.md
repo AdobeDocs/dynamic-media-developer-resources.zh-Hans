@@ -4,10 +4,10 @@ seo-description: 发布所有标记为准备发布到服务器目录的图像、
 seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 6%
@@ -25,6 +25,6 @@ ht-degree: 6%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`emailSettings`*` | `xsd:string` | 电子邮件设置选项。 |
-| ` *`httpCompletionUrl`*` | `xsd:string` | 发送完成通知的URL。 |
+| `*`emailSettings`*` | `xsd:string` | 电子邮件设置选项。 |
+| `*`httpCompletionUrl`*` | `xsd:string` | 发送完成通知的URL。 |
 
