@@ -7,7 +7,7 @@ title: 图像映射支持
 topic: Dynamic media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ` href=target: *`idx`*`
 
-其中` *`idx`*`是目录跨页的从零开始的索引。
+其中`*`idx`*`是目录跨页的从零开始的索引。
 
 以下是指向eCatalog中3D跨页的图像映射的`href`属性示例：
 
