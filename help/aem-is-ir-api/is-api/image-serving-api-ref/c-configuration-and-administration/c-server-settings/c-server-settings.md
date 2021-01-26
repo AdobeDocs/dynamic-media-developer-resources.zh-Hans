@@ -4,10 +4,10 @@ seo-description: 本节介绍所有可编辑的配置设置，按感兴趣的区
 seo-title: 服务器设置
 solution: Experience Manager
 title: 服务器设置
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 5%
