@@ -4,10 +4,10 @@ seo-description: 地址筛选器元素。 在<rule>元素中为可选。 在应�
 seo-title: 地址筛选器
 solution: Experience Manager
 title: 地址筛选器
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
