@@ -4,10 +4,10 @@ seo-description: 使用批处理模式设置资产元数据。
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 13%
@@ -36,18 +36,18 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要在批处理操作中设置其元数据的公司的句柄。 |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | 是 | 应用于资产的元数据更新的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要在批处理操作中设置其元数据的公司的句柄。 |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | 是 | 应用于资产的元数据更新的数组。 |
 
 **输出(batchSetAssetMetadataParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功设置元数据的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试为资产批量设置元数据时会生成警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功设置元数据的数量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试为资产批量设置元数据时会生成警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-2de798ac920e4b47b971b1729a64395b}
 
