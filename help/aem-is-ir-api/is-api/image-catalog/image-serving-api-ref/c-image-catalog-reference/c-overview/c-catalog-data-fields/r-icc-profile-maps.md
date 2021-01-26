@@ -4,10 +4,10 @@ seo-description: ICC颜色用户档案映射文件中可识别以下字段。
 seo-title: ICC用户档案图
 solution: Experience Manager
 title: ICC用户档案图
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b244c95a-3198-4d6c-836f-f199022348b4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
