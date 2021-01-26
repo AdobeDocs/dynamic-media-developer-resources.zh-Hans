@@ -1,15 +1,12 @@
 ---
 description: 要向网页添加响应式图像库并使用该库管理现有图像，请完成以下步骤。
-seo-description: 要向网页添加响应式图像库并使用该库管理现有图像，请完成以下步骤。
-seo-title: 使用响应式图像库
 solution: Experience Manager
 title: 使用响应式图像库
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ ht-degree: 0%
 
 **使用智能裁剪**
 
-AEM 6.4和Scene7查看器5.9中提供两种智能裁剪模式：
+AEM 6.4和Dynamic Media查看器5.9中提供两种智能裁剪模式：
 
 * **手动** -用户定义的断点和相应的图像服务命令是在图像元素的属性中定义的。
 * **智能裁剪** -从投放服务器自动检索计算出的智能裁剪演绎版。使用图像元素的运行时大小选择最佳再现。
