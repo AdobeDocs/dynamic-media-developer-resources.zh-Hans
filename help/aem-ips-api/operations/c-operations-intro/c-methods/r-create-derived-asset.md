@@ -4,10 +4,10 @@ seo-description: 创建从现有主源图像资产派生的新资产。
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
@@ -42,19 +42,19 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，其中包含要从中派生新资产的资产。 |
-| ` *`ownerHandle`*` | `xsd:string` | 是 | 将从中派生新图像的主图像资产的句柄。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 将在其中创建新派生资产的文件夹的句柄。 |
-| ` *`name`*` | `xsd:string` | 是 | 派生资产的名称。 |
-| ` *`类型`*` | `xsd:string` | 是 | 新派生资产的资产类型：`AdjustedView`或`LayerView`。 |
-| ` *`urlModifier`*` | `xsd:string` | 否 | 在&#x200B;*请求或`urlPostApplyModifier`命令之前应用*&#x200B;的图像服务或图像渲染协议命令。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 对请求或`urlPostApplyModifier`命令应用&#x200B;*之后的*&#x200B;图像服务或图像渲染协议命令。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，其中包含要从中派生新资产的资产。 |
+| `*`ownerHandle`*` | `xsd:string` | 是 | 将从中派生新图像的主图像资产的句柄。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 将在其中创建新派生资产的文件夹的句柄。 |
+| `*`name`*` | `xsd:string` | 是 | 派生资产的名称。 |
+| `*`类型`*` | `xsd:string` | 是 | 新派生资产的资产类型：`AdjustedView`或`LayerView`。 |
+| `*`urlModifier`*` | `xsd:string` | 否 | 在&#x200B;*请求或`urlPostApplyModifier`命令之前应用*&#x200B;的图像服务或图像渲染协议命令。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 对请求或`urlPostApplyModifier`命令应用&#x200B;*之后的*&#x200B;图像服务或图像渲染协议命令。 |
 
 **输出(createDerivedAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 派生资产的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 派生资产的句柄。 |
 
 ## 示例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
