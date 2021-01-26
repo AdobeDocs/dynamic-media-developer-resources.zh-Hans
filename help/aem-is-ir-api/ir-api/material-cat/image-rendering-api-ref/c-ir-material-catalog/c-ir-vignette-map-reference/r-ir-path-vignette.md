@@ -4,10 +4,10 @@ seo-description: 暗角文件路径。 暗角文件的相对路径和名称。
 seo-title: 路径
 solution: Experience Manager
 title: 路径
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 470cee37-9840-402a-bde5-ace8988996d2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 10%
