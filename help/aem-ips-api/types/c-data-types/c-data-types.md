@@ -2,10 +2,10 @@
 description: 数据类型
 solution: Experience Manager
 title: 数据类型
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 4%
@@ -69,8 +69,8 @@ ht-degree: 4%
 + [DiskUsageArray](r-disk-usage-array.md)
 + [电子邮件确认](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
-+ [ExcludeBisculreArray](r-exclude-byproduct-array.md)
-+ [ExcludeBisculalCondition](r-exclude-byproduct-condition.md)
++ [ExcludeBybloudArray](r-exclude-byproduct-array.md)
++ [ExcludeBysculalCondition](r-exclude-byproduct-condition.md)
 + [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
@@ -91,7 +91,7 @@ ht-degree: 4%
 + [IccProfileFieldUpdateArray](r-icc-profile-field-update-array.md)
 + [IccProfileInfo](r-icc-profile-info.md)
 + [IllustratorInfo](r-illustrator-info.md)
-+ [Illustrator选项](r-illustrator-options.md)
++ [IllustratorOptions](r-illustrator-options.md)
 + [ImageFieldUpdate](r-image-field-update.md)
 + [ImageFieldUpdateArray](r-image-field-update-array.md)
 + [ImageFormat](r-image-format.md)
@@ -150,7 +150,7 @@ ht-degree: 4%
 + [PermissionSetArray](r-permission-set-array.md)
 + [权限更新](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
-+ [透视四边形](r-perspective-quad.md)
++ [透视四轴](r-perspective-quad.md)
 + [PhotoshopOptions](r-photoshop-options.md)
 + [PhotoshopLayerOptions](r-photoshop-layer-options.md)
 + [PostScriptInfo](r-post-script-info.md)
@@ -205,7 +205,7 @@ ht-degree: 4%
 + [模板信息](r-template-info.md)
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
-+ [缩览图选项](r-thumbnail-options.md)
++ [缩略图选项](r-thumbnail-options.md)
 + [UnCompressOptions](r-uncompress-options.md)
 + [USMsharpMaskOptions](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
@@ -221,8 +221,8 @@ ht-degree: 4%
 + [VideoPublishJob](r-video-publish-job.md)
 + [ViewerPresetInfo](r-viewer-preset-info.md)
 + [ViewerSwfInfo](r-viewer-swf-info.md)
-+ [晕影信息](r-vignette-info.md)
-+ [水印信息](r-watermark-info.md)
++ [暗角信息](r-vignette-info.md)
++ [WatermarkInfo](r-watermark-info.md)
 + [WindowCoveringInfo](r-window-covering-info.md)
 + [WordInfo](r-word-info.md)
 + [XmlInfo](r-xml-info.md)
