@@ -4,12 +4,12 @@ seo-description: 图像服务支持无限嵌套图像服务请求、嵌入图像
 seo-title: 请求嵌套和嵌入
 solution: Experience Manager
 title: 请求嵌套和嵌入
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 嵌入式图像渲染请求{#section-69c5548db930412b9b90d9b2951a6969}
 
-在服务器上启用“Scene7图像渲染”后，渲染请求可通过在src=（或mask=）命令中指定来用作图层源。 使用以下语法：
+在服务器上启用“Dynamic Media图像渲染”后，渲染请求可通过在src=（或mask=）命令中指定来用作图层源。 使用以下语法：
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->FXG图形渲染仅在Scene7托管环境提供，并可能需要额外的许可。 请联系Scene7支持以了解更多信息。
+>FXG图形渲染仅在Dynamic Media托管环境提供，并可能需要额外的许可。 请与Dynamic Media技术支持联系以了解更多信息。
 
 *[!DNL renderRequest]* 是通常的FXG渲染请求，不包括HTTP根路径 ` http:// *[!DNL server]*/agm/render/`。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**嵌入Scene7图像渲染请求**
+**嵌入Dynamic Media图像渲染请求**
 
-使用存储在[!DNL myCatalog/myTemplate]中的模板；使用Scene7图像渲染为模板的layer2生成图像：
+使用存储在[!DNL myCatalog/myTemplate]中的模板；使用Dynamic Media图像渲染为模板的layer2生成图像：
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
