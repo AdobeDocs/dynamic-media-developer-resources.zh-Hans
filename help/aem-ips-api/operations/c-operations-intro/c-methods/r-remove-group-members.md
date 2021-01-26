@@ -4,10 +4,10 @@ seo-description: 从特定组中删除公司用户。
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 9%
@@ -36,9 +36,9 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 与要处理的用户公司的句柄。 |
-| ` *`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 与要处理的用户公司的句柄。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
 
 **输出(removeGroupMembersParam)**
 
