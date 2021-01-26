@@ -1,15 +1,15 @@
 ---
-description: 在使用Scene7图像服务之前，请确保您的系统满足系统要求。
-seo-description: 在使用Scene7图像服务之前，请确保您的系统满足系统要求。
+description: 在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
+seo-description: 在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
 seo-title: 系统要求和先决条件
 solution: Experience Manager
 title: 系统要求和先决条件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 系统要求和先决条件{#system-requirements-and-prerequisites}
 
-在使用Scene7图像服务之前，请确保您的系统满足系统要求。
+在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
 
 ## 服务器硬件{#section-f3c14a7bc1b745118602659628df779f}
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 ## 服务器软件{#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Scene7图像服务需要以下服务器软件。
+Dynamic Media图像服务需要以下服务器软件。
 
 **Windows**
 
