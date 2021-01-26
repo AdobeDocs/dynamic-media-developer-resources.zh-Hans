@@ -4,10 +4,10 @@ seo-description: 您可以使用图像服务管理目录中的非图像内容，
 seo-title: 服务静态（非图像）内容
 solution: Experience Manager
 title: 服务静态（非图像）内容
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
