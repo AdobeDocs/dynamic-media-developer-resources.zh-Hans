@@ -2,10 +2,10 @@
 description: 时间戳
 solution: Experience Manager
 title: 时间戳
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ce5e42e-573a-4e1c-97d4-98888e16ca56
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Java格式的日期／时间值。 可以是自1970年1月1日午夜(UTC/GMT)以
 
 *`offset`* 是时区偏移（以小时为单位）, `hours:minutes`或相对于GMT。例如，“PDT”等效于“GMT -7”。
 
-字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，而改用` *`catalog`*.ini`文件的修改时间。
+字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，而改用`*`catalog`*.ini`文件的修改时间。
 
 ## 默认 {#section-0cbf801401ff4857bdda168fd12358af}
 
