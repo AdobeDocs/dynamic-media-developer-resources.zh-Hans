@@ -4,10 +4,10 @@ seo-description: 图层颜色。 指定纯色和效果图层的前景颜色和�
 seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 3%
