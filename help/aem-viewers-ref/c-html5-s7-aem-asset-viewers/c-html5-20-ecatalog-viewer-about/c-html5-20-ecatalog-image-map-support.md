@@ -7,7 +7,7 @@ title: 图像映射支持
 topic: Dynamic media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -53,7 +53,7 @@ eCatalog Viewer支持在主视图上方渲染图像映射图标。
 
 ` href=target: *`idx`*`
 
-其中` *`idx`*`是目录跨页的从零开始的索引。
+其中`*`idx`*`是目录跨页的从零开始的索引。
 
 以下是指向eCatalog中3D跨页的图像映射的`href`属性示例：
 
