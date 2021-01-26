@@ -4,10 +4,10 @@ seo-description: 视频大小。 允许指定与每个视频记录关联的大�
 seo-title: 视频大小
 solution: Experience Manager
 title: 视频大小
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 078508a7-8b06-4c40-9497-82b365b96fe2
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
