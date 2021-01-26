@@ -4,10 +4,10 @@ seo-description: 获取与特定公司关联的资产和资产数量。
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -40,13 +40,13 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要计数资产的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要计数资产的公司的句柄。 |
 
 **输出(getAssetCountsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型都有自己的计数字段，允许每个资产类型的元素表示多个资产类型。 |
+| `*`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型都有自己的计数字段，允许每个资产类型的元素表示多个资产类型。 |
 
 ## 示例 {#section-6052a503eb3843f6adb99e200fdba280}
 
