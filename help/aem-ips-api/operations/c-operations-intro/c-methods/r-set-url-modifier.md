@@ -4,10 +4,10 @@ seo-description: 为指定的资产设置图像服务或图像渲染协议命令
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 6%
@@ -36,10 +36,10 @@ ht-degree: 6%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| ` *`urlModifier`*` | `xsd:string` | 否 | 在请求或`urlPostApplyModifier`命令之前应用的图像服务或图像渲染协议命令。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 要在`urlModifier`和请求命令之后应用的图像服务或图像渲染协议命令。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
+| `*`urlModifier`*` | `xsd:string` | 否 | 在请求或`urlPostApplyModifier`命令之前应用的图像服务或图像渲染协议命令。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 要在`urlModifier`和请求命令之后应用的图像服务或图像渲染协议命令。 |
 
 **输出(setUrlModifierReturn)**
 
