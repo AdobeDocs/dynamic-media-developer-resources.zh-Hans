@@ -4,10 +4,10 @@ seo-description: 命令宏为命令集提供命名的快捷键。
 seo-title: 命令宏*
 solution: Experience Manager
 title: 命令宏*
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 1%
