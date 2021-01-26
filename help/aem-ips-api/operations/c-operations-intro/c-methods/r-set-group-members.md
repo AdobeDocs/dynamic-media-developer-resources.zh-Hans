@@ -4,10 +4,10 @@ seo-description: 设置属于特定公司的用户的组成员关系。
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| ` *`userHandleArray`*` | `types:HandleArray` | 是 | 要设置其组成员关系的用户的句柄阵列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要设置其组成员关系的用户的句柄阵列。 |
 
 **输出(setGroupMembesReturn)**
 
