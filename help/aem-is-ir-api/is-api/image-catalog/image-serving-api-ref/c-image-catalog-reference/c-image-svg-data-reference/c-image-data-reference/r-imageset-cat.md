@@ -1,15 +1,12 @@
 ---
-description: 图像集数据。 提供一种机制，用于定义已排序的图像集和Scene7查看器使用的控制属性。
-seo-description: 图像集数据。 提供一种机制，用于定义已排序的图像集和Scene7查看器使用的控制属性。
-seo-title: 图像集
+description: 图像集数据。 提供一种机制，用于定义已排序的图像集和Dynamic Media查看器使用的控制属性。
 solution: Experience Manager
 title: 图像集
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 2%
 
 # 图像集{#imageset}
 
-图像集数据。 提供一种机制，用于定义已排序的图像集和Scene7查看器使用的控制属性。
+图像集数据。 提供一种机制，用于定义已排序的图像集和Dynamic Media查看器使用的控制属性。
 
 图像集由一个按逗号分隔的排序列表项组成，每个项由一个或多个子项（图像id、样本id、媒体文件路径、标签等）组成，分隔为分号和／或冒号。
 
@@ -49,24 +46,24 @@ ht-degree: 2%
 
 基本样本集中的每个项目都包含对图像记录的引用和对用作样本的图像记录的可选单独引用。
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *`imageIdswatch`*[';' *``*]` |
-| ` *`色板`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | IS图像引用（目录/id） |
-| ` *`swatchId`*` | IS图像引用（目录/id） |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`rrggbblabel`*]'}'` |
-| ` *`rggbb`*` | 固色色板的6位数十六进制RGB颜色值打包 |
-| ` *`label`*` | 纯色色板的可选文本标签 |
+| `*`swatchItem`*` | `*`imageIdswatch`*[';' *``*]` |
+| `*`色板`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | IS图像引用（目录/id） |
+| `*`swatchId`*` | IS图像引用（目录/id） |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rrggbblabel`*]'}'` |
+| `*`rggbb`*` | 固色色板的6位数十六进制RGB颜色值打包 |
+| `*`label`*` | 纯色色板的可选文本标签 |
 
 **层次样本集**
 
 层次样本集中的每个项目都可以包含基本样本项目或对样本集记录的引用（此类项目需要样本）。
 
-| ` *`hierarchicalSwatchSet`*` | ` *``* &#42;[ ',' *`hierarchicalSwatchItemhierarchicalSwatchItem`* ]` |
+| `*`hierarchicalSwatchSet`*` | `*``* &#42;[ ',' *`hierarchicalSwatchItemhierarchicalSwatchItem`* ]` |
 |---|---|
-| ` *`hierarchicalSwatchItem`*` | ` *``* | { *``* ';' *`swatchIntembasicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | IS引用(catalog/id)到定义基本样本集的目录记录 |
+| `*`hierarchicalSwatchItem`*` | `*``* | { *``* ';' *`swatchIntembasicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | IS引用(catalog/id)到定义基本样本集的目录记录 |
 
 **基本旋转集**
 
@@ -78,38 +75,38 @@ ht-degree: 2%
 
 二维旋转集中的每个项目都可以由简单图像、对基本旋转集的引用或由花括号分隔的内联基本旋转集组成。 可以使用括号代替花括号。
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | IS引用(catalog/id)到定义基本旋转集的目录记录 |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | IS引用(catalog/id)到定义基本旋转集的目录记录 |
 
 **页面集**
 
 页面集中的每个项目最多可包含三个用冒号分隔的页面图像。
 
-| ` *`pageSet`*` | ` *`pageItempageItem`* &#42;[ , *``* ]` |
+| `*`pageSet`*` | `*`pageItempageItem`* &#42;[ , *``* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageImageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageImageIdimageId`* ] ]` |
 
 **媒体集**
 
 媒体集中的每个项目都可以包含图像、基本样本集、分层样本集、基本旋转集、二维旋转集、页面集或视频资产。 每个媒体集项目还可包含可选的样本和类型标识符。
 
-| ` *`mediaSet`*` | ` *`itemitem`* &#42;[ , *``* ]` |
+| `*`mediaSet`*` | `*`itemitem`* &#42;[ , *``* ]` |
 |---|---|
-| ` *`项目`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *`imageIdswatchId`* ; [ *``* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | IS图像ID |
-| ` *`视频`*` | 视频／动画文件路径或静态目录ID |
-| ` *`斜`*` | 重新定义XML文件路径或静态目录ID |
-| ` *`imageId`*` | IS图像ID |
-| ` *`setId`*` | 对图像、旋转或对话集的IS引用 |
-| ` *`inlineSet`*` | 内嵌的图像、旋转或对话框集 |
-| ` *`已保留`*` | 保留供将来使用 |
+| `*`项目`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*`imageIdswatchId`* ; [ *``* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | IS图像ID |
+| `*`视频`*` | 视频／动画文件路径或静态目录ID |
+| `*`斜`*` | 重新定义XML文件路径或静态目录ID |
+| `*`imageId`*` | IS图像ID |
+| `*`setId`*` | 对图像、旋转或对话集的IS引用 |
+| `*`inlineSet`*` | 内嵌的图像、旋转或对话框集 |
+| `*`已保留`*` | 保留供将来使用 |
 
 **Video Sets**
 
