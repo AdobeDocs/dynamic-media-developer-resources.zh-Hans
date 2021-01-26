@@ -4,12 +4,12 @@ seo-description: 常规服务器设置
 seo-title: 常规
 solution: Experience Manager
 title: 常规
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## TC::PsPort —— 主监听端口{#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-指定平台服务器的主侦听端口。 此端口还用于访问图像服务、图像渲染和Scene7查看器（如果已安装）的文档和示例页面。
+指定平台服务器的主侦听端口。 此端口还用于访问图像服务、图像渲染和Dynamic Media查看器（如果已安装）的文档和示例页面。
 
 ## IS::CacheServerUrl —— 缓存服务根Url {#section-bcca227a1f91453b834db4ea050968e2}
 
