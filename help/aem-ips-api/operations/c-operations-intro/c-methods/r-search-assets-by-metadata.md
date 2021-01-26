@@ -4,10 +4,10 @@ seo-description: 在元数据索引存储库中搜索给定的搜索词。 返�
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 10%
@@ -127,8 +127,8 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | 否 | 匹配项数。 |
-| ` *`assetArray`*` | `types:AssetArray` | 否 | 搜索返回的资产数组。 |
+| `*`totalRows`*` | `xsd:int` | 否 | 匹配项数。 |
+| `*`assetArray`*` | `types:AssetArray` | 否 | 搜索返回的资产数组。 |
 
 ## metadataConditionArray详细信息{#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
