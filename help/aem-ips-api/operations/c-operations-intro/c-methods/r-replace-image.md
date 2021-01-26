@@ -4,10 +4,10 @@ seo-description: 替换图像资产的图像数据。
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -36,15 +36,15 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 是 | 公司与要替换的图像的控柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 要替换的资产的句柄。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 生成新图像数据的图像服务器命令。 |
+| `*`companyName`*` | `xsd:string` | 是 | 公司与要替换的图像的控柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 要替换的资产的句柄。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 生成新图像数据的图像服务器命令。 |
 
 **输出(replaceImageReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 处理新资产。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 处理新资产。 |
 
 ## 示例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
