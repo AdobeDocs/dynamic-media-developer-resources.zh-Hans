@@ -4,10 +4,10 @@ seo-description: 图像服务支持可缩放矢量图形(SVG)文件作为源数�
 seo-title: SVG支持
 solution: Experience Manager
 title: SVG支持
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
