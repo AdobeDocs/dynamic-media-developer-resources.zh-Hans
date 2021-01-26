@@ -4,10 +4,10 @@ seo-description: 根据资产名称的数组返回资产。
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 14%
@@ -117,7 +117,7 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetArray`*` | `types:AssetArray` | 否 | 符合筛选条件的资产数组。 |
+| `*`assetArray`*` | `types:AssetArray` | 否 | 符合筛选条件的资产数组。 |
 
 ## 示例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
