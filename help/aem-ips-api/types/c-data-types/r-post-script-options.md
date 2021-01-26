@@ -4,10 +4,10 @@ seo-description: PostScript文件选项。
 seo-title: PostScriptOptions
 solution: Experience Manager
 title: PostScriptOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 11%
@@ -25,9 +25,9 @@ PostScript文件选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`进度`*` | `xsd:string` | PostScript进程选择。 |
-| ` *`分辨率`*` | `xsd:double` | 文件分辨率。 |
-| ` *`颜色空间`*` | `xsd:string` | PostScript色彩空间模式。 |
-| ` *`alpha`*` | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，如果以这种方式定义原始文件，它将创建透明背景。 通常用于创建叠加徽标。 |
-| ` *`extractSearchWords`*` | `xsd:boolean` | 是否从PostScript文件提取搜索词。 |
+| `*`进度`*` | `xsd:string` | PostScript进程选择。 |
+| `*`分辨率`*` | `xsd:double` | 文件分辨率。 |
+| `*`颜色空间`*` | `xsd:string` | PostScript色彩空间模式。 |
+| `*`alpha`*` | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，如果以这种方式定义原始文件，它将创建透明背景。 通常用于创建叠加徽标。 |
+| `*`extractSearchWords`*` | `xsd:boolean` | 是否从PostScript文件提取搜索词。 |
 
