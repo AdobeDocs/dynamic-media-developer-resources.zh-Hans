@@ -4,10 +4,10 @@ seo-description: 更新现有资产集的集定义。
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 6%
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 资产集公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 资产集句柄 |
-| ` *`setDefinition`*` | `xsd:string` | 是 | 定义字符串。 请参见下文。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 资产集公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 资产集句柄 |
+| `*`setDefinition`*` | `xsd:string` | 是 | 定义字符串。 请参见下文。 |
 
 **输出(setAssetSetDefinitionReturn)**
 
