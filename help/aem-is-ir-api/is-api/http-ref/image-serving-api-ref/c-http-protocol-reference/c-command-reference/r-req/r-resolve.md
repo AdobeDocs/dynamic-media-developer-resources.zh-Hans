@@ -4,10 +4,10 @@ seo-description: 调试请求。 此debug命令可解析和预处理请求，执
 seo-title: 解决
 solution: Experience Manager
 title: 解决
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd1576a7-4802-4a87-b1c0-406f51382561
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%
