@@ -1,15 +1,12 @@
 ---
 description: 所有日志文件都写入到与TC目录指定的同一日志文件夹中。
-seo-description: 所有日志文件都写入到与TC目录指定的同一日志文件夹中。
-seo-title: 服务器日志记录
 solution: Experience Manager
 title: 服务器日志记录
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -25,7 +22,7 @@ ht-degree: 1%
 
 平台服务器和图像服务器创建下面描述的三种类型的日志文件。
 
-其他图像服务组件和某些其他Scene7文件包(如Scene7查看器)也可能在同一文件夹中创建日志文件。 这些日志文件供Scene7内部使用，Scene7支持可能会请求它们用于故障排除。
+其他图像服务组件和某些其他Dynamic Media文件包(如Dynamic Media查看器)也可能在同一文件夹中创建日志文件。 这些日志文件供Dynamic Media内部使用，Dynamic Media技术支持可能会要求这些日志文件用于故障排除。
 
 * [访问日志](c-access-log.md)
 * [跟踪日志](c-trace-log.md)
