@@ -1,16 +1,13 @@
 ---
 description: 介绍IPS API 3.7版的新数据类型和已更改的数据类型。
-seo-description: 介绍IPS API 3.7版的新数据类型和已更改的数据类型。
-seo-title: 数据类型新增和修改
 solution: Experience Manager
 title: 数据类型新增和修改
-topic: Scene7 Image Production System API
-uuid: 53e6f61c-ffbd-4795-bff3-7c03af584cec
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
