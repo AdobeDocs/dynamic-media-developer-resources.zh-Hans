@@ -4,10 +4,10 @@ seo-description: 获取与资产关联的用户定义的元数据字段。
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -37,14 +37,14 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`资产类型`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`资产类型`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
 
 **输出(getMetadataFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`代码短语`*` | `Code Phrase` |  |  |
+| `*`代码短语`*` | `Code Phrase` |  |  |
 
 ## 示例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
