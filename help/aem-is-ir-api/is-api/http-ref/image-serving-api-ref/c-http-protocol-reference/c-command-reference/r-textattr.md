@@ -4,10 +4,10 @@ seo-description: 文本图层属性。 为rtf命令不可用的文本图层指�
 seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
