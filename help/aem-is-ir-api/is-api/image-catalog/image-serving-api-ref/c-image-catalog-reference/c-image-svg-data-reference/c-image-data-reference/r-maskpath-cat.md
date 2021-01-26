@@ -4,10 +4,10 @@ seo-description: 遮罩文件路径。 与此目录记录关联的蒙版图像�
 seo-title: 蒙版路径
 solution: Experience Manager
 title: 蒙版路径
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%
