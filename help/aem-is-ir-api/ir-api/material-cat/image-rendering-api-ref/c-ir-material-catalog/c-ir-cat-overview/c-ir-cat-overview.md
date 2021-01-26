@@ -4,10 +4,10 @@ seo-description: 材料目录向服务器提供有关晕影、材料和支持数
 seo-title: 材料目录概述*
 solution: Experience Manager
 title: 材料目录概述*
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
