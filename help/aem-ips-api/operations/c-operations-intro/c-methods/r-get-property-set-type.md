@@ -4,10 +4,10 @@ seo-description: 使用对公司的句柄和属性集类型的名称获取属性
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -39,8 +39,8 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可选，因为属性集类型可以属于多个公司。 |
-| ` *`name`*` | `xsd:string` | 是 | 属性集类型名称。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可选，因为属性集类型可以属于多个公司。 |
+| `*`name`*` | `xsd:string` | 是 | 属性集类型名称。 |
 
 **输出(getPropertySetTypeReturn)**
 
