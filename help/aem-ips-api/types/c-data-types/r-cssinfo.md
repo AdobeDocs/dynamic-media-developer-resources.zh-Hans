@@ -4,10 +4,10 @@ seo-description: CSS文件资源的属性。
 seo-title: CssInfo
 solution: Experience Manager
 title: CssInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88575f2b-ace4-4a93-8e35-9685f5893530
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 23%
@@ -25,7 +25,7 @@ CSS文件资源的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | CSS文件的路径。 |
-| ` *`originalFile`*` | `xsd:string` | 文件名. |
-| ` *`fileSize`*` | `xsd:int` | 文件大小. |
+| `*`originalPath`*` | `xsd:string` | CSS文件的路径。 |
+| `*`originalFile`*` | `xsd:string` | 文件名. |
+| `*`fileSize`*` | `xsd:int` | 文件大小. |
 
