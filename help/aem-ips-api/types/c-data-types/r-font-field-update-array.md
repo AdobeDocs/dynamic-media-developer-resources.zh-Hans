@@ -4,10 +4,10 @@ seo-description: 字体字段更新的数组。
 seo-title: FontFieldUpdateArray
 solution: Experience Manager
 title: FontFieldUpdateArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d2fbf891-ec1c-4465-a14e-c5ac1f5bef5a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 17%
@@ -25,5 +25,5 @@ ht-degree: 17%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`项目`*` | `types:FontFieldUpdate` | 字体字段更新数组中的项。 |
+| `*`项目`*` | `types:FontFieldUpdate` | 字体字段更新数组中的项。 |
 
