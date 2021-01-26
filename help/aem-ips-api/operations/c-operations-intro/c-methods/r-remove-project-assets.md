@@ -4,10 +4,10 @@ seo-description: 从项目中删除资产。 不会销毁资产。
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 10%
@@ -35,19 +35,19 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司要移动的资产的句柄。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 要移动的项目资产的句柄。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要移动的资产的句柄阵列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司要移动的资产的句柄。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 要移动的项目资产的句柄。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要移动的资产的句柄阵列。 |
 
 **输出(removeProjectAssetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功删除资产计数。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试从项目中删除资产时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试从项目中删除资产时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试将资产从项目中删除时，这些资产生成了警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试从项目中删除资产时生成错误的与资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功删除资产计数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试从项目中删除资产时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试从项目中删除资产时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试将资产从项目中删除时，这些资产生成了警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试从项目中删除资产时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
