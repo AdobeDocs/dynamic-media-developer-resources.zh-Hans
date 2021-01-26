@@ -4,10 +4,10 @@ seo-description: 命令宏为命令集提供命名的快捷键。 宏在单独�
 seo-title: 命令宏
 solution: Experience Manager
 title: 命令宏
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-` *`名`*` 称不区分大小写，可能由ASCII字母、数字、“-”、“_”和“.”的任意组合组成字符.
+`*`名`*` 称不区分大小写，可能由ASCII字母、数字、“-”、“_”和“.”的任意组合组成字符.
 
 可以在“?”之后的请求中的任意位置以及`catalog::Modifier`或`catalog::PostModifier`字段中的任意位置调用宏。 宏只能表示一个或多个完整的图像服务命令，并且必须与具有“&amp;”分隔符的其他命令分开。
 
