@@ -4,10 +4,10 @@ seo-description: 仅供内部使用。 请参阅图像渲染材料目录参考�
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 14%
@@ -34,12 +34,12 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要获取其图像渲染发布设置的公司的句柄。 |
-| ` *`contextHandle`*` | `xsd:string` | 是 | 处理发布上下文。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其图像渲染发布设置的公司的句柄。 |
+| `*`contextHandle`*` | `xsd:string` | 是 | 处理发布上下文。 |
 
 **输出(getImageRenderingPublishSettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | 是 | 图像渲染发布设置。 |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | 是 | 图像渲染发布设置。 |
 
