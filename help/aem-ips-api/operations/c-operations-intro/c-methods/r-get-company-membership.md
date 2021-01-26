@@ -4,10 +4,10 @@ seo-description: 获取公司数组中用户的成员资格。
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 16%
@@ -40,13 +40,13 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 否 | 要获得其成员资格的用户的句柄。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要获得其成员资格的用户的句柄。 |
 
 **输出(getCompanyMembershipReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`membersArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员资格的数组。 |
+| `*`membersArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员资格的数组。 |
 
 ## 示例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
