@@ -4,10 +4,10 @@ seo-description: 更新资产集。
 seo-title: updateAssetSet
 solution: Experience Manager
 title: updateAssetSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 20%
@@ -27,10 +27,10 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 要修改的图像集的手柄。 |
-| ` *`setDefinition`*` | `xsd:string` | 否 | 重置图像集成员。 |
-| ` *`thumbAssetHandle`*` | `xsd:string` | 否 | 充当图像集缩略图的资产手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 要修改的图像集的手柄。 |
+| `*`setDefinition`*` | `xsd:string` | 否 | 重置图像集成员。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 充当图像集缩略图的资产手柄。 |
 
 **输出(updateAssetSetReturn)**
 
