@@ -4,10 +4,10 @@ seo-description: 描述IPS API 3.8版的新字符串常量和已更改的字符�
 seo-title: 新建和修改的字符串常量
 solution: Experience Manager
 title: 新建和修改的字符串常量
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 4%
