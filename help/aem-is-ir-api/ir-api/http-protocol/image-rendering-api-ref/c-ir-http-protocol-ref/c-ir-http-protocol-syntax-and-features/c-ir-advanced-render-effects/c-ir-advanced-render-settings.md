@@ -1,15 +1,15 @@
 ---
-description: 暗角创作工具(Scene7图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
-seo-description: 暗角创作工具(Scene7图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
+description: 暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
+seo-description: 暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
 seo-title: 高级渲染设置
 solution: Experience Manager
 title: 高级渲染设置
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # 高级渲染设置{#advanced-render-settings}
 
-暗角创作工具(Scene7图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
+暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半径（像素）。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -76,7 +76,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>调整大小模式。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -112,7 +112,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>超级取样：随机率。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>默认值为 5。 </p> </td> 
   </tr> 
@@ -133,7 +133,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>泊松：示例／像素。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ ht-degree: 24%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>泊松：使用切换。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
   </tr> 
   <tr> 
