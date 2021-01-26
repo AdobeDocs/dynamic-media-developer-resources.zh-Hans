@@ -4,10 +4,10 @@ seo-description: 设置ICC用户档案元数据字段。
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 13%
@@ -36,18 +36,18 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理包含ICC公司的用户档案。 |
-| ` *`更新阵列`*` | `xsd:string` | 是 | ICC用户档案更新阵列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含ICC公司的用户档案。 |
+| `*`更新阵列`*` | `xsd:string` | 是 | ICC用户档案更新阵列。 |
 
 **输出(batchSetIccProfileFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 成功设置ICC用户档案字段的数量。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试设置ICC用户档案字段时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试设置ICC用户档案字段时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 成功设置ICC用户档案字段的数量。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置ICC用户档案字段时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置ICC用户档案字段时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
