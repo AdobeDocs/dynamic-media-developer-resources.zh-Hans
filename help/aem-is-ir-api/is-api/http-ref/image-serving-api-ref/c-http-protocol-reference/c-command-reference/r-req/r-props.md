@@ -4,10 +4,10 @@ seo-description: 响应数据属性。 评估当前请求(如果它是图像请�
 seo-title: prop
 solution: Experience Manager
 title: prop
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 8%
