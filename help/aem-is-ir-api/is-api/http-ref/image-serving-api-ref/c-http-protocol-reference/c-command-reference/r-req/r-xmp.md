@@ -4,10 +4,10 @@ seo-description: XMP元数据。 返回与在请求路径中指定的图像关�
 seo-title: xmp
 solution: Experience Manager
 title: xmp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 11%
