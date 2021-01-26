@@ -4,10 +4,10 @@ seo-description: 确定要从搜索结果中排除的生成引擎和生成的资
 seo-title: ExcludeBysculalCondition
 solution: Experience Manager
 title: ExcludeBysculalCondition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70581512-7b26-4319-b12b-27fbb205d871
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 8%
@@ -25,6 +25,6 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`引擎`*` | `xsd:string` | 创建要排除的资产的生成引擎。 有关值，请参阅生成信息。 |
-| ` *`generatedAssetType`*` | `xsd:string` | 排除的资产类型。 有关值，请参阅资产类型。 |
+| `*`引擎`*` | `xsd:string` | 创建要排除的资产的生成引擎。 有关值，请参阅生成信息。 |
+| `*`generatedAssetType`*` | `xsd:string` | 排除的资产类型。 有关值，请参阅资产类型。 |
 
