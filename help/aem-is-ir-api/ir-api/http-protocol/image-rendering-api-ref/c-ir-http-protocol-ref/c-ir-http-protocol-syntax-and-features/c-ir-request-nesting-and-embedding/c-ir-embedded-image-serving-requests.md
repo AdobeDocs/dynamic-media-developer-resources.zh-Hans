@@ -4,10 +4,10 @@ seo-description: 图像服务器(IS)请求可用作物质图像。
 seo-title: 嵌入式图像服务器请求
 solution: Experience Manager
 title: 嵌入式图像服务器请求
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
