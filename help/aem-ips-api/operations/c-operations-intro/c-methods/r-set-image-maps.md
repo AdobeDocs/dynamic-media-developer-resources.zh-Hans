@@ -4,10 +4,10 @@ seo-description: 设置资产的图像映射。
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
 
 **输出(setImageMapsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | 是 | 具有应用于资产的图像映射手柄的数组。 |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | 是 | 具有应用于资产的图像映射手柄的数组。 |
 
 ## 示例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
