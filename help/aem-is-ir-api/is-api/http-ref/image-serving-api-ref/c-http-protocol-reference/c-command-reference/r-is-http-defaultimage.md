@@ -4,10 +4,10 @@ seo-description: 默认回复图像。 指定在找不到图像时要使用的�
 seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 2%
