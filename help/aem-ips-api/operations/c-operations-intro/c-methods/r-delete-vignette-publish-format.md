@@ -4,10 +4,10 @@ seo-description: 删除晕影发布格式。
 seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
 translation-type: tm+mt
-source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 13%
@@ -32,8 +32,8 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 暗角所属公司的手柄。 |
-| ` *`vignetteFormatHandle`*` | `xsd:string` | 是 | 要删除的晕影发布格式的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 暗角所属公司的手柄。 |
+| `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 要删除的晕影发布格式的句柄。 |
 
 **输出(deleteVignettePublishFormatParam)**
 
