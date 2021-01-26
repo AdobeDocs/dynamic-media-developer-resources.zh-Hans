@@ -4,10 +4,10 @@ seo-description: 要从资产中删除的元数据。
 seo-title: 元数据删除
 solution: Experience Manager
 title: 元数据删除
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 21%
