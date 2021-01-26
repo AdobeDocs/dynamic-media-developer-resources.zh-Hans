@@ -4,10 +4,10 @@ seo-description: 删除公司的元数据字段。
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 10%
@@ -33,8 +33,8 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含要删除的元数据字段的公司的句柄。 |
-| ` *`fieldHandle`*` | `xsd:string` | 是 | 要删除的元数据字段的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的元数据字段的公司的句柄。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 要删除的元数据字段的句柄。 |
 
 **输出(deleteMetadataFieldParam)**
 
