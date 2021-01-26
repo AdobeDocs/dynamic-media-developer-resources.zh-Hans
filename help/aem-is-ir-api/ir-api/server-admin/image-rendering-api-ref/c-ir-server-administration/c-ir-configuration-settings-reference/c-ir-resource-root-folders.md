@@ -4,10 +4,10 @@ seo-description: 列表路径（由分号分隔）用作具有相对文件路径
 seo-title: 资源根文件夹(ir.resourceRootPaths)
 solution: Experience Manager
 title: 资源根文件夹(ir.resourceRootPaths)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 translation-type: tm+mt
-source-git-commit: 2bc6fe0369808990642cf7afdccff647c48260d9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
