@@ -4,10 +4,10 @@ seo-description: 资产或文件夹的磁盘空间统计信息。
 seo-title: 磁盘使用
 solution: Experience Manager
 title: 磁盘使用
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 11%
@@ -25,9 +25,9 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 公司手柄。 |
-| ` *`companyName`*` | `xsd:string` | 公司名称. |
-| ` *`imageCount`*` | `xsd:int` | 存储的图像数。 |
-| ` *`diskSpaceUsage`*` | `xsd:long` | 文件端总数(KB)。 |
-| ` *`lastModified`*` | `xsd:dateTime` | 上次修改`DiskUsage`类型的日期、时间和时区。 |
+| `*`companyHandle`*` | `xsd:string` | 公司手柄。 |
+| `*`companyName`*` | `xsd:string` | 公司名称. |
+| `*`imageCount`*` | `xsd:int` | 存储的图像数。 |
+| `*`diskSpaceUsage`*` | `xsd:long` | 文件端总数(KB)。 |
+| `*`lastModified`*` | `xsd:dateTime` | 上次修改`DiskUsage`类型的日期、时间和时区。 |
 
