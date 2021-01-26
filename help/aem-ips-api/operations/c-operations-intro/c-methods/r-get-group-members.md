@@ -4,10 +4,10 @@ seo-description: 获取属于特定公司和组的用户。
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 16%
@@ -33,14 +33,14 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`groupHandle`*` | `xsd:string` |  | 组的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`groupHandle`*` | `xsd:string` |  | 组的句柄。 |
 
 **输出(getGroupMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userHandleArray`*` | `type:HandleArray` | 是 | 一组用户句柄。 |
+| `*`userHandleArray`*` | `type:HandleArray` | 是 | 一组用户句柄。 |
 
 ## 示例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
