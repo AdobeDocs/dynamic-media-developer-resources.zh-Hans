@@ -1,15 +1,12 @@
 ---
-description: 图像服务实用程序指南包含有关与Scene7图像服务器和图像渲染一起使用的实用程序的信息。
-seo-description: 图像服务实用程序指南包含有关与Scene7图像服务器和图像渲染一起使用的实用程序的信息。
-seo-title: 图像服务实用程序
+description: 图像服务实用程序指南包含有关与Dynamic Media图像服务器和图像渲染一起使用的实用程序的信息。
 solution: Experience Manager
 title: 图像服务实用程序
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d79e5dbc-0d1a-4bd2-8d0d-d5bc0344a30f
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 图像服务实用程序{#image-serving-utilities}
 
-图像服务实用程序指南包含有关与Scene7图像服务器和图像渲染一起使用的实用程序的信息。
+图像服务实用程序指南包含有关与Dynamic Media图像服务器和图像渲染一起使用的实用程序的信息。
 
 * [公用设施的位置](c-location-of-utilities.md)
 * [ic](r-ic.md)
