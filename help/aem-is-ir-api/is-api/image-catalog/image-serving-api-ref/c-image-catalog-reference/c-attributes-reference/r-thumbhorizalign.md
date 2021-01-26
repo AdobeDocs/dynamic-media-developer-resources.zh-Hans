@@ -4,10 +4,10 @@ seo-description: 缩览图的水平对齐方式。 指定由wid=和hei=或属性
 seo-title: 缩略图对齐
 solution: Experience Manager
 title: 缩略图对齐
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 3%
