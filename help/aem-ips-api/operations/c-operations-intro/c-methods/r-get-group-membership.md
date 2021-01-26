@@ -4,10 +4,10 @@ seo-description: 返回组成员。
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 18%
@@ -37,14 +37,14 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 否 | 用户的句柄。 |
-| ` *`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 用户的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
 
 **输出(getGroupMembershipReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | 是 | 组数组。 |
+| `*`groupArray`*` | `types:GroupArray` | 是 | 组数组。 |
 
 ## 示例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
