@@ -4,10 +4,10 @@ seo-description: 缩放目标的属性。
 seo-title: 缩放目标
 solution: Experience Manager
 title: 缩放目标
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 15%
@@ -25,13 +25,13 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | 缩放目标手柄。 |
-| ` *`name`*` | `xsd:string` | 缩放目标名称。 |
-| ` *`xPosition`*` | `xsd:int` | 缩放目标的X位置。 |
-| ` *`yPosition`*` | `xsd:int` | 缩放目标的Y位置。 |
-| ` *`width`*` | `xsd:int` | 缩放目标宽度。 |
-| ` *`height`*` | `xsd:int` | 缩放目标高度。 |
-| ` *`用户数据`*` | `xsd:string` | 与缩放目标关联的用户数据。 |
-| ` *`position`*` | `xsd:int` | 允许根据位置对与资产关联的缩放目标进行排序 |
-| ` *`lastModified`*` | `xsd:dateTime` | 上次修改的日期。 |
+| `*`zoomTargetHandle`*` | `xsd:string` | 缩放目标手柄。 |
+| `*`name`*` | `xsd:string` | 缩放目标名称。 |
+| `*`xPosition`*` | `xsd:int` | 缩放目标的X位置。 |
+| `*`yPosition`*` | `xsd:int` | 缩放目标的Y位置。 |
+| `*`width`*` | `xsd:int` | 缩放目标宽度。 |
+| `*`height`*` | `xsd:int` | 缩放目标高度。 |
+| `*`用户数据`*` | `xsd:string` | 与缩放目标关联的用户数据。 |
+| `*`position`*` | `xsd:int` | 允许根据位置对与资产关联的缩放目标进行排序 |
+| `*`lastModified`*` | `xsd:dateTime` | 上次修改的日期。 |
 
