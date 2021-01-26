@@ -4,10 +4,10 @@ seo-description: 应考虑多个服务器行为问题。
 seo-title: 关于服务器行为的注释
 solution: Experience Manager
 title: 关于服务器行为的注释
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
