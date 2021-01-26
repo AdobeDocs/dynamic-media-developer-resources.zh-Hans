@@ -4,10 +4,10 @@ seo-description: 更新标记字段的标记字典值。
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 15%
@@ -66,11 +66,11 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功更新的标记字段数。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，这些资产生成了警告。 |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功更新的标记字段数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，这些资产生成了警告。 |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
