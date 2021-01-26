@@ -4,10 +4,10 @@ seo-description: searchAssets返回的元数据字段。
 seo-title: 元数据
 solution: Experience Manager
 title: 元数据
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 14%
@@ -25,10 +25,10 @@ searchAssets返回的元数据字段。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | 元数据名称。 |
-| ` *`值`*` | `xsd:string` | 元数据值。 |
-| ` *`boolVal`*` | `xsd:boolean` | 布尔元数据值（仅适用于布尔类型字段）。 |
-| ` *`longVal`*` | `xsd:long` | 长元数据值（仅适用于int类型字段）。 |
-| ` *`doubleVal`*` | `xsd:double` | 多次元数据值（仅适用于浮点类型字段）。 |
-| ` *`dateVal`*` | `xsd:dateTime` | 日期元数据值（仅适用于日期类型字段）。 |
+| `*`name`*` | `xsd:string` | 元数据名称。 |
+| `*`值`*` | `xsd:string` | 元数据值。 |
+| `*`boolVal`*` | `xsd:boolean` | 布尔元数据值（仅适用于布尔类型字段）。 |
+| `*`longVal`*` | `xsd:long` | 长元数据值（仅适用于int类型字段）。 |
+| `*`doubleVal`*` | `xsd:double` | 多次元数据值（仅适用于浮点类型字段）。 |
+| `*`dateVal`*` | `xsd:dateTime` | 日期元数据值（仅适用于日期类型字段）。 |
 
