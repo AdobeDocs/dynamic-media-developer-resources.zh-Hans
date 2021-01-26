@@ -4,10 +4,10 @@ seo-description: 获取为一个或多个标记字段定义的所有标记字典
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 16%
@@ -39,14 +39,14 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | 是 | 用于标记要返回的值的字段句柄的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 用于标记要返回的值的字段句柄的数组。 |
 
 **输出(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值的数组。 |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值的数组。 |
 
 ## 示例 {#section-4492742614e44bb191a7d397dc1a1407}
 
