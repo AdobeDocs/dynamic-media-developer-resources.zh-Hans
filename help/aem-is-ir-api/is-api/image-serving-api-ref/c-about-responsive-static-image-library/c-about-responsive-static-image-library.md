@@ -1,15 +1,12 @@
 ---
-description: 响应式图像库是一个JavaScript模块，可动态调整从Scene7提供并嵌入到响应式网页中的图像质量。 此外，它在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染“智能裁剪”和“智能色板”的结果。
-seo-description: 响应式图像库是一个JavaScript模块，可动态调整从Scene7提供并嵌入到响应式网页中的图像质量。 此外，它在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染“智能裁剪”和“智能色板”的结果。
-seo-title: 关于响应式图像库
+description: 响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入到响应式网页中的图像质量。 此外，它在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染“智能裁剪”和“智能色板”的结果。
 solution: Experience Manager
 title: 关于响应式图像库
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # 关于响应式图像库{#about-responsive-image-library}
 
-响应式图像库是一个JavaScript模块，可动态调整从Scene7提供并嵌入到响应式网页中的图像质量。 此外，它在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染“智能裁剪”和“智能色板”的结果。
+响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入到响应式网页中的图像质量。 此外，它在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染“智能裁剪”和“智能色板”的结果。
 
 ## 演示URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-响应式图像库最简单的用例是为图像宽度定义断点值的列表。 此列表可确保在调整图像大小时加载和显示相应的再现，因为用户在调整浏览器窗口大小或更改设备方向时，网页布局会发生变化。 库会持续监视屏幕图像大小，每次达到新的断点宽度时，它都会从Scene7获取新的图像再现。
+响应式图像库最简单的用例是为图像宽度定义断点值的列表。 此列表可确保在调整图像大小时加载和显示相应的再现，因为用户在调整浏览器窗口大小或更改设备方向时，网页布局会发生变化。 库会持续监视屏幕图像大小，每次达到新的断点宽度时，它都会从Dynamic Media获取新的图像再现。
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ ht-degree: 0%
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>以下Bootstrap示例说明了网页中的相同用例。 根据BootstrapCSS，将响应式图像添加到的布局单元格可以采用以下宽度之一：360、720和940像素。 这些值是作为断点传递到响应式图像库的确切值。 因此，Scene7确保客户端的网络带宽得到有效利用。 此外，它还确保图像以给定当前网页布局所需的完全大小显示，而不会因缩放客户端浏览器而产生任何视觉伪像。 </p> <p>单击URL以打开网页，调整浏览器窗口大小以达到不同的布局断点，并监视网络流量。 </p> <p>更高级的用例包括将不同的图像预设或图像服务命令（或两者）与不同的断点值相关联。 </p> </td> 
+   <td colname="col2"> <p>以下Bootstrap示例说明了网页中的相同用例。 根据BootstrapCSS，将响应式图像添加到的布局单元格可以采用以下宽度之一：360、720和940像素。 这些值是作为断点传递到响应式图像库的确切值。 因此，Dynamic Media确保客户端的网络带宽得到有效利用。 此外，它还确保图像以给定当前网页布局所需的完全大小显示，而不会因缩放客户端浏览器而产生任何视觉伪像。 </p> <p>单击URL以打开网页，调整浏览器窗口大小以达到不同的布局断点，并监视网络流量。 </p> <p>更高级的用例包括将不同的图像预设或图像服务命令（或两者）与不同的断点值相关联。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ ht-degree: 0%
 
 **服务器硬件和软件**
 
-* Scene7图像服务6.0.1或更高版本。
+* Dynamic Media图像服务6.0.1或更高版本。
 
 **客户端浏览器最低要求**
 
