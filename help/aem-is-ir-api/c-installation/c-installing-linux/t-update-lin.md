@@ -1,15 +1,15 @@
 ---
-description: 在Linux上升级Scene7图像服务时，请使用此过程。
-seo-description: 在Linux上升级Scene7图像服务时，请使用此过程。
+description: 在Linux上升级Dynamic Media图像服务时，请使用此过程。
+seo-description: 在Linux上升级Dynamic Media图像服务时，请使用此过程。
 seo-title: 从IS 4.7.4或更高版本更新
 solution: Experience Manager
 title: 从IS 4.7.4或更高版本更新
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 从IS 4.7.4或更高版本{#updating-from-is-or-later}进行更新
 
-在Linux上升级Scene7图像服务时，请使用此过程。
+在Linux上升级Dynamic Media图像服务时，请使用此过程。
 
 如果您是从旧版图像服务升级，请联系支持人员以获得正确的流程。
 
