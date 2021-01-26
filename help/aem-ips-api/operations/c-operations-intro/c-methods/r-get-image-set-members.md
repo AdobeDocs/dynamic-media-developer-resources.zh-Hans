@@ -4,10 +4,10 @@ seo-description: 获取图像集中的成员数组。
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 15%
@@ -42,14 +42,14 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 图像集资产句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 图像集资产句柄。 |
 
 **输出(getImageSetMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`memberArray`*` | `types:ImageSetMemberArray` | 否 | 图像集成员的数组。 |
+| `*`memberArray`*` | `types:ImageSetMemberArray` | 否 | 图像集成员的数组。 |
 
 ## 示例 {#section-888a9a78033346f39b171229de93dfa0}
 
