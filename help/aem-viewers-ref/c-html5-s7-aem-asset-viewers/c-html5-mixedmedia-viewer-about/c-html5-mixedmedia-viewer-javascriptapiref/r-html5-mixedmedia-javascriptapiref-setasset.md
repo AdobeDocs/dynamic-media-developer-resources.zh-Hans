@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`资产`*` - {  `String`}个新资产ID或显式混合媒体集，之后附加可选的图像服务修饰符 `?`。
+`*`资产`*` - {  `String`}个新资产ID或显式混合媒体集，之后附加可选的图像服务修饰符 `?`。
 
 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。
 
-` *`data`*` - { `JSON`}新标题文件的位置。
+`*`data`*` - { `JSON`}新标题文件的位置。
 
 如果未指定，则描述按钮在用户界面中不可见。 使用此参数指定的字幕适用于混合媒体集中最先出现的视频；后续视频无字幕播放。 此查看器支持以下组件ID:
 
