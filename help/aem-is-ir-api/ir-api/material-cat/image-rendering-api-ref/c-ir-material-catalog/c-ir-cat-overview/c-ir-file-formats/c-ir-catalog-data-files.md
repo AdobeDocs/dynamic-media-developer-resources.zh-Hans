@@ -4,10 +4,10 @@ seo-description: 目录数据文件可以具有任何名称和文件后缀（.in
 seo-title: 目录数据文件
 solution: Experience Manager
 title: 目录数据文件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
