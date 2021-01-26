@@ -1,15 +1,15 @@
 ---
-description: 本文档介绍Scene7图像渲染的材料目录。
-seo-description: 本文档介绍Scene7图像渲染的材料目录。
+description: 本文档介绍Dynamic Media图像渲染的材料目录。
+seo-description: 本文档介绍Dynamic Media图像渲染的材料目录。
 seo-title: 简介
 solution: Experience Manager
 title: 简介
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # 简介{#introduction}
 
-本文档介绍Scene7图像渲染的材料目录。
+本文档介绍Dynamic Media图像渲染的材料目录。
 
 **预期受众**
 
-本文档面向希望将Scene7图像渲染用于网站或自定义应用程序的有经验的程序员和网站开发人员。
+本文档面向希望将Dynamic Media图像渲染用于网站或自定义应用程序的有经验的程序员和网站开发人员。
 
-假定读者熟悉Scene7图像创作和图像渲染、一般HTTP协议标准和惯例以及基本的图像术语。
+假定读者熟悉Dynamic Media图像创作和图像渲染、一般HTTP协议标准和惯例以及基本的图像术语。
 
 **文档惯例**
 
