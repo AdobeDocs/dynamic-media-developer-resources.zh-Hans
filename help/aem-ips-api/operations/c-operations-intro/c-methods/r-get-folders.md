@@ -4,10 +4,10 @@ seo-description: 返回所有文件夹和子文件夹，从文件夹路径开始
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 8%
@@ -46,20 +46,20 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| ` *`accessUserHandle`*` | `xsd:string` | 否 | 由管理员用来模拟特定用户。 |
-| ` *`accessGroupHandle`*` | `xsd:string` | 否 | 按特定组过滤。 |
-| ` *`folderPath`*` | `xsd:string` | 否 | 要检索文件夹和所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
-| ` *`assetTypeArray`*` | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
-| ` *`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
-| ` *`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要从响应中排除的字段列表。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 由管理员用来模拟特定用户。 |
+| `*`accessGroupHandle`*` | `xsd:string` | 否 | 按特定组过滤。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 要检索文件夹和所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
+| `*`assetTypeArray`*` | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
+| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要从响应中排除的字段列表。 |
 
 **输出(getFoldersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`folderArray`*` | `types:FolderArray` | 否 | 符合筛选条件的文件夹的数组。 响应限制为最多100,000个文件夹。 |
-| ` *`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`folderArray`*` | `types:FolderArray` | 否 | 符合筛选条件的文件夹的数组。 响应限制为最多100,000个文件夹。 |
+| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
