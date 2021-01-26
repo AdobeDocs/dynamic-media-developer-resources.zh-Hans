@@ -4,12 +4,12 @@ seo-description: 如果将jsonp指定为响应格式，则使用JSONP（带边�
 seo-title: JSONP属性
 solution: Experience Manager
 title: JSONP属性
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ S7jsonResponse(data, reqId)
 
 `<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
-Scene7图像服务查看器包包含一个实用程序，用于从图像服务请求和分析JSONP格式的数据。
+Dynamic Media图像服务查看器包包含一个实用程序，用于从图像服务请求和分析JSONP格式的数据。
 
 有关JSONP格式的详细信息，请参阅[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
 
