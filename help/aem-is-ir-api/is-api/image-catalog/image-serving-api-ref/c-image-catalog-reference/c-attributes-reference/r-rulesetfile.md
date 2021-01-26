@@ -4,10 +4,10 @@ seo-description: 规则集定义文件路径。 指定包含此图像目录的�
 seo-title: 规则集文件
 solution: Experience Manager
 title: 规则集文件
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9393e197-450a-4b7d-90ad-a6ea0204ee26
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 4%
