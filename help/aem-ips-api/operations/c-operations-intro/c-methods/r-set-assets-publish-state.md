@@ -4,10 +4,10 @@ seo-description: 确定一批资产是否准备好发布。
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -40,18 +40,18 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 是 | 资产的发布状态值的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 是 | 资产的发布状态值的数组。 |
 
 **输出(setAssetsPublishStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功更新的资产数。 |
-| ` *`warningCount`*` | `xsd:int` | 是 | 操作尝试更新时生成警告的资产数。 |
-| ` *`errorCount`*` | `xsd:int` | 是 | 操作尝试删除时生成错误的资产数。 |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产更新关联的详细信息，这些更新生成了警告。 |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与生成错误的资产更新关联的详细信息。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功更新的资产数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试更新时生成警告的资产数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试删除时生成错误的资产数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产更新关联的详细信息，这些更新生成了警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与生成错误的资产更新关联的详细信息。 |
 
 ## 示例 {#section-38cfdd3436214a06a1bae16875501d51}
 
