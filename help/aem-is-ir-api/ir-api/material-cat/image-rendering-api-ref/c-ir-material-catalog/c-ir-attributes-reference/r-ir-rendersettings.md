@@ -4,13 +4,13 @@ seo-description: 默认高级渲染设置。 目录RenderSettings的默认值。
 seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ## 属性 {#section-fa89db09aeeb420292cf783f07b8547a}
 
-文本字符串。 如果指定，则它必须是有效的渲染设置字符串，如晕影创作工具(Scene7图像创作包的一部分)所定义。
+文本字符串。 如果指定，则它必须是有效的渲染设置字符串，如晕影创作工具(Dynamic Media图像创作包的一部分)所定义。
 
 ## 默认 {#section-4e76784aeecd4f09a33124aded7406cb}
 
