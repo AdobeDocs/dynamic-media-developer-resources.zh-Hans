@@ -4,10 +4,10 @@ seo-description: 图层剪辑路径。 指定当前图层的剪辑路径。
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 位于由`clipPath=`定义的区域之外的图层的任何部分都呈现为透明。
 
-` *``*` pathName是嵌入在图层源图像中的路径的名称。自动转换路径以保持与图像内容的相对对齐。 如果指定了多个` *`pathName`*`，则服务器会将图像剪辑到这些路径的交叉点。 忽略源映像中未找到的任何` *`pathName`*`。
+`*``*` pathName是嵌入在图层源图像中的路径的名称。自动转换路径以保持与图像内容的相对对齐。 如果指定了多个`*`pathName`*`，则服务器会将图像剪辑到这些路径的交叉点。 忽略源映像中未找到的任何`*`pathName`*`。
 
 >[!NOTE]
 >
->` *`pathName`*`仅支持ASCII字符串。
+>`*`pathName`*`仅支持ASCII字符串。
 
-` *`pathDefinition`*` 允许在图层像素坐标中指定显式路径数据。
+`*`pathDefinition`*` 允许在图层像素坐标中指定显式路径数据。
 
 如果指定了`size=`而未指定0,0，则保留层。 在这种情况下，路径坐标是相对于图层矩形的左上角的，并且该图层基于`origin=`或其默认值进行定位。 层矩形外的路径的任何区域都保持透明。
 
@@ -52,9 +52,9 @@ ht-degree: 1%
 >
 >`scale=`、 `rotate=`和命 `anchor=` 令不允许对实色图层进行自调整大小。
 
-` *`pathDefinition`*` 接受一个与SVG元素属 `d=` 性值类似的 `<path>` 字符串，不同之处在于使用逗号而不是空格来分隔值。` *``*` pathDefinition可以包括一个或多个闭环子路径。
+`*`pathDefinition`*` 接受一个与SVG元素属 `d=` 性值类似的 `<path>` 字符串，不同之处在于使用逗号而不是空格来分隔值。`*``*` pathDefinition可以包括一个或多个闭环子路径。
 
-` *`pathDefinition`*`支持以下路径命令：
+`*`pathDefinition`*`支持以下路径命令：
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
