@@ -1,15 +1,12 @@
 ---
 description: 在Windows上开始/停止图像服务器和平台服务器的机制有多种
-seo-description: 在Windows上开始/停止图像服务器和平台服务器的机制有多种
-seo-title: 在Windows上启动或停止
 solution: Experience Manager
 title: 在Windows上启动或停止
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 79b7690a-cea1-4c5e-99d6-60febf0e85f5
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -21,6 +18,6 @@ ht-degree: 0%
 
 1. 选择以下选项之一以开始或停止图像服务：
 
-* Windows服务控制面板可用于开始、停止、重新启动和验证“Scene7图像服务”服务的状态。
-* **[!UICONTROL 开始菜单>所]**&#x200B;有 **[!UICONTROL >]** Scene7 **[!UICONTROL >图像服]**&#x200B;务>控制项目服 **** **** 务向开始、停止和重新启动Scene7图像服务提供命令。
+* Windows服务控制面板可用于开始、停止、重新启动和验证“Dynamic Media图像服务”服务的状态。
+* **[!UICONTROL 开始菜单]**>所 **[!UICONTROL 有项目]**> **[!UICONTROL Dynamic Media(Scene7)]**>图像服务 **** **** >控制服务为开始、停止和重新启动Dynamic Media图像服务提供命令。
 
