@@ -4,10 +4,10 @@ seo-description: 材料目录文件夹的位置（必须找到所有catalog.ini�
 seo-title: 目录文件夹(ir.catalogRootPath)
 solution: Experience Manager
 title: 目录文件夹(ir.catalogRootPath)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d9c9f801-6622-4879-ba08-b381a45632a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
