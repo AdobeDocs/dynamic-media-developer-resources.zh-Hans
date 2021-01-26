@@ -4,10 +4,10 @@ seo-description: 重命名文件夹。
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 21%
@@ -40,15 +40,15 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 处理要重命名的文件夹的公司。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 处理文件夹。 |
-| ` *`folderName`*` | `xsd:string` | 是 | 新文件夹名称。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理要重命名的文件夹的公司。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 处理文件夹。 |
+| `*`folderName`*` | `xsd:string` | 是 | 新文件夹名称。 |
 
 **输出(renameFolderReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | 是 | 处理重命名的文件夹。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 处理重命名的文件夹。 |
 
 ## 示例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
