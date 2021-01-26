@@ -1,15 +1,12 @@
 ---
 description: 图像服务实现了一个简单的视觉水印工具。
-seo-description: 图像服务实现了一个简单的视觉水印工具。
-seo-title: 水印
 solution: Experience Manager
 title: 水印
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 1%
 
 通过将`attribute::Watermark`设置为有效的目录条目（该目录条目将包含水印图像或模板）来启用水印。 如果`attribute::Watermark`在命名目录中设置，服务器将向引用请求URL中的目录id的所有图像请求添加水印。 如果`default::Watermark`已设置（在默认目录中，[!DNL default.ini]），则无论水印是否引用了目录，都将应用于所有图像请求。
 
-水印不会应用于响应缩略图请求(`req=tmb`)和Scene7查看器的某些请求返回的图像。
+水印不会应用于响应缩略图请求(`req=tmb`)和Dynamic Media查看器的某些请求返回的图像。
 
 ## 缩放和对齐{#section-89ef9e5926ae438abbd8e70332749b76}
 
