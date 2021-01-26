@@ -4,13 +4,13 @@ seo-description: 图层图像。
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 2%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ ht-degree: 2%
 嵌套或嵌入的请求用大括号括起。 在嵌入式图像服务请求前加上`is`前缀，在嵌入式图像渲染请求中加上`ir`前缀，在FXG图形渲染请求中加上`fxg`前缀。 如果未指定前缀，则假定对外部服务器的请求。
 
 请参阅[请求嵌套和嵌入](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)。
-
->[!NOTE]
->
->FXG图形渲染仅在Scene7托管环境提供，并可能需要额外的许可。 请联系Scene7支持以了解更多信息。
 
 ## 属性 {#section-2c22bb89a35d470f833df8ba898efd93}
 
