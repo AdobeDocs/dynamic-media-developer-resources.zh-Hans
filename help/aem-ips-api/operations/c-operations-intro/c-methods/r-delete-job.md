@@ -4,10 +4,10 @@ seo-description: 删除当前或计划的作业。
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 12%
@@ -38,8 +38,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 作业所属公司的句柄。 |
-| ` *`jobHandle`*` | `xsd:string` | 是 | 要删除的作业的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 作业所属公司的句柄。 |
+| `*`jobHandle`*` | `xsd:string` | 是 | 要删除的作业的句柄。 |
 
 **输出**
 
