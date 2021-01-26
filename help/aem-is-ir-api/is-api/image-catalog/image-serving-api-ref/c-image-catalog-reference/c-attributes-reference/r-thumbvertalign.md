@@ -4,10 +4,10 @@ seo-description: 缩览图的垂直对齐。 指定在由wid=和hei=或属性Def
 seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 3%
