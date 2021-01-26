@@ -4,10 +4,10 @@ seo-description: 在项目中分配或更新资产。
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 18%
@@ -36,15 +36,15 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 是 | 公司手柄。 |
-| ` *`projectHandle`*` | `xsd:string` | 是 | 项目句柄。 |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄的数组。 |
+| `*`companyName`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 项目句柄。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄的数组。 |
 
 **输出(setProjectAssetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
