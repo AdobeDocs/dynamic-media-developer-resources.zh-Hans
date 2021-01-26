@@ -4,10 +4,10 @@ seo-description: 获取指定列表的活动发布上下文的公司。 如果�
 seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 8%
@@ -39,11 +39,11 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 活动发布公司的查询的句柄 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 活动发布公司的查询的句柄 |
 
 **输出(getActivePublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`contextArray`*` | `types:StringArray` | 是 | 活动发布上下文的数组，其中可能包含来自Publish Context的零个或多个值。 |
+| `*`contextArray`*` | `types:StringArray` | 是 | 活动发布上下文的数组，其中可能包含来自Publish Context的零个或多个值。 |
 
