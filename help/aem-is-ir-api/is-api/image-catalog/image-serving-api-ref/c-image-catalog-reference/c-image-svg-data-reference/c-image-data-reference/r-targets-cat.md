@@ -4,12 +4,12 @@ seo-description: 缩放目标数据。 无或更多缩放目标属性，可与�
 seo-title: 目标
 solution: Experience Manager
 title: 目标
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Target. *`num`*&#x200B;每个缩放目标都需要。rect，并且必须在图�
 
 对于涉及旋转和小册子查看器客户端的应用程序，缩放目标必须在定义图像集的同一目录记录中定义。 查看器将忽略图像集成员的目录记录中的任何缩放目标定义。
 
-Scene7观看者期望全分辨率图像的坐标中的缩放目标（已通过`catalog::Modifier`命令进行调整）。
+Dynamic Media观看者期望全分辨率图像的坐标中的缩放目标（已通过`catalog::Modifier`命令进行调整）。
 
 ## 属性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
