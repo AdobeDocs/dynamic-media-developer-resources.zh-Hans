@@ -4,10 +4,10 @@ seo-description: 创建可具有多个文本和图像图层的分层图像。
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 10%
@@ -35,18 +35,18 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 模板所属的公司。 |
-| ` *`folderHandle`*` | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
-| ` *`name`*` | `xsd:string` | 是 | 模板名称。 |
-| ` *`类型`*` | `xsd:string` | 是 | 模板类型。 |
-| ` *`urlModifier`*` | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在用户提供的URL命令之前应用。 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 模板所属的公司。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
+| `*`name`*` | `xsd:string` | 是 | 模板名称。 |
+| `*`类型`*` | `xsd:string` | 是 | 模板类型。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在用户提供的URL命令之前应用。 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
 
 **输出(createTemplateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 是 | 模板的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 模板的句柄。 |
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
