@@ -4,12 +4,12 @@ seo-description: 对高级文本格式使用以下命令。
 seo-title: 高级文本格式
 solution: Experience Manager
 title: 高级文本格式
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>垂直字符缩放。 </p> </td> 
-   <td> <p>正或负百分比；默认值为100;Scene7分机。 </p> <p> <span class="codeph"> \charscaley </span> 在应用text=时也会缩放 <span class="codeph"> 行间距 </span>。<span class="codeph"> textPs=始 </span> 终保留行间距，而不管垂直字符缩放的大小。 </p> </td> 
+   <td> <p>正或负百分比；默认值为100;Dynamic Media分机。 </p> <p> <span class="codeph"> \charscaley </span> 在应用text=时也会缩放 <span class="codeph"> 行间距 </span>。<span class="codeph"> textPs=始 </span> 终保留行间距，而不管垂直字符缩放的大小。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> n  </span> </span> </td> 
    <td> <p>启用复制调整并设置允许的最大字体大小。 </p> </td> 
-   <td> <p>字体大小（半点）;<span class="codeph"> textPs= </span>;Scene7分机。 </p> </td> 
+   <td> <p>字体大小（半点）;<span class="codeph"> textPs= </span>;Dynamic Media分机。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> n  </span> </span> </td> 
    <td> <p>最大复制适合线（软限制）。 </p> </td> 
-   <td> <p>0表示不限行；<span class="codeph"> textPs= </span>;Scene7分机。 </p> </td> 
+   <td> <p>0表示不限行；<span class="codeph"> textPs= </span>;Dynamic Media分机。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> n  </span> </span> </td> 
    <td> <p>最大复制适合线（截断）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅限；Scene7分机。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅限；Dynamic Media分机。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> n  </span> </span> </td> 
