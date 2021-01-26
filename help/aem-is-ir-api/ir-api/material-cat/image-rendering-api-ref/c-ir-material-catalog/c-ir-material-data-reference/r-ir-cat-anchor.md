@@ -4,10 +4,10 @@ seo-description: 图像锚点。 指定可重复纹理、壁边框或贴图图�
 seo-title: 锚点
 solution: Experience Manager
 title: 锚点
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 3%
