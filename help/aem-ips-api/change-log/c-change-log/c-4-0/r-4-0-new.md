@@ -4,10 +4,10 @@ seo-description: 介绍IPS API v4.0的新更改和实现的更改。
 seo-title: 新增和更改
 solution: Experience Manager
 title: 新增和更改
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 2%
