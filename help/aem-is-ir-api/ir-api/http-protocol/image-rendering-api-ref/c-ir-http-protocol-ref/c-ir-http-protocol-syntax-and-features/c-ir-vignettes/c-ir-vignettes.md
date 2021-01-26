@@ -1,15 +1,12 @@
 ---
-description: 晕影是使用Scene7图像创作创作来创作用于图像渲染的图像。
-seo-description: 晕影是使用Scene7图像创作创作来创作用于图像渲染的图像。
-seo-title: 晕影
+description: 晕影是使用Dynamic Media图像创作创作来创作用于图像渲染的图像。
 solution: Experience Manager
 title: 晕影
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 晕影{#vignettes}
 
-晕影是使用Scene7图像创作创作来创作用于图像渲染的图像。
+晕影是使用Dynamic Media图像创作创作来创作用于图像渲染的图像。
 
 IR支持两种基本类型的晕影，*2D*&#x200B;和&#x200B;*3D*。 房间场景通常是3D暗角，可以渲染反射；而大多数其他场景（如服装或室内装饰）通常是2D暗角，它们不具有反射渲染功能。
 
