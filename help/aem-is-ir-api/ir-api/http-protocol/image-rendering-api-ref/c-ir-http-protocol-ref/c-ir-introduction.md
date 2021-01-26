@@ -1,15 +1,12 @@
 ---
-description: 本文档描述了Scene7图像渲染的HTTP协议。
-seo-description: 本文档描述了Scene7图像渲染的HTTP协议。
-seo-title: 简介
+description: 本文档描述了Dynamic Media图像渲染的HTTP协议。
 solution: Experience Manager
 title: 简介
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 1%
 
 # 简介{#introduction}
 
-本文档描述了Scene7图像渲染的HTTP协议。
+本文档描述了Dynamic Media图像渲染的HTTP协议。
 
-只描述了协议的公开可用方面。 服务器可支持保留供Scene7客户端软件使用的其他命令。
+只描述了协议的公开可用方面。 服务器可支持保留供Dynamic Media客户端软件使用的其他命令。
 
 **预期受众**
 
-本文档面向希望将Scene7图像渲染用于网站或自定义应用程序的有经验的程序员和网站开发人员。
+本文档面向希望将Dynamic Media图像渲染用于网站或自定义应用程序的有经验的程序员和网站开发人员。
 
-假定读者熟悉Scene7图像创作和图像渲染、一般HTTP协议标准和惯例以及基本的图像术语。
+假定读者熟悉Dynamic Media图像创作和图像渲染、一般HTTP协议标准和惯例以及基本的图像术语。
 
 **文档惯例**
 
@@ -100,4 +97,4 @@ ht-degree: 1%
 
 ** *`MSS`* **材料规范段：请求中两个选择命令之间的一组材料属性。
 
-** *`vignette`* **在Scene7图像创作中准备的用于图像渲染的图像。
+** *`vignette`* **在Dynamic Media图像创作中准备的用于图像渲染的图像。
