@@ -4,10 +4,10 @@ seo-description: 设置资产的元数据值。 使用一组元数据更新在�
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 9%
@@ -40,9 +40,9 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 是 | 要更新的资产公司的句柄。 |
-| ` *`assetHandle`*` | `xsd:string` | 是 | 资产的句柄。 |
-| ` *`updateArray`*` | `types:MetadataUpdateArray` | 是 | 元数据更新阵列中的更新。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要更新的资产公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 资产的句柄。 |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | 是 | 元数据更新阵列中的更新。 |
 
 **输出(setAssetMetadataReturn)**
 
