@@ -4,10 +4,10 @@ seo-description: 主视图区域是缩放图像所占用的区域。 当未指�
 seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 666328fe-1819-43a6-a2c2-ba63ac798700
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 2%
