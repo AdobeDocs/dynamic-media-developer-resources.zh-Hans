@@ -4,10 +4,10 @@ seo-description: 在连续缩放模式下，当当前资产是单个图像时，
 seo-title: 缩放视图
 solution: Experience Manager
 title: 缩放视图
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
