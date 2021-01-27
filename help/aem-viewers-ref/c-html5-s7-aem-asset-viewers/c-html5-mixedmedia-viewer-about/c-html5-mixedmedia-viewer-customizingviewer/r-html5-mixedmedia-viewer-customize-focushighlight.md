@@ -4,10 +4,10 @@ seo-description: 通过CSS类选择器控制聚焦查看器UI元素周围显示�
 seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e7be5ad0-f27b-4e00-a3cc-e053d924b69d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
