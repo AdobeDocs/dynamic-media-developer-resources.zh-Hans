@@ -4,10 +4,10 @@ seo-description: 缩放指示器覆盖在主视图区上。 当图像处于重�
 seo-title: 图标效果
 solution: Experience Manager
 title: 图标效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 1%
