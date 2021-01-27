@@ -4,10 +4,10 @@ seo-description: Video360查看器的命令参考文档。
 seo-title: 命令引用- URL
 solution: Experience Manager
 title: 命令引用- URL
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 70c212d7-35ee-408f-abe4-19ba1e4d773d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
