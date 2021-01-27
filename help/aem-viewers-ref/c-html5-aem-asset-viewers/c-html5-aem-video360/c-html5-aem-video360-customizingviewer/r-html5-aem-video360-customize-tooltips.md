@@ -4,10 +4,10 @@ seo-description: 在桌面系统上，一些用户界面元素（如按钮）具
 seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 37ce59fe-f1f5-4226-af2e-5183ea8b7647
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 5%
