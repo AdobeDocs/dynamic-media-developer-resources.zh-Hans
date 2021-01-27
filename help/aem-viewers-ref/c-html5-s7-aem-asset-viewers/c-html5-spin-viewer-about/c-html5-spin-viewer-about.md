@@ -8,9 +8,9 @@ title: 旋转
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ target="_blank">Open popup viewer</a>
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   如果查看器部署在某台Adobe Scene7服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定到安装了IS-Viewer的某台Adobe Scene7服务器的完整路径。
+   如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定一个到安装了IS-Viewer的AdobeDynamic Media服务器的完整路径。
 
    相对路径如下所示：
 
@@ -165,7 +165,7 @@ target="_blank">Open popup viewer</a>
 
    您可以通过以下方式设置查看器的静态大小：以绝对单位声明查看器为`.s7spinviewer`顶级CSS类，或使用`stagesize`修饰符。
 
-   您可以将大小调整直接放在HTML页面或自定义查看器CSS文件中，该文件稍后会分配给Scene7出版系统中的查看器预设记录，或使用样式命令显式传递。
+   您可以将大小调整直接放在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给Dynamic Media经典中的查看器预设记录，或使用样式命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义旋转查看器](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)。
 
@@ -178,7 +178,7 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   您可以在Scene7出版系统的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为“命令参考”部分中所述的API调用传递，如下所示：
+   您可以在Dynamic Media经典的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为“命令参考”部分中所述的API调用传递，如下所示：
 
    ```
     spinViewer.setParam("stagesize", 
