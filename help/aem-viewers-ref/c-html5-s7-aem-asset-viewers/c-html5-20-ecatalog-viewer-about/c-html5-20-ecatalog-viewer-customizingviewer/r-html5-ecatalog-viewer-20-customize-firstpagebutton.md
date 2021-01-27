@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮可让用户转到目录中的第一页
 seo-title: 首页按钮
 solution: Experience Manager
 title: 首页按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: fd164899-505c-448b-8dba-7581d97d87b6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 1%
