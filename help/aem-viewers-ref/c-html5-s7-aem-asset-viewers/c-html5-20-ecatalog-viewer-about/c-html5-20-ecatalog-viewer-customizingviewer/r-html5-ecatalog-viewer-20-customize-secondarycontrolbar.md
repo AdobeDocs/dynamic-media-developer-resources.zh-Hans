@@ -4,10 +4,10 @@ seo-description: 辅助控制栏是矩形区域，当在CSS中提供时，该区
 seo-title: 辅助控制栏
 solution: Experience Manager
 title: 辅助控制栏
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%
