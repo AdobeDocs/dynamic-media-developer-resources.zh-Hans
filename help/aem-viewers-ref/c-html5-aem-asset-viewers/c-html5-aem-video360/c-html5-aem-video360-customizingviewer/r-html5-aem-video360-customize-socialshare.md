@@ -4,10 +4,10 @@ seo-description: 默认情况下，社交共享工具显示在右上角。 它�
 seo-title: 社交共享
 solution: Experience Manager
 title: 社交共享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 1%
