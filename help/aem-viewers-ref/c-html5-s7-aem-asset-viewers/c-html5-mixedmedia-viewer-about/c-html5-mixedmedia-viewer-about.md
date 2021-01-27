@@ -5,10 +5,10 @@ seo-description: 混合媒体查看器是媒体查看器。 它支持包含图�
 seo-title: 混合媒体
 solution: Experience Manager
 title: 混合媒体
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 混合媒体查看器是媒体查看器。 它支持包含图像、样本集、旋转集、视频和自适应视频集的媒体集。
 
-查看器底部的缩略图表示每个媒体集元素及其资产类型指示符。 选择样本集元素后，将显示第二行样本，以允许在样本集内选择颜色变化。 图像和样本集元素支持连续或内联模式下的缩放；旋转集支持缩放和旋转。 视频和自适应视频集支持所有基本的播放控件，只要视频内容顶部显示任何可选的隐藏式字幕。 用户可随时单击全屏按钮切换为全屏。 查看器具有可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
+查看器底部的缩略图表示每个媒体集元素及其资产类型指示符。 选择样本集元素后，将显示第二行样本，以允许在样本集内选择颜色变化。 图像和样本集元素支持连续或内联模式的缩放；旋转集支持缩放和旋转。 视频和自适应视频集支持所有基本的播放控件，只要视频内容顶部显示任何可选的隐藏式字幕。 用户可随时单击全屏按钮切换为全屏。 查看器具有可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
 
 当基础系统支持HLS格式的HTML5流视频回放时，混合媒体查看器在其默认配置中使用HLS格式。 在不支持HTML5流的系统上，查看器返回到HTML5渐进式视频投放。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>触摸并按住 </p> </td> 
-   <td colname="col2"> <p> 当处于内联<span class="codeph">缩放模式时，激活缩放的图像。</span> </p> </td> 
+   <td colname="col2"> <p> 当处于内联</span>缩放模式时，激活缩放的图像。<span class="codeph"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>捏合 </p> </td> 
