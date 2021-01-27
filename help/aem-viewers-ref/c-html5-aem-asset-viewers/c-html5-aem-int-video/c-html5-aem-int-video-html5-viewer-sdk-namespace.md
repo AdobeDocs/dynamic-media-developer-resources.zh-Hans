@@ -5,7 +5,7 @@ title: 查看器SDK命名空间
 topic: Dynamic Media
 uuid: 8c93bf01-0568-48fe-9083-1e85ba1549ee
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 但是，某些高级用例要求网页使用`getComponent()`查看器API获取对内部SDK组件的引用，然后使用SDK本身API的所有灵活性。
 
-查看器用于加载和初始化SDK组件的命名空间取决于查看器操作的环境。 如果查看器在AEM(Adobe Experience Manager)中运行，则查看器将SDK组件加载到`s7viewers.s7sdk`命名空间中。 同样，Scene7出版系统提供的查看器将SDK加载到`s7classic.s7sdk`中。
+查看器用于加载和初始化SDK组件的命名空间取决于查看器操作的环境。 如果查看器在AEM(Adobe Experience Manager)中运行，则查看器将SDK组件加载到`s7viewers.s7sdk`命名空间中。 同样，Dynamic Media经典提供的查看器将SDK加载到`s7classic.s7sdk`中。
 
 无论哪种情况，查看器中的SDK所使用的命名空间都以`s7viewers`或`s7classic`作为前缀。 而且，它不同于《SDK用户指南》或SDK API文档中使用的普通`s7sdk`命名空间。
 
