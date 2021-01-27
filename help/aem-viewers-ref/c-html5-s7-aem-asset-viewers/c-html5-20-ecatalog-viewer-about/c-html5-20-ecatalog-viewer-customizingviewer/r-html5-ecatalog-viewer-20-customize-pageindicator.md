@@ -4,10 +4,10 @@ seo-description: 页面指示器显示当前页面索引和总页面计数。 �
 seo-title: 页面指示器
 solution: Experience Manager
 title: 页面指示器
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%
