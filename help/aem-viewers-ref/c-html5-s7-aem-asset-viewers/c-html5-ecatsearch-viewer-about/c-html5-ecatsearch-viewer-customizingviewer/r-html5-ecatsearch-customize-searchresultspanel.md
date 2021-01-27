@@ -4,10 +4,10 @@ seo-description: 搜索结果面板由顶部的搜索输入框和显示信息性
 seo-title: 搜索结果面板
 solution: Experience Manager
 title: 搜索结果面板
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 2%
