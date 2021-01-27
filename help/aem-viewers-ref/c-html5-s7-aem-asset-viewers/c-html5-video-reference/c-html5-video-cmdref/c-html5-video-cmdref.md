@@ -4,10 +4,10 @@ seo-description: 视频查看器的配置属性文档。
 seo-title: 命令引用——配置属性
 solution: Experience Manager
 title: 命令引用——配置属性
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 837cf230-f7dd-4010-a299-c3267d11e200
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -33,6 +33,6 @@ ht-degree: 0%
 * `VideoPlayer.playback` （限定为组件类名称）
 * `cont_videoPlayer.playback` (用组件ID限定，假 `cont` 定它是容器元素的ID)
 
-请参阅所有查看器的通用命令参考——配置属性[](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+请参阅所有查看器的通用命令参考——配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)[
 
-请参阅所有查看器的通用命令参考- URL[](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+请参阅所有查看器的通用命令参考- URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
