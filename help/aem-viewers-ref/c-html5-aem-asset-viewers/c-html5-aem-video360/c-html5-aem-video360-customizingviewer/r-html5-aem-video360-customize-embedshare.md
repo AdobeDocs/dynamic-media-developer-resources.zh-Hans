@@ -4,10 +4,10 @@ seo-description: 嵌入共享工具由添加到“社交共享”面板的按钮
 seo-title: 嵌入共享
 solution: Experience Manager
 title: 嵌入共享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 2%
