@@ -5,7 +5,7 @@ solution: Experience Manager
 title: 弹出
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩略图放在主视图下。 同时，查看器允许在运行时使用`setAsset()` API交换主资产。 作为开发人员，当新资产只包含一个项目时，您可以控制查看器管理底部区域的缩略图区域的方式。 可以保持外部查看器的大小不变，并让主视图增加其高度并占用缩略图区域。 或者，您可以保持主视图大小为静态并折叠外部查看器区域，从而让网页内容向上移动，然后使用缩略图中剩余的免费页面空间。
 
-   要保持外部查看器边界不变，请以绝对单位定义`.s7flyoutviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给Scene7出版系统中的查看器预设记录，或使用样式命令显式传递。
+   要保持外部查看器边界不变，请以绝对单位定义`.s7flyoutviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给Dynamic Media经典中的查看器预设记录，或使用样式命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义弹出查看器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)。
 
