@@ -1,15 +1,12 @@
 ---
 description: 图像服务支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
-seo-description: 图像服务支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
-seo-title: 图像服务颜色管理
 solution: Experience Manager
 title: 图像服务颜色管理
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -93,7 +90,7 @@ ht-degree: 0%
 |`ProPhoto`|ProPhoto RGB|ProPhoto.icm|
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgb色彩空间用户档案.icm|
-|`WideGamutRGB`|宽色域RGB|WideGapytRGB.icc|
+|`WideGamutRGB`|宽色域RGB|WideGaytRGB.icc|
 |**CMYK**|||
 |`CoatedFogra27`|Coated FOGRA27(ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39(ISO 12647-2:2004)|CoatedFOGRA39.icc|
@@ -102,7 +99,7 @@ ht-degree: 0%
 |`EuroscaleCoated`|Euroscale Coated|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc|
 |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|Japan Color 2002 Newspare|JapanColor2002Newspater.icc|
+|`JapanColorNewspaper`|Japan Color 2002 Newspaper|JapanColor2002Newspater.icc|
 |`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc|
 |`JapanColorWebCoated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated(Ad)|JapanWebCoated.icc|
@@ -111,11 +108,11 @@ ht-degree: 0%
 |`PS5Default`|Photoshop5默认CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|美国Sheetfed Coated v2|USSheetfedCoated.icc|
 |`SheetfedUncoated`|美国Sheetfed Uncoated v2|USSheetfedUncoated.icc|
-|`UncoatedFogra29`|非涂层FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
+|`UncoatedFogra29`|Uncoated FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`WebCoated`|美国Web Coated(SWOP)v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28(ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`WebCoatedGrade3`|Web Coated SWOP 2006 3级纸|WebCoatedSWOP2006级3.icc|
-|`WebCoatedGrade5`|Web Coated SWOP 2006 5级纸|WebCoatedSWOP2006级5.icc|
+|`WebCoatedGrade3`|Web Coated SWOP 2006 3级纸|WebCoatedSWOP2006Grade3.icc|
+|`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade 5.icc|
 |`WebUncoated`|美国Web Uncoated v2|USWebUncoated.icc|
 
 下表适用于&#x200B;*Dynamic Media经典(Scene7)图像服务*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`运行模式下运行）。
@@ -132,7 +129,7 @@ ht-degree: 0%
 |`ProPhoto RGB`|ProPhoto RGB|ProPhoto RGB.icm|
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgb色彩空间用户档案.icm|
-|`WideGamutRGB`|宽色域RGB|WideGapytRGB.icc|
+|`WideGamutRGB`|宽色域RGB|WideGaytRGB.icc|
 |**CMYK**|||
 |`CoatedFogra27`|Coated FOGRA27(ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39(ISO 12647-2:2004)|CoatedFOGRA39.icc|
@@ -141,7 +138,7 @@ ht-degree: 0%
 |`Euroscale Coated v2`|Euroscale Coated v2|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc|
 |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|Japan Color 2002 Newspare|JapanColor2002Newspater.icc|
+|`JapanColorNewspaper`|Japan Color 2002 Newspaper|JapanColor2002Newspater.icc|
 |`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc|
 |`Japan Color 2003 Web Coated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated(Ad)|JapanWebCoated.icc|
@@ -154,9 +151,9 @@ ht-degree: 0%
 |`WebCoated`|美国Web Coated(SWOP)v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28(ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006 3级纸|WebCoatedSWOP2006Grade3.icc|
-|`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006 5级纸|WebCoatedSWOP2006级5.icc|
+|`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade 5.icc|
 |`WebUncoated`|美国Web Uncoated v2|USWebUncoated.icc|
 
 ## 另请参阅 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[国际颜色协会](http://www.color.org/index.xalter),  [icc](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)=,  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [属性：:IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*, [属性：:IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*，属 [性：:IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [属性：:IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f),[属性：:IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [ICC用户档案图引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [颜](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)色= [, ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)bgc=,  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[国际颜色联盟](http://www.color.org/index.xalter), [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [Embed=属性：:Profile](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，属性 [*:Icc配置文件](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b) [](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) [](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),Icc属性：Icc配置文件意图*，属性：Icc属性：IccRinderBlack Consortium属性：Icc Black Src PointCompation补偿，Icc混色属性：,ICC用户档案图，色=，色=，色=,  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
