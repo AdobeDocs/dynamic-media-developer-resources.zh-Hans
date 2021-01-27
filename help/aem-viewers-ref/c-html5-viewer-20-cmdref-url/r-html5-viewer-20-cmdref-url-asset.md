@@ -7,7 +7,7 @@ title: 资产
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -57,15 +57,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定显式图像集，由用逗号分隔的排序项或框架序列组成。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> 指定显式图像集，由用逗号分隔的排序项或框架序列组成。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定一个显式图像集，其中每个帧都有其自己的图像服务修饰符。 在这种情况下，帧的列表用括号括起来。 确保将多次HTTP编码应用于特定于帧的图像服务修饰符中存在的任何逗号。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> 指定一个显式图像集，其中每个帧都有其自己的图像服务修饰符。 在这种情况下，帧的列表用括号括起来。 确保将多次HTTP编码应用于特定于帧的图像服务修饰符中存在的任何逗号。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet  </span>)[,( <span class="varname"> horizontalSpinSet </span>)])  </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的以逗号分隔的帧列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet  </span>)[,( <span class="varname"> horizontalSpinSet </span>)])  </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的以逗号分隔的帧列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修饰符  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 视频  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 单个视频或自适应视频集。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> 单个视频或自适应视频集。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 图像  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 单个图像。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> 单个图像。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 样本集。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> 样本集。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>样本图像。 </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+   <td colname="col2"> <p>样本图像。 </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ ht-degree: 2%
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 旋转  </span> </p> <p>适用于旋转集。 </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 视频  </span> </p> <p>适用于单个视频。 </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>用于自适应视频集。 </p> </li> 
-     </ul> </p> <p> <p>注意： Adobe Scene7出版系统支持此功能；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
+     </ul> </p> <p> <p>注意： 此功能在AdobeDynamic Media经典中受支持；在Adobe Experience Manager资产中不支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 修饰符  </span> </span> </p> </td> 
