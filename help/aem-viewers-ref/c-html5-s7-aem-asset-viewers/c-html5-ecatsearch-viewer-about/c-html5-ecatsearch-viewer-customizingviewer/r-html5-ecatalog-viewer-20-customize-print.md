@@ -4,10 +4,10 @@ seo-description: 打印工具由添加到控制栏的按钮和激活工具时显
 seo-title: 打印
 solution: Experience Manager
 title: 打印
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 2%
