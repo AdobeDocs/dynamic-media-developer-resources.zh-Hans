@@ -4,10 +4,10 @@ seo-description: HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 4%
