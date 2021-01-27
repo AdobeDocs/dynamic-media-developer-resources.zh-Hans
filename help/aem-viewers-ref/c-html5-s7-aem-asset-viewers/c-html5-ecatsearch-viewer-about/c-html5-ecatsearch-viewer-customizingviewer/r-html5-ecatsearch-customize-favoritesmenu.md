@@ -4,10 +4,10 @@ seo-description: “收藏夹”(Favorites)菜单下拉列表显示在控件栏�
 seo-title: 收藏夹菜单
 solution: Experience Manager
 title: 收藏夹菜单
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
