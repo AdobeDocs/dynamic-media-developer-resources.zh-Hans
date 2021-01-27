@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮将放大主视图中的图像。 此�
 seo-title: 放大按钮
 solution: Experience Manager
 title: 放大按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 21f9223a-382c-49cc-afdd-2dbf703bc242
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
