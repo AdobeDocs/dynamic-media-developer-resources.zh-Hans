@@ -1,10 +1,10 @@
 ---
-description: 将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
+description: 将资产上传到Dynamic Media经典涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与上传文件关联的所有日志活动。
 solution: Experience Manager
 title: 通过HTTP POST将资产上传到UploadFile Servlet
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 通过HTTP POST将资产上传到UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-将资产上传到Scene7生产系统涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上传文件关联的所有日志活动。
+将资产上传到Dynamic Media经典涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与上传文件关联的所有日志活动。
 
 使用以下URL访问UploadFile Servlet:
 
