@@ -4,10 +4,10 @@ seo-description: 交互式视频查看器的JavaScript API参考。
 seo-title: 初始化
 solution: Experience Manager
 title: 初始化
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e6ec0730-1ddc-4026-939c-2c9f8ecee5c7
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
