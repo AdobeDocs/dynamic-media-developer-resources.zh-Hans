@@ -4,10 +4,10 @@ seo-description: 设置指示器是在触控设备上使用查看器时在色板
 seo-title: 设置指示符
 solution: Experience Manager
 title: 设置指示符
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
