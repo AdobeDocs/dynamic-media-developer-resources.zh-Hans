@@ -4,10 +4,10 @@ seo-description: 缩放指示器覆盖在缩放视图区域上。 当图像处�
 seo-title: 缩放视图图标效果
 solution: Experience Manager
 title: 缩放视图图标效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 69a44789-9587-4459-9c75-048773c9e368
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
