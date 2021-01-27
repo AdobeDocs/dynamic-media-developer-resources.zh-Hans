@@ -4,10 +4,10 @@ seo-description: 使查看器在用户单击时进入或退出全屏模式。 �
 seo-title: 全屏按钮
 solution: Experience Manager
 title: 全屏按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8f0ce51b-1ef6-4631-8a54-7d34cb6e3ef2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 2%
