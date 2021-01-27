@@ -4,10 +4,10 @@ seo-description: eCatalog Viewer的JavaScript API参考。
 seo-title: 处置
 solution: Experience Manager
 title: 处置
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 791c47e9-daab-4500-9cd0-e56ee6fc830e
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
