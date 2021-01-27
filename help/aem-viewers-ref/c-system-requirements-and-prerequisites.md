@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dynamic MediaHTML5查看器的系统要求。
 
 ## 服务器硬件和软件{#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media经典(前Scene7)Image Serving 6.7.1或更高版本。
+* Dynamic Media经典图像服务6.7.1或更高版本。
 * HTML5查看器需要SDK JavaScript服务器端库3.10.2或更高版本。
 * “向朋友发送电子邮件”社交功能需要s7ondemand 5.0.9或更高版本。
 * eCatalog Viewer —— 信息面板支持需要信息服务器2.1.8或更高版本。
