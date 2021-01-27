@@ -4,10 +4,10 @@ seo-description: 查看器显示的某些内容受本地化的约束。 这包�
 seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d5e75af0-03d6-4357-a540-4094313ed026
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
