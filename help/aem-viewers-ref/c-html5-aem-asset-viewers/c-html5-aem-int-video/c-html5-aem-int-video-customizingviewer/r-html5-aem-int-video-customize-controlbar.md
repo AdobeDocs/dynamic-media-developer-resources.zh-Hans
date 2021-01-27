@@ -4,10 +4,10 @@ seo-description: 控制栏是一个矩形区域，它包含并位于视频查看
 seo-title: 控制栏
 solution: Experience Manager
 title: 控制栏
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
