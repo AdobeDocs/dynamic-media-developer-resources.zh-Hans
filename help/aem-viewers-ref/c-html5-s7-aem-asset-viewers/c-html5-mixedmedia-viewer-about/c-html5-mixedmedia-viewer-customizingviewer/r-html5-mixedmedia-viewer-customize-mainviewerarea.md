@@ -4,10 +4,10 @@ seo-description: 主视图区是主视图和色板所占用的区域。 当未�
 seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
