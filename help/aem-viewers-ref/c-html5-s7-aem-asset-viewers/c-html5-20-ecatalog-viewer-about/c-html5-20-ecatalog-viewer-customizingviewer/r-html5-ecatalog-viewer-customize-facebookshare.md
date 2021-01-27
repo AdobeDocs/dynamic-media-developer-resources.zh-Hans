@@ -4,10 +4,10 @@ seo-description: Facebook共享工具由添加到“社交共享”面板的按�
 seo-title: Facebook共享
 solution: Experience Manager
 title: Facebook共享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 614e7a06-90b6-4fe0-9ecf-be97881ec6d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
