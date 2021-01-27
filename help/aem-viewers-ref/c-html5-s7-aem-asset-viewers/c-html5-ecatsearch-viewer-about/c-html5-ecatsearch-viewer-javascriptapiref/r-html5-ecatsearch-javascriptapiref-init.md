@@ -4,10 +4,10 @@ seo-description: eCatalog Viewer的JavaScript API参考。
 seo-title: 初始化
 solution: Experience Manager
 title: 初始化
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b01f1497-8bee-4e01-8f92-272b324cb2dd
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 2%
