@@ -1,16 +1,14 @@
 ---
 description: 电子目录搜索查看器是一个目录查看器，它以跨页或逐页方式显示电子小册子，电子目录允许用户使用其他用户界面元素或专用缩略图模式在目录中导航。 用户还可以放大每个页面，以获得更详细的信息。
 keywords: responsive
-seo-description: 电子目录搜索查看器是一个目录查看器，它以跨页或逐页方式显示电子小册子，电子目录允许用户使用其他用户界面元素或专用缩略图模式在目录中导航。 用户还可以放大每个页面，以获得更详细的信息。
-seo-title: 电子目录搜索
 solution: Experience Manager
 title: 电子目录搜索
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ eCatalog Search Viewer表示主JavaScript文件和一组帮助文件（单个Jav
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-如果查看器部署在某台Adobe Scene7服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定到安装了IS-Viewer的某台Adobe Scene7服务器的完整路径。
+如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定一个到安装了IS-Viewer的AdobeDynamic Media服务器的完整路径。
 
 相对路径如下所示：
 
