@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮可使用户转到目录中的上一页
 seo-title: “上一页”按钮
 solution: Experience Manager
 title: “上一页”按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0e7dfa50-0af5-4af9-b57c-5a01e73c03a0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
