@@ -4,10 +4,10 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 10%
