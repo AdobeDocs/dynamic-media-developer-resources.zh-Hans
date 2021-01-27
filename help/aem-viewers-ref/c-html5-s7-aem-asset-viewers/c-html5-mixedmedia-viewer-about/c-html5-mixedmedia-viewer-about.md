@@ -1,16 +1,13 @@
 ---
 description: 混合媒体查看器是媒体查看器。 它支持包含图像、样本集、旋转集、视频和自适应视频集的媒体集。
 keywords: responsive
-seo-description: 混合媒体查看器是媒体查看器。 它支持包含图像、样本集、旋转集、视频和自适应视频集的媒体集。
-seo-title: 混合媒体
 solution: Experience Manager
 title: 混合媒体
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-如果查看器部署在某台Adobe Scene7服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定到安装了IS-Viewer的某台Adobe Scene7服务器的完整路径。
+如果查看器部署在某个AdobeDynamic Media经典服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定到安装了IS-Viewer的AdobeDynamic Media经典服务器之一的完整路径。
 
 相对路径如下所示：
 
@@ -175,7 +172,7 @@ ht-degree: 0%
 
    此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩略图放在主视图下。 同时，查看器允许在运行时使用`setAsset()` API交换主资产。 作为开发人员，您可以控制当新资产只有一个项目时查看器管理底部缩略图区域的方式。 可以保持外部查看器的大小不变，并让主视图增加其高度并占用缩略图区域。 或者，您可以保持主视图大小为静态并折叠外部查看器区域，让网页内容向上移动，然后使用缩略图中留下的免费页面空间。
 
-   要保持外部查看器边界不变，请以绝对单位定义`.s7mixedmediaviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给Scene7出版系统中的查看器预设记录，或使用样式命令显式传递。
+   要保持外部查看器边界不变，请以绝对单位定义`.s7mixedmediaviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给Dynamic Media经典中的查看器预设记录，或使用样式命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义混合媒体查看器](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)。
 
@@ -207,7 +204,7 @@ ht-degree: 0%
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   您可以在Scene7出版系统的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为API调用（如本帮助的“命令参考”部分所述）传递，如下所示：
+   您可以在Dynamic Media经典的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为本帮助的“命令参考”部分中所述的API调用进行传递，如下所示：
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
