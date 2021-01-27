@@ -1,16 +1,13 @@
 ---
 description: 内联缩放查看器是图像查看器。 当用户滚动或触碰主视图时，它显示静态图像，该静态图像上显示缩放版本。 此查看器可处理图像集，并可使用色板进行导航。 它设计为可在桌面和移动设备上使用。
 keywords: responsive
-seo-description: 内联缩放查看器是图像查看器。 当用户滚动或触碰主视图时，它显示静态图像，该静态图像上显示缩放版本。 此查看器可处理图像集，并可使用色板进行导航。 它设计为可在桌面和移动设备上使用。
-seo-title: 内联缩放
 solution: Experience Manager
 title: 内联缩放
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果查看器部署在某台Adobe Scene7服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定到安装了IS-Viewer的某台Adobe Scene7服务器的完整路径。
+如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您将指定一个到安装了IS-Viewer的AdobeDynamic Media服务器的完整路径。
 
 相对路径如下所示：
 
