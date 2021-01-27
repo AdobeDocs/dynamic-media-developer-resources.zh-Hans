@@ -4,10 +4,10 @@ seo-description: 所有查看器通用的参数。
 seo-title: config
 solution: Experience Manager
 title: 配置
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 2%
@@ -119,7 +119,7 @@ config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## 示例5 {#section-19b988551d1d492a9079948e0b04b38f}
+## 示例4 {#section-19b988551d1d492a9079948e0b04b38f}
 
 名为`Carousel_Dotted_light`的查看器预设包含以下数据：
 
