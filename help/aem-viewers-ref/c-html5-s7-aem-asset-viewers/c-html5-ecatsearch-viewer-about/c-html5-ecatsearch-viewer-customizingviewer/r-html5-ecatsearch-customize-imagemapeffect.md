@@ -1,15 +1,12 @@
 ---
-description: 根据模式参数的值，查看器在最初在Scene7出版系统中创作地图的位置，在主视图上显示图像地图图标，或呈现与原始图像地图的形状匹配的精确区域。
-seo-description: 根据模式参数的值，查看器在最初在Scene7出版系统中创作地图的位置，在主视图上显示图像地图图标，或呈现与原始图像地图的形状匹配的精确区域。
-seo-title: 图像映射效果
+description: 根据模式参数的值，查看器在最初在Dynamic Media经典中创作地图的位置，在主视图上显示图像映射图标，或呈现与原始图像地图的形状匹配的精确区域。
 solution: Experience Manager
 title: 图像映射效果
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 图像映射效果{#image-map-effect}
 
-根据模式参数的值，查看器在最初在Scene7出版系统中创作地图的位置，在主视图上显示图像地图图标，或呈现与原始图像地图的形状匹配的精确区域。
+根据模式参数的值，查看器在最初在Dynamic Media经典中创作地图的位置，在主视图上显示图像映射图标，或呈现与原始图像地图的形状匹配的精确区域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
