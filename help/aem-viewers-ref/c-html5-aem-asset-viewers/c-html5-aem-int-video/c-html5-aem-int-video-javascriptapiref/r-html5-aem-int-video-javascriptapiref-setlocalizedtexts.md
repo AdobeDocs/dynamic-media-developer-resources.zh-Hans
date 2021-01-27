@@ -4,10 +4,10 @@ seo-description: 交互式视频查看器的JavaScript API参考。
 seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 11844a71-adb0-42a9-9b58-b69821070fd2
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 2%
