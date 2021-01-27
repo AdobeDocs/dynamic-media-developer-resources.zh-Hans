@@ -4,10 +4,10 @@ seo-description: 按钮的位置完全由“收藏夹”菜单管理。
 seo-title: 视图“所有收藏夹”按钮
 solution: Experience Manager
 title: 视图“所有收藏夹”按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
