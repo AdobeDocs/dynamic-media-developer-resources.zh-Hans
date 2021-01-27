@@ -4,10 +4,10 @@ seo-description: 基本缩放、电子目录、电子目录搜索、弹出、内
 seo-title: 键盘辅助功能和导航
 solution: Experience Manager
 title: 键盘辅助功能和导航
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素可接收可视焦点指示。 例如，可视指示器可以是用户界面元素周围呈现的细边框。
 
-可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，基本缩放或交互式视频）下，单击“自定义查看器&#x200B;***名称”>“焦点突出显示”**。*****
+可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，“基本缩放”或“交互式视频”）下，单击“自定义查看器&#x200B;***名称”>“焦点突出显示”**。*****
 
 在大多数情况下，单个查看器用户界面元素支持的按键显而易见，易于发现。
 
