@@ -4,10 +4,10 @@ seo-description: Interactive Image Viewer的JavaScript API参考。
 seo-title: 初始化
 solution: Experience Manager
 title: 初始化
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 translation-type: tm+mt
-source-git-commit: bea6e8f949a9ef0f3f56faac40092b5681a16ff6
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
