@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮可在主视图中使图像向左旋转
 seo-title: 旋转左键
 solution: Experience Manager
 title: 旋转左键
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
