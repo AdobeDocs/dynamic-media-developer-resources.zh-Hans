@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮将重置主视图中的图像。 此�
 seo-title: 缩放重置按钮
 solution: Experience Manager
 title: 缩放重置按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
