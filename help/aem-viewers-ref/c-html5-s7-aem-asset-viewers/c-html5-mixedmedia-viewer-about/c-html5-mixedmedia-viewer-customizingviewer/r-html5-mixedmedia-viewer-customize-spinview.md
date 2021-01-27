@@ -4,10 +4,10 @@ seo-description: 当当前资产是旋转集时，主视图由旋转图像组成
 seo-title: 旋转视图
 solution: Experience Manager
 title: 旋转视图
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%
