@@ -4,10 +4,10 @@ seo-description: 视频播放器是在查看器中显示视频内容的矩形区
 seo-title: 视频播放器
 solution: Experience Manager
 title: 视频播放器
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 1%
