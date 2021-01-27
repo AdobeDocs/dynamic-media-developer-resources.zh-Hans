@@ -4,10 +4,10 @@ seo-description: 当用户激活具有在Scene7出版系统中定义的rollover_
 seo-title: 信息面板弹出窗口
 solution: Experience Manager
 title: 信息面板弹出窗口
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 2%
