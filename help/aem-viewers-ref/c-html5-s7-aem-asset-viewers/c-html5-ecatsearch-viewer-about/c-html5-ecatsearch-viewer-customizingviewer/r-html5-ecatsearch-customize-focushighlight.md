@@ -4,10 +4,10 @@ seo-description: 在聚焦的查看器用户界面元素周围显示的输入焦
 seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0bd36795-e663-4f0e-8310-a57c2ffae4a2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
