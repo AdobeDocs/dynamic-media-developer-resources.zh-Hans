@@ -5,10 +5,10 @@ seo-description: 视频查看器是一个视频播放器，可播放以H.264格�
 seo-title: 视频
 solution: Experience Manager
 title: 视频
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 0%
