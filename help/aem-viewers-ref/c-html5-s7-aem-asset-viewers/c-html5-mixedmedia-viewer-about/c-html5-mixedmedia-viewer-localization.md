@@ -4,10 +4,10 @@ seo-description: 混合媒体查看器显示的某些内容受本地化的约束
 seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4da776f4-e370-444b-b31c-6b032483861d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -101,7 +101,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_OVER  </span> </p> </td> 
-   <td colname="col2"> <p>内联<span class="codeph">缩放模式下的桌面系统。</span> </p> </td> 
+   <td colname="col2"> <p>内联</span>缩放模式下的桌面系统。<span class="codeph"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_TAP  </span> </p> </td> 
