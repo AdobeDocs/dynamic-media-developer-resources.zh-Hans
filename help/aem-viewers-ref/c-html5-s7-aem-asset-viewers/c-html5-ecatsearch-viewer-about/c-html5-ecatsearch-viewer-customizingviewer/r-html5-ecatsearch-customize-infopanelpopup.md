@@ -1,23 +1,20 @@
 ---
-description: 当用户激活具有在Scene7出版系统中定义的rollover_key属性的图像映射，并且如果为查看器正确配置了信息面板功能，则“信息面板弹出窗口”将显示在查看器区域的中间。
-seo-description: 当用户激活具有在Scene7出版系统中定义的rollover_key属性的图像映射，并且如果为查看器正确配置了信息面板功能，则“信息面板弹出窗口”将显示在查看器区域的中间。
-seo-title: 信息面板弹出窗口
+description: 当用户激活的图像映射具有在Dynamic Media经典中定义的rollover_key属性，并且如果为查看器正确配置了信息面板功能，则“信息面板弹出窗口”将显示在查看器区域的中间。
 solution: Experience Manager
 title: 信息面板弹出窗口
 topic: Dynamic Media
-uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # 信息面板弹出窗口{#info-panel-popup}
 
-当用户激活具有在Scene7出版系统中定义的rollover_key属性的图像映射，并且如果为查看器正确配置了信息面板功能，则“信息面板弹出窗口”将显示在查看器区域的中间。
+当用户激活的图像映射具有在Dynamic Media经典中定义的rollover_key属性，并且如果为查看器正确配置了信息面板功能，则“信息面板弹出窗口”将显示在查看器区域的中间。
 
 “信息”面板背景覆盖整个查看器区域，并由以下CSS类选择器控制：
 
