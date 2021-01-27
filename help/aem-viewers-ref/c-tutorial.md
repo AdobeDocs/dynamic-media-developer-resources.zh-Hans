@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 查看器SDK教程
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看器是基于Web的应用程序，允许将Dynamic MediaAdobe提供的丰富媒体内容嵌入网页中。
 
-例如，SDK提供交互式缩放和平移。 它还提供360°视图和视频回放，这些资源通过称为SPS(Scene7出版系统)的后端应用程序上传到Dynamic MediaAdobe。
+例如，SDK提供交互式缩放和平移。 它还提供360°视图和视频回放，这些资源通过称为Dynamic Media经典的后端应用程序上传到Dynamic MediaAdobe。
 
 尽管这些组件依赖HTML5功能，但它们设计为可用于Android和Apple iOS设备以及桌面（包括Internet Explorer及更高版本）。 这种体验意味着您可以为所有受支持的平台提供单个工作流。
 
