@@ -2,9 +2,9 @@
 description: 查看器SDK提供一组基于JavaScript的组件，用于自定义查看器开发。 查看器是基于Web的应用程序，允许将Dynamic MediaAdobe提供的丰富媒体内容嵌入网页中。
 solution: Experience Manager
 title: 查看器SDK教程
-topic: Dynamic media
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
