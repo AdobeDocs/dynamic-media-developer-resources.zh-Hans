@@ -4,10 +4,10 @@ seo-description: 操作系统、浏览器和移动设备的兼容性说明。
 seo-title: 兼容性说明
 solution: Experience Manager
 title: 兼容性说明
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 1%
