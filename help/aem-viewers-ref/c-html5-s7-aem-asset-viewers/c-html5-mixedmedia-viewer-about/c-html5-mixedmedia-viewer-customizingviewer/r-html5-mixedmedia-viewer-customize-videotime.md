@@ -4,10 +4,10 @@ seo-description: 视频时间是显示当前播放的视频的当前时间和持
 seo-title: 视频时间
 solution: Experience Manager
 title: 视频时间
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f93e495b-44a1-493c-9bc6-5c088478ddce
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
