@@ -2,10 +2,10 @@
 description: 热点和图像地图支持
 solution: Experience Manager
 title: 热点和图像地图支持
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
