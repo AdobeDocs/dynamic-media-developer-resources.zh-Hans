@@ -4,10 +4,10 @@ seo-description: 播放图标将覆盖在主视图区域。 它在暂停视频�
 seo-title: 图标效果
 solution: Experience Manager
 title: 图标效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 81c9c344-5256-4015-8d02-abbf09dca541
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
