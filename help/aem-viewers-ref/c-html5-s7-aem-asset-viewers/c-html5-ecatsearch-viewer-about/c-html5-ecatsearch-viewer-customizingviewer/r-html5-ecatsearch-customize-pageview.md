@@ -4,10 +4,10 @@ seo-description: 主视图由目录图像组成。 可以轻扫它以转到其�
 seo-title: 页面查看
 solution: Experience Manager
 title: 页面查看
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 4%
