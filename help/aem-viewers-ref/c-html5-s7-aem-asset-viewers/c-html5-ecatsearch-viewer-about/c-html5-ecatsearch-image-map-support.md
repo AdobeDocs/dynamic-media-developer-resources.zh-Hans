@@ -4,10 +4,10 @@ seo-description: 电子目录搜索查看器支持在主视图上方呈现图像
 seo-title: 图像映射支持
 solution: Experience Manager
 title: 图像映射支持
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
