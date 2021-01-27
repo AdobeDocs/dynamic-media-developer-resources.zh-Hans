@@ -4,10 +4,10 @@ seo-description: 单击或点按此按钮将用户转到目录的下一页。 �
 seo-title: 大型下一页按钮
 solution: Experience Manager
 title: 大型下一页按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c10edce3-ea01-4c8b-bb43-c2aafed08a39
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
