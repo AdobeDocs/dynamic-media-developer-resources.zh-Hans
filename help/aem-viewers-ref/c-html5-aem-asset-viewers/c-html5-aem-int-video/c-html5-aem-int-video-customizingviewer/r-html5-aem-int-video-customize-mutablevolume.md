@@ -4,10 +4,10 @@ seo-description: 可变音量控件最初显示为一个按钮，用户可以将
 seo-title: 可变卷
 solution: Experience Manager
 title: 可变卷
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3c3239ca-18fc-47ff-bc5d-2b50e1514e50
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
