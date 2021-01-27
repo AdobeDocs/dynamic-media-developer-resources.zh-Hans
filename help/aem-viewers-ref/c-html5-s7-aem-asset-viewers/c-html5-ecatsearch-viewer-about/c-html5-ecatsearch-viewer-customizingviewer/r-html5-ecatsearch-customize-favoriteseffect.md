@@ -4,10 +4,10 @@ seo-description: 查看器在主视图上显示“收藏夹”图标，位于用
 seo-title: 收藏夹效果
 solution: Experience Manager
 title: 收藏夹效果
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
