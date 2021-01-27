@@ -1,15 +1,12 @@
 ---
-description: HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码的360流和渐进式视频，从Scene7出版系统或AEMDynamic Media提供。
-seo-description: HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码的360流和渐进式视频，从Scene7出版系统或AEMDynamic Media提供。
-seo-title: Video360
+description: HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码、从Dynamic Media经典或AEMDynamic Media提供的360流和渐进式视频。
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码的360流和渐进式视频，从Scene7出版系统或AEMDynamic Media提供。
+HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码、从Dynamic Media Classic或AEM Dynamic Media提供的360流式渐进视频。
 
 360度视频，又称沉浸式视频或球形视频，是一种视频录制，在此录制中，将同时录制每个方向的视图，使用全向摄像机或一组摄像机拍摄。 同时支持单个视频和自适应视频集。 此外，查看器还支持使用在外部位置托管的渐进式视频和HLS流。
 
