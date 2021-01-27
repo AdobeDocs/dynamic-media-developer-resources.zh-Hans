@@ -4,10 +4,10 @@ seo-description: 交互式视频查看器支持根据作为配置参数传递给
 seo-title: 交互式数据支持
 solution: Experience Manager
 title: 交互式数据支持
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
