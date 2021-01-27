@@ -4,10 +4,10 @@ seo-description: 查看器支持播放在Scene7出版系统或AEMDynamic Media�
 seo-title: 外部视频支持
 solution: Experience Manager
 title: 外部视频支持
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 24739a5a-3a5d-49b8-9a15-bcf3a95fc192
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
