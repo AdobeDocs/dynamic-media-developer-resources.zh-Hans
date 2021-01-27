@@ -4,10 +4,10 @@ seo-description: 旋转式查看器是一种查看器，它显示带有可单击
 seo-title: 轮盘式
 solution: Experience Manager
 title: 轮盘式
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1978'
 ht-degree: 0%
