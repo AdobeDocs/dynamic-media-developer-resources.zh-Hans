@@ -1,16 +1,13 @@
 ---
-description: 视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。 它来自Scene7出版系统或AEMDynamic Media。
+description: 视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。 它来自Dynamic Media经典或AEMDynamic Media。
 keywords: responsive
-seo-description: 视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。 它来自Scene7出版系统或AEMDynamic Media。
-seo-title: 视频
 solution: Experience Manager
 title: 视频
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # 视频{#video}
 
-视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。 它来自Scene7出版系统或AEMDynamic Media。
+视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。 它来自Dynamic Media经典或AEMDynamic Media。
 
 请参阅[系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
@@ -152,7 +149,7 @@ ht-degree: 0%
 
    您可以通过以下方式设置查看器的静态大小：以绝对单位声明查看器为`.s7videoviewer`顶级CSS类，或使用修饰符`stagesize`。
 
-   CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配到Scene7出版系统中的查看器预设记录，或使用样式命令显式传递。
+   CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配到Dynamic Media经典中的查看器预设记录，或使用样式命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义视频查看器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)。
 
@@ -165,7 +162,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在Scene7发布系统的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为命令参考部分中所述的API调用传递，如下所示：
+   您可以在Dynamic Media经典的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为命令参考部分中所述的API调用传递，如下所示：
 
    ```
    videoViewer.setParam("stagesize", "640,480");
