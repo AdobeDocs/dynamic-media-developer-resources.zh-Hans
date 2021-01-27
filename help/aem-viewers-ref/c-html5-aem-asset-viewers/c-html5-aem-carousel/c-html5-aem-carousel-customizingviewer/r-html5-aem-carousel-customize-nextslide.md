@@ -4,10 +4,10 @@ seo-description: 单击或点按“下一张”幻灯片按钮可将用户移动
 seo-title: 下一张幻灯片
 solution: Experience Manager
 title: 下一张幻灯片
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
