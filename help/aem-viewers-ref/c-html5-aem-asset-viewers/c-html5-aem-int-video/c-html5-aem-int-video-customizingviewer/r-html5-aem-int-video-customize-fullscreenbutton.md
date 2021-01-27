@@ -4,10 +4,10 @@ seo-description: 当用户单击视频播放器时，全屏按钮会导致视频
 seo-title: 全屏按钮
 solution: Experience Manager
 title: 全屏按钮
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 803d3d48-2413-4828-8154-fd704769447c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
