@@ -1,15 +1,12 @@
 ---
-description: 查看器支持播放在SPS或AEMDynamic Media之外托管的视频。
-seo-description: 查看器支持播放在SPS或AEMDynamic Media之外托管的视频。
-seo-title: 外部视频支持
+description: 查看器支持播放在Dynamic Media经典或AEMDynamic Media之外托管的视频。
 solution: Experience Manager
 title: 外部视频支持
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 外部视频支持{#external-video-support}
 
-查看器支持播放在SPS或AEMDynamic Media之外托管的视频。
+查看器支持播放在Dynamic Media经典或AEMDynamic Media之外托管的视频。
 
 外部视频支持的格式为H.264格式的MP4或HLS流的M3U8清单。
 
