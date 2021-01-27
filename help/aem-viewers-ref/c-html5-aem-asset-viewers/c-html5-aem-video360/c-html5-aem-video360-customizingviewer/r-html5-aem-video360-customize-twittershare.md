@@ -4,10 +4,10 @@ seo-description: Twitter共享工具由添加到“社交共享”面板的按�
 seo-title: Twitter共享
 solution: Experience Manager
 title: Twitter共享
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c16ce881-e5d5-4864-bfad-69b4c9b51a21
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
