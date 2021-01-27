@@ -8,9 +8,9 @@ title: 基本缩放
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    您可以通过以下方式设置查看器的静态大小：以绝对单位声明查看器为`.s7basiczoomviewer`顶级CSS类，或使用`stagesize`修饰符。
 
-   您可以将大小调整直接放在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给SPS中的查看器预设记录，或使用样式命令显式传递。
+   您可以将大小调整直接放在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给Dynamic Media经典中的查看器预设记录，或使用样式命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义基本缩放查看器](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
@@ -176,7 +176,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在SPS的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为“命令参考”部分中所述的API调用传递，如下所示：
+   您可以在Dynamic Media经典的查看器预设记录中设置`stagesize`修饰符，或将其与查看器初始化代码（集合为`params`）显式传递，或作为“命令参考”部分中所述的API调用传递，如下所示：
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
