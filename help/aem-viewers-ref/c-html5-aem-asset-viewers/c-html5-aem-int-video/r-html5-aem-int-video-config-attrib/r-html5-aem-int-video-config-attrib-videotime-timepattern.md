@@ -4,10 +4,10 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 90d36f73-44f9-4e4e-9ad6-e866749f9b2f
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
