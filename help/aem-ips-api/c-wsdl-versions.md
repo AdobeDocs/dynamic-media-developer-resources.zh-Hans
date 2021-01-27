@@ -1,15 +1,12 @@
 ---
 description: IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）可从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含引用版本化目标XML命名空间的新WSDL文件。 以前的WSDL命名空间版本也受支持，可以向后兼容现有应用程序。
-seo-description: IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）可从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含引用版本化目标XML命名空间的新WSDL文件。 以前的WSDL命名空间版本也受支持，可以向后兼容现有应用程序。
-seo-title: IPS Web服务WSDL版本
 solution: Experience Manager
 title: IPS Web服务WSDL版本
 topic: Dynamic Media Image Production System API
-uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
