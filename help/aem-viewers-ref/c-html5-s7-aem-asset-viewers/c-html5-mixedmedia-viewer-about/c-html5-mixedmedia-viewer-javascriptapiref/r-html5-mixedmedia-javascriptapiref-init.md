@@ -4,10 +4,10 @@ seo-description: 混合媒体查看器的JavaScript API参考。
 seo-title: 初始化
 solution: Experience Manager
 title: 初始化
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f16e3cfe-4b30-4497-bd65-52d2f1edf3d3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
