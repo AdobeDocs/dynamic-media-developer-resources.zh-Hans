@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 图像服务颜色管理
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade 5.icc|
 |`WebUncoated`|美国Web Uncoated v2|USWebUncoated.icc|
 
-下表适用于&#x200B;*Dynamic Media经典(Scene7)图像服务*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`运行模式下运行）。
+下表适用于&#x200B;*Dynamic Media经典图像服务*&#x200B;和&#x200B;*Dynamic Media*（在`dynamicmedia_scene7`运行模式下运行）。
 
 |标识符|公用名|文件名|
 |— |— |— |
