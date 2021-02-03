@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Scene72016年秋发布
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Scene72016年秋季版本的最新发行说明是Adobe Marketing CloudAdob
 
 Adobe兴奋地宣布推出HTTP/2投放的内容，同时提高性能的整体优势。
 
-请参阅[HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+请参阅[HTTP2投放内容常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## Scene7出版系统{#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅[https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新增功能、增强和错误修复**
 
@@ -58,7 +58,7 @@ Adobe兴奋地宣布推出HTTP/2投放的内容，同时提高性能的整体优
 
 ## 查看器（图像服务5.5.3）{#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)。
 
 **图像服务5.5.3的错误修复**
 
@@ -68,7 +68,7 @@ Adobe兴奋地宣布推出HTTP/2投放的内容，同时提高性能的整体优
 
 ## 查看器（图像服务5.5.2）{#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)。
 
 **图像服务5.5.2的错误修复**
 
@@ -77,7 +77,7 @@ Adobe兴奋地宣布推出HTTP/2投放的内容，同时提高性能的整体优
 
 ## 查看器（图像服务5.5.1）{#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参阅[查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)。
 
 **Image Serving 5.5.1的新增功能、增强和错误修复**
 
