@@ -1,17 +1,15 @@
 ---
 title: AdobeDynamic Media经典发行说明
-seo-title: AdobeDynamic Media经典发行说明
-description: AdobeDynamic Media经典发行说明
-seo-description: 发行说明，AdobeDynamic Media经典是Adobe Experience CloudAdobe Experience Manager解决方案的一部分。
+description: 发行说明，AdobeDynamic Media经典是Adobe Experience CloudAdobe Experience Manager解决方案的一部分。
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -19,7 +17,7 @@ ht-degree: 1%
 
 # Dynamic Media发行说明{#release-notes}
 
-+ [Dynamic Media开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media开发人员资源主页](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [最新发行说明](s7rn2017.md)
 + 存档 {#archive-release-notes}
    + [Scene72016年秋发布](s7rnfall2016.md)
