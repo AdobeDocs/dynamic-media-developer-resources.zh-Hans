@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media图像生成系统API
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Dynamic Media图像生产系统API {#image-production-api}
 
-+ [Dynamic Media开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media开发人员资源主页](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [关于Dynamic Media图像生产系统API](c-overview.md)
 + [已弃用的调用](c-deprecated-calls.md)
 + [IPS Web服务WSDL版本](c-wsdl-versions.md)
