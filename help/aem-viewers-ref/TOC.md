@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media观众参考指南
 translation-type: tm+mt
-source-git-commit: 31f2fdd45d950a8e0eae34d75abf956d305d3175
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1925'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Dynamic Media查看器参考指南{#library}
 
-+ [Dynamic Media开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media开发人员资源主页](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Dynamic Media观众参考指南](/help/aem-viewers-ref/home.md)
 + [查看器库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 + [系统要求](c-system-requirements-and-prerequisites.md)
