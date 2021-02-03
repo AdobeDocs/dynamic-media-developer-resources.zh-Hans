@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 使用响应式图像库
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用响应式图像库**
 
-1. 在Dynamic Media经典中，[创建图像预设](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html)，以备您计划使用带有预设的响应式图像库。
+1. 在Dynamic Media经典中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以备您计划使用带有预设的响应式图像库。
 
    在定义与响应式图像库一起使用的图像预设时，请勿使用影响图像大小的任何设置，如`wid=`、`hei=`或`scl=`。 请勿在图像预设中指定任何大小字段。 相反，将它们保留为空值。
 1. 将库JavaScript文件添加到网页。
