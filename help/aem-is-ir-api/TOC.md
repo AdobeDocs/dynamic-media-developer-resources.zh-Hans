@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: Dynamic Media图像服务和渲染API
 breadcrumb-title: Dynamic Media图像服务和渲染API
 translation-type: tm+mt
-source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1463'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # Dynamic Media图像服务和渲染API {#image-serving-api}
 
-+ [Dynamic Media开发人员资源主页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media开发人员资源主页](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Dynamic Media图像服务和图像渲染API主页](home.md)
 + [关于此版本](r-about-this-release.md)
 + [系统要求和先决条件](r-requirements-and-prerequisites.md)
