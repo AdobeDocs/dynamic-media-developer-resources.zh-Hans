@@ -1,15 +1,12 @@
 ---
 description: 基本缩放、电子目录、电子目录搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、尺寸(3D)、旋转、交互式图像、交互式视频和Video360查看器界面中公开的所有功能均可通过键盘访问。
-seo-description: 基本缩放、电子目录、电子目录搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、尺寸(3D)、旋转、交互式图像、交互式视频和Video360查看器界面中公开的所有功能均可通过键盘访问。
-seo-title: 键盘辅助功能和导航
 solution: Experience Manager
 title: 键盘辅助功能和导航
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
