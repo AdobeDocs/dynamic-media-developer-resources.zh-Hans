@@ -1,5 +1,5 @@
 ---
-title: AdobeDynamic Media开发人员资源
+title: Adobe Dynamic Media开发人员资源
 cloud: experience-cloud
 product: Adobe Dynamic Media Developer Resources
 audience: end-user
