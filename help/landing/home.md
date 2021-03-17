@@ -4,9 +4,9 @@ seo-title: Adobe Dynamic Media开发人员资源指南，适用于查看器、�
 description: Adobe Dynamic Media开发人员资源
 seo-description: Adobe Dynamic Media开发人员资源指南，适用于查看器、图像服务、图像渲染和图像制作
 translation-type: tm+mt
-source-git-commit: b31ff703a522becd22b417a40fe02d6a5ff7ca70
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # Dynamic Media 开发人员资源{#dynamic-media-developer-resource}
 
-* [查看器参](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) <!-- (/help/aem-viewers-ref/home.md) -->
+* [查看器参](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 考指南自定义Dynamic Media查看器，以用于桌面和触摸屏设备。您可以处理的某些媒体类型包括交互式图像和视频、360度视频、轮盘、图像缩放、视频、电子目录、字幕、混合媒体和旋转集。
-* [图像服务/图像渲](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) <!-- (/help/aem-is-ir-api/home.md) -->
+* [图像服务/图像渲](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 染API有关IS（图像服务）和IR（图像渲染）API的文档以及相关技术。如果您使用与AEM的Dynamic Media Classic集成，则应引用API的IS部分。
 * [图像生产系](/help/aem-ips-api/c-overview.md)
 统API IPS（图像生产系统）Web服务API使外部应用程序和第三方开发人员能以编程方式访问IPS资源和功能。
