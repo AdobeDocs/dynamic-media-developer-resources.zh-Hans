@@ -1,15 +1,16 @@
 ---
-description: 锐化纹理。 指定渲染此材料时要应用的锐化。
-seo-description: 锐化纹理。 指定渲染此材料时要应用的锐化。
+description: 锐化纹理。 指定渲染此素材时要应用的锐化。
+seo-description: 锐化纹理。 指定渲染此素材时要应用的锐化。
 seo-title: 锐
 solution: Experience Manager
 title: 锐
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # sharp{#sharp}
 
-锐化纹理。 指定渲染此材料时要应用的锐化。
+锐化纹理。 指定渲染此素材时要应用的锐化。
 
 `sharp=0|1|2|3`
 
@@ -32,17 +33,17 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0替代锐化（早期）。 </p> </td> 
+  <td class="stentry"> <p>0个备用锐化（早期）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>更锐化（早晚）。 </p> </td> 
+  <td class="stentry"> <p>更锐化（早、晚）。 </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` 在渲染材料后应用锐化； `sharp=2` 在纹理初始缩放后应用锐化，但在将其转换为场景之前应用； `sharp=3` 在转换前后应用锐化。
+`sharp=1` 在渲染材料后应用锐化； `sharp=2` 在纹理初始缩放后应用锐化，但在将其转换为场景之前应用； `sharp=3` 在变换前后应用锐化。
 
-锐化算法和锐化量以及其他USM（USM锐化）参数由暗角提供的默认材料模板或`rs=`控制。
+锐化算法和锐化量以及其他USM（USM锐化）参数由晕影提供的默认材料模板或`rs=`控制。
 
 ## 属性 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
@@ -50,7 +51,7 @@ ht-degree: 5%
 
 ## 默认 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`，如果材料基于目录条目，则另行选择 `attribute::Sharp`。
+`catalog::Sharp`, if the material is based on a catalog entry， oftherse  `attribute::Sharp`
 
 ## 另请参阅 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
