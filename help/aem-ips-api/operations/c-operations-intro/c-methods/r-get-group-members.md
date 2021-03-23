@@ -4,13 +4,14 @@ seo-description: 获取属于特定公司和组的用户。
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 15%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
 | `*`groupHandle`*` | `xsd:string` |  | 组的句柄。 |
 
 **输出(getGroupMembersReturn)**
@@ -44,7 +45,7 @@ ht-degree: 16%
 
 ## 示例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-此代码示例返回包含属于特定组的所有用户的用户句柄数组。
+此代码示例返回一个用户句柄数组，其中包含属于特定组的所有用户。
 
 **请求**
 
