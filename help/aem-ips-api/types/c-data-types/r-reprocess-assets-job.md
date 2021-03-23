@@ -1,15 +1,16 @@
 ---
 description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
 seo-description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
-seo-title: 重新处理AssetsJob
+seo-title: ReprocessAssetsJob
 solution: Experience Manager
-title: 重新处理AssetsJob
-topic: Dynamic Media Image Production System API
+title: ReprocessAssetsJob
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '491'
 ht-degree: 5%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>控制在覆盖时是否保留现有资产的发布状态。 如果未设置，则使用公司默认设置。 </p> </td> 
+   <td colname="col3"> <p>控制在覆盖时是否保留现有资源的发布状态。 如果未设置，则使用公司默认设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -55,7 +56,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应值，则无论preserveCrop值如何，新值（不包括0,0,0,0）都将应用于资产。</p><p>如果<i>不</i>提供manualCropOptions参数，则保留Crop的值。 并且，如果为true，则保留现有的preserveCrop值；如果为false，则删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt; 190&lt;/left&gt;<br />    &lt;right&gt; 310&lt;/right&gt;<br />    &lt;top&gt; 160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应的值，则无论preserveCrop值如何，新值（不包括0,0,0）都将应用于资产。</p><p>如果<i>不</i>提供manualCropOptions参数，则保留preserveCrop的值。 并且，如果为true，则保留现有preserveCrop值；如果为false，则删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt; 190&lt;/left&gt;<br />    &lt;right&gt; 310&lt;/right&gt;<br />    &lt;top&gt; 160&lt;/top&gt;<br />    &lt;bottom&gt; 120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -65,17 +66,17 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>基于颜色的图像自动裁剪选项。 </p> </td> 
+   <td colname="col3"> <p>用于自动裁剪基于颜色的图像的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AutoTransparentCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：AutoTransparentCropOptions</span> </p> </td> 
    <td colname="col3"> <p>根据透明度从图像边缘删除空白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>将Photoshop文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将Photoshop文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
@@ -85,7 +86,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdf选项</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>将PDF文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将PDF文件上载到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -95,12 +96,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>将Illustrator文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将Illustrator文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:ColorManagementOptions</span> </p> </td> 
-   <td colname="col3"> <p>上传过程中可以指定的选项。 该设置会影响上传颜色的管理方式。 </p> </td> 
+   <td colname="col3"> <p>可在上载过程中指定的选项。 该设置会影响对上载的颜色的管理方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
@@ -125,12 +126,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>文件上传位置的URL。 </p> </td> 
+   <td colname="col3"> <p>文件上载位置的URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>要在上载完成后运行的图像服务发布作业的作业详细信息。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：ImageServingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>上载完成后要运行的图像服务发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
@@ -139,7 +140,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:VideoPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：VideoPublishJob</span> </p> </td> 
    <td colname="col3"> <p>要在上载完成后运行的视频发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
@@ -149,13 +150,13 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoudBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> usmsharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:USMsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：USMsharpMaskOptions</span> </p> </td> 
+   <td colname="col3"> <p>用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
