@@ -1,23 +1,24 @@
 ---
-description: PDF设置文件资产的属性。
-seo-description: PDF设置文件资产的属性。
+description: PDF设置文件资源的属性。
+seo-description: PDF设置文件资源的属性。
 seo-title: PdfSettingsInfo
 solution: Experience Manager
 title: PdfSettingsInfo
-topic: Dynamic Media Image Production System API
 uuid: abbcf82d-5b6e-4f2c-8940-88ea8651aa40
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 21%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
 
 # PdfSettingsInfo{#pdfsettingsinfo}
 
-PDF设置文件资产的属性。
+PDF设置文件资源的属性。
 
 语法
 
