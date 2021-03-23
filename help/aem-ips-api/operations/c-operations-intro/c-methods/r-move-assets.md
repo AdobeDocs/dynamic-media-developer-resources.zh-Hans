@@ -1,23 +1,24 @@
 ---
-description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型实现此操作。 每个AssetMove字段都包含一个目标文件夹。
-seo-description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型实现此操作。 每个AssetMove字段都包含一个目标文件夹。
+description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
+seo-description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 10%
 
 ---
 
 
 # moveAssets{#moveassets}
 
-分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型实现此操作。 每个AssetMove字段都包含一个目标文件夹。
+分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
 
 语法
 
@@ -36,8 +37,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要移动资产的公司的句柄。 |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 资产移动阵列。 它包含一个资产和一个资产目标文件夹。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要移动资产的公司的处理。 |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | 是 | 资产移动数组。 它包含一个资产和一个资产目标文件夹。 |
 
 **输出(moveAssetsReturn)**
 
@@ -77,7 +78,7 @@ ht-degree: 11%
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">引发警告的资产。 </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">警告代码。 </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告的理由。 </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告的原因。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -96,7 +97,7 @@ ht-degree: 11%
 
 ## 示例 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-此代码示例将资产移动到由`assetMoveArray`指定的特定位置。 阵列包括资产句柄及其文件夹句柄。 响应表示资产移动成功。
+此代码示例将资产移动到由`assetMoveArray`指定的特定位置。 数组包括资产句柄及其文件夹句柄。 响应指示资产已成功移动。
 
 **请求**
 
