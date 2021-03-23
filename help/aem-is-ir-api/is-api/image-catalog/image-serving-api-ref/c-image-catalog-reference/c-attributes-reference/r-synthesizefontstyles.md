@@ -1,27 +1,28 @@
 ---
-description: 启用合成字体变化。 控制如果请求了该样式但在字体映射中找不到，服务器是否应生成错误响应或合成粗体、斜体或粗体／斜体字体样式。
-seo-description: 启用合成字体变化。 控制如果请求了该样式但在字体映射中找不到，服务器是否应生成错误响应或合成粗体、斜体或粗体／斜体字体样式。
-seo-title: SynthesingFontStyles
+description: 启用合成字体变量。 控制如果请求了某种样式，但在字体映射中找不到该样式，则服务器是否应生成错误响应或合成粗体、斜体或粗体/斜体字体样式。
+seo-description: 启用合成字体变量。 控制如果请求了某种样式，但在字体映射中找不到该样式，则服务器是否应生成错误响应或合成粗体、斜体或粗体/斜体字体样式。
+seo-title: SynthesizeFontStyles
 solution: Experience Manager
-title: SynthesingFontStyles
-topic: Dynamic Media Image Serving - Image Rendering API
+title: SynthesizeFontStyles
 uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
 
-# SynthesinateFontStyles{#synthesizefontstyles}
+# SynthesizeFontStyles{#synthesizefontstyles}
 
-启用合成字体变化。 控制如果请求了该样式但在字体映射中找不到，服务器是否应生成错误响应或合成粗体、斜体或粗体／斜体字体样式。
+启用合成字体变量。 控制如果请求了某种样式，但在字体映射中找不到该样式，则服务器是否应生成错误响应或合成粗体、斜体或粗体/斜体字体样式。
 
 >[!NOTE]
 >
->合成字体样式通常会导致渲染质量低于使用实际字体来呈现此类样式。
+>合成字体样式通常会导致此类样式的渲染质量低于使用实际字体。
 
 ## 属性 {#section-3205560a74774ebf9c916b07bd15aca6}
 
