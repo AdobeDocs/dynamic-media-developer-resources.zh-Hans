@@ -1,20 +1,21 @@
 ---
-description: 向现有标记字段的字典添加新标记值。
+description: 向现有标记字段的词典中添加新标记值。
 solution: Experience Manager
 title: addTagFieldValues
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 13%
 
 ---
 
 
 # addTagFieldValues{#addtagfieldvalues}
 
-向现有标记字段的字典添加新标记值。
+向现有标记字段的词典中添加新标记值。
 
 语法
 
@@ -26,13 +27,13 @@ ht-degree: 14%
 
 ## 参数 {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**输入(addTagFieldValuesParam)**
+**Input(addTagFieldValuesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含标签字段的公司的句柄。 |
 | `*`fieldHandle`*` | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
-| `*`valueArray`*` | `xsd:string` | 是 | 要添加到字段现有词典的标记值的数组。 |
+| `*`valueArray`*` | `xsd:string` | 是 | 要添加到字段现有词典的标记值数组。 |
 
 **输出(addTagFieldValuesParam)**
 
