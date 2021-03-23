@@ -4,12 +4,13 @@ seo-description: 更新晕影发布格式设置。
 seo-title: updateVignettePublishFormat
 solution: Experience Manager
 title: updateVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '448'
 ht-degree: 20%
 
 ---
@@ -35,16 +36,16 @@ ht-degree: 20%
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
 | `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 发布格式句柄。 |
 | `*`name`*` | `xsd:string` | 否 | 发布格式名称。 |
-| `*`targetWidth`*` | `xsd:int` | 是 | 指定生成暗角目标的视图宽度（以像素为单位）。 使用零，使输出暗角与主暗角大小相同。 |
-| `*`targetHeight`*` | `xsd:int` | 是 | 指定生成暗角目标的视图高度（以像素为单位）。 使用零，使输出暗角与主暗角大小相同。 |
+| `*`targetWidth`*` | `xsd:int` | 是 | 指定生成的晕影目标的视图宽度（以像素为单位）。 使用零，使输出暗角与主暗角大小相同。 |
+| `*`targetHeight`*` | `xsd:int` | 是 | 指定所得晕影视图的目标高度（以像素为单位）。 使用零，使输出暗角与主暗角大小相同。 |
 | `*`createPyramid`*` | `xsd:boolean` | 是 | 创建为图像渲染服务器上的缩放而优化的金字塔晕影。从通过“目标晕影大小”字段设置的最大大小开始，在单个晕影输出文件中创建多个大小的视图。每个后续视图大小都减半直到宽度和高度在 128x128 像素以内。 |
-| `*`缩略图宽度`*` | `xsd:int` | 是 | 指定每个生成缩略图的宽度（以像素为单位）。此设置为可选设置。 保留为零表示没有缩略图文件。 |
-| `*`saveAsVersion`*` | `xsd:int` | 是 | 指定已发布晕影的文件格式。 如果具有新版本的图像创作和旧版本的图像渲染服务器，则必须指定ImageRendering Server可以读取的暗角版本。 如果指定更高版本，图像渲染服务器将无法读取已发布的晕影。 设置为零即可在最新版本发布晕影。 |
+| `*`thumbWidth`*` | `xsd:int` | 是 | 指定每个生成缩略图的宽度（以像素为单位）。此设置是可选的。 不将缩览图文件保留为零。 |
+| `*`saveAsVersion`*` | `xsd:int` | 是 | 指定已发布的晕影的文件格式。 如果具有新版本的图像创作和旧版本的图像渲染服务器，则必须指定ImageRendering Server可以读取的晕影版本。 如果指定更高版本，图像渲染服务器将无法读取已发布的晕影。 设置为零即可在最新版本中发布晕影。 |
 | `*`sizeSuffixSeparator`*` | `xsd:string` | 是 | 指定用于分隔晕影名称和后缀（用于指示其宽度）的字符。 |
-| `*`锐化`*` | `xsd:int` | 否 | 对每个发布暗角大小的主视图图像应用锐化。缩放晕影时，锐化可以补偿模糊。 |
-| `*`usmAmount`*` | `xsd:double` | 是 | 数字USM锐化是一种灵活、强大的方法，可提高清晰度，尤其是在扫描的图像中。 这控制每个超调量的大小（边框变暗和变亮的程度）。 |
-| `*`usmRadius`*` | `xsd:double` | 是 | 影响要增强的边的大小或边缘边缘的宽度，因此较小的半径可增强较小的细节。 半径值越大，边缘处的光晕就越多。 细小细节需要半径较小，因为大小相同或小于半径的细小细节会丢失。 |
-| `*`usmThreshold`*` | `xsd:int` | 是 | 控制要锐化的最小亮度更改或相邻色调值在滤镜工作之前必须相距多远。 此设置可锐化更锐化的边缘，同时保留更细微的边缘。 允许的阈值范围是0到255。 |
+| `*`锐化`*` | `xsd:int` | 否 | 对每个发布晕影大小的主视图图像应用锐化。缩放晕影时，锐化可以补偿模糊。 |
+| `*`usmAmount`*` | `xsd:double` | 是 | 数字USM锐化是一种灵活而强大的方法，可提高锐度，尤其是在扫描的图像中。 这控制每个超调的幅度（边框变暗和变亮的程度）。 |
+| `*`usmRadius`*` | `xsd:double` | 是 | 影响要增强的边缘的大小或边缘边缘的宽度，因此，半径越小，细节越小。 半径值越大，边缘处的光晕越多。 细小的细节需要较小的半径，因为大小相同或小于半径的微小细节会丢失。 |
+| `*`usmThreshold`*` | `xsd:int` | 是 | 控制要锐化的最小亮度更改或相邻色调值在滤镜工作之前必须相隔的距离。 此设置可锐化更锐化的边缘，同时保持更细微的边缘不变。 阈值的允许范围是0到255。 |
 
 **输出(updateVignettePublishFormatReturn)**
 
@@ -54,7 +55,7 @@ ht-degree: 20%
 
 ## 示例 {#section-fcba4bf2b7264786a676e315a35dbe43}
 
-此代码示例更新了暗角发布格式，并将句柄返回到更新的格式。
+此代码示例更新晕影发布格式并将句柄返回到更新的格式。
 
 **请求**
 
