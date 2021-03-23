@@ -2,13 +2,14 @@
 description: ZoomView.frametransition
 solution: Experience Manager
 title: ZoomView.frametransition
-topic: Dynamic Media
 uuid: 28e283ca-51d8-4d6c-9b8a-d16da21f4da1
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 5%
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无|淡入淡出|幻灯片  </span> </p> </td> 
-   <td colname="col2"> <p>指定对帧更改应用的效果的类型。 <span class="codeph"> “无 </span> ”表示没有过渡；帧更改会立即发生。<span class="codeph"> 淡 </span> 入淡出意味着新旧帧之间的交叉淡入淡出过渡。<span class="codeph"> 幻灯 </span> 片可激活旧框架滑出视图和新框架滑入的过渡。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|淡入|幻灯片  </span> </p> </td> 
+   <td colname="col2"> <p>指定对帧更改应用的效果的类型。 <span class="codeph"> none表 </span> 示没有过渡；帧更改会立即发生。<span class="codeph"> 淡 </span> 入淡出意味着新旧帧之间的交叉淡入淡出过渡。<span class="codeph"> slide </span> 激活旧帧滑出视图和新帧滑入的过渡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持续时间  </span> </span> </p> </td> 
@@ -29,7 +30,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 间距  </span> </span> </p> </td> 
-   <td colname="col2"> <p>在<span class="codeph">幻灯片</span>过渡中相邻帧之间的间距具有<span class="codeph"> 0 </span>和<span class="codeph"> 1 </span>之间的范围，并且与组件的宽度相关。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph">幻灯片</span>过渡中相邻帧之间的间距在<span class="codeph"> 0 </span>和<span class="codeph"> 1 </span>之间，并且与组件的宽度相关。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
