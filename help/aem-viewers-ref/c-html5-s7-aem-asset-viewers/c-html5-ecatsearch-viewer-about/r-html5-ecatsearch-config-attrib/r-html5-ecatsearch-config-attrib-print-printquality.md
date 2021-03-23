@@ -2,13 +2,14 @@
 description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
-topic: Dynamic Media
 uuid: 5ed92338-d6d4-4f59-b2b9-5c0caceef6a4
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 33%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
