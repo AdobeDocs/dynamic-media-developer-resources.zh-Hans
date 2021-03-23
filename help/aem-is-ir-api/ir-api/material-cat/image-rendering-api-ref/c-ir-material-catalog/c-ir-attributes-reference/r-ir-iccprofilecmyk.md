@@ -1,15 +1,16 @@
 ---
-description: CMYK默认色彩空间。 指定在未用icc=指定输出色彩空间时用于灰度响应图像的ICC颜色用户档案的名称。
-seo-description: CMYK默认色彩空间。 指定在未用icc=指定输出色彩空间时用于灰度响应图像的ICC颜色用户档案的名称。
+description: CMYK默认色彩空间。 指定在未指定icc=输出色彩空间时用于灰度响应图像的ICC色彩用户档案的名称。
+seo-description: CMYK默认色彩空间。 指定在未指定icc=输出色彩空间时用于灰度响应图像的ICC色彩用户档案的名称。
 seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-CMYK默认色彩空间。 指定在未用icc=指定输出色彩空间时用于灰度响应图像的ICC颜色用户档案的名称。
+CMYK默认色彩空间。 指定在未指定icc=输出色彩空间时用于灰度响应图像的ICC色彩用户档案的名称。
 
 ## 属性 {#section-849678b272954bdcb236f49aa54f1609}
 
-文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或者是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是CMYK用户档案。
+文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是CMYK用户档案。
 
 ## 默认 {#section-55026b7454af4d868bcb47f7743c9c5b}
 
