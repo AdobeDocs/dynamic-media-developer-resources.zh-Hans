@@ -4,13 +4,14 @@ seo-description: 使用以下命令对字符进行编码。
 seo-title: 字符编码
 solution: Experience Manager
 title: 字符编码
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b19b831-b40c-4f26-83a4-732c578dbbf0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
    <td> <p>单个8位字符。 </p> </td> 
-   <td> <p><span class="varname"> 该</span> 值必须是2位数的十六进制值。 </p> </td> 
+   <td> <p><span class="varname"> </span> hh必须是2位十六进制值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
@@ -44,18 +45,18 @@ ht-degree: 2%
    <td> <p>与给定的Unicode字符对应的字节数。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \loch  </span> </td> 
+   <td> <span class="codeph"> \loc  </span> </td> 
    <td> <p>下面是低ANSI区域的字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \hc  </span> </td> 
-   <td> <p>高ANSI区域的字符后面是。 </p> </td> 
+   <td> <span class="codeph"> \h  </span> </td> 
+   <td> <p>高ANSI区域的字符如下。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch  </span> </td> 
-   <td> <p>多次字节字符后面是。 </p> </td> 
+   <td> <p>多次字节字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
