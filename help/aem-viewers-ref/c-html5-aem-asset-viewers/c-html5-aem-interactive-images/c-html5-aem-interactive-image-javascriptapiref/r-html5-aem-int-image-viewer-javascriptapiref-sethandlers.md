@@ -4,13 +4,14 @@ seo-description: Interactive Image Viewer的JavaScript API参考
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: 93db9c88-890e-4be8-b82f-d15978a0cfac
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Interactive Image Viewer的JavaScript API参考
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 处理程序  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} JSON </span> 对象，查看器事件回调。属性名称是支持的查看器事件的名称。 属性值是对相应回调的JavaScript函数引用。 </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回调</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} JSON对 </span> 象，查看器事件回调。属性名称是支持的查看器事件的名称。 属性值是对相应回调的JavaScript函数引用。 </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回调</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
