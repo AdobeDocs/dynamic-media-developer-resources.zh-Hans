@@ -4,12 +4,13 @@ seo-description: 获取与特定公司关联的资产和资产数量。
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '164'
 ht-degree: 9%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 9%
 
 获取与特定公司关联的资产和资产数量。
 
-返回的`countArray`由`assetTypes`（数据类型`xsd:string`）的数组组成，每个数组都有自己的计数字段（数据类型`xsd:int`），允许每个数组元素表示多个资产类型。
+返回的`countArray`由`assetTypes`（数据类型`xsd:string`）的数组组成，每个数组都有自己的计数字段（数据类型`xsd:int`），允许每个数组元素表示多个资源类型。
 语法
 
 ## 授权用户类型{#section-6234754722184e828352f10eb18fbce9}
@@ -46,7 +47,7 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型都有自己的计数字段，允许每个资产类型的元素表示多个资产类型。 |
+| `*`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型都有其自己的计数字段，允许对数组中每个元素表示多个资产类型。 |
 
 ## 示例 {#section-6052a503eb3843f6adb99e200fdba280}
 
