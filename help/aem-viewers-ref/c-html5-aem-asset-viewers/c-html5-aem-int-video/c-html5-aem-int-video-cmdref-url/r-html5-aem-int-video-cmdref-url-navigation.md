@@ -1,23 +1,24 @@
 ---
-description: 交互式视频查看器的URL命令。
-seo-description: 交互式视频查看器的URL命令。
+description: 用于交互式视频查看器的URL命令。
+seo-description: 用于交互式视频查看器的URL命令。
 seo-title: 导航
 solution: Experience Manager
 title: 导航
-topic: Dynamic Media
 uuid: eecc7458-153c-4f36-b29e-97451f275c0c
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '73'
+ht-degree: 12%
 
 ---
 
 
 # 导航{#navigation}
 
-交互式视频查看器的URL命令。
+用于交互式视频查看器的URL命令。
 
 ` navigation= *`文件`*`
 
