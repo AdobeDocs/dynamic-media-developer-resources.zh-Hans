@@ -4,13 +4,14 @@ seo-description: 文件夹层次结构中的对象或容器。
 seo-title: 资源
 solution: Experience Manager
 title: 资源
-topic: Dynamic Media Image Production System API
 uuid: 758ac593-98d8-4366-a723-a06435c7fd3c
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 8%
+source-wordcount: '454'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> animatedGifInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> 有关动画GIF文件的详细信息。 </td> 
+   <td colname="col3"> 有关GIF动画文件的详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -55,7 +56,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cabinetInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:CabinetInfo</span> </td> 
-   <td colname="col3"> 文件柜资产类型的属性。 </td> 
+   <td colname="col3"> 文件柜资源类型的属性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 已创建</span> </span> </td> 
@@ -85,7 +86,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">返回虚拟文件名。 完整的虚拟文件路径为<span class="codeph">文件夹</span>+<span class="codeph"> fileName</span>。 </td> 
+   <td colname="col3">返回虚拟文件名。 完整的虚拟文件路径为<span class="codeph"> folder</span>+<span class="codeph"> fileName</span>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> flashInfo</span> </span> </td> 
@@ -110,7 +111,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> iccProfileInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:IccProfileInfo</span> </td> 
-   <td colname="col3"> ICC用户档案资产的属性。 </td> 
+   <td colname="col3"> ICC用户档案资源的属性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorInfo</span> </span> </td> 
@@ -119,7 +120,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ImageInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageInfo</span> </td> 
    <td colname="col3"> 图像资产的属性。 </td> 
   </tr> 
   <tr> 
@@ -140,7 +141,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastModified</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 上次修改资产的日期和时间。 </td> 
+   <td colname="col3"> 资产的上次修改日期和时间。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastModifyUser</span> </span> </td> 
@@ -150,7 +151,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerViewInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:LayerViewInfo</span> </td> 
-   <td colname="col3"> 图层视图资产的属性。 </td> 
+   <td colname="col3"> 图层视图资源的属性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskInfo</span> </span> </td> 
@@ -164,7 +165,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:MetadataArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：MetadataArray</span> </td> 
    <td colname="col3"> 与资产关联的元数据值的数组。 </td> 
   </tr> 
   <tr> 
@@ -180,7 +181,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfSettingsInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> PDF设置资产的属性。 </td> 
+   <td colname="col3"> PDF设置资源的属性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 权限</span> </span> </td> 
@@ -248,9 +249,9 @@ ht-degree: 8%
    <td colname="col3"> 模板资产的属性。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 垃圾状态</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 指示资产是在垃圾桶中还是处于实时状态（有关值，请参阅“垃圾桶状态”）。 </td> 
+   <td colname="col3"> 指示资源是位于垃圾桶中还是处于实时状态（有关值，请参阅“垃圾桶状态”）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 类型</span> </span> </td> 
@@ -274,13 +275,13 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerSwfInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ViewerSwfInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ViewerSwfInfo</span> </td> 
    <td colname="col3"> 查看器SWf资源的属性。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 暗角信息</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：暗角信息</span> </td> 
-   <td colname="col3"> 暗角资产的属性。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> vignetteInfo</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：晕影信息</span> </td> 
+   <td colname="col3"> 晕影资产的属性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> watermarkInfo</span> </span> </td> 
