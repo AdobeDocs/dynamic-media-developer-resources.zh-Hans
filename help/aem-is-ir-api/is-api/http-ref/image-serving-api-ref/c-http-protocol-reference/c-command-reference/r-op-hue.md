@@ -4,12 +4,13 @@ seo-description: 调整色相。 将图层或复合图像的每个可见像素�
 seo-title: op_hue
 solution: Experience Manager
 title: op_hue
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
@@ -24,11 +25,11 @@ ht-degree: 1%
 <table id="simpletable_7DC7ABA384664BDDAA65B8DEEF7859A8"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>以度为单位的色相调整(-180...+180 int)。 </p></td> 
+  <td class="stentry"> <p>色相调整(-180...+180 int)。 </p></td> 
  </tr> 
 </table>
 
-基于360度色调范围。
+基于360度色相范围。
 
 ## 属性 {#section-55779644700b4c808a624cdf5a04447e}
 
@@ -36,4 +37,4 @@ ht-degree: 1%
 
 ## 默认 {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`，以保持色调不变。
+`op_hue=0`，以保持色相不变。
