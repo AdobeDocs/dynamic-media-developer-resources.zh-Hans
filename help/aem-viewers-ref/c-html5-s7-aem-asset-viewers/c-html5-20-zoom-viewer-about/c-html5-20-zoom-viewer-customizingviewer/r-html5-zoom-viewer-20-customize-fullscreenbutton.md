@@ -1,15 +1,16 @@
 ---
-description: 使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则此按钮不显示。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则此按钮不显示。 您可以使用CSS调整此按钮的大小、外观和位置。
+description: 使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
+seo-description: 使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
 seo-title: 全屏按钮
 solution: Experience Manager
 title: 全屏按钮
-topic: Dynamic Media
 uuid: 58bea34f-357e-4d9b-a22d-7d0f177d8215
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 全屏按钮{#full-screen-button}
 
-使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则此按钮不显示。 您可以使用CSS调整此按钮的大小、外观和位置。
+使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,15 +44,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从右边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从右边框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从左边框开始的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从左边框开始的位置，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从底部边框开始的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从底边框中的位置，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -67,7 +68,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +79,7 @@ ht-degree: 2%
 
 按钮工具提示可以本地化。 请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个32 x 32像素的全屏按钮，该按钮距查看器的上边缘和右边缘有6个像素，在选择或未选择四个不同的按钮状态中的每个状态时显示一幅不同的图像：
+示例 — 设置一个32 x 32像素的全屏按钮，将查看器的上边缘和右边缘定位为6个像素，并在选择或未选择时，为四个不同按钮状态中的每个状态显示一个不同的图像：
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 
