@@ -4,12 +4,13 @@ seo-description: “添加收藏夹”按钮的位置完全由“收藏夹”菜
 seo-title: “添加收藏夹”按钮
 solution: Experience Manager
 title: “添加收藏夹”按钮
-topic: Dynamic Media
 uuid: 0e2f7187-d5a9-42a4-b918-e4782d62be6c
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -52,11 +53,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此按钮支持`state`和`selected`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别是，`selected='true'`与用户通过单击或点按添加新的“收藏夹”图标时的状态相对应。 `selected='false'` 对应于用户可缩放、平移和交换页面时的正常操作模式。
+>此按钮支持`state`和`selected`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别是，`selected='true'`对应于用户通过单击或点按可添加新的“收藏”图标时的状态。 `selected='false'` 对应于用户可缩放、平移和交换页面时的正常操作模式。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个28 x 28像素的“添加收藏夹”按钮，并在选择或未选择四个不同按钮状态中的每个状态时显示不同的图像。
+示例 — 设置一个28 x 28像素的“添加收藏夹”按钮，并在选中或未选中时，为四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton { 
