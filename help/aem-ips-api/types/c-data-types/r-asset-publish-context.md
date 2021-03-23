@@ -1,23 +1,24 @@
 ---
-description: 将资产映射到将资产标记为发布的PublishContexts。
-seo-description: 将资产映射到将资产标记为发布的PublishContexts。
-seo-title: 资产发布上下文
+description: 将资产映射到将资产标记为发布的PublishContext。
+seo-description: 将资产映射到将资产标记为发布的PublishContext。
+seo-title: AssetPublishContexts
 solution: Experience Manager
-title: 资产发布上下文
-topic: Dynamic Media Image Production System API
+title: AssetPublishContexts
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
 
 # AssetPublishContexts{#assetpublishcontexts}
 
-将资产映射到将资产标记为发布的PublishContexts。
+将资产映射到将资产标记为发布的PublishContext。
 
 语法
 
@@ -26,5 +27,5 @@ ht-degree: 7%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 处理资产。 |
-| `*`publishContextArray`*` | `types:PublishContextArray` | 一组发布上下文，其中资产被标记为发布。 |
+| `*`publishContextArray`*` | `types:PublishContextArray` | 一组发布上下文，其中资产被标记为要发布。 |
 
