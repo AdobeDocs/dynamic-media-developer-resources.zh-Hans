@@ -4,13 +4,14 @@ seo-description: 由searchAssetsParam/sortBy使用。
 seo-title: 资产排序字段
 solution: Experience Manager
 title: 资产排序字段
-topic: Dynamic Media Image Production System API
 uuid: d7db11e4-3acf-457d-9708-64167fbea899
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
