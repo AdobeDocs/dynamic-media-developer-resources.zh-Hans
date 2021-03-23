@@ -1,15 +1,16 @@
 ---
-description: 在桌面系统上，一些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
-seo-description: 在桌面系统上，一些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
+description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
+seo-description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
 seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-topic: Dynamic Media
 uuid: 37ce59fe-f1f5-4226-af2e-5183ea8b7647
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '167'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # 工具提示{#tooltips}
 
-在桌面系统上，一些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
+在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -46,7 +47,7 @@ ht-degree: 5%
    <td colname="col2"> <p> 背景边框颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 背景颜色. </p> </td> 
   </tr> 
   <tr> 
@@ -54,11 +55,11 @@ ht-degree: 5%
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>文本字体名称. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>文本字体大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +69,7 @@ ht-degree: 5%
 >
 >如果工具提示样式是从嵌入网页中自定义的，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则不必这样做。
 
-示例——要设置工具提示，其中灰色边框具有三个像素圆角半径、黑色背景和以Arial、11像素表示的白色文本：
+示例 — 要设置工具提示，这些工具提示的灰色边框以Arial、11像素的三个像素角半径、黑色背景和白色文本为：
 
 ```
 .s7tooltip { 
