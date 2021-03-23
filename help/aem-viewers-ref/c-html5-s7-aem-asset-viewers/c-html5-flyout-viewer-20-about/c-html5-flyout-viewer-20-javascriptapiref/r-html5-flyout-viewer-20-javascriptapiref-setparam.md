@@ -4,12 +4,13 @@ seo-description: 弹出查看器的JavaScript API参考。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 0c2deb6c-f40f-47e5-a1ef-f5eb5db6ee06
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 2%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 弹出查看器的JavaScript API参考。
 
-` setParam( *`名称、值`*)`
+` setParam( *`name， value`*)`
 
-将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修改程序。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修饰符。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
 
@@ -29,11 +30,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名称  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 参数的{ </span> string}名称。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}参 </span> 数的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能进行百分比编码。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能以百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
