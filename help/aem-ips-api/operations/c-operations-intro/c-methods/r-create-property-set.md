@@ -1,15 +1,16 @@
 ---
-description: 属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
-seo-description: 属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+description: 属性集是特定于应用程序的名称 — 值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+seo-description: 属性集是特定于应用程序的名称 — 值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '283'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # createPropertySet{#createpropertyset}
 
-属性集是特定于应用程序的名称——值对集，可以附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
+属性集是特定于应用程序的名称 — 值对集，可附加到各种IPS对象，具体取决于属性集类型。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且该对象已具有相同类型的关联集，则新集将替换现有集。
 
 语法
 
@@ -30,7 +31,7 @@ ht-degree: 6%
 
 ## 参数 {#section-25258e75f5f3419bad165c797eb6cd8e}
 
-**输入(createPropertySetParam)**
+**Input(createPropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -48,7 +49,7 @@ ht-degree: 6%
 
 ## 示例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-此代码示例创建一个属性集，其中包含属性的名称和值。 该响应将返回新属性集的句柄。
+此代码示例创建一个属性集，其中包含属性的名称和值。 响应将返回新属性集的句柄。
 
 **请求**
 
