@@ -4,12 +4,13 @@ seo-description: 创建包含要发布到图像服务器的原始集定义字符
 seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-topic: Dynamic Media Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 9%
 
 ---
@@ -66,46 +67,46 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 客户端为资产集类型创建的唯一标识符。 </td> 
+   <td colname="col4"> 由客户端为资产集类型创建的唯一标识符。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 设置定义字符串中的参数。 <p>必须解析为目标查看器指定的格式。 </p> </td> 
+   <td colname="col4"> 设置定义字符串中的参数。 <p>这些格式必须解析为目标查看器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 用作新图像集的缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资产。 </td> 
+   <td colname="col4"> 用作新图像集缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资源。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **setDefinition的替换函数**
 
-可以在目录查找或发布期间解析的行中指定替代函数。 替换字符串的格式为`${<substitution_func>}`。 可用函数列举如下。
+您可以在目录查找或发布期间解析的行中指定替代函数。 替换字符串的格式为`${<substitution_func>}`。 下面列举了可用函数。
 
 >[!NOTE]
 >
->参数列表中的句柄文字必须用括号`([])`括起来。 分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
+>参数列表中的句柄文本必须用括号`([])`括起来。 分辨率期间，替换字符串外的所有文本将逐字复制到输出字符串。
 
 | **替换函数** | **退货** |
 |---|---|
 | `getFilePath([asset_handle>])` | 资产的主源文件路径。 |
 | `getCatalogId([<asset_handle>])` | 资产的目录ID。 |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 资产的元数据值。 |
-| `getThumbCatalogId([<asset_handle>])` | 资产的目录ID（仅适用于基于图像的资产）。关联的缩略图资产的目录ID（适用于其他资产）。 如果关联的缩略图资产不可用，该函数将返回空字符串。 |
+| `getThumbCatalogId([<asset_handle>])` | 资产的目录ID（仅适用于基于图像的资产）。关联的缩略图资产的目录ID（适用于其他资产）。 如果关联的缩略图资源不可用，该函数将返回一个空字符串。 |
 
-**示例媒体setDefinition字符串**
+**媒体集定义字符串示例**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-在目录查找或发布时，它解析为类似于以下内容的字符串：
+在目录查找或发布时，会将此解析为类似于以下内容的字符串：
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
