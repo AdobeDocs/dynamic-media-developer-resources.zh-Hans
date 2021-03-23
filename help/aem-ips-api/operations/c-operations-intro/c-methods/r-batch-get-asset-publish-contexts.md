@@ -1,20 +1,21 @@
 ---
-description: 返回标记为要发布的资产的发布上下文。
+description: 返回标记为发布的资产的发布上下文。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-返回标记为要发布的资产的发布上下文。
+返回标记为发布的资产的发布上下文。
 
 语法
 
@@ -46,7 +47,7 @@ ht-degree: 16%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要列表为活动（标记为发布）上下文的资产的查询。 |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要查询的活动（标记为发布）上下文的资产列表。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 
