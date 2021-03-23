@@ -2,13 +2,14 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-topic: Dynamic Media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何时显示信息面板。 </p> <p>如果设置为<span class="codeph"> 1</span>，则当鼠标进入图像映射区域时，将显示“信息”面板（如果图像映射为非空，则显示<span class="codeph"> rollover_key</span>属性）。 </p> <p>如果设置为<span class="codeph"> 0</span>信息面板是在单击图像映射时触发的（如果图像映射具有非空的<span class="codeph"> rollover_key</span>和空的<span class="codeph"> href</span>属性）。 </p> <p> 在触控设备（包括支持触控的桌面系统）上忽略，并自动设置为<span class="codeph"> 0</span>。 </p> </td> 
+   <td colname="col2"> <p>指定何时显示“信息”面板。 </p> <p>如果设置为<span class="codeph"> 1</span>，则当鼠标进入图像映射区域时，将显示“信息”面板（如果图像映射为非空，则显示<span class="codeph"> rollover_key</span>属性）。 </p> <p>如果设置为<span class="codeph"> 0</span>信息面板是在单击图像映射时触发的（如果图像映射具有非空的<span class="codeph"> rollover_key</span>和空的<span class="codeph"> href</span>属性）。 </p> <p> 在触控设备（包括支持触控的桌面系统）上忽略，并自动设置为<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
