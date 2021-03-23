@@ -1,13 +1,14 @@
 ---
 description: 介绍IPS API版本6的新类型和更改的类型。
 solution: Experience Manager
-title: 数据类型新增和修改
-topic: Dynamic Media Image Production System API
+title: 数据类型新建和修改
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -40,13 +41,13 @@ ht-degree: 4%
 
 **增加了**
 
-* 将`numUrls`添加到`UploadUrlsJob`。
+* 已将`numUrls`添加到`UploadUrlsJob`。
 
 * 将`fileName`添加到`Asset.`
 
-* 将`isHidden`添加到`MetadataField`。
+* 已将`isHidden`添加到`MetadataField`。
 
-* 将`taskState`添加到`TaskProgress`。
+* 已将`taskState`添加到`TaskProgress`。
 
 * 将`exportJob`添加到`ActiveJob`和`ScheduledJob`。
 
