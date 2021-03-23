@@ -4,12 +4,13 @@ seo-description: 替换变量用于将值从请求URL传输到存储在服务器
 seo-title: 替换变量
 solution: Experience Manager
 title: 替换变量
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,6 @@ ht-degree: 0%
 
 * 变量定义和引用可能发生在请求URL的查询部分。
 * 变量定义如上，与其他IS命令类似；前导“$”将命令标识为变量定义。
-* 变量名`*`var`*`区分大小写，可能由字母、数字、“-”和“_”的任意组合组成。
-* 重要值必须采用单遍URL编码，才能进行安全HTTP传输。
+* 变量名`*`var`*`区分大小写，可能由字母、数字、“ — ”和“_”的任意组合组成。
+* 重要值必须采用单次URL编码，才能进行安全HTTP传输。
 
