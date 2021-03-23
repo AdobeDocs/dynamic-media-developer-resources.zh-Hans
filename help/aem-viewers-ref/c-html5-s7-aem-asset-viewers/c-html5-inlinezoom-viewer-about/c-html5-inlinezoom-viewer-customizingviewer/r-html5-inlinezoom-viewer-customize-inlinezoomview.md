@@ -4,13 +4,14 @@ seo-description: 主视图包括静态图像、在静态图像顶部的弹出视
 seo-title: 弹出缩放视图
 solution: Experience Manager
 title: 弹出缩放视图
-topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '302'
+ht-degree: 2%
 
 ---
 
@@ -38,13 +39,13 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主视图透明：
+示例 — 使主视图透明：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -79,19 +80,19 @@ ht-degree: 3%
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>消息文本的边距。 </p> </td> 
+   <td colname="col2"> <p>在消息文本周围填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景填充颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,17 +100,17 @@ ht-degree: 3%
    <td colname="col2"> <p>消息文本的背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>对于Internet Explorer 8，请使用<span class="codeph">滤镜：alpha(opacity-...))</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示消息可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
+提示消息可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
 
 。
 
-示例——要设置半透明提示消息，其中带有白色的Arial 12px字体，距主视图底部50像素偏移，填充和圆边：
+示例 — 设置半透明提示消息，其字体为白色的Arial 12px字体，距主视图底部50像素偏移，边距和圆角边框：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
