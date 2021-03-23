@@ -4,18 +4,19 @@ seo-description: 为与setAssetMetadata一起使用的特定资产设置元数�
 seo-title: 元数据更新
 solution: Experience Manager
 title: 元数据更新
-topic: Dynamic Media Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
 
 
-# 元数据更新{#metadataupdate}
+# MetadataUpdate{#metadataupdate}
 
 为与setAssetMetadata一起使用的特定资产设置元数据值。 描述您要对元数据所做的更改。
 
@@ -47,17 +48,17 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 布尔元数据值（仅适用于布尔类型字段）。 </td> 
+   <td colname="col3"> Boolean元数据值（仅用于Boolean类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 长元数据值（仅适用于int类型字段）。 </td> 
+   <td colname="col3"> 长元数据值（仅适用于int-typed字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 多次元数据值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col3"> 多次元数据值（仅适用于浮动类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
@@ -70,7 +71,7 @@ ht-degree: 4%
    <td colname="col3"> <p>添加到资产的现有标记值列表。 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">单值标记字段仅存储最后一个值。 </li> 
-      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">如果值不在字典中，则固定字典标签字段返回错误。 </li> 
+      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">如果值不在词典中，则固定词典标记字段返回错误。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -79,13 +80,13 @@ ht-degree: 4%
    <td colname="col3">替换资产的现有标记值列表。 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">单值标记字段仅存储最后一个值。 </li> 
-     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">如果值不在字典中，则固定字典标签字段返回错误。 </li> 
+     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">如果值不在词典中，则固定词典标记字段返回错误。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
-   <td colname="col3"> 从资产的标记值列表删除指定值（如果存在）。 </td> 
+   <td colname="col3"> 从资产的标记值列表（如果存在）中删除指定的值。 </td> 
   </tr> 
  </tbody> 
 </table>
