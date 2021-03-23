@@ -1,23 +1,24 @@
 ---
-description: 返回给定图像的Photoshop路径名称数组。
-seo-description: 返回给定图像的Photoshop路径名称数组。
+description: 返回给定图像的Photoshop路径名数组。
+seo-description: 返回给定图像的Photoshop路径名数组。
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 17%
+source-wordcount: '96'
+ht-degree: 16%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-返回给定图像的Photoshop路径名称数组。
+返回给定图像的Photoshop路径名数组。
 
 语法
 
@@ -44,7 +45,7 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | 是 | 图像中的一组Photoshop路径名。 |
+| `*`pathNameArray`*` | `types:StringArray` | 是 | 图像中的Photoshop路径名数组。 |
 
 ## 示例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
