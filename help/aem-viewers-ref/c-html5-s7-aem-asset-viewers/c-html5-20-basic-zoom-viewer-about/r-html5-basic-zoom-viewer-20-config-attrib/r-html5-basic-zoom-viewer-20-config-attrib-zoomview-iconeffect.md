@@ -2,13 +2,14 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-topic: Dynamic Media
 uuid: 38350e3d-515b-454c-bc85-39b91ad06e8b
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
@@ -21,19 +22,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当图像处于重置状态时，使IconEffect能够显示在图像顶部，并提示可以执行与图像交互的操作。 </p> </td> 
+   <td colname="col2"> <p> 当图像处于重置状态时，使IconEffect能够显示在图像的顶部，并提示可用操作与图像交互。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 计数</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 淡出</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 淡入</span> </span> </p> </td> 
    <td colname="col2"> <p>指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 自动隐藏</span> </span> </p> </td> 
-   <td colname="col2"> <p>设置自动隐藏IconEffect前保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置<span class="codeph"> 0</span>将禁用自动隐藏行为。 </p> </td> 
+   <td colname="col2"> <p>设置IconEffect在自动隐藏前保持完全可见的秒数。 即，淡入动画完成后但淡出动画开始之前的时间。 设置<span class="codeph"> 0</span>将禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
