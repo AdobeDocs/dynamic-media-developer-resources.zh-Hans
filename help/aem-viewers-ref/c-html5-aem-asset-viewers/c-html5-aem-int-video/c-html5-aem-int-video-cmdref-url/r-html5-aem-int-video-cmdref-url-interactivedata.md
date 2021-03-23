@@ -1,15 +1,16 @@
 ---
-description: 交互式视频查看器的URL命令。
-seo-description: 交互式视频查看器的URL命令。
-seo-title: 交互式数据
+description: 用于交互式视频查看器的URL命令。
+seo-description: 用于交互式视频查看器的URL命令。
+seo-title: interactivedata
 solution: Experience Manager
-title: 交互式数据
-topic: Dynamic Media
+title: interactivedata
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 5%
 
 # interactivedata{#interactivedata}
 
-交互式视频查看器的URL命令。
+用于交互式视频查看器的URL命令。
 
 `interactivedata= *`文件`*`
 
-交互式数据将视频内容中的某些时间区域与产品数据相关联，产品数据稍后显示在视频旁边的交互式样本中。 它也与视频播放结束时显示的行动动员面板相关。 它还为行动动员面板中显示的交互式视频提供标题。
+交互式数据将视频内容中的某些时间区域与产品数据相关联，产品数据稍后显示在视频旁边的交互式色板中。 它还关联在视频播放结束时显示的行动动员面板中。 它还为在行动动员面板中显示的交互式视频提供标题。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
