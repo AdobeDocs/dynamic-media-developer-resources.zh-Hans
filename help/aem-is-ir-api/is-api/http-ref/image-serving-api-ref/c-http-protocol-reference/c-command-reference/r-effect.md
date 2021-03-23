@@ -1,15 +1,16 @@
 ---
-description: 选择“效果图层”。 选择效果层，并在请求字符串中开始与当前层关联的新层段。
-seo-description: 选择“效果图层”。 选择效果层，并在请求字符串中开始与当前层关联的新层段。
+description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
+seo-description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
 seo-title: 效果
 solution: Experience Manager
 title: 效果
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # effect{#effect}
 
-选择“效果图层”。 选择效果层，并在请求字符串中开始与当前层关联的新层段。
+选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
 
 `effect= *`n`*`
 
@@ -28,13 +29,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-新段内的所有命令将应用于指定的效果层。 效果层段由下一个`layer=`或`effect=`命令终止，或由请求结束终止。
+新段内的所有命令将应用于指定的效果图层。 效果层段由下一个`layer=`或`effect=`命令终止，或由请求结束终止。
 
-*`n`* 对于外层效果（即父层后面的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。效果图层编号不必是连续的。
+*`n`* 对于外层效果（即父层后的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。效果图层编号不必是连续的。
 
-如果同一父层有多个效果图层，效果图层编号将指定z顺序。 编号较高的图层放置在编号较低的图层的顶部。
+效果图层编号指定z顺序（如果同一父图层有多个效果图层）。 编号较高的图层放置在编号较低的图层上方。
 
-效果层可以附加到`layer=comp`。
+效果层可附加到`layer=comp`。
 
 ## 属性 {#section-e11f795deff345779ce280a82cf221ca}
 
