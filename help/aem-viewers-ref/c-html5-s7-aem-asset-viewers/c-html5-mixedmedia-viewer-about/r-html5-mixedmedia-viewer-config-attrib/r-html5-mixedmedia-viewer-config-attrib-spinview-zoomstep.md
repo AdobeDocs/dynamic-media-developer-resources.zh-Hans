@@ -2,13 +2,14 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-topic: Dynamic Media
 uuid: 103097e9-7e6d-413c-a6a8-b8a15665348c
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 7%
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p> 配置放大和缩小操作的数量，这些操作要求将分辨率提高或降低两倍。 每个缩放操作的分辨率更改是每步2^1。 设置为<span class="codeph"> 0</span>，通过单个缩放操作缩放到完整分辨率。 </p> </td> 
+   <td colname="col2"> <p> 配置将分辨率提高或降低两倍所需的数字放大和缩小操作。 每个缩放操作的分辨率更改是每步2^1。 设置为<span class="codeph"> 0</span>可通过单个缩放操作缩放到完整分辨率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 限制</span></span> </p> </td> 
