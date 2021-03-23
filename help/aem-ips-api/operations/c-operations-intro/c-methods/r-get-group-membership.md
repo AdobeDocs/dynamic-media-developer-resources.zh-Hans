@@ -1,23 +1,24 @@
 ---
-description: 返回组成员。
-seo-description: 返回组成员。
+description: 返回用户组的成员。
+seo-description: 返回用户组的成员。
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 18%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
 
 # getGroupMembership{#getgroupmembership}
 
-返回组成员。
+返回用户组的成员。
 
 语法
 
@@ -38,7 +39,7 @@ ht-degree: 18%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | 否 | 用户的句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的手柄。 |
 
 **输出(getGroupMembershipReturn)**
 
@@ -48,7 +49,7 @@ ht-degree: 18%
 
 ## 示例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-此代码示例返回组的所有成员。 由于公司和用户句柄是可选的，因此该操作可返回所有组的所有成员。
+此代码示例返回组的所有成员。 由于公司和用户句柄是可选的，因此该操作可以返回所有组的所有成员。
 
 **请求**
 
