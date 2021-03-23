@@ -2,13 +2,14 @@
 description: ImageMapEffect.mode
 solution: Experience Manager
 title: ImageMapEffect.mode
-topic: Dynamic Media
 uuid: af2f11a8-a452-49d6-9e8f-d4a5f05b73d2
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
@@ -23,9 +24,9 @@ ht-degree: 5%
    <td colname="col1"> <p> <span class="codeph"> 图标|区域|自动|无  </span> </p> </td> 
    <td colname="col2"> <p>指定图像映射的外观。 </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> 在桌 </span> 面和触控设备上静态显示图标映射图标。 </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> 区域 </span> 渲染图像映射区域；在桌面上，它们显示在鼠标滚动时，在触控设备上始终可见。 </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> 在桌 </span> 面系统上自动显示图像映射区域，在鼠标滚动时显示图像映射区域，在触控设备上始终显示图标。 </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> 图标 </span> 映射图标在桌面和触控设备上静态显示。 </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> 区域 </span> 渲染图像映射区域；在桌面上，它们显示在鼠标滚动时，在触控设备上显示，始终可见。 </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> 在桌 </span> 面系统上，图像映射区域显示在鼠标滚动时，在触控设备上显示映射图标始终可见。 </p> </li> 
       <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> “无” </span> 会禁用图像映射。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
