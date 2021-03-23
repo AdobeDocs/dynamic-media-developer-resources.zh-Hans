@@ -2,12 +2,13 @@
 description: InfoPanelPopup.template
 solution: Experience Manager
 title: InfoPanelPopup.template
-topic: Dynamic Media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 模板</span></span> </p> </td> 
-   <td> <p>从信息服务器返回的数据被合并到的内容模板。 </p> <p>内容模板是遵循此DTD的XML: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>从信息服务器返回的数据合并到的内容模板。 </p> <p>内容模板是遵循此DTD的XML: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
@@ -30,7 +31,7 @@ ht-degree: 3%
       ]&gt;</code> </p> <p>内容模板的实际语法如下： </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>即，模板必须与<span class="codeph"> &lt;info&gt;</span>元素开始，元素可能包含可选的默认<span class="codeph"> &lt;var&gt;</span>元素。 模板内容本身<span class="codeph"> TEMPLATE_CONTENT</span>是HTML文本。 此外，内容模板可能包含包含在<span class="codeph"> $</span>字符中的变量名称。 这些字符将替换为信息服务器返回的变量值或默认值。 </p> <p>在模板中定义的默认变量可以是全局变量（如果未设置滚动属性），也可以是特定于某个滚动键（如果存在滚动属性）的变量。 </p> <p>在模板处理过程中，特定于滚动键的变量优先于全局变量。 </p> </td> 
+      &lt;/info&gt;</code> </p> <p>也就是说，模板必须与<span class="codeph"> &lt;info&gt;</span>元素进行开始，该元素可能包含可选的默认<span class="codeph"> &lt;var&gt;</span>元素。 模板内容本身<span class="codeph"> TEMPLATE_CONTENT</span>是HTML文本。 此外，内容模板可能包含包含在<span class="codeph"> $</span>字符中的变量名称。 这些字符将替换为信息服务器返回的变量值或默认值。 </p> <p>在模板中定义的默认变量可以是全局（如果未设置翻转属性）或特定于某个翻转键（如果存在翻转属性）。 </p> <p>在模板处理过程中，特定于滚动键的变量优先于全局变量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +50,6 @@ ht-degree: 3%
 
 ## 示例 {#section-16d184665c484964af9a22f79ff3f840}
 
-假定信息服务器响应将产品名称返回为变量`$1$`，而产品图像URL返回为变量`$2$`。
+假定信息服务器响应将产品名称返回为变量`$1$`，产品图像URL返回为变量`$2$`。
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
