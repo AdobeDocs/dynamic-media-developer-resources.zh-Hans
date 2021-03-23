@@ -1,25 +1,26 @@
 ---
-description: 页面指示器显示当前页面索引和总页面计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上则添加到辅助控制栏中。 页面指示器可由CSS调整大小、设计外观和定位。
-seo-description: 页面指示器显示当前页面索引和总页面计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上则添加到辅助控制栏中。 页面指示器可由CSS调整大小、设计外观和定位。
+description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
+seo-description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
 seo-title: 页面指示器
 solution: Experience Manager
 title: 页面指示器
-topic: Dynamic Media
 uuid: 1be6021b-3026-48ef-b121-eeb8270d2bae
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 3%
 
 ---
 
 
 # 页面指示器{#page-indicator}
 
-页面指示器显示当前页面索引和总页面计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上则添加到辅助控制栏中。 页面指示器可由CSS调整大小、设计外观和定位。
+页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
 
-外观页面指示符由以下CSS类选择器控制：
+使用以下CSS类选择器控制外观页面指示符：
 
 `.s7ecatalogsearchviewer .s7pageindicator`
 
@@ -45,7 +46,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的下边框进行定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的底边框中的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -60,17 +61,17 @@ ht-degree: 4%
    <td colname="col2"> <p>字体颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个56 x 28像素的页面指示符，其水平居中并位于距主控件条底部4像素的位置，并使用14像素的Helvetica字体。
+示例 — 设置一个56 x 28像素的页面指示器，水平居中并位于距主控件条底部4像素的位置，然后使用14像素的Helvetica字体。
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 
