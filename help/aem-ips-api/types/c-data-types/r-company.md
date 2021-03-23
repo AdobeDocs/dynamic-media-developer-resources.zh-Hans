@@ -4,13 +4,14 @@ seo-description: 表示公司。
 seo-title: 公司
 solution: Experience Manager
 title: 公司
-topic: Dynamic Media Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 33%
+source-wordcount: '43'
+ht-degree: 27%
 
 ---
 
