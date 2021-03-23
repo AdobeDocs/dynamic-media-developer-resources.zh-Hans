@@ -4,13 +4,14 @@ seo-description: 视频查看器的配置属性。
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器开始是否在加载时播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
