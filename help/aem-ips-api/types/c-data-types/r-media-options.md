@@ -1,15 +1,16 @@
 ---
-description: 为视频生成缩略图。
-seo-description: 为视频生成缩略图。
+description: 生成视频的缩略图。
+seo-description: 生成视频的缩略图。
 seo-title: 媒体选项
 solution: Experience Manager
 title: 媒体选项
-topic: Dynamic Media Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # MediaOptions{#mediaoptions}
 
-为视频生成缩略图。
+生成视频的缩略图。
 
 语法
 
@@ -35,7 +36,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">引用视频编码预设进行转码视频的<span class="codeph"> PropertySet</span>句柄数组。 </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>句柄数组，引用用于转码视频的视频编码预设。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -44,8 +45,8 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ThumbnailOptions</span> </td> 
-   <td colname="col3">可选。允许您选择特定视频帧作为缩略图图像。 <p>要指定缩略图图像，请传递您要使用的帧的时间(从视频开始开始的毫秒)。 值范围从0到视频结尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>将默认值设置为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
+   <td colname="col2"> <span class="codeph"> 类型：ThumbnailOptions</span> </td> 
+   <td colname="col3">可选。允许您选择要用作缩略图的特定视频帧。 <p>要指定缩略图图像，请传递要使用的帧的时间(以毫秒为单位，从视频开始开始)。 值范围从0到视频末尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>将默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
