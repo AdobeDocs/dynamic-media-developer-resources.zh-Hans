@@ -4,13 +4,14 @@ seo-description: 弹出查看器的JavaScript API参考。
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 9a124dfb-e094-4426-8c46-aa1a784b127d
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 ` setContainerId( *`containerId`*)`
 
-设置插入查看器的DOM容器的ID（通常为`DIV`）。 调用此方法时，不必创建容器元素。 但是，运行`init()`时必须存在容器。 必须在`init()`之前调用它。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+设置DOM容器的ID（通常为`DIV`），查看器将插入其中。 调用此方法时不必创建容器元素。 但是，运行`init()`时必须存在容器。 必须在`init()`之前调用它。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
