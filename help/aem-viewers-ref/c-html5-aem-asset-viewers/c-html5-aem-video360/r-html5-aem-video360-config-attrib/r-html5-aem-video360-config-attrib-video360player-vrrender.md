@@ -4,13 +4,14 @@ seo-description: Video360查看器的配置属性。
 seo-title: Video360Player.vrrender
 solution: Experience Manager
 title: Video360Player.vrrender
-topic: Dynamic Media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 28%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
@@ -25,7 +26,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定是否启用虚拟现实渲染模式。 在VR头盔上忽略。 </p> </td> 
+   <td colname="col2"> <p>指定是否启用虚拟现实渲染模式。 在VR耳机上忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
