@@ -2,13 +2,14 @@
 description: SpinView.iconeffect
 solution: Experience Manager
 title: SpinView.iconeffect
-topic: Dynamic Media
 uuid: f568a98d-1b34-4a85-bd2f-e67a34b3a3e9
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '129'
+ht-degree: 4%
 
 ---
 
@@ -25,10 +26,10 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定<span class="codeph"> iconeffect</span>出现和重新出现的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定<span class="codeph"> iconeffect</span>出现和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 淡出</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 淡入</span></span> </p> </td> 
    <td colname="col2"> <p>指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
