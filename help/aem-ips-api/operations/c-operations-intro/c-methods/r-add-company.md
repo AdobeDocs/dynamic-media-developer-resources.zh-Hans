@@ -2,11 +2,12 @@
 description: 向系统添加公司。
 solution: Experience Manager
 title: addCompany
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '177'
 ht-degree: 11%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 11%
 
 发送要添加到系统的公司的名称，并（可选）发送公司是否过期。
 
-调用此操作时，系统将获取`*`companyInfo`*`类型，该类型包含公司句柄和描述性字段。 如果请求的公司名在系统中已存在，则会引发`ipsApiFault`。
+调用此操作时，系统将获取`*`companyInfo`*`类型，其中包含公司句柄和描述性字段。 如果请求的公司名在系统中已存在，则会引发`ipsApiFault`。
 
 ## 授权用户类型{#section-ae926c7672984be79f6102748accab72}
 
@@ -50,7 +51,7 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的过期日期。 为时区提供此字段的请求。 时区将调整为中央时间。 </p> </td> 
+   <td colname="col4"> <p>公司的过期日期。 为时区提供此字段的请求。 时区将调整为“中央时间”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +72,7 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>处理新公司的名称、根路径、过期日期和时间。 </p> </td> 
+   <td colname="col4"> <p>处理和命名新公司的根路径、过期日期和时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
