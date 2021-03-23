@@ -4,13 +4,14 @@ seo-description: 混合媒体查看器支持Adobe Analytics现成跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-topic: Dynamic Media
 uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
@@ -21,9 +22,9 @@ ht-degree: 5%
 
 ## 现成跟踪{#section-ba994f079d0343c8ae48adffaa3195a3}
 
-混合媒体查看器支持[!DNL Adobe Analytics]现成跟踪。 要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
+混合媒体查看器支持[!DNL Adobe Analytics]现成跟踪。 要启用跟踪，请将正确的公司预设名称作为`config2`参数进行传递。
 
-查看器还向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+查看器还会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
 ## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
@@ -58,13 +59,13 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>发送时间…… </p> </th> 
+   <th colname="col2" class="entry"> <p>在…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>查看器先加载。 </p> </td> 
+   <td colname="col2"> <p>将首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
@@ -76,7 +77,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 平移 </span> </p> </td> 
-   <td colname="col2"> <p>图像已绘制。 </p> </td> 
+   <td colname="col2"> <p>图像被绘制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 样本 </span> </p> </td> 
@@ -84,7 +85,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>开始播放。 </p> </td> 
+   <td colname="col2"> <p>播放。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -96,11 +97,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>播放达到以下重点之一：0%、25%、50%、75%和100%。 </p> </td> 
+   <td colname="col2"> <p>播放到以下重点之一：0%、25%、50%、75%和100%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 旋转 </span> </p> </td> 
-   <td colname="col2"> <p>执行旋转。 </p> </td> 
+   <td colname="col2"> <p>旋转。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
