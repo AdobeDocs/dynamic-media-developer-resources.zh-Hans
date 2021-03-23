@@ -4,12 +4,13 @@ seo-description: 清空IPS垃圾桶中的资源。
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '260'
 ht-degree: 7%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 7%
 
 清空IPS垃圾桶中的资源。
 
-资产会一直存放在垃圾桶中，直到被手动清空，或者超出垃圾桶。 如果手动清空它们，它们将一直存放在垃圾桶中，直到最终从系统中清空它们的下一个清除作业（通常是晚上清除）。 如果资产超时从垃圾桶中清除，则会作为同一清理活动的一部分清理资产。 超时是可配置的（默认值为7天）。
+资源会一直存放在垃圾桶中，直到手动清空资源，或者超出垃圾桶。 如果手动清空这些文件，则它们会一直存在在垃圾桶中，直到最终从系统中清除它们时（通常是在夜间），再进行下一个清理作业。 如果资源超时从垃圾桶中清除，资源会作为同一清理活动的一部分被清除。 超时是可配置的（默认值为7天）。
 
 ## 授权用户类型{#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -45,10 +46,10 @@ ht-degree: 7%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:Int` | 是 | 从垃圾桶中成功清空的资源数。 |
-| `*`warningCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资产时生成的警告数。 |
-| `*`errorCount`*` | `xsd:Int` | 是 | 操作尝试从废纸篓清空资产时生成的错误数。 |
+| `*`warningCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资源时生成的警告数。 |
+| `*`errorCount`*` | `xsd:Int` | 是 | 操作尝试从废纸篓中清空资源时生成的错误数。 |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，这些资产生成了警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，这些资产生成了错误。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试从废纸篓中清空资产时，与生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
