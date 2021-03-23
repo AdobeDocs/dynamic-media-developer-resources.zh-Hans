@@ -4,13 +4,14 @@ seo-description: 删除文件夹权限。
 seo-title: removeFolderPermissions
 solution: Experience Manager
 title: removeFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 16%
+source-wordcount: '121'
+ht-degree: 15%
 
 ---
 
@@ -45,7 +46,7 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 具有您要删除的权限的公司的句柄。 </td> 
+   <td colname="col4"> 具有您要删除的权限的文件夹的公司的处理。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
@@ -59,8 +60,8 @@ ht-degree: 16%
    <td colname="col3"> 是 </td> 
    <td colname="col4"> <p>当<span class="codeph"> true</span>时： 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">删除权限会通过所有文件夹权限操作传播。 </li> 
-     </ul> </p> <p>当<span class="codeph">假</span>时： 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">权限删除会传播到所有文件夹权限操作。 </li> 
+     </ul> </p> <p>当<span class="codeph"> false</span>时： 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">此操作仅影响指定的文件夹。 </li> 
      </ul> </p> </td> 
