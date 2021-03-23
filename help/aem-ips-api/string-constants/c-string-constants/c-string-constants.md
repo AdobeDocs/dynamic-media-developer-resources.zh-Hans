@@ -2,13 +2,14 @@
 description: 字符串常量
 solution: Experience Manager
 title: 字符串常量
-topic: Dynamic Media Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
 * [资产排序字段](r-asset-sort-fields.md)
 * [资源类型](r-asset-types.md)
 * [自动裁剪角](r-auto-crop-corner.md)
-* [颜色管理模式](r-color-management-modes.md)
+* [色彩管理模式](r-color-management-modes.md)
 * [色彩空间](r-color-spaces.md)
 * [电子邮件设置](r-email-settings.md)
 * [字体样式](r-font-styles.md)
@@ -34,10 +35,10 @@ ht-degree: 7%
 * [作业触发器状态](r-job-trigger-states.md)
 * [作业类型](r-job-types.md)
 * [元数据字段类型](r-metadata-field-types.md)
-* [数字／日期比较运算符](r-numeric-date-comparison-operators.md)
+* [数值/日期比较运算符](r-numeric-date-comparison-operators.md)
 * [PDF流程](r-pdf-processes.md)
 * [权限类型](r-permission-types.md)
-* [Photoshop锚模式](r-photoshop-anchor-modes.md)
+* [Photoshop锚点模式](r-photoshop-anchor-modes.md)
 * [Photoshop图层命名模式](r-photoshop-layer-naming-modes.md)
 * [PostScript色彩空间模式](r-postscript-colorspace-modes.md)
 * [用户档案类](r-profile-classes.md)
