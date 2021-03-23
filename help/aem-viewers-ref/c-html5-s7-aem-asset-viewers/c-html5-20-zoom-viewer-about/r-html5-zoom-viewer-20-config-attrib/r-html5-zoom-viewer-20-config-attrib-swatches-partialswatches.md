@@ -2,13 +2,14 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-topic: Dynamic Media
 uuid: f783f75f-02ea-4a71-88e2-6857c981de27
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定当任何色板部分可见时（滚动未对齐）组件是否允许停止滚动。 建议的值为<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定组件是否允许在任何色板部分可见时停止滚动（滚动未对齐）。 建议值为<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
