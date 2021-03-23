@@ -4,12 +4,13 @@ seo-description: 主视图由旋转图像组成。
 seo-title: 旋转视图
 solution: Experience Manager
 title: 旋转视图
-topic: Dynamic Media
 uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7spinviewer .s7spinview
@@ -38,13 +39,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主视图透明。
+示例 — 使主视图透明。
 
 ```
 .s7spinviewer .s7spinview { 
