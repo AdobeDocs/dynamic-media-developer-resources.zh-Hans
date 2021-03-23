@@ -4,13 +4,14 @@ seo-description: 视频查看器的URL命令。
 seo-title: 导航
 solution: Experience Manager
 title: 导航
-topic: Dynamic Media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '69'
+ht-degree: 13%
 
 ---
 
