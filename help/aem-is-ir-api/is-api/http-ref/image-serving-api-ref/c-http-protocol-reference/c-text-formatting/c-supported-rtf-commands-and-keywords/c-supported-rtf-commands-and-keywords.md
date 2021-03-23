@@ -4,12 +4,13 @@ seo-description: 以下是Scene 7图像服务文本引擎支持的关键字和�
 seo-title: 支持的RTF命令和关键字
 solution: Experience Manager
 title: 支持的RTF命令和关键字
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 有关每个关键字或命令的详细信息，请参阅已发布的[RTF 1.6规范](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)。
 
-分析器将忽略下面未列出的RTF命令。
+分析器将忽略以下未列出的RTF命令。
 
 * [文档（文本框）属性](r-document-text-box-properties.md)
 * [段落格式](r-paragraph-formatting.md)
