@@ -1,23 +1,24 @@
 ---
-description: 为现有标记字段设置标记字典值。
-seo-description: 为现有标记字段设置标记字典值。
+description: 为现有标记字段设置标记词典值。
+seo-description: 为现有标记字段设置标记词典值。
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
 
 # setTagFieldValues{#settagfieldvalues}
 
-为现有标记字段设置标记字典值。
+为现有标记字段设置标记词典值。
 
 语法
 
@@ -35,7 +36,7 @@ ht-degree: 15%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
 | `*`fieldHandle`*` | `xsd:string` | 是 | 标记字段句柄。 |
-| `*`valueArray`*` | `types:StringArray` | 是 | 替换字段现有词典的标记值的数组。 当新值与现有值匹配时，将保留资产关联。 |
+| `*`valueArray`*` | `types:StringArray` | 是 | 替换字段现有词典的标记值数组。 当新值与现有值匹配时，将维护资产关联。 |
 
 **输出(setTagFieldValuesReturn)**
 
