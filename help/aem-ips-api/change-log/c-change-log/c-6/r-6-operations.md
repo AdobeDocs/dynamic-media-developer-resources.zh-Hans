@@ -2,12 +2,13 @@
 description: 介绍IPS API版本6的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新增和修改
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '88'
+ht-degree: 5%
 
 ---
 
@@ -63,9 +64,9 @@ ht-degree: 6%
    * `getUsers`.
    * `getUserChars`.
 
-* 将`permissionArray`添加到`createPropertySet`。
+* 已将`permissionArray`添加到`createPropertySet`。
 
-* 将`exportJob`添加到`submitJob`。
+* 已将`exportJob`添加到`submitJob`。
 
 **將**
 
@@ -79,7 +80,7 @@ ht-degree: 6%
 
 * 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
 
-* 在`getUserChars`中，`includeInvalid`现在是可选的。
+* 在`getUserChars`中，`includeInvalid`现在为可选。
 
 **已删除**
 
