@@ -1,23 +1,24 @@
 ---
-description: 获取选定公司的指定作业日志。 您可以按字符、方向、开始和结束日期以及行数排序。
-seo-description: 获取选定公司的指定作业日志。 您可以按字符、方向、开始和结束日期以及行数排序。
+description: 获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
+seo-description: 获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 10%
+source-wordcount: '214'
+ht-degree: 9%
 
 ---
 
 
 # getJobLogs{#getjoblogs}
 
-获取选定公司的指定作业日志。 您可以按字符、方向、开始和结束日期以及行数排序。
+获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
 
 语法
 
@@ -41,9 +42,9 @@ ht-degree: 10%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 否 | 公司手柄。 |
 | `*`userHandle`*` | `xsd:string` | 否 | 获取特定用户提交的作业的日志。 |
-| `*`排序依据`*` | `xsd:string` | 否 | 允许您选择排序字段。 |
+| `*`sortBy`*` | `xsd:string` | 否 | 允许您选择排序字段。 |
 | `*`sortDirection`*` | `xsd:string` | 否 | 排序顺序（升序或降序）。 |
-| `*`startDate`*` | `xsd:dateTime` | 否 | 作业日志开始的日期和时间。 为时区提供此字段的请求。 |
+| `*`startDate`*` | `xsd:dateTime` | 否 | 作业日志的开始日期和时间。 为时区提供此字段的请求。 |
 | `*`endDate`*` | `xsd:dateTime` | 否 | 作业日志结束的日期和时间。 为时区提供此字段的请求。 |
 | `*`numRows`*` | `xsd:int` | 否 | 要返回的最大行数。 |
 
@@ -55,7 +56,7 @@ ht-degree: 10%
 
 ## 示例 {#section-35871c94b4a44559912577efddbc46a6}
 
-此代码示例返回特定公司的IPS作业日志。 您还可以使用它返回特定用户或公司和用户的作业日志。
+此代码示例返回特定公司的IPS作业日志。 您还可以使用它为特定用户或公司和用户返回作业日志。
 
 **请求**
 
