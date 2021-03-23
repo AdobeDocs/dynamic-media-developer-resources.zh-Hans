@@ -1,15 +1,16 @@
 ---
-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
-seo-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
+description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布后，会应用预设视图。
+seo-description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布后，会应用预设视图。
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
+feature: Dynamic Media Classic，SDK/API，查看器预设
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 11%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 11%
 
 # createViewerPreset{#createviewerpreset}
 
-创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布时会应用预设视图。
+创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布后，会应用预设视图。
 
 语法
 
@@ -38,7 +39,7 @@ ht-degree: 11%
 | `*`folderHandle`*` | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
 | `*`name`*` | `xsd:string` | 是 | 查看器名称。 |
 | `*`类型`*` | `xsd:string` | 是 | 查看器类型. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 包含要应用预设的图像的名称、值和句柄的数组。 |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 一个数组，其中包含要应用预设的图像的名称、值和句柄。 |
 
 **输出(createViewerPresetReturn)**
 
@@ -48,7 +49,7 @@ ht-degree: 11%
 
 ## 示例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-此代码示例创建视频播放器预设。 响应将返回预设的句柄。
+此代码示例创建了一个视频播放器预设。 响应将返回预设的句柄。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
