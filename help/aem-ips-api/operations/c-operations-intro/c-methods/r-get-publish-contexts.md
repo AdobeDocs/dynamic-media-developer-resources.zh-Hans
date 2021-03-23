@@ -2,13 +2,14 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-topic: Dynamic Media Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 24%
+source-wordcount: '92'
+ht-degree: 22%
 
 ---
 
@@ -77,7 +78,7 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | types:PublishContextArray | 是 | 公司的发布上下文数组，根据上下文类型进行筛选（如果需要）。 |
+| `*`publishContextArray`*` | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据上下文类型过滤（如果需要）。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
