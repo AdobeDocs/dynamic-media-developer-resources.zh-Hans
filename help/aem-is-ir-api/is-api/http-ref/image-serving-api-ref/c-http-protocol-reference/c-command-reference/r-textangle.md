@@ -1,15 +1,16 @@
 ---
-description: 文本渲染方向。 指定用textPs=指定的文本排版并呈现到文本框中的角度（用size=或textFlowPath=定义）。
-seo-description: 文本渲染方向。 指定用textPs=指定的文本排版并呈现到文本框中的角度（用size=或textFlowPath=定义）。
+description: 文本渲染方向。 指定用textPs=指定的文本排列并呈现到文本框（用size=或textFlowPath=定义）的角度。
+seo-description: 文本渲染方向。 指定用textPs=指定的文本排列并呈现到文本框（用size=或textFlowPath=定义）的角度。
 seo-title: textAngle
 solution: Experience Manager
 title: textAngle
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ac54c186-1fc5-479a-89f2-ff2da5e7999a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # textAngle{#textangle}
 
-文本渲染方向。 指定用textPs=指定的文本排版并呈现到文本框中的角度（用size=或textFlowPath=定义）。
+文本渲染方向。 指定用textPs=指定的文本排列并呈现到文本框（用size=或textFlowPath=定义）的角度。
 
 ` textAngle= *`角度`*`
 
@@ -32,12 +33,12 @@ ht-degree: 4%
 
 ## 属性 {#section-6d586a632daa4261a8ce62db56140b36}
 
-图层属性。 如果`layer=comp`，则适用于`layer=0`。 如果未为此层指定`textPs=`或指定`textPath=`，则忽略。
+图层属性。 适用于`layer=comp`时的`layer=0`。 如果未为此图层指定`textPs=`或指定`textPath=`，则忽略。
 
 ## 默认 {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` 不轮换。
+`textAngle=0` 不旋转。
 
 ## 另请参阅 {#section-dccc29ff33704061b2519b56b7be45fd}
 
-[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [文本定](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87)位 [，文](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)本Ps= [, ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)textFlowPath= [,  Path=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)
+[Text Formatting](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c),  [Text Positioning](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textFlowPath](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef)= [,  textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)
