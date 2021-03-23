@@ -2,13 +2,14 @@
 description: ipsApiFault
 solution: Experience Manager
 title: ipsApiFault
-topic: Dynamic Media Image Production System API
 uuid: 010814a8-1d29-4b02-8449-cb26e4335e07
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 36%
+source-wordcount: '32'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 36%
 
 ## 故障类型{#section-425697675cac4b2ab5c48bd463956401}
 
-| ID | 故障 |
+| ID | 错误 |
 |---|---|
 | 30000 | `IPS_API_FAULT_CODE_EXCEPTION` |
 | 30001 | `IPS_API_FAULT_CODE_INVALID_PARAMETER` |
