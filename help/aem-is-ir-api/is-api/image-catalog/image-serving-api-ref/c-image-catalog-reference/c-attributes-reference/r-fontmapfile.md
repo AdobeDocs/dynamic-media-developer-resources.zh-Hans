@@ -4,12 +4,13 @@ seo-description: 字体映射文件路径。 指定包含此图像目录的字�
 seo-title: FontMapFile
 solution: Experience Manager
 title: FontMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84774ae3-c038-444b-ba00-d8528e6d0de8
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 4%
 
 ## 默认 {#section-c57697856bc84d578e022ed3654fcd1c}
 
-空，表示此图像目录不包含专用字体。
+“空”，表示此图像目录不包含专用字体。
 
 ## 另请参阅 {#section-5eb7f6131e134fa9932c99fa37284451}
 
