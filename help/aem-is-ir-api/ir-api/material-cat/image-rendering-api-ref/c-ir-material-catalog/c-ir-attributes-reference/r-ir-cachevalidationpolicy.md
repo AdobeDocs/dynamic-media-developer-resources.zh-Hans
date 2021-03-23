@@ -4,12 +4,13 @@ seo-description: 服务器缓存验证策略。 指定验证服务器端缓存�
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 3%
 
 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 
-借助基于过期的验证，会定期检查源材料和晕影，以查看它们是否已更改。 使用基于目录的验证，源图像仅在`catalog::TimeStamp`值发生更改后才被检查。
+借助基于过期的验证，会定期检查源材料和晕影，以查看它们是否已更改。 通过基于目录的验证，源图像仅在`catalog::TimeStamp`值更改后才被检查。
 
-在使用材料目录和暗角目录时，建议进行基于目录的验证。 在图像渲染请求中直接按路径引用晕影时，应使用基于过期的验证。
+在使用材料和晕影目录时，建议进行基于目录的验证。 在图像渲染请求中直接按路径引用晕影时，应使用基于过期的验证。
 
 ## 属性 {#section-46e13cb341eb442c86e0d8292de23ea0}
 
-枚举。 0，选择基于过期的验证。 1选择基于目录的缓存验证。
+枚举。 0，选择基于过期验证。 1选择基于目录的缓存验证。
 
 ## 默认 {#section-e09f3af8b6b3497d963199988dc5345d}
 
