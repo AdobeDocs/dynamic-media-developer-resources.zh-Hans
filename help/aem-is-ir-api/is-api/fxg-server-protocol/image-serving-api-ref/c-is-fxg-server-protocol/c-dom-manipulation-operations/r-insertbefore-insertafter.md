@@ -1,27 +1,28 @@
 ---
 description: 在节点之前或之后设置XML。
 seo-description: 在节点之前或之后设置XML。
-seo-title: insertBefore,insertAfter
+seo-title: insertBefore，insertAfter
 solution: Experience Manager
-title: insertBefore,insertAfter
-topic: Dynamic Media Image Serving - Image Rendering API
+title: insertBefore，insertAfter
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 
 
-# insertBefore,insertAfter{#insertbefore-insertafter}
+# insertBefore，insertAfter{#insertbefore-insertafter}
 
 在节点之前或之后设置XML。
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-如果FXG节点元素定义了`s7:elementID`，我们可以使用此命令在该节点之前或之后添加XML片段。
+如果FXG节点元素定义了`s7:elementID`，则可以使用此命令在该节点之前或之后添加XML片段。
 
 ## 示例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
