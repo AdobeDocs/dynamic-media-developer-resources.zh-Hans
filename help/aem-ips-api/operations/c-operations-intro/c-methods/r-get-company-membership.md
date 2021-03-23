@@ -1,23 +1,24 @@
 ---
-description: 获取公司数组中用户的成员资格。
-seo-description: 获取公司数组中用户的成员资格。
+description: 获取公司数组中用户的成员关系。
+seo-description: 获取公司数组中用户的成员关系。
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 16%
+source-wordcount: '97'
+ht-degree: 15%
 
 ---
 
 
 # getCompanyMembership{#getcompanymembership}
 
-获取公司数组中用户的成员资格。
+获取公司数组中用户的成员关系。
 
 语法
 
@@ -40,17 +41,17 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要获得其成员资格的用户的句柄。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要获取其成员身份的用户的句柄。 |
 
 **输出(getCompanyMembershipReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`membersArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员资格的数组。 |
+| `*`membershArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员关系数组。 |
 
 ## 示例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-此代码示例采用用户句柄并获取数组中所有用户的公司成员关系。 响应被截断为简短。
+此代码示例获取用户句柄，并获取数组中用户的所有公司成员关系。 响应被截断，以致简短。
 
 **请求**
 
