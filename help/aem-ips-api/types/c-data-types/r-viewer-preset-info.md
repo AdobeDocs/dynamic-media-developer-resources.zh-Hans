@@ -4,13 +4,14 @@ seo-description: 查看器预设资产的属性。
 seo-title: ViewerPresetInfo
 solution: Experience Manager
 title: ViewerPresetInfo
-topic: Dynamic Media Image Production System API
 uuid: 0117488d-b89d-48d4-b081-af177a22f71f
+feature: Dynamic Media Classic，SDK/API，查看器预设
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
