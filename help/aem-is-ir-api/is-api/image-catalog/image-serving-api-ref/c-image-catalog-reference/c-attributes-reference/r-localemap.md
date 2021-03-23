@@ -4,12 +4,13 @@ seo-description: ID转换映射。 指定用于将通用图像ID转换为区域�
 seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 ID转换映射。 指定用于将通用图像ID转换为区域设置特定ID的规则。
 
-`*`itemitem`*&#42;['|' *``*]`
+`*``*&#42;['|' *`itemitem`*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
@@ -36,11 +37,11 @@ ID转换映射。 指定用于将通用图像ID转换为区域设置特定ID的�
  </tr> 
 </table>
 
-`LocaleMap` 指可以 `locId` 映射到任意数量的 `locSuffix`。
+`LocaleMap` 是指可 `locId` 以映射到任意数量的 `locSuffix`。
 
-允许空&#x200B;*`locSuffix`*&#x200B;值。 *`locSuffix`* 值必须按照搜索顺序进行排序。返回第一个匹配。
+允许空&#x200B;*`locSuffix`*&#x200B;值。 *`locSuffix`* 值必须按搜索顺序进行排序。返回第一个匹配。
 
-“图像服务”会搜索&#x200B;*`locId`*&#x200B;值，以查找与请求中指定的`locale=`值不区分大小写的匹配项。 如果找到匹配项，则关联的第一个&#x200B;*`locSuffix`*&#x200B;值将附加到原始目录id。 如果此目录条目存在，则使用它，否则将尝试下一个&#x200B;*`locSuffix`*&#x200B;值。 如果&#x200B;*`locSuffix`*&#x200B;值中没有一个与目录条目匹配，图像服务将返回错误或默认图像。
+“图像服务”搜索&#x200B;*`locId`*&#x200B;值，以查找与请求中指定的`locale=`值不区分大小写的匹配项。 如果找到匹配项，则关联的第一个&#x200B;*`locSuffix`*&#x200B;值将附加到原始目录ID。 如果此目录条目存在，则使用它，否则将尝试下一个&#x200B;*`locSuffix`*&#x200B;值。 如果&#x200B;*`locSuffix`*&#x200B;值中没有一个与目录条目匹配，则图像服务将返回错误或默认图像。
 
 空&#x200B;*`locId`*&#x200B;值与空和未知的`locale=`字符串匹配。 这允许为未知区域设置定义默认规则。
 
