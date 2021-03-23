@@ -4,13 +4,14 @@ seo-description: 将资产移至特定文件夹。
 seo-title: moveAsset
 solution: Experience Manager
 title: moveAsset
-topic: Dynamic Media Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 15%
+source-wordcount: '93'
+ht-degree: 13%
 
 ---
 
@@ -46,7 +47,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-此代码示例将资产移动到文件夹。
+此代码示例将资产移到文件夹。
 
 **请求**
 
