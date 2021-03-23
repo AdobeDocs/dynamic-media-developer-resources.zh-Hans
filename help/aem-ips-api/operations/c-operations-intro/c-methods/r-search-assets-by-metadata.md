@@ -1,15 +1,16 @@
 ---
-description: 在元数据索引存储库中搜索给定的搜索词。 返回资产数据，如searchAssets方法。
-seo-description: 在元数据索引存储库中搜索给定的搜索词。 返回资产数据，如searchAssets方法。
+description: 搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
+seo-description: 搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
+feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 10%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 10%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-在元数据索引存储库中搜索给定的搜索词。 返回资产数据，如searchAssets方法。
+搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
 
-当`searchAssetsByMetadata`允许您搜索用户定义的元数据字段时，如果在`responseMetadataArray`中指定了这些字段，则不返回这些字段。 为了说明这一点，以下代码示例：
+虽然`searchAssetsByMetadata`允许您针对用户定义的元数据字段进行搜索，但如果在`responseMetadataArray`中指定了这些字段，则不返回这些字段。 为了说明这一点，以下代码示例：
 
 ```java
 <ns:responseMetadataArray>
@@ -36,7 +37,7 @@ ht-degree: 10%
 </items>
 ```
 
-要解决此问题，您可以使用搜索返回的资产的`fieldHandles`运行`getAssets`（另请参阅[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)）。 此方法获取相关资产的用户定义字段值。 使用以下语法示例搜索用户定义的元数据字段：
+要解决此问题，您可以使用搜索返回的资产的`fieldHandles`运行`getAssets`（另请参阅[getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)）。 此方法会获取相关资产的用户定义字段值。 使用以下语法示例搜索用户定义的元数据字段：
 
 ```java
 <ns:metadataConditionArray>
@@ -76,10 +77,10 @@ ht-degree: 10%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>公司的把手。 </p> </td> 
+   <td colname="col4"> <p>公司的手柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 过滤器</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 滤镜</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>帮助您定义搜索条件的过滤器。 </p> <p>请参阅<a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>。 </p> </td> 
@@ -88,13 +89,13 @@ ht-degree: 10%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>定义搜索条件的条件。 请参阅下文以了解更多信息。 </p> </td> 
+   <td colname="col4"> <p>定义搜索条件的条件。 请参阅下面的以了解更多信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>要在资产摘要的响应中填充的其他字段。 必须以标准化格式指定字段。 </p> </td> 
+   <td colname="col4"> <p>要在资产摘要中的响应中填充的其他字段。 必须以标准化格式指定字段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -106,19 +107,19 @@ ht-degree: 10%
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>根据<span class="codeph"> recordsPerPage</span>页面大小指定要返回的结果页。 </p> </td> 
+   <td colname="col4"> <p>根据<span class="codeph"> recordsPerPage</span>页面大小指定要返回的结果页面。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 排序依据</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>按选定的资产字段排序。 </p> </td> 
+   <td colname="col4"> <p>按选定的资源字段排序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>排序方向的选择。 升序为默认值。 </p> </td> 
+   <td colname="col4"> <p>排序方向的选择。 默认为升序。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +135,7 @@ ht-degree: 10%
 
 **项目结构**
 
-`metadataConditionArray` 结构如下：
+`metadataConditionArray` 架构如下：
 
 ```java
 <ns1:items>
@@ -159,7 +160,7 @@ ht-degree: 10%
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (与(表 `modified_at` 单中的日期相同):星期五7月25日2014 22:13:45 GMT-0500(CDT))
+* `created_at` (与(表 `modified_at` 单中的日期：2014年7月25日周五22:13:45 GMT-0500(CDT))
 
 * `created_by`
 
@@ -182,7 +183,7 @@ ht-degree: 10%
 
 * `name` 字段包 `1000801`含。
 
-* `dc.rights` 字段等于 `Per Jessen Schmidt`。
+* `dc.rights` 字段等 `Per Jessen Schmidt`于
 
 **请求**
 
