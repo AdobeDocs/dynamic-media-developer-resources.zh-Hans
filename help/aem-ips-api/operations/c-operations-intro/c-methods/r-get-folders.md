@@ -4,13 +4,14 @@ seo-description: 返回所有文件夹和子文件夹，从文件夹路径开始
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-topic: Dynamic Media Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 8%
+source-wordcount: '263'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
 
 ## 文件夹{#section-66e344d5333f42f1b060a0cba25935c3}的用途
 
-您可以使用文件夹来组织子文件夹和资源。 所有文件夹和资产名称必须是唯一的。 共享相同名称的文件夹和资产会导致命名空间冲突，即使它们位于不同的文件夹层次结构中也是如此。
+您可以使用文件夹组织子文件夹和资源。 所有文件夹和资产名称必须唯一。 共享相同名称的文件夹和资产会导致命名空间冲突，即使它们位于不同的文件夹层次结构中也是如此。
 语法
 
 ## 授权用户类型{#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
@@ -38,7 +39,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->用户必须具有对文件夹的读取权限才能返回该文件夹上的数据。
+>用户必须具有对文件夹的读取权限才能返回其上的数据。
 
 ## 参数 {#section-0c1976503eaa418a9226b51667901176}
 
@@ -46,24 +47,24 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`accessUserHandle`*` | `xsd:string` | 否 | 由管理员用来模拟特定用户。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 管理员用于模拟特定用户。 |
 | `*`accessGroupHandle`*` | `xsd:string` | 否 | 按特定组过滤。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 要检索文件夹和所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 要检索文件夹及所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
 | `*`assetTypeArray`*` | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
 | `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
-| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要从响应中排除的字段列表。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要从响应中排除的字段的列表。 |
 
 **输出(getFoldersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | 否 | 符合筛选条件的文件夹的数组。 响应限制为最多100,000个文件夹。 |
+| `*`folderArray`*` | `types:FolderArray` | 否 | 与筛选条件匹配的文件夹数组。 响应限制为最多100,000个文件夹。 |
 | `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-此代码示例返回一个数组，它包含公司的所有文件夹以及每个文件夹的特定信息。
+此代码示例返回一个数组，其中包含公司的所有文件夹以及每个文件夹的特定信息。
 
 **请求**
 
