@@ -1,15 +1,16 @@
 ---
-description: 主视图由目录图像组成。 可以轻扫它以转到其他页面或缩放它。
-seo-description: 主视图由目录图像组成。 可以轻扫它以转到其他页面或缩放它。
+description: 主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
+seo-description: 主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
 seo-title: 页面查看
 solution: Experience Manager
 title: 页面查看
-topic: Dynamic Media
 uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '411'
 ht-degree: 4%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 4%
 
 # 页面查看{#page-view}
 
-主视图由目录图像组成。 可以轻扫它以转到其他页面或缩放它。
+主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7ecatalogviewer .s7pageview
@@ -38,7 +39,7 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色（十六进制格式）。 </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +49,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例——使主视图透明。
+示例 — 使主视图透明。
 
 ```
 .s7ecatalogviewer .s7pageview { 
@@ -68,10 +69,10 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>当图像因图像分辨率小、组件设置或两者而无法缩放时显示。 </p> </td> 
+   <td colname="col2"> <p>当图像因图像分辨率小、组件设置或两者兼有而无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 卓敏  </span> </p> </td> 
    <td colname="col2"> <p>当图像可放大时显示。 </p> </td> 
   </tr> 
   <tr> 
@@ -80,11 +81,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>当用户平移处于放大状态的图像时显示。 </p> </td> 
+   <td colname="col2"> <p>当用户平移处于缩放状态的图像时显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幻灯片  </span> </p> </td> 
-   <td colname="col2"> <p>当用户通过水平轻扫或轻扫来执行图像交换时显示。 </p> </td> 
+   <td colname="col2"> <p>当用户通过水平轻扫或轻扫执行图像交换时显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,7 +104,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 页面分隔条的宽度。 设置为<span class="codeph"> 0 </span> px可完全隐藏分隔条。 </p> </td> 
+   <td colname="col2"> <p> 页面分隔条的宽度。 设置为<span class="codeph"> 0 </span> px可完全隐藏分隔线。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
@@ -112,7 +113,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例——使用半透明图像具有40像素宽的页面分隔条。
+示例 — 使用半透明图像具有40像素宽的页面分隔条。
 
 ```
 .s7ecatalogviewer .s7pageview .s7pagedivider { 
@@ -123,9 +124,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->当`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，页面分隔符的外观由`pageturnstyle`修饰符控制，并忽略`.s7pagedivider` CSS类。
+>当`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，使用`pageturnstyle`修饰符控制页面分隔符的外观，并忽略`.s7pagedivider` CSS类。
 
-可以在主查看器区域上配置自定义鼠标光标的显示。 这由应用于`.s7ecatalogviewer .s7pageview` CSS类的其他属性选择器控制：
+可以在主查看器区域上配置自定义鼠标光标的显示。 通过应用于`.s7ecatalogviewer .s7pageview` CSS类的其他属性选择器来控制：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -140,7 +141,7 @@ ht-degree: 4%
    <td colname="col2"> <p> 通常，对于不可缩放的图像显示箭头。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 卓敏  </span> </p> </td> 
    <td colname="col2"> <p> 显示何时可以放大图像。 </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +150,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>显示用户在放大图像时执行拖动操作的时间 </p> </td> 
+   <td colname="col2"> <p>显示用户对图像中的缩放执行拖动操作时间 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幻灯片  </span> </p> </td> 
@@ -158,7 +159,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例——每种类型的组件状态有不同的鼠标光标。
+示例 — 对于每种类型的组件状态有不同的鼠标光标。
 
 ```
 .s7ecatalogviewer .s7pageview[cursortype="default"] { 
