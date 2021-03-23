@@ -1,23 +1,24 @@
 ---
-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
-seo-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+seo-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
 
 # blendMode{#blendmode}
 
-混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop的常用混合模式。 有关详细信息，请参阅Photoshop文档。
+混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
