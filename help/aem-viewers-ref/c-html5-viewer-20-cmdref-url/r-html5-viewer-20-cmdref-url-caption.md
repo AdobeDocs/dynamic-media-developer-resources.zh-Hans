@@ -4,12 +4,13 @@ seo-description: 所有查看器通用的参数。
 seo-title: 字幕
 solution: Experience Manager
 title: 字幕
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Media Classic，查看器，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 6%
 
 ---
@@ -33,12 +34,12 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定默认的字幕状态。 已启用为<span class="codeph"> 1 </span>。 </p> </td> 
+   <td colname="col2"> <p> 指定默认的题注状态。 已启用为<span class="codeph"> 1 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-此查看器通过托管WebVTT文件支持隐藏式字幕。 使用此参数指定的字幕适用于媒体集中最先出现的视频；后续视频无字幕播放。 不支持重叠提示和区域。 支持的提示定位运算符：
+此查看器通过托管WebVTT文件支持隐藏式字幕。 使用此参数指定的字幕适用于媒体集中最先出现的视频；后续视频播放时没有字幕。 不支持重叠提示和区域。 支持的提示定位运算符：
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -60,7 +61,7 @@ ht-degree: 6%
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>文本位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 在VideoPlayer组件中字幕文本开头的插入百分比。 </p> <p>默认值为<span class="codeph"> 0% </span>。 </p> </td> 
+   <td colname="col4"> <p> VideoPlayer组件中字幕文本开头的内置百分比。 </p> <p>默认值为<span class="codeph"> 0% </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
@@ -71,13 +72,13 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
-   <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它表示为无百分号的整数，则它是显示文本的顶部的行数。 </p> <p>如果它以百分比表示——百分比符号是最后一个字符——则标题文本将以百分比显示区域下方显示。 </p> <p>默认值为<span class="codeph"> 100% </span>。 </p> </td> 
+   <td colname="col3"> <p> 0%-100%|integer </p> </td> 
+   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它表示为无百分号的整数，则它是显示文本的顶部的行数。 </p> <p>如果它表示为百分比 — 百分比符号是最后一个字符 — 则标题文本将在显示区域下方显示该百分比。 </p> <p>默认值为<span class="codeph"> 100% </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-请注意，如果WebVTT文件中存在任何其他WebVTT功能，则不支持这些功能；但是，它们不会破坏字幕显示。
+请注意，如果WebVTT文件中存在任何其他WebVTT功能，则不支持它们；但是，它们不会破坏字幕显示。
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
@@ -87,7 +88,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定默认的字幕状态。 </p> <p>已启用为<span class="codeph"> 1 </span>。 </p> </td> 
+   <td colname="col2"> <p> 指定默认的题注状态。 </p> <p>已启用为<span class="codeph"> 1 </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
