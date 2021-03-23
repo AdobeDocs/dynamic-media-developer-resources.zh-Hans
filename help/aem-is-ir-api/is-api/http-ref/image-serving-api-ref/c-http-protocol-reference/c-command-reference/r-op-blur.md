@@ -4,12 +4,13 @@ seo-description: 模糊图像。 对图像数据应用模糊滤镜。
 seo-title: op_blur
 solution: Experience Manager
 title: op_blur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '114'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-*`radius`* 是相对于合成图像的像素。还用于羽化图层效果。
+*`radius`* 以像素为单位，相对于合成图像。还用于羽化图层效果。
 
 ## 属性 {#section-92573fe2c07746a7bab93a81fc3d208d}
 
@@ -36,10 +37,10 @@ ht-degree: 2%
 
 ## 默认 {#section-a976cb86620d489085a8fc9bae2626c0}
 
-`op_blur=0`，以获得无模糊效果。
+`op_blur=0`，以消除模糊效果。
 
 ## 示例 {#section-1ebacde68388492eb108ae0fcd7424db}
 
-模糊图像的背景。 `catalog::MaskPath`引用单独的遮罩图像。 请注意，必须显式指定`layer=0`，否则`op_blur`将应用于整个复合图像。
+模糊图像的背景。 单独的蒙版图像由`catalog::MaskPath`引用。 请注意，必须显式指定`layer=0`，否则`op_blur`将应用于整个复合图像。
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
