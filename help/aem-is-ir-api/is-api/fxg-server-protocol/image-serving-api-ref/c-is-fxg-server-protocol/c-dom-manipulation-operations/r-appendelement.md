@@ -4,12 +4,13 @@ seo-description: 将XML追加到s7 elementID。
 seo-title: appendElement
 solution: Experience Manager
 title: appendElement
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 062c8288-4517-42a1-9f9f-f3c7bbb4b63b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 `appendElement.elementID=<XML>`
 
-如果FXG节点元素定义了`s7:elementID`，则将`<XML>`值附加为子元素。 `<XML>`必须进行编码。
+如果FXG节点元素定义了`s7:elementID`，则将`<XML>`值作为子元素附加。 `<XML>`必须进行编码。
 
 ## 示例 {#section-4368570aa198485d91b73b4d0741478f}
 
