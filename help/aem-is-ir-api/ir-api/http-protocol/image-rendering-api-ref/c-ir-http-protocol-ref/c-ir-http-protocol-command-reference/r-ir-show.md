@@ -4,13 +4,14 @@ seo-description: 显示重叠对象。 使当前选区中所有以前隐藏的�
 seo-title: 顯示
 solution: Experience Manager
 title: 顯示
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 8%
+source-wordcount: '101'
+ht-degree: 7%
 
 ---
 
@@ -19,18 +20,18 @@ ht-degree: 8%
 
 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 
-`Show[= *`val`*]`
+`Show[= *`瓦尔`*]`
 
 <table id="simpletable_88D25B9C8E0A47EF90C8ABEBDE777183"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>已忽略。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
+  <td class="stentry"> <p>忽略。 </p></td> 
  </tr> 
 </table>
 
 ## 属性 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-如果当前选择不包括任何重叠对象或未隐藏任何重叠对象，则忽略该选项。
+如果当前选区不包含任何重叠对象或未隐藏任何重叠对象，则忽略。
 
 ## 默认 {#section-04972797d24d4b9f93790a31dfaa4743}
 
