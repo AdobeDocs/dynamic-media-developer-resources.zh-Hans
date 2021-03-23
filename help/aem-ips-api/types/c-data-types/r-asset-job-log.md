@@ -4,13 +4,14 @@ seo-description: 与特定资产关联的作业日志条目的详细信息。 ge
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '131'
+ht-degree: 12%
 
 ---
 
@@ -45,7 +46,7 @@ ht-degree: 13%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志中的消息。 <p><span class="codeph"> logMessageresponse</span> 字段已根据authHeaderlocale字 <span class="codeph"> </span> 段进行本地化。 </p></td> 
+   <td colname="col3">作业日志中的消息。 <p><span class="codeph"> logMessageresponse</span> 字段已基于authHeaderlocale字 <span class="codeph"> </span> 段本地化。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
@@ -65,7 +66,7 @@ ht-degree: 13%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:JobLogDetailArray</span> </td> 
-   <td colname="col3"> 每个作业日志的辅助作业日志消息的数组。 </td> 
+   <td colname="col3"> 每个作业日志的辅助作业日志消息数组。 </td> 
   </tr> 
  </tbody> 
 </table>
