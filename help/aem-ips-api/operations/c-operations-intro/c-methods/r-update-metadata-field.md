@@ -4,13 +4,14 @@ seo-description: 更新字段元数据。
 seo-title: updateMetadataField
 solution: Experience Manager
 title: updateMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 21%
+source-wordcount: '165'
+ht-degree: 20%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 21%
 
 ## 参数 {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**输入(updateMetadataFieldParam)**
+**Input(updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
@@ -69,7 +70,7 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开特定于IPS系统的元数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
@@ -81,7 +82,7 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可以指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 允许您创建选定标记可指向的一组共享枚举值。 </td> 
   </tr> 
  </tbody> 
 </table>
