@@ -4,12 +4,13 @@ seo-description: 从公司中删除项目。 资源与项目之间的链接将�
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '160'
 ht-degree: 7%
 
 ---
@@ -45,7 +46,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-e38507f1f7ec41b9a625f47390490254}
 
-此代码示例将公司句柄和项目句柄用作发送到IPS Web服务器的deleteProjectParam中的字段，以删除项目。
+此代码示例使用公司句柄和项目句柄作为发送到IPS Web服务器的deleteProjectParam中的字段来删除项目。
 
 **请求**
 
