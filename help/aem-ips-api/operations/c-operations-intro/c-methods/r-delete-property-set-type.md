@@ -4,13 +4,14 @@ seo-description: 删除属性集类型及其关联的属性集和属性。
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 10%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 10%
 
 ## 参数 {#section-1c8973f5d35f44b4a6a483a41609e455}
 
-**输入(deletePropertySetTypeParam)**
+**Input(deletePropertySetTypeParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
