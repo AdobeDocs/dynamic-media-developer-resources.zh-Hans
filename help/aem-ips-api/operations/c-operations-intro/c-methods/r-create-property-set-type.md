@@ -4,13 +4,14 @@ seo-description: 属性集类型指定用于帮助管理属性集的各种设置
 seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -30,11 +31,11 @@ ht-degree: 11%
 
 ## 参数 {#section-43dece72eb9f44df80f4a119dd2c008b}
 
-**输入(createPropertySetTypeParam)**
+**Input(createPropertySetTypeParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果未传递`companyHandle`且调用者为`IpsAdmin`，则将创建全局属性集类型。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果未传递`companyHandle`且调用方为`IpsAdmin`，则将创建全局属性集类型。 |
 | `*`name`*` | `xsd:string` | 是 | 属性集类型的名称。 |
 | `*`propertyType`*` | `xsd:string` | 是 | 属性集类型的选择。 |
 | `*`allowMultiple`*` | `xsd:boolean` | 是 | 确定项目是否可以有多个属性集。 |
@@ -47,7 +48,7 @@ ht-degree: 11%
 
 ## 示例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代码示例创建一个属性集，该属性集的名称和类型由`PropertySet Types`常量指定。 拥有属性集类型的公司的句柄。 如果companyHandle未传递，且调用者是IpsAdmin，则将创建全局属性集类型。
+此代码示例创建一个属性集，该属性集的名称和类型由`PropertySet Types`常量指定。 拥有属性集类型的公司的句柄。 如果未传递companyHandle，且调用方是IpsAdmin，则将创建全局属性集类型。
 
 **请求**
 
