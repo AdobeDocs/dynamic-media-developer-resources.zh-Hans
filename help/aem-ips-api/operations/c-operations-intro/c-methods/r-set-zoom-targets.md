@@ -1,23 +1,24 @@
 ---
-description: 设置与资产图像关联的缩放目标。 它覆盖现有缩放目标。
-seo-description: 设置与资产图像关联的缩放目标。 它覆盖现有缩放目标。
+description: 设置与资产图像关联的缩放目标。 它会覆盖现有缩放目标。
+seo-description: 设置与资产图像关联的缩放目标。 它会覆盖现有缩放目标。
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 12%
+source-wordcount: '143'
+ht-degree: 11%
 
 ---
 
 
 # setZoomTargets{#setzoomtargets}
 
-设置与资产图像关联的缩放目标。 它覆盖现有缩放目标。
+设置与资产图像关联的缩放目标。 它会覆盖现有缩放目标。
 
 语法
 
@@ -32,7 +33,7 @@ ht-degree: 12%
 
 ## 参数 {#section-161f8c733cc4439f94a06e12119d4226}
 
-**输入(setZoomTargetsParam)**
+**Input(setZoomTargetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
