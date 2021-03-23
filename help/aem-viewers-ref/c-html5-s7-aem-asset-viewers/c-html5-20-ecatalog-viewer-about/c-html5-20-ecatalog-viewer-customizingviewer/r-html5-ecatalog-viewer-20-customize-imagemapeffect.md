@@ -1,12 +1,13 @@
 ---
-description: 根据模式参数的值，查看器在最初在Dynamic Media经典中创作地图的位置，在主视图上显示图像映射图标，或呈现与原始图像地图的形状匹配的精确区域。
+description: 根据mode参数的值，查看器在主视图上显示图像映射图标(在最初使用Dynamic Media Classic创作映射的位置)，或渲染与原始图像映射的形状匹配的精确区域。
 solution: Experience Manager
 title: 图像映射效果
-topic: Dynamic Media
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # 图像映射效果{#image-map-effect}
 
-根据模式参数的值，查看器在最初在Dynamic Media经典中创作地图的位置，在主视图上显示图像映射图标，或呈现与原始图像地图的形状匹配的精确区域。
+根据mode参数的值，查看器在主视图上显示图像映射图标(在最初使用Dynamic Media Classic创作映射的位置)，或渲染与原始图像映射的形状匹配的精确区域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -44,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -61,7 +62,7 @@ ht-degree: 1%
 >
 >图像映射图标支持`state`属性选择器，您可以使用该选择器将不同的外观应用于`default`和`active`的图标状态。
 
-示例——设置一个28 x 28像素的图像映射图标，该图标针对两个不同的图标状态中的每一个显示不同的图像。
+示例 — 设置一个28 x 28像素的图像映射图标，该图标针对两个不同的图标状态中的每一个显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon { 
@@ -95,20 +96,20 @@ opacity: 1;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景  </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)格式指定。 </p> </td> 
+   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R、G、B)或RGBA(R、G、B、A)格式指定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R,G,B)或RGBA(R,G,B,A)格式指定。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R、G、B)或RGBA(R、G、B、A)格式指定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为<span class="codeph"> <span class="varname">宽度</span>实色<span class="varname"> </span> </span>，其中<span class="codeph"> <span class="varname">宽度</span> </span>以像素表示，<span class="codeph"> <span class="varname">颜色</span> </span>设置为#RRGGBB, RGB(R,G,B)或RGBA(R,G,B,A)。 </p> </td> 
+   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为<span class="codeph"> <span class="varname">宽度</span>实色<span class="varname"> </span> </span>，其中<span class="codeph"> <span class="varname">宽度</span> </span>以像素表示，<span class="codeph"> <span class="varname">颜色</span> </span>设置为#RRGGBB、RGB(R、G、B)或RGBA(R、G、B、A)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有`1`像素黑色边框的透明图像映射区域：
+示例 — 设置具有`1`像素黑色边框的透明图像映射区域：
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 
