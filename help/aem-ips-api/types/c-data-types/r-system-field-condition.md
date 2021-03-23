@@ -4,12 +4,13 @@ seo-description: searchAssets操作的系统字段搜索条件。
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 searchAssets操作的系统字段搜索条件。
 
-对于一次比较，根据系统字段类型，只传递一个值（`boolVal`、`longVal`、`doubleVal`或`dateVal`）。 对于搜索范围，传递`min<Type>`和`max<Type>`参数，传递`op`值`Between`或`NotBetween`。
+对于一元比较，请根据系统字段类型仅传递一个值（`boolVal`、`longVal`、`doubleVal`或`dateVal`）。 对于搜索范围，传递`min<Type>`和`max<Type>`参数并传递`op`值`Between`或`NotBetween`。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -28,10 +29,10 @@ searchAssets操作的系统字段搜索条件。
 | `*`字段`*` | `xsd:string` | 资产搜索系统字段的选择。 |
 | `*`op`*` | `xsd:string` | 字符串比较运算符的选择。 |
 | `*`值`*` | `xsd:string` | 要测试的值。 |
-| `*`boolVal`*` | `xsd:boolean` | 布尔比较值。 |
+| `*`boolVal`*` | `xsd:boolean` | 布尔值比较值。 |
 | `*`longVal`*` | `xsd:long` | 比较值较长。 |
-| `*`minLong`*` | `xsd:long` | 远程的下边界。 |
-| `*`maxLong`*` | `xsd:long` | 长程上界。 |
+| `*`minLong`*` | `xsd:long` | 长程的下边界。 |
+| `*`maxLong`*` | `xsd:long` | 长程的上边界。 |
 | `*`doubleVal`*` | `xsd:double` | 多次比较值。 |
 | `*`minDouble`*` | `xsd:double` | 多次范围的下边界。 |
 | `*`maxDouble`*` | `xsd:double` | 多次范围的上边界。 |
