@@ -4,13 +4,14 @@ seo-description: 更新SWF查看器配置设置。
 seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
+feature: Dynamic Media Classic，SDK/API，查看器预设
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 13%
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 13%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 要应用于查看器的配置设置的数组。 |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 要应用到查看器的配置设置的数组。 |
 
 **输出(updateViewerConfigSettingsReturn)**
 
