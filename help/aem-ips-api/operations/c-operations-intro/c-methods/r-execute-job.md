@@ -4,13 +4,14 @@ seo-description: 运行特定作业。
 seo-title: executeJob
 solution: Experience Manager
 title: executeJob
-topic: Dynamic Media Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '88'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 19%
 
 ## 参数 {#section-2c61b2bffcf9479a9391f2c13fdf7d53}
 
-**输入(executeJobParam)**
+**Input(executeJobParam)**
 
 <table id="table_FA410513908F4084A21A5F0A9431006C"> 
  <thead> 
