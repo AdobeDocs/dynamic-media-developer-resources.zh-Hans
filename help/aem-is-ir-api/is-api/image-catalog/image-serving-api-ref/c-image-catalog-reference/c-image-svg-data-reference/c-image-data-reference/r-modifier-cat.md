@@ -4,12 +4,13 @@ seo-description: 前缀请求修饰符字符串。 无或多个以“&”字符�
 seo-title: 修饰符
 solution: Experience Manager
 title: 修饰符
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 7%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 7%
 
 此字段中的命令由引用此记录的请求或模板中的相同命令和`catalog::PostModifier`中的命令覆盖
 
-宏在`catalog::Modifier`中是允许的，只要它们是在同一目录或默认目录中定义的。 也可以使用自定义变量。
+宏在`catalog::Modifier`中是允许的，只要它们在同一目录或默认目录中定义。 也可以使用自定义变量。
 
 ## 属性 {#section-6674388f77d644469371a17e8809c45f}
 
