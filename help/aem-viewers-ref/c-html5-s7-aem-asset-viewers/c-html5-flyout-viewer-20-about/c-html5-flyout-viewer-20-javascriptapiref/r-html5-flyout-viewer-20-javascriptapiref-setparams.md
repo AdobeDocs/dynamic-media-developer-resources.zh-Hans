@@ -4,12 +4,13 @@ seo-description: 弹出查看器的JavaScript API参考。
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 12a513d3-32a9-411d-965f-f0eaf553d98d
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的name=value对。 与在查询字符串中一样，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的name=value对。 与在查询字符串中相同，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
 
