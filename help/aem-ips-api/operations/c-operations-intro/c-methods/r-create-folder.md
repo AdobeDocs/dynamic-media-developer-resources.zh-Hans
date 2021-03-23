@@ -4,13 +4,14 @@ seo-description: 创建文件夹。
 seo-title: 建立資料夾
 solution: Experience Manager
 title: 建立資料夾
-topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 22%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->新文件夹与“图像”文件夹下属，即使您指定`/`来指示公司的根。
+>新文件夹对Images文件夹下属，即使您指定`/`来指示公司的根。
 
 语法
 
@@ -36,16 +37,16 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->用户必须具有对父文件夹的读／写权限。
+>用户必须具有对父文件夹的读/写访问权限。
 
 ## 参数 {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**输入(createFolder)**
+**Input(createFolder)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司 |
-| `*`folderPath`*` | `xsd:string` | 是 | 用于检索文件夹和所有子文件夹到叶级别的根文件夹。 如果排除，则使用公司根。 |
+| `*`folderPath`*` | `xsd:string` | 是 | 用于检索文件夹及所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
 
 **输出(createFolderParam)**
 
@@ -55,7 +56,7 @@ ht-degree: 22%
 
 ## 示例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-此示例代码在公司的根中创建文件夹。 响应将返回新创建的文件夹的句柄。
+此示例代码在公司的根位置创建一个文件夹。 响应会返回新创建的文件夹的句柄。
 
 **请求**
 
