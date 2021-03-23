@@ -4,12 +4,13 @@ seo-description: 本节中的主题介绍HTTP协议的语法和功能。
 seo-title: 语法和功能
 solution: Experience Manager
 title: 语法和功能
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -33,10 +34,10 @@ ht-degree: 0%
 * [SVG支持](r-svg-support.md)
 * [请求预处理](r-request-preprocessing.md)
 * [图像映射](r-image-maps.md)
-* [图像服务颜色管理](r-color-management.md)
+* [图像服务色彩管理](r-color-management.md)
 * [图像服务HTTP编码](r-http-encoding.md)
 * [请求锁定](r-request-locking.md)
-* [请求模糊化](r-request-obfuscation.md)
+* [请求模糊处理](r-request-obfuscation.md)
 * [水印](r-watermarks.md)
 * [提供静态（非图像）内容](r-serving-static-non-image-content.md)
 * [媒体集请求](r-media-set-requests.md)
