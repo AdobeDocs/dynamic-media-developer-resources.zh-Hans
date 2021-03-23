@@ -1,15 +1,16 @@
 ---
-description: 单击或点按此按钮将重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在移动电话上，此按钮显示在图像的下方中心。 但是，当图像处于重置状态时，不会显示它。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮将重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在移动电话上，此按钮显示在图像的下方中心。 但是，当图像处于重置状态时，不会显示它。 您可以使用CSS调整此按钮的大小、外观和位置。
+description: 单击或点按此按钮会重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在手机上，此按钮显示在图像的底部中心。 但是，当图像处于重置状态时，不会显示该图像。 您可以使用CSS调整此按钮的大小、外观和位置。
+seo-description: 单击或点按此按钮会重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在手机上，此按钮显示在图像的底部中心。 但是，当图像处于重置状态时，不会显示该图像。 您可以使用CSS调整此按钮的大小、外观和位置。
 seo-title: 缩放重置按钮
 solution: Experience Manager
 title: 缩放重置按钮
-topic: Dynamic Media
 uuid: 27f6eacd-2922-4ddb-98e4-ee10d3b72b0c
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # 缩放重置按钮{#zoom-reset-button}
 
-单击或点按此按钮将重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在移动电话上，此按钮显示在图像的下方中心。 但是，当图像处于重置状态时，不会显示它。 您可以使用CSS调整此按钮的大小、外观和位置。
+单击或点按此按钮会重置主视图中的图像。 此按钮显示在台式机系统和平板电脑的主控制栏中。 在手机上，此按钮显示在图像的底部中心。 但是，当图像处于重置状态时，不会显示该图像。 您可以使用CSS调整此按钮的大小、外观和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,19 +38,19 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的上边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的上边框进行定位，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的右边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机和平板电脑上）或查看器（在手机上）的右边框中定位，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的左边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机和平板电脑上）或查看器（在手机上）的左边框中的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的下边框进行定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控件栏（在台式机和平板电脑上）或查看器（在手机上）的底部边框进行定位，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,18 +66,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个28 x 28像素的缩放重置按钮（在桌面上），位于距主控件条底部4像素和距右边47像素的位置，并针对四个不同的按钮状态中的每个状态显示不同的图像。
+示例 — 设置一个28 x 28像素的缩放重置按钮，该按钮位于（桌面上）距主控件条底部4像素，距右边47像素，并针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7zoomresetbutton { 
