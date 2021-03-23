@@ -4,12 +4,13 @@ seo-description: 设置与图像集关联的资产的列表。
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic，SDK/API，图像集
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 11%
 
 设置与图像集关联的资产的列表。
 
-此操作将忽略`ImageSets`和`SpinSets`的`pageReset`参数，并将该值强制为true。
+此操作会忽略`ImageSets`和`SpinSets`的`pageReset`参数，并将值强制为true。
 
 ## 授权用户类型{#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -32,11 +33,11 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->用户必须具有对图像集资产的读和写访问权限，并对每个成员资产具有读访问权限。
+>用户必须具有对图像集资产的读和写访问权限，并且对每个成员资产具有读访问权限。
 
 ## 参数 {#section-2f46efcd24c648aeacba738509426e46}
 
-**输入(setImageSetMembersParam)**
+**Input(setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
