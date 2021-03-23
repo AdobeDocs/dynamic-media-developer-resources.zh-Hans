@@ -2,13 +2,14 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-topic: Dynamic Media
 uuid: a95d4051-7bc1-4b3f-8478-c5b7ab28fa61
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 区域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定收藏夹缩略图的裁剪区域。 以相对于总帧大小的相对值表示，范围从<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值<span class="codeph"> 1</span>表示整个帧图像用于缩略图。 </p> <p>值<span class="codeph"> 0.1</span>表示只使用帧大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定收藏夹缩览图的裁剪区域。 表示为相对于总帧大小的相对值，范围从<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值<span class="codeph"> 1</span>表示整个帧图像用于缩略图。 </p> <p>值<span class="codeph"> 0.1</span>表示仅使用帧大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
