@@ -4,22 +4,23 @@ seo-description: 缩览图的默认背景颜色。 用于填充不包含实际�
 seo-title: 缩略图BkgColor
 solution: Experience Manager
 title: 缩略图BkgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
 
 
-# 缩略图BkgColor{#thumbbkgcolor}
+# ThumbBkgColor{#thumbbkgcolor}
 
 缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
 
-仅用于缩略图请求(`req=tmb`)以及将`catalog::ThumbType`设置为2或3时。
+仅用于缩略图请求(`req=tmb`)和将`catalog::ThumbType`设置为2或3时。
 
 ## 属性 {#section-a73e82c950cc4319bc3bccec14764c25}
 
