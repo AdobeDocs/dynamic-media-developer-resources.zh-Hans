@@ -4,13 +4,14 @@ seo-description: 视频大小。 允许指定与每个视频记录关联的大�
 seo-title: 视频大小
 solution: Experience Manager
 title: 视频大小
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 078508a7-8b06-4c40-9497-82b365b96fe2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
