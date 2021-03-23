@@ -4,12 +4,13 @@ seo-description: 指定组件用于从图像服务器加载图像的图像格式
 seo-title: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-topic: Dynamic Media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 如果指定的格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件将图像视为不透明。 </p> <p>请注意，默认情况下，该组件具有白色背景。 因此，要使其完全透明，请将<span class="codeph"> background-color</span> CSS属性设置为<span class="codeph"> transparent</span>。 </p> </td> 
+   <td colname="col2"> <p> 如果指定的格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> <p>请注意，默认情况下，组件的背景为白色。 因此，要使其完全透明，请将<span class="codeph"> background-color</span> CSS属性设置为<span class="codeph"> transparent</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
