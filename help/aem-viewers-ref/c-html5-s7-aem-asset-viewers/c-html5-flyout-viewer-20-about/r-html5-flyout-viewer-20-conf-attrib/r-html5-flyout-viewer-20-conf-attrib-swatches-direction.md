@@ -2,13 +2,14 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-topic: Dynamic Media
 uuid: cbe63f57-28d2-4cfa-8a7f-1b4ec01beb80
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 7%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动|左|右  </span> </p> </td> 
-   <td colname="col2"> <p> 指定色板填充视图的方式。 </p> <p> <span class="codeph"> 左 </span> 侧设置从左到右的填充顺序； <span class="codeph"> 右 </span> 侧颠倒顺序，以便视图以从右到左、从上到下的方向填充。设置<span class="codeph">自动</span>时，当区域设置设置为<span class="codeph"> "ja" </span>时，组件将应用右模式，否则使用左模式。 </p> </td> 
+   <td colname="col2"> <p> 指定色板填充视图的方式。 </p> <p> <span class="codeph"> 左 </span> 侧设置从左到右的填充顺序； <span class="codeph"> 向右 </span> 可颠倒顺序，以便视图以从右到左、从上到下的方向填充。设置<span class="codeph">自动</span>时，当区域设置设置为<span class="codeph"> "ja" </span>时，组件将应用右模式，否则使用左模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
