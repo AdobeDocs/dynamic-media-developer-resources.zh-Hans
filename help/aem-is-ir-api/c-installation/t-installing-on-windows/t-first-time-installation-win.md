@@ -1,15 +1,16 @@
 ---
-description: 使用这些步骤在Windows上首次安装图像服务。
-seo-description: 使用这些步骤在Windows上首次安装图像服务。
+description: 使用以下步骤在Windows上首次安装图像服务。
+seo-description: 使用以下步骤在Windows上首次安装图像服务。
 seo-title: 首次安装
 solution: Experience Manager
 title: 首次安装
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 0%
 
 # 首次安装{#installing-for-the-first-time}
 
-使用这些步骤在Windows上首次安装图像服务。
+使用以下步骤在Windows上首次安装图像服务。
 
-1. 以管理权限登录到服务器主机。
-1. 如果已收到许可证，请将其复制到服务器，然后通过多次单击文件运行许可证安装。
+1. 使用管理权限登录到服务器主机。
+1. 如果您已收到许可证，请将其复制到服务器，然后通过多次单击文件来运行许可证安装。
 
-   如果您还没有许可证，您可以继续安装，稍后再安装许可证。
-1. 提取图像服务分发zip文件的内容。
+   如果您还没有许可证，可以继续安装，稍后再安装许可证。
+1. 解压图像服务分发zip文件的内容。
 1. 运行[!DNL setup]/ [!DNL setup.exe]以启动安装向导。
-1. 单击“下一步”进入最终用户许可协议(EULA)，阅读许可协议，然后单击&#x200B;**[!UICONTROL 是]**。
+1. 单击“下一步”前进到最终用户许可协议(EULA)，阅读许可协议，然后单击&#x200B;**[!UICONTROL 是]**。
 
-   下面将显示[!DNL Authentication]对话框。
+   随后将显示[!DNL Authentication]对话框。
 1. 如果已安装许可证，且许可证信息显示在[!DNL Authentication]对话框中，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;继续。
 
-   如果您没有许可证，请单击&#x200B;**[!UICONTROL 请求许可证]**。 下一个对话框显示计算机的一个网络接口卡MAC地址。 按提示的指示，以电子邮件方式发送此MAC地址、您的公司名和您正在安装的产品。
+   如果您没有许可证，请单击&#x200B;**[!UICONTROL 请求许可证]**。 下一个对话框显示您计算机的网卡MAC地址之一。 按提示的指示，通过电子邮件发送此MAC地址、公司名称和您正在安装的产品。
 
-   **重要：** 许可证基于此主机上安装的一个网络接口卡的MAC地址。如果禁用、删除或更换此卡，许可证将不再被识别为有效。 请务必获取将用于IS的硬件配置的许可证。
+   **重要：** 许可证基于安装在此主机上的某个网络接口卡的MAC地址。如果禁用、删除或更换此卡，则许可证将不再被识别为有效。 请务必获取将用于IS的硬件配置的许可证。
 
-   如果没有有效许可证，您可以继续安装IS，稍后再安装该许可证。 要继续，请单击&#x200B;**[!UICONTROL 返回]**&#x200B;返回至[!DNL Authentication]对话框，然后单击&#x200B;**[!UICONTROL 下一步]**。
+   如果没有有效的许可证，您可以继续安装IS，稍后再安装该许可证。 要继续，请单击&#x200B;**[!UICONTROL 返回]**&#x200B;返回到[!DNL Authentication]对话框，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 进入“平台服务器管理设置”页面。 根据需要输入新值或接受默认值。
 
    您可以配置以下项目：
