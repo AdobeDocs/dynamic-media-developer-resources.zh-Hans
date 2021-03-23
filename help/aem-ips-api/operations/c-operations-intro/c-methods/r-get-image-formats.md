@@ -4,13 +4,14 @@ seo-description: 返回图像格式，如PDF、EPS、SWF等。
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 17%
+source-wordcount: '92'
+ht-degree: 16%
 
 ---
 
@@ -33,11 +34,11 @@ ht-degree: 17%
 
 ## 参数 {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**输入(getImageFormatsParam)**
+**Input(getImageFormatsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的句柄，包含您要获取的图像格式。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 使用要获取的图像格式的公司的句柄。 |
 
 **输出(getImageFormatsParam)**
 
