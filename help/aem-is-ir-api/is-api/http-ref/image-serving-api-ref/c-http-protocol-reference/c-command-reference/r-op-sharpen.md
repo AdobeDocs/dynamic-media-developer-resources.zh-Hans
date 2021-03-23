@@ -1,15 +1,16 @@
 ---
-description: 锐化图像。 在进行缩放后，如果layer=comp，则对图层或最终视图图像应用基本锐化滤镜。
-seo-description: 锐化图像。 在进行缩放后，如果layer=comp，则对图层或最终视图图像应用基本锐化滤镜。
+description: 锐化图像。 对图层或最终视图图像应用基本锐化滤镜（如果layer=comp），在进行所有缩放后。
+seo-description: 锐化图像。 对图层或最终视图图像应用基本锐化滤镜（如果layer=comp），在进行所有缩放后。
 seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '147'
 ht-degree: 7%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 7%
 
 # op_sharpen{#op-sharpen}
 
-锐化图像。 在进行缩放后，如果layer=comp，则对图层或最终视图图像应用基本锐化滤镜。
+锐化图像。 对图层或最终视图图像应用基本锐化滤镜（如果layer=comp），在进行所有缩放后。
 
 `op_sharpen=0|1`
 
-图层蒙版或复合蒙版也会被锐化。
+图层蒙版或复合蒙版也会进行锐化。
 
 ## 属性 {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-图层属性或视图属性。 应用于当前层或最终视图图像（如果`layer=comp`）。 被效果图层忽略。
+图层属性或视图属性。 应用于当前图层或最终视图图像（如果`layer=comp`）。 被效果图层忽略。
 
 ## 默认 {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`，无锐化效果。
+`op_sharpen=0`，以获得无锐化效果。
 
 ## 示例 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-补偿由图像重新取样引起的轻微模糊。 我们还会提高JPEG质量，以避免沿着锐化的边缘出现额外的JPEG伪影。
+补偿由图像重新取样引起的轻微模糊。 我们还会提高JPEG质量，以避免沿着锐化的边缘出现其他JPEG伪像。
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 
