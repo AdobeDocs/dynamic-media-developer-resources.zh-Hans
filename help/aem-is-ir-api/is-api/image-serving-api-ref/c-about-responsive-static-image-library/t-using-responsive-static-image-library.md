@@ -1,12 +1,13 @@
 ---
-description: 要向网页添加响应式图像库并使用该库管理现有图像，请完成以下步骤。
+description: 要将响应式图像库添加到网页并使用该库管理现有图像，请完成以下步骤。
 solution: Experience Manager
 title: 使用响应式图像库
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # 使用响应式图像库{#using-responsive-image-library}
 
-要向网页添加响应式图像库并使用该库管理现有图像，请完成以下步骤。
+要将响应式图像库添加到网页并使用该库管理现有图像，请完成以下步骤。
 
 **使用响应式图像库**
 
-1. 在Dynamic Media经典中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以备您计划使用带有预设的响应式图像库。
+1. 在Dynamic Media Classic中，如果您计划将响应式图像库与预设结合使用，请[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)。
 
-   在定义与响应式图像库一起使用的图像预设时，请勿使用影响图像大小的任何设置，如`wid=`、`hei=`或`scl=`。 请勿在图像预设中指定任何大小字段。 相反，将它们保留为空值。
+   定义与响应式图像库一起使用的图像预设时，请勿使用影响图像大小的任何设置，如`wid=`、`hei=`或`scl=`。 请勿在“图像预设”中指定任何大小字段。 相反，将它们保留为空值。
 1. 将库JavaScript文件添加到网页。
 
    在使用库API之前，请确保包含`responsive_image.js`。 此JavaScript文件位于标准IS-Viewer部署的`libs/`子文件夹中：
@@ -28,21 +29,21 @@ ht-degree: 0%
    `<s7viewers_root>/libs/responsive_image.js`
 1. 设置现有图像。
 
-   库从它所使用的图像实例读取某些配置属性。 在为此类图像调用`s7responsiveImage` API函数之前定义属性。
+   该库从它使用的图像实例中读取某些配置属性。 在为此类图像调用`s7responsiveImage` API函数之前定义属性。
 
-   还建议将现有图像URL放入`data-src`属性中。 然后，设置现有`src`属性，使其具有编码为数据URI的1x1 GIF图像。 这样做可减少网页在加载时发送的HTTP请求数。 但是，请注意，如果需要SEO（搜索引擎优化），最好在图像实例上设置`title`属性。
+   还建议将现有图像URL放入`data-src`属性中。 然后，设置现有`src`属性，以使1x1 GIF图像编码为数据URI。 这样可减少加载时网页发送的HTTP请求数。 但请注意，如果需要SEO（搜索引擎优化），最好在图像实例上设置`title`属性。
 
-   以下是为图像定义`data-breakpoints`属性并使用1x1 GIF编码为数据URI的示例：
+   以下是定义图像`data-breakpoints`属性并使用1x1 GIF编码为数据URI的示例：
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. 调用库管理的每个图像实例的`s7responsiveImage` API函数。
+1. 为库管理的每个图像实例调用`s7responsiveImage` API函数。
 
-   调用库管理的每个图像实例的`s7responsiveImage` API函数。 在进行此类调用后，库会根据网页布局中`IMG`元素的运行时大小和设备屏幕密度，将原始图像替换为从图像服务下载的图像。
+   为库管理的每个图像实例调用`s7responsiveImage` API函数。 在进行此类调用后，库根据网页布局中`IMG`元素的运行时大小和设备屏幕密度，将原始图像替换为从图像服务下载的图像。
 
-   以下代码是调用图像上的`s7responsiveImage` API函数的示例，假定`responsiveImage`是该图像的ID:
+   以下代码是对图像调用`s7responsiveImage` API函数（假定`responsiveImage`是该图像的ID）的示例：
 
    ```
    <script type="text/javascript"> 
@@ -52,11 +53,11 @@ ht-degree: 0%
 
 ## 示例 {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-该库支持同时处理网页上的许多图像实例。 因此，请对要库管理的每个图像重复上面的步骤1和步骤2。
+库支持同时处理网页上的许多图像实例。 因此，请对希望库管理的每个图像重复上述步骤1和2。
 
-设计图像元素的样式是网页的责任，这样图像元素的大小就变得灵活。 响应式图像库本身不区分固定大小和“流体”图像。 如果应用于固定大小的图像，则只加载新图像一次。
+网页有责任设置图像元素的样式，使其在大小上更灵活。 响应式图像库本身不区分固定大小和“流体”图像。 如果应用于固定大小的图像，则只加载新图像一次。
 
-以下代码是包含由响应式图像库管理的单个流体图像的次要网页的完整示例。 该示例包含额外的CSS样式，使图像对Web浏览器窗口大小“响应”:
+以下代码是包含由响应式图像库管理的单个流体图像的次要网页的完整示例。 该示例包含额外的CSS样式，以使图像对Web浏览器窗口大小“响应”：
 
 ```
 <!DOCTYPE html> 
@@ -85,12 +86,12 @@ ht-degree: 0%
 
 **使用智能裁剪**
 
-AEM 6.4和Dynamic Media查看器5.9中提供两种智能裁剪模式：
+AEM 6.4和Dynamic Media Viewers 5.9中提供两种智能裁剪模式：
 
-* **手动** -用户定义的断点和相应的图像服务命令是在图像元素的属性中定义的。
-* **智能裁剪** -从投放服务器自动检索计算出的智能裁剪演绎版。使用图像元素的运行时大小选择最佳再现。
+* **手动**  — 用户定义的断点和相应的图像服务命令是在图像元素的属性中定义的。
+* **智能裁剪**  — 从投放服务器自动检索计算的智能裁剪演绎版。使用图像元素的运行时大小选择最佳再现。
 
-要使用智能裁剪模式，请将`data-mode`属性设置为`smart crop`。 例如：
+要使用“智能裁剪”模式，请将`data-mode`属性设置为`smart crop`。 例如：
 
 ```
 <img 
