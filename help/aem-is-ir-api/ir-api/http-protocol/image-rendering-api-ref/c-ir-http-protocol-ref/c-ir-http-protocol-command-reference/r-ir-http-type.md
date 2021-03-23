@@ -1,23 +1,24 @@
 ---
-description: 材料表面类型。 指定材料的曲面类型。
-seo-description: 材料表面类型。 指定材料的曲面类型。
+description: 材料曲面类型。 指定材料的曲面类型。
+seo-description: 材料曲面类型。 指定材料的曲面类型。
 seo-title: 类型
 solution: Experience Manager
 title: 类型
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 21%
 
 ---
 
 
 # 类型{#type}
 
-材料表面类型。 指定材料的曲面类型。
+材料曲面类型。 指定材料的曲面类型。
 
 `type=0...19`
 
@@ -52,7 +53,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>搪瓷／漆 </p></td> 
+  <td class="stentry"> <p>珐琅/漆 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -96,7 +97,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Shere Fabric </p></td> 
+  <td class="stentry"> <p>Sheer Fabric </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -104,15 +105,15 @@ ht-degree: 22%
  </tr> 
 </table>
 
-与`gloss=`和`rough=`结合使用以控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，不同的材料也会产生不同的效果。
+与`gloss=`和`rough=`结合使用，以控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，不同的材料也会产生不同的效果。
 
 ## 属性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料属性。 如果暗角不包含3-D反射数据或在暗角中禁用了光泽效果，则忽略此问题。
+材料属性。 如果暗角不包括3D反射数据或在暗角中禁用了光泽效果，则忽略。
 
 ## 默认 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料基于目录条目。否则`type=0`。 如果未指定，或如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的默认值。
+`catalog::Type` 如果物料基于目录条目。否则`type=0`。 如果未指定，或者如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的默认值。
 
 ## 另请参阅 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
