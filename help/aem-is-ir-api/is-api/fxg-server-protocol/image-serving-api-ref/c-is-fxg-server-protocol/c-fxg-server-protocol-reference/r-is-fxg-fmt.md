@@ -1,15 +1,16 @@
 ---
 description: 响应图像格式。
 seo-description: 响应图像格式。
-seo-title: fm
+seo-title: fmt
 solution: Experience Manager
-title: fm
-topic: Dynamic Media Image Serving - Image Rendering API
+title: fmt
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -28,11 +29,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 为发送到客户端的图像数据指定图像编码格式，为HTTP回复标头指定相应的响应MIME类型。 </p> <p> <span class="codeph">  jpeg  </span>:有损JPEG </p> <p> <span class="codeph"> png  </span>:无丢失PNG </p> <p> <span class="codeph"> png-alpha  </span>:具有alpha渠道的无丢失PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:带Alpha渠道的TIFF </p> <p> <span class="codeph">  swf  </span>:嵌入到Adobeswf文件中的有损JPEG </p> <p> <span class="codeph"> pdf  </span>:嵌入在PDF中的图像 </p> <p> <span class="codeph"> gif  </span>:2到256色的GIF </p> <p> <span class="codeph"> gif-alpha  </span>:具有2到255种颜色加上主色透明度的GIF </p> <p> <span class="codeph"> fxg  </span>:应用变量和DOM操作的FXG </p> <p> <span class="codeph">  fxgraw  </span>:存储在服务器上的原始FXG </p> </td> 
+  <td class="stentry"> <p> 为发送到客户端的图像数据指定图像编码格式，为HTTP回复标头指定相应的响应MIME类型。 </p> <p> <span class="codeph">  jpeg  </span>:有损JPEG </p> <p> <span class="codeph"> png  </span>:无丢失PNG </p> <p> <span class="codeph"> png-alpha  </span>:带有alpha渠道的无丢失PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:带有Alpha渠道的TIFF </p> <p> <span class="codeph">  swf  </span>:嵌入到Adobeswf文件中的有损JPEG </p> <p> <span class="codeph"> pdf  </span>:嵌入PDF中的图像 </p> <p> <span class="codeph"> gif  </span>:2到256色的GIF </p> <p> <span class="codeph"> gif-alpha  </span>:具有2到255种颜色加上主色透明度的GIF </p> <p> <span class="codeph"> fxg  </span>:应用了变量和DOM操作的FXG </p> <p> <span class="codeph">  fxgraw  </span>:存储在服务器上的原始FXG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> rgb |灰色 | cmyk</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> rg |灰色 | cmyk</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
@@ -40,11 +41,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-`tiffCompression` 仅当将tif、tif-alpha指定为格式时，才允许。有关这些图像格式支持的压缩选项，请参阅下表。
+`tiffCompression` 仅当将tif-alpha指定为格式时才允许。有关这些图像格式支持的压缩选项，请参阅下表。
 
-`qlt=` 可用于为以下格式设置JPEG编码选项：JPEG、带JPEG压缩的TIFF。如果fmt=gif或fmt=gif-alpha，则可以使用quantize=。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+`qlt=` 可用于为以下格式设置JPEG编码选项：JPEG、TIFF（带JPEG压缩）。如果fmt=gif或fmt=gif-alpha，则可以使用quantize=。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
-对于所有格式和`pixelTypes[7]`，每个像素返回8位组件。
+为所有格式和`pixelTypes[7]`返回每像素8位组件。
 
 下表列表了格式和`pixelType`（相应的HTTP响应MIME类型）的有效组合。
 
@@ -61,27 +62,27 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p>jpeg </p> </td> 
-   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>rgb，灰色，cmyk </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p><span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>png, png-alpha </p> </td> 
+   <td> <p>png、png-alpha </p> </td> 
    <td> <p>rgb，灰色 </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>tif, tif-alpha </p> </td> 
-   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>tif， tif-alpha </p> </td> 
+   <td> <p>rgb，灰色，cmyk </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> （无） | lzw | zip | jpeg), qlt=</span> </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> (none | lzw | zip | jpeg)、qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>swf,swf-alpha </p> </td> 
+   <td> <p>swf，swf-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p>&lt;application&gt; </p> </td> 
    <td> <p>无 </p> </td> 
@@ -89,13 +90,13 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p>pdf </p> </td> 
-   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>rgb，灰色，cmyk </p> </td> 
    <td> <p>&lt;application&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>gif, gif-alpha </p> </td> 
+   <td> <p>gif，gif-alpha </p> </td> 
    <td> <p>rgb，灰色 </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
    <td> <p>无 </p> </td> 
