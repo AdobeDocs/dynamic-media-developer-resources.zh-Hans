@@ -4,18 +4,19 @@ seo-description: 命令宏的名称。
 seo-title: name
 solution: Experience Manager
 title: 名称
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 699c1d24-d10a-4daa-9ee1-506b3f664fa3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
 
-# 名称{#name}
+# name{#name}
 
 命令宏的名称。
 
@@ -28,4 +29,4 @@ ht-degree: 15%
  </tr> 
 </table>
 
-*`name`* 不区分大小写，并且可能由字母、数字、“-”、“_”和“.”的任意组合组成字符.
+*`name`* 不区分大小写，并且可能由字母、数字、“ — ”、“_”和“。”的任意组合组成字符.
