@@ -4,13 +4,14 @@ seo-description: 显示打印机标记。 指定如何显示打印机标记。
 seo-title: printerMark
 solution: Experience Manager
 title: printerMark
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 30%
+source-wordcount: '134'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 30%
 
 显示打印机标记。 指定如何显示打印机标记。
 
-` printerMark= *`裁切标`*, *`记出`*, *`血标记`*, *`注`*, *`册标`*, *``*, *`记颜色`*, *`标记线加权图嵌入`*`
+` printerMark= *`裁切标`*, *`记出`*, *`血标记注`*, *`册标`*, *`记颜`*, *``*, *`色条`*, *`页信息线粗细图层嵌入`*`
 
 可以关闭或打开不同的标记。 还可以控制打印机标记的样式。
 
@@ -58,7 +59,7 @@ ht-degree: 30%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>行权重= </p></td> 
-  <td class="stentry"> <p>范围0.125 - 2.0中的任意值，包括这两个值。 </p></td> 
+  <td class="stentry"> <p>范围0.125 - 2.0中的任意值（包括这两个值）。 </p></td> 
   <td class="stentry"> <p>默认值为 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
