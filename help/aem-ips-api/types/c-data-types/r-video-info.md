@@ -4,13 +4,14 @@ seo-description: 视频资产属性。
 seo-title: 视频信息
 solution: Experience Manager
 title: 视频信息
-topic: Dynamic Media Image Production System API
 uuid: c90f2a56-64ff-4f04-bfed-739e33d9a319
+feature: Dynamic Media Classic，SDK/API，视频
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
