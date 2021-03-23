@@ -1,15 +1,16 @@
 ---
-description: 视频查看器的JavaScript API参考。
-seo-description: 视频查看器的JavaScript API参考。
+description: Video Viewer的JavaScript API参考。
+seo-description: Video Viewer的JavaScript API参考。
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: f106b3d4-880e-4ba3-ae47-a005af5c0f1b
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # setAsset{#setasset}
 
-视频查看器的JavaScript API参考。
+Video Viewer的JavaScript API参考。
 
 ` setAsset( *`asset`*)`
 
@@ -25,12 +26,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 资产  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph">字符串</span>}新资产id、显式图像集或显式图像集（带有特定于帧的图像服务修饰符），并在“?”后附加可选的全局图像服务修饰符。 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph">字符串</span>}新资产id、显式图像集或显式图像集（带有特定于帧的图像服务修饰符），并在“？”后附加可选的全局图像服务修饰符。 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置新资产。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用它，则查看器会在运行时交换资产。
+设置新资产。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用它，则查看器在运行时交换资产。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
@@ -58,13 +59,13 @@ ht-degree: 2%
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-使用特定于帧的图像服务修饰符进行显式图像集：
+使用特定于帧的图像服务功能键设置的显式图像：
 
 ```
  <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-锐化修饰符已添加到该集中的所有图像：
+锐化功能键已添加到该集中的所有图像：
 
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample?op_sharpen=1")
