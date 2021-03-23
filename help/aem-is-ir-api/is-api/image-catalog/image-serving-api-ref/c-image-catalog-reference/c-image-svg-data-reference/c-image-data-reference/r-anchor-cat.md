@@ -1,15 +1,16 @@
 ---
-description: 图像锚点。 来源此图像用作模板或复合图像中的图层时的点。
-seo-description: 图像锚点。 来源此图像用作模板或复合图像中的图层时的点。
+description: 图像锚点。 来源点，当此图像用作模板或复合图像中的图层时。
+seo-description: 图像锚点。 来源点，当此图像用作模板或复合图像中的图层时。
 seo-title: 锚点
 solution: Experience Manager
 title: 锚点
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 81069578-8470-4ec0-b755-47b0a8124024
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 5%
 
 # 锚点{#anchor}
 
-图像锚点。 来源此图像用作模板或复合图像中的图层时的点。
+图像锚点。 来源点，当此图像用作模板或复合图像中的图层时。
 
 还定义旋转的默认中心点。
 
 ## 属性 {#section-95740f14160744e7bc763094b8be40d8}
 
-两个整数，以逗号分隔。 相对于全分辨率图像的左上角的像素偏移。
+两个整数，以逗号分隔。 相对于全分辨率图像左上角的像素偏移。
 
 由`anchor=`覆盖（而`origin=`又可以覆盖）。
 
