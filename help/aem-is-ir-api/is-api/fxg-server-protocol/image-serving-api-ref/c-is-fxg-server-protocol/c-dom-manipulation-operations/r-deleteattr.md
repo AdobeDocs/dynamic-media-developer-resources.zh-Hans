@@ -1,15 +1,16 @@
 ---
-description: 删除给定s7元素ID的任何属性。
-seo-description: 删除给定s7元素ID的任何属性。
+description: 删除给定s7 elementID的任何属性。
+seo-description: 删除给定s7 elementID的任何属性。
 seo-title: deleteAttr
 solution: Experience Manager
 title: deleteAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 1%
 
 ---
