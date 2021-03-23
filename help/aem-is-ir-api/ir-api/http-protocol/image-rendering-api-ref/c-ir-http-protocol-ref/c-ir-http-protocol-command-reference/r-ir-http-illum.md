@@ -1,33 +1,34 @@
 ---
-description: 照明图选择器。 指定此材料更喜欢用来渲染的照明映射。
-seo-description: 照明图选择器。 指定此材料更喜欢用来渲染的照明映射。
+description: 光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
+seo-description: 光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
 seo-title: 伊兰
 solution: Experience Manager
 title: 伊兰
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
 
 # illum{#illum}
 
-照明图选择器。 指定此材料更喜欢用来渲染的照明映射。
+光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
 
 `illum=-1|0|1|2`
 
-如果指定的照明映射在目标暗角中不可用，则使用最近的可用映射。
+如果指定的照明映射在目标晕影中不可用，则使用最近的可用映射。
 
 `illum=-1` 指定根据值自动选择照明 `gloss=` 图。
 
 ## 属性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-材料属性。 如果暗角未定义多个照明映射，则忽略。
+材料属性。 如果晕影未定义多个照明映射，则忽略。
 
 ## 默认 {#section-c96ecfb232074e80b6a29076f5199403}
 
