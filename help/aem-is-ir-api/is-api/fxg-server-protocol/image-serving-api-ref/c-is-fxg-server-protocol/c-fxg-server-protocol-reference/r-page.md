@@ -4,13 +4,14 @@ seo-description: 检索页面。 检索多页FXG中的特定页面。
 seo-title: 页面
 solution: Experience Manager
 title: 页面
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 6%
 
 检索页面。 检索多页FXG中的特定页面。
 
-`page= *`val`*`
+`page= *`瓦尔`*`
 
 <table id="simpletable_E92560F812B64A36A3D108CA7DEED5AC"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 瓦尔</span></span> </p> </td> 
   <td class="stentry"> <p>页码（第一页为1）。 </p></td> 
  </tr> 
 </table>
