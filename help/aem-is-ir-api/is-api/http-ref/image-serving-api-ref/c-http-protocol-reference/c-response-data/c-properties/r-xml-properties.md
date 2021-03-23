@@ -4,12 +4,13 @@ seo-description: 如果将xml指定为响应格式，则返回数据将格式化
 seo-title: XML属性
 solution: Experience Manager
 title: XML属性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9d169ad2-e466-4ab3-8900-ea9c6125edad
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
