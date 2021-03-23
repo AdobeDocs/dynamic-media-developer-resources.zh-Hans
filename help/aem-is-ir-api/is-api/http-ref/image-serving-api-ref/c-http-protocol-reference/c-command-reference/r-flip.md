@@ -1,15 +1,16 @@
 ---
-description: 翻转层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
-seo-description: 翻转层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
+description: 翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
+seo-description: 翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
 seo-title: 翻转
 solution: Experience Manager
 title: 翻转
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d28631f3-2198-4ba3-ab4b-578832db926e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '180'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # flip{#flip}
 
-翻转层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
+翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
 
 `flip=lr|ud|lrud`
 
@@ -28,7 +29,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud  </span> </p> </td> 
-  <td class="stentry"> <p>垂直（向上向下）翻转图层。 </p> </td> 
+  <td class="stentry"> <p>垂直翻转图层（向上向下）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud  </span> </p> </td> 
@@ -38,11 +39,11 @@ ht-degree: 2%
 
 也可应用于文本图层。
 
-选择`layer=comp`时，某些命令（包括`extend=`）会隐式应用到层0而不是复合层。 在这种情况下，自动分配给第0层的所有命令将在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，在`flip=`之前应用`extend=`。
+选择`layer=comp`时，某些命令（包括`extend=`）隐式应用于图层0而不是复合图层。 在这种情况下，自动分配给层0的所有命令将在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
 
 >[!NOTE]
 >
->翻转的图层基于图层锚点进行定位；当锚点不位于图层中心时，不同的flip=值将导致不同的图层位置。
+>翻转的图层基于图层锚点定位；当锚点不位于图层中心时，不同的flip=值将导致不同的图层位置。
 
 ## 属性 {#section-294da2af7be746b5adfc35e29ee68217}
 
