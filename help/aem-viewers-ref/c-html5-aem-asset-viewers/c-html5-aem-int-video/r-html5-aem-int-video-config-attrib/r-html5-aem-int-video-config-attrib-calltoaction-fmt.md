@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: CallToAction.fmt
 solution: Experience Manager
 title: CallToAction.fmt
-topic: Dynamic Media
 uuid: c85160e2-431f-42af-a468-c754bfe86ecd
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 </p> <p>如果指定的格式以“<span class="codeph"> -alpha</span>”结尾，则组件会将图像呈现为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 </p> <p>如果指定的格式以“<span class="codeph"> -alpha</span>”结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
