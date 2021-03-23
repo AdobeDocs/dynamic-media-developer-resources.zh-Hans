@@ -1,15 +1,16 @@
 ---
-description: 倒排图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
-seo-description: 倒排图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
+description: 反转图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
+seo-description: 反转图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
 seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # clipXPath{#clipxpath}
 
-倒排图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
+反转图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
 
 `clipXPath= *`pathDefinition`*`
 
@@ -30,7 +31,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
-  <td class="stentry"> <p>嵌入在层源图像中的路径名称（仅限ASCII）。 </p></td> 
+  <td class="stentry"> <p>嵌入在图层源图像中的路径名称（仅限ASCII）。 </p></td> 
  </tr> 
 </table>
 
