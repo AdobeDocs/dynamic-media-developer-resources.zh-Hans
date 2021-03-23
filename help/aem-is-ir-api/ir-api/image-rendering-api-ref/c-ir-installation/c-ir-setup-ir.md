@@ -4,12 +4,13 @@ seo-description: 图像渲染是使用fileinstall_folder/conf/ImageRendering.con
 seo-title: 设置和配置图像渲染
 solution: Experience Manager
 title: 设置和配置图像渲染
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ce76282d-d942-4378-b083-41c95ba97980
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -21,4 +22,4 @@ ht-degree: 0%
 
 有关详细信息，请参阅文档的“配置”部分。 仅在Windows上，还可以从“开始”菜单访问此文件：**[!UICONTROL 开始菜单]** > **[!UICONTROL 项目]** > **[!UICONTROL Scene7]** > **[!UICONTROL 编辑图像渲染配置文件]**。
 
-要停止和开始图像渲染，请参阅图像服务文档。 无法从图像服务单独停止或启动图像渲染。
+要停止和开始图像渲染，请参阅图像服务文档。 无法单独停止或从图像服务启动图像渲染。
