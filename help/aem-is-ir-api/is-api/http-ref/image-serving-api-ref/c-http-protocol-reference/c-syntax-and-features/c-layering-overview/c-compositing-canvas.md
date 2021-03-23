@@ -1,15 +1,16 @@
 ---
-description: 图层按layer=命令指定的顺序合成，其中编号较高的图层会隐藏编号较低的图层。
-seo-description: 图层按layer=命令指定的顺序合成，其中编号较高的图层会隐藏编号较低的图层。
+description: 图层按图层=命令指定的顺序合成，其中较高编号的图层将隐藏较低编号的图层。
+seo-description: 图层按图层=命令指定的顺序合成，其中较高编号的图层将隐藏较低编号的图层。
 seo-title: 合成画布
 solution: Experience Manager
 title: 合成画布
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # 合成画布{#the-compositing-canvas}
 
-图层按layer=命令指定的顺序合成，其中编号较高的图层会隐藏编号较低的图层。
+图层按图层=命令指定的顺序合成，其中较高编号的图层将隐藏较低编号的图层。
 
-第0层构成背景层，它始终是必需的，并定义复合图像的大小。 允许对层0使用任何层类型。 必须根据内容图像或文本显式使用`size=`或隐式定义图层0的大小。 输出图像中不包括位于层0区域之外的其他层的任何区域。
+图层0构成背景图层，背景图层始终是必需的，它定义了复合图像的大小。 图层0允许任何图层类型。 必须根据内容图像或文本显式使用`size=`或隐式定义图层0的大小。 输出图像中不包括位于图层0区域之外的其他图层的任何区域。
 
 >[!NOTE]
 >
->拼合所有图层后，复合图像将转换为最终响应图像，如[视图命令和属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)所指定。
+>拼合所有图层后，复合图像将转换为最终响应图像，如使用[视图命令和属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90)指定的那样。
 
