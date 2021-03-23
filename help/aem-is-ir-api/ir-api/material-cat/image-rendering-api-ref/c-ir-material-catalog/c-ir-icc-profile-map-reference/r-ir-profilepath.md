@@ -4,13 +4,14 @@ seo-description: 用户档案文件路径。 ICC颜色用户档案文件的路�
 seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
@@ -29,4 +30,4 @@ ht-degree: 8%
 
 ## 另请参阅 {#section-18bdd258f6de456098bd5637064bd1b5}
 
-[属性：:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
