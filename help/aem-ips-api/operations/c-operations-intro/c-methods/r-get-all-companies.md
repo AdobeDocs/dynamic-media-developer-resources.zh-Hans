@@ -4,13 +4,14 @@ seo-description: 返回所有公司的数组。
 seo-title: getAllCompanies
 solution: Experience Manager
 title: getAllCompanies
-topic: Dynamic Media Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '84'
+ht-degree: 17%
 
 ---
 
@@ -27,21 +28,21 @@ ht-degree: 19%
 
 ## 参数 {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**输入(getAllCompanysParam)**
+**输入(getAllCompaniesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`includeExpired`*` | `xsd:boolean` | 是 | 设置为true可返回过期和未过期的公司。 |
 
-**输出(getAllCompanysReturn)**
+**输出(getAllCompaniesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | 是 | 公司阵列。 |
+| `*`companyArray`*` | `types:CompanyArray` | 是 | 公司数组。 |
 
 ## 示例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代码示例返回数组中IPS中的所有公司。 注意，样本响应被截断以便简短。
+此代码示例返回数组中IPS中的所有公司。 注意，为了简短起见，样本响应被截断。
 
 **请求**
 
