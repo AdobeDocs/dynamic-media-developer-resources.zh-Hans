@@ -1,23 +1,24 @@
 ---
-description: 交互式视频查看器的URL命令。
-seo-description: 交互式视频查看器的URL命令。
+description: 用于交互式视频查看器的URL命令。
+seo-description: 用于交互式视频查看器的URL命令。
 seo-title: 字幕
 solution: Experience Manager
 title: 字幕
-topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 7%
 
 ---
 
 
 # 题注{#caption}
 
-交互式视频查看器的URL命令。
+用于交互式视频查看器的URL命令。
 
 ` caption= *`文件`*[,0|1]`
 
@@ -43,7 +44,7 @@ ht-degree: 8%
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>文本位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 在VideoPlayer组件中字幕文本开头的插入百分比。 </p> <p>默认值为0%。 </p> </td> 
+   <td colname="col4"> <p> VideoPlayer组件中字幕文本开头的内置百分比。 </p> <p>默认为0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
@@ -54,13 +55,13 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
-   <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它表示为整数（无百分号），则它是显示文本的顶部的行数。 </p> <p>如果它是百分比（百分号是最后一个字符），则标题文本将在显示区域中以百分比显示。 </p> <p>默认为100%。 </p> </td> 
+   <td colname="col3"> <p> 0%-100%|integer </p> </td> 
+   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它表示为整数（无百分号），则它是显示文本的顶部的行数。 </p> <p>如果它是百分比（百分号是最后一个字符），则标题文本将在显示区域下方显示该百分比。 </p> <p>默认为100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTT文件中存在的其他WebVTT功能不受支持，但不应中断字幕显示。
+不支持WebVTT文件中存在的其他WebVTT功能，但不应中断字幕显示。
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
@@ -70,7 +71,7 @@ WebVTT文件中存在的其他WebVTT功能不受支持，但不应中断字幕�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定默认的字幕状态（启用状态为<span class="codeph"> 1 </span>）。 </p> </td> 
+   <td colname="col2"> <p> 指定默认的题注状态（启用为<span class="codeph"> 1 </span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
