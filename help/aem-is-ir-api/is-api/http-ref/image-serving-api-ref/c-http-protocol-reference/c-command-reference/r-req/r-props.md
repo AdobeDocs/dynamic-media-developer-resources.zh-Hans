@@ -1,23 +1,24 @@
 ---
-description: 响应数据属性。 评估当前请求(如果它是图像请求(req=img))，但服务器不返回图像，而是返回回复图像的选定属性。
-seo-description: 响应数据属性。 评估当前请求(如果它是图像请求(req=img))，但服务器不返回图像，而是返回回复图像的选定属性。
+description: 响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
+seo-description: 响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
 seo-title: prop
 solution: Experience Manager
 title: prop
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
 
 # prop{#props}
 
-响应数据属性。 评估当前请求(如果它是图像请求(req=img))，但服务器不返回图像，而是返回回复图像的选定属性。
+响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
 
 ` req=props[,text|javascript|xml|{json[&id= *`reqId`*}]`
 
@@ -28,13 +29,13 @@ ht-degree: 8%
  </tr> 
 </table>
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
-有关回复语法和响应MIME类型的说明，请参阅[属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)。 HTTP响应可缓存，TTL基于`attribute::NonImgExpiration`。
+有关回复语法和响应MIME类型的说明，请参阅[属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)。 HTTP响应可以缓存，且TTL基于`attribute::NonImgExpiration`。
 
 为/is/image请求返回以下属性：
 
@@ -48,7 +49,7 @@ ht-degree: 8%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.bgc  </span> </p> </td> 
    <td> <p> 十六进制 </p> </td> 
-   <td> <p> 背景颜色（请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>。） </p> </td> 
+   <td> <p> 背景色（请参见<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>。） </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td valign="top"> <p> <span class="codeph"> image.height  </span> </p> </td> 
@@ -63,17 +64,17 @@ ht-degree: 8%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.iccProfile  </span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 与回复图像关联的用户档案的名称／说明。 </p> </td> 
+   <td> <p> 与回复图像关联的用户档案的名称/说明。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.length  </span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> 回复大小(以像素为单位，不含HTTP头；如果服务器之前未缓存回复图像数据，则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>。） </p> </td> 
+   <td> <p> 回复大小（以像素为单位，不包括HTTP头）；如果服务器之前未缓存回复图像数据，则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span>。） </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.mask  </span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> 1如果回复图像包含alpha渠道，则为0。 </p> </td> 
+   <td> <p> 1，如果回复图像包含alpha渠道，则为0。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pixTyp  </span> </p> </td> 
@@ -83,7 +84,7 @@ ht-degree: 8%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.pathEmbed  </span> </p> </td> 
    <td> <p> 布尔 </p> </td> 
-   <td> <p> 1如果响应图像嵌入了任何路径，则为0，否则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>。） </p> </td> 
+   <td> <p> 1如果响应图像嵌入了任何路径，则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>。） </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.printRes  </span> </p> </td> 
@@ -108,7 +109,7 @@ ht-degree: 8%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.xmpEmbed  </span> </p> </td> 
    <td> <p> 布尔 </p> </td> 
-   <td> <p> 如果响应图像嵌入xmp数据，则为1，否则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed= </a> </span>。） </p> </td> 
+   <td> <p> 1如果响应图像嵌入xmp数据，则为0。 （请参阅<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed= </a> </span>。） </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.version  </span> </p> </td> 
@@ -145,12 +146,12 @@ ht-degree: 8%
   <tr> 
    <td> <p> <span class="codeph"> 过期 </span> </p> </td> 
    <td> <p> 双 </p> </td> 
-   <td> <p> <span class="codeph"> static::Expiration </span> 或默认生存时间 </p> </td> 
+   <td> <p> <span class="codeph"> static::Expiration </span> 或默认的生存时间 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> lastModified  </span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 修改日期／时间（来自<span class="codeph">静态：:TimeStamp </span>或对象文件） </p> </td> 
+   <td> <p> 修改日期/时间（来自<span class="codeph">静态：:TimeStamp </span>或对象文件） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> userType  </span> </p> </td> 
