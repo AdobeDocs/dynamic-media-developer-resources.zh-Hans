@@ -4,12 +4,13 @@ seo-description: 删除属性集和所有关联属性。
 seo-title: deletePropertySet
 solution: Experience Manager
 title: deletePropertySet
-topic: Dynamic Media Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '99'
 ht-degree: 11%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 11%
 
 ## 参数 {#section-e5fc868f69494cf6858e03027db09101}
 
-**输入(deletePropertySetParam)**
+**Input(deletePropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
