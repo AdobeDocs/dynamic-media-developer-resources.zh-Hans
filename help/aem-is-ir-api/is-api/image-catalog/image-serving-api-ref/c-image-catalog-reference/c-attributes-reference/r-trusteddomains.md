@@ -1,16 +1,17 @@
 ---
 description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3传送的图像的属性。
 seo-description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3传送的图像的属性。
-seo-title: TrustedDomains
+seo-title: 受信任域
 solution: Experience Manager
-title: TrustedDomains
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 受信任域
 uuid: 1d056d68-b699-413c-897c-8612444735c5
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 3%
 
 Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3传送的图像的属性。
 
-swf必须通过注册其信任的应用程序域的名称来显式授予访问权限。
+swf必须通过注册其信任的应用程序域名来显式授予访问权限。
 
 ## 属性 {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-包含以逗号分隔的Web域名列表的字符串。 如果为空，则必须从与图像渲染相同的域中提供应用程序，才能访问swf格式响应中图像的属性。
+包含以逗号分隔的Web域名列表的字符串。 如果为空，则必须从与图像渲染相同的域提供应用程序才能访问swf格式响应中图像的属性。
 
 ## 默认 {#section-5c52ed3c7310488380f5a6f9540bf981}
 
