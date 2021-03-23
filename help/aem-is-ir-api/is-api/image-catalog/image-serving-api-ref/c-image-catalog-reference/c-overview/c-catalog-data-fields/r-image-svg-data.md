@@ -4,13 +4,14 @@ seo-description: 图像和SVG数据文件中可识别以下字段。
 seo-title: 图像_SVG数据
 solution: Experience Manager
 title: 图像_SVG数据
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
-   <td colname="col2"> <p>后缀请求修饰符。 </p> </td> 
+   <td colname="col2"> <p>修复后请求修饰符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> 时间戳</a></span> </p> </td> 
@@ -94,11 +95,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
-   <td colname="col2"> <p>缩略图分辨率。 </p> </td> 
+   <td colname="col2"> <p>缩览图分辨率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03" type="reference" format="dita" scope="local"> ThumbType</a></span> </p> </td> 
-   <td colname="col2"> <p>缩略图类型。 </p> </td> 
+   <td colname="col2"> <p>缩览图类型。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
