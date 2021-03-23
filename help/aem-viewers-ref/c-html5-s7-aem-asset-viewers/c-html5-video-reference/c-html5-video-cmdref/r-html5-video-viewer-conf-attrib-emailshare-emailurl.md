@@ -4,13 +4,14 @@ seo-description: 视频查看器的配置属性。
 seo-title: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-topic: Dynamic Media
 uuid: 5a461da2-4b08-4854-9bdc-98de208dc0fe
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 11%
+source-wordcount: '45'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media经典OnDemand电子邮件服务的基本URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand电子邮件服务的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
