@@ -4,12 +4,13 @@ seo-description: 除目录RootId外，所有目录属性都是可选的。
 seo-title: 属性引用
 solution: Experience Manager
 title: 属性引用
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # 属性引用{#attributes-reference}
 
-所有目录属性都是可选的，但目录：:RootId除外。
+所有目录属性都是可选的，但catalog::RootId除外。
 
 默认目录属性文件([!DNL default.ini])中需要所有属性。
 
@@ -30,12 +31,12 @@ ht-degree: 3%
 * [CacheValidationPolicy](r-cachevalidationpolicy.md)
 * [ClientAddressFilter](r-clientaddressfilter.md)
 * [CatalogFile](r-catalogfile.md)
-* [默认过期](r-defaultexpiration.md)
+* [DefaultExpiration](r-defaultexpiration.md)
 * [默认文本](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
-* [默认图像](r-is-cat-defaultimage.md)
+* [DefaultImage](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
-* [默认区域设置](r-defaultlocale.md)
+* [DefaultLocale](r-defaultlocale.md)
 * [DefaultPix](r-defaultpix.md)
 * [DefaultThumbPix](r-defaultthumbpix.md)
 * [DigimarcId](r-digimarcid.md)
@@ -60,24 +61,24 @@ ht-degree: 3%
 * [JpegQuality](r-jpegquality.md)
 * [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
-* [宏文件](r-macrofile.md)
+* [MacroFile](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
 * [打印分辨率](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [请求模糊化](r-requestobfuscation.md)
+* [请求模糊处理](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [分辨率](r-resolution.md)
 * [RootId](r-rootid.md)
-* [根路径](r-rootpath.md)
+* [RootPath](r-rootpath.md)
 * [RootUrl](r-rooturl.md)
 * [规则集文件](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SynthesingFontStyles](r-synthesizefontstyles.md)
+* [SynthesizeFontStyles](r-synthesizefontstyles.md)
 * [缩略图BkgColor](r-thumbbkgcolor.md)
 * [缩略图对齐](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
@@ -85,7 +86,7 @@ ht-degree: 3%
 * [ThumbVertAlign](r-thumbvertalign.md)
 * [时间戳](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
-* [TrustedDomains](r-trusteddomains.md)
+* [受信任域](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [VideoBitRate](r-videobitrate-cat.md)
 * [视频大小](r-videosize-cat.md)
