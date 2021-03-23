@@ -1,15 +1,16 @@
 ---
-description: 在内联缩放模式中，主视图由静态图像、静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
-seo-description: 在内联缩放模式中，主视图由静态图像、静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
+description: 在内联缩放模式下，主视图由静态图像、在静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
+seo-description: 在内联缩放模式下，主视图由静态图像、在静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
 seo-title: 弹出缩放视图
 solution: Experience Manager
 title: 弹出缩放视图
-topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # 弹出缩放视图{#flyout-zoom-view}
 
-在内联缩放模式中，主视图由静态图像、静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
+在内联缩放模式下，主视图由静态图像、在静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -38,13 +39,13 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主视图透明：
+示例 — 使主视图透明：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -73,7 +74,7 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>消息背景填充颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -89,27 +90,27 @@ ht-degree: 5%
    <td colname="col2"> <p>提示文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p> 消息背景不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 消息文本的边距。 </p> </td> 
+   <td colname="col2"> <p> 在消息文本周围填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示消息可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+提示消息可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-示例——要设置半透明的提示消息，其字体为白色Arial 12px，距主视图、边距和圆边底部有50像素的偏移：
+示例 — 要设置半透明的提示消息，其中的字体为白色的Arial 12px，距主视图、边距和圆角边框底部有50像素的偏移：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
