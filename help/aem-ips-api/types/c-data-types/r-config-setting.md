@@ -1,13 +1,14 @@
 ---
 description: 仅供Dynamic Media开发人员使用。
 solution: Experience Manager
-title: 配置设置
-topic: Dynamic Media Image Production System API
+title: ConfigSetting
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 22%
+source-wordcount: '38'
+ht-degree: 18%
 
 ---
 
