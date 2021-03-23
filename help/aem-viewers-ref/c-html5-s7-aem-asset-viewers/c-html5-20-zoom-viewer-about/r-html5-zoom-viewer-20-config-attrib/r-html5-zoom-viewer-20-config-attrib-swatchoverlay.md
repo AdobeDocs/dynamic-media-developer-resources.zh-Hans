@@ -2,13 +2,14 @@
 description: 叠加
 solution: Experience Manager
 title: 叠加
-topic: Dynamic Media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>指定支持触控的设备上的查看器布局。 当参数设置为<span class="codeph"> 1 </span>时，查看器将在桌面主视图下显示色板；在支持触控的设备上，主视图上方会覆盖色板。 </p> <p>当参数设置为<span class="codeph"> 0 </span>时，所有设备类型上的主视图下都会显示色板。 </p> </td> 
+   <td colname="col2"> <p>指定支持触控的设备上的查看器布局。 当参数设置为<span class="codeph"> 1 </span>时，查看器将在桌面上主视图下显示色板；在支持触控的设备上，主视图上方会覆盖色板。 </p> <p>当参数设置为<span class="codeph"> 0 </span>时，所有设备类型上的色板都呈现在主视图下。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
