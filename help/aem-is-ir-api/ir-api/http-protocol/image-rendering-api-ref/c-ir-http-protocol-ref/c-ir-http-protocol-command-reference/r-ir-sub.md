@@ -1,15 +1,16 @@
 ---
-description: 子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
-seo-description: 子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
+description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
+seo-description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
 seo-title: sub
 solution: Experience Manager
 title: 子
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '185'
 ht-degree: 7%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 7%
 
 # sub{#sub}
 
-子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
+子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
 
 `sub=0|1|2|3|4|5`
 
 <table id="simpletable_F6BF91BD2C4B47BF8A28032E392D37F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>选择整个墙。 </p> </td> 
+  <td class="stentry"> <p>选择整个壁。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -36,11 +37,11 @@ ht-degree: 7%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>选择顶部墙边框区域。 </p> </td> 
+  <td class="stentry"> <p>选择顶壁边框区域。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>选择中间墙边框区域。 </p> </td> 
+  <td class="stentry"> <p>选择中间壁边框区域。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -48,7 +49,7 @@ ht-degree: 7%
  </tr> 
 </table>
 
-当前仅支持墙对象。 终止前一个MSS并开始新的MSS以应用到指定的子选择。
+当前仅支持wall对象。 终止前一个MSS并开始新的MSS，以便将材料应用到指定的子选择。
 
 为上壁或下壁指定的材料将应用于整个壁，除非也为另一半壁指定了不同的材料。
 
