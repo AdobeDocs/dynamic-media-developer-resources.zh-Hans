@@ -4,12 +4,13 @@ seo-description: 调整饱和度。 更改图层或复合图像的每个可见�
 seo-title: op_saturation
 solution: Experience Manager
 title: op_saturation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -24,11 +25,11 @@ ht-degree: 2%
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>饱和度调整(-100..+100 int)。 </p></td> 
+  <td class="stentry"> <p>饱和度调整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` 完全降低图像的饱和度。
+`op_saturation=-100` 使图像完全失色。
 
 ## 属性 {#section-9a3cc9ff060049449554dfa69d92fd53}
 
@@ -36,7 +37,7 @@ ht-degree: 2%
 
 ## 默认 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, for no change in saturation.在应用操作之前，CMYK图像或图层将转换为RGB。
+`op_saturation=0`，以保持饱和度不变。在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 示例 {#section-033b272f1b7e4efeb94e841fd8095357}
 
