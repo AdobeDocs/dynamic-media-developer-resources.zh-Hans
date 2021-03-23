@@ -4,12 +4,13 @@ seo-description: 视频播放器是在查看器中显示视频内容的矩形区
 seo-title: Video360播放器
 solution: Experience Manager
 title: Video360播放器
-topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 1%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -44,7 +45,7 @@ ht-degree: 1%
 
 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-示例——设置视频播放器大小设置为512 x 288像素的视频查看器。
+示例 — 设置视频查看器，将视频播放器大小设置为512 x 288像素。
 
 ```
 .s7video360viewer .s7video360player{ 
@@ -79,12 +80,12 @@ background-color: transparent;
    <td colname="col2"> <p> 动画图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距  </span> </p> </td> 
-   <td colname="col2"> <p> 动画图标左边距，通常减去图标宽度的一半。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距左  </span> </p> </td> 
+   <td colname="col2"> <p> 动画图标左边距，通常为图标宽度的一半。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
-   <td colname="col2"> <p> 动画图标上边距，通常减去图标高度的一半。 </p> </td> 
+   <td colname="col2"> <p> 动画图标上边距，通常为图标高度的一半。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
@@ -93,7 +94,7 @@ background-color: transparent;
  </tbody> 
 </table>
 
-示例——将缓冲动画设置为101像素宽、29像素高：
+示例 — 将缓冲动画设置为101像素宽，29像素高：
 
 ```
 .s7video360viewer .s7video360player .s7waiticon { 
