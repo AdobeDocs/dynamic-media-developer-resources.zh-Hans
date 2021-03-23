@@ -4,13 +4,14 @@ seo-description: 删除多个资产。
 seo-title: deleteAssets
 solution: Experience Manager
 title: deleteAssets
-topic: Dynamic Media Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 15%
+source-wordcount: '188'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +55,7 @@ ht-degree: 15%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要删除的资产的数组。 </p> </td> 
+   <td colname="col4"> <p>要删除的资产数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,32 +82,32 @@ ht-degree: 15%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>操作尝试删除资产时生成警告的资产。 </p> </td> 
+   <td colname="col4"> <p>操作尝试删除时生成警告的资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>操作尝试删除时生成错误的资产。 </p> </td> 
+   <td colname="col4"> <p>操作尝试删除时生成错误的资源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>与资产关联的详细信息数组，当操作尝试删除资产时，这些资产会生成警告。 </p> </td> 
+   <td colname="col4"> <p>与资产关联的详细信息数组，当操作尝试删除资产时，资产生成了警告。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>与资产关联的详细信息数组，当操作尝试删除资产时，这些资产生成了错误。 </p> </td> 
+   <td colname="col4"> <p>与在操作尝试删除资产时生成错误的资产关联的详细信息数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-此代码示例向Web服务服务器发送`deleteAssetsParam`请求中的公司和资产句柄数组。 `deleteAssetsReturn` 返回成功计数2，表示已删除两个资产。
+此代码示例向Web服务服务器发送`deleteAssetsParam`请求中的公司和资产句柄数组。 `deleteAssetsReturn` 返回成功计数2，表示删除了两个资产。
 
 **请求**
 
