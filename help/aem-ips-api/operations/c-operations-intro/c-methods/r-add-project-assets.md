@@ -2,11 +2,12 @@
 description: 向项目添加一个或多个资源。
 solution: Experience Manager
 title: addProjectAssets
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '187'
 ht-degree: 11%
 
 ---
@@ -34,18 +35,18 @@ ht-degree: 11%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 处理与当前项目关联的公司。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 处理要向其添加资产的项目。 |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | 是 | 您要添加到当前项目的资源数组。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 处理要添加资源的项目。 |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | 是 | 要添加到当前项目的资源数组。 |
 
 **输出(addProjectAssetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试向项目添加资产时生成的错误数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试将资产添加到项目时生成的警告数。 |
+| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试将资产添加到项目时生成的错误数。 |
 | `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的警告数组。 |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 资产在操作尝试将资产添加到项目时生成的错误数组。 |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 否 | 在操作尝试将资产添加到项目时由资产生成的错误数组。 |
 
 ## 示例 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
