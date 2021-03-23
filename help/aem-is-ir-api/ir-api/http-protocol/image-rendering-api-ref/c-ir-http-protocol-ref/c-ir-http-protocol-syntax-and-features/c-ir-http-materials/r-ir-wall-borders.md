@@ -1,15 +1,16 @@
 ---
-description: 当在壁边框MSS中指定材料时，它被视为壁边框（以子=3..5引入）。
-seo-description: 当在壁边框MSS中指定材料时，它被视为壁边框（以子=3..5引入）。
-seo-title: 墙边框
+description: 当材料在壁边MSS（子=3.5）中指定时，它被视为壁边。
+seo-description: 当材料在壁边MSS（子=3.5）中指定时，它被视为壁边。
+seo-title: 墙边
 solution: Experience Manager
-title: 墙边框
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 墙边
 uuid: 40acd667-5e8b-4425-b44a-0681e608d189
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 4%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 4%
 
 # 墙边框{#wall-borders}
 
-当在壁边框MSS中指定材料时，它被视为壁边框（以子=3..5引入）。
+当材料在壁边MSS（子=3.5）中指定时，它被视为壁边。
 
-壁边纹纹理图像可包括用于定义边框形状的alpha渠道。 墙边框只能应用于墙对象。
+壁边框纹理图像可以包括用于定义边框形状的Alpha渠道。 墙边框只能应用于墙对象。
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -32,7 +33,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>可重复的纹理图像；必需 </p> </td> 
+   <td colname="col2"> <p>可重复的纹理图像；必填 </p> </td> 
    <td colname="col3"> <p>无 </p> </td> 
   </tr> 
   <tr> 
