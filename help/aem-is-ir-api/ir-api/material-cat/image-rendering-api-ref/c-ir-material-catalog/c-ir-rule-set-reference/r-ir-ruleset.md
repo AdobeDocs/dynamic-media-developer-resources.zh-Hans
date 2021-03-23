@@ -4,18 +4,19 @@ seo-description: 规则容器元素。 有效的规则集文件包含一个<rule
 seo-title: 规则集
 solution: Experience Manager
 title: 规则集
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 92e691ac-079e-4f84-9142-80e0c603cfc3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 5%
 
 ---
 
 
-# ruleset{#ruleset}
+# rulest{#ruleset}
 
 规则容器元素。 有效的规则集文件包含一个`<ruleset>`元素。
 
@@ -25,4 +26,4 @@ ht-degree: 6%
 
 ## 数据 {#section-e14075abf630473bba78b5032e4e5a11}
 
-没有或更多`<rule>`元素。
+无或多个`<rule>`元素。
