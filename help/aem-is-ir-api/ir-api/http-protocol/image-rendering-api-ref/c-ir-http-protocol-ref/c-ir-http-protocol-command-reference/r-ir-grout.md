@@ -1,25 +1,26 @@
 ---
-description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的浆料。
-seo-description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的浆料。
+description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的灌浆。
+seo-description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的灌浆。
 seo-title: 灌浆
 solution: Experience Manager
 title: 灌浆
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
 
 
-# 灌浆{#grout}
+# wray{#grout}
 
-瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的浆料。
+瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的灌浆。
 
-grout= *`color`*[,*`width`*]
+gruet= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
@@ -32,16 +33,16 @@ grout= *`color`*[,*`width`*]
  </tr> 
 </table>
 
-为最大限度地控制浆料外观，需满足以下要求：
+为最大限度地控制灌浆外观，需满足以下要求：
 
-* 拼贴必须是方形或矩形；目前不支持任何其他形状。
+* 拼贴必须是方形或矩形；此时不支持其他形状。
 * 图像只能包含单个拼贴。
-* 图像中的默认灌浆（如果有）在所有四个边上必须具有完全相同的厚度。
-* 默认浆料的厚度必须在材料目录(`catalog::GroutWidth`)中指定。
+* 图像中的默认灌浆（如果有）必须在所有四条边上具有完全相同的厚度。
+* 必须在材料目录(`catalog::GroutWidth`)中指定默认灌浆厚度。
 
 ## 属性 {#section-de78b678245b4ffda48097c345949e77}
 
-材料属性。 `*`颜`*` 色必须是RGB颜色值。`*`宽`*` 度必须为实数值0或更大。
+材料属性。 `*`颜`*` 色必须是RGB颜色值。`*`宽`*` 度必须是实值0或更大。
 
 如果repeat = 4、5、7、8、9、14或更高，或者为可重复纹理以外的材料指定时，则忽略。
 
