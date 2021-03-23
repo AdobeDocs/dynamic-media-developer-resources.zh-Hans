@@ -4,12 +4,13 @@ seo-description: 打印工具由添加到控制栏的按钮和激活工具时显
 seo-title: 打印
 solution: Experience Manager
 title: 打印
-topic: Dynamic Media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-打印按钮的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制打印按钮的外观：
 
 ```
 .s7ecatalogsearchviewer .s7print
@@ -33,11 +34,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
-   <td colname="col2"> <p> 从控件栏顶部偏移。 </p> </td> 
+   <td colname="col2"> <p> 从控制栏顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距  </span> </p> </td> 
-   <td colname="col2"> <p> 到左边下一个按钮的距离；如果这是行中的第一个按钮，则为控制栏的左侧。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距左  </span> </p> </td> 
+   <td colname="col2"> <p> 到左边下一个按钮的距离；如果这是行中的第一个按钮，则指向控制栏的左侧。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,18 +54,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个28 x 28像素的打印按钮，并针对四个不同按钮状态中的每个状态显示不同的图像。
+示例 — 设置一个28 x 28像素的打印按钮，并针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7print { 
@@ -87,7 +88,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-对话框处于活动状态时覆盖网页的背景叠加由以下CSS类选择器控制：
+使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
@@ -98,17 +99,17 @@ background-image:url(images/v2/Print_dark_disabled.png);
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p> 背景叠加不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>背景叠加颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将背景叠加设置为灰色，不透明度为70%:
+示例 — 将背景叠加设置为灰色，不透明度为70%:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay { 
@@ -132,13 +133,13 @@ background-image:url(images/v2/Print_dark_disabled.png);
    <td colname="col2"> <p> 对话框边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
-   <td colname="col2"> <p> 对话框背景颜色； </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 对话框背景色； </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有灰色背景的对话框：
+示例 — 设置具有灰色背景的对话框：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -146,7 +147,7 @@ background-color: #dddddd;
 }
 ```
 
-对话框标题由图标、标题文本和关闭按钮组成。 标题容器由以下CSS类选择器控制：
+对话框标题由图标、标题文本和关闭按钮组成。 标题容器通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
@@ -180,7 +181,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-标题图标通过以下CSS类选择器进行控制：
+标题图标可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
@@ -195,7 +196,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -204,12 +205,12 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标题标题通过以下CSS类选择器进行控制：
+标题通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
@@ -224,11 +225,11 @@ background-color: #dddddd;
    <td colname="col2"> <p>字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -238,7 +239,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-使用以下CSS类选择器控制关闭按钮：
+使用以下CSS类选择器控制“关闭”按钮：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
@@ -261,12 +262,12 @@ background-color: #dddddd;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>按钮的内边距。 </p> </td> 
+   <td colname="col2"> <p>按钮的内填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
@@ -274,18 +275,18 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-“关闭”按钮工具提示和对话框标题可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+可以本地化“关闭”按钮工具提示和对话框标题。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——要设置具有边距、22 x 22像素图标、粗体16点标题和28 x 28像素“关闭”按钮的对话框标题，位于距对话框容器顶部两个像素和距离对话框右侧两个像素的位置：
+示例 — 设置具有填充、22 x 22像素图标、粗体16点标题和28 x 28像素“关闭”按钮的对话框标题，该按钮位于距对话框容器顶部两个像素和距离对话框右侧两个像素的位置：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -342,7 +343,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-页脚具有保留两个按钮的内部容器。 它由以下CSS类选择器控制：
+页脚具有保留两个按钮的内容器。 它通过以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
@@ -365,7 +366,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**对话框取消按钮的CSS属性**
+**对话框“取消”按钮的CSS属性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -374,7 +375,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -382,7 +383,7 @@ background-color: #dddddd;
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -390,7 +391,7 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
 “发送到打印”按钮由以下CSS类选择器控制：
 
@@ -407,7 +408,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -415,7 +416,7 @@ background-color: #dddddd;
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -423,9 +424,9 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-此外，两个按钮共享相同的通用CSS类，这些类可包含其他对话框按钮相同的CSS设置：
+此外，两个按钮共享相同的通用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -440,11 +441,11 @@ background-color: #dddddd;
    <td colname="col2"> <p>按钮字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -452,19 +453,19 @@ background-color: #dddddd;
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框——阴影  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框 — 阴影  </span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右  </span> </p> </td> 
    <td colname="col2"> <p>右按钮边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——要设置一个对话框页脚，其中显示64 x 34“取消”按钮和96 x 34“发送到打印”按钮，并且每个按钮状态的文本颜色和背景颜色不同：
+示例 — 要设置一个对话框的页脚，其中显示64 x 34 &quot;取消&quot;按钮和96 x 34 &quot;发送到打印&quot;按钮，并且每个按钮状态的文本颜色和背景颜色不同：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -524,7 +525,7 @@ background-color: #dddddd;
 }
 ```
 
-主对话框区域（页眉和页脚之间）包含对话框内容。 在所有情况下，组件都管理此区域的宽度，无法在CSS中设置它。 主对话框区域由以下CSS类选择器控制：
+主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，组件都管理此区域的宽度，无法在CSS中设置它。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
@@ -535,11 +536,11 @@ background-color: #dddddd;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p> 主对话框区域的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -549,7 +550,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-示例——要设置一个主对话框区域以自动计算高度、有10个像素边距并使用白色背景：
+示例 — 要设置主对话框区域，使其具有自动计算的高度、十像素边距和白色背景：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -576,7 +577,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-示例——将表单内容设置为具有十个像素填充：
+示例 — 将表单内容设置为具有十个像素填充：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -584,7 +585,7 @@ background-color: #dddddd;
 }
 ```
 
-对话框表单逐行填写，其中每行都包含表单内容的一部分（如标签和文本输入字段）。 单个表单行由以下CSS类选择器控制：
+对话框表单逐行填写，其中每行都包含表单内容的一部分（如标签和文本输入字段）。 使用以下CSS类选择器控制单个表单行：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
@@ -596,12 +597,12 @@ background-color: #dddddd;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内线边距。 </p> </td> 
+   <td colname="col2"> <p>内线填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个对话框表单，使每行具有十个像素填充：
+示例 — 设置一个对话框表单，使每行具有十个像素填充：
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -609,7 +610,7 @@ background-color: #dddddd;
 }
 ```
 
-对话框内容块的大小由以下CSS类选择器控制：
+使用以下CSS类选择器控制对话框内容块的大小：
 
 ```
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
@@ -625,12 +626,12 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内线边距。 </p> </td> 
+   <td colname="col2"> <p>内线填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将内容块设置为430像素宽，并在底部填充10像素：
+示例 — 将内容块设置为430像素宽，并在底部填充10像素：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide { 
@@ -645,7 +646,7 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel
 ```
 
-此类不适合控制标签大小或位置，因为您可以将它应用于表单用户界面中不同位置的文本。
+此类不适于控制标签大小或位置，因为您可以将它应用于表单用户界面中不同位置的文本。
 
 **对话框标签的CSS属性。 **
 
@@ -656,23 +657,23 @@ background-color: #dddddd;
    <td colname="col2"> <p>标签字体权重。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
-   <td colname="col2"> <p>标记文本颜色。 </p> </td> 
+   <td colname="col2"> <p>标签文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化对话框标签。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+可以本地化对话框标签。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——将所有标签设置为灰色、粗体，字体为9像素：
+示例 — 将所有标签设置为灰色、粗体，字体为9像素：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel { 
@@ -693,13 +694,13 @@ background-color: #dddddd;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充左  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左边距  </span> </p> </td> 
    <td colname="col2"> <p>内填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——从对话框的左边设置30像素边距。
+示例 — 从对话框的左边缘设置30像素填充。
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer { 
@@ -707,7 +708,7 @@ background-color: #dddddd;
 }
 ```
 
-单选按钮及其字幕文本由以下CSS类选择器控制：
+单选按钮及其题注文本可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption
@@ -728,7 +729,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-单选按钮及其标题之间的间距由以下CSS类选择器控制：
+单选按钮及其题注之间的间距由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
@@ -739,8 +740,8 @@ background-color: #dddddd;
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
-   <td colname="col2"> <p> 单选按钮与其标题之间的间距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右  </span> </p> </td> 
+   <td colname="col2"> <p> 单选按钮与其题注之间的间距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -766,7 +767,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-示例——将所有单选按钮设置为150像素宽，带黑色文本、10像素间距和42像素宽的数字拾取器：
+示例 — 将所有单选按钮设置为150像素宽，带有黑色文本、10像素间距和42像素宽的数字拾取器：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -783,14 +784,14 @@ background-color: #dddddd;
 }
 ```
 
-页面范围选择和打印布局部分之间的水平分隔线由以下CSS类选择器控制：
+使用以下CSS类选择器控制页面范围选择部分和打印布局部分之间的水平分隔线：
 
 ```
  .s7ecatalogsearchviewer 
 .s7printdialog .s7horizontaldivider
 ```
 
-**水平分隔条的CSS属性**
+**水平分隔线的CSS属性**
 
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
@@ -813,7 +814,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-示例——要设置430像素宽的灰色分隔线，其两侧垂直边距为10像素，顶部边距为10像素：
+示例 — 设置430像素宽的灰色分隔线，其两侧垂直边距为10像素，顶部边距为10像素：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 
