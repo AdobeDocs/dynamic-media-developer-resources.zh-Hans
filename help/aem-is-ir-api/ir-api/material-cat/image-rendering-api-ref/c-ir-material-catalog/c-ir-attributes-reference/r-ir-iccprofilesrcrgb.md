@@ -1,15 +1,16 @@
 ---
-description: RGB默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的RGB材料图像和晕影的ICC颜色用户档案的名称，以及用于使用各种图像渲染命令（如bgc=和color=）指定的RGB颜色值。
-seo-description: RGB默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的RGB材料图像和晕影的ICC颜色用户档案的名称，以及用于使用各种图像渲染命令（如bgc=和color=）指定的RGB颜色值。
+description: RGB默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的RGB材料图像和晕影以及使用各种“图像渲染”命令（如bgc=和color=）指定的RGB颜色值的ICC颜色用户档案的名称。
+seo-description: RGB默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的RGB材料图像和晕影以及使用各种“图像渲染”命令（如bgc=和color=）指定的RGB颜色值的ICC颜色用户档案的名称。
 seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9657e296-0d2a-4b05-9be7-5a54d3277f90
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的RGB材料图像和晕影的ICC颜色用户档案的名称，以及用于使用各种图像渲染命令（如bgc=和color=）指定的RGB颜色值。
+RGB默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的RGB材料图像和晕影以及使用各种“图像渲染”命令（如bgc=和color=）指定的RGB颜色值的ICC颜色用户档案的名称。
 
 ## 属性 {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或者是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是RGB用户档案。
+文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是RGB用户档案。
 
 ## 默认 {#section-0171cd6680284bfa9844b9cc3644ca61}
 
