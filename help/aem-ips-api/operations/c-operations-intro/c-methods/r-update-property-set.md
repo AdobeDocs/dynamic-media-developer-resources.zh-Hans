@@ -4,13 +4,14 @@ seo-description: 使用属性数组更新属性集。
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 12%
 
 ---
 
@@ -35,13 +36,13 @@ ht-degree: 13%
 
 ## 参数 {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**输入(updatePropertySetParam)**
+**Input(updatePropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`setHandle`*` | `xsd:string` | 是 | 处理属性集。 |
 | `*`replaceProperties`*` | `xsd:string` | 否 | 设置为`true`可替换属性。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 是 | 属性集的已更新属性的数组。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 是 | 属性集的已更新属性数组。 |
 
 **输出(updatePropertySetReturn)**
 
@@ -49,7 +50,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-此代码示例使用属性数组中的属性更新属性集。
+此代码示例更新了属性数组中的属性集。
 
 **请求**
 
