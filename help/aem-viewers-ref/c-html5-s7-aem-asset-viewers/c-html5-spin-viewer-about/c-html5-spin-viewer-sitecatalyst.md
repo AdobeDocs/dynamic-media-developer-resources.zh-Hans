@@ -1,15 +1,16 @@
 ---
-description: 旋转查看器支持Adobe Analytics开箱跟踪。
-seo-description: 旋转查看器支持Adobe Analytics开箱跟踪。
+description: 旋转查看器支持Adobe Analytics开箱即用跟踪。
+seo-description: 旋转查看器支持Adobe Analytics开箱即用跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-topic: Dynamic Media
 uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 2%
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
-旋转查看器支持Adobe Analytics开箱跟踪。
+旋转查看器支持Adobe Analytics开箱即用跟踪。
 
 ## 现成跟踪{#section-d06145cfa2b9491bb485b599368d466e}
 
-旋转查看器支持Adobe Analytics开箱即用跟踪。
+旋转查看器支持Adobe Analytics现成跟踪。
 
-要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
+要启用跟踪，请将正确的公司预设名称作为`config2`参数进行传递。
 
-查看器还向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+查看器还会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
 ## 自定义跟踪{#section-47512156a1d64b338b50cfa39c84f4aa}
 
@@ -59,13 +60,13 @@ var spinViewer = new s7viewers.SpinViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>发送时间…… </p> </th> 
+   <th colname="col2" class="entry"> <p>在…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>查看器先加载。 </p> </td> 
+   <td colname="col2"> <p>将首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
@@ -77,7 +78,7 @@ var spinViewer = new s7viewers.SpinViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 平移 </span> </p> </td> 
-   <td colname="col2"> <p>图像已绘制。 </p> </td> 
+   <td colname="col2"> <p>图像被绘制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 旋转 </span> </p> </td> 
