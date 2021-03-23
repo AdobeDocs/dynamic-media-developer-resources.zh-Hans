@@ -2,17 +2,18 @@
 description: 测试版WSDL中提供的这些新操作或修改操作和数据类型在Dynamic Media开发的应用程序之外不可使用。
 solution: Experience Manager
 title: 受限使用
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 
-# 受限使用{#restricted-use}
+# 受限用途{#restricted-use}
 
 测试版WSDL中提供的这些新操作或修改操作和数据类型在Dynamic Media开发的应用程序之外不可使用。
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 **新类型**
 
-* 资产发布上下文
+* AssetPublishContexts
 * AssetPublishContextsArray
 * CompanyMetadataInfo
 * CompanyMetadataInfoArray
@@ -41,7 +42,7 @@ ht-degree: 0%
 * listCompanyMetadata
 * removeMask
 * removePropertySetPermissions
-* searchAssetsBySimilarity
+* searchAssetsBySimiliary
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 * 将`MetadataField`更改为包含可选`initialTagField`
 
-* 将`MetadataCondition`更改为包含和可选`caseSensitive`参数
+* 已将`MetadataCondition`更改为包含和可选`caseSensitive`参数
 
 * 将`PropertySet`更改为将可选`PermissionArray`包含为`permissions`
 
@@ -84,14 +85,14 @@ ht-degree: 0%
 
 * 将`getImageRenderingPublishSettings`更改为包含可选`contextHandle`参数
 
-* 将`searchAssetsByFullText`更改为包含一系列可选参数：
+* 更改`searchAssetsByFullText`以包含一系列可选参数：
 
    * `SearchFilter` as参 `filters` 数
 
    * `sortBy`
    * `sortDirection`
 
-* 将`searchAssetsByMetadata`更改为包含一系列可选参数：
+* 更改`searchAssetsByMetadata`以包含一系列可选参数：
 
    * `SearchFilter` as参 `filters` 数
 
@@ -105,5 +106,5 @@ ht-degree: 0%
 
 * 将`setImageRenderingPublishSettings`更改为包含可选`contextHandle`参数
 
-* 将`submitJob`更改为包含可选的`createVideoSitemap`作业类型
+* 将`submitJob`更改为包含可选`createVideoSitemap`作业类型
 
