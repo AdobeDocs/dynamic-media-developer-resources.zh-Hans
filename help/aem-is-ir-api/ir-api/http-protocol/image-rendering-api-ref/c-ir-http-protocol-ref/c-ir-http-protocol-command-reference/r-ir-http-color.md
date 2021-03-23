@@ -4,13 +4,14 @@ seo-description: 前景颜色. 指定纯色材料的颜色或可着色材料的�
 seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -30,11 +31,11 @@ ht-degree: 15%
 
 ## 属性 {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-材料属性。 纯色材料必需，所有其他材料可选。
+材料属性。 纯色材料要求，所有其他材料都是可选的。
 
 ## 默认 {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` 如果材料基于目录条目。否则，`none`表示无着色。
+`catalog::Color` 如果物料基于目录条目。否则，`none`表示无着色。
 
 ## 另请参阅 {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
