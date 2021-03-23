@@ -4,13 +4,14 @@ seo-description: 图像数据文件路径。 指定包含此目录的图像数�
 seo-title: CatalogFile
 solution: Experience Manager
 title: CatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 4%
 
 图像数据文件路径。 指定包含此目录的图像数据的文件。
 
-图像数据文件按照指定的顺序加载。 如果同一`catalog::Id`值出现在多个记录中（在同一或不同的目录文件中），则上一个实例优先。
+图像数据文件按指定的顺序加载。 如果多条记录（在同一或不同的目录文件中）中出现相同的`catalog::Id`值，则最后一个实例优先。
 
 ## 属性 {#section-6da55f145ecd4e31a5de52637a436983}
 
