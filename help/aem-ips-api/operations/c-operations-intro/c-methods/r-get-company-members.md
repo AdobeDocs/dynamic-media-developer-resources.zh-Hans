@@ -4,13 +4,14 @@ seo-description: 返回由公司句柄指定的公司的用户。
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '108'
+ht-degree: 14%
 
 ---
 
@@ -41,11 +42,11 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员资格的数组。 |
+| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员数组。 |
 
 ## 示例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-此代码示例返回用户数组中公司的所有成员。 响应被截断为简短。
+此代码示例返回用户数组中公司的所有成员。 响应被截断，以致简短。
 
 **请求**
 
