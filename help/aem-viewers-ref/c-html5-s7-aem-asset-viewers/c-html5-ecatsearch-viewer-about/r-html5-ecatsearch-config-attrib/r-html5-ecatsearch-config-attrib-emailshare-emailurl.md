@@ -2,12 +2,13 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-topic: Dynamic Media
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 21%
+source-wordcount: '30'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic MediaOnDemand电子邮件服务的基本URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media OnDemand电子邮件服务的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
