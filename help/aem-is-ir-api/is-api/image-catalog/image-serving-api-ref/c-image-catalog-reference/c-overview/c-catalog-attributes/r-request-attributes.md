@@ -4,12 +4,13 @@ seo-description: 目录属性文件可识别这些请求属性。
 seo-title: 请求属性
 solution: Experience Manager
 title: 请求属性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 02156b81-9f18-461e-94c1-43b1155c4ab6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -35,8 +36,8 @@ ht-degree: 0%
   <td class="stentry"> <p>相对图像源URL的根URL。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> 请求模糊化</a> </span> </p></td> 
-  <td class="stentry"> <p>请求模糊化模式。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> 请求模糊处理</a> </span> </p></td> 
+  <td class="stentry"> <p>请求模糊处理模式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> RequestLock</a> </span> </p></td> 
@@ -55,11 +56,11 @@ ht-degree: 0%
   <td class="stentry"> <p>错误消息详细信息。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> TrustedDomains</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> 受信任域</a> </span> </p></td> 
   <td class="stentry"> <p>允许Web域访问swf响应图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf" type="reference" format="dita" scope="local"> 默认过期</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf" type="reference" format="dita" scope="local"> DefaultExpiration</a> </span> </p></td> 
   <td class="stentry"> <p>默认图像响应的客户端缓存TTL。 </p></td> 
  </tr> 
  <tr class="strow"> 
