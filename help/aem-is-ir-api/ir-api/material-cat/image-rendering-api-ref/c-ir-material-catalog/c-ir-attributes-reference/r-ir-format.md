@@ -4,13 +4,14 @@ seo-description: 默认回复图像格式。 指定回复图像的默认格式�
 seo-title: 格式
 solution: Experience Manager
 title: 格式
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 11%
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
