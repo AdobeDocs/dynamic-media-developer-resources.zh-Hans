@@ -4,13 +4,14 @@ seo-description: 当当前资产是旋转集时，主视图由旋转图像组成
 seo-title: 旋转视图
 solution: Experience Manager
 title: 旋转视图
-topic: Dynamic Media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7mixedmediaviewer .s7spinview
@@ -38,13 +39,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
-   <td colname="col2"> <p> 旋转视图的十六进制格式背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 旋转视图的十六进制格式背景色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使旋转视图透明。
+示例 — 使旋转视图透明。
 
 ```
 .s7mixedmediaviewer .s7spinview { 
