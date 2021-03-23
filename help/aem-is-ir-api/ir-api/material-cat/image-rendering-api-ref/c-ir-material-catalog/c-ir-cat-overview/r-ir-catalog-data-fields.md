@@ -4,12 +4,13 @@ seo-description: 以下目录数据字段可用。
 seo-title: 目录数据字段
 solution: Experience Manager
 title: 目录数据字段
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 027ac3d6-3d64-4507-b17f-5ede48d55560
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '212'
 ht-degree: 11%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce" type="reference" format="dita" scope="local"> 过期时间</a> </p></td> 
-  <td class="stentry"> <p>客户端缓存过期（到实时间隔）。 </p></td> 
+  <td class="stentry"> <p>客户端缓存过期（到活动间隔的时间）。 </p></td> 
  </tr> 
 </table>
 
@@ -57,7 +58,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab" type="reference" format="dita" scope="local"> 锚点 </a> </p></td> 
-  <td class="stentry"> <p>纹理／贴花锚点（热点）。 </p></td> 
+  <td class="stentry"> <p>纹理/贴花锚点（热点）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552" type="reference" format="dita" scope="local"> 颜色 </a> </p></td> 
@@ -69,7 +70,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> 伊卢姆  </a> </p></td> 
-  <td class="stentry"> <p>照明图选择器。 </p></td> 
+  <td class="stentry"> <p>光照映射选择器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> 光泽</a> </p></td> 
@@ -85,7 +86,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> 清晰</a> </p></td> 
-  <td class="stentry"> <p>纹理／倾斜锐化。 </p></td> 
+  <td class="stentry"> <p>纹理/倾斜锐化。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> 重复</a> </p></td> 
@@ -97,7 +98,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> 大小</a> </p></td> 
-  <td class="stentry"> <p>倾斜／叠加图层大小。 </p></td> 
+  <td class="stentry"> <p>倾斜/叠加图层大小。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
@@ -107,24 +108,24 @@ ht-degree: 11%
 
 <table id="simpletable_BD278D96C3324004ABBBACEDF85F8D50"> 
  <thead class="sthead"> 
-  <td class="stentry"> 暗角地图</td> 
+  <td class="stentry"> 晕影地图</td> 
   <td class="stentry"> <p>说明 </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
-  <td class="stentry"> <p>暗角标识符（索引键）。 </p></td> 
+  <td class="stentry"> <p>晕影标识符（索引键）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1" type="reference" format="dita" scope="local"> 时间戳</a> </p> </td> 
-  <td class="stentry"> <p>暗角修改时间戳。 </p></td> 
+  <td class="stentry"> <p>晕影修改时间戳。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c" type="reference" format="dita" scope="local"> 过期时间</a> </p></td> 
-  <td class="stentry"> <p>客户端缓存过期（到实时间隔）。 </p></td> 
+  <td class="stentry"> <p>客户端缓存过期（到活动间隔的时间）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> 路径</a> </p></td> 
-  <td class="stentry"> <p>暗角文件路径。 </p></td> 
+  <td class="stentry"> <p>晕影文件路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> 修饰符</a> </p></td> 
@@ -136,7 +137,7 @@ ht-degree: 11%
  </tr> 
 </table>
 
-宏定义文件中可识别以下字段：
+在宏定义文件中可识别以下字段：
 
 <table id="simpletable_B722319F81FB4DDA9AC16B27448B8F04"> 
  <thead class="sthead"> 
