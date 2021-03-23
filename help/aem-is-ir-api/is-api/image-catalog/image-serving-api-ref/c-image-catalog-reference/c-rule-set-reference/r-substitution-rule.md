@@ -4,12 +4,13 @@ seo-description: 替换字符串元素。 在<rule>元素中为可选。
 seo-title: 替代
 solution: Experience Manager
 title: 替代
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5730559-0512-4416-927d-a7faf9180741
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -39,10 +40,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当在此`<substitution>`元素所属的`<rule>`元素中指定`replace="all"`时，将替换输入字符串中的所有匹配项。 默认情况下，只有第一个匹配项被替换为替换字符串。
+>当在`<rule>`元素中指定`replace="all"`时，将替换输入字符串中的所有匹配项，该`<substitution>`元素属于该元素。 默认情况下，只有第一个匹配项被替换为替换字符串。
 
 ## 注意 {#section-cedf2adabaaf441c9f598fb0ea180246}
 
-替换字符串不能包含文本&lt;和&amp;字符。 这些保留字符可以分别用`&`和`<`进行编码，或者整个字符串可以包含在XML CDATA部分中：
+替换字符串不得包含文本&lt;和&amp;字符。 这些保留字符可以分别用`&`和`<`进行编码，或者整个字符串可以包含在XML CDATA部分中：
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
