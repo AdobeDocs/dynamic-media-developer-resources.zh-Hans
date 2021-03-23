@@ -1,23 +1,24 @@
 ---
-description: 创建或编辑组。
-seo-description: 创建或编辑组。
+description: 创建或编辑用户组。
+seo-description: 创建或编辑用户组。
 seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
-topic: Dynamic Media Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 20%
 
 ---
 
 
 # saveGroup{#savegroup}
 
-创建或编辑组。
+创建或编辑用户组。
 
 语法
 
@@ -33,7 +34,7 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要保存的组的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要保存的组的公司的句柄。 |
 | `*`groupHandle`*` | `xsd:string` | 否 | 组的句柄。 |
 | `*`name`*` | `xsd:string` | 是 | 群组名称. |
 | `*`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 。 |
@@ -46,7 +47,7 @@ ht-degree: 21%
 
 ## 示例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-此代码示例创建属于特定公司的组。 如果组已存在，则会使用您指定的参数值进行保存。
+此代码示例创建属于特定公司的组。 如果组已存在，则会使用您指定的参数值保存该组。
 
 **请求**
 
