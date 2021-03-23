@@ -2,12 +2,13 @@
 description: 介绍IPS API 3.7版的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新增和修改
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 6%
+source-wordcount: '55'
+ht-degree: 5%
 
 ---
 
