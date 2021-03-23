@@ -4,19 +4,20 @@ seo-description: 图层编号也决定z顺序。
 seo-title: 图层顺序
 solution: Experience Manager
 title: 图层顺序
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
 
-# 层顺序{#layer-order}
+# 图层顺序{#layer-order}
 
 图层编号也决定z顺序。
 
-需要0层（背景层）;其他层数不需要连续，将按升序层数的顺序绘制在背景层的上方。 具有最高层数的层在顶部渲染，并且不会被其他层遮住。
+第0层（背景层）是必需的；其他图层编号无需连续，将按升序图层编号的顺序绘制在背景图层上。 具有最大图层编号的图层将呈现在顶部，并且不会被其他图层遮挡。
