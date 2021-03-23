@@ -1,15 +1,16 @@
 ---
 description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部平台服务器缓存中的缓存。
 seo-description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部平台服务器缓存中的缓存。
-seo-title: 高速缓存
+seo-title: 缓存
 solution: Experience Manager
-title: 高速缓存
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 缓存
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -21,40 +22,40 @@ ht-degree: 1%
 
 `cache= *`cacheControl`*`
 
-`cache= *`ClientControlserver `*, *`Control`*`
+`cache= *``*, *`clientControlserverControl`*`
 
 <table id="simpletable_70ACECAEA02F400C83B598FA13F1D00B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 打开|关闭|验证|更新</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> on|off|validate|update</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> 打开|关闭</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> 打开|关闭</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> on|off</span> </p></td> 
  </tr> 
 </table>
 
-如果只指定一个`*`cacheControl`*`值，则它将同时应用于客户端和服务器缓存。
+如果只指定了一个`*`cacheControl`*`值，则它将同时应用于客户端和服务器缓存。
 
-`validate`关键字允许在图像文件发生更改后更新缓存条目，而无需等待缓存条目自动过期。 客户端缓存不受此命令的影响。
+`validate`关键字允许在图像文件发生更改后更新缓存条目，而不必等待缓存条目自动过期。 客户端缓存不受此命令的影响。
 
-可以使用`update`关键字强制更新服务器端缓存条目。 在资源发生更改后（缓存验证机制不会直接跟踪它们），此功能非常有用，例如在修改字体文件时，不更改其文件名或关联的字体ID。
+`update`关键字可用于强制更新服务器端缓存条目。 在资源发生更改后（这些资源不会直接由缓存验证机制跟踪），这非常有用，例如在修改字体文件时，不更改其文件名或关联的字体id。
 
-如果在嵌套请求中指定，`cache=on`将启用由嵌套请求生成的图像的永久服务器端缓存。 仅当需要使用完全相同的参数重复调用同一嵌套请求时，才应当注意启用嵌套请求的缓存。
+如果在嵌套请求中指定，`cache=on`将启用由嵌套请求生成的图像的永久服务器端缓存。 仅当期望使用完全相同的参数重复调用同一嵌套请求时，才应当注意启用嵌套请求的缓存。
 
 ## 属性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-请求属性。 无论当前图层设置如何，均适用。 当请求不返回回复图像时忽略。 *`clientControl`*在映像目录禁用客户端缓存时忽略（如果`catalog::Expiration`具有负值）。
+请求属性。 无论当前图层设置如何，均适用。 当请求不返回回复图像时忽略。 *`clientControl`*当图像目录禁用客户端缓存时（如果`catalog::Expiration`具有负值），将忽略该缓存。
 
-客户端缓存控件（仅`on`和`off`）也可用于[!DNL /is/content/]的静态内容请求。
+客户端缓存控制（仅`on`和`off`）也适用于[!DNL /is/content/]处的静态内容请求。
 
 ## 默认 {#section-4124b2c836e2491489b9009a92fe4f22}
 
-`cache=on,on` 对于HTTP请求、 `cache=off` 嵌套／嵌入式请求、 `cache=on` 静态内容请求。
+`cache=on,on` 对于HTTP请求、 `cache=off` 嵌套/嵌入请求、 `cache=on` 静态内容请求。
 
 ## 另请参阅 {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
