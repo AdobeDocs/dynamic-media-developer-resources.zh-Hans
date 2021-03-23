@@ -1,27 +1,28 @@
 ---
-description: 视频查看器的JavaScript API参考。
-seo-description: 视频查看器的JavaScript API参考。
+description: Video Viewer的JavaScript API参考。
+seo-description: Video Viewer的JavaScript API参考。
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: a4b741a1-b0b3-4bc3-aeab-9d0e44ec4e79
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
 
 # setContainerId{#setcontainerid}
 
-视频查看器的JavaScript API参考。
+Video Viewer的JavaScript API参考。
 
 ` setContainerId( *`containerId`*)`
 
-设置查看器插入的DOM容器的ID（通常为`DIV`）。 调用此方法时，不必创建容器元素。 但是，运行`init()`时必须存在容器。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递给构造函数，则此方法是可选的。
+设置查看器插入的DOM容器的ID（通常为`DIV`）。 调用此方法时不必创建容器元素。 但是，运行`init()`时必须存在容器。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递给构造函数，则此方法是可选的。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
