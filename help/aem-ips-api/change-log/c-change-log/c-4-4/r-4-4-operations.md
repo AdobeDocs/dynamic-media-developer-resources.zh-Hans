@@ -1,12 +1,13 @@
 ---
-description: 介绍IPS API版本4.4的新操作方法和已更改的操作方法。
+description: 介绍IPS API版本4.4的新操作方法和更改的操作方法。
 solution: Experience Manager
 title: 操作新增和修改
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '45'
 ht-degree: 2%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 2%
 
 # 操作：新建和已修改{#operations-new-and-modified}
 
-介绍IPS API版本4.4的新操作方法和已更改的操作方法。
+介绍IPS API版本4.4的新操作方法和更改的操作方法。
 
 语法
 
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 ## 修改后的操作{#section-d231591fb5ca473e846de29174dcdc39}
 
-**搜索资产**
+**SearchAssets**
 
 添加的参数：
 
