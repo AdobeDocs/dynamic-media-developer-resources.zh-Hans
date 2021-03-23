@@ -4,38 +4,39 @@ seo-description: 默认图像修改时间戳。 提供目录TimeStamp的默认�
 seo-title: 时间戳
 solution: Experience Manager
 title: 时间戳
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
 
 # TimeStamp{#timestamp}
 
-默认图像修改时间戳。 提供目录的默认值：:TimeStamp。
+默认图像修改时间戳。 提供目录：:TimeStamp的默认值。
 
-如果未指定，服务器将使用此&#x200B;[!DNL *`catalog`*.ini]文件的修改日期／时间。
+如果未指定，服务器将使用此&#x200B;[!DNL *`catalog`*.ini]文件的修改日期/时间。
 
 ## 属性 {#section-647066e62ce44a84b627fdd0b2f7cfec}
 
-日期／时间值。 可以是自1970年1月1日午夜(UTC/GMT)以来的毫秒数，也可以是日期／时间字符串值，其格式如下之一：
+日期/时间值。 可以是自午夜（1970年1月1日UTC/GMT）以来的毫秒数，也可以是日期/时间字符串值，其格式如下：
 
 *`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*:  *`ss zzz`*
 
 *`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT  *`offset`*
 
-*`hh`* 在0到23的范围内。
+*`hh`* 在0到23之间。
 
-*`zzz`* 是3或4个字符的时区代码，如 `GMT` 或 `PST`。夏令时必须在时区代码中计算(例如，`PST`表示太平洋标准时间，而`PDT`表示太平洋夏令时)。
+*`zzz`* 是3或4个字符的时区代码， `GMT` 如 `PST`or夏令时必须在时区代码(例如`PST`表示太平洋标准时间，而`PDT`表示太平洋夏令时)。
 
-*`offset`* 是相对于GMT的时区偏移量，以小时或小时为单位：分钟。例如，`PDT`等效于`GMT -7`。
+*`offset`* 是相对于GMT的时区偏移，以小时或小时：分钟为单位。例如，`PDT`等效于`GMT -7`。
 
-字符串格式化日期／时间值的所有元素必须存在。 如果日期／时间值格式不正确，则会忽略该值，而改用&#x200B;[!DNL *`catalog`*.ini]文件的修改时间。
+字符串格式日期/时间值的所有元素必须存在。 如果日期/时间值格式不正确，则忽略该值，并改用&#x200B;[!DNL *`catalog`*.ini]文件的修改时间。
 
 ## 默认 {#section-ac465313c97943ed97d41ea852329177}
 
