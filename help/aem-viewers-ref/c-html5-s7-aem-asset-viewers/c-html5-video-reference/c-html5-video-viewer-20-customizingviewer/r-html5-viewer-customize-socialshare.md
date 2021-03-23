@@ -1,15 +1,16 @@
 ---
-description: 默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点击某个按钮时该面板将展开并包含单独的共享工具。
-seo-description: 默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点击某个按钮时该面板将展开并包含单独的共享工具。
+description: 默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点按按钮时该面板会展开并包含各个共享工具。
+seo-description: 默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点按按钮时该面板会展开并包含各个共享工具。
 seo-title: 社交共享
 solution: Experience Manager
 title: 社交共享
-topic: Dynamic Media
 uuid: 5c1ce7b4-54bf-486f-8b57-1d6d0cec119e
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 1%
 
 # 社交共享{#social-share}
 
-默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点击某个按钮时该面板将展开并包含单独的共享工具。
+默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点按按钮时该面板会展开并包含各个共享工具。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-社交共享工具在查看器用户界面中的位置和大小通过以下方式进行控制：
+社交共享工具在查看器用户界面中的位置和大小通过以下方式控制：
 
 ```
 .s7videoviewer .s7socialshare
@@ -50,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-示例——设置一个社交共享工具，该工具距查看器容器的顶部和右侧分别放置四个像素和五个像素，大小为28 x 28像素。
+示例 — 设置一个社交共享工具，该工具从顶部放置4个像素，从查看器容器的右侧放置5个像素，大小为28 x 28像素。
 
 ```
 .s7videoviewer .s7socialshare { 
@@ -77,18 +78,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
 
-示例——设置一个社交共享工具按钮，该按钮为四个不同按钮状态中的每个状态显示不同的图像。
+示例 — 设置一个社交共享工具按钮，该按钮为四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7videoviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -116,13 +117,13 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>面板的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个具有透明颜色的面板：
+示例 — 设置一个面板以使其具有透明颜色：
 
 ```
 .s7videoviewer .s7socialshare .s7socialsharepanel { 
