@@ -1,23 +1,24 @@
 ---
-description: 用于使CDN缓存失效的URL阵列。
-seo-description: 用于使CDN缓存失效的URL阵列。
+description: 用于使CDN缓存失效的URL数组。
+seo-description: 用于使CDN缓存失效的URL数组。
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
 
 # UrlArray{#urlarray}
 
-用于使CDN缓存失效的URL阵列。
+用于使CDN缓存失效的URL数组。
 
 **支持时间**
 
