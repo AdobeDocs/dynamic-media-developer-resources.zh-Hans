@@ -1,23 +1,24 @@
 ---
-description: 根据资产名称的数组返回资产。
-seo-description: 根据资产名称的数组返回资产。
+description: 返回基于资产名称数组的资产。
+seo-description: 返回基于资产名称数组的资产。
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 14%
+source-wordcount: '231'
+ht-degree: 13%
 
 ---
 
 
 # getAssetsByName{#getassetsbyname}
 
-根据资产名称的数组返回资产。
+返回基于资产名称数组的资产。
 
 语法
 
@@ -34,7 +35,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->仅返回用户具有读取权限的资产。
+>仅返回用户具有读取访问权限的资产。
 
 ## 参数 {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -54,43 +55,43 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的把手。 </td> 
+   <td colname="col4"> 公司的手柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 以其他用户身份提供访问。 仅适用于管理员。 </td> 
+   <td colname="col4"> 以其他用户的身份提供访问。 仅适用于管理员。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 用于按特定组进行筛选。 </td> 
+   <td colname="col4"> 用于按特定组过滤。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 要检索的资产名称的数组。 </td> 
+   <td colname="col4"> 要检索的资源名称的数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 检索的资产允许的资产类型的数组。 </td> 
+   <td colname="col4"> 已检索资产允许的资产类型数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已检索资产的已排除资产类型的数组。 </td> 
+   <td colname="col4"> 已为检索的资产排除的资产类型的数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 已检索资产允许的资产子类型的数组。 </td> 
+   <td colname="col4"> 已检索资产允许的资产子类型数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
