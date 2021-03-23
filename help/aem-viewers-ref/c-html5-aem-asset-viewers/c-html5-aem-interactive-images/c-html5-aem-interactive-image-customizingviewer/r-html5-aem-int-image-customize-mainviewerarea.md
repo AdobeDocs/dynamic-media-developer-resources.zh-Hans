@@ -4,13 +4,14 @@ seo-description: 主视图区域是缩放图像所占用的区域。 当未指�
 seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-topic: Dynamic Media
 uuid: 666328fe-1819-43a6-a2c2-ba63ac798700
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 2%
+source-wordcount: '159'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 2%
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7interactiveimage
@@ -46,13 +47,13 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为1174 x 500像素。
+示例 — 设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为1174 x 500像素。
 
 ```
 .s7interactiveimage { 
