@@ -4,12 +4,13 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: InteractiveSwatches.textpos
 solution: Experience Manager
 title: InteractiveSwatches.textpos
-topic: Dynamic Media
 uuid: 1fd27847-f00f-431f-8f4b-85817c4c3ac6
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -24,8 +25,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下|上|左|右|无</span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于样本图像绘制标签的位置。 即，标签在相对于缩略图的指定位置居中。 </p> <p>指定<span class="codeph">工具提示</span>时，标签文本将作为浮动工具提示显示在缩略图上。 </p> <p>设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bott|top|left|right|none|tooltip</span> </p> </td> 
+   <td colname="col2"> <p> 指定相对于色板图像绘制标签的位置。 即，标签在相对于缩略图的指定位置居中。 </p> <p>当指定<span class="codeph"> tooltip</span>时，标签文本将作为浮动工具提示显示在缩略图上。 </p> <p>设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
