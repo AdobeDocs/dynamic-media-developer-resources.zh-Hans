@@ -4,13 +4,14 @@ seo-description: 描述用户所属的不同公司。
 seo-title: 公司会员
 solution: Experience Manager
 title: 公司会员
-topic: Dynamic Media Image Production System API
 uuid: fc0ddcdd-ad1e-487c-8ef1-9c09e5dca33d
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
@@ -27,5 +28,5 @@ ht-degree: 14%
 |---|---|---|
 | `*`用户`*` | `types:User` | 使用者名稱. |
 | `*`角色`*` | `xsd:string` | 用户对其所属的每个公司具有的角色。 |
-| `*`isActive`*` | `xsd:boolean` | 为用户所属的每个公司设置用户的状态。 |
+| `*`isActive`*` | `xsd:boolean` | 设置用户所属每个公司的状态。 |
 
