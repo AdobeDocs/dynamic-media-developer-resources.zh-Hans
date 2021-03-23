@@ -1,27 +1,28 @@
 ---
-description: CMYK默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种“图像服务”命令（如color=）指定的特定CMYK颜色值。
-seo-description: CMYK默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种“图像服务”命令（如color=）指定的特定CMYK颜色值。
+description: CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种"图像服务"命令（如color=）指定的某些CMYK颜色值的名称。
+seo-description: CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种"图像服务"命令（如color=）指定的某些CMYK颜色值的名称。
 seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f1c2eb6-7f32-4603-9587-d8c1f6a72bb0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-CMYK默认输入颜色用户档案。 指定用于不嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种“图像服务”命令（如color=）指定的特定CMYK颜色值。
+CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK源图像的ICC颜色用户档案的名称，以及用各种&quot;图像服务&quot;命令（如color=）指定的某些CMYK颜色值的名称。
 
 ## 属性 {#section-fc2ad12a3c6e4c7cab495f1878638e66}
 
-文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或者是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是CMYK用户档案。
+文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是CMYK用户档案。
 
 ## 默认 {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
 
