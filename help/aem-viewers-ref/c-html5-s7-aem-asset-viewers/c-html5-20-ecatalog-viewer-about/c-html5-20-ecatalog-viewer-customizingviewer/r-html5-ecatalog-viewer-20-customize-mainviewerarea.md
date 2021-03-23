@@ -4,13 +4,14 @@ seo-description: 主视图区域是目录图像所占用的区域。 当未指�
 seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-topic: Dynamic Media
 uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 2%
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7ecatalogviewer
@@ -46,13 +47,13 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为512 x 288像素。
+示例 — 设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为512 x 288像素。
 
 ```
 .s7ecatalogviewer { 
