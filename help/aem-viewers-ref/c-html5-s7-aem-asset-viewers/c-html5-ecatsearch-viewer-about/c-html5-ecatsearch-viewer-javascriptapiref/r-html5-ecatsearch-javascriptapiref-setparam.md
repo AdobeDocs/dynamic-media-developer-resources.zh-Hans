@@ -4,12 +4,13 @@ seo-description: eCatalog Viewer的JavaScript API参考。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: a732461f-1b34-4ebe-9dfd-69175762e574
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 2%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 eCatalog Viewer的JavaScript API参考。
 
-[!DNL ` setParam( *`名称、值`*)`]
+[!DNL ` setParam( *`name， value`*)`]
 
-将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修改程序。 此参数在[!DNL `init()`]之前调用。
+将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修饰符。 此参数在[!DNL `init()`]之前调用。
 
 如果将查看器配置信息与[!DNL `config`] JSON对象一起传递给构造函数，则此方法是可选的。
 
@@ -31,11 +32,11 @@ eCatalog Viewer的JavaScript API参考。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名称  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 参数的{ </span> string}名称。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}参 </span> 数的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能进行百分比编码。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能以百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
