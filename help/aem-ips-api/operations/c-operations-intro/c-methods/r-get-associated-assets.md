@@ -4,13 +4,14 @@ seo-description: 获取与指定资产关联的资产以及有关其关系的详
 seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
-topic: Dynamic Media Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -63,7 +64,7 @@ ht-degree: 8%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>所需的响应字段的数组。 请参阅简介中的response- FieldArray/excludeFieldArray。 </p> </td> 
+   <td colname="col4"> <p>所需的响应字段数组。 请参阅简介中的response- FieldArray/excludeFieldArray。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
@@ -88,60 +89,60 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>包含指定资产的集和模板资产的数组。 </p> </td> 
+   <td colname="col4"> <p>包含指定资源的集和模板资源的数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>由指定的集或模板资产包含的资产数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>层或模板URL中引用的资产数组。 </p> </td> 
+   <td colname="col4"> <p>图层或模板URL中引用的资产数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>拥有指定资产的资产组。 </p> </td> 
+   <td colname="col4"> <p>拥有指定资源的资源数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>用于生成指定资产的资产数组。 </p> </td> 
+   <td colname="col4"> <p>用于生成指定资源的资源数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列表此资产的创建方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页面，则该页面将包含PDF处理器工具并引用PdfFile资产。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列表此资产的创建方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页，则其中将包含PDF处理器工具并引用PdfFile资源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatedArray</span>将反转创建此资产的方式。 例如，如果<span class="codeph"> generatedArray</span>是PdfFile资产，则它可能包含从该<span class="codeph"> assetHandler</span>生成的图像的列表。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span>将反转此资产的创建方式。 例如，如果<span class="codeph"> generatedArray</span>是PdfFile资源，则 generatedArray可包含从此<span class="codeph"> assetHandler</span>生成的图像的列表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 缩略图资产</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：资产</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>与请求资产关联的缩略图资产信息。 如果未分配缩略图资产，则响应中将忽略该字段。 </p> </td> 
+   <td colname="col4"> <p>与请求资产关联的缩略图资产信息。 如果未分配缩略图资源，则响应中将忽略该字段。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以使用参数`responseFieldArray`或`excludeFieldArray`限制响应大小。 特别是，在`generatorArray`或`generatedArray`中返回的`GenerationInfo`项目默认同时包括原始和生成的资产记录。 对于PDF资产类型，此行为会在响应中导致“原创者”PDF资产记录的多个不需要的副本。 可通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
+可以使用参数`responseFieldArray`或`excludeFieldArray`限制响应大小。 特别是，在`generatorArray`或`generatedArray`中返回的`GenerationInfo`项目默认包括原始和生成的资产记录。 对于PDF资产类型，此行为会在响应中生成“原创者”PDF资产记录的多个多余副本。 可通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
 
 ## 示例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-以下基本示例是对从PDF中提取的图像的生成器句柄的请求。 它包含一个长度为`containerArray`的项目，其中包含PDF的`assetHandle`。
+以下基本示例是对从PDF中提取的图像的生成器句柄的请求。 它包括长度`containerArray`，长度，并且包含PDF的`assetHandle`项。
 
 **请求**
 
@@ -175,7 +176,7 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-上述示例的相反情况如下：
+上述示例的反例如下：
 
 **请求**
 
