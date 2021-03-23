@@ -1,25 +1,26 @@
 ---
-description: JPEG质量。 指定JPEG编码属性以控制压缩级别。 这反过来会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
-seo-description: JPEG质量。 指定JPEG编码属性以控制压缩级别。 这反过来会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
+description: JPEG质量。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据量），并间接改变生成图像的视觉质量。
+seo-description: JPEG质量。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据量），并间接改变生成图像的视觉质量。
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 6%
+source-wordcount: '274'
+ht-degree: 5%
 
 ---
 
 
 # qlt{#qlt}
 
-JPEG质量。 指定JPEG编码属性以控制压缩级别。 这反过来会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
+JPEG质量。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据量），并间接改变生成图像的视觉质量。
 
-` qlt= *`质`*[, *`度`*]`
+` qlt= *``*[, *`色度`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -28,7 +29,7 @@ JPEG质量。 指定JPEG编码属性以控制压缩级别。 这反过来会改�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 色度  </span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度缩减采样(0=normal, 1=disable);可选，默认值为0。 </p> </td> 
+  <td class="stentry"> <p>JPEG色度缩减采样(0=normal， 1=disable);可选，默认值为0。 </p> </td> 
  </tr> 
 </table>
 
@@ -38,7 +39,7 @@ JPEG质量。 指定JPEG编码属性以控制压缩级别。 这反过来会改�
 
 ## 属性 {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-请求属性。 无论当前图层设置如何，均适用。 如果输出图像文件格式不支持JPEG编码，则忽略。 有关哪些输出图像格式支持`qlt=`的信息，请参阅`fmt=`的说明。
+请求属性。 无论当前图层设置如何，均适用。 如果输出图像文件格式不支持JPEG编码，则忽略。 有关输出图像格式支持`qlt=`的信息，请参阅`fmt=`的说明。
 
 *`chroma`* 如果输出像素类型为CMYK或灰色，则忽略此值。
 
