@@ -4,13 +4,14 @@ seo-description: Video360查看器的配置属性。
 seo-title: Video360Player.loop
 solution: Experience Manager
 title: Video360Player.loop
-topic: Dynamic Media
 uuid: 68827542-727a-40b7-b90d-9c8fb3a7e59b
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 29%
+source-wordcount: '48'
+ht-degree: 22%
 
 ---
 
@@ -25,7 +26,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示视频是否应在播放完成后再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
