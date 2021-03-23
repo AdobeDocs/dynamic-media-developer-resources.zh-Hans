@@ -4,13 +4,14 @@ seo-description: 创建视频站点地图。
 seo-title: CreateVideoSitemapJob
 solution: Experience Manager
 title: CreateVideoSitemapJob
-topic: Dynamic Media Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 12%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">当设置为<span class="codeph"> true</span>时生成站点映射。 <p><p>注意：如果Sitemap生成配置设置为手动且<span class="codeph"> forceUpdate</span>未设置，则不会生成站点映射。 </p></p></td> 
+   <td colname="col3">设置为<span class="codeph"> true</span>时生成站点映射。 <p><p>注意：如果将Sitemap生成配置设置为手动且未设置<span class="codeph"> forceUpdate</span>，则不会生成站点映射。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>
