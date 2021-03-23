@@ -1,15 +1,16 @@
 ---
-description: 重新整理现有PDF资产的过程。
-seo-description: 重新整理现有PDF资产的过程。
-seo-title: RipPdfJob
+description: 重新拆分现有PDF资源的过程。
+seo-description: 重新拆分现有PDF资源的过程。
+seo-title: RipPdfsJob
 solution: Experience Manager
-title: RipPdfJob
-topic: Dynamic Media Image Production System API
+title: RipPdfsJob
 uuid: 95990d53-4baf-44a2-8d84-3cab2b5c9105
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '230'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # RipPdfsJob{#rippdfsjob}
 
-重新整理现有PDF资产的过程。
+重新拆分现有PDF资源的过程。
 
 >[!NOTE]
 >
@@ -92,12 +93,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>文件上传到的URL。 </p> </td> 
+   <td colname="col3"> <p>要将文件上载到的URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>要在上载完成后运行的图像服务发布作业的作业详细信息。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：ImageServingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>上载完成后要运行的图像服务发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
@@ -106,18 +107,18 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:VideoPublishJob</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：VideoPublishJob</span> </p> </td> 
    <td colname="col3"> <p>要在上载完成后运行的视频发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>将Adobe InDesign文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将Adobe InDesign文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoudBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
