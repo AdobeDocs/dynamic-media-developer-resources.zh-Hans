@@ -4,12 +4,13 @@ seo-description: 图像目录中的图像集数据。 返回在URL路径中指�
 seo-title: 图像集
 solution: Experience Manager
 title: 图像集
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8854e903-a85f-403a-ae3d-b7281a236262
+feature: Dynamic Media Classic，SDK/API，图像集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '193'
 ht-degree: 7%
 
 ---
@@ -32,12 +33,12 @@ ht-degree: 7%
  </tr> 
 </table>
 
-返回`catalog::ImageSet`的内容，无需进一步修改(字符串本地化除外，如果适用)，后跟单行终结器(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应仅由单行终结器组成。
+返回`catalog::ImageSet`的内容时无需进一步修改(字符串本地化除外，如果适用)，后跟单行终结器(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应仅由单行终结器组成。
 
 请求字符串中的其他命令将被忽略。 HTTP 响应是可缓存的，且 TTL 基于 `catalog::NonImgExpiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
