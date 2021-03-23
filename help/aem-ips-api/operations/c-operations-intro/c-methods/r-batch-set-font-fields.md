@@ -4,13 +4,14 @@ seo-description: 设置字体元数据字段。
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 14%
+source-wordcount: '137'
+ht-degree: 13%
 
 ---
 
@@ -29,11 +30,11 @@ ht-degree: 14%
 
 ## 参数 {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**输入(batchSetFontFieldsParam)**
+**Input(batchSetFontFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含字体的公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对包含字体的公司进行处理。 |
 | `*`updateArray`*` | `types:FontFieldUpdateArray` | 是 | 字体字段更新的数组。 |
 
 **输出(batchSetFontFieldsParam)**
@@ -44,7 +45,7 @@ ht-degree: 14%
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的错误数。 |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
