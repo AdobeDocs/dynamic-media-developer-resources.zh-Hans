@@ -2,12 +2,13 @@
 description: RTF规范允许使用&bsol;colortbl指定的RGB颜色值。 每个组件分别提供&bsol;red、&bsol;green和&bsol;blue命令。
 solution: Experience Manager
 title: 颜色处理
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 0%
 
 RTF规范允许使用`\colortbl`指定的RGB颜色值。 每个组件分别提供`\red`、`\green`和`\blue`命令。
 
-专有RTF扩展命令`\cmykcolortbl`允许指定CMYK颜色，每个颜色组件都提供有`\cyan`、`\magenta`、`\yellow`和`\black`命令。
+专有的RTF扩展命令`\cmykcolortbl`允许指定CMYK颜色，每个颜色组件都提供了`\cyan`、`\magenta`、`\yellow`和`\black`命令。
 
-`\colortbl`的颜色组件值在0到255的范围内。 `\cmykcolortbl`的组件值在0到100的范围内。
+`\colortbl`的颜色分量值在0到255之间。 `\cmykcolortbl`的组件值在0到100之间。
 
-RTF扩展命令`\*\iscolortbl`受`textPs=`支持，它提供了一种指定带有标准图像服务颜色值的颜色表的方法，该颜色表完全支持RGB、灰色、CMYK和alpha。 它的语法如下：
+RTF扩展命令`\*\iscolortbl`由`textPs=`支持，它提供了一种指定带有标准图像服务颜色值的颜色表的方法，该颜色表完全支持RGB、灰色、CMYK和Alpha。 它的语法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
-*[!DNL colors]* 一个或多个IS颜色值，用“;”分隔
+*[!DNL colors]* 一个或多个IS颜色值，用“；”分隔
 
-可以在同一个`text=`或`textPs=` RTF字符串中指定多种类型的颜色表。 每个颜色表可以有不同数量的条目。 图像服务将尝试按以下顺序查找颜色：`\cmykcolortbl`之前的`\iscolortbl`（仅当文本图层的像素类型为CMYK时）在`\colortbl`之前。 仅对`textPs=`，如果需要，颜色在CMYK和RGB之间精确转换（例如，指定RGB颜色但需要CMYK输出时）。 如果找不到特定索引值的颜色，则使用默认颜色（黑色）。
+可以在同一RTF字符串中指定多种类型的颜色表。 `text=``textPs=`每个颜色表可以有不同的条目数。 图像服务将尝试按以下顺序查找颜色：`\iscolortbl`在`\cmykcolortbl`之前（仅当文本图层的像素类型为CMYK时）。 `\colortbl`仅对`textPs=`，如果需要，颜色在CMYK和RGB之间精确转换（例如，指定RGB颜色但需要CMYK输出）。 如果未找到特定索引值的颜色，则使用默认颜色（黑色）。
 
-有关IS颜色值语法的说明，请参阅[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
+有关IS颜色值的语法的说明，请参阅[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 
 ## 限制{#section-c5173e672d854e4aa9656844f7fc4d0e}
 
