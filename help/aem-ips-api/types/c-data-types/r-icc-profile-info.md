@@ -1,23 +1,24 @@
 ---
-description: ICC用户档案资产的属性。
-seo-description: ICC用户档案资产的属性。
+description: ICC用户档案资源的属性。
+seo-description: ICC用户档案资源的属性。
 seo-title: IccProfileInfo
 solution: Experience Manager
 title: IccProfileInfo
-topic: Dynamic Media Image Production System API
 uuid: 5266c727-136e-4eeb-85b0-739e4dd9b731
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 
 # IccProfileInfo{#iccprofileinfo}
 
-ICC用户档案资产的属性。
+ICC用户档案资源的属性。
 
 语法
 
