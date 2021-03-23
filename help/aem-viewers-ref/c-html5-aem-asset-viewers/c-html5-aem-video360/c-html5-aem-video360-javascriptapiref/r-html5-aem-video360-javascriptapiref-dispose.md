@@ -4,13 +4,14 @@ seo-description: Video360查看器的JavaScript API参考。
 seo-title: 处置
 solution: Experience Manager
 title: 处置
-topic: Dynamic Media
 uuid: bdecadb1-4e77-43d5-9da5-80e5101efb36
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +22,13 @@ Video360查看器的JavaScript API参考。
 
 `dispose()`
 
-通过释放查看器逻辑使用的所有资源并删除运行时查看器创建的所有内部对象和组件，来处置此查看器实例。
+通过释放查看器逻辑使用的所有资源并删除查看器在运行时创建的所有内部对象和组件，来显示此查看器实例。
 
-网页代码还应删除查看器实例变量，以从Web浏览器内存中完全删除查看器。
+网页代码还应删除查看器实例变量，并从Web浏览器内存中完全删除查看器。
 
-如果网页代码已直接在查看器SDK组件上注册事件监听器，或存储了对此类组件的外部引用，则此类监听器必须由网页代码显式地取消注册，且必须在调用`dispose()`之前删除此类外部组件引用。
+如果网页代码已在查看器SDK组件上直接注册了事件侦听器，或存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式地取消注册，并且必须在调用`dispose()`之前删除此类外部组件引用。
 
-调用`dispose()`后，不再访问查看器API。
+在调用`dispose()`后，不再访问查看器API。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
