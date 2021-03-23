@@ -4,13 +4,14 @@ seo-description: 请求锁定模式。 指定请求中必须包含的请求锁�
 seo-title: RequestLock
 solution: Experience Manager
 title: RequestLock
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 09f20e5e-8ef1-48fe-8b3c-719d219159ec
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
