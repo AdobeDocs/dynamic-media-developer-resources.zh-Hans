@@ -4,12 +4,13 @@ seo-description: 本页链接到多个图像服务器示例。
 seo-title: 图像服务器示例
 solution: Experience Manager
 title: 图像服务器示例
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 5%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 5%
 
 本页链接到多个图像服务器示例。
 
-* [调整1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
+* [adjust1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [adjust2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
 * [高级](http://crc.scene7.com/is-docs/examples/advanced.htm)
 * [锚](http://crc.scene7.com/is-docs/examples/anchors.htm)
 * [catalog1](http://crc.scene7.com/is-docs/examples/catalog1.htm)
 * [着色](http://crc.scene7.com/is-docs/examples/colorize.htm)
-* [分层1](http://crc.scene7.com/is-docs/examples/layering1.htm)
+* [layerin](http://crc.scene7.com/is-docs/examples/layering1.htm)
 * [photofont](http://crc.scene7.com/is-docs/examples/photofont.htm)
 * [属性](http://crc.scene7.com/is-docs/examples/properties.htm)
 * [svg](http://crc.scene7.com/is-docs/examples/svg.htm)
