@@ -4,12 +4,13 @@ seo-description: 默认缩略图分辨率。 提供缩略图对象分辨率的�
 seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 3%
 
 ## 属性 {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
-实数，大于0。通常以每英寸的像素表示，但也可以以其他单位表示，如每米的像素。
+实数，大于0。通常以每英寸像素数表示，但也可以以其他单位表示，如每米像素数。
 
 ## 默认 {#section-86588899ec9b4276a98b03d7faf64003}
 
