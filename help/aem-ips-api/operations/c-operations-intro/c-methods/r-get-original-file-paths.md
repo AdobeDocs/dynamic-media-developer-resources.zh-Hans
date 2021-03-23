@@ -4,13 +4,14 @@ seo-description: 获取公司资源的原始文件路径。
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 14%
+source-wordcount: '116'
+ht-degree: 13%
 
 ---
 
@@ -37,11 +38,11 @@ ht-degree: 14%
 
 ## 参数 {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**输入(getOriginalFilePathsParam)**
+**Input(getOriginalFilePathsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
 | `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
 
 **输出(getOriginalFilePathsReturn)**
@@ -52,7 +53,7 @@ ht-degree: 14%
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-此代码示例返回资产句柄数组中使用唯一资产句柄指定的资产的文件路径。
+此代码示例返回使用资产句柄数组中唯一资产句柄指定的资产的文件路径。
 
 **请求**
 
