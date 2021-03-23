@@ -4,12 +4,13 @@ seo-description: SVG数据文件路径。 指定包含此目录的SVG数据的�
 seo-title: SvgCatalogFile
 solution: Experience Manager
 title: SvgCatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 3%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 3%
 
 SVG数据文件路径。 指定包含此目录的SVG数据的文件。
 
-在以指定的准确顺序加载所有图像数据文件后，将加载SVG数据文件。 如果同一`catalog::Id`值出现在多个记录中（在同一或不同的图像或SVG目录文件中），则最后一个实例优先。
+SVG数据文件在以指定的精确顺序加载所有图像数据文件之后。 如果多条记录（在同一或不同图像或SVG目录文件中）中出现相同的`catalog::Id`值，则最后一个实例优先。
 
 ## 属性 {#section-fc2d549f76474792837b2b92ec2087ea}
 
