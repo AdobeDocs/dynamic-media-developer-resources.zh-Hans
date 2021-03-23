@@ -1,23 +1,24 @@
 ---
-description: 纹理渲染对齐。 指定将使用由选定暗角对象定义的来源点。
-seo-description: 纹理渲染对齐。 指定将使用由选定暗角对象定义的来源点。
+description: 纹理渲染对齐。 指定将使用由选定晕影对象定义的来源点。
+seo-description: 纹理渲染对齐。 指定将使用由选定晕影对象定义的来源点。
 seo-title: 对齐
 solution: Experience Manager
 title: 对齐
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 3%
 
 ---
 
 
-# align{#align}
+# alig{#align}
 
-纹理渲染对齐。 指定将使用由选定暗角对象定义的来源点。
+纹理渲染对齐。 指定将使用由选定晕影对象定义的来源点。
 
 `align=0|1|2|3|4|5|6`
 
@@ -42,15 +43,15 @@ ht-degree: 4%
 
 呈示器将纹理应用于对象，以使纹理锚点(`anchor=`)与指定的来源点一致。
 
-每个对象最多可定义6个来源点(0、1、3、4、5、6)。 如果指定了`align`值，但相应的来源点未由晕影对象定义，则使用默认（中间匹配）来源点。
+每个对象最多可定义6个来源点(0、1、3、4、5、6)。 如果指定了`align`值，但晕影对象未定义相应的来源点，则使用默认（中心匹配）来源点。
 
-`align=2` 指定随机纹理对齐，在这种情况下， `anchor=` 会有效忽略纹理对齐。
+`align=2` 指定随机纹理对齐，在这种情况 `anchor=` 下，将有效忽略。
 
-主要用于室内装饰材料，可能用于服装织物，以管理相邻物体之间的纹理对齐。
+主要用于室内装饰材料，可能用于服装面料，以管理相邻物体之间纹理的对齐。
 
 ## 属性 {#section-350fadc87dcf4812a8a02d1c3d6697a0}
 
-材料属性。 如果选择了墙、机柜、装置或窗口覆盖框对象，或者材料不是可重复的纹理，则忽略此问题。
+材料属性。 如果选择了壁、机柜、装置或窗口覆盖框对象，或者材料不是可重复的纹理，则忽略。
 
 ## 默认 {#section-3231c2854bae4477836b626ac208dd34}
 
