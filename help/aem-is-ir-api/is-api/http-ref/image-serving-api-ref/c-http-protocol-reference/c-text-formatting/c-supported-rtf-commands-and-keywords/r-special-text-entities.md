@@ -4,12 +4,13 @@ seo-description: 设置文本格式时，请使用以下特殊图元。
 seo-title: 特殊文本实体
 solution: Experience Manager
 title: 特殊文本实体
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 3%
 
 ---
@@ -44,12 +45,12 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
+   <td> <span class="codeph"> (&amp;l);  </span> </td> 
    <td> <p>大括号。 </p> </td> 
    <td> <p>大括号必须采用HTTP编码。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> (&amp;r)brace;  </span> </td> 
+   <td> <span class="codeph"> (&amp;r);  </span> </td> 
    <td> <p>大括号。 </p> </td> 
    <td> <p>大括号必须采用HTTP编码。 </p> </td> 
   </tr> 
