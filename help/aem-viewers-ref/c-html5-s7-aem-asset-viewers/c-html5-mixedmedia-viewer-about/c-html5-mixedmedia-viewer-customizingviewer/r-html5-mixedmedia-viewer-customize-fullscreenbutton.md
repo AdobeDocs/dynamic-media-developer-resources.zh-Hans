@@ -1,15 +1,16 @@
 ---
-description: 当用户单击此按钮时，查看器将进入或退出全屏模式。 查看器显示图像或旋转集时使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 当用户单击此按钮时，查看器将进入或退出全屏模式。 查看器显示图像或旋转集时使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
+description: 当用户单击此按钮时，查看器会进入或退出全屏模式。 当查看器显示图像或旋转集时，会使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
+seo-description: 当用户单击此按钮时，查看器会进入或退出全屏模式。 当查看器显示图像或旋转集时，会使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
 seo-title: 全屏按钮
 solution: Experience Manager
 title: 全屏按钮
-topic: Dynamic Media
 uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # 全屏按钮{#full-screen-button}
 
-当用户单击此按钮时，查看器将进入或退出全屏模式。 查看器显示图像或旋转集时使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
+当用户单击此按钮时，查看器会进入或退出全屏模式。 当查看器显示图像或旋转集时，会使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,15 +44,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从右边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从右边框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从左边框开始的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从左边框开始的位置，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从底部边框开始的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从底边框中的位置，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -67,7 +68,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,9 +77,9 @@ ht-degree: 1%
 >
 >此按钮支持`state`和`selected`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别地，`selected='true'`对应于“全屏”状态，`selected='false'`对应于“正常”状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-示例——设置一个32 x 32像素的全屏按钮，该按钮距查看器的上边缘和右边缘有6个像素，在选择或未选择四个不同的按钮状态中的每个状态时显示一幅不同的图像：
+示例 — 设置一个32 x 32像素的全屏按钮，将查看器的上边缘和右边缘定位为6个像素，并在选择或未选择时，为四个不同按钮状态中的每个状态显示一个不同的图像：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 
