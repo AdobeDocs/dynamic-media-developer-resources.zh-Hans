@@ -4,12 +4,13 @@ seo-description: 单击或点按此按钮将用户返回到旋转集中的上一
 seo-title: 上一张幻灯片
 solution: Experience Manager
 title: 上一张幻灯片
-topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 2%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框的右侧定位。 </p> </td> 
+   <td colname="col2"> <p>从查看器边框右侧的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
@@ -49,7 +50,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框底部定位。 </p> </td> 
+   <td colname="col2"> <p>查看器边框底部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,7 +66,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
@@ -76,11 +77,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
 
-示例——设置上一个60 x 60像素的幻灯片按钮，该按钮距左侧查看器边框和垂直居中放置10像素，并针对四个不同按钮状态中的每个状态显示不同的图像。
+示例 — 设置上一个60 x 60像素的幻灯片按钮，该按钮距左侧查看器边框10像素并垂直居中，并针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7carouselviewer .s7panleftbutton { 
