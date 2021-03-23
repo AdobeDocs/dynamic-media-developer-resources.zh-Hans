@@ -1,27 +1,28 @@
 ---
-description: 辅助控制栏是矩形区域，当在CSS中提供时，该区域包含“第一页”和“最后一页”按钮以及“页面指示符”。
-seo-description: 辅助控制栏是矩形区域，当在CSS中提供时，该区域包含“第一页”和“最后一页”按钮以及“页面指示符”。
+description: 辅助控制栏是矩形区域，当在CSS中可用时，该区域包含“首页”和“末页”按钮以及“页面指示符”。
+seo-description: 辅助控制栏是矩形区域，当在CSS中可用时，该区域包含“首页”和“末页”按钮以及“页面指示符”。
 seo-title: 辅助控制栏
 solution: Experience Manager
 title: 辅助控制栏
-topic: Dynamic Media
 uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
 
-# 辅助控件条{#secondary-control-bar}
+# 辅助控制栏{#secondary-control-bar}
 
-辅助控制栏是矩形区域，当在CSS中提供时，该区域包含“第一页”和“最后一页”按钮以及“页面指示符”。
+辅助控制栏是矩形区域，当在CSS中可用时，该区域包含“首页”和“末页”按钮以及“页面指示符”。
 
-默认情况下，它仅在移动电话上显示，并位于查看器底部。 它始终采用整个可用查看器宽度。 可以通过CSS相对于查看器容器更改其颜色、高度和垂直位置。
+默认情况下，它仅显示在移动电话上，并位于查看器底部。 它始终采用整个可用查看器宽度。 可以通过CSS更改其颜色、高度和垂直位置(相对于查看器容器)。
 
-辅助控件条的外观由以下CSS类选择器控制：
+辅助控制栏的外观由以下CSS类选择器控制：
 
 `.s7ecatalogviewer .s7secondarycontrols .s7controlbar`
 
@@ -43,16 +44,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>主控件栏的高度。 </p> </td> 
+   <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>辅助控件条的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个高度为72像素、位于查看器容器底部的灰色辅助控制栏。
+示例 — 设置一个高72像素且位于查看器容器底部的灰色辅助控制栏。
 
 ```
 .s7ecatalogviewer .s7secondarycontrols .s7controlbar {  
