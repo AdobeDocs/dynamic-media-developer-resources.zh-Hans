@@ -1,23 +1,24 @@
 ---
-description: 从选定资产删除权限。
-seo-description: 从选定资产删除权限。
+description: 从选定资产中删除权限。
+seo-description: 从选定资产中删除权限。
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 16%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
 
 # removeAssetPermissions{#removeassetpermissions}
 
-从选定资产删除权限。
+从选定资产中删除权限。
 
 语法
 
@@ -33,7 +34,7 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 您要删除的具有权限的资产的句柄。 |
 
 **输出(removeAssetPermissionsReturn)**
@@ -42,7 +43,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-此代码示例从资产中删除权限。
+此代码示例可从资产中删除权限。
 
 **请求**
 
