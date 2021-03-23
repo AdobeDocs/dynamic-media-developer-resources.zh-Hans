@@ -2,20 +2,21 @@
 description: 样式
 solution: Experience Manager
 title: 样式
-topic: Dynamic Media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
+feature: Dynamic Media Classic，查看器，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 8%
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
 
 # style{#style}
 
-您可以从URL查询字符串和配置中应用以下命令。 在URL查询字符串中应用的命令始终优先于配置中存在的同一命令。
+可以从URL查询字符串和配置中应用以下命令。 在URL查询字符串中应用的命令始终优先于配置中存在的同一命令。
 
 `style= *`cssPath`*`
 
@@ -28,7 +29,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-CSS文件中的所有资源引用都会根据CSS文件位置解析，而不是根据调用HTML页面的位置解析。
+CSS文件中的所有资源引用都将根据CSS文件位置（而非调用HTML页的位置）进行解析。
 
 ## 属性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
