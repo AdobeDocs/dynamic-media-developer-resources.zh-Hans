@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: VideoPlayer.singleclick
 solution: Experience Manager
 title: VideoPlayer.singleclick
-topic: Dynamic Media
 uuid: 5b387eb6-1e09-4506-beea-3f1cf337cb9d
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 4%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 5%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 配置单击／点按以切换播放／暂停的映射。 设置为<span class="codeph"> none</span>将禁用单击／点按以播放／暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，禁用<span class="codeph">单点单击</span>行为。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按以切换播放/暂停的映射。 设置为<span class="codeph"> none</span>将禁用单击/点按以播放/暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，禁用<span class="codeph"> singlick</span>行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
