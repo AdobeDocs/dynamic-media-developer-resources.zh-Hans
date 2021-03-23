@@ -2,13 +2,14 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-topic: Dynamic Media
 uuid: 39f74e9f-f04c-4c41-9669-029499388708
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 11%
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 11%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无|淡入淡出</span> </p> </td> 
-   <td colname="col2"> <p> 指定在资产更改时应用于主视图的效果类型。 <span class="codeph"> none</span>表示无过渡，主视图更改会立即发生。 <span class="codeph">淡入淡出</span>激活交叉淡出过渡，其中旧图像淡出，新图像淡入淡出。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无</span> </p> </td> 
+   <td colname="col2"> <p> 指定在资产更改时应用于主视图的效果的类型。 <span class="codeph"> none</span>表示无过渡，主视图更改会立即发生。 <span class="codeph">淡入淡出</span>激活交叉淡出过渡，其中旧图像淡出，新图像淡入 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
