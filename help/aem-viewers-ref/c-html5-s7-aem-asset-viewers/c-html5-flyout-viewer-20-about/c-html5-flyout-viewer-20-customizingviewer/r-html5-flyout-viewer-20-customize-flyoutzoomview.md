@@ -1,15 +1,16 @@
 ---
-description: 主视图由静态图像、弹出视图中显示的缩放图像、静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
-seo-description: 主视图由静态图像、弹出视图中显示的缩放图像、静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
+description: 主视图由静态图像、在弹出视图中显示的缩放图像、在静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
+seo-description: 主视图由静态图像、在弹出视图中显示的缩放图像、在静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
 seo-title: 弹出缩放视图
 solution: Experience Manager
 title: 弹出缩放视图
-topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # 弹出缩放视图{#flyout-zoom-view}
 
-主视图由静态图像、弹出视图中显示的缩放图像、静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
+主视图由静态图像、在弹出视图中显示的缩放图像、在静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -40,13 +41,13 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使主视图透明：
+示例 — 使主视图透明：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -72,11 +73,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p> 弹出视图的水平位置，相对于主视图的左上角。 </p> </td> 
+   <td colname="col2"> <p> 弹出视图的水平位置，相对于主视图左上角。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 弹出视图相对于主视图左上角的垂直位置。 </p> </td> 
+   <td colname="col2"> <p> 弹出视图的垂直位置，相对于主视图左上角。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -88,12 +89,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>浮出视图的边界。 </p> </td> 
+   <td colname="col2"> <p>弹出视图的边框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——将弹出视图设置为600 x 400像素，显示时512 x 288主视图的右侧偏移100像素，如上例所示：
+示例 — 将弹出视图设置为600 x 400像素，显示时512 x 288主视图右侧的100像素偏移量，如上例所示：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -112,7 +113,7 @@ ht-degree: 3%
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-可以使用CSS控制背景、边框、透明度和类似属性。 但是，高亮DOM元素的大小和位置由查看器逻辑管理。 不支持通过CSS覆盖它。
+使用CSS可以控制背景、边框、透明度和类似属性。 但是，高亮DOM元素的大小和位置由查看器逻辑管理。 不支持通过CSS覆盖它。
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -123,21 +124,21 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
-   <td colname="col2"> <p> 高亮的颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p> 高光的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p> 高亮显示不透明度。 </p> <p>对于Internet Explorer 8，请使用<span class="codeph">滤镜：alpha(opacity-...));</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
+   <td colname="col2"> <p> 高亮显示不透明度。 </p> <p>对于Internet Explorer 8，请使用<span class="codeph"> filter:alpha(opacity-...));</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>边框突出显示。 </p> </td> 
+   <td colname="col2"> <p>边框高亮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置具有40%透明度和一个像素红色边框的绿色突出显示：
+示例 — 设置绿色高光，其透明度为40%，边框为一个像素，红色为：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight { 
@@ -150,7 +151,7 @@ ht-degree: 3%
 
 **光标的CSS属性**
 
-当`highlightmode`参数设置为`cursor`时，主视图中的突出显示将替换为固定大小的光标图稿，该图稿由CSS类选择器控制：
+将`highlightmode`参数设置为`cursor`时，主视图中的高光将替换为固定大小的光标图稿，该图稿由CSS类选择器控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -178,7 +179,7 @@ ht-degree: 3%
    <td colname="col2"> <p>光标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
    <td colname="col2"> <p>光标高度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -186,11 +187,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->光标支持`input`属性选择器，它可用于对不同设备应用不同的光标图稿和大小。 具体而言，`input="mouse"`对应于桌面系统，`input="touch"`对应于触控设备。
+>光标支持`input`属性选择器，它可用于对不同设备应用不同的光标图稿和大小。 特别地，`input="mouse"`对应于桌面系统，`input="touch"`对应于触摸设备。
 
 **叠加的CSS属性**
 
-当`overlay`参数设置为`1`时，高亮帧或光标图像周围的区域由CSS类选择器控制：
+当`overlay`参数设置为`1`时，高亮帧或光标图像周围的区域将使用CSS类选择器进行控制：
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -206,11 +207,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>叠加颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p>叠加不透明度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -243,19 +244,19 @@ ht-degree: 3%
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>消息文本的边距。 </p> </td> 
+   <td colname="col2"> <p>在消息文本周围填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景填充颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -263,15 +264,15 @@ ht-degree: 3%
    <td colname="col2"> <p>消息文本的背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>对于Internet Explorer 8，请使用<span class="codeph">滤镜：alpha(opacity-...))</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示消息可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
+提示消息可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)。
 
-示例——要设置半透明提示消息，其中带有白色的Arial 12px字体，距主视图底部50像素偏移，填充和圆边：
+示例 — 设置半透明提示消息，其字体为白色的Arial 12px字体，距主视图底部50像素偏移，边距和圆角边框：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
