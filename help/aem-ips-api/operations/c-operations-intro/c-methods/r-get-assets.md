@@ -4,13 +4,14 @@ seo-description: 从IPS返回资源。
 seo-title: getAssets
 solution: Experience Manager
 title: getAssets
-topic: Dynamic Media Image Production System API
 uuid: ca06af8c-1753-4dfa-a7e6-1196ea769730
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 20%
+source-wordcount: '132'
+ht-degree: 18%
 
 ---
 
@@ -73,7 +74,7 @@ ht-degree: 20%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要检索文件夹和所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 </p> </td> 
+   <td colname="col4"> <p>要检索文件夹及所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -104,7 +105,7 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：AssetArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>符合筛选条件的资产数组。 </p> </td> 
   </tr> 
