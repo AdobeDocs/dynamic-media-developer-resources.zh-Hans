@@ -4,13 +4,14 @@ seo-description: 设置文件夹权限。
 seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 13%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 14%
 | `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
 | `*`setChildren`*` | `xsd:boolean` | 是 | 设置属于该文件夹的子项的权限。 |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | 是 | 权限阵列。 |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | 是 | 权限数组。 |
 
 **输出(setFolderPermissionsReturn)**
 
@@ -44,7 +45,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此代码示例指定公司句柄、文件夹句柄以及包含文件夹详细信息的权限数组。 它对父级文件夹的子级应用相同的权限。
+此代码示例指定一个公司句柄、一个文件夹句柄和一个包含有关该文件夹的详细信息的权限数组。 它对父级文件夹的子级应用相同的权限。
 
 **请求**
 
