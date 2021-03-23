@@ -1,15 +1,16 @@
 ---
-description: 静态内容类型筛选器。 为通过/is/content传送的静态内容指定过滤字符串。
-seo-description: 静态内容类型筛选器。 为通过/is/content传送的静态内容指定过滤字符串。
+description: 静态内容类型过滤器。 为通过/is/content传送的静态内容指定过滤字符串。
+seo-description: 静态内容类型过滤器。 为通过/is/content传送的静态内容指定过滤字符串。
 seo-title: 类型
 solution: Experience Manager
 title: 类型
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '131'
 ht-degree: 5%
 
 ---
@@ -17,18 +18,18 @@ ht-degree: 5%
 
 # 类型{#type}
 
-静态内容类型筛选器。 为通过/is/content传送的静态内容指定过滤字符串。
+静态内容类型过滤器。 为通过/is/content传送的静态内容指定过滤字符串。
 
-`type= *`val`*`
+`type= *`瓦尔`*`
 
 <table id="simpletable_B66354A826434A678F3DBC686A0F1436"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
   <td class="stentry"> <p>键入过滤器字符串。 </p></td> 
  </tr> 
 </table>
 
-服务器将将val与所请求静态内容项的`catalog::Type`值进行比较。 如果值匹配（区分大小写），则将项目返回给客户端，否则将返回错误。
+服务器将将值与请求的静态内容项的值`catalog::Type`进行比较。 如果值匹配（区分大小写），则项将返回给客户端，否则返回错误。
 
 ## 属性 {#section-529b088434a44a9f86a64ef548d2925b}
 
@@ -36,7 +37,7 @@ ht-degree: 5%
 
 ## 默认 {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-如果`type=`未指定或为空，则不应用类型匹配。
+如果未指定`type=`或为空，则不应用类型匹配。
 
 ## 另请参阅 {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
