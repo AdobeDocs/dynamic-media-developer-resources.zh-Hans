@@ -4,12 +4,13 @@ seo-description: 打印分辨率。 打印全尺寸图像的分辨率。
 seo-title: 打印分辨率
 solution: Experience Manager
 title: 打印分辨率
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 6%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 6%
 
 打印分辨率。 打印全尺寸图像的分辨率。
 
-此值嵌入在回复图像标题中，除非被`printRes=`覆盖。
+此值将嵌入在回复图像标题中，除非用`printRes=`覆盖。
 
 ## 属性 {#section-de3c1f73da7b43208beeec841c1778c1}
 
-整数，大于0。 以每英寸点数表示。 可选。
+大于0的整数。 以每英寸点数表示。 可选。
 
 ## 默认 {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` 如果字段不存在，则使用该字段（如果值为0或字段为空）。
+`attribute::PrintResolution` 如果字段不存在，则使用。
 
 ## 另请参阅 {#section-0593faefffe341c5ab8a4aa5da589a04}
 
