@@ -4,12 +4,13 @@ seo-description: 静态内容数据根路径。 此图像目录静态内容数�
 seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 2%
 
 ## 属性 {#section-f8e3986096294b36948d43aafdc3e795}
 
-文本字符串。 必须为空、有效的相对文件路径段或绝对路径。 不应包括前导路径和尾部路径元素分隔符。
+文本字符串。 必须为空、有效的相对文件路径段或绝对路径。 不应包括前导和尾随路径元素分隔符。
 
 ## 默认 {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-从`default::StaticContentsRootPath`继承（如果未定义）。 如果已定义但为空，则不会对源文件根路径做出贡献。
+如果未定义，则从`default::StaticContentsRootPath`继承。 如果已定义但为空，则不会向源文件根路径贡献。
 
 ## 另请参阅 {#section-9af8846d20d242789df67877f84ed8a7}
 
