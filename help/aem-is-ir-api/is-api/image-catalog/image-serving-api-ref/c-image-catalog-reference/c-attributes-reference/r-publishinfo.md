@@ -4,12 +4,13 @@ seo-description: 目录注释字符串。 可用于标识目录版本、发布�
 seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 4%
 
 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
 
-此字段的内容将返回`req=catalogprops`。 此属性不会被使用。
+此字段的内容将返回，并带有`req=catalogprops`。 此属性不会用于其他用途。
 
 ## 属性 {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
