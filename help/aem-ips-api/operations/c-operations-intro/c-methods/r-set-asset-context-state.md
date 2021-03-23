@@ -4,12 +4,13 @@ seo-description: 为一个或多个资产设置或更新发布状态。 您可�
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '192'
 ht-degree: 9%
 
 ---
@@ -37,12 +38,12 @@ ht-degree: 9%
 
 ## 参数 {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**输入(setAssetsContextStateParam)**
+**Input(setAssetsContextStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一组资源及其新发布状态。 |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一组资源及其新的发布状态。 |
 
 **输出(setAssetsContexStateReturn)**
 
@@ -51,7 +52,7 @@ ht-degree: 9%
 | `*`successCount`*` | `xsd:int` | 是 | 已成功更改的资产数。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 资产在操作尝试修改资产时生成的错误数组。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试修改资产时由资产生成的错误数组。 |
 
 ## 示例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
