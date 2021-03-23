@@ -1,15 +1,16 @@
 ---
 description: 添加搜索词以用于searchAssets。
 seo-description: 添加搜索词以用于searchAssets。
-seo-title: 元数据条件
+seo-title: MetadataCondition
 solution: Experience Manager
-title: 元数据条件
-topic: Dynamic Media Image Production System API
+title: MetadataCondition
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 7%
 
 ---
@@ -50,22 +51,22 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 布尔比较值（仅用于布尔类型字段）。 </td> 
+   <td colname="col3"> 布尔比较值（仅适用于布尔类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 长比较值（仅限int类型字段）。 </td> 
+   <td colname="col3"> 长比较值（仅适用于int类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最小长值（仅限int类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最小长值（仅适用于int类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最大长值（仅限int类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最大长值（仅适用于int类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
@@ -75,12 +76,12 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最小多次值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最小多次值（仅适用于浮动类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最大多次值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最大多次值（仅适用于浮动类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
@@ -98,9 +99,9 @@ ht-degree: 7%
    <td colname="col3"> 范围比较中的最大日期值（仅适用于日期类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 区分大小写</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 用于<span class="codeph"> searchAssetsByMetadata</span>调用。 </p> <p>请参阅<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>。 </p> </td> 
+   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 在<span class="codeph"> searchAssetsByMetadata</span>调用中使用。 </p> <p>请参阅<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
