@@ -4,13 +4,14 @@ seo-description: 所有查看器通用的参数。
 seo-title: config2
 solution: Experience Manager
 title: config2
-topic: Dynamic Media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
+feature: Dynamic Media Classic，查看器，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 19%
+source-wordcount: '50'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Adobe Analytics</span>配置预设的名称。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>配置预设的名称。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
