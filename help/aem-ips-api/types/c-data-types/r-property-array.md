@@ -1,23 +1,24 @@
 ---
-description: 属性的数组。
-seo-description: 属性的数组。
-seo-title: 属性数组
+description: 属性数组。
+seo-description: 属性数组。
+seo-title: PropertyArray
 solution: Experience Manager
-title: 属性数组
-topic: Dynamic Media Image Production System API
+title: PropertyArray
 uuid: a28dd70f-953c-472a-9c23-020db134e1af
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 25%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
 
 # PropertyArray{#propertyarray}
 
-属性的数组。
+属性数组。
 
 语法
 
