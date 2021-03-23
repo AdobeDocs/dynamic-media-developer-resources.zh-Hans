@@ -1,15 +1,16 @@
 ---
-description: 旋转指示器叠加在旋转视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
-seo-description: 旋转指示器叠加在旋转视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
+description: 旋转指示器会叠加在旋转视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
+seo-description: 旋转指示器会叠加在旋转视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
 seo-title: 旋转视图图标效果
 solution: Experience Manager
 title: 旋转视图图标效果
-topic: Dynamic Media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # 旋转视图图标效果{#spin-view-icon-effect}
 
-旋转指示器叠加在旋转视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
+旋转指示器会叠加在旋转视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect
@@ -43,11 +44,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>旋转指示器宽度。 </p> </td> 
+   <td colname="col2"> <p>旋转指示符宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -56,9 +57,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-旋转指示符支持在单维旋转集时设置为`spin_1D`的`state`属性选择器，在多维旋转集时设置为`spin_2D`。
+旋转指示符支持`state`属性选择器，在单维旋转集的情况下，此属性选择器设置为`spin_1D`，在多维旋转集的情况下，属性选择器设置为`spin_2D`。
 
-示例——设置100 x 100像素缩放指示符。
+示例 — 设置100 x 100像素缩放指示器。
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 
