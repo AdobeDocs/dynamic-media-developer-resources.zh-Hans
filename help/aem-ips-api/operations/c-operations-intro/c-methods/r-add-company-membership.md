@@ -2,12 +2,13 @@
 description: 将用户添加到一个或多个公司。
 solution: Experience Manager
 title: addCompanyMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 14%
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 14%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | 否 | 要添加其会员资格的用户的句柄。 |
-| `*`membersArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司的数组。 |
+| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的一组公司。 |
 
 **输出(addCompanyMembershipReturn)**
 
