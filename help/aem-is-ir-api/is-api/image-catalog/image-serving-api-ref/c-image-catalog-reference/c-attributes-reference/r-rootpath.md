@@ -1,16 +1,17 @@
 ---
 description: 源数据根路径。 此图像目录源数据的根文件夹的绝对或相对路径。
 seo-description: 源数据根路径。 此图像目录源数据的根文件夹的绝对或相对路径。
-seo-title: 根路径
+seo-title: RootPath
 solution: Experience Manager
-title: 根路径
-topic: Dynamic Media Image Serving - Image Rendering API
+title: RootPath
 uuid: 859bebf2-5ee7-4daa-8970-a18bddcee684
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
@@ -27,8 +28,8 @@ ht-degree: 3%
 
 ## 默认 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-从`default::RootPath`继承（如果未定义）。 如果已定义但为空，则不会对源文件根路径做出贡献。
+如果未定义，则从`default::RootPath`继承。 如果已定义但为空，则不会向源文件根路径贡献。
 
 ## 另请参阅 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [规则集：:PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [管理源数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , catalog [::](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)MaskPath  [, ruleset](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)::PathRule [, Managing Source Data](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
