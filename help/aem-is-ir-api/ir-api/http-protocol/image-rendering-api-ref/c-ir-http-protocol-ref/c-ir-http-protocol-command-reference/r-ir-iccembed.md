@@ -1,29 +1,30 @@
 ---
-description: 嵌入ICC用户档案。 指定是应将工作ICC颜色用户档案还是使用icc=指定的用户档案嵌入到回复图像中。
-seo-description: 嵌入ICC用户档案。 指定是应将工作ICC颜色用户档案还是使用icc=指定的用户档案嵌入到回复图像中。
+description: 嵌入ICC用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
+seo-description: 嵌入ICC用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
 seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a53580f4-86bc-4dbf-87ee-8829091b6381
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # iccEmbed{#iccembed}
 
-嵌入ICC用户档案。 指定是应将工作ICC颜色用户档案还是使用icc=指定的用户档案嵌入到回复图像中。
+嵌入ICC用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
 
 `iccEmbed=0|1`
 
 ## 属性 {#section-45c08073626a4cc7823d423dc35b4479}
 
-可能在请求中的任何位置发生。
+可能发生在请求中的任何位置。
 
 ## 默认 {#section-68ed1f0c68dc46b58972804799c277b7}
 
