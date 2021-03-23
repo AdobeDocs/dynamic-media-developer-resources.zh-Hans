@@ -4,12 +4,13 @@ seo-description: 向系统提交作业。
 seo-title: submitJob
 solution: Experience Manager
 title: submitJob
-topic: Dynamic Media Image Production System API
 uuid: d3a83b59-bcd7-4ae9-b1ee-e515fc3c9261
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '421'
 ht-degree: 11%
 
 ---
@@ -55,7 +56,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>处理提交作业的用户。 </p> <p> <p>注意：系统向由<span class="codeph"> userHandle</span>指定的用户发送电子邮件。 如果未提供<span class="codeph"> userHandle</span>，则提交作业的人员会收到电子邮件。 </p> </p> </td> 
+   <td colname="col4"> <p>处理提交作业的用户。 </p> <p> <p>注意：系统会向由<span class="codeph"> userHandle</span>指定的用户发送电子邮件。 如果未提供<span class="codeph"> userHandle</span>，则提交作业的人员会收到电子邮件。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -67,13 +68,13 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>用于作业日志详细信息和电子邮件本地化的区域设置。 </p> <p>区域设置指定为<span class="codeph"> &lt;languagecode&gt;</span>和<span class="codeph"> [&lt;countrycode&gt;]</span>，其中语言代码为ISO-639指定的小写、双字母代码，可选国家／地区代码为ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：美国。 </p> </td> 
+   <td colname="col4"> <p>用于作业日志详细信息和电子邮件本地化的区域设置。 </p> <p>区域设置指定为<span class="codeph"> &lt;languagecode&gt;</span>和<span class="codeph"> [&lt;countrycode&gt;]</span>，其中语言代码为ISO-639指定的小写、双字母代码，可选国家/地区代码为ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：en-US。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>运行作业的日期和时间。 </p> <p>注意： 为请求提供时区。 时区将调整为目标IPS服务器的时区。 </p> </td> 
+   <td colname="col4"> <p>运行作业的日期和时间。 </p> <p>注意： 为请求提供时区。 时区将调整为目标 IPS服务器的时区。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
@@ -95,7 +96,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>图像服务发布作业的详细信息。 </p> </td> 
   </tr> 
@@ -107,7 +108,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：VideoPublishJob</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p>视频发布作业的详细信息。 </p> <p>请参阅<a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>。 </p> </td> 
   </tr> 
@@ -127,7 +128,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>上传URL作业的详细信息。 </p> </td> 
+   <td colname="col4"> <p>上载URL作业的详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
@@ -137,7 +138,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：RipPdfJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：RipPdfsJob</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
@@ -151,7 +152,7 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>使用自动集脚本将资产列表处理为集。 </p> <p>请参阅<a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>。 </p> </td> 
+   <td colname="col4"> <p>使用自动设置脚本将资产列表处理为多个集。 </p> <p>请参阅<a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +165,7 @@ ht-degree: 11%
 
 ## 示例 {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-此代码示例向IPS提交图像服务发布作业并返回作业句柄。 请求中只选择一种类型的作业。 由于`userHandle`被省略，电子邮件通知将发送给提交作业的用户。 此示例作业会立即运行，因为`execTime`和`execSchedule`被省略。
+此代码示例将提供发布作业的图像提交到IPS并返回作业句柄。 请求中只选择一种类型的作业。 由于`userHandle`被省略，电子邮件通知将发送给提交作业的用户。 此示例作业会立即运行，因为省略了`execTime`和`execSchedule`。
 
 **请求**
 
