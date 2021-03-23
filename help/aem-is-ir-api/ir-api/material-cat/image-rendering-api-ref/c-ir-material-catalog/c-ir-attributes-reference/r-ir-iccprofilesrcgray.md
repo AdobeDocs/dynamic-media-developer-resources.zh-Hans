@@ -4,12 +4,13 @@ seo-description: 灰度默认输入颜色用户档案。 指定用于未嵌入�
 seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e05d1185-ffd6-4c04-a2b8-52228beae37d
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 ## 属性 {#section-97923d8561b845309442d57d017d91a4}
 
-文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或者是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是灰度用户档案。
+文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是灰度用户档案。
 
 ## 默认 {#section-02c52805ee13483dba7878aeab51f889}
 
