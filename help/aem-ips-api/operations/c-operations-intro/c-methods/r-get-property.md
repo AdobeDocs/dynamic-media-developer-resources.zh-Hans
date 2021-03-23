@@ -4,12 +4,13 @@ seo-description: 获取与图像门户相关的系统属性的字符串值。
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '150'
 ht-degree: 10%
 
 ---
@@ -26,9 +27,9 @@ ht-degree: 10%
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`:用于呈现SVG资源的URL前缀。
-* `SvgRenderEnabled`:如果SVG资源可以由呈现，则为 `SvgRenderRootUrl`true。
+* `SvgRenderEnabled`:如果SVG资源可以由渲染器呈 `SvgRenderRootUrl`现。
 
-* `UploadPostMaxFileSize`:上载中允许的文件数据最大大小（以字节为单位） [!DNL POST]。系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位）  [!DNL POST]。系统拒绝大于最大限制的文件。
 
 ## 授权用户类型{#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -44,7 +45,7 @@ ht-degree: 10%
 
 ## 参数 {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**输入(getPropertyParam)**
+**Input(getPropertyParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -58,7 +59,7 @@ ht-degree: 10%
 
 ## 示例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-此代码示例使用IPS属性字符串常数返回特定值。 在此示例中，IPS属性是IPS服务器的版本。
+此代码示例使用IPS属性字符串常量返回特定值。 在此示例中，IPS属性是IPS服务器的版本。
 
 **请求**
 
