@@ -2,13 +2,14 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-topic: Dynamic Media
 uuid: effab705-cfe9-4316-8239-ae49531f2d39
+feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 10%
    <td> <p>使按钮与色板对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 快照</span> </span> </p> </td> 
-   <td> <p>使按钮在组件边框旁对齐。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
+   <td> <p>使按钮对齐到组件边框旁边。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> 叠加</span> </span> </p> </td> 
