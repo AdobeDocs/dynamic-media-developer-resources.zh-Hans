@@ -1,27 +1,28 @@
 ---
-description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种图像服务命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
-seo-description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种图像服务命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
+description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种“图像服务”命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
+seo-description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种“图像服务”命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
 seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 823c0e33-8bb7-4754-81cf-61a5ed6f45ce
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种图像服务命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
+灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度源图像以及使用各种“图像服务”命令（如color=）指定的特定灰度颜色值的ICC颜色用户档案的名称。
 
 ## 属性 {#section-8cbb316df6eb463aaca7b308d3568086}
 
-文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或者是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是灰度用户档案。
+文本字符串。 如果指定，则必须是此图像目录或默认目录的ICC用户档案映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC用户档案必须是灰度用户档案。
 
 ## 默认 {#section-bcc7250715884412bd0780f60d1cce7b}
 
