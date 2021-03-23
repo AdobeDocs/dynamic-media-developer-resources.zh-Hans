@@ -4,18 +4,19 @@ seo-description: 除了常用的图层命令外，这些命令还适用于图像
 seo-title: 图像图层命令
 solution: Experience Manager
 title: 图像图层命令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
 
-# 图像层命令{#image-layer-commands}
+# 图像图层命令{#image-layer-commands}
 
 除了常用的图层命令外，这些命令还适用于图像图层。
 
