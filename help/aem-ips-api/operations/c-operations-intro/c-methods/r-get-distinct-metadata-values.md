@@ -4,13 +4,14 @@ seo-description: 返回元数据字段的所有值。
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '81'
+ht-degree: 19%
 
 ---
 
@@ -37,8 +38,8 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要获取公司的句柄。 |
-| `*`metadataKey`*` | `xsd:string` | 是 | 点记号中的元数据键。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要获取数据的公司的句柄。 |
+| `*`metadataKey`*` | `xsd:string` | 是 | 元数据键（点记号）。 |
 
 **输出(getDistinctMetadataValuesReturn)**
 
