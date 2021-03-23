@@ -4,13 +4,14 @@ seo-description: 从废纸篓恢复资源。
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 12%
+source-wordcount: '171'
+ht-degree: 11%
 
 ---
 
@@ -36,22 +37,22 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司要恢复的资产的句柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要恢复的资产的句柄阵列。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对要恢复的资产的公司的处理。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要恢复的资产的句柄数组。 |
 
 **输出(restoreAssetsFromTrashReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | 是 | 从垃圾桶中成功删除的资源数。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试从垃圾桶中恢复资产时生成的警告数。 |
+| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试从垃圾桶中恢复资源时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 尝试从废纸篓恢复资源时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中恢复资产时，这些资产生成了警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与操作尝试从废纸篓恢复资产时生成错误的资产关联的详细信息数组。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试从废纸篓中恢复资源时生成警告的与资源关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试从垃圾桶中恢复资源时生成错误的资源关联的详细信息数组。 |
 
 ## 示例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
-此代码示例从垃圾桶中恢复资源。 响应表示操作已成功完成。
+此代码示例可从垃圾桶中恢复资源。 响应指示操作已成功完成。
 
 **请求**
 
