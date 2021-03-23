@@ -4,13 +4,14 @@ seo-description: 支持优化FXG。
 seo-title: enableVisibleAttributeOptimization
 solution: Experience Manager
 title: enableVisibleAttributeOptimization
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7f79aa12-6364-4b34-b547-88d4a778c015
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +27,6 @@ ht-degree: 3%
  </tr> 
 </table>
 
-在传递此FXG时，删除其可见性在FXG中设置为false的元素，这反过来又减少了FXG的处理时间。 尽管它只删除那些可见性为false且不会影响FXG中任何其他元素的元素。 例如，如果`Path`上存在文本，并且`Path`的可见性设置为false，则即使启用了此修饰符，也不会从FXG中删除它，因为需要在此路径上绘制文本。
+删除其可见性在FXG中设置为false的元素，同时传递此FXG，这进而减少了FXG的处理时间。 但是，它只删除那些可见性为false且不会影响FXG中任何其他元素的元素。 例如，如果`Path`上存在文本，且`Path`的可见性设置为false，则即使启用了此修饰符，也不会从FXG中删除它，因为需要在此路径上绘制文本。
 
 默认值为 1。
