@@ -1,12 +1,13 @@
 ---
-description: 所有配置文件都位于install_folder/conf中，并且大多数文本编辑器都可编辑。 可能需要重新启动服务器才能使更改生效。
+description: 所有配置文件都位于install_folder/conf中，大多数文本编辑器都可编辑。 可能需要重新启动服务器才能使更改生效。
 solution: Experience Manager
 title: 服务器配置文件
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # 服务器配置文件{#server-configuration-files}
 
-所有配置文件都位于install_folder/conf中，并且大多数文本编辑器都可编辑。 可能需要重新启动服务器才能使更改生效。
+所有配置文件都位于install_folder/conf中，大多数文本编辑器都可编辑。 可能需要重新启动服务器才能使更改生效。
 
 >[!NOTE]
 >
->大多数服务器配置文件都包含其他属性和值，这些属性和值在本文档中没有说明。 这些属性仅供内部服务器使用，除非得到Dynamic Media技术支持的特别指示，否则不得进行修改。
+>大多数服务器配置文件都包含其他属性和值，本文档中未说明这些属性和值。 此类属性仅供内部服务器使用，除非得到Dynamic Media技术支持的特别指示，否则不得进行修改。
 
 本文档讨论以下配置文件的设置：
 
@@ -52,9 +53,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
-   <td> <p>图像服务器配置。 </p> </td> 
+   <td> <p>映像服务器配置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-此文档稍后将更详细地讨论配置文件。
+配置文件将在本文档的后面更详细地讨论。
