@@ -1,20 +1,21 @@
 ---
-description: 描述IPS API 3.7版的新字符串常量和已更改的字符串常量。
+description: 介绍IPS API 3.7版的新字符串常量和更改的字符串常量。
 solution: Experience Manager
-title: 新建和修改的字符串常量
-topic: Dynamic Media Image Production System API
+title: 字符串常量新建和修改
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
 
 # 字符串常量：新建和已修改{#string-constants-new-and-modified}
 
-描述IPS API 3.7版的新字符串常量和已更改的字符串常量。
+介绍IPS API 3.7版的新字符串常量和更改的字符串常量。
 
 语法
 
