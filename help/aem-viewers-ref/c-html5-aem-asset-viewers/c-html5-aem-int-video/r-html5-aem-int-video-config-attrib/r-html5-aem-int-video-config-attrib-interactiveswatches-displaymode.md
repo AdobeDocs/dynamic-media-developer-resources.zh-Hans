@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-topic: Dynamic Media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '58'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 连续|段</span> </p> </td> 
-   <td colname="col2"> <p> 无论区段边界如何，都可连续填充带缩略图的交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
+   <td colname="col2"> <p> 无论区段边界如何，均可使用缩览图连续填充交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
