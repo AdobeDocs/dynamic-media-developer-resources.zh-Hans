@@ -2,12 +2,13 @@
 description: 当用户无法通过身份验证时引发。
 solution: Experience Manager
 title: authenticationFault
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 21%
+source-wordcount: '44'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 21%
 
 ## 故障类型{#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
 
-| ID | 故障 |
+| ID | 错误 |
 |---|---|
 | 10000 | `AUTHENTICATION_FAULT_CODE_NO_CREDENTIALS` |
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
