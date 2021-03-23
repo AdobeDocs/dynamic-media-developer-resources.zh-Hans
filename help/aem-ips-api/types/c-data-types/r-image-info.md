@@ -4,12 +4,13 @@ seo-description: 图像资产的属性。
 seo-title: ImageInfo
 solution: Experience Manager
 title: ImageInfo
-topic: Dynamic Media Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '203'
 ht-degree: 22%
 
 ---
@@ -93,7 +94,7 @@ ht-degree: 22%
    <td colname="col3"> <p>图像描述。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 注释</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 评论</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>注释（已弃用）。 </p> </td> 
   </tr> 
@@ -110,7 +111,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>以像素为单位的垂直锚点。 </p> </td> 
+   <td colname="col3"> <p>像素中的垂直锚点。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
@@ -120,12 +121,12 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>连接到<span class="codeph"> urlModifier</span>末尾的参数。 查询字符串格式列表作为命令到图像服务器的参数。 值在图像服务器协议指南中。 </p> </td> 
+   <td colname="col3"> <p>与<span class="codeph"> urlModifier</span>结尾连接的参数。 查询字符串格式列表图像服务器中的命令参数。 值位于图像服务器协议指南中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>缩放目标阵列（最多5个）。 </p> </td> 
+   <td colname="col3"> <p>缩放目标数组（最多5个）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 蒙版</span> </span> </td> 
