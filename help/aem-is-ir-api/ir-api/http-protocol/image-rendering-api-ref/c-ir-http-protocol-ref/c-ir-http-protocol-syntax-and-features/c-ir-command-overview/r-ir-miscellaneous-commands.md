@@ -1,21 +1,22 @@
 ---
 description: 这些命令也可用。
 seo-description: 这些命令也可用。
-seo-title: 杂项命令
+seo-title: 其它命令
 solution: Experience Manager
-title: 杂项命令
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 其它命令
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
 
-# 杂项命令{#miscellaneous-commands}
+# 其他命令{#miscellaneous-commands}
 
 这些命令也可用。
 
