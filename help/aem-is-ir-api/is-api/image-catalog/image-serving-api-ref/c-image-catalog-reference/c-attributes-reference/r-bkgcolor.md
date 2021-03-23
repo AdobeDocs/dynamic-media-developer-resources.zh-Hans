@@ -1,23 +1,24 @@
 ---
-description: 默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
-seo-description: 默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
+description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
+seo-description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
 seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 6%
+source-wordcount: '91'
+ht-degree: 5%
 
 ---
 
 
 # BkgColor{#bkgcolor}
 
-默认背景颜色。 用于填充返回图像中不包含实际图像数据的任何区域的RGB值。
+默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
 
 ## 属性 {#section-2768b2beee214676aa32f17e2a0e3343}
 
