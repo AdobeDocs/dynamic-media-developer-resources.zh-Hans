@@ -4,13 +4,14 @@ seo-description: 获取公司作业日志的详细信息。
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 16%
 
 ---
 
@@ -83,10 +84,10 @@ ht-degree: 17%
    <td colname="col4">要返回的<span class="codeph"> recordsPerPage</span>-results的页码。 預設值為 1。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 排序依据</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>作业详细信息排序字段常量值之一（日期或日志类型）。 默认值为日期。 </p> </td> 
+   <td colname="col4"> <p>作业详细信息排序字段常量值之一（Date或LogType）。 默认值为Date。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
@@ -105,7 +106,7 @@ ht-degree: 17%
 
 ## 示例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-此代码示例返回特定公司的所有作业日志详细信息。 第一个阵列包含标准作业日志详细信息。 嵌入式阵列会返回有关该作业的其他信息。
+此代码示例返回特定公司的所有作业日志详细信息。 第一个数组包含标准作业日志详细信息。 嵌入式数组会返回有关该作业的其他信息。
 
 **请求**
 
