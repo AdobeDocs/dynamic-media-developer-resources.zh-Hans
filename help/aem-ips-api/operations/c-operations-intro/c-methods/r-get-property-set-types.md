@@ -4,12 +4,13 @@ seo-description: 获取与指定公司关联的属性集类型，或者如果未
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '141'
 ht-degree: 12%
 
 ---
@@ -35,7 +36,7 @@ ht-degree: 12%
 
 ## 参数 {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**输入(getPropertySetTypesParam)**
+**Input(getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -51,7 +52,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">属性集类型所关联的公司的句柄。 <p>如果要返回全局属性集类型，则忽略。 </p> </td> 
+   <td colname="col4">属性集类型所关联的公司的句柄。 <p>如果要返回全局属性集类型，则省略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
