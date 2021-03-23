@@ -4,12 +4,13 @@ seo-description: 混合媒体查看器的JavaScript API参考。
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 46db0ce3-fd70-4577-92ed-e7d2d15e0dab
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '118'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 ` setParams( *`params`*)`
 
-将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的name=value对。 就像在查询字符串中一样，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的name=value对。 就像在查询字符串中一样，名称和值使用UTF8以百分比编码。 在调用`init()`之前，必须调用此参数。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
