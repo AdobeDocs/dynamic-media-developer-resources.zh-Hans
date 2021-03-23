@@ -4,12 +4,13 @@ seo-description: 返回有关指定公司的信息，包括公司句柄、公司
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-topic: Dynamic Media Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 8%
 
 ---
@@ -49,13 +50,13 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>是必需的。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>为必需项。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>是必需的。 </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>为必需项。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的名称。 </p> </td> 
   </tr> 
  </tbody> 
@@ -77,7 +78,7 @@ ht-degree: 8%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>处理和其他有关公司的描述性信息。 </p> </td> 
+   <td colname="col4"> <p>处理和有关公司的其他描述性信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
