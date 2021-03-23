@@ -1,23 +1,24 @@
 ---
-description: 包含资产摘要信息的元数据搜索结果。
-seo-description: 包含资产摘要信息的元数据搜索结果。
+description: 包含有关资产的摘要信息的元数据搜索结果。
+seo-description: 包含有关资产的摘要信息的元数据搜索结果。
 seo-title: 资产摘要
 solution: Experience Manager
 title: 资产摘要
-topic: Dynamic Media Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '142'
+ht-degree: 10%
 
 ---
 
 
-# 资产摘要{#assetsummary}
+# AssetSummary{#assetsummary}
 
-包含资产摘要信息的元数据搜索结果。
+包含有关资产的摘要信息的元数据搜索结果。
 
 语法
 
@@ -36,5 +37,5 @@ ht-degree: 11%
 | `*`lastModifyUser`*` | `xsd:string` | 上次修改资产的用户。 |
 | `*`metadataArray`*` | `types:MetadataArray` | 与资产关联的元数据值的数组。 |
 | `*`分数`*` | `xsd:double` | 定义相似性搜索时的精度（0 =无匹配，1 =精确匹配）。 |
-| `*`scoreDetail`*` | `xsd:string` | 保存作为相似性搜索结果的类似区域的详细信息。 |
+| `*`scoreDetail`*` | `xsd:string` | 保存由于相似性搜索而生成的类似区域的详细信息。 |
 
