@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-topic: Dynamic Media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
@@ -25,11 +26,11 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 启用或禁用用户使用鼠标或触控手势滚动样本的功能。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用用户使用鼠标或使用触控手势滚动色板的功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 在<span class="codeph"> 0-1 </span>范围内，它是实际速度错误方向的移动的百分比值。 </p> <p>如果设置为<span class="codeph"> 1 </span>，则它随鼠标移动。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则不允许您向错误的方向移动。 </p> </td> 
+   <td colname="col2"> <p> 在<span class="codeph"> 0-1 </span>范围内，它是实际速度向错误方向移动的百分比值。 </p> <p>如果设置为<span class="codeph"> 1 </span>，则它随鼠标移动。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则不允许您向错误的方向移动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
