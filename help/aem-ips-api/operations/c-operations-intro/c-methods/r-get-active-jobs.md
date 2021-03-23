@@ -4,13 +4,14 @@ seo-description: 获取所有当前活动的作业。
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 15%
+source-wordcount: '114'
+ht-degree: 14%
 
 ---
 
@@ -38,8 +39,8 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作的手。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的手柄。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 工作的处理。 |
 | `*`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
 
 **输出(getActiveJobsReturn)**
@@ -50,7 +51,7 @@ ht-degree: 15%
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，由于IPS调度协调器处于禁用状态且没有运行活动作业，因此该响应异常。 在正常情况下，响应会返回一些活跃的工作。
+此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，响应是不正常的，因为IPS调度协调器在没有运行活动作业的情况下被禁用。 在正常情况下，这种反应会返回一些活跃的工作。
 
 **请求**
 
