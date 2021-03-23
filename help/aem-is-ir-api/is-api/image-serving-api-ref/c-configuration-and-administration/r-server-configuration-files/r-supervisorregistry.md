@@ -2,11 +2,12 @@
 description: 包含服务器主管配置设置。
 solution: Experience Manager
 title: SupervisorRegistry.xml
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 包含服务器主管配置设置。
 
-编辑此XML文件时，请确保保持有效的XML语法，否则图像服务器可能无法开始。
+编辑此XML文件时，请务必保持有效的XML语法，否则图像服务器可能无法开始。
 
-编辑此文件后重新启动图像服务，以确保您所做的更改生效。 只有下面突出显示的元素／属性值才支持修改。 仅在Dynamic Media技术支持提供建议时编辑此文件的所有其他内容。
+编辑此文件后重新启动图像服务，以确保您所做的更改生效。 只支持以下突出显示的元素/属性值进行修改。 仅在得到Dynamic Media技术支持的建议时编辑此文件的所有其他内容。
 
 ```
 <supervisor>
