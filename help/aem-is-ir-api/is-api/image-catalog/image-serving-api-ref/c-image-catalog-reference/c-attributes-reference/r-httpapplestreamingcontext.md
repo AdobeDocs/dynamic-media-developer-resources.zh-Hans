@@ -1,27 +1,28 @@
 ---
-description: Apple流服务器URL前缀。 在生成具有req=mbrSet的多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
-seo-description: Apple流服务器URL前缀。 在生成具有req=mbrSet的多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
+description: Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
+seo-description: Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Apple流服务器URL前缀。 在生成具有req=mbrSet的多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
+Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
 
 ## 属性 {#properties}
 
-表示URL前缀的字符串。 (例如`http://my.server.com/apple/streaming`
+表示URL前缀的字符串。 (例如`http://my.server.com/apple/streaming`)
 
 ## 默认 {#section-bdd70081d50844c295f0de0154c1d738}
 
