@@ -4,13 +4,14 @@ seo-description: ZIP存档资产的属性。
 seo-title: ZipInfo
 solution: Experience Manager
 title: ZipInfo
-topic: Dynamic Media Image Production System API
 uuid: e0072a4a-195d-492e-a788-5c0318ccbe99
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 25%
+source-wordcount: '42'
+ht-degree: 21%
 
 ---
 
