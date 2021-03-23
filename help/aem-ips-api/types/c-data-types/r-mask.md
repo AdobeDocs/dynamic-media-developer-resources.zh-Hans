@@ -1,23 +1,24 @@
 ---
-description: 遮罩图像的一部分。 遮罩始终与图像相关联。 从ImageInfo获取遮罩。
-seo-description: 遮罩图像的一部分。 遮罩始终与图像相关联。 从ImageInfo获取遮罩。
+description: 遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
+seo-description: 遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
 seo-title: 蒙版
 solution: Experience Manager
 title: 蒙版
-topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
 
 # 蒙版{#mask}
 
-遮罩图像的一部分。 遮罩始终与图像相关联。 从ImageInfo获取遮罩。
+遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
 
 语法
 
@@ -25,9 +26,9 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | 遮罩手柄。 |
+| `*`maskHandle`*` | `xsd:string` | 蒙版手柄。 |
 | `*`name`*` | `xsd:string` | 蒙版名称。 |
 | `*`maskPath`*` | `xsd:string` | 遮罩的相对路径。 |
 | `*`maskFile`*` | `xsd:string` | 蒙版文件. |
-| `*`lastModified`*` | `types:dateTime` | 上次修改遮罩的日期、时间和时区。 |
+| `*`lastModified`*` | `types:dateTime` | 上次修改蒙版的日期、时间和时区。 |
 
