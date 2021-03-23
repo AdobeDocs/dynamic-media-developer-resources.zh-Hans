@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-topic: Dynamic Media
 uuid: abd9624d-b24d-491c-afe2-1aafbdf90ae1
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用／禁用章节标签的标题栏。 禁用标题栏时，不显示章节开始时间。 </p> </td> 
+   <td colname="col2"> <p> 启用/禁用章节标签的标题栏。 禁用标题栏时，章节开始时间不显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
