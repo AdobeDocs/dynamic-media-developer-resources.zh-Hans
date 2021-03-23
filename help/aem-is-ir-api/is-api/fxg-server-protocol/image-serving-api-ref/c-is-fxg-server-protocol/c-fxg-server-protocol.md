@@ -4,13 +4,14 @@ seo-description: 要处理图形，您可以使用参考点（类似于罗经点
 seo-title: FXG服务器协议
 solution: Experience Manager
 title: FXG服务器协议
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 86%
+source-wordcount: '293'
+ht-degree: 83%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 86%
 ![](assets/wp_ref_points.png)
 
 * A.参考点位置
-* B.图形
-* C.图形从其`northWest`参考点旋转20度
-* D.图形从其`east`参考点旋转20度
+* B.图
+* C.图形从其`northWest`参考点旋转了20度
+* D.图形从其`east`参考点旋转了20度
 
 语法如下：
 
