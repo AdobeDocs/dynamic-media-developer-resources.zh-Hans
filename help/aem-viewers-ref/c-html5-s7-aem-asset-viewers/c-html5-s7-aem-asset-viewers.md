@@ -1,21 +1,22 @@
 ---
-description: AEM Assets和Dynamic Media经典
+description: AEM Assets和Dynamic Media Classic的查看器
 solution: Experience Manager
-title: AEM Assets和Dynamic Media经典
-topic: Dynamic Media
+title: AEM Assets和Dynamic Media Classic的查看器
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
+feature: Dynamic Media Classic，查看器，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
 
-# AEM Assets和Dynamic Media经典观众{#viewers-for-aem-assets-and-dynamic-media-classic}
+# AEM Assets和Dynamic Media Classic的查看器{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-以下查看器在Adobe Experience Manager资产和Dynamic Media经典下工作。
+以下查看器可在Adobe Experience Manager Assets下和Dynamic Media Classic下使用。
 
 * [基本缩放](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
