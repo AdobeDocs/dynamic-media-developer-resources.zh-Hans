@@ -4,13 +4,14 @@ seo-description: 获取与类型句柄关联的属性集。
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 17%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 17%
 
 ## 参数 {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**输入(getPropertySetsParam)**
+**Input(getPropertySetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
