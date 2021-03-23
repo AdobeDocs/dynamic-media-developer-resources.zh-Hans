@@ -1,16 +1,17 @@
 ---
 description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
 seo-description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
-seo-title: imageprops
+seo-title: imageprop
 solution: Experience Manager
-title: imageprops
-topic: Dynamic Media Image Serving - Image Rendering API
+title: imageprop
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 9%
 
 ---
 
@@ -32,11 +33,11 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
 请求字符串中的其他命令将被忽略。
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
 返回以下属性：
 
@@ -49,13 +50,13 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
+   <td> <p> int，int </p> </td> 
    <td> <p> <span class="codeph"> catalog:：锚</span> 点或默认锚点 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> 双 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::</span> 过期或默认的生存时间 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> Expirationor the default time to live </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -65,7 +66,7 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 与此图像关联的用户档案的名称／说明 </p> </td> 
+   <td> <p> 与此图像关联的用户档案的名称/说明 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. embeddedIccProfile</span> </p> </td> 
@@ -85,7 +86,7 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> 无蒙版为0，预乘α为1，非预乘α为2，单独的蒙版图像为3 </p> </td> 
+   <td> <p> 0表示无蒙版，1表示预乘的alpha，2表示非预乘的alpha，3表示单独的蒙版图像 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
@@ -100,32 +101,32 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.pixTyp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 图像类型，可为“CMYK”、“RGB”或“BW”（对于灰度图像） </p> </td> 
+   <td> <p> 图像类型，可以是"CMYK"、"RGB"或"BW"（对于灰度图像） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:</span> PostModifier或空（如果不是目录条目） </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:</span> PostModifieror空（如果不是目录条目） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> 默认打印分辨率（以像素／英寸为单位） </p> </td> 
+   <td> <p> 默认打印分辨率（以像素/英寸为单位） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Resolution</span> 或默认对象分辨率 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> Resolution或默认对象分辨率 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p>修改日期／时间（来自<span class="codeph">目录：:TimeStamp</span>或图像文件） </p> </td> 
+   <td> <p>修改日期/时间（来自<span class="codeph">目录：:TimeStamp</span>或图像文件） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbResor</span> 默认缩略图分辨率 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::ThumbResor</span>  the default thumbnail resolution </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
