@@ -4,13 +4,14 @@ seo-description: 属性集的类型和值。
 seo-title: 属性集
 solution: Experience Manager
 title: 属性集
-topic: Dynamic Media Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -27,5 +28,5 @@ ht-degree: 10%
 |---|---|---|
 | `*`setHandle`*` | `xsd:string` | 属性集句柄。 |
 | `*`typeHandle`*` | `xsd:string` | 处理属性集类型。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 名称——值对。 可包含零个项目。 |
+| `*`propertyArray`*` | `types:PropertyArray` | 名称 — 值对。 可以包含零个项目。 |
 
