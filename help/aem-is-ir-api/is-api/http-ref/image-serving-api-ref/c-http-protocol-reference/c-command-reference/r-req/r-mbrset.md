@@ -4,12 +4,13 @@ seo-description: 多位速率数据。
 seo-title: mbrSet
 solution: Experience Manager
 title: mbrSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 829c44ce-c66a-49a9-ba69-9e8e94ef8921
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -32,16 +33,16 @@ ht-degree: 4%
  </tr> 
 </table>
 
-返回文本或xml响应，该响应包含与网络路径ID关联的视频集中的有效视频条目相对应的URL列表（和相应的比特率）。
+返回文本或xml响应，该响应包含URL列表（和相应的位速率），这些URL对应于与网络路径ID关联的视频集中的有效视频条目。
 
-以前要求有效视频条目包含`catalog::VideoBitRate`值的要求现已放宽。 该条目可包含&#x200B;`catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`的值。 只需定义其中一项，视频条目即可生效。 请注意，`catalog::Path`和有效视频文件扩展名的要求没有更改。
+以前关于有效视频条目包含`catalog::VideoBitRate`值的要求现已放宽。 该条目可包含&#x200B;`catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`的值。 只需定义其中一个，视频条目即可生效。 请注意，`catalog::Path`和有效视频文件扩展名的要求没有更改。
 
-响应旨在供Apple和Flash流服务器使用，因此结构上符合这些规范。 URL是使用前缀`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成的。
+响应旨在供Apple和Flash Streaming Server使用，因此结构符合这些规范。 使用前缀`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成URL。
 
-m3u8响应仅包含视频集中存在的mp4文件（如果存在）。 如果没有mp4文件，则这些响应仅包含f4v文件。 如果没有mp4文件或f4v文件，则响应为空。
+m3u8响应仅包含mp4文件（如果视频集中存在任何文件）。 如果没有mp4文件，则这些响应仅包含f4v文件。 如果没有mp4文件或f4v文件，则响应为空。
 
-f4m响应仅包含视频集中存在的f4v文件。 如果没有f4v文件，则这些响应仅包含mp4文件。 如果不存在f4v文件和mp4文件，则响应为空。
+f4m响应仅包含视频集中存在的f4v文件。 如果没有f4v文件，则这些响应仅包含mp4文件。 如果没有f4v文件或mp4文件，则响应为空。
 
-f4m/m3u8响应中显示的比特率与`catalog::TotalStreamBitRate`（转换为相应的单位）中的值相对应。 如果未定义`catalog::TotalStreamBitRate`，则使用`catalog::VideoBitRate`和`catalog::AudioBitRate`的和。
+f4m/m3u8响应中显示的比特率与`catalog::TotalStreamBitRate`（转换为相应单位）中的值相对应。 如果未定义`catalog::TotalStreamBitRate`，则使用`catalog::VideoBitRate`和`catalog::AudioBitRate`的和。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::NonImgExpiration`.
