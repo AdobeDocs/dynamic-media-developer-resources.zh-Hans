@@ -3,13 +3,14 @@ description: 缩放图像。 相对于全分辨率图像按因子缩放图层源
 seo-description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
 seo-title: scale
 solution: Experience Manager
-title: 规模
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 缩放
 uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 5%
 
 ---
@@ -28,11 +29,11 @@ ht-degree: 5%
  </tr> 
 </table>
 
-`scale=1`时不应用缩放。 *`factor`* 小于1.0的缩小和大于1.0放大源图像。
+`scale=1`时不应用缩放。 *`factor`* 小于1.0的缩小和大于1.0的放大源图像。
 
 ## 属性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-源图像／蒙版属性。 如果同时为当前层指定`size=`，则忽略。 覆盖`res=`。 如果为`layer=comp`指定，则应用于层0。 如果图层未与图像或蒙版关联，则忽略此项。
+源图像/蒙版属性。 如果同时为当前图层指定`size=`，则忽略。 覆盖`res=`。 如果为`layer=comp`指定，则应用于层0。 如果图层未与图像或蒙版关联，则忽略。
 
 ## 默认 {#section-26e64904362342a5a62c5f6598f330c4}
 
