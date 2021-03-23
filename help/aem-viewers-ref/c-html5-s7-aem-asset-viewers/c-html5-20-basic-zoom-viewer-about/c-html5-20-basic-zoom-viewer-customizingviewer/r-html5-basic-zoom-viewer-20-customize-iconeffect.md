@@ -1,15 +1,16 @@
 ---
-description: 缩放指示器覆盖在主视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
-seo-description: 缩放指示器覆盖在主视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
+description: 缩放指示器叠加在主视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
+seo-description: 缩放指示器叠加在主视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
 seo-title: 图标效果
 solution: Experience Manager
 title: 图标效果
-topic: Dynamic Media
 uuid: 113b2502-395d-4fd1-ab28-4995e8248593
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 # 图标效果{#icon-effect}
 
-缩放指示器覆盖在主视图区上。 当图像处于重置状态时，它会显示，并且它还取决于图标效果参数。
+缩放指示器叠加在主视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect
@@ -43,7 +44,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -58,9 +59,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->图标效果支持`media-type`属性选择器，您可以使用它在不同设备上应用不同的图标效果。 具体而言，`media-type='standard'`对应于桌面系统，其中鼠标输入通常被使用，`media-type='multitouch'`对应于具有触摸输入的设备。
+>图标效果支持`media-type`属性选择器，您可以使用它在不同设备上应用不同的图标效果。 特别地，`media-type='standard'`对应于桌面系统，其中鼠标输入通常使用，`media-type='multitouch'`对应于具有触摸输入的设备。
 
-示例——为桌面系统和触控设备设置100 x 100像素缩放指示器，具有不同的图稿。
+示例 — 为桌面系统和触控设备设置100 x 100像素缩放指示器，其艺术不同。
 
 ```
 .s7basiczoomviewer .s7zoomview .s7iconeffect { 
