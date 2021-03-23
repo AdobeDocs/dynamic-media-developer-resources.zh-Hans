@@ -4,12 +4,13 @@ seo-description: 请求规则元素。 在<ruleset>元素中，一个或多个�
 seo-title: 规则
 solution: Experience Manager
 title: 规则
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f7071681-e97e-4081-aeb1-093d2b23041c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '213'
 ht-degree: 5%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 5%
 
 `OnMatch="break"|"continue"|"error"`可选。默认为“break”。
 
-` Name=" *`text`*"` 可选。用于标识调试日志和错误消息中的`<rule>`元素。
+` Name=" *``*"` textOptional。用于标识调试日志和错误消息中的`<rule>`元素。
 
 此外，`<rule>`元素可以在任意组合中定义以下任意属性。 如果指定，并且规则成功匹配，则它们将覆盖此请求的相应目录属性。
 
@@ -53,14 +54,14 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RootUrl  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> 属性：:RootUrl  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> attribute::RootUrl  </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 有关详细信息，请参阅相应图像目录属性的说明。
 
-Expiration属性只覆盖默认属性值；如果特定的`catalog::Expiration`值应用于请求，则忽略该值。
+Expiration属性只覆盖默认属性值；如果特定的`catalog::Expiration`值应用于请求，则忽略此值。
 
 ## 数据 {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -83,8 +84,8 @@ Expiration属性只覆盖默认属性值；如果特定的`catalog::Expiration`�
 
 如果同时指定了`<expression>`和`<substitution>`，并且未使用捕获的子字符串，则第一个匹配的子字符串将替换为`<substitution>`。
 
-如果未指定`<expression>`，则任何路径都将匹配，并将`<substitution>`附加到路径末尾。
+如果未指定`<expression>`，则任何路径都将匹配，并将`<substitution>`附加到路径的末尾。
 
 如果未指定`<substitution>`，则删除匹配的子字符串。
 
-`<addressfilter>`仅在出现匹配时和应用查询规则之前应用。
+`<addressfilter>`仅在发生匹配时和应用查询规则之前应用。
