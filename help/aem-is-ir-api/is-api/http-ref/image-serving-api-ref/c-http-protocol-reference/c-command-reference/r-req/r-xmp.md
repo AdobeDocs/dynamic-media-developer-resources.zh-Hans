@@ -4,12 +4,13 @@ seo-description: XMP元数据。 返回与在请求路径中指定的图像关�
 seo-title: xmp
 solution: Experience Manager
 title: xmp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 11%
 
 ---
@@ -31,7 +32,7 @@ HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
 ## 默认 {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-如果URL不包含图像路径或修饰符，则：
+如果URL不包括图像路径或修饰符，则：
 
 ```
 #S7Z OK 
@@ -64,7 +65,7 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 </script>
 ```
 
-检索特定目录条目的蒙版图像，缩放到原始大小的25%:
+检索特定目录条目的蒙版图像，并缩放到原始大小的25%:
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=mask&scale=0.25`
 
@@ -72,11 +73,11 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ` http:// *`伺服器`*/myRootId/myImageId?scl=8`
 
-这与以下内容相同：
+这与：
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=img&scl=8`
 
-请求图像的缩略图，具体取决于图像目录中指定的缩略图属性：
+请求图像的缩略图，具体取决于在图像目录中指定的缩略图属性：
 
 ` http:// *`伺服器`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
@@ -86,4 +87,4 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ## 另请参阅 {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ，编录：:目标 [,](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)目录：:UserData [，缩](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)略图缩放 [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) [，缩略图属性映射，图](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [目录：:目标](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md)，目 [录：:UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)，缩 [放缩图](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) [](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) [,属性,图像图](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
