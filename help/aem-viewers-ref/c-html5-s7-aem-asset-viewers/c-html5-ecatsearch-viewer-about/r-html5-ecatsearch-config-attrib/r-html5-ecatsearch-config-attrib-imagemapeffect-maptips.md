@@ -2,13 +2,14 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-topic: Dynamic Media
 uuid: 8ed79fd8-e265-4cfb-b235-f4c0d657a3f5
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 18%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定是否为单个映射区域元素启用工具提示。 </p> <p> 在触控设备（包括支持触控的桌面系统）上忽略。 </p> </td> 
+   <td colname="col2"> <p> 指定是否为各个映射区域元素启用工具提示。 </p> <p> 在触屏设备（包括支持触屏的桌面系统）上忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
