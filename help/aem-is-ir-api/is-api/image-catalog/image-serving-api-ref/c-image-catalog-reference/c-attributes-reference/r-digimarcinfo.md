@@ -1,23 +1,24 @@
 ---
-description: 默认Digimarc图像信息。 提供目录DigimarcInfo的默认值。
-seo-description: 默认Digimarc图像信息。 提供目录DigimarcInfo的默认值。
+description: 默认Digimarc图像信息。 为目录DigimarcInfo提供默认值。
+seo-description: 默认Digimarc图像信息。 为目录DigimarcInfo提供默认值。
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
 
 # DigimarcInfo{#digimarcinfo}
 
-默认Digimarc图像信息。 提供目录的默认值：DigimarcInfo。
+默认Digimarc图像信息。 为catalog::DigimarcInfo提供默认值。
 
 ## 属性 {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
@@ -31,4 +32,4 @@ ht-degree: 10%
 
 ## 另请参阅 {#section-543464e27f0a43249860a883b1ebfa15}
 
-[属性：:DigimarcId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68) , [目录：:DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
+[attribute:::DigimarcId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68) ,  [catalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
