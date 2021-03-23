@@ -1,15 +1,16 @@
 ---
-description: 弹出查看器支持Adobe Analytics开箱跟踪。
-seo-description: 弹出查看器支持Adobe Analytics开箱跟踪。
+description: 弹出查看器支持Adobe Analytics开箱即用跟踪。
+seo-description: 弹出查看器支持Adobe Analytics开箱即用跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-topic: Dynamic Media
 uuid: ac5a2de9-6275-434f-ae09-a588f4a71aa6
+feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 2%
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
-弹出查看器支持Adobe Analytics开箱跟踪。
+弹出查看器支持Adobe Analytics开箱即用跟踪。
 
 ## 现成跟踪{#section-ba994f079d0343c8ae48adffaa3195a3}
 
-内联缩放查看器支持[!DNL Adobe Analytics]现成跟踪。 要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
+内联缩放查看器支持[!DNL Adobe Analytics]开箱跟踪。 要启用跟踪，请将正确的公司预设名称作为`config2`参数进行传递。
 
-查看器还向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+查看器还会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
 ## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
@@ -59,7 +60,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>发送时间…… </p> </th> 
+   <th colname="col2" class="entry"> <p>在…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -73,11 +74,11 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 缩放 </span> </p> </td> 
-   <td colname="col2"> <p>弹出窗口被激活或缩放级别被更改。 </p> </td> 
+   <td colname="col2"> <p>将激活弹出窗口或更改缩放级别。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 平移 </span> </p> </td> 
-   <td colname="col2"> <p> 图像已绘制。 </p> </td> 
+   <td colname="col2"> <p> 图像被绘制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 样本 </span> </p> </td> 
