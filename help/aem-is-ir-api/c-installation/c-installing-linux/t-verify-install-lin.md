@@ -4,12 +4,13 @@ seo-description: 在Linux上安装映像服务后，请验证安装。
 seo-title: 验证安装
 solution: Experience Manager
 title: 验证安装
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ ht-degree: 0%
    >
    >您必须具有根权限才能运行这些脚本。
 
-1. 打开同一主机或不同主机上的因特网浏览器并检查默认服务器响应：
+1. 打开同一或不同主机上的Internet浏览器并检查默认服务器响应：
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-在响应中，检查是否存在以“ `imageServer.`”开头的项，这表示平台服务器可以成功与图像服务器通信。
+在响应中，检查是否存在以“`imageServer.`”开头的项，这表示平台服务器可以成功与图像服务器通信。
 >如果已安装，可使用文档和演示包的示例页执行其他验证。
 
