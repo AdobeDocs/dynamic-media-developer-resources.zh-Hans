@@ -1,15 +1,16 @@
 ---
-description: 无论这些命令在请求中出现在何处，都会应用这些命令。
-seo-description: 无论这些命令在请求中出现在何处，都会应用这些命令。
+description: 无论这些命令在请求中出现在何处，这些命令都会应用。
+seo-description: 无论这些命令在请求中出现在何处，这些命令都会应用。
 seo-title: 请求命令
 solution: Experience Manager
 title: 请求命令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 2%
 
 # 请求命令{#request-commands}
 
-无论这些命令在请求中出现在何处，都会应用这些命令。
+无论这些命令在请求中出现在何处，这些命令都会应用。
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> 高速缓存</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> 缓存</a> </p></td> 
   <td class="stentry"> <p>覆盖默认响应缓存行为。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -29,11 +30,11 @@ ht-degree: 2%
   <td class="stentry"> <p>指定要使用的图像，而不是缺少的图像文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fm</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a" type="reference" format="dita" scope="local"> fmt</a> </p></td> 
   <td class="stentry"> <p>指定图像格式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> ic</a> </p></td> 
   <td class="stentry"> <p>设置输出颜色用户档案。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +47,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>将XMP元数据嵌入到回复图像中。 </p></td> 
+  <td class="stentry"> <p>将XMP元数据嵌入回复图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
@@ -57,7 +58,7 @@ ht-degree: 2%
   <td class="stentry"> <p>指定JPEG编码属性。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 量化</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 数量</a> </p> </td> 
   <td class="stentry"> <p>指定GIF输出的颜色量化属性。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,11 +79,11 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0" type="reference" format="dita" scope="local"> id</a> </p> </td> 
-  <td class="stentry"> <p>图像／元数据版本ID。 </p></td> 
+  <td class="stentry"> <p>图像/元数据版本ID。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> imageSet</a> </p> </td> 
-  <td class="stentry"> <p>指定用于此请求的图像集。 </p></td> 
+  <td class="stentry"> <p>指定要用于此请求的图像集。 </p></td> 
  </tr> 
 </table>
 
