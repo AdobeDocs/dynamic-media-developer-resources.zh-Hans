@@ -2,13 +2,14 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-topic: Dynamic Media
 uuid: e60603a5-06dc-43e3-a380-b4d97fc539f1
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定组件预载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，组件在空闲状态下预加载所有目录帧。 </p> <p> 当设置为<span class="codeph"> 0</span>时，组件仅加载当前可见的帧、上一帧和下一帧。 </p> <p>设置<span class="codeph"><span class="varname"> preloadnbr</span></span>以定义当前显示的帧周围有多少不可见帧处于空闲状态。 </p> </td> 
+   <td colname="col2"> <p>指定组件预载行为。 </p> <p>设置为<span class="codeph"> -1</span>时，组件将在空闲状态中预加载所有目录帧。 </p> <p> 设置为<span class="codeph"> 0</span>时，组件仅加载当前可见的帧、上一帧和下一帧。 </p> <p>设置<span class="codeph"><span class="varname"> preloadnbr</span></span>以定义当前显示的帧周围有多少不可见帧处于空闲状态。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
