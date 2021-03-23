@@ -1,23 +1,24 @@
 ---
-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
-seo-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
+description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
+seo-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
 seo-title: copyImage
 solution: Experience Manager
 title: copyImage
-topic: Dynamic Media Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 19%
+source-wordcount: '168'
+ht-degree: 18%
 
 ---
 
 
 # copyImage{#copyimage}
 
-创建现有图像资产的副本。 将应用指定的图像服务器协议命令生成新副本
+创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
 
 语法
 
@@ -48,19 +49,19 @@ ht-degree: 19%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>包含图像的公司的句柄。 </p> </td> 
+   <td colname="col4"> <p>包含图像的公司的手柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>图像资产的句柄。 </p> </td> 
+   <td colname="col4"> <p>图像资产的手柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要复制图像的文件夹的句柄。 </p> </td> 
+   <td colname="col4"> <p>要复制图像的文件夹的手柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 名称</span> </span> </p> </td> 
