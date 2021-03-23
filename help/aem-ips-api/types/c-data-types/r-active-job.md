@@ -4,12 +4,13 @@ seo-description: 在服务器上运行的作业。 此外，它还是计划作�
 seo-title: ActiveJob
 solution: Experience Manager
 title: ActiveJob
-topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '399'
 ht-degree: 7%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 7%
 
 在服务器上运行的作业。 此外，它还是计划作业的实例。
 
-作业存在于3个状态：
+Job存在于3个状态：
 
 * 计划运行。
 * 当前正在运行。
@@ -78,17 +79,17 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 调度作业的用户的电子邮件地址。 </td> 
+   <td colname="col3"> 安排作业的用户的电子邮件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写、双字母代码，可选国家／地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：<span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写、双字母代码，可选国家/地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：<span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业描述。 </td> 
+   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业说明。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -106,9 +107,9 @@ ht-degree: 7%
    <td colname="col3"> 活动作业的总大小。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 进展</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 作业进度（即，作业距完成的距离）。 </td> 
+   <td colname="col3"> 作业进度（即作业离完成有多近）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -127,32 +128,32 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 图像服务发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingRenderJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingRenderJob</span> </td> 
    <td colname="col3"> 图像渲染发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：VideoPublishJob</span> </td> 
    <td colname="col3"> 视频发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 服务器目录发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
-   <td colname="col3"> 上传URL作业的作业详细信息。 </td> 
+   <td colname="col3"> 上载URL作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：RipPdfJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：RipPdfsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -168,7 +169,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:UploadPostJob</span> </td> 
-   <td colname="col3"> 作业详细信息跟踪桌面上传。 </td> 
+   <td colname="col3"> 作业详细信息跟踪桌面上载。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
