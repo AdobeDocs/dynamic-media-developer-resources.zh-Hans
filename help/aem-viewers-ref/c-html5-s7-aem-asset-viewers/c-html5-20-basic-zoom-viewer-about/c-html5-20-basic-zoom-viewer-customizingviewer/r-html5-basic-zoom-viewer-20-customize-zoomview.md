@@ -4,12 +4,13 @@ seo-description: 主视图由可缩放图像组成。
 seo-title: 缩放视图
 solution: Experience Manager
 title: 缩放视图
-topic: Dynamic Media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 3%
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7basiczoomviewer .s7zoomview
@@ -38,7 +39,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +49,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-示例——使主视图透明。
+示例 — 使主视图透明。
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -68,10 +69,10 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>当图像因图像分辨率较低或组件设置（或两者）而无法缩放时显示。 </p> </td> 
+   <td colname="col2"> <p>当图像因图像分辨率较低或组件设置或两者兼有而无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 卓敏  </span> </p> </td> 
    <td colname="col2"> <p>当图像可以放大时显示。 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +81,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>当用户平移处于放大状态的图像时显示。 </p> </td> 
+   <td colname="col2"> <p>当用户平移处于缩放状态的图像时显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
