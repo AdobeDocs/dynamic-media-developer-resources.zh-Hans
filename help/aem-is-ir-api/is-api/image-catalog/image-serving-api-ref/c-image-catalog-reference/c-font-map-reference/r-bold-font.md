@@ -4,12 +4,13 @@ seo-description: 粗体旗。 指定当RTF粗体命令(\b)请求时，是否应�
 seo-title: 粗体
 solution: Experience Manager
 title: 粗体
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 8%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 8%
 
 ## 属性 {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-标记. 字体映射的可选次索引键。
+标记. 字体映射的可选辅助索引键。
 
 ## 默认 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 
