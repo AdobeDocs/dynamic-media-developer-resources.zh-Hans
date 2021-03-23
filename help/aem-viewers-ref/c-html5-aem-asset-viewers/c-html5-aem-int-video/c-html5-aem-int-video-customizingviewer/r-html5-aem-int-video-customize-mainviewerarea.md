@@ -1,15 +1,16 @@
 ---
-description: 主视图区是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
-seo-description: 主视图区是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
+description: 主视图区域是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
+seo-description: 主视图区域是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
 seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 2%
 
 # 主查看器区域{#main-viewer-area}
 
-主视图区是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
+主视图区域是交互式色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7interactivevideoviewer
@@ -46,7 +47,7 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +55,7 @@ ht-degree: 2%
 
 ## 示例 {#section-ee18025b182a42dc98052de5f133ddfe}
 
-要设置具有白色背景(`#FFFFFF`)的查看器并使其大小为512 x 288像素。
+设置具有白色背景(`#FFFFFF`)的查看器并使其大小为512 x 288像素。
 
 ```
 .s7interactivevideoviewer { 
