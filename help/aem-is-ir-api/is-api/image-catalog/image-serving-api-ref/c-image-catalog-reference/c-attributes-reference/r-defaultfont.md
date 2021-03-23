@@ -1,15 +1,16 @@
 ---
-description: 默认字体名称。 指定如果text=请求未提供字体，应使用哪种字体。
-seo-description: 默认字体名称。 指定如果text=请求未提供字体，应使用哪种字体。
+description: 默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
+seo-description: 默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
 seo-title: DefaultFont
 solution: Experience Manager
 title: DefaultFont
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0d1ada8d-2ffe-4799-b771-8f9113e04661
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # DefaultFont{#defaultfont}
 
-默认字体名称。 指定如果text=请求未提供字体，应使用哪种字体。
+默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
 
 ## 属性 {#section-b71618fec3c443a392d67eff480f0e5d}
 
