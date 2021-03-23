@@ -2,13 +2,14 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-topic: Dynamic Media
 uuid: 5badee0b-3bbc-4306-bc60-a606775db2bd
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 7%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -20,12 +21,12 @@ ht-degree: 7%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 始终|从不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 对<span class="codeph"> devicePixelRatio</span>大于<span class="codeph"> 1</span>的设备启用、限制或禁用优化。 影响具有高密度显示屏（如iPhone4和类似设备）的设备。 如果处于活动状态，则组件会像设备的像素比<span class="codeph"> 1</span>一样限制IS图像请求的大小，从而减少带宽。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 总是|never|limit</span> </p> </td> 
+   <td colname="col2"> <p> 对于<span class="codeph"> devicePixelRatio</span>大于<span class="codeph"> 1</span>的设备启用、限制或禁用优化。 影响具有高密度显示屏（如iPhone4和类似设备）的设备。 如果处于活动状态，则该组件将限制IS图像请求的大小，就像该设备的像素比为<span class="codeph"> 1</span>一样，从而减少带宽。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数字</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果使用限制设置，则组件仅启用高像素密度（不超过指定限制）。 </p> </td> 
+   <td colname="col2"> <p> 如果使用限制设置，则组件仅启用高像素密度（高于指定的限制）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
