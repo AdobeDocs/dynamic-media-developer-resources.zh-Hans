@@ -1,15 +1,16 @@
 ---
-description: 目录标识符。 要在请求的图像对象说明符中标识此目录的HTTP路径元素。
-seo-description: 目录标识符。 要在请求的图像对象说明符中标识此目录的HTTP路径元素。
+description: 目录标识符。 用于在请求的图像对象说明符中标识此目录的HTTP路径元素。
+seo-description: 目录标识符。 用于在请求的图像对象说明符中标识此目录的HTTP路径元素。
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 # RootId{#rootid}
 
-目录标识符。 要在请求的图像对象说明符中标识此目录的HTTP路径元素。
+目录标识符。 用于在请求的图像对象说明符中标识此目录的HTTP路径元素。
 
 ## 属性 {#section-9a49da71de634378a06d2347790898a0}
 
@@ -25,7 +26,7 @@ ht-degree: 5%
 
 ## 默认 {#section-c5296f4e52394984bf1c0d265ecde940}
 
-无. 每个目录必须有唯一的`attribute::RootId`值。 [!DNL default.ini] 通常为空 `attribute::RootId`。
+无. 每个目录必须具有唯一的`attribute::RootId`值。 [!DNL default.ini] 通常为空 `attribute::RootId`。
 
 ## 另请参阅 {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
