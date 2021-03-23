@@ -1,23 +1,24 @@
 ---
-description: 用于Video360查看器的URL命令。
-seo-description: 用于Video360查看器的URL命令。
+description: Video360查看器的URL命令。
+seo-description: Video360查看器的URL命令。
 seo-title: 视频
 solution: Experience Manager
 title: 视频
-topic: Dynamic Media
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 17%
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
 
 # video{#video}
 
-用于Video360查看器的URL命令。
+Video360查看器的URL命令。
 
 ` video= *`videoURL`*`
 
