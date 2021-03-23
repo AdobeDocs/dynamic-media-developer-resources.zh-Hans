@@ -2,13 +2,14 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-topic: Dynamic Media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 8%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 拆分|实体</span> </p> </td> 
-   <td colname="col2"> <p>设置为<span class="codeph"> split</span>，当在移动设备上以纵向方向使用时，查看器将多次页跨页显示为单独的页面。 设置为<span class="codeph"> solid</span>始终将多次页跨页显示为实体图像，而与设备方向无关。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> split</span>可让查看器在多次设备上纵向使用时将跨页显示为单独的页面。 设置为<span class="codeph"> solid</span>以始终将多次页跨页显示为纯图像，而与设备方向无关。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
