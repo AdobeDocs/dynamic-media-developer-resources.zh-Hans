@@ -1,23 +1,24 @@
 ---
-description: 从PDF文件提取的搜索字符串记录。
-seo-description: 从PDF文件提取的搜索字符串记录。
+description: 从PDF文件中提取的搜索字符串记录。
+seo-description: 从PDF文件中提取的搜索字符串记录。
 seo-title: SearchStrings
 solution: Experience Manager
 title: SearchStrings
-topic: Dynamic Media Image Production System API
 uuid: aade2741-3e77-44c6-ab3c-0810ff034412
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 12%
 
 ---
 
 
 # SearchStrings{#searchstrings}
 
-从PDF文件提取的搜索字符串记录。
+从PDF文件中提取的搜索字符串记录。
 
 语法
 
