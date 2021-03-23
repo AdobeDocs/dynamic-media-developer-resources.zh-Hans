@@ -4,13 +4,14 @@ seo-description: 检索单个请求中的所有系统属性。
 seo-title: getSystemProperties
 solution: Experience Manager
 title: getSystemProperties
-topic: Dynamic Media Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 17%
+source-wordcount: '71'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 17%
 
 ## 参数 {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**输入(getSystemPropertiesParam)**
+**Input(getSystemPropertiesParam)**
 
 无。
 
@@ -47,7 +48,7 @@ ht-degree: 17%
 
 ## 示例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代码示例返回一组系统属性。 响应被截断以简化。
+此代码示例返回系统属性的数组。 响应因简短而截断。
 
 **请求**
 
