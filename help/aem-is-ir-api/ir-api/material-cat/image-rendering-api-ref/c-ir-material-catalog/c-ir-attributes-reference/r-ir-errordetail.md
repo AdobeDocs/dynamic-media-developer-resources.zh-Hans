@@ -1,15 +1,16 @@
 ---
-description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细级别，作为error.message值。
-seo-description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细级别，作为error.message值。
+description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
+seo-description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # ErrorDetail{#errordetail}
 
-错误消息详细信息。 指定通过HTTP返回的错误消息的详细级别，作为error.message值。
+错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
 
 ## 标题 {#section-c10d75d72ee24d16a67cc8d927f1deba}
 
@@ -26,7 +27,7 @@ ht-degree: 4%
 <table id="simpletable_7904444FF9F14D678F05094CA9E45664"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>仅限标题。 返回错误的简短常规说明。 </p></td> 
+  <td class="stentry"> <p>仅限标题。 返回错误的简短常规描述。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -42,9 +43,9 @@ ht-degree: 4%
  </tr> 
 </table>
 
-* 对于可公开访问的实时服务器，建议使用0级。
-* 建议使用2级升级、质量保证和应用程序开发服务器。
-* 在将问题报告给Dynamic Media技术支持时，第3级信息可能有用。
+* 建议对于可公开访问的实时服务器使用0级。
+* 建议使用级别2来升级、质量保证和应用程序开发服务器。
+* 在将问题报告到Dynamic Media技术支持时，第3级信息可能很有用。
 
 ## 属性 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
