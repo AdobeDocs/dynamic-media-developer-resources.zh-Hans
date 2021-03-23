@@ -4,13 +4,14 @@ seo-description: 覆盖文件的窗口的属性。
 seo-title: WindowCoveringInfo
 solution: Experience Manager
 title: WindowCoveringInfo
-topic: Dynamic Media Image Production System API
 uuid: 6ca5c5b2-9fb1-4ba2-b981-f1912231512c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 15%
+source-wordcount: '66'
+ht-degree: 13%
 
 ---
 
