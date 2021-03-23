@@ -2,13 +2,14 @@
 description: 关闭按钮
 solution: Experience Manager
 title: 关闭按钮
-topic: Dynamic Media
 uuid: 2095fe87-94cf-4773-8901-5582b9ed5d67
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 22%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
