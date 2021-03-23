@@ -4,13 +4,14 @@ seo-description: Video360查看器的JavaScript API参考。
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 29755f56-6b13-49a2-b410-6d670930d5cf
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '106'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ Video360查看器的JavaScript API参考。
 
 ` setContainerId( *`containerId`*)`
 
-设置插入查看器的DOM容器的ID（通常是DIV）。 调用此方法时，不必创建容器元素。 但是，运行`init()`时必须存在容器。 必须在`init()`之前调用它。
+设置将查看器插入其中的DOM容器（通常是DIV）的ID。 调用此方法时不必创建容器元素。 但是，运行`init()`时必须存在容器。 必须在`init()`之前调用它。
 
 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
