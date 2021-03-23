@@ -1,15 +1,16 @@
 ---
-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
-seo-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
+description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
+seo-description: 在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
 seo-title: 缩放视图
 solution: Experience Manager
 title: 缩放视图
-topic: Dynamic Media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # 缩放视图{#zoom-view}
 
-在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放的图像组成。
+在连续缩放模式下，当当前资产是单个图像时，主视图由可缩放图像组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-查看区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7mixedmediaviewer .s7zoomview
@@ -38,17 +39,17 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
-   <td colname="col2"> <p>光标显示在主视图上。 </p> </td> 
+   <td colname="col2"> <p>在主视图上显示光标。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——使缩放视图透明。
+示例 — 使缩放视图透明。
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -56,11 +57,11 @@ ht-degree: 0%
 }
 ```
 
-在桌面系统上，该组件支持`cursortype`属性选择器，该选择器可应用于`.s7zoomview`类。 它根据组件状态和用户操作控制光标的类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持`cursortype`属性选择器，该属性选择器可应用于`.s7zoomview`类。 它根据组件状态和用户操作控制光标的类型。 支持以下`cursortype`值：
 
 * `default`
 
-   当图像因图像分辨率较低或组件设置（或两者）而无法缩放时显示。
+   当图像因图像分辨率较低或组件设置或两者兼有而无法缩放时显示。
 
 * `zoomin`
 
@@ -72,7 +73,7 @@ ht-degree: 0%
 
 * `drag`
 
-   当用户平移处于放大状态的图像时显示。
+   当用户平移处于缩放状态的图像时显示。
 
 * `slide`
 
