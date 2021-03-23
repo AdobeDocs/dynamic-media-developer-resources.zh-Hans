@@ -4,13 +4,14 @@ seo-description: 客户端消息。 为客户端提供一种将短文本消息�
 seo-title: 消息
 solution: Experience Manager
 title: 消息
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -28,4 +29,4 @@ ht-degree: 7%
  </tr> 
 </table>
 
-HTTP响应不可缓存。 返回MIME类型为`text/plain`的空响应。
+HTTP响应无法缓存。 返回MIME类型为`text/plain`的空响应。
