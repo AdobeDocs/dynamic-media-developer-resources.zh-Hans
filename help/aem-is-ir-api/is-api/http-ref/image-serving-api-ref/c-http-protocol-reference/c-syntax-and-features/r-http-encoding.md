@@ -1,25 +1,26 @@
 ---
-description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&”和“%”。
-seo-description: 命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&”和“%”。
+description: 命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&”和“%”。
+seo-description: 命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&”和“%”。
 seo-title: 图像服务HTTP编码
 solution: Experience Manager
 title: 图像服务HTTP编码
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 21%
+source-wordcount: '260'
+ht-degree: 20%
 
 ---
 
 
 # 图像服务HTTP编码{#image-serving-http-encoding}
 
-命令值必须使用%xx转义序列进行http编码，这样值字符串中不包括保留字符“=”、“&amp;”和“%”。
+命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&amp;”和“%”。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由“%”符号组成，后跟字符的ISO-拉丁语代码点的两位数十六进制表示法（不区分大小写）。 不安全字符和代码点为：
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由&quot;%&quot;符号组成，后跟字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点有：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -31,7 +32,7 @@ ht-degree: 21%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>空间 </p> </td> 
+   <td colname="col1"> <p>空格 </p> </td> 
    <td colname="col2"> <p>20 </p> </td> 
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
@@ -101,7 +102,7 @@ ht-degree: 21%
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>“ </p> </td> 
+   <td colname="col1"> <p>' </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -147,7 +148,7 @@ ht-degree: 21%
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>58 </p> </td> 
+   <td colname="col3"> <p>78 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
@@ -157,7 +158,7 @@ ht-degree: 21%
   <tr> 
    <td colname="col1"> <p>= </p> </td> 
    <td colname="col2"> <p>三维 </p> </td> 
-   <td colname="col3"> <p>61 </p> </td> 
+   <td colname="col3"> <p>81 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>? </p> </td> 
@@ -176,11 +177,11 @@ ht-degree: 21%
 
 `…&$text=rate&weight=85% 27#&…`
 
-如果未应用模糊处理，则上述请求片段必须进行如下编码：
+如果未应用模糊处理，则上述请求片段必须按照以下方式进行编码：
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-如果应用了模糊处理，则编码可限于删除“=”、“&amp;”和“%”字符：
+如果应用了模糊处理，则编码可以限制为删除“=”、“&amp;”和“%”字符：
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
