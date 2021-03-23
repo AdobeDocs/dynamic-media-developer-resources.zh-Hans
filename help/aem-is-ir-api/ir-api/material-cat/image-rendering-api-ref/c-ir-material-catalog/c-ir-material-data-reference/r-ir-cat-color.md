@@ -4,12 +4,13 @@ seo-description: 材料颜色。 纯色材料的主色和着色纹理材料的�
 seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 9%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 9%
 
 ## 属性 {#section-073772b43b264b37bd96d1fb7404d10b}
 
-颜色. 纯色材料必需。 可选用于可重复的纹理、机柜和窗口覆盖材料，以指定着色颜色。 如果不修改可重复纹理或机柜材料的颜色，则此字段必须留空。
+颜色. 纯色材料所需。 可选用于可重复的纹理、机柜和窗口覆盖材料，以指定着色颜色。 如果不修改可重复纹理或文件柜材料的颜色，则此字段必须留空。
 
 ## 默认 {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 
