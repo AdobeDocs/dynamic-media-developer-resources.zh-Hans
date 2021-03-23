@@ -4,13 +4,14 @@ seo-description: 获取一组相关资产的项目。
 seo-title: getProjects
 solution: Experience Manager
 title: getProjects
-topic: Dynamic Media Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '82'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
 
 **输出(getProjectsReturn)**
 
