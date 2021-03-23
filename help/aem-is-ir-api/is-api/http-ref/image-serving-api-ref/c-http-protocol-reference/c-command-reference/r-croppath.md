@@ -1,23 +1,24 @@
 ---
-description: 允许您裁剪到嵌入的命名路径的定界框。 此裁剪反过来会更改图像的大小。
-seo-description: 允许您裁剪到嵌入的命名路径的定界框。 此裁剪反过来会更改图像的大小。
+description: 允许您裁剪到嵌入的命名路径的定界框。 此裁切反过来会更改图像的大小。
+seo-description: 允许您裁剪到嵌入的命名路径的定界框。 此裁切反过来会更改图像的大小。
 seo-title: cropPathE
 solution: Experience Manager
 title: cropPathE
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
 
 # cropPathE{#croppathe}
 
-允许您裁剪到嵌入的命名路径的定界框。 此裁剪反过来会更改图像的大小。
+允许您裁剪到嵌入的命名路径的定界框。 此裁切反过来会更改图像的大小。
 
 `cropPathE= *``*&#42;[, *`pathNamepathName`*]`
 
@@ -25,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>嵌入在层源图像中的路径名称（仅限ASCII）。 </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName是嵌入在图层源图像中的路径的名称。根据需要自动转换路径以保持与图像内容的相对对齐。 如果指定了多个<span class="codeph"><span class="varname"> pathName</span></span>，则服务器会裁切到每个路径的定界框，每次裁切一个。 忽略源映像中未找到的任何<span class="codeph"><span class="varname"> pathName</span></span>。 </p> </td> 
+   <td colname="col2"> <p>嵌入在图层源图像中的路径名称（仅限ASCII）。 </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName是嵌入在图层源图像中的路径的名称。根据需要自动变换路径以保持与图像内容的相对对齐。 如果指定了多个<span class="codeph"><span class="varname"> pathName</span></span>，则服务器会裁切到每个路径的边框，一次裁切一个。 将忽略源映像中未找到的任何<span class="codeph"><span class="varname"> pathName</span></span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -38,8 +39,8 @@ ht-degree: 2%
 
 ## 默认 {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-无，不用于图层的额外裁剪。
+“无”，不用于图层的其他裁剪。
 
 ## 另请参阅 {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[裁剪](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab)、 [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[crop](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
