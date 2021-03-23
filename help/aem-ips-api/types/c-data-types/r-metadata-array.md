@@ -1,16 +1,17 @@
 ---
 description: 一组元数据。
 seo-description: 一组元数据。
-seo-title: 元数据阵列
+seo-title: MetadataArray
 solution: Experience Manager
-title: 元数据阵列
-topic: Dynamic Media Image Production System API
+title: MetadataArray
 uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 18%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
