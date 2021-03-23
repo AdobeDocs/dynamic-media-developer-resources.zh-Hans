@@ -4,12 +4,13 @@ seo-description: 视频时间是显示当前播放的视频的当前时间和持
 seo-title: 视频时间
 solution: Experience Manager
 title: 视频时间
-topic: Dynamic Media
 uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-视频时间字体系列、字体大小和字体颜色是CSS可以控制的属性之一。 它还可以由CSS相对于包含它的控件栏进行定位。
+视频时间字体系列、字体大小和字体颜色是CSS可以控制的属性之一。 CSS还可以相对于包含它的控件栏定位它。
 
 视频时间的外观由以下CSS类选择器控制：
 
@@ -39,18 +40,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从右边框定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从右边框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> 视频时间控件的宽度。 Internet Explorer 8或更高版本需要此属性才能正常工作。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>用于时间显示文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字号  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>用于时间显示文本的字体大小。 </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +63,7 @@ ht-degree: 2%
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-将视频时间设置为浅灰色（十六进制`#BBBBBB`），大小为12像素，距控制栏顶部15像素，距控制栏右边缘80像素。
+将视频时间设置为浅灰色（十六进制`#BBBBBB`），大小为12像素，距控件条顶部15像素，距控件条右边缘80像素。
 
 ```
 .s7videoviewer .s7videotime { 
