@@ -1,21 +1,22 @@
 ---
 description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 seo-description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
-seo-title: 目录属性
+seo-title: catalogprops
 solution: Experience Manager
-title: 目录属性
-topic: Dynamic Media Image Serving - Image Rendering API
+title: catalogprops
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '237'
 ht-degree: 10%
 
 ---
 
 
-# catalogprops{#catalogprops}
+# catalgprops{#catalogprops}
 
 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 
@@ -28,13 +29,13 @@ ht-degree: 10%
  </tr> 
 </table>
 
-忽略目录id以检索默认目录属性([!DNL default.ini])。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
+省略目录id以检索默认目录属性([!DNL default.ini])。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
 将返回以下属性值：
 
@@ -57,12 +58,12 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
+   <td> <p> int，int </p> </td> 
    <td> <p> <span class="codeph"> 属性：:DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
+   <td> <p> int，int </p> </td> 
    <td> <p> <span class="codeph"> 属性：:DefaultThumbPix</span> </p> </td> 
   </tr> 
   <tr> 
@@ -73,26 +74,26 @@ ht-degree: 10%
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:DefaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:NonImgExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute:::LastModified</span>，或者（如果不存在）catalog.infile的上次修 <span class="varname"> 改时</span><span class="filepath"> </span> 间 </p> </td> 
+   <td> <p> <span class="codeph"> attribute:::LastModified</span>，或者，如果不存在，则为catalog.inifile的上次修 <span class="varname"> 改</span><span class="filepath"> 时</span> 间 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
-   <td> <p> int,bool </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
+   <td> <p> int，bool </p> </td> 
+   <td> <p> <span class="codeph"> attribute::JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
-   <td> <p> int,int </p> </td> 
+   <td> <p> int，int </p> </td> 
    <td> <p> <span class="codeph"> 属性：:MaxPix</span> </p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +134,7 @@ ht-degree: 10%
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:ThumbType</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
