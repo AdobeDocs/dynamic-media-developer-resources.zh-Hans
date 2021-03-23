@@ -1,23 +1,24 @@
 ---
-description: 更新标记字段的标记字典值。
-seo-description: 更新标记字段的标记字典值。
+description: 更新标记字段的标记词典值。
+seo-description: 更新标记字段的标记词典值。
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 15%
+source-wordcount: '173'
+ht-degree: 14%
 
 ---
 
 
 # updateTagFieldValues{#updatetagfieldvalues}
 
-更新标记字段的标记字典值。
+更新标记字段的标记词典值。
 
 语法
 
@@ -29,7 +30,7 @@ ht-degree: 15%
 
 ## 参数 {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**输入(updateTagFieldValuesParam)**
+**Input(updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -57,7 +58,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">要更新的标记字段值的数组。 <p>注意： 仅更新标记字符串值。 不影响资产关联。 </p> </td> 
+   <td colname="col4">要更新的标记字段值的数组。 <p>注意： 仅更新标记字符串值。 不会影响资产关联。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,8 +70,8 @@ ht-degree: 15%
 | `*`successCount`*` | `xsd:int` | 是 | 已成功更新的标记字段数。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，这些资产生成了警告。 |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 在操作尝试更新标记字段时生成警告的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 在操作尝试更新标记字段时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-bb4dcf97044c4675974c9b8d27674001}
 
