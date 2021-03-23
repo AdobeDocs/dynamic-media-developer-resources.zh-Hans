@@ -1,15 +1,16 @@
 ---
-description: “收藏夹”(Favorites)菜单下拉列表显示在控件栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
-seo-description: “收藏夹”(Favorites)菜单下拉列表显示在控件栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
+description: “收藏夹”菜单下拉列表显示在控制栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
+seo-description: “收藏夹”菜单下拉列表显示在控制栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
 seo-title: 收藏夹菜单
 solution: Experience Manager
 title: 收藏夹菜单
-topic: Dynamic Media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # 收藏夹菜单{#favorites-menu}
 
-“收藏夹”(Favorites)菜单下拉列表显示在控件栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
+“收藏夹”菜单下拉列表显示在控制栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-查看器用户界面中“收藏夹”菜单的位置和大小由以下CSS类选择器控制：
+使用以下CSS类选择器控制查看器用户界面中“收藏夹”菜单的位置和大小：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu
@@ -33,11 +34,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
-   <td colname="col2"> <p> 从控件栏顶部偏移。 </p> </td> 
+   <td colname="col2"> <p> 从控制栏顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距  </span> </p> </td> 
-   <td colname="col2"> <p> 到左边下一个按钮的距离；如果这是行中的第一个按钮，则为控制栏的左侧。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距左  </span> </p> </td> 
+   <td colname="col2"> <p> 到左边下一个按钮的距离；如果这是行中的第一个按钮，则指向控制栏的左侧。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -50,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-示例——设置一个“收藏夹”菜单，该菜单距控件条顶部有4个像素，距离最近的按钮有10个像素，大小为28 x 28像素。
+示例 — 设置一个“收藏夹”菜单，该菜单距控件条顶部有4个像素，距离最靠左的按钮有10个像素，大小为28 x 28像素。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu { 
@@ -77,18 +78,18 @@ margin-left: 10px;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置位置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例——设置一个“收藏夹”菜单按钮，该按钮为四个不同的按钮状态中的每个状态显示不同的图像。
+示例 — 设置一个“收藏夹”菜单按钮，该按钮为四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -105,7 +106,7 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 }
 ```
 
-包含各个“收藏夹”图标的面板的外观由以下CSS类选择器控制：
+包含单个“收藏夹”图标的面板的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel
@@ -116,13 +117,13 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>面板的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——设置一个面板，使其具有透明颜色。
+示例 — 设置一个面板，使其具有透明颜色。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel { 
