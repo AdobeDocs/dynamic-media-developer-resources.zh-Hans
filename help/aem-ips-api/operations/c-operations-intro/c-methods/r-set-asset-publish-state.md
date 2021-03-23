@@ -4,13 +4,14 @@ seo-description: 确定资产是否已准备好发布。
 seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-topic: Dynamic Media Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 18%
+source-wordcount: '114'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 18%
 
 ## 参数 {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**输入(setAssetPublishStateParam)**
+**Input(setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -51,7 +52,7 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的把手。 </td> 
+   <td colname="col4"> 公司的手柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
