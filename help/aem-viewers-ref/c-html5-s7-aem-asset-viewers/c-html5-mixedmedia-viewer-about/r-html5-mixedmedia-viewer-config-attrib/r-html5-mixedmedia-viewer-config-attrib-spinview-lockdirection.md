@@ -2,13 +2,14 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-topic: Dynamic Media
 uuid: b46a3d78-e381-4351-a4f4-a228386df527
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定在2D旋转集的情况下是否允许旋转方向发生更改。 </p> <p>当设置为<span class="codeph"> 1 </span>时，该组件在手势开始标识主拖动或轻扫方向（水平或垂直）。 之后，它会保持该方向直到手势结束。 例如，如果用户开始水平旋转，然后决定在垂直方向继续拖动手势，则组件不执行垂直旋转；相反，它只考虑鼠标或轻扫的水平移动。 </p> <p>值<span class="codeph"> 0 </span>允许用户在手势进度期间随时更改旋转方向。 如果旋转集为1D，则设置不会影响。 </p> </td> 
+   <td colname="col2"> <p> 指定是否允许在2D旋转集的情况下更改旋转方向。 </p> <p>当设置为<span class="codeph"> 1 </span>时，该组件在手势开始标识主拖动或轻扫方向（水平或垂直）。 之后，它将保持该方向直到手势结束。 例如，如果用户开始了水平旋转，然后决定在垂直方向上继续拖动手势，则组件不会执行垂直旋转；相反，它只考虑鼠标或轻扫的水平移动。 </p> <p>值<span class="codeph"> 0 </span>允许用户在手势过程中随时更改旋转方向。 如果旋转集为1D，则设置不会影响。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
