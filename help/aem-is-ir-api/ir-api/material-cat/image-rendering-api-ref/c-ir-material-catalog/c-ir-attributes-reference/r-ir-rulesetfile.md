@@ -4,12 +4,13 @@ seo-description: 规则集定义文件路径。 指定包含此材料目录的�
 seo-title: 规则集文件
 solution: Experience Manager
 title: 规则集文件
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 4%
 
 ## 默认 {#section-69b1f865aa8d476bb087dc862e903ab1}
 
-空，表示此材料目录没有私有请求预处理规则。
+空，表示此物料目录没有私有请求预处理规则。
 
 ## 另请参阅 {#section-84ba472b7ba0457f9f607a21ab44da16}
 
