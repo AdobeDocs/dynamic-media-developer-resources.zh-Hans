@@ -1,15 +1,16 @@
 ---
-description: 获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，可以对返回的用户进行排序并按字符进行筛选。
-seo-description: 获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，可以对返回的用户进行排序并按字符进行筛选。
+description: 获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，您可以对返回的用户进行排序，并按字符进行筛选。
+seo-description: 获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，您可以对返回的用户进行排序，并按字符进行筛选。
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # getUsers{#getusers}
 
-获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，可以对返回的用户进行排序并按字符进行筛选。
+获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，您可以对返回的用户进行排序，并按字符进行筛选。
 
 ## 授权用户类型{#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -30,13 +31,13 @@ ht-degree: 9%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`includeInactive`*` | `xsd:boolean` | 否 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能获得进行任何API调用的授权。 如果用户没有活动的公司成员资格，则将返回授权错误。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 否 | 允许您包含／排除无效用户。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 否 | 允许您包含/排除无效用户。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | 否 | 按公司筛选结果。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | 否 | 按组过滤结果。 |
 | `*`userRoleArray`*` | `types:StringArray` | 否 | 按用户角色筛选结果。 |
 | `*`charFilterField`*` | `xsd:string` | 否 | 按字段的字符串前缀筛选结果(请参阅[!DNL Trash State).] |
 | `*`charFilter`*` | `xsd:string` | 否 | 按特定字符过滤结果。 |
-| `*`排序依据`*` | `xsd:string` | 否 | 用户排序字段的选项。 |
+| `*`sortBy`*` | `xsd:string` | 否 | 用户排序字段的选项。 |
 | `*`recordsPerPage`*` | `xsd:int` | 否 | 返回每页指定的记录数。 |
 | `*`resultsPage`*` | `xsd:int` | 否 | 结果页面。 |
 
@@ -48,7 +49,7 @@ ht-degree: 9%
 
 ## 示例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-此代码示例为多个可选参数返回用户数组。 用户角色、用户字符过滤器字段和用户排序字段由使用特定字符串常量确定。
+此代码示例为多个可选参数返回用户数组。 用户角色、用户字符筛选器字段和用户排序字段由使用特定字符串常量确定。
 
 **请求**
 
