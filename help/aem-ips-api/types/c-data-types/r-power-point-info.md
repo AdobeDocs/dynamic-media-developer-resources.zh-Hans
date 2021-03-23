@@ -4,13 +4,14 @@ seo-description: PowerPoint文件选项。
 seo-title: PowerPointInfo
 solution: Experience Manager
 title: PowerPointInfo
-topic: Dynamic Media Image Production System API
 uuid: 26626c06-b610-4c3c-a249-70c6edc9ebdd
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 34%
+source-wordcount: '33'
+ht-degree: 27%
 
 ---
 
