@@ -4,13 +4,14 @@ seo-description: 显示重叠对象。 指定应最初显示还是隐藏重叠�
 seo-title: ShowOverlapObjs
 solution: Experience Manager
 title: ShowOverlapObjs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 965dcff5-30e1-4237-aa71-ee7533a674d8
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '61'
+ht-degree: 4%
 
 ---
 
