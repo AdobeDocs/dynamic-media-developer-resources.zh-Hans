@@ -4,13 +4,14 @@ seo-description: 获取唯一元数据字段值。
 seo-title: getUniqueMetadataValues
 solution: Experience Manager
 title: getUniqueMetadataValues
-topic: Dynamic Media Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 25%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 25%
 
 ## 示例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-此代码示例使用字段句柄返回特定元数据值。
+此代码示例使用字段句柄返回特定的元数据值。
 
 **请求**
 
