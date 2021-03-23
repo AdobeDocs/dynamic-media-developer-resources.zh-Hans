@@ -4,12 +4,13 @@ seo-description: 图像渲染已嵌入到图像服务的图像服务器和平台
 seo-title: 启动和停止服务器
 solution: Experience Manager
 title: 启动和停止服务器
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: edd588ce-fbc0-4003-b007-a5dc9a84ad8a
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
