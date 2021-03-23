@@ -2,13 +2,14 @@
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
 title: FlyoutZoomView.iscommand
-topic: Dynamic Media
 uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
+feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大视图的图像服务命令字符串。 如果在URL中指定了该属性，请确保对<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项进行HTTP编码，分别作为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大的视图的“图像服务”命令字符串。 如果在URL中指定，请确保将<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项HTTP编码为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +37,7 @@ ht-degree: 7%
 
 ## 示例 {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-当在查看器URL中指定时：
+在查看器URL中指定时：
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
