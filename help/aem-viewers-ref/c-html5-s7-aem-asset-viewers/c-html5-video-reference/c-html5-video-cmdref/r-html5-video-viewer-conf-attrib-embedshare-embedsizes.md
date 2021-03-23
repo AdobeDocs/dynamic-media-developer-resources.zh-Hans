@@ -4,13 +4,14 @@ seo-description: 视频查看器的配置属性。
 seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-topic: Dynamic Media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 11%
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽`*, *``*[,0|1][; *``*, *`高双高`*[,0|1]]`
 
-在嵌入共享模式对话框中为大小组合框指定嵌入大小列表。
+在“嵌入共享模式”对话框中，为“大小”组合框指定嵌入大小列表。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
