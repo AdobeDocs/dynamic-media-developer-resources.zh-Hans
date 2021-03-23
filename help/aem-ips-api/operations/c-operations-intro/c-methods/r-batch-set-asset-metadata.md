@@ -4,13 +4,14 @@ seo-description: 使用批处理模式设置资产元数据。
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
+feature: Dynamic Media Classic，SDK/API，Metadata.Asset Management
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 13%
+source-wordcount: '161'
+ht-degree: 12%
 
 ---
 
@@ -46,8 +47,8 @@ ht-degree: 13%
 | `*`successCount`*` | `xsd:int` | 是 | 成功设置元数据的数量。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试为资产批量设置元数据时会生成警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时，与资产相关联的详细信息数组会生成警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时生成错误的与资产关联的详细信息数组。 |
 
 ## 示例 {#section-2de798ac920e4b47b971b1729a64395b}
 
