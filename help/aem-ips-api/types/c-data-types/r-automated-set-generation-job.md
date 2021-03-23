@@ -1,15 +1,16 @@
 ---
-description: 使用资产句柄列表阵列将文件分组到集中。
-seo-description: 使用资产句柄列表阵列将文件分组到集中。
+description: 使用资产句柄列表数组将文件分组到集中。
+seo-description: 使用资产句柄列表数组将文件分组到集中。
 seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-topic: Dynamic Media Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
-使用资产句柄列表阵列将文件分组到集中。
+使用资产句柄列表数组将文件分组到集中。
 
 语法
 
@@ -35,7 +36,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">用于创建集的一组资产句柄。 <p>默认情况下，1000是您在阵列中可以拥有的最大资产数。 </p></td> 
+   <td colname="col3">用于创建集的一组资源句柄。 <p>默认情况下，1000是您在数组中可拥有的最大资源数。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
@@ -50,7 +51,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">可在已上载文件上运行的一组集生成脚本。 请参阅<a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col3">可以在已上载文件上运行的一组集生成脚本。 请参阅<a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
