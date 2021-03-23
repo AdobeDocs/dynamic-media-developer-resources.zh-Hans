@@ -4,12 +4,13 @@ seo-description: 地址筛选器元素。 在<rule>和<pathrule>元素中为可�
 seo-title: 地址筛选器
 solution: Experience Manager
 title: 地址筛选器
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # 地址筛选器{#addressfilter}
 
-地址筛选器元素。 在`<rule>`和`<pathrule>`元素中是可选的。
+地址筛选器元素。 在`<rule>`和`<pathrule>`元素中为可选。
 
 应用规则时覆盖`attribute::ClientAddressFilter`。
 
@@ -27,11 +28,11 @@ ht-degree: 6%
 
 ## 数据 {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-以逗号分隔的IP地址列表。 每个单独的地址可以包括可选的网络掩码后缀以允许IP地址范围的规范。 有关详细信息，请参阅`attribute::ClientAddressFilter`。
+以逗号分隔的IP地址列表。 每个单个地址可以包括可选的网络掩码后缀以允许IP地址范围的规范。 有关详细信息，请参阅`attribute::ClientAddressFilter`。
 
 ## 说明 {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-通过在`<addressfilter>`元素中指定此映像目录，可以限制对一个或多个特定客户端IP地址的访问。 如果客户端IP地址不匹配，则向客户端返回“请求拒绝”错误。
+可通过在`<addressfilter>`元素中指定此映像目录，将其限制为一个或多个特定客户端IP地址。 如果客户端IP地址不匹配，则会向客户端返回“请求拒绝”错误。
 
 如果`<addressfilter>`为空或未指定，则访问不受限制。
 
@@ -39,4 +40,4 @@ ht-degree: 6%
 
 ## 另请参阅 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
-[属性：:ClientAddressFilter](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68)
+[attribute::ClientAddressFilter](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68)
