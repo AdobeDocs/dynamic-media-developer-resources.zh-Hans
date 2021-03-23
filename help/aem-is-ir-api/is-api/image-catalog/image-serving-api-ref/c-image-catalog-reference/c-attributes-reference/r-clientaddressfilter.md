@@ -4,12 +4,13 @@ seo-description: 客户端IP地址筛选器。 允许指定一个或多个IP地�
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
@@ -23,22 +24,22 @@ ht-degree: 3%
 
 ## 属性 {#section-d785265988324af68835410c9ba54147}
 
-IP地址的逗号分隔列表(使用可选网络掩码（CIDR表示法）:
+以逗号分隔的列表IP地址(使用可选网络掩码（CIDR表示法）：
 
 `*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>格式为<span class="varname"> ddd.ddd.ddd.ddd</span>的IP地址。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> ddd.ddd.ddd.ddd</span>格式的IP地址。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 网络掩码</span> </p></td> 
-  <td class="stentry"> <p>净掩码(0...32)。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
+  <td class="stentry"> <p>净蒙版(0...32)。 </p></td> 
  </tr> 
 </table>
 
-应用具有`<addressfilter>`元素的预处理规则时，忽略此属性。
+应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
 
 ## 默认 {#section-de26e8c9225745e985e4beac1f03f4f6}
 
@@ -48,7 +49,7 @@ IP地址的逗号分隔列表(使用可选网络掩码（CIDR表示法）:
 
 无访问限制：`0.0.0.0/0`
 
-授予对所有地址的访问权限（从192开始）:`192.0.0.0/8`
+授予对所有地址的访问权限（从192开始）：`192.0.0.0/8`
 
 授予对地址介于192.168.12.0和192.168.13.255之间的512台主机的访问权限：`192.168.12.0/23`
 
