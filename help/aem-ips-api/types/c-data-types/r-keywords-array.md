@@ -1,23 +1,24 @@
 ---
-description: 一组关键字。
-seo-description: 一组关键字。
-seo-title: 关键字数组
+description: 关键字数组。
+seo-description: 关键字数组。
+seo-title: KeywordsArray
 solution: Experience Manager
-title: 关键字数组
-topic: Dynamic Media Image Production System API
+title: KeywordsArray
 uuid: 78da064a-9906-4d79-93b4-4aa0f73358e2
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 24%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
 
 # KeywordsArray{#keywordsarray}
 
-一组关键字。
+关键字数组。
 
 语法
 
@@ -25,5 +26,5 @@ ht-degree: 24%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:Keywords` | 一组关键字。 |
+| `*`项目`*` | `types:Keywords` | 关键字数组。 |
 
