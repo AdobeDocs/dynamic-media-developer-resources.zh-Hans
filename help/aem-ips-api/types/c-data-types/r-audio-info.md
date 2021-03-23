@@ -1,16 +1,17 @@
 ---
 description: 音频文件资源的属性。
 seo-description: 音频文件资源的属性。
-seo-title: 音频信息
+seo-title: AudioInfo
 solution: Experience Manager
-title: 音频信息
-topic: Dynamic Media Image Production System API
+title: AudioInfo
 uuid: f8b8ed63-aac6-4ef1-bdf1-4b27265acffa
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 23%
+source-wordcount: '45'
+ht-degree: 20%
 
 ---
 
