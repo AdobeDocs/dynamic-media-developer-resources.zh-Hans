@@ -4,12 +4,13 @@ seo-description: 为图像着色。 在保留阴影和高光的同时为图像�
 seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '329'
 ht-degree: 4%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 4%
 
 为图像着色。 在保留阴影和高光的同时为图像数据着色。
 
-` op_colorize= *`色`*[,off|norm[, *`对比度`*]]`
+` op_colorize= *``*[,off|norm[, *`色对比度`*]]`
 
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
@@ -36,19 +37,19 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 对比 </span> </p> </td> 
-  <td class="stentry"> <p>对比度范围（实数0.100）;设置为0可保留输入对比度。 </p> </td> 
+  <td class="stentry"> <p>对比度范围（实数0.100）；设置为0可保留输入对比度。 </p> </td> 
  </tr> 
 </table>
 
 第二个参数指定在着色之前是否应调整源图像的亮度。 指定`off`以禁用自动亮度补偿，或指定`norm`以自动调整亮度，使中值为50%强度。
 
-将&#x200B;*`contrast`*&#x200B;值设置为0以保留输入图像的对比度范围，或指定值大于0的所需对比度范围。 值 100 将使对比度最大化。典型值可能介于30到70之间。
+将&#x200B;*`contrast`*&#x200B;值设置为0可保留输入图像的对比度范围，或指定值大于0的所需对比度范围。 值 100 将使对比度最大化。典型值可能介于30到70之间。
 
-除了内置的亮度和对比度调整，`op_brightness=`和`op_contrast=`还可用于进一步微调着色效果。
+除了内置的亮度和对比度调整外，`op_brightness=`和`op_contrast=`还可用于进一步微调着色效果。
 
 >[!NOTE]
 >
->着色算法只使用图像数据中的亮度信息。 此灰度转换过程简单，不进行颜色管理。 `op_colorize` 始终输出RGB数据，即使输入为灰度或CMYK。
+>着色算法只使用图像数据中的亮度信息。 此转换为灰度很简单，不能进行颜色管理。 `op_colorize` 始终输出RGB数据，即使输入为灰度或CMYK。
 
 ## 属性 {#section-c0f8bd424b864153a1108f384939f55b}
 
@@ -56,9 +57,9 @@ ht-degree: 4%
 
 *`color`* 必须是RGB值；不支持 *`color`* 灰色或CMYK值。
 
-如果亮度补偿关闭，则忽略&#x200B;*`contrast`*&#x200B;值。
+如果关闭亮度补偿，则忽略&#x200B;*`contrast`*&#x200B;值。
 
-*`color`* 假定存在于与像素类型对应的工作颜色空间中 *`color`*。*`color`* 如果图层图像在合并时具有不同的像素类型，则转换精确。
+*`color`* 假定存在于对应于像素类型的工作颜色空间中 *`color`*。*`color`* 如果图层图像在合并时具有不同的像素类型，则会精确转换图像。
 
 在应用操作之前，CMYK图像将转换为RGB。
 
