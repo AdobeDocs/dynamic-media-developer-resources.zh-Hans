@@ -1,15 +1,16 @@
 ---
-description: 暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
-seo-description: 暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
+description: 晕影创作工具(Dynamic Media图像创作包的一部分)提供了控制晕影渲染引擎低层面的机制。
+seo-description: 晕影创作工具(Dynamic Media图像创作包的一部分)提供了控制晕影渲染引擎低层面的机制。
 seo-title: 高级渲染设置
 solution: Experience Manager
 title: 高级渲染设置
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '641'
 ht-degree: 24%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 24%
 
 # 高级渲染设置{#advanced-render-settings}
 
-暗角创作工具(Dynamic Media图像创作包的一部分)提供了控制暗角渲染引擎低级部分的机制。
+晕影创作工具(Dynamic Media图像创作包的一部分)提供了控制晕影渲染引擎低层面的机制。
 
 >[!NOTE]
 >
->“渲染设置”是图像渲染和图像创作的高级功能。 在使用“渲染设置”时，请与Adobe技术支持或Adobe咨询代表联系，以获得培训、咨询或两者。
+>“渲染设置”是“图像渲染”和“图像创作”的高级功能。 在使用“渲染设置”时，请与Adobe技术支持或您的Adobe咨询代表联系，以进行培训、咨询或两者兼而有之。
 
-在图像创作中以交互方式控制这些设置。 可以使用`rs=`命令（或使用`catalog::RenderSettings`值）在图像渲染中应用相同的设置。 此机制用于为每个材料选择不同的锐化选项，并修改光照渲染算法的行为，如改变高光的饱和度或阴影中的对比度。
+在图像创作中以交互方式控制这些设置。 可以使用`rs=`命令（或使用`catalog::RenderSettings`值）在“图像渲染”中应用相同的设置。 此机制用于为每个材料选择不同的锐化选项，并修改照明渲染算法的行为，如改变高光饱和度或阴影中的对比度。
 
 ## 高级渲染设置(rs=)值{#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -40,7 +41,7 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col2"> <p>渲染效果／替代着色器将覆盖暗角中的设置。 </p> </td> 
+   <td colname="col2"> <p>"渲染效果"/"替代着色器"将覆盖晕影中的设置。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>A0=渲染效果 </p> <p>A1=替代着色器 </p> </td> 
@@ -50,12 +51,12 @@ ht-degree: 24%
    <td colname="col2"> <p>USM(UnSharp Mask)。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>2 </p> </td> 
-   <td colname="col5"> <p>要使用USM,U必须&gt; 0 </p> </td> 
+   <td colname="col5"> <p>要使用USM，U必须大于0 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金额(%)。 </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -76,7 +77,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>调整大小模式。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -112,7 +113,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>超级取样：随机率。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>默认值为 5。 </p> </td> 
   </tr> 
@@ -132,7 +133,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
-   <td colname="col2"> <p>泊松：示例／像素。 </p> </td> 
+   <td colname="col2"> <p>泊松：样本/像素。 </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
@@ -167,14 +168,14 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td colname="col1"> <p>J </p> </td> 
-   <td colname="col2"> <p>突出显示饱和度。 </p> </td> 
+   <td colname="col2"> <p>高亮显示饱和度。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>50 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>H </p> </td> 
-   <td colname="col2"> <p>亮材的阴影。 </p> </td> 
+   <td colname="col2"> <p>亮材料的阴影。 </p> </td> 
    <td colname="col3"> <p>50 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -271,14 +272,14 @@ ht-degree: 24%
    <td colname="col5"> <p>格式不同：k64.138.175.60.xx.133.242 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>u&amp;s </p> </td> 
+   <td colname="col1"> <p>u &amp; s </p> </td> 
    <td colname="col2"> <p>阴影色相偏移。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>格式不同：u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>v&amp;t </p> </td> 
+   <td colname="col1"> <p>v和t </p> </td> 
    <td colname="col2"> <p>高亮色相偏移。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
@@ -317,13 +318,13 @@ ht-degree: 24%
      <ul id="ul_AA7CF1A3E6984B318265BBE8FFFBB4EE">
       <li> USM1
       <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 =亮材料的阴影(50-100)。 </li> 
-      <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 =高亮(0-100)。 </li> 
+      <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 =高光(0-100)。 </li> 
       <li id="li_376C275FDB3548958C09BD266C77318F">J10 =高光饱和度(0-50)。 </li> 
       <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 =阴影饱和度(0-400)。 </li> 
-      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 =光泽外推强度(100-600)。 </li> 
+      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 =基于光泽的外推强度(100-600)。 </li> 
       <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM（USM锐化）(0-2)。 </li> 
-      <li id="li_7CD4E3662A6C48F9B5895D133D28BA2A">V10 = USMradius（1-100像素）。 </li> 
-      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = USM金额(1%-500%)。 </li> 
+      <li id="li_7CD4E3662A6C48F9B5895D133D28BA2A">V10 = USM半径（1-100像素）。 </li> 
+      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = USM(1%-500%)。 </li> 
       <li id="li_F39D3834D4A2478D993E5E9C9B434CFE">X0 = USM阈值（0-255级）。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -340,7 +341,7 @@ ht-degree: 24%
    <td colname="col2"> <p> 
      <ul id="ul_AAEC098CED1C436E933B1C1B88DFB659"> 
       <li id="li_0CC34CDD796E4DFD802824FF21DB021B">USM1 </li> 
-      <li id="li_E36886FB1D00444CBA19D7245E89B292">所有最大值和亮度补偿均关闭。 </li> 
+      <li id="li_E36886FB1D00444CBA19D7245E89B292">所有最大和亮度补偿均关闭。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -348,7 +349,7 @@ ht-degree: 24%
    <td colname="col2"> <p> 
      <ul id="ul_6BB668C6C055493DAAA38F4D3B9C20A7"> 
       <li id="li_D8BAFB41CF4C4B3FAD6F89AF5D7F223A">USM2 </li> 
-      <li id="li_DA685F4DE4BA427BA7BE241A75C96152">所有最大值和亮度补偿均关闭。 </li> 
+      <li id="li_DA685F4DE4BA427BA7BE241A75C96152">所有最大和亮度补偿均关闭。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -358,10 +359,10 @@ ht-degree: 24%
       <li id="li_CC730580B54741FBBBFF507DE0FE1F15">H80 = USM金额 </li> 
       <li id="li_C2801B2C093444AC9401793BC571EC27">I70 =亮点 </li> 
       <li id="li_518C6A690EC34614B0806A0C6BC535FF">J40 =高光饱和度 </li> 
-      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 =光泽外推强度 </li> 
+      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 =基于光泽的外推强度 </li> 
       <li id="li_3F589F109AC94280911BD535C49E42E4">U1 = USM </li> 
-      <li id="li_113FEC9B37D54511BAB3FEAC7C271858">V8 = USMradius </li> 
-      <li id="li_E1BA7406A76B476EB1A89D6EDD87930C">W80 =明亮材料的阴影 </li> 
+      <li id="li_113FEC9B37D54511BAB3FEAC7C271858">V8 = USM半径 </li> 
+      <li id="li_E1BA7406A76B476EB1A89D6EDD87930C">W80 =亮材料的阴影 </li> 
       <li id="li_AAD479EF6A7F43B98A8C147FCD684ECA">X5 = USM阈值 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -371,12 +372,12 @@ ht-degree: 24%
      <ul id="ul_93AD53BB37EA47F6A3CEE424D3AAE18C"> 
       <li id="li_9EF1DF4167164721882E4842C2E0B20C">USM1 </li> 
       <li id="li_7B5D8B7BB5544E7FA4AD702EE281086B">USM金额(120) </li> 
-      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">USMradius(0.6) </li> 
+      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">USM半径(0.6) </li> 
       <li id="li_793DAB145CE7469ABC1182BCBD324657">USM阈值(5) </li> 
       <li id="li_B1954FEBE2084726828D64E8165DA4DA">调整大小(Lanczos) </li> 
       <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">重新取样（超级取样，随机=半，速率=半） </li> 
       <li id="li_CCEE53544E7D48858398BF3168F1E87D">对比度（更强） </li> 
-      <li id="li_EB0D25C095FB4D5798AC031AB759849B">饱和度调整（沿边的中间、第二个顶点中的第一个顶点、第三个顶点中点低） </li> 
+      <li id="li_EB0D25C095FB4D5798AC031AB759849B">饱和度调整（沿边的中间第一个顶点、沿边的第二个顶点、第三个顶点中间点低） </li> 
       <li id="li_5C2304DA4A4D4799AE5DCCCB1E2ECBB3">锐化（右侧的3/4方式） </li> 
      </ul> </p> </td> 
   </tr> 
