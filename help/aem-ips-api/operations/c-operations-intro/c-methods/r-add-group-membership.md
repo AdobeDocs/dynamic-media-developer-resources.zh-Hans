@@ -2,12 +2,13 @@
 description: 将用户添加到一组组。
 solution: Experience Manager
 title: addGroupMembership
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 14%
+source-wordcount: '101'
+ht-degree: 13%
 
 ---
 
@@ -59,7 +60,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-此示例向具有`*`groupHandleArray`*`的公司添加组。 此示例仅使用一个组。
+此示例将组添加到具有`*`groupHandleArray`*`的公司。 此示例仅使用一个组。
 
 **请求**
 
