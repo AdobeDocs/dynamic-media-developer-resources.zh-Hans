@@ -1,15 +1,16 @@
 ---
-description: 这些命令适用于在简单请求中或在图像图层中使用的源图像，以及附加到纯色图层的蒙版。
-seo-description: 这些命令适用于在简单请求中或在图像图层中使用的源图像，以及附加到纯色图层的蒙版。
+description: 这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
+seo-description: 这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
 seo-title: 源图像操作
 solution: Experience Manager
 title: 源图像操作
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # 源映像操作{#source-image-operations}
 
-这些命令适用于在简单请求中或在图像图层中使用的源图像，以及附加到纯色图层的蒙版。
+这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 
@@ -29,7 +30,7 @@ ht-degree: 2%
   <td class="stentry"> <p>裁切或扩展源图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 遮罩</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 蒙版</a> </p></td> 
   <td class="stentry"> <p>指定单独的源图像蒙版。 </p></td> 
  </tr> 
  <tr class="strow"> 
