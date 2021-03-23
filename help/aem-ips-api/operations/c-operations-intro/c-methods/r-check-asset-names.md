@@ -1,15 +1,16 @@
 ---
-description: 通过将资产名称与公司的图像服务／图像渲染目录命名空间中的所有名称进行比较，检查IPS ID是否冲突。
-seo-description: 通过将资产名称与公司的图像服务／图像渲染目录命名空间中的所有名称进行比较，检查IPS ID是否冲突。
+description: 通过将资源名称与公司的图像服务/图像渲染目录命名空间中的所有名称进行比较，检查IPS ID冲突。
+seo-description: 通过将资源名称与公司的图像服务/图像渲染目录命名空间中的所有名称进行比较，检查IPS ID冲突。
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 10%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # checkAssetNames{#checkassetnames}
 
-通过将资产名称与公司的图像服务／图像渲染目录命名空间中的所有名称进行比较，检查IPS ID是否冲突。
+通过将资源名称与公司的图像服务/图像渲染目录命名空间中的所有名称进行比较，检查IPS ID冲突。
 
 语法
 
@@ -39,17 +40,17 @@ ht-degree: 10%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 否 | 包含用户的公司的句柄。 |
-| `*`assetNamesArray`*` | `types:StringArray` | 是 | 要检查的资产名称的数组。 |
+| `*`assetNamesArray`*` | `types:StringArray` | 是 | 要检查的资源名称数组。 |
 
 **输出(checkAssetNamesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | 是 | 正在使用的资产名称的数组。 |
+| `*`inUseNameArray`*` | `types:StringArray` | 是 | 正在使用的资源名称数组。 |
 
 ## 示例 {#section-bc5d120d74614a63a425ca3acc337219}
 
-此示例代码请求在指定公司中使用的资产名称。 该响应会返回一组正在使用的资产名称。
+此示例代码请求在指定公司中使用的资产名称。 响应会返回一组正在使用的资产名称。
 
 **请求**
 
