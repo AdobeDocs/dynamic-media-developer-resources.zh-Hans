@@ -1,15 +1,16 @@
 ---
-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
-seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
+description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
+seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 13%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 13%
 
 # DigimarcInfo{#digimarcinfo}
 
-Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的特定图像数据。
+Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
 
 ## 属性 {#section-62af219e8bac422b8541841221c9ce4f}
 
@@ -25,7 +26,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*``*` typeenables Digimarc嵌入并指定水印类型：
+`*`typeenables `*` Digimarc embedding and specifies the watermark type:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +59,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
  </tbody> 
 </table>
 
-`*`标`*` 出一个具有三个值的位字段。设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
+`*`用`*` 三个值标出位字段。设置位0以指示受复制保护的内容，设置位1以指示受限内容，设置位2以指示成人内容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +74,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受复制保护。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,12 +82,12 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>受限。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>受复制保护，受限。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>成熟的内容。 </p> </td> 
+   <td> <p>内容成熟 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>5</b> </p> </td> 
@@ -130,7 +131,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
@@ -148,11 +149,11 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
 
 ## 示例 {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-“0,0,0,0”将禁用此图像的Digimarc水印。
+“0,0,0,0”禁用此图像的Digimarc水印。
 
 “1,5,0,0”指定设置了成人和受复制保护的内容标志的基本水印。
 
-“2,0,4567,0”指定带有图像ID的水印。
+“2,0,4567,0”指定具有图像ID的水印。
 
 “3,2,56483,0”指定具有事务ID和受限内容标志设置的水印。
 
@@ -160,4 +161,4 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
 
 ## 另请参阅 {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[属性：:DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [属性：:DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attribute:::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
