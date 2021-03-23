@@ -1,29 +1,30 @@
 ---
-description: 通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
-seo-description: 通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
+description: 使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+seo-description: 使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
 seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-topic: Dynamic Media
 uuid: 44057e10-98b6-4316-bf6c-9bf569be6a50
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
 
-# 焦点突出显示{#focus-highlight}
+# 焦点高亮{#focus-highlight}
 
-通过CSS类选择器控制聚焦查看器用户界面元素周围显示的输入焦点突出显示。
+使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS属性**
 
-外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制外观：
 
 ```
 .s7interactivevideoviewer *:focus
@@ -39,12 +40,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 大纲  </span> </p> </td> 
-   <td colname="col2"> <p>焦点突出显示样式。 </p> </td> 
+   <td colname="col2"> <p>焦点高亮样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例——要禁用所有查看器用户界面元素的默认浏览器焦点突出显示，请将以下CSS选择器添加到查看器的样式表：
+示例 — 要禁用所有查看器用户界面元素的默认浏览器焦点突出显示，请将以下CSS选择器添加到查看器的样式表：
 
 ```
 .s7interactivevideoviewer *:focus { 
