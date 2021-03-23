@@ -4,13 +4,14 @@ seo-description: 删除用户组。
 seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-topic: Dynamic Media Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 13%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
