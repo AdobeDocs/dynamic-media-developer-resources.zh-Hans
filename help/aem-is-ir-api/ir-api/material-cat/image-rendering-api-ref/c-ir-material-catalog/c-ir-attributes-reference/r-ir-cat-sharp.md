@@ -1,15 +1,16 @@
 ---
-description: 默认材料锐化。 在特定目录记录不包含有效的目录锐化值时设置默认材料锐化模式。
-seo-description: 默认材料锐化。 在特定目录记录不包含有效的目录锐化值时设置默认材料锐化模式。
+description: 默认材质锐化。 在特定目录记录不包含有效目录锐化值时设置默认材料锐化模式。
+seo-description: 默认材质锐化。 在特定目录记录不包含有效目录锐化值时设置默认材料锐化模式。
 seo-title: 清晰
 solution: Experience Manager
 title: 清晰
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # 锐化 {#sharp}
 
-默认材料锐化。 设置默认的材料锐化模式，以防特定目录记录不包含有效的目录：:Sharp值。
+默认材质锐化。 在特定目录记录不包含有效目录：:Sharp值时设置默认的材料锐化模式。
 
 ## 属性 {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -34,11 +35,11 @@ ht-degree: 9%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>替代锐化（在转换之前）。 </p></td> 
+  <td class="stentry"> <p>替代锐化（在变换之前）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>更锐化（变换前后）。 </p> </td> 
+  <td class="stentry"> <p>更多锐化（在变换之前和之后）。 </p> </td> 
  </tr> 
 </table>
 
