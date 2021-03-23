@@ -4,13 +4,14 @@ seo-description: 混合媒体查看器的JavaScript API参考。
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 427daeae-f7b4-4eb0-a285-e5b16c538239
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 混合媒体查看器的JavaScript API参考。
 
-` setParam( *`名称、值`*)`
+` setParam( *`name， value`*)`
 
-将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修改程序。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将查看器参数设置为指定值。 该参数是特定于查看器的配置选项或软件开发工具包修饰符。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
@@ -29,11 +30,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名称  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 参数的{ </span> string}名称。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}参 </span> 数的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能进行百分比编码。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。该值不能以百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
