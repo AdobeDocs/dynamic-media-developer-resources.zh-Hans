@@ -1,27 +1,28 @@
 ---
-description: 颜色转换渲染方法。 在icc=未指定渲染方法时，提供颜色转换的默认渲染方法。
-seo-description: 颜色转换渲染方法。 在icc=未指定渲染方法时，提供颜色转换的默认渲染方法。
+description: 颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
+seo-description: 颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
 # IccRenderIntent{#iccrenderintent}
 
-颜色转换渲染方法。 在icc=未指定渲染方法时，提供颜色转换的默认渲染方法。
+颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
 
 ## 属性 {#section-2540099fb2fc47d29b04642da4f5922a}
 
-枚举。 对于感知，设置为0；对于相对比色，设置为1；对于饱和度，设置为2；对于绝对比色，设置为3。
+枚举。 设置为0表示感知，设置为1表示相对比色，设置为2表示饱和度，设置为3表示绝对比色。
 
 ## 默认 {#section-61a05067905b44099c228e15de279dbd}
 
@@ -29,4 +30,4 @@ ht-degree: 4%
 
 ## 另请参阅 {#section-7da9ff3038ca452a9f7375a1ca0581af}
 
-[属性：:IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) *, [属性：:IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)
+[attribute:::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) *,  [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)
