@@ -4,13 +4,14 @@ seo-description: Photoshop图像的选项。
 seo-title: PhotoshopOptions
 solution: Experience Manager
 title: PhotoshopOptions
-topic: Dynamic Media Image Production System API
 uuid: ed97d20a-358d-4a00-93c7-4498bb2e9d35
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 22%
+source-wordcount: '43'
+ht-degree: 18%
 
 ---
 
@@ -35,7 +36,7 @@ Photoshop图像的选项。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：PhotoshopLayerOptions</span> </td> 
-   <td colname="col3"> Photoshop层选项的数组。 </td> 
+   <td colname="col3"> Photoshop图层选项的数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 过程</span> </span> </td> 
@@ -43,7 +44,7 @@ Photoshop图像的选项。
    <td colname="col3">Photoshop流程选项： 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
      <li id="li_92FA27B1887B464F8C4564FD0B59793B"><span class="codeph"> 无</span> </li> 
-     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> 维护层</span> </li> 
+     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> 维护图层</span> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
