@@ -4,12 +4,13 @@ seo-description: 设置资产的图像映射。
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 设置资产的图像映射。
 
-您必须已创建图像映射。 按照从阵列检索的顺序应用图像映射。 这意味着第二个图像映射叠加第一个图像映射，第三个图像映射叠加第二个图像映射，依此类推。
+您必须已创建图像映射。 根据从数组检索的顺序应用图像映射。 这意味着第二个图像映射叠加第一个图像映射，第三个图像映射叠加第二个图像映射，依此类推。
 
 ## 授权用户类型{#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -32,7 +33,7 @@ ht-degree: 10%
 
 ## 参数 {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**输入(setImageMapsParam)**
+**Input(setImageMapsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -48,7 +49,7 @@ ht-degree: 10%
 
 ## 示例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-此代码示例为图像资产设置2个图像映射。 该代码指定调用图像映射时采取的形状类型、区域和操作。 该响应包含一个数组，其中包含对图像映射的句柄。
+此代码示例为图像资产设置2个图像映射。 该代码指定调用图像映射时采取的形状类型、区域和操作。 响应包含一个数组，其中包含对图像映射的句柄。
 
 **请求**
 
