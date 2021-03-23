@@ -1,15 +1,16 @@
 ---
-description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
-seo-description: 使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
+description: 使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
+seo-description: 使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 8%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 8%
 
 # getPropertySetType{#getpropertysettype}
 
-使用对公司的句柄和属性集类型的名称获取属性集类型。 它得到一个类型结构，其中具有类型和属性类型的句柄。
+使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
 
 语法
 
@@ -35,11 +36,11 @@ ht-degree: 8%
 
 ## 参数 {#section-c9a53400c44744668bd7915f72d2bf3d}
 
-**输入(getPropertySetTypeParam)**
+**Input(getPropertySetTypeParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可选，因为属性集类型可以属于多个公司。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的手柄。 可选，因为属性集类型可以属于多个公司。 |
 | `*`name`*` | `xsd:string` | 是 | 属性集类型名称。 |
 
 **输出(getPropertySetTypeReturn)**
@@ -71,7 +72,7 @@ ht-degree: 8%
 
 ## 示例 {#section-1b57199415e34a8fa449f864f8895b14}
 
-此代码示例按名称返回属性集类型。
+此代码示例返回按名称设置类型的属性。
 
 **请求**
 
