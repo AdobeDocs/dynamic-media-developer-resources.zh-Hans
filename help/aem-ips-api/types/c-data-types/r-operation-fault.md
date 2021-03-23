@@ -1,23 +1,24 @@
 ---
-description: 对CDN失效请求中提供的URL做出响应的详细消息。
-seo-description: 对CDN失效请求中提供的URL做出响应的详细消息。
+description: 对CDN失效请求中提供的URL作出响应的详细消息。
+seo-description: 对CDN失效请求中提供的URL作出响应的详细消息。
 seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 
 
 # OperationFault{#operationfault}
 
-对CDN失效请求中提供的URL做出响应的详细消息。
+对CDN失效请求中提供的URL作出响应的详细消息。
 
 **支持时间**
 
