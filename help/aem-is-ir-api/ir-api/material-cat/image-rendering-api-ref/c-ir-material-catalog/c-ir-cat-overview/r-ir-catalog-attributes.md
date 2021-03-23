@@ -4,12 +4,13 @@ seo-description: 目录属性文件中可识别以下属性。
 seo-title: 目录属性
 solution: Experience Manager
 title: 目录属性
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91e1fbf8-cb0f-4509-814c-40f7bdbd74db
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 3%
 
 ---
@@ -30,14 +31,14 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> VignetteMapFile</a> </p> </td> 
-  <td class="stentry"> <p>关联的暗角映射文件的路径或名称。 </p></td> 
+  <td class="stentry"> <p>关联晕影映射文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </p></td> 
   <td class="stentry"> <p>关联的ICC用户档案映射文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> 宏文件  </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> MacroFile  </a> </p> </td> 
   <td class="stentry"> <p>关联的宏定义文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -49,7 +50,7 @@ ht-degree: 3%
   <td class="stentry"> <p>目录标识符。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3" type="reference" format="dita" scope="local"> 根路径  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3" type="reference" format="dita" scope="local"> RootPath  </a> </p></td> 
   <td class="stentry"> <p>所有源数据文件(晕影、材料和用户档案)的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -65,7 +66,7 @@ ht-degree: 3%
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> ShowOverlapObjs  </a> </p></td> 
-  <td class="stentry"> <p>重叠对象的初始显示／隐藏状态。 </p></td> 
+  <td class="stentry"> <p>重叠对象的初始显示/隐藏状态。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrl</a> </p> </td> 
@@ -97,15 +98,15 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> 过期时间 </a> </p></td> 
-  <td class="stentry"> <p>默认客户端缓存的生效时间。 </p></td> 
+  <td class="stentry"> <p>默认客户端缓存的实时时间。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified  </a> </p></td> 
   <td class="stentry"> <p>启用上次修改时间的HTTP响应头。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains  </a> </p> </td> 
-  <td class="stentry"> <p>允许Web域访问<span class="filepath"> swf</span>响应图像。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> 受信任域  </a> </p> </td> 
+  <td class="stentry"> <p>允许访问<span class="filepath"> swf</span>响应图像的Web域。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter  </a> </p></td> 
@@ -124,11 +125,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> 分辨率 </a> </p></td> 
-  <td class="stentry"> <p>默认纹理／贴面分辨率。 </p></td> 
+  <td class="stentry"> <p>默认纹理/倾斜分辨率。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> 清晰 </a> </p></td> 
-  <td class="stentry"> <p>默认纹理／德卡锐化。 </p></td> 
+  <td class="stentry"> <p>默认纹理/德卡锐化。 </p></td> 
  </tr> 
 </table>
 
@@ -139,7 +140,7 @@ ht-degree: 3%
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> DefaultPix  </a> </p></td> 
-  <td class="stentry"> <p>回复图像的默认大小。 </p></td> 
+  <td class="stentry"> <p>返回图像的默认大小。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> MaxPix  </a> </p></td> 
@@ -147,11 +148,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-resmode.md#reference-fdca7eb6d5104fdeae9d6ac42251db82" type="reference" format="dita" scope="local"> ResMode  </a> </p></td> 
-  <td class="stentry"> <p>重新取样模式以进行回复图像缩放。 </p></td> 
+  <td class="stentry"> <p>用于回复图像缩放的重新取样模式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> 锐化 </a> </p></td> 
-  <td class="stentry"> <p>回复图像的默认锐化。 </p></td> 
+  <td class="stentry"> <p>默认锐化回复图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> 格式 </a> </p></td> 
@@ -159,7 +160,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50" type="reference" format="dita" scope="local"> JpegQuality  </a> </p></td> 
-  <td class="stentry"> <p>默认jpeg质量。 </p></td> 
+  <td class="stentry"> <p>默认jpeg品质。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding  </a> </p></td> 
@@ -169,7 +170,7 @@ ht-degree: 3%
 
 <table id="simpletable_8B3B053395D340A6AEEFE7BD90059FC5"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>颜色管理属性 </p></td> 
+  <td class="stentry"> <p>色彩管理属性 </p></td> 
   <td class="stentry"> <p>说明 </p></td> 
  </thead> 
  <tr class="strow"> 
@@ -202,11 +203,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0" type="reference" format="dita" scope="local"> IccBlackPointCompensation  </a> </p> </td> 
-  <td class="stentry"> 启用／禁用黑点补偿。</td> 
+  <td class="stentry"> 启用/禁用黑场补偿。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccdither.md#reference-019855df56fe4df9b7dde9e3acd11460" type="reference" format="dita" scope="local"> IccDither  </a> </p></td> 
-  <td class="stentry"> 启用／禁用颜色转换仿色。</td> 
+  <td class="stentry"> 启用/禁用颜色转换仿色。</td> 
  </tr> 
 </table>
 
