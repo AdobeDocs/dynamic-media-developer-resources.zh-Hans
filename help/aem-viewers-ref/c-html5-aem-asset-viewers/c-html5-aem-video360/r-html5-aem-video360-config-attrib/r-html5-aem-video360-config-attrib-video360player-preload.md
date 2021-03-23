@@ -4,13 +4,14 @@ seo-description: 指示查看器是否在播放开始之前开始加载视频内
 seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-topic: Dynamic Media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果设置为<span class="codeph"> 1 </span>，则在资产设置完成后，视频即开始下载；否则，仅在最终用户或API调用启动播放后预载开始。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则某些功能在播放开始前可能无法使用；具体而言，搜索操作不会更新视频帧。 如果禁用海报图像，则查看器将显示为空白区域而不是第一个视频帧。 </p> <p>请注意，在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预载。 </p> </td> 
+   <td colname="col2"> <p> 如果设置为<span class="codeph"> 1 </span>，则在设置资产后，视频会立即开始下载；否则，仅在最终用户或API调用启动播放后预载开始。 </p> <p>如果设置为<span class="codeph"> 0 </span>，则某些功能在播放开始前可能无法使用；具体而言，搜索操作不会更新视频帧。 如果禁用海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>请注意，在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预载。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
