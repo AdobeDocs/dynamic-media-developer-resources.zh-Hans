@@ -4,13 +4,14 @@ seo-description: 删除公司的元数据字段。
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 10%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +43,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-此代码示例删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传递到IPS Web服务器的`deleteMetadataFieldParam`中的字段来执行此操作。
+此代码示例将删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传递到IPS Web服务器的`deleteMetadataFieldParam`中的字段来执行此操作。
 
 **请求**
 
