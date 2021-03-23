@@ -1,23 +1,24 @@
 ---
-description: 获取阵列中的所有用户。
-seo-description: 获取阵列中的所有用户。
+description: 获取数组中的所有用户。
+seo-description: 获取数组中的所有用户。
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
-topic: Dynamic Media Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 22%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
 
 
 # getAllUsers{#getallusers}
 
-获取阵列中的所有用户。
+获取数组中的所有用户。
 
 语法
 
@@ -48,8 +49,8 @@ ht-degree: 22%
    <td colname="col3"> 是 </td> 
    <td colname="col4">设置为： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto</span> 包含无效用户。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falle不漏掉无效用户。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto包</span> 括无效用户。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false不能忽略无效用户。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +60,7 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | 是 | 所有用户的阵列。 |
+| `*`userArray`*` | `types:UserArray` | 是 | 所有用户的数组。 |
 | `*`代码短语`*` | `Code Phrase` |  |  |
 
 ## 示例 {#section-9c9a2d335513478da20652c1b1443731}
