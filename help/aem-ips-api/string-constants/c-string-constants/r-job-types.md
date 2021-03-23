@@ -4,13 +4,14 @@ seo-description: 由ActiveJob/type和ScheduledJob/type使用。
 seo-title: 作业类型
 solution: Experience Manager
 title: 作业类型
-topic: Dynamic Media Image Production System API
 uuid: ec55f636-d5c9-419c-b965-eee17ed7e2e7
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
