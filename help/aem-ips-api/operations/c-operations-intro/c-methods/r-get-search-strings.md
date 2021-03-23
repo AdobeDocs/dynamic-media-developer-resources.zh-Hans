@@ -1,23 +1,24 @@
 ---
-description: 获取搜索字符串、关键字和有关资产的其他信息。 该响应包含有关资产的其他信息。
-seo-description: 获取搜索字符串、关键字和有关资产的其他信息。 该响应包含有关资产的其他信息。
+description: 获取有关资产的搜索字符串、关键字和其他信息。 响应中包含有关资产的其他信息。
+seo-description: 获取有关资产的搜索字符串、关键字和其他信息。 响应中包含有关资产的其他信息。
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-topic: Dynamic Media Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 14%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
 
 # getSearchStrings{#getsearchstrings}
 
-获取搜索字符串、关键字和有关资产的其他信息。 该响应包含有关资产的其他信息。
+获取有关资产的搜索字符串、关键字和其他信息。 响应中包含有关资产的其他信息。
 
 语法
 
@@ -30,7 +31,7 @@ ht-degree: 14%
 
 ## 参数 {#section-c1efda4bb15349a68b276bafee8c18fd}
 
-**输入(getSearchStringsParam)**
+**Input(getSearchStringsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -41,11 +42,11 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | 是 | 资产搜索字符串的数组。 |
+| `*`searchStringArray`*` | `types:SearchStrings` | 是 | 资源搜索字符串的数组。 |
 
 ## 示例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-此代码示例返回资产特定搜索字符串。 响应返回空数组。
+此代码示例返回资产特定的搜索字符串。 响应返回空数组。
 
 **请求**
 
