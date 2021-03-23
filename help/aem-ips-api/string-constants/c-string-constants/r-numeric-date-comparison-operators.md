@@ -1,21 +1,22 @@
 ---
 description: 由SystemFieldCondition/op使用。
 seo-description: 由SystemFieldCondition/op使用。
-seo-title: 数字／日期比较运算符
+seo-title: 数值/日期比较运算符
 solution: Experience Manager
-title: 数字／日期比较运算符
-topic: Dynamic Media Image Production System API
+title: 数值/日期比较运算符
 uuid: 95f923df-ba72-4926-a5a4-51cea6d39495
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 7%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
 
-# 数字／日期比较运算符{#numeric-date-comparison-operators}
+# 数字/日期比较运算符{#numeric-date-comparison-operators}
 
 由SystemFieldCondition/op使用。
 
