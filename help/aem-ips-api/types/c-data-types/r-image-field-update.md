@@ -4,13 +4,14 @@ seo-description: 更新与图像资产关联的图像字段。
 seo-title: ImageFieldUpdate
 solution: Experience Manager
 title: ImageFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 
@@ -26,8 +27,8 @@ ht-degree: 8%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 资产句柄。 |
-| `*`分辨率`*` | `xsd:double` | 图像分辨率（以每英寸像素为单位）。 |
+| `*`分辨率`*` | `xsd:double` | 图像分辨率，以像素/英寸为单位。 |
 | `*`anchorX`*` | `xsd:int` | X轴图像锚点。 |
 | `*`anchorY`*` | `xsd:int` | Y轴图像锚点。 |
-| `*`用户数据`*` | `xsd:string` | `userData`元数据字段的值，该字段发布到图像服务用户数据目录字段。 |
+| `*`用户数据`*` | `xsd:string` | `userData`元数据字段的值，将发布到图像服务用户数据目录字段。 |
 
