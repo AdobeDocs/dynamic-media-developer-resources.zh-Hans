@@ -1,23 +1,24 @@
 ---
-description: 反转颜色。 反转每个颜色分量以获得负片效果。
-seo-description: 反转颜色。 反转每个颜色分量以获得负片效果。
+description: 反转颜色。 反转每个颜色分量以获得负片图像效果。
+seo-description: 反转颜色。 反转每个颜色分量以获得负片图像效果。
 seo-title: op_invert
 solution: Experience Manager
 title: op_invert
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bca91ce1-b105-42bf-b4ff-691f26218285
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 
 
 # op_invert{#op-invert}
 
-反转颜色。 反转每个颜色分量以获得负片效果。
+反转颜色。 反转每个颜色分量以获得负片图像效果。
 
 `op_invert=0|1`
 
@@ -27,4 +28,4 @@ ht-degree: 3%
 
 ## 默认 {#section-8040bc4e2a684c629a28b155aa0ba289}
 
-`op_invert=0`，无颜色反转。
+`op_invert=0`，用于不反转颜色。
