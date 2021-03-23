@@ -1,15 +1,16 @@
 ---
-description: 膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
-seo-description: 膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
+description: 膨胀/侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
+seo-description: 膨胀/侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
 seo-title: op_growMask
 solution: Experience Manager
 title: op_growMask
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -17,22 +18,22 @@ ht-degree: 3%
 
 # op_growMask{#op-growmask}
 
-膨胀／侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius &lt; 0)。
+膨胀/侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius &lt; 0)。
 
 `op_growMask= *`半径`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 半径</span> </p> </td> 
-  <td class="stentry"> <p>以像素为单位扩大／侵蚀半径，其中半径假定应用于全分辨率蒙版，因此会缩小缩减采样蒙版(int -100.100)。 </p></td> 
+  <td class="stentry"> <p>扩大/侵蚀半径（以像素为单位），其中假定半径应用于全分辨率蒙版，因此缩小取样缩小蒙版(int -100.100)。 </p></td> 
  </tr> 
 </table>
 
-主要用于稍微增大或缩小遮罩以避免遮罩边缘周围出现伪影。
+主要用于稍微增大或缩小蒙版以避免蒙版边缘周围出现伪影。
 
 ## 属性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-应用于当前层，如果`layer=comp`，则应用于层`0`。
+应用于当前图层，或应用于`layer=comp`的图层`0`。
 
 ## 默认 {#section-14c908bb87cb42acbea709effea2f964}
 
