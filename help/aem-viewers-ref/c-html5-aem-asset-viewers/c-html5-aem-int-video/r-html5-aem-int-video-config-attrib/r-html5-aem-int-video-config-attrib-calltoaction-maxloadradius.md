@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: CallToAction.maxloadradius
 solution: Experience Manager
 title: CallToAction.maxloadradius
-topic: Dynamic Media
 uuid: ec5a4b0d-1dae-456f-a9da-91541cfba1a7
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>如果设置为<span class="codeph"> -1</span>，则在初始化组件或更改资产时，会同时加载所有缩略图。 </p> <p>设置为<span class="codeph"> 0</span>时，仅加载可见的缩略图。 </p> <p>设置为<span class="codeph"><span class="varname"> preloadnbr</span></span>可定义预加载可见区域周围的不可见行／列数。 </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>设置为<span class="codeph"> -1</span>时，将在初始化组件或更改资产时同时加载所有缩略图。 </p> <p>设置为<span class="codeph"> 0</span>时，仅加载可见的缩略图。 </p> <p>设置为<span class="codeph"><span class="varname">预加载nbr</span></span>可定义预加载可见区域周围的不可见行/列数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
