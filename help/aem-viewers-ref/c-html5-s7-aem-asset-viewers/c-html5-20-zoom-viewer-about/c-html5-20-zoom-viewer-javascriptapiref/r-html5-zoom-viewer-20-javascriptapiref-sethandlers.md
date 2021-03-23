@@ -1,23 +1,24 @@
 ---
-description: 视频查看器的JavaScript API参考
-seo-description: 视频查看器的JavaScript API参考
+description: Video Viewer的JavaScript API参考
+seo-description: Video Viewer的JavaScript API参考
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: d69160bf-b4de-4cde-8173-bf4da601a265
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '104'
+ht-degree: 2%
 
 ---
 
 
 # setHandlers{#sethandlers}
 
-视频查看器的JavaScript API参考
+Video Viewer的JavaScript API参考
 
 `setHandlers(handlers)`
 
