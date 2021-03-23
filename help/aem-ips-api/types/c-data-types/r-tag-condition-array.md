@@ -1,23 +1,24 @@
 ---
-description: 一组标记条件。
-seo-description: 一组标记条件。
+description: 一组标签条件。
+seo-description: 一组标签条件。
 seo-title: TagConditionArray
 solution: Experience Manager
 title: TagConditionArray
-topic: Dynamic Media Image Production System API
 uuid: 9ee3b2c5-ba56-4df0-ae80-684d04455437
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
 
 # TagConditionArray{#tagconditionarray}
 
-一组标记条件。
+一组标签条件。
 
 语法
 
@@ -25,5 +26,5 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:TagCondition` | 一组标记条件。 |
+| `*`项目`*` | `types:TagCondition` | 一组标签条件。 |
 
