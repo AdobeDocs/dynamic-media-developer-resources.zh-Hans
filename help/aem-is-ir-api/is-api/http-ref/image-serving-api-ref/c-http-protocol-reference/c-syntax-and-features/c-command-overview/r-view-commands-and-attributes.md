@@ -1,28 +1,29 @@
 ---
-description: 无论这些命令在请求中出现在何处，都会应用这些命令。
-seo-description: 无论这些命令在请求中出现在何处，都会应用这些命令。
+description: 无论这些命令在请求中出现在何处，这些命令都会应用。
+seo-description: 无论这些命令在请求中出现在何处，这些命令都会应用。
 seo-title: 视图命令
 solution: Experience Manager
 title: 视图命令
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
 
 # 视图命令{#view-commands}
 
-无论这些命令在请求中出现在何处，都会应用这些命令。
+无论这些命令在请求中出现在何处，这些命令都会应用。
 
 <table id="simpletable_A423F1CD30EC4DE9AD15C4514F169FC9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7" type="reference" format="dita" scope="local"> 对齐</a> </p> </td> 
-  <td class="stentry"> <p>将视图与合成图像对齐。 </p></td> 
+  <td class="stentry"> <p>将视图与复合图像对齐。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc</a> </p> </td> 
@@ -42,7 +43,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rgn</a> </p> </td> 
-  <td class="stentry"> <p>指定复合图像中的感兴趣区域。 </p></td> 
+  <td class="stentry"> <p>指定合成图像中的目标区域。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc" type="reference" format="dita" scope="local"> scl</a> </p></td> 
