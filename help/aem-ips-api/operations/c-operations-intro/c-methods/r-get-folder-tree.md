@@ -4,12 +4,13 @@ seo-description: 返回分层树结构中的文件夹和子文件夹。 getFolde
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->用户必须具有对文件夹的读取权限才能返回该文件夹上的数据。
+>用户必须具有对文件夹的读取权限才能返回其上的数据。
 
 ## 参数 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -41,14 +42,14 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`accessUserHandle`*` | `xsd:string` | 否 | 仅由管理员用于模拟特定用户。 |
-| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用于按特定组进行筛选，包括公司所属的任何组。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 要检索文件夹和所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
-| `*`深度`*` | `xsd:int` | 是 | 如果值为零，则获取顶级文件夹。 任何其他值都指定要向下到树中的深度。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
+| `*`accessUserHandle`*` | `xsd:string` | 否 | 仅由管理员用来模拟特定用户。 |
+| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用于按特定组(包括公司所属的任何组)进行筛选。 |
+| `*`folderPath`*` | `xsd:string` | 否 | 要检索文件夹及所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 |
+| `*`深度`*` | `xsd:int` | 是 | 值为零将获取顶级文件夹。 任何其他值都指定要降入树的深度。 |
 | `*`assetTypeArray`*` | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
 | `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
-| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要在响应中排除的列表字段。 |
+| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要在响应中排除的字段列表。 |
 
 **输出(getFolderTreeReturn)**
 
@@ -59,7 +60,7 @@ ht-degree: 8%
 
 ## 示例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此代码示例使用公司句柄和深度参数来确定响应应返回的深度级别。 该响应包含文件夹和子文件夹数组以及相关的子文件夹数组。 将深度值设置为较小的数字，以在文件夹树中进行更深入的搜索。
+此代码示例使用公司句柄和深度参数来确定响应应返回的深度级别。 响应包含文件夹和子文件夹数组。 将深度值设置为较小的数字，以在文件夹树中进行更深入的搜索。
 
 **请求**
 
