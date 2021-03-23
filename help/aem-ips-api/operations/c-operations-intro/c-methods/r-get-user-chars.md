@@ -4,13 +4,14 @@ seo-description: 获取特定字段中使用的字符的列表。
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 11%
 | `*`companyHandleArray`*` | `types:HandleArray` | 否 | 根据公司筛选结果。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | 否 | 过滤器结果基于组。 |
 | `*`userRoleArray`*` | `types:StringArray` | 否 | 过滤器结果基于用户角色。 |
-| `*`numChars`*` | `xsd:int` | 否 | 启用1个以上字符。 |
+| `*`numChars`*` | `xsd:int` | 否 | 启用1个字符以上。 |
 
 **输出(getUserCharsReturn)**
 
@@ -52,11 +53,11 @@ ht-degree: 11%
 
 此代码示例返回：
 
-* 特定公司用户姓氏的首个字符。
+* 特定公司用户的姓氏的首字符。
 * 一组组。
 * 一组用户角色。
 
-“用户字符过滤器字段”字符串常数决定返回的用户字符的类型。
+“用户字符过滤器字段”字符串常量决定返回的用户字符的类型。
 
 **请求**
 
