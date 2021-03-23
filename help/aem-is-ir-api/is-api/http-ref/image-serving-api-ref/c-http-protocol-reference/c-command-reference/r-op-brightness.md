@@ -4,12 +4,13 @@ seo-description: 调整亮度。 降低或增加图像亮度。
 seo-title: op_brightness
 solution: Experience Manager
 title: op_brightness
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 3%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 3%
 <table id="simpletable_2B5DB95B1FF044C8BD226D4F8311E806"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>亮度调整(-100..+100 int)。 </p></td> 
+  <td class="stentry"> <p>亮度调整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
