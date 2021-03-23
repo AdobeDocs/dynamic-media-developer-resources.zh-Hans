@@ -1,15 +1,16 @@
 ---
-description: 以下示例展示了文本命令的示例及其如何影响文本。
-seo-description: 以下示例展示了文本命令的示例及其如何影响文本。
+description: 以下示例显示了文本命令的示例及其对文本的影响。
+seo-description: 以下示例显示了文本命令的示例及其对文本的影响。
 seo-title: RTF编码示例
 solution: Experience Manager
 title: RTF编码示例
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # RTF编码示例{#rtf-encoding-examples}
 
-以下示例展示了文本命令的示例及其如何影响文本。
+以下示例显示了文本命令的示例及其对文本的影响。
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
