@@ -4,13 +4,14 @@ seo-description: 创建或编辑缩放目标。
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 20%
+source-wordcount: '138'
+ht-degree: 19%
 
 ---
 
@@ -32,11 +33,11 @@ ht-degree: 20%
 
 ## 参数 {#section-4a23983cae4e49a098e9bbe736933996}
 
-**输入(saveZoomTargetParam)**
+**Input(saveZoomTargetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 带有要保存的缩放公司的目标的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 带有要保存的缩放目标的公司的手柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 缩放目标的手柄。 |
 | `*`zoomTargetHandle`*` | `xsd:string` | 否 | 编辑或创建缩放目标。 |
 | `*`name`*` | `xsd:string` | 是 | 缩放目标名称。 |
