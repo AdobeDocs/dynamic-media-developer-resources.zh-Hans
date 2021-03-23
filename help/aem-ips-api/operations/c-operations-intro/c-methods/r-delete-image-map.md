@@ -4,13 +4,14 @@ seo-description: 删除图像映射。
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 11%
 
 ---
 
@@ -40,8 +41,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像映射的公司的句柄。 |
-| `*`imageMapHandle`*` | `xsd:string` | 是 | 要删除的图像映射的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像映射的公司的手柄。 |
+| `*`imageMapHandle`*` | `xsd:string` | 是 | 要删除的图像映射的手柄。 |
 
 **输出(deleteImageMapParam)**
 
