@@ -1,16 +1,17 @@
 ---
-description: 请求规则元素。 在<规则集>元素中，一个或多个规则是可选的。
-seo-description: 请求规则元素。 在<规则集>元素中，一个或多个规则是可选的。
+description: 请求规则元素。 在<ruleset>元素中，一个或多个规则是可选的。
+seo-description: 请求规则元素。 在<ruleset>元素中，一个或多个规则是可选的。
 seo-title: 规则
 solution: Experience Manager
 title: 规则
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 7%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 7%
 
 `Replace = "first" | "all"`: 可选. 默认为“first”。
 
-`RequestType` =  *&quot;`types`&quot;*:可选。指定规则应用于的输入上下文。 *`types`* 是以逗号分隔的列表符，其中可能包括下表中列出的一个或多个令牌。如果未指定`RequestType`，则此规则适用于在所有支持的上下文上收到的请求。
+`RequestType` =  *&quot;`types`*:可选。指定规则应用于的输入上下文。 *`types`* 是逗号分隔的列表，其中可能包括下表中列出的一个或多个令牌。如果未指定`RequestType`，则此规则适用于在所有支持的上下文上接收的请求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -84,15 +85,15 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> 属性：:RequestLock</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> attribute::RequestLock</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 请求模糊化</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> 属性：:RequestObfuscation</a> </p> </td> 
+   <td> <p> <span class="codeph"> 请求模糊处理</span> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> 属性：:RootUrl</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> SavePath</span> </p> </td> 
@@ -107,7 +108,7 @@ ht-degree: 7%
 
 有关详细信息，请参阅相应图像目录属性的说明。
 
-到期属性只覆盖默认属性值。 如果特定的`catalog::Expiration`值应用于请求，则忽略覆盖。
+过期属性只覆盖默认属性值。 如果特定的`catalog::Expiration`值应用于请求，则忽略覆盖。
 
 ## 数据 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -136,6 +137,6 @@ ht-degree: 7%
 
 如果未指定`<expression>`，则任何路径匹配，并将`<substitution>`附加到路径末尾。
 
-如果未指定`<substitution>`，则不会进行路径或查询转换，但会覆盖任何指定的目录属性。 如果`<substitution>`为空，则删除匹配的子字符串。
+如果未指定`<substitution>`，则不会发生路径或查询转换，但会覆盖任何指定的目录属性。 如果`<substitution>`为空，则删除匹配的子字符串。
 
-`<addressfilter>`仅在出现匹配时和应用查询规则之前应用。
+`<addressfilter>`仅在发生匹配时和应用查询规则之前应用。
