@@ -2,13 +2,14 @@
 description: 支持分析跟踪
 solution: Experience Manager
 title: 支持分析跟踪
-topic: Dynamic Media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 1%
 
 ---
 
@@ -49,13 +50,13 @@ var interactiveImage = new s7viewers.InteractiveImage({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>发送时间…… </p> </th> 
+   <th colname="col2" class="entry"> <p>在…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>查看器先加载。 </p> </td> 
+   <td colname="col2"> <p>将首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
