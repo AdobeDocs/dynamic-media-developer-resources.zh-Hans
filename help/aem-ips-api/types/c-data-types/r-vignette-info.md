@@ -1,23 +1,24 @@
 ---
-description: 暗角资产的属性。
-seo-description: 暗角资产的属性。
-seo-title: 暗角信息
+description: 晕影资产的属性。
+seo-description: 晕影资产的属性。
+seo-title: 晕影信息
 solution: Experience Manager
-title: 暗角信息
-topic: Dynamic Media Image Production System API
+title: 晕影信息
 uuid: 86406541-f117-49a3-909b-bde63d8e9eef
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 18%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
 
 # VignetteInfo{#vignetteinfo}
 
-暗角资产的属性。
+晕影资产的属性。
 
 语法
 
