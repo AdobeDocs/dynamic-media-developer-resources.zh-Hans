@@ -4,12 +4,13 @@ seo-description: Video360查看器的配置属性。
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
-topic: Dynamic Media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 8%
 
 ---
@@ -29,15 +30,15 @@ Video360查看器的配置属性。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标无限期重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定IconEffect显示和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡出</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡入</span></span> </p> </td> 
    <td colname="col2"> <p> 指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 自动隐藏</span></span> </p> </td> 
-   <td colname="col2"> <p> 设置自动隐藏IconEffect前保持完全可见的秒数。 即，在动画淡入完成之后和淡出动画开始之前的时间。 设置为<span class="codeph"> 0</span>可禁用自动隐藏行为。 </p> </td> 
+   <td colname="col2"> <p> 设置IconEffect在自动隐藏前保持完全可见的秒数。 即，淡入动画完成之后和淡出动画开始之前的时间。 设置为<span class="codeph"> 0</span>可禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
