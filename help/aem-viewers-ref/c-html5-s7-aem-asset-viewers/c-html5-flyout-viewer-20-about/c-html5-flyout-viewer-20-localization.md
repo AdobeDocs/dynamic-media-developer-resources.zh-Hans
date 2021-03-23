@@ -1,29 +1,30 @@
 ---
-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
-seo-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
+description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
+seo-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
 seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-topic: Dynamic Media
 uuid: efba09ad-200b-4540-8876-c9e462ec233a
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
-# 用户界面元素本地化{#localization-of-user-interface-elements}
+# 本地化用户界面元素{#localization-of-user-interface-elements}
 
-弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
+弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
 
-查看器中每个可本地化的文本内容都由一个称为SYMBOL的特殊查看器SDK标识符来表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可能根据需要为任意区域设置用户定义的值。
+查看器中每个可本地化的文本内容都由称为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可能根据需要为任意多个区域设置用户定义的值。
 
-查看器开始时，它检查当前区域设置，以查看区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它将返回现成的默认文本。
+查看器开始时，查看器将检查当前区域设置，以查看区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它将回退到现成的默认文本。
 
-用户定义的本地化数据可作为本地化JSON对象传递到查看器。 此类对象包含支持的语言环境列表、每个语言环境的SYMBOL文本值以及默认语言环境。
+用户定义的本地化数据可作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
 
 此类本地化对象的示例如下：
 
@@ -43,7 +44,7 @@ defaultLocale:"en"
 
 在上例中，本地化对象定义两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供本地化。
 
-网页代码应将本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 替代选项是通过调用`setLocalizedTexts(localizationInfo)`方法传递本地化对象。
+网页代码应将本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 另一种方法是通过调用`setLocalizedTexts(localizationInfo)`方法传递本地化对象。
 
 支持以下SYMBOL:
 
@@ -60,7 +61,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>顶级查看器元素的ARIA标签。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>主视图组件的ARIA角色描述。 </p> </td> 
   </tr> 
   <tr> 
@@ -68,11 +69,11 @@ defaultLocale:"en"
    <td colname="col2"> <p>键盘用户的ARIA使用提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_OVER  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
    <td colname="col2"> <p>桌面系统的信息消息。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 弹出缩放视图。TIP_BUBBLE_TAP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
    <td colname="col2"> <p>触控设备的信息消息。 </p> </td> 
   </tr> 
   <tr> 
