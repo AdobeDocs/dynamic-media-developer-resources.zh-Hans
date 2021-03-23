@@ -4,13 +4,14 @@ seo-description: 删除资产的元数据值。 使用元数据删除的数组�
 seo-title: deleteAssetMetadata
 solution: Experience Manager
 title: deleteAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
+feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 11%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -61,14 +62,14 @@ ht-degree: 11%
    <td colname="col4"> <p>要删除的资产的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>元数据删除 </p> </td> 
+   <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要从资产中删除的元数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要从资产中删除的元数组。 </p> </td> 
   </tr> 
