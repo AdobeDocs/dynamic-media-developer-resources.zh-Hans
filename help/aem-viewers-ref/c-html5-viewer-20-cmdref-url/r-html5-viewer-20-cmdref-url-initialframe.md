@@ -4,12 +4,13 @@ seo-description: 所有查看器通用的参数。
 seo-title: initialFrame
 solution: Experience Manager
 title: initialFrame
-topic: Dynamic Media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
+feature: Dynamic Media Classic，查看器，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>设备纵向时跨页中页面的从零开始的索引。 在“从左到右”环境<span class="codeph"> 0</span>表示“左页”,<span class="codeph"> 1</span>表示“右页”。 在“从右到左”中，情况恰恰相反：<span class="codeph"> 0</span>表示“right page”,<span class="codeph"> 1</span>表示“left page”。 </p> <p>如果未指定，则默认情况下假定<span class="codeph"> 0</span>。 设备横向时忽略。 </p> </td> 
+   <td colname="col2"> <p>设备纵向时跨页内页面的从零开始的索引。 在“从左到右”环境<span class="codeph"> 0</span>表示“left page”，而<span class="codeph"> 1</span>表示“right page”。 在“从右到左”中，情况正好相反：<span class="codeph"> 0</span>表示“right page”，<span class="codeph"> 1</span>表示“left page”。 </p> <p>如果未指定，则默认情况下假定<span class="codeph"> 0</span>。 设备横向时忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
