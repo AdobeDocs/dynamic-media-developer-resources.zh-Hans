@@ -4,13 +4,14 @@ seo-description: 替换图像资产的图像数据。
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 15%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 
@@ -32,11 +33,11 @@ ht-degree: 15%
 
 ## 参数 {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
-**输入(replaceImageParam)**
+**Input(replaceImageParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 公司与要替换的图像的控柄。 |
+| `*`companyName`*` | `xsd:string` | 是 | 要替换的图像的公司的手柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 要替换的资产的句柄。 |
 | `*`urlModifier`*` | `xsd:string` | 是 | 生成新图像数据的图像服务器命令。 |
 
