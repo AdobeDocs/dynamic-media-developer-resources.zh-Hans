@@ -2,11 +2,12 @@
 description: 将特定公司的用户添加到特定组。
 solution: Experience Manager
 title: addGroupMembers
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '108'
 ht-degree: 12%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
 | `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
 | `*`userHandleArray`*` | `types:HandleArray` | 是 | 要添加到组的用户的句柄数组。 |
 
