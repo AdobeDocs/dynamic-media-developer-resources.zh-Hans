@@ -1,15 +1,16 @@
 ---
-description: 嵌入路径数据。 指定是否应将嵌入在暗角中的Photoshop路径包含在响应图像中。
-seo-description: 嵌入路径数据。 指定是否应将嵌入在暗角中的Photoshop路径包含在响应图像中。
+description: 嵌入路径数据。 指定是否应将嵌入晕影中的Photoshop路径包含在响应图像中。
+seo-description: 嵌入路径数据。 指定是否应将嵌入晕影中的Photoshop路径包含在响应图像中。
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d40ea1b5-f2d3-4f81-b96f-abb4eb7eb2b3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 3%
 
 # pathEmbed{#pathembed}
 
-嵌入路径数据。 指定是否应将嵌入在暗角中的Photoshop路径包含在响应图像中。
+嵌入路径数据。 指定是否应将嵌入晕影中的Photoshop路径包含在响应图像中。
 
 `pathEmbed=0|1`
 
 ## 属性 {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-请求属性。 如果暗角不包含路径数据，则忽略。 如果需要，路径数据将缩放为`wid=`和／或`hei=`。
+请求属性。 如果晕影不包含路径数据，则忽略。 如果需要，路径数据将缩放为`wid=`和/或`hei=`。
 
-如果输出图像格式不支持路径嵌入，则忽略。 有关支持路径嵌入的输出图像格式列表，请参阅`fmt=`的说明。
+如果输出图像格式不支持路径嵌入，则忽略。 有关支持路径嵌入的输出图像格式的列表，请参阅`fmt=`的说明。
 
 ## 默认 {#section-3be88ed9053b48919ff33af9418078cc}
 
