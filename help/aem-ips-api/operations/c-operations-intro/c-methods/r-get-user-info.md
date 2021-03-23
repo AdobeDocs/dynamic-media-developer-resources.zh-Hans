@@ -1,15 +1,16 @@
 ---
-description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为批准请求的凭据。 否则，操作将获取有关默认用户的信息。
-seo-description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为批准请求的凭据。 否则，操作将获取有关默认用户的信息。
+description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
+seo-description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '178'
 ht-degree: 9%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 9%
 
 # getUserInfo{#getuserinfo}
 
-获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为批准请求的凭据。 否则，操作将获取有关默认用户的信息。
+获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
 
 语法
 
@@ -46,7 +47,7 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效以及密码何时过期。 |
+| `*`userInfo`*` | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效以及用户密码何时过期。 |
 
 ## 示例 {#section-98d77a2e360a438dbe240099bea26a65}
 
