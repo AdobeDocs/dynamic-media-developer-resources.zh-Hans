@@ -4,13 +4,14 @@ seo-description: 删除当前或计划的作业。
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 11%
 
 ---
 
@@ -47,7 +48,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-此代码示例删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从其他操作获取该句柄。
+此代码示例将删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从其他操作获取该句柄。
 
 **请求**
 
