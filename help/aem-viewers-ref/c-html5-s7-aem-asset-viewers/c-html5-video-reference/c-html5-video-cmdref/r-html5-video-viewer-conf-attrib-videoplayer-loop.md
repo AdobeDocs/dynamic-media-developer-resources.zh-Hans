@@ -4,13 +4,14 @@ seo-description: 视频查看器的配置属性。
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 92081e9a-2b4a-4258-9843-32c214e7b9bd
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示视频是否应在播放完成后再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
