@@ -4,13 +4,14 @@ seo-description: 返回按资产类型分组的所有元数据字段。
 seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
+feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 20%
+source-wordcount: '82'
+ht-degree: 18%
 
 ---
 
