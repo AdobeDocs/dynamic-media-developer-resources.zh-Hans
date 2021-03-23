@@ -4,12 +4,13 @@ seo-description: 服务器缓存验证策略。 指定验证服务器端缓存�
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 3%
 
 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 
-借助基于过期时间的验证，将定期检查源图像是否已更改。 使用基于目录的验证，源图像仅在`catalog::TimeStamp`值发生更改后才被检查。
+借助基于过期日期的验证，会定期检查源图像是否已更改。 通过基于目录的验证，源图像仅在`catalog::TimeStamp`值更改后才被检查。
 
-使用图像目录时，建议使用基于目录的验证。 在直接引用图像时应使用基于过期的验证，而无需使用图像目录。
+使用图像目录时，建议使用基于目录的验证。 在直接引用图像时应使用基于过期的验证，而不使用图像目录。
 
 ## 属性 {#section-650cbddd81a24c3b8b70479248a45dc9}
 
