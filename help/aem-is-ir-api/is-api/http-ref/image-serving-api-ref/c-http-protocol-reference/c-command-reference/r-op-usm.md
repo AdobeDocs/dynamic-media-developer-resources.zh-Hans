@@ -1,27 +1,28 @@
 ---
-description: USM锐化。 如果layer=comp，则在进行缩放后，USM锐化图层或最终视图图像。
-seo-description: USM锐化。 如果layer=comp，则在进行缩放后，USM锐化图层或最终视图图像。
+description: 钝化蒙版。 如果layer=comp，则在进行所有缩放后，USM锐化图层或最终视图图像。
+seo-description: 钝化蒙版。 如果layer=comp，则在进行所有缩放后，USM锐化图层或最终视图图像。
 seo-title: op_usm
 solution: Experience Manager
 title: op_usm
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c647e063-2405-489b-b14d-a70638ac8af7
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
 
 # op_usm{#op-usm}
 
-USM锐化。 如果layer=comp，则在进行缩放后，USM锐化图层或最终视图图像。
+钝化蒙版。 如果layer=comp，则在进行所有缩放后，USM锐化图层或最终视图图像。
 
-假定这些参数应用于全分辨率图像并在处理缩减采样图像时缩小。
+假定这些参数应用于全分辨率图像，并在处理缩减采样图像时缩小。
 
-`op_usm= *`单`*[, *``*[, *``*[, *`色`*]]]`
+`op_usm= *``*[, *``*[, *``*[, *`单色`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
@@ -30,11 +31,11 @@ USM锐化。 如果layer=comp，则在进行缩放后，USM锐化图层或最终
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径</span></span> </p></td> 
-  <td class="stentry"> <p>筛选内核半径（以像素为单位）（实数0..250）。 </p></td> 
+  <td class="stentry"> <p>滤镜内核半径（以像素为单位）（实数0...250）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 阀值</span></span> </p></td> 
-  <td class="stentry"> <p>筛选器阈值级别(int 0...255)。 </p></td> 
+  <td class="stentry"> <p>滤镜阈值级别(int 0...255)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 单色</span></span> </p></td> 
@@ -42,11 +43,11 @@ USM锐化。 如果layer=comp，则在进行缩放后，USM锐化图层或最终
  </tr> 
 </table>
 
-图层蒙版或复合蒙版也会被锐化。
+图层蒙版或复合蒙版也会进行锐化。
 
 ## 属性 {#section-fb5311b34d164946b74dadb32359518a}
 
-图层属性或视图属性。 应用于当前层或最终视图图像（如果`layer=comp`）。 被效果图层忽略。
+图层属性或视图属性。 应用于当前图层或最终视图图像（如果`layer=comp`）。 被效果图层忽略。
 
 ## 默认 {#section-2bedc99866ff473e90e5ea36596d8362}
 
