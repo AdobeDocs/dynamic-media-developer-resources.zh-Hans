@@ -4,13 +4,14 @@ seo-description: 视频查看器的配置属性。
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: 7fbf49a6-0881-4c10-b4bb-0f1a9ed8776e
+feature: Dynamic Media Classic，查看器，SDK/API，视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
