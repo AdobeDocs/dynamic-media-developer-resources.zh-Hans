@@ -4,12 +4,13 @@ seo-description: 使用权限资产设置单个资产的权限。
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 8%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 8%
 
 使用权限资产设置单个资产的权限。
 
-默认情况下，资产会继承父级文件夹的权限。 设置资产权限后，资产将不再继承其父资产的权限，除非您调用`removeAssetPermissions`。
+默认情况下，资产会继承父文件夹的权限。 在您对资产设置权限后，除非您调用`removeAssetPermissions`，否则资产不再继承其父资产的权限。
 
 ## 授权用户类型{#section-91fafc170c734ed2a77beafda9221768}
 
@@ -35,7 +36,7 @@ ht-degree: 8%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 包含要处理的文件夹的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 是 | 权限阵列。 |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 是 | 权限数组。 |
 
 **输出(setAssetPermissonsReturn)**
 
