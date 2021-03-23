@@ -1,23 +1,24 @@
 ---
-description: 为一个或多个资产设置缩略图。
-seo-description: 为一个或多个资产设置缩略图。
+description: 设置一个或多个资产的缩略图。
+seo-description: 设置一个或多个资产的缩略图。
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 13%
+source-wordcount: '190'
+ht-degree: 12%
 
 ---
 
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
-为一个或多个资产设置缩略图。
+设置一个或多个资产的缩略图。
 
 语法
 
@@ -42,16 +43,16 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有对目标资产的读／写访问权限，并具有对缩略图资产的读访问权限。
+>用户必须具有对目标资源的读/写访问权限，并具有对缩略图资源的读访问权限。
 
 ## 参数 {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**输入(batchSetThumbAssetParam)**
+**Input(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 包含资产的公司的句柄。 |
-| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | 是 | 更新的阵列。 |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | 是 | 更新的数组。 |
 
 **输出(batchSetThumbAssetParam)**
 
@@ -61,7 +62,7 @@ ht-degree: 13%
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成错误的与资产关联的详细信息数组。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-6de69a8680c24c1486c5f01488393381}
 
