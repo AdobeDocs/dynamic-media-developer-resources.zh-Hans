@@ -4,13 +4,14 @@ seo-description: 从标记字段的字典中删除标记字段值。
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
+source-wordcount: '106'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +32,9 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含标签字段的公司的句柄。 |
 | `*`fieldHandle`*` | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
-| `*`valueArray`*` | `types:StringArray` | 是 | 要从字段的字典中删除的标记值的数组。 |
+| `*`valueArray`*` | `types:StringArray` | 是 | 要从字段的词典中删除的标记值数组。 |
 
 **输出(deleteTagFieldValuesParam)**
 
