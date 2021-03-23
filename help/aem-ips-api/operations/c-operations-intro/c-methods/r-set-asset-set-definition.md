@@ -4,13 +4,14 @@ seo-description: 更新现有资产集的集定义。
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 5%
 
 ---
 
@@ -32,11 +33,11 @@ ht-degree: 6%
 
 ## 参数 {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**输入(setAssetDefinitionParam)**
+**Input(setAssetDefinitionParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 资产集公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 资产集的公司处理。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产集句柄 |
 | `*`setDefinition`*` | `xsd:string` | 是 | 定义字符串。 请参见下文。 |
 
@@ -48,7 +49,7 @@ IPS API不返回此操作的响应。
 
 **setDefinition函数**
 
-在行中指定`setDefinition`替换函数。 在目录查找或发布时，会解决这些问题。 替换字符串的格式为`${<substitution_func>}`，并包含以下内容：
+在行中指定`setDefinition`替换函数。 这些问题在目录查找或发布时得到解决。 替换字符串的格式为`${<substitution_func>}`，并包含以下内容：
 
 >[!NOTE]
 >
@@ -76,7 +77,7 @@ IPS API不返回此操作的响应。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> 目录ID。 适用于基于图像的资产(图像、调整后的视图、图层视图)。 <p>对于其他资产，返回缩略图资产的目录ID（如果有）。 如果没有与资产关联的缩略图资产，该函数将返回一个空字符串。 </p> </td> 
+   <td colname="col2"> 目录ID。 适用于基于图像的资产(图像、已调整视图、图层视图)。 <p>对于其他资产，返回缩略图资产的目录ID（如果有）。 如果没有与资产关联的缩略图资产，该函数将返回一个空字符串。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +92,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-在查找或发布时解析到以下内容：
+在查找或发布时解析为以下内容：
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
