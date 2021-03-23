@@ -4,12 +4,13 @@ seo-description: 客户端IP地址筛选器。 允许指定一个或多个IP地�
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
@@ -19,19 +20,19 @@ ht-degree: 2%
 
 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
 
-如果指定，则来自未列出IP地址的客户端的此图像目录请求将被拒绝。 `localhost` 始终是定义的隐 `ClientAddressFilter` 式部分，即使未显式指定。始自`localhost`的请求从不被拒绝，无论`ClientAddressFilter`规范如何。
+如果指定，则来自未列出IP地址的客户端的此图像目录请求将被拒绝。 `localhost` 始终隐式部分定义， `ClientAddressFilter` 即使未显式指定也是如此。始自`localhost`的请求从不被拒绝，无论`ClientAddressFilter`规范如何。
 
 ## 属性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-以逗号分隔的IP地址列表(使用可选网络掩码（[CIDR表示法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)）:
+以逗号分隔的IP地址列表(使用可选网络掩码（[CIDR表示法](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)）：
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* 格式化的IP *[!DNL ddd.ddd.ddd.ddd]* 地址
+* *[!DNL ipAddress]* 格式的IP地 *[!DNL ddd.ddd.ddd.ddd]* 址
 
 * *[!DNL netmask]* 网络掩码(0...32)
 
-应用具有`<addressfilter>`元素的预处理规则时，忽略此属性。
+应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
 
 ## 默认 {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
