@@ -2,12 +2,13 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-topic: Dynamic Media
 uuid: 3192d810-fb30-44ae-9939-98e890c76e5c
+feature: Dynamic Media Classic，查看器，SDK/API，电子目录
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 分页阴影的宽度（以像素为单位），用于分隔跨页中的左页和右页。 它还控制在车削页面旁边显示的正在运行的阴影的宽度。 </p> </td> 
+   <td colname="col2"> <p> 分隔跨页中左和右页的页面分隔阴影的宽度（以像素为单位）。 它还控制在车削页面旁边显示的正在运行的阴影的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
@@ -31,7 +32,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>的范围内的阴影不透明度。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>范围内的阴影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
@@ -43,7 +44,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> 在翻页动画期间使用的组件区域的实心填充颜色，RRGGBB格式。 </p> </td> 
+   <td colname="col2"> <p> 在翻页动画期间使用的组件区域的纯色填充，采用RRGGBB格式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
