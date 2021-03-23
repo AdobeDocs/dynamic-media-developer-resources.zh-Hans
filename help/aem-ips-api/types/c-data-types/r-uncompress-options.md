@@ -1,23 +1,24 @@
 ---
-description: 上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
-seo-description: 上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
+description: 上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
+seo-description: 上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
 seo-title: UnCompressOptions
 solution: Experience Manager
 title: UnCompressOptions
-topic: Dynamic Media Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 6%
+source-wordcount: '121'
+ht-degree: 5%
 
 ---
 
 
 # UnCompressOptions{#uncompressoptions}
 
-上传设置以将ZIP和TAR文件作为主资产（无）进行处理，或提取并上传其内容（解压缩）。
+上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
 
 >[!NOTE]
 >
@@ -39,7 +40,7 @@ ht-degree: 6%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>控制ZIP和TAR存档文件处理。 提供2个选项： 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：作</span> 为主资产处理。 </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 无：处</span> 理为主资产。 </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress：提</span> 取和处理内容。 </li>
      </ul><p>注意：字符串常量区分大小写。 使用<span class="codeph"> UnCompress</span>，而不是<span class="codeph">解压缩</span>或<span class="codeph"> unCompress</span>。 </p></p> </td> 
   </tr> 
