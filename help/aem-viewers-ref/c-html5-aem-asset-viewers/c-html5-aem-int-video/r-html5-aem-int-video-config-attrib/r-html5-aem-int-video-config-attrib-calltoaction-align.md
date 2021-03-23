@@ -4,13 +4,14 @@ seo-description: 交互式视频查看器的配置属性。
 seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-topic: Dynamic Media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -24,8 +25,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐（或锚定）。 </p> <p>在行动动员中，内部缩略图容器的大小会调整为仅显示整个数量的缩略图。 因此，内部容器和外部组件边界之间存在一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐（或锚定）。 </p> <p>在行动动员中，内部缩略图容器会调整为大小，因此只显示整个数量的缩略图。 因此，内部容器和外部组件边界之间存在一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
