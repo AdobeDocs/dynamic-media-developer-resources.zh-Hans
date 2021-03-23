@@ -3,14 +3,15 @@ description: 缩放图像。 相对于全分辨率图像按因子缩放图像。
 seo-description: 缩放图像。 相对于全分辨率图像按因子缩放图像。
 seo-title: scale
 solution: Experience Manager
-title: 规模
-topic: Dynamic Media Image Serving - Image Rendering API
+title: 缩放
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 9%
 
 ## 默认 {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-如果未指定，则不使用缩放来使用图像。
+如果未指定，则使用图像时不进行缩放。
 
 ## 示例 {#section-d5526953d6434c58bb2388bd936c13b5}
 
