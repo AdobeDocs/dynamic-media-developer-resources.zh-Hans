@@ -1,16 +1,17 @@
 ---
 description: 一组元数据更新。
 seo-description: 一组元数据更新。
-seo-title: 元数据更新阵列
+seo-title: MetadataUpdateArray
 solution: Experience Manager
-title: 元数据更新阵列
-topic: Dynamic Media Image Production System API
+title: MetadataUpdateArray
 uuid: 2d79e7a0-b8bd-4746-a5d7-b742913ebc20
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
@@ -25,5 +26,5 @@ ht-degree: 21%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:MetadataUpdate` | 元数据更新的阵列。 |
+| `*`项目`*` | `types:MetadataUpdate` | 元数据更新的数组。 |
 
