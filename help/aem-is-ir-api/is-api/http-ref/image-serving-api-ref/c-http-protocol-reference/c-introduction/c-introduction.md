@@ -1,15 +1,16 @@
 ---
-description: 本文档描述Dynamic Media图像服务的HTTP协议。
-seo-description: 本文档描述Dynamic Media图像服务的HTTP协议。
+description: 本文档介绍Dynamic Media图像服务的HTTP协议。
+seo-description: 本文档介绍Dynamic Media图像服务的HTTP协议。
 seo-title: 简介
 solution: Experience Manager
 title: 简介
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03e7ceb2-afc4-4ec1-b43b-c170c9872619
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
@@ -17,6 +18,6 @@ ht-degree: 4%
 
 # 简介{#introduction}
 
-本文档描述Dynamic Media图像服务的HTTP协议。
+本文档介绍Dynamic Media图像服务的HTTP协议。
 
-只描述了协议的公开可用方面。 该服务器可支持其他命令，这些命令被保留用于Dynamic Media客户端软件。
+仅描述了该协议的公开可用方面。 服务器可能支持其他命令，这些命令保留供Dynamic Media客户端软件使用。
