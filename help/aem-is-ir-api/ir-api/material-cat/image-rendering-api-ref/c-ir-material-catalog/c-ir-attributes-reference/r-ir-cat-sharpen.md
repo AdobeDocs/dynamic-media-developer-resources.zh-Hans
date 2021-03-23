@@ -4,13 +4,14 @@ seo-description: 默认回复图像锐化。 指定在编码前缩放回复图�
 seo-title: 锐化
 solution: Experience Manager
 title: 锐化
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 12%
+source-wordcount: '73'
+ht-degree: 10%
 
 ---
 
