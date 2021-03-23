@@ -4,12 +4,13 @@ seo-description: 裁剪图像。 指定矩形裁剪区域，以像素表示或�
 seo-title: 裁切
 solution: Experience Manager
 title: 裁切
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
@@ -25,28 +26,28 @@ ht-degree: 3%
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 坐标</span></span> </p> </td> 
-  <td class="stentry"> <p>从源图像的左上角到裁剪矩形的左上角的像素偏移量(int, int)。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
+  <td class="stentry"> <p>从源图像的左上角到裁剪矩形的左上角的像素偏移(int， int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
-  <td class="stentry"> <p>从源图像的左上角到裁剪矩形的左上角的标准化偏移(real、real)。 </p></td> 
+  <td class="stentry"> <p>从源图像左上角到裁剪矩形左上角的标准化偏移（实、实）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 大小</span></span> </p></td> 
-  <td class="stentry"> <p>裁剪矩形的大小(以像素为单位(int、int)。 </p></td> 
+  <td class="stentry"> <p>裁剪矩形的大小(以像素为单位(int， int))。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span></span> </p></td> 
-  <td class="stentry"> <p>裁剪矩形相对于源图像大小的标准化大小(real、real)。 </p></td> 
+  <td class="stentry"> <p>裁剪矩形相对于源图像大小的标准化大小（实数、实数）。 </p></td> 
  </tr> 
 </table>
 
-还可以通过指定负x、y值和／或宽度、高度值（大于图像宽度、高度），将图像扩展到其边界以外。 在这种情况下，扩展区域完全透明（除非指定`bgColor=`）。
+还可以通过指定负x、y值和/或宽度、大于图像宽度和高度的高度值，使图像扩展到其边界之外。 在这种情况下，扩展区域是完全透明的（除非指定了`bgColor=`）。
 
 ## 属性 {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-源图像／蒙版属性。 如果`layer=comp`，则应用于第0层源图像。 被未与源图像或蒙版关联的图层忽略。
+源图像/蒙版属性。 如果`layer=comp`，则应用于图层0源图像。 未与源图像或蒙版关联的图层忽略。
 
 ## 默认 {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -54,11 +55,11 @@ ht-degree: 3%
 
 ## 示例 {#section-2c99b481c0a04321979a3b522aa295d1}
 
-**在左边裁剪10%，在右边裁剪10%:**
+**裁切左边10%，右边10%:**
 
 `…&cropN=0.1,0,0.8,1&…`
 
-**裁切图像底边20%:**
+**裁剪图像底边20%:**
 
 `…&cropN=0,0,1,0.8&…`
 
