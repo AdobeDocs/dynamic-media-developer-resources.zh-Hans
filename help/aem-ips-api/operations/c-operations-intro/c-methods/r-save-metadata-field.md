@@ -4,13 +4,14 @@ seo-description: 创建或编辑元数据字段。 忽略可选字段句柄以�
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic，SDK/API，元数据
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '243'
+ht-degree: 14%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的把手。 </td> 
+   <td colname="col4"> 公司的手柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -57,10 +58,10 @@ ht-degree: 15%
    <td colname="col4"> 字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 资产类型</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 选择要从中保存元数据的资产类型。 </td> 
+   <td colname="col4"> 要从中保存元数据的资产类型选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
@@ -72,7 +73,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元数据字段类型的选项。 </td> 
+   <td colname="col4"> 元数据字段类型的选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -84,7 +85,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开特定于IPS系统的元数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
@@ -103,7 +104,7 @@ ht-degree: 15%
 
 ## 示例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代码示例创建一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它将更改元数据值并获得您在请求中指定的相同字段句柄。
+此代码示例创建了一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它会更改元数据值并获得您在请求中指定的相同字段句柄。
 
 **请求**
 
