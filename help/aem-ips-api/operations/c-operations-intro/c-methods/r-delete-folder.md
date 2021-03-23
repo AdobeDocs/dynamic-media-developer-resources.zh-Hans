@@ -4,13 +4,14 @@ seo-description: 删除文件夹。
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '107'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->用户必须具有对文件夹及其所有子文件夹的读取和删除权限。
+>用户必须具有对文件夹及其所有子文件夹的读取和删除访问权限。
 
 ## 参数 {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
