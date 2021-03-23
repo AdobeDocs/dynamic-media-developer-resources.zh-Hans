@@ -1,15 +1,16 @@
 ---
-description: 窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和窗帘）。
-seo-description: 窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和窗帘）。
+description: 窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和百叶窗）。
+seo-description: 窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和百叶窗）。
 seo-title: 窗盖
 solution: Experience Manager
 title: 窗盖
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 3%
 
 # 窗口覆盖{#window-coverings}
 
-窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和窗帘）。
+窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和百叶窗）。
 
-窗口覆盖材料指定一个&#x200B;*窗口覆盖样式文件*（[!DNL .vnw]文件扩展名），一个与暗角相似的特殊数据文件，包含定义窗口覆盖的蒙版、照明、布局和纹理化数据。
+窗口覆盖材料指定一个&#x200B;*窗口覆盖样式文件*（[!DNL .vnw]文件扩展名），一个类似于晕影的特殊数据文件，包含定义窗口覆盖的蒙版、照明、布局和纹理化数据。
 
-[!DNL vnw] 文件不包括窗口覆盖的颜色和纹理（结构）。此信息是单独指定的，类似于可重复的纹理。
+[!DNL vnw] 文件不包括用于窗口覆盖的颜色和纹理（结构）。此信息是单独指定的，类似于可重复的纹理。
 
 窗口覆盖材料只能应用于“窗口覆盖框架对象”（即重叠对象）。
 
@@ -36,7 +37,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>窗口覆盖样式文件；必填。 </p> </td> 
+   <td colname="col2"> <p>窗口覆盖样式文件；。 </p> </td> 
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 
   <tr> 
