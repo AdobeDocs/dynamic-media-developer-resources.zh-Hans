@@ -4,13 +4,14 @@ seo-description: 返回资产的发布历史记录。
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
+feature: Dynamic Media Classic，SDK/API，资产管理
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 16%
 
 ## 示例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此代码示例返回资产的发布历史记录。 如果服务器返回空数组，则资产从未发布过。
+此代码示例返回资产的发布历史记录。 如果服务器返回空数组，则资产从未发布。
 
 **请求**
 
