@@ -1,29 +1,30 @@
 ---
-description: 装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及内部或外部应用中使用的不可重复的平面物体，如地毯、挂壁艺术、标志等。
-seo-description: 装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及内部或外部应用中使用的不可重复的平面物体，如地毯、挂壁艺术、标志等。
+description: 装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及在内部或外部应用中使用的非可重复的平面物体，如地毯、挂壁艺术、标志等。
+seo-description: 装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及在内部或外部应用中使用的非可重复的平面物体，如地毯、挂壁艺术、标志等。
 seo-title: 十字
 solution: Experience Manager
 title: 十字
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
 
-# Decals{#decals}
+# 十字{#decals}
 
-装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及内部或外部应用中使用的不可重复的平面物体，如地毯、挂壁艺术、标志等。
+装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及在内部或外部应用中使用的非可重复的平面物体，如地毯、挂壁艺术、标志等。
 
-如果材料是在十级MSS中指定的，则它被视为十级。 贴牌通常是RGBA图像，其alpha渠道定义贴牌的形状。
+如果材料是在十级MSS中指定的，则它被视为十级。 贴子通常是RGBA图像，Alpha渠道定义贴子的形状。
 
-一个贴面可应用于每个平面、流线、草图、平面或壁对象（除非设置“无纹理”标志）。 通过将贴子的`anchor=`与暗角对象的贴子来源点对齐，贴子应用于对象。 该位置可用`pos=`进一步调整。
+可以将一个贴面应用于每个平面、流线、草图、平面或壁对象（除非设置了“无纹理”标志）。 通过将倾斜体的`anchor=`与晕影对象的倾斜来源点对齐，将倾斜体应用于对象。 该位置可用`pos=`进一步调整。
 
-如果贴壁材料定义厚度，而暗角对象定义光矢量，则渲染投影。
+如果倾斜材料定义厚度，而晕影对象定义光矢量，则渲染投影。
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -36,13 +37,13 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>图像（通常使用alpha）;必填。 </p> </td> 
+   <td colname="col2"> <p>图像（通常使用Alpha）；。 </p> </td> 
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size=  </span> </a> </p> </td> 
    <td colname="col2"> <p>倾斜宽度、高度和厚度（用于投影）。 </p> </td> 
-   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res </span>、imageHeight  <span class="varname"> x  </span>  <span class="codeph"> res、0  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="varname"> imageWidth  </span> x  <span class="codeph"> res </span>,  <span class="varname"> imageHeight  </span> x  <span class="codeph"> res， 0  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
