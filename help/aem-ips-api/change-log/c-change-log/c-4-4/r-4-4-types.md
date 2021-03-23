@@ -1,13 +1,14 @@
 ---
 description: 介绍IPS API版本4.4的新数据类型和已更改的数据类型。
 solution: Experience Manager
-title: 数据类型新增和修改
-topic: Dynamic Media Image Production System API
+title: 数据类型新建和修改
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
