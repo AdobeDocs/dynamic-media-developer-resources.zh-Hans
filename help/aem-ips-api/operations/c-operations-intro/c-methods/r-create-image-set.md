@@ -4,12 +4,13 @@ seo-description: 创建图像集。
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
+feature: Dynamic Media Classic，SDK/API，图像集
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '150'
 ht-degree: 14%
 
 ---
@@ -32,19 +33,19 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->用户必须具有对目标文件夹的读／写访问权限。
+>用户必须具有目标文件夹的读/写访问权限。
 
 ## 参数 {#section-03d22ba7d290477e91c25ca1d4439200}
 
-**输入(createImageSetParam)**
+**Input(createImageSetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 图像集所属公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 图像集所属公司的手柄。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 文件夹的句柄。 |
 | `*`name`*` | `xsd:string` | 是 | 图像集名称。 |
 | `*`类型`*` | `xsd:string` | 是 | 图像集类型。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作新图像集的缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资产。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作新图像集缩略图的资产处理。 如果未指定，IPS将尝试使用由集引用的第一个图像资源。 |
 
 **输出**
 
