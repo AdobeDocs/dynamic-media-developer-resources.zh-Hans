@@ -4,12 +4,13 @@ seo-description: 定期从指定的服务器目录上载文件。
 seo-title: UploadDirectoryJob
 solution: Experience Manager
 title: UploadDirectoryJob
-topic: Dynamic Media Image Production System API
 uuid: 6e6ae415-7c54-4bbb-aa98-ff9a77d956b0
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '486'
 ht-degree: 6%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoColorOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AutoColorOptions</span> </td> 
    <td colname="col3"> <p>自动图像裁剪选项（基于颜色）。 </p> </td> 
   </tr> 
   <tr> 
@@ -44,13 +45,13 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoTransparentCropOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：AutoTransparentCropOptions</span> </td> 
    <td colname="col3"> <p>根据透明度从图像边缘删除空白。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ColorManagementOptions</span> </td> 
-   <td colname="col3"> <p>上传过程中可以指定的选项。 该设置会影响上传颜色的管理方式。 </p> </td> 
+   <td colname="col3"> <p>可在上载过程中指定的选项。 该设置会影响对上载的颜色的管理方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
@@ -65,12 +66,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>电子邮件设置选项。 </p> </td> 
+   <td colname="col3"> <p>选择电子邮件设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：IllustratorOptions</span> </td> 
-   <td colname="col3"> <p>将Illustrator文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将Illustrator文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolder</span> </span> </td> 
@@ -80,12 +81,12 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：InDesignOptions</span> </td> 
-   <td colname="col3"> <p>将InDesign文件上传到服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将InDesign文件上载到服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 挖空背景</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:KnockoudBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将其叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> types:KnockoutBackgroundOptions</span> </td> 
+   <td colname="col3"> <p>遮住所选图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -100,31 +101,31 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆盖</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>文件上传覆盖选项。 </p> </td> 
+   <td colname="col3"> <p>文件上载覆盖选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdf选项</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：PDFOptions</span> </td> 
-   <td colname="col3"> <p>将PDF文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将PDF文件上载到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>将Photoshop文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col3"> <p>用于将Photoshop文件上传到图像服务器的选项。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>文件上传目标的URL。 </p> </td> 
+   <td colname="col3"> <p>文件上载目标的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> types:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>上载完成后运行的图像渲染发布作业的详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> <p>上传完成后运行的图像服务发布作业的详细信息。 </p> </td> 
   </tr> 
   <tr> 
@@ -139,18 +140,18 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：VideoPublishJob</span> </td> 
    <td colname="col3"> <p>上传完成后运行的视频发布作业的详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认值为true。 </p> </td> 
+   <td colname="col3"> <p>控制任何现有裁剪定义的保留。 默认为true。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>控制在覆盖时是否保留现有资产的发布状态。 如果未设置，则使用公司默认设置。 </p> </td> 
+   <td colname="col3"> <p>控制在覆盖时是否保留现有资源的发布状态。 如果未设置，则使用公司默认设置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processMetadataFiles</span> </span> </td> 
@@ -160,7 +161,7 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3"> <p>项目句柄的数组。 </p> </td> 
+   <td colname="col3"> <p>项目句柄数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
@@ -170,17 +171,17 @@ ht-degree: 6%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDir</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>源上传目录。 </p> </td> 
+   <td colname="col3"> <p>源上载目录。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>使用这些可选设置提取并处理已上传的TAR/ZIP文件的内容。 </p> <p>请参阅<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>使用这些可选设置提取和处理已上载的TAR/ZIP文件的内容。 </p> <p>请参阅<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> usmsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:USMsharpMaskOptions</span> </td> 
-   <td colname="col3"> <p>用于在创建优化的金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：USMsharpMaskOptions</span> </td> 
+   <td colname="col3"> <p>用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置有助于提高图像锐度。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UsmarpMaskOptions</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
