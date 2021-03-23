@@ -4,12 +4,13 @@ seo-description: 打印分辨率。 覆盖嵌入在响应图像中的打印分�
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
@@ -19,18 +20,18 @@ ht-degree: 2%
 
 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
 
-`printRes= *`val`*`
+`printRes= *`瓦尔`*`
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
   <td class="stentry"> <p>打印分辨率(dpi)。 </p></td> 
  </tr> 
 </table>
 
 打印分辨率通常由`catalog::PrintResolution`定义（如果是目录条目），否则由嵌入在源图像中的打印分辨率值定义。 如果是模板或分层复合图像，则嵌入响应文件中的默认打印分辨率是具有最低图层编号的图层图像的打印分辨率。
 
-设置打印分辨率不会改变回复图像的像素大小。
+设置打印分辨率不会更改回复图像的像素大小。
 
 ## 属性 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
