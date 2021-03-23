@@ -1,34 +1,35 @@
 ---
-description: 纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
-seo-description: 纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
+description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
+seo-description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
 seo-title: 重复
 solution: Experience Manager
 title: 重复
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 19%
+source-wordcount: '150'
+ht-degree: 18%
 
 ---
 
 
 # 重复{#repeat}
 
-纹理重复模式。 指定如何平铺纹理图像以填充目标表面。
+纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
 
 ## 属性 {#section-cef4109cddf54ce095c3293d85bc412d}
 
 枚举。 仅用于可重复的纹理。 忽略所有其他材料。
 
-允许以下值用于可重复的纹理材料：
+允许对可重复的纹理材料使用以下值：
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>0 </p></td> 
-  <td class="- topic/stentry stentry"> <p>直接重复。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>直的重复。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>1 </p></td> 
@@ -36,7 +37,7 @@ ht-degree: 19%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>2 </p></td> 
-  <td class="- topic/stentry stentry"> <p>八向随机拼贴。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>8向随机拼贴。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>3 </p></td> 
@@ -60,15 +61,15 @@ ht-degree: 19%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>翻墙纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>翻墙纸挂起。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>随机壁纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>随机壁纸挂起。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>随机投放。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>随机丢弃。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
@@ -88,7 +89,7 @@ ht-degree: 19%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>高频随机化器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>高频随机器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
@@ -110,7 +111,7 @@ ht-degree: 19%
 
 ## 默认 {#section-23fba3bd1f3544c7913d12f2ca148517}
 
-0（直接重复）。
+0（直重复）。
 
 ## 另请参阅 {#section-a08887a91db34ed3b183899c69c9f74f}
 
