@@ -1,12 +1,13 @@
 ---
-description: IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）可从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含引用版本化目标XML命名空间的新WSDL文件。 以前的WSDL命名空间版本也受支持，可以向后兼容现有应用程序。
+description: IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个新的WSDL文件，该文件引用了版本化的目标 XML命名空间。 还支持以前的WSDL命名空间版本，以便向后兼容现有应用程序。
 solution: Experience Manager
 title: IPS Web服务WSDL版本
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 1%
 
 # IPS Web服务WSDL版本{#ips-web-service-wsdl-versions}
 
-IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）可从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含引用版本化目标XML命名空间的新WSDL文件。 以前的WSDL命名空间版本也受支持，可以向后兼容现有应用程序。
+IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个新的WSDL文件，该文件引用了版本化的目标 XML命名空间。 还支持以前的WSDL命名空间版本，以便向后兼容现有应用程序。
 
 ## WSDL访问{#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-访问Scene7WSDL，如下所示。
+访问Scene7 WSDL，如下所示。
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,14 +37,14 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**访问Dynamic Media地区的URL**
+**访问Dynamic Media区域的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>地理位置 </p> </th> 
    <th colname="col2" class="entry"> <p>生产URL </p> </th> 
-   <th colname="col3" class="entry"> <p>暂存URL（用于预制作开发和测试） </p> </th> 
+   <th colname="col3" class="entry"> <p>暂存URL（用于预生产开发和测试） </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -58,7 +59,7 @@ services/IpsApiService
    <td colname="col3"> <p> https://s7sps3apissl-staging.scene7.com/scene7/ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>日本／亚太地区 </p> </td> 
+   <td colname="col1"> <p>日本/亚太 </p> </td> 
    <td colname="col2"> <p> https://s7sps5apissl.scene7.com/scene7/ </p> </td> 
    <td colname="col3"> <p> https://s7sps5apissl-staging.scene7.com/scene7/ </p> </td> 
   </tr> 
@@ -67,7 +68,7 @@ services/IpsApiService
 
 ## 支持的WSDL {#section-ebbba69880f94e9c823f1147974eb404}
 
-请记住，如果要使用最新版IPS API中的功能，可能需要修改代码。 IPS API支持以下版本的WSDL:
+请记住，如果要使用最新版IPS API中的功能，您可能需要修改代码。 IPS API支持以下版本的WSDL:
 
 <table id="table_6FABCC4E7786448CB56C343E3C0B36CA"> 
  <thead> 
@@ -114,7 +115,7 @@ services/IpsApiService
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0之前版本 </p> </td> 
+   <td colname="col1"> <p>4.0之前 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
@@ -135,11 +136,11 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 **SOAP操作标题**
 
-要处理请求，请将SOAPAction HTTP头设置为所请求操作的名称。 WSDL绑定部分中的操作名称属性指定该名称。
+要处理请求，请将SOAPAction HTTP头设置为所请求操作的名称。 WSDL绑定部分中的操作名称属性指定名称。
 
 **消息格式**
 
-文档/文本样式用于所有输入和输出消息，这些消息的类型基于XML模式定义语言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))，并在WSDL文件中指定。 所有类型都需要使用WSDL文件中指定的目标命名空间值来限定名称。
+文档/文本样式用于所有基于XML模式定义语言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))的类型在WSDL文件中指定的输入和输出消息。 所有类型都需要使用在WSDL文件中指定的目标命名空间值限定名称。
 
 **请求身份验证**
 
@@ -177,15 +178,15 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 密码 </span> </p> </td> 
-   <td colname="col2"> <p>用户帐户的口令。 </p> </td> 
+   <td colname="col2"> <p>用户帐户的密码。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> 请求的可选区域设置。 有关详细信息，请参阅<b>区域设置</b>。 </p> </td> 
+   <td colname="col2"> <p> 请求的可选区域设置。 有关详细信息，请参阅<b>Locale</b>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
-   <td colname="col2"> <p> 调用应用程序名称。 此参数是可选的，但建议将其包含在所有请求中。 </p> </td> 
+   <td colname="col2"> <p> 正在调用应用程序名称。 此参数是可选的，但建议将其包含在所有请求中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
@@ -193,18 +194,18 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
-   <td colname="col2"> <p> 用于启用或禁用响应XML的gzip压缩的可选标志。 默认情况下，如果HTTP Accept-Encoding头指示支持gzip，则响应会进行gzip压缩。 </p> </td> 
+   <td colname="col2"> <p> 用于启用或禁用响应XML的gzip压缩的可选标志。 默认情况下，如果HTTP Accept-Encoding头指示支持gzip，则会压缩响应。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode  </span> </p> </td> 
-   <td colname="col2"> <p> 用于覆盖故障响应的HTTP状态代码的可选参数。 默认情况下，错误响应返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括AdobeFlash)无法读取响应正文，除非返回状态代码200（确定）。 </p> </td> 
+   <td colname="col2"> <p> 用于覆盖故障响应的HTTP状态代码的可选参数。 默认情况下，错误响应返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括AdobeFlash)无法读取响应体，除非返回状态代码200(OK)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 无论API版本如何，`authHeader`元素始终在命名空间`http://www.scene7.com/IpsApi/xsd`中定义。
 
-以下是在请求SOAP头中使用`authHeader`元素的示例：
+以下是在请求SOAP标头中使用`authHeader`元素的示例：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +220,17 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 **其他请求身份验证方法**
 
-如果由于某种原因客户端应用程序无法传递`authHeader` SOAP头，则API请求还可以使用HTTP Basic身份验证（如RFC 2617中指定）指定凭据。
+如果由于某种原因，您的客户端应用程序无法传递`authHeader` SOAP头，则API请求还可以使用HTTP基本身份验证（如RFC 2617中指定）指定凭据。
 
-对于HTTP Basic身份验证，每个SOAPPOST请求的HTTP头部分必须包含表单的头：
+对于HTTP基本身份验证，每个SOAPPOST请求的HTTP头部分必须包含表单的头：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
 其中`base64()`应用标准Base64编码，`<IPS_user_email>`是有效IPS用户的电子邮件地址，`<password>`是用户的密码。
 
-使用初始请求以先机方式发送授权头。 如果请求中未包含身份验证凭据，则`IpsApiService`不以状态代码`401 (Unauthorized)`进行响应。 而是返回状态代码`500 (Internal Server Error)`，并返回一个SOAP错误主体，表明无法验证请求。
+使用初始请求预先发送授权头。 如果请求中未包含身份验证凭据，则`IpsApiService`不会以`401 (Unauthorized)`的状态代码进行响应。 相反，将返回`500 (Internal Server Error)`的状态代码，并返回一个SOAP错误正文，说明无法验证请求。
 
-在IPS 3.8之前，通过SOAP头进行的身份验证是使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实现的。 例如：
+在IPS 3.8之前，通过SOAP头的身份验证是使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实现的。 例如：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,11 +239,11 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 </soap:Header>
 ```
 
-此样式仍支持向后兼容性，但已弃用，而`authHeader`元素更是如此。
+此样式仍支持向后兼容，但已弃用，支持`authHeader`元素。
 
 **请求授权**
 
-在对呼叫者的凭据进行身份验证后，检查请求以确保呼叫者被授权执行所请求的操作。 授权基于呼叫者的用户角色，并且可能还需要检查目标公司、目标用户和其他操作参数。 此外，图像门户用户必须属于具有执行某些文件夹和资产操作所需权限的组。 “操作参考”部分详细介绍了每个操作的授权要求。
+在对呼叫者的凭据进行身份验证后，检查请求以确保呼叫者被授权执行所请求的操作。 授权基于呼叫者的用户角色，并且可能还需要检查目标公司、目标用户和其他操作参数。 此外，图像门户用户必须属于具有执行某些文件夹和资产操作所需权限的组。 “操作参考”部分详细说明了每个操作的授权要求。
 
 **示例SOAP请求和响应**
 
@@ -300,7 +301,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP错误**
 
-当操作遇到异常情况时，SOAP错误作为SOAP消息的正文返回，代替正常响应。 例如，如果非管理员用户尝试发送以前的`addCompany`请求，则返回以下响应：
+当操作遇到异常情况时，将返回一个SOAP错误作为SOAP消息的正文，代替正常响应。 例如，如果非管理员用户尝试发送以前的`addCompany`请求，则返回以下响应：
 
 ```
 HTTP/1.1 500 Internal Server Error 
