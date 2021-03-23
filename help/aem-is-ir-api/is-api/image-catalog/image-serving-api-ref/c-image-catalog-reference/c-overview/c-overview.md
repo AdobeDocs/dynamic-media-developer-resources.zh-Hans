@@ -4,13 +4,14 @@ seo-description: 图像目录用于向服务器提供有关图像和支持数据
 seo-title: 概述
 solution: Experience Manager
 title: 概述
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -21,14 +22,14 @@ ht-degree: 1%
 
 图像目录用于向服务器提供有关图像和支持数据(如字体和ICC用户档案)的信息。
 
-每个图像目录都由所需的目录属性文件和一组可选目录数据文件组成：
+每个图像目录都包含所需的目录属性文件和一组可选目录数据文件：
 
 * 图像数据文件，它列出图像和模板及其关联的元数据。
-* SVG数据文件，它列出SVG文件及其相关元数据。
+* SVG数据文件，它列出SVG文件及其关联的元数据。
 * 宏定义文件，它提供请求宏的定义。
 * 字体映射文件，用于跟踪文本字体。
-* 用户档案映射文件，它列出ICC颜色用户档案。
-* 规则集文件，它定义HTTP请求预处理规则。
+* 用户档案映射文件，用于列出ICC颜色用户档案。
+* 规则集文件，用于定义HTTP请求预处理规则。
 
 目录数据文件按目录属性文件中的文件引用与图像目录关联。 同一目录数据文件可由多个图像目录共享。
 
