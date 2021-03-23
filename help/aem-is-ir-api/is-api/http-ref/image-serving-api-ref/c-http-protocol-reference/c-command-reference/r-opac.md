@@ -4,12 +4,13 @@ seo-description: 调整图像不透明度。 允许降低图像、文本、纯�
 seo-title: opac
 solution: Experience Manager
 title: opac
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
+feature: Dynamic Media Classic，SDK/API
+role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 2%
 
 调整图像不透明度。 允许降低图像、文本、纯色或效果图层的前景不透明度。
 
-`opac= *`不透明`*[, *`度填充不透明度`*]`
+`opac= *`不透`*[, *`明填充不透明度`*]`
 
 <table id="simpletable_DA4B5D86C496480886FADB284AD6047F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 不透明度</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 不透明</span> </p> </td> 
   <td class="stentry"> <p>主不透明度(0...100 int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -32,13 +33,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-图像图层的前景不透明度由图层蒙版或图像的alpha渠道决定，或者，如果两者都不存在，则为100%。 文本图层的前景不透明度为100%，纯色图层的前景不透明度由`color=`设置。
+图像图层的前景不透明度由图层蒙版或图像的Alpha渠道决定，或者，如果两者都不存在，则为100%。 文本图层的前景不透明度为100%，纯色图层的前景不透明度由`color=`设置。
 
-`opac=` 绝不修改用或填充的区域的不 `color=` 透明度 `bgColor=`，纯色和效果图层（设置为）的前景区域 `color=`除外。
+`opac=` 除了纯色和效果图层(设置 `color=` 为 `bgColor=`)的前景区域外，永远不要修改用或填充的区域的不 `color=`透明度。
 
-当在图像、文本或纯色图层中指定时，*`opacity`*&#x200B;将应用整个图层，包括所有关联的效果图层，而&#x200B;*`fillOpacity`*&#x200B;仅应用于主图层内容。 当在效果层中指定时，*`opacity`*&#x200B;将应用于效果层，而忽略&#x200B;*`fillOpacity`*。
+当在图像、文本或纯色图层中指定时，*`opacity`*&#x200B;将应用整个图层，包括所有关联的效果图层，而&#x200B;*`fillOpacity`*&#x200B;仅应用于主图层内容。 当在效果图层中指定时，*`opacity`*&#x200B;将应用于效果图层，而&#x200B;*`fillOpacity`*&#x200B;将被忽略。
 
-主图层内容的有效不透明度为(*`opacity`* * *`fillOpacity`* / 100)。 效果图层的有效不透明度是（主&#x200B;*`opacity`* *效果&#x200B;*`opacity`* / 100）。
+主图层内容的有效不透明度为(*`opacity`* * *`fillOpacity`* / 100)。 效果图层的有效不透明度为（主&#x200B;*`opacity`* *效果&#x200B;*`opacity`* / 100）。
 
 ## 属性 {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
