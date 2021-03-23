@@ -4,13 +4,14 @@ seo-description: HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-topic: Dynamic Media
 uuid: b5ab903b-3365-45e3-9542-c290c6c42670
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 4%
 
 HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 
-要启用跟踪，请将正确的公司预设名称传递为`config2`参数。
+要启用跟踪，请将正确的公司预设名称作为`config2`参数进行传递。
 
-默认情况下，查看器会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+默认情况下，查看器向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
 ## 自定义跟踪{#section-cda48fc9730142d0bb3326bac7df3271}
 
@@ -70,7 +71,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>播放开始时。 </p> </td> 
+   <td colname="col2"> <p>播放开始。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
