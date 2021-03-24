@@ -1,17 +1,14 @@
 ---
 description: 光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
-seo-description: 光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
-seo-title: 伊兰
 solution: Experience Manager
 title: 伊兰
-uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
