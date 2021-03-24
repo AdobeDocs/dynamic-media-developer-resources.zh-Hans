@@ -1,17 +1,14 @@
 ---
 description: 已命名的资产集。
-seo-description: 已命名的资产集。
-seo-title: 项目
 solution: Experience Manager
 title: 项目
-uuid: 7b933c10-d566-4c88-a7c5-c161e4e2cb91
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 23%
+source-wordcount: '29'
+ht-degree: 27%
 
 ---
 
