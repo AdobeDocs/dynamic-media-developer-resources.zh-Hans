@@ -1,17 +1,14 @@
 ---
 description: 仅供内部使用。 用户应参阅图像服务图像目录参考 — 属性参考部分。
-seo-description: 仅供内部使用。 用户应参阅图像服务图像目录参考 — 属性参考部分。
-seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 12%
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 
