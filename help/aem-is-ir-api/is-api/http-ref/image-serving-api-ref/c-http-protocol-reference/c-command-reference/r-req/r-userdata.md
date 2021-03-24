@@ -1,16 +1,13 @@
 ---
 description: 图像目录中的用户数据。 返回在url路径中指定的图像目录条目的用户数据。
-seo-description: 图像目录中的用户数据。 返回在url路径中指定的图像目录条目的用户数据。
-seo-title: userdata
 solution: Experience Manager
 title: userdata
-uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '193'
 ht-degree: 7%
 
 ---
