@@ -1,16 +1,13 @@
 ---
 description: 颜色值。 可以使用十六进制记号、以逗号分隔的组件值列表或小数来指定颜色值。
-seo-description: 颜色值。 可以使用十六进制记号、以逗号分隔的组件值列表或小数来指定颜色值。
-seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
