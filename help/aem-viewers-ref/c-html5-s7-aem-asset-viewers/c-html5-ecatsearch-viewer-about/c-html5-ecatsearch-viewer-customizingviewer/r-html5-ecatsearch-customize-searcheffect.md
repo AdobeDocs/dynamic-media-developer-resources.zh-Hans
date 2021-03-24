@@ -1,17 +1,14 @@
 ---
 description: 查看器在主视图上显示搜索结果区域，以突出显示在目录中找到的词或短语。
-seo-description: 查看器在主视图上显示搜索结果区域，以突出显示在目录中找到的词或短语。
-seo-title: 搜索效果
 solution: Experience Manager
 title: 搜索效果
-uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 0%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
