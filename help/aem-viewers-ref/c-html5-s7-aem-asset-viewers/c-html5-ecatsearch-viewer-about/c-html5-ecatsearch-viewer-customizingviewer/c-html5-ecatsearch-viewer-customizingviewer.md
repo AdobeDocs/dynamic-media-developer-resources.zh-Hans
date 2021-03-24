@@ -1,17 +1,14 @@
 ---
 description: 通过创建自定义CSS，可以为eCatalog搜索查看器进行所有可视化自定义和大多数行为自定义。
 keywords: 响应
-seo-description: 通过创建自定义CSS，可以为eCatalog搜索查看器进行所有可视化自定义和大多数行为自定义。
-seo-title: 自定义eCatalog搜索查看器
 solution: Experience Manager
 title: 自定义eCatalog搜索查看器
-uuid: a715399b-7b02-4656-8257-4c390c6f629c
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
