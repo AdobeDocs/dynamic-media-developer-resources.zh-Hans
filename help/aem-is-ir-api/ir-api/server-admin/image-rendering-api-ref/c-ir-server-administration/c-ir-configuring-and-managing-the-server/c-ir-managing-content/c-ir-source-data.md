@@ -1,16 +1,13 @@
 ---
 description: “图像渲染”源数据文件包括晕影文件、材料文件（用于可重复纹理和倾斜的图像，以及包含样式文件的机柜和窗口）和ICC用户档案。
-seo-description: “图像渲染”源数据文件包括晕影文件、材料文件（用于可重复纹理和倾斜的图像，以及包含样式文件的机柜和窗口）和ICC用户档案。
-seo-title: 源数据
 solution: Experience Manager
 title: 源数据
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
