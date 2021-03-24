@@ -1,16 +1,13 @@
 ---
 description: 分辨率. “真实世界”图像分辨率，通常以每英寸像素数表示，但也可能以其他单位表示，如每米像素数。
-seo-description: 分辨率. “真实世界”图像分辨率，通常以每英寸像素数表示，但也可能以其他单位表示，如每米像素数。
-seo-title: 分辨率
 solution: Experience Manager
 title: 分辨率
-uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
