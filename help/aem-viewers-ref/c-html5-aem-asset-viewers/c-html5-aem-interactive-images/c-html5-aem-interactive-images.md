@@ -1,16 +1,13 @@
 ---
 description: 交互式图像查看器是一个查看器，它显示一个具有可单击热点的不可缩放图像。 此查看器的目的是实现“购物横幅”体验。 即，用户可以在横幅图像上选择热点，然后被重定向到您网站上的快速视图或产品详细信息页面。 它设计为可在桌面和移动设备上使用。
-seo-description: 交互式图像查看器是一个查看器，它显示一个具有可单击热点的不可缩放图像。 此查看器的目的是实现“购物横幅”体验。 即，用户可以在横幅图像上选择热点，然后被重定向到您网站上的快速视图或产品详细信息页面。 它设计为可在桌面和移动设备上使用。
-seo-title: 交互式图像
 solution: Experience Manager
 title: 交互式图像
-uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
