@@ -1,17 +1,14 @@
 ---
 description: Flash流服务器URL前缀。 Flash流服务器URL前缀，用于使用req=mbrSet生成多位速率f4m响应。
-seo-description: Flash流服务器URL前缀。 Flash流服务器URL前缀，用于使用req=mbrSet生成多位速率f4m响应。
-seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
-uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
