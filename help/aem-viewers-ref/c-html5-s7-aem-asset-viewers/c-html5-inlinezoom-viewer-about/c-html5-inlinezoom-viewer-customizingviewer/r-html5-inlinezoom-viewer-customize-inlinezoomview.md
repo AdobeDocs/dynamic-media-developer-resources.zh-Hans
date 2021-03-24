@@ -1,17 +1,14 @@
 ---
 description: 主视图包括静态图像、在静态图像顶部的弹出视图中显示的缩放图像以及在静态图像顶部显示的提示消息。
-seo-description: 主视图包括静态图像、在静态图像顶部的弹出视图中显示的缩放图像以及在静态图像顶部显示的提示消息。
-seo-title: 弹出缩放视图
 solution: Experience Manager
 title: 弹出缩放视图
-uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 2%
+source-wordcount: '267'
+ht-degree: 3%
 
 ---
 
