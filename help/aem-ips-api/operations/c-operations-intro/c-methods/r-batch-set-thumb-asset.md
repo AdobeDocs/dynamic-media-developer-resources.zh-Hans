@@ -1,17 +1,14 @@
 ---
 description: 设置一个或多个资产的缩略图。
-seo-description: 设置一个或多个资产的缩略图。
-seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '180'
+ht-degree: 13%
 
 ---
 
