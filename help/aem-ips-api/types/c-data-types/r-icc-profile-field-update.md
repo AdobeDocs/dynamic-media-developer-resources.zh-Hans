@@ -1,17 +1,14 @@
 ---
 description: 更新ICC用户档案属性的信息。
-seo-description: 更新ICC用户档案属性的信息。
-seo-title: IccProfileFieldUpdate
 solution: Experience Manager
 title: IccProfileFieldUpdate
-uuid: 0a37e7d9-7ed9-4db2-afc7-eaee69f97d9b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
