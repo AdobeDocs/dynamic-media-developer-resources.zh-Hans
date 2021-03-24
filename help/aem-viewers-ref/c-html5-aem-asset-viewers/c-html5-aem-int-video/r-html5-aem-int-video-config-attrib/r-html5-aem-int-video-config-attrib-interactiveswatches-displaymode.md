@@ -1,17 +1,14 @@
 ---
 description: 交互式视频查看器的配置属性。
-seo-description: 交互式视频查看器的配置属性。
-seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-uuid: 279b1632-cf03-454d-b15f-9e785daad692
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
