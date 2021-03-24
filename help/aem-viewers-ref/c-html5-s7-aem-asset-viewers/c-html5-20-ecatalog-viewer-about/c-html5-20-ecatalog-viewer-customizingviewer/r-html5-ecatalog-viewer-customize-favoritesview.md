@@ -1,16 +1,13 @@
 ---
 description: “收藏夹”视图包含一列缩略图图像。
-seo-description: “收藏夹”视图包含一列缩略图图像。
-seo-title: 收藏夹视图
 solution: Experience Manager
 title: 收藏夹视图
-uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
