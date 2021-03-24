@@ -1,16 +1,13 @@
 ---
 description: 单击或点按“下一张”幻灯片按钮将用户移动到旋转集中的下一张幻灯片。
-seo-description: 单击或点按“下一张”幻灯片按钮将用户移动到旋转集中的下一张幻灯片。
-seo-title: 下一张幻灯片
 solution: Experience Manager
 title: 下一张幻灯片
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
