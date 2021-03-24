@@ -1,16 +1,13 @@
 ---
 description: 除非将请求标记为不可缓存，否则平台服务器会将所有回复图像和特定文本数据缓存到磁盘。
-seo-description: 除非将请求标记为不可缓存，否则平台服务器会将所有回复图像和特定文本数据缓存到磁盘。
-seo-title: 响应数据缓存
 solution: Experience Manager
 title: 响应数据缓存
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
