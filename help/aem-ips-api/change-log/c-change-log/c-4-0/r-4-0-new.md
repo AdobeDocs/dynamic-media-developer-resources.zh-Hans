@@ -1,16 +1,13 @@
 ---
 description: 介绍IPS API v4.0的新更改和实现的更改。
-seo-description: 介绍IPS API v4.0的新更改和实现的更改。
-seo-title: 新增和更改
 solution: Experience Manager
 title: 新增和更改
-uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1227'
 ht-degree: 2%
 
 ---
@@ -172,7 +169,7 @@ IPS公司设置`CompanySettings`可移植到Web服务API。
 
 已将`gzipResponse`标志添加到`authHeader`。 如果不存在，API还将检查HTTP `Accept-Encoding`头。
 
-为强类型化元数据字段条件的searchAssets添加了支持。
+为强类型元数据字段条件的searchAssets添加了支持。
 
 * 对于所有字段类型，值可以用字符串比较运算符(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)传递
 * 对于布尔字段，`boolVal`可以与`Equals` op一起传递。
