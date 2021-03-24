@@ -1,17 +1,14 @@
 ---
 description: 由JobLogDetail/logType和JobLog/logType使用。
-seo-description: 由JobLogDetail/logType和JobLog/logType使用。
-seo-title: 作业日志类型
 solution: Experience Manager
 title: 作业日志类型
-uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '29'
+ht-degree: 6%
 
 ---
 
