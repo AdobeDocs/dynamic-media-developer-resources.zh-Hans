@@ -1,16 +1,13 @@
 ---
 description: 默认对象分辨率。 提供默认对象分辨率，以防特定目录记录不包含有效的目录分辨率值。
-seo-description: 默认对象分辨率。 提供默认对象分辨率，以防特定目录记录不包含有效的目录分辨率值。
-seo-title: 分辨率
 solution: Experience Manager
 title: 分辨率
-uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '90'
 ht-degree: 6%
 
 ---
