@@ -1,17 +1,14 @@
 ---
 description: 光照映射选择器。 允许在渲染此材料时使用光照映射的显式选择。
-seo-description: 光照映射选择器。 允许在渲染此材料时使用光照映射的显式选择。
-seo-title: 伊卢姆
 solution: Experience Manager
 title: 伊卢姆
-uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
