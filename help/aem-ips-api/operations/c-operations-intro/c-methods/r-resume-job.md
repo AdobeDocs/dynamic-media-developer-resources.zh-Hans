@@ -1,17 +1,14 @@
 ---
 description: 重新启动暂停的作业。
-seo-description: 重新启动暂停的作业。
-seo-title: resumeJob
 solution: Experience Manager
 title: resumeJob
-uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
