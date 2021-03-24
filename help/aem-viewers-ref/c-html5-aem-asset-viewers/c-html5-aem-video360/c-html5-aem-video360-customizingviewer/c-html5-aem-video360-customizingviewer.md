@@ -1,17 +1,14 @@
 ---
 description: Video360查看器的所有可视自定义和大多数行为自定义都是通过创建自定义CSS完成的。
 keywords: 响应
-seo-description: Video360查看器的所有可视自定义和大多数行为自定义都是通过创建自定义CSS完成的。
-seo-title: 自定义Video360查看器
 solution: Experience Manager
 title: 自定义Video360查看器
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
