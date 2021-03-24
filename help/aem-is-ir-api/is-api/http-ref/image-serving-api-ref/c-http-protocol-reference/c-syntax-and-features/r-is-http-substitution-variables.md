@@ -1,16 +1,13 @@
 ---
 description: 替换变量用于将值从请求URL传输到图像目录中存储的合成模板。 变量还可用于向复杂请求中的不同位置传递相同的值。
-seo-description: 替换变量用于将值从请求URL传输到图像目录中存储的合成模板。 变量还可用于向复杂请求中的不同位置传递相同的值。
-seo-title: 替换变量
 solution: Experience Manager
 title: 替换变量
-uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
