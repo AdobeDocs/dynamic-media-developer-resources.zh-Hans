@@ -1,17 +1,14 @@
 ---
 description: 倾斜材料选择器。 开始非可重复贴花材料的材料规范段(MSS)。
-seo-description: 倾斜材料选择器。 开始非可重复贴花材料的材料规范段(MSS)。
-seo-title: 十
 solution: Experience Manager
 title: 十
-uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
