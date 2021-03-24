@@ -1,16 +1,13 @@
 ---
 description: 文本图层属性。 指定不能用作rtf命令的文本图层的其他属性。
-seo-description: 文本图层属性。 指定不能用作rtf命令的文本图层的其他属性。
-seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
