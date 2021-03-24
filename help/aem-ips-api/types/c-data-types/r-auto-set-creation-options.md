@@ -1,17 +1,14 @@
 ---
 description: 为上载作业自动设置生成脚本列表。 假定为上传指定的每个脚本都会应用于所有上传的资产。
-seo-description: 为上载作业自动设置生成脚本列表。 假定为上传指定的每个脚本都会应用于所有上传的资产。
-seo-title: AutoSetCreationOptions
 solution: Experience Manager
 title: AutoSetCreationOptions
-uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 5%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
