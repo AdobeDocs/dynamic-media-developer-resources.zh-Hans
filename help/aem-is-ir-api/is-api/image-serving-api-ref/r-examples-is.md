@@ -1,17 +1,14 @@
 ---
 description: 本页链接到多个图像服务器示例。
-seo-description: 本页链接到多个图像服务器示例。
-seo-title: 图像服务器示例
 solution: Experience Manager
 title: 图像服务器示例
-uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
