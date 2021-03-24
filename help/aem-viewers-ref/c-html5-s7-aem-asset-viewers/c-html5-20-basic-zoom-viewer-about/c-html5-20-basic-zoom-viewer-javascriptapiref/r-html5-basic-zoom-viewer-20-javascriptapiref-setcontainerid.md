@@ -1,17 +1,14 @@
 ---
 description: 基本缩放查看器的JavaScript API参考。
-seo-description: 基本缩放查看器的JavaScript API参考。
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 064ebb0c-088a-4b8b-b623-c29363232cc4
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
