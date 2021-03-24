@@ -1,17 +1,14 @@
 ---
 description: CSS文件资源的属性。
-seo-description: CSS文件资源的属性。
-seo-title: CssInfo
 solution: Experience Manager
 title: CssInfo
-uuid: 88575f2b-ace4-4a93-8e35-9685f5893530
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 20%
+source-wordcount: '38'
+ht-degree: 23%
 
 ---
 
