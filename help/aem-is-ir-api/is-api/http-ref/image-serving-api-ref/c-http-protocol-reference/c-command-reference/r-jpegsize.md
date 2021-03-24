@@ -1,17 +1,14 @@
 ---
 description: Jpeg大小（以千字节为单位）。 指定JPEG响应的最大大小（以千字节为单位）。
-seo-description: Jpeg大小（以千字节为单位）。 指定JPEG响应的最大大小（以千字节为单位）。
-seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-uuid: 832163ca-0554-481d-b87f-bf322f415274
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
