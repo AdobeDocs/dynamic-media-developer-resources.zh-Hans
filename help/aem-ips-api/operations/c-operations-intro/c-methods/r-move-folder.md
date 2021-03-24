@@ -1,17 +1,14 @@
 ---
 description: 将文件夹移到新位置。
-seo-description: 将文件夹移到新位置。
-seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 22%
+source-wordcount: '67'
+ht-degree: 25%
 
 ---
 
