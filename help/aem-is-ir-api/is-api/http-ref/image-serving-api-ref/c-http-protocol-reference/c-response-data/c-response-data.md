@@ -1,17 +1,14 @@
 ---
 description: 图像服务生成HTTP/1.1响应头。
-seo-description: 图像服务生成HTTP/1.1响应头。
-seo-title: 响应数据
 solution: Experience Manager
 title: 响应数据
-uuid: 63812101-1956-4dea-9ef9-38769c934243
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 8%
+source-wordcount: '27'
+ht-degree: 11%
 
 ---
 
