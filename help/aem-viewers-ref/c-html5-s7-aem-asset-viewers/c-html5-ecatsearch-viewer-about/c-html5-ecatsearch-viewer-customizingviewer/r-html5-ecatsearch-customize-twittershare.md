@@ -1,16 +1,13 @@
 ---
 description: Twitter共享工具由添加到“社交共享”面板的按钮组成。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
-seo-description: Twitter共享工具由添加到“社交共享”面板的按钮组成。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
-seo-title: Twitter分享
 solution: Experience Manager
 title: Twitter分享
-uuid: 609d3c3f-290d-4c21-b61e-70831bee74ea
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
