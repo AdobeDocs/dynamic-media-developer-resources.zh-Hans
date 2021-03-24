@@ -1,16 +1,13 @@
 ---
 description: 使用Dynamic Media图像服务时，应考虑一些限制和已知问题。
-seo-description: 使用Dynamic Media图像服务时，应考虑一些限制和已知问题。
-seo-title: 限制和已知问题
 solution: Experience Manager
 title: 限制和已知问题
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
