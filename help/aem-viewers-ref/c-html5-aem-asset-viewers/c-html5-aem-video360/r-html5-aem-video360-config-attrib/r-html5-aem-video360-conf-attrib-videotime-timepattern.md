@@ -1,16 +1,13 @@
 ---
 description: Video360查看器的配置属性。
-seo-description: Video360查看器的配置属性。
-seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
-uuid: fe145e6f-742e-44fc-b225-187a86b6700e
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
