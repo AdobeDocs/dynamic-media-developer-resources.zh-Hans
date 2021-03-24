@@ -1,17 +1,14 @@
 ---
 description: 混合媒体查看器的所有可视自定义和大多数行为自定义都是通过创建自定义CSS完成的。
 keywords: 响应
-seo-description: 混合媒体查看器的所有可视自定义和大多数行为自定义都是通过创建自定义CSS完成的。
-seo-title: 自定义混合媒体查看器
 solution: Experience Manager
 title: 自定义混合媒体查看器
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
