@@ -1,16 +1,13 @@
 ---
 description: 尽管图像和SVG数据非常相似，但它们会保留在图像目录中的单独表中。
-seo-description: 尽管图像和SVG数据非常相似，但它们会保留在图像目录中的单独表中。
-seo-title: 图像/SVG数据参考
 solution: Experience Manager
 title: 图像/SVG数据参考
-uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
