@@ -1,17 +1,14 @@
 ---
 description: 获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
-seo-description: 获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
-seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 
