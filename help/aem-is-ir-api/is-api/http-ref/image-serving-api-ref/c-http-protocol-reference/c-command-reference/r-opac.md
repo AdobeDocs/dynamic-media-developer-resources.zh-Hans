@@ -1,16 +1,13 @@
 ---
 description: 调整图像不透明度。 允许降低图像、文本、纯色或效果图层的前景不透明度。
-seo-description: 调整图像不透明度。 允许降低图像、文本、纯色或效果图层的前景不透明度。
-seo-title: opac
 solution: Experience Manager
 title: opac
-uuid: 268279bd-d777-4afe-b175-841af7e55406
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
