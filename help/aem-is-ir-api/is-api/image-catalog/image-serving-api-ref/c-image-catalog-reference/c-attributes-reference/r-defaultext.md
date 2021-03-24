@@ -1,16 +1,13 @@
 ---
 description: 默认图像文件后缀。 如果路径不包含文件后缀，则附加到目录路径（或目录蒙版路径）字段值
-seo-description: 默认图像文件后缀。 如果路径不包含文件后缀，则附加到目录路径（或目录蒙版路径）字段值
-seo-title: 默认文本
 solution: Experience Manager
 title: 默认文本
-uuid: aa245d18-15cc-41cb-a49d-757d74fe6231
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
