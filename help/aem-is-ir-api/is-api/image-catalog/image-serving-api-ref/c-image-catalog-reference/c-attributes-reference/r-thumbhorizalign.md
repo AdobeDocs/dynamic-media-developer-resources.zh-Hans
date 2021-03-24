@@ -1,17 +1,14 @@
 ---
 description: 缩览图的水平对齐。 指定由wid=和hei=或属性DefaultThumbPix指定的回复图像矩形中缩览图图像的水平对齐方式。
-seo-description: 缩览图的水平对齐。 指定由wid=和hei=或属性DefaultThumbPix指定的回复图像矩形中缩览图图像的水平对齐方式。
-seo-title: 缩略图对齐
 solution: Experience Manager
 title: 缩略图对齐
-uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 
