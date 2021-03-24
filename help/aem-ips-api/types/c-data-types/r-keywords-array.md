@@ -1,17 +1,14 @@
 ---
 description: 关键字数组。
-seo-description: 关键字数组。
-seo-title: KeywordsArray
 solution: Experience Manager
 title: KeywordsArray
-uuid: 78da064a-9906-4d79-93b4-4aa0f73358e2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
