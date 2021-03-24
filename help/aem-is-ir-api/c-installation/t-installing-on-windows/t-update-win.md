@@ -1,16 +1,13 @@
 ---
 description: 升级Dynamic Media图像服务时，请使用此过程。
-seo-description: 升级Dynamic Media图像服务时，请使用此过程。
-seo-title: 从IS 4.7.4或更高版本进行更新
 solution: Experience Manager
 title: 从IS 4.7.4或更高版本进行更新
-uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
