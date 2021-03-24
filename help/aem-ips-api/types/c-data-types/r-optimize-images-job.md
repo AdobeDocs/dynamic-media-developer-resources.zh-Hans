@@ -1,17 +1,14 @@
 ---
 description: 优化图像作业的详细信息。
-seo-description: 优化图像作业的详细信息。
-seo-title: 优化图像作业
 solution: Experience Manager
 title: 优化图像作业
-uuid: 8d1eceb7-fa50-4649-b5a6-6102449a4c72
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
