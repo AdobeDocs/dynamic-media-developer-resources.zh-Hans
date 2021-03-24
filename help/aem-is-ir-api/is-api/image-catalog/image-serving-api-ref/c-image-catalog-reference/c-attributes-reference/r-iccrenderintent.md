@@ -1,17 +1,14 @@
 ---
 description: 颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
-seo-description: 颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
-seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
