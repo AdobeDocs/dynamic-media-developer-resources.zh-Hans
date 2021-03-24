@@ -1,17 +1,14 @@
 ---
 description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
-seo-description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
-seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 9%
+source-wordcount: '167'
+ht-degree: 10%
 
 ---
 
