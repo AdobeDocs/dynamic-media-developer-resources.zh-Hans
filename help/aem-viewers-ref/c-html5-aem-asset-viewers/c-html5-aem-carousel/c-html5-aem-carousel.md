@@ -1,16 +1,13 @@
 ---
 description: 旋转式查看器是一个查看器，用于显示带有可单击热点或区域的不可缩放横幅图像的旋转式。 此查看器旨在实现一种“购物传送”体验，用户可在横幅图像上选择热点或区域，然后将其重定向到客户网站上的概览或产品详细信息页面。 它设计为可在桌面和移动设备上使用。
-seo-description: 旋转式查看器是一个查看器，用于显示带有可单击热点或区域的不可缩放横幅图像的旋转式。 此查看器旨在实现一种“购物传送”体验，用户可在横幅图像上选择热点或区域，然后将其重定向到客户网站上的概览或产品详细信息页面。 它设计为可在桌面和移动设备上使用。
-seo-title: 轮盘式
 solution: Experience Manager
 title: 轮盘式
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
