@@ -1,17 +1,14 @@
 ---
 description: 锐化纹理。 指定渲染此素材时要应用的锐化。
-seo-description: 锐化纹理。 指定渲染此素材时要应用的锐化。
-seo-title: 锐
 solution: Experience Manager
 title: 锐
-uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 5%
+source-wordcount: '133'
+ht-degree: 6%
 
 ---
 
