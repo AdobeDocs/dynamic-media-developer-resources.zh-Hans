@@ -1,16 +1,13 @@
 ---
 description: 搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
-seo-description: 搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
-seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 feature: Dynamic Media Classic，SDK/API，元数据，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '338'
 ht-degree: 10%
 
 ---
