@@ -1,17 +1,14 @@
 ---
 description: 允许授权导出以前上传的文件的作业类型。
-seo-description: 允许授权导出以前上传的文件的作业类型。
-seo-title: ExportJob
 solution: Experience Manager
 title: ExportJob
-uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 15%
+source-wordcount: '213'
+ht-degree: 16%
 
 ---
 
