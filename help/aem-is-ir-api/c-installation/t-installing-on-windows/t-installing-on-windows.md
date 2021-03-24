@@ -1,16 +1,13 @@
 ---
 description: 图像服务可安装在64位Windows上。
-seo-description: 图像服务可安装在64位Windows上。
-seo-title: 在Windows上安装
 solution: Experience Manager
 title: 在Windows上安装
-uuid: f2646f61-24f4-4b15-b148-f8d615378fe0
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
