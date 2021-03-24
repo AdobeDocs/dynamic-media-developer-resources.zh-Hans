@@ -1,17 +1,14 @@
 ---
 description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
-seo-description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
-seo-title: ExcludeBybloudCondition
 solution: Experience Manager
 title: ExcludeBybloudCondition
-uuid: 70581512-7b26-4319-b12b-27fbb205d871
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
