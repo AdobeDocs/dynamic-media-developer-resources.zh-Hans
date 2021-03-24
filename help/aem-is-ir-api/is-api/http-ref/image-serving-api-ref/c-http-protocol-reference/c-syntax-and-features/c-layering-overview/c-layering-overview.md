@@ -1,17 +1,14 @@
 ---
 description: “图像服务”允许将任意数量的图像、文本和纯色图层组合到复合图像中。
-seo-description: “图像服务”允许将任意数量的图像、文本和纯色图层组合到复合图像中。
-seo-title: 分层概述
 solution: Experience Manager
 title: 分层概述
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
