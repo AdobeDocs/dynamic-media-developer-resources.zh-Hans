@@ -1,16 +1,13 @@
 ---
 description: 缩放目标数据。 无或更多缩放目标属性，可与缩放查看器客户端一起使用。
-seo-description: 缩放目标数据。 无或更多缩放目标属性，可与缩放查看器客户端一起使用。
-seo-title: 目标
 solution: Experience Manager
 title: 目标
-uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '334'
 ht-degree: 2%
 
 ---
