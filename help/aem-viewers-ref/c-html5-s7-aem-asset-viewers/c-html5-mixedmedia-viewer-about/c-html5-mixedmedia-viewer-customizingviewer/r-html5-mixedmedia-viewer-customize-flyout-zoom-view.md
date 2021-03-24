@@ -1,16 +1,13 @@
 ---
 description: 在内联缩放模式下，主视图由静态图像、在静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
-seo-description: 在内联缩放模式下，主视图由静态图像、在静态图像上的弹出视图中显示的缩放图像以及静态图像顶部显示的提示消息组成。
-seo-title: 弹出缩放视图
 solution: Experience Manager
 title: 弹出缩放视图
-uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '257'
 ht-degree: 5%
 
 ---
