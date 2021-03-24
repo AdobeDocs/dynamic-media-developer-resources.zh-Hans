@@ -1,17 +1,14 @@
 ---
 description: 视频比特率。 允许指定与每个视频记录相关联的比特率。
-seo-description: 视频比特率。 允许指定与每个视频记录相关联的比特率。
-seo-title: VideoBitRate
 solution: Experience Manager
 title: VideoBitRate
-uuid: dff00d03-5fea-42cf-9b81-cd3488e666e4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 
