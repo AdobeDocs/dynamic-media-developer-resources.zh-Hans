@@ -1,17 +1,14 @@
 ---
 description: 暂停活动作业。
-seo-description: 暂停活动作业。
-seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 16%
+source-wordcount: '68'
+ht-degree: 17%
 
 ---
 
