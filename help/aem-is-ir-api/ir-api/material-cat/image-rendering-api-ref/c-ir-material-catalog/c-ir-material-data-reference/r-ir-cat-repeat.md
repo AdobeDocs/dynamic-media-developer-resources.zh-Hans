@@ -1,17 +1,14 @@
 ---
 description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
-seo-description: 纹理重复模式。 指定如何拼贴纹理图像以填充目标表面。
-seo-title: 重复
 solution: Experience Manager
 title: 重复
-uuid: bd15a573-9902-4672-992d-90d171160a46
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 18%
+source-wordcount: '135'
+ht-degree: 20%
 
 ---
 
