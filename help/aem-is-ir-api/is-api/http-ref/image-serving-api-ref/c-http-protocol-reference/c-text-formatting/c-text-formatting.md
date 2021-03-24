@@ -1,17 +1,14 @@
 ---
 description: 图像服务提供了多种渲染文本的替代方法，可通过text=和textPs=命令访问。
-seo-description: 图像服务提供了多种渲染文本的替代方法，可通过text=和textPs=命令访问。
-seo-title: 文本格式
 solution: Experience Manager
 title: 文本格式
-uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 6%
+source-wordcount: '565'
+ht-degree: 7%
 
 ---
 
