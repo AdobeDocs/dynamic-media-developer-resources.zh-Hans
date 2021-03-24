@@ -1,16 +1,13 @@
 ---
 description: 缩览图由缩览图图像网格组成，右侧带有可选滚动条，可进行垂直滚动。
-seo-description: 缩览图由缩览图图像网格组成，右侧带有可选滚动条，可进行垂直滚动。
-seo-title: 缩略图
 solution: Experience Manager
 title: 缩略图
-uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
