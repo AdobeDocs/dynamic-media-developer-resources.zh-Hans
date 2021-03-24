@@ -1,16 +1,13 @@
 ---
 description: 命令宏为命令集提供命名的快捷键。 宏在单独的宏定义文件中定义，这些文件可附加到图像目录或默认目录。
-seo-description: 命令宏为命令集提供命名的快捷键。 宏在单独的宏定义文件中定义，这些文件可附加到图像目录或默认目录。
-seo-title: 命令宏
 solution: Experience Manager
 title: 命令宏
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
