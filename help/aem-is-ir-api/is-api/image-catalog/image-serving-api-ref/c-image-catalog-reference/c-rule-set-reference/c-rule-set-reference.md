@@ -1,16 +1,13 @@
 ---
 description: 图像服务支持基于规则表达式匹配和替换规则的简单请求预处理机制。
-seo-description: 图像服务支持基于规则表达式匹配和替换规则的简单请求预处理机制。
-seo-title: 规则集引用
 solution: Experience Manager
 title: 规则集引用
-uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
