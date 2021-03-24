@@ -1,17 +1,14 @@
 ---
 description: 图像映射的数组。
-seo-description: 图像映射的数组。
-seo-title: ImageMapArray
 solution: Experience Manager
 title: ImageMapArray
-uuid: d3b5f80d-faf9-4a4a-8f2e-1ff1ad7b7905
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
