@@ -1,16 +1,13 @@
 ---
 description: 这些命令可用于定义图层效果，如投影或发光效果。 效果图层会忽略所有其他命令。
-seo-description: 这些命令可用于定义图层效果，如投影或发光效果。 效果图层会忽略所有其他命令。
-seo-title: 图层效果命令
 solution: Experience Manager
 title: 图层效果命令
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
