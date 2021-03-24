@@ -1,17 +1,14 @@
 ---
 description: 动画GIF文件资源的属性。
-seo-description: 动画GIF文件资源的属性。
-seo-title: AnimatedGifInfo
 solution: Experience Manager
 title: AnimatedGifInfo
-uuid: add69c62-1139-4993-acf7-2e11e734ea83
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 27%
+source-wordcount: '62'
+ht-degree: 30%
 
 ---
 
