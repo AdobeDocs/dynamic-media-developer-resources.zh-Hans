@@ -1,16 +1,13 @@
 ---
 description: 在嵌入的外部请求的花括号中出现的$var$引用将替换为匹配的变量定义值。
-seo-description: 在嵌入的外部请求的花括号中出现的$var$引用将替换为匹配的变量定义值。
-seo-title: 嵌入式外来请求中的变量处理
 solution: Experience Manager
 title: 嵌入式外来请求中的变量处理
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
