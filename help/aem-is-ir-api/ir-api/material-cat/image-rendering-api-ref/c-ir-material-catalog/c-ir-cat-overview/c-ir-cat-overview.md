@@ -1,16 +1,13 @@
 ---
 description: 材料目录向服务器提供有关晕影、材料和支持数据(如ICC用户档案)的信息。
-seo-description: 材料目录向服务器提供有关晕影、材料和支持数据(如ICC用户档案)的信息。
-seo-title: 材料目录概述*
 solution: Experience Manager
 title: 材料目录概述*
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
