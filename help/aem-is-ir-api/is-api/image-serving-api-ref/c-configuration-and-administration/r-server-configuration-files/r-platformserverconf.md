@@ -1,16 +1,13 @@
 ---
 description: 包含平台服务器设置。
-seo-description: 包含平台服务器设置。
-seo-title: PlatformServer.conf
 solution: Experience Manager
 title: PlatformServer.conf
-uuid: d798762b-c9ff-4e1b-b2ac-c5e40476b375
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
