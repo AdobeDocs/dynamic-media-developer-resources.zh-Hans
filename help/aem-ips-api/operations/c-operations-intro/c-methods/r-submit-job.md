@@ -1,16 +1,13 @@
 ---
 description: 向系统提交作业。
-seo-description: 向系统提交作业。
-seo-title: submitJob
 solution: Experience Manager
 title: submitJob
-uuid: d3a83b59-bcd7-4ae9-b1ee-e515fc3c9261
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '414'
 ht-degree: 11%
 
 ---
