@@ -1,16 +1,13 @@
 ---
 description: 当服务器检测到主目录属性文件已更改时，它会持续监视目录文件夹并自动重新加载图像目录，包括关联的目录数据文件。
-seo-description: 当服务器检测到主目录属性文件已更改时，它会持续监视目录文件夹并自动重新加载图像目录，包括关联的目录数据文件。
-seo-title: 更新图像目录
 solution: Experience Manager
 title: 更新图像目录
-uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
