@@ -1,17 +1,14 @@
 ---
 description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 必须指定要检索其信息的companyHandle或companyName。
-seo-description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 必须指定要检索其信息的companyHandle或companyName。
-seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 8%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
