@@ -1,17 +1,14 @@
 ---
 description: 更新字体属性的信息。
-seo-description: 更新字体属性的信息。
-seo-title: FontFieldUpdate
 solution: Experience Manager
 title: FontFieldUpdate
-uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
