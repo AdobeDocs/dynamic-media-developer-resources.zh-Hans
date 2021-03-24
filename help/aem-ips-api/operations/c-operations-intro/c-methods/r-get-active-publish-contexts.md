@@ -1,17 +1,14 @@
 ---
 description: 获取指定公司的活动发布上下文列表。 如果为上下文定义了至少一个活动服务器，则发布上下文被视为活动。
-seo-description: 获取指定公司的活动发布上下文列表。 如果为上下文定义了至少一个活动服务器，则发布上下文被视为活动。
-seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 10%
 
 ---
 
