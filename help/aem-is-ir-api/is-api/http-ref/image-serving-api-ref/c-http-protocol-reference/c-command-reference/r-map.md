@@ -1,16 +1,13 @@
 ---
 description: 图像映射数据。 提供此图层的图像映射数据。 覆盖此图层的目录映射中的所有数据。
-seo-description: 图像映射数据。 提供此图层的图像映射数据。 覆盖此图层的目录映射中的所有数据。
-seo-title: 地图
 solution: Experience Manager
 title: 地图
-uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
