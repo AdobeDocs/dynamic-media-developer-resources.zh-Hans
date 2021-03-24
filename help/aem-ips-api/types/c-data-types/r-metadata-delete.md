@@ -1,17 +1,14 @@
 ---
 description: 要从资产中删除的元数据。
-seo-description: 要从资产中删除的元数据。
-seo-title: 元数据删除
 solution: Experience Manager
 title: 元数据删除
-uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 17%
+source-wordcount: '34'
+ht-degree: 20%
 
 ---
 
