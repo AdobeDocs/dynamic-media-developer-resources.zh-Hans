@@ -1,17 +1,14 @@
 ---
 description: 地址筛选器元素。 在<rule>和<pathrule>元素中为可选。
-seo-description: 地址筛选器元素。 在<rule>和<pathrule>元素中为可选。
-seo-title: 地址筛选器
 solution: Experience Manager
 title: 地址筛选器
-uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 6%
+source-wordcount: '128'
+ht-degree: 7%
 
 ---
 
