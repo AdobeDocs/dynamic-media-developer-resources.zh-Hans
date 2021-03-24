@@ -1,17 +1,14 @@
 ---
 description: 表面光泽度指定材料表面的相对光泽度。
-seo-description: 表面光泽度指定材料表面的相对光泽度。
-seo-title: 光泽
 solution: Experience Manager
 title: 光泽
-uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
