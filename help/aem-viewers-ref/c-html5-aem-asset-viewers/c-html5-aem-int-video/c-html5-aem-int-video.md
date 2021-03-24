@@ -1,16 +1,13 @@
 ---
 description: 交互式视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。
-seo-description: 交互式视频查看器是一个视频播放器，可播放以H.264格式编码的流式和渐进式视频。
-seo-title: 交互式视频
 solution: Experience Manager
 title: 交互式视频
-uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
