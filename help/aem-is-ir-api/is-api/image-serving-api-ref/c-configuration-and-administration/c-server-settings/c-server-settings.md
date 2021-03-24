@@ -1,17 +1,14 @@
 ---
 description: 本节介绍所有可编辑的配置设置，这些设置按感兴趣的区域分组。
-seo-description: 本节介绍所有可编辑的配置设置，这些设置按感兴趣的区域分组。
-seo-title: 服务器设置
 solution: Experience Manager
 title: 服务器设置
-uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
