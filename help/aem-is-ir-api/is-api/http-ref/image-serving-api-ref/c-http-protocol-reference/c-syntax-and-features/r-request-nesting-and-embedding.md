@@ -1,16 +1,13 @@
 ---
 description: 图像服务支持无限嵌套图像服务请求、嵌入图像渲染请求以及嵌入从外部服务器检索的图像。 只有图层图像和图层蒙版支持这些机制。
-seo-description: 图像服务支持无限嵌套图像服务请求、嵌入图像渲染请求以及嵌入从外部服务器检索的图像。 只有图层图像和图层蒙版支持这些机制。
-seo-title: 请求嵌套和嵌入
 solution: Experience Manager
 title: 请求嵌套和嵌入
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
