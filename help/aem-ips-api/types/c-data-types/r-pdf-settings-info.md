@@ -1,17 +1,14 @@
 ---
 description: PDF设置文件资源的属性。
-seo-description: PDF设置文件资源的属性。
-seo-title: PdfSettingsInfo
 solution: Experience Manager
 title: PdfSettingsInfo
-uuid: abbcf82d-5b6e-4f2c-8940-88ea8651aa40
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '39'
+ht-degree: 23%
 
 ---
 
