@@ -1,16 +1,13 @@
 ---
 description: 对高级文本格式设置使用以下命令。
-seo-description: 对高级文本格式设置使用以下命令。
-seo-title: 高级文本格式
 solution: Experience Manager
 title: 高级文本格式
-uuid: 340166a5-5aef-4081-9114-a715cde68891
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
