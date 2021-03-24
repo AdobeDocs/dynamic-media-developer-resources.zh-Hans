@@ -1,17 +1,14 @@
 ---
 description: 介绍IPS API 3.8版的新字符串常量和更改的字符串常量。
-seo-description: 介绍IPS API 3.8版的新字符串常量和更改的字符串常量。
-seo-title: 字符串常量新建和修改
 solution: Experience Manager
 title: 字符串常量新建和修改
-uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
