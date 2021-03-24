@@ -1,17 +1,14 @@
 ---
 description: CMYK默认色彩空间。 指定在未指定icc=输出色彩空间时用于灰度响应图像的ICC色彩用户档案的名称。
-seo-description: CMYK默认色彩空间。 指定在未指定icc=输出色彩空间时用于灰度响应图像的ICC色彩用户档案的名称。
-seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 
