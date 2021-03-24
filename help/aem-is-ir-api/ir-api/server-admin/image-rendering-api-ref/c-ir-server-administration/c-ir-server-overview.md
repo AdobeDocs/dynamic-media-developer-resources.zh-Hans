@@ -1,16 +1,13 @@
 ---
 description: 本文档介绍如何管理Dynamic Media图像渲染服务器。
-seo-description: 本文档介绍如何管理Dynamic Media图像渲染服务器。
-seo-title: 服务器管理概述
 solution: Experience Manager
 title: 服务器管理概述
-uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
