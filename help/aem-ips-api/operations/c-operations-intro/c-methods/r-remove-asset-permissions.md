@@ -1,17 +1,14 @@
 ---
 description: 从选定资产中删除权限。
-seo-description: 从选定资产中删除权限。
-seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 14%
+source-wordcount: '77'
+ht-degree: 15%
 
 ---
 
