@@ -1,16 +1,13 @@
 ---
 description: eCatalog Viewer的配置属性文档。
-seo-description: eCatalog Viewer的配置属性文档。
-seo-title: 命令参考 — 配置属性
 solution: Experience Manager
 title: 命令参考 — 配置属性
-uuid: 823ad411-653a-44de-97de-147e3b27a917
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
