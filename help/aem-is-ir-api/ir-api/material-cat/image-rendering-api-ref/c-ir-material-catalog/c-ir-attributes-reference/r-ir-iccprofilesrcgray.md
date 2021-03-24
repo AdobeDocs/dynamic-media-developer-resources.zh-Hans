@@ -1,16 +1,13 @@
 ---
 description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度材料图像的ICC颜色用户档案的名称。
-seo-description: 灰度默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的灰度材料图像的ICC颜色用户档案的名称。
-seo-title: IccProfileSrcGray
 solution: Experience Manager
 title: IccProfileSrcGray
-uuid: e05d1185-ffd6-4c04-a2b8-52228beae37d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
