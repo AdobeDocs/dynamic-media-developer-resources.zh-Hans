@@ -1,17 +1,14 @@
 ---
 description: 旋转查看器是一个图像查看器，它提供了360度视图图像，甚至是多维视图（如果使用的是适当的旋转集）。 它提供缩放和旋转工具、全屏支持以及可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
 keywords: 响应
-seo-description: 旋转查看器是一个图像查看器，它提供了360度视图图像，甚至是多维视图（如果使用的是适当的旋转集）。 它提供缩放和旋转工具、全屏支持以及可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
-seo-title: Spin
 solution: Experience Manager
-title: 旋转
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+title: Spin
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -196,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可能会使用分配给它的`display:none`样式将其隐藏。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素返回到布局时为止。 发生此操作时，查看器加载会自动恢复。
 
-   以下是创建查看器实例的示例，将最少的必要配置选项传递给构造函数并调用`init()`方法。 该示例假定`spinViewer`为查看器实例，`s7viewer`为占位符`DIV`的名称，[!DNL http://s7d1.scene7.com/is/image/]为图像服务URL，[!DNL Scene7SharedAssets/SpinSet_Sample]为资产。
+   以下是创建查看器实例的示例，将最小必要的配置选项传递给构造函数并调用`init()`方法。 该示例假定`spinViewer`为查看器实例，`s7viewer`为占位符`DIV`的名称，[!DNL http://s7d1.scene7.com/is/image/]为图像服务URL，[!DNL Scene7SharedAssets/SpinSet_Sample]为资产。
 
    ```
    <script type="text/javascript"> 
