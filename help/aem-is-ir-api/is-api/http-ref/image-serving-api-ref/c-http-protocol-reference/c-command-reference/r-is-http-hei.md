@@ -1,17 +1,14 @@
 ---
 description: 视图高度. 指定在请求中不存在适合时响应图像(视图图像)的高度。
-seo-description: 视图高度. 指定在请求中不存在适合时响应图像(视图图像)的高度。
-seo-title: hei
 solution: Experience Manager
-title: 平
-uuid: 307952bb-604f-49b4-bce3-b7a7fc7ec63b
+title: hei
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 4%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 
