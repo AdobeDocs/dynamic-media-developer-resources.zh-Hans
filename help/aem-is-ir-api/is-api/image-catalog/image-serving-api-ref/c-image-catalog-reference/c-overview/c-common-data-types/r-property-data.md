@@ -1,16 +1,13 @@
 ---
 description: 属性数据由表示一个或多个属性的文本字符串组成。
-seo-description: 属性数据由表示一个或多个属性的文本字符串组成。
-seo-title: 属性数据
 solution: Experience Manager
 title: 属性数据
-uuid: 7fa6ae70-8d70-41d6-9e47-7df3d616874c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
