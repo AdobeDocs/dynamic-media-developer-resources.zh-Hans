@@ -1,17 +1,14 @@
 ---
 description: 遮罩文件属性。
-seo-description: 遮罩文件属性。
-seo-title: 蒙版信息
 solution: Experience Manager
 title: 蒙版信息
-uuid: a9657143-bd66-4280-b1b3-338529025f3a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 15%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
 
