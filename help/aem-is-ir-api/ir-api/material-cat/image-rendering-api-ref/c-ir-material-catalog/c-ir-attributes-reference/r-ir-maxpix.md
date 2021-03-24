@@ -1,16 +1,13 @@
 ---
 description: 回复图像大小限制。 可返回给客户端的最大回复图像宽度和高度。
-seo-description: 回复图像大小限制。 可返回给客户端的最大回复图像宽度和高度。
-seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
