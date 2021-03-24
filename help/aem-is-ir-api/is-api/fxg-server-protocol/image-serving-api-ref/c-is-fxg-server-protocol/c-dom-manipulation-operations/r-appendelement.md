@@ -1,16 +1,13 @@
 ---
 description: 将XML追加到s7 elementID。
-seo-description: 将XML追加到s7 elementID。
-seo-title: appendElement
 solution: Experience Manager
 title: appendElement
-uuid: 062c8288-4517-42a1-9f9f-f3c7bbb4b63b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
