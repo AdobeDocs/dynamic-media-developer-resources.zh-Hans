@@ -1,17 +1,14 @@
 ---
 description: 基本缩放查看器是一个图像查看器，可显示单个可缩放图像。 它具有缩放工具、全屏支持和可选的关闭按钮。 此查看器最轻量。 它设计为可在桌面和移动设备上使用。
 keywords: 响应
-seo-description: 基本缩放查看器是一个图像查看器，可显示单个可缩放图像。 它具有缩放工具、全屏支持和可选的关闭按钮。 此查看器最轻量。 它设计为可在桌面和移动设备上使用。
-seo-title: 基本缩放
 solution: Experience Manager
 title: 基本缩放
-uuid: 5466d647-af70-4503-9898-bb712ba6a007
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
