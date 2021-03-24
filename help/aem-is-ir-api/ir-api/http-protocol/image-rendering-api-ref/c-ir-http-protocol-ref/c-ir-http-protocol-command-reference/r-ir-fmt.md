@@ -1,16 +1,13 @@
 ---
 description: 回复图像格式。 为发送到客户端的图像数据指定图像编码格式，为HTTP响应头指定相应的响应MIME类型。
-seo-description: 回复图像格式。 为发送到客户端的图像数据指定图像编码格式，为HTTP响应头指定相应的响应MIME类型。
-seo-title: fmt
 solution: Experience Manager
 title: fmt
-uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '584'
 ht-degree: 4%
 
 ---
