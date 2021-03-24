@@ -1,16 +1,13 @@
 ---
 description: 从要获取文件的位置上载URL。
-seo-description: 从要获取文件的位置上载URL。
-seo-title: UploadUrlsJob
 solution: Experience Manager
 title: UploadUrlsJob
-uuid: 6140e969-bf61-4b62-9a60-29609626b0b4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '448'
 ht-degree: 5%
 
 ---
