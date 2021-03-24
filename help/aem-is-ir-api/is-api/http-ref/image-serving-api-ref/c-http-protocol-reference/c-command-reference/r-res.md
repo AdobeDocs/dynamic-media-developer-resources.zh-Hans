@@ -1,16 +1,13 @@
 ---
 description: 基于分辨率的图像缩放。 将图像缩放为所请求的分辨率。
-seo-description: 基于分辨率的图像缩放。 将图像缩放为所请求的分辨率。
-seo-title: res
 solution: Experience Manager
 title: res
-uuid: ab0c8329-5d40-4233-a122-8cb8ca01b500
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
