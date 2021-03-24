@@ -1,16 +1,13 @@
 ---
 description: 钝化蒙版。 如果layer=comp，则在进行所有缩放后，USM锐化图层或最终视图图像。
-seo-description: 钝化蒙版。 如果layer=comp，则在进行所有缩放后，USM锐化图层或最终视图图像。
-seo-title: op_usm
 solution: Experience Manager
 title: op_usm
-uuid: c647e063-2405-489b-b14d-a70638ac8af7
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '155'
 ht-degree: 6%
 
 ---
