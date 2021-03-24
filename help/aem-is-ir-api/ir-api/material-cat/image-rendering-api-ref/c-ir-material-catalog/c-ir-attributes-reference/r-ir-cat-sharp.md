@@ -1,17 +1,14 @@
 ---
 description: 默认材质锐化。 在特定目录记录不包含有效目录锐化值时设置默认材料锐化模式。
-seo-description: 默认材质锐化。 在特定目录记录不包含有效目录锐化值时设置默认材料锐化模式。
-seo-title: 清晰
 solution: Experience Manager
 title: 清晰
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 10%
 
 ---
 
