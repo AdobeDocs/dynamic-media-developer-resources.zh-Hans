@@ -2,11 +2,10 @@
 description: HTTPS视频投放
 solution: Experience Manager
 title: HTTPS视频投放
-uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
