@@ -1,16 +1,13 @@
 ---
 description: 主视图区域是弹出视图和色板所占用的区域。
-seo-description: 主视图区域是弹出视图和色板所占用的区域。
-seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
