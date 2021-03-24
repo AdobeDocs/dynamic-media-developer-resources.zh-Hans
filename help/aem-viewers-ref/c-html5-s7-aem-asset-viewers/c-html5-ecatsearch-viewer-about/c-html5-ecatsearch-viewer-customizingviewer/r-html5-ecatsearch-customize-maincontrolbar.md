@@ -1,16 +1,13 @@
 ---
 description: 主控件栏是桌面系统和平板电脑上的矩形区域，其中包含eCatalog Search查看器可用的所有用户界面控件（“大页”按钮除外）。
-seo-description: 主控件栏是桌面系统和平板电脑上的矩形区域，其中包含eCatalog Search查看器可用的所有用户界面控件（“大页”按钮除外）。
-seo-title: 主控制栏
 solution: Experience Manager
 title: 主控制栏
-uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
