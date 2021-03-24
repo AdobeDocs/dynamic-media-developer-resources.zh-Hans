@@ -1,16 +1,13 @@
 ---
 description: 为图像着色。 在保留阴影和高光的同时为图像数据着色。
-seo-description: 为图像着色。 在保留阴影和高光的同时为图像数据着色。
-seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '316'
 ht-degree: 4%
 
 ---
