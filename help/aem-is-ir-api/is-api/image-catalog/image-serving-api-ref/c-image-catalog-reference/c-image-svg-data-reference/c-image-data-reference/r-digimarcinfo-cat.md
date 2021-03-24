@@ -1,17 +1,14 @@
 ---
 description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
-seo-description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 13%
+source-wordcount: '238'
+ht-degree: 14%
 
 ---
 
@@ -82,7 +79,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>受限。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受复制保护，受限。 </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +118,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>未使用。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
@@ -131,7 +128,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
