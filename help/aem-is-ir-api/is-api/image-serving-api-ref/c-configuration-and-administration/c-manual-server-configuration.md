@@ -1,16 +1,13 @@
 ---
 description: 可以通过编辑相应的配置文件手动配置图像服务和图像渲染的许多方面。
-seo-description: 可以通过编辑相应的配置文件手动配置图像服务和图像渲染的许多方面。
-seo-title: 服务器配置
 solution: Experience Manager
 title: 服务器配置
-uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
