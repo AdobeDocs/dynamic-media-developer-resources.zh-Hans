@@ -1,16 +1,13 @@
 ---
 description: 旋转查看器的JavaScript API参考。
-seo-description: 旋转查看器的JavaScript API参考。
-seo-title: 处置
 solution: Experience Manager
 title: 处置
-uuid: c92c82b4-3a1a-4cbe-ad16-aa00322889e1
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
