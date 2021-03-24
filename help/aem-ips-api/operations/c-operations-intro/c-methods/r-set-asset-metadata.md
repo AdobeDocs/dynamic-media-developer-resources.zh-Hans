@@ -1,17 +1,14 @@
 ---
 description: 设置资产的元数据值。 使用一组元数据更新在批处理中设置值。
-seo-description: 设置资产的元数据值。 使用一组元数据更新在批处理中设置值。
-seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
-uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 feature: Dynamic Media Classic，SDK/API，元数据，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
