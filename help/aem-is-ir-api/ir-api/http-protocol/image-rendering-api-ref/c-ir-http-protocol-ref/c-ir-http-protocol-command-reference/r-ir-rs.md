@@ -1,17 +1,14 @@
 ---
 description: 高级渲染设置。 指定渲染当前选区时要应用的高级渲染设置。
-seo-description: 高级渲染设置。 指定渲染当前选区时要应用的高级渲染设置。
-seo-title: rs
 solution: Experience Manager
 title: rs
-uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
