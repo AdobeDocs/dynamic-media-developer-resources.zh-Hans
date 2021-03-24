@@ -1,16 +1,13 @@
 ---
 description: 图像服务支持可缩放矢量图形(SVG)文件作为源数据。 需要符合SVG 1.1。
-seo-description: 图像服务支持可缩放矢量图形(SVG)文件作为源数据。 需要符合SVG 1.1。
-seo-title: SVG支持
 solution: Experience Manager
 title: SVG支持
-uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
