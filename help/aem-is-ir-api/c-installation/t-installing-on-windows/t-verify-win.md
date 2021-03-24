@@ -1,16 +1,13 @@
 ---
 description: 安装Dynamic Media Image Serving后，应验证安装。
-seo-description: 安装Dynamic Media Image Serving后，应验证安装。
-seo-title: 验证安装
 solution: Experience Manager
 title: 验证安装
-uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
