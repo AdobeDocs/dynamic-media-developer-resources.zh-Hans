@@ -1,17 +1,14 @@
 ---
 description: 默认缩略图类型。 提供缩略图类型的默认值，以防特定目录记录不包含有效的目录缩略图类型值。
-seo-description: 默认缩略图类型。 提供缩略图类型的默认值，以防特定目录记录不包含有效的目录缩略图类型值。
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
