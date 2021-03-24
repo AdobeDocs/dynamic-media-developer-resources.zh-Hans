@@ -1,16 +1,13 @@
 ---
 description: playlog实用程序可用于预生成HTTP响应缓存的内容。
-seo-description: playlog实用程序可用于预生成HTTP响应缓存的内容。
-seo-title: “playlog”实用程序
 solution: Experience Manager
 title: “playlog”实用程序
-uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
