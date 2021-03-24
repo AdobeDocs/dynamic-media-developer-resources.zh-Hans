@@ -1,17 +1,14 @@
 ---
 description: 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
-seo-description: 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
-seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
