@@ -1,17 +1,14 @@
 ---
 description: 嵌入颜色用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
-seo-description: 嵌入颜色用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: ccd3fd2f-6f73-4725-a51a-9daf643d71af
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
