@@ -1,16 +1,13 @@
 ---
 description: 无论这些命令在请求中出现在何处，这些命令都会应用。
-seo-description: 无论这些命令在请求中出现在何处，这些命令都会应用。
-seo-title: 请求命令
 solution: Experience Manager
 title: 请求命令
-uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
