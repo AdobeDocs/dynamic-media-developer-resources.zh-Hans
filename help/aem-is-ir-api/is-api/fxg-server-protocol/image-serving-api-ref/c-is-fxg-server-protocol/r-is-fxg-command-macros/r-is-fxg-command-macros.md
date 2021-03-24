@@ -1,16 +1,13 @@
 ---
 description: 命令宏为命令集提供命名的快捷键。
-seo-description: 命令宏为命令集提供命名的快捷键。
-seo-title: 命令宏
 solution: Experience Manager
 title: 命令宏
-uuid: f90d5132-aa5b-424f-a123-838723ed891a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
