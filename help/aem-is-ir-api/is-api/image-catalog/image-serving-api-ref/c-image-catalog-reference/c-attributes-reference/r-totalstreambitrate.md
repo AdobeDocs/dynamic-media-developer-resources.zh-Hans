@@ -1,17 +1,14 @@
 ---
 description: 总流比特率。 表示视频资产的总流比特率的长值。
-seo-description: 总流比特率。 表示视频资产的总流比特率的长值。
-seo-title: TotalStreamBitRate
 solution: Experience Manager
 title: TotalStreamBitRate
-uuid: 0fdb7189-cae6-4cf0-ae00-f46a7709fc46
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '73'
+ht-degree: 6%
 
 ---
 
