@@ -1,16 +1,13 @@
 ---
 description: 此文档使用以下约定。
-seo-description: 此文档使用以下约定。
-seo-title: 文档约定
 solution: Experience Manager
 title: 文档约定
-uuid: 049c4d1b-b363-43bd-9597-168c97884ab7
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
