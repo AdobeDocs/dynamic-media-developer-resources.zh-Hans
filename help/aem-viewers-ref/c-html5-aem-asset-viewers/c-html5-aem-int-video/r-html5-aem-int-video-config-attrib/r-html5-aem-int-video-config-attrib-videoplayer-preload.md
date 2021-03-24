@@ -1,16 +1,13 @@
 ---
 description: 指示查看器是否在播放开始之前开始加载视频内容。
-seo-description: 指示查看器是否在播放开始之前开始加载视频内容。
-seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-uuid: d080465d-7349-4671-aaa4-c49e549d1f64
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
