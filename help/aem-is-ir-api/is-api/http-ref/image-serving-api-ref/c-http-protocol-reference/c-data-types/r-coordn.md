@@ -1,16 +1,13 @@
 ---
 description: 标准化坐标。 用于指定图像内的相对位置，如图像偏移或裁剪参数，这些位置已标准化为图像的大小。
-seo-description: 标准化坐标。 用于指定图像内的相对位置，如图像偏移或裁剪参数，这些位置已标准化为图像的大小。
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
