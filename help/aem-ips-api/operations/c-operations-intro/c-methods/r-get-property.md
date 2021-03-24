@@ -1,16 +1,13 @@
 ---
 description: 获取与图像门户相关的系统属性的字符串值。
-seo-description: 获取与图像门户相关的系统属性的字符串值。
-seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 10%
 
 ---
