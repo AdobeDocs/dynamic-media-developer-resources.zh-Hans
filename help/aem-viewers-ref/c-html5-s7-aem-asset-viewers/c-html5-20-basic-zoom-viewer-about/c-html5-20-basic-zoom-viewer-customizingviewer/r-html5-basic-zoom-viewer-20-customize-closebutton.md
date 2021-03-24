@@ -1,16 +1,13 @@
 ---
 description: 单击或点按此按钮可关闭包含的网页。 此按钮仅在关闭按钮参数设置为1时显示。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮可关闭包含的网页。 此按钮仅在关闭按钮参数设置为1时显示。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: “关闭”按钮
 solution: Experience Manager
 title: “关闭”按钮
-uuid: a5280ec8-fbb5-42d4-9504-2f1141fe7c79
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
