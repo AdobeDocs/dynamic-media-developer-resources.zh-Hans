@@ -1,16 +1,13 @@
 ---
 description: 预加载图像是一个静态资源预览图像，它在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预载图像的目的是直观地缩短查看器加载时间并快速向用户呈现内容。
-seo-description: 预加载图像是一个静态资源预览图像，它在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预载图像的目的是直观地缩短查看器加载时间并快速向用户呈现内容。
-seo-title: 预载图像
 solution: Experience Manager
 title: 预载图像
-uuid: bae99269-fd55-485e-b78e-873b77541d91
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
