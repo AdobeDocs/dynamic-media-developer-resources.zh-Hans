@@ -1,17 +1,14 @@
 ---
 description: 根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资产生成的资产的信息。 generateHandle返回有关用于生成指定资产或文件的步骤的信息。
-seo-description: 根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资产生成的资产的信息。 generateHandle返回有关用于生成指定资产或文件的步骤的信息。
-seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 9%
 
 ---
 
