@@ -1,16 +1,13 @@
 ---
 description: CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK材质图像的ICC颜色用户档案的名称。
-seo-description: CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK材质图像的ICC颜色用户档案的名称。
-seo-title: IccProfileSrcCmyk
 solution: Experience Manager
 title: IccProfileSrcCmyk
-uuid: 95147b28-c87b-4337-a0eb-a962ca1e8786
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
