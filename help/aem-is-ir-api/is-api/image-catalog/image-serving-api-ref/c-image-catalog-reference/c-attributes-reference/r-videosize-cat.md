@@ -1,17 +1,14 @@
 ---
 description: 视频大小。 允许指定与每个视频记录关联的大小。
-seo-description: 视频大小。 允许指定与每个视频记录关联的大小。
-seo-title: 视频大小
 solution: Experience Manager
 title: 视频大小
-uuid: 078508a7-8b06-4c40-9497-82b365b96fe2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 6%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
