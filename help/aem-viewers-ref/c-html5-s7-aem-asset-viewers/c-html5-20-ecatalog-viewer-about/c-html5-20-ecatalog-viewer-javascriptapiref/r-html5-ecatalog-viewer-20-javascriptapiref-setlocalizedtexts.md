@@ -1,16 +1,13 @@
 ---
 description: Video Viewer的JavaScript API参考。
-seo-description: Video Viewer的JavaScript API参考。
-seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-uuid: c87e9f32-59f9-4f7a-a2cb-89813c00524b
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
