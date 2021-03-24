@@ -1,17 +1,14 @@
 ---
 description: 由ActiveJob/type和ScheduledJob/type使用。
-seo-description: 由ActiveJob/type和ScheduledJob/type使用。
-seo-title: 作业类型
 solution: Experience Manager
 title: 作业类型
-uuid: ec55f636-d5c9-419c-b965-eee17ed7e2e7
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
