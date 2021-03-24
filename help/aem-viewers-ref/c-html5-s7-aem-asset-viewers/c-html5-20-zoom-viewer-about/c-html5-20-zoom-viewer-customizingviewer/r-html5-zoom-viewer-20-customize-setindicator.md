@@ -1,16 +1,13 @@
 ---
 description: 设置指示器是在触控设备上使用查看器时在色板顶部渲染的一系列点。 当滚动按钮不可用时，这些圆点可帮助用户在缩览图页面之间导航。
-seo-description: 设置指示器是在触控设备上使用查看器时在色板顶部渲染的一系列点。 当滚动按钮不可用时，这些圆点可帮助用户在缩览图页面之间导航。
-seo-title: 设置指示符
 solution: Experience Manager
 title: 设置指示符
-uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
