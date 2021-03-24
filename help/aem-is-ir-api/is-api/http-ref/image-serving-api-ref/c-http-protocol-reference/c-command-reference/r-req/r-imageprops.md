@@ -1,17 +1,14 @@
 ---
 description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
-seo-description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
-seo-title: imageprop
 solution: Experience Manager
 title: imageprop
-uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 9%
+source-wordcount: '334'
+ht-degree: 10%
 
 ---
 
