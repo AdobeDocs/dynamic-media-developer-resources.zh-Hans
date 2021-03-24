@@ -1,16 +1,13 @@
 ---
 description: 添加搜索词以用于searchAssets。
-seo-description: 添加搜索词以用于searchAssets。
-seo-title: MetadataCondition
 solution: Experience Manager
 title: MetadataCondition
-uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 7%
 
 ---
