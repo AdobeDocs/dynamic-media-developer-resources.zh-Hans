@@ -1,16 +1,13 @@
 ---
 description: 高速缓存群集允许多个负载平衡服务器交换主响应高速缓存和次数据高速缓存中的高速缓存条目（对于嵌套/嵌入的请求），并有可能通过消除在多个服务器上生成相同高速缓存条目的需要而显着增加服务器响应。
-seo-description: 高速缓存群集允许多个负载平衡服务器交换主响应高速缓存和次数据高速缓存中的高速缓存条目（对于嵌套/嵌入的请求），并有可能通过消除在多个服务器上生成相同高速缓存条目的需要而显着增加服务器响应。
-seo-title: 缓存群集
 solution: Experience Manager
 title: 缓存群集
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
