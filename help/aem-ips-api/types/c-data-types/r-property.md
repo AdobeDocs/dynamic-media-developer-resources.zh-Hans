@@ -1,17 +1,14 @@
 ---
 description: 名称和值对。
-seo-description: 名称和值对。
-seo-title: 属性
 solution: Experience Manager
 title: 属性
-uuid: 3e1bcd92-cc39-4590-b495-f80b5ca92b1f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 30%
+source-wordcount: '30'
+ht-degree: 33%
 
 ---
 
