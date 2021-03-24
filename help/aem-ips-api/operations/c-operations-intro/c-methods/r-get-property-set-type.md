@@ -1,17 +1,14 @@
 ---
 description: 使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
-seo-description: 使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
-seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '160'
+ht-degree: 10%
 
 ---
 
