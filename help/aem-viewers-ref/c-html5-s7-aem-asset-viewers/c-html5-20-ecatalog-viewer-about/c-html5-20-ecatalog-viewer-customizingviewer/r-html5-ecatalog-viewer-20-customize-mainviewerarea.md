@@ -1,17 +1,14 @@
 ---
 description: 主视图区域是目录图像所占用的区域。 当未指定大小时，它通常设置为适合可用的设备屏幕。
-seo-description: 主视图区域是目录图像所占用的区域。 当未指定大小时，它通常设置为适合可用的设备屏幕。
-seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 1%
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
