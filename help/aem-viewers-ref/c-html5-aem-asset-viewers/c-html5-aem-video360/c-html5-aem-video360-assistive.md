@@ -1,16 +1,13 @@
 ---
 description: 所有查看器组件都支持ARIA（可访问的富Internet应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
-seo-description: 所有查看器组件都支持ARIA（可访问的富Internet应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
-seo-title: 辅助技术支持
 solution: Experience Manager
 title: 辅助技术支持
-uuid: 52f5dad9-7309-4385-99bc-79d02d3ba2d9
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频，辅助功能
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
