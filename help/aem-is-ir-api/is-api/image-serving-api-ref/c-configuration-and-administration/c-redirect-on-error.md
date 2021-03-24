@@ -1,16 +1,13 @@
 ---
 description: 可以将IS服务器配置为对涉及源映像的请求故障切换到替代服务器，这些源映像无法成功打开或读取。
-seo-description: 可以将IS服务器配置为对涉及源映像的请求故障切换到替代服务器，这些源映像无法成功打开或读取。
-seo-title: 错误时重定向
 solution: Experience Manager
 title: 错误时重定向
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
