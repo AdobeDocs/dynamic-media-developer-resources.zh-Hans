@@ -2,11 +2,10 @@
 description: SetIndicator.autohide
 solution: Experience Manager
 title: SetIndicator.autohide
-uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 5%
