@@ -1,16 +1,13 @@
 ---
 description: 传送查看器的配置属性。
-seo-description: 传送查看器的配置属性。
-seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
