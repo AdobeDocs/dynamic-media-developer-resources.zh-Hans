@@ -1,16 +1,13 @@
 ---
 description: 调试请求。 此debug命令可解析和预处理请求、执行图像目录查找、目录修饰符包含、宏和变量替换等，就像req=img一样。
-seo-description: 调试请求。 此debug命令可解析和预处理请求、执行图像目录查找、目录修饰符包含、宏和变量替换等，就像req=img一样。
-seo-title: 解决
 solution: Experience Manager
 title: 解决
-uuid: bd1576a7-4802-4a87-b1c0-406f51382561
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '82'
 ht-degree: 2%
 
 ---
