@@ -1,17 +1,14 @@
 ---
 description: 粗体旗。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
-seo-description: 粗体旗。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
-seo-title: 粗体
 solution: Experience Manager
 title: 粗体
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 8%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
