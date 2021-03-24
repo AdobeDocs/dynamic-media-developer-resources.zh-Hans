@@ -1,16 +1,13 @@
 ---
 description: 标准化大小。 用于指定图像大小或矩形大小，与图层0或其他图像的大小进行标准化。
-seo-description: 标准化大小。 用于指定图像大小或矩形大小，与图层0或其他图像的大小进行标准化。
-seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
