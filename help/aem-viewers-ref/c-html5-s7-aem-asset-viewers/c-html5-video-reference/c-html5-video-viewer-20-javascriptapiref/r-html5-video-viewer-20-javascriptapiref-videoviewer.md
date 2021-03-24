@@ -1,16 +1,13 @@
 ---
 description: Video Viewer的JavaScript API参考。
-seo-description: Video Viewer的JavaScript API参考。
-seo-title: VideoViewer
 solution: Experience Manager
 title: VideoViewer
-uuid: ad180d92-3e5c-4ded-b82b-79c23aa5c597
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
