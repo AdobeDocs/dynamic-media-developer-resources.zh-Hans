@@ -1,17 +1,14 @@
 ---
 description: 字体文件路径。 主字体文件的路径和名称，包括文件后缀。
-seo-description: 字体文件路径。 主字体文件的路径和名称，包括文件后缀。
-seo-title: FontPath
 solution: Experience Manager
 title: FontPath
-uuid: 199a2acd-2b7f-41a0-88b2-4955a9bc9c63
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
