@@ -1,17 +1,14 @@
 ---
 description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
-seo-description: 默认背景颜色。 用于填充不含实际图像数据的回复图像任何区域的RGB值。
-seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
-uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
