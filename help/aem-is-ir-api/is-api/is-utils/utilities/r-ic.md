@@ -1,16 +1,13 @@
 ---
 description: 图像转换实用程序。
-seo-description: 图像转换实用程序。
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -292,7 +289,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 未压缩 |压缩 </p> </td> 
    <td> <p> 仅合并图像；图层和额外渠道将被忽略。 </p> </td> 
   </tr> 
@@ -313,7 +310,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA |灰色 | grayA |已索引 </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 未压缩 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 |包位 </p> </td> 
    <td> <p> 除了第一个关联的Alpha渠道，其他渠道将被忽略。 </p> </td> 
   </tr> 
