@@ -1,17 +1,14 @@
 ---
 description: 由setCompanySettingsParam/overwriteMode使用。
-seo-description: 由setCompanySettingsParam/overwriteMode使用。
-seo-title: 资产覆盖模式
 solution: Experience Manager
 title: 资产覆盖模式
-uuid: 2d683c94-3ed7-4d2f-ae97-8e722582bca0
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
