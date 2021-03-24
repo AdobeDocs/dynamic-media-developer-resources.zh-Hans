@@ -1,17 +1,14 @@
 ---
 description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
-seo-description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 10%
+source-wordcount: '218'
+ht-degree: 11%
 
 ---
 
