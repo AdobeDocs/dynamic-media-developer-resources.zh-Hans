@@ -1,16 +1,13 @@
 ---
 description: Carousel Viewer的JavaScript API参考。
-seo-description: Carousel Viewer的JavaScript API参考。
-seo-title: CarouselViewer
 solution: Experience Manager
 title: CarouselViewer
-uuid: 443a5b54-b5f6-4594-810b-ce9b2ba40611
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
