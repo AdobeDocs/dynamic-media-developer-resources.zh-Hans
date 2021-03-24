@@ -1,16 +1,13 @@
 ---
 description: 主视图由旋转图像组成。
-seo-description: 主视图由旋转图像组成。
-seo-title: 旋转视图
 solution: Experience Manager
 title: 旋转视图
-uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
