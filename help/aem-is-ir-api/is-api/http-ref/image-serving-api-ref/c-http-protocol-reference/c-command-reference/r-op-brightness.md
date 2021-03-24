@@ -1,16 +1,13 @@
 ---
 description: 调整亮度。 降低或增加图像亮度。
-seo-description: 调整亮度。 降低或增加图像亮度。
-seo-title: op_brightness
 solution: Experience Manager
 title: op_brightness
-uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
