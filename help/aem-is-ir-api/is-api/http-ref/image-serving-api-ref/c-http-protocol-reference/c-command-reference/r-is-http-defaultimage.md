@@ -1,16 +1,13 @@
 ---
 description: 默认回复图像。 指定在找不到图像时要使用的图像或目录条目。
-seo-description: 默认回复图像。 指定在找不到图像时要使用的图像或目录条目。
-seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---
