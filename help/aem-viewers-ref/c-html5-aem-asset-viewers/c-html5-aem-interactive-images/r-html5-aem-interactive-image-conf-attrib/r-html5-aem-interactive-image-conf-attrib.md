@@ -1,16 +1,13 @@
 ---
 description: Interactive Image Viewer的配置属性文档。
-seo-description: Interactive Image Viewer的配置属性文档。
-seo-title: 命令参考 — 配置属性
 solution: Experience Manager
 title: 命令参考 — 配置属性
-uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
