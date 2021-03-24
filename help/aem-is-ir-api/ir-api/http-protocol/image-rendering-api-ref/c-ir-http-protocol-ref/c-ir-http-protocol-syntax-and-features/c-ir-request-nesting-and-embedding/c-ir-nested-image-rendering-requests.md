@@ -1,16 +1,13 @@
 ---
 description: 对于高级应用，可以将渲染操作的结果用作物质图像，就像从图像服务获得的图像一样。
-seo-description: 对于高级应用，可以将渲染操作的结果用作物质图像，就像从图像服务获得的图像一样。
-seo-title: 嵌套图像渲染请求
 solution: Experience Manager
 title: 嵌套图像渲染请求
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
