@@ -1,16 +1,13 @@
 ---
 description: 缩放指示器叠加在主视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
-seo-description: 缩放指示器叠加在主视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
-seo-title: 图标效果
 solution: Experience Manager
 title: 图标效果
-uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
