@@ -1,17 +1,14 @@
 ---
 description: 规则集定义文件路径。 指定包含此材料目录的规则集定义的文件。
-seo-description: 规则集定义文件路径。 指定包含此材料目录的规则集定义的文件。
-seo-title: 规则集文件
 solution: Experience Manager
 title: 规则集文件
-uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
