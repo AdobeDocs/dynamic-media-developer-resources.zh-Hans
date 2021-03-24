@@ -1,17 +1,14 @@
 ---
 description: 对象选择错误处理。 指定当obj=命令由于在晕影对象层次结构中无法匹配指定路径而失败时要执行的操作。
-seo-description: 对象选择错误处理。 指定当obj=命令由于在晕影对象层次结构中无法匹配指定路径而失败时要执行的操作。
-seo-title: OnFailObj
 solution: Experience Manager
 title: OnFailObj
-uuid: b9dcaf29-ffa5-47db-9c8c-d1809da73582
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 10%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 
