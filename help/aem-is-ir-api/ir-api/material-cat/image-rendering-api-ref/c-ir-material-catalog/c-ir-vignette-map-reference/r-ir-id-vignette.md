@@ -1,16 +1,13 @@
 ---
 description: 晕影标识符。 索引键值，服务器查找晕影地图文件中的记录。
-seo-description: 晕影标识符。 索引键值，服务器查找晕影地图文件中的记录。
-seo-title: Id
 solution: Experience Manager
-title: ID
-uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
+title: Id
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '104'
 ht-degree: 7%
 
 ---
