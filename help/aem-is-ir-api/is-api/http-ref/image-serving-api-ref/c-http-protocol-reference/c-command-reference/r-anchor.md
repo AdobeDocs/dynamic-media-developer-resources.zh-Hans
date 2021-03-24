@@ -1,16 +1,13 @@
 ---
 description: 图像锚点。 在应用变换(crop=、scale=、rotate=、flip=)之前，定义图像、纯色或文本定界框矩形的锚点。 还用作rotate=的旋转中心。
-seo-description: 图像锚点。 在应用变换(crop=、scale=、rotate=、flip=)之前，定义图像、纯色或文本定界框矩形的锚点。 还用作rotate=的旋转中心。
-seo-title: 锚记
 solution: Experience Manager
 title: 锚记
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
