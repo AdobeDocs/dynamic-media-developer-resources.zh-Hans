@@ -1,17 +1,14 @@
 ---
 description: XML文件资源的属性。
-seo-description: XML文件资源的属性。
-seo-title: XmlInfo
 solution: Experience Manager
 title: XmlInfo
-uuid: 6871adc5-35cf-488f-abcc-20d766514ebd
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 21%
+source-wordcount: '35'
+ht-degree: 25%
 
 ---
 
