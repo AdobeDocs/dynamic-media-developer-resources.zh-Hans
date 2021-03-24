@@ -1,16 +1,13 @@
 ---
 description: 混合媒体查看器显示的某些内容受本地化的约束。 这包括缩放按钮、旋转按钮、视频控件、关闭按钮全屏按钮和色板滚动按钮。
-seo-description: 混合媒体查看器显示的某些内容受本地化的约束。 这包括缩放按钮、旋转按钮、视频控件、关闭按钮全屏按钮和色板滚动按钮。
-seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-uuid: 4da776f4-e370-444b-b31c-6b032483861d
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
