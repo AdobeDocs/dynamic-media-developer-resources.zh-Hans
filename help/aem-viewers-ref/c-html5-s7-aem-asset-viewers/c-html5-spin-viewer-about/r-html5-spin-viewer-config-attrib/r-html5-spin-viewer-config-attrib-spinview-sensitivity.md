@@ -2,11 +2,10 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-uuid: 82cf1f26-3af0-494f-b918-fdc318959c75
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
