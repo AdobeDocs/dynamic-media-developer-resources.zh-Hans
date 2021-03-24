@@ -1,17 +1,14 @@
 ---
 description: 响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
-seo-description: 响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
-seo-title: prop
 solution: Experience Manager
 title: prop
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 7%
+source-wordcount: '369'
+ht-degree: 8%
 
 ---
 
