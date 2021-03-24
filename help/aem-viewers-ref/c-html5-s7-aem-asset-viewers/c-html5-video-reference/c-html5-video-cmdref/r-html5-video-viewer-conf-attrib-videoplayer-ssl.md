@@ -1,16 +1,13 @@
 ---
 description: 视频查看器的配置属性。
-seo-description: 视频查看器的配置属性。
-seo-title: VideoPlayer.ssl
 solution: Experience Manager
 title: VideoPlayer.ssl
-uuid: 969da9ea-c97c-4fa8-9207-21d6302609e5
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
