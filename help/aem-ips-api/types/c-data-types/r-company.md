@@ -1,17 +1,14 @@
 ---
 description: 表示公司。
-seo-description: 表示公司。
-seo-title: 公司
 solution: Experience Manager
 title: 公司
-uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 27%
+source-wordcount: '39'
+ht-degree: 28%
 
 ---
 
