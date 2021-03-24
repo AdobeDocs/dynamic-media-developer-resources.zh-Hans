@@ -1,16 +1,13 @@
 ---
 description: 图像服务提供了一种获取分层文本响应（xml或json）的机制，该响应表示与特定记录的目录ImageSet关联的所有资源和元数据。
-seo-description: 图像服务提供了一种获取分层文本响应（xml或json）的机制，该响应表示与特定记录的目录ImageSet关联的所有资源和元数据。
-seo-title: 媒体集请求
 solution: Experience Manager
 title: 媒体集请求
-uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
