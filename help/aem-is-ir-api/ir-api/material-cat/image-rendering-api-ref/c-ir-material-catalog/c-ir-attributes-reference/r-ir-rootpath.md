@@ -1,17 +1,14 @@
 ---
 description: 源数据根路径。 文本字符串值。 此图像目录引用的所有晕影、纹理、图像和ICC数据文件的根文件夹的绝对路径或相对路径段。
-seo-description: 源数据根路径。 文本字符串值。 此图像目录引用的所有晕影、纹理、图像和ICC数据文件的根文件夹的绝对路径或相对路径段。
-seo-title: 根路径*
 solution: Experience Manager
 title: 根路径*
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
