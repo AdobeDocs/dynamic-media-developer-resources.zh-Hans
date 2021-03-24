@@ -1,16 +1,13 @@
 ---
 description: 弹出查看器的JavaScript API参考。
-seo-description: 弹出查看器的JavaScript API参考。
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: c6f7e7e9-084a-46ff-8cff-1ecb71f7b8d3
 feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
