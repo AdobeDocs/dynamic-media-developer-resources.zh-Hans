@@ -1,16 +1,13 @@
 ---
 description: 会话目录是提供请求会话属性以及所有src=、vignette=和icc=命令的默认catId值的材料目录。
-seo-description: 会话目录是提供请求会话属性以及所有src=、vignette=和icc=命令的默认catId值的材料目录。
-seo-title: 会话目录
 solution: Experience Manager
 title: 会话目录
-uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
