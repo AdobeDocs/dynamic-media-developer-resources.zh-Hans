@@ -1,17 +1,14 @@
 ---
 description: 图层来源。
-seo-description: 图层来源。
-seo-title: 来源
 solution: Experience Manager
 title: 来源
-uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
