@@ -1,17 +1,14 @@
 ---
 description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
-seo-description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
-seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
