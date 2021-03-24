@@ -1,17 +1,14 @@
 ---
 description: 用于交互式视频查看器的URL命令。
-seo-description: 用于交互式视频查看器的URL命令。
-seo-title: 字幕
 solution: Experience Manager
 title: 字幕
-uuid: 602c8f64-e018-4916-8141-09b36003a99d
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 8%
 
 ---
 
