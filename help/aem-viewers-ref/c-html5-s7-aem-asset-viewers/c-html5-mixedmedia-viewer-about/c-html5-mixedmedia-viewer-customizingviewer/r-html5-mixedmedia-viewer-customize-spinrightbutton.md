@@ -1,17 +1,14 @@
 ---
 description: 单击或点按此按钮将图像在主视图中向右旋转。 此按钮不显示在移动电话上以节省屏幕空间。 此外，当使用多维旋转集时，该按钮会被隐藏。 您可以使用CSS调整按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮将图像在主视图中向右旋转。 此按钮不显示在移动电话上以节省屏幕空间。 此外，当使用多维旋转集时，该按钮会被隐藏。 您可以使用CSS调整按钮的大小、外观和位置。
-seo-title: 右旋按钮
 solution: Experience Manager
 title: 右旋按钮
-uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 
