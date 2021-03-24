@@ -1,16 +1,13 @@
 ---
 description: 对内容数据文件夹使用这些服务器设置。
-seo-description: 对内容数据文件夹使用这些服务器设置。
-seo-title: 内容数据文件夹
 solution: Experience Manager
 title: 内容数据文件夹
-uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
