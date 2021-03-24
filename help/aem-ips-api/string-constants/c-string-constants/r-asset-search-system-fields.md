@@ -1,17 +1,14 @@
 ---
 description: 由SystemFieldCondition/field使用。
-seo-description: 由SystemFieldCondition/field使用。
-seo-title: 资产搜索系统字段
 solution: Experience Manager
 title: 资产搜索系统字段
-uuid: 2af88d8a-4f04-4a90-8f60-ff0c32197023
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
