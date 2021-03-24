@@ -1,16 +1,13 @@
 ---
 description: 单击或点按此按钮将用户返回到旋转集中的上一张幻灯片。 此按钮不显示在触控设备上。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮将用户返回到旋转集中的上一张幻灯片。 此按钮不显示在触控设备上。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: 上一张幻灯片
 solution: Experience Manager
 title: 上一张幻灯片
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
