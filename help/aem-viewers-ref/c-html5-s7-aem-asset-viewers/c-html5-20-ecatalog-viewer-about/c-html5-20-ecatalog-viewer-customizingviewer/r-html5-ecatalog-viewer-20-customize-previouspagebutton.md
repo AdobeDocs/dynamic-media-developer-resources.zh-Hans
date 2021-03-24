@@ -1,16 +1,13 @@
 ---
 description: 单击或点按此按钮将使用户转到目录中的上一页。 此按钮显示在主控件栏中。 此按钮不显示在移动电话上以节省屏幕空间。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮将使用户转到目录中的上一页。 此按钮显示在主控件栏中。 此按钮不显示在移动电话上以节省屏幕空间。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: “上一页”按钮
 solution: Experience Manager
 title: “上一页”按钮
-uuid: 0e7dfa50-0af5-4af9-b57c-5a01e73c03a0
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
