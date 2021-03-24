@@ -1,16 +1,13 @@
 ---
 description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
-seo-description: 弹出查看器显示的某些内容受本地化的约束。 此内容包括用户界面元素工具提示和信息消息，这些消息在加载时由弹出缩放视图显示。
-seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-uuid: efba09ad-200b-4540-8876-c9e462ec233a
 feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
