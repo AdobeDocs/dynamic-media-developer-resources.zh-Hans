@@ -1,16 +1,13 @@
 ---
 description: 缩放视图。 按指定的缩放因子相对于全分辨率晕影缩放渲染的图像。
-seo-description: 缩放视图。 按指定的缩放因子相对于全分辨率晕影缩放渲染的图像。
-seo-title: scl
 solution: Experience Manager
 title: scl
-uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
