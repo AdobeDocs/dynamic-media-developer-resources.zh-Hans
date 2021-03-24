@@ -1,17 +1,14 @@
 ---
 description: 单击或点按此按钮重置可在主视图和缩览图之间切换查看器。 此按钮显示在主控件栏中。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮重置可在主视图和缩览图之间切换查看器。 此按钮显示在主控件栏中。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: “缩览图”按钮
 solution: Experience Manager
 title: “缩览图”按钮
-uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 1%
 
 ---
 
