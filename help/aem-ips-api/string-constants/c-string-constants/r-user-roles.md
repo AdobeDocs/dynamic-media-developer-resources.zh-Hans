@@ -1,17 +1,14 @@
 ---
 description: 描述各种参数使用的值。 有关详细信息，请参阅本文中的列表
-seo-description: 描述各种参数使用的值。 有关详细信息，请参阅本文中的列表
-seo-title: 用户角色
 solution: Experience Manager
 title: 用户角色
-uuid: d971c6aa-981a-4e15-b268-7bd685bad03b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 3%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
