@@ -1,16 +1,13 @@
 ---
 description: 弹出查看器支持Adobe Analytics开箱即用跟踪。
-seo-description: 弹出查看器支持Adobe Analytics开箱即用跟踪。
-seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
 feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
