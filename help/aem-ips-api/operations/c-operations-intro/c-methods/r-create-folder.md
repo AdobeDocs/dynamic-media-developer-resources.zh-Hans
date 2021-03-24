@@ -1,17 +1,14 @@
 ---
 description: 创建文件夹。
-seo-description: 创建文件夹。
-seo-title: 建立資料夾
 solution: Experience Manager
 title: 建立資料夾
-uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '125'
+ht-degree: 18%
 
 ---
 
