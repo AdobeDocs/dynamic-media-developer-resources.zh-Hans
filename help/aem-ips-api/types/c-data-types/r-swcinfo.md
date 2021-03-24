@@ -1,17 +1,14 @@
 ---
 description: SWC文件资源的属性。
-seo-description: SWC文件资源的属性。
-seo-title: SwcInfo
 solution: Experience Manager
 title: SwcInfo
-uuid: 930b2ccd-5f32-4cc2-bef7-1f6eeb48dd1b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 20%
+source-wordcount: '38'
+ht-degree: 23%
 
 ---
 
