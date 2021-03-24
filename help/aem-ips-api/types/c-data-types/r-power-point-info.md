@@ -1,17 +1,14 @@
 ---
 description: PowerPoint文件选项。
-seo-description: PowerPoint文件选项。
-seo-title: PowerPointInfo
 solution: Experience Manager
 title: PowerPointInfo
-uuid: 26626c06-b610-4c3c-a249-70c6edc9ebdd
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 27%
+source-wordcount: '29'
+ht-degree: 31%
 
 ---
 
