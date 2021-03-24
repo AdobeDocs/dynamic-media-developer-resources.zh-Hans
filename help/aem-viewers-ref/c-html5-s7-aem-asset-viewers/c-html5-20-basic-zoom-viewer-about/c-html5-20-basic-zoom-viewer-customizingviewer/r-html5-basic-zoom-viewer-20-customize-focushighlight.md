@@ -1,17 +1,14 @@
 ---
 description: 通过CSS类选择器控制在聚焦的查看器周围显示的输入焦点突出显示使用界面元素。
-seo-description: 通过CSS类选择器控制在聚焦的查看器周围显示的输入焦点突出显示使用界面元素。
-seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-uuid: 1b552aec-837a-4df4-91dc-615ceead92b3
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 1%
 
 ---
 
