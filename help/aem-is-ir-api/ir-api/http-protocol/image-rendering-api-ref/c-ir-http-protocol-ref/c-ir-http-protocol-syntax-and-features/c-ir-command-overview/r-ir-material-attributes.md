@@ -1,16 +1,13 @@
 ---
 description: 这些属性定义要应用于所选对象的材料。
-seo-description: 这些属性定义要应用于所选对象的材料。
-seo-title: 材料属性
 solution: Experience Manager
 title: 材料属性
-uuid: afdff304-f607-4820-bdb2-f428271efb87
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
