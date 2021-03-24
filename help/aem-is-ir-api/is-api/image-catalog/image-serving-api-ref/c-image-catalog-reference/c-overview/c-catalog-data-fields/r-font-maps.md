@@ -1,16 +1,13 @@
 ---
 description: 字体映射文件中可识别以下字段。
-seo-description: 字体映射文件中可识别以下字段。
-seo-title: 字体映射
 solution: Experience Manager
 title: 字体映射
-uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
