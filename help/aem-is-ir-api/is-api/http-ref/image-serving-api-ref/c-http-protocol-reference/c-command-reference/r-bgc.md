@@ -1,16 +1,13 @@
 ---
 description: 视图背景颜色。 指定复合图像(视图图像)的背景颜色。
-seo-description: 视图背景颜色。 指定复合图像(视图图像)的背景颜色。
-seo-title: bgc
 solution: Experience Manager
 title: bgc
-uuid: 3ea8291e-3223-45ff-a2ad-43fc212eff90
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
