@@ -1,16 +1,13 @@
 ---
 description: 在所配置的平均间隔结束时，标准警报会与合并的电子邮件一起发送。
-seo-description: 在所配置的平均间隔结束时，标准警报会与合并的电子邮件一起发送。
-seo-title: 标准警报
 solution: Experience Manager
 title: 标准警报
-uuid: d3294434-a44b-4742-9d77-a6945760d33c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
