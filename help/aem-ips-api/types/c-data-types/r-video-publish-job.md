@@ -1,17 +1,14 @@
 ---
 description: 将文件发布到已配置的视频发布服务器。
-seo-description: 将文件发布到已配置的视频发布服务器。
-seo-title: VideoPublishJob
 solution: Experience Manager
 title: VideoPublishJob
-uuid: 430cdb75-b909-4023-8627-e9db1991b533
 feature: Dynamic Media Classic，SDK/API，视频
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
