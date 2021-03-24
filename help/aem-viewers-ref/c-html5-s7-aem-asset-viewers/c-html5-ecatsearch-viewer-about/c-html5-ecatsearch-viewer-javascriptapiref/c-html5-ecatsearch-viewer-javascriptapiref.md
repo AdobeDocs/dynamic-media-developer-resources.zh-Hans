@@ -1,16 +1,13 @@
 ---
 description: eCatalog Search Viewer的主类是eCatalogSearchViewer。 在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
-seo-description: eCatalog Search Viewer的主类是eCatalogSearchViewer。 在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
-seo-title: 电子目录搜索查看器的Javascript API参考
 solution: Experience Manager
 title: 电子目录搜索查看器的Javascript API参考
-uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
