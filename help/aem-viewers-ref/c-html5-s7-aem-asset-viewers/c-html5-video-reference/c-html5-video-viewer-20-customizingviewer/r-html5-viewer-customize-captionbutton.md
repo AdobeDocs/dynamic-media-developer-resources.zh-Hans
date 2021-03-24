@@ -1,16 +1,13 @@
 ---
 description: 此按钮可打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。
-seo-description: 此按钮可打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。
-seo-title: “题注”按钮
 solution: Experience Manager
 title: “题注”按钮
-uuid: 97de8cdd-8410-4128-be5c-1fc4987a5f96
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
