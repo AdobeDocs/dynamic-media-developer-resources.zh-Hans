@@ -1,17 +1,14 @@
 ---
 description: 主视图区域是主视图和色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
-seo-description: 主视图区域是主视图和色板所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
-seo-title: 主查看器区域
 solution: Experience Manager
 title: 主查看器区域
-uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
