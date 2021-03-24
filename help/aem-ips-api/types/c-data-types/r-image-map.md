@@ -1,16 +1,13 @@
 ---
 description: 目标浏览器中的单击操作。
-seo-description: 目标浏览器中的单击操作。
-seo-title: 图像映射
 solution: Experience Manager
 title: 图像映射
-uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '104'
 ht-degree: 12%
 
 ---
