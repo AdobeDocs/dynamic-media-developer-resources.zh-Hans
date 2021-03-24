@@ -1,16 +1,13 @@
 ---
 description: 错误响应图像。 图像服务通常在出错时返回带有文本消息的错误状态。
-seo-description: 错误响应图像。 图像服务通常在出错时返回带有文本消息的错误状态。
-seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
