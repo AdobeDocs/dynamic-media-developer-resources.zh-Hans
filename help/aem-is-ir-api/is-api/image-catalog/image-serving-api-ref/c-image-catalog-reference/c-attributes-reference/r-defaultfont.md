@@ -1,16 +1,13 @@
 ---
 description: 默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
-seo-description: 默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
-seo-title: DefaultFont
 solution: Experience Manager
 title: DefaultFont
-uuid: 0d1ada8d-2ffe-4799-b771-8f9113e04661
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
