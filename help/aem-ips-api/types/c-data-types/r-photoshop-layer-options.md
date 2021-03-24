@@ -1,17 +1,14 @@
 ---
 description: Photoshop图像图层选项。
-seo-description: Photoshop图像图层选项。
-seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 9%
 
 ---
 
