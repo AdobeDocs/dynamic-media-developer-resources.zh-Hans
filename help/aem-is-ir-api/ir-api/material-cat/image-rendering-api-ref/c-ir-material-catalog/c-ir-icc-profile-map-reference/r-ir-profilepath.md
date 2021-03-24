@@ -1,17 +1,14 @@
 ---
 description: 用户档案文件路径。 ICC颜色用户档案文件的路径和名称，包括文件后缀。
-seo-description: 用户档案文件路径。 ICC颜色用户档案文件的路径和名称，包括文件后缀。
-seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '63'
+ht-degree: 9%
 
 ---
 
