@@ -1,17 +1,14 @@
 ---
 description: 任务进度数组。 包含有关视频转码任务的信息。
-seo-description: 任务进度数组。 包含有关视频转码任务的信息。
-seo-title: TaskProgressArray
 solution: Experience Manager
 title: TaskProgressArray
-uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
