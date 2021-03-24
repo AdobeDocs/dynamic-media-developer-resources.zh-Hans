@@ -1,16 +1,13 @@
 ---
 description: Video360查看器的命令参考文档。
-seo-description: Video360查看器的命令参考文档。
-seo-title: 命令参考 — URL
 solution: Experience Manager
 title: 命令参考 — URL
-uuid: 70c212d7-35ee-408f-abe4-19ba1e4d773d
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
