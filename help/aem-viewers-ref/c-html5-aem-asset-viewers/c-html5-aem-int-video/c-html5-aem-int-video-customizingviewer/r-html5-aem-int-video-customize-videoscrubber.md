@@ -1,16 +1,13 @@
 ---
 description: 视频擦洗器是一个水平滑块控件，它允许用户动态搜索当前播放的视频中的任意时间位置。
-seo-description: 视频擦洗器是一个水平滑块控件，它允许用户动态搜索当前播放的视频中的任意时间位置。
-seo-title: 视频擦洗器
 solution: Experience Manager
 title: 视频擦洗器
-uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1028'
 ht-degree: 2%
 
 ---
