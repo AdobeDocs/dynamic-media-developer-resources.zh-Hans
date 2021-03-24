@@ -1,16 +1,13 @@
 ---
 description: 旋转查看器的JavaScript API参考。
-seo-description: 旋转查看器的JavaScript API参考。
-seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-uuid: bf136479-8ac8-4151-8911-377eed631aa2
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '80'
 ht-degree: 2%
 
 ---
