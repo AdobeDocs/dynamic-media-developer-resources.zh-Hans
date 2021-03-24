@@ -1,17 +1,14 @@
 ---
 description: Spin Viewer的JavaScript API参考
-seo-description: Spin Viewer的JavaScript API参考
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 50db47ee-c1bb-4e45-bfcf-fae0fff6e0e8
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
