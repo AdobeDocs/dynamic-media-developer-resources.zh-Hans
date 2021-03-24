@@ -1,16 +1,13 @@
 ---
 description: 大多数材料都可以动态着色。
-seo-description: 大多数材料都可以动态着色。
-seo-title: 着色材料
 solution: Experience Manager
 title: 着色材料
-uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
