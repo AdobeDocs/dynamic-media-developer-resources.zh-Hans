@@ -1,16 +1,13 @@
 ---
 description: 使用这些服务器设置设置图像大小限制。
-seo-description: 使用这些服务器设置设置图像大小限制。
-seo-title: 图像大小限制
 solution: Experience Manager
 title: 图像大小限制
-uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
