@@ -1,17 +1,14 @@
 ---
 description: 辅助作业日志详细信息类型的数组。
-seo-description: 辅助作业日志详细信息类型的数组。
-seo-title: JobLogDetailAuxArray
 solution: Experience Manager
 title: JobLogDetailAuxArray
-uuid: f55e10aa-eedf-41fa-bed5-f6a373d89482
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
 
