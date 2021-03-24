@@ -1,11 +1,11 @@
 ---
-description: 如果请求成功完成，并且请求中不包含req=命令，或req=包含以下值之一，则返回图像数据img，调试
+description: 如果请求成功完成，并且请求中不包含req=命令，或req=包含以下值之一，则返回图像数据img，调试。
 solution: Experience Manager
 title: 图像
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
