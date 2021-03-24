@@ -1,16 +1,13 @@
 ---
 description: 必须设置并配置IR 3.x兼容性模块。
-seo-description: 必须设置并配置IR 3.x兼容性模块。
-seo-title: 设置和配置IR 3.x兼容性模块
 solution: Experience Manager
 title: 设置和配置IR 3.x兼容性模块
-uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '111'
 ht-degree: 1%
 
 ---
