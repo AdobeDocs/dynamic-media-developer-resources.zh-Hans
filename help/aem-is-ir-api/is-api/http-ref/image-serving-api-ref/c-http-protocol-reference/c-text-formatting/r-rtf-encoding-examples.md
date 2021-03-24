@@ -1,17 +1,14 @@
 ---
 description: 以下示例显示了文本命令的示例及其对文本的影响。
-seo-description: 以下示例显示了文本命令的示例及其对文本的影响。
-seo-title: RTF编码示例
 solution: Experience Manager
 title: RTF编码示例
-uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
 
