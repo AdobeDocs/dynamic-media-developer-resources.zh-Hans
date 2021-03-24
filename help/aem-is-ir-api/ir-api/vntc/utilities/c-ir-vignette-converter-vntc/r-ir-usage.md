@@ -1,17 +1,14 @@
 ---
 description: 本主题介绍vntc用法语法。
-seo-description: 本主题介绍vntc用法语法。
-seo-title: 使用
 solution: Experience Manager
 title: 使用
-uuid: 251aa1a0-5f19-42ab-b237-3e3b53fe8320
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
