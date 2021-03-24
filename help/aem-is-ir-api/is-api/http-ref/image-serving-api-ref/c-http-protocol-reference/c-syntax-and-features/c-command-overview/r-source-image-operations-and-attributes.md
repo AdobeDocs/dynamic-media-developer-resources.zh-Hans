@@ -1,16 +1,13 @@
 ---
 description: 这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
-seo-description: 这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
-seo-title: 源图像操作
 solution: Experience Manager
 title: 源图像操作
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
