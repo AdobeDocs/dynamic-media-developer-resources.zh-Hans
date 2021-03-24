@@ -1,16 +1,13 @@
 ---
 description: 设置Web到打印请求中嵌入位图的分辨率。
-seo-description: 设置Web到打印请求中嵌入位图的分辨率。
-seo-title: imageRes
 solution: Experience Manager
 title: imageRes
-uuid: 9fd252b8-2956-4618-85dd-a47fc836639c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
