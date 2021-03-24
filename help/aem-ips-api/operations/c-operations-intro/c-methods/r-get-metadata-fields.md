@@ -1,17 +1,14 @@
 ---
 description: 获取与资产关联的用户定义的元数据字段。
-seo-description: 获取与资产关联的用户定义的元数据字段。
-seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 13%
+source-wordcount: '103'
+ht-degree: 14%
 
 ---
 
