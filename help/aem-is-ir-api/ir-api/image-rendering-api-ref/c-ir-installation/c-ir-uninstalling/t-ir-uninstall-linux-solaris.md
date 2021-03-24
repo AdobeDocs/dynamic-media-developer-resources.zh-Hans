@@ -1,16 +1,13 @@
 ---
 description: 按照以下说明卸载Linux或Solaris系统上的图像渲染。
-seo-description: 按照以下说明卸载Linux或Solaris系统上的图像渲染。
-seo-title: 在Linux和Solaris上卸载
 solution: Experience Manager
 title: 在Linux和Solaris上卸载
-uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
