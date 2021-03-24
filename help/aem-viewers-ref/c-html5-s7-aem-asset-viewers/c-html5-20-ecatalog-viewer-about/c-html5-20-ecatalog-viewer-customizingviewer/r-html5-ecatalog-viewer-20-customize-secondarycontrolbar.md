@@ -1,17 +1,14 @@
 ---
 description: 辅助控制栏是矩形区域，当在CSS中可用时，该区域包含“首页”和“末页”按钮以及“页面指示符”。
-seo-description: 辅助控制栏是矩形区域，当在CSS中可用时，该区域包含“首页”和“末页”按钮以及“页面指示符”。
-seo-title: 辅助控制栏
 solution: Experience Manager
 title: 辅助控制栏
-uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
