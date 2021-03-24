@@ -1,17 +1,14 @@
 ---
 description: 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
-seo-description: 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
-seo-title: 顯示
 solution: Experience Manager
 title: 顯示
-uuid: 31255529-9277-40d9-9c57-205d22479600
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
