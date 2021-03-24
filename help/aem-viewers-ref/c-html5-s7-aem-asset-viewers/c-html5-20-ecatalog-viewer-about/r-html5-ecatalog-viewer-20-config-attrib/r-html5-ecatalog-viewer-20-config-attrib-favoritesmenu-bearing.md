@@ -1,17 +1,14 @@
 ---
 description: 指定按钮容器的幻灯片动画方向。
-seo-description: 指定按钮容器的幻灯片动画方向。
-seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-uuid: badc02ef-2724-41bb-9b00-c65966be8577
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 2%
 
 ---
 
