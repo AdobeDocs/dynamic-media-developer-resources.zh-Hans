@@ -1,17 +1,14 @@
 ---
 description: 此材料类别包括墙壁、木工和修剪、汽车以及不需要纹理的任何其他应用程序的颜料。
-seo-description: 此材料类别包括墙壁、木工和修剪、汽车以及不需要纹理的任何其他应用程序的颜料。
-seo-title: 纯色
 solution: Experience Manager
 title: 纯色
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
