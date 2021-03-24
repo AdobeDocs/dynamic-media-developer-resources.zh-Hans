@@ -1,17 +1,14 @@
 ---
 description: 有关宏名称和定义参数的信息。
-seo-description: 有关宏名称和定义参数的信息。
-seo-title: 宏定义参考
 solution: Experience Manager
 title: 宏定义参考
-uuid: 66e9d7e7-bb1e-4f76-abdd-43679abd443b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 4%
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
