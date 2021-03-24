@@ -1,17 +1,14 @@
 ---
 description: 在上载过程中指定的选项。 影响上传的颜色管理方式。
-seo-description: 在上载过程中指定的选项。 影响上传的颜色管理方式。
-seo-title: 颜色管理选项
 solution: Experience Manager
 title: 颜色管理选项
-uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
