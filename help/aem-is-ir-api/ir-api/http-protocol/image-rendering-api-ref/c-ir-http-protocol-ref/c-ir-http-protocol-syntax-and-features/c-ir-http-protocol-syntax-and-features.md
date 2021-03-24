@@ -1,17 +1,14 @@
 ---
 description: 本节介绍Dynamic Media图像渲染的HTTP协议语法和功能。
-seo-description: 本节介绍Dynamic Media图像渲染的HTTP协议语法和功能。
-seo-title: HTTP协议语法和功能
 solution: Experience Manager
 title: HTTP协议语法和功能
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 
