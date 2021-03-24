@@ -1,17 +1,14 @@
 ---
 description: 返回所有文件夹和子文件夹，从文件夹路径开始。 getFolders响应最多返回100,000个文件夹。
-seo-description: 返回所有文件夹和子文件夹，从文件夹路径开始。 getFolders响应最多返回100,000个文件夹。
-seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 7%
+source-wordcount: '244'
+ht-degree: 8%
 
 ---
 
