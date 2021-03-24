@@ -1,16 +1,13 @@
 ---
 description: 本文档讨论服务器管理问题，并介绍Dynamic Media图像渲染的配置设置。
-seo-description: 本文档讨论服务器管理问题，并介绍Dynamic Media图像渲染的配置设置。
-seo-title: 服务器管理序言
 solution: Experience Manager
 title: 服务器管理序言
-uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
