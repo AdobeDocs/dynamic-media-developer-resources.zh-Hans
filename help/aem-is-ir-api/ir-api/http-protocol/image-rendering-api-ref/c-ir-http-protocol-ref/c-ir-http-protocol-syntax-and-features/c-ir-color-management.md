@@ -1,16 +1,13 @@
 ---
 description: 图像渲染支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
-seo-description: 图像渲染支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
-seo-title: 图像渲染色彩管理*
 solution: Experience Manager
 title: 图像渲染色彩管理*
-uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
