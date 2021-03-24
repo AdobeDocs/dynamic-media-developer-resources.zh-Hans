@@ -1,17 +1,14 @@
 ---
 description: 全屏按钮使查看器在用户单击时进入或退出全屏模式。 当查看器显示视频并位于控制栏中时，会使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。
-seo-description: 全屏按钮使查看器在用户单击时进入或退出全屏模式。 当查看器显示视频并位于控制栏中时，会使用它。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。
-seo-title: “视频全屏”按钮
 solution: Experience Manager
 title: “视频全屏”按钮
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
