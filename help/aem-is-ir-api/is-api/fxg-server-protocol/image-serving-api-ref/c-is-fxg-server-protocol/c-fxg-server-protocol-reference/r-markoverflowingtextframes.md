@@ -1,17 +1,14 @@
 ---
 description: 显示带加号的溢流文本框架。 当文本超出在文本框架内为其分配的空间（或者，如果是串接文本，则为在最后一个文本框架中分配的空间）时，会显示文本溢出指示符。该指示符是一个内含加号的红色方框。
-seo-description: 显示带加号的溢流文本框架。 当文本超出在文本框架内为其分配的空间（或者，如果是串接文本，则为在最后一个文本框架中分配的空间）时，会显示文本溢出指示符。该指示符是一个内含加号的红色方框。
-seo-title: markOverflowingTextFrames
 solution: Experience Manager
 title: markOverflowingTextFrames
-uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 65%
+source-wordcount: '144'
+ht-degree: 59%
 
 ---
 
