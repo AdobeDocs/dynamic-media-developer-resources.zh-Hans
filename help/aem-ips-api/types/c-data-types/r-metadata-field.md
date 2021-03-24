@@ -1,17 +1,14 @@
 ---
 description: 特定资产的用户定义字段定义。
-seo-description: 特定资产的用户定义字段定义。
-seo-title: 元数据字段
 solution: Experience Manager
 title: 元数据字段
-uuid: 6156be6e-efa5-4e90-928d-2ab936668154
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 13%
+source-wordcount: '153'
+ht-degree: 14%
 
 ---
 
