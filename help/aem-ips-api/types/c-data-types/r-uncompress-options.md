@@ -1,17 +1,14 @@
 ---
 description: 上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
-seo-description: 上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
-seo-title: UnCompressOptions
 solution: Experience Manager
 title: UnCompressOptions
-uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
