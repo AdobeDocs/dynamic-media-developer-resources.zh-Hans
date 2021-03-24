@@ -1,17 +1,14 @@
 ---
 description: 启用上次修改的响应标头。 启用或禁用在图像渲染发出的可缓存HTTP响应中包含“上次修改时间”标头。
-seo-description: 启用上次修改的响应标头。 启用或禁用在图像渲染发出的可缓存HTTP响应中包含“上次修改时间”标头。
-seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 1%
+source-wordcount: '233'
+ht-degree: 2%
 
 ---
 
