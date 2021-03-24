@@ -2,11 +2,10 @@
 description: 查看器SDK命名空间
 solution: Experience Manager
 title: 查看器SDK命名空间
-uuid: 29987da2-4535-47f3-a5ae-912c7cd10c86
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
