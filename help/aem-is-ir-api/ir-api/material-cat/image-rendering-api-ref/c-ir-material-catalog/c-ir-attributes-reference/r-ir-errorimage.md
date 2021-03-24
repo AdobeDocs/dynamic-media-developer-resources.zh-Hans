@@ -1,16 +1,13 @@
 ---
 description: 错误响应图像。 图像渲染通常会在出现错误时返回带有文本消息的错误状态。 attribute ErrorImage允许配置要在出错时返回的图像。
-seo-description: 错误响应图像。 图像渲染通常会在出现错误时返回带有文本消息的错误状态。 attribute ErrorImage允许配置要在出错时返回的图像。
-seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
