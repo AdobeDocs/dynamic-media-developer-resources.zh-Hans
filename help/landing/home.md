@@ -1,14 +1,12 @@
 ---
 title: Adobe Dynamic Media开发人员资源
-seo-title: Adobe Dynamic Media开发人员资源指南，适用于查看器、图像服务、图像渲染和图像制作
 description: Adobe Dynamic Media开发人员资源
-seo-description: Adobe Dynamic Media开发人员资源指南，适用于查看器、图像服务、图像渲染和图像制作
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
