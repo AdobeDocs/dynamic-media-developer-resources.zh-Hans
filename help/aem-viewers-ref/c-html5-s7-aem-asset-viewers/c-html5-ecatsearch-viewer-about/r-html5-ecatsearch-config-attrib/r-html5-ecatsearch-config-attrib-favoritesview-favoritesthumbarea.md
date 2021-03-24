@@ -2,11 +2,10 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-uuid: a95d4051-7bc1-4b3f-8478-c5b7ab28fa61
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 8%
