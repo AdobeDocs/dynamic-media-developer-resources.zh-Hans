@@ -1,16 +1,13 @@
 ---
 description: 表示当SpinView空闲时，要在每个方向预载的最大帧数。
-seo-description: 表示当SpinView空闲时，要在每个方向预载的最大帧数。
-seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---
