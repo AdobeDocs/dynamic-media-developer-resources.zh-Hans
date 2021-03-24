@@ -1,17 +1,14 @@
 ---
 description: 为公司定义发布目标。
-seo-description: 为公司定义发布目标。
-seo-title: PublishContext
 solution: Experience Manager
 title: PublishContext
-uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 16%
+source-wordcount: '75'
+ht-degree: 18%
 
 ---
 
