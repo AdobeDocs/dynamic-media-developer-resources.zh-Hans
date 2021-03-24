@@ -1,16 +1,13 @@
 ---
 description: 任务进度信息。
-seo-description: 任务进度信息。
-seo-title: 任务进度
 solution: Experience Manager
 title: 任务进度
-uuid: b3b67803-147a-48a3-acc3-d608e01e0800
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '145'
 ht-degree: 11%
 
 ---
