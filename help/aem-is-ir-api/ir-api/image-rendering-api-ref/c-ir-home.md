@@ -1,16 +1,13 @@
 ---
 description: “图像渲染API参考”包含有关设置和使用Dynamic Media图像渲染API的信息。
-seo-description: “图像渲染API参考”包含有关设置和使用Dynamic Media图像渲染API的信息。
-seo-title: 图像渲染API
 solution: Experience Manager
 title: 图像渲染API
-uuid: 14e283bb-451c-4b6e-bd73-32488dcd93b6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
