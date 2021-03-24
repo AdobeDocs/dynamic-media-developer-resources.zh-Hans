@@ -1,17 +1,14 @@
 ---
 description: 使用资产句柄列表数组将文件分组到集中。
-seo-description: 使用资产句柄列表数组将文件分组到集中。
-seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '183'
+ht-degree: 7%
 
 ---
 
