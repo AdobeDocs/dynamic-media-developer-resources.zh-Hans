@@ -1,17 +1,14 @@
 ---
 description: 检查具有特定公司（通过句柄标识）、电子邮件地址和密码的用户是否可以登录。
-seo-description: 检查具有特定公司（通过句柄标识）、电子邮件地址和密码的用户是否可以登录。
-seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 11%
+source-wordcount: '152'
+ht-degree: 12%
 
 ---
 
