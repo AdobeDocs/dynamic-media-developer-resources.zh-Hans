@@ -1,16 +1,13 @@
 ---
 description: 膨胀/侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
-seo-description: 膨胀/侵蚀图像。 对蒙版数据应用形态膨胀(radius > 0)或腐蚀(radius < 0)。
-seo-title: op_growMask
 solution: Experience Manager
 title: op_growMask
-uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
