@@ -1,16 +1,13 @@
 ---
 description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
-seo-description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
-seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 10%
 
 ---
@@ -29,7 +26,7 @@ ht-degree: 10%
  </tr> 
 </table>
 
-省略目录id以检索默认目录属性([!DNL default.ini])。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
+要检索默认目录属性([!DNL default.ini])，请忽略目录ID。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
 支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
 
