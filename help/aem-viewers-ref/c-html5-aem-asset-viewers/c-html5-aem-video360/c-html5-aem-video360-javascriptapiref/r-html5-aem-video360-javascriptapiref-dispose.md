@@ -1,16 +1,13 @@
 ---
 description: Video360查看器的JavaScript API参考。
-seo-description: Video360查看器的JavaScript API参考。
-seo-title: 处置
 solution: Experience Manager
 title: 处置
-uuid: bdecadb1-4e77-43d5-9da5-80e5101efb36
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
