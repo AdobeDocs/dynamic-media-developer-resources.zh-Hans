@@ -2,11 +2,10 @@
 description: 时间戳
 solution: Experience Manager
 title: 时间戳
-uuid: fd60e5db-9219-41a8-947f-0d497b39e727
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
