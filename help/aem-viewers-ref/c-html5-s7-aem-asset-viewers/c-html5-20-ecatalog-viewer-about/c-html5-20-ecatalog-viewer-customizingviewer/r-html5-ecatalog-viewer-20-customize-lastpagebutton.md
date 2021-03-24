@@ -1,16 +1,13 @@
 ---
 description: 单击或点按此按钮可使用户转到目录中的最后一页。 此按钮显示在台式机系统和平板电脑的主控制栏中；在手机上，它会添加到辅助控制栏。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮可使用户转到目录中的最后一页。 此按钮显示在台式机系统和平板电脑的主控制栏中；在手机上，它会添加到辅助控制栏。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: “最后一页”按钮
 solution: Experience Manager
 title: “最后一页”按钮
-uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
