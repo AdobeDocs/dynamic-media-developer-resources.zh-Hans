@@ -1,16 +1,13 @@
 ---
 description: 源对象说明符。 图像、SVG和ICC用户档案对象可指定为图像目录条目或相对文件路径
-seo-description: 源对象说明符。 图像、SVG和ICC用户档案对象可指定为图像目录条目或相对文件路径
-seo-title: 对象
 solution: Experience Manager
 title: 对象
-uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
