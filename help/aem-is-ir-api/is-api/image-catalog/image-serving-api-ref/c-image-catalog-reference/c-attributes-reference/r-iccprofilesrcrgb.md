@@ -1,17 +1,14 @@
 ---
 description: RGB默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的RGB源图像的ICC颜色用户档案的名称，以及用各种“图像服务”命令（如color=）指定的某些RGB颜色值。
-seo-description: RGB默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的RGB源图像的ICC颜色用户档案的名称，以及用各种“图像服务”命令（如color=）指定的某些RGB颜色值。
-seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 2%
 
 ---
 
