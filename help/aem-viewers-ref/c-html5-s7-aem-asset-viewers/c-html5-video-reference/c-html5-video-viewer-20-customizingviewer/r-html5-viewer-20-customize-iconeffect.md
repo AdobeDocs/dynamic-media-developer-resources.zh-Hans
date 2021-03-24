@@ -1,16 +1,13 @@
 ---
 description: 播放图标会覆盖在主视图区域上。 它在暂停视频或到达视频末尾时显示，还取决于iconeffect参数。
-seo-description: 播放图标会覆盖在主视图区域上。 它在暂停视频或到达视频末尾时显示，还取决于iconeffect参数。
-seo-title: 图标效果
 solution: Experience Manager
 title: 图标效果
-uuid: dcab487d-0bd6-4899-82e2-e29fa812a864
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
