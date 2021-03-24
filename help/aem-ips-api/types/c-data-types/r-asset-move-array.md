@@ -1,17 +1,14 @@
 ---
 description: 资产移动阵列。
-seo-description: 资产移动阵列。
-seo-title: AssetMoveArray
 solution: Experience Manager
 title: AssetMoveArray
-uuid: 303948e6-9b83-4801-9c20-99dff15925ed
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 17%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
