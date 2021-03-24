@@ -1,16 +1,13 @@
 ---
 description: “收藏夹”菜单下拉列表显示在控制栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
-seo-description: “收藏夹”菜单下拉列表显示在控制栏中。 它由一个按钮和一个面板组成，当用户单击或点击某个按钮时该面板会展开。 该面板包含各个“收藏夹”工具。
-seo-title: 收藏夹菜单
 solution: Experience Manager
 title: 收藏夹菜单
-uuid: 816e614d-8253-49a8-b57e-0b57b44db535
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
