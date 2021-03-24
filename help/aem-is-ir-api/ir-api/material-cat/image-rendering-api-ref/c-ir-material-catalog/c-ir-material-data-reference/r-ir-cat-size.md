@@ -1,16 +1,13 @@
 ---
 description: 倾斜大小。 倾斜材质对象的宽度、高度和厚度。
-seo-description: 倾斜大小。 倾斜材质对象的宽度、高度和厚度。
-seo-title: 大小
 solution: Experience Manager
 title: 大小
-uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 5%
 
 ---
