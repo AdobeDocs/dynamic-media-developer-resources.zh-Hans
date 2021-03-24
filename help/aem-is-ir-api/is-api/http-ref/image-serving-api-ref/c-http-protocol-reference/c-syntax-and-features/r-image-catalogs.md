@@ -1,16 +1,13 @@
 ---
 description: 本节介绍图像目录的功能和语法。
-seo-description: 本节介绍图像目录的功能和语法。
-seo-title: 图像目录
 solution: Experience Manager
 title: 图像目录
-uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
