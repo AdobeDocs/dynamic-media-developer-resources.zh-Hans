@@ -1,16 +1,13 @@
 ---
 description: eCatalog Search Viewer支持在主视图上方渲染图像映射图标。
-seo-description: eCatalog Search Viewer支持在主视图上方渲染图像映射图标。
-seo-title: 图像映射支持
 solution: Experience Manager
 title: 图像映射支持
-uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
