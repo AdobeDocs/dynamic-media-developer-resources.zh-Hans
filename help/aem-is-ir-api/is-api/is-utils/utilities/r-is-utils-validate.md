@@ -1,16 +1,13 @@
 ---
 description: 图像验证实用程序。 此命令行实用程序会验证图像文件，以确保它们有效，并且图像服务可以毫不费力地读取。
-seo-description: 图像验证实用程序。 此命令行实用程序会验证图像文件，以确保它们有效，并且图像服务可以毫不费力地读取。
-seo-title: 确认
 solution: Experience Manager
 title: 确认
-uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
