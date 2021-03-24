@@ -1,17 +1,14 @@
 ---
 description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
-seo-description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
-seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '75'
+ht-degree: 14%
 
 ---
 
