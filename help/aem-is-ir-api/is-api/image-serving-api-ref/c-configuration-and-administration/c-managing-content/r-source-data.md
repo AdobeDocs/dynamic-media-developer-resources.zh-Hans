@@ -1,16 +1,13 @@
 ---
 description: 图像服务源数据文件包括图像和蒙版文件、字体和ICC用户档案。
-seo-description: 图像服务源数据文件包括图像和蒙版文件、字体和ICC用户档案。
-seo-title: 源数据
 solution: Experience Manager
 title: 源数据
-uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
