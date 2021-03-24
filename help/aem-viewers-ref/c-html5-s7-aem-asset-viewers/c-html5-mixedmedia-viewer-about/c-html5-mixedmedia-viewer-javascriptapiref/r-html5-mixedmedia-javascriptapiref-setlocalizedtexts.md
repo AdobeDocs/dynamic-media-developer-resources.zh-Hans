@@ -1,16 +1,13 @@
 ---
 description: 混合媒体查看器的JavaScript API参考。
-seo-description: 混合媒体查看器的JavaScript API参考。
-seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-uuid: 86e2e70e-2147-4e63-9204-7a7a8566c3e6
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 2%
 
 ---
