@@ -1,17 +1,14 @@
 ---
 description: Carousel Viewer的JavaScript API参考。
-seo-description: Carousel Viewer的JavaScript API参考。
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 3e26c121-7493-49b5-af25-ebd76477a415
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
