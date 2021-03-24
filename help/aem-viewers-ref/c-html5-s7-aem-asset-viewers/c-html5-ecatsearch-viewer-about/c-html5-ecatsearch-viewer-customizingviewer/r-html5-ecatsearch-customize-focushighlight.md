@@ -1,16 +1,13 @@
 ---
 description: 焦点查看器用户界面元素周围显示的输入焦点突出显示。
-seo-description: 焦点查看器用户界面元素周围显示的输入焦点突出显示。
-seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-uuid: 0bd36795-e663-4f0e-8310-a57c2ffae4a2
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
