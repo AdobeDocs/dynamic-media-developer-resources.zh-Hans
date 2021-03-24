@@ -1,17 +1,14 @@
 ---
 description: 使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
-seo-description: 使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
-seo-title: 焦点突出显示
 solution: Experience Manager
 title: 焦点突出显示
-uuid: 99d822b5-29ea-4229-8eb8-e3903322b7fa
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 0%
+source-wordcount: '91'
+ht-degree: 1%
 
 ---
 
