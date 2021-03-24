@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 4%
 
 `qlt-` 设置这些格式的JPEG编码选项：JPEG、带JPEG压缩的TIFF、带JPEG压缩的PDF和SWF文件。如果`fmt=gif`或`fmt=gif-alpha`，请使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
-为所有格式和像素类型返回8位/像素组件。
+为所有格式和像素类型返回每个像素八位的组件。
 
 下表列表了&#x200B;*`format`*&#x200B;和&#x200B;*`pixelType`*&#x200B;的有效组合、相应的HTTP响应MIME类型、是否可嵌入ICC用户档案（请参阅[iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)）以及可应用哪些格式特定的选项命令。
 
@@ -199,11 +199,11 @@ ht-degree: 4%
 
 指定发送到客户端的回复图像数据的编码格式以及HTTP回复标头的相应响应MIME类型。
 
-`png-alpha` 返回未关联的alpha（即，alpha不会预乘像素值），而 `tif-alpha`返回 `swf-alpha` 关联的alpha（即，alpha值与alpha值预乘）。Alpha渠道与`req=img`晕影的背景遮罩的逆对应，与`req=object`情况下的组或对象遮罩对应。 要在使用嵌套的IR请求时应用Alpha，请向嵌入的IR请求和主请求添加具有适当Alpha文件格式的`fmt=`。 如果使用`icc=`指定了CMYK或灰度ICC用户档案，则不返回Alpha数据。
+`png-alpha` 返回未关联的alpha（即，alpha不会预乘像素值），而 `tif-alpha`返回 `swf-alpha` 关联的alpha（即，alpha值与alpha值预乘）。Alpha渠道与`req=img`晕影的背景遮罩的逆对应，如果存在`req=object`，则与组或对象遮罩对应。 要在使用嵌套的IR请求时应用Alpha，请向嵌入的IR请求和主请求添加具有适当Alpha文件格式的`fmt=`。 如果使用`icc=`指定了CMYK或灰度ICC用户档案，则不返回Alpha数据。
 
 ## 属性 {#section-eb12a82c69d84622bcea153dd84d95b3}
 
-可能在请求中的任何位置发生。
+可以在请求中的任意位置发生。
 
 ## 默认 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
