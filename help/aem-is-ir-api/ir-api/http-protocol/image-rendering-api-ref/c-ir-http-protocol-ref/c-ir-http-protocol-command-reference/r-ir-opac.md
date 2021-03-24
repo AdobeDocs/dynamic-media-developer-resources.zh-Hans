@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 以下材料/对象组合支持可变的不透明度：
 
-* 应用于可纹理重叠对象的纯色和可重复纹理。
+* 应用于纹理重叠对象的纯色和可重复纹理。
 * 应用于覆盖框架对象的窗口覆盖材料。
-* 应用于可文本化对象或壁对象的贴图。
+* 应用于纹理对象或壁对象的装饰。
 
 如果材料包含具有Alpha渠道的图像，则`opac=`可用于使图像更透明，但不是更不透明。
 
