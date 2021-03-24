@@ -1,16 +1,13 @@
 ---
 description: 可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音设为静音或取消静音。
-seo-description: 可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音设为静音或取消静音。
-seo-title: 可变卷
 solution: Experience Manager
 title: 可变卷
-uuid: 3c3239ca-18fc-47ff-bc5d-2b50e1514e50
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
