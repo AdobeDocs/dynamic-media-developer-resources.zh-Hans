@@ -1,16 +1,13 @@
 ---
 description: 虽然添加新数据文件很简单，但替换服务器当前使用的现有数据文件时必须特别小心。 建议为替换文件指定新名称（例如，在文件名后面附加一个版本后缀），而不是简单地替换此类文件。 新文件生效后，可删除旧版本。
-seo-description: 虽然添加新数据文件很简单，但替换服务器当前使用的现有数据文件时必须特别小心。 建议为替换文件指定新名称（例如，在文件名后面附加一个版本后缀），而不是简单地替换此类文件。 新文件生效后，可删除旧版本。
-seo-title: 删除或替换数据文件
 solution: Experience Manager
 title: 删除或替换数据文件
-uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
