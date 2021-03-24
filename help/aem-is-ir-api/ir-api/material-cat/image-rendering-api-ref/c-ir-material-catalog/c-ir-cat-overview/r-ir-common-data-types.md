@@ -1,16 +1,13 @@
 ---
 description: 目录属性和字段可能包含以下类型之一的数据。
-seo-description: 目录属性和字段可能包含以下类型之一的数据。
-seo-title: 常见数据类型
 solution: Experience Manager
 title: 常见数据类型
-uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
