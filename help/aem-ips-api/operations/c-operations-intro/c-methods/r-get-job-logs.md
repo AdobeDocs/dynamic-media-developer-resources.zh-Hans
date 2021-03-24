@@ -1,17 +1,14 @@
 ---
 description: 获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
-seo-description: 获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
-seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 9%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
