@@ -1,16 +1,13 @@
 ---
 description: 图像服务支持ISO-8859-1和UTF-8编码的图像目录。
-seo-description: 图像服务支持ISO-8859-1和UTF-8编码的图像目录。
-seo-title: 字符编码
 solution: Experience Manager
 title: 字符编码
-uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
