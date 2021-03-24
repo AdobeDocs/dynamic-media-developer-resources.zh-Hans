@@ -1,17 +1,14 @@
 ---
 description: eCatalog Viewer的JavaScript API参考。
-seo-description: eCatalog Viewer的JavaScript API参考。
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 
