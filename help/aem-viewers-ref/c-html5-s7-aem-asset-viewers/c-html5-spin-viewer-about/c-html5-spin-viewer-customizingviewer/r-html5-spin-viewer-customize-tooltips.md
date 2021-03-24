@@ -1,17 +1,14 @@
 ---
 description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
-seo-description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
-seo-title: 工具提示
 solution: Experience Manager
 title: 工具提示
-uuid: f5c2c648-ce1d-401f-9c26-7b5b79438738
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 5%
+source-wordcount: '146'
+ht-degree: 6%
 
 ---
 
