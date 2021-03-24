@@ -1,16 +1,13 @@
 ---
 description: 材料表面光泽度。 指定材料表面的相对光泽度。 用于选择光照图并控制光泽效果和3D反射的渲染。
-seo-description: 材料表面光泽度。 指定材料表面的相对光泽度。 用于选择光照图并控制光泽效果和3D反射的渲染。
-seo-title: 光泽
 solution: Experience Manager
 title: 光泽
-uuid: 3774e08b-d24e-4cf2-8719-32a21bb9bcb6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
