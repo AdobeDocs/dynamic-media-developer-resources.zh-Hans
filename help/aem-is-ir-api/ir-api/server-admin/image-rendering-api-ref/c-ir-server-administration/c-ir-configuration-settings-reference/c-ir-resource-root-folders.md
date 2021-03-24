@@ -1,16 +1,13 @@
 ---
 description: 列表路径（用分号分隔）用作具有相对文件路径的所有数据文件的根。
-seo-description: 列表路径（用分号分隔）用作具有相对文件路径的所有数据文件的根。
-seo-title: 资源根文件夹(ir.resourceRootPaths)
 solution: Experience Manager
 title: 资源根文件夹(ir.resourceRootPaths)
-uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
