@@ -1,16 +1,13 @@
 ---
 description: 图像文件路径。 纹理或贴图像文件的相对路径和名称。
-seo-description: 图像文件路径。 纹理或贴图像文件的相对路径和名称。
-seo-title: 路径 *
 solution: Experience Manager
 title: 路径 *
-uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
