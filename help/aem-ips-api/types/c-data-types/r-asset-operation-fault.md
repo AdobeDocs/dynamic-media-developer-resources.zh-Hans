@@ -1,17 +1,14 @@
 ---
 description: 包含有关批处理资产操作期间生成的警告或错误条件的信息。 代码字段和原因字段对应于为对等非批处理操作引发的故障消息字段。
-seo-description: 包含有关批处理资产操作期间生成的警告或错误条件的信息。 代码字段和原因字段对应于为对等非批处理操作引发的故障消息字段。
-seo-title: AssetOperationFault
 solution: Experience Manager
 title: AssetOperationFault
-uuid: fb6c5482-6e16-4561-927b-e4daeb7bdd7b
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
