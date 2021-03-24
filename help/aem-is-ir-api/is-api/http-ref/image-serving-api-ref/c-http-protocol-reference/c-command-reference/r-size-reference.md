@@ -1,16 +1,13 @@
 ---
 description: 图层大小。 指定图层的大小或最大图层大小，然后将rotate=、perspective=和extend=应用于图层。
-seo-description: 图层大小。 指定图层的大小或最大图层大小，然后将rotate=、perspective=和extend=应用于图层。
-seo-title: 大小
 solution: Experience Manager
 title: 大小
-uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
