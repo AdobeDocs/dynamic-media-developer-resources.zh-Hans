@@ -1,16 +1,13 @@
 ---
 description: 清空IPS垃圾桶中的资源。
-seo-description: 清空IPS垃圾桶中的资源。
-seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '253'
 ht-degree: 7%
 
 ---
