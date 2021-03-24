@@ -1,17 +1,14 @@
 ---
 description: 材料曲面类型。 指定材料的曲面类型。
-seo-description: 材料曲面类型。 指定材料的曲面类型。
-seo-title: 类型
 solution: Experience Manager
 title: 类型
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 21%
+source-wordcount: '164'
+ht-degree: 22%
 
 ---
 
