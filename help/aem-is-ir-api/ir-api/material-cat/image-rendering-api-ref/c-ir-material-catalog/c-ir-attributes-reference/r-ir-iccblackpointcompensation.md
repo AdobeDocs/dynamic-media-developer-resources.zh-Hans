@@ -1,17 +1,14 @@
 ---
 description: 黑点补偿。 指定在未使用icc=进行显式选择时，是否应对颜色转换应用黑点补偿。
-seo-description: 黑点补偿。 指定在未使用icc=进行显式选择时，是否应对颜色转换应用黑点补偿。
-seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
