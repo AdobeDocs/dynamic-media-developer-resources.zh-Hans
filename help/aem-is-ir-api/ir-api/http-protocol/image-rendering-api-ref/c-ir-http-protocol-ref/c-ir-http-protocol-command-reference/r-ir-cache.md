@@ -1,16 +1,13 @@
 ---
 description: 缓存控件。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部平台服务器缓存中的缓存。
-seo-description: 缓存控件。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部平台服务器缓存中的缓存。
-seo-title: 缓存
 solution: Experience Manager
 title: 缓存
-uuid: 8af89b67-39d5-43e5-a58d-2cd509a1e373
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
