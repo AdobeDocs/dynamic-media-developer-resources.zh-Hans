@@ -1,16 +1,13 @@
 ---
 description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
-seo-description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
-seo-title: sub
 solution: Experience Manager
-title: 子
-uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
+title: sub
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '162'
 ht-degree: 7%
 
 ---
