@@ -1,17 +1,14 @@
 ---
 description: 图像字段的数组更新。
-seo-description: 图像字段的数组更新。
-seo-title: ImageFieldUpdateArray
 solution: Experience Manager
 title: ImageFieldUpdateArray
-uuid: ac0f0e46-2ead-4ca3-9c7e-894e7b502949
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 15%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
