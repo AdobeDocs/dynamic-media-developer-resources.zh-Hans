@@ -1,16 +1,13 @@
 ---
 description: 有助于提高优化金字塔TIF文件的图像锐度的设置。
-seo-description: 有助于提高优化金字塔TIF文件的图像锐度的设置。
-seo-title: USMsharpMaskOptions
 solution: Experience Manager
 title: USMsharpMaskOptions
-uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '196'
 ht-degree: 12%
 
 ---
