@@ -1,17 +1,14 @@
 ---
 description: 获取与指定资产关联的所有查看器配置设置。
-seo-description: 获取与指定资产关联的所有查看器配置设置。
-seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 feature: Dynamic Media Classic，SDK/API，查看器预设
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
