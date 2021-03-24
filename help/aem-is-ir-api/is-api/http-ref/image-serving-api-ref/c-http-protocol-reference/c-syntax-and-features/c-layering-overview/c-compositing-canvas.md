@@ -1,16 +1,13 @@
 ---
 description: 图层按图层=命令指定的顺序合成，其中较高编号的图层将隐藏较低编号的图层。
-seo-description: 图层按图层=命令指定的顺序合成，其中较高编号的图层将隐藏较低编号的图层。
-seo-title: 合成画布
 solution: Experience Manager
 title: 合成画布
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
