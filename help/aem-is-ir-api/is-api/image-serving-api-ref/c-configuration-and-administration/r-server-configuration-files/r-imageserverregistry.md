@@ -1,16 +1,13 @@
 ---
 description: 包含图像服务器配置设置。
-seo-description: 包含图像服务器配置设置。
-seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
