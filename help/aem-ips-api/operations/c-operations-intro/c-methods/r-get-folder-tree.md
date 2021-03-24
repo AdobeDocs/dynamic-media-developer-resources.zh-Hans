@@ -1,17 +1,14 @@
 ---
 description: 返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多限制为100,000个文件夹
-seo-description: 返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多限制为100,000个文件夹
-seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 8%
+source-wordcount: '265'
+ht-degree: 9%
 
 ---
 
