@@ -1,17 +1,14 @@
 ---
 description: 客户端可缓存到实时。 到期前的小时数。 用于管理客户端和代理服务器缓存。
-seo-description: 客户端可缓存到实时。 到期前的小时数。 用于管理客户端和代理服务器缓存。
-seo-title: 過期
 solution: Experience Manager
 title: 過期
-uuid: 6dbd7d43-727c-42fc-8953-dba112209a45
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 1%
 
 ---
 
