@@ -1,16 +1,13 @@
 ---
 description: 缩放目标图像目录中的数据。 返回在URL路径中指定的图像目录条目的缩放目标数据。
-seo-description: 缩放目标图像目录中的数据。 返回在URL路径中指定的图像目录条目的缩放目标数据。
-seo-title: 目标
 solution: Experience Manager
 title: 目标
-uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
