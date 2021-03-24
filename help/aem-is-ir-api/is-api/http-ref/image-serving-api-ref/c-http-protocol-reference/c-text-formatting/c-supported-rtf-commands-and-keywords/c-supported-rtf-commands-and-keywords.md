@@ -1,16 +1,13 @@
 ---
 description: 以下是Scene 7图像服务文本引擎支持的关键字和命令的列表。
-seo-description: 以下是Scene 7图像服务文本引擎支持的关键字和命令的列表。
-seo-title: 支持的RTF命令和关键字
 solution: Experience Manager
 title: 支持的RTF命令和关键字
-uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
