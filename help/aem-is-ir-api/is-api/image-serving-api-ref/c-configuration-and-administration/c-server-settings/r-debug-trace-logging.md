@@ -1,16 +1,13 @@
 ---
 description: 使用这些服务器设置调试跟踪日志记录。
-seo-description: 使用这些服务器设置调试跟踪日志记录。
-seo-title: Debug_trace日志记录
 solution: Experience Manager
 title: Debug_trace日志记录
-uuid: 33f1d093-007d-453b-965a-9d701a845954
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
