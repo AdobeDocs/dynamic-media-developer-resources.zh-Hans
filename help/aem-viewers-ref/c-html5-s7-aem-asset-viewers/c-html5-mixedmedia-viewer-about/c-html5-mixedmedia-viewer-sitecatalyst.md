@@ -1,17 +1,14 @@
 ---
 description: 混合媒体查看器支持Adobe Analytics现成跟踪。
-seo-description: 混合媒体查看器支持Adobe Analytics现成跟踪。
-seo-title: 支持Adobe Analytics跟踪
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
-uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，业务从业者，数据工程师，数据架构师
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 4%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
