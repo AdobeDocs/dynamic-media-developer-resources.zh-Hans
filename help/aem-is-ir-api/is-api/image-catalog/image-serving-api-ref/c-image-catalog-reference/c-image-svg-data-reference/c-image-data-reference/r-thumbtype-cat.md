@@ -1,16 +1,13 @@
 ---
 description: 缩览图类型。 描述如何生成此图像的缩略图。
-seo-description: 缩览图类型。 描述如何生成此图像的缩略图。
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: b737b5a4-ad6d-4a9c-b48f-81cf170dd210
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
