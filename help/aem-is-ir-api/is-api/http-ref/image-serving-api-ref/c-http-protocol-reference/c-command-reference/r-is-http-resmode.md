@@ -1,17 +1,14 @@
 ---
 description: 重新取样模式。 选择用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图变换期间旋转文本图层和调整复合图像大小。
-seo-description: 重新取样模式。 选择用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图变换期间旋转文本图层和调整复合图像大小。
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 11%
+source-wordcount: '225'
+ht-degree: 12%
 
 ---
 
