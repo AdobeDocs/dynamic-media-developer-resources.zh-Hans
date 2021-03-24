@@ -1,17 +1,14 @@
 ---
 description: 可用的区域设置特定版本。 返回列表在请求路径中指定的目录ID的可用区域设置特定版本。
-seo-description: 可用的区域设置特定版本。 返回列表在请求路径中指定的目录ID的可用区域设置特定版本。
-seo-title: xlate
 solution: Experience Manager
 title: xlate
-uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 11%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
