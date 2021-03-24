@@ -1,16 +1,13 @@
 ---
 description: 在Linux上安装映像服务后，请验证安装。
-seo-description: 在Linux上安装映像服务后，请验证安装。
-seo-title: 验证安装
 solution: Experience Manager
 title: 验证安装
-uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
