@@ -1,17 +1,14 @@
 ---
 description: 前景颜色. 指定纯色材料的颜色或可着色材料的附加颜色。
-seo-description: 前景颜色. 指定纯色材料的颜色或可着色材料的附加颜色。
-seo-title: 颜色
 solution: Experience Manager
 title: 颜色
-uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
