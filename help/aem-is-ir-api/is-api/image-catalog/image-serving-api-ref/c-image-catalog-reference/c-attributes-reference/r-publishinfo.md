@@ -1,17 +1,14 @@
 ---
 description: 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
-seo-description: 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
-seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 4%
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
