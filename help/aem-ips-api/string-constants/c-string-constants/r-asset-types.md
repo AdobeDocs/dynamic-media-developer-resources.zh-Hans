@@ -1,16 +1,13 @@
 ---
 description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
-seo-description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
-seo-title: 资源类型
 solution: Experience Manager
 title: 资源类型
-uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '47'
 ht-degree: 12%
 
 ---
