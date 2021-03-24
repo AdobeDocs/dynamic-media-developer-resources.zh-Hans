@@ -1,16 +1,13 @@
 ---
 description: 'Scene 7图像服务由以下组件组成 '
-seo-description: 'Scene 7图像服务由以下组件组成 '
-seo-title: 图像服务组件
 solution: Experience Manager
 title: 图像服务组件
-uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 2%
 
 ---
