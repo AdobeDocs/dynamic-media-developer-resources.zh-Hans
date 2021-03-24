@@ -1,17 +1,14 @@
 ---
 description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层请求，大多数都没有意义。 它们不应用于效果图层。
-seo-description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层请求，大多数都没有意义。 它们不应用于效果图层。
-seo-title: 常用图层命令
 solution: Experience Manager
 title: 常用图层命令
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 
