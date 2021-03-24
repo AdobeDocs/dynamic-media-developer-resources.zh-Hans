@@ -1,17 +1,14 @@
 ---
 description: 保存有关公司元数据对象（如ID、名称和类型）的信息。
-seo-description: 保存有关公司元数据对象（如ID、名称和类型）的信息。
-seo-title: CompanyMetadataInfo
 solution: Experience Manager
 title: CompanyMetadataInfo
-uuid: 5a69a995-979a-4919-a506-42b2cbfa4657
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
