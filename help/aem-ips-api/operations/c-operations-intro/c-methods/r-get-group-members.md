@@ -1,17 +1,14 @@
 ---
 description: 获取属于特定公司和组的用户。
-seo-description: 获取属于特定公司和组的用户。
-seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 15%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
