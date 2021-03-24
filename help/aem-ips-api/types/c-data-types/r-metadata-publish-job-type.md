@@ -1,17 +1,14 @@
 ---
 description: 将元数据发布到元数据服务器。
-seo-description: 将元数据发布到元数据服务器。
-seo-title: MetadataPublishJobType
 solution: Experience Manager
 title: MetadataPublishJobType
-uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 8%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
