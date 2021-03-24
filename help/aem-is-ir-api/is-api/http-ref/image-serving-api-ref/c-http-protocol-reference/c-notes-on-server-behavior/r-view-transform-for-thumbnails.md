@@ -1,16 +1,13 @@
 ---
 description: 响应req=tmb请求返回给客户的图像是从复合图像派生的，方法是考虑以下值wid=、hei=、属性DefaultThumbPix和属性MaxPix。
-seo-description: 响应req=tmb请求返回给客户的图像是从复合图像派生的，方法是考虑以下值wid=、hei=、属性DefaultThumbPix和属性MaxPix。
-seo-title: 视图变换缩览图
 solution: Experience Manager
 title: 视图变换缩览图
-uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
