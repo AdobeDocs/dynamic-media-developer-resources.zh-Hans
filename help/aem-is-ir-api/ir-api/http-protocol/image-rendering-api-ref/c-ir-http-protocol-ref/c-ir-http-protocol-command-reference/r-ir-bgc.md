@@ -1,16 +1,13 @@
 ---
 description: 背景颜色. 指定可着色纹理和分色的减色。
-seo-description: 背景颜色. 指定可着色纹理和分色的减色。
-seo-title: bgc
 solution: Experience Manager
 title: bgc
-uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 6%
 
 ---
