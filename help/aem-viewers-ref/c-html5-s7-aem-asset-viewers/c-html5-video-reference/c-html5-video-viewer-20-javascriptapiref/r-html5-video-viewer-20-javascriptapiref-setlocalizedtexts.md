@@ -2,11 +2,10 @@
 description: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-uuid: df94044f-7f09-4645-8a6b-6dc58751ddcc
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 4%
