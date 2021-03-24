@@ -1,16 +1,13 @@
 ---
 description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
-seo-description: 作业类型允许重新处理以前上传的主文件，包括重新翻录PDF和重新优化图像。
-seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
-uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '474'
 ht-degree: 5%
 
 ---
