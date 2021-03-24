@@ -1,16 +1,13 @@
 ---
 description: 视频结束时将显示行动动员面板，并显示与特定视频关联的所有交互式色板。
-seo-description: 视频结束时将显示行动动员面板，并显示与特定视频关联的所有交互式色板。
-seo-title: 行动动员
 solution: Experience Manager
 title: 行动动员
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1286'
 ht-degree: 3%
 
 ---
