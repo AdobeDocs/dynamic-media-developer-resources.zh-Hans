@@ -1,16 +1,13 @@
 ---
 description: 安装后，您将需要设置服务以在其他用户帐户下运行。
-seo-description: 安装后，您将需要设置服务以在其他用户帐户下运行。
-seo-title: 使用管理员以外的其他用户帐户进行安装
 solution: Experience Manager
 title: 使用管理员以外的其他用户帐户进行安装
-uuid: c5944515-c378-45c3-bc18-3261133ba009
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
