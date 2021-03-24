@@ -1,16 +1,13 @@
 ---
 description: 图像服务器代理可用于调整日文电话的图像大小。
-seo-description: 图像服务器代理可用于调整日文电话的图像大小。
-seo-title: 图像服务器代理
 solution: Experience Manager
 title: 图像服务器代理
-uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
