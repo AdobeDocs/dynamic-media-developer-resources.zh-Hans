@@ -1,16 +1,13 @@
 ---
 description: 默认客户端缓存的活动时间。 提供默认的过期间隔，以防特定的目录记录不包含有效的目录过期值或晕影过期值，或者如果直接访问晕影文件或材料文件，而不是通过目录记录。
-seo-description: 默认客户端缓存的活动时间。 提供默认的过期间隔，以防特定的目录记录不包含有效的目录过期值或晕影过期值，或者如果直接访问晕影文件或材料文件，而不是通过目录记录。
-seo-title: 過期
 solution: Experience Manager
 title: 過期
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
