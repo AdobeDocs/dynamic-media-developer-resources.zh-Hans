@@ -1,16 +1,13 @@
 ---
 description: 视频时间是显示当前播放的视频的当前时间和持续时间的数字显示。
-seo-description: 视频时间是显示当前播放的视频的当前时间和持续时间的数字显示。
-seo-title: 视频时间
 solution: Experience Manager
 title: 视频时间
-uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
