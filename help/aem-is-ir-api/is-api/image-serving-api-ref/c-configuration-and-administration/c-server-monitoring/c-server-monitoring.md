@@ -1,17 +1,14 @@
 ---
 description: 服务器可以配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
-seo-description: 服务器可以配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
-seo-title: 服务器监控
 solution: Experience Manager
 title: 服务器监控
-uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
