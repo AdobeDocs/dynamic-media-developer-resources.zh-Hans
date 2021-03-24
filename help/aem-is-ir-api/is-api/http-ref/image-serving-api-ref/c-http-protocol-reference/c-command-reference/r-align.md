@@ -1,16 +1,13 @@
 ---
 description: 将图像与视图对齐。 在wid=和hei=定义的视图矩形内对齐合成图像（可能在缩放后也指定了scl=）。
-seo-description: 将图像与视图对齐。 在wid=和hei=定义的视图矩形内对齐合成图像（可能在缩放后也指定了scl=）。
-seo-title: 对齐
 solution: Experience Manager
 title: 对齐
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
