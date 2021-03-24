@@ -1,16 +1,13 @@
 ---
 description: 缩放视图。 按invFactor的反比缩放复合图像。
-seo-description: 缩放视图。 按invFactor的反比缩放复合图像。
-seo-title: scl
 solution: Experience Manager
 title: scl
-uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---
