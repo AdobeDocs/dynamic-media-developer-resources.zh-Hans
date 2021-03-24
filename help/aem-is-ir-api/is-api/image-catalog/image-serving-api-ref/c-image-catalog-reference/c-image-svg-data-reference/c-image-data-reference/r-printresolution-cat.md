@@ -1,16 +1,13 @@
 ---
 description: 打印分辨率。 打印全尺寸图像的分辨率。
-seo-description: 打印分辨率。 打印全尺寸图像的分辨率。
-seo-title: 打印分辨率
 solution: Experience Manager
 title: 打印分辨率
-uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '74'
 ht-degree: 6%
 
 ---
