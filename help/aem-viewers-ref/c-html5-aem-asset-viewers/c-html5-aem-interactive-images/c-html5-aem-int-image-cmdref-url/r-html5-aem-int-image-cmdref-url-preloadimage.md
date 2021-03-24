@@ -1,17 +1,14 @@
 ---
 description: 用于视频图像查看器的URL命令。
-seo-description: 用于视频图像查看器的URL命令。
-seo-title: preloadimage
 solution: Experience Manager
 title: preloadimage
-uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
