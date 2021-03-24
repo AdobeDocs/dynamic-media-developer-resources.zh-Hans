@@ -1,17 +1,14 @@
 ---
 description: 指定组件用于从图像服务器加载图像的图像格式。
-seo-description: 指定组件用于从图像服务器加载图像的图像格式。
-seo-title: ZoomView.fmt
 solution: Experience Manager
 title: ZoomView.fmt
-uuid: 73a2196f-0ece-497a-9a12-376dafbbae56
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
