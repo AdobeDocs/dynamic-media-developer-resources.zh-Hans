@@ -1,17 +1,14 @@
 ---
 description: 设置或更新资产的XMP元数据包。
-seo-description: 设置或更新资产的XMP元数据包。
-seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
