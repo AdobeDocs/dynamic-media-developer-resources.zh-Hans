@@ -1,16 +1,13 @@
 ---
 description: Facebook共享工具包含添加到“社交共享”面板的按钮。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
-seo-description: Facebook共享工具包含添加到“社交共享”面板的按钮。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
-seo-title: Facebook分享
 solution: Experience Manager
 title: Facebook分享
-uuid: 1b79ad43-7fdf-4046-a225-1f585ff839b6
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
