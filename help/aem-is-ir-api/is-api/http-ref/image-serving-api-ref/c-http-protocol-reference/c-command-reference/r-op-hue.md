@@ -1,17 +1,14 @@
 ---
 description: 调整色相。 将图层或复合图像的每个可见像素的色相按指定数量移动。
-seo-description: 调整色相。 将图层或复合图像的每个可见像素的色相按指定数量移动。
-seo-title: op_hue
 solution: Experience Manager
 title: op_hue
-uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
