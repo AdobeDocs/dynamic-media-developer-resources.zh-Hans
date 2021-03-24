@@ -1,16 +1,13 @@
 ---
 description: 图像渲染会向图像服务日志机制发送日志消息。
-seo-description: 图像渲染会向图像服务日志机制发送日志消息。
-seo-title: 服务器日志
 solution: Experience Manager
 title: 服务器日志
-uuid: b84b9350-b91d-4a3b-ae2d-5e9ca1f3ebf6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
