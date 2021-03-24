@@ -1,15 +1,12 @@
 ---
 description: 交互式图像查看器显示的某些内容受本地化约束。 这包括用户界面元素工具提示和加载时由弹出缩放视图显示的信息消息。
-seo-description: 交互式图像查看器显示的某些内容受本地化约束。 这包括用户界面元素工具提示和加载时由弹出缩放视图显示的信息消息。
-seo-title: 本地化用户界面元素
 title: 本地化用户界面元素
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
