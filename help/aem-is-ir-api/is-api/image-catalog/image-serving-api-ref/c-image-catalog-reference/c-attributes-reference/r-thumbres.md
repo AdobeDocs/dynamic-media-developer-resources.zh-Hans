@@ -1,16 +1,13 @@
 ---
 description: 默认缩略图分辨率。 提供缩略图对象分辨率的默认值，以防特定目录记录不包含有效的目录ThumbRes值。
-seo-description: 默认缩略图分辨率。 提供缩略图对象分辨率的默认值，以防特定目录记录不包含有效的目录ThumbRes值。
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
