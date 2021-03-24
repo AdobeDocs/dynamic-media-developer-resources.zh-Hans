@@ -1,16 +1,13 @@
 ---
 description: 遮罩文件路径。 与此目录记录关联的蒙版图像文件的相对或绝对路径和名称。
-seo-description: 遮罩文件路径。 与此目录记录关联的蒙版图像文件的相对或绝对路径和名称。
-seo-title: 蒙版路径
 solution: Experience Manager
 title: 蒙版路径
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
