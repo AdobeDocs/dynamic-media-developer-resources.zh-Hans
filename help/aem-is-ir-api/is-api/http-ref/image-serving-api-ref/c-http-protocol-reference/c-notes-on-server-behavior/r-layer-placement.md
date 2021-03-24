@@ -1,16 +1,13 @@
 ---
 description: 通过将图层来源(来源=)与背景图层来源对齐在pos=指定的偏移处来定位图层。
-seo-description: 通过将图层来源(来源=)与背景图层来源对齐在pos=指定的偏移处来定位图层。
-seo-title: 图层放置
 solution: Experience Manager
 title: 图层放置
-uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
