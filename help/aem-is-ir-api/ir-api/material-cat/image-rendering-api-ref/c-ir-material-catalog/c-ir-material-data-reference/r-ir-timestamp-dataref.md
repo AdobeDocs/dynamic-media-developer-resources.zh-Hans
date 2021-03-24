@@ -1,16 +1,13 @@
 ---
 description: 文件修改时间戳。 指定附加到此目录记录的图像和/或数据文件上次修改的日期/时间。
-seo-description: 文件修改时间戳。 指定附加到此目录记录的图像和/或数据文件上次修改的日期/时间。
-seo-title: 时间戳
 solution: Experience Manager
 title: 时间戳
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
