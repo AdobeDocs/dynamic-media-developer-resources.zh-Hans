@@ -1,16 +1,13 @@
 ---
 description: 此文档使用以下约定。
-seo-description: 此文档使用以下约定。
-seo-title: 文档约定
 solution: Experience Manager
 title: 文档约定
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 0%
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>文本 </p> </td> 
-  <td class="stentry"> <p>在语法部分中，非斜体文本为文本；这不适用于空白和符号[ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>在语法部分中，非斜体文本为文本。 此规则不适用于空白和符号[ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -83,7 +80,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *{  <span class="varname"> group  </span>}  </span> </p> </td> 
-  <td class="stentry"> <p>组中的语法元素可重复一次或多次。 </p> </td> 
+  <td class="stentry"> <p>组中的语法元素可以重复一次或多次。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>空白 </p> </td> 
