@@ -1,17 +1,14 @@
 ---
 description: 确定资产是否已准备好发布。
-seo-description: 确定资产是否已准备好发布。
-seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 16%
+source-wordcount: '104'
+ht-degree: 18%
 
 ---
 
