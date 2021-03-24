@@ -1,16 +1,13 @@
 ---
 description: 混合媒体查看器的配置属性文档。
-seo-description: 混合媒体查看器的配置属性文档。
-seo-title: 命令参考 — 配置属性
 solution: Experience Manager
 title: 命令参考 — 配置属性
-uuid: c0f09a05-f024-4cf0-a65f-0bfee015f635
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
