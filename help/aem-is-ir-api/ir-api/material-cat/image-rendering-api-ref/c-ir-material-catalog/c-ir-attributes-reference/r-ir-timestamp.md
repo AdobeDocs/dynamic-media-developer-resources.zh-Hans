@@ -1,16 +1,13 @@
 ---
 description: 默认修改时间戳。 提供目录TimeStamp和晕影TimeStamp的默认值。 如果未指定，服务器将使用此catalog.ini文件的修改日期/时间。
-seo-description: 默认修改时间戳。 提供目录TimeStamp和晕影TimeStamp的默认值。 如果未指定，服务器将使用此catalog.ini文件的修改日期/时间。
-seo-title: 时间戳
 solution: Experience Manager
 title: 时间戳
-uuid: 10ceb600-1ed9-46a1-ae07-889d601ac0f4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
