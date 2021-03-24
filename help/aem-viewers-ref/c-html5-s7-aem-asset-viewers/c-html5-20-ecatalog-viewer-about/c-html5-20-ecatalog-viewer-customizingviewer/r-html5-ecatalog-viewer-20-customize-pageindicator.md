@@ -1,17 +1,14 @@
 ---
 description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
-seo-description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
-seo-title: 页面指示器
 solution: Experience Manager
 title: 页面指示器
-uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '264'
+ht-degree: 4%
 
 ---
 
