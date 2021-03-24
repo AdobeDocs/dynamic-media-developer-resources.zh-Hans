@@ -1,16 +1,13 @@
 ---
 description: 水印选择器。 指定要用作水印图像或模板的目录记录的目录ID。
-seo-description: 水印选择器。 指定要用作水印图像或模板的目录记录的目录ID。
-seo-title: 水印
 solution: Experience Manager
 title: 水印
-uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
