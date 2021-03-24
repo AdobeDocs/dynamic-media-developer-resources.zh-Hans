@@ -1,16 +1,13 @@
 ---
 description: 调整色彩平衡。 单独调整每个RGB颜色分量的值。
-seo-description: 调整色彩平衡。 单独调整每个RGB颜色分量的值。
-seo-title: op_colorbalance
 solution: Experience Manager
 title: op_colorbalance
-uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
