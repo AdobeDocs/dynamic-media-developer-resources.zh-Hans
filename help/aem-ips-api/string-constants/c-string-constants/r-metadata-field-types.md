@@ -1,16 +1,13 @@
 ---
 description: 由MetadataField/type、saveMetadataFieldParam/fieldType和createMetadataField/fieldType使用。
-seo-description: 由MetadataField/type、saveMetadataFieldParam/fieldType和createMetadataField/fieldType使用。
-seo-title: 元数据字段类型
 solution: Experience Manager
 title: 元数据字段类型
-uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '103'
 ht-degree: 1%
 
 ---
