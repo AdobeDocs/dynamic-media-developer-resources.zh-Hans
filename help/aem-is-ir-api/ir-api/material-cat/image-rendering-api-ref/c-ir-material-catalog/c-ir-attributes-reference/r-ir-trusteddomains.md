@@ -1,17 +1,14 @@
 ---
 description: Flash应用程序Web域。 Adobe Flash应用程序可能需要访问以swf格式传送的图像的属性。swf必须通过注册其信任的应用程序域的名称来显式授予访问权。
-seo-description: Flash应用程序Web域。 Adobe Flash应用程序可能需要访问以swf格式传送的图像的属性。swf必须通过注册其信任的应用程序域的名称来显式授予访问权。
-seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
