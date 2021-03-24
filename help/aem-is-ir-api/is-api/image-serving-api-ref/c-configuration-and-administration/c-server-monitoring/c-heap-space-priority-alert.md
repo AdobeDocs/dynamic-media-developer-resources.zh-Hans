@@ -1,16 +1,13 @@
 ---
 description: 当可用Java堆空间在紧随Java垃圾收集周期后的指定阈值以下时，将发送优先级警报。
-seo-description: 当可用Java堆空间在紧随Java垃圾收集周期后的指定阈值以下时，将发送优先级警报。
-seo-title: 堆空间优先级警报
 solution: Experience Manager
 title: 堆空间优先级警报
-uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
