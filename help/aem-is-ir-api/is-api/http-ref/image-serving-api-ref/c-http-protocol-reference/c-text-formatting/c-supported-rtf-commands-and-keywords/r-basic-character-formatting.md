@@ -1,17 +1,14 @@
 ---
 description: 对基本字符格式设置使用以下命令。
-seo-description: 对基本字符格式设置使用以下命令。
-seo-title: 基本字符格式
 solution: Experience Manager
 title: 基本字符格式
-uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
