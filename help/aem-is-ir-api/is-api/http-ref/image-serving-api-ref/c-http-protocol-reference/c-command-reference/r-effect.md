@@ -1,16 +1,13 @@
 ---
 description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
-seo-description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
-seo-title: 效果
 solution: Experience Manager
 title: 效果
-uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
