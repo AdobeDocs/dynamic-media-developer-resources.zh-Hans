@@ -1,16 +1,13 @@
 ---
 description: 如果材质目录需要晕影映射，则必须在属性VignetteMapFile中指定晕影映射文件的相对或绝对路径。
-seo-description: 如果材质目录需要晕影映射，则必须在属性VignetteMapFile中指定晕影映射文件的相对或绝对路径。
-seo-title: 晕影地图参考
 solution: Experience Manager
 title: 晕影地图参考
-uuid: a7056c16-1d05-44c8-9dd5-8969f64d3383
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
