@@ -1,16 +1,13 @@
 ---
 description: Dynamic Media图像渲染许可证密钥是必需的，必须在安装图像渲染的每个系统上安装。
-seo-description: Dynamic Media图像渲染许可证密钥是必需的，必须在安装图像渲染的每个系统上安装。
-seo-title: 许可
 solution: Experience Manager
 title: 许可
-uuid: dbc4eddc-a518-4337-9e09-ba40c02de797
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
