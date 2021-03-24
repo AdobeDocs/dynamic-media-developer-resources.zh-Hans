@@ -1,16 +1,13 @@
 ---
 description: 相对图像URL的根URL。 指定相对图像URL的根URL。
-seo-description: 相对图像URL的根URL。 指定相对图像URL的根URL。
-seo-title: RootUrl
 solution: Experience Manager
 title: RootUrl
-uuid: 173ce99a-f87e-4700-a28a-1a87b8c55b85
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '102'
 ht-degree: 3%
 
 ---
