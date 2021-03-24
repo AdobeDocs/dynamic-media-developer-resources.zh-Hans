@@ -1,17 +1,14 @@
 ---
 description: 这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
-seo-description: 这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
-seo-title: 常见操作
 solution: Experience Manager
 title: 常见操作
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 
