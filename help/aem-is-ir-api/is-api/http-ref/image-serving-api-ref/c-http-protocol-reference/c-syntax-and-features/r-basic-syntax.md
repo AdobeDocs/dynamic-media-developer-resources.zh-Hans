@@ -1,16 +1,13 @@
 ---
 description: HTTP协议的基本语法如下。
-seo-description: HTTP协议的基本语法如下。
-seo-title: 图像服务HTTP协议基本语法
 solution: Experience Manager
 title: 图像服务HTTP协议基本语法
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 1%
 
 # 图像服务HTTP协议基本语法{#image-serving-http-protocol-basic-syntax}
 
-HTTP协议的基本语法如下。
+HTTP协议的基本语法如下：
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ HTTP协议的基本语法如下。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 宏</span> </span> </p> </td> 
-  <td class="stentry"> <p>命令宏的名称。 </p></td> 
+  <td class="stentry"> <p>命令宏的名称。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 评论</span> </span> </p></td> 
-  <td class="stentry"> <p>注释字符串（服务器忽略）。 </p></td> 
+  <td class="stentry"> <p>注释字符串（服务器忽略）。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>支持的命令或属性名称之一。 </p></td> 
+  <td class="stentry"> <p>支持的命令或属性名称之一。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>自定义变量的名称。 </p></td> 
+  <td class="stentry"> <p>自定义变量的名称。</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span> </span> </p></td> 
@@ -69,7 +66,7 @@ HTTP协议的基本语法如下。
 
 *`server_address`*、 *`cmdName`*、 *`macro`*&#x200B;和 *`var`* 不区分大小写。服务器保留所有其他字符串值的大小写。
 
-*`value`* 是特定于命令的，可能由一个或多个用逗号分隔的值组成。有关详细信息，请参阅各个命令的说明。
+*`value`* 是特定于命令的，可由一个或多个用逗号分隔的值组成。有关详细信息，请参阅各个命令的说明。
 
 ## 服务器标识符{#section-926ae55ddba14b8d952147a5fd701e14}
 
@@ -85,7 +82,7 @@ HTTP协议的基本语法如下。
 
 ## 注释 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-注释可以嵌入到任意位置的请求字符串中并由句点(.)标识 紧接在命令separator(&amp;)之后。 注释以（未编码）命令分隔符的下一个出现结束。 此功能可用于向非图像服务使用的请求添加信息，例如时间戳、数据库ID等。
+注释可以嵌入到任意位置的请求字符串中，并由句点(.)标识 紧接在命令separator(&amp;)之后。 注释以（未编码）命令分隔符的下一个出现结束。 此功能可用于向不用于图像服务的请求添加信息，如时间戳和数据库ID。
 
 ## 另请参阅 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
