@@ -1,16 +1,13 @@
 ---
 description: 当用户单击此按钮时，查看器会进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 当用户单击此按钮时，查看器会进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: 全屏按钮
 solution: Experience Manager
 title: 全屏按钮
-uuid: 22d10ec1-83f3-4f86-a0a1-0fc2e43232b1
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '296'
 ht-degree: 2%
 
 ---
