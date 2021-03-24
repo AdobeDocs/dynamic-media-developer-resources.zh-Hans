@@ -1,16 +1,13 @@
 ---
 description: 替换变量用于将值从请求URL传输到存储在服务器上的FXG模板。
-seo-description: 替换变量用于将值从请求URL传输到存储在服务器上的FXG模板。
-seo-title: 替换变量
 solution: Experience Manager
 title: 替换变量
-uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
