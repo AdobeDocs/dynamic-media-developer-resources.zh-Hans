@@ -1,17 +1,14 @@
 ---
 description: 纹理对齐。 当应用于彼此相关的晕影物体（例如家具的软垫部件）时，纹理的对齐。 主要用于室内装饰渲染应用，可能用于高级服装应用。
-seo-description: 纹理对齐。 当应用于彼此相关的晕影物体（例如家具的软垫部件）时，纹理的对齐。 主要用于室内装饰渲染应用，可能用于高级服装应用。
-seo-title: 对齐方式
 solution: Experience Manager
 title: 对齐方式
-uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 4%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
