@@ -1,16 +1,13 @@
 ---
 description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
-seo-description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
-seo-title: scale
 solution: Experience Manager
-title: 缩放
-uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+title: scale
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '114'
 ht-degree: 5%
 
 ---
