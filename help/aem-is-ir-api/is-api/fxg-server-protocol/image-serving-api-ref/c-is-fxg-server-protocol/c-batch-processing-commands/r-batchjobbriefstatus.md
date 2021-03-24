@@ -1,16 +1,13 @@
 ---
 description: 检索已提交作业的摘要状态。
-seo-description: 检索已提交作业的摘要状态。
-seo-title: batchobprif
 solution: Experience Manager
 title: batchobprif
-uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
