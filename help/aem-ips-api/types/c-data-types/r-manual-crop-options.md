@@ -1,17 +1,14 @@
 ---
 description: 手动裁剪图像选项。
-seo-description: 手动裁剪图像选项。
-seo-title: 手动裁剪选项
 solution: Experience Manager
 title: 手动裁剪选项
-uuid: ac3710d9-14b0-4e2f-90a5-f66fe37851ab
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 12%
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
