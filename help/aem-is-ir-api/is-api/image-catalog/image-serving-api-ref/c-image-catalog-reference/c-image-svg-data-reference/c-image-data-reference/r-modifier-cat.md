@@ -1,16 +1,13 @@
 ---
 description: 前缀请求修饰符字符串。 无或多个以“&”字符分隔的图像服务命令。
-seo-description: 前缀请求修饰符字符串。 无或多个以“&”字符分隔的图像服务命令。
-seo-title: 修饰符
 solution: Experience Manager
 title: 修饰符
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---
