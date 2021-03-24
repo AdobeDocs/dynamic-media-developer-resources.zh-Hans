@@ -1,17 +1,14 @@
 ---
 description: 材料旋转角度。 定义材料的旋转角度。
-seo-description: 材料旋转角度。 定义材料的旋转角度。
-seo-title: 旋转
 solution: Experience Manager
 title: 旋转
-uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 7%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
