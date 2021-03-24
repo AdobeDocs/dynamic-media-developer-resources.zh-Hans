@@ -1,16 +1,13 @@
 ---
 description: 图像服务控制脚本。 此脚本用于开始、停止或重新启动图像服务服务器管理器，而后者又会开始、停止或重新启动所有其他图像服务组件。
-seo-description: 图像服务控制脚本。 此脚本用于开始、停止或重新启动图像服务服务器管理器，而后者又会开始、停止或重新启动所有其他图像服务组件。
-seo-title: 图像服务
 solution: Experience Manager
 title: 图像服务
-uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
