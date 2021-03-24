@@ -1,16 +1,13 @@
 ---
 description: 此版本（图像服务6.6.1和图像渲染6.6.1）将取代图像服务6.5.3和图像渲染6.5.3。
-seo-description: 此版本（图像服务6.6.1和图像渲染6.6.1）将取代图像服务6.5.3和图像渲染6.5.3。
-seo-title: 关于此版本
 solution: Experience Manager
 title: 关于此版本
-uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
