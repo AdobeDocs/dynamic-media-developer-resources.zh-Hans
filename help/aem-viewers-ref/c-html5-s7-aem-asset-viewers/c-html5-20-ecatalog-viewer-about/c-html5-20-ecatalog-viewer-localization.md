@@ -1,16 +1,13 @@
 ---
 description: 电子目录查看器显示的某些内容受本地化的约束，包括缩放按钮、页面更改按钮、缩略图按钮、全屏按钮、关闭按钮和滚动条按钮。
-seo-description: 电子目录查看器显示的某些内容受本地化的约束，包括缩放按钮、页面更改按钮、缩略图按钮、全屏按钮、关闭按钮和滚动条按钮。
-seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
