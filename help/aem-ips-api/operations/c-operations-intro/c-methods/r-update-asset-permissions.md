@@ -1,17 +1,14 @@
 ---
 description: 更新资产权限。
-seo-description: 更新资产权限。
-seo-title: updateAssetPermissons
 solution: Experience Manager
 title: updateAssetPermissons
-uuid: feb2faf3-81de-436e-82de-1e41df03508f
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 19%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 
