@@ -1,16 +1,13 @@
 ---
 description: “设置指示符”是在查看器底部渲染的一系列点。 它显示集内的当前位置。
-seo-description: “设置指示符”是在查看器底部渲染的一系列点。 它显示集内的当前位置。
-seo-title: 设置指示符
 solution: Experience Manager
 title: 设置指示符
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
