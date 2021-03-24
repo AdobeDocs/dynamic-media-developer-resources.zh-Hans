@@ -2,11 +2,10 @@
 description: 事件回调
 solution: Experience Manager
 title: 事件回调
-uuid: 4a3dc8d7-2eb3-4244-849b-01d1314e43f2
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
