@@ -1,16 +1,13 @@
 ---
 description: 以下选项控制晕影文件的处理。 如果sourceFile不是晕影，则忽略它们。
-seo-description: 以下选项控制晕影文件的处理。 如果sourceFile不是晕影，则忽略它们。
-seo-title: 晕影选项
 solution: Experience Manager
 title: 晕影选项
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
