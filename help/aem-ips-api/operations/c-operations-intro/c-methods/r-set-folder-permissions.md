@@ -1,17 +1,14 @@
 ---
 description: 设置文件夹权限。
-seo-description: 设置文件夹权限。
-seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
