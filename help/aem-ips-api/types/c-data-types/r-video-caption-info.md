@@ -4,7 +4,7 @@ title: VideoCaptionInfo
 feature: Dynamic Media Classic，SDK/API，视频
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 28%
