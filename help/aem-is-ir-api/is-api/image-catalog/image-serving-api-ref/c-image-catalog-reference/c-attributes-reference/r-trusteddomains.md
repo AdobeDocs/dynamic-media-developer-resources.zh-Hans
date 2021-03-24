@@ -1,17 +1,14 @@
 ---
 description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3传送的图像的属性。
-seo-description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3传送的图像的属性。
-seo-title: 受信任域
 solution: Experience Manager
 title: 受信任域
-uuid: 1d056d68-b699-413c-897c-8612444735c5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
