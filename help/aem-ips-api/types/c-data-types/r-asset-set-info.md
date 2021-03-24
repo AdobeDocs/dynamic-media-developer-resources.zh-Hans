@@ -1,17 +1,14 @@
 ---
 description: 资产集类型资产的属性。
-seo-description: 资产集类型资产的属性。
-seo-title: 资产集信息
 solution: Experience Manager
 title: 资产集信息
-uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
