@@ -1,17 +1,14 @@
 ---
 description: RGB默认输出颜色用户档案。 指定在未使用icc=指定输出色彩空间时用于RGB响应图像的ICC色彩用户档案的名称，以及使用各种“图像服务”命令（如color=）指定的某些RGB颜色值。
-seo-description: RGB默认输出颜色用户档案。 指定在未使用icc=指定输出色彩空间时用于RGB响应图像的ICC色彩用户档案的名称，以及使用各种“图像服务”命令（如color=）指定的某些RGB颜色值。
-seo-title: IccProfileRgb
 solution: Experience Manager
 title: IccProfileRgb
-uuid: 40606151-d5fa-4ae5-b6f0-e811bfea4691
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 1%
+source-wordcount: '156'
+ht-degree: 2%
 
 ---
 
