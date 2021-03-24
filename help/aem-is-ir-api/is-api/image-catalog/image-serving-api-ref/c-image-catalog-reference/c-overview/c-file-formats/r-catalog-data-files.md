@@ -1,16 +1,13 @@
 ---
 description: 目录数据文件可以具有任何名称和文件后缀（.ini除外）。 使用支持制表符分隔的文本数据文件（如Microsoft Excel和Access）的应用程序可轻松维护这些文件。
-seo-description: 目录数据文件可以具有任何名称和文件后缀（.ini除外）。 使用支持制表符分隔的文本数据文件（如Microsoft Excel和Access）的应用程序可轻松维护这些文件。
-seo-title: 目录数据文件
 solution: Experience Manager
 title: 目录数据文件
-uuid: 0f66e2fe-5b8a-43d3-bf2e-8dd79da6a581
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
