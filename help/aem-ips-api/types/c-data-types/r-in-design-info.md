@@ -1,17 +1,14 @@
 ---
 description: InDesign文件属性。
-seo-description: InDesign文件属性。
-seo-title: InDesignInfo
 solution: Experience Manager
 title: InDesignInfo
-uuid: d734bbe2-0bc4-46f4-b4a0-8c39949e8d46
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 27%
+source-wordcount: '29'
+ht-degree: 31%
 
 ---
 
