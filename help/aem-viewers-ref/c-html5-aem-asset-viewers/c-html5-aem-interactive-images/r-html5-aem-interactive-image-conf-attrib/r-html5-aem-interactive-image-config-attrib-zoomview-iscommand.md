@@ -1,17 +1,14 @@
 ---
 description: 用于缩放图像的“图像服务”命令字符串。
-seo-description: 用于缩放图像的“图像服务”命令字符串。
-seo-title: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-uuid: 13dc11ed-52a4-45ae-bfae-ca034c8a3c87
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
