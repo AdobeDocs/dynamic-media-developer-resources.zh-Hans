@@ -1,17 +1,14 @@
 ---
 description: 字体名称。 字体名称，与RTF \fontbl命令中指定的完全相同。
-seo-description: 字体名称。 字体名称，与RTF \fontbl命令中指定的完全相同。
-seo-title: 名称
 solution: Experience Manager
 title: 名称
-uuid: 937d2d73-5e6d-4276-a4f9-892af97a2b86
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 8%
+source-wordcount: '87'
+ht-degree: 9%
 
 ---
 
