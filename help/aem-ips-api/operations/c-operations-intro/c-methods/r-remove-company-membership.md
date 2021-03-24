@@ -1,17 +1,14 @@
 ---
 description: 从一个或多个公司中删除用户。
-seo-description: 从一个或多个公司中删除用户。
-seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-uuid: af57fde0-2297-41da-87bf-f063fc313264
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 10%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
