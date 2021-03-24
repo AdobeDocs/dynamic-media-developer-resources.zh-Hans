@@ -1,16 +1,13 @@
 ---
 description: 根据是否指定用户句柄，将特定用户或默认用户的口令设置为特定值。
-seo-description: 根据是否指定用户句柄，将特定用户或默认用户的口令设置为特定值。
-seo-title: setPassword
 solution: Experience Manager
 title: setPassword
-uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '233'
 ht-degree: 7%
 
 ---
