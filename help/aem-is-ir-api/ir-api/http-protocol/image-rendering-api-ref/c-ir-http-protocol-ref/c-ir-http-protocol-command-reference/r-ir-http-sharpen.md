@@ -1,17 +1,14 @@
 ---
 description: 锐化回复图像。 可在根据wid=或hei=缩放渲染的图像后应用可选锐化。
-seo-description: 锐化回复图像。 可在根据wid=或hei=缩放渲染的图像后应用可选锐化。
-seo-title: 锐化
 solution: Experience Manager
 title: 锐化
-uuid: 0fc0b694-f332-4a16-9970-6b699528f165
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
