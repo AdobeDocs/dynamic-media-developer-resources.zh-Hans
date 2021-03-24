@@ -1,16 +1,13 @@
 ---
 description: eCatalog Viewer的JavaScript API参考
-seo-description: eCatalog Viewer的JavaScript API参考
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: 4e5b79b5-4a2b-427a-b527-81247a6b740d
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
