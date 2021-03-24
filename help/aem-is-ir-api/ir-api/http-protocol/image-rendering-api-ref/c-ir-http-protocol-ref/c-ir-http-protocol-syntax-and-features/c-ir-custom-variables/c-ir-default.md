@@ -1,17 +1,14 @@
 ---
 description: 没有默认值。
-seo-description: 没有默认值。
-seo-title: 默认
 solution: Experience Manager
 title: 默认
-uuid: e8c36233-abf9-4342-8523-72ff7c831634
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 6%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
