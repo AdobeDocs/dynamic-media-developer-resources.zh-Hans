@@ -1,17 +1,14 @@
 ---
 description: 生成属性的数组。
-seo-description: 生成属性的数组。
-seo-title: GenerationInfoArray
 solution: Experience Manager
 title: GenerationInfoArray
-uuid: 34124928-4177-415f-898a-e4b8bed9f95f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
