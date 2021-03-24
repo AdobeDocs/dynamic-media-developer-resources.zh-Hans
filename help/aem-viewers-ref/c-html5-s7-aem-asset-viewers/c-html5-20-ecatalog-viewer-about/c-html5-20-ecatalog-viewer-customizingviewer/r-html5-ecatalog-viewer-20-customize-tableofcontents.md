@@ -1,16 +1,13 @@
 ---
 description: 目录是位于主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
-seo-description: 目录是位于主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
-seo-title: 目录
 solution: Experience Manager
 title: 目录
-uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1068'
 ht-degree: 2%
 
 ---
