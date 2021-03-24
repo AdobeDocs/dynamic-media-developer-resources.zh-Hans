@@ -1,17 +1,14 @@
 ---
 description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
-seo-description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Media Classic，SDK/API，元数据
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 16%
 
 ---
 
