@@ -1,16 +1,13 @@
 ---
 description: 交互式视频查看器支持基于作为配置参数传递给查看器的交互式数据呈现交互式色板。
-seo-description: 交互式视频查看器支持基于作为配置参数传递给查看器的交互式数据呈现交互式色板。
-seo-title: 交互式数据支持
 solution: Experience Manager
 title: 交互式数据支持
-uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
