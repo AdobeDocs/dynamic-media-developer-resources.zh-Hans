@@ -1,17 +1,14 @@
 ---
 description: 视频查看器的配置属性。
-seo-description: 视频查看器的配置属性。
-seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-uuid: 935b35c3-edf2-4d05-ae21-7558f022ffbe
 feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
