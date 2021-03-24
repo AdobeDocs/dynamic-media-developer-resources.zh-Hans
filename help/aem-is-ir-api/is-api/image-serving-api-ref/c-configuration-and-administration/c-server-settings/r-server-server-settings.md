@@ -1,16 +1,13 @@
 ---
 description: 使用这些服务器设置配置服务器。
-seo-description: 使用这些服务器设置配置服务器。
-seo-title: 服务器
 solution: Experience Manager
 title: 服务器
-uuid: 50db98cc-8354-4884-9416-00808828061b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
