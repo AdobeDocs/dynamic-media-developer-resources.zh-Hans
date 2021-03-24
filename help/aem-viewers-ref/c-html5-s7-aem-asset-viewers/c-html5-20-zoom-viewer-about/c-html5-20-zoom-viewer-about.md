@@ -1,17 +1,14 @@
 ---
 description: “缩放查看器”是显示可缩放图像的图像查看器。 此查看器可处理图像集，并可使用色板完成导航。 它具有缩放工具、全屏支持、色板和可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
 keywords: 响应
-seo-description: “缩放查看器”是显示可缩放图像的图像查看器。 此查看器可处理图像集，并可使用色板完成导航。 它具有缩放工具、全屏支持、色板和可选的关闭按钮。 它设计为可在桌面和移动设备上使用。
-seo-title: Zoom
 solution: Experience Manager
-title: 缩放
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+title: Zoom
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
