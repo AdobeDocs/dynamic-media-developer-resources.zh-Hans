@@ -1,17 +1,14 @@
 ---
 description: 由PermissionsUpdate/permissionType、Permission/permissionType使用。
-seo-description: 由PermissionsUpdate/permissionType、Permission/permissionType使用。
-seo-title: 权限类型
 solution: Experience Manager
 title: 权限类型
-uuid: 08c24010-489f-452f-9fc0-c65d33816200
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
