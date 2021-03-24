@@ -1,17 +1,14 @@
 ---
 description: 缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
-seo-description: 缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
-seo-title: 缩略图BkgColor
 solution: Experience Manager
 title: 缩略图BkgColor
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 4%
+source-wordcount: '86'
+ht-degree: 5%
 
 ---
 
