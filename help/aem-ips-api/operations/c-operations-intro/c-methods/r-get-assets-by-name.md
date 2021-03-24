@@ -1,17 +1,14 @@
 ---
 description: 返回基于资产名称数组的资产。
-seo-description: 返回基于资产名称数组的资产。
-seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 feature: Dynamic Media Classic，SDK/API，资产管理
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 13%
+source-wordcount: '221'
+ht-degree: 14%
 
 ---
 
