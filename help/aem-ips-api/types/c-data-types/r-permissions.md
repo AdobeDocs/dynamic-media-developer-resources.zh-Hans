@@ -1,17 +1,14 @@
 ---
 description: 按组管理访问、修改、创建或删除资产的权限。
-seo-description: 按组管理访问、修改、创建或删除资产的权限。
-seo-title: 权限
 solution: Experience Manager
 title: 权限
-uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
