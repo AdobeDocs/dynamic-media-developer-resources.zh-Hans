@@ -1,16 +1,13 @@
 ---
 description: vntc生成文本数据，这些数据被发送到stderr或日志文件。
-seo-description: vntc生成文本数据，这些数据被发送到stderr或日志文件。
-seo-title: 输出
 solution: Experience Manager
 title: 输出
-uuid: f2041600-408f-481c-95fc-3c112def7b8a
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
