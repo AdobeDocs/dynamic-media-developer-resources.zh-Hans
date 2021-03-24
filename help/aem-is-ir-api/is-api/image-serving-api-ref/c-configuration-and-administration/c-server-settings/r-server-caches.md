@@ -1,16 +1,13 @@
 ---
 description: 将这些服务器设置用于服务器缓存。
-seo-description: 将这些服务器设置用于服务器缓存。
-seo-title: 服务器缓存
 solution: Experience Manager
 title: 服务器缓存
-uuid: 73745363-2011-453f-b7a0-96de4b44186d
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
