@@ -1,17 +1,14 @@
 ---
 description: 添加杂色。 将随机噪声添加到前景图像数据或效果图层的前景中。
-seo-description: 添加杂色。 将随机噪声添加到前景图像数据或效果图层的前景中。
-seo-title: op_noise
 solution: Experience Manager
 title: op_noise
-uuid: 531f7a94-149b-4090-a163-a1895156250b
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
