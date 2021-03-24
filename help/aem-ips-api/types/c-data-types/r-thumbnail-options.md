@@ -1,16 +1,13 @@
 ---
 description: 允许您选择特定视频帧作为缩略图图像的可选类型。
-seo-description: 允许您选择特定视频帧作为缩略图图像的可选类型。
-seo-title: ThumbnailOptions
 solution: Experience Manager
 title: ThumbnailOptions
-uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
