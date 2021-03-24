@@ -1,26 +1,23 @@
 ---
-description: 如果将javascript指定为响应格式，则返回数据的格式将被解析为JavaScript包含文件。
-seo-description: 如果将javascript指定为响应格式，则返回数据的格式将被解析为JavaScript包含文件。
-seo-title: JavaScript属性
+description: 如果将JavaScript™指定为响应格式，则返回数据的格式将被分析为JavaScript™包含文件。
 solution: Experience Manager
-title: JavaScript属性
-uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+title: JavaScript™属性
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 
-# JavaScript属性{#javascript-properties}
+# JavaScript™属性{#javascript-properties}
 
-如果将javascript指定为响应格式，则返回数据的格式将被解析为JavaScript包含文件。
+如果将JavaScript™指定为响应格式，则返回数据的格式将被分析为JavaScript™包含文件。
 
-典型的JavaScript属性响应具有以下常规结构：
+典型的JavaScript™属性响应具有以下常规结构：
 
 ```
            
@@ -33,9 +30,9 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* 可能是空的。在每行的开头和结尾以及=分隔符前后，空格是可选的。 所有值都用单引号括起来。 字符串中的单引号用两个连续的单引号进行转义。
+*`propertyValue`* 可以是空的。在每行的开头和结尾以及=分隔符前后，空格是可选的。 所有值都用单引号括起来。 字符串中的单引号用两个连续的单引号进行转义。
 
-要分析JavaScript属性响应，必须在加载属性文件之前创建响应中引用的任何对象。 以下是使用`req=props`在JavaScript中获得响应图像大小的示例：
+要分析JavaScript™属性响应，必须在加载属性文件之前创建响应中引用的任何对象或对象。 以下是使用`req=props`在JavaScript™中获得响应图像大小的示例：
 
 ```
 <script> image = new Object; </script> 
