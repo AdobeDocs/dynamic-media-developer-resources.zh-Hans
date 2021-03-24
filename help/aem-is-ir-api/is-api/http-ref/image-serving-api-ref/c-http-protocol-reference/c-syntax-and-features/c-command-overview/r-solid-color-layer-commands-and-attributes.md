@@ -1,16 +1,13 @@
 ---
 description: 除了常用的图层命令，这些命令还适用于纯色图层。
-seo-description: 除了常用的图层命令，这些命令还适用于纯色图层。
-seo-title: 纯色图层命令
 solution: Experience Manager
 title: 纯色图层命令
-uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
