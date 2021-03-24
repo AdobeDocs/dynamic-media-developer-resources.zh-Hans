@@ -1,17 +1,14 @@
 ---
 description: XMP元数据。 返回与在请求路径中指定的图像关联的XMP元数据。
-seo-description: XMP元数据。 返回与在请求路径中指定的图像关联的XMP元数据。
-seo-title: xmp
 solution: Experience Manager
 title: xmp
-uuid: e1583ffe-531a-4334-b974-72df6fcb14ba
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 11%
+source-wordcount: '183'
+ht-degree: 12%
 
 ---
 
