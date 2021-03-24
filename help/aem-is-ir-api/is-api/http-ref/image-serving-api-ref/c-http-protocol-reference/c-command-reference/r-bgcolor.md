@@ -1,16 +1,13 @@
 ---
 description: 图层背景颜色。 指定当前图层的背景颜色和不透明度。
-seo-description: 图层背景颜色。 指定当前图层的背景颜色和不透明度。
-seo-title: bgColor
 solution: Experience Manager
 title: bgColor
-uuid: bcbd368f-d200-4b1f-8e9f-bf4d88f14b72
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '129'
 ht-degree: 4%
 
 ---
