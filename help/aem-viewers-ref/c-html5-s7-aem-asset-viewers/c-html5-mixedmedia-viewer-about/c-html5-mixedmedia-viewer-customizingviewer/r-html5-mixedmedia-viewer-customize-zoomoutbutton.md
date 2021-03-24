@@ -1,16 +1,13 @@
 ---
 description: 单击或点按此按钮将放大主视图中的图像。 此按钮不显示在移动电话上以节省屏幕空间。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮将放大主视图中的图像。 此按钮不显示在移动电话上以节省屏幕空间。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: 缩小按钮
 solution: Experience Manager
 title: 缩小按钮
-uuid: edc46e24-d3d9-4d1e-8676-ec441936458d
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
