@@ -1,16 +1,13 @@
 ---
 description: 请求规则元素。 在<ruleset>元素中，一个或多个是可选的。
-seo-description: 请求规则元素。 在<ruleset>元素中，一个或多个是可选的。
-seo-title: 规则
 solution: Experience Manager
 title: 规则
-uuid: f7071681-e97e-4081-aeb1-093d2b23041c
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '200'
 ht-degree: 5%
 
 ---
