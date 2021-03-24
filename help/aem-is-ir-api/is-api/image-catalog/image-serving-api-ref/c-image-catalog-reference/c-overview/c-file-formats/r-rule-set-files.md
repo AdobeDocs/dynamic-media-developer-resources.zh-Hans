@@ -1,16 +1,13 @@
 ---
 description: 规则集文件是XML格式的文本文件，必须符合相应的标准和惯例。
-seo-description: 规则集文件是XML格式的文本文件，必须符合相应的标准和惯例。
-seo-title: 规则集文件
 solution: Experience Manager
 title: 规则集文件
-uuid: c0c7ec7b-547b-4007-864b-bf551f041aff
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
