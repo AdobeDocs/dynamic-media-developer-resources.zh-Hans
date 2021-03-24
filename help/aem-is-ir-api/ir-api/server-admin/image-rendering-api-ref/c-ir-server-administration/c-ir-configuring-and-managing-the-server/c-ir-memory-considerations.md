@@ -1,16 +1,13 @@
 ---
 description: “图像渲染”使用的内存量可能差异很大，并且高度取决于实际服务器负载和使用情况（例如，很少使用晕影，与许多不同的晕影、晕影的大小和复杂性等）。
-seo-description: “图像渲染”使用的内存量可能差异很大，并且高度取决于实际服务器负载和使用情况（例如，很少使用晕影，与许多不同的晕影、晕影的大小和复杂性等）。
-seo-title: 内存注意事项
 solution: Experience Manager
 title: 内存注意事项
-uuid: 21247081-ff27-4237-93da-5fc996417dfd
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
