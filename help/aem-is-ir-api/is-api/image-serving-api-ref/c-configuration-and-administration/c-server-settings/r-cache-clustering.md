@@ -1,16 +1,13 @@
 ---
 description: 使用这些服务器设置进行缓存群集。
-seo-description: 使用这些服务器设置进行缓存群集。
-seo-title: 缓存群集
 solution: Experience Manager
 title: 缓存群集
-uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
