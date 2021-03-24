@@ -1,17 +1,14 @@
 ---
 description: 默认打印分辨率。 提供默认打印分辨率，以防特定目录记录不包含有效的目录PrintResolution值。
-seo-description: 默认打印分辨率。 提供默认打印分辨率，以防特定目录记录不包含有效的目录PrintResolution值。
-seo-title: 打印分辨率
 solution: Experience Manager
 title: 打印分辨率
-uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 
