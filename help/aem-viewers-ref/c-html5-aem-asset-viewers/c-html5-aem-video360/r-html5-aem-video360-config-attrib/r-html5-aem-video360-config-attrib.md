@@ -1,16 +1,13 @@
 ---
 description: Video360查看器的配置属性文档。
-seo-description: Video360查看器的配置属性文档。
-seo-title: 命令参考 — 配置属性
 solution: Experience Manager
 title: 命令参考 — 配置属性
-uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
