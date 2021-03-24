@@ -1,16 +1,13 @@
 ---
 description: 在URL或目录修饰符命令序列中，图层定义序列开始使用layer=命令，并用另一个layer=命令、effect=命令或URL的结尾终止。
-seo-description: 在URL或目录修饰符命令序列中，图层定义序列开始使用layer=命令，并用另一个layer=命令、effect=命令或URL的结尾终止。
-seo-title: 指定图层
 solution: Experience Manager
 title: 指定图层
-uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
