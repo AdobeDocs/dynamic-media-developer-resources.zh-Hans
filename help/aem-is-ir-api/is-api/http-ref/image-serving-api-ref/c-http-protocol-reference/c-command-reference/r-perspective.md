@@ -1,16 +1,13 @@
 ---
 description: 透视变换。 对图层源图像应用透视变换以填充四边形指定的区域。 图层的其他区域保持透明。
-seo-description: 透视变换。 对图层源图像应用透视变换以填充四边形指定的区域。 图层的其他区域保持透明。
-seo-title: 透视
 solution: Experience Manager
 title: 透视
-uuid: b22d7b49-db08-48df-80bc-5b7237aea475
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
