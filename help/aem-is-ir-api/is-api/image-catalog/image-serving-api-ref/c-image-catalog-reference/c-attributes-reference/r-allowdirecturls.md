@@ -1,17 +1,14 @@
 ---
 description: 允许绝对URL作为图像源。
-seo-description: 允许绝对URL作为图像源。
-seo-title: AllowDirectUrl
 solution: Experience Manager
 title: AllowDirectUrl
-uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
