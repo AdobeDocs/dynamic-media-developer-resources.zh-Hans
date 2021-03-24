@@ -1,17 +1,14 @@
 ---
 description: 查看器在主视图上显示热点图标，这些位置是在AEM Assets的Dynamic Media中最初创作的热点 — 点播。
-seo-description: 查看器在主视图上显示热点图标，这些位置是在AEM Assets的Dynamic Media中最初创作的热点 — 点播。
-seo-title: 热点
 solution: Experience Manager
 title: 热点
-uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
