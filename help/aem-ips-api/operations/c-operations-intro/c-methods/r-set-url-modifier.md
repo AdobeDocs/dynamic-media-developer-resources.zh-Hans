@@ -1,17 +1,14 @@
 ---
 description: 为指定的资产设置图像服务或图像渲染协议命令。 这些命令可修改资源的表示形式，而不会破坏它。
-seo-description: 为指定的资产设置图像服务或图像渲染协议命令。 这些命令可修改资源的表示形式，而不会破坏它。
-seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 6%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
