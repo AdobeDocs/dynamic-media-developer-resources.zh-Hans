@@ -1,16 +1,13 @@
 ---
 description: 如果请求成功完成，并且请求中不包含req=命令，或req=包含以下值之一，则返回图像数据img，调试
-seo-description: 如果请求成功完成，并且请求中不包含req=命令，或req=包含以下值之一，则返回图像数据img，调试
-seo-title: 图像
 solution: Experience Manager
 title: 图像
-uuid: 8e8c5ec9-dc15-4894-b6a1-8e5241f03977
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
