@@ -1,16 +1,13 @@
 ---
 description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的灌浆。
-seo-description: 瓦块灌浆颜色和厚度。 模拟陶瓷和天然石砖的灌浆。
-seo-title: 灌浆
 solution: Experience Manager
 title: 灌浆
-uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
