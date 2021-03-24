@@ -1,17 +1,14 @@
 ---
 description: 静态内容数据根路径。 此图像目录静态内容数据的根文件夹的绝对路径或相对路径段。
-seo-description: 静态内容数据根路径。 此图像目录静态内容数据的根文件夹的绝对路径或相对路径段。
-seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
