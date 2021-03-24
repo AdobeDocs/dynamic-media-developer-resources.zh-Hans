@@ -1,17 +1,14 @@
 ---
 description: 图像锚点（热点）。 指定可重复纹理或贴花素材料的纹理锚点（热点）。
-seo-description: 图像锚点（热点）。 指定可重复纹理或贴花素材料的纹理锚点（热点）。
-seo-title: 锚记
 solution: Experience Manager
 title: 锚记
-uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 3%
+source-wordcount: '210'
+ht-degree: 2%
 
 ---
 
