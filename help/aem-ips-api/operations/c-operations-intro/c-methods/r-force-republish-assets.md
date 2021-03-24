@@ -1,17 +1,14 @@
 ---
 description: 重置一个或多个资产的发布状态，以强制在下一个发布作业中重新发布资产。
-seo-description: 重置一个或多个资产的发布状态，以强制在下一个发布作业中重新发布资产。
-seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 10%
+source-wordcount: '169'
+ht-degree: 12%
 
 ---
 
