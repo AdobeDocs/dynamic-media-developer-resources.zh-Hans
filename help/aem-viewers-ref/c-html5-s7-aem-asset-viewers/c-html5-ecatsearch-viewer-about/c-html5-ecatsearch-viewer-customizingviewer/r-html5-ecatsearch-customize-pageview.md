@@ -1,16 +1,13 @@
 ---
 description: 主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
-seo-description: 主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
-seo-title: 页面查看
 solution: Experience Manager
 title: 页面查看
-uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
