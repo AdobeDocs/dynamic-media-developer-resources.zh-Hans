@@ -1,16 +1,13 @@
 ---
 description: 如果交互式数据以配置方式传递到查看器，则交互式色板面板将显示在视频内容旁边。 它由顶部的横幅组成，用于呈现文本，如“单击以视图”、一个或多个交互式色板的列以及两个滚动按钮（仅在桌面系统上可用）。
-seo-description: 如果交互式数据以配置方式传递到查看器，则交互式色板面板将显示在视频内容旁边。 它由顶部的横幅组成，用于呈现文本，如“单击以视图”、一个或多个交互式色板的列以及两个滚动按钮（仅在桌面系统上可用）。
-seo-title: 交互式色板
 solution: Experience Manager
 title: 交互式色板
-uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
