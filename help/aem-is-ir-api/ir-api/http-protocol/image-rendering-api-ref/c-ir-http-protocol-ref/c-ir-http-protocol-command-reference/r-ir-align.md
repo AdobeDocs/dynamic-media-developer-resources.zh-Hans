@@ -1,17 +1,14 @@
 ---
 description: 纹理渲染对齐。 指定将使用由选定晕影对象定义的来源点。
-seo-description: 纹理渲染对齐。 指定将使用由选定晕影对象定义的来源点。
-seo-title: 对齐
 solution: Experience Manager
 title: 对齐
-uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 3%
+source-wordcount: '185'
+ht-degree: 4%
 
 ---
 
