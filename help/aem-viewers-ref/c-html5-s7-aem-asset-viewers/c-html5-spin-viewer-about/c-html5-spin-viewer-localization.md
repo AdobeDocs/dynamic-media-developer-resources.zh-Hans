@@ -1,16 +1,13 @@
 ---
 description: 旋转查看器显示的某些内容受本地化（包括缩放按钮和全屏按钮）的约束。
-seo-description: 旋转查看器显示的某些内容受本地化（包括缩放按钮和全屏按钮）的约束。
-seo-title: 本地化用户界面元素
 solution: Experience Manager
 title: 本地化用户界面元素
-uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
