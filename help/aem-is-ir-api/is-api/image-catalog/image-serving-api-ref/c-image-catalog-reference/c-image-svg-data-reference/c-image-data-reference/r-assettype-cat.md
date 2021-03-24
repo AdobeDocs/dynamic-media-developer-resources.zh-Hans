@@ -1,16 +1,13 @@
 ---
 description: 资源类型. 用于标识发布到目录ImageSet的集的类型。
-seo-description: 资源类型. 用于标识发布到目录ImageSet的集的类型。
-seo-title: 资产类型
 solution: Experience Manager
 title: 资产类型
-uuid: e9e0d7e0-0429-4949-aafa-0ac7032fdfe5
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '84'
 ht-degree: 13%
 
 ---
