@@ -1,16 +1,13 @@
 ---
 description: 当应用于预定大小的图层时（即当也指定了size=时），text= renderer将放置与textPs= renderer基本不同的文本。
-seo-description: 当应用于预定大小的图层时（即当也指定了size=时），text= renderer将放置与textPs= renderer基本不同的文本。
-seo-title: 文本定位
 solution: Experience Manager
 title: 文本定位
-uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
