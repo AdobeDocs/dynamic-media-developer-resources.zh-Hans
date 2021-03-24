@@ -1,17 +1,14 @@
 ---
 description: 单击或点按此按钮会重置主视图中的图像。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-description: 单击或点按此按钮会重置主视图中的图像。 您可以使用CSS调整此按钮的大小、外观和位置。
-seo-title: 缩放重置按钮
 solution: Experience Manager
 title: 缩放重置按钮
-uuid: 29b46f4e-cda6-4dfc-92bb-722882235e13
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
