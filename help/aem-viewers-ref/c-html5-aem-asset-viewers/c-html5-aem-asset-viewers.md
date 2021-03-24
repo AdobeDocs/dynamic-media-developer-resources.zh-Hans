@@ -2,11 +2,10 @@
 description: 仅限AEM Assets的查看器
 solution: Experience Manager
 title: 仅限AEM Assets的查看器
-uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
 feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
