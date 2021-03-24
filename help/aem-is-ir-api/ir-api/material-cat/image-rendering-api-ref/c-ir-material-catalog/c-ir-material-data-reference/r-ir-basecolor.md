@@ -1,17 +1,14 @@
 ---
 description: 主图像颜色。 用于纹理着色的减色。 应为纹理图像中的平均主色。
-seo-description: 主图像颜色。 用于纹理着色的减色。 应为纹理图像中的平均主色。
-seo-title: 基色
 solution: Experience Manager
 title: 基色
-uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
