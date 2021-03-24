@@ -1,16 +1,13 @@
 ---
 description: 回复图像高度。 指定渲染后的图像的缩放，以便返回图像的高度不大于指定值，同时保持图像的长宽比。
-seo-description: 回复图像高度。 指定渲染后的图像的缩放，以便返回图像的高度不大于指定值，同时保持图像的长宽比。
-seo-title: hei
 solution: Experience Manager
-title: 平
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
+title: hei
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
