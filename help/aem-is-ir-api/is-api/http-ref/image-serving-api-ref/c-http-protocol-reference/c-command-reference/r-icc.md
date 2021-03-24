@@ -1,17 +1,14 @@
 ---
 description: 输出颜色配置文件.
-seo-description: 输出颜色配置文件.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: cfbd18aa-cbba-4085-920d-1f54645d0f89
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 5%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
