@@ -1,20 +1,20 @@
 ---
-cloud: experience-cloud
-user-guide-title: Dynamic Media查看器参考指南
+cloud: Experience Cloud
+user-guide-title: 动态媒体查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义Dynamic Media查看器，以用于桌面和触摸屏设备。 包括交互式图像和视频、轮盘、旋转集等。
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1913'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Dynamic Media查看器参考指南{#library}
+# 动态媒体查看器参考指南 {#library}
 
-+ [Dynamic Media查看器参考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
++ [动态媒体查看器参考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [查看器库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 + [系统要求](c-system-requirements-and-prerequisites.md)
 + [在同一服务器上安装多个查看器](t-installing-the-viewers.md)
