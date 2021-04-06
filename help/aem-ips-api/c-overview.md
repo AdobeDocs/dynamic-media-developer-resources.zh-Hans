@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 关于图像生产系统API
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
+exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%
 
 ---
-
 
 # 关于Image Production System API{#about-scene-image-production-system-api}
 
