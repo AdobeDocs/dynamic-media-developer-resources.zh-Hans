@@ -4,14 +4,14 @@ solution: Experience Manager
 title: HTTPS视频投放
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
+exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
 
 ---
-
 
 # HTTPS视频投放{#https-video-delivery}
 
@@ -79,4 +79,3 @@ ht-degree: 0%
    ```
 
    另请参阅[在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。
-
