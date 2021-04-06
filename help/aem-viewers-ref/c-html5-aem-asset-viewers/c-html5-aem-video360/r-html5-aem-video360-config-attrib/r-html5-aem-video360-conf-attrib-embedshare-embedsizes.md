@@ -4,14 +4,14 @@ solution: Experience Manager
 title: EmbedShare.embedsizes
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
+exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 10%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
@@ -51,4 +51,3 @@ Video360查看器的配置属性。
 ```
 embedsizes=800,600;640,480,1
 ```
-
