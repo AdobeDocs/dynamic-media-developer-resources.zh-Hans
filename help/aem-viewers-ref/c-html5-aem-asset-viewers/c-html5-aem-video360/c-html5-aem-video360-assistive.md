@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 辅助技术支持
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频，辅助功能
 role: 开发人员，商业从业者
+exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # 辅助技术支持{#assistive-technology-support}
 
