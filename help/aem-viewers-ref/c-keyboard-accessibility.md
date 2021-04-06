@@ -4,8 +4,9 @@ solution: Experience Manager
 title: 键盘辅助功能和导航
 feature: Dynamic Media Classic，查看器，SDK/API
 role: 开发人员，商业从业者
+exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
