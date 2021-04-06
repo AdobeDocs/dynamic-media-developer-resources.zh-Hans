@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 字幕
 feature: Dynamic Media Classic，查看器，SDK/API
 role: 开发人员，商业从业者
+exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
 
 ---
-
 
 # 题注{#caption}
 
@@ -103,4 +103,3 @@ ht-degree: 6%
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
 ```
-
