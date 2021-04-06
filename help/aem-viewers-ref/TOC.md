@@ -4,9 +4,9 @@ user-guide-title: 动态媒体查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义Dynamic Media查看器，以用于桌面和触摸屏设备。 包括交互式图像和视频、轮盘、旋转集等。
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 5%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 5%
 + [系统要求](c-system-requirements-and-prerequisites.md)
 + [在同一服务器上安装多个查看器](t-installing-the-viewers.md)
 + 查看器发行说明{#viewers-release-notes}
+   + [查看器发行说明(5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [查看器发行说明(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 存档 {#archive}
       + [发行说明存档](c-release-notes/c-archive/c-archive.md)
-      + [查看器发行说明(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [查看器发行说明(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [查看器发行说明(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [查看器发行说明(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [查看器5.8.2发行说明](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [查看器5.5.2发行说明](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [查看器5.4.2发行说明](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [查看器5.2.3发行说明](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [查看器5.2.2发行说明](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [查看器5.1.1发行说明](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [查看器5.0.1发行说明](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [查看器4.9.2发行说明](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [查看器发行说明(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [查看器发行说明(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [查看器发行说明(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [查看器发行说明(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [查看器发行说明(5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [查看器发行说明(5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [查看器发行说明(5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [查看器发行说明(5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [查看器发行说明(5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [查看器发行说明(5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [查看器发行说明(5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [查看器发行说明(4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [兼容性说明](c-compatibility-notes.md)
 + [键盘辅助功能和导航](c-keyboard-accessibility.md)
 + [查看器SDK教程](c-tutorial.md)
