@@ -5,13 +5,12 @@ title: 键盘辅助功能和导航
 feature: Dynamic Media Classic，查看器，SDK/API
 role: 开发人员，商业从业者
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
-
 
 # 键盘辅助功能和导航{#keyboard-accessibility-and-navigation}
 
@@ -25,9 +24,9 @@ ht-degree: 0%
 
 最终用户可以使用&#x200B;**[!UICONTROL Tab]**&#x200B;和&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;按键在查看器用户界面元素之间导航。 使用&#x200B;**[!UICONTROL Tab]**&#x200B;按Tab键顺序将输入焦点提前到下一个用户界面元素；使用&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;将输入焦点返回到上一个用户界面元素。 焦点遍历遵循屏幕上自然的用户界面元素位置，并按从左到右、然后从上到下的顺序移动。
 
-根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素可接收可视焦点指示。 例如，可视指示器可以是用户界面元素周围呈现的细边框。
+根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素接收可视焦点指示。 例如，可视指示器可以是用户界面元素周围呈现的细边框。
 
-可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，基本缩放或交互式视频）下，单击&#x200B;**自定义&#x200B;*查看器***名称>**&#x200B;焦点突出显示&#x200B;**。
+可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，基本缩放或交互式视频）下，单击&#x200B;**自定义查看器&#x200B;***的*名称>**&#x200B;焦点突出显示&#x200B;**。
 
 在大多数情况下，单个查看器用户界面元素支持的按键效果显而易见，易于发现。
 
@@ -133,4 +132,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
