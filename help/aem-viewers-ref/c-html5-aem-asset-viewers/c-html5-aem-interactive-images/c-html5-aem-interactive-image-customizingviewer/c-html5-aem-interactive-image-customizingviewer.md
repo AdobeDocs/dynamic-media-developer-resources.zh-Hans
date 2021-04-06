@@ -5,14 +5,14 @@ solution: Experience Manager
 title: 自定义Interactive Image Viewer
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
+exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
 
 ---
-
 
 # 自定义Interactive Image Viewer{#customizing-interactive-image-viewer}
 
