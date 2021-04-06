@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360播放器
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
+exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
 
 ---
-
 
 # Video360播放器{#video-player}
 
@@ -102,4 +102,3 @@ background-color: transparent;
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
