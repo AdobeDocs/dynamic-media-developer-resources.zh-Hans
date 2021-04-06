@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setLocalizedText
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
+exl-id: b0434886-defa-47d4-9853-bfd73c64d036
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 2%
 
 ---
-
 
 # setLocalizedTexts{#setlocalizedtexts}
 
@@ -41,4 +41,3 @@ Video360查看器的JavaScript API参考。
 ```
 <instance>.setLocalizedTexts({"en":{"Video360Player.ERROR":"Your Browser does not support HTML5 Video tag or the video cannot be played."},"fr":{"Video360Player.ERROR":"Votre navigateur ne prend pas en charge la vidéo HTML5 tag ou la vidéo ne peuvent pas être lus."},defaultLocale:"en"})
 ```
-
