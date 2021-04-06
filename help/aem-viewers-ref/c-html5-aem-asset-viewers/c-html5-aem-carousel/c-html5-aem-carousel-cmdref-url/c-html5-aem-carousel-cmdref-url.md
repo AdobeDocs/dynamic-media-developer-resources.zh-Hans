@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 命令参考 — URL
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
+exl-id: 2a98a6e9-7636-4ed5-8bb2-23389713a1aa
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 0%
 
 ---
 
-
 # 命令引用 — URL{#command-reference-url}
 
 旋转式查看器的命令参考文档。
-
