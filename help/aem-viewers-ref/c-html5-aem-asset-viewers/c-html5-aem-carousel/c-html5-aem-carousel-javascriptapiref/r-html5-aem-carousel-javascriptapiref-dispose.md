@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 处置
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
+exl-id: 64e9f83f-e17e-4544-825a-fd458e15fdb5
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
 
 ---
-
 
 # dispose{#dispose}
 
@@ -40,4 +40,3 @@ Carousel Viewer的JavaScript API参考。
 ```
 <instance>.dispose()
 ```
-
