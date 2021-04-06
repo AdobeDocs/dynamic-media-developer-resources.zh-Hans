@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 支持分析跟踪
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，业务从业者，数据工程师，数据架构师
+exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
 
 ---
-
 
 # 支持分析跟踪{#support-for-analytics-tracking}
 
@@ -63,4 +63,3 @@ var interactiveImage = new s7viewers.InteractiveImage({
   </tr> 
  </tbody> 
 </table>
-
