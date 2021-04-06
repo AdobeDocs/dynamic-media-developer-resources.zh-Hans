@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
+exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 4%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -41,4 +41,3 @@ Video360查看器的JavaScript API参考。
 ```
 <instance>.setAsset("Viewers/space_station_360-AVS")
 ```
-
