@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 支持Adobe Analytics跟踪
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，业务从业者，数据工程师，数据架构师
+exl-id: 9e321684-4861-4d81-b55c-66c77635930e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 1%
 
 ---
-
 
 # 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
 
@@ -67,4 +67,3 @@ var carouselViewer = new s7viewers.CarouselViewer({
   </tr> 
  </tbody> 
 </table>
-
