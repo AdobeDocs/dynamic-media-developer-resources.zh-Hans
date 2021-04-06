@@ -5,13 +5,12 @@ title: 字符串常量新建和修改
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 2%
 
 ---
-
 
 # 字符串常量：新建和已修改{#string-constants-new-and-modified}
 
@@ -31,4 +30,3 @@ ht-degree: 2%
 <!--
 Note: Can't tell from original docs if these are new or changes. Calling 'em new by default.
 -->
-
