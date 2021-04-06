@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 本地化用户界面元素
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
+exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # 本地化用户界面元素{#localization-of-user-interface-elements}
 
@@ -79,4 +79,3 @@ defaultLocale:"en"
   </tr> 
  </tbody> 
 </table>
-
