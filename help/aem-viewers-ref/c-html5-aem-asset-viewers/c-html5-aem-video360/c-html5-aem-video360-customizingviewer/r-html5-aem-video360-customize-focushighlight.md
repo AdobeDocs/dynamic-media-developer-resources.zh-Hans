@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 焦点突出显示
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: 开发人员，商业从业者
+exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
 
 ---
-
 
 # 焦点高亮{#focus-highlight}
 
@@ -49,4 +49,3 @@ ht-degree: 1%
  outline: none; 
 }
 ```
-
