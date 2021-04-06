@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 交互式视频
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: 开发人员，商业从业者
+exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '2234'
 ht-degree: 0%
 
 ---
-
 
 # 交互式视频{#interactive-video}
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可能会使用分配给它的`display:none`样式将其隐藏。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素返回到布局时为止。 此时，查看器加载会自动恢复。
 
-   以下是创建查看器实例的示例，将最少的必要配置选项传递给构造函数并调用`init()`方法。 该示例假定：
+   以下是创建查看器实例的示例，将最小必要的配置选项传递给构造函数并调用`init()`方法。 该示例假定：
 
    * 查看器实例为`interactiveVideoViewer`。
    * 占位符`DIV`的名称为`s7viewer`。
@@ -387,4 +387,3 @@ interactiveVideoViewer.init();
 </body> 
 </html>
 ```
-
