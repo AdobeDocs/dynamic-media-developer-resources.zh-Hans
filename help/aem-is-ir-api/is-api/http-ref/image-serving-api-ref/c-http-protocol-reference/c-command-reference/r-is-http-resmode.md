@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，商业从业者
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 12%
+source-wordcount: '271'
+ht-degree: 2%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,15 +23,15 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比林  </span> </p> </td> 
-   <td colname="col2"> <p>选择标准双线性插值。 最快的重新取样方法；某些锯齿伪影会相当明显。 </p> </td> 
+   <td colname="col2"> <p>选择标准双线性插值。 最快的重新取样方法；会出现一些锯齿伪像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比库  </span> </p> </td> 
-   <td colname="col2"> <p>选择双三次插值。 与双线性插值相比，CPU占用更多，但会生成较锐利的图像，出现的锯齿伪像较少。 </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 与双线性插值相比，CPU占用更多，但生成的图像更锐利，出现的锯齿伪像较少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>选择一个修改的Lanczos窗口函数作为插值算法。 相对于双三次插值法，产生的结果可能是锐度更高，但 CPU 占用更多。<span class="codeph"> sharp已 </span> 被sharp2所替 <span class="codeph"> 换， </span>它导致锯齿伪像(Moiré)的可能性较小。 </p> </td> 
+   <td colname="col2"> <p>选择一个修改的Lanczos窗口函数作为插值算法。 可以生成比两次立方更锐利的结果，并且CPU成本更高。 <span class="codeph"> sharp已 </span> 被sharp2所替 <span class="codeph"> 换， </span>它导致锯齿伪像(Moiré)的可能性较小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比沙尔  </span> </p> </td> 
@@ -39,6 +39,12 @@ ht-degree: 12%
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>要在同时使用`resMode=bisharp`和`fit=stretch`时保持图像的宽高比，最好使用width参数或height参数。 如果必须定义这两个参数，则可以将它们绕排到不同的图层，如下例所示：
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## 属性 {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ ht-degree: 12%
 
 ## 示例 {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-检索存储在图像目录中的分层图像的最佳质量再现。 图像可能包含文本。 我们期望在图像编辑应用程序中进行进一步处理，从而请求对图像进行Alpha渠道。
+检索存储在图像目录中的分层图像的最佳质量再现。 图像可以包含文本。 该图像将在图像编辑应用中进一步处理，并因此请求与该图像的alpha渠道。
 
 ` http:// *`伺服器`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
