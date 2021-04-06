@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 处置
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: 开发人员，商业从业者
+exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
 
 ---
-
 
 # dispose{#dispose}
 
@@ -40,4 +40,3 @@ ht-degree: 2%
 ```
 <instance>.dispose()
 ```
-
