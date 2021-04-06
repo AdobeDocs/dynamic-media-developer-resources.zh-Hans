@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 新增和更改
 feature: Dynamic Media Classic，SDK/API
 role: 开发人员，管理员
+exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 2%
 
 ---
-
 
 # 新增和更改{#new-additions-and-changes}
 
@@ -169,7 +169,7 @@ IPS公司设置`CompanySettings`可移植到Web服务API。
 
 已将`gzipResponse`标志添加到`authHeader`。 如果不存在，API还将检查HTTP `Accept-Encoding`头。
 
-为强类型元数据字段条件的searchAssets添加了支持。
+为强类型化元数据字段条件的searchAssets添加了支持。
 
 * 对于所有字段类型，值可以用字符串比较运算符(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)传递
 * 对于布尔字段，`boolVal`可以与`Equals` op一起传递。
@@ -363,4 +363,3 @@ IPS公司设置`CompanySettings`可移植到Web服务API。
   </tr> 
  </tbody> 
 </table>
-
