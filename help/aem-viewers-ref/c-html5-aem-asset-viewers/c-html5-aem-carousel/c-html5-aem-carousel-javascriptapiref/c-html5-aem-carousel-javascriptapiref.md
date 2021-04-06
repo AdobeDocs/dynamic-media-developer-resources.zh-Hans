@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Carousel Viewer的JavaScript API参考
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: 开发人员，商业从业者
+exl-id: 58e01a97-0761-4569-8a2e-77b17a55521d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # Carousel Viewer{#javascript-api-reference-for-carousel-viewer}的JavaScript API参考
 
