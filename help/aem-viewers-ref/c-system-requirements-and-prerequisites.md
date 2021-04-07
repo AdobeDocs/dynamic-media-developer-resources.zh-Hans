@@ -7,7 +7,7 @@ feature: Dynamic Media Classic，查看器，SDK/API
 role: 开发人员，商业从业者
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -73,23 +73,24 @@ Dynamic Media HTML5查看器的系统要求。
 
 >[!NOTE]
 >
->自2018年9月30日起，Adobe Dynamic Media Classic Viewers将停止对传输层安全性1.0(TLS 1.0)的支持。 因此，Dynamic Media Classic不再支持以下浏览器/平台上支持TLS 1.0的查看器。 (Adobe建议使用TLS 1.2或更高版本。)
+>自2018年9月30日起，Adobe Dynamic Media Classic Viewers将停止对传输层安全性1.0(TLS 1.0)的支持。 因此，Dynamic Media Classic不再支持以下浏览器/平台上支持TLS 1.0的查看器(Adobe建议使用TLS 1.2或更高版本):
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Window Vista®上的Internet Explorer 7
+> * Windows® XP上的Internet Explorer 8
+> * Windows® 7上的Internet Explorer 8-10
+> * Windows® Phone 8.0上的Internet Explorer 10
+> * Apple OS X 10.6.8上的Safari 5.1.9
+> * Apple OS X 10.8.4上的Safari 6.0.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * 百度2015年1月
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Window Vista®上的Internet Explorer 7
-* Windows® XP上的Internet Explorer 8
-* Windows® 7上的Internet Explorer 8-10
-* Windows® Phone 8.0上的Internet Explorer 10
-* Apple OS X 10.6.8上的Safari 5.1.9
-* Apple OS X 10.8.4上的Safari 6.0.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* 百度2015年1月
 
 >[!NOTE]
 >
