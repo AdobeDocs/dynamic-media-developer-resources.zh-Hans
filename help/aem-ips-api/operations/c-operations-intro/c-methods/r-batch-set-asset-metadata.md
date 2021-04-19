@@ -2,14 +2,14 @@
 description: 使用批处理模式设置资产元数据。
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic，SDK/API，Metadata.Asset Management
-role: 开发人员，管理员
+feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 12%
+source-wordcount: '153'
+ht-degree: 13%
 
 ---
 
