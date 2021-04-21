@@ -2,8 +2,8 @@
 description: 设置与资产图像关联的缩放目标。 它会覆盖现有缩放目标。
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

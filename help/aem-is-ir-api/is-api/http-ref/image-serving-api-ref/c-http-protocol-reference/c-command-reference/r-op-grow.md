@@ -2,8 +2,8 @@
 description: 膨胀/侵蚀图像。 对图像数据应用形态膨胀（半径> 0）或腐蚀（半径< 0）。
 solution: Experience Manager
 title: op_grow
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

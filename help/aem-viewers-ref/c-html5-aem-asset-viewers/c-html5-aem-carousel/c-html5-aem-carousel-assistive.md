@@ -2,7 +2,7 @@
 description: 所有查看器组件都支持ARIA（可访问的富Internet应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
 solution: Experience Manager
 title: 辅助技术支持
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅，辅助功能
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners,Accessibility
 role: Developer,Business Practitioner
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
 translation-type: tm+mt

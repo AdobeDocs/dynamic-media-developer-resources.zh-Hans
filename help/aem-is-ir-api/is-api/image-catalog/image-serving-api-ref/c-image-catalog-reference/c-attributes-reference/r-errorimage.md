@@ -2,8 +2,8 @@
 description: 错误响应图像。 图像服务通常在出错时返回带有文本消息的错误状态。
 solution: Experience Manager
 title: ErrorImage
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

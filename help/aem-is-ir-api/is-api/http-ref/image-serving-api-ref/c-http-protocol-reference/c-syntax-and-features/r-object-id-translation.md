@@ -2,8 +2,8 @@
 description: 图像服务提供了一种将外部对象ID转换为特定于区域设置的对象（目录）ID的机制。 主应用程序用于提供在多个区域之间共享的区域设置特定内容和内容，而客户端应用程序无需了解区域设置特定的对象ID。
 solution: Experience Manager
 title: 对象ID转换
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

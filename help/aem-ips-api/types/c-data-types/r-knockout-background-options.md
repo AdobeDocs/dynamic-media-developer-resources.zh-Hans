@@ -2,8 +2,8 @@
 description: 对所选图像的背景进行蒙版（挖空）。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 默认为关闭的可选参数。
 solution: Experience Manager
 title: 挖空背景选项
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

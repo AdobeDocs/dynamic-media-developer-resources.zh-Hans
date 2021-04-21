@@ -2,8 +2,8 @@
 description: 水印选择器。 指定要用作水印图像或模板的目录记录的目录ID。
 solution: Experience Manager
 title: 水印
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

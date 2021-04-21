@@ -2,8 +2,8 @@
 description: RTF规范允许使用&bsol;colortbl指定的RGB颜色值。 每个组件分别提供&bsol;red、&bsol;green和&bsol;blue命令。
 solution: Experience Manager
 title: 颜色处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 本节中的设置适用于通过req=set修饰符获取的媒体集响应。
 solution: Experience Manager
 title: 媒体集响应
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 在Linux上升级Dynamic Media图像服务时，请使用此过程。
 solution: Experience Manager
 title: 从IS 4.7.4或更高版本进行更新
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 透视变换。 对图层源图像应用透视变换以填充四边形指定的区域。 图层的其他区域保持透明。
 solution: Experience Manager
 title: 透视
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

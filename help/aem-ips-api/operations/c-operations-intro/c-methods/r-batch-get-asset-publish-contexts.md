@@ -2,8 +2,8 @@
 description: 返回标记为发布的资产的发布上下文。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

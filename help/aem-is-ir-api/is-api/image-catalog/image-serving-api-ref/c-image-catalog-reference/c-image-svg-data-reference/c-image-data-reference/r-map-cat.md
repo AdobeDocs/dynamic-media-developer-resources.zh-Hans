@@ -2,8 +2,8 @@
 description: 图像映射数据。 没有或更完整的HTML <AREA>元素，从前到后排序。
 solution: Experience Manager
 title: 地图
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

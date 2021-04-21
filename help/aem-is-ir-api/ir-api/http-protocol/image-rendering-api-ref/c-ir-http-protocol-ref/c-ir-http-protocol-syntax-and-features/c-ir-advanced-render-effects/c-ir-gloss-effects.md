@@ -2,8 +2,8 @@
 description: 如果在暗角中启用，则渲染器将改变照明算法以模拟材料光泽度的变化（主要通过控制对比度）。
 solution: Experience Manager
 title: 光泽效果
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

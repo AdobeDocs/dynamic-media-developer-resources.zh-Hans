@@ -2,8 +2,8 @@
 description: 旋转查看器的JavaScript API参考。
 solution: Experience Manager
 title: setLocalizedText
-feature: Dynamic Media Classic，查看器，SDK/API，旋转集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

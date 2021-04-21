@@ -2,8 +2,8 @@
 description: 黑点补偿。 指定在未使用icc=进行显式选择时，是否应对颜色转换应用黑点补偿。
 solution: Experience Manager
 title: IccBlackPointCompensation
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

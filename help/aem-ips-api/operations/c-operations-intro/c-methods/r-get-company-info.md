@@ -2,8 +2,8 @@
 description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 必须指定要检索其信息的companyHandle或companyName。
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

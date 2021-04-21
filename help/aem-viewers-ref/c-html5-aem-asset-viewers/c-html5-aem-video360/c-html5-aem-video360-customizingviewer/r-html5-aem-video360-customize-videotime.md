@@ -2,8 +2,8 @@
 description: 视频时间是显示当前播放的视频的当前时间和持续时间的数字显示。
 solution: Experience Manager
 title: 视频时间
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

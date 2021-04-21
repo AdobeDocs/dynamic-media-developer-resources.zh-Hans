@@ -2,8 +2,8 @@
 description: 字符串转换映射。 引用可映射到任意数量internalLocId的locId。
 solution: Experience Manager
 title: LocaleStrMap
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

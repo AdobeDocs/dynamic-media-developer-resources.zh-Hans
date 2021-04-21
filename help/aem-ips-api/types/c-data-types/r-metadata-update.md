@@ -2,8 +2,8 @@
 description: 为与setAssetMetadata一起使用的特定资产设置元数据值。 描述您要对元数据所做的更改。
 solution: Experience Manager
 title: 元数据更新
-feature: Dynamic Media Classic，SDK/API，元数据
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

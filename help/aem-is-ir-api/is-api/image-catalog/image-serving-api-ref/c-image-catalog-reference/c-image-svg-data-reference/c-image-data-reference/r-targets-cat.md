@@ -2,8 +2,8 @@
 description: 缩放目标数据。 无或更多缩放目标属性，可与缩放查看器客户端一起使用。
 solution: Experience Manager
 title: 目标
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 配置属性直接定义为响应式图像库管理的IMG元素上的属性。 每个图像都可以有其自己的一组属性。
 solution: Experience Manager
 title: 命令参考 — 配置属性
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

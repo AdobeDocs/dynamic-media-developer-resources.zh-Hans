@@ -2,8 +2,8 @@
 description: 某些应用可能需要针对不同种类的材料制作不同的照明图。
 solution: Experience Manager
 title: 使用多个照明图
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

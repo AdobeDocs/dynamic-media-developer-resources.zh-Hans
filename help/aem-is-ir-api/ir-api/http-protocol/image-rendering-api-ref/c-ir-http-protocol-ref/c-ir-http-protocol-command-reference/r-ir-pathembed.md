@@ -2,8 +2,8 @@
 description: 嵌入路径数据。 指定是否应将嵌入晕影中的Photoshop路径包含在响应图像中。
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

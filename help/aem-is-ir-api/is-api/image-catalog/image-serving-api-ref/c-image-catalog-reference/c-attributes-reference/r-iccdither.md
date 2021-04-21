@@ -2,8 +2,8 @@
 description: 颜色转换仿色。 指定在未使用icc=进行显式选择时，是否应使用仿色来提高颜色转换的感知质量。
 solution: Experience Manager
 title: IccDither
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

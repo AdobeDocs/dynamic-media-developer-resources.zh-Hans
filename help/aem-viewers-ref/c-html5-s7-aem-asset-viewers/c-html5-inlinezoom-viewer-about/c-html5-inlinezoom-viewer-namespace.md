@@ -2,8 +2,8 @@
 description: 查看器SDK命名空间
 solution: Experience Manager
 title: 查看器SDK命名空间
-feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

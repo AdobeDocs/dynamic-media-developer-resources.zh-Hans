@@ -2,8 +2,8 @@
 description: 通过CSS类选择器控制焦点查看器UI元素周围显示的输入焦点高亮。
 solution: Experience Manager
 title: 焦点突出显示
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

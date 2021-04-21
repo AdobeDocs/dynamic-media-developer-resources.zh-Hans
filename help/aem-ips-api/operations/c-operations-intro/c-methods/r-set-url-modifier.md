@@ -2,8 +2,8 @@
 description: 为指定的资产设置图像服务或图像渲染协议命令。 这些命令可修改资源的表示形式，而不会破坏它。
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

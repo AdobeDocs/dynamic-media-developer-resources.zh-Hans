@@ -2,8 +2,8 @@
 description: playlog实用程序可用于预生成HTTP响应缓存的内容。
 solution: Experience Manager
 title: “playlog”实用程序
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

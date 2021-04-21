@@ -2,8 +2,8 @@
 description: 遮罩文件路径。 与此目录记录关联的蒙版图像文件的相对或绝对路径和名称。
 solution: Experience Manager
 title: 蒙版路径
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

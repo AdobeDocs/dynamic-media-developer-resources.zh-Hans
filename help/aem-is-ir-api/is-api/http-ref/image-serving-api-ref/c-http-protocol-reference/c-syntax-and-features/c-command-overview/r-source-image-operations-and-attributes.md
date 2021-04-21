@@ -2,8 +2,8 @@
 description: 这些命令适用于在简单请求中或图像图层中使用的源图像，以及附加到纯色图层的蒙版。
 solution: Experience Manager
 title: 源图像操作
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: “图像服务”允许将任意数量的图像、文本和纯色图层组合到复合图像中。
 solution: Experience Manager
 title: 分层概述
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

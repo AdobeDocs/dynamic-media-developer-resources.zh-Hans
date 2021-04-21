@@ -2,8 +2,8 @@
 description: 包含有关批处理资产操作期间生成的警告或错误条件的信息。 代码字段和原因字段对应于为对等非批处理操作引发的故障消息字段。
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

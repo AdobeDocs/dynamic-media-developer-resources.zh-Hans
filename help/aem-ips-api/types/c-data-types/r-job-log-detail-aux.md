@@ -2,8 +2,8 @@
 description: 包含与主作业日志消息(JobDetail)关联的补充消息。 包括警告以及与当前处理的资产关联的其他详细信息。
 solution: Experience Manager
 title: JobLogDetailAux
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

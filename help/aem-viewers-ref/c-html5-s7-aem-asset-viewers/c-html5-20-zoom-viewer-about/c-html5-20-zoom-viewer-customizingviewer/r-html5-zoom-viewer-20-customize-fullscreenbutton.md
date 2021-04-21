@@ -2,8 +2,8 @@
 description: 使查看器在用户单击时进入或退出全屏模式。 如果查看器在弹出模式下工作，且系统不支持本机全屏，则不显示此按钮。 您可以使用CSS调整此按钮的大小、外观和位置。
 solution: Experience Manager
 title: 全屏按钮
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Video Viewer的JavaScript API参考
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic，查看器，SDK/API，视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

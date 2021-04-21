@@ -2,8 +2,8 @@
 description: 除非将请求标记为不可缓存，否则平台服务器会将所有回复图像和特定文本数据缓存到磁盘。
 solution: Experience Manager
 title: 响应数据缓存
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

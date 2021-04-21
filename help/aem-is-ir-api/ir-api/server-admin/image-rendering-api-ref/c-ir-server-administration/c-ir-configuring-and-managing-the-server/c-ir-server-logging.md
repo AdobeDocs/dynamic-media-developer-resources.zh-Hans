@@ -2,8 +2,8 @@
 description: 图像渲染会向图像服务日志机制发送日志消息。
 solution: Experience Manager
 title: 服务器日志
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

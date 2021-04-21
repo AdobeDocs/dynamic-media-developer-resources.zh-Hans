@@ -2,8 +2,8 @@
 description: 用于缩放图像的“图像服务”命令字符串。
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

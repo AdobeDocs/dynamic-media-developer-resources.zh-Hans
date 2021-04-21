@@ -2,8 +2,8 @@
 description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为对请求授权的凭据。 否则，操作将获取有关默认用户的信息。
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

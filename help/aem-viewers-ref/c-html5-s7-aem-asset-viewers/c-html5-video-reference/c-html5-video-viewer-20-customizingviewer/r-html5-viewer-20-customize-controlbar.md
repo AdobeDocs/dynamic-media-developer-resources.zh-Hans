@@ -2,8 +2,8 @@
 description: 控制栏是一个矩形区域，它包含并位于可用于视频查看器的所有UI控件（如播放/暂停按钮、音量控件等）的后面。
 solution: Experience Manager
 title: 控制栏
-feature: Dynamic Media Classic，查看器，SDK/API，视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 文件柜材料指定文件柜样式文件（.vnc文件扩展名）、包含文件柜照片表示形式以及参数布局定义和渲染文件柜前面所需的其他信息的特殊数据文件。
 solution: Experience Manager
 title: CAB
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

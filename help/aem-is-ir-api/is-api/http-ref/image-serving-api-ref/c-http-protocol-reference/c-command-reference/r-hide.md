@@ -2,8 +2,8 @@
 description: 隐藏图层。 允许隐藏图层，但不从请求字符串中删除它。
 solution: Experience Manager
 title: 隐藏
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

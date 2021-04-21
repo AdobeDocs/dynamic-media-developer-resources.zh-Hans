@@ -2,8 +2,8 @@
 description: 材料目录文件夹的位置（必须在其中找到所有catalog.ini文件）。
 solution: Experience Manager
 title: Catalog文件夹(ir.catalogRootPath)
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 图像蒙版的使用。 指定图像的蒙版或Alpha渠道用于图像操作的方式（例如，colorize=）。 当在效果图层中指定时，它允许将效果应用于父图层的背景区域或整个父图层矩形。
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

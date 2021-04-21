@@ -2,8 +2,8 @@
 description: Jpeg大小（以千字节为单位）。 指定JPEG响应的最大大小（以千字节为单位）。
 solution: Experience Manager
 title: jpegSize
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

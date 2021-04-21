@@ -2,8 +2,8 @@
 description: 目录标识符。 用于在请求的图像对象说明符中标识此目录的HTTP路径元素。
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

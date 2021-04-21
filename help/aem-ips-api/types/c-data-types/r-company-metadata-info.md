@@ -2,8 +2,8 @@
 description: 保存有关公司元数据对象（如ID、名称和类型）的信息。
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic，SDK/API，元数据
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

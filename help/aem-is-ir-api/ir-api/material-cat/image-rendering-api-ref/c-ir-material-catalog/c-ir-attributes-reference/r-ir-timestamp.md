@@ -2,8 +2,8 @@
 description: 默认修改时间戳。 提供目录TimeStamp和晕影TimeStamp的默认值。 如果未指定，服务器将使用此catalog.ini文件的修改日期/时间。
 solution: Experience Manager
 title: 时间戳
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

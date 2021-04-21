@@ -2,8 +2,8 @@
 description: 可用的区域设置特定版本。 返回列表在请求路径中指定的目录ID的可用区域设置特定版本。
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

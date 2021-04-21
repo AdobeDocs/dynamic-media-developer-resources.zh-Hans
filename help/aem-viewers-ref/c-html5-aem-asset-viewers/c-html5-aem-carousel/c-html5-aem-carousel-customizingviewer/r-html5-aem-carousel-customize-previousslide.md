@@ -2,8 +2,8 @@
 description: 单击或点按此按钮将用户返回到旋转集中的上一张幻灯片。 此按钮不显示在触控设备上。 您可以使用CSS调整此按钮的大小、外观和位置。
 solution: Experience Manager
 title: 上一张幻灯片
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

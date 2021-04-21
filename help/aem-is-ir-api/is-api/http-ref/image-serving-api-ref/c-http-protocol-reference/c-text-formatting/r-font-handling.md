@@ -2,8 +2,8 @@
 description: RTF字符串中引用的所有字体必须在默认目录或当前图像目录的字体映射文件中可用，否则将返回错误。
 solution: Experience Manager
 title: 字体处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

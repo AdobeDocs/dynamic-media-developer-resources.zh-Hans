@@ -2,8 +2,8 @@
 description: 服务器可以配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
 solution: Experience Manager
 title: 服务器监控
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

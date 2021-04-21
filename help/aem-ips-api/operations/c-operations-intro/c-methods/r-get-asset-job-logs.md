@@ -2,8 +2,8 @@
 description: 获取资产的作业日志。 数组中返回的项目包含有关该资产作业日志中每个条目的详细信息。 logMessage响应字段将根据authHeader字段进行本地化。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

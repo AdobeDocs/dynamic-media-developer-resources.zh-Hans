@@ -2,8 +2,8 @@
 description: 将资产上传到Dynamic Media Classic涉及一个或多个HTTPPOST请求，这些请求设置一个作业以协调与已上载文件关联的所有日志活动。
 solution: Experience Manager
 title: 通过HTTP POST将资产上传到UploadFile Servlet
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

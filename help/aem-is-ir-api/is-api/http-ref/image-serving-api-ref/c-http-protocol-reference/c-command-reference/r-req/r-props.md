@@ -2,8 +2,8 @@
 description: 响应数据属性。 评估当前请求，就像它是图像请求(req=img)一样，但服务器不会返回图像，而是返回回复图像的选定属性。
 solution: Experience Manager
 title: prop
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 solution: Experience Manager
 title: catalogprops
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 图像渲染支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
 solution: Experience Manager
 title: 图像渲染色彩管理*
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

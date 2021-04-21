@@ -2,8 +2,8 @@
 description: 当服务器检测到主目录属性文件已更改时，它会持续监视目录文件夹并自动重新加载图像目录，包括关联的目录数据文件。
 solution: Experience Manager
 title: 更新图像目录
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

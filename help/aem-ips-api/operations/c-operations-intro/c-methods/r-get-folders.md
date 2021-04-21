@@ -2,8 +2,8 @@
 description: 返回所有文件夹和子文件夹，从文件夹路径开始。 getFolders响应最多返回100,000个文件夹。
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

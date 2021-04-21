@@ -2,8 +2,8 @@
 description: 文本渲染方向。 指定用textPs=指定的文本排列并呈现到文本框（用size=或textFlowPath=定义）的角度。
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

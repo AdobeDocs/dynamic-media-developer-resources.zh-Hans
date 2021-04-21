@@ -2,8 +2,8 @@
 description: 通过将图层来源(来源=)与背景图层来源对齐在pos=指定的偏移处来定位图层。
 solution: Experience Manager
 title: 图层放置
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

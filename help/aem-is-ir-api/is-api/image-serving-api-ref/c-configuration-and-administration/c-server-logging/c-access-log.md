@@ -2,8 +2,8 @@
 description: 这是主日志，用于跟踪向平台服务器发出的所有HTTP请求。 图像渲染（如果启用）会将其访问日志数据写入同一文件。
 solution: Experience Manager
 title: 访问日志
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 交互式视频查看器的JavaScript API参考。
 solution: Experience Manager
 title: 处置
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

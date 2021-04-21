@@ -2,8 +2,8 @@
 description: 常规表达式图案元素。 在<rule>元素中为可选。
 solution: Experience Manager
 title: 表达式
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

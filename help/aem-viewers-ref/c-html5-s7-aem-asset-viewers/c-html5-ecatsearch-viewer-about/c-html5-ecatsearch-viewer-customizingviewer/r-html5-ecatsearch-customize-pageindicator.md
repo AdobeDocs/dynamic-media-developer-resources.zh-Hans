@@ -2,8 +2,8 @@
 description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
 solution: Experience Manager
 title: 页面指示器
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 查看器在主视图上显示热点图标，这些位置是在AEM Assets的Dynamic Media中最初创作的热点 — 点播。
 solution: Experience Manager
 title: 热点
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 缩览图的水平对齐。 指定由wid=和hei=或属性DefaultThumbPix指定的回复图像矩形中缩览图图像的水平对齐方式。
 solution: Experience Manager
 title: 缩略图对齐
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

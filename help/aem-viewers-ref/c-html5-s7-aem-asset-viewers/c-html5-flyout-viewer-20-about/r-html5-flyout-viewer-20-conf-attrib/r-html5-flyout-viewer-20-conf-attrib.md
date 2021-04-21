@@ -2,8 +2,8 @@
 description: 弹出查看器的配置属性文档
 solution: Experience Manager
 title: 命令参考 — 配置属性
-feature: Dynamic Media Classic，查看器，SDK/API，弹出
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

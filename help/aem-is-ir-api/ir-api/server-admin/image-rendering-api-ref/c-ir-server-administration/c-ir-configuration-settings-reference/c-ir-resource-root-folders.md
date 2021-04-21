@@ -2,8 +2,8 @@
 description: 列表路径（用分号分隔）用作具有相对文件路径的所有数据文件的根。
 solution: Experience Manager
 title: 资源根文件夹(ir.resourceRootPaths)
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

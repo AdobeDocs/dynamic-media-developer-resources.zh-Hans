@@ -2,8 +2,8 @@
 description: 默认情况下，社交共享工具显示在右上角。 它包含一个按钮和一个面板，当用户单击或点按按钮时该面板将展开并包含各个共享工具。
 solution: Experience Manager
 title: 社交共享
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

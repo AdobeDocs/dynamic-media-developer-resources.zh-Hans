@@ -2,8 +2,8 @@
 description: 单击或点按“下一张”幻灯片按钮将用户移动到旋转集中的下一张幻灯片。
 solution: Experience Manager
 title: 下一张幻灯片
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

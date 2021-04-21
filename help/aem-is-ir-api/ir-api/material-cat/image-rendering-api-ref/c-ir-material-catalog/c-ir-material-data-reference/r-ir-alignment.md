@@ -2,8 +2,8 @@
 description: 纹理对齐。 当应用于彼此相关的晕影物体（例如家具的软垫部件）时，纹理的对齐。 主要用于室内装饰渲染应用，可能用于高级服装应用。
 solution: Experience Manager
 title: 对齐方式
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

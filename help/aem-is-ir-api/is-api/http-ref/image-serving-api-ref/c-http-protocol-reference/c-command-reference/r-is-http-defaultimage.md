@@ -2,8 +2,8 @@
 description: 默认回复图像。 指定在找不到图像时要使用的图像或目录条目。
 solution: Experience Manager
 title: defaultImage
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

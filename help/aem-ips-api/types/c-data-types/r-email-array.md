@@ -2,8 +2,8 @@
 description: 一个数组，用于指定发起者，或最多5个电子邮件地址的列表来接收确认通知。
 solution: Experience Manager
 title: EmailArray
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

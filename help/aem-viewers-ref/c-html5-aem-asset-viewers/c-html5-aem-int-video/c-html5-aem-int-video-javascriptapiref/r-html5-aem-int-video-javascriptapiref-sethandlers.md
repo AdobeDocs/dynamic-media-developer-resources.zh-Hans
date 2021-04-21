@@ -2,8 +2,8 @@
 description: 交互式视频查看器的JavaScript API参考
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ece8d2ba-30ef-4616-81a6-6028e5f3c66f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

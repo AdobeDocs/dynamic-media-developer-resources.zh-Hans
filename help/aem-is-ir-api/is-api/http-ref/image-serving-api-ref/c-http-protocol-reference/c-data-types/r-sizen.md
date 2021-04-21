@@ -2,8 +2,8 @@
 description: 标准化大小。 用于指定图像大小或矩形大小，与图层0或其他图像的大小进行标准化。
 solution: Experience Manager
 title: sizeN
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

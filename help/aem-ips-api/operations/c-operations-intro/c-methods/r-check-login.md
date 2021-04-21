@@ -2,8 +2,8 @@
 description: 检查具有特定公司（通过句柄标识）、电子邮件地址和密码的用户是否可以登录。
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

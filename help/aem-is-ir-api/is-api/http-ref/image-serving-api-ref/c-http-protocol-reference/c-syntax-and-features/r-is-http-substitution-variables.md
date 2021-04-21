@@ -2,8 +2,8 @@
 description: 替换变量用于将值从请求URL传输到图像目录中存储的合成模板。 变量还可用于向复杂请求中的不同位置传递相同的值。
 solution: Experience Manager
 title: 替换变量
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

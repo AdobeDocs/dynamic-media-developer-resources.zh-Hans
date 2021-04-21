@@ -2,8 +2,8 @@
 description: 默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译目的的区域设置ID。
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

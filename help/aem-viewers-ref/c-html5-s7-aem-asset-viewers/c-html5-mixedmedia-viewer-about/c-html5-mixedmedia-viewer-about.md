@@ -3,8 +3,8 @@ description: 混合媒体查看器是媒体查看器。 它支持包含图像、
 keywords: 响应
 solution: Experience Manager
 title: 混合媒体
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

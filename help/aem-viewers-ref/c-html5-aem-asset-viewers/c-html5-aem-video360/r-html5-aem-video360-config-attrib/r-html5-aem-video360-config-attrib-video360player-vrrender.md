@@ -2,8 +2,8 @@
 description: Video360查看器的配置属性。
 solution: Experience Manager
 title: Video360Player.vrrender
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

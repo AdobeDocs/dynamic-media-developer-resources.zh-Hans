@@ -2,8 +2,8 @@
 description: 根据mode参数的值，查看器在主视图上显示图像映射图标(在最初使用Dynamic Media Classic创作映射的位置)，或渲染与原始图像映射的形状匹配的精确区域。
 solution: Experience Manager
 title: 图像映射效果
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

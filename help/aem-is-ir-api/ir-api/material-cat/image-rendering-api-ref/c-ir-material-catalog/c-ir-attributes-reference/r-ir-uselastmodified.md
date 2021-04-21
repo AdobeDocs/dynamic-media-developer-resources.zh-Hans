@@ -2,8 +2,8 @@
 description: 启用上次修改的响应标头。 启用或禁用在图像渲染发出的可缓存HTTP响应中包含“上次修改时间”标头。
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 如果请求成功完成，并且请求中不包含req=命令，或req=img或req=tmb，则返回图像数据。
 solution: Experience Manager
 title: 图像
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

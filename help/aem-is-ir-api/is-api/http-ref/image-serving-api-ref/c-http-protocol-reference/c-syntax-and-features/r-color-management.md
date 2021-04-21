@@ -2,8 +2,8 @@
 description: 图像服务支持基于符合ICC（国际色彩联盟）规范的色彩空间用户档案的色彩空间转换。
 solution: Experience Manager
 title: 图像服务色彩管理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

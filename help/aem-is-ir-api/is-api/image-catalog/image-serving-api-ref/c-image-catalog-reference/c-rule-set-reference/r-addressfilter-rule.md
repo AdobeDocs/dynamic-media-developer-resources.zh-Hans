@@ -2,8 +2,8 @@
 description: 地址筛选器元素。 在<rule>和<pathrule>元素中为可选。
 solution: Experience Manager
 title: 地址筛选器
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

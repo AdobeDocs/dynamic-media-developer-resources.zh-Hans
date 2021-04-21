@@ -2,8 +2,8 @@
 description: 要使用图像服务，必须提供Dynamic Media图像服务许可证密钥，并且必须在要使用图像服务的每个系统上安装该许可证密钥。
 solution: Experience Manager
 title: 许可
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

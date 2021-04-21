@@ -2,8 +2,8 @@
 description: 要将响应式图像库添加到网页并使用该库管理现有图像，请完成以下步骤。
 solution: Experience Manager
 title: 使用响应式图像库
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

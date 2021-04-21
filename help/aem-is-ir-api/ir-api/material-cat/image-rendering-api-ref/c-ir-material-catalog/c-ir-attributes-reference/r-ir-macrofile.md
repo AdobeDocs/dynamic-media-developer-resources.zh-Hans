@@ -2,8 +2,8 @@
 description: 宏定义文件路径。 指定包含此材料目录的宏定义的文件。
 solution: Experience Manager
 title: MacroFile
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

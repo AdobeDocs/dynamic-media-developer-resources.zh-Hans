@@ -2,8 +2,8 @@
 description: 浏览器格式转换。 指定是打开还是关闭浏览器格式转换功能。
 solution: Experience Manager
 title: bfc
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

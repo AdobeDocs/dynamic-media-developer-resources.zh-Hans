@@ -2,8 +2,8 @@
 description: 源数据根路径。 文本字符串值。 此图像目录引用的所有晕影、纹理、图像和ICC数据文件的根文件夹的绝对路径或相对路径段。
 solution: Experience Manager
 title: 根路径*
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

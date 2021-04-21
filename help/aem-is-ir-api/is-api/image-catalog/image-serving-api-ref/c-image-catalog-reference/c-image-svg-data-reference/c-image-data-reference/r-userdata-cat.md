@@ -2,8 +2,8 @@
 description: 用户数据. 服务器响应req=userdata，将此字段的内容返回给客户端。
 solution: Experience Manager
 title: 用户数据
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

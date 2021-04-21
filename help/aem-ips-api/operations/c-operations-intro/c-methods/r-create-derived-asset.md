@@ -2,8 +2,8 @@
 description: 创建从现有主源图像资产派生的新资产。
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 图像锚点。 在应用变换(crop=、scale=、rotate=、flip=)之前，定义图像、纯色或文本定界框矩形的锚点。 还用作rotate=的旋转中心。
 solution: Experience Manager
 title: 锚记
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

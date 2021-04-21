@@ -2,8 +2,8 @@
 description: 主控件栏是桌面系统和平板电脑上的矩形区域，其中包含eCatalog查看器可用的所有用户界面控件（“大页”按钮除外）。
 solution: Experience Manager
 title: 主控制栏
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

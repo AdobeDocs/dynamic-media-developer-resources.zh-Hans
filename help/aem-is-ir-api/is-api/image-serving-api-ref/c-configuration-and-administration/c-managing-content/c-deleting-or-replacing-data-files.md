@@ -2,8 +2,8 @@
 description: 虽然添加新数据文件很简单，但替换服务器当前使用的现有数据文件时必须特别小心。 建议为替换文件指定新名称（例如，在文件名后面附加一个版本后缀），而不是简单地替换此类文件。 新文件生效后，可删除旧版本。
 solution: Experience Manager
 title: 删除或替换数据文件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

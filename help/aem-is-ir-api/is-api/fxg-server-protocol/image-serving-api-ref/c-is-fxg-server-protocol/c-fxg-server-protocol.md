@@ -2,8 +2,8 @@
 description: 要处理图形，您可以使用参考点（类似于罗经点）。
 solution: Experience Manager
 title: FXG服务器协议
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

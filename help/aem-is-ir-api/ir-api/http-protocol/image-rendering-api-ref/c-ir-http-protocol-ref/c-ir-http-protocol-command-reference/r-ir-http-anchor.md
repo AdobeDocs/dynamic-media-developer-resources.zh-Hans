@@ -2,8 +2,8 @@
 description: 图像锚点（热点）。 指定可重复纹理或贴花素材料的纹理锚点（热点）。
 solution: Experience Manager
 title: 锚记
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

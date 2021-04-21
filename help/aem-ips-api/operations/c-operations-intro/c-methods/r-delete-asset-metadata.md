@@ -2,8 +2,8 @@
 description: 删除资产的元数据值。 使用元数据删除的数组在批处理中设置值。
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

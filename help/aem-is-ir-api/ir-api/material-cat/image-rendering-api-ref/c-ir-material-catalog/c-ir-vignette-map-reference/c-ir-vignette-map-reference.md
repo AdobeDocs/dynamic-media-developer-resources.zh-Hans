@@ -2,8 +2,8 @@
 description: 如果材质目录需要晕影映射，则必须在属性VignetteMapFile中指定晕影映射文件的相对或绝对路径。
 solution: Experience Manager
 title: 晕影地图参考
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

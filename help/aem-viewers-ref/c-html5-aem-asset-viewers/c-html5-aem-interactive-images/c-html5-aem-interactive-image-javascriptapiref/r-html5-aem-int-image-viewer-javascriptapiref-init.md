@@ -2,8 +2,8 @@
 description: Interactive Image Viewer的JavaScript API参考。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

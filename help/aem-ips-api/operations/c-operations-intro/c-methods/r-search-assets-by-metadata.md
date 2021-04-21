@@ -2,8 +2,8 @@
 description: 搜索给定搜索词的元数据索引存储库。 返回资产数据，如searchAssets方法。
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

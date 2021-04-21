@@ -2,8 +2,8 @@
 description: 在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
 solution: Experience Manager
 title: 系统要求和先决条件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

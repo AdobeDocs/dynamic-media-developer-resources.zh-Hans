@@ -2,8 +2,8 @@
 description: 视图宽度。 指定回复图像(视图图像)的宽度。
 solution: Experience Manager
 title: wid
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

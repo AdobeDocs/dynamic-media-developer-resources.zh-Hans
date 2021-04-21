@@ -2,8 +2,8 @@
 description: 晕影标识符。 索引键值，服务器查找晕影地图文件中的记录。
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

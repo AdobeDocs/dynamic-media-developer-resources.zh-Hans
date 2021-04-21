@@ -2,8 +2,8 @@
 description: 嵌入XMP元数据。 指定是否应将XMP元数据包含在响应图像中。
 solution: Experience Manager
 title: xmpEmbed
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

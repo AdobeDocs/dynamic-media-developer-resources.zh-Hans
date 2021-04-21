@@ -2,8 +2,8 @@
 description: 分层文件或资源存储对象。 文件夹可以包含一个（或多个）子文件夹。
 solution: Experience Manager
 title: 文件夹
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

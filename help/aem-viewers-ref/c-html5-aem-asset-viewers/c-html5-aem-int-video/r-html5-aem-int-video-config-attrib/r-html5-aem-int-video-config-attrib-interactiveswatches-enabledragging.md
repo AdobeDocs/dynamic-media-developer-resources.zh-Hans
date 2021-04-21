@@ -2,8 +2,8 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: InteractiveSwatches.enabledragging
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

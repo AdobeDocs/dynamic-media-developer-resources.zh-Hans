@@ -2,8 +2,8 @@
 description: “图像渲染”对非金字塔暗角强制实施两百万像素大小限制。
 solution: Experience Manager
 title: 晕影大小限制
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

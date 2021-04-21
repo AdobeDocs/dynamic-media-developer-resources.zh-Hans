@@ -2,8 +2,8 @@
 description: 颜色转换渲染方法。 在未使用icc=指定渲染方法时，为颜色转换提供默认渲染方法。
 solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 通过将资源名称与公司的图像服务/图像渲染目录命名空间中的所有名称进行比较，检查IPS ID冲突。
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

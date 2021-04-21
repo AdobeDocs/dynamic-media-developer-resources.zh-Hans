@@ -2,8 +2,8 @@
 description: 安装后，install_root中的文件夹层次结构将包括以下列出的文件和文件夹。
 solution: Experience Manager
 title: 内容
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

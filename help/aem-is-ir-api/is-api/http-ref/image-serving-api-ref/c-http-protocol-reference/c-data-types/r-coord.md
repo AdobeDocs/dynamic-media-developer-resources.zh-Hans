@@ -2,8 +2,8 @@
 description: 像素坐标。 用于以相对于图像或图层矩形的左上角的像素偏移的形式指定图像坐标（如图像偏移或裁剪参数）。
 solution: Experience Manager
 title: coord
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

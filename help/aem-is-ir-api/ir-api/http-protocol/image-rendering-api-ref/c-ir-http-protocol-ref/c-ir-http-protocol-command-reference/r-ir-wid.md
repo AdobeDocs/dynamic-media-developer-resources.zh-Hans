@@ -2,8 +2,8 @@
 description: 回复图像宽度。 指定渲染后图像的缩放，以便回复图像不高于指定值，同时保持图像的长宽比。
 solution: Experience Manager
 title: wid
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

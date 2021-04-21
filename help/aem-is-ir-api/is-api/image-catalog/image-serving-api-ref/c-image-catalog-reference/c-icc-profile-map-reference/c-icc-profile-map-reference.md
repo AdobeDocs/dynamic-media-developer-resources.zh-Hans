@@ -2,8 +2,8 @@
 description: 如果图像目录需要ICC用户档案映射，则必须在属性IccProfileMapFile中指定用户档案映射文件的相对或绝对路径。
 solution: Experience Manager
 title: ICC用户档案映射参考
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

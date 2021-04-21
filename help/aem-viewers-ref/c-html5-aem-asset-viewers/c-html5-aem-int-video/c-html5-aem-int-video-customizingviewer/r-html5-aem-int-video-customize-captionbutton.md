@@ -2,8 +2,8 @@
 description: 此按钮可打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。
 solution: Experience Manager
 title: “题注”按钮
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

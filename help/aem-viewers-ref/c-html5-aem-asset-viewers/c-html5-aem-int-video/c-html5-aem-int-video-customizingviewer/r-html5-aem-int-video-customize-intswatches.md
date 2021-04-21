@@ -2,8 +2,8 @@
 description: 如果交互式数据以配置方式传递到查看器，则交互式色板面板将显示在视频内容旁边。 它由顶部的横幅组成，用于呈现文本，如“单击以视图”、一个或多个交互式色板的列以及两个滚动按钮（仅在桌面系统上可用）。
 solution: Experience Manager
 title: 交互式色板
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

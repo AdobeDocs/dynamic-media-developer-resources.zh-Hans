@@ -2,8 +2,8 @@
 description: 允许您裁剪到嵌入的命名路径的定界框。 此裁切反过来会更改图像的大小。
 solution: Experience Manager
 title: cropPathE
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

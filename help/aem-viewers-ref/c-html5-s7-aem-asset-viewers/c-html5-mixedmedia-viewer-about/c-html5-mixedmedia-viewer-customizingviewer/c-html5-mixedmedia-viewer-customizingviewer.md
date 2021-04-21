@@ -3,8 +3,8 @@ description: 混合媒体查看器的所有可视自定义和大多数行为自�
 keywords: 响应
 solution: Experience Manager
 title: 自定义混合媒体查看器
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

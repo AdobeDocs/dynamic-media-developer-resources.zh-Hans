@@ -2,8 +2,8 @@
 description: “图像服务”实用程序指南包含有关与Dynamic Media Image Server和图像渲染一起使用的实用程序的信息。
 solution: Experience Manager
 title: 图像服务实用程序
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

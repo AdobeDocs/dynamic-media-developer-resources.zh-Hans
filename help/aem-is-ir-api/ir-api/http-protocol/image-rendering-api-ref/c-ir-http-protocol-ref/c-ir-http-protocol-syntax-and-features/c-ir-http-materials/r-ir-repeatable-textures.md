@@ -2,8 +2,8 @@
 description: 可重复的纹理包括内部和外部材料，如织物（服装和室内装饰）、墙对墙地板覆盖物、墙纸、台面材料、木纹纹理、屋面和壁板材料，以及任何其他通用纹理。
 solution: Experience Manager
 title: 可重复的纹理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

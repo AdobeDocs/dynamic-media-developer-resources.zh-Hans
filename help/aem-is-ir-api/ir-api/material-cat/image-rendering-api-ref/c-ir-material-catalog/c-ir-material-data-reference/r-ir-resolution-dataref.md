@@ -2,8 +2,8 @@
 description: 分辨率. “真实世界”图像分辨率，通常以每英寸像素数表示，但也可能以其他单位表示，如每米像素数。
 solution: Experience Manager
 title: 分辨率
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

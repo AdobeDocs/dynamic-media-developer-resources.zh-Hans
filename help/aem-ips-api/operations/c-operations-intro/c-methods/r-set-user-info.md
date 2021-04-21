@@ -2,8 +2,8 @@
 description: 设置用户属性（例如名称、电子邮件、角色等）
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

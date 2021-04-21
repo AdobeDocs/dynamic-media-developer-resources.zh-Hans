@@ -2,8 +2,8 @@
 description: 从标记字段的字典中删除标记字段值。
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

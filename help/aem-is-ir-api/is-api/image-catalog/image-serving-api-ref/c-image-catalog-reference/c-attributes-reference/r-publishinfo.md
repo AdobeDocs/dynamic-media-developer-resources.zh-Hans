@@ -2,8 +2,8 @@
 description: 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

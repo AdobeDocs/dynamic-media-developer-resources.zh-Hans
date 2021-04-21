@@ -2,8 +2,8 @@
 description: 图像服务支持的命令按粗略类别分组如下。 有关使用和适用性的详细信息，请参阅特定命令说明。
 solution: Experience Manager
 title: 图像服务HTTP协议命令概述
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

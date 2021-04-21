@@ -2,8 +2,8 @@
 description: 属于图像集的资产。
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic，SDK/API，图像集
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

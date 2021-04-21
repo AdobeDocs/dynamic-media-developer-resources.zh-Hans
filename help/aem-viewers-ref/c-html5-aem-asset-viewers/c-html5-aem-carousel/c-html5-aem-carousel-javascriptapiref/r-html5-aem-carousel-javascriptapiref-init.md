@@ -2,8 +2,8 @@
 description: Carousel Viewer的JavaScript API参考。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

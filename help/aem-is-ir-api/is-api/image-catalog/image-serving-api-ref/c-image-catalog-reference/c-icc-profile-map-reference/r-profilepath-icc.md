@@ -2,8 +2,8 @@
 description: 用户档案文件路径。 ICC颜色用户档案文件的路径和名称，包括文件后缀。
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

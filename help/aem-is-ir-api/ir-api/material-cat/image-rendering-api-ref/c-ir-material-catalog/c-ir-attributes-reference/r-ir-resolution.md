@@ -2,8 +2,8 @@
 description: 默认分辨率。 提供默认分辨率，以防特定目录记录不包含有效的目录分辨率值。
 solution: Experience Manager
 title: 分辨率
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

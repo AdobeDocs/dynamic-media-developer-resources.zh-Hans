@@ -2,8 +2,8 @@
 description: 除了相对于图层0调整大小(size=)和定位(pos=)图层以及使用layer=命令指定合成顺序（z顺序）外，还可以旋转(rotate=)和翻转(flip=)图层。
 solution: Experience Manager
 title: 图层操作
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

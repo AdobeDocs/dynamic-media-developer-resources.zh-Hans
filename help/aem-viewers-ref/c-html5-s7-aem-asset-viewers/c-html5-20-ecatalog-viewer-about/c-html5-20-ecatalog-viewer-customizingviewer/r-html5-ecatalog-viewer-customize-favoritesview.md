@@ -2,8 +2,8 @@
 description: “收藏夹”视图包含一列缩略图图像。
 solution: Experience Manager
 title: 收藏夹视图
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 对应用于重叠对象以及贴花和窗口覆盖材料的纯色和可重复纹理支持可变不透明度。
 solution: Experience Manager
 title: 改变材料不透明度
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

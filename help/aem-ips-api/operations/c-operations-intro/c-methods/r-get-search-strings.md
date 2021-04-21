@@ -2,8 +2,8 @@
 description: 获取有关资产的搜索字符串、关键字和其他信息。 响应中包含有关资产的其他信息。
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

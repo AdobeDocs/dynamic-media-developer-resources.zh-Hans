@@ -2,8 +2,8 @@
 description: 指示查看器是否在播放开始之前开始加载视频内容。
 solution: Experience Manager
 title: VideoPlayer.preload
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: afabbfde-e003-4fee-a4ef-0fc4c43fd960
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

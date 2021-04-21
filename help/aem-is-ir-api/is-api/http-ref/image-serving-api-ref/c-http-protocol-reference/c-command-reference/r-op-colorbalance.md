@@ -2,8 +2,8 @@
 description: 调整色彩平衡。 单独调整每个RGB颜色分量的值。
 solution: Experience Manager
 title: op_colorbalance
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

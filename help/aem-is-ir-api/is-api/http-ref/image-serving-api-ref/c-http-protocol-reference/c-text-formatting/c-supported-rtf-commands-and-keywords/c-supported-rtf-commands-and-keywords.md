@@ -2,8 +2,8 @@
 description: 以下是Scene 7图像服务文本引擎支持的关键字和命令的列表。
 solution: Experience Manager
 title: 支持的RTF命令和关键字
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

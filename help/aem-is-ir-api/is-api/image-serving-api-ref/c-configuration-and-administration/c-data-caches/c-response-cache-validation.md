@@ -2,8 +2,8 @@
 description: 使用属性CacheValidationPolicy（在default.ini中或特定图像目录的.ini文件中）选择的基于目录或基于过期的缓存验证自动刷新缓存条目。
 solution: Experience Manager
 title: 响应缓存验证
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

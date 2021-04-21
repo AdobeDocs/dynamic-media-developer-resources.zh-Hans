@@ -2,8 +2,8 @@
 description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

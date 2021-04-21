@@ -3,8 +3,8 @@ description: eCatalog Viewer是一个目录查看器，它以跨页或逐页的�
 keywords: 响应
 solution: Experience Manager
 title: eCatalog
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

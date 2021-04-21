@@ -2,8 +2,8 @@
 description: 可以将IS服务器配置为对涉及源映像的请求故障切换到替代服务器，这些源映像无法成功打开或读取。
 solution: Experience Manager
 title: 错误时重定向
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

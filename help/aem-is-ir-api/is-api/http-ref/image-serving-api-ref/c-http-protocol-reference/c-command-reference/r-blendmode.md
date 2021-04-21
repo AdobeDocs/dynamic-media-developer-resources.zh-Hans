@@ -2,8 +2,8 @@
 description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

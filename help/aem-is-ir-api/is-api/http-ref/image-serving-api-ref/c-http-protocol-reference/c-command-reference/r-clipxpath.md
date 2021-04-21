@@ -2,8 +2,8 @@
 description: 反转图层剪辑路径。 指定当前图层的排除剪辑路径。 图层中clipXPath=定义的区域内的任何部分都呈现为透明。
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

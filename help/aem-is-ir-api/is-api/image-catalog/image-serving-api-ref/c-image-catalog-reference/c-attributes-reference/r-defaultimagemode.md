@@ -2,8 +2,8 @@
 description: 默认图像模式。 选择在找不到请求中指定的图像时应用默认图像的方式。
 solution: Experience Manager
 title: DefaultImageMode
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

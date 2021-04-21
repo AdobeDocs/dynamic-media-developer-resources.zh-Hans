@@ -2,8 +2,8 @@
 description: 翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
 solution: Experience Manager
 title: 翻转
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

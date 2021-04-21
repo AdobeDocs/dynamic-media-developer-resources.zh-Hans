@@ -2,8 +2,8 @@
 description: 对高级文本格式设置使用以下命令。
 solution: Experience Manager
 title: 高级文本格式
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

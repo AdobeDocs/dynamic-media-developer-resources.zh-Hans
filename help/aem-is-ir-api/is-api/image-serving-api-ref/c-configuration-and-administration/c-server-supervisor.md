@@ -2,8 +2,8 @@
 description: 图像服务组件由服务器主管管理，服务器主管是Linux守护程序或Windows服务(S7Supervisor.exe，在“服务”控制面板中列为“Dynamic Media图像服务”)。
 solution: Experience Manager
 title: 服务器主管
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

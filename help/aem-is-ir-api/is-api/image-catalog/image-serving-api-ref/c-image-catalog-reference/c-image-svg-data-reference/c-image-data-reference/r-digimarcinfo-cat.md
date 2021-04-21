@@ -2,8 +2,8 @@
 description: Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何关联的图像特定数据。
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

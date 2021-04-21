@@ -2,8 +2,8 @@
 description: 默认字体名称。 指定如果文本=请求未提供字体，应使用哪种字体。
 solution: Experience Manager
 title: DefaultFont
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 材料颜色。 纯色材料的主色和着色纹理材料的附加色。
 solution: Experience Manager
 title: 颜色
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 场景坐标空间用于指定可纹理化对象曲面上的大小和距离。
 solution: Experience Manager
 title: 场景坐标
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

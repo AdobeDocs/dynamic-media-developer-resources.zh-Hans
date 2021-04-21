@@ -2,8 +2,8 @@
 description: 默认客户端缓存的活动时间。 提供默认的过期间隔，以防特定的目录记录不包含有效的目录过期值或晕影过期值，或者如果直接访问晕影文件或材料文件，而不是通过目录记录。
 solution: Experience Manager
 title: 過期
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

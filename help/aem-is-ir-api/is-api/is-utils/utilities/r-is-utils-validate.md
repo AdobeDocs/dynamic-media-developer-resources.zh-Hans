@@ -2,8 +2,8 @@
 description: 图像验证实用程序。 此命令行实用程序会验证图像文件，以确保它们有效，并且图像服务可以毫不费力地读取。
 solution: Experience Manager
 title: 确认
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 请求规则元素。 在<ruleset>元素中，一个或多个是可选的。
 solution: Experience Manager
 title: 规则
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 材料目录向服务器提供有关晕影、材料和支持数据(如ICC用户档案)的信息。
 solution: Experience Manager
 title: 材料目录概述*
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

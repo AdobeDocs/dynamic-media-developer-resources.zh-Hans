@@ -2,8 +2,8 @@
 description: 缩览图由缩览图图像网格组成，右侧带有可选滚动条，可进行垂直滚动。
 solution: Experience Manager
 title: 缩略图
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

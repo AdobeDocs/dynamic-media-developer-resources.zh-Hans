@@ -2,8 +2,8 @@
 description: 获取与图像门户相关的系统属性的字符串值。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

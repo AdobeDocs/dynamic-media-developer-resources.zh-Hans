@@ -2,8 +2,8 @@
 description: 通过应用标准base64编码，可以遮住请求字符串的整个修饰符部分的内容，包括可选的锁后缀。
 solution: Experience Manager
 title: 请求模糊处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

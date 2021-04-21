@@ -2,8 +2,8 @@
 description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
 solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

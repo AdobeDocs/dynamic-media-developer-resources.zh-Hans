@@ -2,8 +2,8 @@
 description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框或PDF预设InDesign中生成的文件。
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

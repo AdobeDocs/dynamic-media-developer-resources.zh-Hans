@@ -2,8 +2,8 @@
 description: 支持分析跟踪
 solution: Experience Manager
 title: 支持分析跟踪
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，业务从业者，数据工程师，数据架构师
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

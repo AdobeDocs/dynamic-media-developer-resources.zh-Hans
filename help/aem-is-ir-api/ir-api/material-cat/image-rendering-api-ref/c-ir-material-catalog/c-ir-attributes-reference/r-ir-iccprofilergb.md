@@ -2,8 +2,8 @@
 description: RGB默认输出颜色用户档案。 指定在未使用icc=指定输出色彩空间时用于RGB响应图像的ICC色彩用户档案的名称，以及使用各种"图像渲染"命令（如bgc=和color=）指定的某些RGB颜色值。
 solution: Experience Manager
 title: IccProfileRgb
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

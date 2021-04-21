@@ -2,8 +2,8 @@
 description: 创建一个固定大小的模板，包括静态背景图像、一个与左中心背景对齐且缩放为不超过背景宽度和高度的80%的可变图像，以及一个文本图层，其中垂直文本居中在画布的右边缘。
 solution: Experience Manager
 title: 示例A
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

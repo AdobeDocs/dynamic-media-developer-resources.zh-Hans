@@ -2,8 +2,8 @@
 description: saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

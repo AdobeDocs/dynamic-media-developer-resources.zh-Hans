@@ -2,8 +2,8 @@
 description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

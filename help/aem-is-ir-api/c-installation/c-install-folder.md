@@ -2,8 +2,8 @@
 description: Image Serving安装文件夹(install_folder)为install_root/ImageServing。
 solution: Experience Manager
 title: 安装文件夹
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

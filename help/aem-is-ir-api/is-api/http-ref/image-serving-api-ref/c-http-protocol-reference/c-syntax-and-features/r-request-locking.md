@@ -2,8 +2,8 @@
 description: 为了减少篡改请求的机会，提供了一种简单的锁定设备。
 solution: Experience Manager
 title: 请求锁定
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

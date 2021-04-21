@@ -2,8 +2,8 @@
 description: 如果将jsonp指定为响应格式，则返回数据将使用JSONP（JavaScript对象表示法和填充）格式化，并打包在JavaScript函数调用中。
 solution: Experience Manager
 title: JSONP属性
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: $var$引用可能发生在嵌套图像服务或图像渲染请求的花括号内的任何位置，包括“？”左侧 将路径与查询分离。
 solution: Experience Manager
 title: 嵌套请求中的变量处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

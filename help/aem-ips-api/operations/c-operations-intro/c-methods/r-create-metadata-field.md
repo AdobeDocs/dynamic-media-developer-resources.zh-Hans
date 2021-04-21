@@ -2,8 +2,8 @@
 description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic，SDK/API，元数据
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 响应cdnCacheInvalidation操作，向指定收件人发送电子邮件。
 solution: Experience Manager
 title: 电子邮件确认
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

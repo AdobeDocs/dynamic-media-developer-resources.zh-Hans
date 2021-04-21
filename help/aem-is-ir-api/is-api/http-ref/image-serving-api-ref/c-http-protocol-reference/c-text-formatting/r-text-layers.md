@@ -2,8 +2,8 @@
 description: textPs=支持本节中描述的许多不同的使用模型。
 solution: Experience Manager
 title: 文本图层
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

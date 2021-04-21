@@ -2,8 +2,8 @@
 description: 当可用Java堆空间在紧随Java垃圾收集周期后的指定阈值以下时，将发送优先级警报。
 solution: Experience Manager
 title: 堆空间优先级警报
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

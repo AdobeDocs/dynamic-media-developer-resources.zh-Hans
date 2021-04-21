@@ -2,8 +2,8 @@
 description: 文本排除区域。 指定要从文本流中排除的一个或多个区域。
 solution: Experience Manager
 title: textFlowXPath
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 在嵌入的外部请求的花括号中出现的$var$引用将替换为匹配的变量定义值。
 solution: Experience Manager
 title: 嵌入式外来请求中的变量处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

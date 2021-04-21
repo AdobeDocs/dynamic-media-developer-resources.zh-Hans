@@ -2,8 +2,8 @@
 description: 本节介绍所有可编辑的配置设置，这些设置按感兴趣的区域分组。
 solution: Experience Manager
 title: 服务器设置
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

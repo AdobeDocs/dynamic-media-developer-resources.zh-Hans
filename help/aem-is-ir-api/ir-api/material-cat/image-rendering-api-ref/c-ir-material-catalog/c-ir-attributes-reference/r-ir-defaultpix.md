@@ -2,8 +2,8 @@
 description: 默认渲染图像大小。 如果请求未使用wid=或hei=显式指定视图大小，则服务器将限制返回图像不大于此宽度和高度。
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

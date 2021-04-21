@@ -2,8 +2,8 @@
 description: 缩放指示符覆盖在缩放视图区域上。 当图像处于重置状态时，将显示该图像，这也取决于iconeffect参数。
 solution: Experience Manager
 title: 缩放视图图标效果
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

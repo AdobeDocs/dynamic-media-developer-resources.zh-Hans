@@ -2,8 +2,8 @@
 description: 返回按资产类型分组的所有元数据字段。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

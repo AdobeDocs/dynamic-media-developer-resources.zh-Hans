@@ -2,8 +2,8 @@
 description: 文本图层属性。 指定不能用作rtf命令的文本图层的其他属性。
 solution: Experience Manager
 title: textAttr
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

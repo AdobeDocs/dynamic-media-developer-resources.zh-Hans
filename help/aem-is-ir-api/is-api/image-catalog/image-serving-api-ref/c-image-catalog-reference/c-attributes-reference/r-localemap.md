@@ -2,8 +2,8 @@
 description: ID转换映射。 指定用于将通用图像ID转换为区域设置特定ID的规则。
 solution: Experience Manager
 title: LocaleMap
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

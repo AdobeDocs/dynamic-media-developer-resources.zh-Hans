@@ -2,8 +2,8 @@
 description: 选取选择错误处理。 指定sel=命令失败时要执行的操作，因为指定的像素位置不在可选对象的蒙版区域内。
 solution: Experience Manager
 title: OnFailSel
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

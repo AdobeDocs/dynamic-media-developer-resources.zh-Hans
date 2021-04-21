@@ -2,8 +2,8 @@
 description: 图像渲染已嵌入到图像服务的图像服务器和平台服务器组件中。
 solution: Experience Manager
 title: 启动和停止服务器
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

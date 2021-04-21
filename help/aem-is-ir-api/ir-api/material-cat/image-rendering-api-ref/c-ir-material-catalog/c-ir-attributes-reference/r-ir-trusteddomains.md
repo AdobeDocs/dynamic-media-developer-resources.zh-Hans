@@ -2,8 +2,8 @@
 description: Flash应用程序Web域。 Adobe Flash应用程序可能需要访问以swf格式传送的图像的属性。swf必须通过注册其信任的应用程序域的名称来显式授予访问权。
 solution: Experience Manager
 title: TrustedDomains *
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

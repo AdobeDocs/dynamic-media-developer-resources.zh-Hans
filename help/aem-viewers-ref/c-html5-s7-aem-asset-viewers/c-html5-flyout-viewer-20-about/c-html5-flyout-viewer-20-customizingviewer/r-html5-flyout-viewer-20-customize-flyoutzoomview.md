@@ -2,8 +2,8 @@
 description: 主视图由静态图像、在弹出视图中显示的缩放图像、在静态图像上显示的高亮导航区域以及静态图像顶部显示的提示消息组成。
 solution: Experience Manager
 title: 弹出缩放视图
-feature: Dynamic Media Classic，查看器，SDK/API，弹出
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

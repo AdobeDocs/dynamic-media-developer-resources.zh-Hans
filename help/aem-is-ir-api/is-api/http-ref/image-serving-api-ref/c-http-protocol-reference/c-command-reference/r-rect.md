@@ -2,8 +2,8 @@
 description: 最终的视图矩形。 允许最终的视图图像被拆解成若干条或瓦块，这些条或瓦块可以单独传送并由客户无缝地重新组装，而不会沿边缘出现伪影。
 solution: Experience Manager
 title: rect
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

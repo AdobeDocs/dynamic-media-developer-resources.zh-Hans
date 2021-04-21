@@ -2,8 +2,8 @@
 description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
 solution: Experience Manager
 title: 效果
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

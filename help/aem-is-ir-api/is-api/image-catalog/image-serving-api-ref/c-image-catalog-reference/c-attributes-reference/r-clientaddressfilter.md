@@ -2,8 +2,8 @@
 description: 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 创建一个预设视图，它确定用户可以看到的内容。 查看器可以是IPS中提供的任何类型。 资产发布后，会应用预设视图。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic，SDK/API，查看器预设
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

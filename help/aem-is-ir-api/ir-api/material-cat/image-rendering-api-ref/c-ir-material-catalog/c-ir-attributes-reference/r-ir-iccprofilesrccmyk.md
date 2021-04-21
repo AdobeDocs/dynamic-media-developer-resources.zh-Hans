@@ -2,8 +2,8 @@
 description: CMYK默认输入颜色用户档案。 指定用于未嵌入颜色用户档案的CMYK材质图像的ICC颜色用户档案的名称。
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

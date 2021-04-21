@@ -2,8 +2,8 @@
 description: 介绍IPS API 3.7版的新字符串常量和更改的字符串常量。
 solution: Experience Manager
 title: 字符串常量新建和修改
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

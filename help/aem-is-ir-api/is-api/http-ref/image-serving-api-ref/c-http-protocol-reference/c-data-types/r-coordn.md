@@ -2,8 +2,8 @@
 description: 标准化坐标。 用于指定图像内的相对位置，如图像偏移或裁剪参数，这些位置已标准化为图像的大小。
 solution: Experience Manager
 title: coordN
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

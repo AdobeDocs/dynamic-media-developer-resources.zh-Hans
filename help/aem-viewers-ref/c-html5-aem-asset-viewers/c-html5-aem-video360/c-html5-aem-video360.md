@@ -2,8 +2,8 @@
 description: HTML5 Video360查看器是一个360度视频播放器，可播放以H.264格式编码、从Dynamic Media Classic或AEM Dynamic Media提供的渐进式360流视频。
 solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

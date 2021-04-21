@@ -2,8 +2,8 @@
 description: 规则集定义文件路径。 指定包含此图像目录的规则集定义的文件。
 solution: Experience Manager
 title: 规则集文件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

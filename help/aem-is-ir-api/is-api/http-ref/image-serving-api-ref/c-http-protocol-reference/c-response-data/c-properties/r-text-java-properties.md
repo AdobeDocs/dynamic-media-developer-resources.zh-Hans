@@ -2,8 +2,8 @@
 description: 如果将文本指定为响应格式，则返回数据的格式设置为可读为Java属性。
 solution: Experience Manager
 title: 文本(Java)属性
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

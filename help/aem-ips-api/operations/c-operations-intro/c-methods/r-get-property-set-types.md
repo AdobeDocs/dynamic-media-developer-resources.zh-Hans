@@ -2,8 +2,8 @@
 description: 获取与指定公司关联的属性集类型，或者如果未指定公司，则获取全局属性集类型。
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

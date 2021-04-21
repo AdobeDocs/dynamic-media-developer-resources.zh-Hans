@@ -2,8 +2,8 @@
 description: 以下选项控制文件柜样式文件的处理。 如果sourceFile不是文件柜样式文件或指定了 — info，则忽略它们。
 solution: Experience Manager
 title: 文件柜样式文件的选项
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

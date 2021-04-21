@@ -2,8 +2,8 @@
 description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
 solution: Experience Manager
 title: imageprop
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

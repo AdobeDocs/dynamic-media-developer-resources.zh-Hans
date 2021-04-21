@@ -3,8 +3,8 @@ description: 通过创建自定义CSS，可以为eCatalog搜索查看器进行�
 keywords: 响应
 solution: Experience Manager
 title: 自定义eCatalog搜索查看器
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录搜索
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

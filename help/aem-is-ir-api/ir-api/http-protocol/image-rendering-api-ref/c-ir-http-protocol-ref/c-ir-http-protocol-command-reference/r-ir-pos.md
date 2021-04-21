@@ -2,8 +2,8 @@
 description: 倾斜位置。 定义从倾斜图像的锚点到由目标晕影对象定义的倾斜来源点的偏移（以英寸为单位）。
 solution: Experience Manager
 title: pos
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 静态内容数据根路径。 此图像目录静态内容数据的根文件夹的绝对路径或相对路径段。
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

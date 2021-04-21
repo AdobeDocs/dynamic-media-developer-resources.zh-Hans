@@ -2,8 +2,8 @@
 description: 当应用于预定大小的图层时（即当也指定了size=时），text= renderer将放置与textPs= renderer基本不同的文本。
 solution: Experience Manager
 title: 文本定位
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

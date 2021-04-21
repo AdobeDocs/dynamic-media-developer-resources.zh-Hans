@@ -2,8 +2,8 @@
 description: 材质类型. 材料的曲面类型。 与目录“光泽”和目录“粗糙度”结合使用，可控制3D反射渲染效果。
 solution: Experience Manager
 title: 类型
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

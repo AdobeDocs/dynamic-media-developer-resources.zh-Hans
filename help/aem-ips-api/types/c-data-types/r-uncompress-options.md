@@ -2,8 +2,8 @@
 description: 上传设置可将ZIP和TAR文件作为主资源进行处理（无），或提取并上传其内容（解压缩）。
 solution: Experience Manager
 title: UnCompressOptions
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

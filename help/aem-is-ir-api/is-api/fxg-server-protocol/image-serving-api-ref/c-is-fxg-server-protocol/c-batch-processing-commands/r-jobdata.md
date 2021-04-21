@@ -2,8 +2,8 @@
 description: 批处理作业的作业数据。
 solution: Experience Manager
 title: jobdata
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt

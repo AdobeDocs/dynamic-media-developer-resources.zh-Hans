@@ -2,8 +2,8 @@
 description: '除了安装软件所需的空间之外，映像服务还有以下磁盘空间要求 '
 solution: Experience Manager
 title: 磁盘空间要求和建议
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

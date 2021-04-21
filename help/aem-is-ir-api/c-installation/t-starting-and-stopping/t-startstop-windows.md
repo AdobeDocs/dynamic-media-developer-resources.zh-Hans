@@ -2,8 +2,8 @@
 description: 在Windows上开始/停止Image Server和Platform Server存在多种机制
 solution: Experience Manager
 title: 在Windows上启动或停止
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

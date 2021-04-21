@@ -2,8 +2,8 @@
 description: 为上载作业自动设置生成脚本列表。 假定为上传指定的每个脚本都会应用于所有上传的资产。
 solution: Experience Manager
 title: AutoSetCreationOptions
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

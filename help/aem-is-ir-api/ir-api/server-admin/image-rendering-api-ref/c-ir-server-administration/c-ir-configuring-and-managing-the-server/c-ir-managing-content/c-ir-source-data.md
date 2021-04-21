@@ -2,8 +2,8 @@
 description: “图像渲染”源数据文件包括晕影文件、材料文件（用于可重复纹理和倾斜的图像，以及包含样式文件的机柜和窗口）和ICC用户档案。
 solution: Experience Manager
 title: 源数据
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

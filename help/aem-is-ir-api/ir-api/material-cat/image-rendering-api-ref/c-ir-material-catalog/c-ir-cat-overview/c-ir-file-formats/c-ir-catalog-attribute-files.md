@@ -2,8 +2,8 @@
 description: 目录属性文件可以具有任何名称，但必须具有.ini文件后缀。 可以使用任何文本编辑器随时进行维护。
 solution: Experience Manager
 title: 目录属性文件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

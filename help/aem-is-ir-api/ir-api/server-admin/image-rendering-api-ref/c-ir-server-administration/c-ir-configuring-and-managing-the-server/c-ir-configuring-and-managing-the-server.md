@@ -2,8 +2,8 @@
 description: 本节包含帮助您设置和管理图像渲染服务器的信息。
 solution: Experience Manager
 title: 配置和管理服务器
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 资源类型. 用于标识发布到目录ImageSet的集的类型。
 solution: Experience Manager
 title: 资产类型
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

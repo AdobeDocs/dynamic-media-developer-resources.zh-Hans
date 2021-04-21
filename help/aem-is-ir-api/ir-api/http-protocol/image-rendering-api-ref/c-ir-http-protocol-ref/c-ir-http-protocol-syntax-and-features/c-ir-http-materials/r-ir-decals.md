@@ -2,8 +2,8 @@
 description: 装饰材料包括服装构造，如花饰、T恤印花、刺绣或印刷徽标，以及在内部或外部应用中使用的非可重复的平面物体，如地毯、挂壁艺术、标志等。
 solution: Experience Manager
 title: 十字
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

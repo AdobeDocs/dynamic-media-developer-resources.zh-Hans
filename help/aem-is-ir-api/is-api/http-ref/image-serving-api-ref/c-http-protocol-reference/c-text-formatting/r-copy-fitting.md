@@ -2,8 +2,8 @@
 description: textPs=实现了专有的复制适合算法，该算法将自动调整字体大小以最佳地用文本填充文本区域，在避免溢出的同时将底部的额外空间降至最低。
 solution: Experience Manager
 title: 复制适合
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

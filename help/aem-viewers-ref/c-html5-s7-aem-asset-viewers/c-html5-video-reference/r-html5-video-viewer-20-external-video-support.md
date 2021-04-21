@@ -2,8 +2,8 @@
 description: 查看器支持播放在Dynamic Media Classic或AEM Dynamic Media之外托管的视频。
 solution: Experience Manager
 title: 外部视频支持
-feature: Dynamic Media Classic，查看器，SDK/API，视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

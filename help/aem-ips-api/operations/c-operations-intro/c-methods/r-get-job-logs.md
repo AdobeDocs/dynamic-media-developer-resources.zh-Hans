@@ -2,8 +2,8 @@
 description: 获取所选公司的指定作业日志。 可以按字符、方向、开始和结束日期以及行数排序。
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

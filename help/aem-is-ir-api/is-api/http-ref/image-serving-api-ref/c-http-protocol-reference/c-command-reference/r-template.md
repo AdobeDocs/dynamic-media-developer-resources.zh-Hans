@@ -2,8 +2,8 @@
 description: 合成模板。 允许指定位于除主目录之外的目录中的合成模板。
 solution: Experience Manager
 title: 模板
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

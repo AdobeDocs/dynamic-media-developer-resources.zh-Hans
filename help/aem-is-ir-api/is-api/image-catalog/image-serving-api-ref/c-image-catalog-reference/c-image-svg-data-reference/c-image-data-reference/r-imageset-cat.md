@@ -2,8 +2,8 @@
 description: 图像集数据。 提供一种机制，用于定义已排序的图像集并控制Dynamic Media查看器使用的属性。
 solution: Experience Manager
 title: 图像集
-feature: Dynamic Media Classic，SDK/API，图像集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

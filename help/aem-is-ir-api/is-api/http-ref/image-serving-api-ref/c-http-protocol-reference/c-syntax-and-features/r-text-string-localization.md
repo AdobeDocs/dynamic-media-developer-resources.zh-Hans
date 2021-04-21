@@ -2,8 +2,8 @@
 description: 文本字符串本地化允许图像目录包含同一字符串值的多个特定于区域设置的表示形式。
 solution: Experience Manager
 title: 文本字符串本地化
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

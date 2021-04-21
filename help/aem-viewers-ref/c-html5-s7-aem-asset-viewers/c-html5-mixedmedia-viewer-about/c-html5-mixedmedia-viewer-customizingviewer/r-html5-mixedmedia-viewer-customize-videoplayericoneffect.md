@@ -2,8 +2,8 @@
 description: 播放图标会覆盖在视频视图区域上。 它在暂停视频或到达视频末尾时显示，还取决于iconeffect参数。
 solution: Experience Manager
 title: 视频播放器图标效果
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

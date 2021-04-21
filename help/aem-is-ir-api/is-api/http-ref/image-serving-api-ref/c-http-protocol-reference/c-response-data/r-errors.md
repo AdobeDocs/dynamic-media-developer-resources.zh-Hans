@@ -2,8 +2,8 @@
 description: 如果请求无法成功完成，服务器将返回错误图像或200以外的HTTP响应状态，并返回错误消息。
 solution: Experience Manager
 title: 错误
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

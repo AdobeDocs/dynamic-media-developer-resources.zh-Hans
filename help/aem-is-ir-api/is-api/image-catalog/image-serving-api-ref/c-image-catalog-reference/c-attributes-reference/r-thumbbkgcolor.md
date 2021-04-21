@@ -2,8 +2,8 @@
 description: 缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
 solution: Experience Manager
 title: 缩略图BkgColor
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

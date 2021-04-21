@@ -2,8 +2,8 @@
 description: 调整对比度。 通过增加亮度超过50%的像素的亮度和亮度低于50%的像素的亮度来调整图像对比度。
 solution: Experience Manager
 title: op_contrast
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

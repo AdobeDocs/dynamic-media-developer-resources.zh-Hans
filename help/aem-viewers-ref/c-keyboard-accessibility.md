@@ -2,8 +2,8 @@
 description: 基本缩放、电子目录、电子目录搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、尺寸(3D)、传送、交互式图像、交互式视频和Video360查看器界面中公开的所有功能均可通过键盘访问。
 solution: Experience Manager
 title: 键盘辅助功能和导航
-feature: Dynamic Media Classic，查看器，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

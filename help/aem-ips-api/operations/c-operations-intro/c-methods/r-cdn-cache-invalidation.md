@@ -2,8 +2,8 @@
 description: 将提供的URL列表转发到Dynamic Media CDN（内容分发网络）提供商，使其现有HTTP响应缓存失效。
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

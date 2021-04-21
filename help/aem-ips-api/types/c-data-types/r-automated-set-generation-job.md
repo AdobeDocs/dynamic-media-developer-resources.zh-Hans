@@ -2,8 +2,8 @@
 description: 使用资产句柄列表数组将文件分组到集中。
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

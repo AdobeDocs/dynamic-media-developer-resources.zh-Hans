@@ -2,8 +2,8 @@
 description: 目录系统缓存的根文件夹。
 solution: Experience Manager
 title: 目录缓存文件夹(ir.catalogCacheRoot)
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

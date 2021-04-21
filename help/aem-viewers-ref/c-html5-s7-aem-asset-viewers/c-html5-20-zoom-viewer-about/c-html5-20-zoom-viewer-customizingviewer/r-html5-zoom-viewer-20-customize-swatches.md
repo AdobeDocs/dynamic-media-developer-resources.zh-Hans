@@ -2,8 +2,8 @@
 description: 色板由一行缩览图图像组成，左侧和右侧带有可选滚动按钮。 仅当所有缩览图都不适合容器宽度时，滚动按钮才在桌面上可见。 在移动设备上，或者如果缩览图可以适合容器宽度，则不会显示滚动按钮。
 solution: Experience Manager
 title: 調色板
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

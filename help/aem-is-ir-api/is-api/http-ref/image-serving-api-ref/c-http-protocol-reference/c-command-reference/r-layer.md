@@ -2,8 +2,8 @@
 description: 选择“图层”。 在命令序列中选择一个图层并开始新的图层定义段。
 solution: Experience Manager
 title: 图层
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

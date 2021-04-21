@@ -2,8 +2,8 @@
 description: 尽管图像和SVG数据非常相似，但它们会保留在图像目录中的单独表中。
 solution: Experience Manager
 title: 图像/SVG数据参考
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

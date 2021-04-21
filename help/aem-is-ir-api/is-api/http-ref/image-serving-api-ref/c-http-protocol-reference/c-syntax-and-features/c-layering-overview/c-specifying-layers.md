@@ -2,8 +2,8 @@
 description: 在URL或目录修饰符命令序列中，图层定义序列开始使用layer=命令，并用另一个layer=命令、effect=命令或URL的结尾终止。
 solution: Experience Manager
 title: 指定图层
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

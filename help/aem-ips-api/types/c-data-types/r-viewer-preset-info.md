@@ -2,8 +2,8 @@
 description: 查看器预设资产的属性。
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic，SDK/API，查看器预设
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

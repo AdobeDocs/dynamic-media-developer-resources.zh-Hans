@@ -2,8 +2,8 @@
 description: 默认重新取样模式。 指定用于缩放图像数据的默认重新取样属性和插值属性。
 solution: Experience Manager
 title: ResMode
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

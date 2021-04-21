@@ -2,8 +2,8 @@
 description: 所有日志文件都写入到与TC目录指定的同一日志文件夹中。
 solution: Experience Manager
 title: 服务器日志
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

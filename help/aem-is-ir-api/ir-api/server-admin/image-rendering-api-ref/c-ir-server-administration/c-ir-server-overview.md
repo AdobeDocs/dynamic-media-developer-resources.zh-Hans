@@ -2,8 +2,8 @@
 description: 本文档介绍如何管理Dynamic Media图像渲染服务器。
 solution: Experience Manager
 title: 服务器管理概述
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

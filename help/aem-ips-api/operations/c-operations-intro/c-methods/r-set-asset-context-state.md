@@ -2,8 +2,8 @@
 description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

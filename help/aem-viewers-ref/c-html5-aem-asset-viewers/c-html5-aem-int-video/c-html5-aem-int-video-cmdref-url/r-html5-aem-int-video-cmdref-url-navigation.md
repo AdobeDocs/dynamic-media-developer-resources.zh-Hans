@@ -2,8 +2,8 @@
 description: 用于交互式视频查看器的URL命令。
 solution: Experience Manager
 title: 导航
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

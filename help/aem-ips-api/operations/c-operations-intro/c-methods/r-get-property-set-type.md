@@ -2,8 +2,8 @@
 description: 使用公司句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型和属性类型的句柄。
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 主视图区域是旋转横幅图像所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
 solution: Experience Manager
 title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: “图像渲染”使用的内存量可能差异很大，并且高度取决于实际服务器负载和使用情况（例如，很少使用晕影，与许多不同的晕影、晕影的大小和复杂性等）。
 solution: Experience Manager
 title: 内存注意事项
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

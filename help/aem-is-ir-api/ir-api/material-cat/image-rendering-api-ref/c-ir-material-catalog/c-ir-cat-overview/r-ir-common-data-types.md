@@ -2,8 +2,8 @@
 description: 目录属性和字段可能包含以下类型之一的数据。
 solution: Experience Manager
 title: 常见数据类型
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

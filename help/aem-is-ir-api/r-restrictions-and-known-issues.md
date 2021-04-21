@@ -2,8 +2,8 @@
 description: 使用Dynamic Media图像服务时，应考虑一些限制和已知问题。
 solution: Experience Manager
 title: 限制和已知问题
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

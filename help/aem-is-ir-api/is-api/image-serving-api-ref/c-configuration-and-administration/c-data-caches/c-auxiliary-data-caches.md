@@ -2,8 +2,8 @@
 description: 通过在嵌套/嵌入的请求中指定cache=on，可以缓存由嵌套/嵌入的图像服务和图像渲染请求生成的中间图像数据。 此数据以专有格式存储在响应数据缓存中。
 solution: Experience Manager
 title: 辅助数据缓存
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

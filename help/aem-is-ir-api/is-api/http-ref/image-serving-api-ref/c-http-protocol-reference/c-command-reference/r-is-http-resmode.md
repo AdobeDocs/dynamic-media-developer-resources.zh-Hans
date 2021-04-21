@@ -2,8 +2,8 @@
 description: 重新取样模式。 选择用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图变换期间旋转文本图层和调整复合图像大小。
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db

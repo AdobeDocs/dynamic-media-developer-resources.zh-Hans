@@ -2,8 +2,8 @@
 description: 裁剪图像。 指定矩形裁剪区域，以像素表示或相对于全分辨率源图像或蒙版图像进行标准化。
 solution: Experience Manager
 title: 裁切
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

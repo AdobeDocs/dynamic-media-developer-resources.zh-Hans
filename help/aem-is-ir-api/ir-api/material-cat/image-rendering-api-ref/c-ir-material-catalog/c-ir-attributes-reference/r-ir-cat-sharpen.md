@@ -2,8 +2,8 @@
 description: 默认回复图像锐化。 指定在编码前缩放回复图像时是否锐化它们。
 solution: Experience Manager
 title: 锐化
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

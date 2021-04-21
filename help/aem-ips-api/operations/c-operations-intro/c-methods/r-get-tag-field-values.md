@@ -2,8 +2,8 @@
 description: 获取为一个或多个标签字段定义的所有标签词典值。
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

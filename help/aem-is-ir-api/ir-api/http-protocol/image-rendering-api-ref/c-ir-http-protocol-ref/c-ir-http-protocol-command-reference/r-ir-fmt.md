@@ -2,8 +2,8 @@
 description: 回复图像格式。 为发送到客户端的图像数据指定图像编码格式，为HTTP响应头指定相应的响应MIME类型。
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt

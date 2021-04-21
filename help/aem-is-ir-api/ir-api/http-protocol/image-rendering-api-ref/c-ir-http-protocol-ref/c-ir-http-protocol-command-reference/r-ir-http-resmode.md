@@ -2,8 +2,8 @@
 description: 重新取样模式。 选择重新取样和/或插值算法，以将渲染的图像缩放到用wid=、hei=或scl=指定的大小。
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

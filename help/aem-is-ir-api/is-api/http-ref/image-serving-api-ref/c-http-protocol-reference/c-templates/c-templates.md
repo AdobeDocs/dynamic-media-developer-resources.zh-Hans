@@ -2,8 +2,8 @@
 description: 模板可用于减少复合多个图像层或包括RTF格式文本的请求的长度和复杂性。
 solution: Experience Manager
 title: 模板
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

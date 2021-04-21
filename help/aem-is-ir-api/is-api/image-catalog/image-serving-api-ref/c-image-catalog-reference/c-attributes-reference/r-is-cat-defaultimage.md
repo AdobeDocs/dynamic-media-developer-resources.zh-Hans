@@ -2,8 +2,8 @@
 description: 默认响应图像。 指定在找不到图像文件且未在请求中指定defaultImage=时要使用的图像或目录条目。
 solution: Experience Manager
 title: DefaultImage
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

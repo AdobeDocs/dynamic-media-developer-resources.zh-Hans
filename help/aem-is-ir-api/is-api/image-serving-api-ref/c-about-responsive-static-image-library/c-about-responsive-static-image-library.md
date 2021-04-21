@@ -2,8 +2,8 @@
 description: 响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入到响应式网页中的图像质量。 此外，它还可在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应式渲染来自智能裁剪和智能色板的结果。
 solution: Experience Manager
 title: 关于响应式图像库
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

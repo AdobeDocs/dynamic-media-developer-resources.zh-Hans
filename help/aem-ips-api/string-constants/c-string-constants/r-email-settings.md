@@ -2,8 +2,8 @@
 description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 solution: Experience Manager
 title: 电子邮件设置
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

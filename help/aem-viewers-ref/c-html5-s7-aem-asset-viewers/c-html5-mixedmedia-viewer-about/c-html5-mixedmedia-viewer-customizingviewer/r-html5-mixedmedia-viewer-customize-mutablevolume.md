@@ -2,8 +2,8 @@
 description: 可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音设为静音或取消静音。
 solution: Experience Manager
 title: 可变卷
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

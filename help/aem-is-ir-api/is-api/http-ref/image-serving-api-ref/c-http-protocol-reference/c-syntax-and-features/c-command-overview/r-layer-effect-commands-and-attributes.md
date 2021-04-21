@@ -2,8 +2,8 @@
 description: 这些命令可用于定义图层效果，如投影或发光效果。 效果图层会忽略所有其他命令。
 solution: Experience Manager
 title: 图层效果命令
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

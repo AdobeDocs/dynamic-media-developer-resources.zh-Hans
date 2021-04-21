@@ -2,8 +2,8 @@
 description: 用于视频图像查看器的JavaScript API参考。
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

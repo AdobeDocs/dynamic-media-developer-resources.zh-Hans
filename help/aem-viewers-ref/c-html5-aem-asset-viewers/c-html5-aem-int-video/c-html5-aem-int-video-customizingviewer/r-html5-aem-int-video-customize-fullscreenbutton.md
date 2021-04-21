@@ -2,8 +2,8 @@
 description: 当用户单击视频播放器时，全屏按钮会使该视频播放器进入或退出全屏模式。
 solution: Experience Manager
 title: 全屏按钮
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

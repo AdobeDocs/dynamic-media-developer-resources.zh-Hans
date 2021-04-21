@@ -2,8 +2,8 @@
 description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

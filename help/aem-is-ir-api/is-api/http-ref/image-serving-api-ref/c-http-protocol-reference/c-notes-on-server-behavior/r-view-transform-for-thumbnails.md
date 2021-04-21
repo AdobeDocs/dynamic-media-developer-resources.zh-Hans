@@ -2,8 +2,8 @@
 description: 响应req=tmb请求返回给客户的图像是从复合图像派生的，方法是考虑以下值wid=、hei=、属性DefaultThumbPix和属性MaxPix。
 solution: Experience Manager
 title: 视图变换缩览图
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

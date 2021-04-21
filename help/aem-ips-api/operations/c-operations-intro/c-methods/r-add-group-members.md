@@ -2,8 +2,8 @@
 description: 将特定公司的用户添加到特定组。
 solution: Experience Manager
 title: addGroupMembers
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

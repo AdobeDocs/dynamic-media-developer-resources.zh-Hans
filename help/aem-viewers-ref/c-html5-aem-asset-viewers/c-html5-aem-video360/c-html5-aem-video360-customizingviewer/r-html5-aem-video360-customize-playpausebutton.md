@@ -2,8 +2,8 @@
 description: 播放/暂停按钮使视频播放器在用户单击视频内容时播放或暂停该视频内容。
 solution: Experience Manager
 title: 播放/暂停按钮
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

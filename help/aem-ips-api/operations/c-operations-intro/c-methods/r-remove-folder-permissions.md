@@ -2,8 +2,8 @@
 description: 删除文件夹权限。
 solution: Experience Manager
 title: removeFolderPermissions
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

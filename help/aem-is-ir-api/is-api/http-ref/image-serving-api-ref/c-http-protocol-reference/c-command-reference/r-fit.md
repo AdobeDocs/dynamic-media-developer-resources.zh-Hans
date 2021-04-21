@@ -2,8 +2,8 @@
 description: 响应图像适合模式。 指定如何计算缩放因子，当用wid=和hei=指定响应大小且scl=不存在时，该缩放因子用于将合成图像缩放为响应图像。
 solution: Experience Manager
 title: 适合
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 与示例A类似的要求，但使用纯色背景并允许合成的高度发生变化，以适应长宽比不同的图像。
 solution: Experience Manager
 title: 示例B
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

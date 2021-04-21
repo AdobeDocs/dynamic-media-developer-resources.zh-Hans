@@ -2,8 +2,8 @@
 description: 图像目录中的图像集数据。 返回在URL路径中指定的图像目录条目的图像集数据。
 solution: Experience Manager
 title: 图像集
-feature: Dynamic Media Classic，SDK/API，图像集
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

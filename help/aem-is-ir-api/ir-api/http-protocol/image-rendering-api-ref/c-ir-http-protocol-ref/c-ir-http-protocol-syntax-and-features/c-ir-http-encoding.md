@@ -2,8 +2,8 @@
 description: 命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&”和“%”。
 solution: Experience Manager
 title: 图像渲染HTTP编码
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

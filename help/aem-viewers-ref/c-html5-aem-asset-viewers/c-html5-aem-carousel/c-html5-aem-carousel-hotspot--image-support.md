@@ -2,8 +2,8 @@
 description: 热点和图像映射支持
 solution: Experience Manager
 title: 热点和图像映射支持
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

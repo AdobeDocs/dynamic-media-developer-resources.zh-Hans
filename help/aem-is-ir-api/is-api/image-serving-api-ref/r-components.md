@@ -2,8 +2,8 @@
 description: 'Scene 7图像服务由以下组件组成 '
 solution: Experience Manager
 title: 图像服务组件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: “设置指示符”是在查看器底部渲染的一系列点。 它显示集内的当前位置。
 solution: Experience Manager
 title: 设置指示符
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

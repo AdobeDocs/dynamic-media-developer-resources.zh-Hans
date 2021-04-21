@@ -2,8 +2,8 @@
 description: 宏名称。 宏名称可能由alpha、数字和安全字符的任意组合组成，$除外。
 solution: Experience Manager
 title: 名称
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

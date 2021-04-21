@@ -2,8 +2,8 @@
 description: 图像蒙版。 请求掩码(Alpha渠道)数据。
 solution: Experience Manager
 title: 蒙版
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

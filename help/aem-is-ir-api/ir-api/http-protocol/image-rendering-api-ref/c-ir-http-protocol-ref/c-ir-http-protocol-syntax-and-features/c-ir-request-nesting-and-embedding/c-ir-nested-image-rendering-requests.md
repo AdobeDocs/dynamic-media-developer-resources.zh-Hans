@@ -2,8 +2,8 @@
 description: 对于高级应用，可以将渲染操作的结果用作物质图像，就像从图像服务获得的图像一样。
 solution: Experience Manager
 title: 嵌套图像渲染请求
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

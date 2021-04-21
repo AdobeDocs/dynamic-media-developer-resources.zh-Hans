@@ -2,8 +2,8 @@
 description: 将图像与视图对齐。 在wid=和hei=定义的视图矩形内对齐合成图像（可能在缩放后也指定了scl=）。
 solution: Experience Manager
 title: 对齐
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

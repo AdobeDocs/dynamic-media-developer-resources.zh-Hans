@@ -2,8 +2,8 @@
 description: 显示重叠对象。 使当前选区中所有以前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 solution: Experience Manager
 title: 顯示
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

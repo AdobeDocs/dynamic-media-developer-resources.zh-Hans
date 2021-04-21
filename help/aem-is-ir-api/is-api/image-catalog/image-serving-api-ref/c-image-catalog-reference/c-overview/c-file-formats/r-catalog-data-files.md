@@ -2,8 +2,8 @@
 description: 目录数据文件可以具有任何名称和文件后缀（.ini除外）。 使用支持制表符分隔的文本数据文件（如Microsoft Excel和Access）的应用程序可轻松维护这些文件。
 solution: Experience Manager
 title: 目录数据文件
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

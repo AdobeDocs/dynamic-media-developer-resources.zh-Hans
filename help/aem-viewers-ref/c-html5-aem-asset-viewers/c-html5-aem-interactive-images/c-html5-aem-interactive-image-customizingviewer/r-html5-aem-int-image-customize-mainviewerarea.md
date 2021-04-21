@@ -2,8 +2,8 @@
 description: 主视图区域是缩放图像所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
 solution: Experience Manager
 title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

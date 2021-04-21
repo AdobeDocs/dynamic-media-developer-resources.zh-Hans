@@ -2,8 +2,8 @@
 description: 本节提供有关在Windows和Linux中启动和停止图像服务的说明。
 solution: Experience Manager
 title: 启动和停止图像服务
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

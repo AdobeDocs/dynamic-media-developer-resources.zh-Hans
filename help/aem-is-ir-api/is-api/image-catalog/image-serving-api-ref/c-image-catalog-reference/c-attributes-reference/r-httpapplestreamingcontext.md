@@ -2,8 +2,8 @@
 description: Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple Streaming Server URL前缀。
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

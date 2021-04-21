@@ -2,8 +2,8 @@
 description: 分别移动多个资产。 它使用assetMoveArray中包含的AssetMove类型来完成此操作。 每个AssetMove字段都包含一个目标文件夹。
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

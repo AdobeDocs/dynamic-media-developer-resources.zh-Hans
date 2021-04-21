@@ -2,8 +2,8 @@
 description: 向现有标记字段的词典中添加新标记值。
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

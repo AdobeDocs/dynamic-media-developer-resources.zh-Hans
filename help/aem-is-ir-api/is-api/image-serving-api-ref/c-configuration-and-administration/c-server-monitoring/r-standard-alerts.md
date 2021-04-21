@@ -2,8 +2,8 @@
 description: 在所配置的平均间隔结束时，标准警报会与合并的电子邮件一起发送。
 solution: Experience Manager
 title: 标准警报
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员，业务从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

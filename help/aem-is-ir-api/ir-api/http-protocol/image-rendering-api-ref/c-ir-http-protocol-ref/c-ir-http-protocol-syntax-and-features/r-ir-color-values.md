@@ -2,8 +2,8 @@
 description: 可以使用小数列表、逗号分隔的组件值或十六进制表示法（与HTML类似）来指定color=和bgc=属性的颜色值。
 solution: Experience Manager
 title: 颜色值
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

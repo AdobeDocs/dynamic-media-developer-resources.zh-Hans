@@ -2,8 +2,8 @@
 description: 如果将JavaScript™指定为响应格式，则返回数据的格式将被分析为JavaScript™包含文件。
 solution: Experience Manager
 title: JavaScript™属性
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

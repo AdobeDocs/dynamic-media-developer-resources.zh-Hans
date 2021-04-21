@@ -2,8 +2,8 @@
 description: IPS（映像生产系统）Web服务API使外部应用程序和第三方开发人员能以编程方式访问IPS资源和功能。
 solution: Experience Manager
 title: 关于图像生产系统API
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

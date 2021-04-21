@@ -2,8 +2,8 @@
 description: 高级渲染设置。 高级渲染设置用于控制渲染引擎的低级方面，例如材料锐化类型和参数或照明算法的某些参数。
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

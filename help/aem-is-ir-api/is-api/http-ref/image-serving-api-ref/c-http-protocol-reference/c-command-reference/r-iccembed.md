@@ -2,8 +2,8 @@
 description: 嵌入颜色用户档案。 指定是应将工作ICC用户档案还是使用icc=指定的用户档案嵌入回复图像。
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

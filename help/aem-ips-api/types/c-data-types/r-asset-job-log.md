@@ -2,8 +2,8 @@
 description: 与特定资产关联的作业日志条目的详细信息。 getAssetJobLogs返回的数据。
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic，SDK/API，资产管理
-role: 开发人员，管理员
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

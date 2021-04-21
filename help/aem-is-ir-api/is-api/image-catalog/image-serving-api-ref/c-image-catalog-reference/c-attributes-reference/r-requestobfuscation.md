@@ -2,8 +2,8 @@
 description: 请求模糊处理模式。 指定必须应用于有效请求的模糊处理类型。
 solution: Experience Manager
 title: 请求模糊处理
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

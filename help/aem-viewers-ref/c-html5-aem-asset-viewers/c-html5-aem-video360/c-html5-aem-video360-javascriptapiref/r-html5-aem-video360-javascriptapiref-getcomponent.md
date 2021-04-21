@@ -2,8 +2,8 @@
 description: Video360查看器的JavaScript API参考。
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

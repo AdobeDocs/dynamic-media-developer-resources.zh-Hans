@@ -2,8 +2,8 @@
 description: 锐化图像。 对图层或最终视图图像应用基本锐化滤镜（如果layer=comp），在进行所有缩放后。
 solution: Experience Manager
 title: op_sharpen
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

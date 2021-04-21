@@ -2,8 +2,8 @@
 description: 这些命令适用于图像、文本和纯色图层。 对于合成图像和简单的非分层请求，大多数都没有意义。 它们不应用于效果图层。
 solution: Experience Manager
 title: 常用图层命令
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

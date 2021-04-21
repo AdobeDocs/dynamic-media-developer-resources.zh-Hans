@@ -2,8 +2,8 @@
 description: 链接共享工具由添加到“社交共享”面板的按钮和激活工具时显示的模态对话框组成。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 title: 链接共享
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

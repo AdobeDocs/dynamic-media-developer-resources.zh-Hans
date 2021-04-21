@@ -2,8 +2,8 @@
 description: 客户端消息。 为客户端提供一种将短文本消息插入服务器日志的机制。
 solution: Experience Manager
 title: 消息
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 单击或点按此按钮可关闭包含的网页。 此按钮仅在关闭按钮参数设置为1时显示。 此按钮在桌面系统上不可用。 您可以使用CSS调整此按钮的大小、外观和位置。
 solution: Experience Manager
 title: “关闭”按钮
-feature: Dynamic Media Classic，查看器，SDK/API，电子目录
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

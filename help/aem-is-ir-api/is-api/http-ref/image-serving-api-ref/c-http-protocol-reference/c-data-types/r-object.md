@@ -2,8 +2,8 @@
 description: 源对象说明符。 图像、SVG和ICC用户档案对象可指定为图像目录条目或相对文件路径
 solution: Experience Manager
 title: 对象
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

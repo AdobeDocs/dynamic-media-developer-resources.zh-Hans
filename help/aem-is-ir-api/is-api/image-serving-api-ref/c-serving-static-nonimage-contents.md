@@ -2,8 +2,8 @@
 description: 您可以使用图像服务管理目录中的非图像内容，并通过单独的/is/content上下文提供。
 solution: Experience Manager
 title: 提供静态（非图像）内容
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 交互式视频查看器显示的某些内容受本地化的约束。 这包括用户界面元素工具提示和在视频无法播放时显示的错误消息。
 solution: Experience Manager
 title: 本地化用户界面元素
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

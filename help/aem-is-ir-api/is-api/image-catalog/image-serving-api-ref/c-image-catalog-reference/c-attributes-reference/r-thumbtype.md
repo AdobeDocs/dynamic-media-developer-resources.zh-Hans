@@ -2,8 +2,8 @@
 description: 默认缩略图类型。 提供缩略图类型的默认值，以防特定目录记录不包含有效的目录缩略图类型值。
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Media Classic，SDK/API
-role: 开发人员，商业从业者
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
