@@ -1,17 +1,16 @@
 ---
 description: 视频资产属性。
 solution: Experience Manager
-title: 视频信息
-feature: Dynamic Media Classic,SDK/API,Video
+title: VideoInfo
+feature: Dynamic Media Classic，SDK/API，视频
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 10%
 
 ---
-
 
 # VideoInfo{#videoinfo}
 
@@ -30,4 +29,3 @@ ht-degree: 10%
 | `*`imageFile`*` | `xsd:string` | 视频文件的文件名。 |
 | `*`optimizedPath`*` | `xsd:string` | IPS优化视频文件的路径。 |
 | `*`optimizedFile`*` | `xsd:string` | IPS优化视频文件的文件名。 |
-
