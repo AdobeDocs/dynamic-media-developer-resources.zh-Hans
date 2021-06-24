@@ -1,25 +1,24 @@
 ---
-description: '在此类型中，pageReset字段对RenderSet和Catalog图像资产类型有意义 '
+description: '在此类型中，pageReset字段对于RenderSet和Catalog图像资产类型有意义 '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic，SDK/API，图像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 7%
 
 ---
 
-
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-在此类型中，pageReset字段对RenderSet和Catalog图像资产类型有意义：
+在此类型中，pageReset字段对于RenderSet和目录图像资产类型有意义：
 
-* 对于`RenderSet`,`pageReset`指示新渲染视图/色板组的开始。
+* 对于`RenderSet`, `pageReset`表示新呈现视图/色板组的开始。
 
-* 对于目录，`pageReset`指示新页面开始的视图。 通常，每个页面视图有2个页面图像，但您可以拥有更多或更少。
+* 对于目录，`pageReset`表示新页面查看的开始。 通常，每个页面查看有2个页面图像，但您可以拥有更多或更少。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -40,8 +39,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">重置页面。 <p>将忽略设置，并强制将<span class="codeph"> ImageSet</span>和<span class="codeph"> SpinSet</span>的值设置为true。 </p></td> 
+   <td colname="col3">重置页面。 <p>将忽略设置，并将<span class="codeph"> ImageSet</span>和<span class="codeph"> SpinSet</span>的值强制设置为true。 </p></td> 
   </tr> 
  </tbody> 
 </table>
-
