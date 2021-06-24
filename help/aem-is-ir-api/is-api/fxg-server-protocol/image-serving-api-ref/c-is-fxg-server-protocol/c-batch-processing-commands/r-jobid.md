@@ -2,19 +2,18 @@
 description: 批处理作业的作业ID。
 solution: Experience Manager
 title: jobid
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c00b7191-f162-4c51-bcfb-fe27f9253ca8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # jobid{#jobid}
 
 批处理作业的作业ID。
 
-用于批处理作业请求，以指定请求其状态或输出的作业或删除特定作业。 该值是提交作业时返回的作业ID字符串。
+在批处理作业请求中使用，以指定请求状态或输出的作业或删除特定作业。 值是提交作业时返回的作业ID字符串。
