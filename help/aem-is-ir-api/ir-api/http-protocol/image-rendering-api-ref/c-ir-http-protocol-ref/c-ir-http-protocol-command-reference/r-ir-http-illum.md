@@ -1,31 +1,30 @@
 ---
-description: 光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
+description: 照明图选择器。 指定此材料希望用来渲染的照明图。
 solution: Experience Manager
-title: 伊兰
-feature: Dynamic Media Classic,SDK/API
+title: 伊拉姆
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
 
+# 伊拉姆{#illum}
 
-# illum{#illum}
-
-光照映射选择器。 指定此材料更喜欢用来渲染的照明映射。
+照明图选择器。 指定此材料希望用来渲染的照明图。
 
 `illum=-1|0|1|2`
 
-如果指定的照明映射在目标晕影中不可用，则使用最近的可用映射。
+如果指定的照明图在目标晕影中不可用，则会改用最接近的可用图。
 
 `illum=-1` 指定根据值自动选择照明 `gloss=` 图。
 
 ## 属性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-材料属性。 如果晕影未定义多个照明映射，则忽略。
+材料属性。 如果晕影未定义多个照明映射，则忽略此问题。
 
 ## 默认 {#section-c96ecfb232074e80b6a29076f5199403}
 
