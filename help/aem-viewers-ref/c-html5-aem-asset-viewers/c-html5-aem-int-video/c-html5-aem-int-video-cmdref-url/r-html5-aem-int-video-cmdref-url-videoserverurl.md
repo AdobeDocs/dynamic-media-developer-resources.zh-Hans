@@ -2,13 +2,12 @@
 description: 视频查看器的URL命令。
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 7%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则将应用提供页面的域。 应用标准URI路径解析。 </p> </td> 
+   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则会应用提供页面的域。 标准URI路径解析适用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
