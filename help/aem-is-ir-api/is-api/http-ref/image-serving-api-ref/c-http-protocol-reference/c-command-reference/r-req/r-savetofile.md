@@ -2,16 +2,15 @@
 description: 将图像保存到文件。
 solution: Experience Manager
 title: saveToFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 3%
 
 ---
-
 
 # saveToFile{#savetofile}
 
@@ -25,14 +24,14 @@ ht-degree: 3%
   <td class="stentry"> <p>目标图像文件的相对路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
   <td class="stentry"> <p>超时间隔（毫秒）。 </p></td> 
  </tr> 
 </table>
 
-将响应映像保存到服务器上的文件，而不是将其返回到客户端。
+将响应映像保存到服务器上的文件，而不是返回到客户端。
 
-保存请求成功完成后，该请求将返回多个Java格式的属性，包括：
+成功完成保存请求后，请求会返回多个Java格式的属性，包括以下属性：
 
 <table id="table_8BA8F75A0B7241BAB9B4359F97C21137"> 
  <thead> 
@@ -46,25 +45,25 @@ ht-degree: 3%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
    <td> <p> integer </p> </td> 
-   <td> <p>文件创建时间(自1970年1月1日午夜(UTC/GMT)以来的毫秒数)。 </p> </td> 
+   <td> <p>文件创建时间（自1970年1月1日UTC/GMT午夜以来的毫秒数）。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> pixelsTotal</span> </p> </td> 
    <td> <p> 整数 </p> </td> 
-   <td> <p> 已保存图像中的像素数。 </p> </td> 
+   <td> <p> 保存图像中的像素数。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 状态</span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> <span class="codeph"> 如果</span> 成功了。 </p> </td> 
+   <td> <p> <span class="codeph"> </span> doneif成功。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 如果成功，则返回HTTP响应状态200；如果请求失败或超时，则返回403。 响应的MIME类型为`text/plain`，无法缓存。
 
-重要信息：必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 `saveToFile=` 如果为空， `attribute::SavePath` 则失败。
+重要信息必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 `saveToFile=` 为空时 `attribute::SavePath` 失败。
 
-*`file`* 必需，且必须是与组合的相对路径 `attribute::SavePath`图像服务不会创建文件夹。 服务器上必须存在目标文件夹，并且具有图像服务创建文件的适当权限设置。
+*`file`* 是必需的，且必须是与组合的相对路径 `attribute::SavePath`。图像提供不会创建文件夹。 目标文件夹必须存在于服务器上，并且具有适当的权限设置，以便图像服务能够创建文件。
 
-`timeout=` 为可选。默认超时为60,000毫秒，或者哪个值配置了`PS::SaveTimeout`。
+`timeout=` 为可选。默认超时为60,000毫秒，或者在任何值中配置了`PS::SaveTimeout`。
