@@ -2,16 +2,15 @@
 description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b7346f72-5fe9-4608-8ea0-27012b73b696
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
-
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x，y，w，h</span> </p> </td> 
-   <td colname="col2"> <p> 归一化坐标中的初始感兴趣区域。 如果未指定这些值，则整个图像会嵌入初始视口中。 </p> </td> 
+   <td colname="col2"> <p> 标准化坐标中的初始感兴趣区域。 如果未指定这些值，则整个图像会拟合到初始视区中。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
