@@ -2,18 +2,17 @@
 description: 关闭按钮
 solution: Experience Manager
 title: 关闭按钮
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
 
-
-# closebutton{#closebutton}
+# 关闭按钮{#closebutton}
 
 `closebutton=0|1`
 
