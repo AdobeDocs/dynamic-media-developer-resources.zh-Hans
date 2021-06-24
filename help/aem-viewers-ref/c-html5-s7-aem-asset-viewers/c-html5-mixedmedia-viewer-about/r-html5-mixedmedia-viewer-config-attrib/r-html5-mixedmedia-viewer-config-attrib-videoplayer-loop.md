@@ -2,16 +2,15 @@
 description: 混合媒体视频查看器的配置属性。
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
-
 
 # VideoPlayer.loop{#videoplayer-loop}
 
@@ -23,7 +22,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指示媒体是否在播放完成后再次播放。 </p> </td> 
+   <td colname="col2"> <p>指示媒体在播放结束后是否再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
