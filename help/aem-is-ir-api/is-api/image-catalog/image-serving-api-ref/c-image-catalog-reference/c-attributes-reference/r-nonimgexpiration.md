@@ -1,23 +1,22 @@
 ---
-description: 非映像响应的客户端缓存TTL。 提供某些非图像响应的过期时间间隔。
+description: 非映像响应的客户端缓存TTL。 为某些非图像响应提供过期时间间隔。
 solution: Experience Manager
 title: NonImgExpiration
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c61e2781-dfaa-4f3d-958d-5ffa755a3e4d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
 
-
 # NonImgExpiration{#nonimgexpiration}
 
-非映像响应的客户端缓存TTL。 提供某些非图像响应的过期时间间隔。
+非映像响应的客户端缓存TTL。 为某些非图像响应提供过期时间间隔。
 
-提供某些非图像响应的过期间隔，包括响应以下命令发送的响应：
+提供某些非图像响应的过期时间间隔，包括响应以下命令发送的响应：
 
 * `req=imageset`
 * `req=catalogprops`
@@ -27,11 +26,11 @@ ht-degree: 3%
 
 ## 属性 {#section-d37e3113f4b1468b86b5a14e80d94c83}
 
-实数，0或更大。 自生成回复数据以来到期的小时数。 设置为0可始终立即使回复图像过期，这会有效地禁用默认图像响应的客户端缓存。 设置为–1将标记为&#x200B;*永不过期*。
+实数，0或更大。 自生成回复数据后到期的小时数。 设置为0时，将始终立即使回复图像过期，这会有效地禁用默认图像响应的客户端缓存。 设置为–1时，标记为&#x200B;*永不过期*。
 
 ## 默认 {#section-96981360c0234b7f824d2ff7c25a7954}
 
-如果未定义或为空，则从`default::NonImgExpiration`继承。
+从`default::NonImgExpiration`继承（如果未定义或为空）。
 
 TTL（生存时间）是缓存过期前的持续时间。 默认TTL为6分钟。
 
