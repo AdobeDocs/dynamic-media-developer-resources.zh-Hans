@@ -1,25 +1,24 @@
 ---
-description: 创建可具有多个文本和图像图层的分层图像。
+description: 创建可具有多个文本层和图像层的分层图像。
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 10%
 
 ---
 
-
 # createTemplate{#createtemplate}
 
-创建可具有多个文本和图像图层的分层图像。
+创建可具有多个文本层和图像层的分层图像。
 
-`urlModifier`参数指定在URL上任何用户提供的命令之前应用的图像服务器目录中存储的图像服务器协议命令。 `urlPostApplyModifier`参数指定在任何URL命令之后应用的协议命令，这将覆盖用户提供的任何冲突设置。
+`urlModifier`参数指定存储在图像服务器目录中的图像服务器协议命令，该命令应用于URL上任何用户提供的命令之前。 `urlPostApplyModifier`参数指定在任何URL命令之后应用的协议命令，这将覆盖用户提供的任何冲突设置。
 
-## 授权用户类型{#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 授权用户类型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +36,7 @@ ht-degree: 10%
 | `*`folderHandle`*` | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
 | `*`name`*` | `xsd:string` | 是 | 模板名称。 |
 | `*`类型`*` | `xsd:string` | 是 | 模板类型。 |
-| `*`urlModifier`*` | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在用户提供的URL上的任何命令之前应用。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在URL上任何用户提供的命令之前应用。 |
 | `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
 
 **输出(createTemplateParam)**
@@ -48,7 +47,7 @@ ht-degree: 10%
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代码示例在句柄指定的文件夹中创建一个模板，其名称为`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`。 响应将返回新创建的模板的句柄。
+此代码示例在句柄指定的文件夹中创建一个模板，名称为`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`。 响应会将句柄返回到新创建的模板。
 
 **请求**
 
@@ -70,4 +69,3 @@ ht-degree: 10%
    <assetHandle>a|153393|2|2061</assetHandle>
 </createTemplateReturn>
 ```
-
