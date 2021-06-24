@@ -1,24 +1,23 @@
 ---
-description: 除了相对于图层0调整大小(size=)和定位(pos=)图层以及使用layer=命令指定合成顺序（z顺序）外，还可以旋转(rotate=)和翻转(flip=)图层。
+description: 除了相对于层0的大小调整(size=)和定位(pos=)层以及使用layer=命令指定复合顺序（z阶）外，层还可以旋转(rotate=)和翻转(flip=)。
 solution: Experience Manager
-title: 图层操作
-feature: Dynamic Media Classic,SDK/API
+title: 层操作
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
+# 层操作{#layer-operations}
 
-# 图层操作{#layer-operations}
+除了相对于层0的大小调整(size=)和定位(pos=)层以及使用layer=命令指定复合顺序（z阶）外，层还可以旋转(rotate=)和翻转(flip=)。
 
-除了相对于图层0调整大小(size=)和定位(pos=)图层以及使用layer=命令指定合成顺序（z顺序）外，还可以旋转(rotate=)和翻转(flip=)图层。
+当模板中的图像或文本发生动态更改时，`origin=`和`anchor=`属性可用于保持图层之间的所需对齐方式。
 
-当在模板中动态更改图像或文本时，`origin=`和`anchor=`属性可用于保持图层之间所需的对齐。
+`maskUse=`命令可用于图像层访问具有单独掩码的图像的背景区域。
 
-`maskUse=`命令可用于图像图层访问具有单独蒙版的图像的背景区域。
-
-`opac=` 可用于改变图层的不透明度，以 `hide=` 及显示或隐藏图层。
+`opac=` 可用于更改图层的不透明度，以 `hide=` 及显示或隐藏图层。
