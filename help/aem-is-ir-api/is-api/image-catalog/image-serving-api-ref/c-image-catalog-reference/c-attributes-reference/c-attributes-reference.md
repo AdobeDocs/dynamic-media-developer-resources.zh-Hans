@@ -2,20 +2,19 @@
 description: 除目录RootId外，所有目录属性都是可选的。
 solution: Experience Manager
 title: 属性引用
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
-
 # 属性引用{#attributes-reference}
 
-所有目录属性都是可选的，但catalog::RootId除外。
+除catalog::RootId之外，所有目录属性都是可选的。
 
 默认目录属性文件([!DNL default.ini])中需要所有属性。
 
@@ -29,7 +28,7 @@ ht-degree: 3%
 * [ClientAddressFilter](r-clientaddressfilter.md)
 * [CatalogFile](r-catalogfile.md)
 * [DefaultExpiration](r-defaultexpiration.md)
-* [默认文本](r-defaultext.md)
+* [DefaultExt](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
 * [DefaultImage](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
@@ -40,7 +39,7 @@ ht-degree: 3%
 * [DigimarcInfo](r-digimarcinfo.md)
 * [ErrorImage](r-errorimage.md)
 * [ErrorDetail](r-errordetail.md)
-* [过期时间](r-expiration.md)
+* [過期](r-expiration.md)
 * [FontMapFile](r-fontmapfile.md)
 * [完全匹配](r-fullmatch.md)
 * [HttpAppleStreamingContext](r-httpapplestreamingcontext.md)
@@ -58,7 +57,7 @@ ht-degree: 3%
 * [JpegQuality](r-jpegquality.md)
 * [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
-* [MacroFile](r-macrofile.md)
+* [宏文件](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
@@ -70,21 +69,21 @@ ht-degree: 3%
 * [RootId](r-rootid.md)
 * [RootPath](r-rootpath.md)
 * [RootUrl](r-rooturl.md)
-* [规则集文件](r-rulesetfile.md)
+* [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SynthesizeFontStyles](r-synthesizefontstyles.md)
-* [缩略图BkgColor](r-thumbbkgcolor.md)
-* [缩略图对齐](r-thumbhorizalign.md)
+* [SyntherizationFontStyles](r-synthesizefontstyles.md)
+* [ThumbBkgColor](r-thumbbkgcolor.md)
+* [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
 * [ThumbVertAlign](r-thumbvertalign.md)
 * [时间戳](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
-* [受信任域](r-trusteddomains.md)
+* [TrustedDomains](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [VideoBitRate](r-videobitrate-cat.md)
-* [视频大小](r-videosize-cat.md)
+* [VideoSize](r-videosize-cat.md)
 * [水印](r-watermark.md)
