@@ -2,16 +2,15 @@
 description: ThumbnailGridView.textpos
 solution: Experience Manager
 title: ThumbnailGridView.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a79aa5c7-5691-4695-ac6d-d461ce0b1206
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.textpos{#thumbnailgridview-textpos}
 
@@ -20,8 +19,8 @@ ht-degree: 5%
 <table id="table_1BEBE260769B4A0C9E9F5016D2FA68A0"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bott|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> 指定相对于缩略图图像绘制标签的位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>当指定<span class="codeph"> tooltip</span>时，标签文本将作为浮动工具提示显示在缩略图上。 设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
+   <td> <p> <span class="codeph"> 下|上|左|右|无|工具提示</span> </p> </td> 
+   <td> <p> 指定标签相对于缩略图图像的绘制位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>指定<span class="codeph">工具提示</span>后，标签文本将显示为缩略图上的浮动工具提示。 设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
