@@ -2,18 +2,17 @@
 description: 材料旋转角度。 定义材料的旋转角度。
 solution: Experience Manager
 title: 旋转
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
 
-
-# rotate{#rotate}
+# 旋转{#rotate}
 
 材料旋转角度。 定义材料的旋转角度。
 
@@ -26,17 +25,17 @@ ht-degree: 6%
  </tr> 
 </table>
 
-在应用于平面对象或平面对象时，可重复的纹理材料（不包括壁纸）旋转45度的倍数。
+当应用于“平面对象”或“平面对象”时，可重复的纹理材料（不包括壁纸）旋转45度的倍数。
 
-在应用于“流线”和“草图对象”时，将可重复的纹理材料旋转任意角度。
+在应用于流线和草图对象时，按任意角度旋转可重复纹理材料。
 
-将倾斜体材料旋转任意角度。
+按任意角度旋转倾斜材料。
 
-正角顺时针旋转。 纹理或倾斜体绕锚点旋转(`anchor=`);锚点与目标对象的来源保持一致。
+正角度顺时针旋转。 纹理或倾斜体绕锚点旋转(`anchor=`);锚点与目标对象的源保持一致。
 
 ## 属性 {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-材料属性。 被纯色、墙纸、橱柜和窗口处理材料忽略。 *`angle`* 对于可重复的纹理，必须是45的倍数，除非应用于“流线”或“草绘对象”。
+材料属性。 被纯色、墙纸、机柜和窗口处理材料忽略。 *`angle`* 对于可重复的纹理，必须是45的倍数，除非应用于流线或草图对象。
 
 ## 默认 {#section-14c991e71b74449db8ff18a775949b28}
 
