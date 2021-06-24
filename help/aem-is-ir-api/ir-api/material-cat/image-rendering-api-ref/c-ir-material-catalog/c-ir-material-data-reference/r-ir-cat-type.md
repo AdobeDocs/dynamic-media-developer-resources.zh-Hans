@@ -1,25 +1,24 @@
 ---
-description: 材质类型. 材料的曲面类型。 与目录“光泽”和目录“粗糙度”结合使用，可控制3D反射渲染效果。
+description: 材质类型. 材料的表面类型。 与“目录光泽”和“目录粗糙度”结合使用，以控制3D反射渲染效果。
 solution: Experience Manager
 title: 类型
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 29%
 
 ---
 
-
 # 类型{#type}
 
-材质类型. 材料的曲面类型。 与catalog::Loss and catalog::Ruorency用于控制3D反射渲染效果。
+材质类型. 材料的表面类型。 与目录：：光泽和目录：：粗糙度用于控制3D反射渲染效果。
 
 ## 属性 {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-枚举。 所有材料均为可选。 如果晕影没有3D反射渲染功能，则忽略。
+枚举。 适用于所有材料的可选。 如果晕影没有3D反射渲染功能，则忽略。
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
@@ -36,7 +35,7 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>抛光金属。 </p> </td> 
+  <td class="stentry"> <p>抛光的金属。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
@@ -44,7 +43,7 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>古金属。 </p> </td> 
+  <td class="stentry"> <p>旧金属。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -52,7 +51,7 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>珐琅/漆。 </p> </td> 
+  <td class="stentry"> <p>漆/漆。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
@@ -110,4 +109,4 @@ ht-degree: 29%
 
 ## 另请参阅 {#section-a51850093b7140e683a0f8b07845843c}
 
-[catalog::Loss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [catalog::Ruernence](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[目录：：光泽](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) , [目录：：粗糙度](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99), [类型=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
