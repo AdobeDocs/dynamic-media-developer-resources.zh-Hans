@@ -1,21 +1,20 @@
 ---
-description: 一组元数据。
+description: 元数据数组。
 solution: Experience Manager
-title: MetadataArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+title: 元数据数组
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1833237d-4ef9-4899-8d14-317db350b223
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
 
+# 元数据数组{#metadataarray}
 
-# MetadataArray{#metadataarray}
-
-一组元数据。
+元数据数组。
 
 语法
 
@@ -33,8 +32,7 @@ ht-degree: 16%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 项目</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：元数据</span> </p> </td> 
-   <td colname="col3"> <p>一组元数据。 </p> </td> 
+   <td colname="col3"> <p>元数据数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
