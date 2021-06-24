@@ -1,37 +1,36 @@
 ---
-description: 用于视频图像查看器的JavaScript API参考。
+description: 视频图像查看器的JavaScript API引用。
 solution: Experience Manager
 title: 处置
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: Developer,Business Practitioner
 exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
-# dispose{#dispose}
+# 处置{#dispose}
 
-用于视频图像查看器的JavaScript API参考。
+视频图像查看器的JavaScript API引用。
 
 `dispose()`
 
-通过释放查看器逻辑使用的所有资源并删除查看器在运行时创建的所有内部对象和组件，来显示此查看器实例。
+通过释放查看器逻辑使用的所有资源并删除查看器在运行时创建的所有内部对象和组件来处置此查看器实例。
 
-网页代码还应删除查看器实例变量，并从Web浏览器内存中完全删除查看器。
+网页代码还应删除查看器实例变量，以便从Web浏览器内存中完全删除查看器。
 
-如果网页代码已在查看器SDK组件上直接注册了事件侦听器，或存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式地取消注册，并且必须在调用`dispose()`之前删除此类外部组件引用。
+如果网页代码已在查看器SDK组件上直接注册了事件侦听器，则查看器SDK组件会使用该事件侦听器，或者存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册，并且必须在调用`dispose()`之前删除此类外部组件引用。
 
-在调用`dispose()`后，不再访问查看器API。
+调用`dispose()`后，请勿再访问查看器API。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 无。
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 
