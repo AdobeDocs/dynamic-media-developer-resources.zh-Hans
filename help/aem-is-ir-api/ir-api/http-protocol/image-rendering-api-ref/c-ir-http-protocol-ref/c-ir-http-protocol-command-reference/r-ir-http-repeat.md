@@ -2,16 +2,15 @@
 description: 纹理重复模式。 指定可重复纹理材料的重复模式。
 solution: Experience Manager
 title: 重复
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 16%
 
 ---
-
 
 # 重复{#repeat}
 
@@ -22,7 +21,7 @@ ht-degree: 16%
 <table id="simpletable_0D54E62EAF50482A95EDE166D0645D9E"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>直的重复。 </p> </td> 
+  <td class="stentry"> <p>直接重复。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -30,15 +29,15 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>8向随机拼贴。 </p> </td> 
+  <td class="stentry"> <p>八向随机拼贴。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>钻石拼贴。 </p> </td> 
+  <td class="stentry"> <p>钻石缝。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>四分之一的壁纸挂着。 </p> </td> 
+  <td class="stentry"> <p>四分之一落的壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -54,15 +53,15 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>反向壁纸挂起。 </p> </td> 
+  <td class="stentry"> <p>反向壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>随机壁纸挂起。 </p> </td> 
+  <td class="stentry"> <p>随机壁纸挂着。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>随机丢弃。 </p> </td> 
+  <td class="stentry"> <p>随机投放。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
@@ -78,11 +77,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>标准随机化器。 </p> </td> 
+  <td class="stentry"> <p>标准随机化。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>高频随机器。 </p> </td> 
+  <td class="stentry"> <p>高频随机化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
@@ -90,7 +89,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>水平随机化器。 </p> </td> 
+  <td class="stentry"> <p>水平随机化。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
@@ -98,20 +97,20 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>边缘随机化器。 </p> </td> 
+  <td class="stentry"> <p>边缘随机。 </p> </td> 
  </tr> 
 </table>
 
-随机镶边模式(14...18)可用于从不容易重复的图像合成纹理；该算法将根据原始图像创建完全随机或部分随机的纹理。
+随机拼合模式(14...18)可用于从不易重复的图像合成纹理；算法将根据原始图像创建完全随机或部分随机的纹理。
 
 ## 属性 {#section-262bf540930d4890b678ea00cefe1909}
 
-材料属性。 被纯色、倾斜和机柜材料忽略。
+材料属性。 被实色、贴心和机柜材料忽略。
 
 ## 默认 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，如果材料基于目录条目，则为 `0` “直线重复”。
+`catalog::Repeat`，如果材料基于目录条目，则 `0` 不会（直重复）。
 
 ## 另请参阅 {#section-ac99113b64654d75a3a86e41db546269}
 
-[catalog::Repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
+[目录：:Repeat](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
