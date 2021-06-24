@@ -1,21 +1,20 @@
 ---
-description: 生成属性的数组。
+description: 层代属性的数组。
 solution: Experience Manager
 title: GenerationInfoArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 500a4ba3-57f1-4b51-afe3-91885be13d98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # GenerationInfoArray{#generationinfoarray}
 
-生成属性的数组。
+层代属性的数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:GenerationInfo` | 生成属性的数组。 |
-
+| `*`项目`*` | `types:GenerationInfo` | 层代属性的数组。 |
