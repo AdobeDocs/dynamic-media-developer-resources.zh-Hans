@@ -1,25 +1,24 @@
 ---
-description: 删除属性集和所有关联属性。
+description: 删除属性集和所有关联的属性。
 solution: Experience Manager
 title: deletePropertySet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 72429030-200d-4e13-a537-10a728998a26
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 12%
 
 ---
 
-
 # deletePropertySet{#deletepropertyset}
 
-删除属性集和所有关联属性。
+删除属性集和所有关联的属性。
 
 语法
 
-## 授权用户类型{#section-b54aa8c854de400a989b4957412ff42c}
+## 授权用户类型 {#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 12%
 
 **输出(deletePropertySetParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-此代码示例将集的句柄用作发送到IPS Web服务器的`deletePropertySetParam`中的字段，以删除属性集。
+此代码示例将集的句柄用作发送到IPS Web服务服务器的`deletePropertySetParam`中的字段，以删除属性集。
 
 **请求**
 
