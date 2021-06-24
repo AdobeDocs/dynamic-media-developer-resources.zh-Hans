@@ -1,21 +1,20 @@
 ---
-description: 应用于所有缩略图的图像服务命令字符串。
+description: 应用于所有缩略图的图像提供命令字符串。
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
 
-
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-应用于所有缩略图的图像服务命令字符串。
+应用于所有缩略图的图像提供命令字符串。
 
 ` [FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果在URL中指定，则<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> </td> 
+   <td colname="col2"> <p> 如果在URL中指定，则所有出现的<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>都必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
