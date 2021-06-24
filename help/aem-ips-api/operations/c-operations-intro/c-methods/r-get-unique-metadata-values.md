@@ -1,25 +1,24 @@
 ---
-description: 获取唯一元数据字段值。
+description: 获取唯一的元数据字段值。
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
 
-
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-获取唯一元数据字段值。
+获取唯一的元数据字段值。
 
 语法
 
-## 授权用户类型{#section-6a6b67e10a4c4e7bb18306115713380e}
+## 授权用户类型 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
 | `*`fieldHandle`*` | `xsd:string` | 否 | 处理元数据字段。 |
 
-**输出(getUniqueMetadataValuesReturn)**
+**Output(getUniqueMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -46,7 +45,7 @@ ht-degree: 24%
 
 ## 示例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-此代码示例使用字段句柄返回特定的元数据值。
+此代码示例使用字段句柄返回特定元数据值。
 
 **请求**
 
@@ -66,4 +65,3 @@ ht-degree: 24%
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
