@@ -2,13 +2,12 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -22,8 +21,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐（或锚定）。 </p> <p>在行动动员中，内部缩略图容器会调整为大小，因此只显示整个数量的缩略图。 因此，内部容器和外部组件边界之间存在一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
+   <td colname="col2"> <p> 在组件区域中指定缩览图容器的内部水平对齐（或锚点）。 </p> <p>在行动动员中，内部缩略图容器的大小可调整为仅显示整数缩略图。 因此，内部容器与外部组件范围之间存在一些内边距。 </p> <p>此修饰符指定内部缩略图容器在组件内的水平放置方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
