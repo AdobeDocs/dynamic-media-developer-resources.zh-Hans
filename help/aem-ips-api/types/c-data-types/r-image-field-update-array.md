@@ -1,21 +1,20 @@
 ---
-description: 图像字段的数组更新。
+description: 更新了图像字段数组。
 solution: Experience Manager
 title: ImageFieldUpdateArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
-
 # ImageFieldUpdateArray{#imagefieldupdatearray}
 
-图像字段的数组更新。
+更新了图像字段数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 18%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:ImageFieldUpdate` | 图像字段更新的数组。 |
-
+| `*`项目`*` | `types:ImageFieldUpdate` | 图像字段的数组更新。 |
