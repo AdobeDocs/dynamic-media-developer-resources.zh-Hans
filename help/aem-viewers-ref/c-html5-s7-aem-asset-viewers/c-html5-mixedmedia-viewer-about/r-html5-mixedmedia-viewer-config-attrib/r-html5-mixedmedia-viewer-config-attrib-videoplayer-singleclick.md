@@ -2,16 +2,15 @@
 description: VideoPlayer.singleclick
 solution: Experience Manager
 title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2ec6d871-05d9-4d85-b031-e64386f5d2e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 5%
 
 ---
-
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 配置单击/点按以切换播放/暂停的映射。 设置为<span class="codeph"> none</span>将禁用单击/点按以播放/暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，<span class="codeph"> singlick</span>行为被禁用。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按的映射以切换播放/暂停。 将设置为<span class="codeph"> none</span>会禁用单击/点按播放/暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，<span class="codeph"> singleclick</span>行为被禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
