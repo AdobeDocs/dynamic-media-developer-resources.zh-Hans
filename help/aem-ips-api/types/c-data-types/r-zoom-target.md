@@ -2,16 +2,15 @@
 description: 缩放目标的属性。
 solution: Experience Manager
 title: 缩放目标
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # 缩放目标{#zoomtarget}
 
@@ -31,5 +30,4 @@ ht-degree: 14%
 | `*`height`*` | `xsd:int` | 缩放目标高度。 |
 | `*`用户数据`*` | `xsd:string` | 与缩放目标关联的用户数据。 |
 | `*`position`*` | `xsd:int` | 允许根据位置对与资产关联的缩放目标进行排序 |
-| `*`lastModified`*` | `xsd:dateTime` | 上次修改的日期。 |
-
+| `*`lastModified`*` | `xsd:dateTime` | 上次修改日期。 |
