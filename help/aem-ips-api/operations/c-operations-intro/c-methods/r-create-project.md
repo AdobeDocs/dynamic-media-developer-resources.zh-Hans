@@ -2,16 +2,15 @@
 description: 创建新项目。
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 18%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 语法
 
-## 授权用户类型{#section-17878e2e4c3a44988c9a1af82c2ac319}
+## 授权用户类型 {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -61,4 +60,3 @@ ht-degree: 18%
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
