@@ -2,16 +2,15 @@
 description: 更新资产权限。
 solution: Experience Manager
 title: updateAssetPermissons
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 20%
+source-wordcount: '61'
+ht-degree: 21%
 
 ---
-
 
 # updateAssetPermissons{#updateassetpermissons}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-3928e9badc3842e1859af4ed362df719}
+## 授权用户类型 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +30,13 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 要应用于资产的权限。 |
 
-**输出(updateAssetPermissionsReturn)**
+**Output(updateAssetPermissionsReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
