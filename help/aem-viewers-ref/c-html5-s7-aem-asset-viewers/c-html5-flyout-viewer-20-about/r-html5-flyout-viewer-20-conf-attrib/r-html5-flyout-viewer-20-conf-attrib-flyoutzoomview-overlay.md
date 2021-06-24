@@ -2,16 +2,15 @@
 description: FlyoutZoomView.overlay
 solution: Experience Manager
 title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
-
 
 # FlyoutZoomView.overlay{#flyoutzoomview-overlay}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 控制弹出处于活动状态时的主视图高亮外观。 当设置为<span class="codeph"> 0</span>时，将使用<span class="codeph"> .s7highlight</span>或<span class="codeph"> .s7cursor</span> CSS类名称（取决于<span class="codeph"> highlightmode</span>修饰符的值）提供的样式高亮显示弹出窗口中当前可见的区域。 当设置为<span class="codeph"> 1</span>组件时，进入“反向”模式，其中当前查看的区域为完全透明（如果<span class="codeph"> highlightmode</span>设置为<span class="codeph"> highlight</span>）或使用<span class="codeph"> .s7cursor</span> CSS类名称设置样式（如果<span class="codeph"> highlightmode</span>设置为<span class="codeph"> cursor</span>），但使用<span class="codeph"> .s7overlay</span> CSS类名提供的样式填充周围区域。 </p> </td> 
+   <td colname="col2"> <p> 控制弹出窗口处于活动状态时的主视图高亮显示外观。 当设置为<span class="codeph"> 0</span>时，弹出窗口中当前可见的区域将使用<span class="codeph"> .s7highlight</span>或<span class="codeph"> .s7cursor</span> CSS类名称（取决于<span class="codeph"> highlightmode</span>修饰符的值）提供的样式高亮显示。 当设置为<span class="codeph"> 1</span>组件进入“反向”模式时，当前查看的区域要么完全透明（如果设置为<span class="codeph"> highlightmode</span>，则设置为<span class="codeph"> highlight</span>），要么设置为<span class="codeph"> .s7cursor</span> CSS类名称（如果设置为<span class="codeph"> highlightmode</span>，则设置为<span class="codeph"></span>），但周围区域使用<span class="codeph">叠加提供的样式填充CSS类名称。</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
