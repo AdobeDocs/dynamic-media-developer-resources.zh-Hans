@@ -2,16 +2,15 @@
 description: 视频查看器的配置属性。
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
-
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 禁用或启用视频章节标签的标题栏。 禁用标题栏时，章节开始时间不显示。 </p> </td> 
+   <td colname="col2"> <p> 禁用或启用视频章节标签的标题栏。 禁用标题栏时，不会显示章节开始时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 9%
 ```
 showchaptertitle=0
 ```
-
