@@ -2,16 +2,15 @@
 description: 创建图像格式。
 solution: Experience Manager
 title: saveImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: cafbd715-237b-4454-920e-643f0c84e208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 11%
 
 ---
-
 
 # saveImageFormat{#saveimageformat}
 
@@ -21,7 +20,7 @@ ht-degree: 11%
 >
 >`urlModifier`字段值必须由有效的XML组成。 例如，将`&`更改为`&`。 从IPS用户界面获取`urlModfier`值。
 
-## 授权用户类型{#section-12c9d8d5933f4692bafb194060b4f882}
+## 授权用户类型 {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,10 +33,10 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 使用要处理的图像格式的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要处理的图像格式的公司句柄。 |
 | `*`imageFormatHandle`*` | `xsd:string` | 否 | 要保存的图像格式句柄。 |
 | `*`name`*` | `xsd:string` | 是 | 图像格式名称。 |
-| `*`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建URL修饰符，然后剪切并粘贴查询字符串。 |
+| `*`urlModifier`*` | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建一个，然后剪切并粘贴查询字符串。 |
 
 **输出(saveImageFormatReturn)**
 
@@ -47,7 +46,7 @@ ht-degree: 11%
 
 ## 示例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此代码示例创建图像格式。 在此示例中，`urlModifier`由其在IPS用户界面中的值决定，其格式为有效的HTML格式。
+此代码示例创建图像格式。 在此示例中，`urlModifier`由IPS用户界面中具有有效HTML格式的值决定。
 
 **请求**
 
@@ -68,4 +67,3 @@ ht-degree: 11%
    <imageFormatHandle>47|301</imageFormatHandle> 
 </saveImageFormatReturn>
 ```
-
