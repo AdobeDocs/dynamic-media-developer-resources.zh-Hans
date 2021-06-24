@@ -1,21 +1,20 @@
 ---
-description: 字体字段更新的数组。
+description: 字体字段数组已更新。
 solution: Experience Manager
 title: FontFieldUpdateArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
-
 # FontFieldUpdateArray{#fontfieldupdatearray}
 
-字体字段更新的数组。
+字体字段数组已更新。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 17%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:FontFieldUpdate` | 字体字段中的项更新数组。 |
-
+| `*`项目`*` | `types:FontFieldUpdate` | 字体字段更新数组中的项目。 |
