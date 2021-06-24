@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: feef9531-043c-44b6-a768-9f7f5b4aed71
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切换后，滚动按钮会自动导致色板跳转整页长度。 </p> <p>如果色板不适合，则最后一页上会显示额外的空白。 此外，最后一页的单元格数量与前一页相同。 </p> <p>将忽略scrollstep，并且鼠标滚动仅在整个页面上完成。 </p> </td> 
+   <td colname="col2"> <p> 切换后，滚动按钮会自动导致色板跳转整个页面长度。 </p> <p>如果色板不适合，则会在最后一页显示额外的空格。 此外，最后一页的单元格数量与上一页相同。 </p> <p>将忽略滚动步骤，并且鼠标滚动仅在完整页面上完成。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
