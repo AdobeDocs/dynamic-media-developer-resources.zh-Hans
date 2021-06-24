@@ -2,16 +2,15 @@
 description: 返回由公司句柄指定的公司的用户。
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
-
 
 # getCompanyMembers{#getcompanymembers}
 
@@ -19,7 +18,7 @@ ht-degree: 16%
 
 语法
 
-## 授权用户类型{#section-b2bc2fa0cc944cea8be82524838307cc}
+## 授权用户类型 {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,17 +32,17 @@ ht-degree: 16%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 要获取其成员的公司的句柄。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 是 | 包含无效公司。 |
+| `*`includeInvalid`*` | `xsd:boolean` | 是 | 包括无效公司。 |
 
-**输出(getCompanyMembersReturn)**
+**Output(getCompanyMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员数组。 |
+| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员资格数组。 |
 
 ## 示例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-此代码示例返回用户数组中公司的所有成员。 响应被截断，以致简短。
+此代码示例可返回用户数组中公司的所有成员。 响应已被截断，以便简短。
 
 **请求**
 
@@ -72,4 +71,3 @@ ht-degree: 16%
    </memberArray>
 </getCompanyMembersReturn>
 ```
-
