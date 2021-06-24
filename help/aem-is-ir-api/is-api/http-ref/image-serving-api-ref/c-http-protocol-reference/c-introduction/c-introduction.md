@@ -1,20 +1,19 @@
 ---
-description: 本文档介绍Dynamic Media图像服务的HTTP协议。
+description: 本文档介绍了用于Dynamic Media图像服务的HTTP协议。
 solution: Experience Manager
 title: 简介
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: de95ace6-31e4-4065-8c82-f190a79e911d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 3%
 
 ---
 
-
 # 简介{#introduction}
 
-本文档介绍Dynamic Media图像服务的HTTP协议。
+本文档介绍了用于Dynamic Media图像服务的HTTP协议。
 
-仅描述了该协议的公开可用方面。 服务器可能支持其他命令，这些命令保留供Dynamic Media客户端软件使用。
+只描述了协议的公开可用方面。 服务器可能支持其他命令，这些命令保留供Dynamic Media客户端软件使用。
