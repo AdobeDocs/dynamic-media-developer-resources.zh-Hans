@@ -2,16 +2,15 @@
 description: 默认对象分辨率。 提供默认对象分辨率，以防特定目录记录不包含有效的目录分辨率值。
 solution: Experience Manager
 title: 分辨率
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
-
 
 # 分辨率{#resolution}
 
@@ -23,8 +22,8 @@ ht-degree: 6%
 
 ## 默认 {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-如果未定义或为空，则从`default::Resolution`继承。
+从`default::Resolution`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-dffa1f318fd84833b74d08d09c24c974}
 
-[catalog::Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)
+[目录：:Resolution](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1)
