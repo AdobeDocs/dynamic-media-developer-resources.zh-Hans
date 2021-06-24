@@ -1,21 +1,20 @@
 ---
-description: 使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+description: 焦点查看器用户界面元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
 solution: Experience Manager
 title: 焦点突出显示
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# 焦点高亮{#focus-highlight}
+# 焦点突出显示{#focus-highlight}
 
-使用CSS类选择器控制在聚焦的查看器用户界面元素周围显示的输入焦点突出显示。
+焦点查看器用户界面元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +36,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 大纲  </span> </p> </td> 
-   <td colname="col2"> <p>焦点高亮样式。 </p> </td> 
+   <td colname="col2"> <p>焦点突出显示样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
