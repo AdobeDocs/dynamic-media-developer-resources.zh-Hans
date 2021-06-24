@@ -2,16 +2,15 @@
 description: 显示重叠对象。 指定应最初显示还是隐藏重叠对象。
 solution: Experience Manager
 title: ShowOverlapObjs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 6%
 
 ---
-
 
 # ShowOverlapObjs{#showoverlapobjs}
 
@@ -23,4 +22,4 @@ ht-degree: 6%
 
 ## 默认 {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-如果未定义或为空，则从`default::ShowOverlapObjs`继承。
+从`default::ShowOverlapObjs`继承（如果未定义或为空）。
