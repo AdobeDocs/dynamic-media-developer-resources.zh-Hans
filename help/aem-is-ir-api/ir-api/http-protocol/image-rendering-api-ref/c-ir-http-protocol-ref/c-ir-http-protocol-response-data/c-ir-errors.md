@@ -1,30 +1,29 @@
 ---
-description: 如果请求无法成功完成，服务器将返回错误图像或200以外的HTTP响应状态，并返回错误消息。
+description: 如果请求无法成功完成，则服务器将返回错误图像或HTTP响应状态（200以外），并同时返回错误消息。
 solution: Experience Manager
 title: 错误
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e45e3968-3659-470b-a88a-fe7ba73d8207
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
 
-
 # 错误{#errors}
 
-如果请求无法成功完成，服务器将返回错误图像或200以外的HTTP响应状态，并返回错误消息。
+如果请求无法成功完成，则服务器将返回错误图像或HTTP响应状态（200以外），并同时返回错误消息。
 
-响应状态值取决于错误的类型；对于大多数常见错误，它为“403”。 非图像请求类型的错误响应符合使用`req=`指定的格式。 （此时可能不能一致实现。）
+响应状态值取决于错误的类型；对于最常见的错误，为“403”。 非图像请求类型的错误响应符合使用`req=`指定的格式。 （此时可能无法始终如一地实施。）
 
-包含在错误消息中的详细信息量可配置为`attribute::ErrorDetail`。
+错误消息中包含的详细信息量可配置为`attribute::ErrorDetail`。
 
 **错误图像**
 
-可以将图像服务配置为返回呈现到图像中的错误消息。 有关详细信息，请参阅图像目录参考中的`attribute::ErrorImage`。 如果成功生成错误图像，则HTTP响应状态为200。 如果处理错误图像时发生错误，则标准HTTP错误响应和文本消息将返回给客户端。
+可以将图像提供配置为返回呈现到图像中的错误消息。 有关详细信息，请参阅图像目录引用中的`attribute::ErrorImage` 。 如果成功生成错误图像，则HTTP响应状态为200。 如果处理错误图像时出错，则标准HTTP错误响应和文本消息将返回给客户端。
 
 **另请参阅**
 
-[attribute:::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) ,  [attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attribute::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) ,  [attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
