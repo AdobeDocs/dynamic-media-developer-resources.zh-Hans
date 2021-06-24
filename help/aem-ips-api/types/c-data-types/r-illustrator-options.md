@@ -1,17 +1,16 @@
 ---
 description: Adobe Illustrator文件的选项。
 solution: Experience Manager
-title: Illustrator选项
-feature: Dynamic Media Classic,SDK/API
+title: IllustratorOptions
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -24,7 +23,6 @@ Adobe Illustrator文件的选项。
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`进度`*` | `xsd:string` | 选择Illustrator流程。 |
-| `*`分辨率`*` | `xsd:string` | 文件分辨率。 |
+| `*`resolution`*` | `xsd:string` | 文件解析。 |
 | `*`colorSpace`*` | `xsd:string` | 目标色彩空间。 |
-| `*`alpha`*` | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，则创建透明背景（如果以此方式定义原始文件以创建叠加徽标）。 |
-
+| `*`alpha`*` | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 |
