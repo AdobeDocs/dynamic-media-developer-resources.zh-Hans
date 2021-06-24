@@ -1,21 +1,20 @@
 ---
-description: 支持以下段落格式设置命令。
+description: 支持以下段落格式命令。
 solution: Experience Manager
 title: 段落格式
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
 
-
 # 段落格式{#paragraph-formatting}
 
-支持以下段落格式设置命令。
+支持以下段落格式命令。
 
 <table id="table_5DD044E1C0614A29A2413557DF57197D"> 
  <thead> 
@@ -29,7 +28,7 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \pard  </span> </td> 
    <td> <p>将段落格式重置为默认值。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅限 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ql  </span> </td> 
@@ -43,53 +42,53 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qc  </span> </td> 
-   <td> <p>水平居中。 </p> </td> 
+   <td> <p>水平居中显示文本。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qj  </span> </td> 
    <td> <p>水平对齐文本。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅限 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastql  </span> </td> 
    <td> <p>左对齐段落的最后一行。 </p> </td> 
-   <td> <p>默认；<span class="codeph"> textPs= </span>;如果<span class="codeph"> \qj </span>不活动，则忽略。 </p> </td> 
+   <td> <p>默认；仅<span class="codeph"> textPs= </span>;如果<span class="codeph"> \qj </span>不活动，则忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr  </span> </td> 
-   <td> <p>右对齐两端对齐段落的最后一行。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj不 </span> 处于活动状态，则忽略。 </p> </td> 
+   <td> <p>右对齐两端对齐的段落的最后一行。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj </span> 未处于活动状态，则忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqc  </span> </td> 
-   <td> <p>居中对齐段落的最后一行。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj不 </span>处于活动状态，则忽略。 </p> </td> 
+   <td> <p>将正确段落的最后一行居中。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj </span>未处于活动状态，则忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj  </span> </td> 
-   <td> <p>对两端对齐的段落的最后一行进行延伸。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj不 </span>处于活动状态，则忽略。 </p> </td> 
+   <td> <p>为正确段落的最后一行加以保留（延伸）。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;如果\ <span class="codeph"> qj </span>未处于活动状态，则忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi  <span class="varname"> N  </span> </span> </td> 
    <td> <p>首行缩进。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph">文本Ps= </span>。 </p> </td> 
+   <td> <p>扭曲；仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \li  <span class="varname"> N  </span> </span> </td> 
    <td> <p>左缩进。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph">文本Ps= </span>。 </p> </td> 
+   <td> <p>扭曲；仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ri  <span class="varname"> n  </span> </span> </td> 
+   <td> <span class="codeph"> \ri  <span class="varname"> N  </span> </span> </td> 
    <td> <p>右缩进。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph">文本Ps= </span>。 </p> </td> 
+   <td> <p>扭曲；仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sl  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>行间间距。 </p> </td> 
-   <td> <p>0（默认）用于自动行间距；值为正值时，仅在大于默认行间距时使用值；为负值以强制间距。 </p> </td> 
+   <td> <p>行间距。 </p> </td> 
+   <td> <p>0（默认）用于自动行间距；正值，以仅在大于默认行距时使用值；为负值以强制间距。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult  <span class="varname"> n  </span> </span> </td> 
@@ -98,14 +97,13 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sb  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>段落前有额外空格。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> text= </span>将<span class="codeph"> \sb </span>应用于文本框中的第一个段落，<span class="codeph"> textPs= </span>则不应用。 </p> </td> 
+   <td> <p>段前有额外的空格。 </p> </td> 
+   <td> <p>扭曲；<span class="codeph"> text= </span>将<span class="codeph"> \sb </span>应用于文本框中的第一段，<span class="codeph"> textPs= </span>则不适用。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sa  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>段落后有额外空格。 </p> </td> 
-   <td> <p>扭曲；<span class="codeph"> text= </span>将<span class="codeph"> \sa </span>应用于文本框中的最后一个段落，<span class="codeph"> textPs= </span>则不适用。 </p> </td> 
+   <td> <p>段落后附加空格。 </p> </td> 
+   <td> <p>扭曲；<span class="codeph"> text= </span>对文本框中的最后一个段落应用<span class="codeph"> \sa </span>,<span class="codeph"> textPs= </span>则不适用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
