@@ -2,14 +2,13 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用或禁用交互式色板与每个媒体过渡（如在视频播放期间）自动滚动的功能。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用交互式色板随每个媒体过渡自动滚动的功能，例如在视频播放期间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
