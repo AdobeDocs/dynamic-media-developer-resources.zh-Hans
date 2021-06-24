@@ -2,22 +2,21 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 22%
+source-wordcount: '90'
+ht-degree: 23%
 
 ---
-
 
 # getPublishContexts{#getpublishcontexts}
 
 语法
 
-## 授权用户类型{#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 授权用户类型 {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -56,16 +55,16 @@ ht-degree: 22%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 处理公司。 </td> 
+   <td colname="col4"> 对公司负责。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的发布上下文的类型。 包括： 
+   <td colname="col4">要返回的发布上下文类型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> 图像服务</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 图像渲染</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 视频</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
     </ul></td> 
@@ -73,11 +72,11 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-**输出(getPublishContextsReturn)**
+**Output(getPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据上下文类型过滤（如果需要）。 |
+| `*`publishContextArray`*` | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据需要按上下文类型过滤。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
@@ -117,4 +116,3 @@ ht-degree: 22%
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-
