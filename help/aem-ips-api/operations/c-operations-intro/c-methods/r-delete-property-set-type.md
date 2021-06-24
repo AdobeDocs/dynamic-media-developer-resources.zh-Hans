@@ -2,16 +2,15 @@
 description: 删除属性集类型及其关联的属性集和属性。
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
-
 
 # deletePropertySetType{#deletepropertysettype}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 语法
 
-## 授权用户类型{#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 授权用户类型 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 11%
 
 **输出(deletePropertySetTypeParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-此代码示例将类型的句柄用作发送到IPS Web服务器的`deletePropertySetTypeParam`中的字段，以删除属性集类型。
+此代码示例将类型的句柄用作发送到IPS Web服务服务器的`deletePropertySetTypeParam`中的字段，以删除属性集类型。
 
 **请求**
 
