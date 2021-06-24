@@ -2,14 +2,13 @@
 description: 所有查看器通用的参数。
 solution: Experience Manager
 title: config2
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic，查看器，SDK/API
 role: Developer,Business Practitioner
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
