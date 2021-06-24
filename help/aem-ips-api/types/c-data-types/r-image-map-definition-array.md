@@ -1,21 +1,20 @@
 ---
-description: 图像映射定义的数组。
+description: 图像映射定义数组。
 solution: Experience Manager
 title: ImageMapDefinitionArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6c1bc0b4-6e81-421c-956b-2394f32350be
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 18%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
-
 # ImageMapDefinitionArray{#imagemapdefinitionarray}
 
-图像映射定义的数组。
+图像映射定义数组。
 
 语法
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`项目`*` | `types:ImageMapDefinition` | 图像映射定义的数组。 |
-
