@@ -2,16 +2,15 @@
 description: 更新SWF查看器配置设置。
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic，SDK/API，查看器预设
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 13%
 
 ---
-
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 语法
 
-## 授权用户类型{#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## 授权用户类型 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,10 +31,10 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 要应用到查看器的配置设置的数组。 |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 是 | 要应用于查看器的配置设置的数组。 |
 
-**输出(updateViewerConfigSettingsReturn)**
+**Output(updateViewerConfigSettingsReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
