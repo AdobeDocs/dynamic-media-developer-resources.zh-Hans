@@ -2,16 +2,15 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '69'
+ht-degree: 10%
 
 ---
-
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
@@ -20,12 +19,12 @@ ht-degree: 9%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无</span> </p> </td> 
-   <td colname="col2"> <p> 指定在资产更改时应用于主视图的效果的类型。 <span class="codeph"> none</span>表示无过渡，主视图更改会立即发生。 <span class="codeph">淡入淡出</span>激活交叉淡出过渡，其中旧图像淡出，新图像淡入 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|渐隐</span> </p> </td> 
+   <td colname="col2"> <p> 指定资产更改时应用于主视图的效果类型。 <span class="codeph"> none</span>表示没有过渡，主视图会立即发生更改。 <span class="codeph">渐隐</span>激活交叉渐隐过渡，即旧图像淡出，新图像淡入 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
-   <td colname="col2"> <p> 动画完成所需的秒数。 </p> </td> 
+   <td colname="col2"> <p> 动画完成所用的秒数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
