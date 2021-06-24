@@ -1,25 +1,24 @@
 ---
-description: Video360查看器的JavaScript API参考。
+description: Video360查看器的JavaScript API引用。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 4%
 
 ---
 
 # setAsset{#setasset}
 
-Video360查看器的JavaScript API参考。
+Video360查看器的JavaScript API引用。
 
 `setAsset(asset)`
 
-设置新资产。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用它，则查看器在运行时交换资产。
+设置新资产。 您可以在`init()`之前或之后随时调用此参数。 如果在`init()`之后调用，则查看器在运行时会交换资产。
 
 另请参阅[init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
@@ -27,12 +26,12 @@ Video360查看器的JavaScript API参考。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字符串</span>}新资产ID。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字符串</span>}个新资产ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 
