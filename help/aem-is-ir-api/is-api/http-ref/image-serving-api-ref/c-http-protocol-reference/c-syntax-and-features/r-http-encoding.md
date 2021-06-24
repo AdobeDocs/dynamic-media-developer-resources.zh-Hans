@@ -1,23 +1,22 @@
 ---
-description: 命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&”和“%”。
+description: 命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&”和“%”。
 solution: Experience Manager
-title: 图像服务HTTP编码
-feature: Dynamic Media Classic,SDK/API
+title: 图像提供HTTP编码
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 22%
 
 ---
 
+# 图像提供HTTP编码{#image-serving-http-encoding}
 
-# 图像服务HTTP编码{#image-serving-http-encoding}
+命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&amp;”和“%”。
 
-命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&amp;”和“%”。
-
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由&quot;%&quot;符号组成，后跟字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点有：
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由“%”符号组成，后跟该字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点包括：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -29,7 +28,7 @@ ht-degree: 22%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>空格 </p> </td> 
+   <td colname="col1"> <p>空间 </p> </td> 
    <td colname="col2"> <p>20 </p> </td> 
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
@@ -145,7 +144,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>78 </p> </td> 
+   <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
@@ -155,7 +154,7 @@ ht-degree: 22%
   <tr> 
    <td colname="col1"> <p>= </p> </td> 
    <td colname="col2"> <p>三维 </p> </td> 
-   <td colname="col3"> <p>81 </p> </td> 
+   <td colname="col3"> <p>61 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>? </p> </td> 
@@ -174,14 +173,14 @@ ht-degree: 22%
 
 `…&$text=rate&weight=85% 27#&…`
 
-如果未应用模糊处理，则上述请求片段必须按照以下方式进行编码：
+如果未应用模糊处理，则必须按如下方式编码上述请求片段：
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-如果应用了模糊处理，则编码可以限制为删除“=”、“&amp;”和“%”字符：
+如果应用模糊处理，则编码可限制为删除“=”、“&amp;”和“%”字符：
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## 另请参阅 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[请求模糊](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)化 [,HTTP/1.1规范(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[请求模糊处理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1规范(RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
