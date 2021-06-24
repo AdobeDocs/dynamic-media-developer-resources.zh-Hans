@@ -1,21 +1,20 @@
 ---
-description: 翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
+description: 翻转图层。 在应用crop=和rotate=和extend=之前，水平、垂直或两者翻转图层。
 solution: Experience Manager
 title: 翻转
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
+# 翻转{#flip}
 
-# flip{#flip}
-
-翻转图层。 在应用crop=后和rotate=和extend=前，水平、垂直或两者翻转图层。
+翻转图层。 在应用crop=和rotate=和extend=之前，水平、垂直或两者翻转图层。
 
 `flip=lr|ud|lrud`
 
@@ -34,17 +33,17 @@ ht-degree: 3%
  </tr> 
 </table>
 
-也可应用于文本图层。
+也可以应用于文本层。
 
-选择`layer=comp`时，某些命令（包括`extend=`）隐式应用于图层0而不是复合图层。 在这种情况下，自动分配给层0的所有命令将在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
+选择`layer=comp`时，某些命令（包括`extend=`）会隐式应用到层0而不是复合层。 在这些情况下，自动分配给层0的所有命令都将在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，在`flip=`之前应用`extend=`。
 
 >[!NOTE]
 >
->翻转的图层基于图层锚点定位；当锚点不位于图层中心时，不同的flip=值将导致不同的图层位置。
+>翻转层基于层锚定；当锚点不在层的中心时，不同flip=值将导致不同的层位置。
 
 ## 属性 {#section-294da2af7be746b5adfc35e29ee68217}
 
-图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果图层忽略。
+层命令。 应用于当前层或复合图像（如果`layer=comp`）。 被效果层忽略。
 
 ## 默认 {#section-502044f81a89492198d5f12a738459ea}
 
