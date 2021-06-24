@@ -2,16 +2,15 @@
 description: 回复图像大小限制。 可返回给客户端的最大回复图像宽度和高度。
 solution: Experience Manager
 title: MaxPix
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
-
 
 # MaxPix{#maxpix}
 
@@ -21,12 +20,12 @@ ht-degree: 3%
 
 ## 属性 {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
-两个大于0的整数，用逗号分隔。 宽度和高度（以像素为单位）。 也可设置为0,0以允许任意回复图像大小，且不受限制。
+两个大于0的整数，用逗号分隔。 宽度和高度（以像素为单位）。 也可以将设置为0,0以允许任何无限制的回复图像大小。
 
 ## 默认 {#section-45b38dc661854d11b97df5709f4f3434}
 
-从默认继承：:MaxPix（如果未定义或为空）。
+从默认值继承：:MaxPix（如果未定义或为空）。
 
 ## 另请参阅 {#section-09cddedde91f43b1ac5828f7e3327c6a}
 
-[wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec) , [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478)
+[wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec) ,  [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478)
