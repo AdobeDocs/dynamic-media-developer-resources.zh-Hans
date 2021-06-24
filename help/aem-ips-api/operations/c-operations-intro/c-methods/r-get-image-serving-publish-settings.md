@@ -1,25 +1,24 @@
 ---
-description: 仅供内部使用。 用户应参阅图像服务图像目录参考 — 属性参考部分。
+description: 仅供内部使用。 用户应该参阅图像提供图像目录引用 — 属性引用一节。
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
-
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-仅供内部使用。 用户应参阅图像服务图像目录参考 — 属性参考部分。
+仅供内部使用。 用户应该参阅图像提供图像目录引用 — 属性引用一节。
 
 语法
 
-## 授权用户类型{#section-49b7b277ba1748499121a0e90996458c}
+## 授权用户类型 {#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,4 +39,3 @@ ht-degree: 14%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`publishSettingArray`*` | `xsd:string` | 是 | 图像服务器发布设置的数组。 |
-
