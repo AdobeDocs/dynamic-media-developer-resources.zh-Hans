@@ -2,16 +2,15 @@
 description: FavoritesView.fmt
 solution: Experience Manager
 title: FavoritesView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d14f8a0c-5fb5-4315-ba8b-79add6d389b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
-
 
 # FavoritesView.fmt{#favoritesview-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式值，组件将图像视为不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 格式是图像服务器和客户端浏览器支持的任何值。 </p> <p>如果图像格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像呈现为透明内容。 对于所有其他图像格式值，组件会将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
