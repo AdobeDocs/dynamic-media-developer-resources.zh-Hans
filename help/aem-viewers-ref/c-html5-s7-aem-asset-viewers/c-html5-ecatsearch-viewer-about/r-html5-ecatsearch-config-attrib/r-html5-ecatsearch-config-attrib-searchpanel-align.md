@@ -2,16 +2,15 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 772b2789-4152-4320-893d-efc39689424b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
-
 
 # SearchPanel.align{#searchpanel-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right，top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐或锚定。 </p> <p>在SearchPanel中，内部缩览图容器会调整为大小，因此只显示整数缩览图。 因此，内部容器和外部组件边界之间存在一些填充。 </p> <p>此修饰符指定内部缩览图容器在组件内水平放置的方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右|上|中|下</span> </p> </td> 
+   <td colname="col2"> <p> 指定组件区域内缩览图容器的内部水平对齐（或锚点）。 </p> <p>在SearchPanel中，内部缩略图容器的大小会调整为仅显示整数缩略图。 因此，内部容器与外部组件范围之间存在一些内边距。 </p> <p>此修饰符指定内部缩略图容器在组件内的水平放置方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
