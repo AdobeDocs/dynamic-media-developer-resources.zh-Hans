@@ -2,24 +2,23 @@
 description: 创建用户帐户并将该帐户添加到一个或多个公司。
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
-
 
 # addUser{#adduser}
 
 创建用户帐户并将该帐户添加到一个或多个公司。
 
-将用户添加到多个公司时，请通过`companyHandleArray`中的公司手柄指定这些公司。 此操作会将句柄返回给您刚刚添加的用户。
+向多个公司添加用户时，请在`companyHandleArray`中按公司句柄指定这些公司。 此操作会将句柄返回给您刚才添加的用户。
 
-## 授权用户类型{#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 授权用户类型 {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,13 +32,13 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`firstName`*` | `xsd:string` | 是 | 用户的名字。 |
-| `*`lastName`*` | `xsd:string` | 是 | 用户的姓。 |
+| `*`lastName`*` | `xsd:string` | 是 | 用户的姓氏。 |
 | `*`电子邮件`*` | `xsd:string` | 是 | 用户的电子邮件地址。 |
-| `*`defaultRole`*` | `xsd:string` | 是 | 在用户所属的每个公司中设置用户的角色。 但是，请注意，`IpsAdmin`角色将覆盖其他每公司设置。 |
-| `*`密码`*` | `xsd:string` | 是 | 设置用户的口令 |
-| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 设置密码过期时间。 在传入请求时提供时区。 时区将调整为“中央时间”。 |
+| `*`defaultRole`*` | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意，`IpsAdmin`角色会覆盖其他每公司设置。 |
+| `*`密码`*` | `xsd:string` | 是 | 设置用户的密码 |
+| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 设置密码过期期限。 在传入请求时提供时区。 时区将调整为“中央时间”。 |
 | `*`isValid`*` | `xsd:boolean` | 是 | 确定用户是否有效。 |
-| `*`membershArray`*` | `xsd:CompanyMembershipUpdateArray` | 是 | 一组公司手柄。 |
+| `*`membersingArray`*` | `xsd:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |
 
 **输出(addUserParam)**
 
@@ -49,7 +48,7 @@ ht-degree: 12%
 
 ## 示例 {#section-2547cef622734b71919eef849960b5cb}
 
-IPS API返回指定新用户的用户句柄元素。
+IPS API会返回一个用户句柄元素，用于指定新用户。
 
 **请求**
 
@@ -74,4 +73,3 @@ IPS API返回指定新用户的用户句柄元素。
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
