@@ -2,18 +2,17 @@
 description: 有助于提高优化金字塔TIF文件的图像锐度的设置。
 solution: Experience Manager
 title: USMsharpMaskOptions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 12%
 
 ---
 
-
-# UsmsharpMaskOptions{#unsharpmaskoptions}
+# USMsharpMaskOptions{#unsharpmaskoptions}
 
 有助于提高优化金字塔TIF文件的图像锐度的设置。
 
@@ -34,7 +33,7 @@ ht-degree: 12%
  <tbody>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 数量</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:多次</span></td>
+   <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>控制对边缘像素应用的对比度。 
      <ul id="ul_7AA17E354EE64BC4A5BEAE853FF17191">
       <li id="li_42FB21C7ED884E1DB03274130B8DCB10">范围：0.0 - 5.0 </li>
@@ -43,18 +42,18 @@ ht-degree: 12%
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 半径</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:多次</span></td>
+   <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>通过设置图像边缘周围的像素数来控制锐度。 值正确与否取决于图像的大小。 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">范围：0.0 - 250.0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">低值仅锐化边缘像素。 </li>
-      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">高值锐化较宽范围的像素。 </li>
+      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">高值会锐化较宽范围的像素。 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 阀值</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>确定在将不同像素视为边缘像素并可以锐化之前，它们必须与周围区域有多大差异。 
+   <td colname="col3"><p>确定在将不同像素视为边缘像素并可进行锐化之前，其与周围区域必须存在的像素数。 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
       <li id="li_CFEE76DB78BF437E8463C9089486F8A6">范围：0 - 255（仅整数）。 </li>
       <li id="li_77113DC2698A4D48B11288718766E6A2">默认：6 </li>
@@ -63,7 +62,7 @@ ht-degree: 12%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 单色</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>值仅包括<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>设置为<span class="codeph"> 0</span>可分别应用于每个颜色组件，或设置为<span class="codeph"> 1</span>可仅应用于图像亮度（强度）。 图层蒙版或复合蒙版也会进行锐化。 </p><p><span class="codeph"><span class="varname"> 灰</span></span> 度图像忽略单色。 </p></td>
+   <td colname="col3"><p>值仅包括<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>将设置为<span class="codeph"> 0</span>以单独应用于每个颜色组件，或将设置为<span class="codeph"> 1</span>以仅应用于图像亮度（强度）。 图层蒙版或复合蒙版也会被锐化。 </p><p><span class="codeph"><span class="varname"> </span></span> 对于灰度图像，将忽略单色。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -82,16 +81,16 @@ ht-degree: 12%
     </complexType>
 ```
 
-## 由{#section-db8124a5468b498694a780f8a56a4560}使用
+## 使用者 {#section-db8124a5468b498694a780f8a56a4560}
 
-`unsharpMaskOptions`类型由：
+`unsharpMaskOptions`类型由以下用户使用：
 
-* [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
+* [重新处理AssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
 
 >[!MORELIKETHIS]
 >
->* [图像服务API参考：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [图像提供API引用：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
