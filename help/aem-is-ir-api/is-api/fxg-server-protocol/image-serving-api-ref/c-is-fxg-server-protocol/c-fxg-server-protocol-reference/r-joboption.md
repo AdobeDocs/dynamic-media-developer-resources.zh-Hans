@@ -2,16 +2,15 @@
 description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框或PDF预设InDesign中生成的文件。
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
-
 
 # joboption{#joboption}
 
@@ -26,7 +25,7 @@ ht-degree: 46%
  </tr> 
 </table>
 
-作业选项文件可以通过IPS/Dynamic Media Classic上传和发布。 生成PDF时，将使用作业选项文件中包含的PDF选项。
+作业选项文件可由IPS/Dynamic Media Classic上传和发布。 生成PDF时，将使用作业选项文件中包含的PDF选项。
 
 当前支持以下选项：
 
@@ -37,7 +36,7 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>图像 </p></td> 
-  <td class="stentry"> <p> 缩减像素取样颜色、灰色和单声道的分辨率、阈值和压缩 </p> </td> 
+  <td class="stentry"> <p> 缩减像素取样颜色、灰色和单色的分辨率、阈值和压缩 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字体 </p></td> 
@@ -78,7 +77,6 @@ ht-degree: 46%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>标准 </p></td> 
-  <td class="stentry"> <p>合规标准。 </p></td> 
+  <td class="stentry"> <p>合规性标准。 </p></td> 
  </tr> 
 </table>
-
