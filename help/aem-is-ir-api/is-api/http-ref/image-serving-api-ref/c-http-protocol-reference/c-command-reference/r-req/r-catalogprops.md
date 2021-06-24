@@ -2,18 +2,17 @@
 description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 solution: Experience Manager
 title: catalogprops
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '218'
+ht-degree: 11%
 
 ---
 
-
-# catalgprops{#catalogprops}
+# catalogprops{#catalogprops}
 
 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 
@@ -28,11 +27,11 @@ ht-degree: 10%
 
 要检索默认目录属性([!DNL default.ini])，请忽略目录ID。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
 将返回以下属性值：
 
@@ -71,22 +70,22 @@ ht-degree: 10%
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::NonImgExpiration</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute:::LastModified</span>，或者，如果不存在，则为catalog.inifile的上次修 <span class="varname"> 改</span><span class="filepath"> 时</span> 间 </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>，或者，如果不存在，则为目录的上次修改时 <span class="varname"> 间</span><span class="filepath"> 。</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
    <td> <p> int，bool </p> </td> 
-   <td> <p> <span class="codeph"> attribute::JpegQuality</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
@@ -145,4 +144,3 @@ ht-degree: 10%
   </tr> 
  </tbody> 
 </table>
-
