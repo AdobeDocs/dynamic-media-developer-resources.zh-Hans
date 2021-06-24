@@ -1,20 +1,19 @@
 ---
-description: 有关图像渲染使用的材料的信息，请参阅《HTTP协议参考》中的“材料”。
+description: 有关“图像渲染”使用的材料的信息，请参阅HTTP协议参考中的材料。
 solution: Experience Manager
 title: 材料
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6c1b8a9b-ac32-42df-a59a-05933b614907
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
 
-
 # 材料{#materials}
 
-有关图像渲染使用的材料的信息，请参阅《HTTP协议参考》中的“材料”。
+有关“图像渲染”使用的材料的信息，请参阅HTTP协议参考中的材料。
 
 请参阅[材料](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f)。
