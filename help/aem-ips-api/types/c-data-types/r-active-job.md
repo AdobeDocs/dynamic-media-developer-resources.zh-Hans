@@ -1,25 +1,24 @@
 ---
-description: 在服务器上运行的作业。 此外，它还是计划作业的实例。
+description: 在服务器上运行的作业。 此外，它是计划作业的实例。
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 8%
 
 ---
 
-
 # ActiveJob{#activejob}
 
-在服务器上运行的作业。 此外，它还是计划作业的实例。
+在服务器上运行的作业。 此外，它是计划作业的实例。
 
-Job存在于3个状态：
+工作存在3种状态：
 
-* 计划运行。
+* 已计划运行。
 * 当前正在运行。
 * 已完成运行（并已将信息写入作业日志）。
 
@@ -46,7 +45,7 @@ Job存在于3个状态：
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 处理公司。 </td> 
+   <td colname="col3"> 对公司负责。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -54,7 +53,7 @@ Job存在于3个状态：
    <td colname="col3"> 处理工作。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 作业的唯一名称。 </td> 
   </tr> 
@@ -64,29 +63,29 @@ Job存在于3个状态：
    <td colname="col3">随作业提交的<span class="codeph"> ActiveJob</span>类型的原始名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 类型</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 系统返回的作业类型选择。 </td> 
+   <td colname="col3"> 系统返回的作业类型的选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 状态</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 系统返回的活动作业状态的选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 安排作业的用户的电子邮件地址。 </td> 
+   <td colname="col3"> 计划作业的用户的电子邮件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写、双字母代码，可选国家/地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：<span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写字母双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。 例如，英语（美国）的区域设置字符串将为：<span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业说明。 </td> 
+   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业描述。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -104,9 +103,9 @@ Job存在于3个状态：
    <td colname="col3"> 活动作业的总大小。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 进展</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 作业进度（即作业离完成有多近）。 </td> 
+   <td colname="col3"> 作业进度（即作业与完成的接近度）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -120,13 +119,13 @@ Job存在于3个状态：
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TaskProgressArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：TaskProgressArray</span> </td> 
    <td colname="col3"> 异步任务进度信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 图像服务发布作业的作业详细信息。 </td> 
+   <td colname="col3"> 图像提供发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
@@ -145,7 +144,7 @@ Job存在于3个状态：
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：UploadUrlsJob</span> </td> 
    <td colname="col3"> 上载URL作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
@@ -155,17 +154,17 @@ Job存在于3个状态：
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:OptimizeImagesJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：OptimizeImagesJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ReprocessAssetsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ReprocessAssetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadPostJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：UploadPostJob</span> </td> 
    <td colname="col3"> 作业详细信息跟踪桌面上载。 </td> 
   </tr> 
   <tr> 
@@ -175,4 +174,3 @@ Job存在于3个状态：
   </tr> 
  </tbody> 
 </table>
-
