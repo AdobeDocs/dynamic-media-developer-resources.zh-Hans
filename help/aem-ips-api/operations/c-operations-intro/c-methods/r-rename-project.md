@@ -2,16 +2,15 @@
 description: 重命名项目。
 solution: Experience Manager
 title: renameProject
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 21%
 
 ---
-
 
 # renameProject{#renameproject}
 
@@ -19,7 +18,7 @@ ht-degree: 21%
 
 语法
 
-## 授权用户类型{#section-093d1f611a1647568e885ddd842b8f78}
+## 授权用户类型 {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,11 +29,11 @@ ht-degree: 21%
 
 ## 参数 {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Input(renameProjectParam)**
+**输入(renameProjectParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 处理要重命名的项目的公司。 |
+| `*`companyName`*` | `xsd:string` | 是 | 处理包含要重命名项目的公司。 |
 | `*`projectHandle`*` | `xsd:string` | 是 | 处理项目。 |
 | `*`projectName`*` | `xsd:string` | 是 | 新项目名称。 |
 
@@ -42,11 +41,11 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | 是 | 重命名的项目的句柄。 |
+| `*`projectHandle`*` | `xsd:string` | 是 | 重命名项目的句柄。 |
 
 ## 示例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-此代码示例重命名项目并返回项目句柄。
+此代码示例将重命名项目并返回项目句柄。
 
 **请求**
 
@@ -65,4 +64,3 @@ ht-degree: 21%
    <projectHandle>p|6|ProjectTestAPI</projectHandle>
 </renameProjectReturn>
 ```
-
