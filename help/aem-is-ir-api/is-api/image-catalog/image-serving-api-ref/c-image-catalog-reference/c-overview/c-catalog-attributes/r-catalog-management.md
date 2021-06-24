@@ -2,16 +2,15 @@
 description: 目录属性文件可识别这些目录管理属性。
 solution: Experience Manager
 title: 目录管理
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # 目录管理{#catalog-management}
 
@@ -35,15 +34,15 @@ ht-degree: 0%
   <td class="stentry"> <p>关联的字体映射文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> MacroFile</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> 宏文件</a> </span> </p></td> 
   <td class="stentry"> <p>关联的宏定义文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </span> </p></td> 
-  <td class="stentry"> <p>关联的ICC用户档案映射文件的名称。 </p></td> 
+  <td class="stentry"> <p>关联的ICC配置文件映射文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> 规则集文件</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
   <td class="stentry"> <p>定义URL预处理器规则的关联文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -52,7 +51,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> RootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>非静态源数据文件(图像、用户档案、字体)的根路径。 </p></td> 
+  <td class="stentry"> <p>非静态源数据文件（图像、配置文件、字体）的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5" type="reference" format="dita" scope="local"> StaticContentRootPath</a> </span> </p></td> 
@@ -80,11 +79,10 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
-  <td class="stentry"> <p>启用上次修改时间的HTTP响应头。 </p></td> 
+  <td class="stentry"> <p>启用上次修改的HTTP响应标头。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SyntherizationFontStyles</a> </span> </p></td> 
   <td class="stentry"> <p>启用合成粗体/斜体样式。 </p></td> 
  </tr> 
 </table>
-
