@@ -2,16 +2,15 @@
 description: 添加搜索词以用于searchAssets。
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
-
 
 # MetadataCondition{#metadatacondition}
 
@@ -43,42 +42,42 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 要测试的值。 </td> 
+   <td colname="col3"> 值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 布尔瓦尔</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 布尔比较值（仅适用于布尔类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 长比较值（仅适用于int类型字段）。 </td> 
+   <td colname="col3"> 较长的比较值（仅适用于整类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最小长值（仅适用于int类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最小长值（仅适用于整型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最大长值（仅适用于int类型字段）。 </td> 
+   <td colname="col3"> 范围比较中的最大长值（仅适用于整型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 多次比较值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 双重比较值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最小多次值（仅适用于浮动类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 范围比较中的最小双精度值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3"> 范围比较中的最大多次值（仅适用于浮动类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> 范围比较中的最大双精度值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
@@ -102,4 +101,3 @@ ht-degree: 7%
   </tr> 
  </tbody> 
 </table>
-
