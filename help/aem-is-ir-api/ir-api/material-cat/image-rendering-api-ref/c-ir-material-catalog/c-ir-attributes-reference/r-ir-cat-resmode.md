@@ -2,16 +2,15 @@
 description: 重新取样模式。 resMode=的默认值。 指定用于将渲染的图像缩放到最终大小的重新取样属性和插值属性。
 solution: Experience Manager
 title: ResMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
-
 
 # ResMode{#resmode}
 
@@ -23,7 +22,7 @@ ht-degree: 6%
 
 ## 默认 {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 
-如果未定义或为空，则从`default::ResMode`继承。
+从`default::ResMode`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-34b71c295b4349dfb4379823a2de83c2}
 
