@@ -2,18 +2,17 @@
 description: Video360查看器的URL命令。
 solution: Experience Manager
 title: 视频
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
-# video{#video}
+# 视频{#video}
 
 Video360查看器的URL命令。
 
