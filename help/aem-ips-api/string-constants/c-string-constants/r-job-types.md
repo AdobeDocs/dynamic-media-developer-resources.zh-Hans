@@ -2,16 +2,15 @@
 description: 由ActiveJob/type和ScheduledJob/type使用。
 solution: Experience Manager
 title: 作业类型
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c833c6f7-0f72-485d-8ad1-3620db7c320a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
-
 
 # 作业类型{#job-types}
 
@@ -31,4 +30,3 @@ ht-degree: 7%
 * `MetadataUpload`
 * `ImageOptimization`
 * `Cleanup`
-
