@@ -2,16 +2,15 @@
 description: 视频查看器的URL命令。
 solution: Experience Manager
 title: 导航
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
-
 
 # 导航{#navigation}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 ` navigation= *`文件`*`
 
-查看器通过托管WebVTT文件支持视频章节导航。 不支持提示定位运算符。
+查看器支持通过托管的WebVTT文件进行视频章节导航。 不支持提示定位运算符。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -43,4 +42,3 @@ ht-degree: 12%
 ```
 navigation=Scene7SharedAssets/adobe_qbc_final_nc
 ```
-
