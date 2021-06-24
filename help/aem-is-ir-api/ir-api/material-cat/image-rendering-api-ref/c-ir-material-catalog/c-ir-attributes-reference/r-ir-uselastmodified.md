@@ -2,32 +2,31 @@
 description: 启用上次修改的响应标头。 启用或禁用在图像渲染发出的可缓存HTTP响应中包含“上次修改时间”标头。
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
-
 
 # UseLastModified{#uselastmodified}
 
 启用上次修改的响应标头。 启用或禁用在图像渲染发出的可缓存HTTP响应中包含“上次修改时间”标头。
 
-服务器使用响应中涉及的所有晕影和材料目录/目录记录的最新`vignette::TimeStamp`和`catalog::TimeStamp`值作为“上次修改时间”标头值。
+服务器将响应中涉及的所有晕影记录和材料目录/目录记录的最新`vignette::TimeStamp`和`catalog::TimeStamp`值用作“上次修改时间”标题值。
 
-仅当使用不支持etag头的分布式缓存网络（如Akamai）时才应启用。
+仅当使用不支持etag标头的分布式缓存网络（如Akamai）时，才应启用。
 
 >[!NOTE]
 >
->在涉及多个图像服务/渲染主机的负载平衡环境中使用上次修改时，必须小心。 如果由于某种原因，服务器对同一目录条目具有不同的时间戳，则可能会失败客户端缓存并增加服务器负载。 这种情况可能发生如下：
+>在涉及多个图像提供/渲染主机的负载平衡环境中使用上次修改时间标头时，必须小心。 如果由于某些原因，服务器对同一目录条目具有不同的时间戳，则客户端缓存可能会失败，服务器负载会增加。 这种情况可能发生如下：
 
-* 既未定义`catalog::TimeStamp`、`vignette::TimeStamp`和`attribute::TimeStamp`，因此[!DNL catalog.ini]文件的修改时间用作`catalog::TimeStamp`的默认值。
+* 既未定义`catalog::TimeStamp`、`vignette::TimeStamp`和`attribute::TimeStamp`，因此将[!DNL catalog.ini]文件的修改时间用作`catalog::TimeStamp`的默认时间。
 
-* 每台服务器都有其自己的本地文件系统目录文件实例，而不是通过网络装载共享材料目录文件。
+* 每台服务器在本地文件系统上都有自己的目录文件实例，而不是通过网络装载来共享材料目录文件。
 * 同一[!DNL catalog.ini]文件的两个或多个实例具有不同的文件修改日期，这可能是由于文件复制不当所致。
 
 ## 属性 {#section-453952244193452caccfaf7f601007c1}
@@ -36,7 +35,7 @@ ht-degree: 2%
 
 ## 默认 {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-如果未定义或为空，则从`default::UseLastModified`继承。
+从`default::UseLastModified`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-1536715169da48b0aecc4ab7326c86db}
 
