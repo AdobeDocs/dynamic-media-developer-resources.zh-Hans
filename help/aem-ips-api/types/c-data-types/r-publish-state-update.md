@@ -2,16 +2,15 @@
 description: 用于更新资产发布状态的参数。
 solution: Experience Manager
 title: PublishStateUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b1767e3c-7e77-44a3-9bd2-e7d7587c014f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 12%
 
 ---
-
 
 # PublishStateUpdate{#publishstateupdate}
 
@@ -24,5 +23,4 @@ ht-degree: 12%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 资产句柄。 |
-| `*`publishState`*` | `xsd:string` | 新建发布状态。 |
-
+| `*`publishState`*` | `xsd:string` | 新的发布状态。 |
