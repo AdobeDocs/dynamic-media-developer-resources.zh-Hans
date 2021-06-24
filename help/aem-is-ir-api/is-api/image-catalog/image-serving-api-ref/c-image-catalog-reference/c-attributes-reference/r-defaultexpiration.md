@@ -1,31 +1,30 @@
 ---
-description: 默认图像响应的客户端缓存TTL。 提供默认图像响应（返回使用defaultImage=或属性DefaultImage指定的默认图像的响应）的过期间隔。
+description: 默认图像响应的客户端缓存TTL。 提供默认图像响应的过期时间间隔（返回使用defaultImage=或属性DefaultImage指定的默认图像的响应）。
 solution: Experience Manager
 title: DefaultExpiration
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 99103681-c00c-4648-8dee-2314e7e614af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
 
-
 # DefaultExpiration{#defaultexpiration}
 
-默认图像响应的客户端缓存TTL。 提供默认图像响应（返回使用defaultImage=或attribute::DefaultImage指定的默认图像的响应）的过期间隔。
+默认图像响应的客户端缓存TTL。 提供默认图像响应的过期时间间隔（返回使用defaultImage=或attribute::DefaultImage指定的默认图像的响应）。
 
-仅当默认图像未与目录记录关联或默认图像目录记录未提供特定`catalog::Expiration`值时应用。
+仅当默认图像与目录记录无关联，或默认图像目录记录不提供特定`catalog::Expiration`值时才应用。
 
 ## 属性 {#section-e564512476604fd7b964f9f2903d6d33}
 
-实数，0或更大。 自生成回复数据以来到期的小时数。 设置为0可始终立即使回复图像过期，这会有效地禁用默认图像响应的客户端缓存。 设置为`-1`可标记为`never expire`。
+实数，0或更大。 自生成回复数据后到期的小时数。 设置为0时，将始终立即使回复图像过期，这会有效地禁用默认图像响应的客户端缓存。 设置为`-1`以标记为`never expire`。
 
 ## 默认 {#section-131cd32c2e214391857dba5af321f8cd}
 
-如果未定义或为空，则从`default::DefaultExpiration`继承。
+从`default::DefaultExpiration`继承（如果未定义或为空）。
 
 TTL（生存时间）是缓存过期前的持续时间。 默认TTL为1小时。
 
