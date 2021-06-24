@@ -2,18 +2,17 @@
 description: 目录字段使用这些默认值。
 solution: Experience Manager
 title: 目录字段的默认值
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-
-# 目录字段{#defaults-for-catalog-fields}的默认值
+# 目录字段的默认值{#defaults-for-catalog-fields}
 
 目录字段使用这些默认值。
 
@@ -25,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> 过期</a></span> </p> </td> 
-   <td colname="col2"> <p>默认客户端缓存的实时时间。 </p> </td> 
+   <td colname="col2"> <p>默认客户端缓存生存时间。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> 打印分辨率</a></span> </p> </td> 
@@ -49,4 +48,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
