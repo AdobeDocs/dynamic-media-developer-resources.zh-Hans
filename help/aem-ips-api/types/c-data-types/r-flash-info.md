@@ -2,16 +2,15 @@
 description: Flash文件的属性。
 solution: Experience Manager
 title: FlashInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 27%
+source-wordcount: '31'
+ht-degree: 29%
 
 ---
-
 
 # FlashInfo{#flashinfo}
 
@@ -26,4 +25,3 @@ Flash文件的属性。
 | `*`originalPath`*` | `xsd:string` | 文件路径。 |
 | `*`originalFile`*` | `xsd:string` | 文件名. |
 | `*`fileSize`*` | `xsd:int` | 文件大小. |
-
