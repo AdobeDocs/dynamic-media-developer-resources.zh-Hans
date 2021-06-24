@@ -1,21 +1,20 @@
 ---
-description: 这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
+description: 这些命令适用于图像、文本和纯色层。 它们通常也适用于复合图像和简单的非分层图像请求。
 solution: Experience Manager
 title: 常见操作
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
-
 # 常见操作{#common-operations}
 
-这些命令适用于图像、文本和纯色图层。 它们通常也适用于合成图像和简单的非分层图像请求。
+这些命令适用于图像、文本和纯色层。 它们通常也适用于复合图像和简单的非分层图像请求。
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
@@ -28,11 +27,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md#reference-fb6af4ecf0f842d3adfdda342834a8fd" type="reference" format="dita" scope="local"> op_colorbalance</a> </p></td> 
-  <td class="stentry"> <p>单独调整红色、绿色、蓝色。 </p></td> 
+  <td class="stentry"> <p>单独调整红、绿、蓝。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> op_colorize</a> </p></td> 
-  <td class="stentry"> <p>为图层数据着色。 </p></td> 
+  <td class="stentry"> <p>将层数据着色。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d" type="reference" format="dita" scope="local"> op_contrast</a> </p></td> 
@@ -48,7 +47,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-noise.md#reference-763c4a890fe24bb6bb5ae9dad4e2da94" type="reference" format="dita" scope="local"> op_noise</a> </p></td> 
-  <td class="stentry"> <p>向图层添加杂色。 </p></td> 
+  <td class="stentry"> <p>向图层添加噪声。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-saturation.md#reference-6b7ee05a462f4f01b1fb7108230d90d9" type="reference" format="dita" scope="local"> op_saturation</a> </p></td> 
@@ -72,15 +71,14 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> 透视</a> </p></td> 
-  <td class="stentry"> <p>透视 — 变换图层。 </p></td> 
+  <td class="stentry"> <p>透视 — 转换图层。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> clipPath</a> </p></td> 
-  <td class="stentry"> <p>指定图层的剪辑形状。 </p></td> 
+  <td class="stentry"> <p>为图层指定剪辑形状。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath</a> </p></td> 
-  <td class="stentry"> <p>指定图层的反转剪辑形状。 </p></td> 
+  <td class="stentry"> <p>为图层指定反转剪辑形状。 </p></td> 
  </tr> 
 </table>
-
