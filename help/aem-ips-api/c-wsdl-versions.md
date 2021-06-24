@@ -1,23 +1,22 @@
 ---
-description: IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个新的WSDL文件，该文件引用了版本化的目标 XML命名空间。 还支持以前的WSDL命名空间版本，以便向后兼容现有应用程序。
+description: IPS Web服务由一组WSDL（Web服务描述语言）文档支持，这些文档可从安装IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个引用版本控制目标XML命名空间的新WSDL文件。 还支持以前的WSDL命名空间版本，以便能够向后兼容现有应用程序。
 solution: Experience Manager
 title: IPS Web服务WSDL版本
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
-
 # IPS Web服务WSDL版本{#ips-web-service-wsdl-versions}
 
-IPS Web服务受一组WSDL（Web服务描述语言）文档的支持，这些WSDL（Web服务描述语言）从安装了IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个新的WSDL文件，该文件引用了版本化的目标 XML命名空间。 还支持以前的WSDL命名空间版本，以便向后兼容现有应用程序。
+IPS Web服务由一组WSDL（Web服务描述语言）文档支持，这些文档可从安装IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个引用版本控制目标XML命名空间的新WSDL文件。 还支持以前的WSDL命名空间版本，以便能够向后兼容现有应用程序。
 
-## WSDL访问{#section-62e69fa2c87f4dc9bca72f10ba028f6c}
+## WSDL访问 {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
 访问Scene7 WSDL，如下所示。
 
@@ -73,7 +72,7 @@ services/IpsApiService
 <table id="table_6FABCC4E7786448CB56C343E3C0B36CA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>API发行版 </p> </th> 
+   <th colname="col1" class="entry"> <p>API版本 </p> </th> 
    <th colname="col2" class="entry"> <p>WSDL </p> </th> 
    <th colname="col3" class="entry"> <p>API命名空间 </p> </th> 
   </tr> 
@@ -134,13 +133,13 @@ IPS API Web服务仅支持SOAP绑定。
 
 IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP请求。
 
-**SOAP操作标题**
+**SOAP操作标头**
 
-要处理请求，请将SOAPAction HTTP头设置为所请求操作的名称。 WSDL绑定部分中的操作名称属性指定名称。
+要处理请求，请将SOAPAction HTTP标头设置为请求操作的名称。 WSDL绑定部分中的操作名称属性指定名称。
 
 **消息格式**
 
-文档/文本样式用于所有基于XML模式定义语言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))的类型在WSDL文件中指定的输入和输出消息。 所有类型都需要使用在WSDL文件中指定的目标命名空间值限定名称。
+文档/文字样式用于所有基于XML架构定义语言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))并在WSDL文件中指定的类型的输入和输出消息。 所有类型都需要使用WSDL文件中指定的目标命名空间值限定名称。
 
 **请求身份验证**
 
@@ -182,11 +181,11 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> 请求的可选区域设置。 有关详细信息，请参阅<b>Locale</b>。 </p> </td> 
+   <td colname="col2"> <p> 请求的可选区域设置。 有关详细信息，请参阅<b>区域设置</b>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
-   <td colname="col2"> <p> 正在调用应用程序名称。 此参数是可选的，但建议将其包含在所有请求中。 </p> </td> 
+   <td colname="col2"> <p> 正在调用应用程序名称。 此参数是可选的，但建议您将其包含在所有请求中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
@@ -194,18 +193,18 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
-   <td colname="col2"> <p> 用于启用或禁用响应XML的gzip压缩的可选标志。 默认情况下，如果HTTP Accept-Encoding头指示支持gzip，则会压缩响应。 </p> </td> 
+   <td colname="col2"> <p> 用于启用或禁用响应XML的gzip压缩的可选标记。 默认情况下，如果HTTP Accept-Encoding标头指示支持gzip，则响应将进行gzip压缩。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode  </span> </p> </td> 
-   <td colname="col2"> <p> 用于覆盖故障响应的HTTP状态代码的可选参数。 默认情况下，错误响应返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括AdobeFlash)无法读取响应体，除非返回状态代码200(OK)。 </p> </td> 
+   <td colname="col2"> <p> 用于覆盖故障响应的HTTP状态代码的可选参数。 默认情况下，错误响应会返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括AdobeFlash)无法读取响应正文，除非返回状态代码200(OK)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 无论API版本如何，`authHeader`元素始终在命名空间`http://www.scene7.com/IpsApi/xsd`中定义。
 
-以下是在请求SOAP标头中使用`authHeader`元素的示例：
+以下示例用于在请求SOAP标头中使用`authHeader`元素：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -220,17 +219,17 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 **其他请求身份验证方法**
 
-如果由于某种原因，您的客户端应用程序无法传递`authHeader` SOAP头，则API请求还可以使用HTTP基本身份验证（如RFC 2617中指定）指定凭据。
+如果由于某些原因客户端应用程序无法传递`authHeader` SOAP标头，则API请求还可以使用HTTP Basic身份验证（如RFC 2617中指定）来指定凭据。
 
-对于HTTP基本身份验证，每个SOAPPOST请求的HTTP头部分必须包含表单的头：
+对于HTTP Basic身份验证，每个SOAPPOST请求的HTTP标头部分必须包含表单的标头：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
 其中`base64()`应用标准Base64编码，`<IPS_user_email>`是有效IPS用户的电子邮件地址，`<password>`是用户的密码。
 
-使用初始请求预先发送授权头。 如果请求中未包含身份验证凭据，则`IpsApiService`不会以`401 (Unauthorized)`的状态代码进行响应。 相反，将返回`500 (Internal Server Error)`的状态代码，并返回一个SOAP错误正文，说明无法验证请求。
+使用初始请求先发送授权标头。 如果请求中未包含身份验证凭据，则`IpsApiService`不会使用`401 (Unauthorized)`的状态代码做出响应。 而是返回状态代码`500 (Internal Server Error)` ，并带有SOAP故障主体，说明请求无法进行身份验证。
 
-在IPS 3.8之前，通过SOAP头的身份验证是使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实现的。 例如：
+在IPS 3.8之前，使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实施了通过SOAP标头的身份验证。 例如：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -239,15 +238,15 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 </soap:Header>
 ```
 
-此样式仍支持向后兼容，但已弃用，支持`authHeader`元素。
+向后兼容性仍支持此样式，但已弃用此样式，推荐使用`authHeader`元素。
 
 **请求授权**
 
-在对呼叫者的凭据进行身份验证后，检查请求以确保呼叫者被授权执行所请求的操作。 授权基于呼叫者的用户角色，并且可能还需要检查目标公司、目标用户和其他操作参数。 此外，图像门户用户必须属于具有执行某些文件夹和资产操作所需权限的组。 “操作参考”部分详细说明了每个操作的授权要求。
+在主叫方的凭据被验证之后，检查该请求以确保主叫方被授权执行所请求的操作。 授权基于呼叫者的用户角色，并且可能还需要检查目标公司、目标用户和其他操作参数。 此外，图像门户用户必须属于具有执行某些文件夹和资产操作所需权限的组。 “操作参考”部分详细介绍了每个操作的授权要求。
 
-**示例SOAP请求和响应**
+**SOAP请求和响应示例**
 
-以下示例显示完整的`addCompany`操作，包括HTTP头：
+以下示例显示了完整的`addCompany`操作，包括HTTP标头：
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -274,7 +273,7 @@ Content-Type: text/xml; charset=UTF-8
  </soapenv:Envelope>
 ```
 
-相应的回应是：
+并做出相应的响应：
 
 ```
 HTTP/1.1 200 OK 
@@ -299,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**SOAP错误**
+**SOAP故障**
 
-当操作遇到异常情况时，将返回一个SOAP错误作为SOAP消息的正文，代替正常响应。 例如，如果非管理员用户尝试发送以前的`addCompany`请求，则返回以下响应：
+当操作遇到异常情况时，将返回一个SOAP故障作为SOAP消息的正文来代替正常响应。 例如，如果非管理员用户尝试发送前一个`addCompany`请求，则会返回以下响应：
 
 ```
 HTTP/1.1 500 Internal Server Error 
@@ -329,4 +328,3 @@ Connection: close
    </soapenv:Body> 
 </soapenv:Envelope>
 ```
-
