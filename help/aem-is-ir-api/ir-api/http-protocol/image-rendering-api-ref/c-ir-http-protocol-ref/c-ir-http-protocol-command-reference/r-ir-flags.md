@@ -1,36 +1,35 @@
 ---
-description: 应用标志。 指定其他渲染选项。
+description: 应用标记。 指定其他渲染选项。
 solution: Experience Manager
 title: 标志
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
 
-
 # 标志{#flags}
 
-应用标志。 指定其他渲染选项。
+应用标记。 指定其他渲染选项。
 
-`flags= *`瓦尔`*`
+`flags= *`val`*`
 
 <table id="simpletable_00B21BD9E47E4D2FB0042CB507431916"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
-  <td class="stentry"> <p>标志值。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p>标记值。 </p></td> 
  </tr> 
 </table>
 
-当前仅用于机柜材料。
+目前仅用于机柜材料。
 
-`flags=0` （默认）呈现上柜的实体门。
+`flags=0` （默认）呈现带实体门的上机柜。
 
-`flags=1` 用玻璃门渲染上柜（如果暗角是用玻璃门创作的）。
+`flags=1` 呈现带玻璃门的上柜（如果晕影是用玻璃门创作的）。
 
 ## 属性 {#section-a2b00d7bb15e449ea85178acb92d8285}
 
