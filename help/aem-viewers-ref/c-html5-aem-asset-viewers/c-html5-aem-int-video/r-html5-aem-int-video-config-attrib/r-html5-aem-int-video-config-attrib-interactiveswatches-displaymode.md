@@ -2,14 +2,13 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -22,8 +21,8 @@ ht-degree: 7%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 连续|段</span> </p> </td> 
-   <td colname="col2"> <p> 无论区段边界如何，均可使用缩览图连续填充交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 连续|区段</span> </p> </td> 
+   <td colname="col2"> <p> 无论区段边界如何，都会使用缩略图连续填充交互式色板，或者允许空白空间记录区段边界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
