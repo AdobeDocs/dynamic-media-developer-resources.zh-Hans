@@ -1,27 +1,26 @@
 ---
-description: 向系统添加公司。
+description: 将公司添加到系统中。
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 11%
 
 ---
 
-
 # addCompany{#addcompany}
 
-向系统添加公司。
+将公司添加到系统中。
 
-发送要添加到系统的公司的名称，并（可选）发送公司是否过期。
+发送要添加到系统的公司名称，并（可选）发送公司是否过期。
 
-调用此操作时，系统将获取`*`companyInfo`*`类型，其中包含公司句柄和描述性字段。 如果请求的公司名在系统中已存在，则会引发`ipsApiFault`。
+调用此操作时，系统将获得`*`companyInfo`*`类型，其中包含公司句柄和描述性字段。 如果请求的公司名称在系统中已存在，则会引发`ipsApiFault`。
 
-## 授权用户类型{#section-ae926c7672984be79f6102748accab72}
+## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -51,7 +50,7 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的过期日期。 为时区提供此字段的请求。 时区将调整为“中央时间”。 </p> </td> 
+   <td colname="col4"> <p>公司的过期日期。 为时区提供对此字段的请求。 时区将调整为“中央时间”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,14 +71,14 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>处理和命名新公司的根路径、过期日期和时间。 </p> </td> 
+   <td colname="col4"> <p>处理新公司的名称、根路径、过期日期和时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-此示例演示了向IPS系统添加公司的请求以及详细说明执行其他操作所需添加公司的信息的响应。
+此示例演示了向IPS系统添加公司的请求以及详细说明所添加公司执行其他操作所需信息的响应。
 
 **请求**
 
@@ -101,4 +100,3 @@ ht-degree: 11%
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
