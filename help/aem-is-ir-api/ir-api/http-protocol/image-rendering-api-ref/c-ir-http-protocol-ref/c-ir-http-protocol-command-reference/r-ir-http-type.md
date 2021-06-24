@@ -1,21 +1,20 @@
 ---
-description: 材料曲面类型。 指定材料的曲面类型。
+description: 材料表面类型。 指定材料的曲面类型。
 solution: Experience Manager
 title: 类型
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 333b8954-e256-4ba1-8055-c4d625470673
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 22%
 
 ---
 
-
 # 类型{#type}
 
-材料曲面类型。 指定材料的曲面类型。
+材料表面类型。 指定材料的曲面类型。
 
 `type=0...19`
 
@@ -50,7 +49,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>珐琅/漆 </p></td> 
+  <td class="stentry"> <p>漆/漆 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -94,7 +93,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Sheer Fabric </p></td> 
+  <td class="stentry"> <p>纯织物 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -102,16 +101,16 @@ ht-degree: 22%
  </tr> 
 </table>
 
-与`gloss=`和`rough=`结合使用，以控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，不同的材料也会产生不同的效果。
+与`gloss=`和`rough=`一起使用来控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，也会产生不同的效果。
 
 ## 属性 {#section-2345b2508273426295ce8ac46182ea64}
 
-材料属性。 如果暗角不包括3D反射数据或在暗角中禁用了光泽效果，则忽略。
+材料属性。 如果晕影不包含3D反射数据或在晕影中禁用了光泽效果，则忽略此问题。
 
 ## 默认 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果物料基于目录条目。否则`type=0`。 如果未指定，或者如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的默认值。
+`catalog::Type` 如果材料基于目录条目。否则，为`type=0`。 如果未指定，或者如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的缺省值。
 
 ## 另请参阅 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [粗糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ，粗 [糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
