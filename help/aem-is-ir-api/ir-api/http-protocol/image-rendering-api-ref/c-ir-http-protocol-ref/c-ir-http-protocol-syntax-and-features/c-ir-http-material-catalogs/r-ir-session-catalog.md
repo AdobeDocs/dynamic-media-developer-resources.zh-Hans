@@ -1,25 +1,24 @@
 ---
-description: 会话目录是提供请求会话属性以及所有src=、vignette=和icc=命令的默认catId值的材料目录。
+description: 会话目录是一个材料目录，它为请求提供会话属性以及所有src=、vignette=和icc=命令的默认catId值。
 solution: Experience Manager
 title: 会话目录
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 36e0571e-7451-423f-a1df-540680381902
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-
 # 会话目录{#session-catalog}
 
-会话目录是提供请求会话属性以及所有src=、vignette=和icc=命令的默认catId值的材料目录。
+会话目录是一个材料目录，它为请求提供会话属性以及所有src=、vignette=和icc=命令的默认catId值。
 
 会话目录指定为HTTP请求路径的第一个路径元素（紧接在服务器名称之后）。 如果第一个路径元素与任何目录的属性：:RootId不匹配，则默认目录将用作会话目录。
 
-会话目录提供以下会话默认值：
+会话目录提供了以下会话默认值：
 
 <table id="table_DB5E0DD8E9B440A4964A1326433597C8"> 
  <thead> 
@@ -30,19 +29,19 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::RootPath</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:RootPath</span> </p> </td> 
    <td> <p> 材料数据文件的根路径 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::VignettePath</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:VignettePath</span> </p> </td> 
    <td> <p> 晕影文件的根路径 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:IccProfileRgb</span> </p> </td> 
-   <td> <p> 如果暗角未嵌入ICC用户档案，则默认工作色彩空间 </p> </td> 
+   <td> <p> 如果晕影未嵌入ICC配置文件，则默认工作色彩空间 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:RootUrl</span> </p> </td> 
    <td> <p> <span class="codeph"> src=</span>命令中相对HTTP文件路径的根URL </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:Expiration</span> </p> </td> 
-   <td> <p> 代理服务器和浏览器缓存的回复图像的实时值 </p> </td> 
+   <td> <p> 代理服务器和浏览器缓存的回复映像的生存时间值 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:MaxPix</span> </p> </td> 
@@ -66,7 +65,7 @@ ht-degree: 0%
    <td> <p> <span class="codeph"> fmt=</span>的默认值 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> attribute::JpegQuality</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
    <td> <p> <span class="codeph"> qlt=</span>的默认值 </p> </td> 
   </tr> 
   <tr> 
@@ -87,4 +86,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
