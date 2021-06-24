@@ -1,27 +1,26 @@
 ---
-description: 设置指示器是在触控设备上使用查看器时在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点可帮助用户在缩览图页面之间导航。
+description: 设置指示器是在触控设备上使用查看器时，在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点图可帮助用户在缩略图的页面中导航。
 solution: Experience Manager
-title: 设置指示符
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: 设置指示器
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
 
+# 设置指示器{#set-indicator}
 
-# 设置指示符{#set-indicator}
-
-设置指示器是在触控设备上使用查看器时在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点可帮助用户在缩览图页面之间导航。
+设置指示器是在触控设备上使用查看器时，在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点图可帮助用户在缩略图的页面中导航。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**设置指示符的CSS属性**
+**设置指示器的CSS属性**
 
-使用以下CSS类选择器控制设置指示符容器的外观：
+使用以下CSS类选择器控制设置指示器容器的外观：
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -36,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>设置指示符的十六进制格式的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p>以十六进制格式表示的设置指示器的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置白色背景的设置指示符：
+示例 — 要设置带白色背景的设置指示器：
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -50,7 +49,7 @@ ht-degree: 1%
 }
 ```
 
-单个设置指示符点的外观由CSS类选择器控制：
+单个设置指示器点的外观由CSS类选择器控制：
 
 `.s7mixedmediaviewer .s7setindicator .s7dot`
 
@@ -64,44 +63,44 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>设置指示符点的宽度。 </p> </td> 
+   <td colname="col2"> <p>设置指示器点的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>设置指示符点的高度。 </p> </td> 
+   <td colname="col2"> <p>设置指示器点的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距左  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 左  </span> </p> </td> 
    <td colname="col2"> <p>左边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部  </span> </p> </td> 
    <td colname="col2"> <p>上边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
    <td colname="col2"> <p>右边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边距 — 底部  </span> </p> </td> 
-   <td colname="col2"> <p>底边距（以像素为单位）。 </p> </td> 
+   <td colname="col2"> <p>下边距（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框半径  </span> </p> </td> 
    <td colname="col2"> <p>边框半径（以像素为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>十六进制格式的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p>以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->设置指示符点支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的缩略图状态。 特别是，`state="selected"`对应于当前缩略图页，`state="unselected"`对应于默认点状态。
+>设置指示器点支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 特别是，`state="selected"`对应于当前的缩略图页面，`state="unselected"`对应于默认的点状态。
 
-示例 — 将设置的指示器点设置为15 x 15像素，其中两个像素水平边距、五个像素顶边距、一个像素底边距、十二个像素半径、#D5D3D3默认颜色和#939393活动颜色：
+示例 — 将指示器点设置为15 x 15像素，其中包含两个像素水平边距、五个像素顶边距、一个像素底边距、十二个像素半径、默#D5D3D3颜色和#939393活动颜色：
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 
@@ -118,4 +117,3 @@ ht-degree: 1%
  background-color:#939393;  
 }
 ```
-
