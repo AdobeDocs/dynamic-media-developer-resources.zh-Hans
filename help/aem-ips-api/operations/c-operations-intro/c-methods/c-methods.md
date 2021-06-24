@@ -2,16 +2,15 @@
 description: 操作参数
 solution: Experience Manager
 title: 操作参数
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # 操作参数{#operation-parameters}
 
@@ -58,7 +57,7 @@ ht-degree: 0%
 * [deleteTagFieldValues](r-delete-tag-field-values.md)
 * [deleteVignettePublishFormat](r-delete-vignette-publish-format.md)
 * [deleteZoomTarget](r-delete-zoom-target.md)
-* [emptyAssetsFromTrash](r-empty-assets-from-trash.md)
+* [emptyAssetsFromTrashe](r-empty-assets-from-trash.md)
 * [executeJob](r-execute-job.md)
 * [forceRepublishAssets](r-force-republish-assets.md)
 * [generatePassword](r-generate-password.md)
@@ -72,11 +71,11 @@ ht-degree: 0%
 * [getAssetPublishHistory](r-get-asset-publish-history.md)
 * [getAssets](r-get-assets.md)
 * [getAssetsByName](r-get-assets-by-name.md)
-* [getAssociatedAssets](r-get-associated-assets.md)
+* [getAssetations](r-get-associated-assets.md)
 * [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
-* [getCompanyMembership](r-get-company-membership.md)
+* [getCompanyMembersing](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
 * [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
@@ -128,7 +127,7 @@ ht-degree: 0%
 * [renameFolder](r-rename-folder.md)
 * [renameProject](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
-* [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
+* [restoreAssetsFromTrashe](r-restore-assets-from-trash.md)
 * [resumeJob](r-resume-job.md)
 * [saveGroup](r-save-group.md)
 * [saveImageFormat](r-save-image-format.md)
