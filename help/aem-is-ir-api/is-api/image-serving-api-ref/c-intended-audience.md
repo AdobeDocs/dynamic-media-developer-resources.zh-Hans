@@ -1,20 +1,19 @@
 ---
-description: 希望将Dynamic Media Image Servicing用于网站或自定义应用程序的经验丰富的程序员和网站开发人员。
+description: 经验丰富的程序员和网站开发人员，他们希望将Dynamic Media Image Serving用于网站或自定义应用程序。
 solution: Experience Manager
-title: 预期受众
-feature: Dynamic Media Classic,SDK/API
+title: 目标受众
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 77d48361-5b33-4337-bc3d-c0d3de8607ba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
+# 目标受众{#intended-audience}
 
-# 预期受众{#intended-audience}
-
-希望将Dynamic Media Image Servicing用于网站或自定义应用程序的经验丰富的程序员和网站开发人员。
+经验丰富的程序员和网站开发人员，他们希望将Dynamic Media Image Serving用于网站或自定义应用程序。
 
 假定读者通常熟悉Dynamic Media图像服务系统、一般HTTP协议标准和惯例以及基本的图像术语。
