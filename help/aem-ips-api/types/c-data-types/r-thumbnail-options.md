@@ -1,21 +1,20 @@
 ---
-description: 允许您选择特定视频帧作为缩略图图像的可选类型。
+description: 一种可选类型，允许您选择特定视频帧作为缩略图。
 solution: Experience Manager
 title: ThumbnailOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
-
 # ThumbnailOptions{#thumbnailoptions}
 
-允许您选择特定视频帧作为缩略图图像的可选类型。
+一种可选类型，允许您选择特定视频帧作为缩略图。
 
 语法
 
@@ -33,7 +32,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>设置要用于视频缩略图的帧的时间(以视频开始的毫秒为单位)。 值范围从0到视频末尾。 <p>注意：如果您指定的时间不正确，系统会将视频的第一帧用作缩略图。 请参阅<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p></p> </td> 
+   <td colname="col3"> <p>设置要用于视频缩略图的帧的时间（以视频开始后的毫秒为单位）。 值介于0到视频结尾之间。 <p>注意：如果您未正确指定时间，则系统会将视频的第一帧用作缩略图。 请参阅<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +46,3 @@ ht-degree: 5%
       </sequence>
 </complexType>
 ```
-
