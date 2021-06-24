@@ -1,28 +1,27 @@
 ---
-description: 锐化纹理。 指定渲染此素材时要应用的锐化。
+description: 锐化纹理。 指定渲染此材料时要应用的锐化。
 solution: Experience Manager
 title: 锐
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 6%
 
 ---
 
+# 锐{#sharp}
 
-# sharp{#sharp}
-
-锐化纹理。 指定渲染此素材时要应用的锐化。
+锐化纹理。 指定渲染此材料时要应用的锐化。
 
 `sharp=0|1|2|3`
 
 <table id="simpletable_04B4EAA7CE7D4ED48A61A50CD001388F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>无需锐化。 </p> </td> 
+  <td class="stentry"> <p>无锐化。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -30,7 +29,7 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0个备用锐化（早期）。 </p> </td> 
+  <td class="stentry"> <p>0次备用锐化（提前）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -38,9 +37,9 @@ ht-degree: 6%
  </tr> 
 </table>
 
-`sharp=1` 在渲染材料后应用锐化； `sharp=2` 在纹理初始缩放后应用锐化，但在将其转换为场景之前应用； `sharp=3` 在变换前后应用锐化。
+`sharp=1` 在渲染材料后应用锐化； `sharp=2` 在初始缩放纹理后，但在将其转换为场景之前应用锐化； `sharp=3` 在转换前后均应用锐化。
 
-锐化算法和锐化量以及其他USM（USM锐化）参数由晕影提供的默认材料模板或`rs=`控制。
+锐化算法和锐化量以及其他USM（USM锐化）参数由晕影提供或带有`rs=`的默认材料模板控制。
 
 ## 属性 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
@@ -48,8 +47,8 @@ ht-degree: 6%
 
 ## 默认 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`, if the material is based on a catalog entry， oftherse  `attribute::Sharp`
+`catalog::Sharp`，则当材料基于目录条目时，不会如此 `attribute::Sharp`。
 
 ## 另请参阅 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[目录：:Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e),  [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
