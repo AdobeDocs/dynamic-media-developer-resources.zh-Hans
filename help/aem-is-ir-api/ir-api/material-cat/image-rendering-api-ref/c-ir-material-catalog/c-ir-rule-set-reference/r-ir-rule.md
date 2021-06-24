@@ -2,16 +2,15 @@
 description: 请求规则元素。 在<ruleset>元素中，一个或多个是可选的。
 solution: Experience Manager
 title: 规则
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 5%
 
 ---
-
 
 # 规则{#rule}
 
@@ -19,11 +18,11 @@ ht-degree: 5%
 
 ## 属性 {#section-aa23349645434db99d46957a96f2e1e1}
 
-`OnMatch="break"|"continue"|"error"`可选。默认为“break”。
+`OnMatch="break"|"continue"|"error"`可选。默认值为“break”。
 
-` Name=" *``*"` textOptional。用于标识调试日志和错误消息中的`<rule>`元素。
+` Name=" *``*"` textOptional。用于识别调试日志和错误消息中的`<rule>`元素。
 
-此外，`<rule>`元素可以在任意组合中定义以下任意属性。 如果指定，并且规则成功匹配，则它们将覆盖此请求的相应目录属性。
+此外，`<rule>`元素可以在任意组合中定义以下任意属性。 如果已指定，并且规则匹配成功，则它们将覆盖此请求的相应目录属性。
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
@@ -51,14 +50,14 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RootUrl  </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> attribute::RootUrl  </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> 属性：:RootUrl  </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-有关详细信息，请参阅相应图像目录属性的说明。
+有关详细信息，请参阅相应图像目录属性的描述。
 
-Expiration属性只覆盖默认属性值；如果特定的`catalog::Expiration`值应用于请求，则忽略此值。
+“过期”属性仅覆盖默认属性值；如果特定的`catalog::Expiration`值应用于请求，则忽略该值。
 
 ## 数据 {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -85,4 +84,4 @@ Expiration属性只覆盖默认属性值；如果特定的`catalog::Expiration`�
 
 如果未指定`<substitution>`，则删除匹配的子字符串。
 
-`<addressfilter>`仅在发生匹配时和应用查询规则之前应用。
+`<addressfilter>`仅在发生匹配时以及在应用查询规则之前应用。
