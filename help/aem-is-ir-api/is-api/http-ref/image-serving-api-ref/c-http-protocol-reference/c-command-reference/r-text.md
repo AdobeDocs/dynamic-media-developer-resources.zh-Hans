@@ -1,21 +1,20 @@
 ---
-description: 图层文本。 指定文本图层的文本和格式内容。
+description: 图层文本。 指定文本图层的文本和格式化内容。
 solution: Experience Manager
 title: 文字
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
 
-
 # 文字{#text}
 
-图层文本。 指定文本图层的文本和格式内容。
+图层文本。 指定文本图层的文本和格式化内容。
 
 ` text= *`字串`*`
 
@@ -26,17 +25,17 @@ ht-degree: 5%
  </tr> 
 </table>
 
-所有字体、字体颜色和段落格式控制都可使用RTF命令实现。 有关其他信息，请参阅[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)。
+所有字体、字体颜色和段落格式控制均使用RTF命令实现。 有关其他信息，请参阅[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)。
 
-`text=` 支持自动缩放文本以填充使用指定的图层矩形 `size=`
+`text=` 支持自动缩放文本以填充使用指定的图层矩形 `size=`。
 
 请参阅[textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)。
 
-`text=` 支持自动调整文本图层大小以适合渲染的文本( `size=` 未指定或仅指定宽度时)。请注意，在这种情况下，只能应用RTF对齐命令`\ql`、`\qr`和`\qc`中的一个；否则返回错误。
+`text=` 支持文本层的自动大小调整以适合渲染的文本(当 `size=` 未指定或仅指定宽度时)。请注意，在这种情况下，只能应用RTF对齐命令`\ql`、`\qr`和`\qc`中的一个；返回错误。
 
 ## 属性 {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-图层属性。 适用于`layer=comp`时的`layer=0`。 与同一层中的`src=`和`textPs=`互斥；最后一次出现`text=`、`textPs=`和`src=`的情况将优先，并确定这是图像还是文本图层。 被效果图层忽略。
+层属性。 如果为`layer=comp`，则适用于`layer=0`。 与同一层中的`src=`和`textPs=`互斥；`text=`、`textPs=`和`src=`的最后一个出现值将占上风，并确定这是图像还是文本层。 被效果层忽略。
 
 ## 默认 {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -44,8 +43,8 @@ ht-degree: 5%
 
 ## 示例 {#section-d011f765ec5c418d814a821019b0eef0}
 
-请参见[Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)和[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的示例。
+请参阅[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)和[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的示例。
 
 ## 另请参阅 {#section-207b779ab67342a5acd343e6bcc749c4}
 
-[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) [设置](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87)，文 [本定位](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [文本归因=,文本Ps=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[文本格式](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)、 [文本定位](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87)、 [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)、 [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)、 [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
