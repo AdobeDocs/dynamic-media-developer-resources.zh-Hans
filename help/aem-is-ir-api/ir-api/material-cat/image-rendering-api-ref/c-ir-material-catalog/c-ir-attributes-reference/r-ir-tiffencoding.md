@@ -2,22 +2,21 @@
 description: TIFF编码格式。 指定TIFF图像的压缩格式（实际上是fmt=命令的第三个值的默认值）。
 solution: Experience Manager
 title: TiffEncoding
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6a6fa8f5-4497-438d-914c-3f6d4c08ef09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
-
 
 # TiffEncoding{#tiffencoding}
 
 TIFF编码格式。 指定TIFF图像的压缩格式（实际上是fmt=命令的第三个值的默认值）。
 
-设置为0表示无压缩，设置为1表示LZW，设置为2表示减缩(ZIP)，设置为3表示JPEG压缩。
+设置为0表示无压缩，1表示LZW，2表示减缩(ZIP),3表示JPEG压缩。
 
 ## 属性 {#section-469f5a1225464542866f5353edd92db3}
 
@@ -25,7 +24,7 @@ TIFF编码格式。 指定TIFF图像的压缩格式（实际上是fmt=命令的�
 
 ## 默认 {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-如果未定义或为空，则从`default::TiffEncoding`继承。
+从`default::TiffEncoding`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-1601425e5ac3486da4df8e7fa55981b2}
 
