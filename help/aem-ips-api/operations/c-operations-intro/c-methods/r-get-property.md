@@ -2,16 +2,15 @@
 description: 获取与图像门户相关的系统属性的字符串值。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # getProperty{#getproperty}
 
@@ -23,12 +22,12 @@ ht-degree: 10%
 * `IpsImageServerUrl`:IPS图像服务器的完整外部URL前缀。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:用于呈现SVG资源的URL前缀。
-* `SvgRenderEnabled`:如果SVG资源可以由渲染器呈 `SvgRenderRootUrl`现。
+* `SvgRenderRootUrl`:呈现SVG资产的URL前缀。
+* `SvgRenderEnabled`:如果SVG资产可以由呈现，则为 `SvgRenderRootUrl`True。
 
-* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位）  [!DNL POST]。系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位） [!DNL POST]。系统拒绝大于最大限制的文件。
 
-## 授权用户类型{#section-2cd36bbd46ed414b8753569d5895530e}
+## 授权用户类型 {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,13 +41,13 @@ ht-degree: 10%
 
 ## 参数 {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**Input(getPropertyParam)**
+**输入(getPropertyParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`name`*` | `xsd:string` | 是 | 要获取的属性的名称。 |
 
-**输出(getPropertyReturn)**
+**Output(getPropertyReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -73,4 +72,3 @@ ht-degree: 10%
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
