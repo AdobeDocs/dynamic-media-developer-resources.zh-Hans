@@ -2,16 +2,15 @@
 description: 返回图像格式，如PDF、EPS、SWF等。
 solution: Experience Manager
 title: getImageFormats
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 18%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 语法
 
-## 授权用户类型{#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 授权用户类型 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -31,11 +30,11 @@ ht-degree: 18%
 
 ## 参数 {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**Input(getImageFormatsParam)**
+**输入(getImageFormatsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 使用要获取的图像格式的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要获取的图像格式的公司句柄。 |
 
 **输出(getImageFormatsParam)**
 
@@ -45,7 +44,7 @@ ht-degree: 18%
 
 ## 示例 {#section-73881e12839b4904bf3299b0920bdd0c}
 
-此代码示例返回指定公司的所有图像格式。
+此代码示例会返回指定公司的所有图像格式。
 
 **请求**
 
@@ -62,4 +61,3 @@ ht-degree: 18%
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-
