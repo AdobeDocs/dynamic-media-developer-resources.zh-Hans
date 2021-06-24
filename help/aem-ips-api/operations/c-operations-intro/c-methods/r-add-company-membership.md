@@ -2,16 +2,15 @@
 description: 将用户添加到一个或多个公司。
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 13%
 
 ---
-
 
 # addCompanyMembership{#addcompanymembership}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 语法
 
-## 授权用户类型{#section-ae926c7672984be79f6102748accab72}
+## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,12 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要添加其会员资格的用户的句柄。 |
-| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的一组公司。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要添加其成员资格的用户的句柄。 |
+| `*`membersingArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司数组。 |
 
 **输出(addCompanyMembershipReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-5469f88bac7047cca131faa6b021e437}
 
