@@ -2,16 +2,15 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.iscommand{#swatches-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 应用于所有色板的图像服务命令字符串。 如果在URL中指定，请确保将<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项HTTP编码为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 应用于所有色板的“图像提供”命令字符串。 如果在URL中指定了该参数，请确保对所有出现的<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的事件分别进行HTTP编码，分别作为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
