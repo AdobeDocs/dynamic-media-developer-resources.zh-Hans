@@ -1,25 +1,24 @@
 ---
-description: 设置用户的用户组成员关系。
+description: 设置用户的组成员资格。
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
 
-
 # setGroupMembership{#setgroupmembership}
 
-设置用户的用户组成员关系。
+设置用户的组成员资格。
 
 语法
 
-## 授权用户类型{#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 授权用户类型 {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +30,13 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要设置其用户组成员关系的用户的句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司手柄。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要设置其群组成员资格的用户的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司负责人。 |
 | `*`groupHandleArray`*` | `types:HandleArray` | 是 | 用户所属的组的句柄数组。 |
 
-**输出(setGroupMembershipReturn)**
+**Output(setGroupMembershipReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-67b86d259df24938896fe19061845811}
 
