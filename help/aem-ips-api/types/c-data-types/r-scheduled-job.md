@@ -2,16 +2,15 @@
 description: 计划运行的作业。
 solution: Experience Manager
 title: ScheduledJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 4%
 
 ---
-
 
 # ScheduledJob{#scheduledjob}
 
@@ -23,21 +22,21 @@ ht-degree: 4%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 公司手柄。 |
-| `*`jobHandle`*` | `xsd:string` | 计划的作业处理。 |
+| `*`companyHandle`*` | `xsd:string` | 公司负责人。 |
+| `*`jobHandle`*` | `xsd:string` | 计划作业句柄。 |
 | `*`name`*` | `xsd:string` | 作业名称. |
 | `*`originalName`*` | `xsd:string` | 计划作业的原始名称。 |
 | `*`类型`*` | `xsd:string` | 作业类型。 |
-| `*`submitUserEmail`*` | `xsd:string` | 安排作业的用户的电子邮件地址。 |
-| `*`locale`*` | `xsd:string` | 用于作业日志详细信息和电子邮件本地化的区域设置。 区域设置指定为`<language_code>[- <country_code>]`，其中语言代码是ISO-639指定的小写、双字母代码，可选国家/地区代码是ISO-3166指定的大写、双字母代码。 例如，英语（美国）的区域设置字符串为：`en-US`。 |
+| `*`submitUserEmail`*` | `xsd:string` | 计划作业的用户的电子邮件地址。 |
+| `*`locale`*` | `xsd:string` | 用于作业日志详细信息和电子邮件本地化的区域设置。 区域设置指定为`<language_code>[- <country_code>]`，其中语言代码为ISO-639指定的小写字母双字母代码，而可选国家/地区代码为ISO-3166指定的大写双字母代码。 例如，英语（美国）的区域设置字符串将为：`en-US`。 |
 | `*`描述`*` | `xsd:string` | 最初在`submitJob`中指定的作业描述。 |
 | `*`execSchedule`*` | `xsd:string` | 作业计划运行的时间。 |
-| `*`nextFireTime`*` | `xsd:dateTime` | 将触发作业的日期、时间和时区。 |
+| `*`nextFireTime`*` | `xsd:dateTime` | 作业将被触发的日期、时间和时区。 |
 | `*`timeZone`*` | `xsd:dateTime` | 计划作业的时区。 |
-| `*`triggerState`*` | `xsd:int` | 选择作业触发状态。 |
-| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | 图像服务发布作业的作业详细信息。 |
+| `*`triggerState`*` | `xsd:int` | 选择作业触发器状态。 |
+| `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | 图像提供发布作业的作业详细信息。 |
 | `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | 图像渲染作业的作业详细信息。 |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | 视频发布作业的作业详细信息。 请参阅[ VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | 视频发布作业的作业详细信息。 请参阅[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
 | `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | 服务器目录发布作业的作业详细信息。 |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | 上载目录作业的作业详细信息。 |
 | `*`uploadUrlsJob`*` | `types:UploadUrlsJob` | 上载URL作业的作业详细信息。 |
@@ -56,4 +55,3 @@ ht-degree: 4%
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
-
