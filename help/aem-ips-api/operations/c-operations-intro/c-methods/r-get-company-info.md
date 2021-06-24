@@ -1,25 +1,24 @@
 ---
-description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 必须指定要检索其信息的companyHandle或companyName。
+description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 您必须指定要检索其信息的companyHandle或companyName。
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 10%
 
 ---
 
-
 # getCompanyInfo{#getcompanyinfo}
 
-返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 必须指定要检索其信息的companyHandle或companyName。
+返回有关指定公司的信息，包括公司句柄、公司名称、根路径和过期日期。 您必须指定要检索其信息的companyHandle或companyName。
 
 语法
 
-## 授权用户类型{#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 授权用户类型 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,13 +46,13 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>为必需项。 </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>为必需项。 </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的名称。 </p> </td> 
   </tr> 
  </tbody> 
@@ -75,14 +74,14 @@ ht-degree: 10%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>处理和有关公司的其他描述性信息。 </p> </td> 
+   <td colname="col4"> <p>处理公司的其他描述性信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-此代码示例使用公司名和句柄返回有关公司的所有信息。 它返回与创建公司时收到的响应类似的数据。
+此代码示例使用公司名称和句柄返回有关公司的所有信息。 它会返回与创建公司时收到的响应类似的数据。
 
 **请求**
 
@@ -104,4 +103,3 @@ ht-degree: 10%
    </ns1:companyInfo>
 </ns1:getCompanyInfoReturn>
 ```
-
