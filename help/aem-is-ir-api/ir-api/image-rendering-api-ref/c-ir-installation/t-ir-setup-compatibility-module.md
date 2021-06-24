@@ -1,28 +1,27 @@
 ---
-description: 必须设置并配置IR 3.x兼容性模块。
+description: 必须设置并配置IR 3.x兼容模块。
 solution: Experience Manager
-title: 设置和配置IR 3.x兼容性模块
-feature: Dynamic Media Classic,SDK/API
+title: 设置和配置IR 3.x兼容模块
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
 
-
 # 设置和配置IR 3.x兼容模块{#setup-and-configure-ir-x-compatibility-module}
 
-必须设置并配置IR 3.x兼容性模块。
+必须设置并配置IR 3.x兼容模块。
 
 1. Stop `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
-1. 更改到ImageServer Web应用程序目录。
+1. 更改为ImageServer Webapps目录。
 1. 将[!DNL ir]目录的内容复制到[!DNL ROOT]目录中。
 1. 在文本编辑器中打开[!DNL ROOT/WEB-INF/web.xml]。
 1. 搜索行`<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. 取消`<servlet>`和`<servlet-mapping>`标签的注释。
+1. 取消对`<servlet>`和`<servlet-mapping>`标记的注释。
 1. 重新启动 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
 **Linux示例**
@@ -33,11 +32,11 @@ ht-degree: 1%
 
 `cd WEB-INF`
 
-然后，使用您喜爱的编辑器编辑[!DNL web.xml]以取消`<servlet>`和`<servlet-mapping>`标记的注释。
+然后，使用您喜爱的编辑器编辑[!DNL web.xml]以取消对`<servlet>`和`<servlet-mapping>`标记的注释。
 
 **Windows示例**
 
-打开Explorer并转到`C:\Program Files\Scene7\ImageServing\webapps\ir`。
+打开资源管理器，然后转到`C:\Program Files\Scene7\ImageServing\webapps\ir`。
 
 选择所有文件和文件夹，并复制`C:\Program Files\Scene7\ImageServing\webapps\ROOT`内的文件和文件夹。
 
