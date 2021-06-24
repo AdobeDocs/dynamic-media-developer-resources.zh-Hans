@@ -2,16 +2,15 @@
 description: 返回按资产类型分组的所有元数据字段。
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic，SDK/API，元数据，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 授权用户类型 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +36,7 @@ ht-degree: 20%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 要检索其元数据的公司的句柄。 |
 
-**输出(getAssetMetadataFieldsReturn)**
+**Output(getAssetMetadataFieldsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -57,7 +56,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->短时间截断。
+>为简短而截断。
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -68,4 +67,3 @@ ht-degree: 20%
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
