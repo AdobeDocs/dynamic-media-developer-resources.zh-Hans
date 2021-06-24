@@ -1,27 +1,26 @@
 ---
-description: 主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
+description: 主视图由目录图像组成。 可以轻扫到其他页面或缩放页面。
 solution: Experience Manager
 title: 页面查看
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 4%
 
 ---
 
-
 # 页面查看{#page-view}
 
-主视图由目录图像组成。 可以轻扫以转到其他页面或缩放。
+主视图由目录图像组成。 可以轻扫到其他页面或缩放页面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+通过以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7ecatalogsearchviewer .s7pageview
@@ -36,8 +35,8 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 主视图的背景颜色（十六进制格式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 主视图的背景颜色（以十六进制格式）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
@@ -54,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在桌面系统上，组件支持`cursortype`属性选择器，该选择器可应用于`.s7pageview`类，并基于组件状态和用户操作控制游标的类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`.s7pageview`类的`cursortype`属性选择器，并基于组件状态和用户操作控制游标的类型。 支持以下`cursortype`值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -66,11 +65,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>当图像因图像分辨率小、组件设置或两者兼有而无法缩放时显示。 </p> </td> 
+   <td colname="col2"> <p>当由于图像分辨率和组件设置较小或两者都导致图像无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 卓敏  </span> </p> </td> 
-   <td colname="col2"> <p>当图像可放大时显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛民  </span> </p> </td> 
+   <td colname="col2"> <p>在图像可放大时显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
@@ -87,7 +86,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-通过以下CSS类选择器控制以可视方式分隔目录跨页的左和右页的页面分隔条：
+通过以下CSS类选择器控制以可视方式分隔目录跨页的左和右页面的页面分隔符：
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
@@ -101,16 +100,16 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 页面分隔条的宽度。 设置为<span class="codeph"> 0 </span> px可完全隐藏分隔线。 </p> </td> 
+   <td colname="col2"> <p> 页面分隔符的宽度。 设置为<span class="codeph"> 0 </span> px可完全隐藏分隔符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p>要用作页面分隔条的图像。 </p> </td> 
+   <td colname="col2"> <p>要用作页面分隔符的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用半透明图像具有40像素宽的页面分隔条。
+示例 — 具有40像素宽的分页器，分页器具有半透明图像。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -121,9 +120,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->当`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，使用`pageturnstyle`修饰符控制页面分隔符的外观，并忽略`.s7pagedivider` CSS类。
+>将`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，使用`pageturnstyle`修饰符控制页面分隔符的外观，并忽略`.s7pagedivider` CSS类。
 
-可以在主查看器区域上配置自定义鼠标光标的显示。 通过应用于`.s7ecatalogsearchviewer .s7pageview` CSS类的其他属性选择器来控制：
+可以在主查看器区域上配置自定义鼠标光标的显示。 可通过应用于`.s7ecatalogsearchviewer .s7pageview` CSS类的其他属性选择器来控制此问题：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -135,19 +134,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p> 通常，对于不可缩放的图像显示箭头。 </p> </td> 
+   <td colname="col2"> <p> 通常，对于不可缩放的图像，会显示一个箭头。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 卓敏  </span> </p> </td> 
-   <td colname="col2"> <p> 显示何时可以放大图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛民  </span> </p> </td> 
+   <td colname="col2"> <p> 显示图像何时可以放大。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
-   <td colname="col2"> <p>显示图像何时处于最大缩放并可重置。 </p> </td> 
+   <td colname="col2"> <p>显示图像何时处于最大缩放比例并可重置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>显示用户对图像中的缩放执行拖动操作时间 </p> </td> 
+   <td colname="col2"> <p>显示用户对图像中缩放的图像执行拖动操作的时间 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 幻灯片  </span> </p> </td> 
@@ -156,7 +155,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例 — 对于每种类型的组件状态有不同的鼠标光标。
+示例 — 每种类型的组件状态具有不同的鼠标光标。
 
 ```
 .s7ecatalogsearchviewer .s7pageview[cursortype="default"] { 
@@ -175,4 +174,3 @@ cursor:url(images/slide_cursor.cur), auto;
 cursor:url(images/drag_cursor.cur), auto; 
 }
 ```
-
