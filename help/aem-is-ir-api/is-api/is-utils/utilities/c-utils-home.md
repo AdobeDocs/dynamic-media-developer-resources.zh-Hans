@@ -1,21 +1,20 @@
 ---
-description: “图像服务”实用程序指南包含有关与Dynamic Media Image Server和图像渲染一起使用的实用程序的信息。
+description: “图像提供”实用程序指南包含有关与Dynamic Media Image Server和“图像呈现”一起使用的实用程序的信息。
 solution: Experience Manager
-title: 图像服务实用程序
-feature: Dynamic Media Classic,SDK/API
+title: 图像提供实用程序
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
 
+# 图像提供实用程序{#image-serving-utilities}
 
-# 图像服务实用程序{#image-serving-utilities}
-
-“图像服务”实用程序指南包含有关与Dynamic Media Image Server和图像渲染一起使用的实用程序的信息。
+“图像提供”实用程序指南包含有关与Dynamic Media Image Server和“图像呈现”一起使用的实用程序的信息。
 
 * [公用设施的位置](c-location-of-utilities.md)
 * [ic](r-ic.md)
