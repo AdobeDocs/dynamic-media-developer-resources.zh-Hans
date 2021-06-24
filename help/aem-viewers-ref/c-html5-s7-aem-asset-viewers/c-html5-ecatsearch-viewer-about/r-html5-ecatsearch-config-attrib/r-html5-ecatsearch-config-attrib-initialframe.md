@@ -1,17 +1,16 @@
 ---
-description: 初始帧
+description: InitialFrame
 solution: Experience Manager
-title: 初始帧
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: InitialFrame
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定在加载查看器时显示的从零开始的跨页索引。 该索引与横向模式下跨页的索引匹配。 如果将查看器旋转为纵向，则查看器将显示由<span class="codeph"> frameIdx</span>指向的跨页中最左侧的页面。 </p> </td> 
+   <td colname="col2"> <p> 指定要在查看器加载时显示的零基跨页索引。 索引与横向模式下跨页的索引匹配。 如果将查看器旋转为纵向，则查看器将显示跨页中最左侧的页面，该跨页由<span class="codeph"> frameIdx</span>指向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 8%
 ```
 [!DNL initialFrame=2
 ```
-
