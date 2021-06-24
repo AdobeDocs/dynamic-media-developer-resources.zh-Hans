@@ -1,25 +1,24 @@
 ---
-description: 默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译目的的区域设置ID。
+description: 默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译的区域设置ID。
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 4%
 
 ---
 
-
 # DefaultLocale{#defaultlocale}
 
-默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译目的的区域设置ID。
+默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译的区域设置ID。
 
 ## 属性 {#section-a101e9658d304e9caf032a99ecb80386}
 
-文本字符串。 如果`attribute::LocaleMap`和`attribute::LocaleStrMap`为空，或指定`locale=`而非空，则忽略。
+文本字符串。 如果`attribute::LocaleMap`和`attribute::LocaleStrMap`为空，或者当`locale=`被指定且不为空时，则忽略。
 
 ## 另请参阅 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
