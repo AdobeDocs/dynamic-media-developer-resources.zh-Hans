@@ -1,22 +1,21 @@
 ---
-description: 如果req=img，则合成画布的大小完全由图层0的大小决定。
+description: 如果req=img，则复合画布的大小完全由层0的大小确定。
 solution: Experience Manager
-title: 合成画布
-feature: Dynamic Media Classic,SDK/API
+title: 复合画布
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 38b2349f-714a-4304-bd33-5ce171b6d3a1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
+# 复合画布{#the-compositing-canvas}
 
-# 合成画布{#the-compositing-canvas}
+如果req=img，则复合画布的大小完全由层0的大小确定。
 
-如果req=img，则合成画布的大小完全由图层0的大小决定。
+如果未明确指定图层0的`size=` ，则使用图层转换来计算复合画布的大小（请参阅下文）。
 
-如果未显式指定图层0的`size=`，则使用图层变换来计算合成画布的大小（请参阅下面的内容）。
-
-如果`req=tmb`，则合成画布的大小由为图层0指定的`size=`决定，或者，如果未指定大小，则合成画布大小将设置为视图矩形（请参阅下文）。
+如果为`req=tmb`，则复合画布的大小由为层0指定的`size=`决定，或者，如果未指定大小，则复合画布的大小将设置为视图矩形（请参阅下文）。
