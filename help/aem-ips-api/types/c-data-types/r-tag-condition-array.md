@@ -1,21 +1,20 @@
 ---
-description: 一组标签条件。
+description: 标记条件数组。
 solution: Experience Manager
 title: TagConditionArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f5a1d4a-aa23-4761-b21f-0cf16fd2c584
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # TagConditionArray{#tagconditionarray}
 
-一组标签条件。
+标记条件数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:TagCondition` | 一组标签条件。 |
-
+| `*`项目`*` | `types:TagCondition` | 标记条件数组。 |
