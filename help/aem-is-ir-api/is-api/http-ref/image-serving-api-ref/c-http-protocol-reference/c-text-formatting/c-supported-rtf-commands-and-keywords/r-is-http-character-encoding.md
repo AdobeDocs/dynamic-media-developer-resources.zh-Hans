@@ -2,16 +2,15 @@
 description: 使用以下命令对字符进行编码。
 solution: Experience Manager
 title: 字符编码
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 2%
 
 ---
-
 
 # 字符编码{#character-encoding}
 
@@ -29,12 +28,12 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
    <td> <p>单个8位字符。 </p> </td> 
-   <td> <p><span class="varname"> </span> hh必须是2位十六进制值。 </p> </td> 
+   <td> <p><span class="varname"> </span> 必须为2位十六进制值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\<span class="varname"> uN</span></span> </td> 
    <td> <p>单个Unicode字符。 </p> </td> 
-   <td> <p><span class="varname"> Nis</span> 是带符号的2字节整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
+   <td> <p><span class="varname"> </span> Nis是一个带符号的2字节整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\<span class="varname"> ucN</span></span> </td> 
@@ -42,20 +41,19 @@ ht-degree: 2%
    <td> <p>与给定的Unicode字符对应的字节数。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \loc  </span> </td> 
-   <td> <p>下面是低ANSI区域的字符。 </p> </td> 
+   <td> <span class="codeph"> \loch  </span> </td> 
+   <td> <p>下面是低ANSI区域中的字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \h  </span> </td> 
-   <td> <p>高ANSI区域的字符如下。 </p> </td> 
+   <td> <span class="codeph"> \hich  </span> </td> 
+   <td> <p>后面跟有高ANSI区域的字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch  </span> </td> 
-   <td> <p>多次字节字符。 </p> </td> 
+   <td> <p>双字节字符后跟。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
