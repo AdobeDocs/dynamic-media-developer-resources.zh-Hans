@@ -2,16 +2,15 @@
 description: 为s7 elementID设置文本节点值。
 solution: Experience Manager
 title: setVal
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
-
 
 # setVal{#setval}
 
