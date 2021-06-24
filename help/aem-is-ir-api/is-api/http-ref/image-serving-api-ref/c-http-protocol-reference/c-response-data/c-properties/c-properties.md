@@ -1,28 +1,27 @@
 ---
-description: 属性数据会返回以响应多个req=类型。
+description: 响应若干请求=类型，返回属性数据。
 solution: Experience Manager
 title: 属性
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
 
-
 # 属性{#properties}
 
-返回属性数据以响应以下`req=`类型：
+属性数据会针对以下`req=`类型返回：
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 仅当响应的内容采用属性格式时，响应 `catalog::UserData` 才会以属性格式设置。
+`userdata` 仅当的内容遵循属性格式时，响应 `catalog::UserData` 才会格式化为属性。
 
 * [文本(Java)属性](r-text-java-properties.md)
 * [JavaScript属性](r-javascript-properties.md)
