@@ -1,23 +1,22 @@
 ---
-description: 缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
+description: 缩略图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
 solution: Experience Manager
-title: 缩略图BkgColor
-feature: Dynamic Media Classic,SDK/API
+title: ThumbBkgColor
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 88acf5ad-2973-42f9-9aaa-901e66b07f53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
-
 # ThumbBkgColor{#thumbbkgcolor}
 
-缩览图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
+缩略图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像区域的RGB值。
 
-仅用于缩略图请求(`req=tmb`)和将`catalog::ThumbType`设置为2或3时。
+仅用于缩略图请求(`req=tmb`)以及将`catalog::ThumbType`设置为2或3时。
 
 ## 属性 {#section-a73e82c950cc4319bc3bccec14764c25}
 
@@ -25,7 +24,7 @@ ht-degree: 5%
 
 ## 默认 {#section-b02bb56dda684ff9969806ce82ba00c2}
 
-如果未定义或为空，则从`default::ThumbBkgColor`继承。
+从`default::ThumbBkgColor`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-27983dc885424dfbba8c8e4192f3f88d}
 
