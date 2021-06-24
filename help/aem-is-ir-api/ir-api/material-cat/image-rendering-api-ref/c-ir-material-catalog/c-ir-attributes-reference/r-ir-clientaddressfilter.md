@@ -1,23 +1,22 @@
 ---
-description: 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
+description: 客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 24046950-1dba-4352-a549-43994e799748
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
 
-
 # ClientAddressFilter{#clientaddressfilter}
 
-客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
+客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 
-如果指定，则来自未列出IP地址的客户端的此图像目录请求将被拒绝。 `localhost` 始终隐式部分定义， `ClientAddressFilter` 即使未显式指定也是如此。始自`localhost`的请求从不被拒绝，无论`ClientAddressFilter`规范如何。
+指定后，对此图像目录的请求（源自未列入IP地址的客户端）将被拒绝。 `localhost` 始终隐式地包含在定 `ClientAddressFilter` 义中，即使未明确指定也是如此。无论`ClientAddressFilter`规范如何，始发自`localhost`的请求都永远不会被拒绝。
 
 ## 属性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -25,20 +24,20 @@ ht-degree: 3%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* 格式的IP地 *[!DNL ddd.ddd.ddd.ddd]* 址
+* *[!DNL ipAddress]* 格式化的IP地 *[!DNL ddd.ddd.ddd.ddd]* 址
 
 * *[!DNL netmask]* 网络掩码(0...32)
 
-应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
+当应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
 
 ## 默认 {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-如果未定义或为空，则从`default::AddressFilter`继承。
+从`default::AddressFilter`继承（如果未定义或为空）。
 
 ## 示例 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
 * 无访问限制：`0.0.0.0/0`
-* 授予对以`192: 192.0.0.0/8`开头的所有地址的访问权限
+* 授予对以`192: 192.0.0.0/8`开始的所有地址的访问权限
 * 授予对地址介于`192.168.12.0`和`192.168.13.255: 192.168.12.0/23`之间的512台主机的访问权限
 
 * 授予对单个IP地址的访问权限：`192.168.2.117`或`192.168.2.117/32`
