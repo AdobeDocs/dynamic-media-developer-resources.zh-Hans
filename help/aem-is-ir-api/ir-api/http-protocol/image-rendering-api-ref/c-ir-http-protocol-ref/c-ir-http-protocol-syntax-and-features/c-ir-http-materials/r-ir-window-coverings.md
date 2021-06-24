@@ -1,27 +1,26 @@
 ---
-description: 窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和百叶窗）。
+description: 窗盖材料包括柔软的窗盖（窗帘、阀门、咖啡窗帘）和硬的窗盖（窗帘和百叶窗）。
 solution: Experience Manager
 title: 窗盖
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
+# 窗盖{#window-coverings}
 
-# 窗口覆盖{#window-coverings}
+窗盖材料包括柔软的窗盖（窗帘、阀门、咖啡窗帘）和硬的窗盖（窗帘和百叶窗）。
 
-窗帘材料包括软窗帘（窗帘、窗帘、咖啡窗帘）和硬窗帘（窗帘和百叶窗）。
+覆盖材料的窗口指定了一个&#x200B;*覆盖样式文件*（[!DNL .vnw]文件扩展名）的窗口，一个类似于晕影的特殊数据文件，其中包含用于定义窗口覆盖的蒙版、照明、布局和纹理化数据。
 
-窗口覆盖材料指定一个&#x200B;*窗口覆盖样式文件*（[!DNL .vnw]文件扩展名），一个类似于晕影的特殊数据文件，包含定义窗口覆盖的蒙版、照明、布局和纹理化数据。
+[!DNL vnw] 文件不包括窗口覆盖的颜色和纹理（结构）。此信息是单独指定的，与可重复的纹理类似。
 
-[!DNL vnw] 文件不包括用于窗口覆盖的颜色和纹理（结构）。此信息是单独指定的，类似于可重复的纹理。
-
-窗口覆盖材料只能应用于“窗口覆盖框架对象”（即重叠对象）。
+窗口覆盖材料只能应用于“窗口覆盖框架对象”(Window Covering Frame Objects)，这些对象是重叠的对象。
 
 <table id="table_545865B054E84592BDAEDA57DBFAE9B3"> 
  <thead> 
@@ -34,7 +33,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>窗口覆盖样式文件；。 </p> </td> 
+   <td colname="col2"> <p>窗口覆盖样式文件；必需。 </p> </td> 
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +47,7 @@ ht-degree: 3%
    <td colname="col3"> <p> <span class="codeph"> 属性：:Resolution  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> 重复=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
    <td colname="col2"> <p>重复模式。 </p> </td> 
    <td colname="col3"> <p>0（直重复） </p> </td> 
   </tr> 
@@ -64,4 +63,3 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
-
