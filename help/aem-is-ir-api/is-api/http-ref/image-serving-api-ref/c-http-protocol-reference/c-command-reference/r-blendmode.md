@@ -2,16 +2,15 @@
 description: 混合模式. 指定合成图层时使用的混合类型。 模拟Photoshop中可用的常用混合模式。 有关详细信息，请参阅Photoshop文档。
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 15%
 
 ---
-
 
 # blendMode{#blendmode}
 
@@ -21,7 +20,7 @@ ht-degree: 14%
 
 ## 属性 {#section-418aad5a417f49929d1953e226e5c8dd}
 
-图层属性。 被`layer=0`和`layer=comp`忽略。
+层属性。 被`layer=0`和`layer=comp`忽略。
 
 ## 默认 {#section-69829acc6532448d8612a4a54e86f00e}
 
