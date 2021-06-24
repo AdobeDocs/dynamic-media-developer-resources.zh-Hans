@@ -30,7 +30,7 @@ ht-degree: 0%
 
 请参阅[系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-## 使用传送查看器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用轮播查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 轮播查看器表示主JavaScript文件和一组由查看器在运行时下载的帮助程序文件（单个JavaScript包含该查看器的所有查看器SDK组件，这些组件由该特定查看器、资产和CSS使用）。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与轮播查看器{#section-642e66ca38cd4032992840ec6c0b0cd2}交互
+## 与轮播查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 通过在主视图上水平轻扫或在桌面设备上有两个箭头按钮，可浏览轮播集。 设置指示点可显示设置内的当前位置。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入轮播查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入轮播查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **关于弹出模式**
 
