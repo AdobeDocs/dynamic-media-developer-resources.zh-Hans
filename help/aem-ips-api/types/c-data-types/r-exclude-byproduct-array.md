@@ -1,21 +1,20 @@
 ---
-description: 支持searchAssets操作中的副产品筛选。
+description: 支持searchAssets操作中的副产品过滤。
 solution: Experience Manager
-title: ExcludeBybsuleArray
-feature: Dynamic Media Classic,SDK/API
+title: ExcludeBybloudArray
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # ExcludeBybloudArray{#excludebyproductarray}
 
-支持searchAssets操作中的副产品筛选。
+支持searchAssets操作中的副产品过滤。
 
 语法
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`项目`*` | `types:ExcludeByproductCondition` | 数组中的项。 |
-
