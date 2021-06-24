@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## 使用视频查看器{#section-f21ac23d3f6449ad9765588d69584772}
+## 使用视频查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
 视频查看器表示一个主JavaScript文件和一组帮助程序文件 — 单个JavaScript包含的查看器SDK组件由该查看器在运行时下载的该特定查看器、资产和CSS使用。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与视频查看器{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}交互
+## 与视频查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 视频查看器为视频播放提供了一组标准用户界面控件，如播放/暂停按钮、视频清理器视频时间气泡、播放时间/总时间指示器、音量控制、全屏按钮和隐藏式字幕切换。 所有这些控件都分组到位于查看器用户界面底部的控制栏中。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 使用视频查看器{#section-907d316fe1da4b87abb9775f02464704}共享社交媒体工具
+## 使用视频查看器共享社交媒体工具 {#section-907d316fe1da4b87abb9775f02464704}
 
 视频查看器支持社交媒体共享工具。这些工具在用户界面中以单个按钮的形式提供，当用户单击或点按时，该按钮将扩展为共享工具栏。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
-## 嵌入视频查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同网页对查看者行为的需求不同。 有时，网页会提供一个链接，单击该链接后，查看者便会在单独的浏览器窗口中打开。 在其他情况下，需要将查看器直接嵌入到托管页面上。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
