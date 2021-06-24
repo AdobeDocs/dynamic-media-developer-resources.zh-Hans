@@ -2,43 +2,42 @@
 description: 按像素位置选择对象。
 solution: Experience Manager
 title: sel
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
-
 
 # sel{#sel}
 
 按像素位置选择对象。
 
-` sel= *`木`*, *``*[, *`质`*]`
+` sel= *``*, *``*[, *`xylevel`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> x，y  </span> </p> </td> 
-  <td class="stentry"> <p>以像素(int， int)为单位选取位置坐标。 </p> </td> 
+  <td class="stentry"> <p>选取位置坐标(以像素为单位（整数、整数）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 级别 </span> </p> </td> 
-  <td class="stentry"> <p>组级别(int)。 </p> </td> 
+  <td class="stentry"> <p>组级别（整数）。 </p> </td> 
  </tr> 
 </table>
 
-在&#x200B;*`x, y`*&#x200B;指定的像素坐标处选择组或对象，并开始新MSS。 如果选择位置没有可选对象，或者选择位置无效，则执行由`attribute::OnFailSel`指定的操作。
+在&#x200B;*`x, y`*&#x200B;指定的像素坐标处选择组或对象，并启动新的MSS。 如果选择位置没有可选对象，或者如果选择位置无效，则执行`attribute::OnFailSel`指定的操作。
 
-*`level`* 指定是选择最外面的组，还是向下钻取到嵌套的组或对象。如果未指定&#x200B;*`level`*，则选择最外面的组。 设置为1可在最外面的组下选择一个组级别。 设置为大数（如99）以选择最内层的可选对象或组。
+*`level`* 指定是选择最外部的组，还是向下钻取到嵌套的组或对象。如果未指定&#x200B;*`level`*，则选择最外部的组。 设置为1可在最外部的组下选择一个组级别。 设置为大数（如99）以选择最里面的可选对象或组。
 
 ## 属性 {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-选择命令；MSS分隔符。 对象选择是永久的，直到选择了另一个对象（带有`obj=`或`sel=`）。
+选择命令；MSS分隔符。 对象选择将持续存在，直到选择了另一个对象（无论是使用`obj=`还是`sel=`）。
 
-*`x, y`* 必须在0、0（图像左上角）到–1、- *`wid`* 1(图 *`hei`*&#x200B;像的右下角)的范围内，其中和是未缩 *`wid`* 放暗角 *`hei`* 视图的大小。
+*`x, y`* 必须在0、0（图像左上角）到–1、- *`wid`* 1(图 *`hei`*&#x200B;像的右下角)之间，其中和是未缩 *`wid`* 放晕影视 *`hei`* 图的大小。
 
 如果指定，*`level`*&#x200B;必须为0或更大。
 
@@ -48,4 +47,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-486842570b4e4bf895f6ccc172ebd8b2}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) wid= [,hei=，属](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec)性： [:DefaultPix](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478) [,属性](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f) [::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)
+[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) ,  [wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec),  [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478),  [attribute::DefaultPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f),  [attribute::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)
