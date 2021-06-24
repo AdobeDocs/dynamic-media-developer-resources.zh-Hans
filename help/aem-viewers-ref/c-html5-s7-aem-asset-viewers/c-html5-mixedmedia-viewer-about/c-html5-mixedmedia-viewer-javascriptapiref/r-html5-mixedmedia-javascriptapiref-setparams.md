@@ -1,25 +1,24 @@
 ---
-description: 混合媒体查看器的JavaScript API参考。
+description: 混合媒体查看器的JavaScript API引用。
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 200805ca-20e5-4d3a-90ba-2511e71705ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 1%
 
 ---
 
-
 # setParams{#setparams}
 
-混合媒体查看器的JavaScript API参考。
+混合媒体查看器的JavaScript API引用。
 
 ` setParams( *`params`*)`
 
-将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的name=value对。 就像在查询字符串中一样，名称和值使用UTF8以百分比编码。 在调用`init()`之前，必须调用此参数。 如果将查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的名称=值对。 与查询字符串一样，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。 如果查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
 
@@ -27,12 +26,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=与&amp;分隔的值参 <span class="codeph"> 数对</span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value参数对，以&amp; <span class="codeph"> </span>分隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 
@@ -41,4 +40,3 @@ ht-degree: 1%
 ```
 <instance>.setParams("ZoomView.zoomstep=2,3&ZoomView.iscommand=op_sharpen%3d1")
 ```
-
