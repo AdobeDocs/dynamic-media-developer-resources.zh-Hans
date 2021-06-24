@@ -32,7 +32,7 @@ ht-degree: 0%
 
 请参阅[系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-## 使用交互式视频查看器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用交互式视频查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 交互式视频查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 单个JavaScript随此特定查看器、资产和CSS使用的所有查看器SDK组件一起提供。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与交互式视频查看器{#section-642e66ca38cd4032992840ec6c0b0cd2}交互
+## 与交互式视频查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 交互式视频查看器为视频播放提供了一组标准用户界面控件，例如播放/暂停按钮、视频清理器、视频时间气泡、播放时间/总时间指示器、音量控制、全屏按钮和隐藏式字幕切换。 所有这些控件都直接分组到主视图下的控制栏中。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 查看器完全可通过键盘访问。 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入交互式视频查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入交互式视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 交互式视频查看器已嵌入到托管页面中。 这样的网页可能具有静态布局，或者它可能是“响应式”的，并且在不同设备上或针对不同浏览器窗口大小显示不同。
 
