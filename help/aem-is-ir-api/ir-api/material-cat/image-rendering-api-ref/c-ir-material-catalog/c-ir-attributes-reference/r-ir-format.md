@@ -2,16 +2,15 @@
 description: 默认回复图像格式。 指定回复图像的默认格式。
 solution: Experience Manager
 title: 格式
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
-
 
 # 格式{#format}
 
@@ -25,7 +24,7 @@ ht-degree: 10%
 
 ## 默认 {#section-256b0f8afdd846eaac68ec2019258708}
 
-如果未定义或为空，则从`default::Format`继承。
+从`default::Format`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 
