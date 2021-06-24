@@ -1,23 +1,22 @@
 ---
-description: 如果将jsonp指定为响应格式，则返回数据将使用JSONP（JavaScript对象表示法和填充）格式化，并打包在JavaScript函数调用中。
+description: 如果将jsonp指定为响应格式，则回复数据将使用JSONP（带内边距的JavaScript对象表示法）进行格式化，该格式封装在JavaScript函数调用中。
 solution: Experience Manager
 title: JSONP属性
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
 
-
 # JSONP属性{#jsonp-properties}
 
-如果将jsonp指定为响应格式，则返回数据将使用JSONP（JavaScript对象表示法和填充）格式化，并打包在JavaScript函数调用中。
+如果将jsonp指定为响应格式，则回复数据将使用JSONP（带内边距的JavaScript对象表示法）进行格式化，该格式封装在JavaScript函数调用中。
 
-客户端可以指定可选的唯一请求标识符(*`reqId`*)，该标识符在响应中返回并允许客户端区分异步接收的多个响应。 典型响应具有以下一般结构：
+客户端可以指定可选的唯一请求标识符(*`reqId`*)，该标识符在响应中返回，并允许客户端区分异步接收的多个响应。 典型响应的一般结构如下：
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -38,7 +37,7 @@ ht-degree: 1%
 </varname>" );
 ```
 
-`s7jsonResponse` JavaScript函数必须由客户端定义。 在最简单的形式中，该函数可能如下所示：
+`s7jsonResponse` JavaScript函数必须由客户端定义。 最简单的形式是，函数可能如下所示：
 
 ```
 var responseData; 
@@ -48,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
-Dynamic Media图像服务查看器包包含一个实用程序，用于从图像服务请求和分析JSONP格式化的数据。
+Dynamic Media Image Serving Viewers包包含一个实用程序，用于从Image Serving中请求和解析JSONP格式的数据。
 
-有关JSONP格式的详细信息，请参阅[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+有关JSONP格式的更多信息，请参阅[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
 
-有关JSON格式的详细信息，请参阅[www.json.org](http://www.json.org)。
+有关JSON格式的更多信息，请参阅[www.json.org](http://www.json.org)。
 
 另请参阅[req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)。
