@@ -1,17 +1,16 @@
 ---
 description: 介绍IPS API版本6的新操作方法和更改的操作方法。
 solution: Experience Manager
-title: 操作新增和修改
-feature: Dynamic Media Classic,SDK/API
+title: 操作（新增和修改）
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 5%
 
 ---
-
 
 # 操作：新建和已修改{#operations-new-and-modified}
 
@@ -19,7 +18,7 @@ ht-degree: 5%
 
 语法
 
-## 新操作{#section-088502a0746945f28a5ea100cd655bc6}
+## 新操作 {#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -28,14 +27,14 @@ ht-degree: 5%
 * `updateAssetSet`
 * `updateImageSet`
 
-## 修改后的操作{#section-f4e8755527444266ae806e3f4c851ae6}
+## 修改的操作 {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **增加了**
 
-* 将`isHidden`和`initialTagValue`添加到：
+* 已将`isHidden`和`initialTagValue`添加到：
 
    * `saveMetadataField`
-   * ` `updateMetadataField”
+   * ` `updateMetadataField&quot;
    * `createMetadataField`
 
 * 已将`thumbAssetHandle`添加到：
@@ -59,7 +58,7 @@ ht-degree: 5%
 
 
 
-* 将includeInactive添加到：
+* 已将includeInactive添加到：
 
    * `getUsers`.
    * `getUserChars`.
@@ -80,12 +79,11 @@ ht-degree: 5%
 
 * 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
 
-* 在`getUserChars`中，`includeInvalid`现在为可选。
+* 在`getUserChars`中，`includeInvalid`现在是可选的。
 
 **已删除**
 
-* 已从`renameAsset`删除`renameFiles`。
+* 从`renameAsset`中删除了`renameFiles`。
 
 * 已删除 `getXMPPanelViewDefinition`.
-* 已删除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
-
+* 删除了`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
