@@ -1,25 +1,24 @@
 ---
-description: 在一个或多个公司中设置用户的会员资格。
+description: 在一个或多个公司中设置用户的成员资格。
 solution: Experience Manager
 title: setCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
-
 # setCompanyMembership{#setcompanymembership}
 
-在一个或多个公司中设置用户的会员资格。
+在一个或多个公司中设置用户的成员资格。
 
 语法
 
-## 授权用户类型{#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 授权用户类型 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,15 +32,15 @@ ht-degree: 14%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:sting` | 否 | 用户句柄。 |
-| `*`membershArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司数组。 |
+| `*`membersingArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司。 |
 
 **输出(setCompanyMembershipParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此代码示例将用户添加到公司。 如果需要，在公司句柄数组中指定多个公司。
+此代码示例可将用户添加到公司。 根据需要，指定公司句柄数组中的多个公司。
 
 **请求**
 
