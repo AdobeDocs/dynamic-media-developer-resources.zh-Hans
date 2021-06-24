@@ -1,25 +1,24 @@
 ---
-description: 将用户添加到一组组。
+description: 将用户添加到组数组。
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 13%
+source-wordcount: '99'
+ht-degree: 14%
 
 ---
 
-
 # addGroupMembership{#addgroupmembership}
 
-将用户添加到一组组。
+将用户添加到组数组。
 
 语法
 
-## 授权用户类型{#section-fe950150718a474d8df30d0f4453c022}
+## 授权用户类型 {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,20 +42,20 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>处理要添加其用户组成员关系的用户。 </p> </td> 
+   <td colname="col4"> <p>对要添加其群组成员资格的用户进行处理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>希望公司所属的组的句柄数组。 </p> </td> 
+   <td colname="col4"> <p>您希望公司所属的组的句柄数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **输出(addGroupMembershipParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
