@@ -1,31 +1,30 @@
 ---
-description: Facebook共享工具包含添加到“社交共享”面板的按钮。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
+description: Facebook共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-title: Facebook分享
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: Facebook份额
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Facebook共享{#facebook-share}
+# Facebook份额{#facebook-share}
 
-Facebook共享工具包含添加到“社交共享”面板的按钮。 单击按钮时，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由社交共享工具管理。
+Facebook共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-Facebook共享按钮的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制Facebook共享按钮的外观：
 
 ```
 .s7video360viewer .s7facebookshare
 ```
 
-**Facebook共享工具的CSS属性**
+**facebook共享工具的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,20 +42,20 @@ Facebook共享按钮的外观由以下CSS类选择器控制：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-通过设置Social共享面板的CSS类上的`display:none` CSS属性，可以从该面板中删除该按钮。
+可以通过在Social共享面板的CSS类中设置`display:none` CSS属性，从该面板中删除该按钮。
 
-按钮工具提示可以本地化。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按钮工具提示可进行本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例**  — 设置一个28 x 28像素的Facebook共享按钮，并针对四个不同的按钮状态中的每一个显示不同的图像：
+**示例**  — 要设置一个28 x 28像素的Facebook共享按钮，并针对四个不同按钮状态中的每个状态显示一个不同的图像，请执行以下操作：
 
 ```
 .s7video360viewer .s7facebookshare { 
