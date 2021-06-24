@@ -1,26 +1,25 @@
 ---
-description: 应该考虑几个服务器行为问题。
+description: 应考虑多个服务器行为问题。
 solution: Experience Manager
-title: 关于服务器行为的注释
-feature: Dynamic Media Classic,SDK/API
+title: 关于服务器行为的说明
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
+# 关于服务器行为的说明{#notes-on-server-behavior}
 
-# 有关服务器行为的注释{#notes-on-server-behavior}
+应考虑多个服务器行为问题。
 
-应该考虑几个服务器行为问题。
-
-* [合成画布](r-the-compositing-canvas.md)
-* [图层变换](r-layer-transforms.md)
-* [缩览图缩放](r-thumbnail-scaling.md)
+* [复合画布](r-the-compositing-canvas.md)
+* [图层转换](r-layer-transforms.md)
+* [缩略图缩放](r-thumbnail-scaling.md)
 * [缩略图规则](r-thumbnail-rules.md)
 * [图层放置](r-layer-placement.md)
-* [视图变换图像](r-view-transform-for-images.md)
-* [视图变换缩览图](r-view-transform-for-thumbnails.md)
+* [查看图像转换](r-view-transform-for-images.md)
+* [查看缩览图转换](r-view-transform-for-thumbnails.md)
