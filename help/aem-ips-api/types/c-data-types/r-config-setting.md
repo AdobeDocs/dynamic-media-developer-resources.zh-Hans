@@ -1,21 +1,20 @@
 ---
-description: 仅供Dynamic Media开发人员使用。
+description: 仅由Dynamic Media开发人员使用。
 solution: Experience Manager
-title: ConfigSetting
-feature: Dynamic Media Classic,SDK/API
+title: 配置设置
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6d6421ce-1933-4310-b691-817392631969
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
 
+# 配置设置{#configsetting}
 
-# ConfigSetting{#configsetting}
-
-仅供Dynamic Media开发人员使用。
+仅由Dynamic Media开发人员使用。
 
 语法
 
@@ -25,5 +24,4 @@ ht-degree: 18%
 |---|---|---|
 | `*`name`*` | `xsd:string` | 配置名称。 |
 | `*`值`*` | `xsd:string` | 配置值。 |
-| `*`处理`*` | `xsd:string` | 处理存储的配置。 |
-
+| `*`处理`*` | `xsd:string` | 对存储的配置的句柄。 |
