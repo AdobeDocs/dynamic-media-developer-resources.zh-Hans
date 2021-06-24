@@ -1,27 +1,26 @@
 ---
-description: 资源类型. 用于标识发布到目录ImageSet的集的类型。
+description: 资源类型. 用于标识发布到目录ImageSet的集类型。
 solution: Experience Manager
-title: 资产类型
-feature: Dynamic Media Classic,SDK/API
+title: AssetType
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84530842-4d2a-402a-b94b-45356cec5dc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 13%
 
 ---
 
-
 # AssetType{#assettype}
 
-资源类型. 用于标识发布到目录的集的类型：:ImageSet。
+资源类型. 用于标识发布到catalog::ImageSet的集类型。
 
-资产类型决定为`req=set`请求生成的响应类型。 如果未指定值，自动检测规则将确定`req=set`响应类型。
+资产类型确定要为`req=set`请求生成的响应类型。 如果未指定值，则自动检测规则将确定`req=set`响应类型。
 
 ## 属性 {#properties}
 
-以下集的枚举值：
+以下集中的枚举值：
 
 MEDIASET
 
@@ -29,7 +28,7 @@ MEDIASET
 
 SPINSET2D
 
-视频集
+VIDEOSET
 
 图像集
 
@@ -41,4 +40,4 @@ ECATALOG
 
 ## 另请参阅 {#section-235f9f5522024d3682ee7cc0101eb7ba}
 
-[catalog::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md),  [Media Set Requests](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[catalog::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md),  [Media Set请求](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
