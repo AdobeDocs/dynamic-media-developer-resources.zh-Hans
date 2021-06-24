@@ -2,16 +2,15 @@
 description: 调整亮度。 降低或增加图像亮度。
 solution: Experience Manager
 title: op_brightness
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 390ed812-87ae-41e7-8021-65dd95915ae8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 3%
 
 ---
-
 
 # op_brightness{#op-brightness}
 
@@ -28,7 +27,7 @@ ht-degree: 3%
 
 ## 属性 {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果图层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
+层命令。 应用于当前层或复合图像（如果`layer=comp`）。 被效果层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 默认 {#section-be56be0759634c79b4f264f194a94dbc}
 
@@ -36,6 +35,6 @@ ht-degree: 3%
 
 ## 示例 {#section-c25f952f1b77409abb9ccf885862d75c}
 
-稍微变暗图像的背景以强调前景内容：
+轻微绘制图像的背景以强调前景内容：
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_brightness=-10&layer=1&src=myRootId/myImageId`
