@@ -2,16 +2,15 @@
 description: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 75ac93b4-fd76-4a2c-ba6a-c99baefaecec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
-
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
@@ -21,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器开始是否在加载时播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器在加载时是否开始播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
