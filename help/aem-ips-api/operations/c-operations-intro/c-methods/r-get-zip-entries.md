@@ -2,16 +2,15 @@
 description: 返回Zip文件数据。
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-33a3f03ba8a14086922397619ce12ab8}
+## 授权用户类型 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 20%
 | `*`companyHandle`*` | `xsd:string` | 是 | 包含Zip文件的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 处理Zip文件。 |
 
-**输出(getZipEntriesReturn)**
+**Output(getZipEntriesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -48,7 +47,7 @@ ht-degree: 20%
 
 ## 示例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-此代码示例返回Zip文件信息，包括压缩和未压缩大小。
+此代码示例可返回Zip文件信息，包括压缩和未压缩的大小。
 
 **请求**
 
@@ -75,4 +74,3 @@ ht-degree: 20%
    </zipArray>
 </getZipEntriesReturn>
 ```
-
