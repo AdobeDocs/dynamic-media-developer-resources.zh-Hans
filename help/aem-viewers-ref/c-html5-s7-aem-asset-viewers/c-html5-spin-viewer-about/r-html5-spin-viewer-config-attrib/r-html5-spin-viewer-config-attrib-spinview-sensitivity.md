@@ -2,16 +2,15 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 控制通过鼠标拖动或轻扫执行的水平和垂直旋转的敏感度。 </p> <p> <span class="codeph"> </span> xSensitivity设置如果用户将鼠标水平从视图的一侧拖动到另一侧，将产品进行多少完全水平旋转。例如，“3”表示用户看到一个完全拖动手势的三个完整旋转。 </p> <p>同样，<span class="codeph"> ySensitivity</span>控制垂直自旋的敏感度。 值1表示一次完全垂直拖动或轻扫会将视图角从最顶部的旋转平面更改为最底部（反之亦然）。 </p> <p>为<span class="codeph"> ySensitivity</span>设置负值将反转垂直旋转的方向。 </p> </td> 
+   <td colname="col2"> <p> 控制通过鼠标拖动或轻扫执行的水平和垂直旋转的灵敏度。 </p> <p> <span class="codeph"> </span> x敏感设置如果用户将鼠标从视图的一侧水平拖动到另一侧，将产品进行多少次完全水平旋转。例如，三表示用户看到一个完整拖动手势的三个完整旋转。 </p> <p>同样，<span class="codeph"> ySensitivity</span>控制垂直旋转的灵敏度。 值1表示一次完全垂直拖动或轻扫将视图角度从最顶部的旋转平面更改为最底部（反之亦然）。 </p> <p>为<span class="codeph"> ySensitivity</span>设置负值会反转垂直旋转的方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
