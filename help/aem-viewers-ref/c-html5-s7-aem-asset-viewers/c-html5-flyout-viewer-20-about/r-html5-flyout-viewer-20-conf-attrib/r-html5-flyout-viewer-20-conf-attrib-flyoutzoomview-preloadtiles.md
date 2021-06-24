@@ -2,16 +2,15 @@
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic，查看器，SDK/API，弹出
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 34c8c7b9-0369-4d13-95f5-ad129e913453
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
-
 
 # FlyoutZoomView.preloadtiles{#flyoutzoomview-preloadtiles}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>可启用预加载缩放图像，或设置为<span class="codeph"> 0</span>可根据需要逐步加载缩放图像。 </p> <p> <p>注意： 如果启用此选项，则会显着提高带宽使用率。 即使用户未启动缩放操作，缩放的图像也会全部加载。 </p> </p> </td> 
+   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>可启用缩放图像的预加载，或设置为<span class="codeph"> 0</span>可根据需要以增量方式加载缩放图像。 </p> <p> <p>注意： 如果启用此选项，则可能会显着提高带宽使用率。 即使用户未启动缩放操作，缩放的图像也会全部加载。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
