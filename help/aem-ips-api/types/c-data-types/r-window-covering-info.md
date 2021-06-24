@@ -2,16 +2,15 @@
 description: 覆盖文件的窗口的属性。
 solution: Experience Manager
 title: WindowCoveringInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 15%
 
 ---
-
 
 # WindowCoveringInfo{#windowcoveringinfo}
 
@@ -28,6 +27,5 @@ ht-degree: 15%
 | `*`fileSize`*` | `xsd:int` | 文件大小. |
 | `*`imagePath`*` | `xsd:string` | 图像的相对路径。 |
 | `*`imageFile`*` | `xsd:string` | 覆盖图像的窗口的文件名。 |
-| `*`optimizedPath`*` | `xsd:string` | 已优化文件路径。 |
+| `*`optimizedPath`*` | `xsd:string` | 优化了文件路径。 |
 | `*`optimizedFile`*` | `xsd:string` | 优化的文件名。 |
-
