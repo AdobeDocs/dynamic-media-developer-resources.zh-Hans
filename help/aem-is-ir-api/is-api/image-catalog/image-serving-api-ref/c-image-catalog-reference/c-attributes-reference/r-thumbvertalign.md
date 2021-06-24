@@ -1,31 +1,30 @@
 ---
-description: 缩览图的垂直对齐。 指定缩览图图像在由wid=和hei=或属性DefaultThumbPix指定的回复图像矩形中的垂直对齐方式。
+description: 缩览图的垂直对齐方式。 在由wid=和hei=或属性DefaultThumbPix指定的回复图像矩形中指定缩略图图像的垂直对齐方式。
 solution: Experience Manager
 title: ThumbVertAlign
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bb1aa398-5638-4109-bf05-bc51ace4146d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
 
-
 # ThumbVertAlign{#thumbvertalign}
 
-缩览图的垂直对齐。 指定缩览图图像在由wid=和hei=或by attribute::DefaultThumbPix指定的回复图像矩形中的垂直对齐方式。
+缩览图的垂直对齐方式。 在由wid=和hei=或属性：:DefaultThumbPix指定的回复图像矩形中指定缩略图的垂直对齐方式。
 
 仅用于缩略图请求(`req=tmb`)。
 
 ## 属性 {#section-f02c23248e87419caf3d95add51aea1e}
 
-枚举。 允许的值分别为1、2和3，用于顶部对齐、居中对齐和底部对齐。
+枚举。 对于顶部对齐、居中对齐和底部对齐，允许的值分别为1、2和3。
 
 ## 默认 {#section-30caa4e772254419ad7a3a89d440666c}
 
-如果未定义或为空，则从`default::ThumbHorizAlign`继承。
+从`default::ThumbHorizAlign`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-c4cd5209d994498eb56a78fcd5bbdfa4}
 
