@@ -1,21 +1,20 @@
 ---
-description: 生成视频的缩略图。
+description: 为视频生成缩略图。
 solution: Experience Manager
-title: 媒体选项
-feature: Dynamic Media Classic,SDK/API
+title: MediaOptions
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f37d935d-fe74-4878-8477-d2144d58d982
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
 
-
 # MediaOptions{#mediaoptions}
 
-生成视频的缩略图。
+为视频生成缩略图。
 
 语法
 
@@ -32,18 +31,18 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3"><span class="codeph"> PropertySet</span>句柄数组，引用用于转码视频的视频编码预设。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：HandleArray</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>的数组用于处理用于转码视频的引用视频编码预设。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 如果为true，则提取视频的第一帧并用作缩略图图像。 </td> 
+   <td colname="col3"> 当为true时，将提取视频的第一帧作为缩略图图像。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：ThumbnailOptions</span> </td> 
-   <td colname="col3">可选。允许您选择要用作缩略图的特定视频帧。 <p>要指定缩略图图像，请传递要使用的帧的时间(以毫秒为单位，从视频开始开始)。 值范围从0到视频末尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>将默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
+   <td colname="col3">可选。允许您选择特定视频帧作为缩略图图像。 <p>要指定缩略图，请传递要使用的帧的时间（以视频开始后的毫秒为单位）。 值介于0到视频结尾之间。 <p>注意：如果您未正确指定时间，则<span class="codeph"> generateThumbnail</span>默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,11 +59,10 @@ ht-degree: 6%
     </complexType>
 ```
 
-## 由{#section-87cb83407198432c95eaa2db9f12f9db}使用
+## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-`mediaOptions`类型由：
+`mediaOptions`类型由以下用户使用：
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
