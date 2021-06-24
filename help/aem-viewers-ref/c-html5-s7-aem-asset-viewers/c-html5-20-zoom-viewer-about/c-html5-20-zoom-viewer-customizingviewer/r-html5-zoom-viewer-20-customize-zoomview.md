@@ -1,27 +1,26 @@
 ---
-description: 主视图由可缩放图像组成。
+description: 主视图由可缩放的图像组成。
 solution: Experience Manager
 title: 缩放视图
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-
 # 缩放视图{#zoom-view}
 
-主视图由可缩放图像组成。
+主视图由可缩放的图像组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+通过以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7zoomviewer .s7zoomview
@@ -36,8 +35,8 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 主视图以十六进制格式显示的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
@@ -54,15 +53,15 @@ ht-degree: 0%
 }
 ```
 
-在桌面系统上，组件支持`cursortype`属性选择器，该属性选择器可应用于`.s7zoomview`类。 它根据组件状态和用户操作控制光标的类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`.s7zoomview`类的`cursortype`属性选择器。 它根据组件状态和用户操作来控制光标的类型。 支持以下`cursortype`值：
 
 * `default`
 
-   当图像因图像分辨率较低或组件设置或两者兼有而无法缩放时显示。
+   当由于图像分辨率较低或组件设置，或者由于两者而无法缩放图像时显示。
 
 * `zoomin`
 
-   当图像可放大时显示。
+   在图像可放大时显示。
 
 * `reset`
 
@@ -75,4 +74,3 @@ ht-degree: 0%
 * `slide`
 
    当用户通过水平轻扫或轻扫执行图像交换时显示。
-
