@@ -1,38 +1,37 @@
 ---
-description: 打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
+description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
 
-
 # printRes{#printres}
 
-打印分辨率。 覆盖嵌入在响应图像中的打印分辨率值。
+打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
 
-`printRes= *`瓦尔`*`
+`printRes= *`val`*`
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
   <td class="stentry"> <p>打印分辨率(dpi)。 </p></td> 
  </tr> 
 </table>
 
-打印分辨率通常由`catalog::PrintResolution`定义（如果是目录条目），否则由嵌入在源图像中的打印分辨率值定义。 如果是模板或分层复合图像，则嵌入响应文件中的默认打印分辨率是具有最低图层编号的图层图像的打印分辨率。
+对于目录条目，打印分辨率通常由`catalog::PrintResolution`定义，否则由嵌入在源图像中的打印分辨率值定义。 对于模板或分层复合图像，在响应文件中嵌入的默认打印分辨率是具有最低图层编号的图层图像的打印分辨率。
 
 设置打印分辨率不会更改回复图像的像素大小。
 
 ## 属性 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-请求属性。 无论当前图层设置如何，均适用。
+请求属性。 无论当前的层设置如何，都适用。
 
 ## 默认 {#section-d7d89fd235cc418fb381014612530f00}
 
