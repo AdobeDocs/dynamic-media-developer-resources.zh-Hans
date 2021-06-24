@@ -2,22 +2,21 @@
 description: 静态内容目录数据文件路径。 指定包含此目录的静态内容数据的文件。
 solution: Experience Manager
 title: StaticContentCatalogFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
-
 
 # StaticContentCatalogFile{#staticcontentcatalogfile}
 
 静态内容目录数据文件路径。 指定包含此目录的静态内容数据的文件。
 
-静态内容目录数据文件按指定的顺序加载。 如果多条记录（在同一或不同的目录文件中）中出现相同的`static::Id`值，则最后一个实例优先。
+静态内容目录数据文件按指定的顺序加载。 如果同一`static::Id`值出现在多个记录中（在相同或不同的目录文件中），则最后一个实例占上风。
 
 ## 属性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
@@ -25,7 +24,7 @@ ht-degree: 4%
 
 ## 默认 {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
-空，表示此图像目录不包含任何静态内容数据。
+为空，表示此图像目录不包含任何静态内容数据。
 
 ## 另请参阅 {#section-13d78d475fff40e7a4edf9a9c73f3c15}
 
