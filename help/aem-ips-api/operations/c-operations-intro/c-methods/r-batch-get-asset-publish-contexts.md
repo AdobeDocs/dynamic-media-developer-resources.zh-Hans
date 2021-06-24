@@ -2,16 +2,15 @@
 description: 返回标记为发布的资产的发布上下文。
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
-
 
 # batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 语法
 
-## 授权用户类型{#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## 授权用户类型 {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,14 +45,14 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要查询的活动（标记为发布）上下文的资产列表。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | 是 | 要查询活动（标记为发布）上下文的资产列表。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一组发布上下文，其中每个资产都标记为要发布。 |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 是 | 一个发布上下文数组，其中每个资产都被标记为发布。 |
 
 ## 示例 {#section-457f6809ccfa425b9a0976313d613f4e}
 
@@ -102,4 +101,3 @@ ht-degree: 15%
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
