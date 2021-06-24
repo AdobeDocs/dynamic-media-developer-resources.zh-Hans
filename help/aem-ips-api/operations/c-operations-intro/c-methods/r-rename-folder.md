@@ -2,16 +2,15 @@
 description: 重命名文件夹。
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 20%
 
 ---
-
 
 # renameFolder{#renamefolder}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-5a252b00937d4befbec76fa23fbae9df}
+## 授权用户类型 {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,15 +29,15 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->用户必须具有资产的读写权限。
+>用户必须具有资产的读取和写入权限。
 
 ## 参数 {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input(renameFolderParam)**
+**输入(renameFolderParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理要重命名的文件夹的公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含要重命名的文件夹的公司。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 处理文件夹。 |
 | `*`folderName`*` | `xsd:string` | 是 | 新文件夹名称。 |
 
@@ -46,11 +45,11 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 是 | 处理重命名的文件夹。 |
+| `*`folderHandle`*` | `xsd:string` | 是 | 对重命名的文件夹的处理。 |
 
 ## 示例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
-此代码示例重命名文件夹。
+此代码示例可重命名文件夹。
 
 **请求**
 
@@ -69,4 +68,3 @@ ht-degree: 20%
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-
