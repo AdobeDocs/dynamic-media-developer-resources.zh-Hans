@@ -1,32 +1,31 @@
 ---
-description: 静态内容类型过滤器。 为通过/is/content传送的静态内容指定过滤字符串。
+description: 静态内容类型筛选器。 为通过/is/content交付的静态内容指定过滤器字符串。
 solution: Experience Manager
 title: 类型
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
 
-
 # 类型{#type}
 
-静态内容类型过滤器。 为通过/is/content传送的静态内容指定过滤字符串。
+静态内容类型筛选器。 为通过/is/content交付的静态内容指定过滤器字符串。
 
-`type= *`瓦尔`*`
+`type= *`val`*`
 
 <table id="simpletable_B66354A826434A678F3DBC686A0F1436"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 瓦尔</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
   <td class="stentry"> <p>键入过滤器字符串。 </p></td> 
  </tr> 
 </table>
 
-服务器将将值与请求的静态内容项的值`catalog::Type`进行比较。 如果值匹配（区分大小写），则项将返回给客户端，否则返回错误。
+服务器将比较val与请求的静态内容项的`catalog::Type`值。 如果值匹配（区分大小写），则将项目返回给客户端，否则将返回错误。
 
 ## 属性 {#section-529b088434a44a9f86a64ef548d2925b}
 
@@ -38,4 +37,4 @@ ht-degree: 5%
 
 ## 另请参阅 {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[服务静态（非图像）内容](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [目录：:UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[提供静态（非图像）内容](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [目录：::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
