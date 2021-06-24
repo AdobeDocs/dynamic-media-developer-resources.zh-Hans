@@ -1,25 +1,24 @@
 ---
-description: 获取公司资源的原始文件路径。
+description: 获取公司资产的原始文件路径。
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
-
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-获取公司资源的原始文件路径。
+获取公司资产的原始文件路径。
 
 语法
 
-## 授权用户类型{#section-da8d8561e9174e938f3595a5d6e50089}
+## 授权用户类型 {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,18 +30,18 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->需要对资产具有读取权限。
+>需要对资产具有读取访问权限。
 
 ## 参数 {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**Input(getOriginalFilePathsParam)**
+**输入(getOriginalFilePathsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资产的句柄数组。 |
 
-**输出(getOriginalFilePathsReturn)**
+**Output(getOriginalFilePathsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -50,7 +49,7 @@ ht-degree: 15%
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-此代码示例返回使用资产句柄数组中唯一资产句柄指定的资产的文件路径。
+此代码示例可返回使用资产句柄数组中的唯一资产句柄指定的资产的文件路径。
 
 **请求**
 
@@ -74,4 +73,3 @@ ht-degree: 15%
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
