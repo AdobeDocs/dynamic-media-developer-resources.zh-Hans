@@ -32,7 +32,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 * [向查看器添加按钮](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [垂直配置色板](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## 从Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}下载最新的Viewer SDK
+## 从Adobe Developer Connection下载最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. 从Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->下载最新的Viewer SDK。
 
@@ -119,7 +119,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 您现在将向查看器添加样式。
 
-## 向查看器添加样式{#section-3783125360a1425eae5a5a334867cc32}
+## 向查看器添加样式 {#section-3783125360a1425eae5a5a334867cc32}
 
 1. 对于您正在创建的此完整页面查看器，可以添加一些基本样式。
 
@@ -211,7 +211,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 您现在将组件`MediaSet`和`Swatches`添加到查看器中。
 
-## 向查看器{#section-02b8c21dd842400e83eae2a48ec265b7}添加MediaSet和Swatches组件
+## 将MediaSet和Swatches组件添加到查看器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. 为了允许用户从图像集中选择图像，可以添加组件`MediaSet`和`Swatches`。
 
@@ -292,7 +292,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 您现在可以向查看器添加放大、缩小和缩放重置按钮。
 
-## 向查看器添加按钮{#section-1fc334fa0d2b47eb9cdad461725c07be}
+## 向查看器添加按钮 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
 1. 目前，用户只能使用点击或触摸手势进行缩放。 因此，请向查看器中添加一些基本的缩放控制按钮。
 
@@ -356,7 +356,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    您现在将配置色板，以便它们在右侧垂直对齐。
 
-## 垂直配置色板{#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## 垂直配置色板 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. 您可以直接在`ParameterManager`实例上配置修饰符。
 
