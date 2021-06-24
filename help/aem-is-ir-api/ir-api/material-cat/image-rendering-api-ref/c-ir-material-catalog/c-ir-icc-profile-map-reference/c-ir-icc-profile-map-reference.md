@@ -1,22 +1,21 @@
 ---
-description: 如果图像目录需要ICC用户档案映射，则必须在属性IccProfileMapFile中指定用户档案映射文件的相对或绝对路径。
+description: 如果图像目录需要ICC配置文件映射，则必须在属性IccProfileMapFile中指定配置文件映射文件的相对或绝对路径。
 solution: Experience Manager
-title: ICC用户档案映射参考
-feature: Dynamic Media Classic,SDK/API
+title: ICC配置文件映射引用
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
+# ICC配置文件映射引用{#icc-profile-map-reference}
 
-# ICC用户档案映射引用{#icc-profile-map-reference}
+如果图像目录需要ICC配置文件映射，则必须在属性：:IccProfileMapFile中指定配置文件映射文件的相对或绝对路径。
 
-如果图像目录需要ICC用户档案映射，则必须在以下属性中指定用户档案映射文件的相对路径或绝对路径：:IccProfileMapFile。
+特定材料目录的ICC配置文件映射中的条目将覆盖默认目录的ICC配置文件映射中的条目。
 
-特定物料目录的ICC用户档案映射中的条目将覆盖默认目录的ICC用户档案映射中的条目。
-
-图像渲染支持符合ICC规范的颜色用户档案文件。
+图像渲染支持符合ICC规范的颜色配置文件文件。
