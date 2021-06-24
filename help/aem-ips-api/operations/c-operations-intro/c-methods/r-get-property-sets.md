@@ -2,16 +2,15 @@
 description: 获取与类型句柄关联的属性集。
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
-
 
 # getPropertySets{#getpropertysets}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 语法
 
-## 授权用户类型{#section-da858360b72941bfa8d9558b4da7d4da}
+## 授权用户类型 {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,7 +40,7 @@ ht-degree: 17%
 | `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 绑定到数据库对象的数据的主所有者。 |
 | `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 数据的可选辅助所有者。 |
 
-**输出(getPropertySetsReturn)**
+**Output(getPropertySetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -49,7 +48,7 @@ ht-degree: 17%
 
 ## 示例 {#section-1358af974eab4259864910337a6f0bd2}
 
-此代码示例返回由类型句柄指定的主要所有者的属性集。
+此代码示例返回其主所有者的属性集，由类型句柄指定。
 
 **请求**
 
@@ -86,4 +85,3 @@ ht-degree: 17%
    </setArray>
 </getPropertySetsReturn>
 ```
-
