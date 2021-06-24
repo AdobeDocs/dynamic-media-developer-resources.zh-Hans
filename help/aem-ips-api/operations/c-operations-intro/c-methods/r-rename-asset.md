@@ -2,16 +2,15 @@
 description: 重命名资产。
 solution: Experience Manager
 title: renameAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
-
 
 # renameAsset{#renameasset}
 
@@ -19,9 +18,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->`renameFiles`参数已在先前版本中弃用，并已从`renameAsset`中删除。 虚拟文件路径将更改为与新资源名称（保留文件扩展名）匹配，而物理文件路径不受影响。 API客户端在更新到新API版本时需要删除对此参数的引用。
+>以前版本已弃用`renameFiles`参数，并从`renameAsset`中删除。 虚拟文件路径会进行更改以匹配新资产名称（保留文件扩展名），而物理文件路径则不会受到影响。 API客户端在更新到新API版本时，需要删除对此参数的引用。
 
-## 授权用户类型{#section-cc27ad713c6d498b8f056850b20976f4}
+## 授权用户类型 {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,26 +31,26 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->用户必须具有资产的读写权限。
+>用户必须具有资产的读取和写入权限。
 
 ## 参数 {#section-ef95a994106841e0ab346dd4cf672258}
 
-**Input(renameAssetParam)**
+**输入(renameAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 要重命名的资产的句柄。 |
 | `*`newName`*` | `xsd:string` | 是 | 资产的新名称。 |
-| `*`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`为`true`，且资源类型需要唯一的IPS ID，则会检查新名称的全局唯一性，如果它不唯一，则`renameAsset`将引发错误。 |
+| `*`validateName`*` | `xsd:boolean` | 是 | 如果`validateName`是`true`，并且资产类型需要唯一的IPS ID，则会检查新名称的全局唯一性，如果它不唯一，则`renameAsset`会引发故障。 |
 
 **输出(renameAssetReturn)**
 
-IPS API不返回此操作的响应。 有关此元素的注意事项，请参见`<ns1:validateName>`元素的说明。
+IPS API不会返回此操作的响应。 有关此元素的注意事项，请参阅`<ns1:validateName>`元素的描述。
 
 ## 示例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-此代码示例重命名资产
+此代码示例可重命名资产
 
 **请求**
 
