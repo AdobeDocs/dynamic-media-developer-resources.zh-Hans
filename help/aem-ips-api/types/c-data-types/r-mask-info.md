@@ -1,21 +1,20 @@
 ---
-description: 遮罩文件属性。
+description: 掩盖文件属性。
 solution: Experience Manager
-title: 蒙版信息
-feature: Dynamic Media Classic,SDK/API
+title: 掩码信息
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
+# 掩码信息{#maskinfo}
 
-# MaskInfo{#maskinfo}
-
-遮罩文件属性。
+掩盖文件属性。
 
 语法
 
@@ -23,6 +22,5 @@ ht-degree: 17%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`maskPath`*` | `xsd:string` | 遮罩文件路径。 |
-| `*`maskFile`*` | `xsd:string` | 遮罩文件名。 |
-
+| `*`maskPath`*` | `xsd:string` | 掩码文件路径。 |
+| `*`maskFile`*` | `xsd:string` | 掩码文件名。 |
