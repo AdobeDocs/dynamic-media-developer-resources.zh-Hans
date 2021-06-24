@@ -1,25 +1,24 @@
 ---
-description: 播放/暂停按钮使视频播放器在用户单击视频内容时播放或暂停该视频内容。
+description: 当用户单击视频内容时，播放/暂停按钮会导致视频播放器播放或暂停该视频内容。
 solution: Experience Manager
-title: 播放/暂停按钮
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: “播放/暂停”按钮
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
 
+# “播放/暂停”按钮{#play-pause-button}
 
-# 播放/暂停按钮{#play-pause-button}
-
-播放/暂停按钮使视频播放器在用户单击视频内容时播放或暂停该视频内容。
+当用户单击视频内容时，播放/暂停按钮会导致视频播放器播放或暂停该视频内容。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-您可以通过CSS相对于包含按钮的控件栏来调整按钮的大小、外观和位置。
+您可以按CSS相对于包含该按钮的控制栏来调整按钮的大小、外观和位置。
 
 以下CSS类选择器控制按钮的外观：
 
@@ -27,25 +26,25 @@ ht-degree: 2%
 .s7mixedmediaviewer .s7playpausebutton
 ```
 
-## 播放/暂停按钮{#css-properties-of-the-play-pause-button}的CSS属性
+## 播放/暂停按钮的CSS属性 {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从上边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从右边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从右边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从左边框开始的位置，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从左边框开始的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 从底边框中的位置，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 从下边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -61,22 +60,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`、`selected`和`replay`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 其中，`selected='true'`对应于“play”状态，`selected='false'`对应于“pause”状态；
+>此按钮同时支持`state`、`selected`和`replay`属性选择器，它们可用于将不同的外观应用到不同的按钮状态。 其中，`selected='true'`对应于“play”状态，`selected='false'`对应于“pause”状态；
 >
->`replay='true'` 设置为当视频到达末尾时，单击按钮将从开头重新播放。
+>`replay='true'` 当视频到达结尾时，单击按钮将从开头重新开始播放。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-设置32 x 32像素的播放/暂停按钮；它位于距控件条上边缘和左边缘6个像素的位置，在选择或未选择时，它会为四个不同按钮状态中的每个状态显示一个不同的图像。
+设置32 x 32像素的播放/暂停按钮；它位于距控制栏上边缘和左边缘6个像素处，在选择或未选择时，它会针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7mixedmediaviewer .s7playpausebutton { 
@@ -122,4 +121,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
