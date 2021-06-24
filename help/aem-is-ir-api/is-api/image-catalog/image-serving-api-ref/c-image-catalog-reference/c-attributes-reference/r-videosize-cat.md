@@ -1,17 +1,16 @@
 ---
 description: 视频大小。 允许指定与每个视频记录关联的大小。
 solution: Experience Manager
-title: 视频大小
-feature: Dynamic Media Classic,SDK/API
+title: VideoSize
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e70db18f-a8fd-4e47-85e3-a0f1f9a945d9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
-
 
 # VideoSize{#videosize}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
 
 ## 属性 {#section-93a2631a57e2423ea6b40f68c55062a1}
 
-宽度和高度的以逗号分隔的整数值（例如，512,288）。
+宽度和高度（例如，512,288）的逗号分隔整数值。
 
 ## 默认 {#section-baaee759ef344c54bbc014dc8944768a}
 
