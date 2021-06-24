@@ -1,50 +1,49 @@
 ---
-description: 视频时间是显示当前播放的视频的当前时间和持续时间的数字显示。
+description: 视频时间是数字显示，用于显示当前播放的视频的当前时间和持续时间。
 solution: Experience Manager
 title: 视频时间
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
 
-
 # 视频时间{#video-time}
 
-视频时间是显示当前播放的视频的当前时间和持续时间的数字显示。
+视频时间是数字显示，用于显示当前播放的视频的当前时间和持续时间。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-视频时间字体系列、字体大小和字体颜色是CSS可以控制的属性之一。 CSS还可以相对于包含它的控件栏定位它。
+视频时间字体系列、字体大小和字体颜色是CSS可以控制的属性之一。 它还可以通过CSS相对于包含该控件栏进行定位。
 
-视频时间的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制视频时间的外观：
 
 ```
 .s7mixedmediaviewer .s7videotime
 ```
 
-## 视频时间{#css-properties-of-video-time}的CSS属性
+## 视频时间的CSS属性 {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从上边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从右边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从右边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 视频时间控件的宽度。 Internet Explorer 8或更高版本需要此属性才能正常工作。 </p> </td> 
+   <td colname="col2"> <p> 视频时间控件的宽度。 Internet Explorer 8或更高版本需要此属性才能正常运行。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>用于时间显示文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +59,7 @@ ht-degree: 2%
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-将视频时间设置为浅灰色（十六进制`#BBBBBB`），大小为12像素，距控件条顶部15像素，距控件条右边缘80像素。
+将视频时间设置为浅灰色（十六进制`#BBBBBB`），大小为12像素，距控制栏顶部15像素，距控制栏右边缘80像素。
 
 ```
 .s7mixedmediaviewer .s7videotime { 
@@ -71,4 +70,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
