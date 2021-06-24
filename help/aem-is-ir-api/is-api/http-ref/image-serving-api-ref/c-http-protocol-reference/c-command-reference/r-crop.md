@@ -2,29 +2,28 @@
 description: 裁剪图像。 指定矩形裁剪区域，以像素表示或相对于全分辨率源图像或蒙版图像进行标准化。
 solution: Experience Manager
 title: 裁切
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
-
 
 # 裁切{#crop}
 
 裁剪图像。 指定矩形裁剪区域，以像素表示或相对于全分辨率源图像或蒙版图像进行标准化。
 
-`crop= *``*, *`坐标`*`
+`crop= *``*, *`坐标大小`*`
 
 `cropN= *``*, *`coordNsizeN`*`
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
-  <td class="stentry"> <p>从源图像的左上角到裁剪矩形的左上角的像素偏移(int， int)。 </p></td> 
+  <td class="stentry"> <p>从源图像的左上角到裁剪矩形的左上角的像素偏移(int、int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
@@ -32,19 +31,19 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 大小</span></span> </p></td> 
-  <td class="stentry"> <p>裁剪矩形的大小(以像素为单位(int， int))。 </p></td> 
+  <td class="stentry"> <p>裁剪矩形的大小(以像素为单位（整数、整数）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span></span> </p></td> 
-  <td class="stentry"> <p>裁剪矩形相对于源图像大小的标准化大小（实数、实数）。 </p></td> 
+  <td class="stentry"> <p>相对于源图像大小（实、实）的裁剪矩形的标准化大小。 </p></td> 
  </tr> 
 </table>
 
-还可以通过指定负x、y值和/或宽度、大于图像宽度和高度的高度值，使图像扩展到其边界之外。 在这种情况下，扩展区域是完全透明的（除非指定了`bgColor=`）。
+还可以通过指定负x、y值和/或宽度、大于图像宽度、高度的高度值，将图像扩展到超出其边界的范围。 在这种情况下，扩展区域是完全透明的（除非指定`bgColor=`）。
 
 ## 属性 {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-源图像/蒙版属性。 如果`layer=comp`，则应用于图层0源图像。 未与源图像或蒙版关联的图层忽略。
+源图像/蒙版属性。 如果`layer=comp`，则应用于0层源图像。 被未与源图像或蒙版关联的图层忽略。
 
 ## 默认 {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -52,11 +51,11 @@ ht-degree: 3%
 
 ## 示例 {#section-2c99b481c0a04321979a3b522aa295d1}
 
-**裁切左边10%，右边10%:**
+**在左边裁切10%，在右边裁切10%:**
 
 `…&cropN=0.1,0,0.8,1&…`
 
-**裁剪图像底边20%:**
+**裁切图像底部边缘20%的内容：**
 
 `…&cropN=0,0,1,0.8&…`
 
