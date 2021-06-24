@@ -1,25 +1,24 @@
 ---
-description: 返回用户组的成员。
+description: 返回群组成员。
 solution: Experience Manager
 title: getGroupMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
 
-
 # getGroupMembership{#getgroupmembership}
 
-返回用户组的成员。
+返回群组成员。
 
 语法
 
-## 授权用户类型{#section-35d070e5c4d74ca69df508368953cfb8}
+## 授权用户类型 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,9 +35,9 @@ ht-degree: 18%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | 否 | 用户的句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
 
-**输出(getGroupMembershipReturn)**
+**Output(getGroupMembershipReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -64,4 +63,3 @@ ht-degree: 18%
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
