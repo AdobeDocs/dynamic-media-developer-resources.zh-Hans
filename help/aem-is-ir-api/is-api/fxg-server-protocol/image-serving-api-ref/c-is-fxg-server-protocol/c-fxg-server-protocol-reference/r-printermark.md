@@ -2,24 +2,23 @@
 description: 显示打印机标记。 指定如何显示打印机标记。
 solution: Experience Manager
 title: printerMark
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
-
 
 # printerMark{#printermark}
 
 显示打印机标记。 指定如何显示打印机标记。
 
-` printerMark= *`裁切标`*, *`记出`*, *`血标记注`*, *`册标`*, *`记颜`*, *``*, *`色条`*, *`页信息线粗细图层嵌入`*`
+` printerMark= *`裁切`*, *`标记`*, *`标记注`*, *`册标记颜`*, *`色标`*, *``*, *`记信息`*, *`样式线粗细层嵌入`*`
 
-可以关闭或打开不同的标记。 还可以控制打印机标记的样式。
+可以关闭或打开不同的标记。 打印机标记的样式也可以控制。
 
 以下是有效值：
 
@@ -52,11 +51,11 @@ ht-degree: 30%
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>默认 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>默认为默认 </p></td> 
+  <td class="stentry"> <p>默认为 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>行权重= </p></td> 
-  <td class="stentry"> <p>范围0.125 - 2.0中的任意值（包括这两个值）。 </p></td> 
+  <td class="stentry"> <p>线重量= </p></td> 
+  <td class="stentry"> <p>范围为0.125 - 2.0的任何值，包括这两个值。 </p></td> 
   <td class="stentry"> <p>默认值为 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
