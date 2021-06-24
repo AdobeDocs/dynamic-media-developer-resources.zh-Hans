@@ -1,14 +1,13 @@
 ---
 description: 介绍IPS API版本4.4的新数据类型和已更改的数据类型。
 solution: Experience Manager
-title: 数据类型新建和修改
-feature: Dynamic Media Classic,SDK/API
+title: 数据类型新增和修改
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 3%
 
 语法
 
-## 新类型{#section-b910343aff304ec9b4d74045a2596a74}
+## 新类型 {#section-b910343aff304ec9b4d74045a2596a74}
 
 * `AssetMetadataFields`
 * `AssetMetadataFieldsArray`
@@ -32,18 +31,18 @@ ht-degree: 3%
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## 修改类型{#section-dfd062062ad444b0876bbc951fb1560c}
+## 修改的类型 {#section-dfd062062ad444b0876bbc951fb1560c}
 
 **资源**
 
-添加的参数：
+添加了以下参数：
 
 * `subtype`
 * `assetSetInfo`
 
 **作业日志**
 
-添加的参数：
+添加了以下参数：
 
 * `transferSuccessCount`
 * `transferErrorCount`
@@ -51,6 +50,6 @@ ht-degree: 3%
 
 **PDFInfo**
 
-添加的参数：
+添加了以下参数：
 
 * `extractLinks`
