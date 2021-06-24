@@ -2,16 +2,15 @@
 description: 遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
 solution: Experience Manager
 title: 蒙版
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '75'
+ht-degree: 13%
 
 ---
-
 
 # 蒙版{#mask}
 
@@ -23,9 +22,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | 蒙版手柄。 |
-| `*`name`*` | `xsd:string` | 蒙版名称。 |
-| `*`maskPath`*` | `xsd:string` | 遮罩的相对路径。 |
+| `*`maskHandle`*` | `xsd:string` | 口罩手柄。 |
+| `*`name`*` | `xsd:string` | 掩码名称。 |
+| `*`maskPath`*` | `xsd:string` | 蒙版的相对路径。 |
 | `*`maskFile`*` | `xsd:string` | 蒙版文件. |
-| `*`lastModified`*` | `types:dateTime` | 上次修改蒙版的日期、时间和时区。 |
-
+| `*`lastModified`*` | `types:dateTime` | 上次修改掩码的日期、时间和时区。 |
