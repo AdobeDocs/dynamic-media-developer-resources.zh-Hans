@@ -2,16 +2,15 @@
 description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 16%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -21,7 +20,7 @@ ht-degree: 16%
 >
 >此方法已弃用。
 
-## 授权用户类型{#section-0c1cbde0863346f8a31b32fd06ab2926}
+## 授权用户类型 {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +45,7 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的手柄。 </td> 
+   <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -61,7 +60,7 @@ ht-degree: 16%
    <td colname="col4"> 要从中保存元数据的资产类型选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 字段名称。 </td> 
@@ -70,25 +69,25 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元数据字段类型的选择。 </td> 
+   <td colname="col4"> 元数据字段类型的选项。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 所有资产的字段默认值。 </td> 
+   <td colname="col4"> 所有资产的字段的默认值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或公开特定于IPS系统的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +96,11 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 是 | 处理新元数据字段。 |
+| `*`fieldHandle`*` | `xsd:string` | 是 | 新元数据字段的句柄。 |
 
 ## 示例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代码示例创建了一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它会更改元数据值并获得您在请求中指定的相同字段句柄。
+此代码示例创建了一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它会更改元数据值，并获得您在请求中指定的相同字段句柄。
 
 **请求**
 
@@ -122,4 +121,3 @@ ht-degree: 16%
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
