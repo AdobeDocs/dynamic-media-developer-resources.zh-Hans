@@ -1,21 +1,20 @@
 ---
-description: 'Scene 7图像服务由以下组件组成 '
+description: 'Scene 7图像提供包含以下组件 '
 solution: Experience Manager
-title: 图像服务组件
-feature: Dynamic Media Classic,SDK/API
+title: 图像提供组件
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
 
+# 图像提供组件{#image-serving-components}
 
-# 图像服务组件{#image-serving-components}
-
-Scene 7图像服务包含以下组件：
+Scene 7图像提供包含以下组件：
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,7 +25,7 @@ Scene 7图像服务包含以下组件：
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>服务器主管 </p> </td> 
+   <td colname="col1"> <p>服务器管理员 </p> </td> 
    <td colname="col2"> <p>负责启动、停止和确保其他组件运行正常的独立可执行文件。 </p> </td> 
   </tr> 
   <tr> 
@@ -51,17 +50,17 @@ Scene 7图像服务包含以下组件：
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE文本渲染组件 </p> </td> 
-   <td colname="col2"> <p>当运行<span class="codeph"> textPs=</span>操作时，文本渲染服务的一个或多个实例可能处于活动状态。 </p> </td> 
+   <td colname="col2"> <p>运行<span class="codeph"> textPs=</span>操作时，文本渲染服务的一个或多个实例可能处于活动状态。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG渲染组件 </p> </td> 
    <td colname="col2"> <p>独立的Java应用程序（不由Tomcat托管）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dynamic Media图像渲染(aka. 渲染服务器) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media图像渲染(即， 渲染服务器) </p> </td> 
    <td colname="col2"> <p>需要单独的许可证才能激活。 位于<span class="filepath"> /ir/render</span>的HTTP访问。 所有图像渲染功能都集成到平台服务器和图像服务器中，没有单独的可执行组件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-其他配置设置由默认目录([!DNL default.ini])或特定图像目录（有关详细信息，请参阅[图像目录](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供。
+默认目录([!DNL default.ini])或特定图像目录（有关详细信息，请参阅[图像目录](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)）提供了其他配置设置。
