@@ -1,38 +1,37 @@
 ---
-description: “收藏夹”视图包含一列缩略图图像。
+description: “收藏夹”视图包含一列缩略图。
 solution: Experience Manager
 title: 收藏夹视图
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
 
-
 # 收藏夹视图{#favorites-view}
 
-“收藏夹”视图包含一列缩略图图像。
+“收藏夹”视图包含一列缩略图。
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-“收藏夹”视图容器的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制“收藏夹”视图容器的外观：
 
 ```
 .s7ecatalogviewer .s7favoritesview
 ```
 
-“收藏夹”视图的位置和高度由视图管理；在CSS中，只能定义宽度。
+收藏夹视图的位置和高度由视图管理；在CSS中，只能定义宽度。
 
-**收藏夹视图的CSS属性**
+**“收藏夹”视图的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> “收藏夹”视图的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +41,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 设置宽度为100像素的半透明灰色背景的“收藏夹”视图。
+示例 — 设置宽为100像素的“收藏夹”视图，其中半透明的灰色背景。
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -51,13 +50,13 @@ ht-degree: 2%
 }
 ```
 
-使用以下CSS类选择器控制“收藏夹”缩览图之间的间距：
+通过以下CSS类选择器可控制收藏夹缩略图之间的间距：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**收藏夹缩览图的CSS属性**
+**收藏夹缩略图的CSS属性**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
@@ -76,19 +75,19 @@ ht-degree: 2%
 }
 ```
 
-使用以下CSS类选择器控制单个缩略图的外观：
+通过以下CSS类选择器控制单个缩略图的外观：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**收藏夹缩览图的CSS属性**
+**收藏夹缩略图的CSS属性**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
-   <td colname="col2"> <p>缩览图的宽度。 </p> </td> 
+   <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -103,9 +102,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩览图支持`state`属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是，`state="selected"`对应于用户最近选择的缩略图。 `state="default"` 与其余缩略图相对应。并且`state="over"`用于鼠标悬停。
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 特别是，`state="selected"`对应于用户最近选择的缩略图。 `state="default"` 对应于其余的缩略图。并且在鼠标悬停时使用`state="over"`。
 
-示例 — 设置75 x 75像素的缩览图，其默认边框为浅灰色，选定边框为深灰色。
+示例 — 设置缩略图75 x 75像素，默认边框为浅灰色，选定边框为深灰色。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -120,7 +119,7 @@ ht-degree: 2%
 }
 ```
 
-缩览图标签的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制缩略图标签的外观：
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label
@@ -131,7 +130,7 @@ ht-degree: 2%
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-famiy  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +140,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 设置14像素Helvetica字体的标签。
+示例 — 使用14像素Helvetica字体设置标签。
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 
@@ -149,4 +148,3 @@ ht-degree: 2%
  font-size: 14px; 
 }
 ```
-
