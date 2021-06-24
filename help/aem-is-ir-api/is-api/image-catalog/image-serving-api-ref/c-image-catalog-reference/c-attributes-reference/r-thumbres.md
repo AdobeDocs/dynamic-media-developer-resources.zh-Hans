@@ -1,21 +1,20 @@
 ---
-description: 默认缩略图分辨率。 提供缩略图对象分辨率的默认值，以防特定目录记录不包含有效的目录ThumbRes值。
+description: 默认缩略图分辨率。 为缩略图对象分辨率提供默认值，以防特定目录记录不包含有效的目录ThumbRes值。
 solution: Experience Manager
 title: ThumbRes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
-
 # ThumbRes{#thumbres}
 
-默认缩略图分辨率。 提供缩略图对象分辨率的默认值，以防特定目录记录不包含有效的目录：:ThumbRes值。
+默认缩略图分辨率。 为缩略图对象分辨率提供默认值，以防特定目录记录不包含有效的目录：:ThumbRes值。
 
 仅用于缩略图请求(`req=tmb`)和`catalog::ThumbType=3`时。
 
@@ -25,7 +24,7 @@ ht-degree: 3%
 
 ## 默认 {#section-86588899ec9b4276a98b03d7faf64003}
 
-如果未定义或为空，则从`default::ThumbRes`继承。
+从`default::ThumbRes`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-a6d2cce2e404441a996dba98a95c8e16}
 
