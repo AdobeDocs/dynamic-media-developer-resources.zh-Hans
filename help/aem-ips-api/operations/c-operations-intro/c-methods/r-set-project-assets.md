@@ -1,25 +1,24 @@
 ---
-description: 在项目中分配或更新资产。
+description: 分配或更新项目中的资产。
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
 
-
 # setProjectAssets{#setprojectassets}
 
-在项目中分配或更新资产。
+分配或更新项目中的资产。
 
 语法
 
-## 授权用户类型{#section-8d87939db6d547b48ca6d71771bbefa8}
+## 授权用户类型 {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,9 +33,9 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyName`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`projectHandle`*` | `xsd:string` | 是 | 项目句柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄的数组。 |
+| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄数组。 |
 
 **输出(setProjectAssetsReturn)**
 
@@ -46,7 +45,7 @@ ht-degree: 18%
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此代码示例将资产分配给项目。 请求返回成功计数1。
+此代码示例可将资产分配到项目。 该请求会返回一个成功计数。
 
 **请求**
 
@@ -69,4 +68,3 @@ ht-degree: 18%
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
