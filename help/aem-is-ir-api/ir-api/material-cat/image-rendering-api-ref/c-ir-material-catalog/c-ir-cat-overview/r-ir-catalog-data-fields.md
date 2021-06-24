@@ -2,16 +2,15 @@
 description: 以下目录数据字段可用。
 solution: Experience Manager
 title: 目录数据字段
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 11%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
-
 
 # 目录数据字段{#catalog-data-fields}
 
@@ -32,7 +31,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce" type="reference" format="dita" scope="local"> 过期时间</a> </p></td> 
-  <td class="stentry"> <p>客户端缓存过期（到活动间隔的时间）。 </p></td> 
+  <td class="stentry"> <p>客户端缓存过期（存留时间间隔）。 </p></td> 
  </tr> 
 </table>
 
@@ -55,19 +54,19 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab" type="reference" format="dita" scope="local"> 锚点 </a> </p></td> 
-  <td class="stentry"> <p>纹理/贴花锚点（热点）。 </p></td> 
+  <td class="stentry"> <p>纹理/倾斜锚点（热点）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552" type="reference" format="dita" scope="local"> 颜色 </a> </p></td> 
   <td class="stentry"> <p>材料颜色。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> 基色  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor  </a> </p></td> 
   <td class="stentry"> <p>可着色材料的减色。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> 伊卢姆  </a> </p></td> 
-  <td class="stentry"> <p>光照映射选择器。 </p></td> 
+  <td class="stentry"> <p>照明图选择器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> 光泽</a> </p></td> 
@@ -83,11 +82,11 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> 清晰</a> </p></td> 
-  <td class="stentry"> <p>纹理/倾斜锐化。 </p></td> 
+  <td class="stentry"> <p>纹理/德卡尔锐化。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> 重复</a> </p></td> 
-  <td class="stentry"> <p>重复模式以实现可重复的纹理。 </p></td> 
+  <td class="stentry"> <p>对可重复的纹理重复模式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399" type="reference" format="dita" scope="local"> 对齐方式</a> </p></td> 
@@ -95,7 +94,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> 大小</a> </p></td> 
-  <td class="stentry"> <p>倾斜/叠加图层大小。 </p></td> 
+  <td class="stentry"> <p>铺层/叠加层大小。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings  </a> </p></td> 
@@ -109,7 +108,7 @@ ht-degree: 11%
   <td class="stentry"> <p>说明 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>晕影标识符（索引键）。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -118,7 +117,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c" type="reference" format="dita" scope="local"> 过期时间</a> </p></td> 
-  <td class="stentry"> <p>客户端缓存过期（到活动间隔的时间）。 </p></td> 
+  <td class="stentry"> <p>客户端缓存过期（存留时间间隔）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> 路径</a> </p></td> 
@@ -126,7 +125,7 @@ ht-degree: 11%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> 修饰符</a> </p></td> 
-  <td class="stentry"> <p>预定义的请求修改量。 </p></td> 
+  <td class="stentry"> <p>预定义的请求修改器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> 用户数据</a> </p></td> 
@@ -151,20 +150,19 @@ ht-degree: 11%
  </tr> 
 </table>
 
-ICC颜色用户档案映射文件中可识别以下字段：
+以下字段在ICC颜色配置文件映射文件中可识别：
 
 <table id="simpletable_54ED156EDA394412B5C4C49AA3A32828"> 
  <thead class="sthead"> 
-  <td class="stentry"> ICC用户档案图</td> 
+  <td class="stentry"> ICC配置文件映射</td> 
   <td class="stentry"> <p>说明 </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2" type="reference" format="dita" scope="local"> 名称</a> </p></td> 
-  <td class="stentry"> <p>颜色用户档案名称（索引键）。 </p></td> 
+  <td class="stentry"> <p>颜色配置文件名称（索引键）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> ProfilePath</a> </p></td> 
-  <td class="stentry"> <p>ICC颜色用户档案文件路径。 </p></td> 
+  <td class="stentry"> <p>ICC颜色配置文件路径。 </p></td> 
  </tr> 
 </table>
-
