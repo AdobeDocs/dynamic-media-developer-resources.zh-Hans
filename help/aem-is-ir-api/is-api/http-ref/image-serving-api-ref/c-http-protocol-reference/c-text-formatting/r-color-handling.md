@@ -2,40 +2,39 @@
 description: RTF规范允许使用&bsol;colortbl指定的RGB颜色值。 每个组件分别提供&bsol;red、&bsol;green和&bsol;blue命令。
 solution: Experience Manager
 title: 颜色处理
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-
 # 颜色处理{#color-handling}
 
-RTF规范允许使用`\colortbl`指定的RGB颜色值。 每个组件分别提供`\red`、`\green`和`\blue`命令。
+RTF规范允许使用`\colortbl`指定的RGB颜色值。 每个组件分别提供了`\red`、`\green`和`\blue`命令。
 
 专有的RTF扩展命令`\cmykcolortbl`允许指定CMYK颜色，每个颜色组件都提供了`\cyan`、`\magenta`、`\yellow`和`\black`命令。
 
 `\colortbl`的颜色分量值在0到255之间。 `\cmykcolortbl`的组件值在0到100之间。
 
-RTF扩展命令`\*\iscolortbl`由`textPs=`支持，它提供了一种指定带有标准图像服务颜色值的颜色表的方法，该颜色表完全支持RGB、灰色、CMYK和Alpha。 它的语法如下：
+`textPs=`支持的RTF扩展命令`\*\iscolortbl`提供了一种方法，用于指定支持全RGB、灰色、CMYK和Alpha的标准图像服务颜色值的颜色表。 其语法如下：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
-*[!DNL colors]* 一个或多个IS颜色值，用“；”分隔
+*[!DNL colors]* 一个或多个IS颜色值，以“；”分隔
 
-可以在同一RTF字符串中指定多种类型的颜色表。 `text=``textPs=`每个颜色表可以有不同的条目数。 图像服务将尝试按以下顺序查找颜色：`\iscolortbl`在`\cmykcolortbl`之前（仅当文本图层的像素类型为CMYK时）。 `\colortbl`仅对`textPs=`，如果需要，颜色在CMYK和RGB之间精确转换（例如，指定RGB颜色但需要CMYK输出）。 如果未找到特定索引值的颜色，则使用默认颜色（黑色）。
+可以在同一个`text=`或`textPs=` RTF字符串中指定多种类型的颜色表。 每个颜色表可以具有不同的条目数。 图像提供将尝试按以下顺序查找颜色：`\iscolortbl`之前的`\cmykcolortbl`（仅当文本层的像素类型为CMYK时）。 `\colortbl`仅对于`textPs=`，如果需要，颜色会在CMYK和RGB之间准确转换（例如，当指定了RGB颜色但需要CMYK输出时）。 如果未找到特定索引值的颜色，则使用默认颜色（黑色）。
 
-有关IS颜色值的语法的说明，请参阅[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
+有关IS颜色值语法的说明，请参阅[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 
-## 限制{#section-c5173e672d854e4aa9656844f7fc4d0e}
+## 限制 {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
 `text=` 不支持 `\*\iscolortbl`。`textPs=` 不支持 `\cmykcolortbl`。
 
-渲染Photofonts时忽略颜色选择。
+在渲染Photofonts时，颜色选择会被忽略。
 
 ## 示例 {#section-0f166bb72bd44479be01131077851142}
 
