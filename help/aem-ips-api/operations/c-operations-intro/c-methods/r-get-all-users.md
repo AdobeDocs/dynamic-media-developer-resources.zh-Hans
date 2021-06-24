@@ -2,16 +2,15 @@
 description: 获取数组中的所有用户。
 solution: Experience Manager
 title: getAllUsers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 22%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -19,7 +18,7 @@ ht-degree: 22%
 
 语法
 
-## 授权用户类型{#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授权用户类型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -46,14 +45,14 @@ ht-degree: 22%
    <td colname="col3"> 是 </td> 
    <td colname="col4">设置为： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> trueto包</span> 括无效用户。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> false不能忽略无效用户。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> 包含无效用户。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falleto忽略无效用户。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(getAllUsersReturn)**
+**Output(getAllUsersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -62,7 +61,7 @@ ht-degree: 22%
 
 ## 示例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此代码示例返回所有用户。 响应被截断以便简短。
+此代码示例将返回所有用户。 响应因简短而被截断。
 
 **请求**
 
@@ -90,4 +89,3 @@ ht-degree: 22%
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
