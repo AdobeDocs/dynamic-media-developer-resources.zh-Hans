@@ -2,16 +2,15 @@
 description: 目录是位于主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
 solution: Experience Manager
 title: 目录
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1065'
 ht-degree: 2%
 
 ---
-
 
 # 目录{#table-of-contents}
 
@@ -19,9 +18,9 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-根据配置，列表可以包含目录中存在的所有页面，或仅包含定义了显式标签的页面。 在桌面系统上，如果列表长于可用的屏幕大小，则右侧会显示一个滚动条。
+根据配置，列表可以包含目录中存在的所有页面，也可以仅包含那些定义了明确标签的页面。 在桌面系统上，如果列表的长度大于可用屏幕的面积，则右侧会显示一个滚动条。
 
-通过以下CSS类选择器控制查看器用户界面中目录按钮的位置和大小：
+使用以下CSS类选择器控制查看器用户界面中目录按钮的位置和大小：
 
 ```
 .s7ecatalogviewer .s7tableofcontents
@@ -32,12 +31,12 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距  </span> </p> </td> 
-   <td colname="col2"> <p> 从控制栏顶部偏移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部  </span> </p> </td> 
+   <td colname="col2"> <p> 与控制栏顶部的偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距左  </span> </p> </td> 
-   <td colname="col2"> <p> 到左边下一个按钮的距离；如果这是行中的第一个按钮，则指向控制栏的左侧。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 左  </span> </p> </td> 
+   <td colname="col2"> <p> 左侧的到下一个按钮的距离；或者如果这是一行中的第一个按钮，则位于控制栏的左侧。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,18 +52,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
-示例 — 设置一个目录按钮，该按钮位于距主控件条底部4个像素和距离主控件条左侧43个像素的位置；大小为28 x 28像素，并且四个不同按钮状态中的每个状态都显示一个不同的图像：
+示例 — 设置目录按钮，其位置为从底部4像素和从主控制栏左侧43像素；大小为28 x 28像素，并且四个不同按钮状态中的每一个状态都会显示一个不同的图像：
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -97,7 +96,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 下拉面板的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -105,8 +104,8 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
    <td colname="col2"> <p> 面板边界和内容之间的内部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框 — 阴影  </span> </p> </td> 
-   <td colname="col2"> <p> 在面板周围投下阴影。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框阴影  </span> </p> </td> 
+   <td colname="col2"> <p> 在面板周围投影。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +114,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 >
 >无法从CSS控制下拉面板的大小或位置；组件以编程方式管理其布局。
 
-示例 — 设置一个下拉面板，其具有半透明黑色背景、内容周围的5像素边距和投影：
+示例 — 设置一个下拉面板，其中具有半透明的黑色背景、内容周围的5像素边距和投影：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel { 
@@ -125,18 +124,18 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制各个项的外观：
+单个项目的外观通过以下CSS类选择器进行控制：
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
 ```
 
-**项的CSS属性**
+**项目的CSS属性**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -144,21 +143,21 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>项目的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部填充。 </p> </td> 
+   <td colname="col2"> <p>内部内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->下拉列表项支持`state`属性选择器，该选择器可用于应用不同的外观以悬停和选择的项目状态。
+>下拉列表项支持`state`属性选择器，该选择器可用于应用不同的外观来悬停和选择的项目状态。
 
-示例 — 设置一个下拉项，字体为14像素，高19像素。 选中某个项目时，悬停时有深灰色背景和浅灰色背景：
+示例 — 设置一个下拉项，其字体为Helvetica 14像素，高19像素。 选择项目时，悬停时具有深灰色背景和浅灰色背景：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -190,10 +189,10 @@ background-color: rgb(178, 178, 178);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 最大宽度  </span> </p> </td> 
-   <td colname="col2"> <p> 元素宽度最大。 </p> </td> 
+   <td colname="col2"> <p> 元素最大宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 内边距 — 右边距  </span> </p> </td> 
    <td colname="col2"> <p> 页面索引和页面标签之间的距离。 </p> </td> 
   </tr> 
  </tbody> 
@@ -201,9 +200,9 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->可以通过设置`s7index` CSS类的`display:none`来完全隐藏页面索引。
+>可以通过为`s7index` CSS类设置`display:none`来完全隐藏页面索引。
 
-示例1 — 在右侧设置最小宽度为40像素、最大宽度为70像素、5像素边距的页面索引：
+示例1 — 在右侧设置最小宽度为40像素、最大宽度为70像素和5像素边距的页面索引：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -221,7 +220,7 @@ display: none;
 }
 ```
 
-页面标签由以下CSS类选择器控制：
+使用以下CSS类选择器控制页面标签：
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7label
@@ -237,7 +236,7 @@ display: none;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 最大宽度  </span> </p> </td> 
-   <td colname="col2"> <p> 元素宽度最大。 </p> </td> 
+   <td colname="col2"> <p> 元素最大宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -251,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-如果下拉面板中的项目数量超出垂直大小，且系统为桌面，则组件将在面板右侧呈现垂直滚动条。 滚动条区域的外观由以下CSS类选择器控制：
+如果下拉面板中的项目数量多于垂直容纳的项目，并且系统是桌面，则组件会在面板的右侧呈现垂直滚动条。 通过以下CSS类选择器控制滚动条区域的外观：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -267,20 +266,20 @@ max-width: 240px;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直滚动条从面板区域顶部偏移。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条从面板区域的顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直滚动条从面板区域底部偏移。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条从面板区域的底部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 水平滚动条与面板区域右边缘的偏移。 </p> </td> 
+   <td colname="col2"> <p> 水平滚动条与面板区域的右边缘偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置宽28像素且面板顶部、右侧或底部区域没有边距的滚动条：
+示例 — 设置宽度为28像素的滚动条，该滚动条在面板的顶部、右侧或底部区域没有边距：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar { 
@@ -291,13 +290,13 @@ max-width: 240px;
 }
 ```
 
-滚动条轨道是顶部和底部滚动按钮之间的区域。 组件会自动设置轨道的位置和高度。 轨道通过以下CSS类选择器进行控制：
+滚动条轨道是顶部和底部滚动按钮之间的区域。 该组件会自动设置轨道的位置和高度。 通过以下CSS类选择器控制跟踪：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
 ```
 
-**滚动轨道的CSS属性**
+**滚动跟踪的CSS属性**
 
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
@@ -306,13 +305,13 @@ max-width: 240px;
    <td colname="col2"> <p>轨道宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>轨道背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p>跟踪背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置宽为28像素且半透明灰色背景的滚动条轨道：
+示例 — 设置宽28像素且具有半透明灰色背景的滚动条轨道：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -321,48 +320,48 @@ max-width: 240px;
 }
 ```
 
-滚动条滑块在滚动轨道区域内垂直移动。 其垂直位置由组件逻辑控制。 但是，缩略图高度不会根据内容的数量动态更改。 您可以使用以下CSS类选择器配置缩略图高度和其他方面：
+滚动条拇指在滚动轨道区域内垂直移动。 其垂直位置由组件逻辑控制。 但是，缩览图高度不会根据内容的数量动态更改。 您可以使用以下CSS类选择器配置缩览图高度和其他方面：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**滚动条滑块的CSS属性**
+**滚动条缩览图的CSS属性**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
-   <td colname="col2"> <p>缩略图宽度。 </p> </td> 
+   <td colname="col2"> <p>拇指宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
-   <td colname="col2"> <p> 轨道顶部之间的垂直填充。 </p> </td> 
+   <td colname="col2"> <p> 轨道顶部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
-   <td colname="col2"> <p>轨道底部之间的垂直填充。 </p> </td> 
+   <td colname="col2"> <p>轨道底部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p> 为给定的缩略图状态显示的图像。 </p> </td> 
+   <td colname="col2"> <p> 为给定的拇指状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于`up`、`down`、`over`和`disabled`缩略图状态。
+>缩览图支持`state`属性选择器，该选择器可用于对`up`、`down`、`over`和`disabled`缩览图状态应用不同的外观。
 
-示例 — 设置一个滚动条滑块，该滑块为28 x 45像素，上下有10个像素边距，每个状态有不同的图稿：
+示例 — 设置一个滚动条缩览图，其28 x 45像素，上下边距为10像素，每种状态的图稿都不同：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -387,7 +386,7 @@ max-width: 240px;
 }
 ```
 
-顶部和底部滚动按钮的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制顶部和底部滚动按钮的外观：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton
@@ -408,7 +407,7 @@ max-width: 240px;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -417,18 +416,18 @@ max-width: 240px;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Button支持`state`属性选择器，该选择器可用于对`up`、`down`、`over`和`disabled`按钮状态应用不同的外观。
+>按钮支持`state`属性选择器，该选择器可用于对`up`、`down`、`over`和`disabled`按钮状态应用不同的外观。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
-示例 — 设置28 x 32像素的滚动按钮，每个状态的图稿各不相同：
+示例 — 设置28 x 32像素的滚动按钮，每个状态具有不同的图稿：
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 
@@ -464,4 +463,3 @@ max-width: 240px;
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
