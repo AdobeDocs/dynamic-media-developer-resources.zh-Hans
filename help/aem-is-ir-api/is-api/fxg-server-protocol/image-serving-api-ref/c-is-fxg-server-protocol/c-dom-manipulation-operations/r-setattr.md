@@ -2,24 +2,23 @@
 description: 为给定的s7 elementID设置任何属性。
 solution: Experience Manager
 title: setAttr
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e4a51b97-ba5f-42a9-8d7b-8dc42ad5fe24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
 # setAttr{#setattr}
 
-为给定的s7:elementID设置任何属性。
+为给定s7:elementID设置任何属性。
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-如果FXG节点元素定义了`s7:elementID`，则可以操作该节点的属性。 您可以根据需要设置任意多个属性/值对。 属性无需在FXG中定义，但必须对节点元素有效。 `{}`之间的所有值都必须为Escaped。
+如果FXG节点元素定义了`s7:elementID`，则可以处理该节点的属性。 您可以根据需要设置任意数量的属性/值对。 无需在FXG中定义属性，但该属性必须对节点元素有效。 `{}`之间的所有值都必须进行转义。
 
 ## 示例 {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
@@ -27,4 +26,4 @@ ht-degree: 0%
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-此示例设置`BitmapGraphic`的&#x200B;*[!DNL x]*、*[!DNL y]*、*[!DNL rotation]*、*[!DNL scaleX]*&#x200B;和&#x200B;*[!DNL scaleY]*，并覆盖任何现有值。
+此示例为`BitmapGraphic`设置&#x200B;*[!DNL x]*、*[!DNL y]*、*[!DNL rotation]*、*[!DNL scaleX]*&#x200B;和&#x200B;*[!DNL scaleY]*，并覆盖任何现有值。
