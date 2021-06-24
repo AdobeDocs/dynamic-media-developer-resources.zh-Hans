@@ -1,17 +1,16 @@
 ---
 description: 规则集定义文件路径。 指定包含此图像目录的规则集定义的文件。
 solution: Experience Manager
-title: 规则集文件
-feature: Dynamic Media Classic,SDK/API
+title: RuleSetFile
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a9c0d748-c236-4a37-a181-729a27135a71
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
-
 
 # RuleSetFile{#rulesetfile}
 
@@ -23,7 +22,7 @@ ht-degree: 5%
 
 ## 默认 {#section-20a9d535d64347abaf0233595b2ad089}
 
-空，表示此图像目录没有私有请求预处理规则。
+为空，表示此图像目录没有专用请求预处理规则。
 
 ## 另请参阅 {#section-83a41bf1a953429ab6f35249e0e6c27f}
 
