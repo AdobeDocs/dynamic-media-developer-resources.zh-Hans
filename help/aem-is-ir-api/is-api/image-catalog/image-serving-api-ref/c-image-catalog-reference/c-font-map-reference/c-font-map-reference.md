@@ -1,25 +1,24 @@
 ---
 description: 如果图像目录需要字体映射，则必须在属性FontMapFile中指定字体映射文件的相对或绝对路径。
 solution: Experience Manager
-title: 字体映射参考
-feature: Dynamic Media Classic,SDK/API
+title: 字体映射引用
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
 
-
 # 字体映射引用{#font-map-reference}
 
-如果图像目录需要字体映射，则必须在属性：:FontMapFile中指定字体映射文件的相对或绝对路径。
+如果图像目录需要字体映射，则必须在以下属性中指定字体映射文件的相对路径或绝对路径：:FontMapFile。
 
 特定图像目录的字体映射中的条目将覆盖默认目录的字体映射中的条目。
 
-图像服务支持Adobe Type 1、OpenType和TrueType字体。
+图像提供支持Adobe Type1、OpenType和TrueType字体。
 
 `textPs=` 还支持CID、ATC和位图字体。
 
