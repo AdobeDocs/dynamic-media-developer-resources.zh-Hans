@@ -1,29 +1,28 @@
 ---
-description: 通过“播放/暂停”按钮，用户可以暂停或继续旋转自动播放行为。
+description: “播放/暂停”按钮允许用户暂停或继续轮播自动播放行为。
 solution: Experience Manager
-title: 播放暂停按钮
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+title: PlayPause按钮
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: Developer,Business Practitioner
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
 
 # PlayPause按钮{#playpause-button}
 
-通过“播放/暂停”按钮，用户可以暂停或继续旋转自动播放行为。
+“播放/暂停”按钮允许用户暂停或继续轮播自动播放行为。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-仅当`CarouselViewer.autoplay`参数设置为`1`时，按钮才可见；否则，它会被隐藏。 您可以使用CSS，相对于包含该按钮的控件栏来调整其大小、外观和位置。
+仅当`CarouselViewer.autoplay`参数设置为`1`时，按钮才可见；否则，将隐藏。 您可以使用CSS，相对于包含该按钮的控制栏来调整其大小、外观和位置。
 
 **主查看器区域的CSS属性**
 
-按钮的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制按钮的外观：
 
 `.s7carouselviewer .s7playpausebutton`
 
@@ -37,19 +36,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框顶部的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器边框顶部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框右侧的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器边框右侧的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器左侧的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器左侧的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>查看器边框底部的位置。 </p> </td> 
+   <td colname="col2"> <p>从查看器边框底部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
@@ -76,11 +75,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-示例 — 设置一个28 x 28像素的播放暂停按钮，该按钮距查看器底部17像素，距左边缘12像素，在选择或未选择时，该按钮将为四个不同按钮状态中的每个状态显示不同的图像。
+示例 — 要设置一个播放暂停按钮，其大小为28 x 28像素，位于距离查看器底部17像素和距离左边12像素的位置，并在选择或未选择时针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7carouselviewer .s7playpausebutton { 
