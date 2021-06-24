@@ -1,25 +1,24 @@
 ---
-description: 当用户单击视频播放器时，全屏按钮会使该视频播放器进入或退出全屏模式。
+description: 当用户单击视频播放器时，全屏按钮会使其进入或退出全屏模式。
 solution: Experience Manager
 title: 全屏按钮
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
 
 # 全屏按钮{#full-screen-button}
 
-当用户单击视频播放器时，全屏按钮会使该视频播放器进入或退出全屏模式。
+当用户单击视频播放器时，全屏按钮会使其进入或退出全屏模式。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-您可以通过CSS调整全屏按钮的大小、外观和位置（相对于包含该按钮的控制栏）。
+您可以按CSS调整全屏按钮的大小、外观和位置，以便相对于包含该按钮的控制栏。
 
 全屏按钮的外观由CSS类选择器控制：
 
@@ -33,19 +32,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 从上边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 从上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 从右边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 从右边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p> 从左边框开始的位置，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 从左边框开始的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从底边框中的位置，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从下边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -61,20 +60,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`和`selected`属性选择器，这两个选择器可用于将不同的外观应用于不同的按钮状态。 特别地，`selected='true'`对应于“全屏”状态，`selected='false'`对应于“正常”状态。
+>此按钮同时支持`state`和`selected`属性选择器，它们可用于将不同的外观应用到不同的按钮状态。 具体而言，`selected='true'`对应于“全屏”状态，`selected='false'`对应于“正常”状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-设置32 x 32像素的全屏按钮，并将控件条的上边缘和右边缘定位6像素。 此外，在选择或未选择时，为四个不同按钮状态中的每个状态显示不同的图像。
+要设置32 x 32像素的全屏按钮，并距控制栏的上边缘和右边缘6像素。 此外，在选择或未选择时，还会针对四个不同按钮状态中的每个状态显示不同的图像。
 
 ```
 .s7interactivevideoviewer . s7fullscreenbutton { 
