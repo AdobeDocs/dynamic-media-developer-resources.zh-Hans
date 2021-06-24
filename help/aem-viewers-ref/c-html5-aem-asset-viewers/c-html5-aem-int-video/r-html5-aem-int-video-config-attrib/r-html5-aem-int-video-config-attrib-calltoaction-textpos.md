@@ -2,13 +2,12 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: CallToAction.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: f2356eb1-2f71-49b6-bb40-6cd332e6785b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
@@ -22,8 +21,8 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bott|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>当指定<span class="codeph"> tooltip</span>时，标签文本将作为浮动工具提示显示在缩略图上。 </p> <p>设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 下|上|左|右|无|工具提示</span> </p> </td> 
+   <td colname="col2"> <p> 指定标签相对于缩略图图像的绘制位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>指定<span class="codeph">工具提示</span>后，标签文本将显示为缩略图上的浮动工具提示。 </p> <p>设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
