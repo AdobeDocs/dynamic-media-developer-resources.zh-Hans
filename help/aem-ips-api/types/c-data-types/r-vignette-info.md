@@ -1,17 +1,16 @@
 ---
 description: 晕影资产的属性。
 solution: Experience Manager
-title: 晕影信息
-feature: Dynamic Media Classic,SDK/API
+title: VignetteInfo
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '49'
+ht-degree: 18%
 
 ---
-
 
 # VignetteInfo{#vignetteinfo}
 
@@ -28,6 +27,5 @@ ht-degree: 17%
 | `*`fileSize`*` | `xsd:int` | 文件大小. |
 | `*`imagePath`*` | `xsd:string` | 图像的路径。 |
 | `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | 已优化文件路径。 |
+| `*`optimizedPath`*` | `xsd:string` | 优化了文件路径。 |
 | `*`optimizedFile`*` | `xsd:string` | 优化的文件名。 |
-
