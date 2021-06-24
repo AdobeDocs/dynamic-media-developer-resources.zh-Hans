@@ -2,22 +2,21 @@
 description: 删除晕影发布格式。
 solution: Experience Manager
 title: deleteVignettePublishFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 13%
 
 ---
-
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
 删除晕影发布格式。
 
-## 授权用户类型{#section-a127680d6b53462daaf2579d6f6fe5a8}
+## 授权用户类型 {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +29,16 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 晕影所属公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 晕影所属公司的把手。 |
 | `*`vignetteFormatHandle`*` | `xsd:string` | 是 | 要删除的晕影发布格式的句柄。 |
 
 **输出(deleteVignettePublishFormatParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-此代码示例将删除由其句柄指定的晕影发布格式。
+此代码示例会删除由其句柄指定的晕影发布格式。
 
 **请求**
 
