@@ -1,27 +1,26 @@
 ---
-description: 视频擦洗器是一个水平滑块控件，它允许用户动态搜索当前播放的视频中的任意时间位置。
+description: 视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置。
 solution: Experience Manager
-title: 视频擦洗器
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+title: 视频洗涤器
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
 
-# 视频浏览条{#video-scrubber}
+# 视频洗涤器{#video-scrubber}
 
-视频擦洗器是一个水平滑块控件，它允许用户动态搜索当前播放的视频中的任意时间位置。
+视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-在播放视频时，擦洗器“旋钮”也会移动，以指示视频在播放期间的当前时间位置。 视频擦洗器始终采用控制栏的整个宽度。 可以为视频擦洗器设置皮肤。 通过CSS更改其高度和垂直位置。
+在视频播放时，擦洗器“旋钮”也会移动，以指示视频在播放期间的当前时间位置。 视频清理器始终采用控制栏的整个宽度。 可以给视频擦洗器涂皮。 通过CSS更改其高度和垂直位置。
 
-通过以下CSS类选择器控制视频浏览条的常规外观：
+通过以下CSS类选择器控制视频清理器的常规外观：
 
 ```
 .s7interactivevideoviewer .s7videoscrubber 
@@ -29,24 +28,24 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7videoscrubber .s7knob
 ```
 
-**视频浏览条的CSS属性**
+**视频清理器的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从上边框定位，包括填充。 </p> </td> 
+   <td colname="col2"> <p>从上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 从底边框中的位置，包括填充。 </p> </td> 
+   <td colname="col2"> <p> 从下边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>视频擦洗器的高度。 </p> </td> 
+   <td colname="col2"> <p>视频清理器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>视频擦洗器的颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -60,16 +59,16 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**轨道的CSS属性**
+**跟踪的CSS属性**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>相应轨道的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>相应轨道的颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -94,8 +93,8 @@ ht-degree: 2%
    <td colname="col2"> <p>旋钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
-   <td colname="col2"> <p>旋钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p>旋钮的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
@@ -103,7 +102,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,12 +113,12 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7videoscrubber .s7videotime
 ```
 
-**播放时间的CSS属性气泡**
+**播放时间气泡的CSS属性**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p> 用于时间显示文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +134,7 @@ ht-degree: 2%
    <td colname="col2"> <p>气泡区域宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>气泡区域高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -144,22 +143,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p>气泡图稿。 </p> </td> 
+   <td colname="col2"> <p>气泡图。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 文本对齐  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>文本与气泡区域对齐。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-视频擦洗器工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
+视频清洗工具提示可以本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
-**示例**  — 设置一个视频查看器，其中视频浏览器具有10像素高、距控件条上边缘和左边缘10像素和35像素的自定义轨道颜色。
+**示例**  — 设置视频查看器，该查看器使用视频清洗器，其自定义跟踪颜色为10像素高，距控制栏上边缘和左边缘10像素和35像素。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -182,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-当使用`navigation`参数启用视频分章节时，章节位置将作为标记显示在视频擦洗器轨道的顶部。
+使用`navigation`参数启用视频章节后，章节位置将作为标记显示在视频清理器轨道的顶部。
 
 视频章节标记由以下CSS类选择器控制：
 
@@ -199,7 +198,7 @@ background-color:#888888;
    <td colname="col2"> <p>视频章节标记宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>视频章节标记高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -208,16 +207,16 @@ background-color:#888888;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，您可以使用该选择器将不同的外观应用于不同的按钮状态。 特别是，`selected='default'`对应于默认的视频章节标记状态，当通过鼠标悬停或触摸手势激活视频章节标记时，将使用`selected='over'`。
+>此按钮支持`state`属性选择器，您可以使用该选择器将不同的外观应用到不同的按钮状态。 特别是， `selected='default'`对应于默认的视频章节标记状态，当鼠标悬停或触摸手势激活视频章节标记时，将使用`selected='over'`。
 
-**示例**  — 设置5 x 8像素的视频章节标记，并对“default”和“over”状态使用不同的图稿。
+**示例**  — 设置一个5 x 8像素的视频章节标记，并将不同的图稿用于“默认”和“超出”状态。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7navigation { 
@@ -232,9 +231,9 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
 }
 ```
 
-视频章节泡泡位于视频章节标记的顶部，并显示给定章节的标题、开始时间和说明。 可以控制相对于视频擦洗器轨道的最大气泡宽度和垂直偏移。 其余部分由组件自动计算。
+视频章节气泡位于视频章节标记的顶部，并显示给定章节的标题、开始时间和描述。 可以控制相对于视频洗涤器轨道的最大气泡宽度和垂直偏移。 其余部分由组件自动计算。
 
-视频章泡由以下CSS类选择器控制：
+视频章节气泡由以下CSS类选择器控制：
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter
@@ -250,12 +249,12 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>视频擦洗器轨道的垂直偏移。 </p> </td> 
+   <td colname="col2"> <p>与视频擦洗器轨道的垂直偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置一个视频章节气泡，该气泡的宽度为235像素，距视频擦洗器轨道底部向上8像素。
+**示例**  — 设置一个宽235像素且距视频清理器轨道底部向上八像素的视频章节气泡。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter { 
@@ -264,9 +263,9 @@ bottom:8px;
 }
 ```
 
-视频章节气泡由可选的标题和内容组成。 标题包含可选的章节开始时间和章节标题。
+视频章节气泡由可选标题和内容组成。 标题具有可选的章节开始时间和章节标题。
 
-标题由以下CSS类选择器控制：
+标头由以下CSS类选择器控制：
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header
@@ -277,15 +276,15 @@ bottom:8px;
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>视频章节气泡标题高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡标题文本的内填充。 </p> </td> 
+   <td colname="col2"> <p>视频章节气泡标题文本的内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>视频章节气泡标题背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -295,7 +294,7 @@ bottom:8px;
  </tbody> 
 </table>
 
-**示例**  — 设置高22像素、高22像素、水平边距12像素和灰色背景的视频章节气泡标题。
+**示例**  — 设置一个视频章节气泡标题，其高度为22像素、行高为22像素、水平边距为12像素和灰色背景。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -312,7 +311,7 @@ background-color: rgba(51, 51, 51, 0.8);
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7starttime
 ```
 
-**视频章节的CSS属性开始时间**
+**视频章节开始时间的CSS属性**
 
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
@@ -321,25 +320,25 @@ background-color: rgba(51, 51, 51, 0.8);
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-right  </span> </p> </td> 
-   <td colname="col2"> <p> 开始时间与章节标题之间的填充。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 内边距 — 右边距  </span> </p> </td> 
+   <td colname="col2"> <p> 开始时间和章节标题之间的内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 使用灰色十像素Verdana字体设置章节开始时间，并在右侧填充十像素。
+**示例**  — 要使用灰色十像素Verdana字体设置章节开始时间，并在右侧填充十个像素。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -365,15 +364,15 @@ padding-right: 10px;
    <td colname="col2"> <p>视频章节标题文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标题字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>视频章节标题字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>视频章节标题字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>视频章节标题字体系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -405,19 +404,19 @@ font-weight: bold;
    <td colname="col2"> <p>视频章节描述文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>视频章节描述背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>视频章节描述字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>视频章节描述字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>视频章节描述字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -426,12 +425,12 @@ font-weight: bold;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述内填充。 </p> </td> 
+   <td colname="col2"> <p>视频章节描述内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 使用深灰色11像素Verdana字体设置视频章节描述，背景为浅灰色；5像素行高、12像素水平边距、12像素顶边距和9像素底边距。
+**示例**  — 使用深灰色、11像素Verdana字体和浅灰色背景设置视频章节描述；5像素行高、12像素水平边距、12像素上边距和9像素下边距。
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -456,20 +455,20 @@ padding: 12px 12px 9px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边框颜色  </span> </p> </td> 
-   <td colname="col2"> <p>楔形连接器颜色。 </p> <p>定义为<span class="codeph"> &lt;color&gt;透明</span>，以便仅定义上边框颜色，其余边框保持透明。 </p> </td> 
+   <td colname="col2"> <p>楔形连接器颜色。 </p> <p>定义为<span class="codeph"> &lt;color&gt;透明</span>，以便仅定义上边框颜色，并使其余边框保持透明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边框宽度  </span> </p> </td> 
-   <td colname="col2"> <p> 楔形连接器宽度。 </p> <p>定义为<span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span>，以便仅为顶部和水平边框定义相同的宽度，且底部边框宽度为<span class="codeph"> 0 </span>。 </p> </td> 
+   <td colname="col2"> <p> 楔形连接器宽度。 </p> <p>定义为<span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span>，以便仅为上边框和水平边框定义相同的宽度，且下边框宽度为<span class="codeph"> 0 </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 仅定义负底边。 它的值应与<span class="codeph"> border-width </span>的值相同。 </p> </td> 
+   <td colname="col2"> <p> 仅定义负下边距。 它的值应与<span class="codeph"> border-width </span>的值相同。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 要设置灰色的六像素楔形连接器：
+**示例**  — 要设置灰色的六像素楔形连接器，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7tail { 
