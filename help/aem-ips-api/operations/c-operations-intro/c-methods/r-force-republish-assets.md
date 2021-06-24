@@ -2,16 +2,15 @@
 description: 重置一个或多个资产的发布状态，以强制在下一个发布作业中重新发布资产。
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 12%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 语法
 
-## 授权用户类型{#section-3d5a3e3afea748d69845de5c8c376448}
+## 授权用户类型 {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -52,19 +51,19 @@ ht-degree: 12%
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定资产的文件将重新发布到投放服务器。 默认值为<span class="codeph"> true</span>。 </p> </td> 
+   <td colname="col4"> <p>指定将资产的文件重新发布到交付服务器。 默认值为<span class="codeph"> true</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定用于服务资产的目录元数据会同步，以确保其是最新的。 此参数用于解决同一记录的接近并发更新时可能发生的竞争条件。 默认值为<span class="codeph"> false</span>。 </p> </td> 
+   <td colname="col4"> <p>指定用于提供资产的目录元数据会同步，以确保是最新的。 此参数用于解决在对同一记录进行近乎并发更新时可能发生的竞争情况。 默认值为<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：HandleArray</span> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要重置其发布状态的资产的句柄数组。 </p> </td> 
+   <td colname="col4"> <p>要重置发布状态的资产的句柄数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,4 +88,3 @@ ht-degree: 12%
   </tr> 
  </tbody> 
 </table>
-
