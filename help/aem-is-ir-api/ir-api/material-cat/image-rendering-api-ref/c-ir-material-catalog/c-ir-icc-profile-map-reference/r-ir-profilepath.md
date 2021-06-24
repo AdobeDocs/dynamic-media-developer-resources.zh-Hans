@@ -1,21 +1,20 @@
 ---
-description: 用户档案文件路径。 ICC颜色用户档案文件的路径和名称，包括文件后缀。
+description: 配置文件路径。 ICC颜色配置文件文件的路径和名称，包括文件后缀。
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # ProfilePath{#profilepath}
 
-用户档案文件路径。 ICC颜色用户档案文件的路径和名称，包括文件后缀。
+配置文件路径。 ICC颜色配置文件文件的路径和名称，包括文件后缀。
 
 ## 属性 {#section-5b75d459083f49f3bbd89ce8458559f7}
 
@@ -27,4 +26,4 @@ ht-degree: 9%
 
 ## 另请参阅 {#section-18bdd258f6de456098bd5637064bd1b5}
 
-[attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[属性：:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
