@@ -2,16 +2,15 @@
 description: 返回包含命名Photoshop路径的四边形的坐标。
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 18%
 
 ---
-
 
 # getPhotoshopPath{#getphotoshoppath}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 语法
 
-## 授权用户类型{#section-c417a287612847cb98dd0aa9c67fd78a}
+## 授权用户类型 {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理要处理的图像的公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含您要处理的图像的公司。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 处理图像资产。 |
 | `*`pathName`*` | `xsd:string` | 是 | 要返回的Photoshop路径的名称。 |
 
-**输出(getPhotoshopPathReturn)**
+**Output(getPhotoshopPathReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -77,5 +76,5 @@ ht-degree: 18%
 
 >[!MORELIKETHIS]
 >
->* [透视四](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
+>* [透视四轴](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
 
