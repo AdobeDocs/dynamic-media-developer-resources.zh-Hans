@@ -1,25 +1,24 @@
 ---
-description: 获取为一个或多个标签字段定义的所有标签词典值。
+description: 获取为一个或多个标记字段定义的所有标记字典值。
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
 
-
 # getTagFieldValues{#gettagfieldvalues}
 
-获取为一个或多个标签字段定义的所有标签词典值。
+获取为一个或多个标记字段定义的所有标记字典值。
 
 语法
 
-## 授权用户类型{#section-cc36a437394c491594e704a08a161c87}
+## 授权用户类型 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +32,18 @@ ht-degree: 17%
 
 ## 参数 {#section-9ad806e7736e4d51ae42cad185050cf9}
 
-**输入(getTagFieldValuesReturn)**
+**Input(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含标签字段的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
 | `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 要返回的标记值的字段句柄数组。 |
 
-**输出(getTagFieldValuesReturn)**
+**Output(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值的数组。 |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值数组。 |
 
 ## 示例 {#section-4492742614e44bb191a7d397dc1a1407}
 
@@ -83,4 +82,3 @@ ht-degree: 17%
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
