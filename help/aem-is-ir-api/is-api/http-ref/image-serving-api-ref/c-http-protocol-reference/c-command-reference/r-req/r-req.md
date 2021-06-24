@@ -1,19 +1,18 @@
 ---
 description: 請求類型. 指定请求的类型。
 solution: Experience Manager
-title: req
-feature: Dynamic Media Classic,SDK/API
+title: 请求
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 14%
 
 ---
 
-
-# req{#req}
+# 请求{#req}
 
 請求類型. 指定请求的类型。
 
@@ -21,7 +20,7 @@ ht-degree: 14%
 
 * [catalogprops](r-catalogprops.md)
 * [存在](r-exists.md)
-* [imageprop](r-imageprops.md)
+* [imageprops](r-imageprops.md)
 * [图像集](r-imageset-req.md)
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
@@ -40,7 +39,7 @@ ht-degree: 14%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-除非详细说明中另有说明，否则服务器返回MIME类型为`text/plain`的`text`响应。 许多请求类型允许您指定响应类型，如`text`，通常为默认类型：`javascript`、`xml`或`json`。 关联的响应MIME类型分别为`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
+除非在详细描述中另有说明，否则服务器会返回MIME类型为`text/plain`的`text`响应。 许多请求类型都允许您指定响应类型，如`text`，该类型通常为默认类型：`javascript`、`xml`或`json`。 关联的响应MIME类型分别为`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
 
 除非另有说明，否则响应会将响应格式化为一组`name=value`对。
 
