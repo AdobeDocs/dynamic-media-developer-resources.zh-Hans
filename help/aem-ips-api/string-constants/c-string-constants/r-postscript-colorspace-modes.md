@@ -1,19 +1,18 @@
 ---
 description: 由PostScriptOptions/colorspace使用。
 solution: Experience Manager
-title: PostScript色彩空间模式
-feature: Dynamic Media Classic,SDK/API
+title: PostScript Colorspace模式
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
-
-# PostScript色彩空间模式{#postscript-colorspace-modes}
+# PostScript Colorspace模式{#postscript-colorspace-modes}
 
 由PostScriptOptions/colorspace使用。
 
@@ -25,4 +24,3 @@ ht-degree: 8%
 * [!DNL `Rgb`]
 * [!DNL `Cmyk`]
 * [!DNL `Gray`]
-
