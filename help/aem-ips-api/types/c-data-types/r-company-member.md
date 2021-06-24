@@ -1,19 +1,18 @@
 ---
 description: 描述用户所属的不同公司。
 solution: Experience Manager
-title: 公司会员
-feature: Dynamic Media Classic,SDK/API
+title: 公司成员
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
 
-
-# CompanyMember{#companymember}
+# 公司成员{#companymember}
 
 描述用户所属的不同公司。
 
@@ -25,5 +24,4 @@ ht-degree: 14%
 |---|---|---|
 | `*`用户`*` | `types:User` | 使用者名稱. |
 | `*`角色`*` | `xsd:string` | 用户对其所属的每个公司具有的角色。 |
-| `*`isActive`*` | `xsd:boolean` | 设置用户所属每个公司的状态。 |
-
+| `*`isActive`*` | `xsd:boolean` | 为用户所属的每个公司设置用户的状态。 |
