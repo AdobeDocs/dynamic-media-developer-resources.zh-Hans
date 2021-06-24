@@ -2,16 +2,15 @@
 description: 删除公司的元数据字段。
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 10%
 
 ---
-
 
 # deleteMetadataField{#deletemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 语法
 
-## 授权用户类型{#section-63e7d17f4b434995a872838bfff7f9ff}
+## 授权用户类型 {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 10%
 
 **输出(deleteMetadataFieldParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-此代码示例将删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传递到IPS Web服务器的`deleteMetadataFieldParam`中的字段来执行此操作。
+此代码示例会删除公司的元数据字段。 它使用公司句柄和元数据句柄作为传递到IPS Web服务服务器的`deleteMetadataFieldParam`中的字段来执行此操作。
 
 **请求**
 
@@ -53,4 +52,4 @@ IPS API不返回此操作的响应。
 
 **响应**
 
-无。0
+None.0
