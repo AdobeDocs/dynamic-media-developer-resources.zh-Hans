@@ -2,18 +2,17 @@
 description: 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 5%
 
 ---
 
-
-# scale{#scale}
+# 比例{#scale}
 
 缩放图像。 相对于全分辨率图像按因子缩放图层源图像。
 
@@ -22,15 +21,15 @@ ht-degree: 5%
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 因子</span> </p> </td> 
-  <td class="stentry"> <p>缩放因子（实数，大于0.0）。 </p></td> 
+  <td class="stentry"> <p>比例因子（实数，大于0.0）。 </p></td> 
  </tr> 
 </table>
 
-`scale=1`时不应用缩放。 *`factor`* 小于1.0的缩小和大于1.0的放大源图像。
+`scale=1`时不应用缩放。 *`factor`* 小于1.0的下缩放和大于1.0会放大源图像。
 
 ## 属性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-源图像/蒙版属性。 如果同时为当前图层指定`size=`，则忽略。 覆盖`res=`。 如果为`layer=comp`指定，则应用于层0。 如果图层未与图像或蒙版关联，则忽略。
+源图像/蒙版属性。 如果为当前层指定了`size=`，则忽略。 覆盖`res=`。 如果为`layer=comp`指定，则应用于层0。 如果图层与图像或蒙版未关联，则忽略。
 
 ## 默认 {#section-26e64904362342a5a62c5f6598f330c4}
 
