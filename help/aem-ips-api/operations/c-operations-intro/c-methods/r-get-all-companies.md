@@ -2,16 +2,15 @@
 description: 返回所有公司的数组。
 solution: Experience Manager
 title: getAllCompanies
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -19,7 +18,7 @@ ht-degree: 19%
 
 语法
 
-## 授权用户类型{#section-773db3753b4842e5a4623ad810176508}
+## 授权用户类型 {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -29,17 +28,17 @@ ht-degree: 19%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | 是 | 设置为true可返回过期和未过期的公司。 |
+| `*`includeExpired`*` | `xsd:boolean` | 是 | 设置为true可返回已过期和未过期的公司。 |
 
-**输出(getAllCompaniesReturn)**
+**Output(getAllCompaniesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | 是 | 公司数组。 |
+| `*`companyArray`*` | `types:CompanyArray` | 是 | 一系列公司。 |
 
 ## 示例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代码示例返回数组中IPS中的所有公司。 注意，为了简短起见，样本响应被截断。
+此代码示例可返回数组中IPS中的所有公司。 请注意，为简短起见，示例响应被截断。
 
 **请求**
 
@@ -70,4 +69,3 @@ ht-degree: 19%
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
