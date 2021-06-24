@@ -2,16 +2,15 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 6%
 
 ---
-
 
 # SpinView.autospin{#spinview-autospin}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用或禁用自动旋转动画。 为获得最佳的自动旋转体验，建议通过将<span class="codeph"> maxloadradius</span>设置为<span class="codeph"> -1</span>预载所有帧。 但是，请注意，这会增加加载时间和更高的带宽使用。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用自动旋转动画。 要获得最佳的自动旋转体验，建议通过将<span class="codeph"> maxloadradius</span>设置为<span class="codeph"> -1</span>来预载所有帧。 但是，请注意，这会增加负载时间并提高带宽使用率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
@@ -29,11 +28,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 方向</span></span> </p> </td> 
-   <td colname="col2"> <p> 旋转方向为<span class="codeph"> 0</span>，用于旋转东方；旋转方向为<span class="codeph"> 1</span>。 </p> </td> 
+   <td colname="col2"> <p> 旋转方向为<span class="codeph"> 0</span>，用于旋转东方；旋转东方为<span class="codeph"> 1</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 自动旋转停止之前完成的完全旋转数。 该数字是一个浮点数。 设置为<span class="codeph"> -1</span>可实现无限自动旋转。 </p> </td> 
+   <td colname="col2"> <p> 自动旋转停止之前完成的完全旋转次数。 该数字是一个浮点数。 对于无限自动旋转，设置为<span class="codeph"> -1</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
