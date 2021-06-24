@@ -2,16 +2,15 @@
 description: 从一个或多个公司中删除用户。
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 11%
 
 ---
-
 
 # removeCompanyMembership{#removecompanymembership}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 语法
 
-## 授权用户类型{#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## 授权用户类型 {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,16 +31,16 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 您要删除的具有成员资格的用户的处理。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | 是 | 要将用户从中删除的公司的手柄。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 具有要删除的成员资格的用户的句柄。 |
+| `*`companyHandleArray`*` | `types:HandleArray` | 是 | 从中删除用户的公司的句柄。 |
 
 **输出(removeCompanyMembershipReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-此代码示例将用户从公司中删除。 省略可选的用户句柄，以从公司句柄数组中指定的公司中删除所有用户。
+此代码示例可从公司中删除用户。 省略可选的用户句柄，以从公司句柄数组中指定的公司中删除所有用户。
 
 **请求**
 
