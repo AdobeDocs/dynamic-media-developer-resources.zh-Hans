@@ -1,21 +1,20 @@
 ---
-description: 根据透明度自动裁剪图像时使用的选项。
+description: 基于透明度自动裁剪图像时使用的选项。
 solution: Experience Manager
 title: AutoTransparentCropOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
-根据透明度自动裁剪图像时使用的选项。
+基于透明度自动裁剪图像时使用的选项。
 
 语法
 
@@ -32,13 +31,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> 容许</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
-   <td colname="col3">根据透明度从图像边缘中删除空白。 使用： 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3">根据透明度从图像边缘中删除空格。 使用： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0与颜色完全匹配。 </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0来完全匹配颜色。 </li>
      <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1以启用最大的颜色差异。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
