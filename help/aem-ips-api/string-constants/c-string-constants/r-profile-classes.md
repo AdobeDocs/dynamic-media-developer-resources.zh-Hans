@@ -1,19 +1,18 @@
 ---
 description: 由IccProfileFieldUpdate/class使用。
 solution: Experience Manager
-title: 用户档案类
-feature: Dynamic Media Classic,SDK/API
+title: 配置文件类
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-
-# 用户档案类{#profile-classes}
+# 配置文件类{#profile-classes}
 
 由IccProfileFieldUpdate/class使用。
 
@@ -28,4 +27,3 @@ ht-degree: 9%
 * [!DNL `ColorSpaceConversion`]
 * [!DNL `Abstract`]
 * [!DNL `NamedColor`]
-
