@@ -2,16 +2,15 @@
 description: 更新现有资产集的集定义。
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
-
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
@@ -19,7 +18,7 @@ ht-degree: 6%
 
 语法
 
-## 授权用户类型{#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 授权用户类型 {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,27 +29,27 @@ ht-degree: 6%
 
 ## 参数 {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Input(setAssetDefinitionParam)**
+**输入(setAssetDefinitionParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 资产集的公司处理。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 具有资产集的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产集句柄 |
-| `*`setDefinition`*` | `xsd:string` | 是 | 定义字符串。 请参见下文。 |
+| `*`setDefinition`*` | `xsd:string` | 是 | 定义字符串。 请参阅下文。 |
 
 **输出(setAssetSetDefinitionReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
-## setDefinition参数：关于{#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition参数：关于 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition函数**
 
-在行中指定`setDefinition`替换函数。 这些问题在目录查找或发布时得到解决。 替换字符串的格式为`${<substitution_func>}`，并包含以下内容：
+在行中指定`setDefinition`替换函数。 这些问题会在目录查找或发布时解决。 替换字符串的格式为`${<substitution_func>}`，并包含以下内容：
 
 >[!NOTE]
 >
->处理参数列表中的文字必须用括号`([])`括起来。 在分辨率期间，替换字符串外的文本将复制到输出字符串。
+>参数列表中的处理文字必须用括号`([])`括起来。 在分辨率期间，替换字符串以外的文本将复制到输出字符串。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -74,7 +73,7 @@ IPS API不返回此操作的响应。
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> 目录ID。 适用于基于图像的资产(图像、已调整视图、图层视图)。 <p>对于其他资产，返回缩略图资产的目录ID（如果有）。 如果没有与资产关联的缩略图资产，该函数将返回一个空字符串。 </p> </td> 
+   <td colname="col2"> 目录ID。 适用于基于图像的资产（图像、已调整视图、图层视图）。 <p>对于其他资产，会返回缩览图资产的目录ID（如果有）。 如果没有与资产关联的缩览图资产，则函数会返回空字符串。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
