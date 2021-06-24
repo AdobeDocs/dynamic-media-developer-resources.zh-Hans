@@ -2,14 +2,13 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: VideoPlayer.loop
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 13b11e9c-00c5-4c1d-b1af-90afaabc389e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频是否应在播放完成后再次播放。 </p> </td> 
+   <td colname="col2"> <p> 指示视频在播放结束后是否应再次播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
