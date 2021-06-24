@@ -1,24 +1,23 @@
 ---
-description: $var$引用可能发生在嵌套图像服务或图像渲染请求的花括号内的任何位置，包括“？”左侧 将路径与查询分离。
+description: $var$引用可能出现在嵌套图像提供或图像渲染请求的大括号内的任何位置，包括“？”的左侧 将路径与查询分开。
 solution: Experience Manager
 title: 嵌套请求中的变量处理
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fa82ec48-aeec-4cd9-8d2e-cf9c913c67a7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
-
 # 嵌套请求中的变量处理{#variable-processing-in-nested-requests}
 
-$var$引用可能发生在嵌套图像服务或图像渲染请求的花括号内的任何位置，包括“？”左侧 将路径与查询分离。
+$var$引用可能出现在嵌套图像提供或图像渲染请求的大括号内的任何位置，包括“？”的左侧 将路径与查询分开。
 
-在进一步分析和处理嵌套请求之前，服务器将这些引用替换为值（来自URL或主图像目录的`catalog::Modifier`）。
+在进一步解析和处理嵌套请求之前，服务器会将这些引用替换为值（来自主图像目录的url或`catalog::Modifier`）。
 
-此外，来自url和`catalog::Modifier`的所有`$ *[!DNL var]*=`定义都将转发到所有嵌套的图像服务和图像渲染请求。 这可确保所有模板都可以使用所有变量定义，而不管嵌套级别如何。
+此外， URL中的所有`$ *[!DNL var]*=`定义和`catalog::Modifier`定义都会转发到所有嵌套的图像提供和图像呈现请求。 这可确保所有变量定义都可用于所有模板，而不考虑嵌套级别。
 
-无论嵌套级别如何，只能对要在嵌套图像渲染或图像服务请求中的任意位置替换的变量值应用单遍HTTP编码。
+无论嵌套级别如何，都只能对变量值应用单遍HTTP编码，这些变量值将在嵌套图像渲染或图像服务请求中的任意位置替换。
