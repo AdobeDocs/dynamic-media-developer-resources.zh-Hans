@@ -1,21 +1,20 @@
 ---
-description: 搜索字符串的数组。
+description: 搜索字符串数组。
 solution: Experience Manager
 title: SearchStringsArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # SearchStringsArray{#searchstringsarray}
 
-搜索字符串的数组。
+搜索字符串数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:SearchStrings` | 搜索字符串的数组。 |
-
+| `*`项目`*` | `types:SearchStrings` | 搜索字符串数组。 |
