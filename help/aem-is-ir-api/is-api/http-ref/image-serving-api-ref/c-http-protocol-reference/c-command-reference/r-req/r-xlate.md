@@ -1,21 +1,20 @@
 ---
-description: 可用的区域设置特定版本。 返回列表在请求路径中指定的目录ID的可用区域设置特定版本。
+description: 可用的区域设置特定版本。 返回在请求路径中指定的目录ID的可用区域设置特定版本的列表。
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 13%
 
 ---
 
-
 # xlate{#xlate}
 
-可用的区域设置特定版本。 返回列表在请求路径中指定的目录ID的可用区域设置特定版本。
+可用的区域设置特定版本。 返回在请求路径中指定的目录ID的可用区域设置特定版本的列表。
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -34,8 +33,8 @@ ht-degree: 13%
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
