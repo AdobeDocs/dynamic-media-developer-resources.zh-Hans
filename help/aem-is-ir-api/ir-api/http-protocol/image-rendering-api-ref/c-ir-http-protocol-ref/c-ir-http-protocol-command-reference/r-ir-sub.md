@@ -1,21 +1,20 @@
 ---
-description: 子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
+description: 子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-
 # sub{#sub}
 
-子选择。 允许将不同材料应用到所选对象或组的不同区域，以及移除先前应用的材料。
+子选择。 允许将不同材料应用于所选对象或组的不同区域，以及移除先前应用的材料。
 
 `sub=0|1|2|3|4|5`
 
@@ -46,9 +45,9 @@ ht-degree: 7%
  </tr> 
 </table>
 
-当前仅支持wall对象。 终止前一个MSS并开始新的MSS，以便将材料应用到指定的子选择。
+当前仅支持壁对象。 终止前一个MSS，并为要应用于指定子选择的材料启动新的MSS。
 
-为上壁或下壁指定的材料将应用于整个壁，除非也为另一半壁指定了不同的材料。
+为上壁或下壁指定的材料将应用于整个壁，除非为另一半壁指定了不同的材料。
 
 ## 属性 {#section-b202139d6d0847cc8d520a154104ab9d}
 
