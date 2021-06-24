@@ -1,21 +1,20 @@
 ---
-description: 目标定义浏览器中的单击操作。
+description: 浏览器中单击操作的目标定义。
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
 
-
 # ImageMapDefinition{#imagemapdefinition}
 
-目标定义浏览器中的单击操作。
+浏览器中单击操作的目标定义。
 
 语法
 
@@ -25,7 +24,6 @@ ht-degree: 11%
 |---|---|---|
 | `*`name`*` | `xsd:string` | 图像映射定义的名称。 |
 | `*`shapeType`*` | `xsd:string` | 区域形状值之一。 |
-| `*`地区`*` | `xsd:string` | 图像映射坐标。 格式基于HTML `<area>`标签属性。 |
-| `*`操作`*` | `xsd:string` | HTML `<area>`标签中要包含的其他属性，包括`href` URL。 |
+| `*`地区`*` | `xsd:string` | 图像映射坐标。 格式基于HTML `<area>`标记属性。 |
+| `*`操作`*` | `xsd:string` | 要包含在HTML `<area>`标记中的其他属性，包括`href` URL。 |
 | `*`已启用`*` | `xsd:boolean` | 如果启用了图像映射，则返回true。 |
-
