@@ -2,16 +2,15 @@
 description: Swatches.partialswatches
 solution: Experience Manager
 title: Swatches.partialswatches
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ec5fe6f-6257-4f5e-90eb-bbd068b37e3d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
-
 
 # Swatches.partialswatches{#swatches-partialswatches}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定组件是否允许在任何色板部分可见时停止滚动（滚动未对齐）。 建议值为<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
+   <td> <p> 指定当任何色板部分可见（滚动未对齐）时，组件是否允许停止滚动。 建议的值为<span class="codeph"> false</span>或<span class="codeph"> 0</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
