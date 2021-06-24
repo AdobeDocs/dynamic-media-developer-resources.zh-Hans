@@ -2,16 +2,15 @@
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
 title: ThumbnailGridView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: acbcea10-950d-4f98-be5a-5aead9f4e0d9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 6%
 
 ---
-
 
 # ThumbnailGridView.maxloadradius{#thumbnailgridview-maxloadradius}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定组件预载行为。 </p> <p>如果设置为<span class="codeph"> -1</span>，则在初始化组件或更改资产时会同时加载缩略图。 </p> <p>设置为<span class="codeph"> 0</span>时，仅加载可见的缩略图。 </p> <p>设置<span class="codeph"><span class="varname">预加载nbr</span></span>定义预加载可见区域周围的不可见行/列数。 </p> </td> 
+   <td colname="col2"> <p>指定组件预加载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，缩略图会在组件初始化或资产更改时同时加载。 </p> <p>当设置为<span class="codeph"> 0</span>时，只加载可见的缩略图。 </p> <p>设置<span class="codeph"><span class="varname"> preloadnbr</span></span>可定义预加载可见区域周围的不可见行/列数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
