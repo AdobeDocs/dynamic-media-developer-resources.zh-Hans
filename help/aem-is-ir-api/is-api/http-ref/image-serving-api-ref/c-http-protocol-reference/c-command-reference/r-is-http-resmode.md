@@ -1,21 +1,20 @@
 ---
-description: 重新取样模式。 选择用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图变换期间旋转文本图层和调整复合图像大小。
+description: 重新取样模式。 选择要用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图转换期间旋转文本图层和调整复合图像大小。
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
 # resMode{#resmode}
 
-重新取样模式。 选择用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图变换期间旋转文本图层和调整复合图像大小。
+重新取样模式。 选择要用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图转换期间旋转文本图层和调整复合图像大小。
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
@@ -23,26 +22,26 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比林  </span> </p> </td> 
-   <td colname="col2"> <p>选择标准双线性插值。 最快的重新取样方法；会出现一些锯齿伪像。 </p> </td> 
+   <td colname="col2"> <p>选择标准的双线性插值。 最快的重采样方法；会出现一些锯齿伪像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 比库  </span> </p> </td> 
-   <td colname="col2"> <p>选择双三次插值。 与双线性插值相比，CPU占用更多，但生成的图像更锐利，出现的锯齿伪像较少。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 与双线性插值相比，CPU密集度更高，但会生成较锐利的图像，出现的锯齿伪像较少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>选择一个修改的Lanczos窗口函数作为插值算法。 可以生成比两次立方更锐利的结果，并且CPU成本更高。 <span class="codeph"> sharp已 </span> 被sharp2所替 <span class="codeph"> 换， </span>它导致锯齿伪像(Moiré)的可能性较小。 </p> </td> 
+   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 在CPU成本较高的情况下，生成比两次立方体更锐利的结果。 <span class="codeph"> sharp已 </span> 被sharp2替 <span class="codeph"> 换， </span>这会降低出现锯齿伪像(Moiré)的可能性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 比沙尔  </span> </p> </td> 
-   <td colname="col2"> <p>选择Photoshop默认重新取样器以减小图像大小，在Adobe Photoshop中称为“双立方（锐化）”。 </p> </td> 
+   <td colname="col2"> <p>选择Photoshop默认重采样器以减小图像大小，在Adobe Photoshop中称为“双立方锐化”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->要在同时使用`resMode=bisharp`和`fit=stretch`时保持图像的宽高比，最好使用width参数或height参数。 如果必须定义这两个参数，则可以将它们绕排到不同的图层，如下例所示：
+>要在同时使用`resMode=bisharp`和`fit=stretch`时保持图像的宽高比，最好使用width参数或height参数。 如果必须定义两个参数，则可以将它们封装在不同的层中，如以下示例所示：
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -56,7 +55,7 @@ ht-degree: 2%
 
 ## 示例 {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-检索存储在图像目录中的分层图像的最佳质量再现。 图像可以包含文本。 该图像将在图像编辑应用中进一步处理，并因此请求与该图像的alpha渠道。
+检索存储在图像目录中的分层图像的最佳质量呈现版本。 图像可以包含文本。 该图像将在图像编辑应用中进一步处理，并因此请求具有该图像的α通道。
 
 ` http:// *`伺服器`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
