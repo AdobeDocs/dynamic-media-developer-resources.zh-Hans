@@ -2,34 +2,33 @@
 description: CarouselView.frametransition
 solution: Experience Manager
 title: CarouselView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: Developer,Business Practitioner
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 4%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
 # CarouselView.frametransition{#carouselview-frametransition}
 
-` [CarouselView.|<containerId>_carouselView.]frametransition=none|fade|slide[, *`持续`*[, *`间距`*]`
+` [CarouselView.|<containerId>_carouselView.]frametransition=none|fade|slide[, *``*[, *`持续时间间距`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无|淡入|幻灯片  </span> </p> </td> 
-   <td colname="col2"> <p>指定对帧更改应用的效果的类型。 <span class="codeph"> 没 </span> 有过渡;帧更改会立即发生。 </p> <p> <span class="codeph"> 淡 </span> 入淡出意味着新旧帧之间的交叉淡入淡出过渡。 </p> <p> <span class="codeph"> slide </span> 激活旧帧滑出视图和新帧滑入的过渡。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|渐隐|幻灯片  </span> </p> </td> 
+   <td colname="col2"> <p>指定对帧更改应用的效果的类型。 <span class="codeph"> 没 </span> 有代表过渡；帧更改会立即发生。 </p> <p> <span class="codeph"> 淡 </span> 入色是指在旧帧和新帧之间进行交叉淡入色过渡。 </p> <p> <span class="codeph"> slide </span> 可激活以下过渡：旧框架滑出视图，而新框架滑入视图。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持续时间  </span> </span> </p> </td> 
-   <td colname="col2"> <p>指定<span class="codeph">淡入淡出</span>或<span class="codeph">幻灯片</span>过渡效果的持续时间（以秒为单位）。 </p> </td> 
+   <td colname="col2"> <p>指定<span class="codeph">渐隐</span>或<span class="codeph">幻灯片</span>过渡效果的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 间距  </span> </span> </p> </td> 
-   <td colname="col2"> <p>在<span class="codeph">幻灯片</span>过渡中相邻帧之间的间距在<span class="codeph"> 0 </span>和<span class="codeph"> 1 </span>之间，并且与组件的宽度相关。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph">滑动</span>过渡中相邻帧之间的间距在<span class="codeph"> 0 </span>和<span class="codeph"> 1 </span>之间，并且相对于组件的宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
