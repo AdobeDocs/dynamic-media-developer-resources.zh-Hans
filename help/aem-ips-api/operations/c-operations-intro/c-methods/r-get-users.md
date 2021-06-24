@@ -1,23 +1,22 @@
 ---
-description: 获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，您可以对返回的用户进行排序，并按字符进行筛选。
+description: 获取由公司、组和用户角色句柄指定的用户数组。 此操作允许您对返回的用户进行排序，并按字符进行过滤。
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 10%
 
 ---
 
-
 # getUsers{#getusers}
 
-获取由公司、组和用户角色句柄指定的一组用户。 通过此操作，您可以对返回的用户进行排序，并按字符进行筛选。
+获取由公司、组和用户角色句柄指定的用户数组。 此操作允许您对返回的用户进行排序，并按字符进行过滤。
 
-## 授权用户类型{#section-6a8f23cc6b22442d8776f701016971ed}
+## 授权用户类型 {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,10 +26,10 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | 否 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活动成员，才能获得进行任何API调用的授权。 如果用户没有活动的公司成员资格，则将返回授权错误。 |
+| `*`includeInactive`*` | `xsd:boolean` | 否 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一家公司的活动成员，才能获得授权进行任何API调用。 如果用户没有有效的公司成员资格，则会返回授权错误。 |
 | `*`includeInvalid`*` | `xsd:boolean` | 否 | 允许您包含/排除无效用户。 |
 | `*`companyHandleArray`*` | `types:HandleArray` | 否 | 按公司筛选结果。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 按组过滤结果。 |
+| `*`groupHandleArray`*` | `types:HandleArray` | 否 | 按组筛选结果。 |
 | `*`userRoleArray`*` | `types:StringArray` | 否 | 按用户角色筛选结果。 |
 | `*`charFilterField`*` | `xsd:string` | 否 | 按字段的字符串前缀筛选结果(请参阅[!DNL Trash State).] |
 | `*`charFilter`*` | `xsd:string` | 否 | 按特定字符过滤结果。 |
@@ -38,7 +37,7 @@ ht-degree: 10%
 | `*`recordsPerPage`*` | `xsd:int` | 否 | 返回每页指定的记录数。 |
 | `*`resultsPage`*` | `xsd:int` | 否 | 结果页面。 |
 
-**输出(getUsersReturn)**
+**Output(getUsersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -46,7 +45,7 @@ ht-degree: 10%
 
 ## 示例 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
-此代码示例为多个可选参数返回用户数组。 用户角色、用户字符筛选器字段和用户排序字段由使用特定字符串常量确定。
+此代码示例为多个可选参数返回用户数组。 用户角色、用户字符过滤器字段和用户排序字段通过使用特定的字符串常量来确定。
 
 **请求**
 
@@ -81,4 +80,3 @@ ht-degree: 10%
    </userArray>
 </getUsersReturn>
 ```
-
