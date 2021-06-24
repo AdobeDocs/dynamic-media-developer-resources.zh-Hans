@@ -2,16 +2,15 @@
 description: 请求规则元素。 在<ruleset>元素中，一个或多个规则是可选的。
 solution: Experience Manager
 title: 规则
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
-
 
 # 规则{#rule}
 
@@ -19,11 +18,11 @@ ht-degree: 6%
 
 ## 属性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
-`OnMatch = "break" | "continue" | "error"`: 可选. 默认为“break”。
+`OnMatch = "break" | "continue" | "error"`: 可选. 默认值为“break”。
 
-`Replace = "first" | "all"`: 可选. 默认为“first”。
+`Replace = "first" | "all"`: 可选. 默认值为“first”。
 
-`RequestType` =  *&quot;`types`*:可选。指定规则应用于的输入上下文。 *`types`* 是逗号分隔的列表，其中可能包括下表中列出的一个或多个令牌。如果未指定`RequestType`，则此规则适用于在所有支持的上下文上接收的请求。
+`RequestType` =  *&quot;`types`&quot;*:可选。指定规则应用于的输入上下文。 *`types`* 是以逗号分隔的列表，其中可能包含下表中列出的一个或多个令牌。如果未指定`RequestType`，则规则适用于所有受支持上下文中收到的请求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -52,9 +51,9 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-**`Name = "text"`**: 可选. 用于标识调试日志和错误消息中的`<rule>`元素。
+**`Name = "text"`**: 可选. 用于识别调试日志和错误消息中的`<rule>`元素。
 
-`  *`属性`* ="value"`:可选。`<rule>` 元素可以在任意组合中定义以下任意属性。如果指定，并且规则成功匹配，则它们将覆盖此请求的相应目录属性。 默认值为 `RequestType="is"`.
+`  *`属性`* ="value"`:可选。`<rule>` 元素可以在任意组合中定义以下任意属性。如果已指定，并且规则匹配成功，则它们将覆盖此请求的相应目录属性。 默认值为 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -82,15 +81,15 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> attribute::RequestLock</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> 属性：:RequestLock</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 请求模糊处理</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> 属性：:RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> 属性：:RootUrl</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> SavePath</span> </p> </td> 
@@ -103,9 +102,9 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-有关详细信息，请参阅相应图像目录属性的说明。
+有关详细信息，请参阅相应图像目录属性的描述。
 
-过期属性只覆盖默认属性值。 如果特定的`catalog::Expiration`值应用于请求，则忽略覆盖。
+过期属性仅覆盖默认属性值。 如果特定的`catalog::Expiration`值应用于请求，则忽略覆盖。
 
 ## 数据 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -132,8 +131,8 @@ ht-degree: 6%
 
 如果同时指定了`<expression>`和`<substitution>`，并且未使用捕获的子字符串，则第一个匹配的子字符串将替换为`<substitution>`。
 
-如果未指定`<expression>`，则任何路径匹配，并将`<substitution>`附加到路径末尾。
+如果未指定`<expression>`，则任何路径都匹配，并且`<substitution>`将附加到路径的末尾。
 
 如果未指定`<substitution>`，则不会发生路径或查询转换，但会覆盖任何指定的目录属性。 如果`<substitution>`为空，则删除匹配的子字符串。
 
-`<addressfilter>`仅在发生匹配时和应用查询规则之前应用。
+`<addressfilter>`仅在发生匹配时以及在应用查询规则之前应用。
