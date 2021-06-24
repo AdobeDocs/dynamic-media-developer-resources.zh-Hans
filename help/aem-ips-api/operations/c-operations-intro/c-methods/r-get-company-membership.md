@@ -1,25 +1,24 @@
 ---
-description: 获取公司数组中用户的成员关系。
+description: 获取公司数组中用户的成员资格。
 solution: Experience Manager
-title: getCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+title: getCompanyMembersing
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
+# getCompanyMembersing{#getcompanymembership}
 
-# getCompanyMembership{#getcompanymembership}
-
-获取公司数组中用户的成员关系。
+获取公司数组中用户的成员资格。
 
 语法
 
-## 授权用户类型{#section-f8bba547e1f648648be99dc48fd72b5d}
+## 授权用户类型 {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,17 +37,17 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要获取其成员身份的用户的句柄。 |
+| `*`userHandle`*` | `xsd:string` | 否 | 要获取其成员资格的用户的句柄。 |
 
-**输出(getCompanyMembershipReturn)**
+**Output(getCompanyMembershipReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`membershArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员关系数组。 |
+| `*`membersingArray`*` | `types:CompanyMembershipArray` | 是 | 公司成员资格数组。 |
 
 ## 示例 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-此代码示例获取用户句柄，并获取数组中用户的所有公司成员关系。 响应被截断，以致简短。
+此代码示例获取用户句柄并获取数组中所有用户的公司成员资格。 响应已被截断，以便简短。
 
 **请求**
 
@@ -73,4 +72,3 @@ ht-degree: 17%
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
