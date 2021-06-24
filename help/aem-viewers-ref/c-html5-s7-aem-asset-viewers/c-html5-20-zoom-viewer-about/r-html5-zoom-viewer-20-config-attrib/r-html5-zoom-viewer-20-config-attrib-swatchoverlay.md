@@ -1,17 +1,16 @@
 ---
-description: 叠加
+description: swatchoverlay
 solution: Experience Manager
-title: 叠加
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+title: swatchoverlay
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
-
 
 # swatchoverlay{#swatchoverlay}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>指定支持触控的设备上的查看器布局。 当参数设置为<span class="codeph"> 1 </span>时，查看器将在桌面上主视图下显示色板；在支持触控的设备上，主视图上方会覆盖色板。 </p> <p>当参数设置为<span class="codeph"> 0 </span>时，所有设备类型上的色板都呈现在主视图下。 </p> </td> 
+   <td colname="col2"> <p>指定触屏设备上的查看器布局。 当参数设置为<span class="codeph"> 1 </span>时，查看器会在桌面主视图下方显示色板；在启用了触屏的设备上，色板会在主视图顶部覆盖。 </p> <p>当参数设置为<span class="codeph"> 0 </span>时，所有设备类型的主视图下都会显示色板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
