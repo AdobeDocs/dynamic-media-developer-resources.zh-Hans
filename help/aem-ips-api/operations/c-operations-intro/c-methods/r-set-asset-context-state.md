@@ -1,23 +1,22 @@
 ---
-description: 为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
+description: 为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
 
-
 # setAssetsContextState{#setassetscontextstate}
 
-为一个或多个资产设置或更新发布状态。 您可以在公司中为每个发布上下文设置单独的发布状态。
+为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
 
-## 授权用户类型{#section-815eb031f85143278c1560c18c5e3431}
+## 授权用户类型 {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,21 +34,21 @@ ht-degree: 10%
 
 ## 参数 {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**Input(setAssetsContextStateParam)**
+**输入(setAssetsContextStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理公司。 |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 一组资源及其新的发布状态。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 资产数组及其新发布状态。 |
 
 **输出(setAssetsContexStateReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功更改的资产数。 |
+| `*`successCount`*` | `xsd:int` | 是 | 已成功更改的资产数量。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 操作尝试修改资产时由资产生成的错误数组。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 资产在操作尝试修改资产时生成的错误数组。 |
 
 ## 示例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
@@ -116,4 +115,3 @@ ht-degree: 10%
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
