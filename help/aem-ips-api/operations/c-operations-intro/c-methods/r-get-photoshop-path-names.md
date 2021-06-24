@@ -1,25 +1,24 @@
 ---
-description: 返回给定图像的Photoshop路径名数组。
+description: 返回给定图像的Photoshop路径名称数组。
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
 
-
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-返回给定图像的Photoshop路径名数组。
+返回给定图像的Photoshop路径名称数组。
 
 语法
 
-## 授权用户类型{#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 授权用户类型 {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,14 +34,14 @@ ht-degree: 19%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含要处理的图像的公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对包含要处理的图像的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 处理图像资产。 |
 
-**输出(getPhotoshopPathNamesReturn)**
+**Output(getPhotoshopPathNamesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | 是 | 图像中的Photoshop路径名数组。 |
+| `*`pathNameArray`*` | `types:StringArray` | 是 | 图像中的Photoshop路径名称数组。 |
 
 ## 示例 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
@@ -65,4 +64,3 @@ ht-degree: 19%
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
