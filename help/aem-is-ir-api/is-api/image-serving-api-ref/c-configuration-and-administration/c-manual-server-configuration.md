@@ -1,20 +1,19 @@
 ---
-description: 可以通过编辑相应的配置文件手动配置图像服务和图像渲染的许多方面。
+description: 可以通过编辑相应的配置文件来手动配置图像提供和图像呈现的许多方面。
 solution: Experience Manager
 title: 服务器配置
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2bb81f55-98da-47a1-8214-49b9bd30eb94
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
-
 # 服务器配置{#server-configuration}
 
-可以通过编辑相应的配置文件手动配置图像服务和图像渲染的许多方面。
+可以通过编辑相应的配置文件来手动配置图像提供和图像呈现的许多方面。
 
-有关详细信息，请参阅图像服务和图像渲染文档的“管理”部分。 [!DNL Jconsole] 也可以在9999端口上使用。
+有关详细信息，请参阅图像提供和图像渲染文档的管理部分。 [!DNL Jconsole] 也可以在端口9999上使用。
