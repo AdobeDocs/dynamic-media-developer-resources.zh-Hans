@@ -1,21 +1,20 @@
 ---
-description: 文件柜资源的属性。
+description: 文件柜资产的属性。
 solution: Experience Manager
 title: CabinetInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 78ec00cd-c410-412c-970f-96226563a45a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
 
-
 # CabinetInfo{#cabinetinfo}
 
-文件柜资源的属性。
+文件柜资产的属性。
 
 语法
 
@@ -23,11 +22,10 @@ ht-degree: 7%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 原始文件柜的相对路径。 |
+| `*`originalPath`*` | `xsd:string` | 原始机柜的相对路径。 |
 | `*`originalFile`*` | `xsd:string` | 文件柜名称。 |
-| `*`fileSize`*` | `xsd:int` | 文件柜大小。 |
-| `*`imagePath`*` | `xsd:string` | 与暗角关联的机柜的相对路径。 |
+| `*`fileSize`*` | `xsd:int` | 机柜大小。 |
+| `*`imagePath`*` | `xsd:string` | 与晕影关联的机柜的相对路径。 |
 | `*`imageFile`*` | `xsd:string` | 与晕影关联的文件柜的文件名。 |
-| `*`optimizedPath`*` | `xsd:string` | IPS优化的机柜的路径。 |
-| `*`optimizedFile`*` | `xsd:string` | IPS优化的文件柜文件。 |
-
+| `*`optimizedPath`*` | `xsd:string` | IPS优化机柜的路径。 |
+| `*`optimizedFile`*` | `xsd:string` | IPS优化的机柜文件。 |
