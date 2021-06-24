@@ -1,25 +1,24 @@
 ---
-description: 创建新的图像映射或编辑现有的映射。
+description: 创建新图像映射或编辑现有映射。
 solution: Experience Manager
 title: saveImageMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 15%
 
 ---
 
-
 # saveImageMap{#saveimagemap}
 
-创建新的图像映射或编辑现有的映射。
+创建新图像映射或编辑现有映射。
 
 语法
 
-## 授权用户类型{#section-9ef194a67b3546fb82ed7bb294bc2714}
+## 授权用户类型 {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->用户必须具有资产的读写权限。
+>用户必须具有资产的读取和写入权限。
 
 ## 参数 {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
@@ -50,22 +49,22 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 包含要保存的图像映射的公司的手柄。 </td> 
+   <td colname="col4"> 包含要保存的图像映射的公司的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 图像映射所属的图像资产的手柄。 </td> 
+   <td colname="col4"> 图像映射所属的图像资产的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 图像映射的手柄。 如果为NULL，则创建图像映射。 </td> 
+   <td colname="col4"> 图像映射的句柄。 如果为NULL，则创建图像映射。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 创建或保存的图像映射的名称。 </td> 
@@ -80,19 +79,19 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 地区  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 用逗号分隔的点列表，定义区域。 </td> 
+   <td colname="col4"> 以逗号分隔的点列表，用于定义区域。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 行动  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 操作  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>与IPS接口中指定的图像映射关联的<span class="codeph"> href </span>值。 </p> <p>要获取<span class="codeph"> href </span>值，请单击IPS接口中的图像，将URL复制并粘贴到此元素中，然后将IPS URL格式化为正确的URL。 例如，<span class="codeph">和</span>变为<span class="codeph"> &amp;</span>。 </p> </td> 
+   <td colname="col4"> <p>与IPS接口中指定的图像映射关联的<span class="codeph"> href </span>值。 </p> <p>要获取<span class="codeph"> href </span>值，请单击IPS界面中的图像，将URL复制并粘贴到此元素中，然后将IPS URL格式化为正确的URL。 例如， <span class="codeph">和</span>将变为<span class="codeph"> &amp;amp;</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 位置  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 图像映射列表（Z轴）的顺序。 </td> 
+   <td colname="col4"> 图像映射列表中的顺序（Z轴）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 已启用  </span> </span> </td> 
@@ -107,11 +106,11 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | 是 | 新图像或已编辑图像映射的手柄。 |
+| `*`imageMapHandle`*` | `xsd:string` | 是 | 新图像映射或编辑图像映射的句柄。 |
 
 ## 示例 {#section-fdac488b640f427c8aa3d549c5032851}
 
-此代码示例为资产创建新的图像映射。 它使用由区域形状字符串常量确定的形状类型，并将手柄返回到新图像映射。
+此代码示例可为资产创建新的图像映射。 它使用由区域形状字符串常量确定的形状类型，并将句柄返回到新图像映射。
 
 **请求**
 
@@ -135,4 +134,3 @@ ht-degree: 15%
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-
