@@ -1,27 +1,26 @@
 ---
-description: 主视图区域是缩放图像所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
+description: 主视图区域是缩放图像所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
 solution: Experience Manager
 title: 主查看器区域
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
 
-
 # 主查看器区域{#main-viewer-area}
 
-主视图区域是缩放图像所占用的区域。 当未指定大小时，通常将其设置为适合可用的设备屏幕。
+主视图区域是缩放图像所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+通过以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7interactiveimage
@@ -44,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 十六进制格式的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为1174 x 500像素。
+示例 — 设置具有白色背景的查看器(`#FFFFFF`)，并使其大小为1174 x 500像素。
 
 ```
 .s7interactiveimage { 
@@ -59,4 +58,3 @@ ht-degree: 2%
  height: 500px;  
 }
 ```
-
