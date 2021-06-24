@@ -2,16 +2,15 @@
 description: 在Linux上安装映像服务后，请验证安装。
 solution: Experience Manager
 title: 验证安装
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 273478ab-f245-48ef-a125-fb738054484e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # 验证安装{#verifying-the-installation}
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 **验证安装**
 
-1. 验证图像服务是否已配置为自动开始且是否正在运行：
+1. 验证“图像服务”是否配置为自动启动并且它正在运行：
 
    `> /sbin/service ImageServing status`
 
@@ -29,12 +28,11 @@ ht-degree: 0%
    >
    >您必须具有根权限才能运行这些脚本。
 
-1. 打开同一或不同主机上的Internet浏览器并检查默认服务器响应：
+1. 在同一或其他主机上打开Internet浏览器，并检查默认服务器响应：
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-在响应中，检查是否存在以“`imageServer.`”开头的项，这表示平台服务器可以成功与图像服务器通信。
->如果已安装，可使用文档和演示包的示例页执行其他验证。
-
+在响应中，检查是否存在以“ `imageServer.`”开头的项目，这表示平台服务器可以成功与图像服务器通信。
+>如果已安装，可以使用文档和演示包的示例页面执行其他验证。
