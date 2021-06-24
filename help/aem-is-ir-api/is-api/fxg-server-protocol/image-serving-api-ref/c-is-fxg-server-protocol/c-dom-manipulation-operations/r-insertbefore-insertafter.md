@@ -2,16 +2,15 @@
 description: 在节点之前或之后设置XML。
 solution: Experience Manager
 title: insertBefore，insertAfter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
-
 
 # insertBefore，insertAfter{#insertbefore-insertafter}
 
@@ -19,11 +18,11 @@ ht-degree: 3%
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-如果FXG节点元素定义了`s7:elementID`，则可以使用此命令在该节点之前或之后添加XML片段。
+如果FXG节点元素定义了`s7:elementID` ，则可以使用此命令在该节点之前或之后添加XML片段。
 
 ## 示例 {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-如果我们有这样的“组”标签：
+如果我们具有如下的组标记：
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
