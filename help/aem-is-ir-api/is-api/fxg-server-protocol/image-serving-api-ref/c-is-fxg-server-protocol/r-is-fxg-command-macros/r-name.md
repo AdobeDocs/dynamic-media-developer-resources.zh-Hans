@@ -2,16 +2,15 @@
 description: 命令宏的名称。
 solution: Experience Manager
 title: name
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
-
 
 # name{#name}
 
@@ -21,9 +20,9 @@ ht-degree: 11%
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 名称</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
   <td class="stentry"> <p>宏名称。 </p></td> 
  </tr> 
 </table>
 
-*`name`* 不区分大小写，并且可能由字母、数字、“ — ”、“_”和“。”的任意组合组成字符.
+*`name`* 不区分大小写，并且可以由字母、数字、“ — ”、“_”和“。”的任意组合组成字符.
