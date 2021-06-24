@@ -1,35 +1,34 @@
 ---
-description: eCatalog Viewer的JavaScript API参考。
+description: eCatalog查看器的JavaScript API引用。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
 
-
 # init{#init}
 
-eCatalog Viewer的JavaScript API参考。
+eCatalog查看器的JavaScript API引用。
 
 [!DNL `init()`]
 
-开始eCatalog Viewer的初始化。 此时，必须创建容器 DOM元素，以便查看器代码可以按其ID找到它。
+启动eCatalog查看器的初始化。 此时，必须创建容器DOM元素，以便查看器代码可以通过其ID找到它。
 
-如果容器元素尚不是网页布局的一部分（例如，它可能使用分配给它的[!DNL `display:none`]样式被隐藏），则查看器将暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生这种情况时，查看器加载会自动恢复。
+如果容器元素尚未成为网页布局的一部分（例如，可能使用分配给它的[!DNL `display:none`]样式来隐藏该元素），查看器会暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生此情况时，查看器加载会自动恢复。
 
-在查看器生命周期中，只调用一次此方法；将忽略后续调用。
+在查看器生命周期内，只调用一次此方法；将忽略后续调用。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 无。
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 [!DNL `{Object}`] 对查看器实例的引用。
 
@@ -38,4 +37,3 @@ eCatalog Viewer的JavaScript API参考。
 ```
 <instance>.init()
 ```
-
