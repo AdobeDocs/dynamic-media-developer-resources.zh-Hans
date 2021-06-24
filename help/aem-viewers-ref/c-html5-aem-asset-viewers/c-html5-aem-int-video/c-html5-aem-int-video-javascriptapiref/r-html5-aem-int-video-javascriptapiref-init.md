@@ -1,35 +1,34 @@
 ---
-description: 交互式视频查看器的JavaScript API参考。
+description: 交互式视频查看器的JavaScript API引用。
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 5fcc7dcd-a9a8-4a87-9c8d-42717ced8ae9
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
 # init{#init}
 
-交互式视频查看器的JavaScript API参考。
+交互式视频查看器的JavaScript API引用。
 
 `init()`
 
-开始交互式视频查看器的初始化。 此时必须创建容器 DOM元素，以便查看器代码能够按其ID找到它。
+启动交互式视频查看器的初始化。 此时，必须创建容器DOM元素，以便查看器代码可以通过其ID找到它。
 
-如果容器元素尚不是网页布局的一部分（例如，它可能使用分配给它的`display:none`样式被隐藏），则查看器将暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生这种情况时，查看器加载会自动恢复。
+如果容器元素尚未成为网页布局的一部分（例如，可能使用分配给它的`display:none`样式来隐藏该元素），查看器会暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生此情况时，查看器加载会自动恢复。
 
-在查看器生命周期中只调用此方法一次；将忽略后续调用。
+在查看器生命周期内，只调用一次此方法；将忽略后续调用。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 无。
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` 对查看器实例的引用。
 
