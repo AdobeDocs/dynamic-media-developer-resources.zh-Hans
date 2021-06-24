@@ -1,25 +1,24 @@
 ---
-description: 清空IPS垃圾桶中的资源。
+description: 清空IPS垃圾桶中的资产。
 solution: Experience Manager
-title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
+title: emptyAssetsFromTrashe
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
 
+# emptyAssetsFromTrashe{#emptyassetsfromtrash}
 
-# emptyAssetsFromTrash{#emptyassetsfromtrash}
+清空IPS垃圾桶中的资产。
 
-清空IPS垃圾桶中的资源。
+资产会一直存放在垃圾桶中，直到被手动清空，或者超时从垃圾桶中清空。 如果手动清空这些清空文件，则它们会一直存在在垃圾桶中，直到最终从系统中清除它们时（通常是夜间清除）下一个清理作业为止。 如果资产超时进入垃圾桶，则会作为同一清理活动的一部分清理资产。 超时可进行配置（默认为7天）。
 
-资源会一直存放在垃圾桶中，直到手动清空资源，或者超出垃圾桶。 如果手动清空这些文件，则它们会一直存在在垃圾桶中，直到最终从系统中清除它们时（通常是在夜间），再进行下一个清理作业。 如果资源超时从垃圾桶中清除，资源会作为同一清理活动的一部分被清除。 超时是可配置的（默认值为7天）。
-
-## 授权用户类型{#section-24dee2bf5f9f4714a64955c80f2803b4}
+## 授权用户类型 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,19 +37,19 @@ ht-degree: 7%
 | `*`companyHandle`*` | `xsd:string` | 是 | 拥有资产的公司的句柄。 |
 | `*`assetHandleArray`*` | `types:HandleArray` | 是 | 表示要从垃圾桶中清空的项目的句柄数组。 |
 
-**输出(emptyAssetsFromTrashParam)**
+**输出(emptyAssetsFromTrasheParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | 是 | 从垃圾桶中成功清空的资源数。 |
-| `*`warningCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资源时生成的警告数。 |
-| `*`errorCount`*` | `xsd:Int` | 是 | 操作尝试从废纸篓中清空资源时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，这些资产生成了警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试从废纸篓中清空资产时，与生成错误的资产关联的详细信息数组。 |
+| `*`successCount`*` | `xsd:Int` | 是 | 成功从垃圾桶清空的资产数。 |
+| `*`warningCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资产时生成的警告数。 |
+| `*`errorCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资产时生成的错误数。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成警告。 |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成错误。 |
 
 ## 示例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
-此代码示例使用公司的句柄和一个资产句柄数组，该数组包含要从垃圾桶中清空的资产的句柄。
+此代码示例使用公司的句柄和一个资产句柄数组，其中包含要从垃圾桶中清空的资产的句柄。
 
 **请求**
 
@@ -73,4 +72,3 @@ ht-degree: 7%
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
