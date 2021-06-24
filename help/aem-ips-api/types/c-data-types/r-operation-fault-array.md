@@ -2,16 +2,15 @@
 description: 响应CDN失效请求中提供的URL的消息数组。
 solution: Experience Manager
 title: OperationFaultArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # OperationFaultArray{#operationfaultarray}
 
@@ -34,9 +33,8 @@ ht-degree: 6%
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> 项目</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
-   <td> <p> 由CDN使请求失效而产生的消息列表。 </p> </td> 
+   <td> <p> <span class="codeph"> 类型：OperationFault</span> </p> </td> 
+   <td> <p> 由CDN无效请求生成的消息列表。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
