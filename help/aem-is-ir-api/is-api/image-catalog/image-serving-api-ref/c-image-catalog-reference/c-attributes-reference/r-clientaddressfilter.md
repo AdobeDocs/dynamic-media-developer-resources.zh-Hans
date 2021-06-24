@@ -1,29 +1,28 @@
 ---
-description: 客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
+description: 客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 028cef35-2862-452c-872c-b953e8ccb195
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
 
-
 # ClientAddressFilter{#clientaddressfilter}
 
-客户端IP地址筛选器。 允许指定一个或多个IP地址或地址范围。
+客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 
-如果指定，则来自未列出IP地址的客户端的此图像目录请求将被拒绝。
+指定后，对此图像目录的请求（源自未列入IP地址的客户端）将被拒绝。
 
 ## 属性 {#section-d785265988324af68835410c9ba54147}
 
-以逗号分隔的列表IP地址(使用可选网络掩码（CIDR表示法）：
+以逗号分隔的IP地址列表(包含可选网络掩码（使用CIDR表示法）：
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[` /  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
@@ -31,16 +30,16 @@ ht-degree: 3%
   <td class="stentry"> <p><span class="varname"> ddd.ddd.ddd.ddd</span>格式的IP地址。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
-  <td class="stentry"> <p>净蒙版(0...32)。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> 网络掩码</span> </p></td> 
+  <td class="stentry"> <p>网络掩码(0...32)。 </p></td> 
  </tr> 
 </table>
 
-应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
+当应用具有`<addressfilter>`元素的预处理规则时，将忽略此属性。
 
 ## 默认 {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-如果未定义或为空，则从`default::AddressFilter`继承。
+从`default::AddressFilter`继承（如果未定义或为空）。
 
 ## 示例 {#section-a955314d2b6a4213a16c12a8b18d8627}
 
