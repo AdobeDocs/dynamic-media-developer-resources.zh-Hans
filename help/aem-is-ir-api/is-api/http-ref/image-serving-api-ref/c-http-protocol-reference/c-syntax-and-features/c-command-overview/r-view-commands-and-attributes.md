@@ -1,21 +1,20 @@
 ---
-description: 无论这些命令在请求中出现在何处，这些命令都会应用。
+description: 无论这些命令在请求中显示在何处，这些命令都适用。
 solution: Experience Manager
 title: 视图命令
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 4%
 
 ---
 
-
 # 视图命令{#view-commands}
 
-无论这些命令在请求中出现在何处，这些命令都会应用。
+无论这些命令在请求中显示在何处，这些命令都适用。
 
 <table id="simpletable_A423F1CD30EC4DE9AD15C4514F169FC9"> 
  <tr class="strow"> 
@@ -36,19 +35,18 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3" type="reference" format="dita" scope="local"> rect</a> </p></td> 
-  <td class="stentry"> <p>指定最终的视图矩形。 </p></td> 
+  <td class="stentry"> <p>指定最终视图矩形。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rgn</a> </p> </td> 
-  <td class="stentry"> <p>指定合成图像中的目标区域。 </p></td> 
+  <td class="stentry"> <p>在复合图像中指定目标区域。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc" type="reference" format="dita" scope="local"> scl</a> </p></td> 
-  <td class="stentry"> <p>将合成图像设置为视图缩放因子。 </p></td> 
+  <td class="stentry"> <p>设置复合图像以查看缩放因子。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47" type="reference" format="dita" scope="local"> wid</a> </p></td> 
   <td class="stentry"> <p>设置视图宽度。 </p></td> 
  </tr> 
 </table>
-
