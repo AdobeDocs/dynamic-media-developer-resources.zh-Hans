@@ -1,21 +1,20 @@
 ---
-description: 地址筛选器元素。 在<rule>元素中为可选。 在应用规则时覆盖属性ClientAddressFilter。
+description: 地址筛选器元素。 在<rule>元素中为可选项。 在应用规则时覆盖属性ClientAddressFilter。
 solution: Experience Manager
 title: 地址筛选器
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
 
-
 # 地址筛选器{#addressfilter}
 
-地址筛选器元素。 在`<rule>`元素中为可选。 应用规则时，覆盖属性：:ClientAddressFilter。
+地址筛选器元素。 在`<rule>`元素中为可选。 应用规则时覆盖属性：:ClientAddressFilter。
 
 ## 属性 {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -23,7 +22,7 @@ ht-degree: 4%
 
 ## 数据 {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-以逗号分隔的IP地址列表。 每个单个地址可以包括可选的网络掩码后缀以允许IP地址范围的规范。 有关详细信息，请参阅` [attribute::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)`。
+以逗号分隔的IP地址列表。 每个地址可以包括可选网络掩码后缀，以允许指定IP地址范围。 有关详细信息，请参阅` [attribute::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)`。
 
 ## 说明 {#section-099b7839c4be40c68cbff29dad14e7d5}
 
@@ -33,8 +32,8 @@ ht-degree: 4%
 
 如果`<rule>`元素中的`<expression>`不存在或为空，则`<addressfilter>`将应用于所有请求。
 
-`localhost` 始终隐式部分定义， `ClientAddressFilter` 即使未显式指定也是如此。始自`localhost`的请求从不被拒绝，无论`ClientAddressFilter`规范如何。
+`localhost` 始终隐式地包含在定 `ClientAddressFilter` 义中，即使未明确指定也是如此。无论`ClientAddressFilter`规范如何，始发自`localhost`的请求都永远不会被拒绝。
 
-## 另请参阅{#section-02056065e0c042e1b155b2f3e5b84ef7}
+## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 
-[attribute::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
+[属性：:ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
