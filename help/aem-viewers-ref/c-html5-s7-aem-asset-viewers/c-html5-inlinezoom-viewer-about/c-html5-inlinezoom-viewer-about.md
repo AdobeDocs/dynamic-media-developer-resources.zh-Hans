@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
-## 使用内联缩放查看器{#section-f21ac23d3f6449ad9765588d69584772}
+## 使用内联缩放查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
 内联缩放查看器表示主JavaScript文件和一组帮助程序文件（单个JavaScript包含该查看器在运行时下载的特定查看器、资产和CSS所使用的所有查看器SDK组件）。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与内联缩放查看器{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}交互
+## 与内联缩放查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 内联缩放查看器支持其他移动设备应用程序中常见的单点触控和多点触控手势。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入内联缩放查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入内联缩放查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同网页对查看者行为的需求不同。 有时，网页会提供可单击的链接，以在单独的浏览器窗口中打开查看器。 在其他情况下，可能需要直接将查看器嵌入到托管页面中。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或者针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式嵌入。
 
@@ -250,7 +250,7 @@ ht-degree: 0%
    </html>
    ```
 
-## 无限制高度{#section-056cb574713c4d07be6d07cf3c598839}的响应式设计嵌入
+## 具有无限制高度的响应式设计嵌入 {#section-056cb574713c4d07be6d07cf3c598839}
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，指示查看器容器`DIV`的运行时大小。 对于以下示例，假定网页允许查看器的容器`DIV`占用Web浏览器窗口大小的40%，并保持其高度不受限制。 网页HTML代码如下所示：
 
@@ -333,7 +333,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 [替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## 定义了{#section-0a329016f9414d199039776645c693de}宽度和高度的灵活大小嵌入
+## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
 在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
 
@@ -406,7 +406,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## 使用基于Setter的API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}嵌入
+## 使用基于Setter的API嵌入 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会获取任何参数，并且配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
 
