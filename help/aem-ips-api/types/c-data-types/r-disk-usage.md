@@ -2,16 +2,15 @@
 description: 资产或文件夹的磁盘空间统计信息。
 solution: Experience Manager
 title: DiskUsage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 12%
 
 ---
-
 
 # DiskUsage{#diskusage}
 
@@ -23,9 +22,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 公司负责人。 |
 | `*`companyName`*` | `xsd:string` | 公司名称. |
-| `*`imageCount`*` | `xsd:int` | 存储的图像数。 |
-| `*`diskSpaceUsage`*` | `xsd:long` | 文件端总数(KB)。 |
+| `*`imageCount`*` | `xsd:int` | 存储的图像数量。 |
+| `*`diskSpaceUsage`*` | `xsd:long` | 文件端总数（千字节）。 |
 | `*`lastModified`*` | `xsd:dateTime` | 上次修改`DiskUsage`类型的日期、时间和时区。 |
-
