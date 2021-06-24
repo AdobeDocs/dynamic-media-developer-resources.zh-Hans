@@ -2,16 +2,15 @@
 description: 返回元数据字段的所有值。
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -19,7 +18,7 @@ ht-degree: 21%
 
 语法
 
-## 授权用户类型{#section-f0f44fdcb318490582dd04de8eaf745d}
+## 授权用户类型 {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要获取数据的公司的句柄。 |
-| `*`metadataKey`*` | `xsd:string` | 是 | 元数据键（点记号）。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其数据的公司的句柄。 |
+| `*`metadataKey`*` | `xsd:string` | 是 | 点表示法中的元数据键。 |
 
-**输出(getDistinctMetadataValuesReturn)**
+**Output(getDistinctMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
