@@ -1,25 +1,24 @@
 ---
-description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有者信息。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 13%
 
 ---
 
-
 # createMetadataField{#createmetadatafield}
 
-允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有者信息。
 
 语法
 
-## 授权用户类型{#section-2f61d79f8cac4692bfa53b95035ddd89}
+## 授权用户类型 {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -41,7 +40,7 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 元数据字段所属公司的名称。 </td> 
+   <td colname="col4"> 元数据字段所属的公司的名称。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -50,7 +49,7 @@ ht-degree: 13%
    <td colname="col4"> 资源类型. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 要创建的元数据字段的名称。 </td> 
@@ -65,30 +64,30 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要创建的元数据字段的默认值（例如，<span class="codeph"> Scene 7</span>）。 </p> <p>标记字段类型不支持默认值，必须忽略默认值。 如果为标记字段类型指定了非空默认值，则将返回错误。 </p> </td> 
+   <td colname="col4"> <p>要创建的元数据字段的默认值（例如，<span class="codeph"> Scene 7</span>）。 </p> <p>标记字段类型不支持默认值，因此必须忽略默认值。 如果为标记字段类型指定了非空的默认值，则将返回错误。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或公开特定于IPS系统的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 用于创建一组选定标记可以指向的共享枚举值。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(createMetadataFieldReturn)**
+**Output(createMetadataFieldReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -96,7 +95,7 @@ ht-degree: 13%
 
 ## 示例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此代码示例创建名为`createMetadataField`的字符串类型元数据字段。 响应将返回新元数据字段的句柄。
+此代码示例将创建一个名为`createMetadataField`的字符串类型元数据字段。 响应会将句柄返回到新元数据字段。
 
 **请求**
 
@@ -118,4 +117,3 @@ ht-degree: 13%
    <fieldHandle>m|21|IMAGE|createMetadataField</fieldHandle>
 </createMetadataFieldReturn>
 ```
-
