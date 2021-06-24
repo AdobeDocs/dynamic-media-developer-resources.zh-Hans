@@ -1,25 +1,24 @@
 ---
-description: 从IPS返回资源。
+description: 从IPS返回资产。
 solution: Experience Manager
 title: getAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 19%
+source-wordcount: '125'
+ht-degree: 20%
 
 ---
 
-
 # getAssets{#getassets}
 
-从IPS返回资源。
+从IPS返回资产。
 
 语法
 
-## 授权用户类型{#section-4673c1c9f4314160af8b165eb2dd20cc}
+## 授权用户类型 {#section-4673c1c9f4314160af8b165eb2dd20cc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -53,7 +52,7 @@ ht-degree: 19%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>公司手柄。 </p> </td> 
+   <td colname="col4"> <p>公司负责人。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
@@ -71,7 +70,7 @@ ht-degree: 19%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要检索文件夹及所有子文件夹到叶级的根文件夹。 如果排除，则使用公司根。 </p> </td> 
+   <td colname="col4"> <p>用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -88,7 +87,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-**输出(getAssetsReturn)**
+**Outpub(getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -104,9 +103,7 @@ ht-degree: 19%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：AssetArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>符合筛选条件的资产数组。 </p> </td> 
+   <td colname="col4"> <p>与筛选条件匹配的资产数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-
