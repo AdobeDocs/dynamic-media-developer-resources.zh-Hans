@@ -2,16 +2,15 @@
 description: 主视图由旋转图像组成。
 solution: Experience Manager
 title: 旋转视图
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # 旋转视图{#spin-view}
 
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制查看区域的外观：
+通过以下CSS类选择器控制查看区域的外观：
 
 ```
 .s7spinviewer .s7spinview
@@ -36,8 +35,8 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p> 主视图的十六进制格式背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p> 主视图以十六进制格式显示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,4 +48,3 @@ ht-degree: 1%
  background-color: transparent; 
 }
 ```
-
