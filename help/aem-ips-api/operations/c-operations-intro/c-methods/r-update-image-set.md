@@ -2,16 +2,15 @@
 description: 更新图像集。
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic，SDK/API，图像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
-
 
 # updateImageSet{#updateimageset}
 
@@ -21,14 +20,14 @@ ht-degree: 18%
 
 ## 参数 {#section-3be47dbbce474ce78676b05e163492e3}
 
-**Input(updateImageSetParam)**
+**输入(updateImageSetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的图像集的公司的手柄。 |
-| `*`assetHandle`*` | `xsd:string` | Ys | 要修改的图像集的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
+| `*`assetHandle`*` | `xsd:string` | Ys | 要修改的图像集的句柄。 |
 | `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | 否 | 重置图像集成员。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作图像集缩略图的资产手柄。 |
+| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作图像集缩略图的资产句柄。 |
 
 **输出(updateImageSetReturn)**
 
@@ -67,4 +66,3 @@ ht-degree: 18%
 ```java
 <updateImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
