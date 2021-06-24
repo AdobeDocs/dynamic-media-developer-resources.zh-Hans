@@ -2,16 +2,15 @@
 description: 返回特定公司的IPS设置。
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
-
 
 # getCompanySettings{#getcompanysettings}
 
@@ -19,7 +18,7 @@ ht-degree: 22%
 
 语法
 
-## 授权用户类型{#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 授权用户类型 {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,7 +33,7 @@ ht-degree: 22%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 是 | 要检索其设置的公司的句柄。 |
 
-**输出(getCompanySettingsReturn)**
+**Output(getCompanySettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -42,7 +41,7 @@ ht-degree: 22%
 
 ## 示例 {#section-191f78995ecf473a95eadf7296204fd7}
 
-此代码示例返回特定公司的所有IPS设置。
+此代码示例可返回特定公司的所有IPS设置。
 
 **请求**
 
@@ -79,4 +78,3 @@ ht-degree: 22%
    </settings>
 </getCompanySettingsReturn>
 ```
-
