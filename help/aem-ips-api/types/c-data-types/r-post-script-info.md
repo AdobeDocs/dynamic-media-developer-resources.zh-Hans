@@ -2,16 +2,15 @@
 description: PostScriptInfo
 solution: Experience Manager
 title: PostScriptInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9d226927-3b00-4e11-b279-e866aa649477
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 37%
+source-wordcount: '22'
+ht-degree: 40%
 
 ---
-
 
 # PostScriptInfo{#postscriptinfo}
 
@@ -24,4 +23,3 @@ ht-degree: 37%
 | `*`originalPath`*` | `xsd:string` | 文件路径。 |
 | `*`originalFile`*` | `xsd:string` | 文件名. |
 | `*`fileSize`*` | `xsd:int` | 文件大小. |
-
