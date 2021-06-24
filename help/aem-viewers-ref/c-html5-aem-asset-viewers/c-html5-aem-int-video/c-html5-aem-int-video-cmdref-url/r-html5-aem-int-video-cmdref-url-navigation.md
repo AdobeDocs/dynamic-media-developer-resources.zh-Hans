@@ -1,25 +1,24 @@
 ---
-description: 用于交互式视频查看器的URL命令。
+description: 交互式视频查看器的URL命令。
 solution: Experience Manager
 title: 导航
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
 
 # 导航{#navigation}
 
-用于交互式视频查看器的URL命令。
+交互式视频查看器的URL命令。
 
 ` navigation= *`文件`*`
 
-查看器通过托管WebVTT文件支持视频章节导航。 不支持提示定位运算符。
+查看器支持通过托管的WebVTT文件进行视频章节导航。 不支持提示定位运算符。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
