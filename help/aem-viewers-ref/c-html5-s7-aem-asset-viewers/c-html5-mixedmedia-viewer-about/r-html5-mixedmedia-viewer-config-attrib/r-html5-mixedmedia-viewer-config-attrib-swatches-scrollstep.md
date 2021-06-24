@@ -2,25 +2,24 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f6a1655-022f-4d49-b02f-7354da34553a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '41'
 ht-degree: 9%
 
 ---
 
-
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`StepvStep`*, *``*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 步骤</span> </span> </p> </td> 
    <td> <p>水平步骤。 </p> </td> 
   </tr> 
   <tr> 
@@ -30,7 +29,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-指定每次单击或点按相应的滚动按钮时要滚动的色板数。
+指定每次单击或点按相应滚动按钮时要滚动的样本数。
 
 ## 属性 {#section-65be9301796240e38f31818229da7acc}
 
