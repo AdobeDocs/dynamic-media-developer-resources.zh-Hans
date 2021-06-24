@@ -1,22 +1,21 @@
 ---
-description: 在嵌入的外部请求的花括号中出现的$var$引用将替换为匹配的变量定义值。
+description: 嵌入的外来请求的大括号内出现的$var$引用将被匹配的变量定义值替换。
 solution: Experience Manager
 title: 嵌入式外来请求中的变量处理
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-
 # 嵌入式外来请求中的变量处理{#variable-processing-in-embedded-foreign-requests}
 
-在嵌入的外部请求的花括号中出现的$var$引用将替换为匹配的变量定义值。
+嵌入的外来请求的大括号内出现的$var$引用将被匹配的变量定义值替换。
 
-这允许将嵌入的外来请求放置在图像目录中的模板中。
+这允许将嵌入的外来请求放置在图像目录的模板中。
 
-要替换为外部请求的变量值通常必须进行多次编码，因为在服务器尝试传输最终的外部url之前，不会应用重新编码。
+要替换为外来请求的变量值通常必须进行双重编码，因为在服务器尝试传输最终外来URL之前，不会应用重新编码。
