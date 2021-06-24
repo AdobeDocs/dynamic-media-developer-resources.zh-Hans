@@ -2,16 +2,15 @@
 description: 目录数据文件路径。 指定包含此目录的材料数据的文件。
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
-
 
 # CatalogFile{#catalogfile}
 
@@ -23,4 +22,4 @@ ht-degree: 2%
 
 ## 默认 {#section-7a1f82b4188e41a3915a78744cada9fb}
 
-空，表示此材料目录不包含任何材料数据。
+为空，表示此材料目录不包含任何材料数据。
