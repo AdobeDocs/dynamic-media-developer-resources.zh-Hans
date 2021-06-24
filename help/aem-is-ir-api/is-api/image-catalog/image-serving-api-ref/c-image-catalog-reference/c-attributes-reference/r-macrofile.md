@@ -1,19 +1,18 @@
 ---
 description: 宏定义文件路径。 指定包含此图像目录的宏定义的文件。
 solution: Experience Manager
-title: MacroFile
-feature: Dynamic Media Classic,SDK/API
+title: 宏文件
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 36ac95db-691b-4d11-b6ce-24860c9b194c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
 
-
-# MacroFile{#macrofile}
+# 宏文件{#macrofile}
 
 宏定义文件路径。 指定包含此图像目录的宏定义的文件。
 
@@ -23,7 +22,7 @@ ht-degree: 5%
 
 ## 默认 {#section-903de40cff734254aaf64c14258dc4a7}
 
-空，表示此图像目录没有专用宏定义。
+为空，表示此图像目录没有专用宏定义。
 
 ## 另请参阅 {#section-0d6179011b574922bc25e399fa73879d}
 
