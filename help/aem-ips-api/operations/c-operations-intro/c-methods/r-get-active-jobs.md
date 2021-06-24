@@ -1,25 +1,24 @@
 ---
-description: 获取所有当前活动的作业。
+description: 获取当前所有活动的作业。
 solution: Experience Manager
 title: getActiveJobs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
-
 # getActiveJobs{#getactivejobs}
 
-获取所有当前活动的作业。
+获取当前所有活动的作业。
 
 语法
 
-## 授权用户类型{#section-125557a6ea7b4fc894d4bb468cd02118}
+## 授权用户类型 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,19 +35,19 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的手柄。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作的处理。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 工作的把手。 |
 | `*`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
 
-**输出(getActiveJobsReturn)**
+**Output(getActiveJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | 是 | 活动作业的数组。 |
+| `*`jobArray`*` | `xsd:string` | 是 | 活动作业数组。 |
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，响应是不正常的，因为IPS调度协调器在没有运行活动作业的情况下被禁用。 在正常情况下，这种反应会返回一些活跃的工作。
+此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，响应异常，因为IPS调度协调器处于禁用状态，且未运行活动作业。 在正常情况下，响应将返回多个活动作业。
 
 **请求**
 
@@ -65,4 +64,3 @@ ht-degree: 15%
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
