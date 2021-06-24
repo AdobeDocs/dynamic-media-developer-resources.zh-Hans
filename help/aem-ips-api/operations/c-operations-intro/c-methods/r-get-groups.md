@@ -2,16 +2,15 @@
 description: 返回公司组。
 solution: Experience Manager
 title: getGroups
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 20%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
-
 
 # getGroups{#getgroups}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 授权用户类型 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,9 +30,9 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 
-**输出(getGroupsReturn)**
+**Output(getGroupsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -41,7 +40,7 @@ ht-degree: 20%
 
 ## 示例 {#section-ed0708f611574354bf0c6ea83912b531}
 
-此代码返回一个数组，其中包含属于特定公司的所有组以及每个组的特定信息。
+此代码会返回一个数组，其中包含属于某个特定公司的所有组以及有关每个组的特定信息。
 
 **请求**
 
@@ -63,4 +62,3 @@ ht-degree: 20%
    </groupArray>
 </getGroupsReturn>
 ```
-
