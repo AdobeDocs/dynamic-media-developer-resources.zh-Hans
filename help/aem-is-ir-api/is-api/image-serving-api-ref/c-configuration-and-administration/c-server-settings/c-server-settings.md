@@ -1,21 +1,20 @@
 ---
-description: 本节介绍所有可编辑的配置设置，这些设置按感兴趣的区域分组。
+description: 本节介绍所有可编辑的配置设置，这些设置按感兴趣区域分组。
 solution: Experience Manager
 title: 服务器设置
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
-
 # 服务器设置{#server-settings}
 
-本节介绍所有可编辑的配置设置，这些设置按感兴趣的区域分组。
+本节介绍所有可编辑的配置设置，这些设置按感兴趣区域分组。
 
 * [常规](r-general.md)
 * [内容数据文件夹](r-content-data-folders.md)
@@ -24,11 +23,11 @@ ht-degree: 5%
 * [图像目录服务](r-image-catalog-service.md)
 * [SSL](r-ssl.md)
 * [服务器](r-server-server-settings.md)
-* [访问日志](r-access-logging.md)
+* [访问日志记录](r-access-logging.md)
 * [Debug_trace日志记录](r-debug-trace-logging.md)
 * [错误重定向](r-error-redirection.md)
-* [缓存群集](r-cache-clustering.md)
-* [监视和警报系统](r-monitoring-and-alerting-system.md)
+* [缓存聚类](r-cache-clustering.md)
+* [监控和警报系统](r-monitoring-and-alerting-system.md)
 * [警报阈值](r-alert-thresholds.md)
 * [SVG](r-svg.md)
 * [媒体集响应](r-media-set-responses.md)
