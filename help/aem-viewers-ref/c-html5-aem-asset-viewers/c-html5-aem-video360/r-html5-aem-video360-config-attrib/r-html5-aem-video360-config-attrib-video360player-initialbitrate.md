@@ -2,13 +2,12 @@
 description: Video360查看器的配置属性。
 solution: Experience Manager
 title: Video360Player.initialbitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 6%
 
 ---
@@ -23,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 设置用于在桌面上初始播放视频的视频的视频比特率（以千位/秒或kbps为单位）。 </p> <p>如果自适应视频集中不存在此比特率值，则视频播放器将开始具有下一个比特率较低的视频。 </p> <p>如果设置为<span class="codeph"> 0</span>，则视频播放器会从最低比特率开始。 </p> <p>仅适用于不具有对HTML5 HLS视频（如Windows 10上的Firefox、Chrome和Internet Explorer 11浏览器）本机支持的系统，以及当播放模式设置为“自动”时。 </p> </td> 
+   <td colname="col2"> <p> 设置用于在桌面上初始播放视频的视频比特率（以kbits/秒或kbps为单位）。 </p> <p>如果自适应视频集中不存在此比特率值，则视频播放器将从具有下一个较低比特率的视频开始。 </p> <p>如果设置为<span class="codeph"> 0</span> ，则视频播放器会从最低的比特率开始。 </p> <p>仅适用于不支持HTML5 HLS视频的系统（例如Windows 10上的Firefox、Chrome和Internet Explorer 11浏览器），以及将播放模式设置为自动时。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
