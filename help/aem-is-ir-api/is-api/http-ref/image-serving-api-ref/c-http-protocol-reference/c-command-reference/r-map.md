@@ -1,58 +1,57 @@
 ---
-description: 图像映射数据。 提供此图层的图像映射数据。 覆盖此图层的目录映射中的所有数据。
+description: 图像映射数据。 提供此层的图像映射数据。 覆盖此层的目录映射中的任何数据。
 solution: Experience Manager
 title: 地图
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
 
-
 # 地图{#map}
 
-图像映射数据。 提供此图层的图像映射数据。 覆盖目录中的所有数据：：此图层的映射。
+图像映射数据。 提供此层的图像映射数据。 覆盖此层的目录：：映射中的任何数据。
 
-`map=[ *``*]mapA=[ *`字符串A`*]`
+`map=[ *``*]mapA=[ *`stringstringA`*]`
 
 <table id="simpletable_2E32B25D5F6246A18A8AF817903877ED"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 字符串</span></span> </p></td> 
-  <td class="stentry"> <p>图层坐标中此图层的图像映射数据。 </p></td> 
+  <td class="stentry"> <p>在层坐标中，此层的图像映射数据。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> stringA</span></span> </p></td> 
-  <td class="stentry"> <p>在源图像坐标中此图层的图像映射数据。 </p></td> 
+  <td class="stentry"> <p>在源图像坐标中，此层的图像映射数据。 </p></td> 
  </tr> 
 </table>
 
-空字符串表示此图层不应提供图像映射。 字符串必须正确进行HTTP编码，以避免出现解析问题。
+空字符串表示此层不应提供图像映射。 字符串必须正确进行HTTP编码，以避免解析问题。
 
-*`string`*&#x200B;中出现的所有和符(&amp;)字符都必须进行http编码。
+*`string`*&#x200B;中出现的所有与号(&amp;)字符都必须进行http编码。
 
-当`mapA=`和`catalog::Map`在源图像坐标中指定映射数据时，`map=`假定图层坐标相对于图层矩形的左上角（在应用`rotate=`和`extend=`之后）。
+当`mapA=`和`catalog::Map`在源图像坐标中指定映射数据时，`map=`假定层坐标相对于层矩形的上、左角（在`rotate=`和`extend=`应用之后）。
 
-输出图像映射始终被剪切到图层矩形。 如果省略`shape`属性或将其设置为`default`，则整个图层矩形将用作图像映射区域。
+输出图像映射始终被剪切到图层矩形。 如果忽略`shape`属性或将其设置为`default`，则整个层矩形将用作图像映射区域。
 
 ## 属性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-图层属性。 应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射之后。 除非`req=map`，否则忽略。 被效果图层忽略。 `mapA=` 如果也指 `map=` 定，则忽略。
+层属性。 当应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射的后面。 忽略，除非`req=map`。 被效果层忽略。 `mapA=` 如果同时指 `map=` 定，则忽略。
 
 ## 默认 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-`catalog::Map` ，如果未 `map=` 指定，则使用。
+`catalog::Map` 未指定时 `map=` 使用。
 
 ## 示例 {#section-cd7691c94f984222845c86dcb0051ce8}
 
-为简单文本图层定义矩形图像映射：
+为简单文本层定义矩形图像映射：
 
 `…&layer=1&text=Scene7&map=<area%20alt=Scene7%20href=www.scene7.com>&…`
 
-`AREA`元素（大部分）用于插入整个图层矩形的映射区域。
+具有（大部分）默认属性的`AREA`元素用于插入整个层矩形的映射区域。
 
 ## 另请参阅 {#section-bc1d946fdf4b47bf9742a986800aa9b5}
 
