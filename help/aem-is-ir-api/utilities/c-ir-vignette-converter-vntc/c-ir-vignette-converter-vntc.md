@@ -1,17 +1,16 @@
 ---
-description: 晕影转换器
+description: 晕影转换器(vntc)
 solution: Experience Manager
-title: 晕影转换器
-feature: Dynamic Media Classic,SDK/API
+title: 晕影转换器(vntc)
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dfcd031b-cbaa-4377-af9e-569c1017d592
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 2%
+source-wordcount: '31'
+ht-degree: 3%
 
 ---
-
 
 # 晕影转换器(vntc){#vignette-converter-vntc}
 
@@ -21,5 +20,5 @@ ht-degree: 2%
 * [常用选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
 * [晕影选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-vignettes.md)
 * [文件柜样式文件的选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
-* [退货](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
+* [返回结果](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
 * [输出](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
