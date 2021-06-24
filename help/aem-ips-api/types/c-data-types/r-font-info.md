@@ -2,16 +2,15 @@
 description: 字体资产属性。
 solution: Experience Manager
 title: FontInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 24%
+source-wordcount: '27'
+ht-degree: 25%
 
 ---
-
 
 # FontInfo{#fontinfo}
 
@@ -26,4 +25,3 @@ ht-degree: 24%
 | `*`originalPath`*` | `xsd:string` | 字体路径。 |
 | `*`originalFile`*` | `xsd:string` | 字体名称。 |
 | `*`fileSize`*` | `xsd:int` | 字体大小. |
-
