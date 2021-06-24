@@ -1,42 +1,41 @@
 ---
-description: 选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
+description: 选择“效果图层”。 选择一个效果层，并在请求字符串中启动与当前层关联的新层段。
 solution: Experience Manager
 title: 效果
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 3%
 
 ---
 
+# 效果{#effect}
 
-# effect{#effect}
-
-选择“效果图层”。 选择效果图层并开始请求字符串中与当前图层关联的新图层段。
+选择“效果图层”。 选择一个效果层，并在请求字符串中启动与当前层关联的新层段。
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>效果图层编号（int不等于0）。 </p></td> 
+  <td class="stentry"> <p>效果图层编号（整数不等于0）。 </p></td> 
  </tr> 
 </table>
 
-新段内的所有命令将应用于指定的效果图层。 效果层段由下一个`layer=`或`effect=`命令终止，或由请求结束终止。
+新段内的所有命令都应用于指定的效果层。 效果层段由下一个`layer=`或`effect=`命令或请求结束终止。
 
 *`n`* 对于外层效果（即父层后的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。效果图层编号不必是连续的。
 
-效果图层编号指定z顺序（如果同一父图层有多个效果图层）。 编号较高的图层放置在编号较低的图层上方。
+当同一父层有多个效果层时，效果层编号会指定z顺序。 较高编号的图层放置在较低编号的图层的顶部。
 
 效果层可附加到`layer=comp`。
 
 ## 属性 {#section-e11f795deff345779ce280a82cf221ca}
 
-效果图层命令。 *`n`* 不得为0。
+效果层命令。 *`n`* 不得为0。
 
 ## 默认 {#section-84bbe1cfe7a94040827c994323ac59d4}
 
