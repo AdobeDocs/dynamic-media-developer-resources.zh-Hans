@@ -2,16 +2,15 @@
 description: 获取图像集中的成员数组。
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic，SDK/API，图像集
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
-
 
 # getImageSetMembers{#getimagesetmembers}
 
@@ -19,7 +18,7 @@ ht-degree: 15%
 
 语法
 
-## 授权用户类型{#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 授权用户类型 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 图像集资产句柄。 |
 
 **输出(getImageSetMembersReturn)**
@@ -51,7 +50,7 @@ ht-degree: 15%
 
 ## 示例 {#section-888a9a78033346f39b171229de93dfa0}
 
-此代码示例返回特定图像集成员。 响应返回空数组。
+此代码示例返回特定的图像集成员。 响应返回一个空数组。
 
 **请求**
 
@@ -69,4 +68,3 @@ ht-degree: 15%
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
