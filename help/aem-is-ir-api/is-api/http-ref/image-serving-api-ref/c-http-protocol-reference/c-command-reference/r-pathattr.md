@@ -2,16 +2,15 @@
 description: 路径上的文本属性。
 solution: Experience Manager
 title: pathAttr
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # pathAttr{#pathattr}
 
@@ -26,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>文本开始在路径上的位置（实数0.0...1.0）。 </p> </td> 
+  <td class="stentry"> <p>路径上的文本开始位置（实数0.0..1.0）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
@@ -34,15 +33,15 @@ ht-degree: 3%
  </tr> 
 </table>
 
-指定`norm`以在第一个路径顶点附近开始绘制文本，指定`reverse`以在相反的方向（从最后一个顶点附近开始）绘制文本。
+指定`norm`从第一个路径顶点附近开始绘制文本，指定`reverse`从最后一个顶点附近开始沿相反方向绘制文本。
 
-*`startPos`* 并 *`endPos`* 允许调整将绘制文本的路径位置。0.0对应路径中第一个顶点，1.0对应最后一个顶点；中间值表示沿第一顶点和最后一个顶点之间的路径的距离。
+*`startPos`* 和 *`endPos`* 允许调整将绘制文本的路径上的位置。0.0对应于路径中的第一个顶点，1.0对应于最后一个顶点；中间值表示沿路径在第一个顶点和最后一个顶点之间的距离。
 
 ## 属性 {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-图层属性。 如果图层不包含`textPs=`和`textPath=`命令，则忽略。
+层属性。 如果层不包含`textPs=`和`textPath=`命令，则忽略。
 
-*`startPos`* 必须大于或等于0且小于1.0。当应 *`endPos`* 用于 *`startPos`* 开放路径时，必须大于或等于1.0，或者当应用于闭合路径时， *`startPos`* 必须小于或等于(+ 1.0)。
+*`startPos`* 必须大于或等于0且小于1.0。当应 *`endPos`* 用于开 *`startPos`* 放路径时，必须大于或等于1.0，或者当应用于闭合路径时，必须小于或等于( *`startPos`* + 1.0)。
 
 ## 默认 {#section-3e757970885c45e7b6100e78dc08626f}
 
