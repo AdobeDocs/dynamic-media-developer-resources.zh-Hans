@@ -1,29 +1,28 @@
 ---
-description: 当应用于预定大小的图层时（即当也指定了size=时），text= renderer将放置与textPs= renderer基本不同的文本。
+description: 当应用于预定大小的图层时（即，当还指定了size=时），text=渲染器会放置与textPs=渲染器截然不同的文本。
 solution: Experience Manager
 title: 文本定位
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 092444bf-9964-4d97-b06e-3add033da284
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-
 # 文本定位{#text-positioning}
 
-当应用于预定大小的图层时（即当也指定了size=时），text= renderer将放置与textPs= renderer基本不同的文本。
+当应用于预定大小的图层时（即，当还指定了size=时），text=渲染器会放置与textPs=渲染器截然不同的文本。
 
-自定大小`text=`和`textPs=`图层的外观和位置相似。
+自调整`text=`和`textPs=`层的外观和位置相似。
 
-`textPs=` 将字符单元格的顶部与文本框的顶部对齐(假定 `\vertalt`)，即使这会导致部分渲染的文本字形部分扩展到文本框边界之外。某些字体的渲染字形也可能略微突出到文本框的左右边缘之外。 对于要求图层矩形中包含所有渲染文本的应用程序，可以使用RTF `\marg*`命令或`textFlowPath=`来调整文本渲染区域。
+`textPs=` 将字符单元格的顶部与文本框的顶部对齐(假设为 `\vertalt`)，即使这会导致部分渲染的文本字形在文本框边界之外部分扩展。某些字体的已渲染字形也可能略微突出文本框的左右边缘。 对于要求在图层矩形中包含所有渲染文本的应用程序，可使用RTF `\marg*`命令或`textFlowPath=`来调整文本渲染区域。
 
-相反，`text=`将根据需要移动渲染的文本，并确保所有渲染的字形完全适合指定的文本框。
+相反， `text=`将根据需要移动渲染的文本，并确保所有渲染的字形完全适合指定的文本框。
 
-`text=`对于简单的应用程序而言可能略为简单，但`textPs=`优惠可独立于字体和文本效果实现精确定位。
+虽然`text=`对于简单的应用程序可能略为简单，但`textPs=`提供与字体和文本效果无关的精确定位。
 
 ## 示例 {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
@@ -35,31 +34,31 @@ ht-degree: 0%
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=`将文本与文本框的顶部紧密对齐，这可能导致轻微的裁切，即使对于Arial等常见字体也是如此：**
+** `textPs=`呈现的文本与文本框顶部紧密对齐，这可能会导致轻微剪切，即使对于常见的字体（如Arial）也是如此：**
 
 ![](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=`将自动将渲染的文本向下移位以避免剪切：**
+** `text=`将自动下移呈现的文本以避免剪切：**
 
 ![](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=`不会移动包含凸起部分的文本，如果文本位于图层0上，则会导致显着剪切：**
+** `textPs=`不会移动包含凸起部分的文本，如果文本位于图层0:**上，则会导致显着剪切
 
 ![](assets/tp04.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
-**顶部的10点(200 twips)边距可呈现此文本，而无需剪切：**
+**顶部的10 pt(200 twips)边距可在不进行剪切的情况下呈现此文本：**
 
 ![](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
-**某些脚本字体的呈现字形可能会显着扩展到文本框之外：**
+**某些脚本字体的呈现字形可能会显着扩展到文本框外部：**
 
 ![](assets/tp06.png)
 
