@@ -2,24 +2,23 @@
 description: 视频查看器的配置属性。
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
 视频查看器的配置属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽`*, *``*[,0|1][; *``*, *`高双高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-在“嵌入共享模式”对话框中，为“大小”组合框指定嵌入大小列表。
+在“嵌入共享”模式对话框中，为“大小”组合框指定嵌入大小列表。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -33,7 +32,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否应在组合框中预先选择此列表项。 </p> </td> 
+   <td colname="col2"> <p> 指定是否应在组合框中最初预选此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,4 +50,3 @@ ht-degree: 10%
 ```
 embedsizes=800,600;640,480,1
 ```
-
