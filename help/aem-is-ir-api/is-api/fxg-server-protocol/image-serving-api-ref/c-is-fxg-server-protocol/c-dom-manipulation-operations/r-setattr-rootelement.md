@@ -2,16 +2,15 @@
 description: 将属性设置为FXG根元素。
 solution: Experience Manager
 title: setAttr.rootElement
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
-
 
 # setAttr.rootElement{#setattr-rootelement}
 
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
-此命令可以操作根元素的属性。
+此命令可以处理根元素的属性。
 
 ## 示例 {#section-2758a6e316c34b99b13b02147e5973bb}
 
