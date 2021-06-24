@@ -1,21 +1,20 @@
 ---
-description: 链接共享工具由添加到“社交共享”面板的按钮和激活工具时显示的模态对话框组成。 按钮的位置完全由社交共享工具管理。
+description: 链接共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
 title: 链接共享
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
 
 # 链接共享{#link-share}
 
-链接共享工具由添加到“社交共享”面板的按钮和激活工具时显示的模态对话框组成。 按钮的位置完全由社交共享工具管理。
+链接共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 
 <!--RICK - Edit to distinguish from previous -->
 
@@ -43,20 +42,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-通过设置Social共享面板的CSS类上的`display:none` CSS属性，可以从该面板中删除该按钮。
+可以通过在Social共享面板的CSS类中设置`display:none` CSS属性，从该面板中删除该按钮。
 
-按钮工具提示可以本地化。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+按钮工具提示可进行本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-示例 — 设置一个28 x 28像素的链接共享按钮，并针对四个不同按钮状态中的每个状态显示不同的图像：
+示例 — 要设置一个28 x 28像素的链接共享按钮，并针对四个不同按钮状态中的每个状态显示一个不同的图像：
 
 ```
 .s7video360viewer .s7linkshare { 
@@ -77,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制当对话框处于活动状态时覆盖网页的背景叠加：
+使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -88,17 +87,17 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明  </span> </p> </td> 
-   <td colname="col2"> <p>背景叠加不透明度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
+   <td colname="col2"> <p>背景叠加的不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>背景叠加颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col2"> <p>背景叠加图的颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 将背景叠加设置为灰色，不透明度为70%:
+**示例**  — 要将背景叠加设置为灰色，且不透明度为70%，请执行以下操作：
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay { 
@@ -107,7 +106,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-默认情况下，模态对话框显示在桌面系统的屏幕中心位置，并在触控设备上占据整个网页区域。 在所有情况下，对话框的定位和大小都由组件管理。 使用以下CSS类选择器控制对话框：
+默认情况下，模态对话框以桌面系统屏幕的中心位置显示，并在触屏设备上占据整个网页区域。 在所有情况下，对话框的定位和大小调整均由组件进行管理。 使用以下CSS类选择器控制该对话框：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialog
@@ -118,25 +117,25 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> 对话框边框半径，以防对话框不占用整个浏览器。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框半径  </span> </p> </td> 
+   <td colname="col2"> <p> 对话框边框半径，以防对话框占用整个浏览器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>对话框背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
-   <td colname="col2"> <p>应取消设置或设置为100%，在这种情况下，对话框将进入整个浏览器窗口（在触控设备上首选此模式）。 </p> </td> 
+   <td colname="col2"> <p>应为未设置或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（在触屏设备上首选此模式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
-   <td colname="col2"> <p>应取消设置或设置为100%，在这种情况下，对话框将进入整个浏览器窗口（在触控设备上首选此模式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p>应为未设置或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（在触屏设备上首选此模式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置对话框以使用整个浏览器窗口并在触控设备上显示白色背景：
+**示例**  — 要设置对话框以使用整个浏览器窗口并在触屏设备上显示白色背景，请执行以下操作：
 
 ```
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
@@ -146,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框标题由图标、标题文本和关闭按钮组成。 标题容器通过以下CSS类选择器进行控制：
+对话框标题由图标、标题文本和关闭按钮组成。 通过以下CSS类选择器控制标头容器：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader
@@ -158,12 +157,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标题内容的内填充。 </p> </td> 
+   <td colname="col2"> <p> 标题内容的内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-图标和标题文本将打包到其他容器中，并由以下CSS类选择器控制：
+该图标和标题文本将封装在通过以下CSS类选择器控制的其他容器中：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -175,12 +174,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标题图标和标题的内填充 </p> </td> 
+   <td colname="col2"> <p> 标题图标和标题的内边距 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标题图标通过以下CSS类选择器进行控制
+通过以下CSS类选择器控制标题图标
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheadericon
@@ -195,7 +194,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -204,12 +203,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标题通过以下CSS类选择器进行控制：
+通过以下CSS类选择器控制标题：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheadertext
@@ -220,20 +219,20 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部文本填充。 </p> </td> 
+   <td colname="col2"> <p>内部文本内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -261,31 +260,31 @@ background-color: #ffffff;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>按钮的内填充。 </p> </td> 
+   <td colname="col2"> <p>按钮的内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
+   <td colname="col2"> <p>按钮图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-可以本地化“关闭”按钮工具提示和对话框标题。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+“关闭”按钮工具提示和对话框标题可以本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例**  — 设置一个对话框标题，其中包含填充、22 x 12像素图标、粗体16点标题和28 x 28像素的“关闭”按钮，该按钮距对话框容器的顶部和右侧分别放置两个像素和两个像素：
+**示例**  — 要设置一个对话框标题，其中包含内边距、22 x 12像素图标、粗体16点标题和一个28 x 28像素的“关闭”按钮，该按钮位于距离对话框容器顶部两个像素和距离对话框容器右侧两个像素的位置：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -325,7 +324,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框的页脚包含一个“取消”按钮。 页脚容器由以下CSS类选择器控制：
+对话框页脚由“取消”按钮组成。 使用以下CSS类选择器控制页脚容器：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter
@@ -342,7 +341,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-页脚具有保留按钮的内部容器。 它通过以下CSS类选择器控制：
+页脚具有用于保留按钮的内部容器。 它通过以下CSS类选择器进行控制：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
@@ -354,12 +353,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 页脚和按钮之间的内填充。 </p> </td> 
+   <td colname="col2"> <p> 页脚和按钮之间的内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用以下CSS类选择器控制“全选”按钮：
+“全选”按钮通过以下CSS类选择器进行控制：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogactionbutton
@@ -376,7 +375,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -384,7 +383,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -392,7 +391,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->“全选”按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>“全选”按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
 使用以下CSS类选择器控制“取消”按钮：
 
@@ -400,7 +399,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogcancelbutton
 ```
 
-**对话框的“取消”按钮的CSS属性**
+**对话框的CSS属性取消按钮**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -409,7 +408,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -417,7 +416,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -425,9 +424,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-此外，两个按钮共享相同的通用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
+此外，两个按钮共享相同的常用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -438,15 +437,15 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>按钮字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>按钮字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -454,19 +453,19 @@ background-color: #ffffff;
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框 — 阴影  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框阴影  </span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距右侧  </span> </p> </td> 
    <td colname="col2"> <p>右按钮边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化按钮工具提示。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+可以对按钮工具提示进行本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例**  — 要设置一个对话框页脚，并设置一个64 x 34 &quot;取消&quot;按钮，其文本颜色和背景颜色对于每个按钮状态都不同：
+**示例**  — 要设置一个具有64 x 34取消按钮的对话框页脚，该对话框页脚的文本颜色和背景颜色因每个按钮状态而异：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
@@ -526,7 +525,7 @@ background-color: #ffffff;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，组件都管理此区域的宽度 — 无法在CSS中设置它。 使用以下CSS类选择器控制主对话框区域：
+主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，组件都会管理此区域的宽度，因为无法在CSS中设置它。 主对话框区域通过以下CSS类选择器进行控制：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea
@@ -537,11 +536,11 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高  </span> </p> </td> 
-   <td colname="col2"> <p> 主对话框区域的高度。 应仅在对话框在桌面模式下工作时才指定它。 当该对话框的大小调整为占用整个浏览器窗口时，它不适用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col2"> <p> 主对话框区域的高度。 仅当对话框在桌面模式下工作时才应指定该对话框。 当调整对话框的大小以占用整个浏览器窗口时，它不适用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -551,7 +550,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**示例**  — 要将主对话框区域设置为300像素高、边距为10像素并使用白色背景：
+**示例**  — 要将主对话框区域设置为300像素高，具有10像素边距，并使用白色背景：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
@@ -561,24 +560,24 @@ background-color: #ffffff;
 }
 ```
 
-所有表单内容（如标签和输入字段）都驻留在由以下CSS类选择器控制的容器中：
+所有表单内容（如标签和输入字段）都位于通过以下CSS类选择器控制的容器内：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**对话框正文的CSS属性**
+**对话框主体的CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内填充。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 将表单内容设置为10像素填充：
+**示例**  — 将表单内容设置为具有10像素内边距：
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -586,29 +585,29 @@ background-color: #ffffff;
 }
 ```
 
-对话框表单中的所有静态标签都由
+对话框表单中的所有静态标签均使用
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel
 ```
 
-此类不适于控制标签大小或位置，因为您可以将它应用于表单用户界面不同位置的文本。
+此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面中不同位置的文本。
 
 **对话框标签的CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体权重  </span> </p> </td> 
-   <td colname="col2"> <p>标签字体权重。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col2"> <p>标签字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>标签字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col2"> <p>标记字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 颜色  </span> </p> </td> 
@@ -617,9 +616,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-可以本地化对话框标签。 请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
+可以对对话框标签进行本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例**  — 将所有标签设置为灰色，粗体为9像素字体：
+**示例**  — 将所有标签设置为灰色，以9像素字体显示粗体：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
@@ -629,7 +628,7 @@ background-color: #ffffff;
 }
 ```
 
-使用以下CSS类选择器控制链接顶部显示的文本副本的大小：
+使用以下CSS类选择器控制链接顶部显示的文本副本大小：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputwide
@@ -645,12 +644,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内填充。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 将文本副本设置为430像素宽，并在底部填充10像素：
+**示例**  — 要将文本副本设置为430像素宽，并且底部的内边距为10像素：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
@@ -659,7 +658,7 @@ background-color: #ffffff;
 }
 ```
 
-共享链接包装在容器中，并使用以下CSS类选择器进行控制：
+共享链接封装在容器中，并使用以下CSS类选择器进行控制：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
@@ -675,12 +674,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内填充。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 在嵌入代码文本周围设置一个像素灰色边框，并且填充有九个像素：
+**示例**  — 要在嵌入代码文本周围设置一个像素灰色边框，并且边距为9像素：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
