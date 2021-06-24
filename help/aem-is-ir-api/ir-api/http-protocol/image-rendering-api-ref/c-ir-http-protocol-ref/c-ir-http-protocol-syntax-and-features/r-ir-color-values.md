@@ -1,37 +1,36 @@
 ---
-description: 可以使用小数列表、逗号分隔的组件值或十六进制表示法（与HTML类似）来指定color=和bgc=属性的颜色值。
+description: color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列表或十六进制表示法（与HTML类似）来指定。
 solution: Experience Manager
 title: 颜色值
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 11%
+source-wordcount: '124'
+ht-degree: 12%
 
 ---
 
-
 # 颜色值{#color-values}
 
-可以使用小数列表、逗号分隔的组件值或十六进制表示法（与HTML类似）来指定color=和bgc=属性的颜色值。
+color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列表或十六进制表示法（与HTML类似）来指定。
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{ {red， green， blue} |灰色} | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {red , green , blue} |灰色} | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>红色、绿色、蓝色、灰色</i> </p></td> 
-  <td class="stentry"> <p>颜色分量值（0...255，十进制整数）。 </p></td> 
+  <td class="stentry"> <p>颜色组件值（0...255，小数整数）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>六六</i> </p></td> 
-  <td class="stentry"> <p>已打包六位数的十六进制RGB颜色值(RRGGBB)。 </p></td> 
+  <td class="stentry"> <p><i>十六进制6</i> </p></td> 
+  <td class="stentry"> <p>已打包六位十六进制RGB颜色值(RRGGBB)。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>hex2</i> </p></td> 
+  <td class="stentry"> <p><i>十六进制2</i> </p></td> 
   <td class="stentry"> <p>已打包两位十六进制灰色值(0...FF)。 </p></td> 
  </tr> 
 </table>
@@ -61,4 +60,4 @@ ht-degree: 11%
 
 ## 另请参阅 {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [ grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0),  [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
