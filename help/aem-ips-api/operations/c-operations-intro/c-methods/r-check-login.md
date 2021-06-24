@@ -1,27 +1,26 @@
 ---
-description: 检查具有特定公司（通过句柄标识）、电子邮件地址和密码的用户是否可以登录。
+description: 检查具有特定公司（由句柄标识）、电子邮件地址和密码的用户是否可以登录。
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 12%
 
 ---
 
-
 # checkLogin{#checklogin}
 
-检查具有特定公司（通过句柄标识）、电子邮件地址和密码的用户是否可以登录。
+检查具有特定公司（由句柄标识）、电子邮件地址和密码的用户是否可以登录。
 
 >[!NOTE]
 >
->如果省略公司句柄，此方法将检查默认用户的登录名。
+>如果忽略公司句柄，此方法将检查默认用户的登录。
 
-## 授权用户类型{#section-df8b26b550854f899948276adaca083a}
+## 授权用户类型 {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 12%
 
 ## 参数 {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**Input(checkLoginParam)**
+**输入(checkLoginParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -51,7 +50,7 @@ ht-degree: 12%
 
 ## 示例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录IPS。 如果用户&#x200B;*可以*&#x200B;登录，则此方法返回字符串`ValidLogin`。 如果用户&#x200B;*无法*&#x200B;登录，则此方法返回字符串`InvalidLogin`。
+此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录到IPS。 如果用户&#x200B;*可以*&#x200B;登录，此方法将返回字符串`ValidLogin`。 如果用户&#x200B;*无法*&#x200B;登录，此方法将返回字符串`InvalidLogin`。
 
 **请求**
 
@@ -70,4 +69,3 @@ ht-degree: 12%
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
