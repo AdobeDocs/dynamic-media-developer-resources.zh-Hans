@@ -1,21 +1,20 @@
 ---
-description: 定义标记字段的搜索条件。
+description: 为标记字段定义搜索条件。
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 7%
 
 ---
 
-
 # TagCondition{#tagcondition}
 
-定义标记字段的搜索条件。
+为标记字段定义搜索条件。
 
 语法
 
@@ -38,11 +37,11 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">取决于标记字段类型以及是否使用value或valueArray字段。 
+   <td colname="col3">取决于标记字段类型以及是使用value或valueArray字段。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果传递了<span class="codeph">值</span>，则<span class="codeph"> op</span>必须是字符串常数Matches。 该条件匹配与标记值关联的任何资产。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果传递了<span class="codeph"> valueArray</span>，则op字段可以是单个或多值标记字段的常量<span class="codeph"> MatchesAny</span>。 <span class="codeph"> MatchesAny</span>条件匹配与<span class="codeph"> valueArray</span>中至少一个标记值关联的任何资产。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，op字段可设置为具有<span class="codeph"> valueArray</span>字段的常量<span class="codeph"> MatchesAll</span>。 在这种情况下，该条件仅匹配与<span class="codeph"> valueArray</span>中所有标记值（可能还有其他标记值）关联的资产。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果传递了<span class="codeph">值</span>，则<span class="codeph"> op</span>必须是字符串常量Matches。 该条件匹配与标记值关联的任何资产。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果传递了<span class="codeph"> valueArray</span>，则op字段可以是常量<span class="codeph"> MatchesAny</span>，用于单个或多值标记字段。 <span class="codeph">匹配Any</span>条件匹配与<span class="codeph"> valueArray</span>中至少一个标记值相关联的任何资产。 </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，op字段可设置为具有<span class="codeph"> valueArray</span>字段的常量<span class="codeph"> MatchesAll</span>。 在这种情况下，条件仅匹配与<span class="codeph"> valueArray</span>中的所有标记值（可能是除其他标记值之外）关联的资产。 </li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -57,4 +56,3 @@ ht-degree: 7%
   </tr> 
  </tbody> 
 </table>
-
