@@ -1,21 +1,20 @@
 ---
-description: 一组CompanyMetadataInfo元素。
+description: CompanyMetadataInfo元素的数组。
 solution: Experience Manager
 title: CompanyMetadataInfoArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-
 # CompanyMetadataInfoArray{#companymetadatainfoarray}
 
-一组CompanyMetadataInfo元素。
+CompanyMetadataInfo元素的数组。
 
 语法
 
@@ -25,4 +24,3 @@ ht-degree: 17%
 |---|---|---|
 | `*`代码短语`*` | `Code Phrase` |  |
 | `*`代码短语`*` | `Code Phrase` |  |
-
