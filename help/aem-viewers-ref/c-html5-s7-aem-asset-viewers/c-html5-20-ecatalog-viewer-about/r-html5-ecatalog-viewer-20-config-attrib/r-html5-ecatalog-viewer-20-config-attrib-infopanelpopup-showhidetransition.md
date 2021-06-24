@@ -2,16 +2,15 @@
 description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
 title: InfoPanelPopup.showhidetransition
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
-
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
@@ -20,7 +19,7 @@ ht-degree: 15%
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 淡入</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 淡入|无</span> </p> </td> 
    <td colname="col2"> <p> 指定信息面板显示/隐藏动画的类型。 </p> </td> 
   </tr> 
   <tr> 
