@@ -2,22 +2,21 @@
 description: 返回有关公司结构（文件数等）的信息。
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 13%
 
 ---
-
 
 # getDiskUsage{#getdiskusage}
 
 返回有关公司结构（文件数等）的信息。
 
-## 授权用户类型{#authorized-user-types}
+## 授权用户类型 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁盘使用的阵列。 |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁盘使用阵列。 |
 
 ## 示例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-此请求的名称具有误导性。 它不仅返回反映公司使用的磁盘空间的标量值，还获取有关公司结构的其他信息。
+此请求的名称具有误导性。 它不仅返回一个反映公司使用的磁盘空间的标量值，而是获取有关公司结构的其他信息。
 
 **请求**
 
@@ -65,4 +64,3 @@ ht-degree: 13%
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
