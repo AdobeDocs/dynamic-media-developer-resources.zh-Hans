@@ -1,19 +1,18 @@
 ---
 description: getPhotoshopPath操作返回的图像位置坐标。
 solution: Experience Manager
-title: 透视四
-feature: Dynamic Media Classic,SDK/API
+title: 透视四轴
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
-
-# PerspectiveQuad{#perspectivequad}
+# 透视四轴{#perspectivequad}
 
 getPhotoshopPath操作返回的图像位置坐标。
 
@@ -24,13 +23,13 @@ getPhotoshopPath操作返回的图像位置坐标。
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`x0`*` | `xsd:double` | 左上x轴坐标。 |
-| `*`y0`*` | `xsd:double` | 左上Y轴坐标。 |
+| `*`y0`*` | `xsd:double` | 左上y轴坐标。 |
 | `*`x1`*` | `xsd:double` | 右上x轴坐标。 |
 | `*`y1`*` | `xsd:double` | 右上y轴坐标。 |
 | `*`x2`*` | `xsd:double` | 右下x轴坐标。 |
-| `*`y2`*` | `xsd:double` | 右下Y轴坐标。 |
-| `*`x3`*` | `xsd:double` | 左下X轴坐标。 |
-| `*`y3`*` | `xsd:double` | 左下Y轴坐标。 |
+| `*`y2`*` | `xsd:double` | 右下y轴坐标。 |
+| `*`x3`*` | `xsd:double` | 左下x轴坐标。 |
+| `*`y3`*` | `xsd:double` | 左下y轴坐标。 |
 
 ## 示例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
