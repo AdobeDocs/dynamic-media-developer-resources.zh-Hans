@@ -1,25 +1,24 @@
 ---
-description: 从选定资产中删除权限。
+description: 删除选定资产的权限。
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
 
-
 # removeAssetPermissions{#removeassetpermissions}
 
-从选定资产中删除权限。
+删除选定资产的权限。
 
 语法
 
-## 授权用户类型{#section-239058fdb4454e519ac327e621cb3abc}
+## 授权用户类型 {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,12 +30,12 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 您要删除的具有权限的资产的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 具有您要删除的权限的资产的句柄。 |
 
-**输出(removeAssetPermissionsReturn)**
+**Output(removeAssetPermissionsReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
