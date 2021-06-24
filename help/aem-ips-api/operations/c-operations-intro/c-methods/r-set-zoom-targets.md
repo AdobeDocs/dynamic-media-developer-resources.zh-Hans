@@ -2,16 +2,15 @@
 description: 设置与资产图像关联的缩放目标。 它会覆盖现有缩放目标。
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 13%
 
 ---
-
 
 # setZoomTargets{#setzoomtargets}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 语法
 
-## 已授权的用户类型{#section-c5e1863e9cb1426591bfea513620b6ab}
+## 授权的用户类型 {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 具有要设置的缩放目标的资产。 |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 是 | 缩放目标定义的数组。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
+| `*`assetHandle`*` | `xsd:string` | 是 | 包含要设置的缩放目标的资产。 |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 是 | 缩放目标定义数组。 |
 
-**输出(setZoomTargetsReturn)**
+**Output(setZoomTargetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 此操作创建的缩放目标的手柄集。 |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 是 | 此操作创建的缩放目标的控制滑块集。 |
 
 ## 示例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-此代码示例按名称、位置（x和y轴）、宽度、高度定义一组缩放目标，并将该数组分配给资产。 响应包含对新创建的缩放目标的句柄。
+此代码示例按名称、位置（x和y轴）、宽度、高度定义一个缩放目标数组，并将该数组分配给资产。 响应包含新创建缩放目标的句柄。
 
 **请求**
 
@@ -83,4 +82,3 @@ ht-degree: 13%
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
