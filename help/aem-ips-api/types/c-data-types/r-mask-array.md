@@ -1,21 +1,20 @@
 ---
-description: 一组蒙版。
+description: 一组掩码。
 solution: Experience Manager
 title: MaskArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a0539a30-051c-4442-abae-99588bdfff10
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '24'
+ht-degree: 25%
 
 ---
 
-
 # MaskArray{#maskarray}
 
-一组蒙版。
+一组掩码。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 23%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:Mask` | 蒙版数组。 |
-
+| `*`项目`*` | `types:Mask` | 掩码阵列。 |
