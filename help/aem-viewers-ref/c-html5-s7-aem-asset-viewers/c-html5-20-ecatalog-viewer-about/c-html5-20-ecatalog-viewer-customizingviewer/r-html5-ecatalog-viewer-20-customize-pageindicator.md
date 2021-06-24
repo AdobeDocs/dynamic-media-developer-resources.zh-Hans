@@ -1,23 +1,22 @@
 ---
-description: 页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
+description: 页面指示器显示当前页面索引和页面总计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它被添加到辅助控制栏中。 页面指示器可以通过CSS进行大小、外观和定位。
 solution: Experience Manager
 title: 页面指示器
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c63af583-274c-4052-8186-604119a368af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '261'
 ht-degree: 4%
 
 ---
 
-
 # 页面指示器{#page-indicator}
 
-页面指示器显示当前页面索引和总页数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它添加到辅助控制栏。 页面指示器可以通过CSS进行大小调整、外观设置和定位。
+页面指示器显示当前页面索引和页面总计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它被添加到辅助控制栏中。 页面指示器可以通过CSS进行大小、外观和定位。
 
-页面指示符的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制页面指示器的外观：
 
 `.s7ecatalogviewer .s7pageindicator`
 
@@ -31,19 +30,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的上边框进行定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的上边框的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的右边框中定位，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的右边框的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的左边框中的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的左边框的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的底边框中的位置，包括边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在台式机系统和平板电脑上）或辅助控制栏（在手机上）的下边框的位置，包括边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -58,7 +57,7 @@ ht-degree: 4%
    <td colname="col2"> <p>字体颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +67,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-示例 — 设置一个56 x 28像素的页面指示器，水平居中并位于距主控件条底部4像素的位置，然后使用14像素的Helvetica字体。
+示例 — 设置一个56 x 28像素的页面指示器，水平居中并距主控制栏底部4像素，并使用14像素Helvetica字体。
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 
@@ -82,4 +81,3 @@ ht-degree: 4%
  font-size:14px; 
 }
 ```
-
