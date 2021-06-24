@@ -1,17 +1,16 @@
 ---
 description: 任务进度信息。
 solution: Experience Manager
-title: 任务进度
-feature: Dynamic Media Classic,SDK/API
+title: TaskProgress
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 11%
 
 ---
-
 
 # TaskProgress{#taskprogress}
 
@@ -38,7 +37,7 @@ ht-degree: 11%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessed</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 已处理的任务项目数。 </td> 
+   <td colname="col3"> 已处理的任务项数。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
@@ -48,11 +47,11 @@ ht-degree: 11%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 待处理任务项（尚未处理）的数量。 </td> 
+   <td colname="col3"> 待处理任务项的数量（尚未处理）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 进展</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:多次</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> %进度（范围0.0 - 1.0）。 </td> 
   </tr> 
   <tr> 
@@ -67,7 +66,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TaskItemProgressArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：TaskItemProgressArray</span> </td> 
    <td colname="col3"> 任务项的数组。 </td> 
   </tr> 
   <tr> 
@@ -75,14 +74,13 @@ ht-degree: 11%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">值包括： 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> 未知</span>:当任务监视状态之间过渡时。 </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 新</span>:任务监视器已创建，但尚未接受任务。 </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> 未知</span>:任务监视器在状态之间转换时。 </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 新增</span>:任务监视器已创建，但尚未接受任务。 </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> 处理</span>:任务监视器正在主动处理任务。 </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> 正在停止</span>:任务监视器正在停止作业，因为有停止作业请求。 </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> 完成</span>:已完成分配给任务监视器作业的作业。 </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> 正在停止</span>:任务监视器由于停止作业请求而正在停止作业。 </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> 完成</span>:分配给任务监视器作业的作业已完成。 </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> 失败</span>:表示错误。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-
