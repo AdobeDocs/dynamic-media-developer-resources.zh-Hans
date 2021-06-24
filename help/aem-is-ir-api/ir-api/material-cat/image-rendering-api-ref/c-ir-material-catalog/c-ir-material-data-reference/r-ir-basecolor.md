@@ -1,27 +1,26 @@
 ---
-description: 主图像颜色。 用于纹理着色的减色。 应为纹理图像中的平均主色。
+description: 主要图像颜色。 减色，用于纹理着色。 应是纹理图像中的平均主色。
 solution: Experience Manager
-title: 基色
-feature: Dynamic Media Classic,SDK/API
+title: BaseColor
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # BaseColor{#basecolor}
 
-主图像颜色。 用于纹理着色的减色。 应为纹理图像中的平均主色。
+主要图像颜色。 减色，用于纹理着色。 应是纹理图像中的平均主色。
 
-如果将没有`catalog::Color`的纹理材料应用于非可纹理晕影对象，则还可以使用`BaseColor`作为填充颜色。
+如果将没有`catalog::Color`的纹理材料应用于非可纹理晕影对象，则也可以使用`BaseColor`作为填充颜色。
 
 ## 属性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-颜色. 被纯色和机柜材料忽略。
+颜色. 被实色和机柜材料忽略。
 
 ## 默认 {#section-ca1813a6fcb24645b5835af0891b279d}
 
