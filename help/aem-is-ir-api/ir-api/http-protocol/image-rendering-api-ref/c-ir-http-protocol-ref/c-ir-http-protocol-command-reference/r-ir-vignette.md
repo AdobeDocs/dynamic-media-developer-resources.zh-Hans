@@ -1,17 +1,16 @@
 ---
 description: 晕影文件。 指定要用于此请求的晕影。
 solution: Experience Manager
-title: 暗
-feature: Dynamic Media Classic,SDK/API
+title: vignette
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
-
 
 # vignette{#vignette}
 
@@ -22,7 +21,7 @@ ht-degree: 4%
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>材料目录ID（与<span class="codeph">属性：:RootId</span>匹配）。 </p></td> 
+  <td class="stentry"> <p>材料目录ID（与<span class="codeph">属性匹配：:RootId</span>）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -34,7 +33,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-可以指定晕影映射条目或晕影文件。 不允许使用远程URL。
+可以指定晕影图条目或晕影文件。 不允许使用远程URL。
 
 `vignette=` 可用作在请求URL路径中指定晕影的替代方法。主要用于通过模板中的变量指定晕影。
 
@@ -50,4 +49,4 @@ ht-degree: 4%
 
 ## 另请参阅 {#section-dc2668cc2cd54a74b08cff68a12d4edd}
 
-[材料目录](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)、自 [定义变量](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md#concept-8a1d9a50d09a4b7b97b8c83365971f96)
+[材料目录](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)、自定 [义变量](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md#concept-8a1d9a50d09a4b7b97b8c83365971f96)
