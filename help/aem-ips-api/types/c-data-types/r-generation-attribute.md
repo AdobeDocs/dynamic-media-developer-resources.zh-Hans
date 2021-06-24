@@ -1,21 +1,20 @@
 ---
-description: 一个名称 — 值对，其中包含有关资产生成步骤的信息。 请参阅getGenerationInfo。
+description: 名称 — 值对，其中包含有关资产生成步骤的信息。 请参阅getGenerationInfo 。
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 13%
 
 ---
 
-
 # GenerationAttribute{#generationattribute}
 
-一个名称 — 值对，其中包含有关资产生成步骤的信息。 请参阅getGenerationInfo。
+名称 — 值对，其中包含有关资产生成步骤的信息。 请参阅getGenerationInfo 。
 
 语法
 
@@ -25,4 +24,3 @@ ht-degree: 13%
 |---|---|---|
 | `*`name`*` | `xsd:string` | 属性名称。 |
 | `*`值`*` | `xsd:string` | 属性值。 |
-
