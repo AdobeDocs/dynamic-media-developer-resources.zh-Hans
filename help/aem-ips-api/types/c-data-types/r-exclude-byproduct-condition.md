@@ -2,16 +2,15 @@
 description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
 solution: Experience Manager
 title: ExcludeBybloudCondition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
-
 
 # ExcludeBybloudCondition{#excludebyproductcondition}
 
@@ -25,4 +24,3 @@ ht-degree: 9%
 |---|---|---|
 | `*`引擎`*` | `xsd:string` | 创建要排除的资产的生成引擎。 有关值，请参阅生成信息。 |
 | `*`generatedAssetType`*` | `xsd:string` | 排除的资产类型。 有关值，请参阅资产类型。 |
-
