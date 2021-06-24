@@ -165,7 +165,7 @@ background-position: -0px -560px;
 }
 ```
 
-## 一般样式说明和建议{#section-95855dccbbc444e79970f1aaa3260b7b}
+## 一般样式说明和建议 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * 使用CSS自定义查看器用户界面时，不支持使用`!IMPORTANT`规则来设置查看器元素的样式。 特别是，不应使用`!IMPORTANT`规则覆盖查看器或查看器SDK提供的任何默认或运行时样式。 其原因可能会影响正确组件的行为。 您而是应该使用具有适当特性的CSS选择器来设置本参考指南中介绍的CSS属性。
 * CSS中指向外部资产的所有路径都将根据CSS位置（而不是查看器HTML页面位置）进行解析。 将默认CSS复制到其他位置时，请注意此规则。 复制默认资产或更新自定义CSS中的路径。
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * 要从用户界面中删除按钮，请将`display:none`添加到其CSS类中。
 * 您可以对CSS支持的颜色值使用各种格式。 如果需要透明度，请使用格式`rgba(R,G,B,A)`。 否则，可以使用格式`#RRGGBB`。
 
-## 常用用户界面元素{#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## 常用用户界面元素 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 以下是适用于eCatalog搜索查看器的用户界面元素引用文档：
 
