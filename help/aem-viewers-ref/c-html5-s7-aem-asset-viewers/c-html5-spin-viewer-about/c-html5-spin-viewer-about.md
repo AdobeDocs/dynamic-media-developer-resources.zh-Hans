@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
-## 使用旋转查看器{#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用旋转查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 旋转查看器表示主JavaScript文件和一组帮助程序文件（单个JavaScript包含该查看器在运行时下载的特定查看器、资产和CSS所使用的所有查看器SDK组件）。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与旋转查看器{#section-642e66ca38cd4032992840ec6c0b0cd2}交互
+## 与旋转查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 旋转查看器支持以下在其他移动设备应用程序中常见的触控手势。 当查看器无法处理用户的轻扫手势时，它会将事件转发到Web浏览器以执行本机页面滚动。 这允许用户在页面中导航，即使查看者占据了设备屏幕的大部分区域。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入旋转查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入旋转查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同网页对查看者行为的需求不同。 有时，网页会提供一个链接，单击该链接后，即会在单独的浏览器窗口中打开查看器。 在其他情况下，需要将查看器权限嵌入到托管页面中。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
