@@ -2,16 +2,15 @@
 description: 视频查看器的配置属性。
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
-
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
@@ -23,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放时从自适应视频集播放的所需视频比特率（以千位/秒或千位/秒）。 </p> <p>该组件选取最接近（但不超过）指定值的比特率的视频流。 如果自适应视频集中的所有视频流的质量都高于指定值，则逻辑将选择质量最低的比特率。 </p> </td> 
+   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放的情况下从自适应视频集播放的所需视频比特率（以kbits/秒或kbps为单位）。 </p> <p>组件会选取尽可能接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流的质量都高于指定的值，则逻辑会选择质量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 3%
 ```
 progressivebitrate=600
 ```
-
