@@ -2,16 +2,15 @@
 description: 获取与资产关联的用户定义的元数据字段。
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
-
 
 # getMetadataFields{#getmetadatafields}
 
@@ -19,7 +18,7 @@ ht-degree: 14%
 
 语法
 
-## 授权用户类型{#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授权用户类型 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`assetType`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
 
 **输出(getMetadataFieldsParam)**
@@ -46,7 +45,7 @@ ht-degree: 14%
 
 ## 示例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-此代码示例返回指定类型和公司的元数据资产。 响应包含字段数组中的元数据字段数组。 并非所有资产都具有相同的元数据。 IPS用户定义资产的元数据字段。
+此代码示例可返回指定类型和公司的元数据资产。 响应包含字段数组中的元数据字段数组。 并非所有资产都具有相同的元数据。 IPS用户定义资产的元数据字段。
 
 **请求**
 
@@ -73,4 +72,3 @@ ht-degree: 14%
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
