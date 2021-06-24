@@ -2,16 +2,15 @@
 description: 本节介绍Dynamic Media图像渲染HTTP协议的基本语法。
 solution: Experience Manager
 title: 图像渲染HTTP协议基本语法
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
-
 
 # 图像渲染HTTP协议基本语法{#image-rendering-http-protocol-basic-syntax}
 
@@ -34,20 +33,20 @@ ht-degree: 3%
    <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> 暗  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> vignette  </span> </p> </td> 
    <td colname="col2"> <p>晕影说明符（相对文件路径或晕影目录条目）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 修改程序 </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> modifier</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> 修饰符</span> *[ &amp; <span class="varname"> 修饰符</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modifier </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> command</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> 注释</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> command</span>  | { $  <span class="varname"> macro</span> $ } | { 。<span class="varname"> 注释</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 命令  </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname">值</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 宏  </span> </p> </td> 
@@ -55,7 +54,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 评论  </span> </p> </td> 
-   <td colname="col2"> <p>注释字符串（服务器忽略）。 </p> </td> 
+   <td colname="col2"> <p>注释字符串（被服务器忽略）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
@@ -72,16 +71,16 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*`server`*、 *`cmdName`*、 *`macro`*&#x200B;和 *`var`* 不区分大小写。服务器保留所有其他字符串值的大小写。
+*`server`*、  *`cmdName`*、 *`macro`*&#x200B;和 *`var`* 不区分大小写。服务器将保留所有其他字符串值的大小写。
 
 **服务器标识符**
 
-所有对图像渲染的HTTP请求都需要“ `/ir/render`”根上下文。
+对于要渲染图像的所有HTTP请求，都需要“ `/ir/render`”根上下文。
 
 **注释**
 
-注释可以嵌入到任意位置的请求字符串中并由句点(.)标识 紧跟在命令分隔符(&amp;)后。 注释以（未编码）命令分隔符的下一个出现结束。 此功能可用于向非图像服务使用的请求添加信息，例如时间戳、数据库ID等。
+注释可以嵌入到任何位置的请求字符串中，并由句点(.)标识 紧跟命令分隔符(&amp;)。 注释以下次出现（未编码）命令分隔符时终止。 此功能可用于向不用于图像提供的请求添加信息，如时间戳、数据库ID等。
 
 **HTTP解码**
 
-图像渲染首先从传入请求中提取&#x200B;*`object`*&#x200B;和&#x200B;*`modifiers`*。 *`object`* 然后，将其分离为路径元素，这些元素被单独HTTP解码。将&#x200B;*`modifiers`*&#x200B;字符串分为&#x200B;*`command`*= *`value`*&#x200B;对，然后在命令特定处理之前对&#x200B;*`value`*&#x200B;进行HTTP解码。
+图像渲染首先从传入请求中提取&#x200B;*`object`*&#x200B;和&#x200B;*`modifiers`*。 *`object`* 然后，被分隔为单独HTTP解码的路径元素。将&#x200B;*`modifiers`*&#x200B;字符串分隔为&#x200B;*`command`*= *`value`*&#x200B;对，然后在命令特定处理之前对&#x200B;*`value`*&#x200B;进行HTTP解码。
