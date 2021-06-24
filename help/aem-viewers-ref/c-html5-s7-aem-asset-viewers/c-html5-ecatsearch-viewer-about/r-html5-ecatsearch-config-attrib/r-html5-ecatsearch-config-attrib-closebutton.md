@@ -2,16 +2,15 @@
 description: 关闭按钮
 solution: Experience Manager
 title: 关闭按钮
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
-
 
 # 关闭按钮{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>设置为<span class="codeph"> 1 </span>可显示关闭按钮。 或者，设置为<span class="codeph"> 0 </span>可隐藏关闭按钮。 </p> <p>仅触控设备支持关闭按钮；无法在桌面系统上显示。 </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> 1 </span>可显示关闭按钮。 或者，设置为<span class="codeph"> 0 </span>可隐藏关闭按钮。 </p> <p>仅在触屏设备上支持关闭按钮；无法在桌面系统上显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +38,3 @@ ht-degree: 9%
 ```
 closebutton=1
 ```
-
