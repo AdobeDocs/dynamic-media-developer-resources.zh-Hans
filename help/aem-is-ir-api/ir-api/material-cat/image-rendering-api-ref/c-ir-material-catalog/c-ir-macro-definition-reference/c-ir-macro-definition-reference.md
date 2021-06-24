@@ -1,19 +1,17 @@
 ---
-description: 定义宏时，需指定名称和定义。
+description: 在定义宏时，可指定名称和定义。
 solution: Experience Manager
-title: 宏定义参考
-feature: Dynamic Media Classic,SDK/API
+title: 宏定义引用
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 3f322443-eac5-49aa-946e-2bc895fbbfc2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
-
 # 宏定义引用{#macro-definition-reference}
 
-定义宏时，需指定名称和定义。
-
+在定义宏时，可指定名称和定义。
