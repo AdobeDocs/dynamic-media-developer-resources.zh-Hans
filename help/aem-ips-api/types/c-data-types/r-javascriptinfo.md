@@ -1,21 +1,20 @@
 ---
-description: JavaScript文件资源的属性。
+description: JavaScript文件资产的属性。
 solution: Experience Manager
-title: Javascript信息
-feature: Dynamic Media Classic,SDK/API
+title: JavascriptInfo
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a6986434-e274-4f5b-b8c8-d300134f8986
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 23%
+source-wordcount: '36'
+ht-degree: 25%
 
 ---
 
-
 # JavascriptInfo{#javascriptinfo}
 
-JavaScript文件资源的属性。
+JavaScript文件资产的属性。
 
 语法
 
@@ -26,4 +25,3 @@ JavaScript文件资源的属性。
 | `*`originalPath`*` | `xsd:string` | JavaScript文件的路径。 |
 | `*`originalFile`*` | `xsd:string` | 文件名. |
 | `*`fileSize`*` | `xsd:int` | 文件大小. |
-
