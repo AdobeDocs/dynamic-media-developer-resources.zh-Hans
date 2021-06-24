@@ -1,21 +1,20 @@
 ---
-description: Photoshop图像图层选项。
+description: Photoshop图像层选项。
 solution: Experience Manager
 title: PhotoshopLayerOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
-Photoshop图像图层选项。
+Photoshop图像层选项。
 
 语法
 
@@ -23,9 +22,8 @@ Photoshop图像图层选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`layerNaming`*` | `xsd:string` | 选择Photoshop图层命名模式。 |
+| `*`layerNaming`*` | `xsd:string` | 选择Photoshop层命名模式。 |
 | `*`锚记`*` | `xsd:string` | 选择Photoshop锚点模式。 |
-| `*`createTemplate`*` | `xsd:boolean` | 是否从Photoshop图层创建模板。 |
-| `*`extractText`*` | `xsd:boolean` | 是否将文本提取为文本图层。 |
-| `*`extendLayers`*` | `xsd:boolean` | 是否将图层扩展到背景的完全大小。 |
-
+| `*`createTemplate`*` | `xsd:boolean` | 是否从Photoshop层创建模板。 |
+| `*`extractText`*` | `xsd:boolean` | 是否将文本提取为文本层。 |
+| `*`extendLayers`*` | `xsd:boolean` | 是否将图层扩展到背景的全尺寸。 |
