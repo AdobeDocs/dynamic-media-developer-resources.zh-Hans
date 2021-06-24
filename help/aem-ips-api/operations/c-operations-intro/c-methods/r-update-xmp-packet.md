@@ -2,16 +2,15 @@
 description: 设置或更新资产的XMP元数据包。
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 24%
 
 ---
-
 
 # updateXMPPacket{#updatexmppacket}
 
@@ -19,7 +18,7 @@ ht-degree: 24%
 
 语法
 
-## 授权用户类型{#section-ee88a759f4774482a4734201a971f610}
+## 授权用户类型 {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +34,7 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
 | `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要设置或更新的XMP数据包。 |
 
@@ -43,7 +42,7 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`成功`*` | `xsd:boolean` | 是 | 如果更新了数据包，则返回`true`。 |
+| `*`成功`*` | `xsd:boolean` | 是 | 如果数据包已更新，则返回`true`。 |
 
 ## 示例 {#section-38b556b94e5044bf97a954519ff6c212}
 
@@ -69,4 +68,3 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
    <success>true</success>
 </updateXMPPacketReturn>
 ```
-
