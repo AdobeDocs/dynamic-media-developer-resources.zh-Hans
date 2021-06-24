@@ -2,16 +2,15 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b5ac5c43-3a02-4163-8683-db08e988223b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.rgn{#zoomview-rgn}
 
@@ -20,8 +19,8 @@ ht-degree: 10%
 <table id="table_A5BFF854E2064B048BF9AA8D576F7DA2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span><span class="codeph"> ,</span>w<span class="codeph"> ,h</span> </p> </td> 
-   <td colname="col2"> <p> 像素坐标中的初始目标区域。 如果未指定，则整个图像将适合初始视区。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>、<span class="codeph"> y</span>、<span class="codeph"> w</span>、<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> 像素坐标中的初始目标区域。 如果未指定，则整个图像将适合在初始视区中。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
