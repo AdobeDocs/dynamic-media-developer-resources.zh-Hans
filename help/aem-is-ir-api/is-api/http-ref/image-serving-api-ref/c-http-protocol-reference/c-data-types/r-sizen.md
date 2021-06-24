@@ -1,31 +1,30 @@
 ---
-description: 标准化大小。 用于指定图像大小或矩形大小，与图层0或其他图像的大小进行标准化。
+description: 标准化大小。 用于指定图像大小或矩形大小，相对于图层0的大小或某些其他图像的大小进行标准化。
 solution: Experience Manager
 title: sizeN
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58c2d7da-31fc-49d1-a404-2e4a66ff0e56
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
 # sizeN{#sizen}
 
-标准化大小。 用于指定图像大小或矩形大小，与图层0或其他图像的大小进行标准化。
+标准化大小。 用于指定图像大小或矩形大小，相对于图层0的大小或某些其他图像的大小进行标准化。
 
 <table id="simpletable_BB36205775D4447084E527E2630D28B9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>、 <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>相对于另一个图像（实数、实数、大于0）的标准化宽度和高度 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>、 <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p>相对于另一图像（实、实、大于0）的标准化宽度和高度 </p></td> 
  </tr> 
 </table>
 
-*nx*&#x200B;和&#x200B;*ny*&#x200B;都必须大于0。 0,0可能指示应使用特定默认大小。 1,1指定与参考图像相等的大小。
+*nx*&#x200B;和&#x200B;*ny*&#x200B;必须大于0。 0,0可能表示应使用特定的默认大小。 1,1指定大小等于参考图像。
