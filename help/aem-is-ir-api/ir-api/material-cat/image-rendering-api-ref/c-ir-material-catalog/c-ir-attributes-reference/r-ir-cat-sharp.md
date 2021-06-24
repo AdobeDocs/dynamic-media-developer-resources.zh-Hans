@@ -1,21 +1,20 @@
 ---
-description: 默认材质锐化。 在特定目录记录不包含有效目录锐化值时设置默认材料锐化模式。
+description: 默认材料锐化。 如果特定目录记录不包含有效的目录锐化值，则设置默认的材料锐化模式。
 solution: Experience Manager
 title: 清晰
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 10%
 
 ---
 
+# 清晰{#sharp}
 
-# 锐化 {#sharp}
-
-默认材质锐化。 在特定目录记录不包含有效目录：:Sharp值时设置默认的材料锐化模式。
+默认材料锐化。 如果特定目录记录不包含有效的目录：：锐化值，则设置默认的材料锐化模式。
 
 ## 属性 {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -24,7 +23,7 @@ ht-degree: 10%
 <table id="simpletable_2D94A380BC2D4FD1A7EDD45E6EAFD1FB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>无需锐化。 </p></td> 
+  <td class="stentry"> <p>无锐化。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -32,17 +31,17 @@ ht-degree: 10%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>替代锐化（在变换之前）。 </p></td> 
+  <td class="stentry"> <p>备用锐化（在转换之前）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>更多锐化（在变换之前和之后）。 </p> </td> 
+  <td class="stentry"> <p>更多锐化（在转换前后）。 </p> </td> 
  </tr> 
 </table>
 
 ## 默认 {#section-613130fca7c04ce7a7734265f27aa1ea}
 
-如果未定义或为空，则从`default::Sharp`继承。
+从`default::Sharp`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-7771824f2822443ab0297e8793bb48ae}
 
