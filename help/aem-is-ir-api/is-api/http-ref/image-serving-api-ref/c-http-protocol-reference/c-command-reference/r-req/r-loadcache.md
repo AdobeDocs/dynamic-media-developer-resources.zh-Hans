@@ -1,24 +1,23 @@
 ---
-description: 预载服务器缓存。 执行请求的方式与req=img相同，但服务器返回的是返回回复图像的长度(image.length)，格式为MIME类型为text/plain的文本数据。
+description: 预加载服务器缓存。 与req=img类似，服务器会执行请求，但不会返回图像，而是返回回复图像的长度(image.length)，格式为MIME类型为text/plain的文本数据。
 solution: Experience Manager
 title: loadcache
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 653842e9-bed1-462a-bb1f-39ac1ac9512c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
 # loadcache{#loadcache}
 
-预载服务器缓存。 执行请求的方式与req=img相同，但服务器返回的是返回回复图像的长度(image.length)，格式为MIME类型为text/plain的文本数据。
+预加载服务器缓存。 与req=img类似，服务器会执行请求，但不会返回图像，而是返回回复图像的长度(image.length)，格式为MIME类型为text/plain的文本数据。
 
 `req=loadcache`
 
-HTTP响应无法缓存。
+无法缓存HTTP响应。
 
-请求中的其他命令将按文档说明应用。
+请求中的其他命令也适用于所记录的内容。
