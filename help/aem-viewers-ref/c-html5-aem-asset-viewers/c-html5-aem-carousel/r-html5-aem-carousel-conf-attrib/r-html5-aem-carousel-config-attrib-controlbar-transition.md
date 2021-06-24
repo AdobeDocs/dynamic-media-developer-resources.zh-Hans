@@ -1,33 +1,32 @@
 ---
-description: 传送查看器的配置属性。
+description: 轮播查看器的配置属性。
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: Developer,Business Practitioner
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
 
 # ControlBar.transition{#controlbar-transition}
 
-传送查看器的配置属性。
+轮播查看器的配置属性。
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohideduration`*[, *``*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无</span> </p> </td> 
-   <td colname="col2"> <p> 指定用于显示或隐藏控制栏及其内容的效果类型。 </p> <p>设置为<span class="codeph"> none</span>即时显示/隐藏。 </p> <p>设置为<span class="codeph">淡入/淡出</span>可提供渐进淡入/淡出效果。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|渐隐</span> </p> </td> 
+   <td colname="col2"> <p> 指定用于显示或隐藏控制栏及其内容的效果类型。 </p> <p>对于即时显示/隐藏，设置为<span class="codeph"> none</span>。 </p> <p>设置为<span class="codeph"> fade</span>以提供渐进渐隐/渐隐效果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delayhide</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定由控制栏注册的上次鼠标/触控事件与时间控制栏隐藏之间的时间（以秒为单位）。 </p> <p>如果设置为<span class="codeph"> -1</span>，则组件从不触发其自动隐藏效果，因此始终在屏幕上可见。 </p> </td> 
+   <td colname="col2"> <p> 指定由控制栏注册的最后一个鼠标/触摸事件与时间控制栏隐藏之间的时间（以秒为单位）。 </p> <p>如果设置为<span class="codeph"> -1</span>，则组件永远不会触发其自动隐藏效果，因此始终在屏幕上可见。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
@@ -38,7 +37,7 @@ ht-degree: 3%
 
 ## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。在禁用自动隐藏控制栏的触控设备上，将忽略此命令。
+可选。在禁用控制栏自动隐藏的触控设备上，将忽略此命令。
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 
