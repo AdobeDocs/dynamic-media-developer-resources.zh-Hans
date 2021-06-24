@@ -2,16 +2,15 @@
 description: PageView.doubleclick
 solution: Experience Manager
 title: PageView.doubleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d53a8723-d710-4722-b1a7-c88d3b9d270b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
-
 
 # PageView.doubleclick{#pageview-doubleclick}
 
@@ -20,8 +19,8 @@ ht-degree: 3%
 <table id="table_942C8BDBDE1B441596987E9E971202E7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> 配置多次单击/点按以缩放操作的映射。 设置为<span class="codeph">无</span>将禁用多次单击/点按缩放。 如果设置为<span class="codeph">缩放</span>，则单击图像将放大一个缩放步骤；按住CTRL并单击可缩小一个缩放步骤。 设置为<span class="codeph"> reset </span>会导致单击图像将缩放重置为初始缩放级别。 对于<span class="codeph"> zoomReset </span>，如果当前缩放因子达到或超过指定限制，则应用reset，否则应用缩放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 无|缩放|重置|zoomReset  </span> </p> </td> 
+   <td colname="col2"> <p> 配置双击/点按以缩放操作的映射。 将设置为<span class="codeph">无</span>会禁用双击/点按缩放。 如果设置为<span class="codeph">缩放</span>，则单击图像会缩放一个缩放步骤；按住CTRL并单击可缩小一个缩放步骤。 将设置为<span class="codeph">重置</span>会导致单击图像，将缩放重置为初始缩放级别。 对于<span class="codeph"> zoomReset </span>，如果当前缩放因子达到或超过指定限制，则应用重置，否则应用缩放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,7 +31,7 @@ ht-degree: 3%
 
 ## 默认 {#section-814d6bc6a0834005a0a72c7040e45693}
 
-`reset` 在台式计算机上； `zoomReset` 触控设备。
+`reset` 台式计算机上； `zoomReset` 在触控设备上。
 
 ## 示例 {#section-986e7672f3694b7aa7572fb4428172ca}
 
