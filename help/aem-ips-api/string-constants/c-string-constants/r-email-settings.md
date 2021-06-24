@@ -2,16 +2,15 @@
 description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 solution: Experience Manager
 title: 电子邮件设置
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 13%
 
 ---
-
 
 # 电子邮件设置{#email-settings}
 
@@ -19,7 +18,7 @@ ht-degree: 13%
 
 语法
 
-## 由{#section-7f81d4ca6f104877afa64ed1e25c79fb}使用
+## 使用者 {#section-7f81d4ca6f104877afa64ed1e25c79fb}
 
 * [!DNL `ImageServingPublishJob/emailSetting`]
 * [!DNL `ImageRenderingPublishJob/emailSetting`]
@@ -35,4 +34,3 @@ ht-degree: 13%
 * [!DNL `ErrorAndWarning`]
 * [!DNL `JobCompletion`]
 * [!DNL `None`]
-
