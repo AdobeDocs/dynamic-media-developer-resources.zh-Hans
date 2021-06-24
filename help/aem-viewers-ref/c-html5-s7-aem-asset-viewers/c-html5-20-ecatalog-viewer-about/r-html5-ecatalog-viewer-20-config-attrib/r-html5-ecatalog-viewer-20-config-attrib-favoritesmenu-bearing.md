@@ -2,16 +2,15 @@
 description: 指定按钮容器的幻灯片动画方向。
 solution: Experience Manager
 title: FavoritesMenu.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f08545fd-f039-41a1-ad0b-430ce7c1bdd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
-
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
@@ -22,8 +21,8 @@ ht-degree: 2%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> 当设置为<span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>或<span class="codeph"> right</span>时，面板将在指定方向上滚出，而不进行额外的边界检查，这会导致面板被外部容器卡住。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件首先将基板位置移至“收藏夹”菜单的底部，并尝试从此基本位置沿下列方向之一展开面板：下，右，左。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基面板位置移到顶部，并从顶部、右侧和左侧重复滚出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，组件使用类似的逻辑。 基座首先向右移动，向右、向下和向上展开。 然后，它把基座向左移动，向左、向下和向上展开方向。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 上|下|左|右|fit-vertical|fit-lateral</span> </p> </td> 
+   <td colname="col2"> <p> 当设置为<span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>或<span class="codeph"> right</span>时，面板将按指定方向滚出，而不进行额外的范围检查，这会导致面板被外部容器卡住。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件会首先将基板位置移至“收藏夹”菜单的底部，并尝试从此基位置沿以下任一方向滚出面板：下，右，左。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，组件会尝试将基板位置移动到顶部，然后从顶部、右侧和左侧重复转出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，组件使用类似的逻辑。 基座首先向右移动，向右、向下和向上展开。 然后，它把底座向左移动，试着左、下、上展开方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
