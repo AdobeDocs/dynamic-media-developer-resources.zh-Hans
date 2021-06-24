@@ -1,21 +1,20 @@
 ---
-description: 手动裁剪图像选项。
+description: 图像的手动裁剪选项。
 solution: Experience Manager
-title: 手动裁剪选项
-feature: Dynamic Media Classic,SDK/API
+title: ManualCropOptions
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 14%
 
 ---
 
-
 # ManualCropOptions{#manualcropoptions}
 
-手动裁剪图像选项。
+图像的手动裁剪选项。
 
 语法
 
@@ -27,4 +26,3 @@ ht-degree: 14%
 | `*`右`*` | `xsd:int` | 手动裁剪的正确位置（以像素为单位）。 |
 | `*`顶端`*` | `xsd:int` | 手动裁剪的顶部位置（以像素为单位）。 |
 | `*`底部`*` | `xsd:int` | 手动裁剪的底部位置（以像素为单位）。 |
-
