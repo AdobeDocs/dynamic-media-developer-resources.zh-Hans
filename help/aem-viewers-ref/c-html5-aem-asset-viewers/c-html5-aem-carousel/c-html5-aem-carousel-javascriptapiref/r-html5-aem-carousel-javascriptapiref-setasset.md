@@ -1,25 +1,24 @@
 ---
-description: Carousel Viewer的JavaScript API参考。
+description: 轮播查看器的JavaScript API引用。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: Developer,Business Practitioner
 exl-id: e8aaee4e-56d5-46e4-8499-d5c9a6ba5d3b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
 
 # setAsset{#setasset}
 
-Carousel Viewer的JavaScript API参考。
+轮播查看器的JavaScript API引用。
 
 ` setAsset( *`asset`*)`
 
-设置新资产。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用它，则查看器在运行时交换资产。
+设置新资产。 您可以在`init()`之前或之后随时调用此参数。 如果在`init()`之后调用，则查看器在运行时会交换资产。
 
 另请参阅[init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
@@ -27,18 +26,18 @@ Carousel Viewer的JavaScript API参考。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 资产</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字符串</span>}新资产ID。 </p> <p>此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字符串</span>}个新资产ID。 </p> <p>此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-单个图像参考：
+单个图像引用：
 
 ```
 <instance>.setAsset("/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner")
