@@ -1,21 +1,20 @@
 ---
-description: 服务器可以配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
+description: 服务器可配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
 solution: Experience Manager
 title: 服务器监控
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c751d653-da5d-4573-99fd-fb9113977160
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
 
+# 服务器监控{#server-monitoring}
 
-# 服务器监视{#server-monitoring}
-
-服务器可以配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
+服务器可配置为在超出某些性能或错误阈值时发送电子邮件警报。 系统集中监视服务器上部署的所有Web应用程序。
 
 * [标准警报](r-standard-alerts.md)
 * [堆空间优先级警报](c-heap-space-priority-alert.md)
