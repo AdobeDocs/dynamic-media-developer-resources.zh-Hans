@@ -1,21 +1,20 @@
 ---
-description: 默认回复图像锐化。 指定在编码前缩放回复图像时是否锐化它们。
+description: 默认回复图像锐化。 指定在编码前缩放回复图像时是否锐化这些图像。
 solution: Experience Manager
 title: 锐化
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '53'
+ht-degree: 13%
 
 ---
 
+# 锐化{#sharpen}
 
-# 锐化 {#sharpen}
-
-默认回复图像锐化。 指定在编码前缩放回复图像时是否锐化它们。
+默认回复图像锐化。 指定在编码前缩放回复图像时是否锐化这些图像。
 
 ## 属性 {#section-faf57183efa0456fb37a7803a9486248}
 
@@ -23,7 +22,7 @@ ht-degree: 12%
 
 ## 默认 {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-如果未定义或为空，则从`default::Sharpen`继承。
+从`default::Sharpen`继承（如果未定义或为空）。
 
 ## 另请参阅 {#section-85393c62428f49739a2510f9427d3607}
 
