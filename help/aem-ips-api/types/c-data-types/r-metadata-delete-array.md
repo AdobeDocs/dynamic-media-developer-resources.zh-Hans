@@ -1,21 +1,20 @@
 ---
-description: 要从资产中删除的一组元数据。
+description: 要从资产中删除的元数据数组。
 solution: Experience Manager
 title: MetadataDeleteArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b04405e6-48ec-4498-b86e-83bbddeb73ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
-
 # MetadataDeleteArray{#metadatadeletearray}
 
-要从资产中删除的一组元数据。
+要从资产中删除的元数据数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `type:Metadata` | 要删除的元数据参数的数组。 |
-
+| `*`项目`*` | `type:Metadata` | 要删除的元数据参数数组。 |
