@@ -1,29 +1,28 @@
 ---
-description: 单击或点按“下一张”幻灯片按钮将用户移动到旋转集中的下一张幻灯片。
+description: 单击或点按“下一张幻灯片”按钮可将用户移动到轮播集中的下一张幻灯片。
 solution: Experience Manager
 title: 下一张幻灯片
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
 role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
 # 下一张幻灯片{#next-slide}
 
-单击或点按“下一张”幻灯片按钮将用户移动到旋转集中的下一张幻灯片。
+单击或点按“下一张幻灯片”按钮可将用户移动到轮播集中的下一张幻灯片。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-此按钮不显示在触控设备上。 您可以使用CSS调整此按钮的大小、外观和位置。
+此按钮未在触控设备上显示。 您可以使用CSS调整此按钮的大小、外观和位置。
 
 **主查看器区域的CSS属性**
 
-按钮的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制按钮的外观：
 
 `.s7carouselviewer .s7panrightbutton`
 
@@ -37,19 +36,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框顶部的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器边框顶部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框右侧的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器边框右侧的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器左侧的位置。 </p> </td> 
+   <td colname="col2"> <p>查看器左侧的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>查看器边框底部的位置。 </p> </td> 
+   <td colname="col2"> <p>从查看器边框底部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -65,7 +64,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
@@ -76,11 +75,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，可用于将不同外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)。
+按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-示例 — 设置上一个60 x 60像素的幻灯片按钮，该按钮距右侧查看器边框10像素并垂直居中，并针对四个不同按钮状态中的每个状态显示不同的图像。
+示例 — 要设置一个上一个幻灯片按钮，其大小为60 x 60像素，距右侧查看器边框10像素且垂直居中，并针对四个不同按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
