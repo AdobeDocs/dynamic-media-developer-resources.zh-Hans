@@ -1,25 +1,24 @@
 ---
-description: 命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&”和“%”。
+description: 命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&”和“%”。
 solution: Experience Manager
 title: 图像渲染HTTP编码
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
-
 # 图像渲染HTTP编码{#image-rendering-http-encoding}
 
-命令值必须使用%xx转义序列进行http编码，以使值字符串不包括保留字符“=”、“&amp;”和“%”。
+命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&amp;”和“%”。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对“（空格）”、“”(多次引号)、“#”、“%”、“&lt;”和“>”等不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符(如“（空格）”、“”（双引号）、“#”、“%”、“&lt;”和“>”)以及任何控制字符（如`<return>`和`<tab>`）进行编码。
 
-**注意：** 不能对用作请求嵌套分隔符的花括号{ }进行编码。不幸的是，某些电子邮件客户端会在嵌入的HTTP请求中对花括号进行编码。 如果这是问题，图像渲染允许使用圆括号()而不是花括号。
+**注意：** 不得对用作请求嵌套分隔符的大括号{ }进行编码。遗憾的是，某些电子邮件客户端在嵌入的HTTP请求中对大括号进行编码。 如果是这个问题，图像渲染允许使用圆括号()而不是大括号。
 
 ## 示例 {#section-3edc5b8ee2354220a281b01722ad337a}
 
