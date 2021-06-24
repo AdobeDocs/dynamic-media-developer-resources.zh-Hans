@@ -2,16 +2,15 @@
 description: 发布状态更新的数组。
 solution: Experience Manager
 title: PublishStateUpdateArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
-
 
 # PublishStateUpdateArray{#publishstateupdatearray}
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`项目`*` | `types:PublishStateUpdate` | 发布状态更新的数组。 |
-
