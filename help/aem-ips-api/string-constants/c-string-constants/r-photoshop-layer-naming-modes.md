@@ -1,19 +1,18 @@
 ---
 description: 由PhotoshopOptions/layerNaming使用。
 solution: Experience Manager
-title: Photoshop图层命名模式
-feature: Dynamic Media Classic,SDK/API
+title: Photoshop层命名模式
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
-
-# Photoshop图层命名模式{#photoshop-layer-naming-modes}
+# Photoshop层命名模式{#photoshop-layer-naming-modes}
 
 由PhotoshopOptions/layerNaming使用。
 
@@ -25,4 +24,3 @@ ht-degree: 8%
 * [!DNL `AppendNumber`]
 * [!DNL `AppendName`]
 * [!DNL `Folders`]
-
