@@ -1,28 +1,27 @@
 ---
-description: 错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
+description: 错误消息详细信息。 将通过HTTP返回的错误消息的详细级别指定为error.message值。
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
 
-
 # ErrorDetail{#errordetail}
 
-错误消息详细信息。 指定通过HTTP返回的错误消息的详细信息级别为error.message值。
+错误消息详细信息。 将通过HTTP返回的错误消息的详细级别指定为error.message值。
 
 允许使用以下值：
 
 <table id="simpletable_26DC72727F224F2C8E97BF26619DB68B"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>仅限标题。 返回错误的简短常规描述。 建议用于可公开访问的实时服务器。 </p></td> 
+  <td class="stentry"> <p>仅标题。 返回错误的简短常规描述。 建议使用可公开访问的实时服务器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -30,11 +29,11 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>详细消息。 提供有关错误的用户级详细信息。 可能包括敏感信息，如文件路径。 建议用于暂存、质量保证和应用程序开发服务器。 </p></td> 
+  <td class="stentry"> <p>详细消息。 提供有关该错误的用户级详细信息。 可能包括敏感信息，如文件路径。 建议使用暂存、质量保证和应用程序开发服务器。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整调试信息。 添加Java堆栈跟踪（如果适用）。 错误图像从不包含堆栈跟踪，而是返回<span class="codeph"> $error.message</span>中的2级信息。 当将问题报告到Dynamic Media技术支持时，此信息可能很有用。 </p></td> 
+  <td class="stentry"> <p>完整的调试信息。 在适用时添加Java堆栈跟踪。 错误图像从不包含堆栈跟踪，而是返回<span class="codeph"> $error.message</span>中的2级信息。 在向Dynamic Media技术支持部门报告问题时，此信息非常有用。 </p></td> 
  </tr> 
 </table>
 
