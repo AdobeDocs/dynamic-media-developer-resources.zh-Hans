@@ -1,25 +1,24 @@
 ---
-description: 检索单个请求中的所有系统属性。
+description: 在单个请求中检索所有系统属性。
 solution: Experience Manager
 title: getSystemProperties
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
-
 # getSystemProperties{#getsystemproperties}
 
-检索单个请求中的所有系统属性。
+在单个请求中检索所有系统属性。
 
 语法
 
-## 授权用户类型{#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授权用户类型 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +32,7 @@ ht-degree: 17%
 
 ## 参数 {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**Input(getSystemPropertiesParam)**
+**输入(getSystemPropertiesParam)**
 
 无。
 
@@ -45,7 +44,7 @@ ht-degree: 17%
 
 ## 示例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代码示例返回系统属性的数组。 响应因简短而截断。
+此代码示例返回一个系统属性数组。 响应因简短而被截断。
 
 **请求**
 
@@ -70,4 +69,3 @@ ht-degree: 17%
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-
