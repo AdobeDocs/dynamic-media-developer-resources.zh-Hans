@@ -2,16 +2,15 @@
 description: 获取计划运行的作业。
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -19,7 +18,7 @@ ht-degree: 20%
 
 语法
 
-## 授权用户类型{#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 授权用户类型 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,11 +35,11 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作。 |
-| `*`originalName`*` | `xsd:string` | 否 | 由`submitJob`指定的名称。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| `*`jobHandle`*` | `xsd:string` | 否 | 作业处理。 |
+| `*`originalName`*` | `xsd:string` | 否 | `submitJob`指定的名称。 |
 
-**输出(getScheduledJobsReturn)**
+**Output(getScheduledJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -78,4 +77,3 @@ ht-degree: 20%
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
