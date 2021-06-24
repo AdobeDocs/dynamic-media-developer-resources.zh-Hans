@@ -2,16 +2,15 @@
 description: 非结构化命名的图像输出设置集。
 solution: Experience Manager
 title: ImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # ImageFormat{#imageformat}
 
@@ -26,4 +25,3 @@ ht-degree: 10%
 | `*`imageFormatHandle`*` | `xsd:string` | 图像格式句柄。 |
 | `*`name`*` | `xsd:string` | 图像格式名称。 |
 | `*`urlModifier`*` | `xsd:string` | 表示图像格式的图像服务器URL。 |
-
