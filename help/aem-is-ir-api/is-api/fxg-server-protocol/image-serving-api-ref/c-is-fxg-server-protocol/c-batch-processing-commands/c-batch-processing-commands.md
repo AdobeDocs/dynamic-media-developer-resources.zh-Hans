@@ -2,29 +2,28 @@
 description: 以下命令由PlatformServer公开的批处理API组成。
 solution: Experience Manager
 title: 批处理命令
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # 批处理命令{#batch-processing-commands}
 
 以下命令由PlatformServer公开的批处理API组成。
 
-这些命令以特殊请求格式指定为：`?req=<command>`
+这些参数以特殊请求格式指定为：`?req=<command>`
 
-这些命令的示例使用虚拟的`PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;和名为AcmeCorp的虚拟公司。 工作证也是虚构的。
+这些命令的示例使用虚构的`PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;和一个虚构的公司AcmeCorp。 作业ID也是虚构的。
 
-* [batchobprif](r-batchjobbriefstatus.md)
-* [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
-* [batchjobgetoutput](r-batchjobgetoutput.md)
-* [batchjobsubmit](r-batchjobsubmit.md)
-* [jobdata](r-jobdata.md)
+* [batjobpriefstatus](r-batchjobbriefstatus.md)
+* [batjobdelete](r-batchjobdelete.md)
+* [batjobdetailsstatus](r-batchjobdetailedstatus.md)
+* [batjobgetoutput](r-batchjobgetoutput.md)
+* [batjobsubmit](r-batchjobsubmit.md)
+* [作业数据](r-jobdata.md)
 * [jobid](r-jobid.md)
