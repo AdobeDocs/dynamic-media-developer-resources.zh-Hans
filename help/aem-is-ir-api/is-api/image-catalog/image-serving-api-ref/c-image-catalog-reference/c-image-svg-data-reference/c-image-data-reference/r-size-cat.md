@@ -2,34 +2,33 @@
 description: 图像大小. 目录路径引用的全分辨率图像的像素大小。
 solution: Experience Manager
 title: 大小
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
-
 # 大小{#size}
 
-图像大小. catalog::Path引用的全分辨率图像的像素大小。
+图像大小. 目录引用的全分辨率图像的像素大小：:Path。
 
-如果提供此值，图像服务将使用它来避免必须打开图像才能获得实际图像大小。
+如果提供了此值，图像服务会使用它来避免必须打开图像才能获得实际图像大小。
 
 >[!NOTE]
 >
->如果提供了`catalog::Size`，且与实际的全分辨率图像大小不同，则可能会导致未定义的行为。
+>如果提供了`catalog::Size`，并且与实际的全分辨率图像大小不同，则可能会导致未定义的行为。
 
 ## 属性 {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
-两个整数，每个大于0，以逗号分隔。 可选。
+两个整数数字，每个大于0，用逗号分隔。 可选。
 
 ## 默认 {#section-257c6d47cf314ef0b3c3c32b18f0f0f1}
 
-如果字段不存在，或该字段为空，则使用图像的实际大小。
+如果字段不存在，或者字段为空，则使用图像的实际大小。
 
 ## 另请参阅 {#section-e63797357d5a4119a10db1e6e088f6e9}
 
