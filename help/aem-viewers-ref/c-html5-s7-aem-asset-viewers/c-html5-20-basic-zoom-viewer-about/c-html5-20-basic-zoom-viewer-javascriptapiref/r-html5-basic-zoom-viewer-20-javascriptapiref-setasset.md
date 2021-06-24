@@ -1,21 +1,20 @@
 ---
-description: 基本缩放查看器的JavaScript API参考。
+description: 基本缩放查看器的JavaScript API引用。
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic，查看器，SDK/API，缩放
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
 
-
 # setAsset{#setasset}
 
-基本缩放查看器的JavaScript API参考。
+基本缩放查看器的JavaScript API引用。
 
 ` setAsset( *`asset`*)`
 
@@ -23,30 +22,29 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 资产</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字符串</span>}个新资产id，在"?"后面附加了可选的IS修饰符 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>}个新资产id，并在“？”之后附加可选的IS修饰符 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置新资产。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用它，则查看器在运行时交换资产。
+设置新资产。 您可以在`init()`之前或之后随时调用此参数。 如果在`init()`之后调用，则查看器在运行时会交换资产。
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
-## 返回{#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-单个图像参考：
+单个图像引用：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-锐化功能键已添加到该集中的所有图像：
+锐化修饰符已添加到该集中的所有图像：
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")
 ```
-
