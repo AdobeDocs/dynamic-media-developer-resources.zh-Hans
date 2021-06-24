@@ -1,25 +1,24 @@
 ---
-description: 设置各种公司特定的配置值。
+description: 设置各种特定于公司的配置值。
 solution: Experience Manager
 title: setCompanySettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
 
-
 # setCompanySettings{#setcompanysettings}
 
-设置各种公司特定的配置值。
+设置各种特定于公司的配置值。
 
 语法
 
-## 授权用户类型{#section-41732fa7424b455cb458eec21a02259c}
+## 授权用户类型 {#section-41732fa7424b455cb458eec21a02259c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,23 +31,23 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`overwriteMode`*` | `xsd:string` | 否 | 资产覆盖模式。 |
 | `*`retainPublishState`*` | `xsd:boolean` | 否 | 设置为`true`可在重新上传资产时保留发布状态。 |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | 要用作默认源颜色用户档案的IccProfile资源。 |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | 要用作默认显示颜色用户档案的IccProfile资源。 |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资源。 |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资源。 |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | 用作默认源颜色配置文件的IccProfile资产。 |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile资产用作默认显示颜色配置文件。 |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资产。 |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资产。 |
 | `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在发送警告消息之前，可用的最小可用磁盘空间（以KB为单位）。 |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 设置为`true`可在资源从垃圾桶中清空时向公司管理员发送通知。 |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 设置为`true`，以便在资产从垃圾桶中清空时向公司管理员发送通知。 |
 
-**输出(setCompanySettingsReturn)**
+**Output(setCompanySettingsReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-此代码示例设置公司的配置。
+此代码示例用于设置公司的配置。
 
 **请求**
 
