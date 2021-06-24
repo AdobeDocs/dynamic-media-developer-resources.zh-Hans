@@ -2,16 +2,15 @@
 description: 用于上传资产的URL数组。
 solution: Experience Manager
 title: UploadUrlArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af931740-48da-47c4-af03-349517f4e2a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
-
 
 # UploadUrlArray{#uploadurlarray}
 
@@ -24,4 +23,3 @@ ht-degree: 16%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | `*`项目`*` | `types:UploadUrl` | 用于上传资产的URL数组。 |
-
