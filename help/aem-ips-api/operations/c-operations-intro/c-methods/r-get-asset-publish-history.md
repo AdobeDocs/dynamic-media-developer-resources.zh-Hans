@@ -2,16 +2,15 @@
 description: 返回资产的发布历史记录。
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 16%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -19,7 +18,7 @@ ht-degree: 16%
 
 语法
 
-## 授权用户类型{#section-3b9d6a129093458fa8890139a2718912}
+## 授权用户类型 {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,7 +47,7 @@ ht-degree: 16%
 
 ## 示例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此代码示例返回资产的发布历史记录。 如果服务器返回空数组，则资产从未发布。
+此代码示例可返回资产的发布历史记录。 如果服务器返回空数组，则资产从未发布。
 
 **请求**
 
@@ -66,4 +65,3 @@ ht-degree: 16%
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
