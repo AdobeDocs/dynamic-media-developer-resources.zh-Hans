@@ -2,16 +2,15 @@
 description: 视频查看器的配置属性。
 solution: Experience Manager
 title: VideoPlayer.waiticon
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c5061a5c-44d7-4b42-a062-5ee622829429
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
-
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
@@ -41,4 +40,3 @@ ht-degree: 14%
 ```
 waiticon=0
 ```
-
