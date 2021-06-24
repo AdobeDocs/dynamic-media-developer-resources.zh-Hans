@@ -2,16 +2,15 @@
 description: 将元数据发布到元数据服务器。
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 9%
 
 ---
-
 
 # MetadataPublishJobType{#metadatapublishjobtype}
 
@@ -33,8 +32,7 @@ ht-degree: 9%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">设置为<span class="codeph"> True</span>可再次将<i>所有</i>数据发布到元数据服务器。 <p>注意： 根据数据量，这可能需要几分钟到几小时。 </p><p>如果仅要发布新的或更改的元数据，请不要设置此参数。 </p></td> 
+   <td colname="col3">设置为<span class="codeph"> True</span>可再次将<i>所有</i>数据发布到元数据服务器。 <p>注意： 根据数据量，这可能需要几分钟到几小时。 </p><p>如果只想发布新元数据或更改的元数据，请勿设置此参数。 </p></td> 
   </tr> 
  </tbody> 
 </table>
-
