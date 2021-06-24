@@ -1,23 +1,22 @@
 ---
-description: 图像服务源数据文件包括图像和蒙版文件、字体和ICC用户档案。
+description: 图像服务源数据文件包括图像和蒙版文件、字体和ICC配置文件。
 solution: Experience Manager
 title: 源数据
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-
 # 源数据{#source-data}
 
-图像服务源数据文件包括图像和蒙版文件、字体和ICC用户档案。
+图像服务源数据文件包括图像和蒙版文件、字体和ICC配置文件。
 
-所有源数据文件都必须可由图像服务器访问。 “图像服务”提供了许多用于指定数据文件位置的备选方案：
+所有源数据文件必须可供图像服务器访问。 图像服务提供了许多用于指定数据文件位置的替代方法：
 
 `*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
@@ -42,10 +41,10 @@ ht-degree: 0%
 
 服务器从右到左组合路径段，直到建立绝对文件路径。
 
-所有`*`rootPath`*`段都可以是空路径段、相对路径段或绝对路径段。
+所有`*`rootPath`*`区段都可以是空、相对或绝对路径区段。
 
-`*`目`*` 录请选择绝对或相对文件路径/名称。`*`requestPath`*` 必须是相对文件路径/名称。
+`*``*` catalog（目录）以绝对或相对文件路径/名称分配。`*``*` requestPath必须是相对文件路径/名称。
 
-`Multiple IS::RootPath` 值可在ImageServerRegistry.xml中定义（或通过管理界面定义）。这允许源数据文件跨多个文件系统分发。 图像服务器将按指定顺序尝试替代路径，直到找到数据文件。
+`Multiple IS::RootPath` 值可在ImageServerRegistry.xml中定义（或通过管理界面定义）。这允许源数据文件跨多个文件系统分发。 图像服务器将尝试按照指定的顺序使用替代路径，直到找到数据文件为止。
 
-可以随时添加任何类型的新数据文件，而无需停止服务器。
+任何类型的新数据文件都可以随时添加，而无需停止服务器。
