@@ -1,21 +1,20 @@
 ---
-description: 保存有关公司元数据对象（如ID、名称和类型）的信息。
+description: 包含有关公司元数据对象（如ID、名称和类型）的信息。
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # CompanyMetadataInfo{#companymetadatainfo}
 
-保存有关公司元数据对象（如ID、名称和类型）的信息。
+包含有关公司元数据对象（如ID、名称和类型）的信息。
 
 语法
 
@@ -25,4 +24,3 @@ ht-degree: 11%
 |---|---|---|
 | `*`代码短语`*` | `Code Phrase` |  |
 | `*`代码短语`*` | `Code Phrase` |  |
-
