@@ -2,16 +2,15 @@
 description: 描述各种参数使用的值。 有关详细信息，请参阅本文中的列表
 solution: Experience Manager
 title: 用户角色
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 4%
 
 ---
-
 
 # 用户角色{#user-roles}
 
@@ -19,7 +18,7 @@ ht-degree: 4%
 
 语法
 
-## 由{#section-b76ffce62661481abe2bb02adfd3f36f}使用
+## 使用者 {#section-b76ffce62661481abe2bb02adfd3f36f}
 
 * [!DNL `User/role`]
 * [!DNL `addUserParam/role`]
@@ -39,4 +38,3 @@ ht-degree: 4%
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-
