@@ -1,33 +1,32 @@
 ---
 description: 本节介绍HTTP协议命令。
 solution: Experience Manager
-title: 命令参考
-feature: Dynamic Media Classic,SDK/API
+title: 命令引用
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
-
 
 # 命令引用{#command-reference}
 
 本节介绍HTTP协议命令。
 
-**仅适用于AEM中的Dynamic Media**:除了用户界面中提供的基本图像设置，AEM()中 [!DNL Dynamic Media] 还支 [!DNL Adobe Experience Manager]持在“图像修改”中指定的大量高级 **图像** 修改。这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
+**仅适用于AEM中的Dynamic Media**:除了用户界面中可用的基本图像设置之外，在 [!DNL Dynamic Media] AEM( [!DNL Adobe Experience Manager])中，还支持许多高级图像修改，您可以在图像修改 **器字段中** 指定。这些参数在下面进行定义。 但是，请注意，AEM的Dynamic Media中不支持以下功能。
 
 * 颜色校正命令：`icc=`和`iccEmbed=`。
 * 基本模板和文本渲染命令：`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
 * 本地化命令：`locale=`和`req=xlate`。
-* `req=set` 不可用于一般用途。
+* `req=set` 不可用于常规用法。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非核心Dynamic Media服务：SVG、图像渲染和Web到打印。
+* 非核心Dynamic Media服务：SVG、图像渲染和Web-to-Print。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
@@ -42,7 +41,7 @@ ht-degree: 10%
 * [缓存](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
-* [color](r-color-commandref.md)
+* [颜色](r-color-commandref.md)
 * [裁切](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
@@ -54,13 +53,13 @@ ht-degree: 10%
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [隐藏](r-hide.md)
-* [ic](r-icc.md)
+* [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [图层](r-layer.md)
-* [locale](r-locale.md)
+* [层](r-layer.md)
+* [区域设置](r-locale.md)
 * [地图](r-map.md)
 * [蒙版](r-mask.md)
 * [maskUse](r-maskuse.md)
@@ -90,11 +89,11 @@ ht-degree: 10%
 * [qlt](r-is-http-qlt.md)
 * [数量](r-is-http-quantize.md)
 * [rect](r-rect.md)
-* [req](r-req/r-req.md)
+* [请求](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [rotate](r-rotate.md)
+* [旋转](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [大小](r-size-reference.md)
