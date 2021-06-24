@@ -2,14 +2,13 @@
 description: Video360查看器的配置属性。
 solution: Experience Manager
 title: Video360Player.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器开始是否在加载时播放视频。 请注意，某些系统（如某些移动设备）可能不支持自动播放。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器在加载时是否开始播放视频。 请注意，某些系统（例如某些移动设备）可能不支持自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
