@@ -1,21 +1,20 @@
 ---
-description: 目录记录标识符。 Render Server查看材料记录时使用的键值。 通常是短的唯一材料标识符，如SKU编号。
+description: 目录记录标识符。 呈现服务器用于查看材料记录的键值。 通常是简短且唯一的材料标识符，如SKU编号。
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 8%
+source-wordcount: '86'
+ht-degree: 9%
 
 ---
 
-
 # Id{#id}
 
-目录记录标识符。 Render Server查看材料记录时使用的键值。 通常是短的唯一材料标识符，如SKU编号。
+目录记录标识符。 呈现服务器用于查看材料记录的键值。 通常是简短且唯一的材料标识符，如SKU编号。
 
 ## 属性 {#section-9b20bf2545314620808b4210bce7afc9}
 
