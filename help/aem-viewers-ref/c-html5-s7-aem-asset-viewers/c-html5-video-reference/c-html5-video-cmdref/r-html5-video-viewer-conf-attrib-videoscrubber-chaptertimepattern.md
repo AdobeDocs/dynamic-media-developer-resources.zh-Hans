@@ -2,16 +2,15 @@
 description: 视频查看器的配置属性。
 solution: Experience Manager
 title: VideoScrubber.chaptertimepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic，查看器，SDK/API，视频
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a159153a-c082-4415-9515-7b480282a31f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # VideoScrubber.chaptertimepattern{#videoscrubber-chaptertimepattern}
 
@@ -23,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 设置在视频章节标签标题栏中显示的时间模式，其中<span class="codeph"> h</span>为小时，<span class="codeph"> m</span>为分钟，<span class="codeph"> s</span>为秒。 </p> <p>每个时间单位使用的字母数决定单位要显示的数字数。 如果数字不能容纳给定数字，则在后续单位中显示等效值。 </p> <p>例如，如果当前电影时间为67分5秒，则时间模式<span class="codeph"> m:ss</span>显示为67:05。 如果给定的时间模式为<span class="codeph"> h:mm:s</span>，则同一时间显示为1:07:5。 </p> </td> 
+   <td colname="col2"> <p> 设置视频章节标签标题栏中显示的时间模式，其中<span class="codeph"> h</span>为小时，<span class="codeph"> m</span>为分钟，<span class="codeph"> s</span>为秒。 </p> <p>每个时间单位使用的字母数决定了该单位要显示的位数。 如果数字不能满足给定位数，则以后的单位显示等效值。 </p> <p>例如，如果当前影片时间为67分钟5秒，则时间模式<span class="codeph"> m:ss</span>显示为67:05。 如果给定的时间模式为<span class="codeph"> h:mm:s</span>，则该时间将显示为1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 3%
 ```
 chaptertimepattern=h:mm:ss
 ```
-
