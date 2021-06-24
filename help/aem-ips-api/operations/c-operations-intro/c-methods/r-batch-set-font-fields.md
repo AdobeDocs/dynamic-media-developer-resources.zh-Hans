@@ -2,22 +2,21 @@
 description: 设置字体元数据字段。
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f38aa861-2a81-4663-967e-72611122f51b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 14%
 
 ---
-
 
 # batchSetFontFields{#batchsetfontfields}
 
 设置字体元数据字段。
 
-## 授权用户类型{#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 授权用户类型 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,11 +26,11 @@ ht-degree: 14%
 
 ## 参数 {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**Input(batchSetFontFieldsParam)**
+**输入(batchSetFontFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对包含字体的公司进行处理。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 对包含字体的公司的句柄。 |
 | `*`updateArray`*` | `types:FontFieldUpdateArray` | 是 | 字体字段更新的数组。 |
 
 **输出(batchSetFontFieldsParam)**
@@ -41,7 +40,7 @@ ht-degree: 14%
 | `*`successCount`*` | `xsd:int` | 是 | 成功设置字体字段的数量。 |
 | `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的警告数。 |
 | `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置字体字段时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试应用更新时生成警告的与资产关联的详细信息数组。 |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，资产会生成警告。 |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
@@ -74,4 +73,3 @@ ht-degree: 14%
    <errorCount>0</errorCount>
 </batchSetFontFieldsReturn>
 ```
-
