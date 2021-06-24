@@ -2,16 +2,15 @@
 description: 从特定组中删除公司用户。
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
-
 
 # removeGroupMembers{#removegroupmembers}
 
@@ -19,10 +18,10 @@ ht-degree: 9%
 
 **删除命令之间的差异**
 
-* `removeGroupMembers`:从组中删除多个用户。
-* `removeGroupMembership`:从一组组中删除单个用户。
+* `removeGroupMembers`:从群组中删除多个用户。
+* `removeGroupMembership`:从组数组中删除单个用户。
 
-## 授权用户类型{#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 授权用户类型 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,21 +29,21 @@ ht-degree: 9%
 
 ## 参数 {#section-b5596614a3be4ce5962455884e4636af}
 
-**Input(removeGroupMembersParam)**
+**输入(removeGroupMembersParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 与要处理的用户公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 与您要处理的用户一起处理公司的句柄。 |
 | `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要删除其组成员关系的用户的句柄数组。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
 
 **输出(removeGroupMembersParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-此代码示例从指定的公司中删除用户。 使用用户句柄数组从组中删除多个用户。
+此代码示例会从指定的公司中删除用户。 使用用户句柄数组从组中删除多个用户。
 
 **请求**
 
