@@ -1,17 +1,16 @@
 ---
 description: 源图像属性。 返回在URL路径中指定的图像文件或目录条目的选定属性。
 solution: Experience Manager
-title: imageprop
-feature: Dynamic Media Classic,SDK/API
+title: imageprops
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 10%
 
 ---
-
 
 # imageprops{#imageprops}
 
@@ -30,11 +29,11 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
 请求字符串中的其他命令将被忽略。
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理函数的名称：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理函数的名称。仅允许a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
 
 返回以下属性：
 
@@ -48,12 +47,12 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int，int </p> </td> 
-   <td> <p> <span class="codeph"> catalog:：锚</span> 点或默认锚点 </p> </td> 
+   <td> <p> <span class="codeph"> 目录：:</span> 锚点或默认锚点 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> 双 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::</span> Expirationor the default time to live </p> </td> 
+   <td> <p> <span class="codeph"> 目录：:</span> 过期或默认存留时间 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -63,47 +62,47 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 与此图像关联的用户档案的名称/说明 </p> </td> 
+   <td> <p> 与此图像关联的配置文件的名称/描述 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. embeddedIccProfile</span> </p> </td> 
    <td> <p> boolean </p> </td> 
-   <td> <p> 1，如果关联的用户档案嵌入到图像中 </p> </td> 
+   <td> <p> 如果关联的配置文件嵌入到图像中，则为1 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
    <td> <p> 布尔 </p> </td> 
-   <td> <p> 1，如果图像包含Photoshop路径数据 </p> </td> 
+   <td> <p> 1(如果图像包含Photoshop路径数据) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. embeddedXmpData</span> </p> </td> 
    <td> <p> 布尔 </p> </td> 
-   <td> <p> 1，如果图像包含XMP数据 </p> </td> 
+   <td> <p> 1(如果图像包含XMP数据) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> 0表示无蒙版，1表示预乘的alpha，2表示非预乘的alpha，3表示单独的蒙版图像 </p> </td> 
+   <td> <p> 0表示无蒙版，1表示预乘α,2表示非预乘α,3表示单独的蒙版图像 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Modifieror </span> empty if not a catalog entry </p> </td> 
+   <td> <p> <span class="codeph"> 目录：:</span> 如果不是目录条目，则修改器为空 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 图像. photoshopPathNames</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 以逗号分隔的列表与此图像关联的所有Photoshop路径的名称 </p> </td> 
+   <td> <p> 与此图像关联的所有Photoshop路径的名称列表（以逗号分隔） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixTyp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> 图像类型，可以是"CMYK"、"RGB"或"BW"（对于灰度图像） </p> </td> 
+   <td> <p> 图像类型，可以是“CMYK”、“RGB”或“BW”（对于灰度图像） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 属性：:</span> PostModifieror空（如果不是目录条目） </p> </td> 
+   <td> <p> <span class="codeph"> 属性：:</span> 如果不是目录条目，则为空 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -113,22 +112,22 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::</span> Resolution或默认对象分辨率 </p> </td> 
+   <td> <p> <span class="codeph"> 目录：:</span> 分辨率或默认对象分辨率 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p>修改日期/时间（来自<span class="codeph">目录：:TimeStamp</span>或图像文件） </p> </td> 
+   <td> <p>修改日期/时间（从<span class="codeph">目录：:TimeStamp</span>或图像文件） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> 真实 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbResor</span>  the default thumbnail resolution </p> </td> 
+   <td> <p> <span class="codeph"> 目录：:</span> 缩览图重置默认缩略图分辨率 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> 枚举 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::ThumbType</span> 或默认缩略图类型 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::</span> ThumbType或默认缩略图类型 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
@@ -142,4 +141,3 @@ HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
   </tr> 
  </tbody> 
 </table>
-
