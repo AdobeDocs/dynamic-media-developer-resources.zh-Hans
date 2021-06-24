@@ -2,16 +2,15 @@
 description: 您可以配置数据缓存。
 solution: Experience Manager
 title: 数据缓存
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 778a6236-09f5-420c-ab31-a72063eb5326
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '36'
 ht-degree: 5%
 
 ---
-
 
 # 数据缓存{#data-caches}
 
@@ -20,7 +19,7 @@ ht-degree: 5%
 + [响应数据缓存](c-response-data-cache.md)
 + [响应缓存验证](c-response-cache-validation.md)
 + [辅助数据缓存](c-auxiliary-data-caches.md)
-+ [缓存群集](c-cache-clustering.md)
++ [缓存聚类](c-cache-clustering.md)
 
 ## 另请参阅 {#section-2cbf7373f54e44a48711806cf237ab9a}
 
