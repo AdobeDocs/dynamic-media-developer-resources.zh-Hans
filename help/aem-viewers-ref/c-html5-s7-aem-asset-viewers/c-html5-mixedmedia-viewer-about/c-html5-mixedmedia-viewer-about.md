@@ -33,7 +33,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample](https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample)
 
-## 使用混合媒体查看器{#section-f21ac23d3f6449ad9765588d69584772}
+## 使用混合媒体查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
 混合媒体查看器表示主JavaScript文件和一组由查看器在运行时下载的帮助程序文件（单个JavaScript包含该查看器的所有查看器SDK组件、资产和CSS）。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 请参阅所有查看器的通用命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和[所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)[
 
-## 与混合媒体查看器{#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}交互
+## 与混合媒体查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 混合媒体查看器支持其他移动设备应用程序中常见的单点触控和多点触控手势。 当查看器无法处理用户的轻扫手势时，它会将事件转发到Web浏览器以执行本机页面滚动。 即使查看者占据了设备屏幕的大部分区域，该功能仍允许用户在页面中导航。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
-## 嵌入混合媒体查看器{#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入混合媒体查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 不同网页对查看者行为的需求不同。 有时，网页会提供一个链接，单击该链接后，即会在单独的浏览器窗口中打开查看器。 在其他情况下，需要将查看器权限嵌入到托管页面中。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
-## 关于弹出模式{#section-77d5aa03b8b94566958a179b1a2cd474}
+## 关于弹出模式 {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 在弹出模式下，查看器在单独的Web浏览器窗口或选项卡中打开。 它会占用整个浏览器窗口区域，并在浏览器大小调整或移动设备方向发生更改时进行调整。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## 关于固定大小和响应式设计嵌入{#section-ec86b100ba5943d0b16694268520bbde}
+## 关于固定大小和响应式设计嵌入 {#section-ec86b100ba5943d0b16694268520bbde}
 
 在嵌入模式下，查看器会添加到现有网页，该网页可能已经包含一些与查看器无关的客户内容。 查看者通常只占据网页的一部分房地产。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 否则，如果网页同时设置查看器容器`DIV`的宽度和高度，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中的叠加根据Web浏览器窗口大小来调整大小。
 
-## 固定大小嵌入{#section-17d162f76ffa4804b27928f51e7bea1d}
+## 固定大小嵌入 {#section-17d162f76ffa4804b27928f51e7bea1d}
 
 可通过执行以下操作将查看器添加到网页：
 
@@ -268,7 +268,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## 无限制高度{#section-056cb574713c4d07be6d07cf3c598839}的响应式嵌入
+## 具有无限制高度的响应式嵌入 {#section-056cb574713c4d07be6d07cf3c598839}
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，指示查看器容器`DIV`的运行时大小。 对于以下示例，假定网页允许查看器的容器`DIV`占用Web浏览器窗口大小的40%，并保持其高度不受限制。 网页HTML代码如下所示：
 
@@ -331,7 +331,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## 定义了{#section-0a329016f9414d199039776645c693de}宽度和高度的灵活大小嵌入
+## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
 在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
 
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## 使用基于Setter的API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}嵌入
+## 使用基于Setter的API嵌入 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会获取任何参数，并且配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
 
