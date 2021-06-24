@@ -2,16 +2,15 @@
 description: 更新字体属性的信息。
 solution: Experience Manager
 title: FontFieldUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 12%
 
 ---
-
 
 # FontFieldUpdate{#fontfieldupdate}
 
@@ -31,4 +30,3 @@ ht-degree: 12%
 | `*`style`*` | `xsd:string` | 字体样式（有关值，请参阅字体样式）。 |
 | `*`typeName`*` | `xsd:string` | 字体类型名称。 |
 | `*`类型`*` | `xsd:string` | 字体类型（有关值，请参阅字体类型）。 |
-
