@@ -2,16 +2,15 @@
 description: 确定资产是否已准备好发布。
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 18%
 
 ---
-
 
 # setAssetPublishState{#setassetpublishstate}
 
@@ -19,7 +18,7 @@ ht-degree: 18%
 
 语法
 
-## 授权用户类型{#section-11bec77e50b24461bb8c8aacf016eec8}
+## 授权用户类型 {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +28,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->用户必须具有资产的读写权限。
+>用户必须具有资产的读取和写入权限。
 
 ## 参数 {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**Input(setAssetPublishStateParam)**
+**输入(setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -49,7 +48,7 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的手柄。 </td> 
+   <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -78,7 +77,7 @@ ht-degree: 18%
 
 **输出**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-c31ead6d0e594317a12c120509527792}
 
