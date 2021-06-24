@@ -1,17 +1,16 @@
 ---
 description: 介绍IPS API版本4.2的新数据类型和已更改的数据类型。
 solution: Experience Manager
-title: 数据类型新建和修改
-feature: Dynamic Media Classic,SDK/API
+title: 数据类型新增和修改
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
-
 
 # 数据类型：新建和已修改{#data-types-new-and-modified}
 
@@ -19,18 +18,18 @@ ht-degree: 3%
 
 语法
 
-## 新类型{#section-770a814386a44478881feeff2b6f65f5}
+## 新类型 {#section-770a814386a44478881feeff2b6f65f5}
 
 * `AudioInfo`
 * `CuePointInfo`
 * `PdfSettings`
 * `PremeierExpressRemixInfo`
 
-## 修改类型{#section-6c42b62dd91c4e9bb3a067b9abe3adee}
+## 修改的类型 {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
 **资源**
 
-添加的参数：
+添加了以下参数：
 
 * `readyForPublish`
 * `trashState`
@@ -42,9 +41,9 @@ ht-degree: 3%
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**ReprocessAssetsJob**
+**重新处理AssetsJob**
 
-添加的参数：
+添加了以下参数：
 
 * `preservePublishState`
 * `preserveCrop`
@@ -52,7 +51,7 @@ ht-degree: 3%
 
 **UploadDirectoryJob**
 
-添加的参数：
+添加了以下参数：
 
 * `preservePublishState`
 * `preserveCrop`
@@ -60,8 +59,7 @@ ht-degree: 3%
 
 **UploadUrlsJob**
 
-添加的参数：
+添加了以下参数：
 
 * `preservePublishState`
 * `preserveCrop`
-
