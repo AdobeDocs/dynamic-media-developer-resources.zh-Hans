@@ -2,16 +2,15 @@
 description: 字符串常量
 solution: Experience Manager
 title: 字符串常量
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
-
 
 # 字符串常量{#string-constants}
 
@@ -27,7 +26,7 @@ ht-degree: 6%
 * [字体样式](r-font-styles.md)
 * [字体类型](r-font-types.md)
 * [生成信息](r-generation-info.md)
-* [Illustrator进程](r-illustrator-processes.md)
+* [Illustrator流程](r-illustrator-processes.md)
 * [作业日志文件类型](r-job-log-file-types.md)
 * [作业日志排序字段](r-job-log-sort-fields.md)
 * [作业日志类型](r-job-log-types.md)
@@ -38,9 +37,9 @@ ht-degree: 6%
 * [PDF流程](r-pdf-processes.md)
 * [权限类型](r-permission-types.md)
 * [Photoshop锚点模式](r-photoshop-anchor-modes.md)
-* [Photoshop图层命名模式](r-photoshop-layer-naming-modes.md)
-* [PostScript色彩空间模式](r-postscript-colorspace-modes.md)
-* [用户档案类](r-profile-classes.md)
+* [Photoshop层命名模式](r-photoshop-layer-naming-modes.md)
+* [PostScript Colorspace模式](r-postscript-colorspace-modes.md)
+* [配置文件类](r-profile-classes.md)
 * [发布状态](r-publish-state.md)
 * [属性集类型](r-property-set-types.md)
 * [发布上下文](r-publish-context.md)
@@ -50,7 +49,7 @@ ht-degree: 6%
 * [排序方向](r-sort-directions.md)
 * [字符串比较运算符](r-string-comparison-operators.md)
 * [垃圾州](r-trash-state.md)
-* [用户字符筛选器字段](r-user-char-filter-fields.md)
+* [用户字符过滤器字段](r-user-char-filter-fields.md)
 * [用户角色](r-user-roles.md)
 * [用户排序字段](r-user-sort-fields.md)
 * [查看器类型](r-viewer-type.md)
