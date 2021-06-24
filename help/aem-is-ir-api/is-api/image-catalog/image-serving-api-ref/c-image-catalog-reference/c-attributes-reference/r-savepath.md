@@ -1,31 +1,30 @@
 ---
-description: saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+description: saveToFile=的根路径。 根文件夹的相对路径，应将通过req=saveToFile生成的图像写入到该根文件夹。
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
 
-
 # SavePath{#savepath}
 
-saveToFile=的根路径。 应将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+saveToFile=的根路径。 根文件夹的相对路径，应将通过req=saveToFile生成的图像写入到该根文件夹。
 
 `SavePath` 是文本字符串值。
 
 ## 属性 {#section-343d1371e966491c92854a8df14c3c50}
 
-文本字符串。 必须为空或有效的相对文件夹路径。 始终与使用`ImageServer::SaveDirectory`配置的绝对根路径组合。
+文本字符串。 必须为空或有效的相对文件夹路径。 始终与配置了`ImageServer::SaveDirectory`的绝对根路径组合。
 
 ## 默认 {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-如果未定义，则从`default::SavePath`继承。 如果解析的值为空，则禁用保存到文件。
+从`default::SavePath`继承（如果未定义）。 如果解析的值为空，则禁用“保存到文件”。
 
 ## 另请参阅 {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 
