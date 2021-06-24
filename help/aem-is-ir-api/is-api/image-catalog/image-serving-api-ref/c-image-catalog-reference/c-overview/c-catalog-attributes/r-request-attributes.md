@@ -2,16 +2,15 @@
 description: 目录属性文件可识别这些请求属性。
 solution: Experience Manager
 title: 请求属性
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f1f2905f-f4e8-4944-8b27-469f09aa4bce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # 请求属性{#request-attributes}
 
@@ -53,7 +52,7 @@ ht-degree: 0%
   <td class="stentry"> <p>错误消息详细信息。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> 受信任域</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> TrustedDomains</a> </span> </p></td> 
   <td class="stentry"> <p>允许Web域访问swf响应图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,7 +77,6 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68" type="reference" format="dita" scope="local"> ClientAddressFilter</a></span> </p></td> 
-  <td class="stentry"> <p>客户端IP地址筛选器。 </p></td> 
+  <td class="stentry"> <p>客户端IP地址过滤器。 </p></td> 
  </tr> 
 </table>
-
