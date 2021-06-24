@@ -2,18 +2,17 @@
 description: 包含有关资产的摘要信息的元数据搜索结果。
 solution: Experience Manager
 title: 资产摘要
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 11%
 
 ---
 
-
-# AssetSummary{#assetsummary}
+# 资产摘要{#assetsummary}
 
 包含有关资产的摘要信息的元数据搜索结果。
 
@@ -31,8 +30,7 @@ ht-degree: 11%
 | `*`created`*` | `xsd:dateTime` | 资产创建日期。 |
 | `*`createUser`*` | `xsd:string` | 创建资产的用户。 |
 | `*`lastModified`*` | `xsd:dateTime` | 资产上次更新的日期。 |
-| `*`lastModifyUser`*` | `xsd:string` | 上次修改资产的用户。 |
-| `*`metadataArray`*` | `types:MetadataArray` | 与资产关联的元数据值的数组。 |
-| `*`分数`*` | `xsd:double` | 定义相似性搜索时的精度（0 =无匹配，1 =精确匹配）。 |
-| `*`scoreDetail`*` | `xsd:string` | 保存由于相似性搜索而生成的类似区域的详细信息。 |
-
+| `*`lastModifyUser`*` | `xsd:string` | 修改资产的最后一个用户。 |
+| `*`metadataArray`*` | `types:MetadataArray` | 与资产关联的元数据值数组。 |
+| `*`分数`*` | `xsd:double` | 在进行相似性搜索时定义精度（0 =无匹配，1 =精确匹配）。 |
+| `*`scoreDetail`*` | `xsd:string` | 包含有关相似区域作为相似性搜索结果的详细信息。 |
