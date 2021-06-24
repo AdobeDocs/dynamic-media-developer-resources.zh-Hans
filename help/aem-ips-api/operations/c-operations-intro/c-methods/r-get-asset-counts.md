@@ -2,25 +2,24 @@
 description: 获取与特定公司关联的资产和资产数量。
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic，SDK/API，资产管理
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
-
 
 # getAssetCounts{#getassetcounts}
 
 获取与特定公司关联的资产和资产数量。
 
-返回的`countArray`由`assetTypes`（数据类型`xsd:string`）的数组组成，每个数组都有自己的计数字段（数据类型`xsd:int`），允许每个数组元素表示多个资源类型。
+返回的`countArray`由`assetTypes`（数据类型`xsd:string`）的数组组成，每个数组都有其自己的计数字段（数据类型`xsd:int`），允许每个数组元素表示多种资产类型。
 语法
 
-## 授权用户类型{#section-6234754722184e828352f10eb18fbce9}
+## 授权用户类型 {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,17 +37,17 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要计数资产的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要计数资产的公司的句柄。 |
 
-**输出(getAssetCountsReturn)**
+**Output(getAssetCountsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型都有其自己的计数字段，允许对数组中每个元素表示多个资产类型。 |
+| `*`countArray`*` | `types:AssetCountArray` | 否 | 资产类型的数组，每个资产类型具有自己的计数字段，允许对数组的每个元素表示多个资产类型。 |
 
 ## 示例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-此代码示例将公司的句柄用作发送到IPS Web服务器的`getAssetCountsParam`中的字段，以获取资产计数。
+此代码示例将公司的句柄用作发送到IPS Web服务服务器的`getAssetCountsParam`中的字段，以获取资产计数。
 
 **请求**
 
@@ -74,4 +73,3 @@ ht-degree: 10%
    </countArray>
 </getAssetCountsReturn>
 ```
-
