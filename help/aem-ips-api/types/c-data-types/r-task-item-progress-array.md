@@ -1,21 +1,20 @@
 ---
-description: 有关任务项的数组信息。
+description: 有关任务项的信息数组。
 solution: Experience Manager
 title: TaskItemProgressArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
 
-
 # TaskItemProgressArray{#taskitemprogressarray}
 
-有关任务项的数组信息。
+有关任务项的信息数组。
 
 语法
 
@@ -23,5 +22,4 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:TaskItemProgress` | 任务项进度数组。 最小值为零。 最大值是无界的。 |
-
+| `*`项目`*` | `types:TaskItemProgress` | 任务项进度数组。 最小发生次数为零。 最大值无界。 |
