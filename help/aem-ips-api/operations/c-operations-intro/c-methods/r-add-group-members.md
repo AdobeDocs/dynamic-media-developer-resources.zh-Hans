@@ -1,25 +1,24 @@
 ---
-description: 将特定公司的用户添加到特定组。
+description: 将特定公司的用户添加到特定群组。
 solution: Experience Manager
 title: addGroupMembers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 12%
 
 ---
 
-
 # addGroupMembers{#addgroupmembers}
 
-将特定公司的用户添加到特定组。
+将特定公司的用户添加到特定群组。
 
 语法
 
-## 授权用户类型{#section-b4406c54ed7c4827be4c1acc957e0057}
+## 授权用户类型 {#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,17 +30,17 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 | `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要添加到组的用户的句柄数组。 |
+| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要添加到群组的用户的句柄数组。 |
 
 **输出(addGroupMembersParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-此示例使用`*`addGroupMembersParam`*`将用户添加到单个公司。 IPS API不返回此操作的响应。
+此示例使用`*`addGroupMembersParam`*`将用户添加到单个公司。 IPS API不会返回此操作的响应。
 
 **请求**
 
