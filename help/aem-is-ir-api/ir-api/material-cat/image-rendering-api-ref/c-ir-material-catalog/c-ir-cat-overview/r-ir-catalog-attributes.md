@@ -1,21 +1,20 @@
 ---
-description: 目录属性文件中可识别以下属性。
+description: 以下属性在目录属性文件中可识别。
 solution: Experience Manager
 title: 目录属性
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
 
-
 # 目录属性{#catalog-attributes}
 
-目录属性文件中可识别以下属性。
+以下属性在目录属性文件中可识别。
 
 <table id="simpletable_B838784803D34B0293D7F7C6131045D3"> 
  <thead class="sthead"> 
@@ -28,18 +27,18 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md#reference-ad2c6d08008d415b9f47da17bd3447d2" type="reference" format="dita" scope="local"> VignetteMapFile</a> </p> </td> 
-  <td class="stentry"> <p>关联晕影映射文件的路径或名称。 </p></td> 
+  <td class="stentry"> <p>关联的晕影映射文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilemapfile.md#reference-6b48159c50c548e697ff7365672a972e" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </p></td> 
-  <td class="stentry"> <p>关联的ICC用户档案映射文件的路径或名称。 </p></td> 
+  <td class="stentry"> <p>关联的ICC配置文件映射文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> MacroFile  </a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-macrofile.md#reference-20d550f7841b4541ab69550519cdbef3" type="reference" format="dita" scope="local"> 宏文件  </a> </p> </td> 
   <td class="stentry"> <p>关联的宏定义文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rulesetfile.md#reference-8c49cc8f4e9b4f6f8c402a360cd00c68" type="reference" format="dita" scope="local"> 规则集文件  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rulesetfile.md#reference-8c49cc8f4e9b4f6f8c402a360cd00c68" type="reference" format="dita" scope="local"> RuleSetFile  </a> </p></td> 
   <td class="stentry"> <p>定义URL预处理器规则的关联文件的路径或名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -48,7 +47,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3" type="reference" format="dita" scope="local"> RootPath  </a> </p></td> 
-  <td class="stentry"> <p>所有源数据文件(晕影、材料和用户档案)的根路径。 </p></td> 
+  <td class="stentry"> <p>所有源数据文件（晕影、材料和配置文件）的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181" type="reference" format="dita" scope="local"> 时间戳  </a> </p></td> 
@@ -95,19 +94,19 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> 过期时间 </a> </p></td> 
-  <td class="stentry"> <p>默认客户端缓存的实时时间。 </p></td> 
+  <td class="stentry"> <p>默认客户端缓存生存时间。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified  </a> </p></td> 
-  <td class="stentry"> <p>启用上次修改时间的HTTP响应头。 </p></td> 
+  <td class="stentry"> <p>启用上次修改的HTTP响应标头。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> 受信任域  </a> </p> </td> 
-  <td class="stentry"> <p>允许访问<span class="filepath"> swf</span>响应图像的Web域。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains  </a> </p> </td> 
+  <td class="stentry"> <p>允许Web域访问<span class="filepath"> swf</span>响应图像。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter  </a> </p></td> 
-  <td class="stentry"> <p>客户端IP地址筛选器。 </p></td> 
+  <td class="stentry"> <p>客户端IP地址过滤器。 </p></td> 
  </tr> 
 </table>
 
@@ -122,7 +121,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> 分辨率 </a> </p></td> 
-  <td class="stentry"> <p>默认纹理/倾斜分辨率。 </p></td> 
+  <td class="stentry"> <p>默认纹理/德卡尔分辨率。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> 清晰 </a> </p></td> 
@@ -137,11 +136,11 @@ ht-degree: 3%
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> DefaultPix  </a> </p></td> 
-  <td class="stentry"> <p>返回图像的默认大小。 </p></td> 
+  <td class="stentry"> <p>回复图像的默认大小。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> MaxPix  </a> </p></td> 
-  <td class="stentry"> <p>返回图像的大小限制。 </p></td> 
+  <td class="stentry"> <p>回复图像的大小限制。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-resmode.md#reference-fdca7eb6d5104fdeae9d6ac42251db82" type="reference" format="dita" scope="local"> ResMode  </a> </p></td> 
@@ -153,11 +152,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> 格式 </a> </p></td> 
-  <td class="stentry"> <p>返回图像的默认格式。 </p></td> 
+  <td class="stentry"> <p>回复图像的默认格式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50" type="reference" format="dita" scope="local"> JpegQuality  </a> </p></td> 
-  <td class="stentry"> <p>默认jpeg品质。 </p></td> 
+  <td class="stentry"> <p>默认jpeg质量。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding  </a> </p></td> 
@@ -172,39 +171,38 @@ ht-degree: 3%
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb  </a> </p></td> 
-  <td class="stentry"> 默认RGB输出颜色用户档案。</td> 
+  <td class="stentry"> 默认RGB输出颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk  </a> </p></td> 
-  <td class="stentry"> 默认CMYK输出颜色用户档案。</td> 
+  <td class="stentry"> 默认CMYK输出颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> IccProfileGray  </a> </p></td> 
-  <td class="stentry"> 默认灰度输出颜色用户档案。</td> 
+  <td class="stentry"> 默认灰度输出颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrccmyk.md#reference-0256cae955404ebc92d5d0d1fa095ea2" type="reference" format="dita" scope="local"> IccProfileSrcCmyk  </a> </p></td> 
-  <td class="stentry"> 默认CMYK输入颜色用户档案。</td> 
+  <td class="stentry"> 默认CMYK输入颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcgray.md#reference-a2abcd4aa5864738bbea8f55706deaf2" type="reference" format="dita" scope="local"> IccProfileSrcGray  </a> </p></td> 
-  <td class="stentry"> 默认灰度输入颜色用户档案。</td> 
+  <td class="stentry"> 默认灰度输入颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49" type="reference" format="dita" scope="local"> IccProfileSrcRgb  </a> </p></td> 
-  <td class="stentry"> 默认RGB输入颜色用户档案。</td> 
+  <td class="stentry"> 默认RGB输入颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent  </a> </p> </td> 
-  <td class="stentry"> 默认渲染方法。</td> 
+  <td class="stentry"> 缺省渲染意图。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0" type="reference" format="dita" scope="local"> IccBlackPointCompensation  </a> </p> </td> 
-  <td class="stentry"> 启用/禁用黑场补偿。</td> 
+  <td class="stentry"> 启用/禁用黑点补偿。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccdither.md#reference-019855df56fe4df9b7dde9e3acd11460" type="reference" format="dita" scope="local"> IccDither  </a> </p></td> 
-  <td class="stentry"> 启用/禁用颜色转换仿色。</td> 
+  <td class="stentry"> 启用/禁用颜色转换抖动。</td> 
  </tr> 
 </table>
-
