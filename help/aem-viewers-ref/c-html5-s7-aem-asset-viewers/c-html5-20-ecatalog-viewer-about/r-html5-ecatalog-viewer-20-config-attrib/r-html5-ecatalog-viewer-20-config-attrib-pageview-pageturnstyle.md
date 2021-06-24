@@ -2,28 +2,27 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
-
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
 ` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdiverColordiverOpacityborderOnOffborderColorfillColor`*`
 
-在桌面系统上将`PageView.frametransition`设置为`turn`或`auto`时控制组件外观。
+在桌面系统上将`PageView.frametransition`设置为`turn`或`auto`时，控制组件外观。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 分隔跨页中左和右页的页面分隔阴影的宽度（以像素为单位）。 它还控制在车削页面旁边显示的正在运行的阴影的宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> diverWidth</span></span> </p> </td> 
+   <td colname="col2"> <p> 分隔跨页中左和右页面的页面分隔阴影的宽度（以像素为单位）。 它还控制在车削页面旁边显示的运行阴影的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
@@ -31,11 +30,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>范围内的阴影不透明度。 </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>的范围内的阴影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 标志（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>），可打开和关闭翻页周围的边框。 </p> </td> 
+   <td colname="col2"> <p> 打开和关闭在翻页周围的边框的标记（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
@@ -43,7 +42,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> 在翻页动画期间使用的组件区域的纯色填充，采用RRGGBB格式。 </p> </td> 
+   <td colname="col2"> <p> 在翻页动画期间使用的元件区域的实体填充的颜色（RRGGBB格式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
