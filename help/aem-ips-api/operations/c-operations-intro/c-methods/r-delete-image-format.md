@@ -2,16 +2,15 @@
 description: 删除图像格式。 从saveImageFormat获取图像格式句柄。
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 11%
 
 ---
-
 
 # deleteImageFormat{#deleteimageformat}
 
@@ -19,7 +18,7 @@ ht-degree: 11%
 
 语法
 
-## 授权用户类型{#section-827e24a3019543418b0a635d46c1edfd}
+## 授权用户类型 {#section-827e24a3019543418b0a635d46c1edfd}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,16 +31,16 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像格式的公司的句柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像格式的公司句柄。 |
 | `*`imageFormatHandle`*` | `xsd:string` | 是 | 要删除的图像格式的句柄。 |
 
 **输出(deleteImageFormatParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-此代码示例从公司中删除图像格式。 从其他操作获取图像格式句柄。
+此代码示例会从公司中删除图像格式。 从其他操作中获取图像格式句柄。
 
 **请求**
 
