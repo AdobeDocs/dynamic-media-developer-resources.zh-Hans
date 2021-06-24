@@ -1,27 +1,26 @@
 ---
-description: 查看器在主视图上显示搜索结果区域，以突出显示在目录中找到的词或短语。
+description: 查看器在主视图上方显示搜索结果区域，以突出显示在目录中找到的词或短语。
 solution: Experience Manager
 title: 搜索效果
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
 
-
 # 搜索效果{#search-effect}
 
-查看器在主视图上显示搜索结果区域，以突出显示在目录中找到的词或短语。
+查看器在主视图上方显示搜索结果区域，以突出显示在目录中找到的词或短语。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-使用以下CSS类选择器控制搜索结果区域的外观：
+通过以下CSS类选择器控制搜索结果区域的外观：
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -40,11 +39,10 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-示例 — 设置具有半透明黄色填充的搜索结果区域：
+示例 — 要使用半透明的黄色填充来设置搜索结果区域，请执行以下操作：
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
