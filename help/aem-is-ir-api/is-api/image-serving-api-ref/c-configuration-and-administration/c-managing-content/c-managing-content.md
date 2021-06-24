@@ -1,21 +1,20 @@
 ---
-description: 这些主题包含有关管理内容的信息。
+description: 以下主题包含有关管理内容的信息。
 solution: Experience Manager
 title: 管理内容
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f79201d3-a423-42f0-815b-2e91a22eb6f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
-
 # 管理内容{#managing-content}
 
-这些主题包含有关管理内容的信息。
+以下主题包含有关管理内容的信息。
 
 * [图像目录](c-image-catalogs.md)
 * [源数据](r-source-data.md)
