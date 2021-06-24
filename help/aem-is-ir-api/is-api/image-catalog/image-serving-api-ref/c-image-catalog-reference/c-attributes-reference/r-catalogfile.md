@@ -2,22 +2,21 @@
 description: 图像数据文件路径。 指定包含此目录的图像数据的文件。
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
-
 
 # CatalogFile{#catalogfile}
 
 图像数据文件路径。 指定包含此目录的图像数据的文件。
 
-图像数据文件按指定的顺序加载。 如果多条记录（在同一或不同的目录文件中）中出现相同的`catalog::Id`值，则最后一个实例优先。
+图像数据文件按指定的顺序加载。 如果同一`catalog::Id`值出现在多个记录中（在相同或不同的目录文件中），则最后一个实例占上风。
 
 ## 属性 {#section-6da55f145ecd4e31a5de52637a436983}
 
@@ -25,7 +24,7 @@ ht-degree: 4%
 
 ## 默认 {#section-80f91cd7a6b2479ebb310319e9c74da7}
 
-空，表示此图像目录不包含任何图像数据。
+为空，表示此图像目录不包含任何图像数据。
 
 ## 另请参阅 {#section-910b67c5041d44d99a105ad43ff63a37}
 
