@@ -1,17 +1,16 @@
 ---
 description: 规则集定义文件路径。 指定包含此材料目录的规则集定义的文件。
 solution: Experience Manager
-title: 规则集文件
-feature: Dynamic Media Classic,SDK/API
+title: RuleSetFile
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 66c211e7-1c40-47f1-b850-4b7ee6255a84
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
-
 
 # RuleSetFile{#rulesetfile}
 
@@ -23,7 +22,7 @@ ht-degree: 5%
 
 ## 默认 {#section-69b1f865aa8d476bb087dc862e903ab1}
 
-空，表示此物料目录没有私有请求预处理规则。
+为空，表示此材料目录没有专用请求预处理规则。
 
 ## 另请参阅 {#section-84ba472b7ba0457f9f607a21ab44da16}
 
