@@ -1,25 +1,24 @@
 ---
-description: 返回基于图像背景颜色或透明度的图像裁剪区域。
+description: 根据图像的背景颜色或透明度返回图像的裁剪区域。
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 14%
 
 ---
 
-
 # getAutoCropRect{#getautocroprect}
 
-返回基于图像背景颜色或透明度的图像裁剪区域。
+根据图像的背景颜色或透明度返回图像的裁剪区域。
 
 语法
 
-## 授权用户类型{#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 授权用户类型 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,14 +34,14 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->调用此方法时，请指定`*`autoColorCropOptions`*`或`*`autoTransparentCropOptions`*`。
+>在调用此方法时，指定`*`autoColorCropOptions`*`或`*`autoTransparentCropOptions`*`。
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要处理的资产的公司。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要处理的资产的公司的句柄。 |
 | `*`assetHandle`*` | `xsd:string` | 是 | 要处理的资产的句柄。 |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根据颜色计算裁剪矩形。 请参阅[ AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根据透明度计算裁剪矩形。 请参阅[ AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 否 | 根据颜色计算裁剪矩形。 请参阅[AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)。 |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 否 | 根据透明度计算裁剪矩形。 请参阅[AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)。 |
 
 **输出(getAutoCropRectReturn)**
 
@@ -82,5 +81,5 @@ ht-degree: 14%
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
