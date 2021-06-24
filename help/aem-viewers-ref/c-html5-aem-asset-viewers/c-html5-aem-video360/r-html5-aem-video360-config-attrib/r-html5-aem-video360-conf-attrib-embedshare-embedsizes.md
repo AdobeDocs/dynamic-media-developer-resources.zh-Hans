@@ -2,13 +2,12 @@
 description: Video360查看器的配置属性。
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
 role: Developer,Business Practitioner
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 10%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 10%
 
 Video360查看器的配置属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽`*, *``*[,0|1][; *``*, *`高双高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-在“嵌入共享模式”对话框中，为“大小”组合框指定嵌入大小列表。
+在“嵌入共享”模式对话框中，为“大小”组合框指定嵌入大小列表。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -33,7 +32,7 @@ Video360查看器的配置属性。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否应在组合框中预先选择此列表项。 </p> </td> 
+   <td colname="col2"> <p> 指定是否应在组合框中最初预选此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
