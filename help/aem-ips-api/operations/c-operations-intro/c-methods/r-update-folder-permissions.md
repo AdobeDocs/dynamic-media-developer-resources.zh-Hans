@@ -2,16 +2,15 @@
 description: 更新文件夹权限。
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 语法
 
-## 授权用户类型{#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授权用户类型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,14 +30,14 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
 | `*`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| `*`updateChildren`*` | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限更新子级。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 要应用到该文件夹的权限更新的数组。 |
+| `*`updateChildren`*` | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限来更新子项。 |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 要应用于文件夹的权限更新数组。 |
 
 **输出(updateFolderPermissionsReturn)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-c3fe4d4388674870a3856c35ef66b631}
 
