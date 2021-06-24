@@ -2,16 +2,15 @@
 description: 更新字段元数据。
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic，SDK/API，元数据
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 21%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -19,7 +18,7 @@ ht-degree: 21%
 
 语法
 
-## 授权用户类型{#section-540e91823fee49a4920ca738f7bfeb99}
+## 授权用户类型 {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +26,7 @@ ht-degree: 21%
 
 ## 参数 {#section-69681ed1ddff437ca1c73f46fe835c96}
 
-**Input(updateMetadataFieldParam)**
+**输入(updateMetadataFieldParam)**
 
 <table id="table_65D6EE6C402E4F01819822A855B6BB7F"> 
  <thead> 
@@ -43,7 +42,7 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司手柄。 </td> 
+   <td colname="col4"> 公司负责人。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -52,7 +51,7 @@ ht-degree: 21%
    <td colname="col4"> 元数据字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名称</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 元数据字段名称。 </td> 
@@ -67,24 +66,24 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或公开特定于IPS系统的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>一个布尔标志，指示设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 用于创建一组选定标记可以指向的共享枚举值。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(updateMetadataFieldReturn)**
+**Output(updateMetadataFieldReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -92,7 +91,7 @@ ht-degree: 21%
 
 ## 示例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-此代码示例更新为元数据字段分配新名称和默认值。 响应将返回更新字段的句柄。
+此代码示例更新为元数据字段分配新名称和默认值。 响应会向更新的字段返回句柄。
 
 **请求**
 
@@ -112,4 +111,3 @@ ht-degree: 21%
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
