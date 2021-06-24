@@ -2,18 +2,17 @@
 description: 缩放图像。 相对于全分辨率图像按因子缩放图像。
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 8%
 
 ---
 
-
-# scale{#scale}
+# 比例{#scale}
 
 缩放图像。 相对于全分辨率图像按因子缩放图像。
 
@@ -22,7 +21,7 @@ ht-degree: 8%
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 因子</span></span> </p> </td> 
-  <td class="stentry"> <p>缩放因子（实数，&gt;0）。 </p></td> 
+  <td class="stentry"> <p>比例因子（实数，&gt;0）。 </p></td> 
  </tr> 
 </table>
 
