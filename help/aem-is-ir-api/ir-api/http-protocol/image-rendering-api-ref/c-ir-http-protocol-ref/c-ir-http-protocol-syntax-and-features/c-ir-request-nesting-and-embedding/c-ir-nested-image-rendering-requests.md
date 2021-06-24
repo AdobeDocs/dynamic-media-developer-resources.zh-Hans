@@ -1,23 +1,22 @@
 ---
-description: 对于高级应用，可以将渲染操作的结果用作物质图像，就像从图像服务获得的图像一样。
+description: 对于高级应用，可以将渲染操作的结果用作材料图像，就像从图像提供中获得的图像一样。
 solution: Experience Manager
 title: 嵌套图像渲染请求
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 52c12786-bbe7-4410-87bb-6245d782a68c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
-
 # 嵌套图像渲染请求{#nested-image-rendering-requests}
 
-对于高级应用，可以将渲染操作的结果用作物质图像，就像从图像服务获得的图像一样。
+对于高级应用，可以将渲染操作的结果用作材料图像，就像从图像提供中获得的图像一样。
 
-通过在`src=`命令中指定渲染请求，可以将其用作物质图像，如下所示：
+呈现请求可通过在`src=`命令中指定来用作物质图像，如下所示：
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
@@ -35,6 +34,6 @@ ht-degree: 0%
 * `req=`
 * `bgc=`
 
-同样被忽略的是应用于嵌套渲染请求的材料目录的`attribute::MaxPix`和`attribute::DefaultPix`。
+此外，还忽略了应用于嵌套呈现请求的材料目录的`attribute::MaxPix`和`attribute::DefaultPix`。
 
-可以通过包括`cache=on`来选择性地缓存嵌套IR请求的图像结果。 默认情况下，中间数据的缓存处于禁用状态。 仅当预期在合理时间段内在不同请求中重复使用中间图像时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式缓存。
+可选择通过包含`cache=on`来缓存嵌套IR请求的图像结果。 默认情况下，中间数据的缓存处于禁用状态。 仅当中间图像预期在合理时间段内在其他请求中重复使用时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式缓存。
