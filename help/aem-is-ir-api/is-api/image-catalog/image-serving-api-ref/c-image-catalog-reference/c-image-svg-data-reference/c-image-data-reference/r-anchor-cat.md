@@ -1,29 +1,28 @@
 ---
-description: 图像锚点。 来源点，当此图像用作模板或复合图像中的图层时。
+description: 图像锚点。 此图像用作模板或复合图像中的图层时的原点。
 solution: Experience Manager
 title: 锚点
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-
 # 锚点{#anchor}
 
-图像锚点。 来源点，当此图像用作模板或复合图像中的图层时。
+图像锚点。 此图像用作模板或复合图像中的图层时的原点。
 
-还定义旋转的默认中心点。
+还定义旋转的缺省中心点。
 
 ## 属性 {#section-95740f14160744e7bc763094b8be40d8}
 
-两个整数，以逗号分隔。 相对于全分辨率图像左上角的像素偏移。
+两个整数数字，以逗号分隔。 相对于全分辨率图像的左上角的像素偏移。
 
-由`anchor=`覆盖（而`origin=`又可以覆盖）。
+由`anchor=`覆盖（这又可以由`origin=`覆盖）。
 
 ## 默认 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
@@ -31,4 +30,4 @@ ht-degree: 5%
 
 ## 另请参阅 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
-[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) , [来源=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ,  [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
