@@ -1,21 +1,20 @@
 ---
-description: 无论这些命令在请求中出现在何处，这些命令都会应用。
+description: 无论这些命令在请求中显示在何处，这些命令都适用。
 solution: Experience Manager
 title: 请求命令
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
-
 # 请求命令{#request-commands}
 
-无论这些命令在请求中出现在何处，这些命令都会应用。
+无论这些命令在请求中显示在何处，这些命令都适用。
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
@@ -31,16 +30,16 @@ ht-degree: 2%
   <td class="stentry"> <p>指定图像格式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> ic</a> </p></td> 
-  <td class="stentry"> <p>设置输出颜色用户档案。 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
+  <td class="stentry"> <p>设置输出颜色配置文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
-  <td class="stentry"> <p>在回复图像中嵌入颜色用户档案。 </p></td> 
+  <td class="stentry"> <p>在回复图像中嵌入颜色配置文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>将Photoshop路径数据嵌入回复图像。 </p></td> 
+  <td class="stentry"> <p>将Photoshop路径数据嵌入到回复图像中。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
@@ -48,7 +47,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
-  <td class="stentry"> <p>指定嵌入在回复图像中的打印分辨率值。 </p></td> 
+  <td class="stentry"> <p>指定在回复图像中嵌入的打印分辨率值。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
@@ -56,10 +55,10 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 数量</a> </p> </td> 
-  <td class="stentry"> <p>指定GIF输出的颜色量化属性。 </p></td> 
+  <td class="stentry"> <p>为GIF输出指定颜色量化属性。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> 请求</a> </p></td> 
   <td class="stentry"> <p>选择请求类型。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -83,4 +82,3 @@ ht-degree: 2%
   <td class="stentry"> <p>指定要用于此请求的图像集。 </p></td> 
  </tr> 
 </table>
-
