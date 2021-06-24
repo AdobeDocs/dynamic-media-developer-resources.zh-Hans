@@ -1,21 +1,20 @@
 ---
-description: 播放图标会覆盖在视频视图区域上。 它在暂停视频或到达视频末尾时显示，还取决于iconeffect参数。
+description: 播放图标叠加在视频查看区域上。 它在视频暂停时或到达视频结尾时显示，并且还取决于iconeffect参数。
 solution: Experience Manager
 title: 视频播放器图标效果
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1e0bd97f-20e9-41e6-95fc-d693644152da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
 
-
 # 视频播放器图标效果{#video-player-icon-effect}
 
-播放图标会覆盖在视频视图区域上。 它在暂停视频或到达视频末尾时显示，还取决于iconeffect参数。
+播放图标叠加在视频查看区域上。 它在视频暂停时或到达视频结尾时显示，并且还取决于iconeffect参数。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS Sprite，则位于图稿Sprite内。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-图标效果支持`state`属性选择器。 `state="play"` 当视频在播放中间暂停时使用，当播 `state="replay"` 放头在流的末尾时使用。
+图标效果支持`state`属性选择器。 `state="play"` 在播放过程中暂停视频时使用，在播 `state="replay"` 放头位于流末尾时使用。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -65,4 +64,3 @@ background-image: url(images/playIcon.png);
 background-image: url(images/replayIcon.png); 
 }
 ```
-
