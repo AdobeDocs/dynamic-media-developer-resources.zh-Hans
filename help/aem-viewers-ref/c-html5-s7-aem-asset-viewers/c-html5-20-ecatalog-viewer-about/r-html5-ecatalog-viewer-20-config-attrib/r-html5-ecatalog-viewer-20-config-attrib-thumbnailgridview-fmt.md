@@ -2,16 +2,15 @@
 description: ThumbnailGridView.fmt
 solution: Experience Manager
 title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 916ee5d1-e398-4923-9107-96f649033298
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.fmt{#thumbnailgridview-fmt}
 
