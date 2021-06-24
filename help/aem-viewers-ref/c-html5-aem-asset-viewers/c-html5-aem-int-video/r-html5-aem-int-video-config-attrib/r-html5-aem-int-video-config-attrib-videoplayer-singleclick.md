@@ -2,14 +2,13 @@
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,Business Practitioner
 exl-id: 038640c7-ae8c-43e0-979b-6010bb5e40fb
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 配置单击/点按以切换播放/暂停的映射。 设置为<span class="codeph"> none</span>将禁用单击/点按以播放/暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，禁用<span class="codeph"> singlick</span>行为。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按的映射以切换播放/暂停。 将设置为<span class="codeph"> none</span>会禁用单击/点按播放/暂停。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，<span class="codeph"> singlick</span>行为被禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
