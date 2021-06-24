@@ -2,16 +2,15 @@
 description: 删除图像映射。
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 12%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
@@ -19,7 +18,7 @@ ht-degree: 12%
 
 语法
 
-## 授权用户类型{#section-41fd188af16a40d4b07923165bcf15d8}
+## 授权用户类型 {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,24 +29,24 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->用户必须具有资产的读写权限。
+>用户必须具有资产的读取和写入权限。
 
 ## 参数 {#section-28de12bab79045a5977c68855e37ae3d}
 
-**输入(deleteImageMapParam)**
+**Input(deleteImageMapParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像映射的公司的手柄。 |
-| `*`imageMapHandle`*` | `xsd:string` | 是 | 要删除的图像映射的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像映射的公司的句柄。 |
+| `*`imageMapHandle`*` | `xsd:string` | 是 | 要删除的图像映射的句柄。 |
 
 **输出(deleteImageMapParam)**
 
-IPS API不返回此操作的响应。
+IPS API不会返回此操作的响应。
 
 ## 示例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-此代码范例将从公司中删除图像映射。 必须从其他操作获取图像映射句柄。
+此代码示例会从公司中删除图像映射。 必须从其他操作中获取图像映射句柄。
 
 **请求**
 
