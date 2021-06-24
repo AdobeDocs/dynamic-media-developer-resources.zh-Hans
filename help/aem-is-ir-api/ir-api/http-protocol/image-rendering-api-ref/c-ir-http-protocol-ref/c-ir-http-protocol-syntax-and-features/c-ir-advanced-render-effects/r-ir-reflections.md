@@ -1,21 +1,20 @@
 ---
-description: 可创作晕影以包含近3D反射数据。
+description: 可以创作晕影以包含近3D反射数据。
 solution: Experience Manager
 title: 反射
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 3%
 
 ---
 
-
 # 反射{#reflections}
 
-可创作晕影以包含近3D反射数据。
+可以创作晕影以包含近3D反射数据。
 
 如果创作了该属性，则使用以下材料属性来定义材料的反射表面属性：
 
@@ -34,8 +33,8 @@ ht-degree: 3%
    <td> <p>从晕影 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> 格洛斯地图=  </span> </a> </p> </td> 
-   <td> <p>光泽变化（灰度图像） </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glosmap=  </span> </a> </p> </td> 
+   <td> <p>光泽度变化（灰度图像） </p> </td> 
    <td> <p>无 </p> </td> 
   </tr> 
   <tr> 
@@ -51,6 +50,6 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-呈示器根据`type=`调整`gloss=`和`rough=`属性的范围。 某些材料类型，如织物，通常比石或金属等材料类型反射更少，而为一种材料指定的相同光泽量将导致与另一种材料不同的反射效果。 `gloss=`如果未指定或设置为0，则 `type=` 粗糙度具有相当宽的色域。
+渲染器根据`type=`调整`gloss=`和`rough=`属性的范围。 一些材料类型，如织物，通常比诸如石头或金属之类的材料类型反射得少，并且为一种材料指定的相同光泽量将产生与另一种材料不同的反射效果。 `gloss=`未指定或设置为0时，粗糙 `type=` 度具有相当宽的色域。
 
-`glossmap=` 可用于逐个像素控制材料的光泽度。
+`glossmap=` 可用于逐像素地控制材料的光泽度。
