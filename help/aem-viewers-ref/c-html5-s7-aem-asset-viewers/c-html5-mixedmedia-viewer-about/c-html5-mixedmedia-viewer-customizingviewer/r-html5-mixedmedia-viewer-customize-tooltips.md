@@ -1,27 +1,26 @@
 ---
-description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
+description: 在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bbf8e8f0-eb1c-49fa-a501-4c7ed7827595
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 6%
 
 ---
 
-
 # 工具提示{#tooltips}
 
-在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
+在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-工具提示的外观由以下CSS类选择器控制：
+通过以下CSS类选择器控制工具提示的外观：
 
 ```
 .s7tooltip
@@ -36,7 +35,7 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框半径  </span> </p> </td> 
    <td colname="col2"> <p> 背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +43,7 @@ ht-degree: 6%
    <td colname="col2"> <p> 背景边框颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
    <td colname="col2"> <p> 背景颜色. </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ ht-degree: 6%
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
    <td colname="col2"> <p>文本字体名称. </p> </td> 
   </tr> 
   <tr> 
@@ -64,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果工具提示样式是从嵌入网页中自定义的，则所有属性必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则不必这样做。
+>如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需执行此操作。
 
-示例 — 设置工具提示，其中的灰色边框具有3px圆角半径、黑色背景和用Arial文件编写的白色文本，大小为11像素：
+示例 — 要设置工具提示，其中的灰色边框具有3像素的角半径、黑色背景和用Arial编写的白色文本，大小为11像素：
 
 ```
 .s7tooltip { 
@@ -78,4 +77,3 @@ ht-degree: 6%
  font-size: 11px; 
 }
 ```
-
