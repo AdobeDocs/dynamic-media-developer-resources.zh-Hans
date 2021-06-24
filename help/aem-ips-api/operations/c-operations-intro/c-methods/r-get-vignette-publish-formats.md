@@ -2,22 +2,21 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic，SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 22%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
 语法
 
-## 已授权的用户类型{#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 授权的用户类型 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,9 +29,9 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的手柄。 |
+| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
 
-**输出(getVignettePublishFormatsReturn)**
+**Output(getVignettePublishFormatsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -40,7 +39,7 @@ ht-degree: 22%
 
 ## 示例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此代码示例返回与特定公司关联的两种晕影发布格式。 在数组中返回信息，该数组会截断为简短。
+此代码示例会返回与特定公司关联的两种晕影发布格式。 信息在数组中返回，该数组会为简短而被截断。
 
 **请求**
 
@@ -64,4 +63,3 @@ ht-degree: 22%
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
