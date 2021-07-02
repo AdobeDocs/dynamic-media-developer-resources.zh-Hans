@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic，SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
+source-git-commit: 770822631ccfd0f13d3f8f1f982eb29b56dd2d24
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 4%
 
 | *`format`* | 说明 |
 |---|---|
-| `avif-alpha` | 具有Alpha通道的有损和无损AVIF <br><br>*此格式的发布时间表：* <br><b>北美</b> — 现已推出<br><b>欧洲、中东、非洲</b> - 2021年8月13日<br><b>亚太</b> - 2021年6月29日 |
-| `avif` | 有损和无损的AVIF <br><br>*此格式的发布时间表：*<br><b>&#x200B;北美</b> — 现已推出<br><b>欧洲、中东、非洲</b> - 2021年8月13日<br><b>亚太</b> - 2021年6月29日 |
+| `avif-alpha` | 具有Alpha通道的有损和无损AVIF <br><br>*此格式的发布时间表：* <br><b>北美</b> — 现已提供<br><b>欧洲、中东、非洲</b> - 2021年8月13日<br><b>亚太</b> — 现已提供 |
+| `avif` | 有损和无损的AVIF <br><br>*此格式的发布时间表：*<br><b>&#x200B;北美</b> — 现已推出<br><b>欧洲、中东、非洲</b> - 2021年8月13日<br><b>亚太</b> — 现已推出 |
 | `eps` | 未压缩的二进制封装的PostScript |
 | `f4m` | Flash流服务器清单格式 |
 | `gif-alpha` | 2到255色加上键色透明度的GIF |
