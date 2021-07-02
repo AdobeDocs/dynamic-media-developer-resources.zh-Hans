@@ -5,7 +5,7 @@ title: 用户界面元素的本地化
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,Business Practitioner
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
