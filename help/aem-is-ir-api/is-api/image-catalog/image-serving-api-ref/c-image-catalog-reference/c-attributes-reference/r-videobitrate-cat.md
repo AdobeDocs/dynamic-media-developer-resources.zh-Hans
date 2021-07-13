@@ -3,9 +3,9 @@ description: 视频比特率。 允许指定与每个视频记录关联的比特
 solution: Experience Manager
 title: VideoBitRate
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e94d7338-5831-476b-b905-5c9419849c3f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 8%
