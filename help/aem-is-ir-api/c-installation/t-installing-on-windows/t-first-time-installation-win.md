@@ -3,9 +3,9 @@ description: 使用这些步骤在Windows上首次安装图像服务。
 solution: Experience Manager
 title: 首次安装
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
