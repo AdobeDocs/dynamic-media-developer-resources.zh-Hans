@@ -3,9 +3,9 @@ description: 缩放指示器覆盖在主视图区域上。 当图像处于重置
 solution: Experience Manager
 title: 图标效果
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 90877e39-04ac-4c6c-b7c9-98ffda9355f2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
