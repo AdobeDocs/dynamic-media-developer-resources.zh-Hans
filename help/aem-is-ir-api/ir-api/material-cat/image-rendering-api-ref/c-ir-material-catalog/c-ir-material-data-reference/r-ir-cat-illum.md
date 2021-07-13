@@ -3,9 +3,9 @@ description: 照明图选择器。 允许在呈现此材料时使用照明图的
 solution: Experience Manager
 title: 伊卢姆
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 4%
