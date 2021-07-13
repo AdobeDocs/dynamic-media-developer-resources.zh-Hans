@@ -3,9 +3,9 @@ description: 混合媒体查看器支持Adobe Analytics现成跟踪。
 solution: Experience Manager
 title: 支持Adobe Analytics跟踪
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 5%
