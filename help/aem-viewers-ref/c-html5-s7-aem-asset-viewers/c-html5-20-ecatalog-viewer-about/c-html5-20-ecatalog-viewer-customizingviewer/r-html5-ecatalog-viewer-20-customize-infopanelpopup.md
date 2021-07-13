@@ -3,9 +3,9 @@ description: 当用户激活的图像映射具有在Dynamic Media Classic中定�
 solution: Experience Manager
 title: “信息”面板弹出窗口
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 3%
