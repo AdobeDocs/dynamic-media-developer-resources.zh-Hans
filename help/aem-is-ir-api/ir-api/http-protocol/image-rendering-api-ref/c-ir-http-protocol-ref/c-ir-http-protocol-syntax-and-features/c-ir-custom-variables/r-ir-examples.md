@@ -3,9 +3,9 @@ description: 此示例使用“图像提供”对对象进行着色，并在一�
 solution: Experience Manager
 title: 示例
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 85f11642-e1ff-4bf0-bd21-d419805cff4a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 1%
