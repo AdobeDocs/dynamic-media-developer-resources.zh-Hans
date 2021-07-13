@@ -3,9 +3,9 @@ description: 混合媒体查看器显示的某些内容需要本地化。 这包
 solution: Experience Manager
 title: 用户界面元素的本地化
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
