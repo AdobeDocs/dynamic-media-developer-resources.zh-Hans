@@ -3,9 +3,9 @@ description: 无论这些命令在请求中显示在何处，这些命令都适�
 solution: Experience Manager
 title: 视图命令
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 4%
