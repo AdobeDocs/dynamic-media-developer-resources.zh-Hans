@@ -3,9 +3,9 @@ description: 锐化纹理。 指定渲染此材料时要应用的锐化。
 solution: Experience Manager
 title: 锐
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 6%
