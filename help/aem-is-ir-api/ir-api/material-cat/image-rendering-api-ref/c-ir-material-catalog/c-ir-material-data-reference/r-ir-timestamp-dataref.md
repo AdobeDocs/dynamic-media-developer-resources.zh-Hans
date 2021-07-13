@@ -3,9 +3,9 @@ description: 文件修改时间戳。 指定附加到此目录记录的图像和
 solution: Experience Manager
 title: 时间戳
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 1%
