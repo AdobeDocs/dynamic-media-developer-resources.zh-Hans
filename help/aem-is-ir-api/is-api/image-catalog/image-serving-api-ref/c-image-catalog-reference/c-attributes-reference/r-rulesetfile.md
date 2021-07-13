@@ -3,9 +3,9 @@ description: 规则集定义文件路径。 指定包含此图像目录的规则
 solution: Experience Manager
 title: RuleSetFile
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a9c0d748-c236-4a37-a181-729a27135a71
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 5%
