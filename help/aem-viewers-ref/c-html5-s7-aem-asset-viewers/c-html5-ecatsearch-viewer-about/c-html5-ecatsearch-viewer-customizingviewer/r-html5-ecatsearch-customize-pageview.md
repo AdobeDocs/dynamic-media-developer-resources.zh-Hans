@@ -3,9 +3,9 @@ description: 主视图由目录图像组成。 可以轻扫到其他页面或缩
 solution: Experience Manager
 title: 页面查看
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 4%
