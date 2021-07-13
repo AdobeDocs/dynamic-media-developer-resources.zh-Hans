@@ -3,9 +3,9 @@ description: 如果将jsonp指定为响应格式，则回复数据将使用JSONP
 solution: Experience Manager
 title: JSONP属性
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 1%
