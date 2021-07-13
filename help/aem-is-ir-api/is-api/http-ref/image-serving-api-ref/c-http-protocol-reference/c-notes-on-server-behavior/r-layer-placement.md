@@ -3,9 +3,9 @@ description: 通过将层原点（原点=）与背景层原点对准在pos=指�
 solution: Experience Manager
 title: 图层放置
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
