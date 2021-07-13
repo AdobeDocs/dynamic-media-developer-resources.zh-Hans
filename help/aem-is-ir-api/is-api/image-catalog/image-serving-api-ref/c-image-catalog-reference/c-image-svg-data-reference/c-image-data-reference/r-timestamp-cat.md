@@ -3,9 +3,9 @@ description: 时间戳
 solution: Experience Manager
 title: 时间戳
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5532b182-cc8c-4a51-844f-e70c758f80a1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 2%
