@@ -3,9 +3,9 @@ description: 单击或点按此按钮将重置在主视图和缩略图之间切�
 solution: Experience Manager
 title: “缩略图”按钮
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ddd976ca-6043-4930-8ce6-f58fad226ff3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
