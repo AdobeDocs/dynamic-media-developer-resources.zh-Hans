@@ -3,9 +3,9 @@ description: 音频比特率. 表示视频资产的音频比特率的长值。
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 16%
