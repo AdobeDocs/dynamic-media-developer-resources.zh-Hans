@@ -3,9 +3,9 @@ description: 晕影创作工具(Dynamic Media图像创作包的一部分)提供�
 solution: Experience Manager
 title: 高级渲染设置
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 25%
@@ -52,14 +52,14 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM金额(%)。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM半径（像素）。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>调整大小模式。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +109,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>超级取样：随机率。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>默认值为 5。 </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ ht-degree: 25%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>泊松：示例/像素。 </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ ht-degree: 25%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>泊松：使用切换。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
   </tr> 
   <tr> 
