@@ -3,9 +3,9 @@ description: Video360查看器的配置属性。
 solution: Experience Manager
 title: Video360Player.ssl
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 4%
