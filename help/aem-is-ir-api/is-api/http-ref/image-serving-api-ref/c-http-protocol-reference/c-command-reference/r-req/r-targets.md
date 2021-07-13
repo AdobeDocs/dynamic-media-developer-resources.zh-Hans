@@ -3,9 +3,9 @@ description: 缩放图像目录中的目标数据。 返回在URL路径中指定
 solution: Experience Manager
 title: 目标
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 8%
