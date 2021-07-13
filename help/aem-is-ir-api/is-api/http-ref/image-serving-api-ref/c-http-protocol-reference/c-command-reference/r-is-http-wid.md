@@ -3,9 +3,9 @@ description: 视图宽度。 指定请求中不存在fit=时响应图像（查�
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
