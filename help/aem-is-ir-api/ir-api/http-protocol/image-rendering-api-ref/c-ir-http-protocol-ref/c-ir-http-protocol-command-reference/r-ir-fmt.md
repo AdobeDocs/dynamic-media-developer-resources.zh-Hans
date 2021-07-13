@@ -3,9 +3,9 @@ description: 回复图像格式。 为发送到客户端的图像数据指定图
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 4%
