@@ -2,9 +2,9 @@
 description: 交互式图像查看器显示的某些内容需要本地化。 这包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
 title: 用户界面元素的本地化
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
