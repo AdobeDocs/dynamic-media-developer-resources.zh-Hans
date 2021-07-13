@@ -3,9 +3,9 @@ description: 当用户单击时，此按钮会使查看器进入或退出全屏�
 solution: Experience Manager
 title: 全屏按钮
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
