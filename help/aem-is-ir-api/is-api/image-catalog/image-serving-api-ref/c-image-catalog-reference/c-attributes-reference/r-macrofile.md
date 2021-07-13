@@ -3,9 +3,9 @@ description: 宏定义文件路径。 指定包含此图像目录的宏定义的
 solution: Experience Manager
 title: 宏文件
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 36ac95db-691b-4d11-b6ce-24860c9b194c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 5%
