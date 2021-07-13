@@ -3,9 +3,9 @@ description: 弹出查看器的JavaScript API引用。
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic，查看器，SDK/API，弹出
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
