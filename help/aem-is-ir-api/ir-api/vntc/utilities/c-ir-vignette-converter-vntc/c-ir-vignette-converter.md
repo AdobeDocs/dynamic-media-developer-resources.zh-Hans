@@ -3,9 +3,9 @@ description: 晕影转换器(vntc)是一个命令行实用程序，用于准备�
 solution: Experience Manager
 title: 晕影转换器
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
