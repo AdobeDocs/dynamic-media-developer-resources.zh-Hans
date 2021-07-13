@@ -3,9 +3,9 @@ description: 在配置的平均时间间隔结束时，标准警报会随合并�
 solution: Experience Manager
 title: 标准警报
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 1%
