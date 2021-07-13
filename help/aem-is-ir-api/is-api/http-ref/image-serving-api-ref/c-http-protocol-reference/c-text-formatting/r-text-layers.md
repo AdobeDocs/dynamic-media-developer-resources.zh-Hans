@@ -3,9 +3,9 @@ description: textPs=支持本节中描述的许多不同使用模型。
 solution: Experience Manager
 title: 文本图层
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -63,7 +63,7 @@ textPs=支持本节中描述的许多不同使用模型。
 
 `textFlowPath=` 与一起使 `textPs=` 用可定义应流入文本的一个或多个区域。`textFlowXPath=` 可以选择性地指定以排除文本流入一个或多个区域。如果未指定`size=`，则生成的文本层将自行调整大小，并且图层大小由实际呈现的文本的边框确定。
 
-如果既未指定`origin=`也未指定`anchor=`，则层锚点将默认为用于定义路径的像素坐标空间的(0,0)，这可确保无论呈现的文本如何都实现绝对定位。 如果指定了`anchor=`或`origin=`，则层相对于（并适应于）呈现的实际内容的边界框定位。
+如果既未指定`origin=`也未指定`anchor=`，则层锚点将默认为用于定义路径的像素坐标空间的(0,0)，这可确保无论呈现的文本如何都实现绝对定位。 如果指定了`anchor=`或`origin=`，则层相对于（并适应）呈现的实际内容的边界框定位。
 
 `color=` 填充实际呈现文本的定界框。
 
@@ -89,7 +89,7 @@ textPs=支持本节中描述的许多不同使用模型。
 
 `textPath=` 定义应将通过指定的文本呈现到的一 `textPs=` 个或多个路径。未指定`size=`时，生成的文本层将自行调整大小。 图层大小由实际呈现文本的定界框决定。
 
-如果既未指定`origin=`，也未指定`anchor=`，则层锚点默认为用于定义路径的像素坐标空间的(0,0);无论呈现多少文本，都会固定呈现文本的位置。 如果指定了`anchor=`或`origin=`，则层相对于（并适应于）呈现的实际内容的边界框定位。
+如果既未指定`origin=`，也未指定`anchor=`，则层锚点默认为用于定义路径的像素坐标空间的(0,0);无论呈现多少文本，都会固定呈现文本的位置。 如果指定了`anchor=`或`origin=`，则层相对于（并适应）呈现的实际内容的边界框定位。
 
 `color=` 填充实际呈现文本的定界框。
 
