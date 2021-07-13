@@ -3,9 +3,9 @@ description: 总流比特率。 表示视频资产的总流比特率的长值。
 solution: Experience Manager
 title: TotalStreamBitRate
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 476da561-e067-49ec-aefc-eda11c35b814
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 7%
