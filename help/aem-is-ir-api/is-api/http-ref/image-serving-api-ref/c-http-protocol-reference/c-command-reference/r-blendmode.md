@@ -3,9 +3,9 @@ description: 混合模式. 指定合成图层时使用的混合类型。 模拟P
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 15%
