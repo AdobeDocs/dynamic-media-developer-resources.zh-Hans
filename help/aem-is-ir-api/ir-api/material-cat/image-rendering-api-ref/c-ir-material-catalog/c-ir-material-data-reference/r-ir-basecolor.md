@@ -3,9 +3,9 @@ description: 主要图像颜色。 减色，用于纹理着色。 应是纹理�
 solution: Experience Manager
 title: BaseColor
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 6%
