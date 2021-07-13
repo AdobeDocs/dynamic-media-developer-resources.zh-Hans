@@ -3,9 +3,9 @@ description: ICC配置文件映射文件路径。 指定包含此图像目录的
 solution: Experience Manager
 title: IccProfileMapFile
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a84dc64-3167-4419-a25d-c2f475552f07
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%
