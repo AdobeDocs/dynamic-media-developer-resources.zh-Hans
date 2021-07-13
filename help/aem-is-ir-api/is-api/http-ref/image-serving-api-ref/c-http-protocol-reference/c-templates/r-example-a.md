@@ -3,9 +3,9 @@ description: 创建具有静态背景图像的固定大小模板、与左中心�
 solution: Experience Manager
 title: 示例A
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
