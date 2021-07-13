@@ -3,9 +3,9 @@ description: 单击或点按此按钮会重置主视图中的图像。 您可以
 solution: Experience Manager
 title: 缩放重置按钮
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fce8ab8a-4db0-4902-8e82-26f201a88dbe
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 3%
