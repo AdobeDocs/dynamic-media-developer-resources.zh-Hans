@@ -3,9 +3,9 @@ description: 视频播放器是在查看器中显示视频内容的矩形区域�
 solution: Experience Manager
 title: 视频播放器
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 2%
