@@ -3,9 +3,9 @@ description: 默认JPEG编码属性。 指定JPEG回复图像的默认属性。
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 4%
