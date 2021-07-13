@@ -3,9 +3,9 @@ description: 指示查看器是否在播放开始之前开始加载视频内容�
 solution: Experience Manager
 title: Video360Player.preload
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 6%
