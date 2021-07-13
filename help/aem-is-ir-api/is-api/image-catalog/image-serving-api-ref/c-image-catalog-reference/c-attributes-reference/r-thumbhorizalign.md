@@ -3,9 +3,9 @@ description: 缩览图的水平对齐方式。 在由wid=和hei=或属性Default
 solution: Experience Manager
 title: ThumbHorizAlign
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9a51f92a-ffb9-4460-a910-9f2fefe3eae5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%
