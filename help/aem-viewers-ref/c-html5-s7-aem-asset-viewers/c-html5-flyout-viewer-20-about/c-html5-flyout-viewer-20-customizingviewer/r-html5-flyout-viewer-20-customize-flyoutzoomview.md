@@ -3,9 +3,9 @@ description: 主视图由静态图像、弹出视图中显示的缩放图像、�
 solution: Experience Manager
 title: 弹出缩放视图
 feature: Dynamic Media Classic，查看器，SDK/API，弹出
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 3%
