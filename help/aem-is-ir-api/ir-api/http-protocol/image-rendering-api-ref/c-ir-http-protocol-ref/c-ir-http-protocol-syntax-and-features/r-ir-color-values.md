@@ -3,9 +3,9 @@ description: color=和bgc=属性的颜色值可以使用小数、逗号分隔的
 solution: Experience Manager
 title: 颜色值
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 12%
