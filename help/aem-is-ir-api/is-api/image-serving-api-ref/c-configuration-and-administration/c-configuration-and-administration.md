@@ -3,9 +3,9 @@ description: 使用此部分中的信息配置和管理图像服务器。
 solution: Experience Manager
 title: 配置和管理
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 3%
