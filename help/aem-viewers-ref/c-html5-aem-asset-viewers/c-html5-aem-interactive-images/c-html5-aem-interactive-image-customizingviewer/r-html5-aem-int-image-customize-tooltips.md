@@ -3,9 +3,9 @@ description: 在桌面系统上，一些用户界面元素（如按钮）具有�
 solution: Experience Manager
 title: 工具提示
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 25d4aa58-e16e-4b96-bca0-e98d542b7b81
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 6%
