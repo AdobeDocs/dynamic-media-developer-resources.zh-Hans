@@ -3,9 +3,9 @@ description: 图像映射数据。 没有或更多完整的HTML <AREA>元素，�
 solution: Experience Manager
 title: 地图
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 5%
