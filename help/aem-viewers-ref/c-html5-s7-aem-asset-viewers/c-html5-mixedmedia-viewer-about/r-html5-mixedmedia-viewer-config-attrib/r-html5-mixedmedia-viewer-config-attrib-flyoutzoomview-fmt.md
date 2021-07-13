@@ -3,9 +3,9 @@ description: 指定组件用于从图像服务器加载图像的图像格式。
 solution: Experience Manager
 title: FlyoutZoomView.fmt
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 4%
