@@ -3,9 +3,9 @@ description: 可变音量控件最初显示为一个按钮，允许用户将视�
 solution: Experience Manager
 title: 可变卷
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 2%
