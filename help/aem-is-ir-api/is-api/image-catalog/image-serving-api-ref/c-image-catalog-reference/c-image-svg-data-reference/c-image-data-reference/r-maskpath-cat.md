@@ -3,9 +3,9 @@ description: 掩码文件路径。 与此目录记录关联的掩码图像文件
 solution: Experience Manager
 title: 掩码路径
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 3%
