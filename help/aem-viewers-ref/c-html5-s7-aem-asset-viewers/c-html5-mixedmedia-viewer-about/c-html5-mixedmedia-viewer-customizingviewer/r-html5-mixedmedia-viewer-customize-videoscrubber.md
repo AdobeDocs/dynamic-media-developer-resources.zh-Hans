@@ -3,9 +3,9 @@ description: 视频清理器是一个水平滑块控件，它允许用户动态�
 solution: Experience Manager
 title: 视频洗涤器
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 3%
