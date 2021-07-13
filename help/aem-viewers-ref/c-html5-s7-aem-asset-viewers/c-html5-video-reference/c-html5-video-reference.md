@@ -4,9 +4,9 @@ keywords: 响应式
 solution: Experience Manager
 title: 视频
 feature: Dynamic Media Classic，查看器，SDK/API，视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
