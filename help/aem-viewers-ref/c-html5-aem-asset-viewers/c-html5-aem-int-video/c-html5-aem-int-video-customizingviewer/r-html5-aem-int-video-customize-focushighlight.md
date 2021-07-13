@@ -3,9 +3,9 @@ description: 焦点查看器用户界面元素周围显示的输入焦点突出�
 solution: Experience Manager
 title: 焦点突出显示
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 1%
