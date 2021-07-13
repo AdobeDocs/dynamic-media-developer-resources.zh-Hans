@@ -3,9 +3,9 @@ description: 交互式视频查看器支持根据作为配置参数传递给查�
 solution: Experience Manager
 title: 交互式数据支持
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
