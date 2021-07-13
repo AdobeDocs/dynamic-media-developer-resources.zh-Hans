@@ -3,9 +3,9 @@ description: 需要Dynamic Media图像渲染许可证密钥，并且必须在安
 solution: Experience Manager
 title: 许可
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c5e7e43a-1d98-43d6-909d-62e13e761dde
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
