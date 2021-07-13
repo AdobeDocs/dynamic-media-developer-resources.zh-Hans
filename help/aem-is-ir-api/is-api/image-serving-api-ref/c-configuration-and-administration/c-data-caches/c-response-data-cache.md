@@ -3,9 +3,9 @@ description: Platform Server将所有回复图像和某些文本数据缓存到�
 solution: Experience Manager
 title: 响应数据缓存
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: f09e596d-2b85-4950-8515-d54a2c2e86ae
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
