@@ -3,9 +3,9 @@ description: 单击或点按此按钮可将图像旋转到主视图的左侧。 
 solution: Experience Manager
 title: 旋转左按钮
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 4%
