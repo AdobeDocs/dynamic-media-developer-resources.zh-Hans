@@ -3,9 +3,9 @@ description: “收藏夹”菜单下拉列表显示在控制栏中。 它由一
 solution: Experience Manager
 title: “收藏夹”菜单
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
