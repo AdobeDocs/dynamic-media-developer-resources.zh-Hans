@@ -3,9 +3,9 @@ description: “添加收藏夹”按钮的位置完全由“收藏夹”菜单�
 solution: Experience Manager
 title: “添加收藏”按钮
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
