@@ -3,9 +3,9 @@ description: 指定组件用于从图像服务器加载图像的图像格式。
 solution: Experience Manager
 title: ZoomView.fmt
 feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 4%
