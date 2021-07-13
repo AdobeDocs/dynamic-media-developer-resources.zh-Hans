@@ -3,9 +3,9 @@ description: 用于裁切到嵌入的命名路径的定界框。 此裁剪反过
 solution: Experience Manager
 title: cropPathE
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
