@@ -3,9 +3,9 @@ description: 图像目录向服务器提供有关图像和支持数据（如字�
 solution: Experience Manager
 title: 图像目录引用
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 1%
