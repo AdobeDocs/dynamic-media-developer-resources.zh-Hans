@@ -3,9 +3,9 @@ description: textPs=实施了一种专有的复制拟合算法，该算法将自
 solution: Experience Manager
 title: 复制拟合
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -18,7 +18,7 @@ textPs=实施了一种专有的复制拟合算法，该算法将自动调整字�
 
 可以基于段落为整个文本层集体启用和控制复制拟合，甚至对于单个文本范围也是如此。
 
-指定`\fs`的最小字体大小和`\copyfit`的最大字体大小。 同一RTF字符串中允许任意数量的范围。 所有范围的大小都会按比例变化，从而确保保持所需的字体大小比。
+指定`\fs`的最小字体大小和`\copyfit`的最大字体大小。 同一RTF字符串中允许任意数量的范围。 所有范围的大小会按比例变化，以确保保持所需的字体大小比。
 
 `\copyfit` 被视为字符格式命令，具有和等范围 `\fs` 规 `\b`则。
 
