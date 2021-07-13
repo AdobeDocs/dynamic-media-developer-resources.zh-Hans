@@ -3,9 +3,9 @@ description: 旋转查看器的JavaScript API引用。
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 2%
