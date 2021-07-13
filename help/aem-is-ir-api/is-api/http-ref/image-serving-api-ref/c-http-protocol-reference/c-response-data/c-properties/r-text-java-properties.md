@@ -3,9 +3,9 @@ description: 如果将文本指定为响应格式，则返回数据的格式化�
 solution: Experience Manager
 title: 文本(Java)属性
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
