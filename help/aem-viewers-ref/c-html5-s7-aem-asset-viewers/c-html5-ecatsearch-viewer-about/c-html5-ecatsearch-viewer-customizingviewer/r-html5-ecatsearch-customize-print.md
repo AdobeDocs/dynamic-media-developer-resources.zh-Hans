@@ -3,8 +3,8 @@ description: 打印工具由添加到控制栏的按钮和激活工具时显示�
 solution: Experience Manager
 title: 打印
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
-role: Developer,Business Practitioner
-source-git-commit: 8b9b87328c26e0d316c9ee09c8f4407d40efab69
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 2%
