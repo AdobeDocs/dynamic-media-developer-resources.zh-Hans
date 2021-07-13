@@ -3,9 +3,9 @@ description: 查看器SDK命名空间
 solution: Experience Manager
 title: 查看器SDK命名空间
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
