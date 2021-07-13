@@ -3,9 +3,9 @@ description: 交互式视频查看器的配置属性文档。
 solution: Experience Manager
 title: 命令引用 — 配置属性
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
