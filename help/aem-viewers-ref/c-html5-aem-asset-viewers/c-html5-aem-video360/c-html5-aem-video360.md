@@ -3,9 +3,9 @@ description: HTML5 Video360查看器是一个360度视频播放器，可播放�
 solution: Experience Manager
 title: Video360
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 0%
