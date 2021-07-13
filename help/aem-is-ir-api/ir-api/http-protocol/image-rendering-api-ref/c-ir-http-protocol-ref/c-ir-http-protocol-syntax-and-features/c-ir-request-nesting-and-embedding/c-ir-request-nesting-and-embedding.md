@@ -3,9 +3,9 @@ description: 图像渲染允许将图像服务请求和HTTP请求嵌入到外部
 solution: Experience Manager
 title: 请求嵌套和嵌入*
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2f95a35a-db00-4ee9-8ecc-d746293d485e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
