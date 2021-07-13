@@ -3,9 +3,9 @@ description: 交互式视频查看器的JavaScript API引用。
 solution: Experience Manager
 title: setLocalizedTexts
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2fd557ad-088a-4ddc-8c00-b3cf3d2d9a2f
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 2%
