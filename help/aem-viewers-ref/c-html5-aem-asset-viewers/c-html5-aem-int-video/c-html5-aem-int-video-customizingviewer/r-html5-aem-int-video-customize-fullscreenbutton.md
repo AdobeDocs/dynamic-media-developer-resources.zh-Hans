@@ -3,9 +3,9 @@ description: 当用户单击视频播放器时，全屏按钮会使其进入或�
 solution: Experience Manager
 title: 全屏按钮
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 2%
