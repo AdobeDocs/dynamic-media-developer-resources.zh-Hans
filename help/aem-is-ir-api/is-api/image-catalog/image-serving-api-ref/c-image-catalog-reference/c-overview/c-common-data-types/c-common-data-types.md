@@ -3,9 +3,9 @@ description: 目录属性和字段可能包含以下类型之一的数据。
 solution: Experience Manager
 title: 常见数据类型
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f9654c04-62c7-4820-a7e0-9242c8673e7d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%
