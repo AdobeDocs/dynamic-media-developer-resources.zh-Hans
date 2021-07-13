@@ -3,9 +3,9 @@ description: 所有查看器组件都支持ARIA（无障碍的富互联网应用
 solution: Experience Manager
 title: 辅助技术支持
 feature: Dynamic Media Classic，查看器，SDK/API，轮播横幅，辅助功能
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
