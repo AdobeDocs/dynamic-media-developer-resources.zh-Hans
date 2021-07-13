@@ -3,9 +3,9 @@ description: 添加噪音。 向前景图像数据或效果层的前景添加随
 solution: Experience Manager
 title: op_noise
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
