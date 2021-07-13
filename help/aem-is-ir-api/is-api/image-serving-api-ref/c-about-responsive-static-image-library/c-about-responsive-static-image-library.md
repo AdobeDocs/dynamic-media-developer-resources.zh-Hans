@@ -3,9 +3,9 @@ description: 响应式图像库是一个JavaScript模块，可动态调整从Dyn
 solution: Experience Manager
 title: 关于响应式图像库
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
