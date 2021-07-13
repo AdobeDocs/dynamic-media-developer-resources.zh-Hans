@@ -3,9 +3,9 @@ description: Video360查看器的配置属性。
 solution: Experience Manager
 title: Video360Player.progressivebitrate
 feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 7%
