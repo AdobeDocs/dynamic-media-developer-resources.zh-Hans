@@ -3,9 +3,9 @@ description: 控制栏是矩形区域，其中包含并位于视频查看器可�
 solution: Experience Manager
 title: 控制栏
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%
