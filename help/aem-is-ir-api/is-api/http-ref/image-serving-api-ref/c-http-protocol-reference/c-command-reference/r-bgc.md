@@ -3,9 +3,9 @@ description: 查看背景颜色。 指定复合图像（视图图像）的背景
 solution: Experience Manager
 title: bgc
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%
