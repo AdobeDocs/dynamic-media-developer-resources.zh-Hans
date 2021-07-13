@@ -3,9 +3,9 @@ description: 嵌入路径数据。 指定是否应将第0层源图像文件中�
 solution: Experience Manager
 title: pathEmbed
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
