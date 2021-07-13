@@ -3,9 +3,9 @@ description: 倒层剪辑路径。 为当前图层指定排除剪辑路径。 �
 solution: Experience Manager
 title: clipXPath
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 4%
