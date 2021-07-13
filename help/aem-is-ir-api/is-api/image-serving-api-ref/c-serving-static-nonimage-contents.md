@@ -3,9 +3,9 @@ description: 您可以使用“图像提供”来管理目录中的非图像内�
 solution: Experience Manager
 title: 提供静态（非图像）内容
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
