@@ -3,9 +3,9 @@ description: 将这些服务器设置用于服务器缓存。
 solution: Experience Manager
 title: 服务器缓存
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
