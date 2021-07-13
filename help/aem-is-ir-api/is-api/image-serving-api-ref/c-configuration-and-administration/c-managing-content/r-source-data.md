@@ -3,9 +3,9 @@ description: 图像服务源数据文件包括图像和蒙版文件、字体和I
 solution: Experience Manager
 title: 源数据
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
