@@ -3,9 +3,9 @@ description: 当用户单击视频内容时，播放/暂停按钮会导致视频
 solution: Experience Manager
 title: “播放/暂停”按钮
 feature: Dynamic Media Classic，查看器，SDK/API，视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
