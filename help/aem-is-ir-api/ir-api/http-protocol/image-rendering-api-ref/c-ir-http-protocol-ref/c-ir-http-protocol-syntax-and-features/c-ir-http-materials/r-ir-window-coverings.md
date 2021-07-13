@@ -3,9 +3,9 @@ description: 窗盖材料包括柔软的窗盖（窗帘、阀门、咖啡窗帘�
 solution: Experience Manager
 title: 窗盖
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
