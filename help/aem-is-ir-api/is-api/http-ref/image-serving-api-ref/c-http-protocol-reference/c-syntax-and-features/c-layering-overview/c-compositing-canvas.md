@@ -3,9 +3,9 @@ description: 层按layer=命令指定的顺序合成，其中较高编号的层�
 solution: Experience Manager
 title: 复合画布
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
