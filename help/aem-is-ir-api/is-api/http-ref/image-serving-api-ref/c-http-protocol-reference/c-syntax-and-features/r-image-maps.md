@@ -3,9 +3,9 @@ description: IS提供了简化HTML图像映射使用的机制。 IS中基于JAVA
 solution: Experience Manager
 title: 图像映射
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
