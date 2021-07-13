@@ -3,9 +3,9 @@ description: 瓷砖灌浆的颜色和厚度。 模拟陶瓷和天然石砖的灌
 solution: Experience Manager
 title: 灌浆
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
