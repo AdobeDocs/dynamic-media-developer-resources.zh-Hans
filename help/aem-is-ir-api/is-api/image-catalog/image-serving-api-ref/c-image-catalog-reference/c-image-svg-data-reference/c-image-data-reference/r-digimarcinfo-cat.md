@@ -3,9 +3,9 @@ description: Digimarc图像信息。 启用Digimarc嵌入，并指定水印类�
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 14%
@@ -70,7 +70,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受复制保护。 </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>受限。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>受复制保护，受限。 </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>未使用。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
@@ -127,7 +127,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
