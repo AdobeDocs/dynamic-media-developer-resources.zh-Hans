@@ -3,9 +3,9 @@ description: 轮播查看器的配置属性。
 solution: Experience Manager
 title: CarouselView.autoplay
 feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 5%
