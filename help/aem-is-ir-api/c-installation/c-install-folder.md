@@ -3,9 +3,9 @@ description: Image Serving安装文件夹(install_folder)为install_root/ImageSe
 solution: Experience Manager
 title: 安装文件夹
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
