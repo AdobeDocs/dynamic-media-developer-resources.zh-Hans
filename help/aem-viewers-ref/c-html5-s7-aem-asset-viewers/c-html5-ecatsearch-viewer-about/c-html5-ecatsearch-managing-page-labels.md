@@ -3,9 +3,9 @@ description: 管理页面标签
 solution: Experience Manager
 title: 管理页面标签
 feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 73c3904f-678f-47c4-b895-86671402df79
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 * 作者在Dynamic Media Classic内的后端定义的标签。
 * 查看器自动生成的标签。
 
-基于符号的标签使用`MediaSet.LABEL_XX[_YY]`和`MediaSet.LABEL_DELIM` SYMBOL定义，如[用户界面元素的本地化](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)中所述。 您可以为整个ecatalog跨页定义此类标签，在这种情况下，应使用短的SYMBOL语法(`MediaSet.LABEL_XX`)。 或者，使用完整的SYMBOL语法(`MediaSet.LABEL_XX_YY`)逐个为每个页面指定它。
+基于符号的标签使用`MediaSet.LABEL_XX[_YY]`和`MediaSet.LABEL_DELIM` SYMBOL定义，如[用户界面元素的本地化](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)中所述。 您可以为整个ecatalog跨页定义此类标签，在这种情况下，应使用短的SYMBOL语法(`MediaSet.LABEL_XX`)。 或者，使用完整的SYMBOL语法(`MediaSet.LABEL_XX_YY`)为每个页面单独指定它。
 
 在ecatalog跨页中为两个页面定义标签时，查看器会使用`MediaSet.LABEL_DELIM` SYMBOL将这些标签连接到一个字符串中。 基于符号的标签优先于在后端定义的标签或查看器自动生成的标签。
 
