@@ -3,9 +3,9 @@ description: 必须设置并配置IR 3.x兼容模块。
 solution: Experience Manager
 title: 设置和配置IR 3.x兼容模块
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 44fbc6be-7681-402a-936a-0511e138365c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
