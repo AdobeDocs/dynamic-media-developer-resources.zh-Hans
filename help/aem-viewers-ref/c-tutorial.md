@@ -3,9 +3,9 @@ description: 查看器SDK提供了一组基于JavaScript的组件，用于自定
 solution: Experience Manager
 title: 查看器SDK教程
 feature: Dynamic Media Classic，查看器，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
