@@ -3,9 +3,9 @@ description: 此按钮用于打开和关闭隐藏式字幕显示。 如果未指
 solution: Experience Manager
 title: 题注按钮
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
