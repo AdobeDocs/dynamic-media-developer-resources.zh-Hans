@@ -3,9 +3,9 @@ description: 隐藏重叠对象。 隐藏当前选择中应用于窗口覆盖框
 solution: Experience Manager
 title: 隐藏
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
