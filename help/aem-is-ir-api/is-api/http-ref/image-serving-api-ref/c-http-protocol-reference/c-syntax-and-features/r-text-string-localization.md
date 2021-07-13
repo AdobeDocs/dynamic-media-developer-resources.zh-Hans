@@ -3,9 +3,9 @@ description: 文本字符串本地化允许图像目录包含同一字符串值�
 solution: Experience Manager
 title: 文本字符串本地化
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 3%
@@ -119,7 +119,7 @@ ht-degree: 3%
 
 **语言系列**
 
-多个&#x200B;*`locId`*&#x200B;值可能与翻译映射中的每个&#x200B;*`locale`*&#x200B;值相关联。 这允许支持特定于国家/地区或地区的变体（例如，美国英语与英国英语）来选择&#x200B;*`stringElements`*，同时处理大多数具有相同基本区域设置（例如，国际英语）的内容。
+多个&#x200B;*`locId`*&#x200B;值可能与翻译映射中的每个&#x200B;*`locale`*&#x200B;值相关联。 这允许支持特定于国家/地区或地区的变体（例如，美国英语与英国英语）来选择&#x200B;*`stringElements`*，同时处理大多数具有共同基本区域设置（例如，国际英语）的内容。
 
 例如，我们希望添加对特定于美国的英语(`*`locId`* EUS`)和特定于英国的英语(`*`locId`* EUK`)的支持，以支持偶尔的替代拼写。 如果EUK或EUS不存在，我们将回退到E。同样，在大多数情况下返回常用德语&#x200B;*`localizedStrings`*（标有`D`）时，可以根据需要提供特定于奥地利的德语变体(`DAT`)。
 
