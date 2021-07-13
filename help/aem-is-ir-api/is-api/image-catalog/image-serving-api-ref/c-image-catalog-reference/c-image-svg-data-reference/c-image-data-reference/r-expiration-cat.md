@@ -3,9 +3,9 @@ description: 過期
 solution: Experience Manager
 title: 過期
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 用于管理客户端和代理服务器缓存。 服务器通过将此值添加到传输的时间/日期来计算HTTP响应数据的过期时间/日期。
 
-浏览器使用文件的过期时间来管理缓存。 在向服务器传递请求之前，浏览器会检查其缓存，以查看文件是否已下载。 如果是，并且文件尚未过期，则浏览器会发送一个条件GET请求（例如，在请求标头中设置了If-Modified-Since字段），而不是常规GET请求。 服务器可以选择以“304”状态响应，而不发送图像。 然后，浏览器从其缓存中加载文件。 这可能会显着提高频繁访问数据的整体性能。
+浏览器使用文件的过期时间来管理缓存。 在向服务器传递请求之前，浏览器会检查其缓存，以查看文件是否已下载。 如果是，并且文件尚未过期，则浏览器会发送一个条件GET请求（例如，在请求标头中设置了If-Modified-Since字段），而不是普通GET请求。 服务器可以选择以“304”状态响应，而不发送图像。 然后，浏览器从其缓存中加载文件。 这可能会显着提高频繁访问数据的整体性能。
 
 以下响应类型将使用过期时间：
 
