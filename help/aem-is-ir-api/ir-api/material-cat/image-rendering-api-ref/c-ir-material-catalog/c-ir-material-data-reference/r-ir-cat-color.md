@@ -3,9 +3,9 @@ description: 材料颜色。 一种实色材料的主颜色和一种着色纹理
 solution: Experience Manager
 title: 颜色
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 10%
