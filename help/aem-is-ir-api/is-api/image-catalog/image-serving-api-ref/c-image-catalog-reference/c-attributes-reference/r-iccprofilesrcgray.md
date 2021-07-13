@@ -3,9 +3,9 @@ description: 灰度默认输入颜色配置文件。 指定ICC颜色配置文件
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54290f71-36b2-4b37-ac04-4fe85c1f34ab
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 2%
