@@ -3,9 +3,9 @@ description: 要向网页添加响应式图像库并使用库管理现有图像�
 solution: Experience Manager
 title: 使用响应式图像库
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 库支持同时处理网页上的多个图像实例。 因此，请对您希望库管理的每个图像重复上述步骤1和2。
 
-网页负责设置图像元素的样式，以使其大小更加灵活。 响应式图像库本身不会区分固定大小和“流体”图像。 如果应用于固定大小的图像，则只加载一次新图像。
+网页负责设置图像元素的样式，以使其在大小上更加灵活。 响应式图像库本身不会区分固定大小和“流体”图像。 如果应用于固定大小的图像，则只加载一次新图像。
 
 以下代码是一个简单网页的完整示例，该网页具有由响应式图像库管理的单个流体图像。 该示例包含额外的CSS样式，以使图像对Web浏览器窗口大小“响应”：
 
