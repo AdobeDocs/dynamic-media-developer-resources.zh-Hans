@@ -3,9 +3,9 @@ description: 支持以下段落格式命令。
 solution: Experience Manager
 title: 段落格式
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
