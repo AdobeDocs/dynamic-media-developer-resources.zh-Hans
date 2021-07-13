@@ -3,9 +3,9 @@ description: '除了安装软件所需的空间之外，映像服务还具有以
 solution: Experience Manager
 title: 磁盘空间要求和建议
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
