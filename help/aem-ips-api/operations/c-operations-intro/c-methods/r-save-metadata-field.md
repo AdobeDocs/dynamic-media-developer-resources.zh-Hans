@@ -3,9 +3,9 @@ description: 创建或编辑元数据字段。 忽略可选字段句柄以创建
 solution: Experience Manager
 title: saveMetadataField
 feature: Dynamic Media Classic，SDK/API，元数据
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 16%
