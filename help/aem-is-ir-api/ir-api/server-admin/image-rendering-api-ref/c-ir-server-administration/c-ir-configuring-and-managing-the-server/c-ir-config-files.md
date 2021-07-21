@@ -3,9 +3,9 @@ description: 图像渲染配置设置存储在平台服务器配置文件中。
 solution: Experience Manager
 title: 配置文件
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 44ffebae-4933-455b-a902-4f6e7bb69184
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
