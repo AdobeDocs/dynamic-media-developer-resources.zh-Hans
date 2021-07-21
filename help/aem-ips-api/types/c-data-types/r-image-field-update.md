@@ -3,9 +3,9 @@ description: 更新与图像资产关联的图像字段。
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 9%
