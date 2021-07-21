@@ -3,9 +3,9 @@ description: 删除图像格式。 从saveImageFormat获取图像格式句柄。
 solution: Experience Manager
 title: deleteImageFormat
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 11%
