@@ -3,9 +3,9 @@ description: 使用基于目录或基于过期的缓存验证自动刷新缓存�
 solution: Experience Manager
 title: 响应缓存验证
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
