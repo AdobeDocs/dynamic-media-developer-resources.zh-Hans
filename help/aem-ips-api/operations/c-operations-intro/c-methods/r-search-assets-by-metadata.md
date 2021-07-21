@@ -3,9 +3,9 @@ description: 搜索给定搜索词的元数据索引存储库。 返回资产数
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 11%
