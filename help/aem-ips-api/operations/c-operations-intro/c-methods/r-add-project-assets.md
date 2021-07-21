@@ -3,9 +3,9 @@ description: 向项目添加一个或多个资产。
 solution: Experience Manager
 title: addProjectAssets
 feature: Dynamic Media Classic，SDK/API，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 11%
