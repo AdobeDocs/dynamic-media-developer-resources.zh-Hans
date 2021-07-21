@@ -3,9 +3,9 @@ description: 描述各种参数使用的值。 有关详细信息，请参阅本
 solution: Experience Manager
 title: 用户角色
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
