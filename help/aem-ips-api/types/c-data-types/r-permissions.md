@@ -3,9 +3,9 @@ description: 按组管理资产的访问、修改、创建或删除权限。
 solution: Experience Manager
 title: 权限
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 11%
