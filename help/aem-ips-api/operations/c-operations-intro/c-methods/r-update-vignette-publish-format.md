@@ -3,9 +3,9 @@ description: 更新晕影发布格式设置。
 solution: Experience Manager
 title: updateVignettePublishFormat
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 20%
