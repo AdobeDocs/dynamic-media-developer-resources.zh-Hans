@@ -3,9 +3,9 @@ description: 包含有关批资产操作期间生成的警告或错误条件的�
 solution: Experience Manager
 title: AssetOperationFault
 feature: Dynamic Media Classic，SDK/API，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 7%
