@@ -3,9 +3,9 @@ description: 将特定用户或默认用户的密码设置为特定值，具体�
 solution: Experience Manager
 title: setPassword
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 7%
