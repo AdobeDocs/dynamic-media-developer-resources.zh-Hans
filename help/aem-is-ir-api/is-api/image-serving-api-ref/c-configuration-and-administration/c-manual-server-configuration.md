@@ -3,9 +3,9 @@ description: 可以通过编辑相应的配置文件来手动配置图像提供�
 solution: Experience Manager
 title: 服务器配置
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 2bb81f55-98da-47a1-8214-49b9bd30eb94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
