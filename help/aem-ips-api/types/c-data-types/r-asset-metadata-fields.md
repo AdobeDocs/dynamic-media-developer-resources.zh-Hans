@@ -3,9 +3,9 @@ description: 返回指定资产类型的元数据字段定义。
 solution: Experience Manager
 title: AssetMetadataFields
 feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ad2a45fc-1f30-4b8b-be7c-84cc60c7bd4b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 8%
