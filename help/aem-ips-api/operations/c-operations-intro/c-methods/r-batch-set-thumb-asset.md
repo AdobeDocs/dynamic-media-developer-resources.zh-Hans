@@ -3,9 +3,9 @@ description: 设置一个或多个资产的缩略图图像。
 solution: Experience Manager
 title: batchSetThumbAsset
 feature: Dynamic Media Classic，SDK/API，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 13%
