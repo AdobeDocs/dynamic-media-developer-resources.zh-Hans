@@ -3,9 +3,9 @@ description: 删除资产的元数据值。 可与元数据删除数组结合使
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic，SDK/API，元数据，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 12%
