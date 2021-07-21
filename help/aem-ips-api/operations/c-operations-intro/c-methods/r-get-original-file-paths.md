@@ -3,9 +3,9 @@ description: 获取公司资产的原始文件路径。
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 15%
