@@ -3,9 +3,9 @@ description: 为一个或多个图像资产设置特定于图像的字段。
 solution: Experience Manager
 title: batchSetImageFields
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 10%
