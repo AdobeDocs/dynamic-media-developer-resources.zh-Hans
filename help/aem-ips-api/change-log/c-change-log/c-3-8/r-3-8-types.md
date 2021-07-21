@@ -3,9 +3,9 @@ description: 介绍IPS API版本3.8的新数据类型和已更改的数据类型
 solution: Experience Manager
 title: 数据类型新增和修改
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 4%
