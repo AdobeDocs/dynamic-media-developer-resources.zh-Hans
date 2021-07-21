@@ -3,9 +3,9 @@ description: 将查看器配置设置附加到资产。 这些预设可以是查
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic，SDK/API，查看器预设
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 11%
