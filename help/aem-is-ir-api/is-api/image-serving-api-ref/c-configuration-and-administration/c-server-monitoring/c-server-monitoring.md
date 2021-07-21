@@ -3,9 +3,9 @@ description: 服务器可配置为在超出某些性能或错误阈值时发送�
 solution: Experience Manager
 title: 服务器监控
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: c751d653-da5d-4573-99fd-fb9113977160
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%
