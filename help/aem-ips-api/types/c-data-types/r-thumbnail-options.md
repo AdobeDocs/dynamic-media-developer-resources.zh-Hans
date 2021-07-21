@@ -3,9 +3,9 @@ description: 一种可选类型，允许您选择特定视频帧作为缩略图�
 solution: Experience Manager
 title: ThumbnailOptions
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 6%
