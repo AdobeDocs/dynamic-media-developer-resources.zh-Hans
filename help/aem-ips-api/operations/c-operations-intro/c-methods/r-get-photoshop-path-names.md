@@ -3,9 +3,9 @@ description: 返回给定图像的Photoshop路径名称数组。
 solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 19%
