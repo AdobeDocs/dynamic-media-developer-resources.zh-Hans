@@ -3,9 +3,9 @@ description: 获取资产的作业日志。 数组中返回的项目包含有关
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic，SDK/API，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 9%
