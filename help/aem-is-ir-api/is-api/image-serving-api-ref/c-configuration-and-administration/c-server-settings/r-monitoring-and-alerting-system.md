@@ -3,9 +3,9 @@ description: 使用这些服务器设置配置监控和警报系统。
 solution: Experience Manager
 title: 监控和警报系统
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
