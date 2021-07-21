@@ -3,9 +3,9 @@ description: 获取为一个或多个标记字段定义的所有标记字典值�
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
