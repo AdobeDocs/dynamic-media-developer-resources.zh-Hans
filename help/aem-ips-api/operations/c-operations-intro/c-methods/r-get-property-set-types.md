@@ -3,9 +3,9 @@ description: 获取与指定公司关联的属性集类型，或者获取与指�
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 14%
