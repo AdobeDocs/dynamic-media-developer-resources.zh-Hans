@@ -3,9 +3,9 @@ description: 有助于提高优化金字塔TIF文件的图像锐度的设置。
 solution: Experience Manager
 title: USMsharpMaskOptions
 feature: Dynamic Media Classic，SDK/API，资产管理
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 12%
