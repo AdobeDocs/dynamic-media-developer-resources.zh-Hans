@@ -3,9 +3,9 @@ description: 从公司中删除项目。 资产和项目之间的链接已损坏
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic，SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 9%
