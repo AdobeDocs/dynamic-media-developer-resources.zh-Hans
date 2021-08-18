@@ -6,9 +6,9 @@ title: Spin
 feature: Dynamic Media Classic，查看器，SDK/API，旋转集
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 与旋转查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-旋转查看器支持以下在其他移动设备应用程序中常见的触控手势。 当查看器无法处理用户的轻扫手势时，它会将事件转发到Web浏览器以执行本机页面滚动。 这允许用户在页面中导航，即使查看者占据了设备屏幕的大部分区域。
+旋转查看器支持以下在其他移动设备应用程序中常见的触控手势。 当查看器无法处理用户的轻扫手势时，它会将事件转发到Web浏览器以执行本机页面滚动。 即使查看者占据了设备屏幕的大部分区域，该功能也允许用户在页面中导航。
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -61,11 +61,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>水平轻扫或轻扫 </p> </td> 
-   <td colname="col2"> <p> 如果图像处于重置状态，则其水平旋转设置。 </p> <p> 如果图像被放大，则会水平移动图像。 如果图像被移动到视图边缘并且仍沿该方向轻扫，则手势将执行本机页面滚动。 </p> </td> 
+   <td colname="col2"> <p> 如果图像处于重置状态，则它水平旋转设置。 </p> <p> 如果图像被放大，则会水平移动图像。 如果图像被移动到视图边缘并且仍沿该方向轻扫，则手势将执行本机页面滚动。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>垂直轻扫或轻扫 </p> </td> 
-   <td colname="col2"> <p> 如果图像处于重置状态，则在使用多维旋转集时，它会更改垂直视图角度。 在一维旋转集中，或者当多维旋转集位于最后一个或第一个轴上时，如果垂直轻扫不会导致垂直视图角度改变，则手势将执行本机页面滚动。 </p> <p> 如果图像被放大，则会垂直移动图像。 如果图像被移动到视图边缘并且仍沿该方向轻扫，则手势将执行本机页面滚动。 </p> </td> 
+   <td colname="col2"> <p> 如果图像处于重置状态，则当使用多维旋转集时，它会更改垂直视图角度。 在一维旋转集中，手势执行本机页面滚动。 或者，当多维旋转集位于最后一个或第一个轴上，以便垂直轻扫不会导致垂直视图角度改变时，手势还会执行本机页面滚动。 </p> <p> 如果图像被放大，则会垂直移动图像。 如果图像被移动到视图边缘并且仍沿该方向轻扫，则手势将执行本机页面滚动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ target="_blank">Open popup viewer</a>
 
 主要用例包括面向台式机或平板电脑设备的网页，以及响应式设计页面，这些页面可根据设备类型自动调整布局。
 
-当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 这是具有静态布局的网页的最佳选择。
+当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 此操作是具有静态布局的网页的最佳选择。
 
-响应式设计嵌入假定查看器可能需要在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所使用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式设计布局框架(如Bootstrap、基础等)的网页，此用例最常见。
+在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所使用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 此用例是使用响应式设计布局框架(如Bootstrap或基础)的网页最常见的用例。
 
 否则，如果网页同时设置查看器容器`DIV`的宽度和高度，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小来调整大小。
 
@@ -141,7 +141,7 @@ target="_blank">Open popup viewer</a>
 
    >[!NOTE]
    >
-   >您只应在页面上引用主查看器JavaScript `include`文件。 您不应在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
+   >仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何可能由查看器逻辑在运行时下载的其他JavaScript文件。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
    >
    >
    >因此，在页面上直接引用查看器使用的任何辅助JavaScript `include`会在将来部署新产品版本时中断查看器功能。
@@ -162,7 +162,7 @@ target="_blank">Open popup viewer</a>
 
    您可以通过以下两种方式设置查看器的静态大小：以绝对单位声明查看器的`.s7spinviewer`顶级CSS类，或使用`stagesize`修饰符。
 
-   您可以将大小调整直接放在HTML页面的CSS中，或放在自定义查看器CSS文件中，该文件稍后会分配给Dynamic Media Classic中的查看器预设记录，或使用样式命令显式传递。
+   您可以将大小调整直接放在CSS页面上，或放在自定义查看器CSS文件中。 它稍后会被分配到Dynamic Media Classic中的查看器预设记录，或使用样式命令显式传递。
 
    请参阅[自定义旋转查看器](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) ，以了解有关使用CSS为查看器设置样式的更多信息。
 
@@ -175,7 +175,7 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   您可以在Dynamic Media Classic的查看器预设记录中设置`stagesize`修饰符，或通过查看器初始化代码（包含`params`集合）显式传递该修饰符，或者按照命令引用部分中所述作为API调用进行传递，如下所示：
+   您可以在Dynamic Media Classic的查看器预设记录中设置`stagesize`修饰符。 或者，您也可以通过查看器初始化代码与`params`集合进行显式传递，或作为API调用（如命令引用部分中所述）进行传递，如下所示：
 
    ```
     spinViewer.setParam("stagesize", 
@@ -190,7 +190,7 @@ target="_blank">Open popup viewer</a>
 
    务必要将查看器容器添加到DOM，以便查看器代码可以通过其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 为了实现最大的兼容性，请在结束`BODY`标记之前或在主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此操作时，查看器加载会自动恢复。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此操作时，查看器加载会自动恢复。
 
    以下示例用于创建一个查看器实例，将所需的最小配置选项传递给构造函数并调用`init()`方法。 此示例假定`spinViewer`为查看器实例，`s7viewer`为占位符的名称`DIV`,[!DNL http://s7d1.scene7.com/is/image/]为图像提供URL，[!DNL Scene7SharedAssets/SpinSet_Sample]为资产。
 
@@ -295,11 +295,11 @@ var spinViewer = new s7viewers.SpinViewer({
 
 [实时演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定义宽度和高度的灵活大小嵌入**
 
-在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 即，它为“holder” `DIV`提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%:
+如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 即，它为“holder” `DIV`提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%:
 
 ```
 <!DOCTYPE html> 
