@@ -5,9 +5,9 @@ title: 交互式视频
 feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 当查看器在弹出模式下运行时，用户界面中不提供全屏按钮。
 
-查看器在视频查看区域右侧显示一个带有交互式样本的面板。 当视频播放时，色板列表会自动前进，以便显示与当前视频区域对应的色板。 单击或点按色板会触发在创作期间与此类色板关联的操作。 根据您的设置方式，触发器可能会重定向到网站上的其他页面。 或者，它可能会将产品信息传递回网页逻辑，而网页逻辑反过来又会触发显示相关产品内容的概览的打开。
+查看器在视频查看区域右侧显示一个带有交互式样本的面板。 当视频播放时，色板列表会自动前进，以便显示与当前视频区域对应的色板。 单击或点按色板会触发在创作期间与此类色板关联的操作。 根据您的设置方式，触发器可能会重定向到网站上的其他页面。 或者，它可能会将产品信息传递回网页逻辑，而该逻辑反过来又会触发显示相关产品内容的概览的打开。
 
 激活视频章节后，可以快速导航浏览视频内容。 视频章节在视频清理器跟踪中以标记形式显示，并在滚动播放时（或在触屏系统上单击一次）显示章节标题和描述。 客户可以通过单击章节标记或点按章节描述气泡来“搜寻”特定章节。
 
@@ -280,7 +280,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 [实时演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定义了宽度和高度的响应式嵌入**
 
