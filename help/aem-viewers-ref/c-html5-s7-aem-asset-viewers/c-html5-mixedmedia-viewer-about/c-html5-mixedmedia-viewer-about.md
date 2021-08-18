@@ -6,9 +6,9 @@ title: 混合媒体
 feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2654'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 混合媒体查看器是媒体查看器。 它支持包含图像、色板集、旋转集、视频和自适应视频集的媒体集。
 
-查看器底部的缩略图表示每个媒体集元素及其资产类型指示器。 选择样本集元素后，将显示第二行样本，以便选择样本集中的颜色变化。 图像和样本集元素支持在连续或内联模式下缩放；旋转集支持缩放和旋转。 视频和自适应视频集支持所有基本的播放控件，只要视频内容顶部显示任何可选的隐藏式字幕即可。 用户可以随时通过单击全屏按钮切换到全屏。 查看器具有可选的关闭按钮。 它适用于台式机和移动设备。
+查看器底部的缩略图表示每个媒体集元素及其资产类型指示器。 选择样本集元素后，将显示第二行样本，以便选择样本集中的颜色变化。 图像和样本集元素支持在连续或内联模式下缩放；旋转集支持缩放和旋转。 视频和自适应视频集支持所有基本的播放控件，只要视频内容顶部显示任何可选的隐藏式字幕即可。 用户可随时通过单击全屏按钮切换到全屏。 查看器具有可选的关闭按钮。 它适用于台式机和移动设备。
 
 当基础系统支持HLS格式时，混合媒体查看器在其默认配置中使用HTML5流视频播放。 在不支持HTML5流播放的系统上，查看器会返回到HTML5渐进式视频交付。
 
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 主要用例包括面向台式机或平板电脑设备的网页，以及响应式设计页面，这些页面可根据设备类型自动调整布局。
 
-当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 这是具有静态布局的网页的最佳选择。
+当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 此操作是具有静态布局的网页的最佳选择。
 
-响应式设计嵌入假定查看器可能需要在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所使用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式设计布局框架(如Bootstrap、基础等)的网页，此用例最常见。
+在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所使用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 此用例是使用响应式设计布局框架(如Bootstrap或基础)的网页最常见的用例。
 
 否则，如果网页同时设置查看器容器`DIV`的宽度和高度，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中的叠加根据Web浏览器窗口大小来调整大小。
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只应在页面上引用主查看器JavaScript `include`文件。 您不应在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何可能由查看器逻辑在运行时下载的其他JavaScript文件。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
 >
 >
 >因此，在页面上直接引用查看器使用的任何辅助JavaScript `include`会在将来部署新产品版本时中断查看器功能。
@@ -170,9 +170,9 @@ ht-degree: 0%
 
 1. 设置查看器大小
 
-   此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩略图位于主视图的下方。 同时，查看器允许在运行时使用`setAsset()` API交换主资产。 作为开发人员，当新资产只有一个项目时，您可以控制查看器如何管理底部的缩略图区域。 可以保持外部查看器大小不变，并让主视图增加其高度并占用缩略图区域。 或者，您也可以将主视图大小保持为静态，并折叠外部查看器区域，使网页内容向上移动，然后使用缩略图中剩余的免费页面空间。
+   此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩略图位于主视图的下方。 同时，查看器允许在运行时使用`setAsset()` API交换主资产。 作为开发人员，当新资产只有一个项目时，您可以控制查看器如何管理底部的缩略图区域。 可以保持外部查看器大小不变，并让主视图增加其高度并占用缩略图区域。 或者，您也可以将主视图大小保持为静态，并折叠外部查看器区域，以使网页内容向上移动。 然后，使用缩略图中剩余的免费页面资产。
 
-   要保持外部查看器边界不变，请以绝对单位定义`.s7mixedmediaviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给Dynamic Media Classic中的查看器预设记录，或使用style命令显式传递。
+   要保持外部查看器范围不变，请以绝对单位定义`.s7mixedmediaviewer`顶级CSS类的大小。 CSS中的大小调整可以直接放在HTML页面上或自定义查看器CSS文件中，稍后在Dynamic Media Classic中分配给查看器预设记录，或使用style命令显式传递。
 
    请参阅[自定义混合媒体查看器](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) ，以了解有关使用CSS为查看器设置样式的更多信息。
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   您可以在Dynamic Media Classic的查看器预设记录中设置`stagesize`修饰符，或通过`params`集合的查看器初始化代码显式传递该修饰符，或者作为API调用（如本帮助的“命令引用”部分中所述）进行传递，如下所示：
+   您可以在Dynamic Media Classic的查看器预设记录中设置`stagesize`修饰符，或通过`params`集合的查看器初始化代码显式传递该修饰符。 或者，作为API调用，如本帮助的命令引用部分中所述，如下所示：
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -218,7 +218,7 @@ ht-degree: 0%
 
    务必要将查看器容器添加到DOM，以便查看器代码可以通过其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 为了实现最大的兼容性，请在结束`BODY`标记之前或在主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素不一定只是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此情况时，查看器加载会自动恢复。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此操作时，查看器加载会自动恢复。
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数，并调用`init()`方法。 该示例假定`mixedMediaViewer`为查看器实例；`s7viewer`是占位符`DIV`的名称；[!DNL http://s7d1.scene7.com/is/image/]是图像服务URL;[!DNL http://s7d1.scene7.com/is/content/]是视频服务器URL;且[!DNL Scene7SharedAssets/Mixed_Media_Set_Sample]为资产：
 
@@ -329,11 +329,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [实时演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代演示位置](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[替代演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
-在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
+如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
 
 ```
 <!DOCTYPE html> 
