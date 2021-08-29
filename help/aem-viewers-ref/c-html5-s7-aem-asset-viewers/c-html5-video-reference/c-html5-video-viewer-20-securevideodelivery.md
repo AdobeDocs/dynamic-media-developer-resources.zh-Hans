@@ -2,21 +2,21 @@
 description: HTTP视频交付
 solution: Experience Manager
 title: HTTP视频交付
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # HTTP视频交付{#http-video-delivery}
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->安全视频交付仅适用于安装了[Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)的AEM 6.2和安装了[Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)的AEM 6.1。
+>Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
 如果查看器按照本节开头所述的配置工作，则可以在HTTPS（安全）和HTTP（不安全）模式下发布视频交付。 在默认配置中，视频传输协议严格遵循嵌入网页的传输协议。 但是，可以强制HTTPS视频传送，而不考虑使用[VideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e)配置属性嵌入网页时使用的协议。 （请注意，在创作模式下，视频预览始终通过HTTPS安全地交付。）
 
