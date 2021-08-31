@@ -2,12 +2,12 @@
 description: 如果将jsonp指定为响应格式，则回复数据将使用JSONP（带内边距的JavaScript对象表示法）进行格式化，该格式封装在JavaScript函数调用中。
 solution: Experience Manager
 title: JSONP属性
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
@@ -55,8 +55,8 @@ S7jsonResponse(data, reqId)
 
 Dynamic Media Image Serving Viewers包包含一个实用程序，用于从Image Serving中请求和解析JSONP格式的数据。
 
-有关JSONP格式的更多信息，请参阅[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+有关JSONP格式的更多信息，请参阅[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 
-有关JSON格式的更多信息，请参阅[www.json.org](http://www.json.org)。
+有关JSON格式的更多信息，请参阅[www.json.org](https://www.json.org)。
 
 另请参阅[req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)。

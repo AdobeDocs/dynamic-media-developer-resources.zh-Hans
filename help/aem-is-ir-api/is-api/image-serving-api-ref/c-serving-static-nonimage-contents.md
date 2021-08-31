@@ -2,12 +2,12 @@
 description: 您可以使用“图像提供”来管理目录中的非图像内容，并通过单独的/is/content上下文提供该内容。
 solution: Experience Manager
 title: 提供静态（非图像）内容
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 您还可以将跟踪用于其他类型的定时元数据。 每个跟踪元素的源数据是由定时提示列表组成的文本文件。 提示可以包含JSON或CSV等格式的数据。
 
-有关JSONP格式的更多信息，请参阅[http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)。
+有关JSONP格式的更多信息，请参阅[https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP)。
 
-有关JSON格式的更多信息，请参阅[www.json.org](http://www.json.org)。
+有关JSON格式的更多信息，请参阅[www.json.org](https://www.json.org)。
 
 ## 另请参阅 {#section-7b28631016044a22a3a6762fd64771e9}
 

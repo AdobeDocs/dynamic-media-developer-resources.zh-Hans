@@ -2,12 +2,12 @@
 description: IPS Web服务由一组WSDL（Web服务描述语言）文档支持，这些文档可从安装IPS Web服务组件的任何IPS安装中访问。 每个IPS API版本都包含一个引用版本控制目标XML命名空间的新WSDL文件。 还支持以前的WSDL命名空间版本，以便能够向后兼容现有应用程序。
 solution: Experience Manager
 title: IPS Web服务WSDL版本
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 **消息格式**
 
-文档/文字样式用于所有基于XML架构定义语言([http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))并在WSDL文件中指定的类型的输入和输出消息。 所有类型都需要使用WSDL文件中指定的目标命名空间值限定名称。
+文档/文字样式用于所有基于XML架构定义语言([https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))并在WSDL文件中指定的类型的输入和输出消息。 所有类型都需要使用WSDL文件中指定的目标命名空间值限定名称。
 
 **请求身份验证**
 
