@@ -1,13 +1,13 @@
 ---
+title: init
 description: 轮播查看器的JavaScript API引用。
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 开始轮播查看器的初始化。 此时，必须创建容器DOM元素，以便查看器代码可以通过其ID找到它。
 
-如果容器元素尚未成为网页布局的一部分（例如，可能使用分配给它的`display:none`样式来隐藏该元素），查看器会暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生此情况时，查看器加载会自动恢复。
+如果容器元素尚未包含在网页布局中 — 例如，它可能会使用`display:none`样式进行隐藏 — 查看器会暂停其初始化过程。 它将一直挂起，直到网页将容器元素引回布局时为止，此时查看器加载会自动恢复。
 
 在查看器生命周期内，只调用一次此方法；将忽略后续调用。
 

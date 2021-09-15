@@ -1,13 +1,13 @@
 ---
+title: 轮播查看器
 description: 轮播查看器的JavaScript API引用。
 solution: Experience Manager
-title: 轮播查看器
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `CarouselViewer([config])`
 
-构造函数，创建一个新的HTML 5轮播查看器实例。
+构造函数，创建一个HTML 5轮播查看器实例。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
