@@ -1,13 +1,13 @@
 ---
+title: 所有查看器 — URL通用的命令引用
 description: 所有查看器通用的命令参考文档。
 solution: Experience Manager
-title: 所有查看器 — URL通用的命令引用
-feature: Dynamic Media Classic，查看器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 08faeb9b-3b02-4a16-a365-7ef62ca29db9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---

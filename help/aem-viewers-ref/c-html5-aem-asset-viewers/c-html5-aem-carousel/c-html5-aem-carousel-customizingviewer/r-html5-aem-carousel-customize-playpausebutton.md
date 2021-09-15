@@ -1,13 +1,13 @@
 ---
+title: PlayPause按钮
 description: “播放/暂停”按钮允许用户暂停或继续轮播自动播放行为。
 solution: Experience Manager
-title: PlayPause按钮
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-示例 — 要设置一个播放暂停按钮，其大小为28 x 28像素，位于距离查看器底部17像素和距离左边12像素的位置，并在选择或未选择时针对四个不同按钮状态中的每个状态显示不同的图像。
+例如，假定您要设置一个28 x 28像素的播放暂停按钮。 您希望按钮距查看器底部17像素，距查看器左边缘12像素。 此外，您还希望它在选择或未选择时，针对四个不同按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7carouselviewer .s7playpausebutton { 

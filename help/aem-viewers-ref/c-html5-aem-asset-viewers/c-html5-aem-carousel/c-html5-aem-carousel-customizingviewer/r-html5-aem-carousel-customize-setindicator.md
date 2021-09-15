@@ -1,13 +1,13 @@
 ---
+title: 设置指示器
 description: 设置指示器是在查看器底部呈现的一系列点。 它显示集内的当前位置。
 solution: Experience Manager
-title: 设置指示器
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 >
 >设置指示器支持模式属性选择器，您可以使用该选择器对点线和数字操作模式应用不同的样式。 具体而言，`mode="numeric"`对应于数字操作模式；`mode="dotted"`对应于默认的点状态。
 
-示例 — 要设置带白色背景的设置指示器：
+例如，假设您要设置一个具有白色背景的设置指示器：
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ ht-degree: 1%
 >
 >设置指示器项支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 其中，`state="selected"`对应于集合中的当前元素；`state="unselected"`对应于默认项目状态。
 
-示例 — 在虚线模式下设置指示器，以便桌面系统距查看器底部20像素。 未选择的点是黑色的，其透明度为50%,15 x 15像素，圆角为7像素。 选定的点是黑色的，其透明度为90%,18 x 18像素，圆角为9像素。 点之间的间距为5像素。
+例如，假定您要在虚线模式下为桌面系统设置一个设置指示器。 您希望距查看器底部20像素的位置。 此外，您还希望未选择的点为黑色，且其透明度为50%，为15 x 15像素，且其圆角为7像素。 选定的点是黑色的，透明度为90%,18 x 18像素，圆角为9像素。 点之间的间距是5个像素。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

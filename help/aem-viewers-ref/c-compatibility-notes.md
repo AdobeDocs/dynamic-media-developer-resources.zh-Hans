@@ -2,12 +2,12 @@
 description: 操作系统、浏览器和移动设备的兼容性说明。
 solution: Experience Manager
 title: 兼容性说明
-feature: Dynamic Media Classic，查看器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 * `IntialBitRate` 仅软件HLS和FlashHDS播放支持修饰符。当播放使用本机播放器时，该函数不起作用。
 * 不支持OGG和WebM渐进式播放。
 * 浏览器缩放导致视频播放器以不正确的大小显示(包括Windows®控制面板显示设置)。
-* 在Safari上使用HLS流播放的视频搜寻不一致。
+* 在Safari上使用HLS流的视频搜索不一致。
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ ht-degree: 1%
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1或更高版本：Internet插件设置阻止Flash视频播放。
-* 在Safari上使用HLS流播放的视频搜寻不一致。
+* 在Safari上使用HLS流的视频搜索不一致。
 * 无法在使用HLS流的Safari 6上查找视频的结尾。

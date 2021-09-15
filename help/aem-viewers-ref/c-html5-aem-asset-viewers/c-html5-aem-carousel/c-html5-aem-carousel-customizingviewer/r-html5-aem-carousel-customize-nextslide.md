@@ -1,20 +1,20 @@
 ---
-description: 单击或点按“下一张幻灯片”按钮可将用户移动到轮播集中的下一张幻灯片。
-solution: Experience Manager
 title: 下一张幻灯片
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+description: 选择“下一张幻灯片”按钮，会将用户移动到轮播集中的下一张幻灯片。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # 下一张幻灯片{#next-slide}
 
-单击或点按“下一张幻灯片”按钮可将用户移动到轮播集中的下一张幻灯片。
+选择“下一张幻灯片”按钮，会将用户移动到轮播集中的下一张幻灯片。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
 
-示例 — 要设置一个上一个幻灯片按钮，其大小为60 x 60像素，距右侧查看器边框10像素且垂直居中，并针对四个不同按钮状态中的每个状态显示一个不同的图像。
+例如，假定您要设置一个上一个幻灯片按钮，其大小为60 x 60像素。 您希望按钮位于距右侧查看器边框十个像素的位置，且垂直居中。 而且，您希望它针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

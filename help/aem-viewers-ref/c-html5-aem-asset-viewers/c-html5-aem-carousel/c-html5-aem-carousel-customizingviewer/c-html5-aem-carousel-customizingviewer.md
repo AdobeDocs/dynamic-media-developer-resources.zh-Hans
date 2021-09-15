@@ -1,14 +1,14 @@
 ---
+title: 自定义轮播查看器
 description: 轮播查看器的所有可视化自定义和大多数行为自定义都是通过创建自定义CSS来完成的。
 keywords: 响应式
 solution: Experience Manager
-title: 自定义轮播查看器
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,23 @@ ht-degree: 0%
 
 提供自定义CSS规则的另一种方法是，直接在网页或某个链接的外部CSS规则中使用嵌入的样式。
 
-创建自定义CSS时，请记住，查看器会将`.s7carouselviewer`类分配给其容器DOM元素。 如果使用通过`style=`命令传递的外部CSS文件，请在CSS规则的子选择器中使用`.s7carouselviewer`类作为父类。 如果要在网页上添加嵌入的样式，则此外，还应使用容器DOM元素的ID来限定此选择器，如下所示：
+创建自定义CSS时，请记住，查看器会将`.s7carouselviewer`类分配给其容器DOM元素。 如果使用通过`style=`命令传递的外部CSS文件，请在CSS规则的子选择器中使用`.s7carouselviewer`类作为父类。 如果要在网页上添加嵌入的样式，还应使用容器DOM元素的ID来限定此选择器，如下所示：
 
 `#<containerId>.s7carouselviewer`
 
 ## 构建响应式设计的CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-可以定位CSS中的不同设备和嵌入大小，以使内容显示方式不同，具体取决于用户的设备或特定网页布局。 这包括但不限于不同布局、用户界面元素大小和图稿分辨率。
+可以定位CSS中的不同设备和嵌入大小，以使内容显示方式不同，具体取决于用户的设备或特定网页布局。 此技术包括但不限于不同布局、用户界面元素大小和图稿分辨率。
 
-查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 您可以单独使用这些组件，也可以结合使用。
+查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 您可以单独或一起使用这两个机制。
 
 **CSS标记**
 
-为了帮助创建响应式设计的CSS，查看器支持CSS标记。 它们是动态分配给顶级查看器容器元素的特殊CSS类。 它们基于运行时查看器大小和当前设备上使用的输入类型。
+为帮助创建响应式设计的CSS，查看器支持CSS标记。 这些标记是动态分配给顶级查看器容器元素的特殊CSS类。 它们基于运行时查看器大小和当前设备上使用的输入类型。
 
 第一组CSS标记包含`.s7size_large`、`.s7size_medium`和`.s7size_small`类。 它们基于查看器容器的运行时区域应用。 例如，如果查看器区域等于或大于通用桌面显示器的大小，则使用`.s7size_large`。 如果区域靠近普通平板电脑设备，请分配`.s7size_medium`。 对于类似于手机屏幕的区域，请使用`.s7size_small`。 这些CSS标记的主要用途是为不同屏幕和查看器大小创建不同的用户界面布局。
 
-第二组CSS标记包含`.s7mouseinput`和`.s7touchinput`。 如果当前设备能够触摸输入，则设置CSS标记`.s7touchinput`。 否则，使用`.s7mouseinput`。 这些标记主要用于为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要较大的元素。
+第二组CSS标记包含`.s7mouseinput`和`.s7touchinput`。 如果当前设备是触摸输入，则设置CSS标记`.s7touchinput`。 否则，使用`.s7mouseinput`。 这些标记主要用于为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要较大的元素。
 
 以下示例CSS将带有鼠标输入的系统上的按钮放大大小设置为28 x 28像素，将触屏输入设备上的放大大小设置为56 x 56像素。 如果查看器的大小更小，则会将其设置为20 x 20像素。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 }
 ```
 
-要定位像素密度不同的设备，您需要使用CSS媒体查询。 以下媒体查询块将包含特定于高密度屏幕的CSS:
+要定位像素密度不同的设备，必须使用CSS媒体查询。 以下媒体查询块将包含特定于高密度屏幕的CSS:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -150,7 +150,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 此方法的缺点是，当元素首次交互时，最终用户体验到闪烁或延迟的用户界面响应。 此操作是因为尚未下载新元素状态的图像图稿。 此外，由于对服务器的HTTP调用数量增加，此方法可能会对性能产生轻微的负面影响。
 
-CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置样式时，CSS中所有不同状态都会引用具有相同Sprite图像的Sprite。 此外，每个状态都使用`background-position`属性来指定“sprite”图像的哪一部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。
+CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置sprite样式时，CSS中所有不同状态都会引用相同的sprite图像。 此外，每个状态都使用`background-position`属性来指定“sprite”图像的哪一部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。
 
 以下是基于“sprite”的同一热点图标样式示例：
 

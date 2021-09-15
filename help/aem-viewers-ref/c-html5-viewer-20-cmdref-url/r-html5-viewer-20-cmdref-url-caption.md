@@ -1,13 +1,13 @@
 ---
+title: 字幕
 description: 所有查看器通用的参数。
 solution: Experience Manager
-title: 字幕
-feature: Dynamic Media Classic，查看器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -69,12 +69,12 @@ ht-degree: 6%
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它以不带百分号的整数表示，则它是显示文本的顶部的行数。 </p> <p>如果它以百分比表示 — 百分比符号是最后一个字符 — 则标题文本会在显示区域中以百分比显示。 </p> <p>默认值为<span class="codeph"> 100% </span>。 </p> </td> 
+   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果它以不带百分号的整数表示，则它是显示文本的顶部的行数。 </p> <p>如果它以百分比表示 — 百分比符号是最后一个字符 — 则标题文本会在显示区域下方显示该百分比。 </p> <p>默认值为<span class="codeph"> 100% </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-请注意，如果WebVTT文件中存在任何其他WebVTT功能，则不支持这些功能；但是，它们不会中断字幕。
+如果WebVTT文件中存在任何其他WebVTT功能，则不支持这些功能；但是，它们不会中断字幕。
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
