@@ -4,7 +4,7 @@ user-guide-title: 动态媒体图像服务和呈现 API
 breadcrumb-title: Dynamic Media 图像服务和渲染 API
 feature-set: Experience Manager Assets
 user-guide-description: 查看有关 IS（图像服务）和 IR（图像渲染）API 以及相关技术的文档。
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 12%
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # Dynamic Media 图像服务和渲染 API {#image-serving-api}
 
-+ [Dynamic Media图像提供和图像呈现API主页](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
++ [Dynamic Media图像提供和图像呈现API主页](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [关于此版本](r-about-this-release.md)
 + [系统要求和先决条件](r-requirements-and-prerequisites.md)
 + [磁盘空间要求和建议](r-disk-space-reqs.md)
