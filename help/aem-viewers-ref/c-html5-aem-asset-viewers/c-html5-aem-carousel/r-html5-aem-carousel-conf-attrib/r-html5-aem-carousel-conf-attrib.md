@@ -1,13 +1,13 @@
 ---
+title: 命令引用 — 配置属性
 description: 轮播查看器的配置属性文档。
 solution: Experience Manager
-title: 命令引用 — 配置属性
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-这表示您可以将此命令用作：
+在这种情况下，您可以使用以下命令：
 
 * `fmt` （短语法）
 * `CarouselView.fmt` （使用组件类名称限定）

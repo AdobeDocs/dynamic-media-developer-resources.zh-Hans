@@ -1,14 +1,14 @@
 ---
+title: CarouselView.iscommand
 description: CarouselView.iscommand
 solution: Experience Manager
-title: CarouselView.iscommand
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 8%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand  </span></span> </p> </td> 
    <td colname="col2"> <p> 应用于横幅图像的图像提供命令字符串。 如果在URL中指定了<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有实例，则必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> </td> 
   </tr> 
  </tbody> 

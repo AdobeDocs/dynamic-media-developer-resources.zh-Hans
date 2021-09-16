@@ -1,13 +1,13 @@
 ---
+title: CarouselView.enableHD
 description: CarouselView.enableHD
 solution: Experience Manager
-title: CarouselView.enableHD
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 总是|从|不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 对于<span class="codeph"> devicePixelRatio</span>大于<span class="codeph"> 1</span>的设备，即具有高密度显示（如iPhone4和类似设备）的设备，启用或禁用优化。 </p> <p>如果处于活动状态，则组件会限制IS图像请求的大小，如同设备仅具有<span class="codeph"> 1</span>的像素比，并且这样会减少带宽。 </p> <p>请参阅以下示例。 </p> </td> 
+   <td colname="col2"> <p> 对于<span class="codeph"> devicePixelRatio</span>大于<span class="codeph"> 1</span>（即iPhone4和类似设备等具有高密度显示的设备）的设备，启用、限制或禁用优化。 </p> <p>如果处于活动状态，则组件会限制IS图像请求的大小，如同设备仅具有<span class="codeph"> 1</span>的像素比，并且这样会减少带宽。 </p> <p>请参阅以下示例。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数字</span></span> </p> </td> 

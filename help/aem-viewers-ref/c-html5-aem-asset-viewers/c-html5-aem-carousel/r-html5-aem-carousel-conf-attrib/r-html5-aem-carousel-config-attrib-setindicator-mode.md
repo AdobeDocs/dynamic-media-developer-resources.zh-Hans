@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.mode
 description: SetIndicator.mode
 solution: Experience Manager
-title: SetIndicator.mode
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 数值|虚线</span> </p> </td> 
-   <td colname="col2"> <p> 配置设置指示器的呈现样式。 </p> <p>当设置为<span class="codeph">虚线</span>时，组件会为所有页面呈现相同的指示器。 </p> <p>当设置为<span class="codeph">数值</span>时，它会在每个指示器元素中放置一个基于1的页码。 </p> <p>能够触摸输入的设备不支持<span class="codeph">数值</span>操作模式。 该组件而是在此类设备上使用<span class="codeph">虚线</span>。 </p> </td> 
+   <td colname="col2"> <p> 配置设置指示器的呈现样式。 </p> <p>当设置为点线</span>的<span class="codeph">时，组件会为所有页面呈现相同的指示器。 </span></p> <p>当设置为<span class="codeph">数值</span>时，它会在每个指示器元素中放置一个基于1的页码。 </p> <p>具有触摸输入的设备不支持<span class="codeph">数值</span>操作模式。 该组件而是在此类设备上使用<span class="codeph">虚线</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

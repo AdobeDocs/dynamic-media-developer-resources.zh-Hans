@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.autohide
 description: SetIndicator.autohide
 solution: Experience Manager
-title: SetIndicator.autohide
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
