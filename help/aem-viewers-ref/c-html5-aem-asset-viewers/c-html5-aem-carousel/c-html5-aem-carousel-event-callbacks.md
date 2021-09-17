@@ -1,13 +1,13 @@
 ---
+title: 事件回调
 description: 事件回调
 solution: Experience Manager
-title: 事件回调
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> 当用户激活与其关联的概览数据热点时触发。 回调处理程序采用以下参数： </p> <p> 
+   <td colname="col2"> <p> 当用户激活与其关联的概览数据的热点时触发。 回调处理程序采用以下参数： </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> 数据{对象}  </span>  — 一个JSON对象，其中包含来自热点定义的数据。字段<span class="codeph"> sku </span>是必填字段，而其他字段是可选字段，具体取决于源热点定义。 </p> </li> 
      </ul> </p> </td> 

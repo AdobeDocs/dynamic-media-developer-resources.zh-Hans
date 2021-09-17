@@ -1,22 +1,22 @@
 ---
-description: 轮播查看器显示的某些内容需要本地化。 其中包括幻灯片导航按钮。
-solution: Experience Manager
 title: 用户界面元素的本地化
-feature: Dynamic Media Classic，查看器，SDK/API，传送横幅
+description: 轮播查看器显示的某些内容需要本地化。 此内容包括幻灯片导航按钮。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-轮播查看器显示的某些内容需要本地化。 其中包括幻灯片导航按钮。
+轮播查看器显示的某些内容需要本地化。 此内容包括幻灯片导航按钮。
 
-查看器中每个可以本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值，并且还可以根据需要为任意数量的区域设置设置用户定义的值。
+查看器中每个可以本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值，并且可能还根据需要为任意数量的区域设置设置用户定义的值。
 
 查看器启动时，它会检查当前区域设置，以查看此区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
