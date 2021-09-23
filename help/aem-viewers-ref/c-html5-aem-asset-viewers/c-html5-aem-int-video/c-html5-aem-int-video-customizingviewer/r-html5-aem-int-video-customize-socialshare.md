@@ -1,13 +1,13 @@
 ---
+title: 社交共享
 description: 默认情况下，社交共享工具显示在右上角。 它由一个按钮和一个面板组成，当用户单击或点按按钮时，该面板将展开并包含单个共享工具。
 solution: Experience Manager
-title: 社交共享
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '317'
 ht-degree: 2%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: 交互式色板
 description: 如果在配置中将交互式数据传递到查看器，则交互式样本面板会显示在视频内容旁边。 它由顶部的一个横幅组成，该横幅可呈现文本，如“点击查看”、一个或多个交互式色板的列以及两个滚动按钮（仅在桌面系统上可用）。
 solution: Experience Manager
-title: 交互式色板
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ ht-degree: 2%
 * 要在查看器底部水平渲染交互式色板，请将高度设置为绝对像素值；左和下到0px;宽度、右侧和从上到上的自动。
 * 要在视频内容的右侧垂直渲染交互式色板，请将宽度设置为绝对像素；右上至0px;高度，从左到下到自动。
 
-可以将CSS标记与此样式结合使用，以实现交互式色板面板的自适应放置。
+可以将此样式结合使用CSS标记，以实现交互式色板面板的自适应放置。
 
 ## 示例 {#example}
 
-要设置一个交互式色板面板，以便在触控设备上在查看器底部以横向水平呈现，并在所有其他情况下以垂直方式显示视频内容的右侧：
+要设置一个交互式色板面板，以便在触控设备上在查看器底部以横向水平呈现。 此外，在所有其他情况下，要垂直显示视频内容的右侧，请执行以下操作：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -267,7 +267,7 @@ ht-degree: 2%
 
 ## 示例 {#section-eb141eb6c1154183baa69796edb90536}
 
-要设置标签以使用左对齐、白色、12像素、Helvetica字体和下边框，请执行以下操作：
+要设置标签以使用左对齐、白色、12像素、Helvetica®字体和下边框，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

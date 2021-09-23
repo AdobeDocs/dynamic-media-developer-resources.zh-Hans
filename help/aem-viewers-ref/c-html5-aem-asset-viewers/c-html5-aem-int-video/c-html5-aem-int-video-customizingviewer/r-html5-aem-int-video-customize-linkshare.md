@@ -1,13 +1,13 @@
 ---
+title: 链接共享
 description: 链接共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-title: 链接共享
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
+使用以下CSS类选择器控制活动对话框时覆盖网页的背景叠加：
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-该图标和标题文本将封装在通过以下CSS类选择器控制的其他容器中：
+图标和标题文本将封装在通过以下CSS类选择器控制的额外容器中：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 “关闭”按钮工具提示和对话框标题可以本地化。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
-**示例**  — 要设置一个对话框标题，其中包含内边距、22 x 12像素图标、粗体16点标题和一个28 x 28像素的“关闭”按钮，该按钮位于距离对话框容器顶部两个像素和距离对话框容器右侧两个像素的位置：
+**示例**  — 要设置一个带有内边距、22 x 12像素图标、带有粗体16点标题的对话框标题。最后，一个28 x 28像素的“关闭”按钮，它位于距对话框容器顶部两个像素和距离对话框容器右侧两个像素的位置：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-此外，两个按钮共享相同的常用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
+此外，两个按钮共享一个通用的CSS类，该类可以包含与其他对话框按钮相同的CSS设置：
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -577,7 +577,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**示例**  — 将表单内容设置为具有10像素内边距：
+**示例**  — 将表单内容设置为具有10个像素内边距：
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**对话框输入宽字段的CSS属性**
+**对话框输入范围字段的CSS属性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

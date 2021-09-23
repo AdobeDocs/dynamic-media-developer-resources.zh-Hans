@@ -1,14 +1,14 @@
 ---
+title: 自定义交互式视频查看器
 description: 交互式视频查看器的所有可视化自定义和大多数行为自定义都是通过创建自定义CSS来完成的。
 keywords: 响应式
 solution: Experience Manager
-title: 自定义交互式视频查看器
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -31,25 +31,25 @@ ht-degree: 0%
 
 提供自定义CSS规则的另一种方法是，直接在网页或某个链接的外部CSS规则中使用嵌入的样式。
 
-创建自定义CSS时，请记住，查看器会将`.s7interactivevideoviewer`类分配给其容器DOM元素。 如果使用通过`style=`命令传递的外部CSS文件，请在CSS规则的子选择器中使用`.s7interactivevideoviewer`类作为父类。 如果您在网页上执行嵌入的样式，则此外，还应使用容器DOM元素的ID来限定此选择器，如下所示：
+创建自定义CSS时，请记住，查看器会将`.s7interactivevideoviewer`类分配给其容器DOM元素。 如果使用通过`style=`命令传递的外部CSS文件，请在CSS规则的子选择器中使用`.s7interactivevideoviewer`类作为父类。 如果您在网页上执行嵌入样式，请使用容器DOM元素的ID来限定此选择器，如下所示：
 
 `#<containerId>.s7interactivevideoviewer`
 
 ## 构建响应式设计的CSS {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-可以定位CSS中的不同设备和嵌入大小，以使内容显示方式因用户的设备或特定网页布局而异。 这包括但不限于不同布局、用户界面元素大小和图稿分辨率。
+可以定位CSS中的不同设备和嵌入大小，以使内容显示方式因用户的设备或特定网页布局而异。 此方法包括但不限于不同布局、用户界面元素大小和图稿分辨率。
 
-查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 您可以单独使用这些组件，也可以结合使用。
+查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 可以单独或一起使用这些机制。
 
 **CSS标记**
 
-为了帮助创建响应式设计的CSS，查看器支持CSS标记。 这些是特殊的CSS类，会根据运行时查看器大小和当前设备上使用的输入类型，动态地分配给顶级查看器容器元素。
+为帮助创建响应式设计的CSS，查看器支持CSS标记。 这些标记是特殊的CSS类。 系统会根据运行时查看器大小和当前设备上使用的输入类型，动态地将它们分配给顶级查看器容器元素。
 
-第一组CSS标记包括`.s7size_large`、`.s7size_medium`和`.s7size_small`类。 它们基于查看器容器的运行时区域应用。 如果查看器面积等于或大于公共桌面显示器的尺寸，则使用`.s7size_large`;如果区域靠近常用平板电脑设备，则分配`.s7size_medium`。 对于类似于手机屏幕的区域，将设置`.s7size_small`。 这些CSS标记的主要用途是为不同屏幕和查看器大小创建不同的用户界面布局。
+第一组CSS标记包括`.s7size_large`、`.s7size_medium`和`.s7size_small`类。 它们基于查看器容器的运行时区域应用。 如果查看器面积等于或大于公共桌面显示器的大小，则使用`.s7size_large`;如果区域靠近常用平板电脑设备，则分配`.s7size_medium`。 对于类似于手机屏幕的区域，设置`.s7size_small`。 这些CSS标记的主要用途是为不同屏幕和查看器大小创建不同的用户界面布局。
 
-第二组CSS标记包含`.s7mouseinput`和`.s7touchinput`。 `.s7touchinput` 如果当前设备具有触控输入功能，则设置；否则， `.s7mouseinput` 将使用。这些标记主要用于为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要较大的元素。
+第二组CSS标记包含`.s7mouseinput`和`.s7touchinput`。 如果当前设备具有触控输入功能，则设置标记`.s7touchinput`;否则，使用`.s7mouseinput`。 这些标记主要用于为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要较大的元素。
 
-第三组CSS标记包含`.s7device_landscape`和`.s7device_portrait`。 `.s7device_landscape` 如果触控设备处于横向，则设置； `.s7device_portrait` 当触控设备旋转为纵向方向时，会使用。这些CSS标记仅用于桌面系统。
+第三组CSS标记包含`.s7device_landscape`和`.s7device_portrait`。 如果触摸设备处于横向，则设置标记`.s7device_landscape`;将触控设备旋转为纵向方向时，会使用`.s7device_portrait`。 这些CSS标记仅用于桌面系统。
 
 以下示例CSS将带鼠标输入的系统上的播放/暂停按钮大小设置为28x28像素，触屏设备上设置为56x56像素。 此外，如果查看器大小显着减小，则会完全隐藏按钮：
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 }
 ```
 
-在下一个示例中，如果触摸设备为纵向方向，则视频控制栏位于查看器底部上方138像素的位置，并在所有其他情况下将其移至查看器底部：
+在下一个示例中，如果触摸设备为纵向方向，则视频控制栏位于查看器底部上方138像素的位置。 在所有其他情况下，该查看器都会移至查看器底部：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7controlbar, 
@@ -79,7 +79,7 @@ ht-degree: 0%
 }
 ```
 
-要定位像素密度不同的设备，您需要使用CSS媒体查询。 以下媒体查询块将包含特定于高密度屏幕的CSS:
+要定位像素密度不同的设备，必须使用CSS媒体查询。 以下媒体查询块将包含特定于高密度屏幕的CSS:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ## CSS Sprite {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-许多查看器用户界面元素使用位图图稿设置样式，并具有多个不同的可视状态。 一个按钮通常至少具有3种不同状态的示例很好：“up”、“over”和“down”。 每个状态都需要分配其自己的位图图稿。
+许多查看器用户界面元素使用位图图稿设置样式，并具有多个不同的可视状态。 一个按钮通常至少具有三种不同状态，这就是一个很好的示例：“up”、“over”和“down”。 每个状态都需要分配其自己的位图图稿。
 
 通过经典的样式设置方法，CSS将针对用户界面元素的每个状态对服务器上的单个图像文件单独进行引用。 以下是用于为全屏按钮设置样式的示例CSS:
 
@@ -189,7 +189,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 此方法的缺点是，当元素首次交互时，最终用户体验到闪烁或延迟的用户界面响应。 此操作是因为尚未下载新元素状态的图像图稿。 此外，由于对服务器的HTTP调用数量增加，此方法可能会对性能产生轻微的负面影响。
 
-CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置样式时，CSS中所有不同状态都会引用具有相同Sprite图像的Sprite。 此外，每个状态都使用`background-position`属性来指定“sprite”图像的哪一部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。 以下是基于“sprite”的示例，用于为前面相同的全屏按钮设置样式：
+CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置sprite样式时，CSS中所有不同状态都会引用相同的sprite图像。 此外，每个状态都使用`background-position`属性来指定“sprite”图像的哪一部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。 以下是基于“sprite”的示例，用于为前面相同的全屏按钮设置样式：
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton[state][selected]{ 

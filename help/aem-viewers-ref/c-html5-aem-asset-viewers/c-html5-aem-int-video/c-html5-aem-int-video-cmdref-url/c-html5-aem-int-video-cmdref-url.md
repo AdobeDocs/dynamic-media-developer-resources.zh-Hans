@@ -1,13 +1,13 @@
 ---
+title: 命令引用 — URL
 description: 交互式视频查看器的命令参考文档。
 solution: Experience Manager
-title: 命令引用 — URL
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e0a9e269-4826-4518-9222-6a833d11746b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-这表示此命令的使用方式如下：
+这表示此命令的使用方式如下
 
 * `playback` （短语法）
 * `VideoPlayer.playback` （使用组件类名称限定）

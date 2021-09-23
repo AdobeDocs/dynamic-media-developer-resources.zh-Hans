@@ -1,13 +1,13 @@
 ---
+title: 图标效果
 description: 播放图标叠加在主视图区域上。 它在视频暂停时或到达视频结尾时显示，并且还取决于iconeffect参数。
 solution: Experience Manager
-title: 图标效果
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-图标效果支持`state`属性选择器。 `state="play"` 在播放过程中暂停视频时使用，在播 `state="replay"` 放头位于流末尾时使用。
+图标效果支持`state`属性选择器。 当视频在播放过程中暂停时，将使用属性`state="play"`；当播放头在流末尾时，将使用属性`state="replay"`。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 

@@ -1,13 +1,13 @@
 ---
+title: 题注按钮
 description: 此按钮用于打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。
 solution: Experience Manager
-title: 题注按钮
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要设置一个28 x 28像素的隐藏式字幕按钮，将四个像素置于控制栏的顶部，将68个像素置于控制栏的右边缘，并在选择或未选择时针对四个不同按钮状态中的每个状态显示一个不同的图像。
+设置28 x 28像素的隐藏式字幕按钮。 按钮必须距控件条顶部4个像素，距控件条右边缘68个像素。 此外，在选择或未选择时，它必须为四个不同按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

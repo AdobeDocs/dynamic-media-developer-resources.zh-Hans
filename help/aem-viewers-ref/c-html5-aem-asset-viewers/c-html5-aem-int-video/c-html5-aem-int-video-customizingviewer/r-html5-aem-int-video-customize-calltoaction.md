@@ -1,11 +1,11 @@
 ---
+title: 行动动员
 description: 视频结束时，“行动动员”面板会显示，并显示与特定视频关联的所有交互式色板。
 solution: Experience Manager
-title: 行动动员
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 3%
@@ -191,7 +191,7 @@ ht-degree: 3%
 
 ## 示例 {#example-3}
 
-设置28 x 28像素的重播按钮；从头顶和右边缘定位20像素；为四个不同的按钮状态中的每一个状态显示不同的图像；从组件的sprite图像中获取图稿：
+设置28 x 28像素的重播按钮。 按钮必须距标题顶部和右边缘20像素。 而且，它必须针对四个不同的按钮状态中的每个状态显示一个不同的图像；从组件的sprite图像中获取图稿：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ ht-degree: 3%
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 行动动员面板中缩略图的CSS属性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## 行动动员面板中缩览图单元格的CSS属性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ ht-degree: 3%
 
 ## 示例 {#example-7}
 
-要设置使用白色的标签，请居中对齐15像素，并使用Arial字体：
+要设置使用白色的标签，请居中对齐15像素，并使用Arial®字体：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

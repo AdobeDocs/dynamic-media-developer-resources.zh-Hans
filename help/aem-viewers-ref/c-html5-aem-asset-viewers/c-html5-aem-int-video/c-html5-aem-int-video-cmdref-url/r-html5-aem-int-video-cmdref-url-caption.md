@@ -1,13 +1,13 @@
 ---
+title: 字幕
 description: 交互式视频查看器的URL命令。
 solution: Experience Manager
-title: 字幕
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '199'
 ht-degree: 8%
 
 ---

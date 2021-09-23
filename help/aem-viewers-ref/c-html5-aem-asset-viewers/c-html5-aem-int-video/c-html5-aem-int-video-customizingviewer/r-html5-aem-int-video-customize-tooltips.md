@@ -1,20 +1,20 @@
 ---
-description: 在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
-solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+description: 在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
 # 工具提示{#tooltips}
 
-在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,11 +63,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需执行此操作。
+>如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需填写此注释。
 
 ## 示例 {#section-59e009fd05b14019936aba04d7ca779d}
 
-要设置工具提示，其中的灰色边框具有三个像素圆角半径、黑色背景和以Arial格式表示的白色文本，请执行以下操作：
+要设置工具提示，其中的灰色边框具有三个像素圆角半径、黑色背景和白色文本(以Arial®为11像素):
 
 ```
 .s7tooltip { 

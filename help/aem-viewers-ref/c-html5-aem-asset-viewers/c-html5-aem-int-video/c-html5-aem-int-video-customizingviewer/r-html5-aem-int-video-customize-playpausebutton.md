@@ -1,13 +1,13 @@
 ---
+title: “播放/暂停”按钮
 description: 当用户单击视频内容时，播放/暂停按钮会导致视频播放器播放或暂停该视频内容。
 solution: Experience Manager
-title: “播放/暂停”按钮
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ ht-degree: 2%
 >
 >此按钮同时支持`state`、`selected`和`replay`属性选择器，它们可用于将不同的外观应用到不同的按钮状态。 其中，`selected='true'`对应于“play”状态，`selected='false'`对应于“pause”状态；
 >
->`replay='true'` 当视频到达结尾时，单击按钮将从开头重新开始播放。
+>当视频到达结尾时，将设置属性`replay='true'` ，选择按钮将从开头重新开始播放。
 
 按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-设置32 x 32像素的播放/暂停按钮；它位于距控制栏上边缘和左边缘6个像素处，在选择或未选择时，它会针对四个不同按钮状态中的每个状态显示不同的图像。
+设置32 x 32像素的播放/暂停按钮，该按钮距控制栏的上边缘和左边缘有6个像素。 最后，在选择或未选择时，它会针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

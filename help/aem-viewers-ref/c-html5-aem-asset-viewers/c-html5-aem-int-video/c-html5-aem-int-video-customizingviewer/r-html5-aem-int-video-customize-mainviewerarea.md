@@ -1,20 +1,20 @@
 ---
-description: 主视图区域是交互色板所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
-solution: Experience Manager
 title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+description: 主视图区域是交互色板所占用的区域。 如果未指定任何大小，则设置为适合可用设备屏幕。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 3%
 
 ---
 
 # 主查看器区域{#main-viewer-area}
 
-主视图区域是交互色板所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
+主视图区域是交互色板所占用的区域。 如果未指定任何大小，则设置为适合可用设备屏幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

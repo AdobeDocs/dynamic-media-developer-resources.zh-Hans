@@ -1,14 +1,14 @@
 ---
+title: interactivedata
 description: 交互式视频查看器的URL命令。
 solution: Experience Manager
-title: interactivedata
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 5%
+source-wordcount: '94'
+ht-degree: 6%
 
 ---
 
