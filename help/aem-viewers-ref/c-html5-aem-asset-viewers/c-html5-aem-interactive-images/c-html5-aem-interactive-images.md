@@ -1,13 +1,13 @@
 ---
+title: 交互式图像
 description: 交互式图像查看器是一个查看器，它显示一个带有可单击热点的不可缩放图像。 此查看器旨在实施“购物横幅”体验。 也就是说，用户可以在横幅图像上选择热点，然后被重定向到您网站上的概览或产品详细信息页面。 它适用于台式机和移动设备。
 solution: Experience Manager
-title: 交互式图像
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 嵌入交互式图像查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-交互式图像查看器可嵌入到托管页面中。 这样的网页可能具有静态布局，或者它可能是“响应式”的，并且在不同设备上或针对不同浏览器窗口大小显示不同。
+交互式图像查看器会嵌入到托管页面中。 这样的网页可能具有静态布局，或者它可能是“响应式”的，并且在不同设备上或针对不同浏览器窗口大小显示不同。
 
 为了满足这些需求，查看器支持两种主要操作模式：修复了大小嵌入和响应式嵌入。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 主要用例是面向台式机或平板电脑设备的网页，以及响应式设计的页面，这些页面可根据设备类型自动调整布局。
 
-当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 这是具有静态布局的网页的最佳选择。
+当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 此方法是具有静态布局的网页的最佳选择。
 
-响应式设计嵌入假定查看器可能需要在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器`DIV`的大小变化。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式Web设计布局框架(如Bootstrap、基础等)的网页，此用例最常见。
+在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器`DIV`的方式不同。 如果网页仅设置容器的宽度`DIV`，并且不限制其高度，则查看器会根据所用资产的宽高比自动选择其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式Web设计布局框架(如Bootstrap和基础)的网页，此用例最常见。
 
 否则，如果网页同时设置查看器容器`DIV`的宽度和高度，则查看器仅填充该区域。 它还遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中的叠加根据Web浏览器窗口大小来调整大小。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只应在页面上引用主查看器JavaScript `include`文件。 您不应在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何可能由查看器逻辑在运行时下载的其他JavaScript文件。 特别是，切勿直接引用查看器从`/s7viewers`上下文路径加载的HTML5 SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置发生更改。 Adobe不会在服务器上保留旧版次查看器`includes`。
 >
 >
 >因此，在页面上直接引用查看器使用的任何辅助JavaScript `include`会在将来部署新产品版本时中断查看器功能。
@@ -114,7 +114,7 @@ ht-degree: 0%
 
    您可以通过以下两种方式设置查看器的静态大小：以绝对单位声明查看器的`.s7interactiveimage`顶级CSS类，或使用`stagesize`修饰符。
 
-   您可以将大小调整直接放在HTML页面的CSS中，或放在自定义查看器CSS文件中，该文件稍后会分配给AEM Assets中的查看器预设记录 — 按需，或使用`style`命令显式传递。
+   您可以将大小调整直接放在HTML页面的CSS中。 或者，您也可以将大小调整放入自定义查看器CSS文件中，该文件稍后会分配给Adobe Experience Manager Assets - On-demand中的查看器预设记录，或者使用`style`命令显式传递。
 
    请参阅[视频](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) ，以了解有关使用CSS为查看器设置样式的更多信息。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
    务必要将查看器容器添加到DOM，以便查看器代码可以通过其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 为了实现最大的兼容性，请在结束`BODY`标记之前或在主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素不一定只是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此情况时，查看器加载会自动恢复。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式来隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此事件时，查看器加载会自动恢复。
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数并调用`init()`方法。 该示例假定`interactiveImage`为查看器实例；`s7viewer`是占位符`DIV`的名称；`http://aodmarketingna.assetsadobe.com/is/image`是图像服务URL，`/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.`是资产：
 
@@ -248,7 +248,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 **定义宽度和高度的灵活大小嵌入**
 
-在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其放在浏览器窗口的中心。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
+如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为`"holder"` DIV提供两种大小，并将其放在浏览器窗口的中心。 此外，该网页还会将`HTML`和`BODY`元素的大小设置为100%。
 
 ```
 <!DOCTYPE html> 

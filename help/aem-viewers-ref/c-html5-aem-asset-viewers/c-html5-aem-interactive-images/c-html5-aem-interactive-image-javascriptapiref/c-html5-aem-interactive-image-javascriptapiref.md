@@ -1,13 +1,13 @@
 ---
+title: 适用于交互式图像查看器的JavaScript API引用
 description: 交互式图像查看器的主类是InteractiveImage。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 solution: Experience Manager
-title: 适用于交互式图像查看器的JavaScript API引用
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

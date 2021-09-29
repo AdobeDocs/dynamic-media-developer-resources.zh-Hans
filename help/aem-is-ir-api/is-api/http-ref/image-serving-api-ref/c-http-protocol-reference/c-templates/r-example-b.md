@@ -2,12 +2,12 @@
 description: 与示例A类似的要求，但使用纯色背景并允许复合图像的高度发生变化，以适应宽高比不同的图像。
 solution: Experience Manager
 title: 示例B
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 0%
  </tr> 
 </table>
 
-图像放置在图层0中，高度值`size=`设置为0，这会导致实际高度由图像在缩放到800像素宽后的高度决定。
+图像放置在图层0中，并且`size=`的高度值设置为0。 此设置会在将图像宽度缩放为800像素后，将其实际高度由图像的高度确定。
 
-`extend=` 在顶部和底部添加100像素，在右侧添加200像素。
+变量`extend=`在顶部和底部添加100像素，在右侧添加200像素。
 
 层0和层1的原点都位于合成区域的中右侧，以达到所需的文本位置。
 
-下图显示了图像和不同文本字符串的不同长宽比的复合结果。
+下图显示了图像不同长宽比和不同文本字符串的复合结果。
 
-![](assets/exampleb.png)
+![示例B图像](assets/exampleb.png)

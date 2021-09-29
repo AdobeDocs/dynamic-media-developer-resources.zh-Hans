@@ -1,21 +1,21 @@
 ---
-description: 交互式图像查看器显示的某些内容需要本地化。 这包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
 title: 用户界面元素的本地化
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+description: 交互式图像查看器显示的某些内容需要本地化。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-交互式图像查看器显示的某些内容需要本地化。 这包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
+交互式图像查看器显示的某些内容需要本地化。 此内容包括用户界面元素工具提示以及加载时弹出缩放视图显示的信息消息。
 
-查看器中每个可以本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值，并且还可以根据需要为任意数量的区域设置设置用户定义的值。
+查看器中每个可以本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值，并且可能根据需要为任意数量的区域设置设置用户定义的值。
 
 查看器启动时，它会检查当前区域设置，以查看此区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 

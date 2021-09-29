@@ -1,13 +1,13 @@
 ---
+title: 查看器SDK教程
 description: 查看器SDK提供了一组基于JavaScript的组件，用于自定义查看器开发。 查看器是基于Web的应用程序，允许将AdobeDynamic Media提供的富媒体内容嵌入网页。
 solution: Experience Manager
-title: 查看器SDK教程
-feature: Dynamic Media Classic，查看器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 例如，SDK提供了交互式缩放和平移。 它还提供了360°查看和视频播放资产，这些资产已通过名为Dynamic Media Classic的后端应用程序上传到AdobeDynamic Media。
 
-即使这些组件依赖于HTML5功能，它们也设计为可在Android和Apple iOS设备以及台式机（包括Internet Explorer及更高版本）上使用。 这种体验意味着您能够为所有受支持的平台提供单个工作流。
+即使这些组件依赖于HTML5功能，它们也设计为可在Android™和Apple iOS设备以及台式机（包括Internet Explorer及更高版本）上使用。 这种体验意味着您能够为所有受支持的平台提供单个工作流。
 
-SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件来设置这些组件的样式，这些组件具有某种支持角色，例如设置定义获取和解析或跟踪。 所有组件行为都可通过修饰符进行自定义，您可以通过多种方式指定修饰符，例如，在URL中指定为`name=value`对。
+SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件来设置这些组件的样式，这些组件具有某种支持角色，例如设置定义获取和解析或跟踪。 所有组件行为都可通过修饰符进行自定义，您可以通过各种方式指定修饰符，例如，在URL中指定为`name=value`对。
 
 本教程包括以下任务顺序，可帮助您创建基本的缩放查看器：
 
@@ -38,13 +38,13 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    >[!NOTE]
    >
-   >您无需下载查看器SDK包即可完成本教程，因为SDK实际上是远程加载的。 但是，查看器包中包含其他示例和API参考指南，在您创建自己的查看器时，这些示例和API参考指南将很有帮助。
+   >由于SDK是远程加载的，因此您无需下载查看器SDK包即可完成本教程。 但是，查看器包中包含其他示例和API参考指南，可帮助您创建自己的查看器。
 
 ## 加载查看器SDK {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 首先，设置一个新页面以开发要创建的基本缩放查看器。
 
-   可以将此代码视为引导程序（或加载器）代码，以设置空SDK应用程序。 打开您最喜爱的文本编辑器，并将以下HTML标记粘贴到该编辑器中：
+   将此新页面视为Bootstrap（或加载器）代码，您使用该代码设置空SDK应用程序。 打开您最喜爱的文本编辑器，并将以下HTML标记粘贴到该编辑器中：
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    </html>
    ```
 
-   在`script`标记中添加以下JavaScript代码，以初始化`ParameterManager`。 这有助于您准备在`initViewer`函数中创建SDK组件并对其进行实例化：
+   在`script`标记中添加以下JavaScript代码，以便初始化`ParameterManager`。 这样做有助于您准备在`initViewer`函数中创建SDK组件并将其实例化：
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 1. 将文件另存为空模板。 您可以使用任何所需的文件名。
 
-   将来创建任何新查看器时，您将使用此空模板文件作为参考。 此模板可在本地使用，并且从Web服务器提供时也可使用。
+   将来在创建任何查看器时，您将使用此空模板文件作为参考。 此模板可在本地使用，并且从Web服务器提供时也可使用。
 
-您现在将向查看器添加样式。
+现在，向查看器添加样式。
 
 ## 向查看器添加样式 {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    </style>
    ```
 
-现在，您将包含组件`Container`和`ZoomView`。
+现在包括组件`Container`和`ZoomView`。
 
 ## 包括容器和ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    var container, zoomView;
    ```
 
-1. 在`initViewer`函数中插入以下内容，以定义一些修饰符并实例化相应的组件：
+1. 在`initViewer`函数中插入以下内容，以便您可以定义一些修饰符并实例化相应的组件：
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    }
    ```
 
-1. 预览页面，以便查看已创建的内容。 您的页面将如下所示：
+1. 预览页面，以便查看已创建的内容。 您的页面应如下所示：
 
-   ![](assets/viewer-1.jpg)
+   ![查看器示例一幅图像](assets/viewer-1.jpg)
 
-您现在将组件`MediaSet`和`Swatches`添加到查看器中。
+现在，将组件`MediaSet`和`Swatches`添加到查看器中。
 
 ## 将MediaSet和Swatches组件添加到查看器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    查看器现在类似于下图。 尝试调整查看器的浏览器窗口大小，并注意所产生的行为。
 
-   ![](assets/viewer-2.jpg)
+   ![查看器示例2幅图像](assets/viewer-2.jpg)
 
-您现在可以向查看器添加放大、缩小和缩放重置按钮。
+现在，可向查看器添加放大、缩小和缩放重置按钮。
 
 ## 向查看器添加按钮 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
     }
    ```
 
-1. 预览查看器。 它将如下所示：
+1. 预览查看器。 它应如下所示：
 
-   ![](assets/viewer-3.jpg)
+   ![查看器示例3幅图像](assets/viewer-3.jpg)
 
-   您现在将配置色板，以便它们在右侧垂直对齐。
+   现在，配置色板，以便它们在右侧垂直对齐。
 
 ## 垂直配置色板 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. 您可以直接在`ParameterManager`实例上配置修饰符。
 
-   在`initViewer`函数的顶部添加以下内容，以将`Swatches`缩览图布局配置为单行：
+   在`initViewer`函数的顶部添加以下内容，以便将`Swatches`缩览图布局配置为单行：
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -383,9 +383,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    }
    ```
 
-1. 预览查看器。 它将如下所示：
+1. 预览查看器。 如下所示：
 
-   ![](assets/viewer-4.jpg)
+   ![查看器示例四幅图像](assets/viewer-4.jpg)
 
    基本的缩放查看器现已完成。
 

@@ -1,13 +1,13 @@
 ---
+title: 焦点突出显示
 description: 焦点查看器用户界面元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
 solution: Experience Manager
-title: 焦点突出显示
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---

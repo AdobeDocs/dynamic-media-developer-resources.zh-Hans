@@ -1,14 +1,14 @@
 ---
+title: FXG服务器协议
 description: 要处理图形，您可以使用参考点（类似于罗经点）。
 solution: Experience Manager
-title: FXG服务器协议
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 85%
+source-wordcount: '268'
+ht-degree: 69%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 85%
 
 要处理图形，您可以使用参考点（类似于罗经点）。
 
-使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点为`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通过使用 center 参考点，您可以将一个图形绕其中心旋转 45 度。下图显示了参考点的位置、一个图形、该图形从其 `northWest` 参考点旋转 20 度所得到的图形和从其 `east` 参考点旋转 20 度所得到的图形。
+使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点为`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通过使用中心参照点，可以将图形在其中心旋转45°。 下图显示了参考点的位置、图形、图形从其`northWest`参考点旋转了20°，图形从其`east`参考点旋转了20°。
 
-![](assets/wp_ref_points.png)
+![参考点图像](assets/wp_ref_points.png)
 
 * A.参考点位置
 * B.图表
-* C.图形从`northWest`参考点旋转了20度
-* D.图形从其`east`参考点旋转了20度
+* C.图形从`northWest`参考点旋转了20°
+* D.图形从`east`参考点旋转了20°
 
 语法如下：
 

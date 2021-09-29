@@ -1,13 +1,13 @@
 ---
+title: 示例C
 description: 创建“纸娃娃”分层应用程序。
 solution: Experience Manager
-title: 示例C
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 每张服装/附件照片都被蒙版并被裁剪到蒙版定界框以最小化图像大小。 图像锚点和分辨率经过仔细控制以保持图层和背景图像之间的对齐，所有图像都被添加到图像目录中，并且相应的值存储在`catalog::Resolution`和`catalog::Anchor`中。
 
-除了分层之外，我们还希望更改选定项目的颜色。 对这些项的记录进行预处理以去除原始颜色，并以适合着色命令的方式调整亮度和对比度。 此预处理过程可以通过使用图像编辑工具(如Photoshop)离线完成，或者在简单的情况下，也可以通过向`catalog::Modifier`字段添加`op_brightness=`和`op_contrast=`来逐步完成。
+除了分层之外，您还希望更改选定项目的颜色。 对这些项的记录进行预处理以去除原始颜色，并以适合着色命令的方式调整亮度和对比度。 此预处理过程可以通过使用图像编辑工具(如Adobe Photoshop)离线完成，或者在简单的情况下，也可以通过向`catalog::Modifier`字段添加`op_brightness=`和`op_contrast=`来逐步完成。
 
-此应用程序不需要单独的模板，因为所有对象已通过其图像锚点(`catalog::Anchor`)正确对齐，并且已缩放(`catalog::Resolution`)。 我们将留给客户端来确保适当的层顺序。
+此应用程序不需要单独的模板，因为所有对象已通过其图像锚点(`catalog::Anchor`)正确对齐，并且已缩放(`catalog::Resolution`)。 它由客户端负责，以确保适当的层顺序。
 
 典型的请求可能如下所示：
 
@@ -36,7 +36,7 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-只指定高度。 这样，返回的图像宽度会因人体模型图像的宽高比而异，而不会获得用背景颜色填充的边距。
+只指定高度。 这样，返回的图像就可以根据人体模型图像的宽高比而在宽度上发生变化，而不会获得用背景颜色填充的边距。
 
 只要每个层都相同，就不应该指定什么分辨率。 此版本可能不允许视图大于复合图像。 指定大分辨率值可避免与此限制相关的问题。 所有处理和合成都以请求的图像大小的最佳分辨率完成，以帮助获得最佳性能和输出质量。
 

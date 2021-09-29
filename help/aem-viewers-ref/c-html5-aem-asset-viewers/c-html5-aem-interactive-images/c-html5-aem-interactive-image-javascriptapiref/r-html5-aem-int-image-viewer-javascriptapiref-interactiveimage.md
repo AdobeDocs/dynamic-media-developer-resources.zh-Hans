@@ -1,13 +1,13 @@
 ---
+title: InteractiveImage
 description: 视频图像查看器的JavaScript API引用。
 solution: Experience Manager
-title: InteractiveImage
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 165de14f-0031-4969-9671-5da310d44c28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '169'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `InteractiveImage([config])`
 
-构造函数，创建一个新的视频图像查看器实例。
+构造函数，创建一个视频图像查看器实例。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

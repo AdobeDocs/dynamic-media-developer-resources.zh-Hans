@@ -1,13 +1,13 @@
 ---
+title: ZoomView.fmt
 description: 指定组件用于从图像服务器加载图像的图像格式。
 solution: Experience Manager
-title: ZoomView.fmt
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---

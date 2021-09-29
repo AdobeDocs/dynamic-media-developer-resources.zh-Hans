@@ -1,13 +1,13 @@
 ---
+title: 焦点突出显示
 description: 焦点查看器UI元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
 solution: Experience Manager
-title: 焦点突出显示
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---

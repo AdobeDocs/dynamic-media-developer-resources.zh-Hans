@@ -1,13 +1,13 @@
 ---
-description: 通过将层原点（原点=）与背景层原点对准在pos=指定的偏移处来定位层。
-solution: Experience Manager
 title: 图层放置
-feature: Dynamic Media Classic，SDK/API
+escription: Layers are positioned by aligning the layer origin (origin=) with the background layer origin at an offset specified by pos=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
 1. 如果定义了图像锚点，请应用层转换并`extend=`将其转换为origin=值。
 1. 如果未定义图像锚点，则层原点将放置在层矩形的中心（应用`extend=`后）。
 
-![](assets/layerplacement.png)
+![图层放置图像](assets/layerplacement.png)

@@ -1,13 +1,13 @@
 ---
+title: 辅助技术支持
 description: 所有查看器组件都支持ARIA（无障碍的富互联网应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
 solution: Experience Manager
-title: 辅助技术支持
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像，辅助功能
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
 role: Developer,User
 exl-id: 39e64f35-543f-4977-a97a-0daa93786ff3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---

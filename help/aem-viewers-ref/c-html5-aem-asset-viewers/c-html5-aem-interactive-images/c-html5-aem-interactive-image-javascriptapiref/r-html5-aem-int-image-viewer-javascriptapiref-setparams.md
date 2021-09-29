@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 视频图像查看器的JavaScript API引用。
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ` setParams( *`params`*)`
 
-将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的名称=值对。 与查询字符串一样，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。
+将一个或多个参数设置为给定值。 方法参数语法与URL查询字符串相同。 即，它表示与`&`分隔的名称=值对。 在查询字符串中，名称和值使用UTF8进行百分比编码。 在调用`init()`之前，必须调用此参数。
 
 如果查看器配置信息是与`config` JSON对象一起传递到构造函数的，则此方法是可选的。
 

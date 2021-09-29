@@ -1,20 +1,20 @@
 ---
-description: Facebook共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
-solution: Experience Manager
 title: Facebook份额
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+description: Facebook共享工具由添加到Social共享面板的按钮组成。 选择按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Facebook份额{#facebook-share}
 
-Facebook共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
+Facebook共享工具由添加到Social共享面板的按钮组成。 选择按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

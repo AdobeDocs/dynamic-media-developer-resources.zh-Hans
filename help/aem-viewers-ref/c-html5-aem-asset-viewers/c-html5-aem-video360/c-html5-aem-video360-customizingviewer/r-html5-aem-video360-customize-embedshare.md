@@ -1,13 +1,13 @@
 ---
+title: 嵌入共享
 description: 嵌入共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-title: 嵌入共享
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**示例**  — 要设置一个28 x 28像素的“嵌入共享”按钮，并针对四个不同按钮状态中的每个状态显示一个不同的图像：
+**示例**  — 要设置一个28 x 28像素的“嵌入共享”按钮，并针对四个不同按钮状态中的每个状态显示一个不同的图像，请执行以下操作：
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
+当对话框处于活动状态时，将覆盖网页的背景叠加通过以下CSS类选择器进行控制：
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay
@@ -162,7 +162,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-图标和标题文本将封装在通过以下内容控制的其他容器中：
+图标和标题文本将封装在通过以下方式控制的额外容器中：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**示例**  — 要设置包含内边距、24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮的对话框标题，请从顶部放置两个像素，从对话框容器右侧放置两个像素：
+**示例**  — 要设置包含内边距、24 x 14像素图标和粗体、16点标题的对话框标题。最后，一个28 x 28像素的“关闭”按钮，它从顶部放置两个像素，从对话框容器右侧放置两个像素：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
 
-此外，两个按钮共享相同的常用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
+此外，两个按钮共享常用的CSS类，此类可包含与其他对话框按钮相同的CSS设置：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**对话框输入宽字段的CSS属性**
+**对话框输入范围字段的CSS属性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**示例**  — 要设置嵌入代码以使用自动换 `break-word` 行，请执行以下操作：
+**示例**  — 要将嵌入代码配置为使用单 `break-word` 字换行，请执行以下操作：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持`expanded`属性选择器，其可能值为`true`和`false`。 `true` 组合框显示某个预定义的嵌入大小时，会使用此选项，因此应该具有所有可用宽度。`false` 组合框中选择自定义大小选项时，会使用该选项，因此应该缩小以允许自定义宽度和高度输入字段有空格。
+>组合框支持`expanded`属性选择器，其可能值为`true`和`false`。 组合框显示某个预定义的嵌入大小时，会使用`true`值，因此应当具有所有可用宽度。 在组合框中选择自定义大小选项时，将使用`false`值，因此应该缩小以允许自定义宽度和高度输入字段有空格。
 
 **示例**  — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 
@@ -894,7 +894,7 @@ background-color: #ffffff;
 }
 ```
 
-使用以下CSS类选择器控制打开组合框时显示的嵌入大小列表的面板：
+使用以下CSS类选择器控制打开组合框时显示嵌入大小列表的面板：
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**示例**  — 将自定义大小输入字段设置为具有一个像素灰边框、边距、内边距和70像素宽：
+**示例**  — 要将自定义大小输入字段设置为具有一个像素灰边框、边距、内边距和70像素宽：
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

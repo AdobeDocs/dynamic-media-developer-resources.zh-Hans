@@ -1,13 +1,13 @@
 ---
+title: 热点
 description: 在热点最初是在AEM AssetsDynamic Media中创作的地方，查看器会在主视图上显示热点图标 — 按需。
 solution: Experience Manager
-title: 热点
-feature: Dynamic Media Classic，查看器，SDK/API，交互式图像
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
