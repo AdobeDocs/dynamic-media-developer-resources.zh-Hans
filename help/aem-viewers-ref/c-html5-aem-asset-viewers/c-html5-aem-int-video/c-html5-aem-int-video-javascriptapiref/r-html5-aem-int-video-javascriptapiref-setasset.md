@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: 交互式视频查看器的JavaScript API引用。
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 24d8d11d-4688-4ca0-92ae-824a5e984a10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
    <td colname="col1"> <p> <span class="codeph"> 数据 </span> </p> </td> 
    <td colname="col2"> <p> { <span class="codeph"> JSON </span>} JSON对象，具有以下可选字段（区分大小写）： </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
-      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> 后 </span> 验图像 — 在视频开始播放之前在第一帧上显示的图像。请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>。 </li> 
+      <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> 后 </span> 验图像 — 在视频开始播放之前要在第一帧上显示的图像。请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>。 </li> 
       <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> 题 </span> 注 — 新题注文件的位置。如果未指定，则描述按钮在用户界面中不可见。 </li> 
       <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> 导航 </span> - WebVTT导航内容的URL或路径。WebVTT文件应由图像服务提供。 </li> 
       <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData  </span> - WebVTT交互式数据内容的URL或路径。WebVTT文件必须由图像服务提供。 </li> 

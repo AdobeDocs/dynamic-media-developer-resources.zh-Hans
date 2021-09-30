@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.posterimage
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 17c1220d-f2a4-4729-84e2-b9f6f5732423
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作为 <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>如果忽略<span class="codeph"><span class="varname"> image_id</span></span>值，则组件会尝试为该资产使用默认的海报图像。 </p> <p>将视频指定为路径时，默认的海报图像目录id将从视频路径派生，因为<span class="codeph"> catalog_id/image_id</span>对中<span class="codeph"> catalog_id</span>对应于路径中的第一个令牌，而<span class="codeph"> image_id</span>是扩展名为已删除的视频的名称。 如果具有该ID的图像不存在，则不会显示海报图像。 </p> <p>要阻止显示默认海报图像，请指定<span class="codeph"> none</span>作为海报图像值。 如果仅指定了<span class="codeph"><span class="varname"> isCommands</span></span> ，则在显示图像之前，命令会应用于默认海报图像。 </p> </td> 
+     </ul> </p> <p>如果忽略<span class="codeph"><span class="varname"> image_id</span></span>值，则组件会尝试为该资产使用默认的海报图像。 </p> <p>将视频指定为路径时，默认的海报图像目录ID将从视频路径派生，因为<span class="codeph"> catalog_id/image_id</span>对（其中<span class="codeph"> catalog_id</span>对应于路径中的第一个令牌）。 而且， <span class="codeph"> image_id</span>是删除了扩展名的视频名称。 如果具有该ID的图像不存在，则不会显示海报图像。 </p> <p>要阻止显示默认海报图像，请指定<span class="codeph"> none</span>作为海报图像值。 如果只指定了<span class="codeph"><span class="varname"> isCommands</span></span> ，则在显示图像之前，这些命令会应用于默认的海报图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

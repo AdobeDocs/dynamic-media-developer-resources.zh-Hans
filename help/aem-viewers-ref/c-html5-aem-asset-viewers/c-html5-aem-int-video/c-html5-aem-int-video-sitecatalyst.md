@@ -1,13 +1,13 @@
 ---
+title: 支持Adobe Analytics跟踪
 description: HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 solution: Experience Manager
-title: 支持Adobe Analytics跟踪
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ HTML5 Video360查看器支持Adobe Analytics现成跟踪。
 
 ## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，需要侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的一个示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的一个示例：
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 

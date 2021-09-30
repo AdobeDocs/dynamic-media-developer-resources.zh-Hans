@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为<span class="codeph"> 1 </span>，则卷将静音；否则，视频将播放声音。 在某些在加载时导致视频播放延迟的设备上，还允许视频自动播放。 </p> </td> 
+   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为<span class="codeph"> 1 </span>，则卷将静音；否则，视频将播放声音。 在某些设备上，在加载时静音播放也允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

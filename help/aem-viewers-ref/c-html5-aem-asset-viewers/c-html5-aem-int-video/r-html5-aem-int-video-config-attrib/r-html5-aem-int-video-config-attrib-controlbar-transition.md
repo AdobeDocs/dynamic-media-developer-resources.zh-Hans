@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 无|渐隐</span> </p> </td> 
-   <td colname="col2"> <p> 指定将用于显示/隐藏控制栏及其内容的效果类型。 </p> <p>对于即时显示/隐藏，设置为<span class="codeph"> none</span>。 </p> <p>设置为<span class="codeph"> fade</span>以提供渐进渐隐/渐隐效果。 Internet Explorer 8不支持。 </p> </td> 
+   <td colname="col2"> <p> 指定用于显示/隐藏控制栏及其内容的效果类型。 </p> <p>对于即时显示/隐藏，设置为<span class="codeph"> none</span>。 </p> <p>设置为<span class="codeph"> fade</span>以提供渐进渐隐/渐隐效果。 Internet Explorer 8不支持。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delayhide</span></span> </p> </td> 

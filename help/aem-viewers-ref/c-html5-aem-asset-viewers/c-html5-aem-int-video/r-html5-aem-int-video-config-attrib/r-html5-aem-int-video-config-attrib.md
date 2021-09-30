@@ -1,13 +1,13 @@
 ---
+title: 命令引用 — 配置属性
 description: 交互式视频查看器的配置属性文档。
 solution: Experience Manager
-title: 命令引用 — 配置属性
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-这表示您可以将此命令用作：
+并表示您可以使用以下命令：
 
 * `playback` （短语法）
 * `VideoPlayer.playback` （使用组件类名称限定）

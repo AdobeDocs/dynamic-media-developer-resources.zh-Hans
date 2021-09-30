@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.ssl
 description: 交互式视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 16e17e2f-be98-4a5a-ba5e-5d18e7f76fa4
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动|开启</span> </p> </td> 
-   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为<span class="codeph"> auto</span>时，视频传输协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS传送，反之亦然。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>在</span>上设置为<span class="codeph">时，视频传输始终通过安全连接进行，而与网页协议无关。 </span></p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
+   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为<span class="codeph"> auto</span>时，视频传输协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS发送，反之，则会通过HTTPS发送。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>在</span>上设置为<span class="codeph">时，视频传输始终通过安全连接进行，而与网页协议无关。 </span></p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

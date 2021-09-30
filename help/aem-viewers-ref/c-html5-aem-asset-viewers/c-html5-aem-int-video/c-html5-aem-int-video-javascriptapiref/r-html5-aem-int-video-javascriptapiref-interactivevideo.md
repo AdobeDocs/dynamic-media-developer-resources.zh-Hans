@@ -1,13 +1,13 @@
 ---
+title: InteractiveVideoViewer
 description: 交互式视频查看器的JavaScript API引用。
 solution: Experience Manager
-title: InteractiveVideoViewer
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: efd0ffea-482c-4af4-ac77-ac1b7f326ce9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `InteractiveVideoViewer([config])`
 
-构造函数，创建一个新的交互式视频查看器实例。
+构造函数，创建一个交互式视频查看器实例。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

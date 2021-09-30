@@ -1,13 +1,13 @@
 ---
+title: 交互式视频
 description: 交互式视频查看器是一个视频播放器，可播放以H.264格式编码的流视频和渐进式视频。
 solution: Experience Manager
-title: 交互式视频
-feature: Dynamic Media Classic，查看器，SDK/API，交互式视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    您可以通过以下两种方式设置查看器的静态大小：以绝对单位声明查看器的`.s7interactivevideoviewer`顶级CSS类，或使用`stagesize`修饰符。
 
-   您可以将大小调整直接放在HTML页面的CSS中。 或者，您也可以将其放入自定义查看器CSS文件中，该文件稍后会根据需要分配给AEM Assets中的查看器预设记录，或者使用`style`命令显式传递。
+   您可以将大小调整直接放在HTML页面的CSS中。 或者，您也可以将其放入自定义查看器CSS文件中，该文件稍后会分配给Adobe Experience Manager Assets - On-demand中的查看器预设记录，或使用`style`命令显式传递。
 
    请参阅[自定义交互式视频查看器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) ，以了解有关使用CSS为查看器设置样式的更多信息。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以在AEM Assets的查看器预设记录中设置`stagesize`修饰符 — 按需。 或者，您也可以通过查看器初始化代码与`params`集合进行显式传递，或作为API调用（如命令引用部分中所述）进行传递，如下所示：
+   您可以在Experience Manager资产 — 按需的查看器预设记录中设置`stagesize`修饰符。 或者，您也可以通过查看器初始化代码与`params`集合进行显式传递，或作为API调用（如命令引用部分中所述）进行传递，如下所示：
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
