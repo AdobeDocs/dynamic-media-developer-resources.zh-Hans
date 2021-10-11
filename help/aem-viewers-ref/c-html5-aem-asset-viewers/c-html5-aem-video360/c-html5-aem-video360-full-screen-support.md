@@ -1,13 +1,13 @@
 ---
+title: 全屏支持
 description: 查看器支持全屏操作模式。
 solution: Experience Manager
-title: 全屏支持
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

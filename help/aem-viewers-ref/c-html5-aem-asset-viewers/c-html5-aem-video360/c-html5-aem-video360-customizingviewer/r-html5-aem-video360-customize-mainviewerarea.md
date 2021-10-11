@@ -1,20 +1,20 @@
 ---
-description: 主视区是360视频所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
-solution: Experience Manager
 title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+description: 主视区是360视频所占用的区域。 如果未指定任何大小，则设置为适合可用设备屏幕。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
 
 # 主查看器区域{#main-viewer-area}
 
-主视区是360视频所占用的区域。 通常在未指定任何大小时将其设置为适合可用设备屏幕。
+主视区是360视频所占用的区域。 如果未指定任何大小，则设置为适合可用设备屏幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

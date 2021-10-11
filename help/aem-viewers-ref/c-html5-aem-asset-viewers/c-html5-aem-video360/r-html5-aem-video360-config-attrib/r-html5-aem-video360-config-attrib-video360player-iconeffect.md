@@ -1,13 +1,13 @@
 ---
+title: Video360Player.iconeffect
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: Video360Player.iconeffect
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当视频处于暂停状态时，允许在视频顶部显示IconEffect。 在某些设备上，使用本机控件。 在这种情况下，将忽略<span class="codeph"> iconeffect</span>修饰符。 </p> </td> 
+   <td colname="col2"> <p> 当视频处于暂停状态时，允许在视频顶部显示IconEffect。 在某些设备上，使用本机控件。 在这种情况下，将忽略<span class="codeph">iconeffect</span>修饰符。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 

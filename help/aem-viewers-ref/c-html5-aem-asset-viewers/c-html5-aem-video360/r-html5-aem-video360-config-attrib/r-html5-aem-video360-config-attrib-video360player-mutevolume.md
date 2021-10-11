@@ -1,14 +1,14 @@
 ---
+title: Video360Player.mutevolume
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: Video360Player.mutevolume
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为<span class="codeph"> 1 </span>，则卷将静音；否则，视频将播放声音。 在某些在加载时导致视频播放延迟的设备上，还允许视频自动播放。 </p> </td> 
+   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为<span class="codeph"> 1 </span>，则卷将静音；否则，视频将播放声音。 在某些设备上，在加载时缓变视频播放也允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

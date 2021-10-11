@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Video360查看器的配置属性。
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delayhideduration`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
@@ -26,7 +26,7 @@ Video360查看器的配置属性。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delayhide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制栏注册的上次鼠标/触摸事件与时间控制栏隐藏之间的时间（以秒为单位）。 </p> <p> 如果设置为<span class="codeph"> -1</span>，则组件永远不会触发其自动隐藏效果，并始终在屏幕上可见。 </p> </td> 
+   <td colname="col2"> <p>指定控制栏所注册的上次鼠标/触摸事件与时间控制栏所隐藏的事件之间的时间（以秒为单位）。 </p> <p> 如果设置为<span class="codeph"> -1</span>，则组件永远不会触发其自动隐藏效果，并始终在屏幕上可见。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持续时间</span> </span> </p> </td> 

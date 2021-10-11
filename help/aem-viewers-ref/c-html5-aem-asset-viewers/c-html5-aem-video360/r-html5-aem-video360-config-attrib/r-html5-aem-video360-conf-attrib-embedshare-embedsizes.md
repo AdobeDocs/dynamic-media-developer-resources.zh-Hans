@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Video360查看器的配置属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`宽高`*[,0|1]]`
 
 在“嵌入共享”模式对话框中，为“大小”组合框指定嵌入大小列表。
 

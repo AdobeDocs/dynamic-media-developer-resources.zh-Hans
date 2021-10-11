@@ -1,13 +1,13 @@
 ---
+title: Video360Player.playback
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: Video360Player.playback
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动/渐进</span> </p> </td> 
-   <td colname="col2"> <p> 设置查看器使用的播放类型。 </p> <p>设置<span class="codeph"> auto</span>后，在大多数桌面浏览器和所有iOS设备中，查看器会以HLS格式使用HTML5流视频，并在某些系统（如旧版Internet Explorer和Android）上回退到渐进式HTML5播放。 </p> <p>设置<span class="codeph">渐进式</span>后，查看器仅依赖浏览器本地支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关<span class="codeph"> auto</span>和<span class="codeph"> progressive</span>本机模式中的播放选择的更多信息，请参阅《HTML5查看器SDK用户指南》。 </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 </p> <p>设置<span class="codeph"> auto</span>后，在大多数桌面浏览器和所有iOS设备中，查看器会使用HLS格式的HTML5流视频。 此外，它还返回到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>设置<span class="codeph">渐进式</span>后，查看器仅依赖浏览器本地支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关<span class="codeph"> auto</span>和<span class="codeph"> progressive</span>本机模式中的播放选择的更多信息，请参阅《HTML5查看器SDK用户指南》。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

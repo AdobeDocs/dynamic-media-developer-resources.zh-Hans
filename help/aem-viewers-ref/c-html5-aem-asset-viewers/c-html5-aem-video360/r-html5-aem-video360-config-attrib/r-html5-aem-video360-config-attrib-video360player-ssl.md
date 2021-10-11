@@ -1,13 +1,13 @@
 ---
+title: Video360Player.ssl
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: Video360Player.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动|开启</span> </p> </td> 
-   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为<span class="codeph"> auto</span>时，视频传输协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS传送，反之亦然。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>在</span>上设置为<span class="codeph">时，视频传输始终通过安全连接进行，而与网页协议无关。 </span></p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
+   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为<span class="codeph"> auto</span>时，视频传输协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS发送，反之，则会通过HTTPS发送。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>在</span>上设置为<span class="codeph">时，视频传输始终通过安全连接进行，而与网页协议无关。 </span></p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

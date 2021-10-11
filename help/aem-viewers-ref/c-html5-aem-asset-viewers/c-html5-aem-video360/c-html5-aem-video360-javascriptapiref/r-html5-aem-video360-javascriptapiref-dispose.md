@@ -1,13 +1,13 @@
 ---
+title: 处置
 description: Video360查看器的JavaScript API引用。
 solution: Experience Manager
-title: 处置
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4e6ad465-36df-49e2-8c9e-722e8aa9063e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ Video360查看器的JavaScript API引用。
 
 网页代码还应删除查看器实例变量，以便从Web浏览器内存中完全删除查看器。
 
-如果网页代码已在查看器SDK组件上直接注册了事件侦听器，则查看器SDK组件会使用该事件侦听器，或者存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册，并且必须在调用`dispose()`之前删除此类外部组件引用。
+如果网页代码已在查看器SDK组件上直接注册了事件侦听器（查看器使用）或存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册。 而且，必须在调用`dispose()`之前删除此类外部组件引用。
 
-调用`dispose()`后，请勿再访问查看器API。
+调用`dispose()`后，不再访问查看器API。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

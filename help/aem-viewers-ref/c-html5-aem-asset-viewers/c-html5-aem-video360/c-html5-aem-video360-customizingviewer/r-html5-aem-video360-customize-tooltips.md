@@ -1,20 +1,20 @@
 ---
-description: 在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
-solution: Experience Manager
 title: 工具提示
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+description: 在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 6%
 
 ---
 
 # 工具提示{#tooltips}
 
-在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需执行此操作。
+>如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需使用此规则。
 
-示例 — 要设置工具提示，其中的灰色边框具有三个像素圆角半径、黑色背景和以Arial格式表示的白色文本，11像素：
+示例 — 要设置工具提示，其中的灰色边框具有三个像素圆角半径、黑色背景和白色文本(以Arial®、11像素为单位):
 
 ```
 .s7tooltip { 

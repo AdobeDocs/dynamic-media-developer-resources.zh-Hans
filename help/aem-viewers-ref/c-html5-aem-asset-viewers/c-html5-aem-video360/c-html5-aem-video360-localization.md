@@ -1,20 +1,20 @@
 ---
-description: 查看器显示的某些内容需要本地化。 这包括用户界面元素工具提示以及视频无法播放时显示的错误消息。
-solution: Experience Manager
 title: 用户界面元素的本地化
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+description: 查看器显示的某些内容需要本地化。 此类内容包括用户界面元素工具提示和当视频无法播放时显示的错误消息。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-查看器显示的某些内容需要本地化。 这包括用户界面元素工具提示以及视频无法播放时显示的错误消息。
+查看器显示的某些内容需要本地化。 此类内容包括用户界面元素工具提示和当视频无法播放时显示的错误消息。
 
 查看器中每个可以本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为所需数量的区域设置用户定义的值。
 

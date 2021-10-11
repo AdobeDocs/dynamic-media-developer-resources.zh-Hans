@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Video360查看器的JavaScript API引用。
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Video360查看器的JavaScript API引用。
 
 ## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 对查看器SDK组件的引用。如果`componentId`不是受支持的查看器组件，或者查看器逻辑尚未创建该组件，则方法会返回`null`。
+`{Object}`是对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者查看器逻辑尚未创建该组件，则方法会返回`null`。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

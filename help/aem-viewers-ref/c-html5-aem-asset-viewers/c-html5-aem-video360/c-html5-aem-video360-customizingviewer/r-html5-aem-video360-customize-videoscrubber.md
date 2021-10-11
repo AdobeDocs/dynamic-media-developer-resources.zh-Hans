@@ -1,13 +1,13 @@
 ---
+title: 视频洗涤器
 description: 视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置。
 solution: Experience Manager
-title: 视频洗涤器
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 3%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 3%
 
 视频清洗工具提示可以本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
 
-**示例**  — 设置视频查看器，该查看器使用视频清洗器，其自定义跟踪颜色为10像素高，距控制栏上边缘和左边缘10像素和35像素。
+**示例**  — 设置视频查看器，并使用高度为十像素的自定义跟踪颜色进行视频清理。并且，将其定位到控制栏的上边缘和左边缘10个像素和35个像素。
 
 ```
 .s7video360viewer .s7videoscrubber  { 

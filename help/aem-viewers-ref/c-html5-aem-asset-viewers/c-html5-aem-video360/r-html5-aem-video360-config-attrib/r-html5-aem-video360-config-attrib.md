@@ -1,13 +1,13 @@
 ---
+title: 命令引用 — 配置属性
 description: Video360查看器的配置属性文档。
 solution: Experience Manager
-title: 命令引用 — 配置属性
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Video360查看器的配置属性文档。
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-这表示您可以将此命令用作：
+这表示您可以在以下位置使用此命令：
 
 * `playback` （短语法）
 * `VideoPlayer.playback` （使用组件类名称限定）

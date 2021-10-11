@@ -1,14 +1,14 @@
 ---
+title: Video360Player.progressivebitrate
 description: Video360查看器的配置属性。
 solution: Experience Manager
-title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Video360查看器的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 以kbits/秒（或kbps）为单位，指定在当前系统不支持自适应视频播放时从自适应视频集播放的所需视频比特率。 </p> <p>该组件选取尽可能接近（但不超过）指定值的比特率的视频流。 如果自适应视频集中的所有视频流的质量都高于指定的值，则逻辑会选择质量最低的比特率。 </p> </td> 
+   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放的情况下，从自适应视频集播放的所需视频比特率（千比特/秒或千比特/秒）。 </p> <p>该组件选取尽可能接近（但不超过）指定值的比特率的视频流。 如果自适应视频集中的所有视频流的质量都高于指定的值，则逻辑会选择质量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: 可变卷
 description: 可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音静音或取消静音。
 solution: Experience Manager
-title: 可变卷
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---

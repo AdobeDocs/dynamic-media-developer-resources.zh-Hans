@@ -1,13 +1,13 @@
 ---
+title: 全屏按钮
 description: 当用户单击视频播放器时，全屏按钮会使其进入或退出全屏模式。
 solution: Experience Manager
-title: 全屏按钮
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---

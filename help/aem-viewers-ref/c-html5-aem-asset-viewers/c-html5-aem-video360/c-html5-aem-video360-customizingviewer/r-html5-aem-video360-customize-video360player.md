@@ -1,13 +1,13 @@
 ---
+title: Video360播放器
 description: 视频播放器是在查看器中显示视频内容的矩形区域。
 solution: Experience Manager
-title: Video360播放器
-feature: Dynamic Media Classic，查看器，SDK/API，360 VR视频
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
