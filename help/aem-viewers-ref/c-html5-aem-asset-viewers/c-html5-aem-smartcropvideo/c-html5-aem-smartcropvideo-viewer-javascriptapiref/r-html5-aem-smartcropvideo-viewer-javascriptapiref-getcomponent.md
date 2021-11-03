@@ -1,20 +1,20 @@
 ---
+title: getComponent
 description: 适用于智能裁剪视频查看器的JavaScript API引用
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '230'
+ht-degree: 1%
 
 ---
 
 # getComponent{#getcomponent}
 
-适用于智能裁剪视频查看器的JavaScript API引用
+智能裁剪视频查看器的JavaScript API引用。
 
 `getComponent(componentId)`
 

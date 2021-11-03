@@ -1,14 +1,14 @@
 ---
+title: init
 description: 智能裁剪视频查看器的JavaScript API引用。
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 启动智能裁剪视频查看器的初始化。 此时，必须创建容器DOM元素，以便查看器代码可以通过其ID找到它。
 
-例如，如果容器元素尚未包含在网页布局中，则可能会使用 `display:none` 样式 — 查看器将暂停其初始化过程，直到网页将容器元素引回布局为止。 发生此情况时，查看器加载会自动恢复。
+如果容器元素尚未包含在网页布局中 — 例如，可能会使用 `display:none` 样式 — 查看器将暂停其初始化过程。 直到网页将容器元素引回布局为止。 发生此操作时，查看器加载会自动恢复。
 
 在查看器生命周期内，只调用一次此方法；将忽略后续调用。
 

@@ -1,13 +1,13 @@
 ---
+title: 用户界面元素的本地化
 description: 智能裁剪视频查看器显示的某些内容需要本地化。 此内容包括用户界面元素工具提示以及在视频无法播放时显示的错误消息。
 solution: Experience Manager
-title: 用户界面元素的本地化
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---

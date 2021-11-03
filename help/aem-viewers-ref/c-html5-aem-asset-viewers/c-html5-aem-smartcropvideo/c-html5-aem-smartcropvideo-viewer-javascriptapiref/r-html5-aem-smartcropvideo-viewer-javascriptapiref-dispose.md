@@ -1,11 +1,11 @@
 ---
+title: 处置
 description: 智能裁剪视频查看器的JavaScript API引用。
 solution: Experience Manager
-title: 处置
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 网页代码还应删除查看器实例变量，以便从Web浏览器内存中完全删除查看器。
 
-如果网页代码已在查看器SDK组件上直接注册了事件侦听器，则查看器SDK组件会使用该事件侦听器，或者存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册，并且此类外部组件引用必须在调用之前删除 `dispose()`.
+如果网页代码已在查看器SDK组件上直接注册了事件侦听器（查看器使用）或存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册。 而且，必须在调用之前删除此类外部组件引用 `dispose()`.
 
-在 `dispose()` 调用。
+在以下情况下不再访问查看器API `dispose()` 调用。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

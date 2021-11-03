@@ -1,11 +1,11 @@
 ---
-description: Twitter共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
-solution: Experience Manager
 title: Twitter份额
+description: Twitter共享工具由添加到Social共享面板的按钮组成。 选择按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1db2600d-d13f-4563-b40a-098485e0ddf9
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Twitter份额{#twitter-share}
 
-Twitter共享工具由添加到Social共享面板的按钮组成。 单击按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
+Twitter共享工具由添加到Social共享面板的按钮组成。 选择按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

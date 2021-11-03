@@ -1,11 +1,11 @@
 ---
+title: 全屏支持
 description: 查看器支持全屏操作模式。
 solution: Experience Manager
-title: 全屏支持
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 049aca51-64ae-4244-be2b-78fb1cf84ebb
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

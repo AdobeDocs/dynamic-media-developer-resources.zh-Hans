@@ -1,14 +1,14 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: 指示查看器是否在播放开始之前开始加载视频内容。
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1 </span> 资产设置后，视频即开始下载；否则，仅在最终用户或API调用启动播放后，才会开始预加载。 </p> <p>如果设置为 <span class="codeph"> 0 </span> 某些功能可能在播放开始后才能正常工作；具体而言，搜寻操作不会更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>请注意，在Internet Explorer 11和Edge浏览器的某些版本上，可能会忽略禁用视频预加载的操作。 </p> </td> 
+   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1 </span> 资产设置后，视频即开始下载；否则，仅在最终用户或API调用启动播放后，才会开始预加载。 </p> <p>如果设置为 <span class="codeph"> 0 </span> 某些功能可能在播放重新开始后才能工作；具体而言，搜寻操作不更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预加载的问题。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

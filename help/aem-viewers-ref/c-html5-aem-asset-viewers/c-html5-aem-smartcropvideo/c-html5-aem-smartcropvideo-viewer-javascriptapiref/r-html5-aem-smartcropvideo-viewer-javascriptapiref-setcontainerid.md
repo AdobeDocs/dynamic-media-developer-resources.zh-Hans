@@ -1,14 +1,14 @@
 ---
+title: setContainerId
 description: 智能裁剪视频查看器的JavaScript API引用。
 solution: Experience Manager
-title: setContainerId
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 9f2857a4-108d-4689-9c39-cb2635405d0d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '89'
+ht-degree: 2%
 
 ---
 

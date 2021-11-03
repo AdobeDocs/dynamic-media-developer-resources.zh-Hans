@@ -1,14 +1,14 @@
 ---
+title: 视频播放器
 description: 智能裁剪视频播放器是在查看器中显示视频内容的矩形区域。
 solution: Experience Manager
-title: 视频播放器
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ background-color: transparent;
  </tbody> 
 </table>
 
-示例 — 要将隐藏式字幕文本设置为半透明黑色背景上的14个像素（浅灰色、Arial）：
+示例 — 要将隐藏式字幕文本设置为半透明黑色背景上的14像素、浅灰色、Arial®:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

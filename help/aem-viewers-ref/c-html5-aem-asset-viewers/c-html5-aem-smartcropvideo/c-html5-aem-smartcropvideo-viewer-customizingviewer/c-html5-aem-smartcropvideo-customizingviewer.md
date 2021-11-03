@@ -1,14 +1,14 @@
 ---
+title: 自定义智能裁剪视频查看器
 description: 自定义智能裁剪视频查看器
 keywords: 响应式
 solution: Experience Manager
-title: 自定义智能裁剪视频查看器
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 提供自定义CSS规则的另一种方法是，直接在网页或某个链接的外部CSS规则中使用嵌入的样式。
 
-创建自定义CSS时，请记住查看器会分配 `.s7smartcropvideoviewer` 类添加到其容器DOM元素。 如果您使用的外部CSS文件是随 `style=` 命令，使用 `.s7smartcropvideoviewer` 类作为CSS规则的子选择器中的父类。 如果在网页上嵌入样式，则此外，还可以通过容器DOM元素的ID来限定此选择器，如下所示：
+创建自定义CSS时，请记住查看器会分配 `.s7smartcropvideoviewer` 类添加到其容器DOM元素。 如果您使用的外部CSS文件是随 `style=` 命令，使用 `.s7smartcropvideoviewer` 类作为CSS规则的子选择器中的父类。 如果在网页上嵌入样式，则还应使用容器DOM元素的ID来限定此选择器，如下所示：
 
 `#<containerId>.s7smartcropvideoviewer`
 
@@ -35,17 +35,17 @@ ht-degree: 0%
 
 可以在CSS中定位不同的设备，以使内容显示方式因用户的设备而异。 此定位包括但不限于不同的用户界面元素大小和图稿分辨率。
 
-查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 您可以单独使用这些组件，也可以结合使用。
+查看器支持两种创建响应式设计CSS的机制：CSS标记和标准CSS媒体查询。 您可以单独或一起使用这两个机制。
 
 **CSS标记**
 
-为了帮助创建响应式设计的CSS，查看器支持CSS标记，这些CSS标记基于运行时查看器大小和当前设备上使用的输入类型，动态地分配给顶级查看器容器元素的特殊CSS类。
+为了帮助创建响应式设计的CSS，查看器支持CSS标记，这些CSS标记是特殊的CSS类动态分配给顶级查看器容器元素。 此分配基于运行时查看器大小以及当前设备上使用的输入类型。
 
-第一组CSS标记包括 `.s7size_large`, `.s7size_medium`和 `.s7size_small` 类。 它们基于查看器容器的运行时区域应用。 即，如果查看器区域等于或大于公共桌面显示器的大小 `.s7size_large` ，则如果区域的大小接近普通平板电脑设备 `.s7size_medium` 分配。 对于类似于手机屏幕的区域 `.s7size_small` 设置。 这些CSS标记的主要用途是为不同屏幕和查看器大小创建不同的用户界面布局。
+第一组CSS标记包括 `.s7size_large`, `.s7size_medium`和 `.s7size_small` 类。 它们基于查看器容器的运行时区域应用。 即，如果查看器区域等于或大于公共桌面显示器的大小 `.s7size_large` ，则如果区域的大小接近普通平板电脑设备 `.s7size_medium` 分配。 对于类似于手机屏幕的区域， `.s7size_small` 设置。 这些CSS标记的主要用途是为不同屏幕和查看器大小创建不同的用户界面布局。
 
-第二组CSS标记包括 `.s7mouseinput` 和 `.s7touchinput`. `.s7touchinput` 如果当前设备具有触控输入功能，则设置；否则， `.s7mouseinput` 中，将使用。 这些标记旨在为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常，触摸输入需要较大的元素。 如果设备同时具有鼠标输入和触摸功能， `.s7touchinput` 设置，且查看器会呈现触屏友好用户界面。
+第二组CSS标记包括 `.s7mouseinput` 和 `.s7touchinput`. 标记 `.s7touchinput` 如果当前设备具有触控输入功能，则设置；否则， `.s7mouseinput` 中，将使用。 这些标记旨在为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常，触摸输入需要较大的元素。 如果设备同时具有鼠标输入和触摸功能， `.s7touchinput` 设置，且查看器会呈现触屏友好用户界面。
 
-以下示例CSS将带鼠标输入的系统上的播放/暂停按钮大小设置为28 x 28像素，将触屏设备上的56 x 56像素。 此外，如果查看器大小变得非常小，则会完全隐藏按钮：
+以下示例CSS将带鼠标输入的系统上的播放/暂停按钮大小设置为28 x 28像素，将触屏设备上的56 x 56像素。 此外，如果查看器大小变小，则会完全隐藏按钮：
 
 ```
 .s7smartcropvideoviewer.s7mouseinput .s7playpausebutton { 
@@ -69,7 +69,7 @@ ht-degree: 0%
 }
 ```
 
-使用CSS标记是构建响应式设计CSS的最灵活方法，因为它不仅允许您定位设备屏幕大小，还允许定位实际查看器大小，这对于响应式设计页面布局可能非常有用。
+使用CSS标记是构建响应式设计CSS的最灵活方法。 这种灵活性不仅允许您定位设备屏幕大小，还允许您定位实际的查看器大小，这对于响应式设计页面布局可能非常有用。
 
 使用默认查看器CSS文件作为CSS标记方法的示例。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ## CSS Sprite {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-许多查看器用户界面元素使用位图图稿设置样式，并具有多个不同的可视状态。 一个按钮通常至少具有3种不同状态的示例很好：“up”、“over”和“down”。 每个状态都需要分配其自己的位图图稿。
+许多查看器用户界面元素使用位图图稿设置样式，并具有多个不同的可视状态。 一个按钮通常至少具有三种不同状态，这就是一个很好的示例：“up”、“over”和“down”。 每个状态都需要分配其自己的位图图稿。
 
 通过经典的样式设置方法，CSS将针对用户界面元素的每个状态对服务器上的单个图像文件单独进行引用。 以下是用于为全屏按钮设置样式的示例CSS:
 
@@ -169,7 +169,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 此方法的缺点是，当元素首次交互时，最终用户体验到闪烁或延迟的用户界面响应。 此操作是因为尚未下载新元素状态的图像图稿。 此外，由于对服务器的HTTP调用数量增加，此方法可能会对性能产生轻微的负面影响。
 
-CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置样式时，CSS中所有不同状态都会引用具有相同Sprite图像的Sprite。 此外， `background-position` 属性用于每个状态，以指定“sprite”图像的哪个部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。 下面是一个基于“sprite”的示例，用于为上面相同的全屏按钮设置样式：
+CSS Sprite是一种不同的方法，其中所有元素状态的图像图稿都合并到一个PNG文件中，称为“sprite”。 此类“sprite”具有给定元素的所有可视状态，这些状态会逐个放置。 为用户界面元素设置sprite样式时，CSS中所有不同状态都会引用相同的sprite图像。 此外， `background-position` 属性用于每个状态，以指定“sprite”图像的哪个部分。 您可以采用任何合适的方式构建“Sprite”图像。 查看器通常会垂直堆叠查看器。 下面是一个基于“sprite”的示例，用于为上面相同的全屏按钮设置样式：
 
 ```
 .s7smartcropvideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## 一般样式说明和建议 {#section-097418bd618740bba36352629e4d88e1}
 
-* CSS中指向外部资产的所有路径都将根据CSS位置而不是查看器HTML页面的位置进行解析。 将默认CSS复制到其他位置时，请记住考虑此规则。 复制自定义CSS中的默认资产或更新路径。
+* CSS中指向外部资产的所有路径都将根据CSS位置而不是查看器HTML页面的位置进行解析。 将默认CSS复制到其他位置时，请记住此规则。 复制自定义CSS中的默认资产或更新路径。
 * 位图图稿的首选格式为PNG。
 * 位图图稿使用 `background-image` 属性。
 * 的 `width` 和 `height` 用户界面元素的属性定义其逻辑大小。 传递到的位图的大小 `background-image` 不影响逻辑大小。

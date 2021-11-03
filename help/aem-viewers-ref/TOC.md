@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义 Dynamic Media 查看器，以在桌面设备和触摸屏设备上使用。包括交互式图像和视频、轮盘、旋转集等。
-source-git-commit: b061c9f742b32ba48e6970a029e228afd7e36554
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '2074'
 ht-degree: 6%
 
 ---
@@ -860,6 +860,76 @@ ht-degree: 6%
       + [用户界面元素的本地化](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [全屏支持](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [查看器SDK命名空间](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
+   + 智能裁剪视频 {#smartcropvideo}
+      + [智能裁剪视频](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
+      + 命令引用 — 配置属性 {#command-reference-configuration-attributes-smartcropvideo}
+         + [命令引用 — 配置属性](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/c-html5-aem-smartcropvideo-cmdref.md)
+         + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-controlbar-transition.md)
+         + [EmailShare.emailurl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-emailshare-emailurl.md)
+         + [EmbedShare.embedsizes](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-embedshare-embedsizes.md)
+         + [SocialShare.bearing](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-socialshare-bearing.md)
+         + [SmartCropVideoPlayer.autoplay](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-autoplay.md)
+         + [SmartCropVideoPlayer.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-iconeffect.md)
+         + [SmartCropVideoPlayer.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-initialbitrate.md)
+         + [SmartCropVideoPlayer.loop](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-loop.md)
+         + [SmartCropVideoPlayer.mutevolume](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-mutevolume.md)
+         + [SmartCropVideoPlayer.playback](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-playback.md)
+         + [SmartCropVideoPlayer.posterimage](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-posterimage.md)
+         + [SmartCropVideoPlayer.preload](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-preload.md)
+         + [SmartCropVideoPlayer.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-progressivebitrate.md)
+         + [SmartCropVideoPlayer.singleclick](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-singleclick.md)
+         + [SmartCropVideoPlayer.ssl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-ssl.md)
+         + [SmartCropVideoPlayer.waiticon](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoplayer-waiticon.md)
+         + [VideoScrubber.chaptertimepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-chaptertimepattern.md)
+         + [VideoScrubber.showchaptertime](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-showchaptertime.md)
+         + [VideoScrubber.showchaptertitle](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-showchaptertitle.md)
+         + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videoscrubber-timepattern.md)
+         + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref/r-html5-aem-smartcropvideo-conf-attrib-videotime-timepattern.md)
+      + 命令引用 — URL {#command-reference-url-smartcropvideo}
+         + [命令引用 — URL](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/c-html5-aem-smartcropvideo-cmdref-url.md)
+         + [字幕](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-caption.md)
+         + [视频](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
+         + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
+      + 适用于智能裁剪视频查看器的JavaScript API引用 {#jsapi-smartcropvideo}
+         + [适用于智能裁剪视频查看器的JavaScript API引用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md))
+         + [处置](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
+         + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
+         + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)
+         + [setAsset](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setasset.md)
+         + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setcontainerid.md)
+         + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-sethandlers.md)
+         + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setlocalizedtexts.md)
+         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setparam.md)
+         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setparams.md)
+         + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-setvideo.md)
+         + [SmartCropVideoViewer](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-smartcropvideoviewer.md)
+      + [事件回调](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-event-callbacks.md)
+      + 自定义智能裁剪视频查看器 {#customizing-smartcropvideo}
+         + [自定义智能裁剪视频查看器](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md)
+         + [题注按钮](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-captionbutton.md)
+         + [控制栏](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-controlbar.md)
+         + [电子邮件共享](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-emailshare.md)
+         + [嵌入共享](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-embedshare.md)
+         + [Facebook份额](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-facebookshare.md)
+         + [焦点突出显示](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-focushighlight.md)
+         + [全屏按钮](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-fullscreenbutton.md)
+         + [图标效果](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-iconeffect.md)
+         + [链接共享](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-linkshare.md)
+         + [主查看器区域](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-mainviewerarea.md)
+         + [可变卷](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-mutablevolume.md)
+         + [“播放/暂停”按钮](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-playpausebutton.md)
+         + [社交共享](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-socialshare.md)
+         + [工具提示](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-tooltips.md)
+         + [Twitter份额](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-twittershare.md)
+         + [视频洗涤器](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videoscrubber.md)
+         + [视频时间](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/r-html5-aem-smartcropvideo-customize-videotime.md)
+      + [支持Adobe Analytics跟踪](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-sitecatalystracking.md)
+      + [HTTPS视频交付](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-securevideodelivery.md)
+      + [辅助技术支持](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-assistive.md)
+      + [用户界面元素的本地化](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md)
+      + [全屏支持](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-full-screen-support.md)
+      + [外部视频支持](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
+      + [查看器SDK命名空间](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + Video360 {#video360}
       + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + 命令引用 — 配置属性 {#command-reference-configuration-attributes-video360}

@@ -1,11 +1,11 @@
 ---
+title: ControlBar.transition
 description: 智能裁剪视频查看器的配置属性。
 solution: Experience Manager
-title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delayhide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定控制栏注册的上次鼠标/触摸事件与时间控制栏隐藏之间的时间（以秒为单位）。 </p> <p> 如果设置为 <span class="codeph"> -1</span> 组件从不触发其自动隐藏效果，并始终在屏幕上可见。 </p> </td> 
+   <td colname="col2"> <p>指定控制栏注册的上次鼠标/触摸事件与时间控制栏隐藏之间的时间（以秒为单位）。 </p> <p> 如果设置为 <span class="codeph"> -1</span>，则组件永远不会触发其自动隐藏效果，并且始终会在屏幕上可见。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持续时间</span> </span> </p> </td> 

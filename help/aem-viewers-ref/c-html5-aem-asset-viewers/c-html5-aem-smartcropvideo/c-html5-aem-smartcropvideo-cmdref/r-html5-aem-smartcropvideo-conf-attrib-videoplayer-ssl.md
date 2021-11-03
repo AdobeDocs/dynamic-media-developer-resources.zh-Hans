@@ -1,14 +1,14 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: 智能裁剪视频查看器的配置属性。
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '125'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动|开启</span> </p> </td> 
-   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为 <span class="codeph"> 自动</span> 视频交付协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS传送，反之亦然。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>当设置为 <span class="codeph"> on</span>，则视频交付始终通过安全连接进行，而与网页协议无关。 </p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
+   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全的连接(HTTP)传送。 </p> <p>当设置为 <span class="codeph"> 自动</span> 视频交付协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也会通过HTTPS发送，反之，则会通过HTTPS发送。 如果网页位于HTTP上，则视频将通过HTTP进行传输。 </p> <p>当设置为 <span class="codeph"> on</span>，则视频交付始终通过安全连接进行，而与网页协议无关。 </p> <p>仅影响已发布的视频交付，在创作模式下，视频预览会被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

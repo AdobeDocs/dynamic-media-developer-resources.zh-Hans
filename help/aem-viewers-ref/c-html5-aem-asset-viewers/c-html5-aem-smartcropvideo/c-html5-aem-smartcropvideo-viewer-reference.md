@@ -1,12 +1,12 @@
 ---
+title: 智能裁剪视频
 description: 智能裁剪视频查看器是一个视频播放器，在添加智能裁剪支持的同时，它播放以H.264格式编码的流式和渐进式视频。 它由Dynamic Media Classic或Adobe Experience Manager与Dynamic Media一起提供。
 keywords: 响应式
 solution: Experience Manager
-title: 智能裁剪视频
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ ht-degree: 0%
 
 ## 与智能裁剪视频查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-智能裁剪视频查看器为视频播放提供了一组标准用户界面控件，如播放/暂停按钮、视频清理器视频时间气泡、播放时间/总时间指示器、音量控制、全屏按钮和隐藏式字幕切换。 所有这些控件都分组到位于查看器用户界面底部的控制栏中。
+智能裁剪视频查看器为视频播放提供了一组标准用户界面控件，例如：
+
+* 播放/暂停按钮。
+* 视频清理视频时间气泡。
+* 播放时间/总时间指示器。
+* 音量控制。
+* 全屏按钮。
+* 隐藏式字幕切换。
+
+所有这些控件都分组到位于查看器用户界面底部的控制栏中。
 
 在触控设备上，音量控制在用户界面中处于隐藏状态，因为只有使用硬件按钮才能控制音量。
 

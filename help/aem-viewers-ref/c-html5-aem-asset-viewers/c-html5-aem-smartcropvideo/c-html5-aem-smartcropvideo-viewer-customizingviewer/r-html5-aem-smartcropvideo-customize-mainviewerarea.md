@@ -1,14 +1,14 @@
 ---
+title: 主查看器区域
 description: 主视图区域被智能裁剪视频占据。 通常在未指定大小时设置为适合可用设备屏幕。
 solution: Experience Manager
-title: 主查看器区域
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '105'
+ht-degree: 2%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
+title: 嵌入共享
 description: 嵌入共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-title: 嵌入共享
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置一个28 x 28像素的“嵌入共享”按钮，并针对四个不同按钮状态中的每一个状态显示一个不同的图像：
+示例 — 要设置一个28 x 28像素的“嵌入共享”按钮，并针对四个不同按钮状态中的每一个状态显示一个不同的图像，请执行以下操作：
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的背景叠加：
+当对话框处于活动状态时，将覆盖网页的背景叠加通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 “关闭”按钮工具提示和对话框标题可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置包含内边距、24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮的对话框标题，请从顶部放置两个像素，从对话框容器右侧放置两个像素：
+示例 — 要设置一个对话框标题，其中包含内边距、24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮。 最后，让其从顶部放置两个像素，从对话框容器右侧放置两个像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >取消按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
 
-此外，两个按钮共享相同的常用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
+此外，两个按钮共享常用的CSS类，此类可包含与其他对话框按钮相同的CSS设置：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将表单内容设置为具有十个像素内边距：
+示例 — 要将表单内容设置为具有十个像素内边距，请执行以下操作：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**对话框输入宽字段的CSS属性**
+**对话框输入范围字段的CSS属性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持 `expanded` 具有可能值的属性选择器 `true` 和 `false`. `true` 组合框显示某个预定义的嵌入大小时，会使用此选项，因此应该具有所有可用宽度。 `false` 组合框中选择自定义大小选项时，会使用该选项，因此应该缩小以允许自定义宽度和高度输入字段有空格。
+>组合框支持 `expanded` 具有可能值的属性选择器 `true` 和 `false`. 的 `true` 组合框显示某个预定义的嵌入大小时，会使用值，因此应当具有所有可用宽度。 的 `false` 组合框中选择自定义大小选项时，会使用值，因此应缩小以允许自定义宽度和高度输入字段有空格。
 
 示例 — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 
@@ -892,7 +892,7 @@ background-color: #ffffff;
 }
 ```
 
-使用以下CSS类选择器控制打开组合框时显示的嵌入大小列表的面板：
+使用以下CSS类选择器控制打开组合框时显示嵌入大小列表的面板：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown

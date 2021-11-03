@@ -1,13 +1,13 @@
 ---
+title: 工具提示
 description: 在桌面系统上，一些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
 solution: Experience Manager
-title: 工具提示
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 6%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含 `!IMPORTANT` 规则。 如果在查看器的CSS文件中自定义了工具提示，则无需执行此操作。
+>如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含 `!IMPORTANT` 规则。 如果在查看器的CSS文件中自定义了工具提示，则无需使用此规则。
 
-示例 — 要设置工具提示，其中的灰色边框具有3像素的角半径、黑色背景和用Arial编写的白色文本，大小为11像素：
+示例 — 要设置工具提示，其中的灰色边框具有3像素的角半径、黑色背景和用Arial®（11像素大小）编写的白色文本：
 
 ```
 .s7tooltip { 

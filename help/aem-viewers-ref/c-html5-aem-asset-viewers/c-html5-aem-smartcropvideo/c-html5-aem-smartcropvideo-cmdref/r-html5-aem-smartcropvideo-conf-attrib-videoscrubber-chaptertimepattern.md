@@ -1,11 +1,11 @@
 ---
+title: VideoScrubber.chaptertimepattern
 description: 智能裁剪视频查看器的配置属性。
 solution: Experience Manager
-title: VideoScrubber.chaptertimepattern
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a159153a-c082-4415-9515-7b480282a31f
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 设置在视频章节标签的标题栏中显示的时间模式，其中 <span class="codeph"> h</span> 是小时， <span class="codeph"> m</span> 是分钟，并且 <span class="codeph"> s</span> 为秒。 </p> <p>每个时间单位使用的字母数决定了该单位要显示的位数。 如果数字不能满足给定位数，则以后的单位显示等效值。 </p> <p>例如，如果当前影片时间为67分5秒，则时间模式为 <span class="codeph"> m:ss</span> 显示为67:05。 同一时间显示为1:07:5如果给定的时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> 设置在视频章节标签的标题栏中显示的时间模式。 的 <span class="codeph"> h</span> 是小时， <span class="codeph"> m</span> 是分钟，并且 <span class="codeph"> s</span> 为秒。 </p> <p>每个时间单位使用的字母数决定了该单位要显示的位数。 如果数字不能满足给定位数，则以后的单位显示等效值。 </p> <p>例如，如果当前影片时间为67分5秒，则时间模式为 <span class="codeph"> m:ss</span> 显示为67:05。 同一时间显示为1:07:5如果给定的时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

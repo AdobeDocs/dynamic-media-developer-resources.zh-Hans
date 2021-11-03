@@ -1,11 +1,11 @@
 ---
+title: 视频时间
 description: 视频时间是数字显示，用于显示当前播放的视频的当前时间和持续时间。
 solution: Experience Manager
-title: 视频时间
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

@@ -1,13 +1,13 @@
 ---
+title: 题注按钮
 description: 此按钮用于打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。
 solution: Experience Manager
-title: 题注按钮
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要设置一个28 x 28像素的隐藏式字幕按钮，将四个像素置于控制栏的顶部，将68个像素置于控制栏的右边缘，并在选择或未选择时针对四个不同按钮状态中的每个状态显示一个不同的图像。
+设置28 x 28像素的隐藏式字幕按钮。 它位于距控件条顶部4个像素和距控件条右边缘68个像素的位置。 最后，在选择或未选择时，针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

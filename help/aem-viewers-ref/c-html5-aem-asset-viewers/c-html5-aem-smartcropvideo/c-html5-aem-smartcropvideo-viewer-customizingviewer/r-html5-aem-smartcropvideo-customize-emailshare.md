@@ -1,13 +1,13 @@
 ---
+title: 电子邮件共享
 description: 电子邮件共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-title: 电子邮件共享
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器控制在对话框处于活动状态时覆盖网页的后台叠加：
+当对话框处于活动状态时，将覆盖网页的后台叠加通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -282,7 +282,7 @@ background-color: #ffffff;
 
 “关闭”按钮工具提示和对话框标题可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置带有内边距、24 x 17像素图标、粗体16 pt标题和28 x 28像素关闭按钮的对话框标题，其位置从顶部2像素，距对话框容器右侧2像素：
+示例 — 要设置带有内边距、24 x 17像素图标和粗体16点标题的对话框标题。 最后，一个28 x 28像素的“关闭”按钮，它从顶部放置两个像素，从对话框容器的右侧放置两个像素：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ background-color: #ffffff;
 >
 >此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
 
-此外，两个按钮共享相同的常用CSS类，这些类可以包含对于其他对话框按钮相同的CSS设置：
+此外，两个按钮共享常用的CSS类，此类可包含与其他对话框按钮相同的CSS设置：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ background-color: #ffffff;
 
 可以对按钮工具提示进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置一个对话框页脚，其中包含64 x 34取消按钮和82 x 34发送电子邮件按钮，并且每个按钮状态的文本颜色和背景颜色不同：
+示例 — 要设置一个对话框页脚，其中显示64 x 34 “Cancel（取消）”按钮和82 x 34 “Send Email（发送电子邮件）”按钮。 最后，每种按钮状态的文本颜色和背景颜色是不同的：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**对话框输入宽字段的CSS属性**
+**对话框输入范围字段的CSS属性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将表单设置为在所有输入字段周围具有一个像素灰色边框，且边框周围有9个像素的填充；若要为验证失败的字段使用相同的红色边框，则输入字段的宽度为250像素，其余输入字段的宽度为300像素：
+示例 — 将表单设置为在所有输入字段周围具有一个像素灰边框，其中九个像素的填充。 若要为验证失败的字段使用相同的红色边框，则输入字段的宽度为250像素，其余输入字段的宽度为300像素：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ background-color: #ffffff;
 }
 ```
 
-电子邮件消息输入字段还受以下项的额外控制：
+电子邮件消息输入字段也可通过以下方式进行控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1163,7 +1163,7 @@ background-color: #ffffff;
 }
 ```
 
-当用户输入错误的输入数据且内联验证失败时，或者当对话框在提交表单时需要呈现错误或确认消息时，将在对话框主体的顶部显示消息。 它通过以下CSS类选择器进行控制：
+当用户输入错误的输入数据且内联验证失败时，或者当对话框在提交表单时必须呈现错误或确认消息时，将在对话框主体的顶部显示消息。 它通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage
@@ -1210,11 +1210,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->此消息支持 `state` 属性选择器，其可能值如下： `verifyerror`, `senderror`和 `sendsuccess`. `verifyerror` 在由于内联输入验证失败而显示消息时设置； `senderror` 后端电子邮件服务报告错误时设置； `sendsuccess` 在成功发送电子邮件时设置。 这样，根据对话框状态可以以不同的方式设置消息样式。
+>此消息支持 `state` 属性选择器，其可能值如下： `verifyerror`, `senderror`和 `sendsuccess`. 值 `verifyerror` 在因内联输入验证失败而显示消息时设置。 值 `senderror` 后端电子邮件服务报告错误时设置。 的 `sendsuccess` 值会在成功发送电子邮件时设置。 这样，根据对话框状态可以以不同的方式设置消息样式。
 
 错误消息可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置消息以使用10点粗体字体、行高为25像素、左边距为20像素、使用感叹号图标、出错时为红色文本、成功时没有图标和绿色文本，请执行以下操作：
+示例 — 要设置消息以使用十点粗体字体，其行高为25像素，左边距为20像素。 此外，使用感叹号图标，如果出错则使用红色文本，如果成功，则使用无图标和绿色文本：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

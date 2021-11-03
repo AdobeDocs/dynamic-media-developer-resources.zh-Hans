@@ -1,14 +1,14 @@
 ---
+title: 视频洗涤器
 description: 视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置。
 solution: Experience Manager
-title: 视频洗涤器
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-在视频播放时，擦洗器“旋钮”也会移动，以指示视频在播放期间的当前时间位置。 视频清理器始终采用控制栏的整个宽度。 可以给视频擦洗器涂皮。 通过CSS更改其高度和垂直位置。
+在视频播放时，擦洗器“旋钮”也会移动，以指示视频在播放期间的当前时间位置。 视频清理器始终采用控制栏的整个宽度。 可以通过CSS为视频擦洗器设置皮肤、更改其高度和垂直位置。
 
 通过以下CSS类选择器控制视频清理器的常规外观：
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 视频清洗工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-**示例**  — 设置视频查看器，该视频查看器具有高度为10像素的自定义跟踪颜色，并距控制栏的上边缘和左边缘10像素和35像素。
+**示例**  — 设置视频查看器，其视频清洗器具有10像素高的自定义跟踪颜色。 最后，让它位于距控制栏的上边缘和左边缘10像素和35像素的位置。
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 
