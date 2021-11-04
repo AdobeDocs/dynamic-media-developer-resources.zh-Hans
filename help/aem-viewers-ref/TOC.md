@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义 Dynamic Media 查看器，以在桌面设备和触摸屏设备上使用。包括交互式图像和视频、轮盘、旋转集等。
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -891,7 +891,7 @@ ht-degree: 6%
          + [视频](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-cmdref-url/r-html5-aem-smartcropvideo-url-videoserverurl.md)
       + 适用于智能裁剪视频查看器的JavaScript API引用 {#jsapi-smartcropvideo}
-         + [适用于智能裁剪视频查看器的JavaScript API引用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md))
+         + [适用于智能裁剪视频查看器的JavaScript API引用](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/c-html5-aem-smartcropvideo-viewer-javascriptapiref.md)
          + [处置](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md)

@@ -2,10 +2,10 @@
 title: 命令引用 — 配置属性
 description: 智能裁剪视频查看器的配置属性文档。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

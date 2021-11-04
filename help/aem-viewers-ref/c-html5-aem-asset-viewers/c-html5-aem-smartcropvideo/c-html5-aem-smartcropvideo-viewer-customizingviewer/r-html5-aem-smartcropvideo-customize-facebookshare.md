@@ -2,10 +2,10 @@
 title: Facebook份额
 description: Facebook共享工具由添加到Social共享面板的按钮组成。 选择按钮后，用户将被重定向到由社交服务提供的共享对话框。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

@@ -2,10 +2,10 @@
 title: 电子邮件共享
 description: 电子邮件共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%

@@ -2,10 +2,10 @@
 title: 图标效果
 description: 播放图标叠加在主视图区域上。 它在视频暂停时或到达视频结尾时显示，并且还取决于iconeffect参数。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%

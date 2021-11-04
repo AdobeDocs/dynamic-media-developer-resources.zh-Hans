@@ -2,10 +2,10 @@
 title: 可变卷
 description: 可变音量控件最初显示为一个按钮，允许用户将智能裁剪视频播放器的声音静音或取消静音。
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%

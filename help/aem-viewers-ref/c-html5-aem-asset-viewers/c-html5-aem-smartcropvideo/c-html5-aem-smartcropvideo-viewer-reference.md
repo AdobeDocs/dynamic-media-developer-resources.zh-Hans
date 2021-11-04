@@ -3,10 +3,10 @@ title: 智能裁剪视频
 description: 智能裁剪视频查看器是一个视频播放器，在添加智能裁剪支持的同时，它播放以H.264格式编码的流式和渐进式视频。 它由Dynamic Media Classic或Adobe Experience Manager与Dynamic Media一起提供。
 keywords: 响应式
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 嵌入智能裁剪视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同网页对查看者行为的需求不同。 有时，网页会提供一个链接，单击该链接后，查看者便会在单独的浏览器窗口中打开。 在其他情况下，需要将查看器直接嵌入到托管页面上。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
+不同网页对查看者行为的需求不同。 有时，网页会提供一个链接，当选定该链接时，该链接会在单独的浏览器窗口中打开查看器。 在其他情况下，需要将查看器直接嵌入到托管页面上。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同设备上显示不同，或针对不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
 平板电脑和移动设备支持在同一页面上嵌入多个视频。 通常，一次只能播放一个视频。 当用户开始播放一个视频，然后尝试播放另一个视频时，第一个视频会自动暂停。 自动暂停的视频会记住其当前播放时间，因此用户可以始终返回到该视频并继续播放。 唯一例外是，在Android™ 4.x设备上的Chrome浏览器中，这项规则可以并行播放视频。
 
