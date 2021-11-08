@@ -1,19 +1,19 @@
 ---
-title: 智能裁剪视频
+title: 智能裁剪视频查看器
 description: 智能裁剪视频查看器是一个视频播放器，在添加智能裁剪支持的同时，它播放以H.264格式编码的流式和渐进式视频。 它由Dynamic Media Classic或Adobe Experience Manager与Dynamic Media一起提供。
 keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# 视频{#video}
+# 智能裁剪视频{#smart-crop-video}
 
 智能裁剪视频查看器是一个视频播放器，在添加智能裁剪支持的同时，它播放以H.264格式编码的流式和渐进式视频。 它是从Dynamic Media Classic提供的，或与Dynamic Media一起提供的Experience Manager。
 
