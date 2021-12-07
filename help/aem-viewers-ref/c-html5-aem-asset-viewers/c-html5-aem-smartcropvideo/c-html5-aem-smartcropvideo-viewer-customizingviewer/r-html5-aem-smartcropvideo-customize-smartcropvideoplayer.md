@@ -4,8 +4,7 @@ description: 智能裁剪视频播放器是在查看器中显示视频内容的�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -47,7 +46,7 @@ background-color: transparent;
 }
 ```
 
-智能裁剪视频播放器的内部容器中置入了隐藏式字幕。 容器的位置由支持的WebVTT定位操作员控制。 题注文本本身位于该容器内，且其样式由以下CSS类选择器控制：
+智能裁剪视频播放器的内部容器中放置隐藏式字幕。 容器的位置由支持的WebVTT定位操作员控制。 题注文本本身位于该容器内，且其样式由以下CSS类选择器控制：
 
 `. s7smartcropvideoviewer .s7videoplayer .s7caption`
 

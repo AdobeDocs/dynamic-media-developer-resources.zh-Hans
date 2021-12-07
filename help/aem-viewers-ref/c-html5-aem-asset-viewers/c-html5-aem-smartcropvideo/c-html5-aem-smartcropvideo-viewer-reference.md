@@ -5,8 +5,7 @@ keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%

@@ -4,8 +4,7 @@ description: 指定组件用于从图像服务器加载图像的图像格式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-exl-id: null
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%

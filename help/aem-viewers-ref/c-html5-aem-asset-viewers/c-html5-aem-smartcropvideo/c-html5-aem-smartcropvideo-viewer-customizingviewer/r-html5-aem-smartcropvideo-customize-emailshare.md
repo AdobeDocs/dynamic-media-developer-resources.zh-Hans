@@ -4,8 +4,7 @@ description: 电子邮件共享工具由添加到Social共享面板的按钮和�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -648,7 +647,7 @@ background-color: #ffffff;
 
 可以对对话框标签进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要将所有标签设置为灰色，以9像素字体显示粗体：
+示例 — 要将所有标签设置为灰色、粗体，且字体为9像素，请执行以下操作：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoglabel { 
@@ -807,7 +806,7 @@ background-color: #ffffff;
 }
 ```
 
-“添加另一个电子邮件地址”按钮允许用户以电子邮件形式添加多个地址。 它通过以下CSS类选择器进行控制：
+“添加其他电子邮件地址”按钮允许用户以电子邮件形式添加多个地址。 它通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogaddemailbutton

@@ -4,8 +4,7 @@ description: 智能裁剪视频查看器支持Adobe Analytics现成跟踪。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -20,7 +19,7 @@ ht-degree: 3%
 
 智能裁剪视频查看器支持Adobe Analytics现成跟踪。
 
-要启用跟踪，请将相应的公司预设名称作为 `config2` 参数。
+要启用跟踪，请将相应的公司预设名称传递为 `config2` 参数。
 
 查看器还会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
