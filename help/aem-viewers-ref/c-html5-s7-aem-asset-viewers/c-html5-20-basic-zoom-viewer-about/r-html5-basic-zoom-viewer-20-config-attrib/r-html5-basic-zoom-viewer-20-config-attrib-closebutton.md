@@ -1,14 +1,14 @@
 ---
-description: 关闭按钮
-solution: Experience Manager
 title: 关闭按钮
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+description: 关闭按钮。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '23'
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>可启用关闭按钮显示，或设置为<span class="codeph"> 0</span>可隐藏关闭按钮。 </p> </td> 
+   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> 启用“关闭”按钮显示，或设置为 <span class="codeph"> 0</span> 隐藏关闭按钮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

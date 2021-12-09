@@ -1,14 +1,14 @@
 ---
+title: 基本缩放
 description: 基本缩放查看器是显示单个可缩放图像的图像查看器。 它提供缩放工具、全屏支持和可选的关闭按钮。 此查看器是最轻量级的。 它适用于台式机和移动设备。
 keywords: 响应式
 solution: Experience Manager
-title: 基本缩放
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此查看器不支持使用IR（图像渲染）或UGC（用户生成内容）的图像。
+>此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。
 
 查看器类型501。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 使用基本缩放查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-基本缩放查看器表示主JavaScript文件和查看器在运行时下载的一组帮助程序文件(单个JavaScript包含该查看器的所有SDK组件，这些组件由该特定查看器（资产、CSS）使用。
+基本缩放查看器表示查看器在运行时下载的JavaScript文件和一组帮助文件。 本质上说，它是一个JavaScript包含项，其中包含此特定查看器、资产和CSS使用的所有查看器SDK组件。
 
 您可以在弹出模式下使用基本缩放查看器，方法是使用随IS查看器提供的生产就绪HTML页面，或者在嵌入式模式下使用基本缩放查看器，在嵌入式模式下，使用记录在案的API将其集成到目标网页中。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 主要用例包括面向台式机或平板电脑设备的网页，以及响应式设计的页面，这些页面可根据设备类型自动调整布局。
 
-当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 这是具有静态布局的网页的最佳选择。
+当查看器在初始加载后不更改其大小时，会使用固定大小嵌入。 此方法是具有静态布局的网页的最佳选择。
 
-响应式设计嵌入假定查看器可能需要在运行时调整大小以响应其容器的大小变化 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器的大小变化 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器的方式有所不同 `DIV`. 如果网页仅设置容器的宽度 `DIV`，查看器会根据所使用资产的宽高比自动选择其高度，而不限制其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式Web设计布局框架(如Bootstrap、基础等)的网页，此用例最常见。
+在响应式设计嵌入模式下，查看器的行为方式与网页大小其容器的方式有所不同 `DIV`. 如果网页仅设置容器的宽度 `DIV`，查看器会根据所使用资产的宽高比自动选择其高度，而不限制其高度。 此功能可确保资产完美地放入视图中，侧边无需任何内边距。 对于使用响应式Web设计布局框架(如Bootstrap和基础)的网页，此用例最常见。
 
 否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中的叠加根据Web浏览器窗口大小来调整大小。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您只应引用主查看器JavaScript `include` 文件。 您不应在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，请勿直接引用HTML5 SDK `Utils.js` 查看器从 `/s7viewers` 上下文路径(所谓的整合SDK `include`)。 原因是 `Utils.js` 或者，查看器的逻辑以及查看器版本之间的位置更改将完全管理类似的运行时查看器库。 Adobe不会保留旧版次查看器 `includes` 在服务器上。
+>仅引用主查看器JavaScript `include` 文件。 请勿在网页代码中引用任何可能由查看器逻辑在运行时下载的其他JavaScript文件。 特别是，请勿直接引用HTML5 SDK `Utils.js` 查看器从 `/s7viewers` 上下文路径(所谓的整合SDK `include`)。 原因是 `Utils.js` 或者，查看器的逻辑以及查看器版本之间的位置更改将完全管理类似的运行时查看器库。 Adobe不会保留旧版次查看器 `includes` 在服务器上。
 >
 >
 >因此，应直接引用任何辅助JavaScript `include` 当部署了新产品版本时，查看器在页面上的使用会在未来中断查看器功能。
@@ -160,7 +160,7 @@ ht-degree: 0%
 
    您可以通过声明查看器的静态大小 `.s7basiczoomviewer` 以绝对单位表示的顶级CSS类，或通过使用 `stagesize` 修饰符。
 
-   您可以将大小调整直接放在CSSHTML页面上，或放在自定义查看器CSS文件中，该文件稍后会分配给Dynamic Media Classic中的查看器预设记录，或使用样式命令显式传递。
+   将大小调整直接放在CSSHTML页面或自定义查看器CSS文件中。 然后，会将该内容分配到Dynamic Media Classic中的查看器预设记录，或使用样式命令显式传递。
 
    请参阅 [自定义基本缩放查看器](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 有关使用CSS为查看器设置样式的更多信息。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以设置 `stagesize` 修改量(在Dynamic Media Classic的查看器预设记录中)，或使用查看器初始化代码(通过 `params` 集合，或作为API调用（如命令引用部分中所述），如下所示：
+   您可以设置 `stagesize` 修改量。 或者，您也可以通过查看器初始化代码通过 `params` 集合或作为API调用（如命令引用部分中所述），如下所示：
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
@@ -187,7 +187,7 @@ ht-degree: 0%
 
    务必要将查看器容器添加到DOM，以便查看器代码可以通过其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 为了实现最大兼容，请调用 `init()` 方法 `BODY` 标记，或在主体上 `onload()` 事件。
 
-   同时，容器元素不一定只是网页布局的一部分。 例如，可以使用 `display:none` 样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此情况时，查看器加载会自动恢复。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用 `display:none` 样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此事件时，查看器加载会自动恢复。
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数并调用 `init()` 方法。 该示例假定 `basicZoomViewer` 为查看器实例； `s7viewer` 是占位符的名称 `DIV`; `http://s7d1.scene7.com/is/image/` 是图像提供URL， `Scene7SharedAssets/Backpack_B` 是资产：
 
@@ -288,13 +288,13 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 </html>
 ```
 
-以下示例页面展示了在不受限高度下响应式设计嵌入的更多实际用途：
+以下示例页面展示了在不受限制高度下响应式设计嵌入的更多实际用途：
 
 [实时演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 
 **定义宽度和高度的灵活大小嵌入**
 
-在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 它为 `"holder"` DIV并在浏览器窗口中将其居中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%。
+如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为 `"holder"` DIV并在浏览器窗口中将其居中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%。
 
 ```
 <!DOCTYPE html> 

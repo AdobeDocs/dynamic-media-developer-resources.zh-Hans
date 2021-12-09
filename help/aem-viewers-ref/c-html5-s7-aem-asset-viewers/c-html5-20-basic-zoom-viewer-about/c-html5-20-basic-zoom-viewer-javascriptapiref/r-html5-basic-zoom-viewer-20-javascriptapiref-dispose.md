@@ -1,13 +1,13 @@
 ---
+title: 处置
 description: 基本缩放查看器的JavaScript API引用。
 solution: Experience Manager
-title: 处置
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 网页代码还应删除查看器实例变量，以便从Web浏览器内存中完全删除查看器。
 
-如果网页代码已在查看器SDK组件上直接注册了事件侦听器，则查看器SDK组件会使用该事件侦听器，或者存储了对此类组件的外部引用，则此类侦听器必须由网页代码显式取消注册，并且必须在调用`dispose()`之前删除此类外部组件引用。
+如果网页代码已在查看器使用的查看器SDK组件上直接注册了事件侦听器 — 或存储了对此类组件的外部引用 — 则此类侦听器必须由网页代码显式取消注册。 而且，必须在调用之前删除此类外部组件引用 `dispose()`.
 
-调用`dispose()`后，请勿再访问查看器API。
+在以下情况下不再访问查看器API `dispose()` 调用。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
