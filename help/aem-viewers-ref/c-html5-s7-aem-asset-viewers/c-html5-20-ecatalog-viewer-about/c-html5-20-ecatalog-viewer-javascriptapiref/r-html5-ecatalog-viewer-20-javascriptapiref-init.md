@@ -1,13 +1,13 @@
 ---
+title: init
 description: eCatalog查看器的JavaScript API引用。
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e7775a65-67bf-4ad6-8e51-1fdf141946bc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ eCatalog查看器的JavaScript API引用。
 
 启动eCatalog查看器的初始化。 此时，必须创建容器DOM元素，以便查看器代码可以通过其ID找到它。
 
-如果容器元素尚未成为网页布局的一部分（例如，可能使用分配给它的`display:none`样式来隐藏该元素），查看器会暂停其初始化过程，直到网页将容器元素返回到布局为止。 发生此情况时，查看器加载会自动恢复。
+如果容器元素尚未包含在网页布局中 — 例如，可能会使用 `display:none` 样式 — 查看器将暂停其初始化过程。 直到网页将容器元素引回布局为止。 发生此操作时，查看器加载会自动恢复。
 
 在查看器生命周期内，只调用一次此方法；将忽略后续调用。
 

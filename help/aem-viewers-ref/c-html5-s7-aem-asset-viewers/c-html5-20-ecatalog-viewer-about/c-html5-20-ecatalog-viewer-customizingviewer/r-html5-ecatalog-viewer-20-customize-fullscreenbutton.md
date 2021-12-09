@@ -1,13 +1,13 @@
 ---
+title: 全屏按钮
 description: 当用户选择时，使查看器进入或退出全屏模式。 此按钮显示在主控制栏中。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。 您可以通过CSS调整按钮的大小、外观和位置。
 solution: Experience Manager
-title: 全屏按钮
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 设置一个28 x 28像素的全屏按钮，其位置为距主控制栏底部4像素，距右边5像素，并在选择或未选择时针对四个不同按钮状态中的每个状态显示一个不同的图像。
+示例 — 设置一个28 x 28像素的全屏按钮，该按钮距底部4像素，距主控制栏右边缘5像素。 最后，在选择或未选择时，针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

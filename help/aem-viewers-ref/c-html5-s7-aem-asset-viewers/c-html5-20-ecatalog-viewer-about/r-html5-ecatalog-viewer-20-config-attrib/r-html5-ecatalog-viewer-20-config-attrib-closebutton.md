@@ -1,14 +1,14 @@
 ---
-description: 关闭按钮
-solution: Experience Manager
 title: 关闭按钮
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+description: “关闭”按钮
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>设置为<span class="codeph"> 1 </span>可显示关闭按钮。 或者，设置为<span class="codeph"> 0 </span>可隐藏关闭按钮。 </p> <p>仅在触屏设备上支持关闭按钮；无法在桌面系统上显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>设置为 <span class="codeph"> 1 </span> 以启用“关闭”按钮的显示。 或，设置为 <span class="codeph"> 0 </span> 来隐藏关闭按钮。 </p> <p>“关闭”按钮仅在触屏设备上受支持；无法在桌面系统上显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,12 +4,15 @@ description: 智能裁剪视频查看器的配置属性文档。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+mini-toc-levels: 3
+exl-id: 698c03b1-bec0-44bf-9c79-c66e0192344a
+source-git-commit: eaf59166fcc1ff8ec5a2e846ef0eb180c8cbdd5a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
 
 ---
+
 
 # 命令引用 — 配置属性{#command-reference-configuration-attributes}
 

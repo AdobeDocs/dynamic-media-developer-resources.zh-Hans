@@ -1,13 +1,13 @@
 ---
+title: 辅助控制条
 description: 辅助控制栏是矩形区域，其中包含在CSS中提供“首页”和“最后一页”按钮以及“页面指示器”。
 solution: Experience Manager
-title: 辅助控制条
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
    <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>辅助控制栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
