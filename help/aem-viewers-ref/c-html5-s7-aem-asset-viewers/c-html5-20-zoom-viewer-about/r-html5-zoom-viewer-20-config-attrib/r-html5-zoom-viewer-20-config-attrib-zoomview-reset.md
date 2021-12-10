@@ -1,14 +1,14 @@
 ---
+title: ZoomView.reset
 description: ZoomView.reset
 solution: Experience Manager
-title: ZoomView.reset
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在帧（图像）发生更改时重置视图端口。 如果设置为<span class="codeph"> 0</span>，则在保留新设置图像的宽高比的同时，保留尽可能适合的当前视图端口。 </p> </td> 
+   <td colname="col2"> <p> 在帧（图像）发生更改时重置视图端口。 如果设置为 <span class="codeph"> 0</span>，则在保留新设置图像的宽高比的同时，保留尽可能适合的当前视图端口。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

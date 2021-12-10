@@ -1,20 +1,20 @@
 ---
-description: 单击或点按此按钮可将用户转到目录的下一页。 此按钮显示在主控制栏中。 此按钮不显示在手机上以节省屏幕资产。 您可以使用CSS调整按钮的大小、外观和位置。
-solution: Experience Manager
 title: “下一页”按钮
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+description: 选择此按钮可将用户转到目录的下一页。 此按钮显示在主控制栏中。 此按钮不显示在手机上以节省屏幕资产。 您可以使用CSS调整按钮的大小、外观和位置。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 6b94e583-fb2a-4010-bfc6-4fa901252e4e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
 
 # “下一页”按钮{#next-page-button}
 
-单击或点按此按钮可将用户转到目录的下一页。 此按钮显示在主控制栏中。 此按钮不显示在手机上以节省屏幕资产。 您可以使用CSS调整按钮的大小、外观和位置。
+选择此按钮可将用户转到目录的下一页。 此按钮显示在主控制栏中。 此按钮不显示在手机上以节省屏幕资产。 您可以使用CSS调整按钮的大小、外观和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -57,23 +57,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
+>此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 设置一个28 x 28像素的下一页按钮，其位置为从底部到右边缘的4个像素，距离主控制栏的右边缘的250个像素，并针对四个不同按钮状态中的每个状态显示一个不同的图像。
+示例 — 设置一个28 x 28像素的下一页按钮，该按钮距底部4像素，距主控制栏右边缘250像素。 最后，针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7toolbarrightbutton .s7panrightbutton { 

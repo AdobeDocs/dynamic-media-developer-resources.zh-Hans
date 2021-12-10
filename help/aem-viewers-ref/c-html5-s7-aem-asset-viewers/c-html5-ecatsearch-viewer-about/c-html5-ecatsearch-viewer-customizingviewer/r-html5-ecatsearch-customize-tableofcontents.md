@@ -1,20 +1,20 @@
 ---
-description: 目录是位于主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
-solution: Experience Manager
 title: 目录
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+description: 目录是主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1055'
 ht-degree: 2%
 
 ---
 
 # 目录{#table-of-contents}
 
-目录是位于主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
+目录是主控制栏中的按钮。 激活后，将显示一个下拉面板，其中包含页面索引和标签的列表。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,12 +31,12 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部 </span> </p> </td> 
    <td colname="col2"> <p> 与控制栏顶部的偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 左  </span> </p> </td> 
-   <td colname="col2"> <p> 左侧的到下一个按钮的距离；或者如果这是一行中的第一个按钮，则位于控制栏的左侧。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 左 </span> </p> </td> 
+   <td colname="col2"> <p> 左侧的到下一个按钮的距离，或者如果此按钮是一行中的第一个按钮，则位于控制栏的左侧。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,23 +47,23 @@ ht-degree: 2%
    <td colname="col2"> <p> 目录按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
+>此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 设置目录按钮，其位置为从底部4像素和从主控制栏左侧43像素；大小为28 x 28像素，并且四个不同按钮状态中的每一个状态都会显示一个不同的图像：
+示例 — 设置目录按钮，其位置为从底部4像素和从主控制栏左侧43像素。 大小为28 x 28像素，并且四个不同按钮状态中的每一个状态都会显示一个不同的图像：
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents { 
@@ -96,7 +96,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 下拉面板的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
    <td colname="col2"> <p> 面板边界和内容之间的内部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框阴影  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 框阴影 </span> </p> </td> 
    <td colname="col2"> <p> 在面板周围投影。 </p> </td> 
   </tr> 
  </tbody> 
@@ -135,15 +135,15 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>项目的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -155,9 +155,9 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->下拉列表项支持`state`属性选择器，该选择器可用于应用不同的外观来悬停和选择的项目状态。
+>下拉列表项支持 `state` 属性选择器，可用于应用不同的外观来悬停和选择项目状态。
 
-示例 — 设置一个下拉项，其字体为Helvetica 14像素，高19像素。 选择项目时，悬停时具有深灰色背景和浅灰色背景：
+示例 — 设置一个下拉项，其Helvetica®字体为14像素，高度为19像素。 选择项目时，悬停时具有深灰色背景和浅灰色背景：
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,15 +184,15 @@ background-color: rgb(178, 178, 178);
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最小宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最小宽度 </span> </p> </td> 
    <td colname="col2"> <p> 最小元素宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最大宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最大宽度 </span> </p> </td> 
    <td colname="col2"> <p> 元素最大宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 内边距 — 右边距  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 内边距 — 右边距 </span> </p> </td> 
    <td colname="col2"> <p> 页面索引和页面标签之间的距离。 </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->可以通过为`s7index` CSS类设置`display:none`来完全隐藏页面索引。
+>可以通过设置 `display:none` 对于 `s7index` CSS类。
 
 示例1 — 在右侧设置最小宽度为40像素、最大宽度为70像素和5像素边距的页面索引：
 
@@ -231,11 +231,11 @@ display: none;
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最小宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最小宽度 </span> </p> </td> 
    <td colname="col2"> <p> 最小元素宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最大宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 最大宽度 </span> </p> </td> 
    <td colname="col2"> <p> 元素最大宽度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-如果下拉面板中的项目数量多于垂直容纳的项目，并且系统是桌面，则组件会在面板的右侧呈现垂直滚动条。 通过以下CSS类选择器控制滚动条区域的外观：
+如果下拉面板中的项目数量多于垂直放置的项目数量（系统为桌面），则组件会在面板右侧呈现一个垂直滚动条。 通过以下CSS类选择器控制滚动条区域的外观：
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar
@@ -261,7 +261,7 @@ max-width: 240px;
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p> 滚动条宽度。 </p> </td> 
   </tr> 
   <tr> 
@@ -301,11 +301,11 @@ max-width: 240px;
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>轨道宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>跟踪背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -331,35 +331,35 @@ max-width: 240px;
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>拇指宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>拇指高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p> 轨道顶部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>轨道底部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p> 为给定的拇指状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩览图支持`state`属性选择器，该选择器可用于对`up`、`down`、`over`和`disabled`缩览图状态应用不同的外观。
+>拇指支持 `state` 属性选择器，可用于对不同的外观应用不同的外观 `up`, `down`, `over`和 `disabled` 拇指状态。
 
 示例 — 设置一个滚动条缩览图，其28 x 45像素，上下边距为10像素，每种状态的图稿都不同：
 
@@ -396,36 +396,36 @@ max-width: 240px;
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-无法使用CSS `top`、`left`、`bottom`和`right`属性定位滚动按钮；相反，查看器逻辑会自动定位它们。
+无法使用CSS定位滚动按钮 `top`, `left`, `bottom`和 `right` 资产；相反，查看器逻辑会自动定位它们。
 
 **向上滚动和向下滚动按钮的CSS属性**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->按钮支持`state`属性选择器，该选择器可用于对`up`、`down`、`over`和`disabled`按钮状态应用不同的外观。
+>按钮支持 `state` 属性选择器，可用于对不同的外观应用不同的外观 `up`, `down`, `over`和 `disabled` 按钮状态。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 。
+按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
 示例 — 设置28 x 32像素的滚动按钮，每个状态具有不同的图稿：
 

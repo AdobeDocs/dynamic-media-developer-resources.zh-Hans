@@ -1,13 +1,13 @@
 ---
+title: 辅助控制条
 description: 辅助控制栏是矩形区域，其中包含在CSS中提供“首页”和“最后一页”按钮以及“页面指示器”。
 solution: Experience Manager
-title: 辅助控制条
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 辅助控制栏是矩形区域，其中包含在CSS中提供“首页”和“最后一页”按钮以及“页面指示器”。
 
-默认情况下，它仅在手机上显示，并位于查看器底部。 它始终采用所有可用的查看器宽度。 可以通过CSS相对于查看器容器更改其颜色、高度和垂直位置。
+默认情况下，该查看器仅在手机上的查看器底部显示。 它始终采用所有可用的查看器宽度。 可以通过CSS相对于查看器容器更改其颜色、高度和垂直位置。
 
 通过以下CSS类选择器控制辅助控制栏的外观：
 
@@ -43,7 +43,7 @@ ht-degree: 2%
    <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>辅助控制栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

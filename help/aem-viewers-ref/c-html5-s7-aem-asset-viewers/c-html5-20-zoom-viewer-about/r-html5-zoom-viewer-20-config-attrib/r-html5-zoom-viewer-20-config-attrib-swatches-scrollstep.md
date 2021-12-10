@@ -1,20 +1,20 @@
 ---
+title: Swatches.scrollstep
 description: Swatches.scrollstep
 solution: Experience Manager
-title: Swatches.scrollstep
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 94774bc1-c490-4341-b223-8823699b6c1e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 10%
+source-wordcount: '32'
+ht-degree: 12%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *``*, *`hStepvStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`步骤`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 

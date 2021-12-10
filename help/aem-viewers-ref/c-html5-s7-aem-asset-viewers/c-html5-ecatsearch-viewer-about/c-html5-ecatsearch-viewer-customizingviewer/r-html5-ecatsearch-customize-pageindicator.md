@@ -1,13 +1,13 @@
 ---
+title: 页面指示器
 description: 页面指示器显示当前页面索引和页面总计数。 它显示在台式机系统和平板电脑的主控制栏中，在手机上，它被添加到辅助控制栏中。 页面指示器可以通过CSS进行大小、外观和定位。
 solution: Experience Manager
-title: 页面指示器
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '252'
 ht-degree: 4%
 
 ---
@@ -57,17 +57,17 @@ ht-degree: 4%
    <td colname="col2"> <p>字体颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置一个56 x 28像素的页面指示器，水平居中并距主控制栏底部4像素，并使用14像素Helvetica字体。
+示例 — 设置一个56 x 28像素的页面指示器，水平居中并距主控制栏底部4像素，并使用14像素Helvetica®字体。
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 

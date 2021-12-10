@@ -1,30 +1,30 @@
 ---
+title: ZoomView.zoomstep
 description: ZoomView.zoomstep
 solution: Experience Manager
-title: ZoomView.zoomstep
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bcd153f3-7a87-4e8f-825b-fc4a136de1dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 7%
 
 ---
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *``*[, *`steplimit`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`步骤`*[, *`限制`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p> 配置将分辨率提高或降低两倍所需的放大和缩小操作数量。 每个缩放操作的分辨率变化是每步2^1。 设置为<span class="codeph"> 0</span>可通过单次缩放操作缩放到全分辨率。 </p> </td> 
+   <td colname="col2"> <p> 配置将分辨率提高或降低两倍所需的放大和缩小操作数量。 每个缩放操作的分辨率变化是每步2^1。 设置为 <span class="codeph"> 0</span> 来缩放到全分辨率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 限制</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认值为<span class="codeph"> 1.0</span>，它不允许缩放到超出完整分辨率的范围。 </p> </td> 
+   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认值为 <span class="codeph"> 1.0</span>，这不允许缩放超出完整分辨率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

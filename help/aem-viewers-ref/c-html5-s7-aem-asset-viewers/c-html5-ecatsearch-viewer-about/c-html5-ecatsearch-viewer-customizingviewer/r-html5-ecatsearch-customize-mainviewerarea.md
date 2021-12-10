@@ -1,13 +1,13 @@
 ---
+title: 主查看器区域
 description: 主视图区域是目录图像所占用的区域。 通常在未指定大小时设置为适合可用设备屏幕。
 solution: Experience Manager
-title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置具有白色背景的查看器(`#FFFFFF`)，并使其大小为512 x 288像素。
+示例 — 设置具有白色背景的查看器( `#FFFFFF`)，并使其大小为512 x 288像素。
 
 ```
 .s7ecatalogsearchviewer { 

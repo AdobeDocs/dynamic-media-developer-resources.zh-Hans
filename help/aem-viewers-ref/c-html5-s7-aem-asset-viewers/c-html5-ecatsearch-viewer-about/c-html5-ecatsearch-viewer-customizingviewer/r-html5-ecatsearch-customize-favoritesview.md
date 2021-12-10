@@ -1,13 +1,13 @@
 ---
+title: 收藏夹视图
 description: “收藏夹”视图由一列缩略图图像组成。
 solution: Experience Manager
-title: 收藏夹视图
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> “收藏夹”视图的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -62,12 +62,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于为<span class="codeph"> .s7thumbcell </span>设置的上边距和下边距之和。 </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于为 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置10像素间距。
+示例 — 设置十个像素间距。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -86,7 +86,7 @@ ht-degree: 2%
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
@@ -102,9 +102,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 特别是，`state="selected"`对应于用户最近选择的缩略图。 `state="default"` 对应于其余的缩略图。并且在鼠标悬停时使用`state="over"`。
+>缩略图支持 `state` 属性选择器，用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"` 对应于用户最近选择的缩略图。 While `state="default"` 对应于其余的缩略图。 和 `state="over"` 鼠标悬停时使用。
 
-示例 — 设置缩略图75 x 75像素，默认边框为浅灰色，选定边框为深灰色。
+示例 — 要设置缩略图75 x 75像素，缩略图的默认边框为浅灰色，选定的边框为深灰色。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ ht-degree: 2%
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用14像素Helvetica字体设置标签。
+示例 — 使用14像素Helvetica®字体设置标签。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: 页面查看
 description: 主视图由目录图像组成。 可以轻扫到其他页面或缩放页面。
 solution: Experience Manager
-title: 页面查看
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 4%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色（以十六进制格式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
    <td colname="col2"> <p>显示在主视图上的光标。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在桌面系统上，组件支持可应用于`.s7pageview`类的`cursortype`属性选择器，并基于组件状态和用户操作控制游标的类型。 支持以下`cursortype`值：
+在桌面系统上，该组件支持 `cursortype` 属性选择器，可应用于 `.s7pageview` 类和基于组件状态和用户操作控制游标的类型。 以下 `cursortype` 支持以下值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +68,7 @@ ht-degree: 4%
    <td colname="col2"> <p>当由于图像分辨率和组件设置较小或两者都导致图像无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛民  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛民 </span> </p> </td> 
    <td colname="col2"> <p>在图像可放大时显示。 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ ht-degree: 4%
    <td colname="col2"> <p>当用户平移处于缩放状态的图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻灯片  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
    <td colname="col2"> <p>当用户通过水平轻扫或轻扫执行图像交换时显示。 </p> </td> 
   </tr> 
  </tbody> 
@@ -100,16 +100,16 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 页面分隔符的宽度。 设置为<span class="codeph"> 0 </span> px可完全隐藏分隔符。 </p> </td> 
+   <td colname="col2"> <p> 页面分隔符的宽度。 设置为 <span class="codeph"> 0 </span> px来完全隐藏分隔符。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p>要用作页面分隔符的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 具有40像素宽的分页器，分页器具有半透明图像。
+示例 — 使用半透明图像，使40像素宽的页面分隔器。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->将`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，使用`pageturnstyle`修饰符控制页面分隔符的外观，并忽略`.s7pagedivider` CSS类。
+>当 `frametransition` 修饰符设置为 `turn` 或 `auto` （在桌面系统上），页面分隔器的外观由 `pageturnstyle` 修饰符和 `.s7pagedivider` 将忽略CSS类。
 
-可以在主查看器区域上配置自定义鼠标光标的显示。 可通过应用于`.s7ecatalogsearchviewer .s7pageview` CSS类的其他属性选择器来控制此问题：
+可以在主查看器区域上配置自定义鼠标光标的显示。 此功能可通过应用于 `.s7ecatalogsearchviewer .s7pageview` CSS类：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,7 +137,7 @@ ht-degree: 4%
    <td colname="col2"> <p> 通常，对于不可缩放的图像，会显示一个箭头。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛民  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛民 </span> </p> </td> 
    <td colname="col2"> <p> 显示图像何时可以放大。 </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ ht-degree: 4%
    <td colname="col2"> <p>显示用户对图像中缩放的图像执行拖动操作的时间 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻灯片  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
    <td colname="col2"> <p>显示用户何时使用幻灯片手势执行图像交换 </p> </td> 
   </tr> 
  </tbody> 
