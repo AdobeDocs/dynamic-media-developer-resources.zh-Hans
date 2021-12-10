@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.bearing
 description: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.bearing
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> 控制下拉面板外观的方向。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件首先将基板位置移到其按钮的底部，并尝试从底部位置向右或向左滚出面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基面板位置移至顶部，并在左右方向重复转出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，组件使用类似的逻辑，但首先将基础向右移动，然后向下和向上滚动方向。 然后，它把底座向左移动，向下和向上展开方向。 </p> </td> 
+   <td> <p> 控制下拉面板外观的方向。 </p> <p>当设置为 <span class="codeph"> 拟垂直</span>，组件会首先将基板位置移至其按钮的底部，然后尝试从基位置向右或向左滚动面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，组件会尝试将基本面板位置移至顶部，然后在左右方向重复尝试转出。 </p> <p>当设置为 <span class="codeph"> 侧向配合</span>，则组件会使用类似的逻辑，但会先将基本移至右侧，然后向下尝试并向上转出方向。 然后，它将基座向左移动，向下和向上展开方向。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

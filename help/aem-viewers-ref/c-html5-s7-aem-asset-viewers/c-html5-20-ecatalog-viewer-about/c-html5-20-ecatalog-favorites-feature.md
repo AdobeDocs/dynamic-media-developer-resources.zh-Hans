@@ -1,13 +1,13 @@
 ---
+title: 收藏夹功能
 description: 收藏夹功能
 solution: Experience Manager
-title: 收藏夹功能
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 7caf1111-9643-494c-8c9e-684edd1c27f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

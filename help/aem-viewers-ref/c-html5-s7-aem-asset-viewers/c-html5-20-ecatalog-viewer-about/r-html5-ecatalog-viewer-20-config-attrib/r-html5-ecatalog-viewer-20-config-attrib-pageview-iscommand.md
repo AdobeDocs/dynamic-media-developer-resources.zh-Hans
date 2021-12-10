@@ -1,14 +1,14 @@
 ---
+title: PageView.iscommand
 description: PageView.iscommand
 solution: Experience Manager
-title: PageView.iscommand
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d1b05fe7-901b-4030-9b71-e4e0e5191abf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 应用于页面图像的图像提供命令字符串。 如果在URL中指定了<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有实例，则必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 应用于页面图像的图像提供命令字符串。 如果在URL中指定，则发生的所有 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 必须是HTTP编码为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，分别为。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

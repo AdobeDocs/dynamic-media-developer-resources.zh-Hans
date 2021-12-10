@@ -1,14 +1,14 @@
 ---
+title: InitialFrame
 description: InitialFrame
 solution: Experience Manager
-title: InitialFrame
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 28b6b981-94f6-4136-b322-992e18d154db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定要在查看器加载时显示的零基跨页索引。 索引与横向模式下跨页的索引匹配。 如果将查看器旋转为纵向，则查看器将显示跨页中最左侧的页面，该跨页由<span class="codeph"> frameIdx</span>指向。 </p> </td> 
+   <td colname="col2"> <p> 指定要在查看器加载时显示的零基跨页索引。 索引与横向模式下跨页的索引匹配。 如果将查看器旋转为纵向，则查看器将显示跨页最左侧的页面，跨页指向 <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

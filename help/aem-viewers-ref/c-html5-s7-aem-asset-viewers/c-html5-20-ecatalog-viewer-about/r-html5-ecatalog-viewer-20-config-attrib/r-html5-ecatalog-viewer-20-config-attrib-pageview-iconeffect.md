@@ -1,30 +1,30 @@
 ---
+title: PageView.iconEffect
 description: PageView.iconEffect
 solution: Experience Manager
-title: PageView.iconEffect
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: cdd96e58-d805-47d6-bf26-9ebd90afd535
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
 # PageView.iconEffect{#pageview-iconeffect}
 
-` [PageView.|<containerId>_pageView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [PageView.|<containerId>_pageView.]iconeffect=0|1[, *`计数`*][, *`淡淡`*][, *`autoHide`*]`
 
 <table id="table_DD66FFC263A34220876DD204BFE62D49"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当图像处于重置状态时，允许<span class="codeph"> iconeffect</span>在图像顶部显示，并提示可以执行与图像交互的操作。 </p> </td> 
+   <td colname="col2"> <p> 启用 <span class="codeph"> iconeft</span> 当图像处于重置状态时，显示在图像顶部，并且显示了可用于与图像交互的操作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定<span class="codeph"> iconeffect</span>出现和重新显示的最大次数。 值<span class="codeph"> -1</span>表示图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定 <span class="codeph"> iconeft</span> 出现并重新显示。 值 <span class="codeph"> -1</span> 指示图标始终无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 淡淡</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>设置<span class="codeph"> iconeffect</span>在自动隐藏之前保持完全可见的秒数。 即，淡入动画完成后但在淡出动画开始之前的时间。 设置<span class="codeph"> 0</span>将禁用自动隐藏行为。 </p> </td> 
+   <td colname="col2"> <p>设置 <span class="codeph"> iconeft</span> 在自动隐藏之前保持完全可见。 即，淡入动画完成后但在淡出动画开始之前的时间。 设置 <span class="codeph"> 0</span> 禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

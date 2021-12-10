@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，如果下拉菜单中的可见项目被外部容器裁剪，您还可以减少其数量。 </p> <p>当设置为<span class="codeph"> 0</span>时，该组件在添加到的容器中显示尽可能多的项目。 </p> </td> 
+   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，如果下拉菜单被外部容器裁剪，您还可以减少可见项目的数量。 </p> <p>当设置为 <span class="codeph"> 0</span> 该组件会在添加到的容器中显示尽可能多的项目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

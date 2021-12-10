@@ -1,13 +1,13 @@
 ---
+title: ThumbnailGridView.enabledragging
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
-title: ThumbnailGridView.enabledragging
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3615e82-d8f0-427e-ab32-f7d0f2b6cbf3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '75'
 ht-degree: 6%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 6%
    <td> <p> 启用或禁用用户使用鼠标或使用触控手势滚动样本的功能 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 超量拖动值  </span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 0-1 </span>范围内的函数。 它是一个<span class="codeph"> % </span>值，用于在实际速度的错误方向上移动。 如果将其设置为<span class="codeph"> 1 </span>，则会随鼠标移动。 如果将其设置为<span class="codeph"> 0 </span>，则完全不允许您沿错误的方向移动。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 超量拖动值 </span> </span> </p> </td> 
+   <td> <p> 函数 <span class="codeph"> 0-1 </span> 范围。 是 <span class="codeph"> % </span> 值。 如果将其设置为 <span class="codeph"> 1 </span>，则会随鼠标移动。 如果将其设置为 <span class="codeph"> 0 </span>，它根本不会让你走错方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

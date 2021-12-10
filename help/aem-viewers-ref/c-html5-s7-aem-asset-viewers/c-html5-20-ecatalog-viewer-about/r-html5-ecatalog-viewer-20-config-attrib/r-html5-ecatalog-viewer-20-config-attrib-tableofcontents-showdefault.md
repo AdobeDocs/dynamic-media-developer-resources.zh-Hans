@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 当设置为<span class="codeph"> 1</span>时，组件会在下拉面板中填充所有页面的元素，即使对于未定义标签的页面也是如此。 </p> <p>当设置为<span class="codeph"> 0</span>时，下拉面板中仅显示具有显式标签的项目。 </p> </td> 
+   <td> <p> 当设置为 <span class="codeph"> 1</span>，该组件会在下拉面板中填充所有页面的元素，即使是未定义标签的页面也是如此。 </p> <p>当设置为 <span class="codeph"> 0</span> 下拉面板中仅显示具有显式标签的项目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

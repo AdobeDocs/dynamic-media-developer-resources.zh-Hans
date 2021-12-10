@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.fmt
 description: ThumbnailGridView.fmt
 solution: Experience Manager
-title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 916ee5d1-e398-4923-9107-96f649033298
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>指定组件用于从图像服务器加载图像的图像格式。 它可以是图像服务器和客户端浏览器支持的任何值。 如果指定的格式以<span class="codeph"> -alpha</span>结尾，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
+   <td> <p>指定组件用于从图像服务器加载图像的图像格式。 它可以是图像服务器和客户端浏览器支持的任何值。 如果指定的格式以 <span class="codeph"> -alpha</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

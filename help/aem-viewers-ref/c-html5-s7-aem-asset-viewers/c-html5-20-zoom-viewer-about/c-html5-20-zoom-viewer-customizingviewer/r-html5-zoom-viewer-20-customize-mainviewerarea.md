@@ -1,13 +1,13 @@
 ---
+title: 主查看器区域
 description: 主视图区域是缩放图像和色板所占用的区域。 通常在未指定大小时设置为适合可用设备屏幕。
 solution: Experience Manager
-title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-在嵌入模式下工作（在为主查看器区域指定了显式大小时），查看器会自动将其主区域的高度减小为与单个图像一起使用的“色板”组件的高度，因此不需要色板。
+在嵌入模式下工作（在为主查看器区域指定了显式大小时），查看器会自动将其主区域的高度减小为与单个图像一起使用的Swatches组件的高度，因此不需要样本。
 
 **主查看器区域的CSS属性**
 
@@ -45,13 +45,13 @@ ht-degree: 1%
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置具有白色背景的查看器(`#FFFFFF`)，并使其大小为512 x 288像素。
+示例 — 设置具有白色背景的查看器( `#FFFFFF`)，并使其大小为512 x 288像素。
 
 ```
 .s7zoomviewer { 
