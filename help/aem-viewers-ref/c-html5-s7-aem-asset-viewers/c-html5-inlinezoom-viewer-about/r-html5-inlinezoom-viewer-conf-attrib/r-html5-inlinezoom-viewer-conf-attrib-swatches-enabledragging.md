@@ -1,13 +1,13 @@
 ---
+title: Swatches.enabledragging
 description: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledragging
-feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 9b69f6d7-b7a1-42c6-98d7-80952b7f8b31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '75'
 ht-degree: 6%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 6%
    <td> <p> 启用或禁用用户使用鼠标或使用触控手势滚动样本的功能 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 超量拖动值  </span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 0-1 </span>范围内的函数。 它是一个<span class="codeph"> % </span>值，用于在实际速度的错误方向上移动。 如果将其设置为<span class="codeph"> 1 </span>，则会随鼠标移动。 如果将其设置为<span class="codeph"> 0 </span>，则完全不允许您沿错误的方向移动。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 超量拖动值 </span> </span> </p> </td> 
+   <td> <p> 函数 <span class="codeph"> 0-1 </span> 范围。 是 <span class="codeph"> % </span> 值。 如果将其设置为 <span class="codeph"> 1 </span>，则会随鼠标移动。 如果将其设置为 <span class="codeph"> 0 </span>，它根本不会让你走错方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

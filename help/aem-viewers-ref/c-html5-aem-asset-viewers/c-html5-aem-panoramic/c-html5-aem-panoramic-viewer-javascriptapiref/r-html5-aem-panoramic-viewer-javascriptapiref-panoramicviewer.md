@@ -4,9 +4,9 @@ description: 构造函数，创建一个新的HTML5轮播查看器实例。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 ## 参数 {#section-fa807db629ce43bab286b1e1dc96c492}
 
 配置{Object}可选JSON配置对象，允许将所有查看器设置传递给构造函数，并避免调用单个setter方法。 包含以下属性：
-* containerId — 将插入查看器的DOM容器（通常为DIV）的{String} ID。 调用此方法时，不必创建容器元素，但执行init()时必须存在容器。 必需
+* containerId — 将查看器插入的DOM容器（通常为DIV）的{String} ID。 调用此方法时，不必创建容器元素，但执行init()时必须存在容器。 必需
 * params - {Object} JSON对象，带有查看器配置参数，其中属性名称是特定于查看器的配置选项或SDK修饰符，并且该属性的值是相应的设置值。 必需
 * 处理程序 — 具有查看器事件回调的{Object} JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 有关查看器事件的更多信息，请参阅事件回调一节。 可选
 

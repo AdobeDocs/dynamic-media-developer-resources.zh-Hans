@@ -1,13 +1,13 @@
 ---
+title: 内联缩放查看器的JavaScript API引用
 description: 内联缩放查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
 solution: Experience Manager
-title: 内联缩放查看器的JavaScript API引用
-feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 内联缩放查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
 
-在以下所有示例中， `<instance>`表示从`s7viewers.FlyoutViewer`类实例化的JavaScript查看器对象的实际名称。
+在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.FlyoutViewer` 类。
 
 * [处置](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

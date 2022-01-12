@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: 内联缩放查看器的JavaScript API引用。
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b46ad5-90b7-49e1-a426-87fbe956f07e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 资产</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph">字符串</span>}个新资产id、显式图像集或显式图像集（包含特定于帧的图像服务修饰符），以及可选的全局图像服务修饰符（附加在<span class="codeph"> ?</span>之后）。 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 字符串</span>}新资产id、显式图像集或显式图像集（带有特定于帧的图像服务修饰符），并在之后附加可选的全局图像服务修饰符 <span class="codeph"> ?</span>. </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置新资产。 您可以在`init()`之前或之后随时调用此参数。 如果在`init()`之后调用，则查看器在运行时会交换资产。
+设置新资产。 您可以在之前或之后随时调用此参数 `init()`. 如果在 `init()`，则查看器会在运行时交换资产。
 
-另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 ## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

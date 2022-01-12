@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic，查看器，SDK/API，弹出
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 10%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 无|渐隐</span> </p> </td> 
-   <td colname="col2"> <p> 指定资产更改时应用于主视图的效果类型。 <span class="codeph"> none</span>表示没有过渡，主视图会立即发生更改。 <span class="codeph">渐隐</span>激活交叉渐隐过渡，即旧图像淡出，新图像淡入 </p> </td> 
+   <td colname="col2"> <p> 指定资产更改时应用于主视图的效果类型。 的 <span class="codeph"> 无</span> 表示没有过渡，主视图更改会立即发生。 的 <span class="codeph"> 淡淡</span> 激活交叉淡入淡出过渡，即旧图像淡出，新图像淡入 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 

@@ -4,9 +4,9 @@ description: 全景查看器的配置属性文档。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 可以在URL中或使用 `setParam()` 和/或 `setParams()` API方法。 也可以在服务器端配置记录中指定任何配置属性。
 
-某些配置命令可能带有相应HTML5 SDK组件的类名或实例名的前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` API方法。 文档将包含此类命令的可选前缀。 例如， `vrrender` 命令将记录如下：
+某些配置命令可能带有相应HTML5 SDK组件的类名或实例名的前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` API方法。 文档将包含此类命令的可选前缀。 例如， `vrrender` 命令的说明如下：
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

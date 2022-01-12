@@ -1,11 +1,11 @@
 ---
-description: 主视图由静态图像、在静态图像顶部的弹出视图中显示的缩放图像以及在静态图像顶部显示的提示消息组成。
-solution: Experience Manager
 title: 弹出缩放视图
-feature: Dynamic Media Classic，查看器，SDK/API，内联缩放
+description: 主视图由静态图像和在静态图像顶部的弹出视图中显示的缩放图像组成。 它还包含静态图像顶部显示的提示消息。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 弹出缩放视图{#flyout-zoom-view}
 
-主视图由静态图像、在静态图像顶部的弹出视图中显示的缩放图像以及在静态图像顶部显示的提示消息组成。
+主视图由静态图像和在静态图像顶部的弹出视图中显示的缩放图像组成。 它还包含静态图像顶部显示的提示消息。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ ht-degree: 3%
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-可以通过CSS配置字体样式、大小外观和垂直偏移。 但是，水平对齐由查看器逻辑管理。 不支持使用`left`或`right`属性通过CSS覆盖该域。
+可以通过CSS配置字体样式、大小、外观和垂直偏移。 但是，水平对齐由查看器逻辑管理。 使用通过CSS覆盖它 `left` 或 `right` 不支持属性。
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -76,11 +76,11 @@ ht-degree: 3%
    <td colname="col2"> <p>文本颜色. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
@@ -88,25 +88,25 @@ ht-degree: 3%
    <td colname="col2"> <p>在消息文本周围填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景填充颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框半径  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框半径 </span> </p> </td> 
    <td colname="col2"> <p>消息文本的背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度  </span> </p> </td> 
-   <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>对于Internet Explorer 8，请使用<span class="codeph"> filter:alpha(opacity-...))</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col2"> <p>消息文本的背景不透明度。 </p> <p>对于Internet Explorer 8，请使用 <span class="codeph"> filter:alpha(opacity-...)) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示消息可以本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 。
+提示消息可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以了解更多信息。
 
 。
 
-示例 — 要设置半透明的提示消息，其中Arial字体为12px，距主视图底部50像素偏移，填充以及四舍五入的边框：
+示例 — 要设置半透明的提示消息，其中使用白色的Arial® 12-px字体，距主视图底部50像素的偏移、内边距和四舍五入的边框：
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

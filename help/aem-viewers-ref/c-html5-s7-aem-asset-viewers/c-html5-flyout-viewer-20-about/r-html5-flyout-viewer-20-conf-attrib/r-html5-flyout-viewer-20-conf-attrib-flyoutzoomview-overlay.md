@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic，查看器，SDK/API，弹出
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 控制弹出窗口处于活动状态时的主视图高亮显示外观。 当设置为<span class="codeph"> 0</span>时，弹出窗口中当前可见的区域将使用<span class="codeph"> .s7highlight</span>或<span class="codeph"> .s7cursor</span> CSS类名称（取决于<span class="codeph"> highlightmode</span>修饰符的值）提供的样式高亮显示。 当设置为<span class="codeph"> 1</span>组件进入“反向”模式，其中当前查看的区域是完全透明的（如果设置为<span class="codeph"> highlightmode</span>，则设置为<span class="codeph"> highlight</span>）或设置为<span class="codeph"> .s7cursor</span> CSS类名称(如果将<span class="codeph"> highlightmode</span>设置为<span class="codeph">，但周围区域使用<span class="codeph">叠加图提供的样式填充CSS类名称。</span></span> </p> </td> 
+   <td colname="col2"> <p> 控制弹出窗口处于活动状态时的主视图高亮显示外观。 当设置为 <span class="codeph"> 0</span>，则弹出窗口中当前可见的区域将使用提供的样式突出显示 <span class="codeph"> .s7高亮显示</span> 或 <span class="codeph"> .s7cursor</span> CSS类名称(取决于 <span class="codeph"> 高光模式</span> 修饰符)。 当设置为 <span class="codeph"> 1</span> 组件进入“反向”模式，其中当前查看的区域要么完全透明（如果是） <span class="codeph"> 高光模式</span> 设置为 <span class="codeph"> 突出显示</span>)或样式为 <span class="codeph"> .s7cursor</span> CSS类名称（大小写） <span class="codeph"> 高光模式</span> 设置为 <span class="codeph"> 光标</span>)，但周围区域会使用 <span class="codeph"> .s7叠加</span> CSS类名称。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
