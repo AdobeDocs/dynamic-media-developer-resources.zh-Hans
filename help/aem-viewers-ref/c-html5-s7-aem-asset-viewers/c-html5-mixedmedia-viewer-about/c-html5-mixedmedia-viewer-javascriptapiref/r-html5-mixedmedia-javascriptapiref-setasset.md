@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: 混合媒体查看器的JavaScript API引用。
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 ` setAsset( *`asset`*[,data]))`
 
-设置新资产和可选的其他资产数据。 您可以在`init()`之前或之后随时调用此参数。 如果在`init()`之后调用，则查看器在运行时会交换资产。
+设置新资产和可选的其他资产数据。 您可以在之前或之后随时调用此参数 `init()`. 如果在 `init()`，则查看器会在运行时交换资产。
 
-另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`资产`*`  - {  `String`}新资产ID或显式混合媒体集，其后附加可选的图像服务修饰符 `?`。
+`*`资产`*` - { `String`}新资产ID或显式混合媒体集，并在之后附加可选的图像服务修饰符 `?`.
 
 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。
 
-`*`data`*`  — 新标题 `JSON`文件的{}位置。
+`*`数据`*` - { `JSON`}新标题文件的位置。
 
 如果未指定，则描述按钮在用户界面中不可见。 使用此参数指定的字幕适用于混合媒体集中排在首位的视频；后续视频播放时没有字幕。 此查看器支持以下组件ID:
 
@@ -41,11 +41,11 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 后验图像  </span> </p> </td> 
-   <td colname="col2"> <p>要在视频开始播放之前在第一帧上显示的图像。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 后验图像 </span> </p> </td> 
+   <td colname="col2"> <p>要在视频开始播放之前在第一帧上显示的图像。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字幕  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字幕 </span> </p> </td> 
    <td colname="col2"> <p> 新字幕文件的位置。 </p> <p>如果未指定，则描述按钮在用户界面中不可见。 使用此参数指定的字幕适用于媒体集中排在首位的视频。 后续视频播放时没有字幕。 </p> </td> 
   </tr> 
  </tbody> 

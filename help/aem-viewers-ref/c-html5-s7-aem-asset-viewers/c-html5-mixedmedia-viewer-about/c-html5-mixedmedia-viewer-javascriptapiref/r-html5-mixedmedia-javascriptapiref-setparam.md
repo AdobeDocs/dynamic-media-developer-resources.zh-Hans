@@ -1,13 +1,13 @@
 ---
+title: setParam
 description: 混合媒体查看器的JavaScript API引用。
 solution: Experience Manager
-title: setParam
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 610a5a7d-1314-48bc-a640-319139d64adc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '82'
 ht-degree: 2%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 2%
 
 ` setParam( *`name， value`*)`
 
-将查看器参数设置为指定值。 参数是特定于查看器的配置选项或软件开发包修饰符。 此参数在`init()`之前调用。 如果查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+将查看器参数设置为指定值。 参数是特定于查看器的配置选项或软件开发包修饰符。 此参数在 `init()`. 如果查看器配置信息是通过 `config` 构造函数的JSON对象。
 
-另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)。
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}参 </span> 数的名称。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 参数的{ </span> string}值。该值不能进行百分比编码。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。 该值不能进行百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

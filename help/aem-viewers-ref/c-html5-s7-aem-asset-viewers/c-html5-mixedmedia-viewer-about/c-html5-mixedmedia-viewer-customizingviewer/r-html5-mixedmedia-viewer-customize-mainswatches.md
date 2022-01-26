@@ -1,13 +1,13 @@
 ---
+title: 主色板
 description: 主色板由一行缩略图图像组成，左侧和右侧带有可选滚动按钮。 仅当所有缩略图都不能容纳到容器的宽度中时，滚动按钮才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
 solution: Experience Manager
-title: 主色板
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩览图周围的水平和垂直边距的大小。 实际缩略图间距等于为<span class="codeph"> .s7thumbcell </span>设置的左边距和右边距的和。 </p> </td> 
+   <td colname="col2"> <p> 每个缩览图周围的水平和垂直边距的大小。 实际缩略图间距等于为 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +93,7 @@ ht-degree: 2%
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"`对应于主视图中当前显示的图像的缩略图， `state="default"`对应其余的缩略图，并且`state="over"`用于鼠标悬停。
+>缩略图支持 `state` 属性选择器，用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"` 对应于主视图中当前显示的图像的缩略图， `state="default"` 对应于其余的缩略图，以及 `state="over"` 鼠标悬停时使用。
 
 示例 — 设置缩略图56 x 56像素，默认边框为浅灰色，选定边框为深灰色。
 
@@ -135,17 +135,17 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>图标叠加的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>图标叠加的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-叠加图支持具有以下可能值的`type`属性选择器：`image`（对于单个图像）、`swatchset`（对于色板集）、`spinset`（对于旋转集）和`video`（对于单个视频或自适应视频集）。
+叠加图支持 `type` 属性选择器，其可能值如下： `image` （对于单个图像）、 `swatchset` （对于色板集）、 `spinset` （对于旋转集）和 `video` （适用于单个视频或自适应视频集）。
 
 示例 — 为旋转集、样本集和视频设置图标叠加：
 
@@ -167,7 +167,7 @@ ht-degree: 2%
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-无法使用CSS `top`、`left`、`bottom`和`right`属性来定位滚动按钮。 查看器逻辑而是会自动定位它们。
+无法使用CSS定位滚动按钮 `top`, `left`, `bottom`和 `right` 属性。 查看器逻辑而是会自动定位它们。
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -178,29 +178,29 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的按钮状态：`up`、`down`、`over`和`disabled`。
+>此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态： `up`, `down`, `over`和 `disabled`.
 
-可以对按钮工具提示进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
+可以对按钮工具提示进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以了解更多信息。
 
 示例 — 设置56 x 56像素的滚动按钮，并且每个状态的图稿都不同。
 

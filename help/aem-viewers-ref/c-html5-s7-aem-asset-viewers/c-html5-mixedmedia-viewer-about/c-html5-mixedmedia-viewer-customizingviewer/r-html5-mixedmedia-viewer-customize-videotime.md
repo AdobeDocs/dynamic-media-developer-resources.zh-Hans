@@ -1,13 +1,13 @@
 ---
+title: 视频时间
 description: 视频时间是数字显示，用于显示当前播放的视频的当前时间和持续时间。
 solution: Experience Manager
-title: 视频时间
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 视频时间控件的宽度。 Internet Explorer 8或更高版本需要此属性才能正常运行。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>用于时间显示文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p>用于时间显示文本的字体大小。 </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-将视频时间设置为浅灰色（十六进制`#BBBBBB`），大小为12像素，距控制栏顶部15像素，距控制栏右边缘80像素。
+将视频时间设置为浅灰色（十六进制） `#BBBBBB`)，大小为12像素，距控制栏顶部15像素，距控制栏右边缘80像素。
 
 ```
 .s7mixedmediaviewer .s7videotime { 

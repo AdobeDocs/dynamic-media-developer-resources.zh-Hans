@@ -1,20 +1,20 @@
 ---
-description: 控制栏是矩形区域，其中包含并位于视频查看器可用的所有用户界面控件（如播放/暂停按钮、音量控件等）的后面。
-solution: Experience Manager
 title: 控制栏
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+description: 控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有用户界面控件（如“播放”/“暂停”按钮、音量控件等）的后面。
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 1%
 
 ---
 
 # 控制栏{#control-bar}
 
-控制栏是矩形区域，其中包含并位于视频查看器可用的所有用户界面控件（如播放/暂停按钮、音量控件等）的后面。
+控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有用户界面控件（如“播放”/“暂停”按钮、音量控件等）的后面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ ht-degree: 1%
    <td colname="col2"> <p>控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>控制栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

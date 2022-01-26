@@ -1,11 +1,11 @@
 ---
-description: 当用户选择全屏按钮时，查看器会进入或退出全屏模式。 当查看者正在显示视频且位于控制栏中时，会使用该参数。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。
-solution: Experience Manager
 title: “视频全屏”按钮
+description: 当用户选择全屏按钮时，查看器会进入或退出全屏模式。 当查看者显示视频并位于控制栏中时，会使用该参数。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # “视频全屏”按钮{#video-full-screen-button}
 
-当用户选择全屏按钮时，查看器会进入或退出全屏模式。 当查看者正在显示视频且位于控制栏中时，会使用该参数。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。
+当用户选择全屏模式时，“全屏”按钮会使查看器进入或退出全屏模式。 当查看者显示视频并位于控制栏中时，会使用该参数。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

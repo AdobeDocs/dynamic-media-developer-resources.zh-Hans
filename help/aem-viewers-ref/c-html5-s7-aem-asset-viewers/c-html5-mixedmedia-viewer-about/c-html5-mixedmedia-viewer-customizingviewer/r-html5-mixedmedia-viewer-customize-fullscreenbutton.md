@@ -1,13 +1,13 @@
 ---
+title: 全屏按钮
 description: 当用户选择此按钮时，查看器会进入或退出全屏模式。 查看器显示图像或旋转集时，会使用该参数。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。 您可以使用CSS调整按钮的大小、外观和位置。
 solution: Experience Manager
-title: 全屏按钮
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以了解更多信息。
 
-示例 — 要设置一个32 x 32像素的全屏按钮，该按钮位于查看器的上边缘和右边缘的6个像素处，并在选择或未选择时针对四个不同按钮状态中的每一个状态显示一个不同的图像：
+示例 — 设置一个32 x 32像素的全屏按钮，并距查看器的上边缘和右边缘有6个像素。 最后，在选择或未选择四个不同的按钮状态时，会针对每个状态显示一个不同的图像：
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

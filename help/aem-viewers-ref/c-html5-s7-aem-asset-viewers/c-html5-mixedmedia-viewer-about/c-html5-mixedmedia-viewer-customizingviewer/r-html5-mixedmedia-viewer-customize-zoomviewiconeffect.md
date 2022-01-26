@@ -1,14 +1,14 @@
 ---
+title: 缩放视图图标效果
 description: 缩放指示器覆盖在缩放视图区域上。 当图像处于重置状态时，将显示该图像，并且这还取决于iconeffect参数。
 solution: Experience Manager
-title: 缩放视图图标效果
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p> 缩放指示器图稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -55,9 +55,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->图标效果支持`media-type`属性选择器，您可以使用该选择器对不同设备应用不同的图标效果。 具体而言，`media-type='standard'`对应于通常使用鼠标输入的桌面系统，`media-type='multitouch'`对应于具有触摸输入的设备。
+>图标效果支持 `media-type` 属性选择器，您可以使用该选择器对不同设备应用不同的图标效果。 特别是， `media-type='standard'` 对应于通常使用鼠标输入的桌面系统，并 `media-type='multitouch'` 对应于具有触控输入的设备。
 
-示例 — 为桌面系统和触控设备设置100 x 100像素缩放指示器，其艺术方式不同。
+示例 — 为台式机系统和触控设备设置100 x 100像素缩放指示器，其艺术方式不同。
 
 ```
 .s7mixedmediaviewer .s7zoomview .s7iconeffect { 

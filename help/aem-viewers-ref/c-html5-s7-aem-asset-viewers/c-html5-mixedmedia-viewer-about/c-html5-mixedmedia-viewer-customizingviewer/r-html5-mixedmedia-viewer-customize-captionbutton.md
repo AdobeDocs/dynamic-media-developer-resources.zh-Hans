@@ -1,13 +1,13 @@
 ---
+title: 题注按钮
 description: 打开和关闭隐藏式字幕显示。 如果未指定题注参数，则不可见。 您可以使用CSS来调整按钮的大小、外观，并将其相对于包含该按钮的控制栏进行定位。
 solution: Experience Manager
-title: 题注按钮
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -59,23 +59,23 @@ ht-degree: 2%
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器和选定的属性选择器，它们可用于将不同的外观应用到不同的按钮状态。 具体而言， `selected='true'`对应于字幕可见时的状态，而`selected='false'`对应于隐藏字幕时的使用状态。
+>此按钮支持 `state` 属性选择器和选定的属性选择器，它们可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于字幕可见时的状态，并且 `selected='false'` 隐藏字幕时使用。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 。
+按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以了解更多信息。
 
-示例 — 要设置一个28 x 28像素的隐藏式字幕按钮，该按钮位于控件条的顶部四个像素和右侧68像素处，并在选择或未选择时针对四个不同按钮状态中的每一个状态显示一个不同的图像。
+示例 — 设置一个“隐藏式字幕”按钮，其长度为28 x 28像素，距顶部4像素，距控制栏右边缘68像素。 最后，在选择或未选择时，针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 

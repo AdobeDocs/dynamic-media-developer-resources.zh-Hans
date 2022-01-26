@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: 混合媒体查看器的JavaScript API引用。
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b6e191dc-3172-45ba-b6f6-258cfbd5855d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 ` setContainerId( *`containerId`*)`
 
-设置将查看器插入其中的DOM容器（通常是DIV）的ID。 无需在调用此方法之前创建容器元素。 但是，运行`init()`时，容器必须存在。 必须在`init()`之前调用。 如果查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+设置将查看器插入其中的DOM容器（通常是DIV）的ID。 无需在调用此方法之前创建容器元素。 但是，容器必须存在于 `init()` 运行。 必须在 `init()`. 如果查看器配置信息是通过 `config` 构造函数的JSON对象。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 容器的{ </span> string} ID。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 容器的ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
