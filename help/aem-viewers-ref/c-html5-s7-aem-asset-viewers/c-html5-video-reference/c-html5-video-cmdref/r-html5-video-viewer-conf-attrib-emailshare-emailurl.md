@@ -1,14 +1,14 @@
 ---
+title: EmailShare.emailurl
 description: 视频查看器的配置属性。
 solution: Experience Manager
-title: EmailShare.emailurl
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '29'
+ht-degree: 13%
 
 ---
 

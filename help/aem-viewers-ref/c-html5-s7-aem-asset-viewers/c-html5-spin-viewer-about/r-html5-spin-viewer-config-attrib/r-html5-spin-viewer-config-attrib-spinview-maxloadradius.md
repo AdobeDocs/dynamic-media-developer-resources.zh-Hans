@@ -1,30 +1,30 @@
 ---
+title: SpinView.maxloadradius
 description: SpinView.maxloadradius
 solution: Experience Manager
-title: SpinView.maxloadradius
-feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4adba865-0b03-469e-a88c-2c3982422a68
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valuehighRes`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius= *`值`*[, *`highRes`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 值</span></span> </p> </td> 
-   <td colname="col2"> <p> 表示在SpinView空闲时，要在每个方向上预载的帧数上限。 值<span class="codeph"> -1</span>预加载集中的所有帧。 预加载的帧始终以最初加载SpinView的原始分辨率显示。 </p> </td> 
+   <td colname="col2"> <p> 表示在SpinView空闲时，要在每个方向上预载的帧数上限。 值 <span class="codeph"> -1</span> 预加载集中的所有帧。 预加载的帧始终以最初加载SpinView的原始分辨率显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> 控制预加载帧的质量。 当设置为<span class="codeph"> 1</span>帧时，会以高质量加载帧，与组件的大小匹配。 当设置为<span class="codeph"> 0</span>时，仅加载低分辨率预览拼贴。 </p> <p>以高分辨率预加载可改善最终用户体验，尤其是在启用了自动旋转的情况下。 同时，这会导致启动时间变慢和网络消耗增加，因此请谨慎使用。 使用高分辨率预加载时，预加载的帧始终处于组件最初加载时的原始分辨率。 </p> </td> 
+   <td colname="col2"> <p> 控制预加载帧的质量。 当设置为 <span class="codeph"> 1</span> 帧以高质量加载，与组件的大小匹配。 当设置为 <span class="codeph"> 0</span> 仅加载低分辨率预览拼贴。 </p> <p>以高分辨率预加载可改善最终用户体验，尤其是在启用了自动旋转的情况下。 同时，这会导致启动时间变慢和网络消耗增加，因此请谨慎使用。 使用高分辨率预加载时，预加载的帧始终以组件最初加载时的原始分辨率进行加载。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

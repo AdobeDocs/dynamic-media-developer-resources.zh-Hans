@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.progressivebitrate
 description: VideoPlayer.progressivebitrate
 solution: Experience Manager
-title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '83'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 值</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放的情况下从自适应视频集播放的所需视频比特率（以kbits/秒或kbps为单位）。 </p> <p>组件会选取尽可能接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流的质量都高于指定的值，则逻辑会选择质量最低的比特率。 </p> </td> 
+   <td colname="col2"> <p> 指定在当前系统不支持自适应视频播放的情况下从自适应视频集播放的所需视频比特率（千比特/秒或千比特/秒）。 </p> <p>组件会选取尽可能接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流的质量都高于指定的值，则逻辑会选择质量最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

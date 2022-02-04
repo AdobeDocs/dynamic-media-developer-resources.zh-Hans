@@ -1,19 +1,19 @@
 ---
+title: 旋转查看器的JavaScript API引用
 description: 旋转查看器的主类是SpinViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
 solution: Experience Manager
-title: 旋转查看器的Javascript API参考
-feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c32cccf8-fbaa-4fed-a95f-0f052141f312
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# 旋转查看器的Javascript API参考{#javascript-api-reference-for-spin-viewer}
+# 旋转查看器的JavaScript API引用{#javascript-api-reference-for-spin-viewer}
 
 旋转查看器的主类是SpinViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
 
-在以下所有示例中， `<instance>`表示从`s7viewers.SpinViewer`类实例化的JavaScript查看器对象的实际名称。
+在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.SpinViewer` 类。

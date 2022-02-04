@@ -1,14 +1,14 @@
 ---
+title: Swatches.maxloadradius
 description: Swatches.maxloadradius
 solution: Experience Manager
-title: Swatches.maxloadradius
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 06f493d7-18c9-4bb1-add6-a0dfd1a689bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 6%
+source-wordcount: '53'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>指定组件预加载行为。 当设置为<span class="codeph"> -1</span>时，在初始化组件或更改资产时，会同时加载所有样本。 </p> <p>当设置为<span class="codeph"> 0</span>时，仅加载可见的色板。 </p> <p><span class="codeph"><span class="varname"> </span></span> preloadnbr定义预加载可见区域周围的不可见行/列数。 </p> </td> 
+   <td> <p>指定组件预加载行为。 当设置为 <span class="codeph"> -1</span> 初始化组件或更改资产时，会同时加载所有色板。 </p> <p>当设置为 <span class="codeph"> 0</span> 只加载可见的色板。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 定义预加载可见区域周围的多少行/列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

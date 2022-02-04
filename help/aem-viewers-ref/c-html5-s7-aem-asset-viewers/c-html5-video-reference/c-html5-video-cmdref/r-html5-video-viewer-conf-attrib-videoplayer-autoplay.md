@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: 视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 

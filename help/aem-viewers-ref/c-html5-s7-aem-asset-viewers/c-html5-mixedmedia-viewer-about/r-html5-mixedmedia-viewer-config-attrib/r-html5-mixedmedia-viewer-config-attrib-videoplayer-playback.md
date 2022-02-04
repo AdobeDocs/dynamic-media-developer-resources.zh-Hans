@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.playback
 description: 混合媒体视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.playback
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 自动/渐进</span> </p> </td> 
-   <td colname="col2"> <p> 设置查看器使用的播放类型。 设置<span class="codeph"> auto</span>后，在大多数桌面浏览器和所有iOS设备上，查看器会使用HLS格式的HTML5流视频。 它返回到某些系统（如旧版Internet Explorer和Android）上的渐进式HTML5播放。 </p> <p>如果指定了<span class="codeph">渐进式</span>，则查看器仅依赖浏览器本地支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关在自动和渐进模式下选择播放的更多信息，请参阅查看器SDK用户指南。 </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 When <span class="codeph"> 自动</span> 在大多数桌面浏览器和所有iOS设备上设置时，查看器使用HLS格式的HTML5流视频。 它返回到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>如果 <span class="codeph"> 渐进</span> 已指定，则查看器仅依赖浏览器本地支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关在自动和渐进模式下选择播放的更多信息，请参阅查看器SDK用户指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

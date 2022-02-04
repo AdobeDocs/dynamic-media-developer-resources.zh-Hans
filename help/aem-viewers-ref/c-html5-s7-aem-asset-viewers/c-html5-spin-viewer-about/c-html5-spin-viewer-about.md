@@ -1,12 +1,12 @@
 ---
+title: Spin
 description: 旋转查看器是一种图像查看器，可提供360度的图像视图，或者在使用适当的旋转集时提供多维视图。 它提供缩放和旋转工具、全屏支持以及可选的关闭按钮。 它适用于台式机和移动设备。
 keywords: 响应式
 solution: Experience Manager
-title: Spin
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

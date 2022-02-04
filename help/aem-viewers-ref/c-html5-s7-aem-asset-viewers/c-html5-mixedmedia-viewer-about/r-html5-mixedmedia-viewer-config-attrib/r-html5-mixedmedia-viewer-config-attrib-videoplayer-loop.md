@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.loop
 description: 混合媒体视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.loop
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 

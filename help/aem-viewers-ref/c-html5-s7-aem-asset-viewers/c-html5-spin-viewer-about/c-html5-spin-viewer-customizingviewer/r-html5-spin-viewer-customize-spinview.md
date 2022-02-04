@@ -1,13 +1,13 @@
 ---
+title: 旋转视图
 description: 主视图由旋转图像组成。
 solution: Experience Manager
-title: 旋转视图
-feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 主视图以十六进制格式显示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

@@ -1,14 +1,14 @@
 ---
+title: 字幕
 description: 视频查看器的URL命令。
 solution: Experience Manager
-title: 字幕
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 8%
+source-wordcount: '196'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 8%
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>文本对齐 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> 左|右|中|开始|结束</span> </p> </td> 
-   <td colname="col4"> <p> 控制文本对齐方式。 </p> <p>默认值为<span class="codeph">中间</span>。 </p> </td> 
+   <td colname="col4"> <p> 控制文本对齐方式。 </p> <p>默认为 <span class="codeph"> 中间</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ WebVTT文件中存在的其他WebVTT功能不受支持，但不应中断字幕�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定默认字幕状态（启用为<span class="codeph"> 1</span>）。 </p> </td> 
+   <td colname="col2"> <p> 指定默认字幕状态(启用的 <span class="codeph"> 1</span>)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

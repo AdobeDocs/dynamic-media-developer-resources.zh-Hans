@@ -1,14 +1,14 @@
 ---
+title: SpinView.enableHD
 description: SpinView.enableHD
 solution: Experience Manager
-title: SpinView.enableHD
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 总是|从|不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 对于<span class="codeph"> devicePixelRatio</span>大于<span class="codeph"> 1</span>的设备，即具有高密度显示（如iPhone4和类似设备）的设备，启用或禁用优化。 如果处于活动状态，则组件会限制IS图像请求的大小，如同设备仅具有<span class="codeph"> 1</span>的像素比，从而减少带宽。 </p> </td> 
+   <td colname="col2"> <p> 对以下设备启用、限制或禁用优化： <span class="codeph"> devicePixelRatio</span> 大于 <span class="codeph"> 1</span>，即具有高密度显示屏(如iPhone4和类似设备)的设备。 如果处于活动状态，则组件会限制IS图像请求的大小，如同设备仅具有像素比 <span class="codeph"> 1</span> 从而降低带宽。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数字</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果使用<span class="codeph"> limit</span>设置，则该组件仅启用高像素密度，而达到指定的限制。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 <span class="codeph"> 限制</span> 设置时，该组件仅允许高像素密度达到指定的限制。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

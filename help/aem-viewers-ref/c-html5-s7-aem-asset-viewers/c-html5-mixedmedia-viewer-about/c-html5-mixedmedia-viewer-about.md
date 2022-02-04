@@ -1,12 +1,12 @@
 ---
+title: 混合媒体
 description: 混合媒体查看器是媒体查看器。 它支持包含图像、色板集、旋转集、视频和自适应视频集的媒体集。
 keywords: 响应式
 solution: Experience Manager
-title: 混合媒体
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -325,7 +325,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-以下示例页面展示了在不受限高度下响应式设计嵌入的更多实际用途：
+以下示例页面展示了在不受限制高度下响应式设计嵌入的更多实际用途：
 
 [实时演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 

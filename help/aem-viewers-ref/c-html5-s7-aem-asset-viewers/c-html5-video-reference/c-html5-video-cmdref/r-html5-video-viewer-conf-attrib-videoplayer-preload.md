@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.preload
 description: 指示查看器是否在播放开始之前开始加载视频内容。
 solution: Experience Manager
-title: VideoPlayer.preload
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果设置为<span class="codeph"> 1 </span>，则在资产设置后，视频会开始直接下载；否则，仅在最终用户或API调用启动播放后，才会开始预加载。 </p> <p>如果设置为<span class="codeph"> 0 </span> ，则某些功能在播放开始前可能无法正常工作；具体而言，搜寻操作不会更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>请注意，在Internet Explorer 11和Edge浏览器的某些版本上，可能会忽略禁用视频预加载的操作。 </p> </td> 
+   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1 </span> 资产设置后，视频即开始下载；否则，仅在最终用户或API调用启动播放后，才会开始预加载。 </p> <p>如果设置为 <span class="codeph"> 0 </span> 某些功能可能在播放开始后才能正常工作；具体而言，搜寻操作不更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预加载的问题。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

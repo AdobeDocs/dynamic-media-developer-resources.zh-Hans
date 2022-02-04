@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.posterimage
 description: 视频查看器的配置属性。
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 2%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 2%
 
 视频查看器的配置属性。
 
-` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisCommands`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_id`*][? *`isCommands`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 要在视频开始播放之前在第一帧上显示的图像，针对<span class="codeph"> serverurl</span>进行解析。 如果在URL中指定，则对以下内容进行HTTP编码： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 无|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 要在视频开始播放之前显示在第一帧的图像，针对 <span class="codeph"> serverurl</span>. 如果在URL中指定，则对以下内容进行HTTP编码： </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 作为 <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>如果忽略<span class="codeph"><span class="varname"> image_id</span></span>值，则组件会尝试为该资产使用默认的海报图像。 </p> <p>将视频指定为路径时，默认的海报图像目录id将从视频路径派生，因为<span class="codeph"> catalog_id/image_id</span>对中<span class="codeph"> catalog_id</span>对应于路径中的第一个令牌，而<span class="codeph"> image_id</span>是扩展名为已删除的视频的名称。 如果具有该ID的图像不存在，则不会显示海报图像。 </p> <p>要阻止显示默认海报图像，请指定<span class="codeph"> none</span>作为海报图像值。 如果仅指定了<span class="codeph"><span class="varname"> isCommands</span></span> ，则在显示图像之前，命令会应用于默认海报图像。 </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>如果 <span class="codeph"><span class="varname"> image_id</span></span> 值时，组件会尝试将默认的海报图像改为该资产。 </p> <p>将视频指定为路径时，默认的海报图像目录ID将从视频路径派生为 <span class="codeph"> catalog_id/image_id</span> 配对 <span class="codeph"> catalog_id</span> 对应于路径中的第一个令牌。 而且， <span class="codeph"> image_id</span> 是删除了扩展名的视频名称。 如果具有该ID的图像不存在，则不会显示海报图像。 </p> <p>要阻止显示默认海报图像，请指定 <span class="codeph"> 无</span> 作为海报图像值。 如果仅 <span class="codeph"><span class="varname"> isCommands</span></span> ，则在显示图像之前，会将命令应用于默认海报图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

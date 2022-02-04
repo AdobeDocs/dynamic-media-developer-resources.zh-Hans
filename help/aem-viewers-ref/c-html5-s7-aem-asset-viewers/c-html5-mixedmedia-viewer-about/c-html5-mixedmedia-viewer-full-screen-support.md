@@ -1,13 +1,13 @@
 ---
+title: 全屏支持
 description: 查看器支持全屏操作模式。
 solution: Experience Manager
-title: 全屏支持
-feature: Dynamic Media Classic，查看器，SDK/API，混合媒体集
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 8fb29232-e276-49fc-9b97-466dbb1914a8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 在iOS设备和旧版Internet Explorer浏览器上，查看器改为使用“模拟”全屏模式。 在此模式下，查看器只调整大小以占据Web浏览器窗口的整个区域。 此外，Web浏览器用户界面和其他窗口仍显示在屏幕上。
 
-最终用户通过按查看器用户界面中的全屏按钮进入并离开全屏模式。 在桌面上使用“本机”全屏模式时，也可以通过按&#x200B;**Esc**&#x200B;退出该模式。
+最终用户通过按查看器用户界面中的全屏按钮进入并离开全屏模式。 在桌面上使用“本机”全屏模式时，也可以通过按退出模式 **Esc**.

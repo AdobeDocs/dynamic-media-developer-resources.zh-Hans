@@ -1,20 +1,20 @@
 ---
+title: SpinView.transition
 description: SpinView.transition
 solution: Experience Manager
-title: SpinView.transition
-feature: Dynamic Media Classic，查看器，SDK/API，旋转集
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 85dbd5cd-b212-4c77-8f5a-ffbdaca27fdb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *``*[, *`调整`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`时间`*[, *`宽松`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 

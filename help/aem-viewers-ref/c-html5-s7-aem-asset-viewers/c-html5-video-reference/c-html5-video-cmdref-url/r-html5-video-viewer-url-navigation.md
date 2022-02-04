@@ -1,14 +1,14 @@
 ---
+title: 导航
 description: 视频查看器的URL命令。
 solution: Experience Manager
-title: 导航
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 13%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
 

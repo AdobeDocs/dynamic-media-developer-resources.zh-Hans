@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: 视频查看器的URL命令。
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
