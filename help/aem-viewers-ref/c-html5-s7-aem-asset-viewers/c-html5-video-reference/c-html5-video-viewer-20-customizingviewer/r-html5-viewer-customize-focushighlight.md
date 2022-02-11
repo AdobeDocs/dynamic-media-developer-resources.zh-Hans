@@ -1,13 +1,13 @@
 ---
+title: 焦点突出显示
 description: 焦点查看器UI元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
 solution: Experience Manager
-title: 焦点突出显示
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 9968c67b-02cc-4ac0-8ab1-c7eda565912d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大纲  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大纲 </span> </p> </td> 
    <td colname="col2"> <p>焦点突出显示样式。 </p> </td> 
   </tr> 
  </tbody> 

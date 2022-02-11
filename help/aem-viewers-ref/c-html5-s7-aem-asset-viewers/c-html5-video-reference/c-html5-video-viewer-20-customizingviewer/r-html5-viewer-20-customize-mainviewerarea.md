@@ -1,13 +1,13 @@
 ---
+title: 主查看器区域
 description: 主视区域被视频占据。 通常在未指定大小时设置为适合可用设备屏幕。
 solution: Experience Manager
-title: 主查看器区域
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
    <td colname="col2"> <p>查看器高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

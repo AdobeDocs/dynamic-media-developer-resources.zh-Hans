@@ -1,13 +1,13 @@
 ---
+title: “播放/暂停”按钮
 description: 当用户单击视频内容时，播放/暂停按钮会导致视频播放器播放或暂停该视频内容。
 solution: Experience Manager
-title: “播放/暂停”按钮
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '263'
 ht-degree: 2%
 
 ---
@@ -55,27 +55,27 @@ ht-degree: 2%
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
+   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮同时支持`state`、`selected`和`replay`属性选择器，它们可用于将不同的外观应用到不同的按钮状态。 其中，`selected='true'`对应于“play”状态，`selected='false'`对应于“pause”状态；
+>此按钮支持 `state`, `selected`和 `replay` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于“play”状态和 `selected='false'` 对应于“暂停”状态；
 >
->`replay='true'` 当视频到达结尾时，单击按钮将从开头重新开始播放。
+>属性选择器 `replay='true'` 当视频到达结尾时设置，并选择按钮将从开头重新开始播放。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 。
+按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-设置32 x 32像素的播放/暂停按钮；它位于距控制栏上边缘和左边缘6个像素处，在选择或未选择时，它会针对四个不同按钮状态中的每个状态显示不同的图像。
+要设置32 x 32像素的播放/暂停按钮，并将其定位为距离控制栏的上边缘和左边缘6个像素。 最后，在选择或未选择时，针对四个不同的按钮状态中的每个状态显示一个不同的图像。
 
 ```
 .s7videoviewer .s7playpausebutton { 

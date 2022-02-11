@@ -1,13 +1,13 @@
 ---
+title: 视频播放器
 description: 视频播放器是在查看器中显示视频内容的矩形区域。
 solution: Experience Manager
-title: 视频播放器
-feature: Dynamic Media Classic，查看器，SDK/API，视频
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 1%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果系统无法播放视频，则会显示错误消息，该消息可以进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 。
+如果系统无法播放视频，则会显示错误消息，该消息可以进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
 示例 — 设置视频播放器大小设置为512 x 288像素的视频查看器。
 
@@ -56,7 +56,7 @@ background-color: transparent;
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p>隐藏式字幕文本背景。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,21 +64,21 @@ background-color: transparent;
    <td colname="col2"> <p>隐藏式字幕文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
    <td colname="col2"> <p> 隐藏式字幕字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
    <td colname="col2"> <p> 隐藏式字幕字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>隐藏式字幕字体。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要将隐藏式字幕文本设置为半透明黑色背景上的14个像素（浅灰色、Arial）：
+示例 — 要将隐藏式字幕文本设置为半透明黑色背景上的14像素、浅灰色、Arial®:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -115,15 +115,15 @@ background-color: transparent;
    <td colname="col2"> <p> 动画图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 左  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 左 </span> </p> </td> 
    <td colname="col2"> <p> 动画图标左边距，通常为图标宽度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部 </span> </p> </td> 
    <td colname="col2"> <p> 动画图标上边距，通常为图标高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
    <td colname="col2"> <p> 旋钮图稿。 </p> </td> 
   </tr> 
  </tbody> 
