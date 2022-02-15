@@ -1,11 +1,11 @@
 ---
+title: 兼容性说明
 description: 操作系统、浏览器和移动设备的兼容性说明。
 solution: Experience Manager
-title: 兼容性说明
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -48,12 +48,12 @@ ht-degree: 1%
 
 ## HTC移动设备 {#section-dc42c80414c842e488738fc157c55b01}
 
-* 无法禁用本机捏合缩放是HTC UI包装器(HTC Sense)的“功能”。 在查看器上使用“捏合缩放”手势时，此功能可能会导致整个页面缩放。 请改用双击手势。
+* 无法禁用本机捏合缩放是HTC UI包装器(HTC Sense)的“功能”。 当在查看器上使用“捏合缩放”手势时，此功能可能会导致整个页面缩放。 请改用双击手势。
 * 如果图像映射较小且很接近，则图像映射图标会重叠。
 
 ## HTML5视频查看器 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` 仅软件HLS和FlashHDS播放支持修饰符。当播放使用本机播放器时，该函数不起作用。
+* `IntialBitRate` 仅软件HLS和FlashHDS播放支持修饰符。 当播放使用本机播放器时，该函数不起作用。
 * 不支持OGG和WebM渐进式播放。
 * 浏览器缩放导致视频播放器以不正确的大小显示(包括Windows®控制面板显示设置)。
 * 在Safari上使用HLS流的视频搜索不一致。

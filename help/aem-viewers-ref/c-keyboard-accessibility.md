@@ -1,13 +1,13 @@
 ---
+title: 键盘辅助功能和导航
 description: 基本缩放、eCatalog、eCatalog搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、维度(3D)、轮播、交互式图像、交互式视频和Video360查看器界面中公开的所有功能均可使用键盘。
 solution: Experience Manager
-title: 键盘辅助功能和导航
-feature: Dynamic Media Classic，查看器，SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 基本缩放、eCatalog、eCatalog搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、轮播、维度(3D)、交互式图像、交互式视频和Video360查看器界面中公开的所有功能均可使用键盘。
 
-最终用户可以使用&#x200B;**[!UICONTROL Tab]**&#x200B;和&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;键击在查看器用户界面元素之间导航。 使用&#x200B;**[!UICONTROL Tab]**&#x200B;按Tab键顺序将输入焦点提前到下一个用户界面元素；使用&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;将输入焦点返回到上一个用户界面元素。 焦点遍历遵循屏幕上自然的用户界面元素位置，并按从左到右、从上到下的顺序移动。
+最终用户可以使用 **[!UICONTROL 选项卡]** 和 **[!UICONTROL Shift+Tab]** 击键。 使用 **[!UICONTROL 选项卡]** 按Tab键顺序将输入焦点提前到下一个用户界面元素；使用 **[!UICONTROL Shift+Tab]** 将输入焦点重新引回到上一个用户界面元素。 焦点遍历遵循屏幕上自然的用户界面元素位置，并按从左到右、从上到下的顺序移动。
 
 根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素接收可视焦点指示。 例如，可视指示器可以是围绕用户界面元素呈现的细边框。
 
-可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，基本缩放或交互式视频）下，单击&#x200B;**自定义&#x200B;*查看器名称*** >**&#x200B;焦点突出显示&#x200B;**。
+可以在查看器CSS中禁用或自定义此类焦点突出显示。 在此帮助系统的目录中，在特定查看器名称（例如，“基本缩放”或“交互式视频”）下，单击 **自定义 *查看器名称*** >**&#x200B;焦点突出显示&#x200B;**.
 
 单个查看器用户界面元素支持的击键在大多数情况下是显而易见的，并且易于发现。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>放大或缩小 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> 或 <span class="uicontrol"> -  </span>。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> 或 <span class="uicontrol"> - </span>，分别为。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>缩放重置 </p> </td> 

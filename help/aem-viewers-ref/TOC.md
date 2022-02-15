@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义 Dynamic Media 查看器，以在桌面设备和触摸屏设备上使用。包括交互式图像和视频、轮盘、旋转集等。
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -19,8 +19,8 @@ ht-degree: 6%
 + [在同一服务器上安装多个查看器](t-installing-the-viewers.md)
 + 查看器发行说明 {#viewers-release-notes}
    + [查看器发行说明(5.16.1)](c-release-notes/c-rn-04-06-21.md)
-   + [查看器发行说明(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 存档 {#archive}
+      + [查看器发行说明(5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [查看器发行说明(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [查看器发行说明(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [查看器发行说明(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
@@ -660,8 +660,8 @@ ht-degree: 6%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 缩放查看器的Javascript API参考 {#jsapi-zoom}
-         + [缩放查看器的Javascript API参考](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
+      + 缩放查看器的JavaScript API引用 {#jsapi-zoom}
+         + [缩放查看器的JavaScript API引用](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [处置](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md)
