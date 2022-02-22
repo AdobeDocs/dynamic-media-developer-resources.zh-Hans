@@ -1,13 +1,13 @@
 ---
+title: rs
 description: 高级渲染设置。 指定在渲染当前选定内容时要应用的高级渲染设置。
 solution: Experience Manager
-title: rs
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-用于微调呈现外观。 使用晕影创作工具(Dynamic Media图像创作包的一部分)的渲染功能创建渲染设置字符串。
+用于微调呈现外观。 要创建渲染设置字符串，请使用晕影创作工具(Dynamic Media图像创作包的一部分)的渲染功能。
 
 ## 属性 {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ## 示例 {#section-47e4811882574441a4d517e42a35f352}
 
-在图像创作中进行一些实验后，确定USM(USM)可为给定的应用程序和材料提供正确的锐化量。 配置USM的呈现设置字符串将复制到`rs=`命令中以与以下材料一起使用：
+在图像创作中进行一些实验后，确定USM(USM)可为给定的应用程序和材料提供正确的锐化量。 配置USM的呈现设置字符串将会复制到 `rs=` 命令与此材料一起使用：
 
 `…&rs=U2V20W50X2&…`
 

@@ -1,14 +1,14 @@
 ---
+title: 伊拉姆
 description: 照明图选择器。 指定此材料希望用来渲染的照明图。
 solution: Experience Manager
-title: 伊拉姆
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 如果指定的照明图在目标晕影中不可用，则会改用最接近的可用图。
 
-`illum=-1` 指定根据值自动选择照明 `gloss=` 图。
+`illum=-1` 指定根据 `gloss=` 值。
 
 ## 属性 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

@@ -1,13 +1,13 @@
 ---
+title: 粗糙
 description: 材料表面粗糙度。 指定材料曲面的相对粗糙度。
 solution: Experience Manager
-title: 粗糙
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_432E33EC87144AC7A2A8D9406F862708"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>表面粗糙度(0...100%)或–1来选择缺省粗糙度。 </p> </td> 
  </tr> 
 </table>
 
 用于控制3D反射渲染效果。 较低的粗糙度值通常会产生更平滑的反射效果；值越高，反射图像的随机化和散射就越大。
 
-每种材料类型(`type=`)根据粗糙度定义最小和最大反射渲染效果。 对于某些材料类型（如墙纸），`rough=`对反射的外观几乎没有任何影响，而对于其他材料类型（如石材或陶瓷），效果显着。
+每种材料类型( `type=`)根据粗糙度定义最小和最大反射渲染效果。 对于某些材料类型（例如，墙纸）， `rough=` 对反射外观的任何影响极小，而对于其他材料类型（例如，石头或陶瓷），影响显着。
 
 `rough=-1` 将粗糙度设置为服务器内部默认值（典型材料类型为40%）。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 默认 {#section-11861a5e6e8649ee988267d2707fd7cc}
 
-`catalog::Roughness` 如果材料基于目录条目，则其他约40%。
+`catalog::Roughness` 如果材料基于目录条目，则其他情况约为40%。
 
 ## 另请参阅 {#section-d232fff7237443cc95c4bb50cb3d32bb}
 

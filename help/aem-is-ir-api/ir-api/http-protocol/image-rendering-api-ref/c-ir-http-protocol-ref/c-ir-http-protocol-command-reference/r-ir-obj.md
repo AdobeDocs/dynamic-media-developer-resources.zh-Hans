@@ -1,13 +1,13 @@
 ---
+title: obj
 description: 按名称选择对象。 按名称选择指定的晕影组并启动新的MSS。
 solution: Experience Manager
-title: obj
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 3%
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
   <td class="stentry"> <p>组名称或路径/名称。 </p> </td> 
  </tr> 
 </table>
 
-子组或单个对象可以使用完全限定的组路径来选择(即，通过指定目标组或对象的名称，该对象前面有所有父组，以/（正斜杠）分隔。
+可使用完全限定的组路径(即，通过指定目标组或对象的名称前面所有父组，以/（正斜杠）分隔)来选择子组或单个对象。
 
-如果未找到具有指定名称的组/对象，则执行`attribute::OnObjFail`中指定的操作。
+如果未找到具有指定名称的组/对象，则在 `attribute::OnObjFail` 中。
 
 ## 属性 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-选择命令；MSS分隔符。 对象选择将持续存在，直到选择了另一个对象（无论是使用`obj=`还是`sel=`）。
+选择命令；MSS分隔符。 对象选择将一直保留，直到选择另一个对象(使用 `obj=` 或 `sel=`.
 
 组/对象路径和名称不区分大小写。
 
@@ -41,4 +41,4 @@ ht-degree: 3%
 
 ## 另请参阅 {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b)，属 [性：:OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [属性：:OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

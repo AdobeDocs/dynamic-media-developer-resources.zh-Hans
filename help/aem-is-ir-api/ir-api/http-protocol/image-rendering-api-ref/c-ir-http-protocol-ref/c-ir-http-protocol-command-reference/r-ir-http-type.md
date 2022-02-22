@@ -1,14 +1,14 @@
 ---
+title: 类型
 description: 材料表面类型。 指定材料的曲面类型。
 solution: Experience Manager
-title: 类型
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 22%
+source-wordcount: '152'
+ht-degree: 24%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 22%
  </tr> 
 </table>
 
-与`gloss=`和`rough=`一起使用来控制反射和光泽效果行为。 即使`gloss=`和`rough=`相同，也会产生不同的效果。
+与 `gloss=` 和 `rough=` 以控制反射和光泽效果行为。 不同的材料产生不同的效果，即使 `gloss=` 和 `rough=` 是相同的。
 
 ## 属性 {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ ht-degree: 22%
 
 ## 默认 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 如果材料基于目录条目。否则，为`type=0`。 如果未指定，或者如果`type=0`，则服务器将根据目标对象和其他材料属性选择合适的缺省值。
+`catalog::Type` 如果材料基于目录条目。 否则 `type=0`. 如果未指定，或者 `type=0`，则服务器会根据目标对象和其他材料属性选择合适的默认值。
 
 ## 另请参阅 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ，粗 [糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [粗糙=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

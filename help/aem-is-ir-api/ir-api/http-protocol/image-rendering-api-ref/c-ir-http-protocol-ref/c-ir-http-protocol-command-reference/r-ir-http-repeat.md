@@ -1,13 +1,13 @@
 ---
+title: 重复
 description: 纹理重复模式。 指定可重复纹理材料的重复模式。
 solution: Experience Manager
-title: 重复
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 16%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>镜像（书签匹配）。 </p> </td> 
+  <td class="stentry"> <p>镜像（书籍匹配）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -101,7 +101,7 @@ ht-degree: 16%
  </tr> 
 </table>
 
-随机拼合模式(14...18)可用于从不易重复的图像合成纹理；算法将根据原始图像创建完全随机或部分随机的纹理。
+随机拼合模式(14...18)可用于从不易重复的图像合成纹理；该算法基于原始图像创建完全随机或部分随机的纹理。
 
 ## 属性 {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 默认 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，如果材料基于目录条目，则 `0` 不会（直重复）。
+`catalog::Repeat`，否则 `0` （直重复）。
 
 ## 另请参阅 {#section-ac99113b64654d75a3a86e41db546269}
 

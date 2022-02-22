@@ -1,18 +1,18 @@
 ---
+title: 倾斜
 description: 倾斜材料选择器。 为非可重复的倾斜材料启动材料规范段(MSS)。
 solution: Experience Manager
-title: 倾斜
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 11%
 
 ---
 
-# 倾斜{#decal}
+# 倾斜 {#decal}
 
 倾斜材料选择器。 为非可重复的倾斜材料启动材料规范段(MSS)。
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>已忽略。 </p> </td> 
  </tr> 
 </table>

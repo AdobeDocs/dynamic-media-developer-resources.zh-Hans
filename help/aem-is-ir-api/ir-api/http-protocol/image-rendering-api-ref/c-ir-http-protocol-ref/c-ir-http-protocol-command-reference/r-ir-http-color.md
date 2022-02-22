@@ -1,18 +1,18 @@
 ---
+title: 颜色
 description: 前景颜色. 指定实色材料的颜色或可着色材料的添加颜色。
 solution: Experience Manager
-title: 颜色
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 15%
+source-wordcount: '73'
+ht-degree: 16%
 
 ---
 
-# 颜色{#color}
+# 颜色 {#color}
 
 前景颜色. 指定实色材料的颜色或可着色材料的添加颜色。
 
@@ -31,8 +31,8 @@ ht-degree: 15%
 
 ## 默认 {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` 如果材料基于目录条目。否则，`none`表示无着色。
+`catalog::Color` 如果材料基于目录条目。 否则， `none` 无色。
 
 ## 另请参阅 {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 
-[目录：:Color](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552) ,  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0)
+[目录：：颜色](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md#reference-7639487fe0ac48beb9e8afa4dc845552) , [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0)

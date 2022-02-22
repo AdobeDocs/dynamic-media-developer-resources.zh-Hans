@@ -1,18 +1,18 @@
 ---
+title: 标志
 description: 应用标记。 指定其他渲染选项。
 solution: Experience Manager
-title: 标志
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 标志{#flags}
+# 标志 {#flags}
 
 应用标记。 指定其他渲染选项。
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 `flags=0` （默认）呈现带实体门的上机柜。
 
-`flags=1` 呈现带玻璃门的上柜（如果晕影是用玻璃门创作的）。
+`flags=1` 呈现带玻璃门的上橱柜（如果暗角是用玻璃门创作的）。
 
 ## 属性 {#section-a2b00d7bb15e449ea85178acb92d8285}
 

@@ -1,13 +1,13 @@
 ---
+title: 在Windows上安装
 description: 映像服务可安装在64位Windows上。
 solution: Experience Manager
-title: 在Windows上安装
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6be6c651-a240-4a57-bbac-4d00b49b3867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,6 @@ ht-degree: 0%
 映像服务可安装在64位Windows上。
 
 * [首次安装](t-first-time-installation-win.md)
-* [在与不同的用户帐户下安装   管理员](t-diff-account-win.md)
+* [使用管理员以外的其他用户帐户进行安装](t-diff-account-win.md)
 * [从IS 4.7.4或更高版本进行更新](t-update-win.md)
 * [验证安装](t-verify-win.md)

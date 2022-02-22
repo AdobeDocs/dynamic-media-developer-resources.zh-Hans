@@ -1,14 +1,14 @@
 ---
+title: 旋转
 description: 材料旋转角度。 定义材料的旋转角度。
 solution: Experience Manager
-title: 旋转
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 6%
  </tr> 
 </table>
 
-当应用于“平面对象”或“平面对象”时，可重复的纹理材料（不包括壁纸）旋转45度的倍数。
+在应用于平面对象或平面对象时，将可重复的纹理材料（不包括壁纸）旋转45°倍。
 
 在应用于流线和草图对象时，按任意角度旋转可重复纹理材料。
 
 按任意角度旋转倾斜材料。
 
-正角度顺时针旋转。 纹理或倾斜体绕锚点旋转(`anchor=`);锚点与目标对象的源保持一致。
+正角度顺时针旋转。 纹理或倾斜体绕锚点旋转( `anchor=`);锚点与目标对象的源保持一致。
 
 ## 属性 {#section-ad4d07897ca24f63af1a4062f8618e36}
 

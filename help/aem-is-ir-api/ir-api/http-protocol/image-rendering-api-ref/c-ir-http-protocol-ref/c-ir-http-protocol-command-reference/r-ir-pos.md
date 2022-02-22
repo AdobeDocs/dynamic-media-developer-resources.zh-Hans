@@ -1,14 +1,14 @@
 ---
+title: pos
 description: 倾斜位置。 定义距离目标晕影对象定义的倾斜图像的锚点到倾斜原点的偏移（以英寸为单位）。
 solution: Experience Manager
-title: pos
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 531f1465-2bec-46b6-a41e-54d993cbf410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
