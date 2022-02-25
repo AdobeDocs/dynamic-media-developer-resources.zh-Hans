@@ -1,14 +1,14 @@
 ---
+title: ZoomView.iscommand
 description: ZoomView.iscommand
 solution: Experience Manager
-title: ZoomView.iscommand
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: d1f54ef2-4ed4-4fb6-9913-98bf194f9afc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> iscommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 用于缩放图像的“图像提供”命令字符串。 如果在URL中指定了<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有实例，则必须分别以<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>的形式进行HTTP编码。 </p> <p> <p>注意： 不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 用于缩放图像的“图像提供”命令字符串。 如果在URL中指定，则发生的所有 <span class="codeph"> &amp;</span> 和 <span class="codeph"> =</span> 必须是HTTP编码为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，分别为。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

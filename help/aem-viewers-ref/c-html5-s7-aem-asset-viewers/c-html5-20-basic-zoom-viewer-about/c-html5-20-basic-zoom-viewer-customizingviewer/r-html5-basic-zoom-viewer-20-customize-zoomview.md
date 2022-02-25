@@ -1,13 +1,13 @@
 ---
+title: 缩放视图
 description: 主视图由可缩放的图像组成。
 solution: Experience Manager
-title: 缩放视图
-feature: Dynamic Media Classic，查看器，SDK/API，缩放
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
    <td colname="col2"> <p> 主视图以十六进制格式显示的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
    <td colname="col2"> <p>光标显示在主视图上。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-在桌面系统上，组件支持可应用于`.s7zoomview`类的`cursortype`属性选择器，并基于组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，该组件支持 `cursortype` 属性选择器，可应用于 `.s7zoomview` 类和根据组件状态和用户操作控制游标类型。 以下 `cursortype` 支持以下值：
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +68,7 @@ ht-degree: 3%
    <td colname="col2"> <p>当由于图像分辨率较低或组件设置，或者由于两者而无法缩放图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 牛民  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 牛民 </span> </p> </td> 
    <td colname="col2"> <p>在图像可放大时显示。 </p> </td> 
   </tr> 
   <tr> 
