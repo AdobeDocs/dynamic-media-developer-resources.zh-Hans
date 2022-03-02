@@ -1,11 +1,11 @@
 ---
+title: “信息”面板弹出窗口
 description: 当用户激活的图像映射具有在Dynamic Media Classic中定义的rollover_key属性，并且已为查看器正确配置了信息面板功能时，“信息面板弹出窗口”会显示在查看器区域的中间。
 solution: Experience Manager
-title: “信息”面板弹出窗口
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 3%

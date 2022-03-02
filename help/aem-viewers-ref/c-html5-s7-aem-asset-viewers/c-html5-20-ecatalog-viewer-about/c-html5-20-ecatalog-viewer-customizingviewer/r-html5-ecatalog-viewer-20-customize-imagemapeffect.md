@@ -1,11 +1,11 @@
 ---
+title: 图像映射效果
 description: 根据mode参数的值，查看器在最初在Dynamic Media Classic中创作映射的位置的主视图上显示图像映射图标。 或者，它会呈现与原始图像映射形状匹配的精确区域。
 solution: Experience Manager
-title: 图像映射效果
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%
