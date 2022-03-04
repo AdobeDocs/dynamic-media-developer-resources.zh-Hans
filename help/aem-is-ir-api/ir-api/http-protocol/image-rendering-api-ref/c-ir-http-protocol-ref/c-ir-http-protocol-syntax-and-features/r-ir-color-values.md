@@ -1,20 +1,20 @@
 ---
-description: color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列表或十六进制表示法（与HTML类似）来指定。
-solution: Experience Manager
 title: 颜色值
-feature: Dynamic Media Classic，SDK/API
+description: color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列表或十六进制表示法(类似于HTML)来指定。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 12%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
 # 颜色值{#color-values}
 
-color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列表或十六进制表示法（与HTML类似）来指定。
+颜色值 `color=` 和 `bgc=` 属性可以使用以逗号分隔的小数组件值列表或十六进制表示法(类似于HTML)来指定。
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -60,4 +60,4 @@ color=和bgc=属性的颜色值可以使用小数、逗号分隔的组件值列�
 
 ## 另请参阅 {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0),  [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [格劳特=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)

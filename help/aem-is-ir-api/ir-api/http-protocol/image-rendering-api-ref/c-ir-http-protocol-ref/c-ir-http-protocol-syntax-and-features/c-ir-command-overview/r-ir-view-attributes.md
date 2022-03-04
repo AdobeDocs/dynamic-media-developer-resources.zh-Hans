@@ -1,13 +1,13 @@
 ---
+title: 查看属性
 description: 这些命令与位置无关，可能会在请求中的任意位置发生。
 solution: Experience Manager
-title: 查看属性
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,6 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md#reference-a83329ce7c914ee4b518b0bda71f0438" type="reference" format="dita" scope="local"> 缓存</a></span> </p> </td> 
-  <td class="stentry"> <p>覆盖默认响应缓存行为。 </p></td> 
+  <td class="stentry"> <p>覆盖默认的响应缓存行为。 </p></td> 
  </tr> 
 </table>

@@ -2,12 +2,12 @@
 description: 使用这些服务器设置配置监控和警报系统。
 solution: Experience Manager
 title: 监控和警报系统
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting — 警报系统启用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-通过将设置为“true”并配置电子邮件通知设置，启用电子邮件通知。 将设置为`false`会关闭所有电子邮件警报 — 当使服务器离线进行维护时，这非常有用。 布尔值.
+通过将设置为“true”并配置电子邮件通知设置，启用电子邮件通知。 将设置为 `false` 关闭所有电子邮件警报 — 在离线服务器进行维护时，此功能非常有用。 布尔值.
 
 ## AS::mailSender.host - SMTP主机 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP电子邮件服务器的监听端口。
 
 ## AS::monitorAlertGenerator.messageFrom — 消息发送者 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-**[!UICONTROL From]**&#x200B;电子邮件字段中应使用的电子邮件地址。
+在 **[!UICONTROL 从]** 电子邮件字段。
 
 ## AS::monitorAlertGenerator.alertInterval — 监控间隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -42,7 +42,7 @@ SMTP电子邮件服务器的监听端口。
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval — 堆空间警报间隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-堆空间警报发出之前的最短时间。 时间间隔（毫秒）。 整数值，0或更大。
+在发出堆空间警报之后的最短时间。 时间间隔（毫秒）。 整数值，0或更大。
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts — 启用警报的最小流量 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

@@ -2,13 +2,13 @@
 description: 属性集类型指定用于帮助管理属性集的各种设置。
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 11%
+source-wordcount: '156'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 拥有资产集类型的公司的句柄。 如果未传递`companyHandle`并且调用方为`IpsAdmin`，则将创建全局属性集类型。 |
+| `*`companyHandle`*` | `xsd:string` | 否 | 拥有资产集类型的公司的句柄。 如果 `companyHandle` 未传递，且调用方为 `IpsAdmin`，则会创建全局属性集类型。 |
 | `*`name`*` | `xsd:string` | 是 | 属性集类型的名称。 |
 | `*`propertyType`*` | `xsd:string` | 是 | 属性集类型的选择。 |
 | `*`allowMultiple`*` | `xsd:boolean` | 是 | 确定您的程序是否可以具有多个资产集。 |
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 ## 示例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代码示例创建一个属性集，该属性集的名称和类型由`PropertySet Types`常量指定。 拥有资产集类型的公司的句柄。 如果未传递companyHandle，且调用方是IpsAdmin，则将创建全局属性集类型。
+此代码示例将创建一个属性集，该属性集的名称和类型由 `PropertySet Types` 常量。 拥有资产集类型的公司的句柄。 如果未传递companyHandle，且调用方是IpsAdmin，则会创建全局属性集类型。
 
 **请求**
 

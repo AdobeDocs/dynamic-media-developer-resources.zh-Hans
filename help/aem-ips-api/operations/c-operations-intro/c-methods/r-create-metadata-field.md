@@ -2,12 +2,12 @@
 description: 允许管理员创建新的元数据字段以与内容管理系统协调或用于模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有者信息。
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 13%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 13%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要创建的元数据字段的默认值（例如，<span class="codeph"> Scene 7</span>）。 </p> <p>标记字段类型不支持默认值，因此必须忽略默认值。 如果为标记字段类型指定了非空的默认值，则将返回错误。 </p> </td> 
+   <td colname="col4"> <p>要创建的元数据字段的默认值(例如， <span class="codeph"> 场景7</span>)。 </p> <p>标记字段类型不支持默认值，因此必须忽略默认值。 如果为标记字段类型指定了非空的默认值，则会返回错误。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -76,7 +76,7 @@ ht-degree: 13%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -95,7 +95,7 @@ ht-degree: 13%
 
 ## 示例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此代码示例将创建一个名为`createMetadataField`的字符串类型元数据字段。 响应会将句柄返回到新元数据字段。
+此代码示例将创建一个名为的字符串类型元数据字段 `createMetadataField`. 响应会将句柄返回到新元数据字段。
 
 **请求**
 

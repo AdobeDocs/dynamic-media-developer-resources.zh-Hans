@@ -1,13 +1,13 @@
 ---
+title: 高级渲染设置
 description: 晕影创作工具(Dynamic Media图像创作包的一部分)提供了控制晕影渲染引擎低级别方面的机制。
 solution: Experience Manager
-title: 高级渲染设置
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 25%
 >
 >“渲染设置”是“图像渲染”和“图像创作”的一项高级功能。 请联系Adobe技术支持或您的Adobe咨询代表，以获取有关使用“渲染设置”的培训、咨询或两者的信息。
 
-在“图像创作”中，可以交互控制这些设置。 可以使用`rs=`命令（或使用`catalog::RenderSettings`值）在“图像渲染”中应用相同的设置。 此机制用于为每个材料选择不同的锐化选项，并修改照明渲染算法的行为，如改变高光的饱和度或阴影中的对比度。
+在“图像创作”中，可以交互控制这些设置。 可以使用 `rs=` 命令(或 `catalog::RenderSettings` 值)。 此机制用于为每个材料选择不同的锐化选项，并修改照明渲染算法的行为，如改变高光的饱和度或阴影中的对比度。
 
 ## 高级渲染设置(rs=)值 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

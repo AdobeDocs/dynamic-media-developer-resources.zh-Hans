@@ -2,12 +2,12 @@
 description: IS服务器可以配置为对于涉及源映像且无法成功打开或读取的请求，故障转移到备用服务器。
 solution: Experience Manager
 title: 出错时重定向
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ IS服务器可以配置为对于涉及源映像且无法成功打开或读取的
 
 在任何其他情况下都不会发生错误重定向。
 
-启用后，如果在请求处理期间发生此类错误，主服务器将将请求发送到辅助服务器进行处理。 无论响应是指示成功还是失败，该响应随后都会直接转发给客户端。 主服务器使用`REMOTE`标记此类转发请求的日志条目。 响应数据不会由主服务器本地缓存。
+启用后，如果在请求处理期间发生此类错误，主服务器将将请求发送到辅助服务器进行处理。 无论响应是指示成功还是失败，该响应随后都会直接转发给客户端。 主服务器标记此类转发请求的日志条目并使用缓存 `REMOTE`. 响应数据不会由主服务器本地缓存。
 
-通过将`PS::errorRedirect.rootUrl`设置为辅助服务器的HTTP域名和端口号，可启用错误重定向。 此外，连接超时配置为`PS::errorRedirect.connectTimeout`，并且主服务器在向客户端返回错误之前等待从从属服务器响应的最长时间配置为`PS::errorRedirect.socketTimeout`。
+通过设置 `PS::errorRedirect.rootUrl` 到次服务器的HTTP域名和端口号。 此外，连接超时配置为 `PS::errorRedirect.connectTimeout` 以及主服务器在向客户端返回错误之前等待从辅助服务器响应的最长时间，配置了 `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->如果无法联系次服务器，则将向客户端返回文本错误响应，即使配置了默认图像或错误图像也是如此。
+>如果无法联系次服务器，则会向客户端返回文本错误响应，即使配置了默认图像或错误图像也是如此。
 
 >[!NOTE]
 >

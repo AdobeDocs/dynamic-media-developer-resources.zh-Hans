@@ -2,12 +2,12 @@
 description: 将这些服务器设置用于服务器缓存。
 solution: Experience Manager
 title: 服务器缓存
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## PS::cache.rootPaths — 缓存数据文件夹 {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-平台服务器磁盘缓存的根文件夹。 相对于&#x200B;*[!DNL install_folder]*&#x200B;的一个或多个绝对文件路径或路径，以分号(;)分隔。 HTTP响应缓存的数据将平均分布到所有指定的文件夹中。 辅助缓存（编译的图像目录和外部图像数据）的缓存将位于主缓存文件夹（列表中的第一个文件夹）中。
+平台服务器磁盘缓存的根文件夹。 一个或多个相对于 *[!DNL install_folder]*，以分号(;)分隔。 HTTP响应缓存的数据将平均分布到所有指定的文件夹中。 辅助高速缓存（编译的图像目录和外部图像数据）的高速缓存位于主高速缓存文件夹（列表中的第一个文件夹）中。
 
 ## PS::cache.maxSize — 响应数据缓存大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP响应缓存的最大大小（以字节为单位）。 此设置限制要缓存的实际数据量；它不考虑文件系统开销。 （请参阅[响应数据缓存](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)。） 如果指定了多个缓存数据文件夹，则缓存数据将均匀分布在所有文件夹中。 [!DNL PlatformServer.conf]中的`cache.maxSize`值以字节为单位。
+HTTP响应缓存的最大大小（以字节为单位）。 此设置限制要缓存的实际数据量；它不考虑文件系统开销。 (请参阅 [响应数据缓存](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) 如果指定了多个缓存数据文件夹，则缓存数据会均匀分布在所有文件夹中。 的值 `cache.maxSize` in [!DNL PlatformServer.conf] 以字节为单位。
 
 ## PS::cache.maxEntries — 响应数据缓存最大条目数 {#section-5603e327e90542a5b50aeeb27b080410}
 
@@ -34,7 +34,7 @@ HTTP响应缓存的最大大小（以字节为单位）。 此设置限制要缓
 
 ## IS::TempDirectory - Image Server临时文件文件夹 {#section-42ea1e7a68c444878f7245c5bbcb1672}
 
-图像服务器有时需要将中间数据保存到磁盘。 路径可以是绝对路径，也可以是相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。
+图像服务器有时需要将中间数据保存到磁盘。 路径可以是绝对路径，也可以是相对路径 *[!DNL install_folder]*.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ HTTP响应缓存的最大大小（以字节为单位）。 此设置限制要缓
 
 ## SV::temp - Server Supervisor临时文件文件夹 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-服务器管理员有时需要将中间数据保存到磁盘。 路径可以是绝对路径，也可以是相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 默认值为[!DNL *[!DNL install_folder]*/temp]。
+服务器管理员有时需要将中间数据保存到磁盘。 路径可以是绝对路径，也可以是相对路径 *[!DNL install_folder]*. 默认为[!DNL  *[!DNL install_folder]*/temp]。
 
 >[!NOTE]
 >

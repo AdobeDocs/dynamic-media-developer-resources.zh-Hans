@@ -2,13 +2,13 @@
 description: 获取公司作业日志的详细信息。
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 获取公司作业日志的详细信息。
 
-`logMessage`响应字段基于`authHeader` `locale`字段进行本地化。
+的 `logMessage` 响应字段根据 `authHeader` `locale` 字段。
 
 ## 授权用户类型 {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -65,19 +65,19 @@ ht-degree: 17%
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 一个或多个日志类型常量。 如果存在，则只返回指定的日志类型。 默认情况下，将返回所有日志类型。 </td> 
+   <td colname="col4"> 一个或多个日志类型常量。 如果存在，则仅返回指定的日志类型。 默认情况下，将返回所有日志类型。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的<span class="codeph"> detailArray</span>项的最大数量。 最大值和默认值为1000。 </td> 
+   <td colname="col4">最大数 <span class="codeph"> detailArray</span> 要返回的项目。 最大值和默认值为1000。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">要返回的<span class="codeph"> recordsPerPage</span>结果的页码。 預設值為 1。 </td> 
+   <td colname="col4">页码 <span class="codeph"> recordsPerPage</span>返回 — 结果。 預設值為 1。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

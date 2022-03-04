@@ -2,12 +2,12 @@
 description: 创建一个通用资产集，其中包含要发布到图像服务器的原始集定义字符串。
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 10%
 
 ---
@@ -42,38 +42,38 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 包含资产集的公司的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 将在其中创建新资产集的文件夹的句柄。 </td> 
+   <td colname="col4"> 创建新资产集的文件夹的句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 资产名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 客户端为资产集类型创建的唯一标识符。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 设置定义字符串中的参数。 <p>必须解析为目标查看器指定的格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用作新图像集缩略图的资产处理。 如果未指定，IPS会尝试使用该集引用的第一个图像资产。 </td> 
   </tr> 
@@ -82,11 +82,11 @@ ht-degree: 10%
 
 **setDefinition的替换函数**
 
-您可以在行中指定在目录查找或发布期间解析的替换函数。 替换字符串的格式为`${<substitution_func>}`。 下面枚举了可用函数。
+您可以在行中指定在目录查找或发布期间解析的替换函数。 替换字符串的格式为 `${<substitution_func>}`. 下面枚举了可用函数。
 
 >[!NOTE]
 >
->参数列表中的句柄文字必须用括号`([])`括起来。 在分辨率期间，替换字符串以外的所有文本都会逐字复制到输出字符串。
+>参数列表中的句柄文字必须被括号括起来 `([])`. 在分辨率期间，替换字符串以外的所有文本都会逐字复制到输出字符串。
 
 | **替换函数** | **返回结果** |
 |---|---|

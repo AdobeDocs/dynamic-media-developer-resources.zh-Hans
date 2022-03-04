@@ -2,12 +2,12 @@
 description: 图像服务器代理可用于调整日语电话的图像大小。
 solution: Experience Manager
 title: 图像服务器代理
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## URL 格式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS修饰符都会传递到图像服务器。 您可以在[HTTP协议参考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)中找到有关IS修饰符的信息。
+IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS修饰符都会传递到图像服务器。 您可以在 [HTTP协议参考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,16 +28,16 @@ IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS�
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>指定设备可用宽度的百分比，以用作图像宽度。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 海百分比=  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 海百分比= &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>指定要用作图像高度的设备可用高度的百分比。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>指定设备的“内存限制嵌入式媒体”属性的百分比，以将响应大小限制为。 这将仅适用于jpg响应。 在响应大小在指定的百分比内之前，图像质量会降低。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p>指定设备的“内存限制嵌入式媒体”属性的百分比，以将响应大小限制为。 这将仅适用于jpg响应。 图像质量会降低，直到响应大小在指定的百分比范围内。 </p></td> 
  </tr> 
 </table>
 

@@ -1,13 +1,13 @@
 ---
+title: 属性
 description: 响应以下req=类型imageprop和prop，将返回属性数据。
 solution: Experience Manager
-title: 属性
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 响应以下req=类型返回属性数据：imageprop和prop。
 
-回复数据的格式为可读为Java属性。 典型的文本属性响应具有以下通用结构：
+回复数据的格式为可读为Java™属性。 典型的文本属性响应具有以下通用结构：
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ ht-degree: 4%
 
 ...
 
-` *[!DNL propertyValue]*` 可为空。在每行的开头和结尾以及“=”分隔符前后的空格都是可选的。 可以使用单引号或双引号引住字符串值，但不是必需的。
+` *[!DNL propertyValue]*` 可以为空。 在每行的开头和结尾以及“=”分隔符前后的空格都是可选的。 可以使用单引号或双引号引住字符串值，但不是必需的。
 
-字符串值可能包含JAVA样式的转义字符，如`\n`、`\t`、`\:`。 或者 `\\`.
+字符串值可能包含JAVA样式的转义字符，如 `\n`, `\t`, `\:`或 `\\`.
 
 **另请参阅**
 

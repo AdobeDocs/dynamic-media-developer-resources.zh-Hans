@@ -1,22 +1,22 @@
 ---
-description: 此材料类别包括墙、木工和装饰、汽车以及不需要纹理的任何其他应用的油漆。
-solution: Experience Manager
 title: 纯色
-feature: Dynamic Media Classic，SDK/API
+description: 此材料类别包括墙、木工和装饰、汽车和不需要纹理的任何其他应用的油漆。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
 # 纯色{#solid-colors}
 
-此材料类别包括墙、木工和装饰、汽车以及不需要纹理的任何其他应用的油漆。
+此材料类别包括墙、木工和装饰、汽车和不需要纹理的任何其他应用的油漆。
 
-例如，您可以使用纯色来改变不需要纹理更改的服装项目上的颜色，或者设置汽车内饰的塑料装饰和地毯的颜色。 如果MSS中不存在`src=`值，则材料被视为纯色。
+例如，您可以使用纯色来改变不需要纹理更改的服装项目上的颜色，或者设置汽车内饰的塑料装饰和地毯的颜色。 如果没有，则材料被视为实色 `src=` 值存在于MSS中。
 
 实色可应用于所有可渲染的对象。
 
@@ -30,7 +30,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
    <td colname="col2"> <p> 灰色或RGB颜色值；必需。 </p> </td> 
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 

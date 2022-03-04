@@ -1,20 +1,20 @@
 ---
-description: 会话目录是一个材料目录，它为请求提供会话属性以及所有src=、vignette=和icc=命令的默认catId值。
-solution: Experience Manager
 title: 会话目录
-feature: Dynamic Media Classic，SDK/API
+description: 会话目录是提供请求会话属性的材料目录，并为所有src=、vignette=和icc=命令提供默认的catId值。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # 会话目录{#session-catalog}
 
-会话目录是一个材料目录，它为请求提供会话属性以及所有src=、vignette=和icc=命令的默认catId值。
+会话目录是提供请求会话属性和所有请求的默认catId值的材料目录 `src=`, `vignette=`和 `icc=` 中。
 
 会话目录指定为HTTP请求路径的第一个路径元素（紧接在服务器名称之后）。 如果第一个路径元素与任何目录的属性：:RootId不匹配，则默认目录将用作会话目录。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:RootUrl</span> </p> </td> 
-   <td> <p> <span class="codeph"> src=</span>命令中相对HTTP文件路径的根URL </p> </td> 
+   <td> <p> 中相对HTTP文件路径的根URL <span class="codeph"> src=</span> 命令 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:ShowOverlapObjs</span> </p> </td> 
@@ -58,15 +58,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:DefaultPix</span> </p> </td> 
-   <td> <p> <span class="codeph"> wid=</span>和<span class="codeph"> hei=</span>的默认值 </p> </td> 
+   <td> <p> 的默认值 <span class="codeph"> wid=</span> 和 <span class="codeph"> hei=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:Format</span> </p> </td> 
-   <td> <p> <span class="codeph"> fmt=</span>的默认值 </p> </td> 
+   <td> <p> 的默认值 <span class="codeph"> fmt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:JpegQuality</span> </p> </td> 
-   <td> <p> <span class="codeph"> qlt=</span>的默认值 </p> </td> 
+   <td> <p> 的默认值 <span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:TiffEncoding</span> </p> </td> 
@@ -74,15 +74,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：：锐化</span> </p> </td> 
-   <td> <p> <span class="codeph">锐化=</span>的默认值 </p> </td> 
+   <td> <p> 的默认值 <span class="codeph"> 锐化=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:OnFailSel</span> </p> </td> 
-   <td> <p> 指定<span class="codeph"> sel=</span>命令失败时的行为 </p> </td> 
+   <td> <p> 指定 <span class="codeph"> sel=</span> 命令失败 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 属性：:OnFailObj</span> </p> </td> 
-   <td> <p> 指定<span class="codeph"> obj=</span>命令失败时的行为 </p> </td> 
+   <td> <p> 指定 <span class="codeph"> obj=</span> 命令失败 </p> </td> 
   </tr> 
  </tbody> 
 </table>

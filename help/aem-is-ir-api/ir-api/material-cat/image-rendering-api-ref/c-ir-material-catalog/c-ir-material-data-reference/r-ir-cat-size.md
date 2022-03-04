@@ -2,12 +2,12 @@
 description: 十进制。 倾斜材料对象的宽度、高度和厚度。
 solution: Experience Manager
 title: 大小
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 5%
 
 三个用逗号分隔的实数。 不得为负。 将未使用的值设置为0。 可以忽略尾随零。
 
-仅当图像应拉伸以适合指定大小时（宽高比可能会改变），才指定宽度和高度。 设置宽度或高度，以按比例缩放图像。 将宽度和高度都设置为0，以使用`catalog::Resolution`确定对象大小。
+仅当图像应拉伸以适合指定大小时（宽高比可能会改变），才指定宽度和高度。 设置宽度或高度，以按比例缩放图像。 将宽度和高度均设置为0以使用 `catalog::Resolution`以确定对象大小。
 
 提供厚度值，以向贴图对象添加投影。 可选，适用于所有其他材料忽略的倾斜材料。
 
 ## 默认 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-一万。 这表示将根据catalog::Resolution确定十字体大小，并且对象没有厚度（因此不会渲染投影）。
+一万。 这表示将根据catalog::Resolution确定十字体大小，并且对象没有厚度（因此，不会渲染投影）。
 
 ## 示例 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

@@ -1,13 +1,13 @@
 ---
+title: 着色材料
 description: 大多数材料都可以动态着色。
 solution: Experience Manager
-title: 着色材料
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95b13a57-f10b-4ff2-90fd-507e69cb2b04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 0%
 
 大多数材料都可以动态着色。
 
-着色算法简单，对色调范围有限的材料图像效果最好。 要对材料着色，渲染器只需减去`bgc=`值，并将`color=`值添加到每个像素值。
+着色算法简单，对于具有有限色调范围的材料图像效果最好。 要对材料进行着色，渲染器只需减去 `bgc=` 值并添加 `color=` 值。
 
-如果未指定`color=`，则禁用着色。 `bgc=` 被橱柜材料忽视；将改用文件中嵌入 [!DNL vnc] 的基色值。
+如果 `color=` 未指定。 的 `bgc=` 属性被橱柜材料忽略；嵌入在 [!DNL vnc] 文件。

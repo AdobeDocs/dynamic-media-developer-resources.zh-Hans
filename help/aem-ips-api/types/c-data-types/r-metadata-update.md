@@ -2,12 +2,12 @@
 description: 为与setAssetMetadata一起使用的特定资产设置元数据值。 描述要对元数据所做的更改。
 solution: Experience Manager
 title: 元数据更新
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->如果传递了单个值字段，则资产的标记值将重置为指定的标记值。
+>如果传递了单个值字段，则资产的标记值会重置为指定的标记值。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

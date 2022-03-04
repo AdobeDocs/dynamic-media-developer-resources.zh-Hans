@@ -1,26 +1,26 @@
 ---
-description: HTTP响应标头元素。 在<rule>元素中为可选项。
+description: HTTP响应标头元素。 在中可选 <rule> 元素。
 solution: Experience Manager
 title: header
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
 
 # 标题{#header}
 
-HTTP响应标头元素。 在`<rule>`元素中为可选。
+HTTP响应标头元素。 在中可选 `<rule>` 元素。
 
 ## 属性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;** :必需。指定HTTP标头的名称。
+**`Name`= &quot;*文本*&quot;** :必需。 指定HTTP标头的名称。
 
-**`Action`= &quot;set&quot; |`"add"`**:可选。默认值为`"set"`，它会替换任何当前标头值。 指定`"add"`以附加以逗号分隔的标头值。
+**`Action`= &quot;set&quot; |`"add"`**:可选。 默认为 `"set"`，取代任何当前标头值。 指定 `"add"` 以逗号分隔的标题值。
 
 ## 数据 {#section-a387f541396c49d99c29692a38032914}
 
@@ -28,7 +28,7 @@ HTTP响应标头元素。 在`<rule>`元素中为可选。
 
 ## 说明 {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-允许添加新的HTTP响应标头，以及添加或替换预定义标头的值。 名称和值必须符合HTTP标准。 将不应用其他编码。
+允许添加新的HTTP响应标头，以及添加或替换预定义标头的值。 名称和值必须符合HTTP标准。 不应用其他编码。
 
 图像提供替换变量可用于标题名称和标题值中。 这允许从请求中控制两个字符串。
 
@@ -43,6 +43,6 @@ HTTP响应标头元素。 在`<rule>`元素中为可选。
 </rule>
 ```
 
-此规则由以下请求触发，请设置HTTP响应标头`Edge-Control::no-store`:
+此规则由以下请求触发，通过设置HTTP响应标头 `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

@@ -1,13 +1,13 @@
 ---
+title: HTTP协议响应数据
 description: 图像渲染会生成HTTP/1.1响应标头。
 solution: Experience Manager
-title: HTTP协议响应数据
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f25d76d1-215e-4286-88f3-7402ceb07858
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
