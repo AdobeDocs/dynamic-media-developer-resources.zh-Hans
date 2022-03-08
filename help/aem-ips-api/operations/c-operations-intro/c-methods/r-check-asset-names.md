@@ -2,12 +2,12 @@
 description: 通过比较资产名称与公司的图像提供/图像呈现目录命名空间中的所有名称，检查IPS ID冲突。
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
@@ -35,14 +35,14 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 包含用户的公司的句柄。 |
-| `*`assetNamesArray`*` | `types:StringArray` | 是 | 要检查的资产名称数组。 |
+| companyHandle | `xsd:string` | 否 | 包含用户的公司的句柄。 |
+| assetNamesArray | `types:StringArray` | 是 | 要检查的资产名称数组。 |
 
 **输出(checkAssetNamesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | 是 | 正在使用的资产名称数组。 |
+| inUseNameArray | `types:StringArray` | 是 | 正在使用的资产名称数组。 |
 
 ## 示例 {#section-bc5d120d74614a63a425ca3acc337219}
 

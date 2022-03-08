@@ -2,13 +2,13 @@
 description: 获取有关用户的信息。 使用系统用户的电子邮件地址和密码作为授权请求的凭据。 否则，操作将获取有关默认用户的信息。
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 处理要返回其信息的用户。 |
-| `*`电子邮件`*` | `xsd:string` | 否 | 用户电子邮件地址。 |
+| userHandle | `xsd:string` | 否 | 处理要返回其信息的用户。 |
+| 电子邮件 | `xsd:string` | 否 | 用户电子邮件地址。 |
 
 **输出(getUserInfoReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效以及用户密码过期的时间。 |
+| userInfo | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效以及用户密码过期的时间。 |
 
 ## 示例 {#section-98d77a2e360a438dbe240099bea26a65}
 

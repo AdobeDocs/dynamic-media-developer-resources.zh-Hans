@@ -2,13 +2,13 @@
 description: 任务进度数组。 包含有关视频转码任务的信息。
 solution: Experience Manager
 title: TaskProgressArray
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:TaskProgress` | 任务进度项。 最小发生次数为零。 最大值无界。 |
+| 项目 | `types:TaskProgress` | 任务进度项。 最小发生次数为零。 最大值无界。 |

@@ -2,13 +2,13 @@
 description: 检索指定资产的XMP元数据包。
 solution: Experience Manager
 title: getXMPPacket
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 21%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司处理要返回的数据包（例如`c|656`）。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 应检索XMP数据包的资产。 |
+| companyHandle | `xsd:string` | 是 | 公司处理您要返回的数据包(例如， `c|656`)。 |
+| assetHandle | `xsd:string` | 是 | 应检索XMP数据包的资产。 |
 
 **输出(getXMPPacketReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP数据包。 |
+| compressedPacket | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] XMP数据包。 |
 
 ## 示例 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

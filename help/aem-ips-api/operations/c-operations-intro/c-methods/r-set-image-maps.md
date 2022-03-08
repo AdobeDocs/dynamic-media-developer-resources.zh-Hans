@@ -2,13 +2,13 @@
 description: 设置资产的图像映射。
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
+| imageMapArray | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
 
 **输出(setImageMapsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | 是 | 一个数组，其中图像映射句柄应用于资产。 |
+| imageMapHandleArray | `types:HandleArray` | 是 | 一个数组，其中图像映射句柄应用于资产。 |
 
 ## 示例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

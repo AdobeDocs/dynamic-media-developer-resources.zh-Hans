@@ -2,13 +2,13 @@
 description: 创建或编辑群组。
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 21%
+source-wordcount: '92'
+ht-degree: 22%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要保存的组的公司的句柄。 |
-| `*`groupHandle`*` | `xsd:string` | 否 | 组的句柄。 |
-| `*`name`*` | `xsd:string` | 是 | 群组名称. |
-| `*`isSystemDefined`*` | `xsd:boolean` | 是 | `false` 为默认值。 |
+| companyHandle | `xsd:string` | 是 | 包含要保存的组的公司的句柄。 |
+| groupHandle | `xsd:string` | 否 | 组的句柄。 |
+| name | `xsd:string` | 是 | 群组名称. |
+| isSystemDefined | `xsd:boolean` | 是 | `false` 为默认值。 |
 
 **输出(saveGroupReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
+| groupHandle | `xsd:string` | 是 | 组句柄。 |
 
 ## 示例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

@@ -2,12 +2,12 @@
 description: 获取当前所有活动的作业。
 solution: Experience Manager
 title: getActiveJobs
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---
@@ -35,15 +35,15 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 工作的把手。 |
-| `*`originalName`*` | `xsd:string` | 否 | 原始作业名称。 |
+| companyHandle | `xsd:string` | 否 | 公司的把手。 |
+| jobHandle | `xsd:string` | 否 | 工作的把手。 |
+| originalName | `xsd:string` | 否 | 原始作业名称。 |
 
 **Output(getActiveJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | 是 | 活动作业数组。 |
+| jobArray | `xsd:string` | 是 | 活动作业数组。 |
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 

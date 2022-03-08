@@ -2,13 +2,13 @@
 description: 描述权限更改。
 solution: Experience Manager
 title: 权限更新
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 组句柄。 |
-| `*`permissionType`*` | `xsd:string` | 权限类型。 |
-| `*`允许`*` | `xsd:boolean` | 确定是否允许权限更新。 |
-| `*`isOverride`*` | `xsd:boolean` | 确定权限是否覆盖其他权限。 |
+| groupHandle | `xsd:string` | 组句柄。 |
+| permissionType | `xsd:string` | 权限类型。 |
+| 允许 | `xsd:boolean` | 确定是否允许权限更新。 |
+| isOverride | `xsd:boolean` | 确定权限是否覆盖其他权限。 |

@@ -2,13 +2,13 @@
 description: 返回特定公司的IPS设置。
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '64'
+ht-degree: 25%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 23%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要检索其设置的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 要检索其设置的公司的句柄。 |
 
 **Output(getCompanySettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`设置`*` | `types:CompanySettings` | 是 | 公司设置。 |
+| 设置 | `types:CompanySettings` | 是 | 公司设置。 |
 
 ## 示例 {#section-191f78995ecf473a95eadf7296204fd7}
 

@@ -2,13 +2,13 @@
 description: 设置文件夹权限。
 solution: Experience Manager
 title: setFolderPermissions
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| `*`setChildren`*` | `xsd:boolean` | 是 | 设置属于该文件夹的子项的权限。 |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | 是 | 权限阵列。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
+| setChildren | `xsd:boolean` | 是 | 设置属于该文件夹的子项的权限。 |
+| permissionArray | `types:PermissionUpdateArray` | 是 | 权限阵列。 |
 
 **输出(setFolderPermissionsReturn)**
 

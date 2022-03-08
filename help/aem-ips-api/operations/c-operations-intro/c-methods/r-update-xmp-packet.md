@@ -2,13 +2,13 @@
 description: 设置或更新资产的XMP元数据包。
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '68'
+ht-degree: 26%
 
 ---
 
@@ -34,15 +34,15 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要设置或更新的XMP数据包。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
+| compressedPacket | `xsd:Base 64 binary` | 是 | [!DNL zlib-compressed] 要设置或更新的XMP数据包。 |
 
 **输出(updateXMPPacketReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`成功`*` | `xsd:boolean` | 是 | 如果数据包已更新，则返回`true`。 |
+| 成功 | `xsd:boolean` | 是 | 返回结果 `true` 包是否已更新。 |
 
 ## 示例 {#section-38b556b94e5044bf97a954519ff6c212}
 

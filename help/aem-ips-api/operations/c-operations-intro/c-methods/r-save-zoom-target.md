@@ -2,13 +2,13 @@
 description: 创建或编辑缩放目标。
 solution: Experience Manager
 title: saveZoomTarget
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -33,21 +33,21 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要保存的缩放目标的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 缩放目标的手柄。 |
-| `*`zoomTargetHandle`*` | `xsd:string` | 否 | 编辑或创建缩放目标。 |
-| `*`name`*` | `xsd:string` | 是 | 缩放目标名称。 |
-| `*`xPosition`*` | `xsd:int` | 是 | 左像素位置。 |
-| `*`yPosition`*` | `xsd:int` | 是 | 顶部像素位置。 |
-| `*`width`*` | `xsd:int` | 是 | 缩放目标宽度。 |
-| `*`height`*` | `xsd:int` | 是 | 缩放目标高度。 |
-| `*`用户数据`*` | `xsd:string` | 是 | 以了解客户特定的信息。 可以包含任何类型的数据。 |
+| companyHandle | `xsd:string` | 是 | 包含要保存的缩放目标的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 缩放目标的手柄。 |
+| zoomTargetHandle | `xsd:string` | 否 | 编辑或创建缩放目标。 |
+| name | `xsd:string` | 是 | 缩放目标名称。 |
+| xPosition | `xsd:int` | 是 | 左像素位置。 |
+| yPosition | `xsd:int` | 是 | 顶部像素位置。 |
+| 宽度 | `xsd:int` | 是 | 缩放目标宽度。 |
+| 高度 | `xsd:int` | 是 | 缩放目标高度。 |
+| 用户数据 | `xsd:string` | 是 | 以了解客户特定的信息。 可以包含任何类型的数据。 |
 
 **输出(saveZoomTargetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 处理新创建的缩放目标。 |
+| zoomTargetHandle | `xsd:string` | 是 | 处理新创建的缩放目标。 |
 
 ## 示例 {#section-509c472c316549cdb228d7e1cfa8400a}
 

@@ -2,13 +2,13 @@
 description: 从一个或多个公司中删除用户。
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 12%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 具有要删除的成员资格的用户的句柄。 |
-| `*`companyHandleArray`*` | `types:HandleArray` | 是 | 从中删除用户的公司的句柄。 |
+| userHandle | `xsd:string` | 否 | 具有要删除的成员资格的用户的句柄。 |
+| companyHandleArray | `types:HandleArray` | 是 | 从中删除用户的公司的句柄。 |
 
 **输出(removeCompanyMembershipReturn)**
 

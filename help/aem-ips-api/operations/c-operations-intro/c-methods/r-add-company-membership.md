@@ -2,13 +2,13 @@
 description: 将用户添加到一个或多个公司。
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 13%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要添加其成员资格的用户的句柄。 |
-| `*`membersingArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司数组。 |
+| userHandle | `xsd:string` | 否 | 要添加其成员资格的用户的句柄。 |
+| membersingArray | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司数组。 |
 
 **输出(addCompanyMembershipReturn)**
 
@@ -40,7 +40,7 @@ IPS API不会返回此操作的响应。
 
 ## 示例 {#section-5469f88bac7047cca131faa6b021e437}
 
-此示例使用`*`companyHandleArray`*`将用户添加到单个公司。
+此示例使用companyHandleArray将用户添加到单个公司。
 
 **请求**
 

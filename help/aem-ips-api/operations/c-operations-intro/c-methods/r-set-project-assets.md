@@ -2,13 +2,13 @@
 description: 分配或更新项目中的资产。
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 20%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`projectHandle`*` | `xsd:string` | 是 | 项目句柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要与项目关联的资产句柄数组。 |
+| companyName | `xsd:string` | 是 | 公司负责人。 |
+| projectHandle | `xsd:string` | 是 | 项目句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要与项目关联的资产句柄数组。 |
 
 **输出(setProjectAssetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功添加的资产数。 |
+| successCount | `xsd:int` | 是 | 已成功添加的资产数。 |
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 

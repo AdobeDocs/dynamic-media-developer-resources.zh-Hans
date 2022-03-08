@@ -2,13 +2,13 @@
 description: 返回Zip文件数据。
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 21%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含Zip文件的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 处理Zip文件。 |
+| companyHandle | `xsd:string` | 是 | 包含Zip文件的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 处理Zip文件。 |
 
 **Output(getZipEntriesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | 是 | Zip文件中的条目数组。 |
+| zipArray | `types:ZipEntryArray` | 是 | Zip文件中的条目数组。 |
 
 ## 示例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

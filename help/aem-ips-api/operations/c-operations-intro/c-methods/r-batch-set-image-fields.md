@@ -2,12 +2,12 @@
 description: 为一个或多个图像资产设置特定于图像的字段。
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 10%
 
 ---
@@ -33,18 +33,18 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像资产的公司的句柄。 |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | 是 | 更新了图像字段的数组。 |
+| companyHandle | `xsd:string` | 是 | 包含图像资产的公司的句柄。 |
+| updateArray | `types:ImageFieldUpdateArray` | 是 | 更新了图像字段的数组。 |
 
 **输出(batchSetImageFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功设置图像字段的数量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置图像字段时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，资产会生成警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 成功设置图像字段的数量。 |
+| warningCount | `xsd:int` | 是 | 操作尝试设置图像字段时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试设置图像字段时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

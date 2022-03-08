@@ -2,13 +2,13 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 23%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
@@ -32,9 +32,7 @@ ht-degree: 23%
 >
 >* 用户必须具有读取权限才能返回资产。
 >* 所有用户都有权访问共享公司。
-
 >
-
 
 
 ## 参数 {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -76,7 +74,7 @@ ht-degree: 23%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据需要按上下文类型过滤。 |
+| publishContextArray | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据需要按上下文类型过滤。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

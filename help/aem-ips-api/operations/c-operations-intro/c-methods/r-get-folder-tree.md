@@ -2,12 +2,12 @@
 description: 返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多限制为100,000个文件夹
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 9%
 
 ---
@@ -38,21 +38,21 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`accessUserHandle`*` | `xsd:string` | 否 | 仅供管理员模拟特定用户。 |
-| `*`accessGroupHandle`*` | `xsd:string` | 否 | 用于按特定组进行过滤，包括公司所属的任何组。 |
-| `*`folderPath`*` | `xsd:string` | 否 | 用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 |
-| `*`深度`*` | `xsd:int` | 是 | 值为零将获取顶级文件夹。 任何其他值指定要向下到树中的深度。 |
-| `*`assetTypeArray`*` | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
-| `*`responseFieldArray`*` | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
-| `*`excludeFieldArray`*` | `types:StringArray` | 否 | 包含要在响应中排除的字段列表。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| accessUserHandle | `xsd:string` | 否 | 仅供管理员模拟特定用户。 |
+| accessGroupHandle | `xsd:string` | 否 | 用于按特定组进行过滤，包括公司所属的任何组。 |
+| folderPath | `xsd:string` | 否 | 用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 |
+| 深度 | `xsd:int` | 是 | 值为零将获取顶级文件夹。 任何其他值指定要向下到树中的深度。 |
+| assetTypeArray | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
+| responseFieldArray | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
+| excludeFieldArray | `types:StringArray` | 否 | 包含要在响应中排除的字段列表。 |
 
 **输出(getFolderTreeReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`文件夹`*` | `types:folders` | 否 | 树结构中文件夹的层次结构。 响应最多限制为100,000个文件夹。 |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| 文件夹 | `types:folders` | 否 | 树结构中文件夹的层次结构。 响应最多限制为100,000个文件夹。 |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 

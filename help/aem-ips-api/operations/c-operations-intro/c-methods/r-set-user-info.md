@@ -2,13 +2,13 @@
 description: 设置用户属性（例如，名称、电子邮件、角色等）
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 16%
+source-wordcount: '107'
+ht-degree: 17%
 
 ---
 
@@ -31,14 +31,14 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 用户句柄。 |
-| `*`firstName`*` | `xsd:string` | 是 | 名字。 |
-| `*`lastName`*` | `xsd:string` | 是 | 姓氏。 |
-| `*`电子邮件`*` | `xsd:string` | 是 | 用户电子邮件。 |
-| `*`defaultRole`*` | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意，`IpsAdmin`角色会覆盖其他每公司设置。 |
-| `*`passwordExpires`*` | `xsd:dateTime` | 否 | 设置的密码过期日期。 |
-| `*`isValid`*` | `xsd:boolean` | 是 | 确定用户是否为有效的IPS用户。 |
-| `*`membersingArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |
+| userHandle | `xsd:string` | 否 | 用户句柄。 |
+| firstName | `xsd:string` | 是 | 名字。 |
+| lastName | `xsd:string` | 是 | 姓氏。 |
+| 电子邮件 | `xsd:string` | 是 | 用户电子邮件。 |
+| defaultRole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但请注意， `IpsAdmin` 角色会覆盖其他按公司设置。 |
+| passwordExpires | `xsd:dateTime` | 否 | 设置的密码过期日期。 |
+| isValid | `xsd:boolean` | 是 | 确定用户是否为有效的IPS用户。 |
+| membersingArray | `types:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |
 
 **输出(setUserInfoReturn)**
 

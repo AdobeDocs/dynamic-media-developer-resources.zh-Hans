@@ -2,13 +2,13 @@
 description: 获取唯一的元数据字段值。
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 25%
+source-wordcount: '57'
+ht-degree: 28%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 25%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
-| `*`fieldHandle`*` | `xsd:string` | 否 | 处理元数据字段。 |
+| companyHandle | `xsd:string` | 是 | 对公司负责。 |
+| fieldHandle | `xsd:string` | 否 | 处理元数据字段。 |
 
 **Output(getUniqueMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`values`*` | `type:StringArray` |  |  |
+| values | `type:StringArray` |  |  |
 
 ## 示例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 

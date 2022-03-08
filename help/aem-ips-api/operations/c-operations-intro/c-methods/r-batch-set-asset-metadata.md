@@ -2,12 +2,12 @@
 description: 使用批处理模式设置资产元数据。
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 13%
 
 ---
@@ -33,18 +33,18 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要在批处理操作中设置其元数据的公司的句柄。 |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | 是 | 应用于资产的元数据更新数组。 |
+| companyHandle | `xsd:string` | 是 | 要在批处理操作中设置其元数据的公司的句柄。 |
+| updateArray | `types:BatchMetadataUpdateArray` | 是 | 应用于资产的元数据更新数组。 |
 
 **输出(batchSetAssetMetadataParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 成功设置元数据的数量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，该资产在操作尝试为资产批量设置元数据时会生成警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时，与生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 成功设置元数据的数量。 |
+| warningCount | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，该资产在操作尝试为资产批量设置元数据时会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时，与生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-2de798ac920e4b47b971b1729a64395b}
 

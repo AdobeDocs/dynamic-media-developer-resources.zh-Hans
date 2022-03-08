@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: 在服务器上运行的作业。 此外，它是计划作业的实例。
 solution: Experience Manager
-title: ActiveJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 8%
 
 在服务器上运行的作业。 此外，它是计划作业的实例。
 
-工作存在3种状态：
+就业有三种状态：
 
 * 已计划运行。
 * 当前正在运行。
 * 已完成运行（并已将信息写入作业日志）。
 
-指定要返回作业类型的作业类型值。 您可以返回以下作业：
+要返回作业类型，请指定作业类型值。 您可以返回以下作业：
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">随作业提交的<span class="codeph"> ActiveJob</span>类型的原始名称。 </td> 
+   <td colname="col3">的原始名称 <span class="codeph"> ActiveJob</span> 随作业一起提交的类型。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,12 +80,12 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为<span class="codeph"> &lt;languagecode&gt;[-&lt;countrycode&gt;]</span>，其中语言代码是ISO-639指定的小写字母双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。 例如，英语（美国）的区域设置字符串将为：<span class="codeph"> en-US</span>。 </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为 <span class="codeph"> &lt;language_code&gt;[-]&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写字母双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。 例如，英语（美国）的区域设置字符串将为： <span class="codeph"> 美洲</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业描述。 </td> 
+   <td colname="col3">最初在中指定的作业描述 <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -165,12 +165,12 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：UploadPostJob</span> </td> 
-   <td colname="col3"> 作业详细信息跟踪桌面上载。 </td> 
+   <td colname="col3"> 作业详细信息，跟踪桌面上载。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上传的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">导出作业</a>。 </td> 
+   <td colname="col3">允许授权导出以前上传的文件。 请参阅 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>. </td> 
   </tr> 
  </tbody> 
 </table>

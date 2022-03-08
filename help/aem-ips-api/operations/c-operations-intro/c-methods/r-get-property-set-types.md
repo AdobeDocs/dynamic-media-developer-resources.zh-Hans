@@ -2,13 +2,13 @@
 description: 获取与指定公司关联的属性集类型，或者获取与指定的公司关联的全局属性集类型。
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 14%
+source-wordcount: '113'
+ht-degree: 15%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | 是 | 与指定公司关联的属性集类型数组，或者如果未指定公司，则全局属性集类型。 |
+| typeArray | `types:PropertySetTypeArray` | 是 | 与指定公司关联的属性集类型数组，或者如果未指定公司，则全局属性集类型。 |
 
 ## 示例 {#section-280c406a90864409856aee44d4069a52}
 

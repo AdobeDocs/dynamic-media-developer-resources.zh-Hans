@@ -2,13 +2,13 @@
 description: 根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资产生成的资产的信息。 generateHandle返回有关用于生成指定资产或文件的步骤的信息。
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`代码短语`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`代码短语`*` | `xsd:string` | 否 | 一代中使用的引擎。 请参阅字体样式。 |
-| `*`代码短语`*` | `xsd:string` | 否 | 要查询已生成资产的资产的句柄。 |
-| `*`代码短语`*` | `xsd:string` | 否 | 用于查询在生成资产时使用的资产和引擎的资产句柄。 |
-| `*`代码短语`*` | `xsd:StringArray` | 否 | 操作中包含的属性。 |
-| `*`代码短语`*` | `xsd:StringArray` | 否 | 从操作中排除的属性。 |
+| 代码短语 | `xsd:string` | 是 | 公司的把手。 |
+| 代码短语 | `xsd:string` | 否 | 一代中使用的引擎。 请参阅字体样式。 |
+| 代码短语 | `xsd:string` | 否 | 要查询已生成资产的资产的句柄。 |
+| 代码短语 | `xsd:string` | 否 | 用于查询在生成资产时使用的资产和引擎的资产句柄。 |
+| 代码短语 | `xsd:StringArray` | 否 | 操作中包含的属性。 |
+| 代码短语 | `xsd:StringArray` | 否 | 从操作中排除的属性。 |
 
 **输出(getGenerationInfoReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | 是 | 生成信息的数组。 |
+| generationArray | `types:GenerationInfoArray` | 是 | 生成信息的数组。 |
 
 ## 示例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

@@ -2,13 +2,13 @@
 description: 创建文件夹。
 solution: Experience Manager
 title: 建立資料夾
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 18%
+source-wordcount: '118'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->新文件夹对于Images文件夹下属，即使您指定`/`来指示公司的根文件夹也是如此。
+>新文件夹对于Images文件夹下属，即使您指定 `/` 以指示公司的根。
 
 语法
 
@@ -41,14 +41,14 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对公司的处理 |
-| `*`folderPath`*` | `xsd:string` | 是 | 用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 |
+| companyHandle | `xsd:string` | 是 | 对公司的处理 |
+| folderPath | `xsd:string` | 是 | 用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 |
 
 **输出(createFolderParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 是 | 新文件夹的处理。 |
+| folderHandle | `xsd:string` | 是 | 新文件夹的处理。 |
 
 ## 示例 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

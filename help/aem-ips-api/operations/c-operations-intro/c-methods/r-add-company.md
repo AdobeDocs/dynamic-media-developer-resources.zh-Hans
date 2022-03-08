@@ -2,12 +2,12 @@
 description: 将公司添加到系统中。
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 发送要添加到系统的公司名称，并（可选）发送公司是否过期。
 
-调用此操作时，系统将获得`*`companyInfo`*`类型，其中包含公司句柄和描述性字段。 如果请求的公司名称在系统中已存在，则会引发`ipsApiFault`。
+调用此操作时，系统将获取一个companyInfo类型，其中包含公司句柄和描述性字段。 如果请求的公司名称在系统中已存在，则会引发 `ipsApiFault`.
 
 ## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
 

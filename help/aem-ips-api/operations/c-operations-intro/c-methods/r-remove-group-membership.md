@@ -2,12 +2,12 @@
 description: 从组数组中删除用户。
 solution: Experience Manager
 title: removeGroupMembership
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 10%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 否 | 要删除其组成员资格的公司的句柄。 |
-| `*`groupHandleArray`*` | `types:HandleArray` | 是 | 希望从中删除公司的组的句柄数组。 |
+| userHandle | `xsd:string` | 否 | 要删除其组成员资格的公司的句柄。 |
+| groupHandleArray | `types:HandleArray` | 是 | 希望从中删除公司的组的句柄数组。 |
 
 **输出(removeGroupMembershipReturn)**
 

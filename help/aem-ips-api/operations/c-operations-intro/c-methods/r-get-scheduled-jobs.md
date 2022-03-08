@@ -2,13 +2,13 @@
 description: 获取计划运行的作业。
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`jobHandle`*` | `xsd:string` | 否 | 作业处理。 |
-| `*`originalName`*` | `xsd:string` | 否 | `submitJob`指定的名称。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| jobHandle | `xsd:string` | 否 | 作业处理。 |
+| originalName | `xsd:string` | 否 | 指定的名称 `submitJob`. |
 
 **Output(getScheduledJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | 是 | 计划作业的数组。 |
+| jobArray | `types:ScheduledJobArray` | 是 | 计划作业的数组。 |
 
 ## 示例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 

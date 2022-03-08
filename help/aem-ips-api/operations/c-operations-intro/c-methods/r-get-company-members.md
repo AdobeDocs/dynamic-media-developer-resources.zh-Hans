@@ -2,12 +2,12 @@
 description: 返回由公司句柄指定的公司的用户。
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其成员的公司的句柄。 |
-| `*`includeInvalid`*` | `xsd:boolean` | 是 | 包括无效公司。 |
+| companyHandle | `xsd:string` | 是 | 要获取其成员的公司的句柄。 |
+| includeInvalid | `xsd:boolean` | 是 | 包括无效公司。 |
 
 **Output(getCompanyMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | 是 | 用户成员资格数组。 |
+| memberArray | `types:CompanyMemberArray` | 是 | 用户成员资格数组。 |
 
 ## 示例 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

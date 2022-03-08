@@ -2,13 +2,13 @@
 description: 创建图像集。
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic，SDK/API，图像集
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 14%
+source-wordcount: '136'
+ht-degree: 15%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 图像集所属公司的句柄。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 文件夹的句柄。 |
-| `*`name`*` | `xsd:string` | 是 | 图像集名称。 |
-| `*`类型`*` | `xsd:string` | 是 | 图像集类型。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作新图像集缩略图的资产处理。 如果未指定，IPS会尝试使用该集引用的第一个图像资产。 |
+| companyHandle | `xsd:string` | 是 | 图像集所属公司的句柄。 |
+| folderHandle | `xsd:string` | 是 | 文件夹的句柄。 |
+| name | `xsd:string` | 是 | 图像集名称。 |
+| 类型 | `xsd:string` | 是 | 图像集类型。 |
+| thumbAssetHandle | `xsd:string` | 否 | 用作新图像集缩略图的资产处理。 如果未指定，IPS会尝试使用该集引用的第一个图像资产。 |
 
 **输出**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 是 | 新图像集的句柄。 |
+| assetHandle | `xsd:string` | 是 | 新图像集的句柄。 |
 
 ## 示例 {#section-385fe3b0af8044b0a2451336ec137fc5}
 

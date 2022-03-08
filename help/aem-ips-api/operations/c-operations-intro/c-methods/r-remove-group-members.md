@@ -2,13 +2,13 @@
 description: 从特定组中删除公司用户。
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 与您要处理的用户一起处理公司的句柄。 |
-| `*`groupHandle`*` | `xsd:string` | 是 | 组句柄。 |
-| `*`userHandleArray`*` | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
+| companyHandle | `xsd:string` | 是 | 与您要处理的用户一起处理公司的句柄。 |
+| groupHandle | `xsd:string` | 是 | 组句柄。 |
+| userHandleArray | `types:HandleArray` | 是 | 要删除组成员关系的用户的句柄数组。 |
 
 **输出(removeGroupMembersParam)**
 

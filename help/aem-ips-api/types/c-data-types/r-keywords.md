@@ -2,13 +2,13 @@
 description: 关键字
 solution: Experience Manager
 title: 关键字
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 32%
+source-wordcount: '41'
+ht-degree: 36%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`关键词`*` | `xsd:string` | 关键词. |
-| `*`状态`*` | `xsd:boolean` | 关键词有效性。 |
-| `*`x`*` | `xsd:int` | 关键字在x轴上的位置（以像素为单位）。 |
-| `*`y`*` | `xsd:int` | 关键字在y轴上的位置（以像素为单位）。 |
-| `*`width`*` | `xsd:int` | 关键字宽度（以像素为单位）。 |
-| `*`height`*` | `xsd:int` | 关键字高度（以像素为单位）。 |
+| 关键词 | `xsd:string` | 关键词. |
+| 状态 | `xsd:boolean` | 关键词有效性。 |
+| x | `xsd:int` | 关键字在x轴上的位置（以像素为单位）。 |
+| y | `xsd:int` | 关键字在y轴上的位置（以像素为单位）。 |
+| 宽度 | `xsd:int` | 关键字宽度（以像素为单位）。 |
+| 高度 | `xsd:int` | 关键字高度（以像素为单位）。 |

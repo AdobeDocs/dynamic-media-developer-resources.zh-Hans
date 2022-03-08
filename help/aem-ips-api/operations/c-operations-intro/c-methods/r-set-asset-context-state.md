@@ -2,13 +2,13 @@
 description: 为一个或多个资产设置或更新发布状态。 您可以为公司中的每个发布上下文设置单独的发布状态。
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
@@ -38,21 +38,21 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 是 | 资产数组及其新发布状态。 |
+| companyHandle | `xsd:string` | 是 | 对公司负责。 |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | 是 | 资产数组及其新发布状态。 |
 
 **输出(setAssetsContexStateReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功更改的资产数量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试修改资产时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 资产在操作尝试修改资产时生成的错误数组。 |
+| successCount | `xsd:int` | 是 | 已成功更改的资产数量。 |
+| warningCount | `xsd:int` | 是 | 操作尝试修改资产时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试修改资产时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 资产在操作尝试修改资产时生成的错误数组。 |
 
 ## 示例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此代码示例使用`NotMarkedForPublish`设置资产的发布状态。
+此代码示例使用 `NotMarkedForPublish`.
 
 **请求**
 

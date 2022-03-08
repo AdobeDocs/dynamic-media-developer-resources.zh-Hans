@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -39,19 +39,19 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要从中获取新资产的资产的公司句柄。 |
-| `*`ownerHandle`*` | `xsd:string` | 是 | 从中派生新图像的主图像资产的句柄。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 创建新派生资产的文件夹的句柄。 |
-| `*`name`*` | `xsd:string` | 是 | 派生资产的名称。 |
-| `*`类型`*` | `xsd:string` | 是 | 新派生资产的资产类型： `AdjustedView` 或 `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | 否 | 应用图像提供或图像呈现协议命令 *之前* 请求或 `urlPostApplyModifier` 中。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 应用图像提供或图像呈现协议命令 *after* 请求或 `urlPostApplyModifier` 中。 |
+| companyHandle | `xsd:string` | 是 | 包含要从中获取新资产的资产的公司句柄。 |
+| ownerHandle | `xsd:string` | 是 | 从中派生新图像的主图像资产的句柄。 |
+| folderHandle | `xsd:string` | 是 | 创建新派生资产的文件夹的句柄。 |
+| name | `xsd:string` | 是 | 派生资产的名称。 |
+| 类型 | `xsd:string` | 是 | 新派生资产的资产类型： `AdjustedView` 或 `LayerView`. |
+| urlModifier | `xsd:string` | 否 | 应用图像提供或图像呈现协议命令 *之前* 请求或 `urlPostApplyModifier` 中。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 应用图像提供或图像呈现协议命令 *after* 请求或 `urlPostApplyModifier` 中。 |
 
 **输出(createDerivedAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 是 | 派生资产的句柄。 |
+| assetHandle | `xsd:string` | 是 | 派生资产的句柄。 |
 
 ## 示例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

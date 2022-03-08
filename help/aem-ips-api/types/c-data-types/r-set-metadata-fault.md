@@ -2,13 +2,13 @@
 description: batchSetAssetMetadata操作中的新更新的警告或错误详细信息。
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ batchSetAssetMetadata操作中的新更新的警告或错误详细信息。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 元数据设置失败的资产。 |
-| `*`fieldHandle`*` | `xsd:string` | 其值设置失败的元数据字段的句柄。 |
-| `*`代码`*` | `xsd:int` | 故障代码。 |
-| `*`原因`*` | `xsd:string` | 错误描述（纯文本）。 |
+| assetHandle | `xsd:string` | 元数据设置失败的资产。 |
+| fieldHandle | `xsd:string` | 其值设置失败的元数据字段的句柄。 |
+| 代码 | `xsd:int` | 故障代码。 |
+| 原因 | `xsd:string` | 错误描述（纯文本）。 |

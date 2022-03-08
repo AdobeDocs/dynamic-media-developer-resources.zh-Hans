@@ -2,12 +2,12 @@
 description: 使用权限资产设置单个资产的权限。
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '125'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 使用权限资产设置单个资产的权限。
 
-默认情况下，资产会继承其父文件夹的权限。 在资产上设置权限后，资产将不再继承其父资产的权限，除非您调用`removeAssetPermissions`。
+默认情况下，资产会继承其父文件夹的权限。 对资产设置权限后，资产将不再继承其父资产的权限，除非您调用 `removeAssetPermissions`.
 
 ## 授权用户类型 {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -30,9 +30,9 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要处理的文件夹的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 是 | 权限阵列。 |
+| companyHandle | `xsd:string` | 是 | 包含要处理的文件夹的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 文件夹句柄。 |
+| permissionArray | `types:PermissionsUpdateArray` | 是 | 权限阵列。 |
 
 **输出(setAssetPermissonsReturn)**
 

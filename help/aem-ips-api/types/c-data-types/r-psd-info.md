@@ -2,13 +2,13 @@
 description: Photoshop文件属性。
 solution: Experience Manager
 title: PsdInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 620cf7a3-ae69-4d1e-af3d-64fe7f0302c8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 33%
+source-wordcount: '28'
+ht-degree: 39%
 
 ---
 
@@ -22,8 +22,8 @@ Photoshop文件属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 文件路径。 |
-| `*`originalFile`*` | `xsd:string` | 文件名. |
-| `*`optimizedPath`*` | `xsd:string` | 文件路径。 |
-| `*`optimizedFile`*` | `xsd:string` | 文件名. |
-| `*`fileSize`*` | `xsd:int` | 文件大小. |
+| originalPath | `xsd:string` | 文件路径。 |
+| originalFile | `xsd:string` | 文件名. |
+| optimizedPath | `xsd:string` | 文件路径。 |
+| optimizedFile | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小. |

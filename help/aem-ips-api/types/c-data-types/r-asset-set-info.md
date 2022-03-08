@@ -2,13 +2,13 @@
 description: 资产集类型资产的属性。
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | 资产集定义，根据目标IS查看器的要求进行格式设置。 可以包含可选的IPS替换参数。 |
+| setDefinition | `xsd:string` | 资产集定义，根据目标IS查看器的要求进行格式设置。 可以包含可选的IPS替换参数。 |

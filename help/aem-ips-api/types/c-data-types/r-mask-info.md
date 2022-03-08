@@ -2,13 +2,13 @@
 description: 掩盖文件属性。
 solution: Experience Manager
 title: 掩码信息
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 19%
+source-wordcount: '21'
+ht-degree: 23%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 19%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`maskPath`*` | `xsd:string` | 掩码文件路径。 |
-| `*`maskFile`*` | `xsd:string` | 掩码文件名。 |
+| maskPath | `xsd:string` | 掩码文件路径。 |
+| maskFile | `xsd:string` | 掩码文件名。 |

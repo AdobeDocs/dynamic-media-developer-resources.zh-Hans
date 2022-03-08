@@ -2,13 +2,13 @@
 description: PowerPoint文件选项。
 solution: Experience Manager
 title: PowerPointInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 33%
+source-wordcount: '22'
+ht-degree: 40%
 
 ---
 
@@ -22,6 +22,6 @@ PowerPoint文件选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 文件路径。 |
-| `*`originalFile`*` | `xsd:string` | 文件名. |
-| `*`fileSize`*` | `xsd:int` | 文件大小. |
+| originalPath | `xsd:string` | 文件路径。 |
+| originalFile | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小. |

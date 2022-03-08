@@ -2,13 +2,13 @@
 description: 将文件发布到图像服务器。
 solution: Experience Manager
 title: ImageServingPublishJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`publishType`*` | `xsd:string` | 可用的发布类型之一。 |
-| `*`emailSetting`*` | `xsd:string` | 选择电子邮件设置。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 用于发送完成通知的URL。 |
+| publishType | `xsd:string` | 可用的发布类型之一。 |
+| emailSetting | `xsd:string` | 选择电子邮件设置。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |

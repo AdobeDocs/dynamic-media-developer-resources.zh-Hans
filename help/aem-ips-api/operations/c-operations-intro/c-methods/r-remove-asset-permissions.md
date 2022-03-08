@@ -2,13 +2,13 @@
 description: 删除选定资产的权限。
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '68'
+ht-degree: 17%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 具有您要删除的权限的资产的句柄。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| assetHandle | `xsd:string` | 是 | 具有您要删除的权限的资产的句柄。 |
 
 **Output(removeAssetPermissionsReturn)**
 

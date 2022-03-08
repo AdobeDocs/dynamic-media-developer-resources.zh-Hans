@@ -1,20 +1,20 @@
 ---
-description: GIF动画文件资产的属性。
-solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic，SDK/API
+description: 动画GIF文件资产的属性。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 31%
+source-wordcount: '55'
+ht-degree: 34%
 
 ---
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-GIF动画文件资产的属性。
+动画GIF文件资产的属性。
 
 语法
 

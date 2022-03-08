@@ -1,14 +1,14 @@
 ---
+title: emptyAssetsFromTrashe
 description: 清空IPS垃圾桶中的资产。
 solution: Experience Manager
-title: emptyAssetsFromTrashe
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '258'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 7%
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
 
 ## 参数 {#section-8e1fb0ee3aae453581e99ef76e298569}
 
@@ -34,18 +33,18 @@ ht-degree: 7%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 拥有资产的公司的句柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 表示要从垃圾桶中清空的项目的句柄数组。 |
+| companyHandle | xsd:string | 是 | 拥有资产的公司的句柄。 |
+| assetHandleArray | 类型：HandleArray | 是 | 表示要从垃圾桶中清空的项目的句柄数组。 |
 
 **输出(emptyAssetsFromTrasheParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | 是 | 成功从垃圾桶清空的资产数。 |
-| `*`warningCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资产时生成的警告数。 |
-| `*`errorCount`*` | `xsd:Int` | 是 | 操作尝试从垃圾桶中清空资产时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成错误。 |
+| successCount | xsd:Int | 是 | 成功从垃圾桶清空的资产数。 |
+| warningCount | xsd:Int | 是 | 操作尝试从垃圾桶中清空资产时生成的警告数。 |
+| errorCount | xsd:Int | 是 | 操作尝试从垃圾桶中清空资产时生成的错误数。 |
+| warningDetailArray | 类型：AssetOperationFaultArray | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成警告。 |
+| errorDetailArray | 类型：AssetOperationFaultArray | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成错误。 |
 
 ## 示例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
@@ -54,7 +53,7 @@ ht-degree: 7%
 **请求**
 
 ```java
-<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <companyHandle>c|6</companyHandle>
    <assetHandleArray>
       <items>a|942|1|579</items>
@@ -66,7 +65,7 @@ ht-degree: 7%
 **响应**
 
 ```java
-<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <successCount>2</successCount>
    <warningCount>0</warningCount>
    <errorCount>0</errorCount>

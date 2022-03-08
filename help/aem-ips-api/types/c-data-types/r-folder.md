@@ -2,13 +2,13 @@
 description: 分层文件或资产存储对象。 文件夹可以包含一个（或多个）子文件夹。
 solution: Experience Manager
 title: 文件夹
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 10%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 文件夹句柄。 |
-| `*`路径`*` | `xsd:string` | 文件夹路径。 |
-| `*`lastModified`*` | `xsd:dateTime` | 上次修改日期。 |
-| `*`childLastModified`*` | `xsd:dateTime` | 子文件夹和文件夹子资产的上次修改日期。 |
-| `*`permissionsSetHandle`*` | `xsd:string` | 文件夹权限句柄。 |
-| `*`hasSubfolder`*` | `types:Boolean` | 确定文件夹是否包含子文件夹。 |
-| `*`subfolderArray`*` | `types:FolderArray` | 文件夹中的子文件夹数组。 |
+| folderHandle | `xsd:string` | 文件夹句柄。 |
+| 路径 | `xsd:string` | 文件夹路径。 |
+| lastModified | `xsd:dateTime` | 上次修改日期。 |
+| childLastModified | `xsd:dateTime` | 子文件夹和文件夹子资产的上次修改日期。 |
+| permissionsSetHandle | `xsd:string` | 文件夹权限句柄。 |
+| hasSubfolder | `types:Boolean` | 确定文件夹是否包含子文件夹。 |
+| subfolderArray | `types:FolderArray` | 文件夹中的子文件夹数组。 |

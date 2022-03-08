@@ -2,13 +2,13 @@
 description: 将文件夹移到新位置。
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 26%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 文件夹句柄。 |
-| `*`destFolderHandle`*` | `xsd:string` | 是 | 处理到目标文件夹。 |
+| companyHandle | `xsd:string` | 是 | 对公司负责。 |
+| folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
+| destFolderHandle | `xsd:string` | 是 | 处理到目标文件夹。 |
 
 **输出(moveFolderReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 是 | 处理已移动的文件夹。 |
+| folderHandle | `xsd:string` | 是 | 处理已移动的文件夹。 |
 
 ## 示例 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

@@ -2,13 +2,13 @@
 description: 获取数组中的所有用户。
 solution: Experience Manager
 title: getAllUsers
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 22%
+source-wordcount: '70'
+ht-degree: 24%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 22%
    <td colname="col3"> 是 </td> 
    <td colname="col4">设置为： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> 包含无效用户。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falleto忽略无效用户。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 包含无效用户。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 以忽略无效用户。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,8 +56,8 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | 是 | 所有用户的数组。 |
-| `*`代码短语`*` | `Code Phrase` |  |  |
+| userArray | `types:UserArray` | 是 | 所有用户的数组。 |
+| 代码短语 | `Code Phrase` |  |  |
 
 ## 示例 {#section-9c9a2d335513478da20652c1b1443731}
 

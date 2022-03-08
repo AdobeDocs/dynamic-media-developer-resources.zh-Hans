@@ -2,13 +2,13 @@
 description: 替换图像资产的图像数据。
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 15%
+source-wordcount: '103'
+ht-degree: 16%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 是 | 包含要替换的图像的公司句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 要替换的资产的句柄。 |
-| `*`urlModifier`*` | `xsd:string` | 是 | 生成新图像数据的图像服务器命令。 |
+| companyName | `xsd:string` | 是 | 包含要替换的图像的公司句柄。 |
+| assetHandle | `xsd:string` | 是 | 要替换的资产的句柄。 |
+| urlModifier | `xsd:string` | 是 | 生成新图像数据的图像服务器命令。 |
 
 **输出(replaceImageReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 是 | 处理新资产。 |
+| assetHandle | `xsd:string` | 是 | 处理新资产。 |
 
 ## 示例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-此代码示例替换了一个图像，并使用命令应用`urlModifier` ，该命令指定在替换时图像服务器将不采取任何操作。
+此代码示例替换图像并应用 `urlModifier` 命令指定在替换时图像服务器不会执行任何操作。
 
 **请求**
 

@@ -2,12 +2,12 @@
 description: 创建一个预设视图，以确定用户可以查看的内容。 IPS中可提供任何类型的查看器。 资产发布后，将应用预设视图。
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic，SDK/API，查看器预设
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 13%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含查看器预设和资产的公司句柄。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
-| `*`name`*` | `xsd:string` | 是 | 查看器名称。 |
-| `*`类型`*` | `xsd:string` | 是 | 查看器类型. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 否 | 一个数组，其中包含要应用预设的图像的名称、值和句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含查看器预设和资产的公司句柄。 |
+| folderHandle | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
+| name | `xsd:string` | 是 | 查看器名称。 |
+| 类型 | `xsd:string` | 是 | 查看器类型. |
+| configSettingArray | `types:ConfigSettingArray` | 否 | 一个数组，其中包含要应用预设的图像的名称、值和句柄。 |
 
 **Output(createViewerPresetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | 是 | 将预设处理到查看器。 |
+| viewerPresetHandle | `xsd:string` | 是 | 将预设处理到查看器。 |
 
 ## 示例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 

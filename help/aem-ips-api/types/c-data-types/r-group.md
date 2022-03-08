@@ -2,13 +2,13 @@
 description: 用于分配权限的已命名用户集。
 solution: Experience Manager
 title: 群組
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 组句柄。 |
-| `*`companyHandle`*` | `xsd:string` | 公司负责人。 |
-| `*`name`*` | `xsd:string` | 群组名称. |
-| `*`is SystemDefined`*` | `xsd:string` | 组是否由系统定义。 |
+| groupHandle | `xsd:string` | 组句柄。 |
+| companyHandle | `xsd:string` | 公司负责人。 |
+| name | `xsd:string` | 群组名称. |
+| is SystemDefined | `xsd:string` | 组是否由系统定义。 |

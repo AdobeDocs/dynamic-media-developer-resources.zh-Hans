@@ -1,14 +1,14 @@
 ---
+title: AssetJobLog
 description: 与特定资产关联的作业日志条目的详细信息。 getAssetJobLogs返回的数据。
 solution: Experience Manager
-title: AssetJobLog
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 15%
+source-wordcount: '105'
+ht-degree: 16%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 15%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志中的消息。 <p><span class="codeph"> </span> logMessageresponse字段根据authHeaderlocale字段进 <span class="codeph"> </span> 行本地化。 </p></td> 
+   <td colname="col3">作业日志中的消息。 <p><span class="codeph"> logMessage</span> 响应字段基于 <span class="codeph"> authHeader</span> 区域设置字段。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 

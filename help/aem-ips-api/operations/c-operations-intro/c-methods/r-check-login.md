@@ -2,13 +2,13 @@
 description: 检查具有特定公司（由句柄标识）、电子邮件地址和密码的用户是否可以登录。
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 12%
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 包含用户的公司的句柄。 |
-| `*`电子邮件`*` | `xsd:string` | 是 | 用户的电子邮件地址。 |
-| `*`密码`*` | `xsd:string` | 是 | 用户的密码。 |
+| companyHandle | `xsd:string` | 否 | 包含用户的公司的句柄。 |
+| 电子邮件 | `xsd:string` | 是 | 用户的电子邮件地址。 |
+| 密码 | `xsd:string` | 是 | 用户的密码。 |
 
 **输出(checkLoginParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`状态`*` | `xsd:string` | 是 | 用户的登录状态。 |
+| 状态 | `xsd:string` | 是 | 用户的登录状态。 |
 
 ## 示例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录到IPS。 如果用户&#x200B;*可以*&#x200B;登录，此方法将返回字符串`ValidLogin`。 如果用户&#x200B;*无法*&#x200B;登录，此方法将返回字符串`InvalidLogin`。
+此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录到IPS。 如果用户 *can* 登录，此方法将返回字符串， `ValidLogin`. 如果用户 *无法* 登录，此方法将返回字符串， `InvalidLogin`.
 
 **请求**
 

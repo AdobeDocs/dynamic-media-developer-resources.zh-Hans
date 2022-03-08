@@ -2,13 +2,13 @@
 description: 将文件发布到图像渲染服务器。
 solution: Experience Manager
 title: ImageRenderingPublishJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 选择电子邮件设置。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 用于发送完成通知的URL。 |
-| `*`contextHandle`*` | `xsd:string` | 处理发布上下文。 |
+| emailSetting | `xsd:string` | 选择电子邮件设置。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |
+| contextHandle | `xsd:string` | 处理发布上下文。 |

@@ -2,13 +2,13 @@
 description: 创建新项目。
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '76'
+ht-degree: 19%
 
 ---
 
@@ -33,18 +33,18 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 与新项目关联的公司的句柄。 |
-| `*`projectName`*` | `xsd:string` | 是 | 新项目名称。 |
+| companyHandle | `xsd:string` | 是 | 与新项目关联的公司的句柄。 |
+| projectName | `xsd:string` | 是 | 新项目名称。 |
 
 **输出(createProjectParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | 是 | 新项目的句柄。 |
+| projectHandle | `xsd:string` | 是 | 新项目的句柄。 |
 
 ## 示例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此代码示例在由其句柄指定的公司中创建一个名为`ApiTestProject`的项目。 响应会将句柄返回到项目。
+此代码示例将创建一个名为 `ApiTestProject` 在其句柄指定的公司中。 响应会将句柄返回到项目。
 
 **请求**
 

@@ -2,12 +2,12 @@
 description: 创建可具有多个文本层和图像层的分层图像。
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 创建可具有多个文本层和图像层的分层图像。
 
-`urlModifier`参数指定存储在图像服务器目录中的图像服务器协议命令，该命令应用于URL上任何用户提供的命令之前。 `urlPostApplyModifier`参数指定在任何URL命令之后应用的协议命令，这将覆盖用户提供的任何冲突设置。
+的 `urlModifier` 参数指定在URL上任何用户提供的命令之前应用的图像服务器目录中存储的图像服务器协议命令。 的 `urlPostApplyModifier` 参数指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。
 
 ## 授权用户类型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,22 +32,22 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 模板所属的公司。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
-| `*`name`*` | `xsd:string` | 是 | 模板名称。 |
-| `*`类型`*` | `xsd:string` | 是 | 模板类型。 |
-| `*`urlModifier`*` | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在URL上任何用户提供的命令之前应用。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
+| companyHandle | `xsd:string` | 是 | 模板所属的公司。 |
+| folderHandle | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
+| name | `xsd:string` | 是 | 模板名称。 |
+| 类型 | `xsd:string` | 是 | 模板类型。 |
+| urlModifier | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在URL上任何用户提供的命令之前应用。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
 
 **输出(createTemplateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 是 | 模板的句柄。 |
+| assetHandle | `xsd:string` | 是 | 模板的句柄。 |
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代码示例在句柄指定的文件夹中创建一个模板，名称为`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`。 响应会将句柄返回到新创建的模板。
+此代码示例在句柄指定的文件夹中创建一个模板，其名称为 `APIcreateTemplate`, a `urlModifier`和 `urlPostApplyModifier`. 响应会将句柄返回到新创建的模板。
 
 **请求**
 

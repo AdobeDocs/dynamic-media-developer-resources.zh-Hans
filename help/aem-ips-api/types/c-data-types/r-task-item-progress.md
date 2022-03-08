@@ -2,13 +2,13 @@
 description: 任务项进度信息。
 solution: Experience Manager
 title: TaskItemProgress
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 568a5601-b928-447d-8297-01139f36cf73
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`itemName`*` | `xsd:string` | 正在处理的项目的名称。 |
-| `*`progress`*` | `xsd:double` | 进度完成%。 |
-| `*`progressMessage`*` | `xsd:string` | 处理消息。 |
-| `*`lastProgressUpdate`*` | `xsd:dateTime` | 上次更新的时间。 |
+| itemName | `xsd:string` | 正在处理的项目的名称。 |
+| progress | `xsd:double` | 进度完成%。 |
+| progressMessage | `xsd:string` | 处理消息。 |
+| lastProgressUpdate | `xsd:dateTime` | 上次更新的时间。 |

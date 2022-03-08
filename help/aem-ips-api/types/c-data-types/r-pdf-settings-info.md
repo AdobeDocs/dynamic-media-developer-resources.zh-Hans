@@ -2,13 +2,13 @@
 description: PDF设置文件资产的属性。
 solution: Experience Manager
 title: PdfSettingsInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 24%
+source-wordcount: '32'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,6 @@ PDF设置文件资产的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 文件路径。 |
-| `*`originalFile`*` | `xsd:string` | 文件名. |
-| `*`fileSize`*` | `xsd:int` | 文件大小. |
+| originalPath | `xsd:string` | 文件路径。 |
+| originalFile | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小. |

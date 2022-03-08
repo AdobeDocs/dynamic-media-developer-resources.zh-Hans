@@ -2,13 +2,13 @@
 description: 删除缩放目标。
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 缩放目标所属公司的句柄。 |
-| `*`zoomTargetHandle`*` | `xsd:string` | 是 | 要删除的缩放目标的句柄。 |
+| companyHandle | `xsd:string` | 是 | 缩放目标所属公司的句柄。 |
+| zoomTargetHandle | `xsd:string` | 是 | 要删除的缩放目标的句柄。 |
 
 **输出(deleteZoomTargetParam)**
 

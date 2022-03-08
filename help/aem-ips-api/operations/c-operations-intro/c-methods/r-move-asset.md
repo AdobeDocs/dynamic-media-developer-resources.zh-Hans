@@ -2,13 +2,13 @@
 description: 将资产移动到特定文件夹。
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 对公司负责。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 处理要移动的资产。 |
-| `*`folderHandle`*` | `xsd:string` | 是 | 处理到目标文件夹。 |
+| companyHandle | `xsd:string` | 是 | 对公司负责。 |
+| assetHandle | `xsd:string` | 是 | 处理要移动的资产。 |
+| folderHandle | `xsd:string` | 是 | 处理到目标文件夹。 |
 
 **输出(moveAssetReturn)**
 

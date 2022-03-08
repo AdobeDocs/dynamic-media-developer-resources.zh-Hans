@@ -2,13 +2,13 @@
 description: 获取为一个或多个标记字段定义的所有标记字典值。
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 18%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
-| `*`fieldHandleArray`*` | `types:HandleArray` | 是 | 要返回的标记值的字段句柄数组。 |
+| companyHandle | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| fieldHandleArray | `types:HandleArray` | 是 | 要返回的标记值的字段句柄数组。 |
 
 **Output(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值数组。 |
+| fieldArray | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值数组。 |
 
 ## 示例 {#section-4492742614e44bb191a7d397dc1a1407}
 

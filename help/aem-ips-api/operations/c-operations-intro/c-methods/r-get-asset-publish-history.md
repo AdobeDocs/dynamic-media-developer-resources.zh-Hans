@@ -2,13 +2,13 @@
 description: 返回资产的发布历史记录。
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 具有资产发布历史记录的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 包含要检查的发布历史记录的资产。 |
+| companyHandle | `xsd:string` | 是 | 具有资产发布历史记录的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 包含要检查的发布历史记录的资产。 |
 
 **输出(getAssetPublishHistoryReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | 是 | 资产的发布历史记录。 |
+| pubHistoryArray | `types:PublishHistoryArray` | 是 | 资产的发布历史记录。 |
 
 ## 示例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

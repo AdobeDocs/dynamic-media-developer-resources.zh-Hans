@@ -2,13 +2,13 @@
 description: 将文件发布到配置的视频发布服务器。
 solution: Experience Manager
 title: VideoPublishJob
-feature: Dynamic Media Classic，SDK/API，视频
+feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 10%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 选择电子邮件设置。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 用于发送完成通知的URL。 |
-| `*`contextHandle`*` | `xsd:string` | 处理发布上下文。 |
+| emailSetting | `xsd:string` | 选择电子邮件设置。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |
+| contextHandle | `xsd:string` | 处理发布上下文。 |

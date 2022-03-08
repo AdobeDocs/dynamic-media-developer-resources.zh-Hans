@@ -2,13 +2,13 @@
 description: 使用公司句柄获取资产集类型和资产集类型的名称。 它将获得一个类型结构，该结构具有类型和属性类型的句柄。
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 否 | 公司的把手。 可选，因为资产集类型可以属于多个公司。 |
-| `*`name`*` | `xsd:string` | 是 | 属性集类型名称。 |
+| companyHandle | `xsd:string` | 否 | 公司的把手。 可选，因为资产集类型可以属于多个公司。 |
+| name | `xsd:string` | 是 | 属性集类型名称。 |
 
 **Output(getPropertySetTypeReturn)**
 

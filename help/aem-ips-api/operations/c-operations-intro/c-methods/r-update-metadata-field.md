@@ -2,13 +2,13 @@
 description: 更新字段元数据。
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 21%
+source-wordcount: '153'
+ht-degree: 22%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 21%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -87,7 +87,7 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 是 | 元数据字段句柄。 |
+| fieldHandle | `xsd:string` | 是 | 元数据字段句柄。 |
 
 ## 示例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 

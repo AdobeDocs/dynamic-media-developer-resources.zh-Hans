@@ -2,13 +2,13 @@
 description: 缩放目标的属性。
 solution: Experience Manager
 title: 缩放目标
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 14%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | 缩放目标手柄。 |
-| `*`name`*` | `xsd:string` | 缩放目标名称。 |
-| `*`xPosition`*` | `xsd:int` | 缩放目标的X位置。 |
-| `*`yPosition`*` | `xsd:int` | 缩放目标的Y位置。 |
-| `*`width`*` | `xsd:int` | 缩放目标宽度。 |
-| `*`height`*` | `xsd:int` | 缩放目标高度。 |
-| `*`用户数据`*` | `xsd:string` | 与缩放目标关联的用户数据。 |
-| `*`position`*` | `xsd:int` | 允许根据位置对与资产关联的缩放目标进行排序 |
-| `*`lastModified`*` | `xsd:dateTime` | 上次修改日期。 |
+| zoomTargetHandle | `xsd:string` | 缩放目标手柄。 |
+| name | `xsd:string` | 缩放目标名称。 |
+| xPosition | `xsd:int` | 缩放目标的X位置。 |
+| yPosition | `xsd:int` | 缩放目标的Y位置。 |
+| 宽度 | `xsd:int` | 缩放目标宽度。 |
+| 高度 | `xsd:int` | 缩放目标高度。 |
+| 用户数据 | `xsd:string` | 与缩放目标关联的用户数据。 |
+| position | `xsd:int` | 允许根据位置对与资产关联的缩放目标进行排序 |
+| lastModified | `xsd:dateTime` | 上次修改日期。 |

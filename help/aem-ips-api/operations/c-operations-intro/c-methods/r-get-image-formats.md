@@ -2,13 +2,13 @@
 description: 返回图像格式，如PDF、EPS、SWF等。
 solution: Experience Manager
 title: getImageFormats
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '74'
+ht-degree: 20%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要获取的图像格式的公司句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含您要获取的图像格式的公司句柄。 |
 
 **输出(getImageFormatsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`imageFormatArray`*` | `types:ImageFormatArray` | 是 | 图像格式数组。 |
+| imageFormatArray | `types:ImageFormatArray` | 是 | 图像格式数组。 |
 
 ## 示例 {#section-73881e12839b4904bf3299b0920bdd0c}
 

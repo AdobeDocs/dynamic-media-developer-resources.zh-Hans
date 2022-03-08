@@ -2,13 +2,13 @@
 description: 仅由Dynamic Media开发人员使用。
 solution: Experience Manager
 title: 配置设置
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 19%
+source-wordcount: '31'
+ht-degree: 25%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 19%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 配置名称。 |
-| `*`值`*` | `xsd:string` | 配置值。 |
-| `*`处理`*` | `xsd:string` | 对存储的配置的句柄。 |
+| name | `xsd:string` | 配置名称。 |
+| 价值 | `xsd:string` | 配置值。 |
+| 处理 | `xsd:string` | 对存储的配置的句柄。 |

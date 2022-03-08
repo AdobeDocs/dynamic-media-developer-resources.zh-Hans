@@ -1,14 +1,14 @@
 ---
+title: AssetMetadataFields
 description: 返回指定资产类型的元数据字段定义。
 solution: Experience Manager
-title: AssetMetadataFields
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ad2a45fc-1f30-4b8b-be7c-84cc60c7bd4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`assetType`*` | `xsd:string` | 与字段定义关联的资产类型（有关值，请参阅“资产类型”）。 |
-| `*`fieldArray`*` | `types:MetadataFieldArray` | 与`assetType`中指定的资产类型关联的元数据字段定义数组。 |
+| assetType | `xsd:string` | 与字段定义关联的资产类型（有关值，请参阅“资产类型”）。 |
+| fieldArray | `types:MetadataFieldArray` | 与中指定的资产类型关联的元数据字段定义数组 `assetType`. |

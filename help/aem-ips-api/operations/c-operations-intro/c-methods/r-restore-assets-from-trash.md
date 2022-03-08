@@ -2,12 +2,12 @@
 description: 从垃圾桶还原资产。
 solution: Experience Manager
 title: restoreAssetsFromTrashe
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 12%
 
 ---
@@ -33,18 +33,18 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含您要恢复的资产的公司的句柄。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要恢复的资产的句柄数组。 |
+| companyHandle | `xsd:string` | 是 | 包含您要恢复的资产的公司的句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要恢复的资产的句柄数组。 |
 
 **输出(restoreAssetsFromTrasheReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 从垃圾桶中成功删除的资产数量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试从垃圾桶中恢复资产时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 尝试从垃圾桶还原资产时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶还原资产时，资产会生成警告。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与在操作尝试从垃圾桶还原资产时生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 从垃圾桶中成功删除的资产数量。 |
+| warningCount | `xsd:int` | 是 | 操作尝试从垃圾桶中恢复资产时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 尝试从垃圾桶还原资产时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶还原资产时，资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与在操作尝试从垃圾桶还原资产时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-98fe0394b0634ca397c395f14f8a9358}
 

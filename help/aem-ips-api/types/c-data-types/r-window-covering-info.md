@@ -2,13 +2,13 @@
 description: 覆盖文件的窗口的属性。
 solution: Experience Manager
 title: WindowCoveringInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 15%
+source-wordcount: '52'
+ht-degree: 17%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 文件路径。 |
-| `*`originalFile`*` | `xsd:string` | 文件名. |
-| `*`fileSize`*` | `xsd:int` | 文件大小. |
-| `*`imagePath`*` | `xsd:string` | 图像的相对路径。 |
-| `*`imageFile`*` | `xsd:string` | 覆盖图像的窗口的文件名。 |
-| `*`optimizedPath`*` | `xsd:string` | 优化了文件路径。 |
-| `*`optimizedFile`*` | `xsd:string` | 优化的文件名。 |
+| originalPath | `xsd:string` | 文件路径。 |
+| originalFile | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小. |
+| imagePath | `xsd:string` | 图像的相对路径。 |
+| imageFile | `xsd:string` | 覆盖图像的窗口的文件名。 |
+| optimizedPath | `xsd:string` | 优化了文件路径。 |
+| optimizedFile | `xsd:string` | 优化的文件名。 |

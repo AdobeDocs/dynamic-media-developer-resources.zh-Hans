@@ -2,13 +2,13 @@
 description: 针对CDN失效请求中提供的一个URL响应的详细消息。
 solution: Experience Manager
 title: 操作故障
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 11%
 
 | ** 名称** | ** 类型** | ** 说明** |
 |---|---|---|
-| `*`代码`*` | `xsd:int` | 从CDN提供的错误代码 |
-| `*`原因`*` | `xsd:string` | 从CDN提供的错误消息 |
+| 代码 | `xsd:int` | 从CDN提供的错误代码 |
+| 原因 | `xsd:string` | 从CDN提供的错误消息 |

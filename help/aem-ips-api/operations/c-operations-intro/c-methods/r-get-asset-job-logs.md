@@ -2,13 +2,13 @@
 description: 获取资产的作业日志。 数组中返回的项目包含有关该资产作业日志中每个条目的详细信息。 logMessage响应字段基于authHeader字段进行本地化。
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 资产所属公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 要检索作业日志的资产句柄。 |
+| companyHandle | `xsd:string` | 是 | 资产所属公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 要检索作业日志的资产句柄。 |
 
 **Output(getAssetJobLogsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | 是 | 作业日志阵列。 |
+| jobLogArray | `types:AssetJobLogArray` | 是 | 作业日志阵列。 |
 
 ## 示例 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

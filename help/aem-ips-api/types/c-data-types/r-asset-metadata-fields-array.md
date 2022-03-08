@@ -1,14 +1,14 @@
 ---
+title: AssetMetadataFieldsArray
 description: AssetMetadataFields数组。 getAssetMetadataFields用于在单个调用中返回所有资产元数据字段，其结果按资产类型分组。
 solution: Experience Manager
-title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 
@@ -22,4 +22,4 @@ AssetMetadataFields数组。 getAssetMetadataFields用于在单个调用中返�
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`项目`*` | `types:AssetMetadataFields` | `AssetMetadataFields`数组项。 |
+| 项目 | `types:AssetMetadataFields` | 安 `AssetMetadataFields` 数组项。 |

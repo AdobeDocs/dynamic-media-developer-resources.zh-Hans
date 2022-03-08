@@ -2,13 +2,13 @@
 description: 更新资产权限。
 solution: Experience Manager
 title: updateAssetPermissons
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '54'
+ht-degree: 24%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 资产句柄。 |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | 是 | 要应用于资产的权限。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
+| updateArray | `types:PermissionUpdateArray` | 是 | 要应用于资产的权限。 |
 
 **Output(updateAssetPermissionsReturn)**
 

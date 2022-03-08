@@ -2,12 +2,12 @@
 description: 创建或编辑元数据字段。 忽略可选字段句柄以创建新的元数据字段。
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '217'
 ht-degree: 16%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 16%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置了非法值，则会引发错误。 </p> </td> 
+   <td colname="col4"> <p>布尔标记，用于指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 是 | 新元数据字段的句柄。 |
+| fieldHandle | `xsd:string` | 是 | 新元数据字段的句柄。 |
 
 ## 示例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代码示例创建了一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果`fieldHandle`元素具有有效的字段句柄值，则它会更改元数据值，并获得您在请求中指定的相同字段句柄。
+此代码示例创建了一个受资产类型和元数据字段类型字符串常量约束的新元数据字段。 如果 `fieldHandle` 元素具有有效的字段句柄值，它会更改元数据值，并获得您在请求中指定的相同字段句柄。
 
 **请求**
 

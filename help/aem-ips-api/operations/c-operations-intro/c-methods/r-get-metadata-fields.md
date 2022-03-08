@@ -2,13 +2,13 @@
 description: 获取与资产关联的用户定义的元数据字段。
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 14%
+source-wordcount: '95'
+ht-degree: 15%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`assetType`*` | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| assetType | `xsd:string` | 是 | 要从中获取元数据的资产类型。 |
 
 **输出(getMetadataFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`代码短语`*` | `Code Phrase` |  |  |
+| 代码短语 | `Code Phrase` |  |  |
 
 ## 示例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 

@@ -2,13 +2,13 @@
 description: 发布所有标记为可发布到服务器目录的图像、模板和旋转集。
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`emailSettings`*` | `xsd:string` | 选择电子邮件设置。 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 用于发送完成通知的URL。 |
+| emailSettings | `xsd:string` | 选择电子邮件设置。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |

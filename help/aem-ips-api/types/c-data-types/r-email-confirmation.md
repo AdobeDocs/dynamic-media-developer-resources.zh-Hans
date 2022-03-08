@@ -2,12 +2,12 @@
 description: 响应cdnCacheInvalidation操作，向指定收件人发送电子邮件。
 solution: Experience Manager
 title: EmailConfirmation
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 6%
 
 ---
@@ -22,5 +22,5 @@ ht-degree: 6%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | 如果为true，则包括用户的Web服务用户帐户，该帐户是指定用于从Dynamic Media CDN接收电子邮件确认的电子邮件列表。 |
-| `*`ccOthersArray`*` | `types:EmailArray` | 一组电子邮件地址（最多5个），指定用于从Dynamic Media CDN接收确认通知。 |
+| ccOriginator | `xsd:boolean` | 如果为true，则包括用户的Web服务用户帐户，该帐户是指定用于从Dynamic Media CDN接收电子邮件确认的电子邮件列表。 |
+| ccOthersArray | `types:EmailArray` | 一组电子邮件地址（最多5个），指定用于从Dynamic Media CDN接收确认通知。 |

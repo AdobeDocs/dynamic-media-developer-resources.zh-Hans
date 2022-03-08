@@ -2,12 +2,12 @@
 description: 确定是否已准备好发布一批资产。
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 确定是否已准备好发布一批资产。
 
-这是[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)的批处理版本。
+这是的批处理版本 [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## 授权用户类型 {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -37,18 +37,18 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 是 | 资产的发布状态值数组。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | 是 | 资产的发布状态值数组。 |
 
 **输出(setAssetsPublishStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功更新资产的数量。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试更新时生成警告的资产数量。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试删除时生成错误的资产数量。 |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与生成警告的资产更新关联的详细信息。 |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 否 | 与生成错误的资产更新关联的详细信息。 |
+| successCount | `xsd:int` | 是 | 已成功更新资产的数量。 |
+| warningCount | `xsd:int` | 是 | 操作尝试更新时生成警告的资产数量。 |
+| errorCount | `xsd:int` | 是 | 操作尝试删除时生成错误的资产数量。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与生成警告的资产更新关联的详细信息。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与生成错误的资产更新关联的详细信息。 |
 
 ## 示例 {#section-38cfdd3436214a06a1bae16875501d51}
 

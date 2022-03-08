@@ -2,13 +2,13 @@
 description: 获取图像集中的成员数组。
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic，SDK/API，图像集
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 图像集资产句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 图像集资产句柄。 |
 
 **输出(getImageSetMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | 否 | 图像集成员的数组。 |
+| memberArray | `types:ImageSetMemberArray` | 否 | 图像集成员的数组。 |
 
 ## 示例 {#section-888a9a78033346f39b171229de93dfa0}
 

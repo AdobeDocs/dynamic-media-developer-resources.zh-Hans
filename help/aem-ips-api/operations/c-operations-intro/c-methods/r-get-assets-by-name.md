@@ -2,13 +2,13 @@
 description: 根据资产名称数组返回资产。
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 14%
+source-wordcount: '212'
+ht-degree: 15%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不为空，则只返回子类型位于<span class="codeph"> assetSubTypeArray</span>中的资产。 </p> <p>如果<span class="codeph"> false</span>，则包含未定义子类型的资产。 </p> <p>默认值为<span class="codeph"> false</span>。 </p> </td> 
+   <td colname="col4"> <p>如果 <span class="codeph"> true</span> 和 <span class="codeph"> assetSubTypeArray</span> 不为空，只有子类型位于 <span class="codeph"> assetSubTypeArray</span> 的次数。 </p> <p>如果 <span class="codeph"> false</span>，则会包含未定义子类型的资产。 </p> <p>默认值为 <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,7 +114,7 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | 否 | 与筛选条件匹配的资产数组。 |
+| assetArray | `types:AssetArray` | 否 | 与筛选条件匹配的资产数组。 |
 
 ## 示例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

@@ -2,13 +2,13 @@
 description: 按组管理资产的访问、修改、创建或删除权限。
 solution: Experience Manager
 title: 权限
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '54'
+ht-degree: 12%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 组句柄。 |
-| `*`groupName`*` | `xsd:string` | 群组名称. |
-| `*`permissionType`*` | `xsd:string` | 权限类型的选择。 |
-| `*`允许`*` | `xsd:boolean` | 确定是否允许该权限。 |
-| `*`isOverride`*` | `xsd:boolean` | 确定权限是否覆盖其他权限。 |
+| groupHandle | `xsd:string` | 组句柄。 |
+| groupName | `xsd:string` | 群组名称. |
+| permissionType | `xsd:string` | 权限类型的选择。 |
+| 允许 | `xsd:boolean` | 确定是否允许该权限。 |
+| isOverride | `xsd:boolean` | 确定权限是否覆盖其他权限。 |

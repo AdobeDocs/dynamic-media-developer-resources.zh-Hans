@@ -2,13 +2,13 @@
 description: 层视图属性。
 solution: Experience Manager
 title: 层视图信息
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`url`*` | `xsd:string` | 表示模板的图像服务器URL。 组合了`urlModifier`和`urlPostAp- plyModifier`字段。 |
-| `*`urlModifier`*` | `xsd:string` | 在请求或`urlPostApplyModifier`命令之前应用的图像服务协议命令。 |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 在`urlModifier`和请求命令之后应用的图像服务协议命令。 |
+| url | `xsd:string` | 表示模板的图像服务器URL。 组合 `urlModifier` 和 `urlPostAp- plyModifier` 字段。 |
+| urlModifier | `xsd:string` | 在请求或 `urlPostApplyModifier` 中。 |
+| urlPostApplyModifier | `xsd:string` | 要在之后应用的图像服务协议命令 `urlModifier` 和请求命令。 |

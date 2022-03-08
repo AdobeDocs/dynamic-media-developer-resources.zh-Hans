@@ -2,13 +2,13 @@
 description: 返回元数据字段的所有值。
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其数据的公司的句柄。 |
-| `*`metadataKey`*` | `xsd:string` | 是 | 点表示法中的元数据键。 |
+| companyHandle | `xsd:string` | 是 | 要获取其数据的公司的句柄。 |
+| metadataKey | `xsd:string` | 是 | 点表示法中的元数据键。 |
 
 **Output(getDistinctMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | 是 | 请求的元数据字段的值。 |
+| valueArray | `types:ValueArray` | 是 | 请求的元数据字段的值。 |
 
 ## 示例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

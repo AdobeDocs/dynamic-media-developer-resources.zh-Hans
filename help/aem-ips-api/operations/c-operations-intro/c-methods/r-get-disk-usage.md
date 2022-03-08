@@ -2,13 +2,13 @@
 description: 返回有关公司结构（文件数等）的信息。
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 13%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 要获取其磁盘使用情况的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 要获取其磁盘使用情况的公司的句柄。 |
 
 **输出(getDiskUsageReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | 是 | 公司磁盘使用阵列。 |
+| diskUsageArray | `types:DiskUsageArray` | 是 | 公司磁盘使用阵列。 |
 
 ## 示例 {#section-cb16a97badc94076ad5da277db5ed16a}
 

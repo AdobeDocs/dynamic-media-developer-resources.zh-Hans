@@ -2,13 +2,13 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 22%
+source-wordcount: '61'
+ht-degree: 24%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
 
 **Output(getVignettePublishFormatsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 是 | 晕影发布格式的数组。 |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | 是 | 晕影发布格式的数组。 |
 
 ## 示例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 

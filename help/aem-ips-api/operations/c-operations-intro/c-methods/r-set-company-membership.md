@@ -2,13 +2,13 @@
 description: 在一个或多个公司中设置用户的成员资格。
 solution: Experience Manager
 title: setCompanyMembership
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 14%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | 否 | 用户句柄。 |
-| `*`membersingArray`*` | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司。 |
+| userHandle | `xsd:sting` | 否 | 用户句柄。 |
+| membersingArray | `types:CompanyMembershipUpdateArray` | 是 | 一系列公司。 |
 
 **输出(setCompanyMembershipParam)**
 

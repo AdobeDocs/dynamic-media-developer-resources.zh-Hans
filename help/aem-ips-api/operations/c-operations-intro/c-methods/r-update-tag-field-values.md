@@ -2,12 +2,12 @@
 description: 更新标记字段的标记字典值。
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 15%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 15%
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">要更新的标记字段值数组。 <p>注意： 仅更新标记字符串值。 不影响资产关联。 </p> </td> 
+   <td colname="col4">要更新的标记字段值数组。 <p>注意：仅更新标记字符串值。 不影响资产关联。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 是 | 已成功更新的标记字段数。 |
-| `*`warningCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
-| `*`errorCount`*` | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，资产会生成警告。 |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 否 | 与在操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 已成功更新的标记字段数。 |
+| warningCount | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试更新标记字段时，资产会生成警告。 |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | 否 | 与在操作尝试更新标记字段时生成错误的资产关联的详细信息数组。 |
 
 ## 示例 {#section-bb4dcf97044c4675974c9b8d27674001}
 

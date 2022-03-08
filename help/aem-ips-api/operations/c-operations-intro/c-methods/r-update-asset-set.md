@@ -2,13 +2,13 @@
 description: 更新资产集。
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 要修改的图像集的句柄。 |
-| `*`setDefinition`*` | `xsd:string` | 否 | 重置图像集成员。 |
-| `*`thumbAssetHandle`*` | `xsd:string` | 否 | 用作图像集缩略图的资产句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 要修改的图像集的句柄。 |
+| setDefinition | `xsd:string` | 否 | 重置图像集成员。 |
+| thumbAssetHandle | `xsd:string` | 否 | 用作图像集缩略图的资产句柄。 |
 
 **输出(updateAssetSetReturn)**
 

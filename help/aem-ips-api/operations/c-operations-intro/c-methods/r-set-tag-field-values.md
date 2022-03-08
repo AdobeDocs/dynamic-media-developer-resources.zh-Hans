@@ -2,13 +2,13 @@
 description: 为现有标记字段设置标记字典值。
 solution: Experience Manager
 title: setTagFieldValues
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`fieldHandle`*` | `xsd:string` | 是 | 标记字段句柄。 |
-| `*`valueArray`*` | `types:StringArray` | 是 | 替换字段现有词典的标记值数组。 当新值与现有值匹配时，将维护资产关联。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| fieldHandle | `xsd:string` | 是 | 标记字段句柄。 |
+| valueArray | `types:StringArray` | 是 | 替换字段现有词典的标记值数组。 当新值与现有值匹配时，将维护资产关联。 |
 
 **输出(setTagFieldValuesReturn)**
 

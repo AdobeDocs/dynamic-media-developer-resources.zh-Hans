@@ -2,13 +2,13 @@
 description: searchAssets返回的元数据字段。
 solution: Experience Manager
 title: 元数据
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
@@ -22,9 +22,9 @@ searchAssets返回的元数据字段。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 元数据名称。 |
-| `*`值`*` | `xsd:string` | 元数据值。 |
-| `*`布尔瓦尔`*` | `xsd:boolean` | 布尔元数据值（仅适用于布尔类型字段）。 |
-| `*`longVal`*` | `xsd:long` | 长元数据值（仅适用于整类型字段）。 |
-| `*`doubleVal`*` | `xsd:double` | 双重元数据值（仅适用于浮点类型字段）。 |
-| `*`dateVal`*` | `xsd:dateTime` | 日期元数据值（仅适用于日期键入的字段）。 |
+| name | `xsd:string` | 元数据名称。 |
+| 价值 | `xsd:string` | 元数据值。 |
+| 布尔瓦尔 | `xsd:boolean` | 布尔元数据值（仅适用于布尔类型字段）。 |
+| longVal | `xsd:long` | 长元数据值（仅适用于整类型字段）。 |
+| doubleVal | `xsd:double` | 双重元数据值（仅适用于浮点类型字段）。 |
+| dateVal | `xsd:dateTime` | 日期元数据值（仅适用于日期键入的字段）。 |

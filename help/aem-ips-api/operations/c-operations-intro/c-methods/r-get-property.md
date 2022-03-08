@@ -2,13 +2,13 @@
 description: 获取与图像门户相关的系统属性的字符串值。
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 10%
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`:呈现SVG资产的URL前缀。
-* `SvgRenderEnabled`:如果SVG资产可以由呈现，则为 `SvgRenderRootUrl`True。
+* `SvgRenderEnabled`:如果SVG资产可以通过 `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位） [!DNL POST]。系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位） [!DNL POST]. 系统拒绝大于最大限制的文件。
 
 ## 授权用户类型 {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | 是 | 要获取的属性的名称。 |
+| name | `xsd:string` | 是 | 要获取的属性的名称。 |
 
 **Output(getPropertyReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`值`*` | `xsd:string` | 是 | 属性值。 |
+| 价值 | `xsd:string` | 是 | 属性值。 |
 
 ## 示例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 

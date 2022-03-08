@@ -2,13 +2,13 @@
 description: 获取与类型句柄关联的属性集。
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 17%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 是 | 属性集类型的句柄。 |
-| `*`primaryOwnerHandle`*` | `xsd:string` | 是 | 绑定到数据库对象的数据的主所有者。 |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | 否 | 数据的可选辅助所有者。 |
+| typeHandle | `xsd:string` | 是 | 属性集类型的句柄。 |
+| primaryOwnerHandle | `xsd:string` | 是 | 绑定到数据库对象的数据的主所有者。 |
+| secondaryOwnerHandle | `xsd:string` | 否 | 数据的可选辅助所有者。 |
 
 **Output(getPropertySetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | 是 | 属性集的数组。 |
+| setArray | `types:PropertySetArray` | 是 | 属性集的数组。 |
 
 ## 示例 {#section-1358af974eab4259864910337a6f0bd2}
 

@@ -2,12 +2,12 @@
 description: 设置各种特定于公司的配置值。
 solution: Experience Manager
 title: setCompanySettings
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司负责人。 |
-| `*`overwriteMode`*` | `xsd:string` | 否 | 资产覆盖模式。 |
-| `*`retainPublishState`*` | `xsd:boolean` | 否 | 设置为`true`可在重新上传资产时保留发布状态。 |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | 否 | 用作默认源颜色配置文件的IccProfile资产。 |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 否 | IccProfile资产用作默认显示颜色配置文件。 |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资产。 |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资产。 |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | 否 | 在发送警告消息之前，可用的最小可用磁盘空间（以KB为单位）。 |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 否 | 设置为`true`，以便在资产从垃圾桶中清空时向公司管理员发送通知。 |
+| companyHandle | `xsd:string` | 是 | 公司负责人。 |
+| overwriteMode | `xsd:string` | 否 | 资产覆盖模式。 |
+| retainPublishState | `xsd:boolean` | 否 | 设置为 `true` 用于在重新上传资产时保留发布状态。 |
+| defaultSourceProfileHandle | `xsd:string` | 否 | 用作默认源颜色配置文件的IccProfile资产。 |
+| defaultDisplayProfileHandle | `xsd:string` | 否 | IccProfile资产用作默认显示颜色配置文件。 |
+| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资产。 |
+| xmpMappingXsltHandle | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资产。 |
+| diskSpaceWarningMin | `xsd:int` | 否 | 在发送警告消息之前，可用的最小可用磁盘空间（以KB为单位）。 |
+| emailTrashCleanupWarning | `xsd:boolean` | 否 | 设置为 `true` 在资产从垃圾桶中清空时，向公司管理员发送通知。 |
 
 **Output(setCompanySettingsReturn)**
 

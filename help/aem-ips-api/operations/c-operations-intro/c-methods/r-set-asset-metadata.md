@@ -2,13 +2,13 @@
 description: 为资产设置元数据值。 可与元数据更新数组结合使用，以批量设置值。
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic，SDK/API，元数据，资产管理
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 10%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 9%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要更新资产的公司句柄。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 资产的句柄。 |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | 是 | 更新元数据更新数组中的内容。 |
+| companyHandle | `xsd:string` | 是 | 包含要更新资产的公司句柄。 |
+| assetHandle | `xsd:string` | 是 | 资产的句柄。 |
+| updateArray | `types:MetadataUpdateArray` | 是 | 更新元数据更新数组中的内容。 |
 
 **输出(setAssetMetadataReturn)**
 

@@ -2,13 +2,13 @@
 description: 使用属性数组来更新属性集。
 solution: Experience Manager
 title: updatePropertySet
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | 是 | 属性集的句柄。 |
-| `*`replaceProperties`*` | `xsd:string` | 否 | 设置为`true`可替换属性。 |
-| `*`propertyArray`*` | `types:PropertyArray` | 是 | 属性集更新属性的数组。 |
+| setHandle | `xsd:string` | 是 | 属性集的句柄。 |
+| replaceProperties | `xsd:string` | 否 | 设置为 `true` 替换属性。 |
+| propertyArray | `types:PropertyArray` | 是 | 属性集更新属性的数组。 |
 
 **输出(updatePropertySetReturn)**
 

@@ -2,12 +2,12 @@
 description: 删除图像格式。 从saveImageFormat获取图像格式句柄。
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 11%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 包含要删除的图像格式的公司句柄。 |
-| `*`imageFormatHandle`*` | `xsd:string` | 是 | 要删除的图像格式的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含要删除的图像格式的公司句柄。 |
+| imageFormatHandle | `xsd:string` | 是 | 要删除的图像格式的句柄。 |
 
 **输出(deleteImageFormatParam)**
 

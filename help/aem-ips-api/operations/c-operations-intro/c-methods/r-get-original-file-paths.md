@@ -2,13 +2,13 @@
 description: 获取公司资产的原始文件路径。
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 公司的把手。 |
-| `*`assetHandleArray`*` | `types:HandleArray` | 是 | 要获取其原始文件路径的资产的句柄数组。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要获取其原始文件路径的资产的句柄数组。 |
 
 **Output(getOriginalFilePathsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | 是 | 表示原始文件路径的字符串数组。 |
+| originalFileArray | `types:StringArray` | 是 | 表示原始文件路径的字符串数组。 |
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

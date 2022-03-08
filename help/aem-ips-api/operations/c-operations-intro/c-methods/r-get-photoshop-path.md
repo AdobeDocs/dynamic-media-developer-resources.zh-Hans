@@ -2,13 +2,13 @@
 description: 返回包含命名Photoshop路径的四边形的坐标。
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 19%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 是 | 处理包含您要处理的图像的公司。 |
-| `*`assetHandle`*` | `xsd:string` | 是 | 处理图像资产。 |
-| `*`pathName`*` | `xsd:string` | 是 | 要返回的Photoshop路径的名称。 |
+| companyHandle | `xsd:string` | 是 | 处理包含您要处理的图像的公司。 |
+| assetHandle | `xsd:string` | 是 | 处理图像资产。 |
+| pathName | `xsd:string` | 是 | 要返回的Photoshop路径的名称。 |
 
 **Output(getPhotoshopPathReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 是 | 根据路径返回图像坐标。 请参阅[PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)。 |
+| perspectiveQuad | `types:PerspectiveQuad` | 是 | 根据路径返回图像坐标。 请参阅 [透视四轴](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## 示例 {#section-1f0461cbdc184c8d8925336d5279db47}
 
