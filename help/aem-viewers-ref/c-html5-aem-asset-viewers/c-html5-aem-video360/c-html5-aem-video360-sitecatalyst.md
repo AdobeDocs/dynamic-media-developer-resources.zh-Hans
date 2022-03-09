@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的一个示例：
+要与第三方分析系统集成，需要侦听 `trackEvent` 查看器回调并处理 `eventInfo` 回调函数的参数（根据需要）。 以下代码是此类处理程序函数的一个示例：
 
-```
+```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -65,7 +65,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>使用<span class="codeph"> setAsset()</span> API在查看器中交换资产时。 </p> </td> 
+   <td colname="col2"> <p>在查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -84,7 +84,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
    <td colname="col2"> <p>当播放达到以下里程碑之一时：0%、25%、50%、75%或100%。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
    <td colname="col2"> <p>每次用户单击交互式色板时。 </p> </td> 
   </tr> 
  </tbody> 

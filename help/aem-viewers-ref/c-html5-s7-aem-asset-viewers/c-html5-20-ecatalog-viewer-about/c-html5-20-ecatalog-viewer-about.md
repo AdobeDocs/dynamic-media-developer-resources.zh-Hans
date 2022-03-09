@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 0%
@@ -106,7 +106,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
+```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
 ```
 
@@ -162,7 +162,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -176,7 +176,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
    以下示例用于在HTML页面中定义静态查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +185,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
    您可以设置 `stagesize` 修改量。 或者，您也可以通过查看器初始化代码通过 `params` 集合，或作为API调用（如命令引用部分中所述），如下所示：
 
-   ```
+   ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -200,7 +200,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数，并调用 `init()` 方法。 该示例假定 `eCatalogViewer` 为查看器实例； `s7viewer` 是占位符的名称 `DIV`; `https://s7d1.scene7.com/is/image/` 是图像提供URL， `Viewers/Pluralist` 是资产：
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogViewer = new s7viewers.eCatalogViewer({ 
     "containerId":"s7viewer", 
@@ -214,7 +214,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
    以下代码是嵌入具有固定大小的eCatalog查看器的简单网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -245,7 +245,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 就本例而言，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 生成的网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -269,7 +269,7 @@ eCatalog查看器支持社交共享工具。 它们可用作主控制栏中的�
 
 上述所有步骤与固定大小嵌入的步骤相同。 添加容器 `DIV` 至现有“持有人” `DIV`. 以下代码是一个完整的示例。 您可以查看在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -305,7 +305,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 在定义了宽度和高度的灵活大小嵌入中，网页样式不同。 也就是说，它为“holder”提供两种大小 `DIV` 并将其居中在浏览器窗口中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -331,7 +331,7 @@ height: 60%;
 
 其余嵌入步骤与具有无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -373,7 +373,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 
 以下示例显示了使用基于setter的API进行固定大小嵌入的示例：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

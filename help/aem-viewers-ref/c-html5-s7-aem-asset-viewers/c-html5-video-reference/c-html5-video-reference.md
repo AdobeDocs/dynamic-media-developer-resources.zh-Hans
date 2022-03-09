@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/VideoViewer.js"></script>
 ```
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    以下示例用于在HTML页面中定义静态查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    您可以设置 `stagesize` 修改量(在Dynamic Media Classic的查看器预设记录中)，或使用查看器初始化代码(通过 `params` 收藏集。 或者，作为API调用（如命令引用部分中所述），如下所示：
 
-   ```
+   ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 
    以下示例用于创建查看器实例、向构造函数传递最小必需配置选项以及调用 `init()` 方法。 此示例假定 `videoViewer` 是查看器实例， `s7viewer` 是占位符的名称 `DIV`, [!DNL http://s7d1.scene7.com/is/image/] 是图像提供URL， [!DNL http://s7d1.scene7.com/is/content/] 是视频服务器URL， [!DNL Scene7SharedAssets/Glacier_Climber_MP4] 是资产。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var videoViewer = new s7viewers.VideoViewer({ 
     "containerId":"s7viewer", 
@@ -195,7 +195,7 @@ ht-degree: 0%
 
    以下代码是嵌入具有固定大小的视频查看器的普通网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 就本例而言，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 上述所有步骤与固定大小嵌入的步骤相同。 添加容器 `DIV` 至现有“持有人” `DIV`. 以下代码是一个完整的示例。 您可以查看在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -290,7 +290,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 如果定义了响应式设计嵌入的宽度和高度，则网页的样式会有所不同；它为“holder”提供两种大小 `DIV` 并在浏览器窗口中居中显示。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -316,7 +316,7 @@ height: 60%;
 
 其余嵌入步骤与具有无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -359,7 +359,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 以下示例说明了使用基于setter的API进行固定大小嵌入的方法：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

@@ -5,7 +5,7 @@ title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 11%
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 调用此操作时，系统将获取一个companyInfo类型，其中包含公司句柄和描述性字段。 如果请求的公司名称在系统中已存在，则会引发 `ipsApiFault`.
 
-## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
+## Authorized User Types {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -44,18 +44,18 @@ ht-degree: 11%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要添加的公司的名称。 </p> </td> 
+   <td colname="col4"> <p>The name of the company to add. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的过期日期。 为时区提供对此字段的请求。 时区将调整为“中央时间”。 </p> </td> 
+   <td colname="col4"> <p>The expiration date of the company. 为时区提供对此字段的请求。 Time zones are adjusted to Central Time. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(addCompanyReturn)**
+**Output (addCompanyReturn)**
 
 <table id="table_89EBAC0E0FB34793BD843837BB02B518"> 
  <thead> 
@@ -82,7 +82,7 @@ ht-degree: 11%
 
 **请求**
 
-```java
+```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:companyName>Planetary</ns1:companyName>
 </ns1:addCompanyParam>
@@ -90,7 +90,7 @@ ht-degree: 11%
 
 **响应**
 
-```java
+```java {.line-numbers}
 <ns1:addCompanyReturn xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
    <ns1:companyInfo>
       <ns1:companyHandle>137</ns1:companyHandle>

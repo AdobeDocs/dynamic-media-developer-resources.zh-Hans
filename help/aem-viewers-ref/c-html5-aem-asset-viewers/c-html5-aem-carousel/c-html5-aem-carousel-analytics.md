@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 默认情况下，查看器会向配置的图像服务器发送一个具有查看器类型和版本信息的跟踪HTTP请求。
 
-要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的一个示例：
+要与第三方分析系统集成，需要侦听 `trackEvent` 查看器回调并处理 `eventInfo` 回调函数的参数（根据需要）。 以下代码是此类处理程序函数的一个示例：
 
-```
+```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -57,7 +57,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
    <td colname="col2"> <p>首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 横幅  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 横幅 </span> </p> </td> 
    <td colname="col2"> <p>轮播横幅图像已更改。 </p> </td> 
   </tr> 
   <tr> 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 要与第三方分析系统集成，需要侦听 `trackEvent` 查看器回调和处理 `eventInfo` 回调函数的参数（根据需要）。 以下代码是此类处理程序函数的一个示例：
 
-```
+```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
 	"containerId":"s7viewer",
 "params":{

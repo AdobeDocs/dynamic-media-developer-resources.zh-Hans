@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 0%
@@ -98,9 +98,8 @@ ht-degree: 0%
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
- <a 
-href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
+```html {.line-numbers}
+ <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +136,7 @@ target="_blank">Open popup viewer</a>
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/ZoomViewer.js"></script>
 ```
 
@@ -156,7 +155,7 @@ target="_blank">Open popup viewer</a>
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -170,7 +169,7 @@ target="_blank">Open popup viewer</a>
 
    以下示例在HTML页中定义静态外部查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +184,7 @@ target="_blank">Open popup viewer</a>
 
    以下是定义内部查看器大小的示例 `Container` SDK组件，以便在切换资产时，主视图区域不会更改其大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -198,7 +197,7 @@ target="_blank">Open popup viewer</a>
 
    您可以设置 `stagesize` 修改量。 或者，您也可以通过 `params` 集合或作为API调用，如本帮助的命令引用部分中所述，如下所示：
 
-   ```
+   ```html {.line-numbers}
     zoomViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -217,7 +216,7 @@ target="_blank">Open popup viewer</a>
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数，并调用 `init()` 方法。 此示例假定 `zoomViewer` 是查看器实例， `s7viewer` 是占位符DIV的名称， `http://s7d1.scene7.com/is/image/` 是图像提供URL， `Scene7SharedAssets/ImageSet-Views-Sample` 是资产。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var zoomViewer = new s7viewers.ZoomViewer({ 
     "containerId":"s7viewer", 
@@ -231,7 +230,7 @@ target="_blank">Open popup viewer</a>
 
    以下代码是嵌入具有固定大小的视频查看器的普通网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -262,7 +261,7 @@ target="_blank">Open popup viewer</a>
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 在以下示例中，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -286,7 +285,7 @@ target="_blank">Open popup viewer</a>
 
 上述所有步骤与固定大小嵌入的步骤相同。 将容器DIV添加到现有 `"holder"` DIV. 以下代码是一个完整的示例。 请注意在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +321,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为 `"holder"` DIV并在浏览器窗口中将其居中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -348,7 +347,7 @@ height: 60%;
 
 其余嵌入步骤与无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -390,7 +389,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 以下示例说明了如何在基于setter的API中使用固定大小嵌入：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

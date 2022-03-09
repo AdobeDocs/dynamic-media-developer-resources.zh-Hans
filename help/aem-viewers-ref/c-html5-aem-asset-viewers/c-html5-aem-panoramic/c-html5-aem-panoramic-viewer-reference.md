@@ -5,7 +5,7 @@ keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
    CSS中的大小调整可以直接放在HTML页面上，也可以放在自定义查看器CSS文件中，该文件稍后会分配给AOD中的查看器预设记录，或者使用style命令显式传递。 有关使用CSS为查看器设置样式的更多信息，请参阅自定义查看器一节。 以下是在HTML页面中定义静态查看器大小的示例：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
    `stagesize` 修饰符可以通过参数集合的查看器初始化代码显式传递，或作为API调用（如命令引用部分中所述）传递，如下所示：
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
    以下示例用于创建查看器实例、向构造函数传递最小必需配置选项以及调用 `init()` 方法。 此示例假定 `panoramicViewer` 是查看器实例， `s7viewer` 是占位符的名称 `DIV`, [!DNL http://s7d1.scene7.com/is/image/] 是图像提供URL， [!DNL Scene7SharedAssets/PanoramicImage-Sample] 是资产。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
    以下代码是嵌入具有固定大小的全景查看器的普通网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
 通过响应式嵌入，网页通常具有某种灵活的布局，这指示了查看器容器DIV的运行时大小。 就本例而言，假设网页允许查看者的容器DIV占用Web浏览器窗口大小的80%，并且其高度不受限制。 网页HTML代码可能如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ HTML5全景查看器通过拖动或回转运动支持自动平移和导航。
 
 上述所有步骤与固定大小嵌入的步骤相同。 应将容器DIV添加到现有“保持器”DIV中。 以下代码是一个完整的示例，您可能会看到在调整浏览器大小时查看器大小的变化情况，以及查看器宽高比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 如果定义了响应式设计嵌入的宽度和高度，则网页的样式会有所不同；它为“holder”提供两种大小 `DIV` 并在浏览器窗口中居中显示。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 其余的嵌入步骤与具有不受限高度的响应式嵌入相同。 结果示例为
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 以下示例说明了使用基于setter的API进行固定大小嵌入的方法：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

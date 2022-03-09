@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 即使这些组件依赖于HTML5功能，它们也设计为可在Android™和Apple iOS设备以及台式机（包括Internet Explorer及更高版本）上使用。 这种体验意味着您能够为所有受支持的平台提供单个工作流。
 
-SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件来设置这些组件的样式，这些组件具有某种支持角色，例如设置定义获取和解析或跟踪。 所有组件行为都可通过修饰符进行自定义，您可以通过各种方式指定修饰符，例如，在URL中指定为`name=value`对。
+SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件来设置这些组件的样式，这些组件具有某种支持角色，例如设置定义获取和解析或跟踪。 所有组件行为都可通过修饰符进行自定义，您可以通过各种方式指定修饰符，例如， `name=value` 对。
 
 本教程包括以下任务顺序，可帮助您创建基本的缩放查看器：
 
@@ -34,7 +34,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 ## 从Adobe Developer Connection下载最新的Viewer SDK {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. 从Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->下载最新的Viewer SDK。
+1. 从Adobe Developer Connection下载最新的Viewer SDK <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    将此新页面视为Bootstrap（或加载器）代码，您使用该代码设置空SDK应用程序。 打开您最喜爱的文本编辑器，并将以下HTML标记粘贴到该编辑器中：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
        <head> 
@@ -79,9 +79,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    </html>
    ```
 
-   在`script`标记中添加以下JavaScript代码，以便初始化`ParameterManager`。 这样做有助于您准备在`initViewer`函数中创建SDK组件并将其实例化：
+   在 `script` 标记，以便初始化 `ParameterManager`. 这样做有助于您准备在 `initViewer` 函数：
 
-   ```
+   ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
       a function is optional, but this prevents variables from polluting the global object.  */ 
    (function () { 
@@ -123,9 +123,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 1. 对于您正在创建的此完整页面查看器，可以添加一些基本样式。
 
-   在`head`的底部添加以下`style`块：
+   添加以下内容 `style` 在 `head`:
 
-   ```
+   ```html {.line-numbers}
    <style> 
        html, body { 
            width: 100%; 
@@ -142,15 +142,15 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    </style>
    ```
 
-现在包括组件`Container`和`ZoomView`。
+现在包含组件 `Container` 和 `ZoomView`.
 
 ## 包括容器和ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. 通过包含组件`Container`和`ZoomView`来创建实际的查看器。
+1. 通过包含组件创建实际的查看器 `Container` 和 `ZoomView`.
 
-   在[!DNL Utils.js]脚本加载后，将以下`include`语句插入`<head>`元素的底部：
+   插入以下内容 `include` 在 `<head>` 元素 — 在 [!DNL Utils.js] 脚本已加载：
 
-   ```
+   ```javascript {.line-numbers}
    <!-- 
        Add an "include" statement with a related module for each component that is needed for that particular  
        viewer. Check API documentation to see a complete list of components and their modules. 
@@ -163,15 +163,15 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 1. 现在，创建变量以引用各种SDK组件。
 
-   将以下变量添加到主匿名函数的顶部，就在`s7sdk.Util.init()`的上方：
+   将以下变量添加到主匿名函数的顶部，就在上面 `s7sdk.Util.init()`:
 
-   ```
+   ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. 在`initViewer`函数中插入以下内容，以便您可以定义一些修饰符并实例化相应的组件：
+1. 在 `initViewer` 函数，以便您可以定义一些修改工具并实例化各个组件：
 
-   ```
+   ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
    params.push("serverurl", "http://s7d1.scene7.com/is/image"); 
    params.push("asset", "Scene7SharedAssets/ImageSet-Views-Sample"); 
@@ -190,9 +190,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. 要使上述代码正常运行，请添加`containerResize`事件处理程序和帮助程序函数：
+1. 要使上述代码正常运行，请添加 `containerResize` 事件处理程序和帮助程序函数：
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
       various view components included in this viewer. */ 
    function containerResize(event) { 
@@ -209,30 +209,30 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    ![查看器示例一幅图像](assets/viewer-1.jpg)
 
-现在，将组件`MediaSet`和`Swatches`添加到查看器中。
+现在，添加组件 `MediaSet` 和 `Swatches` 查看者。
 
 ## 将MediaSet和Swatches组件添加到查看器 {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. 为了允许用户从图像集中选择图像，可以添加组件`MediaSet`和`Swatches`。
+1. 为了允许用户从图像集中选择图像，您可以添加组件 `MediaSet` 和 `Swatches`.
 
    添加以下SDK:
 
-   ```
+   ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
 1. 使用以下内容更新变量列表：
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. 在`initViewer`函数中实例化`MediaSet`和`Swatches`组件。
+1. 实例化 `MediaSet` 和 `Swatches` 组件内部 `initViewer` 函数。
 
-   请确保在`ZoomView`和`Container`组件之后实例化`Swatches`实例，否则堆叠顺序会隐藏`Swatches`:
+   请务必实例化 `Swatches` 实例之后 `ZoomView` 和 `Container` 组件，否则堆叠顺序会隐藏 `Swatches`:
 
-   ```
+   ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
    mediaSet = new s7sdk.set.MediaSet(null, params, "mediaSet"); 
    
@@ -246,7 +246,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 1. 现在，添加以下事件处理程序函数：
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
       assign the asset to the Swatches when parsing is complete. */ 
    function onSetParsed(e) { 
@@ -266,9 +266,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    }
    ```
 
-1. 通过将以下CSS添加到`style`元素，将色板放置在查看器底部：
+1. 通过将以下CSS添加到 `style` 元素：
 
-   ```
+   ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
    .s7swatches { 
        bottom: 0; 
@@ -280,9 +280,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 1. 预览查看器。
 
-   请注意，色板位于查看器的左下角。 要使色板具有整个查看器宽度，请在用户调整其浏览器大小时添加一个调用以手动调整色板大小。 在`resizeViewer`函数中添加以下内容：
+   请注意，色板位于查看器的左下角。 要使色板具有整个查看器宽度，请在用户调整其浏览器大小时添加一个调用以手动调整色板大小。 在 `resizeViewer` 函数：
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
@@ -298,21 +298,21 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
    添加以下按钮组件：
 
-   ```
+   ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
 1. 使用以下内容更新变量列表：
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. 实例化`initViewer`函数底部的按钮。
+1. 实例化位于 `initViewer` 函数。
 
-   请记住，顺序很重要，除非您在CSS中指定`z-index`:
+   请记住，顺序很重要，除非您指定 `z-index` 在CSS中：
 
-   ```
+   ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
    zoomInButton  = new s7sdk.common.ZoomInButton("s7container", params, "zoomInBtn"); 
    zoomOutButton = new s7sdk.common.ZoomOutButton("s7container", params, "zoomOutBtn"); 
@@ -324,9 +324,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. 现在，通过将以下内容添加到文件顶部的`style`块，为按钮定义一些基本样式：
+1. 现在，通过将以下内容添加到 `style` 块：
 
-   ```
+   ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
    .s7button { 
        position:absolute; 
@@ -358,23 +358,23 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS和非UI组件
 
 ## 垂直配置色板 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. 您可以直接在`ParameterManager`实例上配置修饰符。
+1. 您可以直接在 `ParameterManager` 实例。
 
-   在`initViewer`函数的顶部添加以下内容，以便将`Swatches`缩览图布局配置为单行：
+   在 `initViewer` 函数，以便您能够配置 `Swatches` 将布局作为一行进行缩览图：
 
-   ```
+   ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. 在`resizeViewer`内更新以下调整大小调用：
+1. 在中更新以下调整大小调用 `resizeViewer`:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. 在`ZoomViewer.css`中编辑以下`s7swatches`规则：
+1. 编辑以下内容 `s7swatches` 规则 `ZoomViewer.css`:
 
-   ```
+   ```CSS {.line-numbers}
    .s7swatches { 
        top:0 ; 
        bottom: 0; 

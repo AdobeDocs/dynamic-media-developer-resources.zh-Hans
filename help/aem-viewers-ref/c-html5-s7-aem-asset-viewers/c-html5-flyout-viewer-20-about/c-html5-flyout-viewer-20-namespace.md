@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 06a7110a-3a6f-42f9-b729-e8f96762c64e
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 例如，如果您打算 `StatusEvent.NOTF_VIEW_READY` 事件，则Experience Manager会提供完全限定的事件类型为 `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，且事件侦听器代码类似于以下内容：
 
-```
+```html {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 
@@ -33,7 +33,7 @@ ht-degree: 0%
   }, false); 
 } 
 }); 
-The same code for viewer served from Dynamic Media Classic will look like this: 
+The same code for viewer served from Dynamic Media Classic looks like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

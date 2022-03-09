@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 例如，如果您打算 `StatusEvent.NOTF_VIEW_READY` 事件，则Experience Manager会提供完全限定的事件类型为 `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，且事件侦听器代码类似于以下内容：
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 

@@ -6,7 +6,7 @@ title: 电子目录搜索
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -37,7 +37,7 @@ eCatalog搜索查看器是一种目录查看器，它以跨页或逐页的方式
 
 eCatalog搜索查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件(单个JavaScript包含该查看器的所有查看器SDK组件，这些组件由该特定查看器（资产、CSS）使用)
 
-您可以在弹出模式下使用eCatalog搜索查看器，该模式使用随IS查看器提供的生产就绪HTML页面，或者在嵌入式模式下使用eCatalog搜索查看器，在该模式下，使用记录的API将eCatalog搜索查看器集成到目标网页中。
+您可以在弹出模式下使用eCatalog搜索查看器，它使用随IS查看器提供的生产就绪HTML页面，或在嵌入式模式下使用，在嵌入式模式下，eCatalog搜索查看器可使用记录在案的API集成到目标网页中。
 
 配置和外观设置与其他查看器类似。 所有外观设置都通过自定义CSS实现。
 
@@ -108,7 +108,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -145,7 +145,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
    以下示例用于在HTML页面中定义静态查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
    您可以设置 `stagesize` 修改量(在Dynamic Media Classic的查看器预设记录中)，或使用查看器初始化代码(通过 `params` 集合，或作为API调用（如命令引用部分中所述），如下所示：
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -195,7 +195,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数，并调用 `init()` 方法。 该示例假定 `eCatalogSearchViewer` 为查看器实例； `s7viewer` 是占位符的名称 `DIV`; `https://s7d1.scene7.com/is/image/` 是图像提供URL， `Viewers/Pluralist` 是资产：
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
    以下代码是嵌入具有固定大小的eCatalog搜索查看器的简单网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -242,7 +242,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 就本例而言，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 生成的网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ eCatalog搜索查看器支持社交共享工具。这些工具可用作主控制
 
 上述所有步骤与固定大小嵌入的步骤相同。 添加容器 `DIV` 至现有“持有人” `DIV`. 以下代码是一个完整的示例。 您可以查看在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 在定义了宽度和高度的灵活大小嵌入时，网页样式会有所不同。 也就是说，它为“holder”提供两种大小 `DIV` 并将其居中在浏览器窗口中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 其余嵌入步骤与具有无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 以下示例显示了使用基于setter的API进行固定大小嵌入的示例：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

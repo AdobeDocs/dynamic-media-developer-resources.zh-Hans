@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ ht-degree: 0%
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ target="_blank">Open popup viewer</a>
 
    相对路径如下所示：
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ target="_blank">Open popup viewer</a>
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    以下示例用于在HTML页面中定义静态查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ target="_blank">Open popup viewer</a>
 
    您可以设置 `stagesize` 的查看器预设记录中的任意一个修改量。Dynamic Media Classic 或者，您也可以通过查看器初始化代码通过 `params` 集合，或作为API调用（如命令引用部分中所述），如下所示：
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数并调用 `init()` 方法。 该示例假定 `spinViewer` 是查看器实例， `s7viewer` 是占位符的名称 `DIV`, [!DNL http://s7d1.scene7.com/is/image/] 是图像提供URL， [!DNL Scene7SharedAssets/SpinSet_Sample] 是资产。
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ target="_blank">Open popup viewer</a>
 
    以下代码是嵌入具有固定大小的旋转查看器的普通网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ target="_blank">Open popup viewer</a>
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 就本例而言，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 生成的网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ target="_blank">Open popup viewer</a>
 
 上述所有步骤与固定大小嵌入的步骤相同。 添加容器 `DIV` 至现有“持有人” `DIV`. 以下代码是一个完整的示例。 您可以查看在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 也就是说，它为“holder”提供两种大小 `DIV` 并将其居中在浏览器窗口中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 其余嵌入步骤与具有无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 以下示例显示了使用基于setter的API进行固定大小嵌入的示例：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

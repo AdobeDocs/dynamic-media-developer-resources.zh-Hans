@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 以下是在新窗口中打开查看器的HTML代码示例：
 
-```
+```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    以下示例用于在HTML页中定义静态外部查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
    以下是定义内部查看器大小的示例 `Container` SDK组件，以便在切换资产时，主视图区域不会更改其大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数并调用 `init()` 方法。 该示例假定 `inlineZoomViewer` 为查看器实例； `s7viewer` 是占位符的名称 `DIV`; `http://s7d1.scene7.com/is/image/` 是图像提供URL;和 `Scene7SharedAssets/ImageSet-Views-Sample` 是资产：
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
    以下代码是嵌入具有固定大小的内联缩放查看器的简单网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 在以下示例中，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -283,7 +283,7 @@ ht-degree: 0%
 * 添加 `imagereload` 具有明确断点的参数；
 * 使用绝对单位设置固定查看器大小时，不要使用设置查看器的CSS `width` 和 `height` 为100%，如下所示：
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -292,7 +292,7 @@ ht-degree: 0%
 
 以下代码是一个完整的示例。 请注意在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -337,7 +337,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为 `"holder"` DIV并将其居中在浏览器窗口中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -363,7 +363,7 @@ height: 60%;
 
 其余嵌入步骤与无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -412,7 +412,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 以下示例说明了如何在基于setter的API中使用固定大小嵌入：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

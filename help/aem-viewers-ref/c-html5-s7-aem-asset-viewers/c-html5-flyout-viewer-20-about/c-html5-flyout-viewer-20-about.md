@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 0%
@@ -35,13 +35,13 @@ ht-degree: 0%
 
 弹出查看器仅用于嵌入式使用，这意味着它是使用记录在案的API集成到网页中的。 弹出查看器没有可用于生产的网页。
 
-配置和外观设置与其他查看器类似。 您可以使用自定义CSS来应用外观设置。
+Configuration and skinning are similar to that of the other viewers. You can use custom CSS to apply skinning.
 
 请参阅 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器 — URL通用的命令引用](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 与弹出查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-弹出查看器支持其他移动设备应用程序中常见的单点触控和多点触控手势。
+Flyout Viewer supports single-touch and multi-touch gestures that are common in other mobile applications.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -57,7 +57,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>水平轻扫或轻扫 </p> </td> 
-   <td colname="col2"> <p> 滚动样本栏中的样本列表。 </p> </td> 
+   <td colname="col2"> <p> Scrolls through the list of swatches in the swatch bar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>垂直轻扫 </p> </td> 
@@ -95,9 +95,9 @@ ht-degree: 0%
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
-1. 将查看器JavaScript文件添加到网页。
+1. Adding the viewer JavaScript file to your web page.
 
-   创建查看器要求您在HTML头中添加脚本标记。 在使用查看器API之前，请确保在 `FlyoutViewer.js`. `FlyoutViewer.js` 在以下 [!DNL html5/js/] 标准IS — 查看器部署的子文件夹：
+   创建查看器要求您在HTML头中添加脚本标记。 Before you can use the viewer API, be sure that you include `FlyoutViewer.js`. `FlyoutViewer.js` is in the following [!DNL html5/js/] subfolder of your standard IS-Viewers deployment:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 相对路径如下所示：
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    以下是定义的占位符DIV元素的示例：
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    以下示例用于在HTML页中定义静态外部查看器大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -151,11 +151,11 @@ ht-degree: 0%
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   要使主视图尺寸保持静态，请为内部定义以绝对单位表示的查看器大小 `Container` SDK组件使用 `.s7flyoutviewer .s7container` CSS选择器。 此外，您还应覆盖为 `.s7flyoutviewer` 默认查看器CSS中的顶级CSS类，方法是将其设置为 `auto`.
+   要使主视图尺寸保持静态，请为内部定义以绝对单位表示的查看器大小 `Container` SDK组件使用 `.s7flyoutviewer .s7container` CSS选择器。 In addition, you should override the fixed size defined for the `.s7flyoutviewer` top-level CSS class in the default viewer CSS, by setting it to `auto`.
 
    以下是定义内部查看器大小的示例 `Container` SDK组件，以便在切换资产时，主视图区域不会更改其大小：
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -172,17 +172,17 @@ ht-degree: 0%
 
    此外，默认查看器CSS为其现成外部区域提供了固定大小。
 
-1. 创建和初始化查看器。
+1. Creating and initializing the viewer.
 
-   完成上述步骤后，您将创建一个实例 `s7viewers.FlyoutViewer` 类，将所有配置信息传递给其构造函数并调用 `init()` 方法。 配置信息作为JSON对象传递到构造函数。 此对象至少应具有 `containerId` 包含查看器容器ID和嵌套名称的字段 `params` 具有查看器支持的配置参数的JSON对象。 在本例中， `params` 对象必须至少将图像服务URL作为 `serverUrl` 资产，初始资产则作为 `asset` 参数。 通过基于JSON的初始化API，您可以使用一行代码创建和启动查看器。
+   When you have completed the steps above, you create an instance of `s7viewers.FlyoutViewer` class, pass all configuration information to its constructor and call `init()` method on a viewer instance. 配置信息作为JSON对象传递到构造函数。 此对象至少应具有 `containerId` 包含查看器容器ID和嵌套名称的字段 `params` 具有查看器支持的配置参数的JSON对象。 在本例中， `params` 对象必须至少将图像服务URL作为 `serverUrl` 资产，初始资产则作为 `asset` 参数。 通过基于JSON的初始化API，您可以使用一行代码创建和启动查看器。
 
-   务必要将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 为了实现最大兼容，请调用 `init()` 方法 `BODY` 标记，或在主体上 `onload()` 事件。
+   务必要将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结束。 For maximum compatibility, call the `init()` method just before the closing `BODY` tag, or on the body `onload()` event.
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用 `display:none` 样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素引回布局时为止。 发生此操作时，查看器加载会自动恢复。
 
    以下示例用于创建查看器实例，将最小必需的配置选项传递给构造函数并调用 `init()` 方法。 该示例假定 `flyoutViewer` 为查看器实例； `s7viewer` 是占位符的名称 `DIV`; `http://s7d1.scene7.com/is/image/` 是图像提供URL;和 `Scene7SharedAssets/ImageSet-Views-Sample` 是资产：
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var flyoutViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
    以下代码是嵌入具有固定大小的弹出查看器的普通网页的完整示例：
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -225,9 +225,9 @@ ht-degree: 0%
 
 ## 具有无限制高度的响应式设计嵌入 {#section-056cb574713c4d07be6d07cf3c598839}
 
-通过响应式设计嵌入，网页通常具有某种灵活的布局，可指示查看器容器的运行时大小 `DIV`. 在以下示例中，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 网页HTML代码如下所示：
+With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer&#39;s container `DIV`. 在以下示例中，假定网页允许查看者的容器 `DIV` 可获取Web浏览器窗口大小的40%，从而使其高度不受限制。 网页HTML代码如下所示：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -243,10 +243,10 @@ ht-degree: 0%
 </html>
 ```
 
-将查看器添加到此类页面的步骤与固定大小嵌入的步骤类似。 唯一的区别在于，您必须在大小以相对单位设置时，覆盖默认查看器CSS的固定大小。
+Adding the viewer to such a page is similar to the steps for fixed size embedding. 唯一的区别在于，您必须在大小以相对单位设置时，覆盖默认查看器CSS的固定大小。
 
 1. 将查看器JavaScript文件添加到网页。
-1. 定义容器 `DIV`.
+1. Defining the container `DIV`.
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 * 添加 `imagereload` 具有明确断点的参数；
 * 与使用绝对单位设置固定查看器大小不同，CSS会将查看器宽度和高度设置为100%，如下所示：
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 以下代码是一个完整的示例。 请注意在调整浏览器大小时查看器大小的变化情况，以及查看器长宽比与资产的匹配情况。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -308,7 +308,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 如果定义了宽度和高度的灵活大小嵌入，则网页样式会有所不同。 它为 `"holder"` DIV并将其居中在浏览器窗口中。 此外，网页还会设置 `HTML` 和 `BODY` 元素到100%。
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -334,7 +334,7 @@ height: 60%;
 
 其余嵌入步骤与无限制高度的响应式设计嵌入步骤相同。 结果示例如下：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -381,7 +381,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 以下示例说明了如何在基于setter的API中使用固定大小嵌入：
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
