@@ -4,10 +4,10 @@ description: 从自适应视频集中排除主视频。
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 14%
+source-wordcount: '54'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->Adobe即将终止对 `ExcludeMasterVideoFromAVS` 参数2022年9月。
+>Adobe即将终止对 `ExcludeMasterVideoFromAVS` 参数2022年9月1日。 另请参阅 [已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md).
 
 从自适应视频集中排除主视频。
 
@@ -35,7 +35,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>从自适应视频集中排除主控视频文件。 </p> <p>默认值为true。 </p> </td> 
+   <td colname="col3"> <p>从自适应视频集中排除主视频文件。 </p> <p>默认值为true。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

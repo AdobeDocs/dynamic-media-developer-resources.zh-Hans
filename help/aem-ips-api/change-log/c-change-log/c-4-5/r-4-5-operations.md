@@ -1,14 +1,14 @@
 ---
 description: 介绍IPS API版本4.5的新操作方法和已更改的操作方法。
 solution: Experience Manager
-title: 操作（新增和修改）
-feature: Dynamic Media Classic，SDK/API
+title: 操作 — 新增和已修改
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: d2e73ae5f92d9ba3471dc7207842753ccff94c28
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 修改的操作 {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` 包括 `animatedGifInfo`、 `swcInfo`、 `cssInfo`和参 `javascriptInfo` 数。
-* `createMetadataField` 包含可选 `isHidden` 参数。
-* `saveMetadataField` 包含可选 `isHidden` 参数。
+* `Asset` 包括 `animatedGifInfo`, `swcInfo`, `cssInfo`和 `javascriptInfo` 参数。
+* `createMetadataField` 包括可选 `isHidden` 参数。
+* `saveMetadataField` 包括可选 `isHidden` 参数。
 * `searchAssets`
-* 以前版本已弃用`renameFiles`参数，并从`renameAsset`操作中删除了该参数。 虚拟文件路径会进行更改以匹配新资产名称（保留文件扩展名），而物理文件路径则不会受到影响。 API客户端在更新到新API版本时，需要删除对此参数的引用。
+* 的 `renameFiles` 参数已在以前的版本中弃用，并已从 `renameAsset` 操作。 虚拟文件路径会进行更改以匹配新资产名称（保留文件扩展名），而物理文件路径则不会受到影响。 API客户端在更新到新API版本时，需要删除对此参数的引用。
