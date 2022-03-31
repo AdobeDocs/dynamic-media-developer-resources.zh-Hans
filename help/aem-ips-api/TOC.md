@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 图像生产系统 API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（图像生产系统）Web 服务 API 使外部应用程序和第三方开发人员能够以编程方式访问 IPS 资源和功能。
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 9%
@@ -16,9 +16,9 @@ ht-degree: 9%
 + [关于Dynamic Media图像生产系统API](c-overview.md)
 + [已弃用的调用](c-deprecated-calls.md)
 + [IPS Web服务WSDL版本](c-wsdl-versions.md)
-+ 操作方法{#operation-methods}
++ 操作方法 {#operation-methods}
    + [操作方法](operations/c-operations-intro/c-operations-intro.md)
-   + 操作参数{#operation-parameters}
+   + 操作参数 {#operation-parameters}
       + [操作参数概述](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -176,7 +176,7 @@ ht-degree: 9%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ 数据类型{#data-types}
++ 数据类型 {#data-types}
    + [数据类型](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -234,7 +234,7 @@ ht-degree: 9%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeBybloudArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeBybloudCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -282,7 +282,7 @@ ht-degree: 9%
    + [KeywordsArray](types/c-data-types/r-keywords-array.md)
    + [KnockBackgroundOptions](types/c-data-types/r-knockout-background-options.md)
    + [层视图信息](types/c-data-types/r-layer-view-info.md)
-   + [ManualCropOptions](types/c-data-types/r-manual-crop-options.md)
+   + [手动裁剪选项](types/c-data-types/r-manual-crop-options.md)
    + [蒙版](types/c-data-types/r-mask.md)
    + [MaskArray](types/c-data-types/r-mask-array.md)
    + [掩码信息](types/c-data-types/r-mask-info.md)
@@ -398,7 +398,7 @@ ht-degree: 9%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 字符串常量{#sting-constants}
++ 字符串常量 {#sting-constants}
    + [字符串常量](string-constants/c-string-constants/c-string-constants.md)
    + [活动作业状态](string-constants/c-string-constants/r-active-job-states.md)
    + [资产搜索系统字段](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -439,12 +439,12 @@ ht-degree: 9%
    + [用户角色](string-constants/c-string-constants/r-user-roles.md)
    + [用户排序字段](string-constants/c-string-constants/r-user-sort-fields.md)
    + [查看器类型](string-constants/c-string-constants/r-viewer-type.md)
-+ 故障{#faults}
++ 故障 {#faults}
    + [故障概述](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ 更改日志{#change-log}
++ 更改日志 {#change-log}
    + [更改日志](change-log/c-change-log.md)
    + 版本6.0 {#version-6-0}
       + [6.0 版](change-log/c-change-log/c-6/c-6.md)
