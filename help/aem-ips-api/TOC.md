@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 图像生产系统 API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（图像生产系统）Web 服务 API 使外部应用程序和第三方开发人员能够以编程方式访问 IPS 资源和功能。
-source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 9%
 
 ---
@@ -234,7 +234,6 @@ ht-degree: 9%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeBybloudArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeBybloudCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)

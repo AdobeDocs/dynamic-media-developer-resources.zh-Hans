@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 25d9de1d9ba727e72c031ab22c47bd2be5c11050
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,7 @@ ht-degree: 0%
 
 不再在Dynamic Media中使用的图像生产系统API调用及其关联参数。
 
-* `ExcludeMasterVideoFromAVS`  — 从 [数据类型](/help/aem-ips-api/types/c-data-types/c-data-types.md). 此参数从自适应视频集中排除主视频。
-   >[!IMPORTANT]
-   >
-   >Adobe将于2022年9月1日终止对此参数的支持。 另请参阅 [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md).
-
+* `ExcludeMasterVideoFromAVS`  — 从 [数据类型](/help/aem-ips-api/types/c-data-types/c-data-types.md). 此参数从自适应视频集中排除主视频。 <!-- Adobe is ending support for this parameter on September 1, 2022. -->
 * `addMediaPortalEvent`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 通过此参数，可向IPS添加媒体门户事件。
 * `getMediaPortalEvent`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 通过此参数，您可以获取与指定标准匹配的媒体门户事件。
 * `getCdnCacheInvalidationStatus`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 此参数现已弃用，因为 `cdnCacheInvalidation` 参数几乎立即使缓存失效（约5秒）。 因此，不再需要轮询失效状态。
