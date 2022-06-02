@@ -1,14 +1,14 @@
 ---
+title: 效果
 description: 选择“效果图层”。 选择一个效果层，并在请求字符串中启动与当前层关联的新层段。
 solution: Experience Manager
-title: 效果
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-新段内的所有命令都应用于指定的效果层。 效果层段由下一个`layer=`或`effect=`命令或请求结束终止。
+新段内的所有命令都应用于指定的效果层。 效果层段由下一个 `layer=` 或 `effect=` 命令或请求结束时。
 
-*`n`* 对于外层效果（即父层后的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。效果图层编号不必是连续的。
+*`n`* 对于外层效果（即父层后的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。 效果图层编号不必是连续的。
 
 当同一父层有多个效果层时，效果层编号会指定z顺序。 较高编号的图层放置在较低编号的图层的顶部。
 
-效果层可附加到`layer=comp`。
+效果层可以附着到 `layer=comp`.
 
 ## 属性 {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -47,4 +47,4 @@ ht-degree: 3%
 
 ## 另请参阅 {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

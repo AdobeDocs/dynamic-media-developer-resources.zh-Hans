@@ -1,20 +1,20 @@
 ---
-description: 请求规则元素。 在<ruleset>元素中，一个或多个规则是可选的。
-solution: Experience Manager
 title: 规则
-feature: Dynamic Media Classic，SDK/API
+description: 请求规则元素。 在 <ruleset> 元素。
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '297'
+ht-degree: 7%
 
 ---
 
 # 规则{#rule}
 
-请求规则元素。 在`<ruleset>`元素中，一个或多个规则是可选的。
+请求规则元素。 在 `<ruleset>` 元素。
 
 ## 属性 {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 `Replace = "first" | "all"`: 可选. 默认值为“first”。
 
-`RequestType` =  *&quot;`types`&quot;*:可选。指定规则应用于的输入上下文。 *`types`* 是以逗号分隔的列表，其中可能包含下表中列出的一个或多个令牌。如果未指定`RequestType`，则规则适用于所有受支持上下文中收到的请求。
+`RequestType` = *&quot;`types`&quot;*:可选。 指定规则应用于的输入上下文。 *`types`* 是以逗号分隔的列表，其中可能包含下表中列出的一个或多个令牌。 如果 `RequestType` 未指定，则该规则适用于在所有受支持上下文上收到的请求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +51,14 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-**`Name = "text"`**: 可选. 用于识别调试日志和错误消息中的`<rule>`元素。
+**`Name = "text"`**: 可选. 用于识别 `<rule>` 元素。
 
-`  *`属性`* ="value"`:可选。`<rule>` 元素可以在任意组合中定义以下任意属性。如果已指定，并且规则匹配成功，则它们将覆盖此请求的相应目录属性。 默认值为 `RequestType="is"`.
+`  *`属性`* ="value"`:可选。 `<rule>` 元素可以在任意组合中定义以下任意属性。 如果已指定，并且规则匹配成功，则它们将覆盖此请求的相应目录属性。 默认值为 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> 属性  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> 属性 </span> </b> </th> 
    <th class="entry"> <p>相应的图像目录属性 </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> 属性：:MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> 属性：:MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 有关详细信息，请参阅相应图像目录属性的描述。
 
-过期属性仅覆盖默认属性值。 如果特定的`catalog::Expiration`值应用于请求，则忽略覆盖。
+过期属性仅覆盖默认属性值。 如果某个特定 `catalog::Expiration` 值适用于请求。
 
 ## 数据 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ ht-degree: 6%
 
 ## 说明 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-如果同时指定了`<expression>`和`<substitution>`，并且未使用捕获的子字符串，则第一个匹配的子字符串将替换为`<substitution>`。
+如果两者都 `<expression>` 和 `<substitution>` ，且未使用捕获的子字符串，则第一个匹配的子字符串将替换为 `<substitution>`.
 
-如果未指定`<expression>`，则任何路径都匹配，并且`<substitution>`将附加到路径的末尾。
+如果 `<expression>` 未指定，任何路径匹配和 `<substitution>` 将附加到路径的末尾。
 
-如果未指定`<substitution>`，则不会发生路径或查询转换，但会覆盖任何指定的目录属性。 如果`<substitution>`为空，则删除匹配的子字符串。
+如果 `<substitution>` 未指定，则不会发生路径或查询转换，但任何指定的目录属性都会被覆盖。 如果 `<substitution>` 为空，则会删除匹配的子字符串。
 
-`<addressfilter>`仅在发生匹配时以及在应用查询规则之前应用。
+的 `<addressfilter>` 仅在发生匹配时以及应用查询规则之前应用。

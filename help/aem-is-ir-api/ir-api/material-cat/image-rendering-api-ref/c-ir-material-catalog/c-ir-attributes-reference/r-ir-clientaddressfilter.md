@@ -1,11 +1,11 @@
 ---
+title: ClientAddressFilter
 description: 客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 solution: Experience Manager
-title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%

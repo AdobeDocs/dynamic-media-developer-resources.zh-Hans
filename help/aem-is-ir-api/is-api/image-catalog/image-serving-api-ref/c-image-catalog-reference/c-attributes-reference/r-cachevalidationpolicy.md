@@ -1,14 +1,14 @@
 ---
+title: CacheValidationPolicy
 description: 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 solution: Experience Manager
-title: CacheValidationPolicy
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 
-通过基于过期的验证，将定期检查源图像是否已更改。 通过基于目录的验证，源图像仅在`catalog::TimeStamp`值发生更改后才会被检查。
+通过基于过期的验证，将定期检查源图像是否已更改。 通过基于目录的验证，源图像仅在 `catalog::TimeStamp` 值已更改。
 
 使用图像目录时，建议进行基于目录的验证。 在直接引用图像时应使用基于过期的验证，而无需使用图像目录。
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ## 默认 {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-从`default::CacheValidationPolicy`继承（如果未定义或为空）。
+继承自 `default::CacheValidationPolicy` 如果未定义或为空。
 
 ## 另请参阅 {#section-a0c922fa519641f2bce05e75e4eb51d0}
 

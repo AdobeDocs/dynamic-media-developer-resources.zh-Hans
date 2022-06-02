@@ -1,13 +1,13 @@
 ---
+title: ResMode
 description: 默认重新取样模式。 指定用于缩放图像数据的默认重新取样属性和插值属性。
 solution: Experience Manager
-title: ResMode
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a604e61e-be38-4819-b5c3-a79843c1678f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '78'
 ht-degree: 6%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 默认重新取样模式。 指定用于缩放图像数据的默认重新取样属性和插值属性。
 
-在请求中未指定`resMode=`时使用。
+在 `resMode=` 未在请求中指定。
 
 ## 属性 {#section-493f900be522486f97710cebdc4460c2}
 
-枚举。 对于`bilin`，设置为2；对于`bicub`，设置为3；对于`sharp2`插值模式，设置为4（有关详细信息，请参阅` [resMode=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2)`）。 `sharp` (1)正在被弃用。请改用`sharp2`(4)以获得最佳结果。
+枚举。 对于，设置为2 `bilin`, 3表示 `bicub`或4 `sharp2` 插值模式(请参阅 [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) )。 `sharp` (1)正在被弃用。 使用 `sharp2` (4)以取得最佳结果。
 
 ## 默认 {#section-35f980e745fc4d79a2621e8abacc724d}
 
-从`default::ResMode`继承（如果未定义或为空）。
+继承自 `default::ResMode` 如果未定义或为空。
 
 ## 另请参阅 {#section-6c86322b52e9418093d189e9b29dbb75}
 

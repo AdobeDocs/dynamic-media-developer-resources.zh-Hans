@@ -1,13 +1,13 @@
 ---
+title: DigimarcInfo
 description: Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关联的图像特定数据。
 solution: Experience Manager
-title: DigimarcInfo
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '230'
 ht-degree: 14%
 
 ---
@@ -20,9 +20,9 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
 
 四个整数值，用逗号分隔。
 
-`*``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*`type`*, *`标记`*, *`val1`*, *`val2`*`
 
-`*``*` 类型启用Digimarc嵌入并指定水印类型：
+`*`type`*` 启用Digimarc嵌入并指定水印类型：
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -55,7 +55,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
  </tbody> 
 </table>
 
-`*``*` 标记一个具有三个值的位字段。将位0设置为指示受复制保护的内容，将位1设置为指示受限内容，将位2设置为指示成人内容：
+`*`标记`*` 是具有三个值的位字段。 将位0设置为指示受复制保护的内容，将位1设置为指示受限内容，将位2设置为指示成人内容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -78,7 +78,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>受限。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>受复制保护，受限。 </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +100,14 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
  </tbody> 
 </table>
 
-`*`val1`*`和`*`val2`*`的解释取决于`*`类型`*`:
+对 `*`val1`*` 和 `*`val2`*` 依赖 `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -127,7 +127,7 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>交易 ID. </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
@@ -157,4 +157,4 @@ Digimarc图像信息。 启用Digimarc嵌入，并指定水印类型和任何关
 
 ## 另请参阅 {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

@@ -1,13 +1,13 @@
 ---
+title: SyntherizationFontStyles
 description: 启用合成字体变量。 控制如果请求了此样式，但在字体映射中找不到该样式，则服务器是否应生成错误响应或合成粗体、斜体或粗体/斜体字体样式。
 solution: Experience Manager
-title: SyntherizationFontStyles
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ## 默认 {#section-71f94aa65e404d14b441674c040b59e3}
 
-从`default::SynthesizeFontStyles`继承（如果未定义或为空）。
+继承自 `default::SynthesizeFontStyles` 如果未定义或为空。
 
 ## 另请参阅 {#section-47a79659cc844272b6d5f36c946e12ac}
 
