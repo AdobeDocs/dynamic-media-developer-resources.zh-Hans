@@ -1,6 +1,6 @@
 ---
-title: AdobeDynamic Media Classic发行说明
-description: “AdobeDynamic Media Classic的发行说明，它是Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分。”
+title: Adobe Dynamic Media Classic发行说明
+description: “Adobe Dynamic Media Classic的发行说明，它是Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分。”
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
@@ -11,8 +11,8 @@ role: Developer,User
 user-guide-description: Adobe Dynamic Media Classic（Adobe Experience Cloud 中 Adobe Experience Manager 解决方案的一部分）的最新发行说明。
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 22%
+source-wordcount: '95'
+ht-degree: 23%
 
 ---
 
