@@ -6,8 +6,8 @@ feature-set: Experience Manager Assets
 user-guide-description: 查看有关 IS（图像服务）和 IR（图像渲染）API 以及相关技术的文档。
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: IPS（图像生产系统）Web 服务 API 使外部应用程序和第三方开发人员能够以编程方式访问 IPS 资源和功能。
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

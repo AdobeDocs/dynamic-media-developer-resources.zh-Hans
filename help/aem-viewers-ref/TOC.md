@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: 自定义 Dynamic Media 查看器，以在桌面设备和触摸屏设备上使用。包括交互式图像和视频、轮盘、旋转集等。
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
