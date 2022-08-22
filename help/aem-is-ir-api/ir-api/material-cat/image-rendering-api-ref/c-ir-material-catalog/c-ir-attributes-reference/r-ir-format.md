@@ -1,14 +1,14 @@
 ---
+title: 格式
 description: 默认回复图像格式。 指定回复图像的默认格式。
 solution: Experience Manager
-title: 格式
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 10%
 
 ## 属性 {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-文本字符串。 必须是`fmt=`命令支持的格式令牌之一：
+文本字符串。 必须是 `fmt=` 命令：
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## 默认 {#section-256b0f8afdd846eaac68ec2019258708}
 
-从`default::Format`继承（如果未定义或为空）。
+继承自 `default::Format` 如果未定义或为空。
 
 ## 另请参阅 {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

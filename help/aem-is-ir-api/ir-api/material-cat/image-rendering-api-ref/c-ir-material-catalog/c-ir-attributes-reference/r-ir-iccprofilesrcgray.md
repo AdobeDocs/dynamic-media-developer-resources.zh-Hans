@@ -1,11 +1,11 @@
 ---
-description: Grayscale default input color profile. Specifies the name of the ICC color profile to be used for grayscale material images which do not embed a color profile.
-solution: Experience Manager
 title: IccProfileSrcGray
+description: 灰度默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的灰度材料图像的ICC颜色配置文件的名称。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 默认 {#section-02c52805ee13483dba7878aeab51f889}
 
-Inherited from `default::IccProfileSrcGray` if not defined or if empty. 如果 `attribute::IccProfileSrcGray` 未解析为有效的配置文件， `attribute::IccProfileGray` 的值。
+继承自 `default::IccProfileSrcGray` 如果未定义或为空。 如果 `attribute::IccProfileSrcGray` 未解析为有效的配置文件， `attribute::IccProfileGray` 的值。
 
 ## 另请参阅 {#section-c361d6f6231942b3aa8b4b496e1d3de3}
 

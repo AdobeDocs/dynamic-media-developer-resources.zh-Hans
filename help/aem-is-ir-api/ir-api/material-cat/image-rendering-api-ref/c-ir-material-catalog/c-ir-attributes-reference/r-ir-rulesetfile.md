@@ -1,13 +1,13 @@
 ---
+title: RuleSetFile
 description: 规则集定义文件路径。 指定包含此材料目录的规则集定义的文件。
 solution: Experience Manager
-title: RuleSetFile
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 66c211e7-1c40-47f1-b850-4b7ee6255a84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---

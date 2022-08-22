@@ -1,13 +1,13 @@
 ---
+title: VignetteMapFile
 description: 晕影映射数据文件路径。 指定包含此图像目录的晕影映射的文件。
 solution: Experience Manager
-title: VignetteMapFile
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9b7c7b1-cc49-419f-8eea-0091ef8b3011
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---

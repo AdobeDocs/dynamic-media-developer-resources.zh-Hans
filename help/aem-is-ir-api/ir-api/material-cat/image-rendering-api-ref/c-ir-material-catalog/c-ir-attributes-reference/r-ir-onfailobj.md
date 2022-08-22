@@ -1,11 +1,11 @@
 ---
+title: OnFailObj
 description: 对象选择错误处理。 指定当obj=命令失败时要执行的操作，因为指定的路径无法在晕影对象层次结构中匹配。
 solution: Experience Manager
-title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 14%

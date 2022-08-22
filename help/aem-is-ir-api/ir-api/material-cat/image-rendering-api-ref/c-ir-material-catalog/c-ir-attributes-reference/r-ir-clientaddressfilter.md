@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 
-指定后，对此图像目录的请求将被拒绝，这些请求源自位于未列出的IP地址的客户端。 `localhost` 始终隐式包含在 `ClientAddressFilter` 定义，即使未明确指定也是如此。 来自 `localhost` 不会被拒绝，无论 `ClientAddressFilter` 规范。
+指定后，对此图像目录的请求将被拒绝，这些请求源自位于未列出IP地址的客户端。 `localhost` 始终隐式包含在 `ClientAddressFilter` 定义，即使未明确指定也是如此。 来自 `localhost` 不会被拒绝，无论 `ClientAddressFilter` 规范。
 
 ## 属性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 

@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: 错误消息详细信息。 将通过HTTP返回的错误消息的详细级别指定为error.message值。
 solution: Experience Manager
-title: ErrorDetail
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的调试信息。 在适用时添加Java堆栈跟踪。 错误图像从不包含堆栈跟踪，而是返回<span class="codeph"> $error.message</span>中的2级信息。 </p></td> 
+  <td class="stentry"> <p>完整的调试信息。 添加Java™堆栈跟踪（如果适用）。 错误图像从不包含堆栈跟踪，而是返回 <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 ## 默认 {#section-5e78d550050840cc9a1de811c581b94f}
 
-如果未指定或为空，则从`default::ErrorDetail`继承。
+继承自 `default::ErrorDetail` 如果未指定或为空，则为。
 
 ## 另请参阅 {#section-474e71922d194c7ca06f2aad3b30e025}
 

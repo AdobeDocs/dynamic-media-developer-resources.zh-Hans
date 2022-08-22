@@ -1,14 +1,14 @@
 ---
+title: 对齐
 description: 纹理渲染对齐方式。 指定将使用所选晕影对象定义的原点。
 solution: Experience Manager
-title: 对齐
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 4%
 
 ---
 

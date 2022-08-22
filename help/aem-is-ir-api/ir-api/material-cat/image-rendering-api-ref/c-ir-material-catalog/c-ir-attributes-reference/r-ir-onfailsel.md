@@ -1,20 +1,20 @@
 ---
+title: OnFailSel
 description: 选择选择错误处理。 指定当sel=命令失败时要执行的操作，因为指定的像素位置不在可选对象的掩码区域之内。
 solution: Experience Manager
-title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 13%
 
 ---
 
 # OnFailSel{#onfailsel}
 
-选择选择错误处理。 指定当sel=命令失败时要执行的操作，因为指定的像素位置不在可选对象的掩码区域之内。
+选择选择错误处理。 指定在 `sel=` 命令失败，因为指定的像素位置不在可选对象的掩码区域中。
 
 ## 属性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
