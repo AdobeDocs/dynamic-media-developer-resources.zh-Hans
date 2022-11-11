@@ -5,14 +5,14 @@ title: 权限
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 12%
+source-wordcount: '53'
+ht-degree: 13%
 
 ---
 
-# 权限{#permission}
+# [!DNL Permission]{#permission}
 
 按组管理资产的访问、修改、创建或删除权限。
 

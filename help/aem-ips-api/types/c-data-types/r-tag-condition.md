@@ -2,17 +2,17 @@
 description: 为标记字段定义搜索条件。
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 为标记字段定义搜索条件。
 
@@ -39,9 +39,9 @@ ht-degree: 7%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">取决于标记字段类型以及是使用value或valueArray字段。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果传递了<span class="codeph">值</span>，则<span class="codeph"> op</span>必须是字符串常量Matches。 该条件匹配与标记值关联的任何资产。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果传递了<span class="codeph"> valueArray</span>，则op字段可以是常量<span class="codeph"> MatchesAny</span>，用于单个或多值标记字段。 <span class="codeph">匹配Any</span>条件匹配与<span class="codeph"> valueArray</span>中至少一个标记值相关联的任何资产。 </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，op字段可设置为具有<span class="codeph"> valueArray</span>字段的常量<span class="codeph"> MatchesAll</span>。 在这种情况下，条件仅匹配与<span class="codeph"> valueArray</span>中的所有标记值（可能是除其他标记值之外）关联的资产。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果 <span class="codeph"> 值</span> 已通过， <span class="codeph"> op</span> 必须是字符串常量Matches。 该条件匹配与标记值关联的任何资产。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果 <span class="codeph"> valueArray</span> 传递，op字段可以是常量 <span class="codeph"> MatchesAny</span> 用于单个或多值标记字段。 A <span class="codeph"> MatchesAny</span> 条件匹配与 <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，可以将op字段设置为常量 <span class="codeph"> MatchesAll</span> 和 <span class="codeph"> valueArray</span> 字段。 在这种情况下，条件仅匹配与 <span class="codeph"> valueArray</span> （可能是除其他标记值之外）。 </li>
     </ul></td> 
   </tr> 
   <tr> 

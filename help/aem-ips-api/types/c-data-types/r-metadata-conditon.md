@@ -2,17 +2,17 @@
 description: 添加搜索词以用于searchAssets。
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 8%
 
 ---
 
-# MetadataCondition{#metadatacondition}
+# [!DNL MetadataCondition]{#metadatacondition}
 
 添加搜索词以用于searchAssets。
 
@@ -97,7 +97,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 在<span class="codeph"> searchAssetsByMetadata</span>调用中使用。 </p> <p>请参阅<a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>。 </p> </td> 
+   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 在 <span class="codeph"> searchAssetsByMetadata</span> 呼叫。 </p> <p>请参阅 <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

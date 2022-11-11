@@ -2,17 +2,17 @@
 description: 有助于提高优化金字塔TIF文件的图像锐度的设置。
 solution: Experience Manager
 title: USMsharpMaskOptions
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 12%
+source-wordcount: '186'
+ht-degree: 13%
 
 ---
 
-# USMsharpMaskOptions{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 有助于提高优化金字塔TIF文件的图像锐度的设置。
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 ## 参数 {#section-c3f0d03136ba4422819cb463bd393885}
 
-为`minOccurs=" *`n`*".`的`unsharpMaskOptions`选项指定值
+指定值 `unsharpMaskOptions` 选项 `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ ht-degree: 12%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 单色</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>值仅包括<span class="codeph"> 0</span>或<span class="codeph"> 1</span>。 </p><p>将设置为<span class="codeph"> 0</span>以单独应用于每个颜色组件，或将设置为<span class="codeph"> 1</span>以仅应用于图像亮度（强度）。 图层蒙版或复合蒙版也会被锐化。 </p><p><span class="codeph"><span class="varname"> </span></span> 对于灰度图像，将忽略单色。 </p></td>
+   <td colname="col3"><p>值包括 <span class="codeph"> 0</span> 或 <span class="codeph"> 1</span> 仅。 </p><p>设置为 <span class="codeph"> 0</span> 分别应用于每个颜色组件或 <span class="codeph"> 1</span> 仅应用于图像亮度（强度）。 图层蒙版或复合蒙版也会被锐化。 </p><p><span class="codeph"><span class="varname"> 单色</span></span> 将忽略灰度图像。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ ht-degree: 12%
 
 ## 使用者 {#section-db8124a5468b498694a780f8a56a4560}
 
-`unsharpMaskOptions`类型由以下用户使用：
+的 `unsharpMaskOptions` 类型的使用者：
 
 * [重新处理AssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

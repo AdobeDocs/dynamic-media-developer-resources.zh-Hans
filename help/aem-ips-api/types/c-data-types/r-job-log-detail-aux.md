@@ -5,14 +5,14 @@ title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 789736c5-d74d-4970-9665-b43e316aca69
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
 
-# JobLogDetailAux{#joblogdetailaux}
+# [!DNL JobLogDetailAux]{#joblogdetailaux}
 
 包含与主作业日志消息(JobDetail)关联的补充消息。 包括警告和与当前处理的资产关联的其他详细信息。
 

@@ -5,14 +5,14 @@ title: 操作故障
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
 
-# 操作故障{#operationfault}
+# [!DNL OperationFault]{#operationfault}
 
 针对CDN失效请求中提供的一个URL响应的详细消息。
 

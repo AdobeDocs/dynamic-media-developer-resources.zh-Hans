@@ -5,14 +5,14 @@ title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '38'
+ht-degree: 18%
 
 ---
 
-# GenerationAttribute{#generationattribute}
+# [!DNL GenerationAttribute]{#generationattribute}
 
 名称 — 值对，其中包含有关资产生成步骤的信息。 请参阅getGenerationInfo 。
 

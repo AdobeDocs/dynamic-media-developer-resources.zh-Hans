@@ -5,14 +5,14 @@ title: 作业日志
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 4%
+source-wordcount: '187'
+ht-degree: 3%
 
 ---
 
-# 作业日志{#joblog}
+# [!DNL JobLog]{#joblog}
 
 作业运行后的作业日志。
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 | jobSubType | `xsd:string` | 其他作业信息。 |
 | startDate | `xsd:dateTime` | 作业的开始日期、时间和时区。 |
 | endDate | `xsd:dateTime` | 作业的结束日期、时间和时区。 |
-| description | `xsd:string` | 最初在 `submitJob`. |
+| [!DNL description] | `xsd:string` | 最初在 `submitJob`. |
 | fileSuccessCount | `xsd:int` | 已成功处理的文件数。 |
 | fileErrorCount | `xsd:int` | 导致错误的文件数。 |
 | fileWarningCount | `xsd:int` | 生成警告的文件数。 |

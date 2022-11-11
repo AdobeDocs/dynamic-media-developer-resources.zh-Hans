@@ -5,14 +5,14 @@ title: EmailArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 12%
 
 ---
 
-# EmailArray{#emailarray}
+# [!DNL EmailArray]{#emailarray}
 
 用于指定发起者的数组，或最多5个电子邮件地址的列表，用于接收确认通知。
 

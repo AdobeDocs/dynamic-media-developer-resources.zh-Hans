@@ -5,14 +5,14 @@ title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 28%
+source-wordcount: '31'
+ht-degree: 29%
 
 ---
 
-# PdfSettingsInfo{#pdfsettingsinfo}
+# [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
 PDF设置文件资产的属性。
 

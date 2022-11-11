@@ -2,21 +2,21 @@
 description: 使用getActiveJobs跟踪桌面上载。
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 10%
 
 ---
 
-# UploadPostJob{#uploadpostjob}
+# [!DNL UploadPostJob]{#uploadpostjob}
 
 使用getActiveJobs跟踪桌面上载。
 
-另请参阅[通过HTTP POST上传资产……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d)。
+另请参阅 [通过HTTP POST将资产上传……](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:KnockoudBackgroundOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockBackgroundOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -98,7 +98,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：MediaOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>用于从视频中设置缩略图的选项。 </p> <p>请参阅<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>用于从视频中设置缩略图的选项。 </p> <p>请参阅 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆盖</span> </span> </td> 
@@ -134,7 +134,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>控制对任何现有裁剪定义的保留。 默认为 true。</p> <p>如果提供manualCropOptions参数和相应的值，则无论preserveCrop值如何，都会将新值（不包括0,0,0,0）应用于资产。</p><p>如果<i>不</i>提供manualCropOptions参数，则会保留preserveCrop的值。 并且，如果为true，将保留现有preserveCrop值；如果为false，将删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>控制对任何现有裁剪定义的保留。 默认为 true。</p> <p>如果提供manualCropOptions参数和相应的值，则无论preserveCrop值如何，都会将新值（不包括0,0,0,0）应用于资产。</p><p>如果是 <i>not</i> 提供manualCropOptions参数，则会维护preserveCrop的值。 并且，如果为true，将保留现有preserveCrop值；如果为false，将删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -158,13 +158,13 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：UnCompressOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>使用这些可选设置提取和处理已上传的TAR/ZIP文件的内容。 </p> <p>请参阅<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>使用这些可选设置提取和处理已上传的TAR/ZIP文件的内容。 </p> <p>请参阅 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmarpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：USMsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置可帮助提高图像锐度。 </p> <p>请参阅<a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UsmarpMaskOptions</a>。 </p> </td> 
+   <td colname="col4"> <p>用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置可帮助提高图像锐度。 </p> <p>请参阅 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> USMsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 

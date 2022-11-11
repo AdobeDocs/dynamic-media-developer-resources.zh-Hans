@@ -2,23 +2,23 @@
 description: 重新拆分现有PDF资产的流程。
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 5%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
 重新拆分现有PDF资产的流程。
 
 >[!NOTE]
 >
->此作业类型已弃用。 过渡到`ReprocessAssetsJob`，以便将来进行所有集成。
+>此作业类型已弃用。 过渡到 `ReprocessAssetsJob` ，以用于所有将来的集成。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,7 +34,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>处理要撕开的PDF文件数组。 </p> </td> 
+   <td colname="col3"> <p>对要撕开的PDF文件数组的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -114,20 +114,20 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:KnockoudBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 说明 {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-`*CropOptions`的选项包括：
+选项 `*CropOptions` 包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-`*PublishJob`的选项包括：
+选项 `*PublishJob` 包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

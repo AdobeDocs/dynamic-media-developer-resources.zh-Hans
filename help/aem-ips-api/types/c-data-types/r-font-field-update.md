@@ -5,14 +5,14 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 9%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# [!DNL FontFieldUpdate]{#fontfieldupdate}
 
 更新字体属性的信息。
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 | fontName | `xsd:string` | 字体名称。 |
 | postscriptName | `xsd:string` | PostScript字体名称。 |
 | rtfName | `xsd:string` | 富文本字体名称。 |
-| 字体系列 | `xsd:string` | 字体系列名称。 |
-| 样式 | `xsd:string` | 字体样式（有关值，请参阅字体样式）。 |
+| [!DNL fontFamily] | `xsd:string` | 字体系列名称。 |
+| [!DNL style] | `xsd:string` | 字体样式（有关值，请参阅字体样式）。 |
 | typeName | `xsd:string` | 字体类型名称。 |
-| 类型 | `xsd:string` | 字体类型（有关值，请参阅字体类型）。 |
+| [!DNL type] | `xsd:string` | 字体类型（有关值，请参阅字体类型）。 |

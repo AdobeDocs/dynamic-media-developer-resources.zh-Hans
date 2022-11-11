@@ -5,14 +5,14 @@ title: 群組
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 23%
+source-wordcount: '38'
+ht-degree: 21%
 
 ---
 
-# 群組{#group}
+# [!DNL Group]{#group}
 
 用于分配权限的已命名用户集。
 
@@ -24,5 +24,5 @@ ht-degree: 23%
 |---|---|---|
 | groupHandle | `xsd:string` | 组句柄。 |
 | companyHandle | `xsd:string` | 公司负责人。 |
-| name | `xsd:string` | 群组名称. |
-| is SystemDefined | `xsd:string` | 组是否由系统定义。 |
+| [!DNL name] | `xsd:string` | 群组名称. |
+| [!DNL is SystemDefined] | `xsd:string` | 组是否由系统定义。 |

@@ -5,14 +5,14 @@ title: 配置设置
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 25%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# 配置设置{#configsetting}
+# [!DNL ConfigSetting]{#configsetting}
 
 仅由Dynamic Media开发人员使用。
 
@@ -22,6 +22,6 @@ ht-degree: 25%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| name | `xsd:string` | 配置名称。 |
-| 价值 | `xsd:string` | 配置值。 |
-| 处理 | `xsd:string` | 对存储的配置的句柄。 |
+| [!DNL name] | `xsd:string` | 配置名称。 |
+| [!DNL value] | `xsd:string` | 配置值。 |
+| [!DNL handle] | `xsd:string` | 对存储的配置的句柄。 |

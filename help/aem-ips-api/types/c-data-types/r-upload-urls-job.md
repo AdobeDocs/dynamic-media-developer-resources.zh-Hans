@@ -2,17 +2,17 @@
 description: 从要获取文件的位置上传URL。
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
 
-# UploadUrlsJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 从要获取文件的位置上传URL。
 
@@ -72,7 +72,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:KnockoudBackgroundOptions</span> </td> 
-   <td colname="col3">掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 可选。请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>。 </td> 
+   <td colname="col3">掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 可选。请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -82,12 +82,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：MediaOptions</span> </td> 
-   <td colname="col3">用于从视频中设置缩略图的选项。 请参阅<a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>。 </td> 
+   <td colname="col3">用于从视频中设置缩略图的选项。 请参阅 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">返回作业中提交的URL数。 <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a>和<a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>使用。 </td> 
+   <td colname="col3">返回作业中提交的URL数。 使用者 <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> 和 <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 覆盖</span> </span> </td> 
@@ -152,12 +152,12 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：UnCompressOptions</span> </td> 
-   <td colname="col3">使用这些可选设置提取和处理已上传的TAR/ZIP文件的内容。 请参阅<a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>。 </td> 
+   <td colname="col3">使用这些可选设置提取和处理已上传的TAR/ZIP文件的内容。 请参阅 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmarpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：USMsharpMaskOptions</span> </td> 
-   <td colname="col3">用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置可帮助提高图像锐度。 请参阅<a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UsmarpMaskOptions</a>。 </td> 
+   <td colname="col3">用于在创建优化金字塔TIF文件时控制USM锐化设置的选项。 使用这些设置可帮助提高图像锐度。 请参阅 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> USMsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -174,13 +174,13 @@ ht-degree: 5%
 
 ## 说明 {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-对于`CropOptions`，您只能选择以下选项之一：
+对于 `CropOptions`，则只能选择以下选项之一：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-对于`PublishJob`，您只能选择以下选项之一：
+对于 `PublishJob`，则只能选择以下选项之一：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

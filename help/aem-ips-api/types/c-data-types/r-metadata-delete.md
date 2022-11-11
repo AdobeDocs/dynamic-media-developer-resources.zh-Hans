@@ -2,17 +2,17 @@
 description: 要从资产中删除的元数据。
 solution: Experience Manager
 title: 元数据删除
-feature: Dynamic Media Classic，SDK/API，元数据
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 21%
+source-wordcount: '25'
+ht-degree: 28%
 
 ---
 
-# 元数据删除{#metadatadelete}
+# [!DNL MetadataDelete]{#metadatadelete}
 
 要从资产中删除的元数据。
 

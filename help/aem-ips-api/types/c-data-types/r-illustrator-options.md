@@ -5,14 +5,14 @@ title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 13%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
-# IllustratorOptions{#illustratoroptions}
+# [!DNL IllustratorOptions]{#illustratoroptions}
 
 Adobe Illustrator文件的选项。
 
@@ -22,7 +22,7 @@ Adobe Illustrator文件的选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 进度 | `xsd:string` | 选择Illustrator流程。 |
-| 解析度 | `xsd:string` | 文件解析。 |
+| [!DNL process] | `xsd:string` | 选择Illustrator流程。 |
+| [!DNL resolution] | `xsd:string` | 文件解析。 |
 | colorSpace | `xsd:string` | 目标色彩空间。 |
-| alpha | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 |
+| [!DNL alpha] | `xsd:boolean` | 是否将文件栅格化为图像。 如果是，如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 |

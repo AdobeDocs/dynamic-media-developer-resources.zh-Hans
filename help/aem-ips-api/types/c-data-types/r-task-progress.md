@@ -2,17 +2,17 @@
 description: 任务进度信息。
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '137'
+ht-degree: 12%
 
 ---
 
-# TaskProgress{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 任务进度信息。
 
@@ -75,7 +75,7 @@ ht-degree: 11%
    <td colname="col3">值包括： 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
      <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> 未知</span>:任务监视器在状态之间转换时。 </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 新增</span>:任务监视器已创建，但尚未接受任务。 </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 新建</span>:任务监视器已创建，但尚未接受任务。 </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> 处理</span>:任务监视器正在主动处理任务。 </li>
      <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> 正在停止</span>:任务监视器由于停止作业请求而正在停止作业。 </li>
      <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> 完成</span>:分配给任务监视器作业的作业已完成。 </li>

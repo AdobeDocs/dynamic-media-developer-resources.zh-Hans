@@ -5,14 +5,14 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
-# GenerationInfo{#generationinfo}
+# [!DNL GenerationInfo]{#generationinfo}
 
 PostScript文件属性。
 
@@ -22,7 +22,7 @@ PostScript文件属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 引擎 | `xsd:string` | 使用的生成引擎（有关值，请参阅“生成信息”）。 |
-| 创作者 | `types:Asset` | 生成中使用的主资产的资产记录。 |
-| 已生成 | `types:Asset` | 生成的资产的资产记录。 |
+| [!DNL engine] | `xsd:string` | 使用的生成引擎（有关值，请参阅“生成信息”）。 |
+| [!DNL originator] | `types:Asset` | 生成中使用的主资产的资产记录。 |
+| [!DNL generated] | `types:Asset` | 生成的资产的资产记录。 |
 | attributeArray | `types:GenerationAttributeArray` | 与生成过程关联的属性数组。 |

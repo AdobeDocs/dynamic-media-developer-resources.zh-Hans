@@ -5,14 +5,14 @@ title: 公司成员
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 16%
+source-wordcount: '47'
+ht-degree: 17%
 
 ---
 
-# 公司成员{#companymember}
+# [!DNL CompanyMember]{#companymember}
 
 描述用户所属的不同公司。
 

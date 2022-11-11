@@ -2,17 +2,17 @@
 description: 创建视频站点地图。
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
-# CreateVideoSitemapJob{#createvideositemapjob}
+# [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
 创建视频站点地图。
 
@@ -32,7 +32,7 @@ ht-degree: 12%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">当设置为<span class="codeph"> true</span>时，生成站点映射。 <p><p>注意：如果将站点地图生成配置设置为手动，并且未设置<span class="codeph"> forceUpdate</span>，则不会生成站点地图。 </p></p></td> 
+   <td colname="col3">将设置为时，生成网站映射 <span class="codeph"> true</span>. <p><p>注意：如果将“站点地图生成配置”设置为“手动”和 <span class="codeph"> forceUpdate</span> 未设置，则不会生成网站映射。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

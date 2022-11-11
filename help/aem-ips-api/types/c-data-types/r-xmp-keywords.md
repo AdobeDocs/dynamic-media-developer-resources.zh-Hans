@@ -2,17 +2,17 @@
 description: 资产的可扩展元数据平台关键词。
 solution: Experience Manager
 title: XmpKeywords
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 19%
+source-wordcount: '66'
+ht-degree: 21%
 
 ---
 
-# XmpKeywords{#xmpkeywords}
+# [!DNL XmpKeywords]{#xmpkeywords}
 
 资产的可扩展元数据平台关键词。
 
@@ -32,7 +32,7 @@ ht-degree: 19%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 项目</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>合并到<span class="codeph"> dc:subject=</span> XMP属性节点的逗号分隔关键词列表。 如果逗号出现在任何单个值中，则需要用反斜杠(\)字符进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
+   <td colname="col3"> <p>合并到的以逗号分隔的关键词列表 <span class="codeph"> dc:subject=</span> XMP属性节点。 如果逗号出现在任何单个值中，则需要用反斜杠(\)字符进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
