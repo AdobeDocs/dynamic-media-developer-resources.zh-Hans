@@ -2,12 +2,12 @@
 description: 所有日志文件都写入到TC目录指定的同一日志文件夹中。
 solution: Experience Manager
 title: 服务器日志记录
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 所有日志文件都写入到TC::directory指定的同一日志文件夹中。
 
-日志文件通常每天创建和旋转。 在指定的天数(`TC::maxDays`)后，将自动删除日志文件夹中较旧的日志文件。
+日志文件通常每天创建和旋转。 在指定的天数后，将自动删除日志文件夹中较旧的日志文件( `TC::maxDays`)。
 
 重要信息必须为日志文件保留足够的磁盘空间，以避免磁盘空间耗尽。 对于使用频繁的服务器和默认日志设置，可能需要1-2 GB/天。
 
-平台服务器和图像服务器会创建下面描述的三种类型的日志文件。
+的 [!DNL Platform Server] 图像服务器创建下面描述的三种类型的日志文件。
 
 其他图像服务组件和某些其他Dynamic Media包(如Dynamic Media查看器)也可能在同一文件夹中创建日志文件。 这些日志文件供Dynamic Media内部使用，Dynamic Media技术支持可能会出于故障排除目的而请求使用这些日志文件。
 
@@ -30,4 +30,4 @@ ht-degree: 1%
 
 ## 另请参阅 {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[访问日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)、 [调试/跟踪日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[访问日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [调试/跟踪日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

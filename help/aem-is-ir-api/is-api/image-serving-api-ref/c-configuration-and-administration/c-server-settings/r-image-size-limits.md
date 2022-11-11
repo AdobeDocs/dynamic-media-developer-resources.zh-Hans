@@ -2,12 +2,12 @@
 description: 使用这些服务器设置设置图像大小限制。
 solution: Experience Manager
 title: 图像大小限制
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## IS::MaxMessageSize — 响应大小限制 {#section-bd942385d4d144cd904003695d72c85e}
 
-限制允许图像服务器发送到平台服务器的数据大小。 这有效地限制了图像服务可以通过HTTP(MB)返回到客户端的编码/压缩响应图像的大小。
+限制允许图像服务器发送到的数据大小 [!DNL Platform Server]. 这有效地限制了图像服务可以通过HTTP(MB)返回到客户端的编码/压缩响应图像的大小。
 
 ## IS::MaxRenderRgnPixels — 输出图像大小限制 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## IS::MaxSavePixels — 保存到文件的大小限制 {#section-d1547c4afa88467080ab08356f775e06}
 
-使用`req=saveToFile`命令限制图像服务器将写入文件的图像大小。 大于0的整数值（以百万为单位）。 如果文件保存操作超过该限制，则返回错误。 默认为1亿像素。
+限制图像服务器将写入文件的图像大小 `req=saveToFile` 命令。 大于0的整数值（以百万为单位）。 如果文件保存操作超过该限制，则返回错误。 默认为1亿像素。
 
 ## IS::MaxNonDsfSize — 非PTIFF输入图像的大小限制 {#section-50de28a7158a436393cce5da0d1e4d46}
 

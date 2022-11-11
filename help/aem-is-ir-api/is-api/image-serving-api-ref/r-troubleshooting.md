@@ -5,9 +5,9 @@ title: 疑难解答
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ImageServer现在会保留安装日志和备份文件夹，其中包含在升级
 
 **缓存文件夹使用的实际磁盘空间超过 ` *[!DNL cache.maxSize]*`设置[!DNL PlatformServer.conf]**
 
-这不表示问题。 平台服务器的磁盘缓存设置中不包含文件系统开销。 系统报告的总量可以大大大于设置。 建议保留的磁盘空间是 ` *[!DNL cache.maxSize]*`.
+这不表示问题。 文件系统开销不包括在 [!DNL Platform Server]的磁盘缓存设置。 系统报告的总量可以大大大于设置。 建议保留的磁盘空间是 ` *[!DNL cache.maxSize]*`.
 
 **is-docs示例中的图像损坏**
 
@@ -43,11 +43,11 @@ ImageServer现在会保留安装日志和备份文件夹，其中包含在升级
 
 **在长时间运行后，出现过多缓存丢失**
 
-根据服务器的使用情况，如果磁盘空间可用，则通过增加Platform Server磁盘缓存大小可以提高性能。 可以通过手动编辑配置文件来更改设置。 请参阅文档。
+根据服务器的使用情况，性能可通过提高 [!DNL Platform Server] 磁盘缓存大小（如果磁盘空间可用）。 可以通过手动编辑配置文件来更改设置。 请参阅文档。
 
 **日志文件占用的磁盘空间过多**
 
-图像服务器和平台服务器每天都会启动一个新的日志文件。 默认情况下，这些值会放置在[!DNL中 *[!DNL install_root]*/ImageServing/logs]。 可以配置日志文件大小、保留的日志数和日志内容。 请参阅文档。
+图像服务器和 [!DNL Platform Server] 每天启动新的日志文件。 默认情况下，这些值会放置在[!DNL中 *[!DNL install_root]*/ImageServing/logs]。 可以配置日志文件大小、保留的日志数和日志内容。 请参阅文档。
 
 **如果您的服务器上安装了防病毒软件**
 

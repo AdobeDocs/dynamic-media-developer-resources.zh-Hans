@@ -2,12 +2,12 @@
 description: 默认目录为所有图像目录的所有目录属性提供默认值。
 solution: Experience Manager
 title: 默认目录
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 此外，当操作中未涉及特定图像目录时，默认目录会提供所有属性和数据记录（宏、字体、ICC配置文件、请求预处理规则）。
 
-为了使Platform Server正常运行，默认目录的目录属性文件必须命名为[!DNL default.ini]，必须始终存在于目录文件夹中，并且必须完全填充所有必需属性，不包括`attribute::RootId`和对各种目录数据文件的引用，这些属性都是可选的。
+正确运行 [!DNL Platform Server] 默认目录的目录属性文件必须命名为 [!DNL default.ini]，必须始终存在于目录文件夹中，并且必须完全填充所有必需属性， `attribute::RootId` 和对各种目录数据文件的引用，这些都是可选的。
 
 >[!NOTE]
 >
->除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 `attribute::RootId` 中 [!DNL default.ini] 的必须为空。
+>除 [!DNL default.ini] 必须包含唯一 `attribute::RootId` 值。 `attribute::RootId` in [!DNL default.ini] 必须为空。

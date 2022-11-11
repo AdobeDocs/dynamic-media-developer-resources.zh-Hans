@@ -1,20 +1,20 @@
 ---
 title: 在Windows上启动或停止
-description: 在Windows上启动或停止图像服务器和平台服务器存在多种机制
+description: 有多种机制可启动或停止图像服务器和 [!DNL Platform Server] 在Windows上
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9c7dc74a-5965-428f-9146-6b39c46b318f
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
 # 在Windows上启动或停止{#starting-or-stopping-on-windows}
 
-在Windows上启动或停止图像服务器和平台服务器的机制有多种。
+有多种机制可启动或停止图像服务器和 [!DNL Platform Server] 在Windows上。
 
 1. 选择以下选项之一以开始或停止图像提供：
 

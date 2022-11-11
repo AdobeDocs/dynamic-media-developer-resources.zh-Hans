@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ ht-degree: 0%
    **重要信息：** 许可证基于此主机上安装的其中一个网络接口卡的MAC地址。 如果禁用、删除或替换此卡，则许可证将不再被识别为有效。 确保获得用于图像提供的硬件配置的许可证。
 
    如果没有有效的许可证，您可以继续安装IS，稍后再安装该许可证。 要继续，请选择 **[!UICONTROL 返回]** 返回 [!DNL Authentication] ，然后选择 **[!UICONTROL 下一个]**.
-1. 转到“Platform Server管理设置”页面。 根据需要输入新值或接受默认值。
+1. 转到“[!DNL Platform Server] “管理员设置”页面。 根据需要输入新值或接受默认值。
 
    您可以配置以下项目：
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> 平台服务器HTTP连接端口 </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP连接端口 </p> </td>
       <td> <p>用于图像提供和图像渲染的主HTTP侦听端口 </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ ht-degree: 0%
       <td> <p>管理员监听端口 </p> </td>
    </tr> 
    <tr> 
-      <td> <p> 平台服务器缓存大小(MB) </p> </td>
+      <td> <p> [!DNL Platform Server] 高速缓存大小(MB) </p> </td>
       <td> <p>主响应缓存的初始大小 </p> </td>
    </tr>
    <tr> 
-      <td> <p> 平台服务器缓存位置 </p> </td>
+      <td> <p> [!DNL Platform Server] 缓存位置 </p> </td>
       <td> <p>PS缓存文件夹 </p> </td>
    </tr>
    </tbody>

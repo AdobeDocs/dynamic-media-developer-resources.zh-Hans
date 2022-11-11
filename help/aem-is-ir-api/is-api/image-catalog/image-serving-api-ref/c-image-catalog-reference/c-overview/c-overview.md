@@ -2,12 +2,12 @@
 description: 图像目录用于向服务器提供有关图像和支持数据（如字体和ICC配置文件）的信息。
 solution: Experience Manager
 title: 概述
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36cdd833-6fcb-4be6-a4f8-ba8d20580f29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 目录数据文件与目录属性文件中的文件引用相关联。 同一目录数据文件可由多个图像目录共享。
 
-目录属性文件必须具有[!DNL .ini]文件后缀，并且必须位于Platform Server的目录文件夹(`PlatformServer::catalog.rootPath`)中。 目录数据文件可以位于平台服务器可访问的同一文件夹或任何其他文件夹中。
+目录属性文件必须具有 [!DNL .ini] 文件后缀和必须位于 [!DNL Platform Server]&#39;s目录文件夹( `PlatformServer::catalog.rootPath`)。 目录数据文件可以位于同一文件夹或可供访问的任何其他文件夹中 [!DNL Platform Server].
 
 本文档介绍Dynamic Media图像服务系统的图像目录文件格式。 目标受众是经验丰富的程序员和网站开发人员，他们希望将Dynamic Media图像服务用于Web或自定义应用程序。
 

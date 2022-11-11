@@ -5,9 +5,9 @@ title: 限制和已知问题
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 0%
 * 如果文本的最后一行不适合，则整行将被删除，而不是显示为截止。
 * `\slmult` 和 `\sl` 与MS Word和的行为不同 `text=`，则它们只对当前和后续段落生效。
 
-* `\sb` 适用于MS Word和的第一段 `text=`、 Adobe InDesign和Photoshop不会这样做。
+* `\sb` 适用于MS Word和的第一段 `text=`、 Adobe InDesign和 [!DNL Photoshop] 别这样。
 
-* `\sa` 适用于MS Word和的最后一段 `text=`、 Adobe InDesign和Photoshop不会这样做。
+* `\sa` 适用于MS Word和的最后一段 `text=`、 Adobe InDesign和 [!DNL Photoshop] 别这样。
 
 ## 向后兼容性 {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ ht-degree: 0%
 
    对于图像提供非金字塔TIFF，请增加 `MaxNonDsfSize` 在 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 配置文件。
 
-* Adobe Photoshop CS3默认不保存复合图像的分层PSD文件。
+* Adobe [!DNL Photoshop] 默认情况下，CS3不会保存复合图像的分层PSD文件。
 
    *症状*:
 
-   Adobe Photoshop CS3分层PSD文件显示为黑色，并且文本中写明“此分层Photoshop文件未与复合图像一起保存。” （在IPS中）。
+   Adobe [!DNL Photoshop] CS3分层PSD文件显示为黑色，并且文本中写有“此分层 [!DNL Photoshop] 文件未与复合图像一起保存。” （在IPS中）。
 
    *解決辦法*︰
 
-   保存Adobe Photoshop CS3文件，同时最大限度地启用兼容性。
+   保存Adobe [!DNL Photoshop] 具有最大兼容性的CS3文件已打开。
 
 * 将ICC配置文件分配给CMYK/JPEG回复图像会导致某些浏览器中的颜色反转。*周旋*:
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 * PhotoFont文本不支持16bpc PNG图像。
 * 嵌入了颜色配置文件的PNG图像的颜色校正使用硬编码选项。 呈现意图是相对比色的，并且为PhotoFont文本打开黑点补偿。
 * 在公司中启用区域设置转换时，不支持基于文件的查找 [!DNL ini] 文件。
-* 图像提供无法正确写入非关闭的Photoshop路径。
+* 图像提供不写入非关闭 [!DNL Photoshop] 路径正确。
 * 图像服务当前不支持处理使用Adobe Media Encoder 4.0.1或更低版本导出的TIFF文件。 Adobe Media Encoder随Premiere ProCS4、After Effects CS4和Creative Suite4 Production Premium一起提供。
 * 使用 `text=` 自调整层大小不支持使用多个设置进行行对齐的RTF字符串。
 

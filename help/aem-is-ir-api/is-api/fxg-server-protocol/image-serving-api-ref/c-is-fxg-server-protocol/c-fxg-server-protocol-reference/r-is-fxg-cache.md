@@ -1,24 +1,24 @@
 ---
-description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部Platform Server缓存中的缓存。
+description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 solution: Experience Manager
 title: 缓存
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 # 缓存{#cache}
 
-缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部Platform Server缓存中的缓存。
+缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 
 `&cache= *`cacheControl`*`
 
-`&cache= *``*, *`clientControlserverControl`*`
+`&cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ ht-degree: 0%
  </tr> 
 </table>
 
-如果只指定了一个&#x200B;*`cacheControl`*&#x200B;值，则它将同时应用于客户端和服务器缓存。
+如果只有一个 *`cacheControl`* 值，它将同时应用于客户端和服务器缓存。
 
-请求属性。 在请求未返回回复图像时忽略。 *`clientControl`* 当图像目录禁用客户端缓存时(如果 `catalog::Expiration` 具有负值)，将忽略。
+请求属性。 在请求未返回回复图像时忽略。 *`clientControl`* 当图像目录禁用客户端缓存时，将忽略(如果 `catalog::Expiration` 具有负值)。
 
-默认为`cache=on,on`。
+默认为 `cache=on,on`.

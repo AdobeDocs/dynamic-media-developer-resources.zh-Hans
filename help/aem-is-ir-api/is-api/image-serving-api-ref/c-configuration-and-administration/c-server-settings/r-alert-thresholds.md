@@ -2,12 +2,12 @@
 description: 使用这些服务器设置配置警报阈值。
 solution: Experience Manager
 title: 警报阈值
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace — 可用堆空间阈值 {#section-ce6705045f6842769030ccb1894594cc}
 
-指定最小可用Java堆空间。 当可用堆空间低于此阈值时，将在Java垃圾收集周期后立即发送优先级警报。 建议50 MB以安全运行平台服务器。 将可用堆空间保持在此值以上会减少垃圾收集周期的频率，这可能会提高整体服务器性能。 整数值（以字节为单位，0或更大）。
+指定最小可用Java堆空间。 当可用堆空间低于此阈值时，将在Java垃圾收集周期后立即发送优先级警报。 建议使用50 MB以安全运行 [!DNL Platform Server]. 将可用堆空间保持在此值以上会减少垃圾收集周期的频率，这可能会提高整体服务器性能。 整数值（以字节为单位，0或更大）。
 
 ## AS::monitorAlertGenerator.maxOverlap — 并发请求的最大数量 {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

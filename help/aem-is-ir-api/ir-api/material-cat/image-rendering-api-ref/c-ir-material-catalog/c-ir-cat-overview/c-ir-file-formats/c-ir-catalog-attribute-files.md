@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 </table>
 
 * 令牌之间的空格是可选的。
-* 平台服务器将忽略属性名称未知的记录。
+* 属性名称未知的记录将被 [!DNL Platform Server].
 * 属性名称可以由ASCII字母、数字和“ — ”、“_”和“。”的任意组合组成
 * 如果同一属性文件中出现同一属性名称多次，则最后一次出现的属性名称优先。
 * 使用“#”作为第一个字符，将任何记录标记为解析器忽略的注释。

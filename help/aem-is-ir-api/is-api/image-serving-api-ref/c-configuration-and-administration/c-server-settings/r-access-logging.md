@@ -2,12 +2,12 @@
 description: 使用这些服务器设置进行日志访问。
 solution: Experience Manager
 title: 访问日志记录
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '674'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## TC::directory — 日志文件文件夹 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Platform Server将日志文件写入到的文件夹。 这可以是绝对路径，也可以是相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL  *`install_folder`*/logs]。
+文件夹 [!DNL Platform Server] 写入日志文件。 这可以是绝对路径，也可以是相对于 *`install_folder`*. 默认为 [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
 
 ## TC::prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
-将访问日志数据写入到的文件的名称前缀。 日期和文件后缀([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])会附加到指定的字符串中。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为 &quot; `access-`&quot;.
+将访问日志数据写入到的文件的名称前缀。 日期和文件后缀( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])会附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为 &quot; `access-`&quot;.
 
 ## TC::pattern — 访问日志模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-指定Platform Server访问日志记录的数据模式。 模式字符串指定用其相应值替换的变量。 模式字符串中的所有其他字符将以字面方式传输到日志记录。
+指定的数据模式 [!DNL Platform Server] 访问日志记录。 模式字符串指定用其相应值替换的变量。 模式字符串中的所有其他字符将以字面方式传输到日志记录。
 
-要使用缓存预热实用程序，必须使用空格作为字段分隔符。 Platform Server将字段值中的所有空格和“%”字符分别替换为`%20`和`%25`。
+要使用缓存预热实用程序，必须使用空格作为字段分隔符。 的 [!DNL Platform Server] 将字段值中的所有空格和“%”字符替换为 `%20` 和 `%25`，分别为。
 
 支持以下模式变量：
 
@@ -76,11 +76,11 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和时间，格式为<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>:<span class="varname"> mm </span>:<span class="varname"> ss </span>。 <span class="varname"> SSS偏 </span> 移  </span> </p> <p> （<span class="varname"> SSS </span>为毫秒，<span class="varname">偏移</span>为GMT时间偏移）；在将响应发送到客户端时会捕获时间值。 </p> </td> 
+   <td> <p>日期和时间，格式为 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> 偏移 </span> </p> <p> ( <span class="varname"> SSS </span> 是毫秒， <span class="varname"> 偏移 </span> 是GMT时间偏移);在将响应发送到客户端时会捕获时间值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>请求方法(<span class="codeph">GET</span>、<span class="codeph">POST</span>等)。 </p> </td> 
+   <td> <p>请求方法( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>，等等)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>与<span class="codeph"> %r </span>相同，但对URI应用有限的HTTP编码以避免日志解析问题。 </p> </td> 
+   <td> <p>与相同 <span class="codeph"> %r </span>，但会将有限的HTTP编码应用于URI，以避免出现日志解析问题。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -131,15 +131,15 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
    <td> <p>请求处理时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheKey}r  </span> </p> </td> 
-   <td> <p>平台服务器缓存密钥（缓存文件文件夹/名称）。 </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] 缓存密钥（缓存文件夹/名称）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
-   <td> <p>Platform Server缓存管理关键字：<span class="codeph"> { REUSED |已创建 |已更新 |远程 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE |已验证 |已忽略 | UNDEFINED } </span>。 </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] 缓存管理关键字： <span class="codeph"> {重复使用 |已创建 |已更新 |远程 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE |已验证 |已忽略 | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
    <td> <p>响应MIME类型。 </p> </td> 
   </tr> 
   <tr> 
@@ -147,31 +147,31 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
    <td> <p>发生上下文转发时的目标上下文。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Digest}r  </span> </p> </td> 
-   <td> <p><span class="codeph">标签</span>响应标头值（响应数据的MD5签名）。 </p> </td> 
+   <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
+   <td> <p>的 <span class="codeph"> etag </span> 响应标头值（响应数据的MD5签名）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{异常}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{异常}r </span> </p> </td> 
    <td> <p>错误消息. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{FetchTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
    <td> <p>从图像服务器检索缓存条目或数据所花费的时间。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ParseTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
    <td> <p>请求解析和图像目录查找所花费的时间。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PathBasedAccess}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
    <td> <p>指示此请求是否尝试在目录系统之外进行任何基于路径的访问。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PeerServer}r  </span> </p> </td> 
-   <td> <p>缓存群集中传递缓存条目的对等服务器的IP地址；如果<span class="codeph"> CacheUse </span>既不是<span class="codeph"> REMOTE_CREATED </span>也不是<span class="codeph"> REMOTE_UPDATED </span>，则表示“ — ”。 </p> </td> 
+   <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
+   <td> <p>缓存群集中传递缓存条目或“ — ”(如果 <span class="codeph"> CacheUse </span> 都不是 <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ProcessingStatus}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
    <td> <p>错误类别： </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=无错误。 </p> </li> 
@@ -182,31 +182,31 @@ Platform Server将日志文件写入到的文件夹。 这可以是绝对路径�
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ReqType}r  </span> </p> </td> 
-   <td> <p><span class="codeph"> req= </span>的大写值。 </p> </td> 
+   <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
+   <td> <p>的大写值 <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{RootId}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
    <td> <p>请求主目录的根ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{SendTime}r  </span> </p> </td> 
-   <td> <p>向输出流写入数据后，Platform Server发送响应所花费的时间。 </p> </td> 
+   <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
+   <td> <p>所花费的时间 [!DNL Platform Server] 以在向输出流写入数据后发送响应。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{大小}r  </span> </p> </td> 
-   <td> <p>与<span class="codeph"> %B </span>类似，但包含304（未修改）响应的值。 </p> </td> 
+   <td> <p> <span class="codeph"> %{大小}r </span> </p> </td> 
+   <td> <p>赞 <span class="codeph"> %B </span>，但包含304（未修改）响应的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformedUrl}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
    <td> <p>所有规则集转换后的最终URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpRequestHeader  </span>}i  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
    <td> <p>指定的HTTP请求标头的值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpResponseHeader  </span>}  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
    <td> <p>指定的HTTP响应标头的值。 </p> </td> 
   </tr> 
  </tbody> 

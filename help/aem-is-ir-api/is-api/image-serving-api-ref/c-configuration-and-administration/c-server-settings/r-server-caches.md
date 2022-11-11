@@ -5,9 +5,9 @@ title: 服务器缓存
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## PS::cache.rootPaths — 缓存数据文件夹 {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-平台服务器磁盘缓存的根文件夹。 一个或多个相对于 *[!DNL install_folder]*，以分号(;)分隔。 HTTP响应缓存的数据将平均分布到所有指定的文件夹中。 辅助高速缓存（编译的图像目录和外部图像数据）的高速缓存位于主高速缓存文件夹（列表中的第一个文件夹）中。
+的根文件夹 [!DNL Platform Server]的磁盘缓存。 一个或多个相对于 *[!DNL install_folder]*，以分号(;)分隔。 HTTP响应缓存的数据将平均分布到所有指定的文件夹中。 辅助高速缓存（编译的图像目录和外部图像数据）的高速缓存位于主高速缓存文件夹（列表中的第一个文件夹）中。
 
 ## PS::cache.maxSize — 响应数据缓存大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

@@ -5,9 +5,9 @@ title: 规则集引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 预处理规则集合(*规则集*)附加到图像目录或默认目录。 仅当请求未标识特定的主图像目录时，才应用默认目录中的规则。
 
-请求预处理规则可以在请求的路径和查询部分由Platform Server的解析器处理之前对其进行修改，包括处理路径、添加命令、更改命令值以及应用模板或宏。 规则还可用于配置和覆盖某些安全功能，这些功能通常仅通过目录属性来控制，例如请求模糊处理、水标记，以及将服务限制为特定的客户端IP地址。
+请求预处理规则可以修改请求的路径和查询部分，然后再由 [!DNL Platform Server]的解析器，包括处理路径、添加命令、更改命令值以及应用模板或宏。 规则还可用于配置和覆盖某些安全功能，这些功能通常仅通过目录属性来控制，例如请求模糊处理、水标记，以及将服务限制为特定的客户端IP地址。
 
 规则集将存储为XML文档文件。 必须在 `attribute::RuleSetFile`.
 

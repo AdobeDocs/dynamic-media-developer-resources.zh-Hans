@@ -5,9 +5,9 @@ title: 删除或替换数据文件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >在图像服务活动使用期间，不得替换或删除数据文件。 否则，可能会发生错误甚至服务器崩溃。
 
-在所有情况下，请记住，在客户端看到更新的数据之前，Platform Server缓存和客户端缓存条目必须失效。 可以使用 `cache=validate` 命令。
+在所有情况下，请记住 [!DNL Platform Server] 在客户端看到更新的数据之前，缓存和客户端缓存条目必须失效。 可以使用 `cache=validate` 命令。
 
 缓存管理器不会直接跟踪字体文件和ICC配置文件文件的更改。 如果在修改此类资源时未更改其ID，则服务器缓存将不会知晓更改， `cache=validate` 不会导致更新缓存条目。 `cache=update` 可用于强制重新生成此类缓存条目。
 

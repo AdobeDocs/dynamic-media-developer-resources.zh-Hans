@@ -1,20 +1,20 @@
 ---
 title: 缓存
-description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部Platform Server缓存中的缓存。
+description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 # 缓存 {#cache}
 
-缓存控制。 允许您有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部Platform Server缓存中的缓存。
+缓存控制。 允许您有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 
 `cache= *`cacheControl`*`
 
