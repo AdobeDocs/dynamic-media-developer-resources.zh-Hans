@@ -1,5 +1,5 @@
 ---
-description: 元数据条件的数组。
+description: 中繼資料條件的陣列。
 solution: Experience Manager
 title: MetadataConditionArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL MetadataConditionArray]{#metadataconditionarray}
 
-元数据条件的数组。
+中繼資料條件的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:MetadataCondition` | 元数据条件的数组。 |
+| 项目 | `types:MetadataCondition` | 中繼資料條件的陣列。 |

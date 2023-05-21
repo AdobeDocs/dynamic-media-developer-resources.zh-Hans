@@ -1,30 +1,30 @@
 ---
-description: 包含图像服务器配置设置。
+description: 包含影像伺服器組態設定。
 solution: Experience Manager
 title: ImageServerRegistry.xml
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-包含图像服务器配置设置。
+包含影像伺服器組態設定。
 
-修改此XML文件时，必须注意维护有效的XML语法，否则图像服务器可能无法启动。
+修改此XML檔案時，必須注意保持有效的XML語法，否則影像伺服器可能會無法啟動。
 
-要使更改生效，请在编辑此文件后重新启动图像服务器。 仅支持修改下面列出的元素值。 仅在Dynamic Media技术支持部门提供建议时，才编辑此文件的任何其他内容。
+若要讓變更生效，請在編輯此檔案後重新啟動影像伺服器。 僅支援修改下列元素值。 只有在Dynamic Media技術支援提供建議時，才能編輯此檔案的任何其他內容。
 
 >[!NOTE]
 >
->请勿更改`<imageserverregistry>`的结构，包括元素的顺序。 编辑此文件时请务必谨慎，否则图像服务器可能无法启动。
+>不要變更的結構 `<imageserverregistry>`，包括元素的順序。 編輯此檔案時請小心，否則影像伺服器可能會無法啟動。
 
-下面说明了可以更改的元素。 其他元素也存在，不得更改。 以下元素的顺序并不反映它们在文件中必须存在的顺序。
+以下說明哪些元素可以變更。 存在不可變更的其他元素。 下列元素的順序並未反映它們必須存在於檔案中的順序。
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 说明 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-可能存在多个`<RootPath>`元素（每个源数据文件文件夹对应一个元素）。 图像服务器按指定的顺序搜索根路径以查找特定的源文件。
+多個 `<RootPath>` 元素可能存在（每個來源資料檔案資料夾各一個）。 Image Server會依照指定的順序搜尋根路徑，以尋找特定的來源檔案。

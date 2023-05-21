@@ -1,7 +1,7 @@
 ---
-description: 包含有关资产的摘要信息的元数据搜索结果。
+description: 包含資產相關摘要資訊的中繼資料搜尋結果。
 solution: Experience Manager
-title: 资产摘要
+title: 資產摘要
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL AssetSummary]{#assetsummary}
 
-包含有关资产的摘要信息的元数据搜索结果。
+包含資產相關摘要資訊的中繼資料搜尋結果。
 
 语法
 
@@ -22,15 +22,15 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 资产句柄。 |
-| 类型 | `xsd:string` | 资源类型. “资产类型”常量定义可能的值。 可选。 |
-| name | `xsd:string` | 资产名称。 可选。 |
-| 文件夹 | `xsd:string` | 包含资产的文件夹。 |
-| 文件名 | `xsd:string` | 资产的文件名。 |
-| 已创建 | `xsd:dateTime` | 资产创建日期。 |
-| createUser | `xsd:string` | 创建资产的用户。 |
-| lastModified | `xsd:dateTime` | 资产上次更新的日期。 |
-| lastModifyUser | `xsd:string` | 修改资产的最后一个用户。 |
-| metadataArray | `types:MetadataArray` | 与资产关联的元数据值数组。 |
-| 分数 | `xsd:double` | 在进行相似性搜索时定义精度（0 =无匹配，1 =精确匹配）。 |
-| scoreDetail | `xsd:string` | 包含有关相似区域作为相似性搜索结果的详细信息。 |
+| assetHandle | `xsd:string` | 資產控點。 |
+| 类型 | `xsd:string` | 资源类型. 「資產型別」常數會定義可能的值。 可选. |
+| 名称 | `xsd:string` | 資產名稱。 可选. |
+| 文件夹 | `xsd:string` | 包含資產的資料夾。 |
+| 文件名 | `xsd:string` | 資產的檔案名稱。 |
+| 已创建 | `xsd:dateTime` | 資產建立日期。 |
+| createUser | `xsd:string` | 建立資產的使用者。 |
+| lastModified | `xsd:dateTime` | 上次更新資產的日期。 |
+| lastModifyUser | `xsd:string` | 上次修改資產的使用者。 |
+| metadataArray | `types:MetadataArray` | 與資產相關聯的中繼資料值陣列。 |
+| 分数 | `xsd:double` | 定義相似性搜尋時的精確度（0 =無相符專案，1 =完全相符）。 |
+| scoredetail | `xsd:string` | 在相似性搜尋的結果中保留有關類似區域的詳細資訊。 |

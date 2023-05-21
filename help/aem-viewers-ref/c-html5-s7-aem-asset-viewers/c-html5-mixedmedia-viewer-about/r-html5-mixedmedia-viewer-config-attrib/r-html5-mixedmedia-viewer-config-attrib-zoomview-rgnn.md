@@ -8,26 +8,26 @@ exl-id: a85fba7b-2580-4a26-a998-058a0586841e
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
-` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `w`, `h”
+` [ZoomView.|<containerId>_zoomView.]rgnN= `x`, `y`, `w`, `h」
 
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> 标准化坐标中的初始感兴趣区域。 如果未指定此值，则整个图像将适合在初始视区中。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>，<span class="codeph"> y</span>，<span class="codeph"> w</span>，<span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> 以標準化座標表示的初始興趣區域。 如果未指定此值，則整個影像會符合初始檢視區。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

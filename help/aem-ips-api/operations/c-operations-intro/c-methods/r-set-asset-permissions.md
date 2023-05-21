@@ -1,5 +1,5 @@
 ---
-description: 使用权限资产设置单个资产的权限。
+description: 使用許可權資產設定單一資產的許可權。
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # setAssetPermissions{#setassetpermissions}
 
-使用权限资产设置单个资产的权限。
+使用許可權資產設定單一資產的許可權。
 
-默认情况下，资产会继承其父文件夹的权限。 对资产设置权限后，资产将不再继承其父资产的权限，除非您调用 `removeAssetPermissions`.
+資產預設會繼承其父資料夾的許可權。 設定資產的許可權後，除非您呼叫，否則資產不再繼承其父級的許可權 `removeAssetPermissions`.
 
-## 授权用户类型 {#section-91fafc170c734ed2a77beafda9221768}
+## 授權的使用者型別 {#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,21 +26,21 @@ ht-degree: 9%
 
 ## 参数 {#section-e05abbce6453450fb38747101cb5e228}
 
-**输入(setAssetPermissonsParam)**
+**輸入(setAssetPermissonsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要处理的文件夹的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 文件夹句柄。 |
-| permissionArray | `types:PermissionsUpdateArray` | 是 | 权限阵列。 |
+| companyHandle | `xsd:string` | 是 | 包含您要使用之資料夾的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| permissionArray | `types:PermissionsUpdateArray` | 是 | 許可權陣列。 |
 
-**输出(setAssetPermissonsReturn)**
+**輸出(setAssetPermissonsReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-38955bc330bb4909b6b06027ef2b143e}
 
-此代码示例可设置资产的权限。 它包含公司和资产句柄以及权限数组。
+此程式碼範例會設定資產的許可權。 它包含公司和資產控點，以及許可權陣列。
 
 **请求**
 

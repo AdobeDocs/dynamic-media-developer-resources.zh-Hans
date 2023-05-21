@@ -1,5 +1,5 @@
 ---
-description: 更新现有资产集的集定义。
+description: 更新現有資產集的集定義。
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 6%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-更新现有资产集的集定义。
+更新現有資產集的集定義。
 
 语法
 
-## 授权用户类型 {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 授權的使用者型別 {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,58 +29,58 @@ ht-degree: 6%
 
 ## 参数 {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**输入(setAssetDefinitionParam)**
+**輸入(setAssetDefinitionParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有资产集的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 资产集句柄 |
-| setDefinition | `xsd:string` | 是 | 定义字符串。 请参阅下文。 |
+| companyHandle | `xsd:string` | 是 | 資產集所在公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 資產集控制代碼 |
+| setDefinition | `xsd:string` | 是 | 定義字串。 請參閱下文。 |
 
-**输出(setAssetSetDefinitionReturn)**
+**輸出(setAssetSetDefinitionReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
-## setDefinition参数：关于 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition引數：關於 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**setDefinition函数**
+**setDefinition函式**
 
-指定 `setDefinition` 替换函数串联。 这些问题会在目录查找或发布时解决。 替换字符串的格式为 `${<substitution_func>}`，并包括以下内容：
+指定 `setDefinition` 替代函式內嵌。 這些問題會在目錄查閱期間或發佈時解決。 替代字串的格式為 `${<substitution_func>}`，並包含下列專案：
 
 >[!NOTE]
 >
->参数列表中的处理文字必须用括号括起来 `([])`. 在分辨率期间，替换字符串以外的文本将复制到输出字符串。
+>引數清單中的處理常值必須以方括弧括住 `([])`. 在解析期間，替代字串之外的文字會複製到輸出字串。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 替换函数 </th> 
-   <th colname="col2" class="entry"> 返回资产的 </th> 
+   <th colname="col1" class="entry"> 替代函式 </th> 
+   <th colname="col2" class="entry"> 傳回資產的 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 主文件路径。 </td> 
+   <td colname="col2"> 主要檔案路徑。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 目录ID。 </td> 
+   <td colname="col2"> 目錄ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
-   <td colname="col2"> 元数据值。 </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>]，[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col2"> 中繼資料值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 目录ID。 适用于基于图像的资产（图像、已调整视图、图层视图）。 <p>对于其他资产，会返回缩览图资产的目录ID（如果有）。 如果没有与资产关联的缩览图资产，则函数会返回空字符串。 </p> </td> 
+   <td colname="col2"> 目錄ID。 套用至影像型資產（影像、調整後的檢視、圖層檢視）。 <p>若是其他資產，則傳回縮圖資產的目錄ID （若有）。 如果沒有任何縮圖資產與資產相關聯，此函式會傳回空字串。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinition示例**
+**setDefinition範例**
 
-此媒体集定义字符串：
+此媒體集定義字串：
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
@@ -88,7 +88,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-在查找或发布时解析为以下内容：
+在查詢或發佈時間解析為下列內容：
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 

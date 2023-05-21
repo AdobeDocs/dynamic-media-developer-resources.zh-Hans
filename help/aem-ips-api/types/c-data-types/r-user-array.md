@@ -1,7 +1,7 @@
 ---
-description: 一组用户。
+description: 使用者陣列。
 solution: Experience Manager
-title: UserArray
+title: 使用者陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL UserArray]{#userarray}
 
-一组用户。
+使用者陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:User` | 一组用户。 |
+| 项目 | `types:User` | 使用者陣列。 |

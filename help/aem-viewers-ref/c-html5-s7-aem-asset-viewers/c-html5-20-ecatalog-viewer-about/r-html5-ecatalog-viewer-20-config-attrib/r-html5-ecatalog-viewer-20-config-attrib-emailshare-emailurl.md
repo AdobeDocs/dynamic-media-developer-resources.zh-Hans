@@ -8,7 +8,7 @@ exl-id: 074b8a74-9df9-4f0b-9196-a61783dda14b
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand电子邮件服务的基本URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基底URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

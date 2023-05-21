@@ -8,7 +8,7 @@ exl-id: 07aec907-fb9d-41c8-9f32-a4886605db35
 source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 如果指定的格式以 <span class="codeph"> -alpha</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 默认情况下，组件的背景为白色。 因此，要使其透明，请将 <span class="codeph"> 背景颜色</span> 将CSS属性设置为 <span class="codeph"> 透明</span>. </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 如果指定的格式結尾為 <span class="codeph"> -alpha</span>，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 元件預設為白色背景。 因此，若要使其透明，請設定 <span class="codeph"> background-color</span> CSS屬性至 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-12a6fb2fcbc1476b95bd53ce880dc185}
+## 屬性 {#section-12a6fb2fcbc1476b95bd53ce880dc185}
 
-可选。
+可选.
 
 ## 默认 {#section-4b6a350501124ffa9a6b1b71b32eff5d}
 

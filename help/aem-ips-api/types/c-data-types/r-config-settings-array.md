@@ -1,5 +1,5 @@
 ---
-description: 配置设置的数组。
+description: 組態設定的陣列。
 solution: Experience Manager
 title: ConfigSettingArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL ConfigSettingArray]{#configsettingarray}
 
-配置设置的数组。
+組態設定的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ConfigSetting` | 配置设置的数组。 |
+| 项目 | `types:ConfigSetting` | 組態設定的陣列。 |

@@ -1,35 +1,35 @@
 ---
-description: 介绍IPS API版本3.8的新数据类型和已更改的数据类型。
+description: 說明IPS API 3.8版的新資料和變更資料型別。
 solution: Experience Manager
-title: 数据类型新增和修改
-feature: Dynamic Media Classic，SDK/API
+title: 新增和修改的資料型別
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 2%
 
 ---
 
-# 数据类型：新建和已修改{#data-types-new-and-modified}
+# 資料型別：新增和修改{#data-types-new-and-modified}
 
-介绍IPS API版本3.8的新数据类型和已更改的数据类型。
+說明IPS API 3.8版的新資料和變更資料型別。
 
 语法
 
-## 新类型 {#section-c036cd798fb44d6bad7e7b3591850cdd}
+## 新型別 {#section-c036cd798fb44d6bad7e7b3591850cdd}
 
 * `ImageSetMember`
 * `ImageSetMemberArray`
 * `ImageSetMemberUpdate`
 * `ImageSetMemberUpdateArray`
 
-## 修改的类型 {#section-f0fa71a3c1e84998b33ed75703429f81}
+## 修改型別 {#section-f0fa71a3c1e84998b33ed75703429f81}
 
-**缩放目标**
+**縮放目標**
 
-添加了以下字段：
+欄位已新增：
 
 * `name`
 * `userData`

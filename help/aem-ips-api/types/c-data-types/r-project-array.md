@@ -1,5 +1,5 @@
 ---
-description: 一系列项目。
+description: 專案陣列。
 solution: Experience Manager
 title: ProjectArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL ProjectArray]{#projectarray}
 
-一系列项目。
+專案陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Project` | 项目数组。 |
+| 项目 | `types:Project` | 專案陣列。 |

@@ -1,6 +1,6 @@
 ---
 title: 限制
-description: 嵌套和嵌入存在一些限制。
+description: 巢狀和內嵌有一些限制。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 限制{#restrictions}
 
-嵌套和嵌入存在一些限制。
+巢狀和內嵌有一些限制。
 
-为了获得良好的服务器性能，嵌套请求返回的图像分辨率应与正在应用材料的对象的纹理分辨率合理匹配。
+為了提供良好的伺服器效能，巢狀要求傳回的影像解析度應適當地符合套用材質之物件的紋理解析度。
 
-外来图像缓存在本地。 只有在本地缓存条目失效（基于过期的HTTP标头）后，才会检测到对此类图像的任何更改。
+本機快取外部影像。 只有在本機快取專案過時後（根據expires HTTP標頭），才會偵測到這類影像的任何變更。

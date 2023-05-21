@@ -1,6 +1,6 @@
 ---
-title: 主控制栏
-description: 主控制栏是桌面系统和平板电脑上的矩形区域，其中包含eCatalog搜索查看器可用的所有用户界面控件（“大页面”按钮除外）。
+title: 主要控制列
+description: 主要控制列是桌上型電腦系統和平板電腦上的矩形區域，其中包含所有可用於eCatalog Search檢視器的使用者介面控制項（除了「大頁面」按鈕）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,44 +12,44 @@ ht-degree: 1%
 
 ---
 
-# 主控制栏{#main-control-bar}
+# 主要控制列{#main-control-bar}
 
-主控制栏是桌面系统和平板电脑上的矩形区域，其中包含eCatalog搜索查看器可用的所有用户界面控件（“大页面”按钮除外）。
+主要控制列是桌上型電腦系統和平板電腦上的矩形區域，其中包含所有可用於eCatalog Search檢視器的使用者介面控制項（除了「大頁面」按鈕）。
 
-在移动电话上，它仍保留“缩略图”、“目录”、“下载”、“打印”、“收藏夹”、“社交共享”、“全屏”和“关闭”按钮。 但是，“第一页”和“最后一页”按钮以及“页面指示器”将从主控制栏中删除，并改为添加到辅助控制栏。 默认情况下，主控制栏显示在桌面系统和手机上的查看器区域顶部，并移至平板电脑上的查看器区域底部。 它始终采用整个可用的查看器宽度。 可以相对于查看器容器更改其在CSS中的颜色、高度和垂直位置。
+在行動電話上，它仍會保留縮圖、目錄、下載、列印、我的最愛、社交分享、全熒幕和關閉按鈕。 不過，「第一頁」和「最後一頁」按鈕以及「頁面指示器」會從主要控制列移除，並改為新增至次要控制列。 依預設，主要控制列會顯示在桌上型電腦系統和行動電話上的檢視器區域上方，並移至平板電腦上的檢視器區域下方。 它一律會採用完整的可用檢視器寬度。 您可以變更其顏色、高度和在CSS中的垂直位置（相對於檢視器容器）。
 
-主控制栏的外观由以下CSS类选择器控制：
+主控制列的外觀是由下列CSS類別選取器所控制：
 
 `.s7ecatalogsearchviewer .s7controlbar`
 
 <table id="table_2C8D322F57114A72B43053CB4539C65C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>查看器顶部的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器頂端的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>查看器底部的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器底部的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
+   <td colname="col2"> <p>主要控制列的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>主控制栏的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>主要控制列的背景色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置一个高度为36像素且位于查看器容器顶部的灰色主控制栏。
+**範例**  — 設定高度為36畫素且位於檢視器容器頂端的灰色主控制列。
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -59,92 +59,92 @@ ht-degree: 1%
 }
 ```
 
-主控制栏支持可选的滚动功能。 如果查看器宽度太小，并且没有足够的空间来容纳控制栏中预设的所有按钮，则会激活该按钮。 在这种情况下，控制栏的右侧会显示一个两状态箭头按钮。 单击或点按此按钮可根据滚动按钮状态将所有控制栏元素滚动到左侧或右侧。 此功能的主要用例是纵向小屏幕的移动设备。
+主控制列支援選用的捲動功能。 如果檢視器寬度太小且空間不足，無法容納控制列中預設的所有按鈕，就會啟動檢視器。 在這種情況下，控制列的右側會出現一個雙狀態箭頭按鈕。 按一下或點選此按鈕，會根據捲動按鈕的狀態，將所有控制列元素捲動至左側或右側。 此功能的主要使用案例是行動裝置，其小熒幕為直向顯示。
 
-主控制栏已启用滚动功能，辅助控制栏已禁用滚动功能。 可使用以下CSS类选择器打开和关闭该功能：
+捲動功能在主控制列上啟用，在輔助控制列上停用。 使用下列CSS類別選取器來開啟和關閉功能：
 
 `.s7ecatalogsearchviewer .s7controlbar .s7innercontrolbarcontainer`
 
 <table id="table_C8225F38309B4099AF58AA1A815A8D55"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>当设置为 <span class="codeph"> 静态 </span> 已禁用滚动功能。 </p> <p>将此属性设置为 <span class="codeph"> 绝对 </span> 以启用滚动功能。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 位置 </span> </p> </td> 
+   <td colname="col2"> <p>當設定為 <span class="codeph"> 靜態 </span> 捲動功能已停用。 </p> <p>將此屬性設定為 <span class="codeph"> 絕對 </span> 以啟用捲動功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-滚动按钮将添加到可正确放置按钮的特殊容器元素中。 如果滚动按钮的高度小于控制栏高度，则允许您以不同方式设置按钮周围区域与控制栏背景的其余部分。
+捲動按鈕會新增至特殊容器元素，以正確放置按鈕。 它可讓您在捲動按鈕的高度小於控制列高度時，將按鈕周圍的區域與控制列背景的其餘部分設為不同的樣式。
 
-通过以下CSS类选择器控制此滚动按钮容器的外观：
+這個捲動按鈕容器的外觀是由下列CSS類別選取器所控制：
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollbuttoncontainer`
 
 <table id="table_2CDDA8A18345497EAC4749A0D64C1658"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>通常应等于或大于滚动按钮本身的宽度。 </p> </td> 
+   <td colname="col2"> <p>通常應等於或大於捲動按鈕本身的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>容器背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>容器背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以通过CSS来调整滚动按钮本身的大小和外观。
+您可以透過CSS調整捲動按鈕本身的大小和外觀。
 
-通过以下CSS类选择器控制此按钮的外观：
+此按鈕的外觀由下列CSS類別選取器控制：
 
 `.s7ecatalogsearchviewer .s7controlbar .s7scrollleftrightbutton`
 
 <table id="table_F61CB3F696AC4018B164082FFA7777F4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p>在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `state="selected"` 当可以将控制栏内容滚动到左侧时，对应于初始滚动按钮状态。 的 `state="default"` 对应于内容一直向左滚动且滚动按钮建议将其返回到初始状态的状态。
+>此按鈕支援 `state` 和 `selected` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `state="selected"` 可捲動控制列內容至左側時，會對應至初始捲動按鈕狀態。 此 `state="default"` 與內容一直捲動至左側時的狀態相對應，而捲動按鈕會建議將其恢復為初始狀態。
 
-按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-**示例**  — 在手机的主控制栏中启用滚动功能。 此外，还应设置一个64 x 64像素的滚动按钮，该按钮在选择或未选择时，会针对4个不同按钮状态中的每个状态显示不同的图像：
+**範例**  — 在行動電話的主控制列啟用捲動功能。 此外，設定64 x 64畫素的捲動按鈕，在選取或未選取時，針對4種不同的按鈕狀態顯示不同的影像：
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

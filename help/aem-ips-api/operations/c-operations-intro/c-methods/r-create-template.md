@@ -1,5 +1,5 @@
 ---
-description: 创建可具有多个文本层和图像层的分层图像。
+description: 建立可以有多個文字和影像圖層的圖層影像。
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # createTemplate{#createtemplate}
 
-创建可具有多个文本层和图像层的分层图像。
+建立可以有多個文字和影像圖層的圖層影像。
 
-的 `urlModifier` 参数指定在URL上任何用户提供的命令之前应用的图像服务器目录中存储的图像服务器协议命令。 的 `urlPostApplyModifier` 参数指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。
+此 `urlModifier` parameter會指定儲存在影像伺服器目錄中的影像伺服器通訊協定命令，這些命令會在使用者在URL上提供的任何命令之前套用。 此 `urlPostApplyModifier` 引數會指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。
 
-## 授权用户类型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
+## 授權的使用者型別 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,26 +28,26 @@ ht-degree: 10%
 
 ## 参数 {#section-f54870f07d1d48fb8749ba7a4b43b6cb}
 
-**输入(createTemplateParam)**
+**輸入(createTemplateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 模板所属的公司。 |
-| folderHandle | `xsd:string` | 是 | 表示模板所在文件夹的文件夹句柄。 |
-| name | `xsd:string` | 是 | 模板名称。 |
-| 类型 | `xsd:string` | 是 | 模板类型。 |
-| urlModifier | `xsd:string` | 是 | 指定在IS目录中存储的图像服务器命令，这些命令在URL上任何用户提供的命令之前应用。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
+| companyHandle | `xsd:string` | 是 | 範本所屬的公司。 |
+| folderHandle | `xsd:string` | 是 | 代表範本所在資料夾的資料夾控制代碼。 |
+| 名称 | `xsd:string` | 是 | 範本名稱。 |
+| 类型 | `xsd:string` | 是 | 範本型別。 |
+| urlModifier | `xsd:string` | 是 | 指定儲存在IS目錄中的「影像伺服器」命令，這些命令會在使用者在URL上提供的任何命令之前套用。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之後套用的通訊協定命令，這會覆寫任何衝突的使用者提供的設定。 |
 
-**输出(createTemplateParam)**
+**輸出(createTemplateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| assetHandle | `xsd:string` | 是 | 模板的句柄。 |
+| assetHandle | `xsd:string` | 是 | 範本的控制代碼。 |
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代码示例在句柄指定的文件夹中创建一个模板，其名称为 `APIcreateTemplate`, a `urlModifier`和 `urlPostApplyModifier`. 响应会将句柄返回到新创建的模板。
+此程式碼範例會在控制代碼指定的資料夾中建立範本，名稱為 `APIcreateTemplate`， a `urlModifier`，和 `urlPostApplyModifier`. 回應會將控制代碼傳回至新建立的範本。
 
 **请求**
 

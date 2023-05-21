@@ -1,7 +1,7 @@
 ---
-description: 为现有标记字段设置标记字典值。
+description: 設定現有標籤欄位的標籤字典值。
 solution: Experience Manager
-title: setTagFieldValues
+title: settagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
@@ -12,13 +12,13 @@ ht-degree: 17%
 
 ---
 
-# setTagFieldValues{#settagfieldvalues}
+# settagFieldValues{#settagfieldvalues}
 
-为现有标记字段设置标记字典值。
+設定現有標籤欄位的標籤字典值。
 
 语法
 
-## 授权用户类型 {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## 授權的使用者型別 {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司负责人。 |
-| fieldHandle | `xsd:string` | 是 | 标记字段句柄。 |
-| valueArray | `types:StringArray` | 是 | 替换字段现有词典的标记值数组。 当新值与现有值匹配时，将维护资产关联。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| fieldHandle | `xsd:string` | 是 | 標籤欄位控制代碼。 |
+| valueArray | `types:StringArray` | 是 | 取代欄位現有字典的標籤值陣列。 當新值與現有值相符時，會維護資產關聯。 |
 
-**输出(setTagFieldValuesReturn)**
+**輸出(setTagFieldValuesReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-b11cafd9bed54ab5836c737cc075c918}
 

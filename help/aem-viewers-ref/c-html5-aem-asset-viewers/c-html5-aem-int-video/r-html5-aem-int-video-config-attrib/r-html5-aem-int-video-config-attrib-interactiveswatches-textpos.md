@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.textpos
-description: 交互式视频查看器的配置属性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # InteractiveSwatches.textpos{#interactiveswatches-textpos}
 
-交互式视频查看器的配置属性。
+互動式視訊檢視器的設定屬性。
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]textpos=bottom|top|left|right|none|tooltip`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下|上|左|右|无|工具提示</span> </p> </td> 
-   <td colname="col2"> <p> 指定标签相对于色板图像的绘制位置。 即，标签在相对于缩略图的指定位置居中。 </p> <p>指定<span class="codeph">工具提示</span>后，标签文本将显示为缩略图上的浮动工具提示。 </p> <p>设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
+   <td colname="col2"> <p> 指定相對於色票影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>時間 <span class="codeph"> 工具提示</span> 標籤文字會以浮動工具提示的形式顯示在縮圖影像上。 </p> <p>設定為 <span class="codeph"> 無</span> 以關閉標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

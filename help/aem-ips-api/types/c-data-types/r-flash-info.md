@@ -1,5 +1,5 @@
 ---
-description: Flash文件的属性。
+description: Flash檔案的屬性。
 solution: Experience Manager
 title: FlashInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 36%
+ht-degree: 28%
 
 ---
 
 # [!DNL FlashInfo]{#flashinfo}
 
-Flash文件的属性。
+Flash檔案的屬性。
 
 语法
 
@@ -22,6 +22,6 @@ Flash文件的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| originalPath | `xsd:string` | 文件路径。 |
-| originalFile | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 文件大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 檔案大小。 |

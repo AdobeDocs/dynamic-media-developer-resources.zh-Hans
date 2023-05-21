@@ -1,7 +1,7 @@
 ---
-description: 元数据数组。
+description: 中繼資料的陣列。
 solution: Experience Manager
-title: 元数据数组
+title: 中繼資料陣列
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1833237d-4ef9-4899-8d14-317db350b223
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL MetadataArray]{#metadataarray}
 
-元数据数组。
+中繼資料的陣列。
 
 语法
 
@@ -30,9 +30,9 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 项目</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：元数据</span> </p> </td> 
-   <td colname="col3"> <p>元数据数组。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 個專案</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type：Metadata</span> </p> </td> 
+   <td colname="col3"> <p>中繼資料的陣列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

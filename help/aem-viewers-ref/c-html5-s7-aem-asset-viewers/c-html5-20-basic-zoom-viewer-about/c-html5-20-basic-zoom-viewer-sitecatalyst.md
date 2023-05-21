@@ -1,6 +1,6 @@
 ---
-title: 支持Adobe Analytics跟踪
-description: 基本缩放查看器支持开箱即用的Adobe Analytics跟踪。
+title: 支援Adobe Analytics追蹤
+description: 基本縮放檢視器支援立即可用的Adobe Analytics追蹤。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
@@ -12,19 +12,19 @@ ht-degree: 2%
 
 ---
 
-# 支持Adobe Analytics跟踪{#support-for-adobe-analytics-tracking}
+# 支援Adobe Analytics追蹤{#support-for-adobe-analytics-tracking}
 
-基本缩放查看器支持开箱即用的Adobe Analytics跟踪。
+基本縮放檢視器支援立即可用的Adobe Analytics追蹤。
 
-## 现成跟踪 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 現成可用的追蹤 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-基本缩放查看器支持 [!DNL Adobe Analytics] 开箱即用跟踪。 要启用跟踪，请将相应的公司预设名称传递为 `config2` 参数。
+基本縮放檢視器支援 [!DNL Adobe Analytics] 追蹤現成可用的專案。 若要啟用追蹤，請將適當的公司預設集名稱傳遞為 `config2` 引數。
 
-查看器还会向已配置的图像服务器发送单个跟踪HTTP请求，其中包含查看器类型和版本信息。
+檢視器也會傳送單一追蹤HTTP要求至已設定的影像伺服器，並提供檢視器型別和版本資訊。
 
-## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 自訂追蹤 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，需要侦听 `trackEvent` 查看器回调并处理 `eventInfo` 回调函数的参数（根据需要）。 以下代码是此类处理程序函数的一个示例：
+若要與協力廠商分析系統整合，請務必監聽 `trackEvent` 檢視器回呼並處理 `eventInfo` 必要時，回呼函式的引數。 下列程式碼是此類處理常式函式的範例：
 
 ```javascript {.line-numbers}
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -48,31 +48,31 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 });
 ```
 
-查看器会跟踪以下SDK用户事件：
+檢視器會追蹤下列SDK使用者事件：
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>发送时间…… </p> </th> 
+   <th colname="col1" class="entry"> <p>SDK使用者事件 </p> </th> 
+   <th colname="col2" class="entry"> <p>傳送時間…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>查看器。 </p> </td> 
+   <td colname="col2"> <p>檢視器會先載入。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>查看器中使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col2"> <p>在檢視器中使用交換資產 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 缩放 </span> </p> </td> 
-   <td colname="col2"> <p> 缩放图像。 </p> </td> 
+   <td colname="col2"> <p> 影像會縮放。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 平移 </span> </p> </td> 
-   <td colname="col2"> <p>图像已绘制。 </p> </td> 
+   <td colname="col2"> <p>已平移影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

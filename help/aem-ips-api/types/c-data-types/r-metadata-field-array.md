@@ -1,5 +1,5 @@
 ---
-description: 元数据字段数组
+description: 中繼資料欄位的陣列
 solution: Experience Manager
 title: MetadataFieldArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MetadataFieldArray]{#metadatafieldarray}
 
-元数据字段数组
+中繼資料欄位的陣列
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:MetadataField` | 元数据字段数组。 |
+| 项目 | `types:MetadataField` | 中繼資料欄位陣列。 |

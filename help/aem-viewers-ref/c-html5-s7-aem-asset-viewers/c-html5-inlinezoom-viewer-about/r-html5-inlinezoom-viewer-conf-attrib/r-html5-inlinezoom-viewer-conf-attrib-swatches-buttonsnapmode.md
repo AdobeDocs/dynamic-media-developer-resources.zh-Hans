@@ -8,7 +8,7 @@ exl-id: 3d59bff0-8517-44c7-8c57-da806bb27e27
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 10%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
-   <td> <p>使按钮与色板旁边对齐。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 嵌入式管理單元</span> </span> </p> </td> 
+   <td> <p>使按鈕與色票對齊。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
-   <td> <p>使按钮在组件边框旁边对齐。 </p> </td> 
+   <td> <p>使按鈕與元件邊框對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 叠加</span> </span> </p> </td> 
-   <td> <p>使按钮在色板上呈现。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 覆蓋</span> </span> </p> </td> 
+   <td> <p>使按鈕在色票上方呈現。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
+## 屬性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-可选。
+可选.
 
 ## 默认 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

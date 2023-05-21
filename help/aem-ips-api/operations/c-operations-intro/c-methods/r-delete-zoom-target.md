@@ -1,5 +1,5 @@
 ---
-description: 删除缩放目标。
+description: 刪除縮放目標。
 solution: Experience Manager
 title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 # deleteZoomTarget{#deletezoomtarget}
 
-删除缩放目标。
+刪除縮放目標。
 
-## 授权用户类型 {#section-09ca82bc817e49048271c5cba545702e}
+## 授權的使用者型別 {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,24 +27,24 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有资产的读取和写入权限。
+>使用者必須擁有資產的讀取和寫入存取權。
 
 ## 参数 {#section-225330a45e7a408f8375e084677d9cb1}
 
-**Input(deleteZoomTargetParam)**
+**輸入(deleteZoomTargetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 缩放目标所属公司的句柄。 |
-| zoomTargetHandle | `xsd:string` | 是 | 要删除的缩放目标的句柄。 |
+| companyHandle | `xsd:string` | 是 | 縮放目標所屬公司的控制代碼。 |
+| zoomTargetHandle | `xsd:string` | 是 | 要刪除的縮放目標控制代碼。 |
 
-**输出(deleteZoomTargetParam)**
+**輸出(deleteZoomTargetParam)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-此代码示例会从公司中删除缩放目标。
+此程式碼範例會從公司刪除縮放目標。
 
 **请求**
 

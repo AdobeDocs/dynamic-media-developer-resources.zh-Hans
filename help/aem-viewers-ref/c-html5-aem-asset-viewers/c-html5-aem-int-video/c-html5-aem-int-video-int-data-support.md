@@ -1,6 +1,6 @@
 ---
-title: 交互式数据支持
-description: 交互式视频查看器支持根据作为配置参数传递给查看器的交互式数据来渲染交互式色板。
+title: 互動式資料支援
+description: Interactive Video Viewer支援根據作為設定引數傳遞給檢視器的互動式資料來轉譯互動式色票。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 交互式数据支持{#interactive-data-support}
+# 互動式資料支援{#interactive-data-support}
 
-交互式视频查看器支持根据作为配置参数传递给查看器的交互式数据来渲染交互式色板。
+Interactive Video Viewer支援根據作為設定引數傳遞給檢視器的互動式資料來轉譯互動式色票。
 
-当前可见的色板对应于与其关联的视频时间区域。 单击或点按交互式色板会触发在创作时分配给它的操作。
+目前可見的色票會對應於與其關聯的視訊時間區域。 按一下或點選互動式色票，即可在編寫時觸發指派給它的動作。
 
-交互式色板可以通过触发JavaScript回调来激活托管网页上的概览，也可以将用户重定向到外部网页。
+互動式色票可以透過觸發JavaScript回呼在託管網頁上啟用快速檢視，也可以將使用者重新導向至外部網頁。
 
-## 关于概览 {#section-7990e44f641042d2a38ba20c9413b3f8}
+## 關於快速檢視 {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-应使用Adobe Experience Manager Assets - On-demand中的操作类型“quickview”创作这些类型的交互式色板。 当用户激活此样板时，查看器会运行`quickViewActivate` JavaScript回调并将样板数据传递给它。 预期嵌入网页会侦听此回调，当它触发时，页面会打开其自己的概览实施。
+這些型別的互動式色票應使用Adobe Experience Manager資產 — 隨選中的動作型別「快速檢視」來編寫。 當使用者啟動此類色票時，檢視器會執行 `quickViewActivate` JavaScript回呼並將色票資料傳遞至該回呼。 內嵌網頁應會監聽此回呼，而當觸發時，頁面會開啟自己的Quickview實施。
 
-## 重定向到外部网页 {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## 重新導向至外部網頁 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-在Experience Manager资产中为操作类型“quickview”创作的色板 — 按需将用户重定向到外部URL。 根据创作时的设置，URL可以在新的浏览器选项卡、同一窗口或命名的浏览器窗口中打开。
+Experience Manager Assets中針對「快速檢視」動作型別所製作的色票 — 隨選將使用者重新導向至外部URL。 視編寫時的設定而定，URL可以在新的瀏覽器索引標籤、相同視窗中開啟，或在命名的瀏覽器視窗中開啟。

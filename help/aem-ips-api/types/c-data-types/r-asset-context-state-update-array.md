@@ -1,6 +1,6 @@
 ---
 title: AssetContextStateUpdateArray
-description: 资产上下文状态更新的数组。
+description: 資產內容狀態更新的陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,10 +14,10 @@ ht-degree: 18%
 
 # [!DNL AssetContextStateUpdateArray]{#assetcontextstateupdatearray}
 
-资产上下文状态更新的数组。
+資產內容狀態更新的陣列。
 
 **参数**
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:AssetsContextStateUpdate` | 资产上下文状态更新的数组。 |
+| 项目 | `types:AssetsContextStateUpdate` | 資產內容狀態更新的陣列。 |

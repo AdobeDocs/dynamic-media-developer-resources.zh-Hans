@@ -1,6 +1,6 @@
 ---
-title: 辅助技术支持
-description: 所有查看器组件都支持ARIA（无障碍的富互联网应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
+title: 輔助技術支援
+description: 所有檢視器元件都支援ARIA （可存取的豐富網際網路應用程式）角色和屬性，以改進與熒幕閱讀器等輔助技術的整合。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 辅助技术支持{#assistive-technology-support}
+# 輔助技術支援{#assistive-technology-support}
 
-所有查看器组件都支持ARIA（无障碍的富互联网应用程序）角色和属性，以改进与屏幕阅读器等辅助技术的集成。
+所有檢視器元件都支援ARIA （可存取的豐富網際網路應用程式）角色和屬性，以改進與熒幕閱讀器等輔助技術的整合。
 
-顶级查看器元素具有角色`region`和`aria-label`属性，默认情况下，该属性设置为查看器的名称。 可以使用`Container.LABEL`本地化符号控制标签。
+頂層檢視器元素具有角色 `region` 和 `aria-label` 屬性預設為檢視器的名稱。 您可以使用以下專案控制標籤 `Container.LABEL` 本地化符號。
 
-主视图具有角色`application`。 `aria-roledescription`中提供了主视图的简要描述，其值由相应主视图组件的`ROLE_DESCRIPTION`本地化符号定义。 使用`aria-describedby`为键盘用户提供导航提示，使用提示的文本来自`USAGE_HINT`本地化符号。 如果资产在UserData字段中定义了标签，则`aria-label`属性将使用此标签的值进行设置。
+主要檢視具有角色 `application`. 主要檢視的簡短說明請參閱 `aria-roledescription`，其值定義自 `ROLE_DESCRIPTION` 對應主要檢視元件的本地化符號。 為鍵盤使用者提供的導覽提示使用 `aria-describedby`，使用提示的文字來自 `USAGE_HINT` 本地化符號。 如果資產的UserData欄位中定義了標籤，則 `aria-label` 屬性是以此類標籤的值設定。
 
-热点、区域和图像映射具有角色`button`和具有`aria-label`属性的描述性文本集，且具有热点或图像映射标签的值。 当用户将焦点放在热点或图像映射上时，将使用`aria-describedby`为键盘用户提供导航提示，其中使用提示的文本来自`USAGE_HINT`本地化符号。
+熱點、區域和影像地圖具有此角色 `button` 和描述性文字集 `aria-label` 屬性，具有連結區或影像地圖示籤的值。 當使用者聚焦於熱點或影像地圖時，會使用為鍵盤使用者提供導覽提示 `aria-describedby`，使用提示的文字來自 `USAGE_HINT` 本地化符號。

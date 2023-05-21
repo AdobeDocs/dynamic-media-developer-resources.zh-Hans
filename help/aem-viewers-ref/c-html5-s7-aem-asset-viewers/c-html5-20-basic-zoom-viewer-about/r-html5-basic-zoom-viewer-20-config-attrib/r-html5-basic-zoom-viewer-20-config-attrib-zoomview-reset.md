@@ -8,7 +8,7 @@ exl-id: 054cd090-2167-4903-ba19-52bc8606370c
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在帧（图像）发生更改时重置视图端口。 如果设置为 <span class="varname"> 0</span>，则在保留新设置图像的宽高比的同时，保留尽可能适合的当前视图端口。 </p> </td> 
+   <td colname="col2"> <p> 當影格（影像）變更時，重設檢視連線埠。 若設為 <span class="varname"> 0</span>，會以可能的最適大小保留目前檢視連線埠，同時保留新設定影像的外觀比例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-50bcd15223174bb79ce08b31ea03d682}
+## 屬性 {#section-50bcd15223174bb79ce08b31ea03d682}
 
-可选。
+可选.
 
 ## 默认 {#section-7564169749ff4a4996049ea1148cb2a5}
 

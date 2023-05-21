@@ -1,5 +1,5 @@
 ---
-description: 响应CDN失效请求中提供的URL的消息数组。
+description: 回應CDN失效請求中提供的URL的訊息陣列。
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # [!DNL OperationFaultArray]{#operationfaultarray}
 
-响应CDN失效请求中提供的URL的消息数组。
+回應CDN失效請求中提供的URL的訊息陣列。
 
-**支持时间**
+**支援開始時間**
 
-4.5.0，修补程序2011-02
+4.5.0，修補程式2011-02
 
 ## 参数 {#section-431990f541694b599c75103663e5f672}
 
@@ -32,9 +32,9 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 项目</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 类型：OperationFault</span> </p> </td> 
-   <td> <p> 由CDN无效请求生成的消息列表。 </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 個專案</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> 型別：OperationFault</span> </p> </td> 
+   <td> <p> CDN失效請求產生的訊息清單。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,31 +1,31 @@
 ---
-description: 图像存在。
+description: 影像已存在。
 solution: Experience Manager
 title: 存在
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 810453f0-7b35-4eed-8b23-6b59a8300c50
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 11%
+source-wordcount: '121'
+ht-degree: 12%
 
 ---
 
 # 存在{#exists}
 
-图像存在。
+影像已存在。
 
 `req=exists[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
-*`reqId`* 唯一请求标识符
+*`reqId`* 唯一請求識別碼
 
-返回名为`catalogRecord.exists`的单个属性。 如果指定的目录条目存在于图像或默认目录中，则属性值将设置为“1”，否则，该属性值将设置为“0”。 `req=exists` 针对上下文 `/is/content` 的请求将指示静态内容目录中是否存在指定的记录。
+傳回名為的單一屬性 `catalogRecord.exists`. 如果影像或預設目錄中存在指定的目錄專案，則屬性值會設為「1」，否則會設為「0」。 `req=exists` 針對以下專案的請求： `/is/content` 上下文將指示靜態內容目錄中是否存在指定記錄。
 
-请求字符串中的其他命令将被忽略。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
+請求字串中的其他命令會被忽略。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.

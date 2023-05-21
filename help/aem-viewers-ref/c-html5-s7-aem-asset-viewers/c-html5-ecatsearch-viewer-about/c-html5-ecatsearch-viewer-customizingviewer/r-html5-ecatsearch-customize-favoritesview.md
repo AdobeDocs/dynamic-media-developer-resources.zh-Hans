@@ -1,6 +1,6 @@
 ---
-title: 收藏夹视图
-description: “收藏夹”视图由一列缩略图图像组成。
+title: 我的最愛檢視
+description: 我的最愛檢視由一欄縮圖影像組成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,36 +12,36 @@ ht-degree: 2%
 
 ---
 
-# 收藏夹视图{#favorites-view}
+# 我的最愛檢視{#favorites-view}
 
-“收藏夹”视图由一列缩略图图像组成。
+我的最愛檢視由一欄縮圖影像組成。
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-使用以下CSS类选择器控制收藏夹视图容器的外观：
+我的最愛檢視容器外觀由以下CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-收藏夹视图的位置和高度由视图管理；在CSS中，只能定义宽度。
+我的最愛檢視的位置和高度由檢視管理；在CSS中，只能定義寬度。
 
-**“收藏夹”视图的CSS属性**
+**我的最愛檢視的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> “收藏夹”视图的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 我的最愛檢視的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>视图的宽度。 </p> </td> 
+   <td colname="col2"> <p>檢視的寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置宽为100像素的“收藏夹”视图，其中半透明的灰色背景。
+範例 — 設定100畫素寬、具有半透明灰色背景的「我的最愛」檢視。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -50,24 +50,24 @@ ht-degree: 2%
 }
 ```
 
-通过以下CSS类选择器可控制收藏夹缩略图之间的间距：
+我的最愛縮圖之間的間距由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell
 ```
 
-**收藏夹缩略图的CSS属性**
+**我的最愛縮圖的CSS屬性**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于为 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每個縮圖周圍的垂直邊界大小。 實際縮圖間距等於為設定的上下邊界的總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置十个像素间距。
+範例 — 設定十個畫素間距。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -75,36 +75,36 @@ ht-degree: 2%
 }
 ```
 
-通过以下CSS类选择器控制单个缩略图的外观：
+使用下列CSS類別選取器可控制個別縮圖的外觀：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
 ```
 
-**收藏夹缩略图的CSS属性**
+**我的最愛縮圖的CSS屬性**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>縮圖的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>缩略图的高度。 </p> </td> 
+   <td colname="col2"> <p>縮圖的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>缩略图的边框。 </p> </td> 
+   <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"` 对应于用户最近选择的缩略图。 While `state="default"` 对应于其余的缩略图。 和 `state="over"` 鼠标悬停时使用。
+>縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於使用者最近選取的縮圖。 當 `state="default"` 對應至其餘的縮圖。 和 `state="over"` 用於滑鼠游標暫留時。
 
-示例 — 要设置缩略图75 x 75像素，缩略图的默认边框为浅灰色，选定的边框为深灰色。
+範例 — 若要設定75 x 75畫素的縮圖，縮圖具有淺灰色的預設框線，以及選取的深灰色框線。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -119,28 +119,28 @@ ht-degree: 2%
 }
 ```
 
-通过以下CSS类选择器控制缩略图标签的外观：
+縮圖示籤的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
 ```
 
-**“收藏夹”标签的CSS属性**
+**我的最愛標籤的CSS屬性**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>字体名称。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-famiy </span> </p> </td> 
+   <td colname="col2"> <p>字型名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用14像素Helvetica®字体设置标签。
+範例 — 以14畫素Helvetica®字型設定標籤。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

@@ -1,24 +1,24 @@
 ---
-description: Flash流服务器URL前缀。 Flash流服务器URL前缀，用于生成具有req=mbrSet的多位速率f4m响应。
+description: 串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
 solution: Experience Manager
 title: HttpFlashStreamingContext
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash流服务器URL前缀。 Flash流服务器URL前缀，用于生成具有req=mbrSet的多位速率f4m响应。
+串流伺服器URL首碼Flash。 產生具有req=mbrSet的多位元速率f4m回應時所使用的Flash串流伺服器URL首碼。
 
-## 属性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
+## 屬性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-表示URL前缀的字符串。 (例如`http://my.server.com/flash/streaming`)
+代表URL首碼的字串。 (例如： `http://my.server.com/flash/streaming`)
 
 ## 默认 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

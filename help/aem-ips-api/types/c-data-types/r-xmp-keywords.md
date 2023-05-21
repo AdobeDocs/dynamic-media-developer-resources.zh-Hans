@@ -1,5 +1,5 @@
 ---
-description: 资产的可扩展元数据平台关键词。
+description: 資產的可延伸中繼資料平台關鍵字。
 solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-资产的可扩展元数据平台关键词。
+資產的可延伸中繼資料平台關鍵字。
 
 语法
 
@@ -30,9 +30,9 @@ ht-degree: 21%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 项目</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 個專案</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>合并到的以逗号分隔的关键词列表 <span class="codeph"> dc:subject=</span> XMP属性节点。 如果逗号出现在任何单个值中，则需要用反斜杠(\)字符进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
+   <td colname="col3"> <p>以逗號分隔並合併至的關鍵字清單 <span class="codeph"> dc：subject=</span> XMP屬性節點。 如果逗號出現在任何個別值中，則需要以反斜線(\)字元逸出。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

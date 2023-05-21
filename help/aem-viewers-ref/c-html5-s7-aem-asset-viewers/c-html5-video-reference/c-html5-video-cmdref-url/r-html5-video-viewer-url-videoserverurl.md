@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: 视频查看器的URL命令。
+description: Video Viewer的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 945c32e0-a67b-4c27-b661-26510615d757
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-视频查看器的URL命令。
+Video Viewer的URL命令。
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,14 +22,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 视频服务器根路径。 如果未指定域，则会应用提供页面的域。 标准URI路径解析适用。 </p> </td> 
+   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則改為套用伺服頁面的網域。 適用標準URI路徑解析。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。标准SaaS使用不需要。
+可选. 標準SaaS使用不需要。
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

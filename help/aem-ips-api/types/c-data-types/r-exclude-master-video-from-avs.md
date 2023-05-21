@@ -1,6 +1,6 @@
 ---
 title: ExcludeMasterVideoFromAVS
-description: 从自适应视频集中排除主视频。
+description: 從最適化視訊集中排除主要視訊。
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Adobe即将终止对 `ExcludeMasterVideoFromAVS` 参数2022年9月1日。 另请参阅 [已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe即將停止支援 `ExcludeMasterVideoFromAVS` 引數：2022年9月1日。 另請參閱 [已棄用的呼叫](/help/aem-ips-api/c-deprecated-calls.md).
 
-从自适应视频集中排除主视频。
+從最適化視訊集中排除主要視訊。
 
 <!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
@@ -37,7 +37,7 @@ ht-degree: 12%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>从自适应视频集中排除主视频文件。 </p> <p>默认值为true。 </p> </td> 
+   <td colname="col3"> <p>從最適化視訊集中排除主要視訊檔案。 </p> <p>預設為true。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

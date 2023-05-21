@@ -1,7 +1,7 @@
 ---
-description: 一系列公司
+description: 許多公司
 solution: Experience Manager
-title: CompanyArray
+title: 公司陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c3a6849d-f17b-481c-a67c-a239af0a3d10
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL CompanyArray]{#companyarray}
 
-一系列公司
+許多公司
 
 语法
 

@@ -1,7 +1,7 @@
 ---
-description: 图像服务支持基于正则表达式匹配和替换规则的简单请求预处理机制。
+description: 「影像伺服」支援以規則運算式相符和替代規則為基礎的簡單請求前置處理機制。
 solution: Experience Manager
-title: 规则集引用
+title: 規則集參考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# 规则集引用{#rule-set-reference}
+# 規則集參考{#rule-set-reference}
 
-图像服务支持基于正则表达式匹配和替换规则的简单请求预处理机制。
+「影像伺服」支援以規則運算式相符和替代規則為基礎的簡單請求前置處理機制。
 
-预处理规则集合(*规则集*)附加到图像目录或默认目录。 仅当请求未标识特定的主图像目录时，才应用默认目录中的规则。
+預先處理規則的集合(*規則集*)可附加至影像目錄或預設目錄。 只有在要求未識別特定的主要影像目錄時，才套用預設目錄中的規則。
 
-请求预处理规则可以修改请求的路径和查询部分，然后再由 [!DNL Platform Server]的解析器，包括处理路径、添加命令、更改命令值以及应用模板或宏。 规则还可用于配置和覆盖某些安全功能，这些功能通常仅通过目录属性来控制，例如请求模糊处理、水标记，以及将服务限制为特定的客户端IP地址。
+請求預先處理規則可在請求由處理之前修改請求的路徑和查詢部分 [!DNL Platform Server]的剖析器，包括操控路徑、新增命令、變更命令值，以及套用範本或巨集。 規則也可用來設定和覆寫某些安全性功能，這些功能通常僅由目錄屬性控制，例如請求模糊化、標籤水印，以及將服務限制在特定的使用者端IP位址。
 
-规则集将存储为XML文档文件。 必须在 `attribute::RuleSetFile`.
+規則集會儲存為XML檔案檔案。 規則集檔案的相對或絕對路徑必須在 `attribute::RuleSetFile`.
 
-## 通用结构 {#section-8bcbd91ea8a946f28051bde8ad21827f}
+## 一般結構 {#section-8bcbd91ea8a946f28051bde8ad21827f}
 
 ```
  <?xml version="1.0" encoding="UTF-8"?> 
@@ -48,74 +48,74 @@ ht-degree: 0%
 </ruleset>
 ```
 
-的 `<?xml>` 和 `<ruleset>` 有效规则集XML文件中始终需要元素，即使未定义实际规则也是如此。
+此 `<?xml>` 和 `<ruleset>` 即使未定義實際規則，有效規則集XML檔案中的元素永遠是必要的。
 
-一个 `<ruleset>` 包含任意数量的元素 `<rule>` 允许使用元素。
+一 `<ruleset>` 包含任意數量的元素 `<rule>` 允許元素。
 
-预处理规则文件的内容区分大小写。
+預先處理規則檔案的內容區分大小寫。
 
-## 规则集验证 {#section-d8d101a0b4d74580835e37d128d05567}
+## 規則集驗證 {#section-d8d101a0b4d74580835e37d128d05567}
 
-副本 [!DNL RuleSet.xsd] 在目录文件夹中提供，在将规则集文件注册到 [!DNL catalog.ini] 文件。 请注意，图像提供使用的是 [!DNL RuleSet.xsd] 进行验证。
+副本 [!DNL RuleSet.xsd] 在目錄資料夾中提供，且應在中註冊規則集檔案之前，用來驗證該檔案 [!DNL catalog.ini] 檔案。 請注意，「影像伺服」會使用 [!DNL RuleSet.xsd] 以進行驗證。
 
-## URL预处理 {#section-2c09a2d79ada46b994857c6a7fb4c13a}
+## URL預先處理 {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
-在进行任何其他处理之前，会部分解析传入的HTTP请求，以确定应应用哪个图像目录。 在识别目录后，将应用选定目录（或默认目录，如果未识别特定目录）的规则集。
+在任何其他處理作業之前，會先對傳入的HTTP要求進行部分剖析，以決定應該套用哪個影像目錄。 識別目錄後，將套用所選目錄（或預設目錄，如果未識別特定目錄）的規則集。
 
-的 `<rule>` 元素按与 `<expression>` 元素( *`expression`*)。
+此 `<rule>` 會依照為符合專案指定的順序搜尋元素，該符合專案的內容為 `<expression>` 元素( *`expression`*)。
 
-如果 `<rule>` 匹配，则为可选 *`substitution`* 已应用，且已修改的请求字符串会传递到服务器的请求解析器，以便正常处理。
+若為 `<rule>` 符合，選填 *`substitution`* 會套用，而修改後的請求字串會傳遞至伺服器的請求剖析器，以進行正常處理。
 
-如果在 `<ruleset>` 到达时，请求将被传递到解析器，而无需进行修改。
+如果在結束日期時沒有成功比對 `<ruleset>` 到達時，請求會傳遞至剖析器，而不會進行修改。
 
-## OnMatch属性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
+## OnMatch屬性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-默认行为可通过 `OnMatch` 属性 `<rule>` 元素。 `OnMatch` 可设置为 `break` （默认）、 `continue`或 `error`.
+預設行為可修改 `OnMatch` 的屬性 `<rule>` 元素。 `OnMatch` 可設為 `break` （預設）， `continue`，或 `error`.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>元素和属性</b> </th> 
-   <th class="entry"> <b>发生匹配时的行为</b> </th> 
+   <th class="entry"> <b>元素和屬性</b> </th> 
+   <th class="entry"> <b>發生相符時的行為</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> &lt;rule OnMatch="break"&gt; </span> </p> </td> 
-   <td> <p>在应用此规则的替换后，规则处理将立即终止。 默认. </p> </td> 
+   <td> <p>在套用此規則的替代之後，規則處理會立即終止。 默认. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> &lt;rule OnMatch="continue"&gt; </span> </p> </td> 
-   <td> <p>将应用替换，并且处理会继续执行下一个规则。 </p> </td> 
+   <td> <p>會套用替代，並會繼續處理下一個規則。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> &lt;rule OnMatch="error"&gt; </span> </p> </td> 
-   <td> <p>规则处理会立即终止，并且“请求被拒绝”响应状态会返回给客户端。 </p> </td> 
+   <td> <p>規則處理會立即終止，且「已拒絕要求」回應狀態會傳回給使用者端。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 覆盖目录属性 {#section-3f1e33a65c5346d1b4a69958c61432f3}
+## 覆寫目錄屬性 {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
-的 `rule` 元素可以选择定义在规则成功匹配时覆盖相应目录属性的属性。 如果多个匹配的规则设置了相同的属性，则最后一个规则将占上风。 请参阅 [规则](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md) 元素来标识可通过规则控制的属性列表。
+此 `rule` element可選擇性地定義屬性，以在成功比對規則時覆寫對應的目錄屬性。 如果有多個相符的規則設定了相同的屬性，則最後一個規則會優先。 另請參閱 [規則](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md) 可用規則控制的屬性清單的元素。
 
-## 正则表达式 {#section-3f77bb9a265147b38c645f63ab1bad8b}
+## 規則運算式 {#section-3f77bb9a265147b38c645f63ab1bad8b}
 
-简单的字符串匹配适用于非常基本的应用程序，但大多数情况下都需要正则表达式。 虽然正则表达式是行业标准，但具体实施因实例而异。
+簡單字串比對適用於非常基本的應用程式，但在大多數情況下都需要規則運算式。 雖然規則運算式是符合業界標準的，但具體的實施會因執行個體而異。
 
-[ [!DNL package java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) 描述图像服务使用的特定正则表达式实施。
+[ [!DNL package java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) 說明「影像伺服」使用的特定規則運算式實施。
 
-## 捕获的子字符串 {#section-066e659406d5403599cd26ae35e80d68}
+## 擷取的子字串 {#section-066e659406d5403599cd26ae35e80d68}
 
-为了便于进行复杂的URL修改，可以通过在表达式中使用圆括号(...)将子字符串括起来来捕获子字符串。 捕获的子字符串会根据前括号的位置按顺序从1开始编号。 捕获的子字符串可使用 ` $ *`n`*`，其中 *`n`* 是捕获的子字符串的序列号。
+為了便於修改複雜的URL，您可以在運算式中透過以括弧(...)括住子字串來擷取子字串。 擷取的子字串會根據前導括弧的位置，從1開始依序編號。 擷取的子字串可以使用插入替代中 ` $ *`n`*`，其中 *`n`* 是擷取的子字串的序號。
 
-## 管理规则集文件 {#section-0598a608e4044bb4805fe93ceebe10a9}
+## 管理規則集檔案 {#section-0598a608e4044bb4805fe93ceebe10a9}
 
-每个具有目录属性的图像目录中可以附加一个规则集文件 `attribute::RuleSetFile`. 虽然您可以随时编辑规则集文件，但图像服务器仅在重新加载关联的图像目录时才会识别更改。 当平台服务器启动或重新启动时以及主目录文件(具有 [!DNL .ini] 文件后缀，修改或“接触”以更改文件日期。
+一個規則集檔案可附加至每個具有目錄屬性的影像目錄 `attribute::RuleSetFile`. 雖然您可以隨時編輯規則集檔案，但影像伺服器只有在重新載入關聯的影像目錄時，才會辨識變更。 當平台伺服器啟動或重新啟動時，以及每當主要目錄檔案(具有 [!DNL .ini] 檔案字尾)修改或「接觸」以變更檔案日期。
 
 ## 示例 {#section-aa769437d967459299b83a4bf34fe924}
 
-**示例A.** 定义一个规则，当图像名称的后缀为“”时，该规则会提高图像质量设置 [!DNL _hg]&quot;:
+**範例A.** 如果影像名稱具有字尾「 」，請定義增加影像品質設定的規則 [!DNL _hg]「：
 
 ```
 <rule> 
@@ -124,17 +124,17 @@ ht-degree: 0%
 </rule>
 ```
 
-规则表达式指定“ [!DNL _hg]”。 后缀将替换为更改图像质量设置的指定查询字符串。 请注意， `?` 替换字符串中的字符会进行转义，因为这是正则表达式中的特殊字符。
+規則運算式會指定「」的相符專案（不區分大小寫） [!DNL _hg]」於URL字串結尾。 字尾會取代為指定的查詢字串，而這會變更影像品質設定。 請注意 `?` 替代字串中的字元會逸出，因為這是規則運算式中的特殊字元。
 
 >[!NOTE]
 >
->与号字符所需的编码。 或者，替换字符串可以包含在CDATA块中：
+>&amp;字元所需的編碼。 或者，替代字串可以包含在CDATA區塊中：
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**示例B.** 特定Web应用程序不允许查询字符串。 定义用于转换尾随路径元素的规则 `small`, `medium`或 `large` 到模板，使用路径的其余部分作为图像名称。 例如， `myCat/myImage/small` 将转换为 `myCat/smallTemplate?src=myCat/myImage`.
+**範例B。** 特定網頁應用程式不允許查詢字串。 定義翻譯結尾路徑元素的規則 `small`， `medium`，或 `large` 至範本，使用路徑的其餘部分作為影像名稱。 例如， `myCat/myImage/small` 將轉換為 `myCat/smallTemplate?src=myCat/myImage`.
 
-我们可以使用子字符串来重构请求：
+我們可以使用子字串來重新建構請求：
 
 ```
 <rule> 
@@ -145,4 +145,4 @@ ht-degree: 0%
 
 ## 另请参阅 {#section-9b748e7c5cff4759a70f96657bd43352}
 
-[包java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)
+[套件java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)

@@ -1,56 +1,56 @@
 ---
-description: 在配置的平均时间间隔结束时，标准警报会随合并的电子邮件消息一起发送。
+description: 標準警報會在設定的平均間隔結束時，連同整合的電子郵件訊息一併傳送。
 solution: Experience Manager
-title: 标准警报
-feature: Dynamic Media Classic，SDK/API
+title: 標準警報
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
-# 标准警报{#standard-alerts}
+# 標準警報{#standard-alerts}
 
-在配置的平均时间间隔结束时，标准警报会随合并的电子邮件消息一起发送。
+標準警報會在設定的平均間隔結束時，連同整合的電子郵件訊息一併傳送。
 
-下表描述了每种类型的标准警报。
+下表說明每種標準警示型別。
 
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>警报类型</b> </th> 
-   <th class="entry"> <b>标题Id</b> </th> 
+   <th class="entry"> <b>警示型別</b> </th> 
+   <th class="entry"> <b>標題ID</b> </th> 
    <th class="entry"> <b>说明</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>锁定的请求 </p> </td> 
+   <td> <p>鎖定的請求 </p> </td> 
    <td> <p>锁定 </p> </td> 
-   <td> <p>请求在指定的阈值内无法向客户端返回响应时发送。 可以表示挂起的请求，这可能导致Java线程池耗尽。 </p> </td> 
+   <td> <p>當要求無法在指定的臨界值內傳回回應給使用者端時傳送。 可能表示擱置的要求，這可能會造成Java執行緒集區耗盡。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>高并发性 </p> </td> 
+   <td> <p>高並行度 </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> 当同时处理的请求数（<i>重叠</i>）超过指定的阈值时发出。 可表示服务器过载情况。 </td> 
+   <td> 當同時處理的請求數時發出(當 <i>重疊</i>)超過指定的臨界值。 可表示伺服器超載狀況。 </td> 
   </tr> 
   <tr> 
    <td> <p>最小流量 </p> </td> 
    <td> <p>Traf </p> </td> 
-   <td> <p>当总请求率低于指定的阈值时生成。 通常指示服务器通信问题（例如，当服务器脱机时）。 </p> </td> 
+   <td> <p>當整體請求率低於指定臨界值時產生。 通常表示伺服器通訊問題（例如伺服器離線時）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>错误率 </p> </td> 
+   <td> <p>錯誤率 </p> </td> 
    <td> <p>错误 </p> </td> 
-   <td> <p>当采样间隔期间HTTP错误响应的平均速率超过指定的阈值时发出。 可指示配置问题、缺少图像、网站编程或数据库错误。 </p> </td> 
+   <td> <p>在取樣間隔期間HTTP錯誤回應的平均速率超過指定臨界值時發出。 可能表示設定問題、影像遺失、網站程式設計或資料庫錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>响应时间 </p> </td> 
+   <td> <p>回應時間 </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>在采样间隔期间的平均请求处理时间增长到超过指定阈值时发送。 通常指示服务器或后端图像存储系统的临时或永久性过载情况。 </p> <p>计算平均响应时间时，不考虑错误响应。 </p> </td> 
+   <td> <p>當取樣間隔期間的平均要求處理時間超過指定臨界值時傳送。 通常表示伺服器或後端影像儲存系統的暫時或持續過載狀況。 </p> <p>計算平均回應時間時不考慮錯誤回應。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

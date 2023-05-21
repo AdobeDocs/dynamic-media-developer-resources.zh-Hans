@@ -1,5 +1,5 @@
 ---
-description: CompanyMetadataInfo元素的数组。
+description: CompanyMetadataInfo元素的陣列。
 solution: Experience Manager
 title: CompanyMetadataInfoArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL CompanyMetadataInfoArray]{#companymetadatainfoarray}
 
-CompanyMetadataInfo元素的数组。
+CompanyMetadataInfo元素的陣列。
 
 语法
 
@@ -22,5 +22,5 @@ CompanyMetadataInfo元素的数组。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 代码短语 | `Code Phrase` |  |
-| 代码短语 | `Code Phrase` |  |
+| 程式碼片語 | `Code Phrase` |  |
+| 程式碼片語 | `Code Phrase` |  |

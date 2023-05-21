@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: 全景查看器的JavaScript API引用
+description: 全景檢視器的JavaScript API參考
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 3%
 
 # setHandlers{#sethandlers}
 
-全景查看器的JavaScript API引用
+全景檢視器的JavaScript API參考
 
 `setHandlers(handlers)`
 
-指定零个或多个回调处理程序。 对此方法的调用将完全覆盖之前为该查看器实例分配的事件处理程序。 必须在 `init()`.
+指定零個或多個回呼處理常式。 對此方法的呼叫會完全覆寫先前為該檢視器執行個體指派的事件處理常式。 必須在以下時間之前呼叫： `init()`.
 
 ## 参数 {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 处理程序 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {对象} </span> 具有查看器事件回调的JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 </p> <p>有关查看器事件的更多信息，请参阅事件回调一节。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 處理常式 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 具有檢視器事件回呼的JSON物件，其中屬性名稱是支援的檢視器事件的名稱，屬性值是對適當回呼的JavaScript函式參照。 </p> <p>如需檢視器事件的詳細資訊，請參閱事件回呼區段。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

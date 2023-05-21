@@ -1,5 +1,5 @@
 ---
-description: searchAssets操作的系统字段搜索条件。
+description: searchAssets作業的系統欄位搜尋條件。
 solution: Experience Manager
 title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,27 +14,27 @@ ht-degree: 6%
 
 # [!DNL SystemFieldCondition]{#systemfieldcondition}
 
-searchAssets操作的系统字段搜索条件。
+searchAssets作業的系統欄位搜尋條件。
 
-对于一元比较，只传递一个值( `boolVal`, `longVal`, `doubleVal`或 `dateVal`)，具体取决于系统字段类型。 对于搜索范围，请传递 `min<Type>` 和 `max<Type>` 参数并传递 `op` 值 `Between` 或 `NotBetween`.
+若要進行一元比較，請只傳遞一個值( `boolVal`， `longVal`， `doubleVal`，或 `dateVal`)視系統欄位型別而定。 如需搜尋範圍，請通過 `min<Type>` 和 `max<Type>` 引數並傳遞 `op` 值 `Between` 或 `NotBetween`.
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 字段 | `xsd:string` | 资产搜索系统字段的选择。 |
-| op | `xsd:string` | 选择字符串比较运算符。 |
-| 价值 | `xsd:string` | 要测试的值。 |
-| 布尔瓦尔 | `xsd:boolean` | 布尔比较值。 |
-| longVal | `xsd:long` | 比较值较长。 |
-| minLong | `xsd:long` | 长程的下边界。 |
-| maxLong | `xsd:long` | 长程的上边界。 |
-| doubleVal | `xsd:double` | 双重比较值。 |
-| minDouble | `xsd:double` | 双程下界。 |
-| maxDouble | `xsd:double` | 双距上界。 |
-| dateVal | `xsd:dateTime` | 日期比较值。 |
-| minDate | `xsd:dateTime` | 日期范围小。 |
-| maxDate | `xsd:dateTime` | 日期范围最大值。 |
+| 字段 | `xsd:string` | 資產搜尋系統欄位的選擇。 |
+| op | `xsd:string` | 字串比較運運算元的選擇。 |
+| 价值 | `xsd:string` | 要測試的值。 |
+| 布林值 | `xsd:boolean` | 布林值比較值。 |
+| longVal | `xsd:long` | 長比較值。 |
+| minLong | `xsd:long` | 長範圍的下限。 |
+| maxLong | `xsd:long` | 長範圍的上限。 |
+| doubleval | `xsd:double` | 雙精度比較值。 |
+| minDouble | `xsd:double` | 雙精度範圍下限。 |
+| maxDouble | `xsd:double` | 雙精度範圍的上限。 |
+| 日期值 | `xsd:dateTime` | 日期比較值。 |
+| minDate | `xsd:dateTime` | 日期範圍下限。 |
+| maxDate | `xsd:dateTime` | 日期範圍上限。 |
 
 ## 示例 {#section-347d4aabfff44530adba03d1dc0b9968}
 

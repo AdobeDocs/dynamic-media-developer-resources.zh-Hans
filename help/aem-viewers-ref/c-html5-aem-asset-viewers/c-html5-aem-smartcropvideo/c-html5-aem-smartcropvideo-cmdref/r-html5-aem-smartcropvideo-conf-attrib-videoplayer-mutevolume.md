@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.mutevolume
-description: 智能裁剪视频查看器的配置属性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
 # SmartCropVideoPlayer.mutevolume{#smartcropvideoplayer-mutevolume}
 
-智能裁剪视频查看器的配置属性。
+智慧型裁切視訊檢視器的設定屬性。
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]mutevolume=0|1`
 
@@ -21,14 +22,14 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为 <span class="codeph"> 1 </span> 音量已静音；否则，视频将播放声音。 在某些设备上，在加载时静音播放也允许视频自动播放。 </p> </td> 
+   <td colname="col2"> <p> 設定初次載入時視訊播放的靜音模式。 若設為 <span class="codeph"> 1 </span> 音量會靜音，否則視訊會播放聲音。 在某些裝置上，載入時將視訊播放設為靜音也會允許視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

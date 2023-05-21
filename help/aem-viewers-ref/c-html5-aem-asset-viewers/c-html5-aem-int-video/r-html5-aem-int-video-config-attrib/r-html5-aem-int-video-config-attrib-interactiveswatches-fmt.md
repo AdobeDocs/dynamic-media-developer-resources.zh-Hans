@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.fmt
-description: 交互式视频查看器的配置属性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 9a751b91-aeff-4ee1-b2fe-9bec416884ab
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # InteractiveSwatches.fmt{#interactiveswatches-fmt}
 
-交互式视频查看器的配置属性。
+互動式視訊檢視器的設定屬性。
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,14 +22,14 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定组件用于从图像服务器加载图像的图像格式。 </p> <p>如果指定的格式以“<span class="codeph"> -alpha</span>”结尾，则组件会将图像呈现为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 默认情况下，组件的背景为白色。 因此，要使其透明，请将<span class="codeph"> background-color</span> CSS属性设置为<span class="codeph"> transparent</span>。 </p> </td> 
+   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 </p> <p>如果指定的格式結尾為"<span class="codeph"> -alpha</span>「」，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 元件預設為白色背景。 因此，若要使其透明，請設定 <span class="codeph"> background-color</span> CSS屬性至 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

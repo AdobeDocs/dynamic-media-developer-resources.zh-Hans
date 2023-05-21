@@ -1,5 +1,5 @@
 ---
-description: 在单个请求中检索所有系统属性。
+description: 擷取單一請求中的所有系統屬性。
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getSystemProperties{#getsystemproperties}
 
-在单个请求中检索所有系统属性。
+擷取單一請求中的所有系統屬性。
 
 语法
 
-## 授权用户类型 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 授權的使用者型別 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,19 +32,19 @@ ht-degree: 20%
 
 ## 参数 {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**输入(getSystemPropertiesParam)**
+**輸入(getSystemPropertiesParam)**
 
 无。
 
-**输出(getSystemPropertiesReturn)**
+**輸出(getSystemPropertiesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| propertyArray | `types:PropertyArray` | 是 | 系统属性的数组。 |
+| propertyArray | `types:PropertyArray` | 是 | 系統屬性的陣列。 |
 
 ## 示例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代码示例返回一个系统属性数组。 响应因简短而被截断。
+此程式碼範例會傳回系統屬性的陣列。 回應因簡短而遭截斷。
 
 **请求**
 

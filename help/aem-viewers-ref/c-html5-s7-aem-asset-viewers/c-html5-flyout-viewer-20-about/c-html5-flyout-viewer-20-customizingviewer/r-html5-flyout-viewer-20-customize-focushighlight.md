@@ -1,6 +1,6 @@
 ---
-title: 焦点突出显示
-description: 焦点查看器UI元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
+title: 焦點反白顯示
+description: 焦點檢視器UI元素周圍所顯示的輸入焦點反白顯示，是由CSS類別選取器所控制。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 焦点突出显示{#focus-highlight}
+# 焦點反白顯示{#focus-highlight}
 
-焦点查看器UI元素周围显示的输入焦点突出显示通过CSS类选择器进行控制。
+焦點檢視器UI元素周圍所顯示的輸入焦點反白顯示，是由CSS類別選取器所控制。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**CSS属性**
+**CSS屬性**
 
-使用以下CSS类选择器控制外观：
+外觀由下列CSS類別選取器控制：
 
 ```
 .s7flyoutviewer *:focus
@@ -29,19 +29,19 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大纲 </span> </p> </td> 
-   <td colname="col2"> <p>焦点突出显示样式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
+   <td colname="col2"> <p>焦點反白顯示樣式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要禁用所有查看器用户界面元素的默认浏览器焦点突出显示，请将以下CSS选择器添加到查看器的样式表：
+範例 — 若要停用所有檢視器使用者介面元素的預設瀏覽器焦點反白顯示，請將下列CSS選取器新增至檢視器的樣式表：
 
 ```
 .s7flyoutviewer *:focus { 

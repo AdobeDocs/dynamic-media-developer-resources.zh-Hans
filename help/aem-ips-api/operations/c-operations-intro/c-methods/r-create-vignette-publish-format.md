@@ -1,5 +1,5 @@
 ---
-description: 为晕影创建新发布格式。
+description: 建立暈映的新發佈格式。
 solution: Experience Manager
 title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
@@ -8,19 +8,19 @@ exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 14%
+ht-degree: 5%
 
 ---
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
-为晕影创建新发布格式。
+建立暈映的新發佈格式。
 
-晕影格式指定已发布晕影的大小及其缩略图，以及缩放级别、锐化参数以及从IPS中发布到图像渲染服务器的主晕影生成的文件格式版本。
+暈映格式會指定已發佈暈映及其縮圖的大小，以及縮放等級、銳利化引數和從IPS發佈至「影像演算」伺服器的主要暈映所產生暈映的檔案格式版本。
 
-较新的图像渲染服务器版本可支持金字塔小角，这无需定义特定的晕影格式大小即可发布。
+較新的影像演算伺服器版本可支援金字塔暈映，因此無需定義特定的暈映格式大小以進行發佈。
 
-## 授权用户类型 {#section-f5c563e3695c4dba8df41e2a965aace7}
+## 授權的使用者型別 {#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 ## 参数 {#section-3a368186ec1d4005bca056fc9d9bacc7}
 
-**输入(createVignettePublishFormatParam)**
+**輸入(createVignettePublishFormatParam)**
 
 <table id="table_4D5B2913FA784EC09190F25223C1A680"> 
  <thead> 
@@ -45,86 +45,86 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 晕影所属公司的经营。 </td> 
+   <td colname="col4"> 處理暈映所屬的公司。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 用于标识晕影发布格式的名称。 </td> 
+   <td colname="col4"> 可識別暈映發佈格式的名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> targetwidth</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>以像素为单位指定所生成晕影视图的目标宽度。 </p> <p>使用零，使输出晕影与主晕影大小相同。 </p> </td> 
+   <td colname="col4"> <p>指定所產生暈映檢視的目標寬度（畫素）。 </p> <p>使用零，讓輸出暈映的大小與主要暈映相同。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 创建为图像渲染服务器上的缩放而优化的金字塔晕影。从通过“目标晕影大小”字段设置的最大大小开始，在单个晕影输出文件中创建多个大小的视图。每个后续视图大小都减半直到宽度和高度在 128x128 像素以内。 </td> 
+   <td colname="col4"> 建立為影像演算伺服器上的縮放最佳化的金字塔暈映。 從目標暈映大小欄位設定的大小上限開始，這會在單一暈映輸出檔案中建立多個大小檢視。 每個後續的檢視大小都會減半，直到寬度和高度在128x128畫素以內。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 指定每个生成缩略图的宽度（以像素为单位）。此设置是可选的。 不将缩略图文件保留为零。 </td> 
+   <td colname="col4"> 指定每個所產生縮圖的寬度（畫素）。 此設定為選用。 保留為0表示沒有縮圖檔案。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 指定已发布的小图的文件格式。 如果提供了图像创作新版本和图像渲染服务器的较旧版本，则必须指定图像渲染服务器可以读取的晕影版本。 如果指定更高版本，则图像渲染服务器将无法读取已发布的晕影。 若要在最新版本中发布小图，则设置为0。 </td> 
+   <td colname="col4"> 指定已發佈暈映的檔案格式。 指定影像製作的新版本和影像演算伺服器的舊版本，您必須指定ImageRendering伺服器可讀取的暈映版本。 如果您指定較高的版本，影像演算伺服器將無法讀取已發佈的暈映。 設定為零可發佈最新版本的暈映。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 指定用于分隔晕影名称的字符和用于指示其宽度的后缀。 </td> 
+   <td colname="col4"> 指定分隔暈映名稱和表示其寬度的字尾的字元。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 指定用于分隔晕影名称的字符和用于指示其宽度的后缀。 </td> 
+   <td colname="col4"> 指定分隔暈映名稱和表示其寬度的字尾的字元。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 锐化</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 銳利化</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 对每个小晕影大小的主视图图像应用锐化锐化在缩放晕影时，锐化可以补偿模糊。 </td> 
+   <td colname="col4"> 針對每個發佈的暈映大小將銳利化套用至主檢視影像。銳利化可在縮放暈映時補償模糊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 数字USM锐化是一种灵活且功能强大的方法，可提高锐度，尤其是在扫描的图像中。 这控制每个超调量的大小（边缘边界变暗和亮度）。 </td> 
+   <td colname="col4"> 數位銳利化調整遮色片是一種彈性且強大的方式，可增加銳利度，尤其是在掃描的影像中。 這會控制每個超調的幅度（邊緣邊界會變暗和變亮多少）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 影响要增强的边缘的大小或边缘边缘的宽度，因此较小的半径可增强较小的细节。 半径值越大，边缘处的光晕就越多。 细小细节需要较小的半径，因为丢失大小相同或小于半径的细小细节。 </td> 
+   <td colname="col4"> 影響要增強的邊的大小或邊框的寬度，因此較小的半徑會增強較小尺寸的細節。 較高的半徑值可能會在邊緣產生光暈。 精細細節需要較小的半徑，因為相同大小或小於半徑的微小細節會遺失。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 控制要锐化的最小亮度更改或相邻色调值在滤镜工作之前必须相距的距离。 此设置可锐化更突出的边缘，同时保持更细微的边缘不变。 阈值的允许范围为0到255。 </td> 
+   <td colname="col4"> 控制要銳利化的最小亮度變化，或濾鏡運作前相鄰色調值必須相距多遠。 此設定可銳利化較銳利的邊緣，同時保留較輕微的邊緣不受接觸。 允許的0到255臨界值範圍。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(createVignettePublishFormatReturn)**
+**輸出(createVignettePublishFormatReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| vignetteFormatHandle | `xsd:string` | 是 | 创建的晕影格式的句柄。 |
+| vignetteFormatHandle | `xsd:string` | 是 | 已建立暈映格式的控點。 |
 
 ## 示例 {#section-0564752d439642b9bb8de2903db6de1e}
 
-此代码会创建晕影发布格式。 创建请求指定名称、目标宽度和高度以及其他必需值。
+此程式碼會建立暈映發佈格式。 建立請求會指定名稱、目標寬度和高度，以及其他必要的值。
 
 **请求**
 

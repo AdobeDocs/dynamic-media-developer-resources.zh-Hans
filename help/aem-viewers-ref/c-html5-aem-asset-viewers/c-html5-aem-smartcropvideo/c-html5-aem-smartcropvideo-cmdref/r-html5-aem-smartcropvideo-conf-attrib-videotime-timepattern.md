@@ -1,34 +1,35 @@
 ---
 title: VideoTime.timepattern
-description: 智能裁剪视频查看器的配置属性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: b63818e2-8da0-4965-b7d6-5ecd7ab5cdca
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # VideoTime.timepattern{#videotime-timepattern}
 
-智能裁剪视频查看器的配置属性。
+智慧型裁切視訊檢視器的設定屬性。
 
 `[VideoTime.|<containerId>_videoTime.]timepattern=[h:]m|mm:s|ss`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 设置在控制栏中显示的时间的模式，其中 <span class="codeph"> h</span> 是小时， <span class="codeph"> m</span> 是分钟，并且 <span class="codeph"> s</span> 为秒。 </p> <p>每个时间单位使用的字母数决定了该单位要显示的位数。 如果数字不能满足给定位数，则以后的单位显示等效值。 </p> <p>例如，如果当前影片时间为67分5秒，则时间模式为 <span class="codeph"> m:ss</span> 显示为67:05。 同一时间显示为1:07:5如果给定的时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
+   <td colname="col2"> <p> 設定控制列中顯示的時間模式，其中 <span class="codeph"> h</span> 是小時， <span class="codeph"> m</span> 為分鐘，且 <span class="codeph"> s</span> 是秒。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式 <span class="codeph"> m：ss</span> 顯示為67:05。 相同時間顯示為1:07:5如果給定的時間模式為 <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

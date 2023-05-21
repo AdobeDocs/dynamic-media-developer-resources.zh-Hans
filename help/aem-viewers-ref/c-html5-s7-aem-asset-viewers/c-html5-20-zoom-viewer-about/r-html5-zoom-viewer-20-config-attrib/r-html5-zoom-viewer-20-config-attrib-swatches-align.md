@@ -8,7 +8,7 @@ exl-id: 3cb91483-de8c-4d5c-9b46-7026c5001f3a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 4%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定组件区域内色板容器的内部对齐（锚定）。 在“色板”中，内部缩略图容器的大小是大小，因此只显示整数色板。 因此，内部容器与外部组件范围之间存在一些内边距。 此命令指定内部色板容器在组件中的放置方式。
+指定元件區域中色票容器的內部對齊（錨點）。 在「色票」中，會調整內部縮圖容器的大小，以只顯示整數的色票。 因此，內部容器和外部元件邊界間會有一段邊距。 此命令會指定如何將內部色票容器放置在元件內。
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
-   <td> <p> 设置水平色板的对齐方式。 </p> </td> 
+   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> 設定水準色票的對齊方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> 顶部|中心|底部</span> </p> </td> 
-   <td> <p> 设置垂直色板的对齐方式。 </p> </td> 
+   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td> <p> 設定垂直色票的對齊方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

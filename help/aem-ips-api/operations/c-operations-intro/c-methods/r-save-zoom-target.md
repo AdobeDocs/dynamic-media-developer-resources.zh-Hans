@@ -1,5 +1,5 @@
 ---
-description: 创建或编辑缩放目标。
+description: 建立或編輯縮放目標。
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
 # saveZoomTarget{#savezoomtarget}
 
-创建或编辑缩放目标。
+建立或編輯縮放目標。
 
 语法
 
-## 授权用户类型 {#section-823cd9f0557045bca51da66768b5ba74}
+## 授權的使用者型別 {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,29 +29,29 @@ ht-degree: 21%
 
 ## 参数 {#section-4a23983cae4e49a098e9bbe736933996}
 
-**输入(saveZoomTargetParam)**
+**輸入(saveZoomTargetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要保存的缩放目标的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 缩放目标的手柄。 |
-| zoomTargetHandle | `xsd:string` | 否 | 编辑或创建缩放目标。 |
-| name | `xsd:string` | 是 | 缩放目标名称。 |
-| xPosition | `xsd:int` | 是 | 左像素位置。 |
-| yPosition | `xsd:int` | 是 | 顶部像素位置。 |
-| 宽度 | `xsd:int` | 是 | 缩放目标宽度。 |
-| 高度 | `xsd:int` | 是 | 缩放目标高度。 |
-| 用户数据 | `xsd:string` | 是 | 以了解客户特定的信息。 可以包含任何类型的数据。 |
+| companyHandle | `xsd:string` | 是 | 具有您要儲存之縮放目標的公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 縮放目標的控制代碼。 |
+| zoomTargetHandle | `xsd:string` | 否 | 編輯或建立縮放目標。 |
+| 名称 | `xsd:string` | 是 | 縮放目標名稱。 |
+| xPosition | `xsd:int` | 是 | 左側畫素位置。 |
+| y位置 | `xsd:int` | 是 | 上方的畫素位置。 |
+| 宽度 | `xsd:int` | 是 | 縮放目標寬度。 |
+| 高度 | `xsd:int` | 是 | 縮放目標高度。 |
+| userData | `xsd:string` | 是 | 客戶特定資訊。 可包含任何型別的資料。 |
 
-**输出(saveZoomTargetReturn)**
+**輸出(saveZoomTargetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| zoomTargetHandle | `xsd:string` | 是 | 处理新创建的缩放目标。 |
+| zoomTargetHandle | `xsd:string` | 是 | 處理新建立的縮放目標。 |
 
 ## 示例 {#section-509c472c316549cdb228d7e1cfa8400a}
 
-此代码示例保存缩放目标。 响应会返回缩放目标句柄。
+此程式碼範例會儲存縮放目標。 回應會傳回縮放目標控制代碼。
 
 **请求**
 

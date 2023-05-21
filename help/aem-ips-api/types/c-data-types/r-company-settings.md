@@ -1,7 +1,7 @@
 ---
-description: 特定于公司的配置设置。
+description: 公司特定的組態設定。
 solution: Experience Manager
-title: 公司设置
+title: 公司設定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL CompanySettings]{#companysettings}
 
-特定于公司的配置设置。
+公司特定的組態設定。
 
 语法
 
@@ -22,12 +22,12 @@ ht-degree: 2%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| overwriteMode | `xsd:string` | 确定是否使用相同的基本图像名称和扩展名覆盖当前文件夹中的图像。 |
-| retainPublishState | `xsd:boolean` | 指定上传到IPS的替换图像是应保留现有的“准备发布”设置，还是应按照上传指定的方式进行。 |
-| defaultSourceProfile | `types:Asset` | 指定在添加CMYK图像文件时自动作为“使用默认颜色行为”的一部分应用的默认源颜色配置文件(Coated FOGRA27(ISO 126472:2004))。 |
-| defaultDisplayProfile | `types:Asset` | 指定在添加CMYK图像文件时，自动作为“使用默认颜色行为”的一部分应用的默认内部颜色配置文件(US Web Coated(SWOP)v2)。 |
-| iptcExifMappingXslt | `types:Asset` | 将IPTC和EXIF图像标头数据提取到IPS中，需要将公司的内部字段名称转换为用户定义的字段名称。 为上传的图像确定XSL转换表（默认为“不提取任何IPTC或EXIF字段”）。 |
-| xmpMappingXslt | `types:Asset` | 要将XMP图像头数据提取到IPS，需要将公司的内部字段名称转换为用户定义的字段名称。 为上传的图像确定XSL转换表(默认为“不提取任何XMP字段”)。 |
-| diskSpaceWarningMin | `xsd:int` | 发出警告之前映像目录可用磁盘空间的最小数量。 |
-| emailTrashCleanupWarning | `xsd:boolean` | 确定是否在放入垃圾桶的项目自动删除之前发送电子邮件。 |
-| javascriptUploadEnabled | `types:Asset` | 确定是否上传JavaScript文件。 这存在潜在的安全风险，因此请谨慎使用此选项。 |
+| overwriteMode | `xsd:string` | 決定是否以相同的基本影像名稱和副檔名覆寫目前資料夾中的影像。 |
+| retainPublishState | `xsd:boolean` | 指定上載至IPS的取代影像是否應保留現有的「準備發佈」設定，或是否應該依照上載的指定。 |
+| defaultSourceProfile | `types:Asset` | 指定增加CMYK影像檔案時，作為「使用預設色彩行為」的一部分自動套用的預設來源色彩設定檔(Coated FOGRA27 (ISO 126472：2004))。 |
+| defaultDisplayprofile | `types:Asset` | 指定預設內部色彩設定檔(U.S. Web Coated (SWOP) v2)在增加CMYK影像檔案時，會自動套用為「使用預設色彩行為」的一部分。 |
+| iptcExifMappingXslt | `types:Asset` | 將IPTC和EXIF影像標頭資料擷取到IPS需要從內部欄位名稱轉換為公司使用者定義的欄位名稱。 決定上傳影像的XSL轉譯表格（預設值為「不擷取任何IPTC或EXIF欄位」）。 |
+| xmpMappingXslt | `types:Asset` | 將XMP影像標題資料擷取至IPS時，需要從內部欄位名稱轉換為公司使用者定義的欄位名稱。 決定已上傳影像的XSL轉譯表格(預設值為「不擷取任何XMP欄位」)。 |
+| diskSpaceWarningMin | `xsd:int` | 發出警告之前的最小影像目錄可用磁碟空間。 |
+| emailTrashCleanupWarning | `xsd:boolean` | 決定是否要在自動刪除置入垃圾桶中的專案之前傳送電子郵件。 |
+| Javascriptuploadenabled | `types:Asset` | 決定是否上傳JavaScript檔案。 這是潛在的安全性風險，因此請謹慎使用此選項。 |

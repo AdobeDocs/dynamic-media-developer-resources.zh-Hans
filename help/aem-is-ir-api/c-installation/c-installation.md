@@ -1,6 +1,6 @@
 ---
 title: 安装
-description: 正在安装图像服务。
+description: 安裝影像伺服。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 4%
 
 ---
 
-# 安装图像服务 {#installation}
+# 安裝影像伺服 {#installation}
 
-安装图像服务包括两个主要的服务器组件：
+安裝影像伺服包含兩個主要伺服器元件：
 
-* 图像服务器. 独立的本机代码可执行文件。
-* [!DNL Platform Server]. 独立的Java™ Web应用程序和应用程序服务器。
+* 图像服务器. 獨立的原生程式碼可執行檔。
+* [!DNL Platform Server]. 獨立式Java™ Web應用程式和應用程式伺服器。
 
-图像渲染是这两个服务器组件的一部分。
+「影像演算」是這兩個伺服器元件的一部分。
 
-在后续说明中， `install_root` 指安装了“图像提供”和“图像呈现”的根文件夹。 和 `server:port` 指配置为主监听端口的主机名或IP地址和端口号 [!DNL Platform Server].
+在後續的指示中， `install_root` 是指安裝「影像伺服」和「影像轉譯」的根資料夾。 和 `server:port` 是指主機名稱或IP位址，以及設定為主要監聽連線埠的連線埠號碼。 [!DNL Platform Server].
 
-* [许可](c-licensing.md)
+* [授權](c-licensing.md)
 * [内容](c-contents.md)
-* [安装文件夹](c-install-folder.md)
-* [在Windows上安装](t-installing-on-windows/t-installing-on-windows.md)
-* [在Linux®上安装](c-installing-linux/c-installing-linux.md)
-* [启动和停止图像提供](t-starting-and-stopping/t-starting-and-stopping.md)
+* [安裝資料夾](c-install-folder.md)
+* [在Windows上安裝](t-installing-on-windows/t-installing-on-windows.md)
+* [在Linux®上安裝](c-installing-linux/c-installing-linux.md)
+* [啟動和停止影像伺服](t-starting-and-stopping/t-starting-and-stopping.md)

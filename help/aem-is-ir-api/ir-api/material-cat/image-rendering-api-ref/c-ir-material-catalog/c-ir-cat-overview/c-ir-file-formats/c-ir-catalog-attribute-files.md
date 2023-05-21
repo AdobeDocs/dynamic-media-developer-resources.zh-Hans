@@ -1,6 +1,6 @@
 ---
-title: 目录属性文件
-description: 目录属性文件可以具有任何名称，但必须具有.ini文件后缀。 使用任何文本编辑器都可以轻松地维护它们。
+title: 目錄屬性檔案
+description: 目錄屬性檔案可以有任何名稱，但必須有.ini檔案字尾。 任何文字編輯器都可以隨時維護這些文字。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# 目录属性文件{#catalog-attribute-files}
+# 目錄屬性檔案{#catalog-attribute-files}
 
-目录属性文件可以具有任何名称，但必须具有 `.ini` 文件后缀。 使用任何文本编辑器都可以轻松地维护它们。
+目錄屬性檔案可以有任何名稱，但必須有 `.ini` 檔案字尾。 任何文字編輯器都可以隨時維護這些文字。
 
-目录属性文件由一组文本记录组成，并以单个 `<CR>` （ASCII代码0xD），单个 `<LF>` （ASCII代码0xA）或 `<CR><LF>` 配对。 每个记录都包含一个属性名称和一个或多个以逗号分隔的属性值：
+目錄屬性檔案由一組文字記錄組成，以單一分隔 `<CR>` （ASCII代碼0xD），單 `<LF>` （ASCII代碼0xA）或 `<CR><LF>` 配對。 每個記錄都包含一個屬性名稱以及一或多個以逗號分隔的屬性值：
 
-`*`name`*= *`值`*&#42;[, *`值`*]{<CR>|<LF>|<CR><LF>}`
+`*`名稱`*= *`值`*&#42;[, *`值`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>属性名称；可以包含一个或多个字母、数字、“ — ”和“_”；不区分大小写。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
+  <td class="stentry"> <p>屬性名稱；可能包含一或多個字母、數字、'-'和'_'；不區分大小寫。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-  <td class="stentry"> <p>属性值；必须排除 <span class="codeph"> &lt;cr&gt; </span>或 <span class="codeph"> &lt;lf&gt; </span> 字符，除非在换行符之前使用单个反斜杠进行转义。 </p> </td> 
+  <td class="stentry"> <p>屬性值；不得包含 <span class="codeph"> &lt;cr&gt; </span>，或 <span class="codeph"> &lt;lf&gt; </span> 字元，除非在新行字元前有一個反斜線逸出。 </p> </td> 
  </tr> 
 </table>
 
-* 令牌之间的空格是可选的。
-* 属性名称未知的记录将被 [!DNL Platform Server].
-* 属性名称可以由ASCII字母、数字和“ — ”、“_”和“。”的任意组合组成
-* 如果同一属性文件中出现同一属性名称多次，则最后一次出现的属性名称优先。
-* 使用“#”作为第一个字符，将任何记录标记为解析器忽略的注释。
+* Token之間的空白字元為選用。
+* 具有未知屬性名稱的記錄會被 [!DNL Platform Server].
+* 屬性名稱可包含ASCII字母、數字和「 — 」、「_」和「。」的任意組合。
+* 如果相同的屬性名稱在相同的屬性檔案中出現多次，則會以最後一個出現的屬性名稱為準。
+* 使用&#39;#&#39;作為第一個字元，將任何記錄標籤為剖析器忽略的註解。

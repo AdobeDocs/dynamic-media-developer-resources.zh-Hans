@@ -1,5 +1,5 @@
 ---
-description: 设置文件夹权限。
+description: 設定檔案夾許可權。
 solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # setFolderPermissions{#setfolderpermissions}
 
-设置文件夹权限。
+設定檔案夾許可權。
 
 语法
 
-## 授权用户类型 {#section-d3eb923fcf5741b99967634db809e09e}
+## 授權的使用者型別 {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,22 +26,22 @@ ht-degree: 15%
 
 ## 参数 {#section-2a41135054954396b40f1228f2e63b42}
 
-**输入(setFolderPermissionsParam)**
+**輸入(setFolderPermissionsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司负责人。 |
-| folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
-| setChildren | `xsd:boolean` | 是 | 设置属于该文件夹的子项的权限。 |
-| permissionArray | `types:PermissionUpdateArray` | 是 | 权限阵列。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| setchildren | `xsd:boolean` | 是 | 設定屬於資料夾之子項的許可權。 |
+| permissionArray | `types:PermissionUpdateArray` | 是 | 許可權陣列。 |
 
-**输出(setFolderPermissionsReturn)**
+**輸出(setFolderPermissionsReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此代码示例指定了公司句柄、文件夹句柄以及包含文件夹详细信息的权限数组。 它对父文件夹的子文件夹应用相同的权限。
+此程式碼範例指定公司控制代碼、資料夾控制代碼和許可權陣列，其中包含有關資料夾的詳細資訊。 它會套用父資料夾子項的相同許可權。
 
 **请求**
 

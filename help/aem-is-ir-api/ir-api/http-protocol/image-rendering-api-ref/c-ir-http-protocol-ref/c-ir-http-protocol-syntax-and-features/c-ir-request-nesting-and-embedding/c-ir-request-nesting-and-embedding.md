@@ -1,6 +1,6 @@
 ---
-title: 请求嵌套和嵌入
-description: Image Rendering allows embedding of Image Serving requests and HTTP requests to foreign servers to retrieve material images used for repeatable textures and decals.
+title: 請求巢狀內嵌與內嵌
+description: 影像演算允許將影像伺服請求和HTTP請求內嵌到外部伺服器，以擷取用於可重複紋理和貼花的材料影像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 请求嵌套和嵌入{#request-nesting-and-embedding}
+# 請求巢狀內嵌與內嵌{#request-nesting-and-embedding}
 
-图像渲染允许将图像服务请求和HTTP请求嵌入到外部服务器，以检索用于可重复纹理和图案的材料图像。
+影像演算允許將影像伺服請求和HTTP請求內嵌到外部伺服器，以擷取用於可重複紋理和貼花的材料影像。
 
-These mechanisms are not supported for Cabinet and Window Covering materials.
+機櫃和視窗覆蓋材料不支援這些機制。
 
-See also [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) and Image Serving Reference.
+另請參閱 [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) 和影像伺服參考。

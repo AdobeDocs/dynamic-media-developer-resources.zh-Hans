@@ -1,7 +1,7 @@
 ---
-description: 描述权限更改。
+description: 說明許可權變更。
 solution: Experience Manager
-title: 权限更新
+title: Permissionupdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PermissionUpdate]{#permissionupdate}
 
-描述权限更改。
+說明許可權變更。
 
 语法
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| groupHandle | `xsd:string` | 组句柄。 |
-| permissionType | `xsd:string` | 权限类型。 |
-| 允许 | `xsd:boolean` | 确定是否允许权限更新。 |
-| isOverride | `xsd:boolean` | 确定权限是否覆盖其他权限。 |
+| groupHandle | `xsd:string` | 群組控制代碼。 |
+| permissiontype | `xsd:string` | 許可權型別。 |
+| isAllowed | `xsd:boolean` | 決定是否允許許可權更新。 |
+| isOverride | `xsd:boolean` | 決定許可權是否覆寫其他許可權。 |

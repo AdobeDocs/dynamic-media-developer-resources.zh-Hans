@@ -1,7 +1,7 @@
 ---
-description: 一组权限。
+description: 一系列許可權。
 solution: Experience Manager
-title: PermissionArray
+title: Permissionarray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PermissionArray]{#permissionarray}
 
-一组权限。
+一系列許可權。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Permission` | 权限阵列。 |
+| 项目 | `types:Permission` | 許可權陣列。 |

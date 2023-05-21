@@ -1,5 +1,5 @@
 ---
-description: 获取指定公司的活动发布上下文列表。 如果为上下文定义了至少一个活动服务器，则发布上下文被视为活动。
+description: 取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-获取指定公司的活动发布上下文列表。 如果为上下文定义了至少一个活动服务器，则发布上下文被视为活动。
+取得指定公司的作用中發佈內容清單。 如果至少有一個為前後關聯定義的作用中伺服器，則發佈前後關聯會被視為作用中。
 
 语法
 
-## 授权用户类型 {#section-eb22397744434dfe92a59ffa2883c2e7}
+## 授權的使用者型別 {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,14 +32,14 @@ ht-degree: 11%
 
 ## 参数 {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**输入(getActivePublishContextsParam)**
+**輸入(getActivePublishContextsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 要查询活动发布上下文的公司句柄 |
+| companyHandle | `xsd:string` | 是 | 公司查詢使用中發佈內容的控點 |
 
-**Output(getActivePublishContextsReturn)**
+**輸出(getActivePublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | 是 | 活动发布上下文的数组，其中可能包含来自发布上下文的零个或多个值。 |
+| contextArray | `types:StringArray` | 是 | 作用中發佈內容的陣列，其中可能包括來自發佈內容的零個或多個值。 |

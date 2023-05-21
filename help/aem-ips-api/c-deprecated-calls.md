@@ -1,6 +1,6 @@
 ---
-title: 已弃用的调用
-description: 中不再使用或支持的图像生产系统API调用及其相关参数 [!DNL Dynamic Media].
+title: 已棄用的呼叫
+description: 不再使用或支援的影像生產系統API呼叫及其相關引數 [!DNL Dynamic Media].
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# 已弃用的调用{#deprecated-calls}
+# 已棄用的呼叫{#deprecated-calls}
 
-不再使用的图像生产系统API调用及其关联参数。
+不再使用的影像生產系統API呼叫及其相關引數。
 
-## 已弃用的调用 {#topic-654c0466e6434fe4a95953322255b08c}
+## 已棄用的呼叫 {#topic-654c0466e6434fe4a95953322255b08c}
 
-不再在中使用的图像生产系统API调用及其关联参数 [!DNL Dynamic Media].
+不再使用的影像生產系統API呼叫及其相關引數 [!DNL Dynamic Media].
 
-* `ExcludeMasterVideoFromAVS`  — 从 [数据类型](/help/aem-ips-api/types/c-data-types/c-data-types.md). 此参数从自适应视频集中排除主视频。 <!-- Adobe is ending support for this parameter on September 1, 2022. -->
-* `addMediaPortalEvent`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 通过此参数，可向IPS添加媒体门户事件。
-* `getMediaPortalEvent`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 通过此参数，您可以获取与指定标准匹配的媒体门户事件。
-* `getCdnCacheInvalidationStatus`  — 从 [操作](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 此参数现已弃用，因为 `cdnCacheInvalidation` 参数几乎立即使缓存失效（约5秒）。 因此，不再需要轮询失效状态。
+* `ExcludeMasterVideoFromAVS`  — 已棄用 [資料型別](/help/aem-ips-api/types/c-data-types/c-data-types.md). 此引數從最適化視訊集中排除主要視訊。 <!-- Adobe is ending support for this parameter on September 1, 2022. -->
+* `addMediaPortalEvent`  — 已棄用 [作業](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 此引數可讓您將Media Portal事件新增至IPS。
+* `getMediaPortalEvent`  — 已棄用 [作業](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 此引數可讓您取得符合指定條件的Media Portal事件。
+* `getCdnCacheInvalidationStatus`  — 已棄用 [作業](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 此引數現已棄用，因為 `cdnCacheInvalidation` 引數會讓快取幾乎立即失效（~5秒）。 因此，不再需要輪詢失效狀態。

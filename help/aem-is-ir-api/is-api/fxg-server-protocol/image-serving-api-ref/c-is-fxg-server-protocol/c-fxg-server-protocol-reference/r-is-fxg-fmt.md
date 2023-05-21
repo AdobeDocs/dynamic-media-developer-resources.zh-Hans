@@ -1,102 +1,102 @@
 ---
-description: 响应图像格式。
+description: 回應影像格式。
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e179fc51-0461-4000-99eb-4390c35d5606
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
 
 # fmt{#fmt}
 
-响应图像格式。
+回應影像格式。
 
 `fmt=format [,pixelType ]`
 
 <table id="simpletable_66FAABB7BD7A4BBB815A570BEA4C1AE8"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 格式</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha |swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha | swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 为发送到客户端的图像数据指定图像编码格式，并为HTTP回复标头指定相应的响应MIME类型。 </p> <p> <span class="codeph">  jpeg  </span>:有损JPEG </p> <p> <span class="codeph"> png  </span>:无丢失PNG </p> <p> <span class="codeph"> png-alpha  </span>:带Alpha通道的无丢失PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:带Alpha通道的TIFF </p> <p> <span class="codeph">  swf  </span>:嵌入到Adobeswf文件中的有损JPEG </p> <p> <span class="codeph"> pdf  </span>:PDF中嵌入的图像 </p> <p> <span class="codeph"> gif  </span>:2到256色的GIF </p> <p> <span class="codeph"> gif-alpha  </span>:2到255色加上键色透明度的GIF </p> <p> <span class="codeph"> fxg  </span>:应用了变量和DOM操作的FXG </p> <p> <span class="codeph">  fxgraw  </span>:原始FXG存储在服务器上 </p> </td> 
+  <td class="stentry"> <p> 指定傳送至使用者端之影像資料的影像編碼格式，以及HTTP回覆標頭的對應回應MIME型別。 </p> <p> <span class="codeph">  jpeg </span>：有損JPEG </p> <p> <span class="codeph"> png </span>：無損失PNG </p> <p> <span class="codeph"> png-alpha </span>：使用Alpha色版的無損失PNG </p> <p> <span class="codeph">  tif </span>：TIFF </p> <p> <span class="codeph"> tif-alpha </span>：使用Alpha色版進行TIFF </p> <p> <span class="codeph">  swf </span>：內嵌於Adobeswf檔案中的有損JPEG </p> <p> <span class="codeph"> pdf </span>：內嵌於PDF中的影像 </p> <p> <span class="codeph"> gif </span>：使用2到256色的GIF </p> <p> <span class="codeph"> gif-alpha </span>：GIF具有2到255種色彩加上關鍵色彩透明度 </p> <p> <span class="codeph"> fxg </span>：套用變數和DOM操作的FXG </p> <p> <span class="codeph">  fxgraw </span>：原始FXG儲存在伺服器上 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixeltype</span> </span> </p></td> 
   <td class="stentry"> <p><span class="codeph"> rgb |灰色 | cmyk</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 可用于影响输出色彩空间。 </p> <p> <span class="codeph">  rgb  </span>:返回RGB图像数据 </p> <p> <span class="codeph"> 灰色： </span>返回灰度图像数据 </p> <p> <span class="codeph"> cmyk  </span>:返回CMYK图像数据 </p> </td> 
+  <td class="stentry"> <p> 可用於影響輸出色域。 </p> <p> <span class="codeph">  rgb </span>：傳回RGB影像資料 </p> <p> <span class="codeph"> 灰色 </span>：傳回灰階影像資料 </p> <p> <span class="codeph"> cmyk </span>：傳回CMYK影像資料 </p> </td> 
  </tr> 
 </table>
 
-`tiffCompression` 仅当tif，tif-alpha被指定为格式时，才允许。有关这些图像格式支持的压缩选项，请参阅下表。
+`tiffCompression` 只有在tif、tif-alpha指定為格式時才允許使用。 如需這些影像格式支援的壓縮選項，請參閱下表。
 
-`qlt=` 可用于为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF。如果fmt=gif或fmt=gif-alpha，则可以使用quantize=。 有关详细信息，请参阅命令描述。 其他格式没有可设置的选项。
+`qlt=` 可用於設定下列格式的JPEG編碼選項：JPEG、具有JPEG壓縮的TIFF。 quantize=可用於fmt=gif或fmt=gif-alpha。 如需詳細資訊，請參閱命令說明。 其他格式沒有可設定的選項。
 
-对于所有格式和`pixelTypes[7]`，返回每像素8位的组件。
+所有格式都會傳回8位元/畫素元件，而且 `pixelTypes[7]`.
 
-下表列出了格式的有效组合和`pixelType`、相应的HTTP响应MIME类型。
+下表列出格式與檔案的有效組合： `pixelType`，則為對應的HTTP回應MIME型別。
 
 <table id="table_54AFE58185004C74971EFBA845E177B6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p><span class="varname"> 格式</span> </p> </th> 
-   <th colname="col2" class="entry"> <p><span class="varname"> pixelType</span> </p> </th> 
-   <th colname="col3" class="entry"> <p>响应MIME类型 </p> </th> 
-   <th colname="col4" class="entry"> <p>嵌入ICC配置文件 </p> </th> 
+   <th colname="col2" class="entry"> <p><span class="varname"> pixeltype</span> </p> </th> 
+   <th colname="col3" class="entry"> <p>回應MIME型別 </p> </th> 
+   <th colname="col4" class="entry"> <p>內嵌ICC設定檔 </p> </th> 
    <th colname="col5" class="entry"> <p>选项 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p>jpeg </p> </td> 
-   <td> <p>rgb，灰色，cmyk </p> </td> 
-   <td> <p>&lt;image&gt; </p> </td> 
+   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>&lt;image/jpeg&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p><span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>png， png-alpha </p> </td> 
    <td> <p>rgb，灰色 </p> </td> 
-   <td> <p>&lt;image&gt; </p> </td> 
+   <td> <p>&lt;image/png&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>tif， tif-alpha </p> </td> 
-   <td> <p>rgb，灰色，cmyk </p> </td> 
-   <td> <p>&lt;image&gt; </p> </td> 
+   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>&lt;image/tiff&gt; </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> (none) | lzw | zip | jpeg), qlt=</span> </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> (無 | lzw | zip | jpeg)，qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>swf，swf-alpha </p> </td> 
+   <td> <p>swf， swf-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
-   <td> <p>&lt;application&gt; </p> </td> 
+   <td> <p>&lt;application/x-shockwave-flash&gt; </p> </td> 
    <td> <p>无 </p> </td> 
-   <td> <p><span class="codeph"> qlt=  </span> </p> </td> 
+   <td> <p><span class="codeph"> qlt= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>pdf </p> </td> 
-   <td> <p>rgb，灰色，cmyk </p> </td> 
-   <td> <p>&lt;application&gt; </p> </td> 
+   <td> <p>rgb、灰色、cmyk </p> </td> 
+   <td> <p>&lt;application/pdf&gt; </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>gif，gif-alpha </p> </td> 
+   <td> <p>gif， gif-alpha </p> </td> 
    <td> <p>rgb，灰色 </p> </td> 
-   <td> <p>&lt;image&gt; </p> </td> 
+   <td> <p>&lt;image/gif&gt; </p> </td> 
    <td> <p>无 </p> </td> 
-   <td> <p><span class="codeph"> 数量=</span> </p> </td> 
+   <td> <p><span class="codeph"> quantize=</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

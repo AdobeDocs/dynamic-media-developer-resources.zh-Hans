@@ -1,7 +1,7 @@
 ---
-description: 使用Dynamic Media图像服务时，应考虑一些限制和已知问题。
+description: 使用Dynamic Media影像伺服時，有一些限制和已知問題需要考量。
 solution: Experience Manager
-title: 限制和已知问题
+title: 限制和已知問題
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
@@ -12,144 +12,144 @@ ht-degree: 0%
 
 ---
 
-# 限制和已知问题{#restrictions-and-known-issues}
+# 限制和已知問題{#restrictions-and-known-issues}
 
-使用Dynamic Media图像服务时，应考虑一些限制和已知问题。
+使用Dynamic Media影像伺服時，有一些限制和已知問題需要考量。
 
-## 文档勘误表 {#section-b1579410b11e41e488c7de9ecc7e8d5c}
+## 檔案勘誤表 {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* 行数不会超过 `\copyfitmaxlines` 设置和文本输入中显式行的数量。
-* 图像集中需要匹配的大括号和圆括号。 如果大括号和圆括号不匹配，则需要对它们进行URL编码。
-* 服务器端全局响应时间警报包含错误响应。
-* 的 `id=` 命令当前在使用 `rect=` 命令。
+* 行數不會超過 `\copyfitmaxlines` 設定和文字輸入中的明確行數。
+* 影像集中必須搭配大括弧與括弧。 如果大括弧與括弧不相符，則須將URL編碼。
+* 伺服器端全域回應時間警報包含錯誤回應。
+* 此 `id=` 目前在使用時，需要命令 `rect=` 命令加上影像或遮色片要求。
 
-## 已知区别textPs=与text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
+## 已知差異textPs=與text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
-* 与使用 `text=`.
-* 与使用 `text=`.
-* `\expnd` 和 `\expndtw` 与高负值一起使用时，会导致字符在使用 `text=`.
+* 合成斜體呈現的斜體比使用時少 `text=`.
+* 底線比使用時稍微低一點且更薄 `text=`.
+* `\expnd` 和 `\expndtw` 與高負值一起使用時，會導致字元在使用時彼此排在前 `text=`.
 
-* `\charscaley` 与使用 `text=` 但不会影响行高。
+* `\charscaley` 縮放方式與使用時不同 `text=` 但不影響行高。
 
-* 如果文本的最后一行不适合，则整行将被删除，而不是显示为截止。
-* `\slmult` 和 `\sl` 与MS Word和的行为不同 `text=`，则它们只对当前和后续段落生效。
+* 如果文字的最後一行不符合，則會捨棄整行，而不會顯示為截線。
+* `\slmult` 和 `\sl` 與MS Word的行為方式不同，而且 `text=`，它們只會對目前和後續段落生效。
 
-* `\sb` 适用于MS Word和的第一段 `text=`、 Adobe InDesign和 [!DNL Photoshop] 别这样。
+* `\sb` 適用於MS Word和的第一段落 `text=`、Adobe InDesign和 [!DNL Photoshop] 請勿這麼做。
 
-* `\sa` 适用于MS Word和的最后一段 `text=`、 Adobe InDesign和 [!DNL Photoshop] 别这样。
+* `\sa` 適用於MS Word和的最後一個段落 `text=`、Adobe InDesign和 [!DNL Photoshop] 請勿這麼做。
 
-## 向后兼容性 {#section-a76842f751944f4fb664af296d064122}
+## 回溯相容性 {#section-a76842f751944f4fb664af296d064122}
 
-* 转义下划线字符( `\_`)无法用于RTF字符串中的所有字体 `textPs=`
+* 逸出底線字元( `\_`)無法搭配所有使用的字型使用 `textPs=`
 
-* 支持不区分大小写的宏处理。
-* 目录缓存已从60秒减少到10秒。
-* 现在，错误重定向功能只能重定向引用目录中发布但在磁盘上未找到的损坏图像、字体、颜色配置文件和图像的请求。
-* `posN=`, `anchor=`, `anchorN=`, `origin=`和 `originN=` 现在，如果有任何修饰符值大于2147483648，则返回解析错误。
+* 支援不區分大小寫的巨集處理。
+* 目錄快取已從60秒減少到10秒。
+* 錯誤重新導向功能現在只會重新導向參考目錄中已發佈但在磁碟上找不到之損毀影像、字型、色彩設定檔和影像的請求。
+* `posN=`， `anchor=`， `anchorN=`， `origin=`、和 `originN=` 現在，如果任何修飾元值大於2147483648，則會傳回剖析錯誤。
 
-* 不支持嵌套请求的编码。 过渡到新行为，并取消对网站和公司目录中URL请求中找到的任何嵌套请求值的编码。
-* DefaultImage现在在使用 `req=tmb`.
-* 在以前的版本中，使用 `flip=`，则无论锚点是什么，都不会重新定位图像。
+* 不支援巢狀要求的編碼。 轉換至新行為，並對在網站上的URL請求和公司目錄中找到的任何巢狀請求值進行取消編碼。
+* DefaultImage現在會在使用時套用縮圖屬性 `req=tmb`.
+* 在舊版中，使用 `flip=`，無論錨點為何，都不會重新定位影像。
 
-## 适用于第三方库的限制 {#section-79768b96bf634e44ab672c5b893f343d}
+## 適用於協力廠商程式庫的限制 {#section-79768b96bf634e44ab672c5b893f343d}
 
-如果已检测到Digimarc水印，则Digimarc库拒绝将Digimarc水印应用于图像。 如果对主图像进行了足够的编辑，Digimarc库仍可能能够识别已应用水印。 但是，它可能无法读取该信息。 这会产生一个新图像，其中无法获得应用于原始图像的原始Digimarc信息。 图像提供功能现在可以应用公司目录中定义的Digimarc水印。
+Digimarc程式庫拒絕將Digimarc浮水印套用至已偵測到的影像。 如果對主要影像進行了足夠的編輯，Digimarc程式庫仍可識別已套用浮水印。 但是，它可能無法讀取該資訊。 這會導致無法取得套用至原始影像的原始Digimarc資訊的新影像。 「影像伺服」現在可以套用公司目錄中定義的Digimarc浮水印。
 
-## 适用于图像提供和图像呈现的限制 {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## 適用於影像提供與影像轉譯的限制 {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
-* 当有4个以上的CPU可用时，图像提供和图像呈现可能无法充分利用所有CPU。 在这些计算机上模拟流量，以了解4个以上CPU的优势。
-* 返回重定向的远程URL（HTTP状态301、302或303）将被拒绝。
-* 配置时 `errorRedirect.rootUrl` 此属性中定义的IP地址需要包含在规则集中 `<addressfilter>` 标记值。
+* 超過4個CPU可供使用時，「影像伺服」和「影像演算」可能無法充分利用所有CPU。 在這些電腦上模擬您的流量，以瞭解使用4個以上CPU的優勢。
+* 傳回重新導向（HTTP狀態301、302或303）的遠端URL會遭到拒絕。
+* 設定時 `errorRedirect.rootUrl` 此屬性中定義的IP位址必須包含在規則集中 `<addressfilter>` 標籤值。
 
    *示例*:
 
-   服务器A已定义 `errorRedirect.rootUrl=10.10.10.10` .
+   伺服器A已定義 `errorRedirect.rootUrl=10.10.10.10` .
 
-   IP地址为10.10.10.10的服务器B将 `<addressfilter>` 标记值以包含其IP地址(10.10.10.10)。
+   IP位址為10.10.10.10的伺服器B會將 `<addressfilter>` 標籤值，以包含其IP位址(10.10.10.10)。
 
-* 具有定位的点文本和文本路径可能显示剪切。
-* `text=` 仅适用 `\sa` 和 `\sb` 到整个文本块，而不是按段落。
+* 具有定位的點文字和文字路徑可能會顯示剪裁。
+* `text=` 僅適用 `\sa` 和 `\sb` 至整個文字區塊，而非每個段落。
 
-* 使用URL中定义的一家公司和为 `src=` 或 `mask=` 修饰符，则必须在为 `src=` 或 `mask=` 以使这种形式的请求生效。
+* 使用URL中定義的一家公司，以及針對定義的另一家公司時 `src=` 或 `mask=` 修飾元，您必須在為定義的公司加上正斜線作為前置詞 `src=` 或 `mask=` 讓此請求表單運作。
 
    *示例*:
 
    `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   而不是： `/is/image/MyCompany?src=YourCompany/MyImage` .
+   而非： `/is/image/MyCompany?src=YourCompany/MyImage` .
 
-* 非吡唑化的Tiff或晕影请求会生成类似于
+* 非金字塔Tiff或暈映請求會產生類似的錯誤訊息，並傳送至
 
-   *&quot;图像 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` 没有有效的DSF，面积2.25MPixel超过2MPixel的最大值”* .
+   *&quot;影像 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` 沒有有效的DSF，且2.25MPixel的面積超過2MPixel的最大值」* .
 
-   最佳做法是使用带图像的Tiff和Vignet。 如果您需要使用非图形化的tiff或晕影，请按照以下说明提高大小限制。
+   最佳實務建議使用金字塔Tiff和暈映。 如果您需要使用非金字塔tifff或暈映，請依照下列指示增加大小限制。
 
-   *周旋*:
+   *解決方法*：
 
-   对于图像渲染非金字塔晕影，请在 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 配置文件。
+   對於影像演算非金字塔暈映，請將IrMaxNonPyrVignetteSize的屬性值增加到 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定檔。
 
-   对于图像提供非金字塔TIFF，请增加 `MaxNonDsfSize` 在 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 配置文件。
+   對於「影像伺服」非金字塔TIFF，請增加 `MaxNonDsfSize` 在 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 設定檔。
 
-* Adobe [!DNL Photoshop] 默认情况下，CS3不会保存复合图像的分层PSD文件。
+* Adobe [!DNL Photoshop] 根據預設，CS3不會儲存圖層PSD檔案為複合影像。
 
-   *症状*:
+   *症狀*：
 
-   Adobe [!DNL Photoshop] CS3分层PSD文件显示为黑色，并且文本中写有“此分层 [!DNL Photoshop] 文件未与复合图像一起保存。” （在IPS中）。
+   Adobe [!DNL Photoshop] CS3分層PSD檔案顯示為黑色，文字指出：「此分層 [!DNL Photoshop] 檔案未與複合影像一起儲存。」 用於「影像伺服」回覆影像或IPS。
 
    *解決辦法*︰
 
-   保存Adobe [!DNL Photoshop] 具有最大兼容性的CS3文件已打开。
+   儲存Adobe [!DNL Photoshop] 已啟用最大相容性的CS3檔案。
 
-* 将ICC配置文件分配给CMYK/JPEG回复图像会导致某些浏览器中的颜色反转。*周旋*:
+* 將ICC設定檔指派給CMYK/JPEG回覆影像會導致某些瀏覽器中的顏色反轉。*解決方法*：
 
-   使用更改回复图像格式 `fmt=`
+   使用變更回覆影像格式 `fmt=`
 
-* 压缩后的HTTP响应图像数据（包括文件头）的大小限制为16 MB。
-* &quot;。.&quot; 在HTTP请求中的任何路径元素中均不允许使用。
-* 卸载操作可从 *[!DNL install_root]* 或任何子文件夹。 在卸载之前，将此类文件复制到其他位置。
+* 壓縮後HTTP回應影像資料（包括檔案標頭）的大小上限為16 MB。
+* 「 ..」 不允許在HTTP要求的任何路徑元素中使用。
+* 解除安裝可能會從移除使用者建立或修改的檔案 *[!DNL install_root]* 或任何子資料夾。 在解除安裝之前，請將這類檔案複製到其他位置。
 
-## 仅适用于图像提供的限制 {#section-b08ad535e4454265b8157dec244c4faf}
+## 僅適用於影像伺服的限制 {#section-b08ad535e4454265b8157dec244c4faf}
 
-* RTF中的前台颜色( `\cf`)命令。
-* 合成粗体、斜体和粗体/斜体将作为PhotoFont文本的错误而被拒绝。
-* PhotoFont文本不支持垂直文本流。
-* PhotoFont文本不支持16bpc PNG图像。
-* 嵌入了颜色配置文件的PNG图像的颜色校正使用硬编码选项。 呈现意图是相对比色的，并且为PhotoFont文本打开黑点补偿。
-* 在公司中启用区域设置转换时，不支持基于文件的查找 [!DNL ini] 文件。
-* 图像提供不写入非关闭 [!DNL Photoshop] 路径正确。
-* 图像服务当前不支持处理使用Adobe Media Encoder 4.0.1或更低版本导出的TIFF文件。 Adobe Media Encoder随Premiere ProCS4、After Effects CS4和Creative Suite4 Production Premium一起提供。
-* 使用 `text=` 自调整层大小不支持使用多个设置进行行对齐的RTF字符串。
+* RTF中的前景色彩( `\cf`)命令不支援PhotoFont文字。
+* 合成粗體、斜體和粗體/斜體會因為PhotoFont文字的錯誤而被拒絕。
+* PhotoFont文字不支援垂直文字排列。
+* PhotoFont文字不支援16bpc PNG影像。
+* 內嵌色彩設定檔的PNG影像色彩校正使用硬式編碼選項。 「演算色彩比對方式」為相對比色，且已為PhotoFont文字開啟「黑點補償」。
+* 在公司中啟用地區設定翻譯時，不支援檔案型查詢 [!DNL ini] 檔案。
+* 「影像伺服」不會寫入未關閉的專案 [!DNL Photoshop] 正確路徑。
+* 「影像伺服」目前不支援處理使用Adobe Media Encoder 4.0.1或更舊版本匯出的TIFF檔案。 Adobe Media Encoder包含在Premiere ProCS4、After Effects CS4和Creative Suite4 Production Premium中。
+* 使用 `text=` 使用自行調整大小的圖層不支援使用多個設定進行行對齊的RTF字串。
 
    *示例*
 
-   RTF字符串不能对自调整文本层大小时同时使用左行和右行对齐。
+   RTF字串不能同時使用左右行對齊來調整文字圖層的大小。
 
-* SVG对于未嵌入SVG文件中的引用字体的字体查找路径，具有其自身的属性。
+* SVG對於未內嵌在SVG檔案中的參照字型的字型查閱路徑，有其自己的屬性。
 
-   *症状*
+   *症狀*
 
-   包含字体定义的已渲染SVG图像使用的字体不正确。
+   包含字型定義的演算SVG影像使用不正確的字型。
 
-   *解决方法*
+   *因應措施*
 
-   设置属性 `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+   設定屬性 `svgProvider.fontRoot=` 在 [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
-* 裁切当前正在使用 `bgColor=` 而不是 `color=` 来填充任何新扩展的区域。
+* 裁切目前正在使用 `bgColor=` 而非 `color=` 填滿任何新展開的區域。
 
-* 颜色转换在 `bgColor=` 与涉及颜色配置文件的基本颜色空间不匹配。
-* 如果图层没有蒙版或Alpha数据，则不会呈现外层效果。
+* 色彩轉換可能不正確，當 `bgColor=` 不符合涉及色彩設定檔的基本色域。
+* 如果圖層沒有遮色片或Alpha資料，則不會呈現外層效果。
 
-## 仅适用于图像渲染的限制 {#section-4c6949e797174607a3d1ab4d3d4a725a}
+## 僅適用於影像演算的限制 {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
-* 壁板和壁材不可拆卸。
-* 纹理的大小相对于晕影视图的大小是有限的。 在极少数情况下，视图大小的425%的默认限制可能会妨碍使用非常大的非可重复纹理的应用程序。 如果无法在预定义的限制范围内更改应用程序或内容以正常工作，则百分比可以按如下方式增加。 使用文本编辑器，打开 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]，查找 `IrMaxTextureSizeFactor` 并输入新的百分比值。 更改将立即生效，而不重新启动图像服务器。
+* 貼花和牆壁材料無法移除。
+* 紋理大小相對於暈映檢視的大小是有限的。 在極少數情況下，檢視大小的425%預設限制可能會干擾使用非常大的不可重複紋理的應用程式。 如果無法將應用程式或內容變更為在預先定義的限制內運作，則百分比可以依照以下方式增加。 使用文字編輯器，開啟 [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]，找到 `IrMaxTextureSizeFactor` 並輸入新的百分比值。 此變更會立即生效，而不需重新啟動影像伺服器。
 
-* 即使设置了nocache标头，Netscape和Opera中的JavaScript引擎也会缓存响应数据。 这会干扰有状态请求的正常运行。
+* Netscape和Opera快取回應資料中的JavaScript引擎，即使已設定nocache標頭亦然。 這會干擾有狀態要求的正常運作。
 
-   *解决方法*
+   *因應措施*
 
-   将时间戳或其他唯一标识符附加到请求字符串，例如 `"&.ts=currentTime`.
+   將時間戳記或其他唯一識別碼附加至請求字串，例如 `"&.ts=currentTime`.
 
-## 仅适用于实用工具的限制 {#section-906a6b2378154b3da122b2332983f7a5}
+## 僅適用於公用程式的限制 {#section-906a6b2378154b3da122b2332983f7a5}
 
-`ImageConvert`当使用 `control-c`.
+`ImageConvert`使用停止時，有時會因分段錯誤而當機 `control-c`.

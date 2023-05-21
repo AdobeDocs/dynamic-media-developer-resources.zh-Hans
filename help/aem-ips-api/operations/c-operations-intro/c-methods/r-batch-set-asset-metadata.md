@@ -1,5 +1,5 @@
 ---
-description: 使用批处理模式设置资产元数据。
+description: 使用批次模式設定資產中繼資料。
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-使用批处理模式设置资产元数据。
+使用批次模式設定資產中繼資料。
 
 语法
 
-## 授权用户类型 {#section-5310d9fd00604cbf9756944900378855}
+## 授權的使用者型別 {#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,22 +29,22 @@ ht-degree: 13%
 
 ## 参数 {#section-7111ac93bc7747f69ba14db4ac3912b0}
 
-**输入(batchSetAssetMetadataParam)**
+**輸入(batchSetAssetMetadataParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 要在批处理操作中设置其元数据的公司的句柄。 |
-| updateArray | `types:BatchMetadataUpdateArray` | 是 | 应用于资产的元数据更新数组。 |
+| companyHandle | `xsd:string` | 是 | 要在批次作業中設定其中繼資料之公司的控制代碼。 |
+| updatearray | `types:BatchMetadataUpdateArray` | 是 | 套用至資產的中繼資料更新陣列。 |
 
-**输出(batchSetAssetMetadataParam)**
+**輸出(batchSetAssetMetadataParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功设置元数据的数量。 |
-| warningCount | `xsd:int` | 是 | 操作尝试设置元数据时生成的警告数。 |
-| errorCount | `xsd:int` | 是 | 操作尝试设置元数据时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，该资产在操作尝试为资产批量设置元数据时会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 在操作尝试为资产批量设置元数据时，与生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 成功設定中繼資料的數目。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試設定中繼資料時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定中繼資料時產生的錯誤數。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 當作業嘗試批次設定資產的中繼資料時，與產生警告的資產相關聯的詳細資訊陣列。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試批次設定資產的中繼資料時產生錯誤。 |
 
 ## 示例 {#section-2de798ac920e4b47b971b1729a64395b}
 

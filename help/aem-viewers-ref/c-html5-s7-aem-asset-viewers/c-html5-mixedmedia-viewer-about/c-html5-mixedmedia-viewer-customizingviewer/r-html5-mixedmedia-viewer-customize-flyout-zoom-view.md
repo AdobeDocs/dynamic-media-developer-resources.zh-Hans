@@ -1,6 +1,6 @@
 ---
-title: 弹出缩放视图
-description: 在内联缩放模式下，主视图由静态图像组成。 它还包含静态图像上弹出视图中显示的缩放图像，以及静态图像顶部显示的提示消息。
+title: 彈出式縮放檢視
+description: 在內嵌縮放模式中，主檢視由靜態影像組成。 此外也包含顯示在靜態影像上方的彈出式檢視中的縮放影像，以及顯示在靜態影像上方的提示訊息。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,19 +8,19 @@ exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
-# 弹出缩放视图{#flyout-zoom-view}
+# 彈出式縮放檢視{#flyout-zoom-view}
 
-在内联缩放模式下，主视图由静态图像组成。 它还包含静态图像上弹出视图中显示的缩放图像，以及静态图像顶部显示的提示消息。
+在內嵌縮放模式中，主檢視由靜態影像組成。 此外也包含顯示在靜態影像上方的彈出式檢視中的縮放影像，以及顯示在靜態影像上方的提示訊息。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+**主要檢視器區域的CSS屬性**
 
-主视图的外观通过以下CSS类选择器进行控制：
+主檢視的外觀由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -29,19 +29,19 @@ ht-degree: 5%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 主视图的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 主要檢視的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使主视图透明：
+範例 — 讓主檢視透明：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -51,62 +51,62 @@ ht-degree: 5%
 
 <!--<a id="section_FD07AB77593748F99DC6C42ED20A61EC"></a>-->
 
-使用以下CSS类选择器控制提示消息的外观：
+使用下列CSS類別選取器可控制提示訊息的外觀：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-可以通过CSS配置字体样式、大小外观和垂直偏移。 但是，水平对齐由查看器逻辑管理。 使用通过CSS覆盖它 `left` 或 `right` 不支持属性。
+您可以透過CSS設定字型樣式、大小外觀和垂直位移。 不過，水準對齊方式是由檢視器邏輯管理。 透過CSS覆寫它，使用 `left` 或 `right` 屬性不受支援。
 
-**提示消息的CSS属性**
+**提示訊息的CSS屬性**
 
 <table id="table_5417B0C0343747649502629F43DF231A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p>CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>消息背景填充颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>訊息背景填滿色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框半径 </span> </p> </td> 
-   <td colname="col2"> <p> 消息背景边框半径。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> 訊息背景邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 从主视图底部偏移。 </p> </td> 
+   <td colname="col2"> <p> 從主檢視底部的位移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>提示文本颜色。 </p> </td> 
+   <td colname="col2"> <p>提示文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p> 消息背景不透明度。 </p> </td> 
+   <td colname="col2"> <p> 訊息背景不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 在消息文本周围填充。 </p> </td> 
+   <td colname="col2"> <p> 訊息文字的邊框間距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-提示消息可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以了解更多信息。
+提示訊息可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
 
-示例 — 要设置半透明的提示消息，其中Arial® 12-px字体为白色，距主视图底部50像素偏移，填充以及四舍五入的边框：
+範例 — 若要以白色Arial® 12-px字型、距主檢視底部50畫素的位移、內距和圓角邊框來設定半透明提示訊息：
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 

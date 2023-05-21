@@ -1,24 +1,24 @@
 ---
-description: 介绍IPS API版本4.4的新数据类型和已更改的数据类型。
+description: 說明IPS API 4.4版的新資料和變更資料型別。
 solution: Experience Manager
-title: 数据类型新增和修改
-feature: Dynamic Media Classic，SDK/API
+title: 新增和修改的資料型別
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 3%
+source-wordcount: '46'
+ht-degree: 2%
 
 ---
 
-# 数据类型：新建和已修改{#data-types-new-and-modified}
+# 資料型別：新增和修改{#data-types-new-and-modified}
 
-介绍IPS API版本4.4的新数据类型和已更改的数据类型。
+說明IPS API 4.4版的新資料和變更資料型別。
 
 语法
 
-## 新类型 {#section-b910343aff304ec9b4d74045a2596a74}
+## 新型別 {#section-b910343aff304ec9b4d74045a2596a74}
 
 * `AssetMetadataFields`
 * `AssetMetadataFieldsArray`
@@ -31,18 +31,18 @@ ht-degree: 3%
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## 修改的类型 {#section-dfd062062ad444b0876bbc951fb1560c}
+## 修改型別 {#section-dfd062062ad444b0876bbc951fb1560c}
 
-**资源**
+**資產**
 
-添加了以下参数：
+引數已新增：
 
 * `subtype`
 * `assetSetInfo`
 
-**作业日志**
+**工作記錄檔**
 
-添加了以下参数：
+引數已新增：
 
 * `transferSuccessCount`
 * `transferErrorCount`
@@ -50,6 +50,6 @@ ht-degree: 3%
 
 **PDFInfo**
 
-添加了以下参数：
+引數已新增：
 
 * `extractLinks`

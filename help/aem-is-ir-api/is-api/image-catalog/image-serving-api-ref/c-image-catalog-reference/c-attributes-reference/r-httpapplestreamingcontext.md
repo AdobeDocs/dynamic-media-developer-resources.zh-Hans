@@ -1,24 +1,24 @@
 ---
-description: Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple流服务器URL前缀。
+description: Apple串流伺服器URL首碼。 產生req=mbrSet的多位元速率m3u8回應時使用的Apple串流伺服器URL首碼。
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Apple流服务器URL前缀。 在使用req=mbrSet生成多位速率m3u8响应时使用的Apple流服务器URL前缀。
+Apple串流伺服器URL首碼。 產生req=mbrSet的多位元速率m3u8回應時使用的Apple串流伺服器URL首碼。
 
-## 属性 {#properties}
+## 屬性 {#properties}
 
-表示URL前缀的字符串。 (例如`http://my.server.com/apple/streaming`)
+代表URL首碼的字串。 (例如： `http://my.server.com/apple/streaming`)
 
 ## 默认 {#section-bdd70081d50844c295f0de0154c1d738}
 

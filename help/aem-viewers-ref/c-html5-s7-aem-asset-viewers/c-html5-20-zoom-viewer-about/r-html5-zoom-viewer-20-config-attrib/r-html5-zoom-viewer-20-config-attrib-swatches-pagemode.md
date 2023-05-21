@@ -8,7 +8,7 @@ exl-id: 7ba10df0-9e3e-4c31-9bd6-4d0e6feb7e75
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切换后，滚动按钮会自动导致色板跳转整个页面长度。 </p> <p>如果色板不适合，则会在最后一页显示额外的空格。 此外，最后一页的单元格数量与上一页相同。 </p> <p>将忽略滚动步骤，并且鼠标滚动仅在完整页面上完成。 </p> </td> 
+   <td colname="col2"> <p> 切換時，捲動按鈕會自動讓色票跳至一頁的長度。 </p> <p>如果色票不合適，會在最後一頁顯示額外的空白字元。 此外，最後一頁的儲存格數也與任何上一頁相同。 </p> <p>捲動步驟會被忽略，滑鼠捲動功能只會在完整頁面上設定。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

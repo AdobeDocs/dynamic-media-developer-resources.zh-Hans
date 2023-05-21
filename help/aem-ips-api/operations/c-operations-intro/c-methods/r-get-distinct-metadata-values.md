@@ -1,7 +1,7 @@
 ---
-description: 返回元数据字段的所有值。
+description: 傳回中繼資料欄位的所有值。
 solution: Experience Manager
-title: getDistinctMetadataValues
+title: getdistinctmetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
@@ -12,13 +12,13 @@ ht-degree: 24%
 
 ---
 
-# getDistinctMetadataValues{#getdistinctmetadatavalues}
+# getdistinctmetadataValues{#getdistinctmetadatavalues}
 
-返回元数据字段的所有值。
+傳回中繼資料欄位的所有值。
 
 语法
 
-## 授权用户类型 {#section-f0f44fdcb318490582dd04de8eaf745d}
+## 授權的使用者型別 {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,18 +30,18 @@ ht-degree: 24%
 
 ## 参数 {#section-600f36a32ff147cb83149943d37843e2}
 
-**输入(getDistinctMetadataValuesParam)**
+**輸入(getDistinctMetadataValuesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 要获取其数据的公司的句柄。 |
-| metadataKey | `xsd:string` | 是 | 点表示法中的元数据键。 |
+| companyHandle | `xsd:string` | 是 | 您要取得其資料之公司的控制代碼。 |
+| metadataKey | `xsd:string` | 是 | 點標籤法中的中繼資料索引鍵。 |
 
-**Output(getDistinctMetadataValuesReturn)**
+**輸出(getDistinctMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| valueArray | `types:ValueArray` | 是 | 请求的元数据字段的值。 |
+| valueArray | `types:ValueArray` | 是 | 請求的中繼資料欄位的值。 |
 
 ## 示例 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

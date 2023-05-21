@@ -1,5 +1,5 @@
 ---
-description: ZIP条目数组。
+description: ZIP專案陣列。
 solution: Experience Manager
 title: ZipEntryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL ZipEntryArray]{#zipentryarray}
 
-ZIP条目数组。
+ZIP專案陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ZIP条目数组。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ZipEntry` | ZIP条目数组。 |
+| 项目 | `types:ZipEntry` | ZIP專案陣列。 |

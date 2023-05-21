@@ -1,7 +1,7 @@
 ---
-description: 设置资产的图像映射。
+description: 設定資產的影像地圖。
 solution: Experience Manager
-title: setImageMaps
+title: setImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
@@ -12,13 +12,13 @@ ht-degree: 11%
 
 ---
 
-# setImageMaps{#setimagemaps}
+# setImageMap{#setimagemaps}
 
-设置资产的图像映射。
+設定資產的影像地圖。
 
-您必须已创建图像映射。 按照从数组中检索的顺序应用图像映射。 这表示第二个图像映射叠加了第一个图像映射，第三个图像映射叠加了第二个图像映射，依此类推。
+您必須已建立影像地圖。 影像地圖會依從陣列擷取的順序套用。 這表示第二個影像地圖會覆蓋第一個，第三個影像地圖會覆蓋第二個影像地圖，依此類推。
 
-## 授权用户类型 {#section-adb21c5b679249939dd83816e4a0ee97}
+## 授權的使用者型別 {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +29,23 @@ ht-degree: 11%
 
 ## 参数 {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**Input(setImageMapsParam)**
+**輸入(setImageMapsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司负责人。 |
-| assetHandle | `xsd:string` | 是 | 资产句柄。 |
-| imageMapArray | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| assetHandle | `xsd:string` | 是 | 資產控點。 |
+| imageMapArray | `types:ImageMapDefinitionArray` | 是 | 預先定義的影像地圖陣列。 |
 
-**输出(setImageMapsReturn)**
+**輸出(setImageMapsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| imageMapHandleArray | `types:HandleArray` | 是 | 一个数组，其中图像映射句柄应用于资产。 |
+| imageMapHandleArray | `types:HandleArray` | 是 | 將影像地圖控點套用至資產的陣列。 |
 
 ## 示例 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-此代码示例为图像资产设置了2个图像映射。 该代码指定在调用图像映射时采取的形状类型、区域和操作。 响应包含一个带有图像映射句柄的数组。
+此程式碼範例為影像資產設定2個影像地圖。 程式碼會指定叫用影像地圖時採取的形狀型別、區域和動作。 回應包含陣列，其中包含影像對應的控制點。
 
 **请求**
 

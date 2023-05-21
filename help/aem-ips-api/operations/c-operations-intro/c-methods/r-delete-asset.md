@@ -1,5 +1,5 @@
 ---
-description: 删除资产。
+description: 刪除資產。
 solution: Experience Manager
 title: deleteAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # deleteAsset{#deleteasset}
 
-删除资产。
+刪除資產。
 
 语法
 
-## 授权用户类型 {#section-e913be43b684491daf02bc73211e4290}
+## 授權的使用者型別 {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,24 +29,24 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有资产的读取和删除权限。
+>使用者必須擁有資產的讀取和刪除存取權。
 
 ## 参数 {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**输入(deleteAssetParam)**
+**輸入(deleteAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 文件夹所属的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 要删除的资产的句柄。 |
+| companyHandle | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 要刪除之資產的控點。 |
 
-**输出(deleteAssetParam)**
+**輸出(deleteAssetParam)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-d5657289f5234bb0a613dcf691507958}
 
-此示例代码会从特定公司删除任何类型的资产。 它需要一个资产句柄，您必须从其他操作中获取该句柄。
+此範常式式碼會從特定公司刪除任何型別的資產。 它需要資產控制代碼，您必須從其他作業取得。
 
 **请求**
 

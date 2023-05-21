@@ -1,24 +1,24 @@
 ---
-description: 介绍IPS API版本4.4的新数据类型和已更改的数据类型。
+description: 說明IPS API 4.4版的新資料和變更資料型別。
 solution: Experience Manager
-title: 新增和修改的字符串常量
-feature: Dynamic Media Classic，SDK/API
+title: 字串常數 — 新增與修改
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '35'
 ht-degree: 2%
 
 ---
 
-# 字符串常量：新建和已修改{#string-constants-new-and-modified}
+# 字串常數：新增和修改{#string-constants-new-and-modified}
 
-介绍IPS API版本4.4的新数据类型和已更改的数据类型。
+說明IPS API 4.4版的新資料和變更資料型別。
 
 语法
 
-## 新常量 {#section-658a2d48955f4de59c674474b9498ffd}
+## 新常數 {#section-658a2d48955f4de59c674474b9498ffd}
 
 * `AssetSet`
 * `MasterVideo`

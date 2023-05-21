@@ -1,5 +1,5 @@
 ---
-description: 检查具有特定公司（由句柄标识）、电子邮件地址和密码的用户是否可以登录。
+description: 檢查具有特定公司（由控制代碼識別）、電子郵件地址和密碼的使用者是否可以登入。
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 13%
 
 # checkLogin{#checklogin}
 
-检查具有特定公司（由句柄标识）、电子邮件地址和密码的用户是否可以登录。
+檢查具有特定公司（由控制代碼識別）、電子郵件地址和密碼的使用者是否可以登入。
 
 >[!NOTE]
 >
->如果忽略公司句柄，此方法将检查默认用户的登录。
+>如果省略公司控制代碼，此方法會檢查預設使用者的登入。
 
-## 授权用户类型 {#section-df8b26b550854f899948276adaca083a}
+## 授權的使用者型別 {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,23 +34,23 @@ ht-degree: 13%
 
 ## 参数 {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**输入(checkLoginParam)**
+**輸入(checkLoginParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 包含用户的公司的句柄。 |
-| 电子邮件 | `xsd:string` | 是 | 用户的电子邮件地址。 |
-| 密码 | `xsd:string` | 是 | 用户的密码。 |
+| companyHandle | `xsd:string` | 否 | 包含使用者的公司的控制代碼。 |
+| 电子邮件 | `xsd:string` | 是 | 使用者的電子郵件地址。 |
+| 密码 | `xsd:string` | 是 | 使用者的密碼。 |
 
-**输出(checkLoginParam)**
+**輸出(checkLoginParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 状态 | `xsd:string` | 是 | 用户的登录状态。 |
+| 状态 | `xsd:string` | 是 | 使用者的登入狀態。 |
 
 ## 示例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录到IPS。 如果用户 *can* 登录，此方法将返回字符串， `ValidLogin`. 如果用户 *无法* 登录，此方法将返回字符串， `InvalidLogin`.
+此程式碼範例使用公司控制代碼引數、電子郵件地址和密碼來判斷使用者是否可以登入IPS。 若使用者 *可以* 登入，此方法會傳回字串， `ValidLogin`. 若使用者 *無法* 登入，此方法會傳回字串， `InvalidLogin`.
 
 **请求**
 

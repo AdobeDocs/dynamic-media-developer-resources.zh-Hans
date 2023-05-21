@@ -8,7 +8,7 @@ exl-id: b02f033d-be84-4cd0-b4bb-3ae9e424680c
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预加载行为。 当设置为 <span class="codeph"> -1</span> 初始化组件或更改资产时，会同时加载所有色板。 当设置为 <span class="codeph"> 0</span> 只加载可见的色板。 </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> 定义预加载可见区域周围的多少行/列。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預先載入行為。 當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有色票都會同時載入。 當設定為 <span class="codeph"> 0</span> 僅載入可見的色票。 </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入多少不可見的列/欄。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
-可选。
+可选.
 
 ## 默认 {#section-a08032f0fcf041c09e63c0238a339fc9}
 

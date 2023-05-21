@@ -1,10 +1,11 @@
 ---
 title: getComponent
-description: 适用于智能裁剪视频查看器的JavaScript API引用
+description: 智慧型裁切視訊檢視器的JavaScript API參考
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%
@@ -13,31 +14,31 @@ ht-degree: 1%
 
 # getComponent{#getcomponent}
 
-智能裁剪视频查看器的JavaScript API引用。
+智慧型裁切視訊檢視器的JavaScript API參考。
 
 `getComponent(componentId)`
 
-返回对查看器所使用的查看器SDK组件的引用。 网页可以使用此方法来扩展或自定义现成查看器的行为。 仅在 `initComplete` 查看器回调已运行，否则查看器逻辑可能尚未创建组件。
+傳回檢視器所使用之檢視器SDK元件的參考。 網頁可以使用此方法來延伸或自訂現成可用的檢視器的行為。 只有在下列動作之後，才呼叫此方法： `initComplete` 檢視器回呼已執行，否則檢視器邏輯可能尚未建立元件。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` 查看器使用的查看器SDK组件的ID。 此查看器支持以下组件ID:
+`*`componentID`*` - `{String}` 檢視器使用的Viewer SDK元件ID。 此檢視器支援下列元件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>组件ID </p> </th> 
-   <th colname="col2" class="entry"> <p>查看器SDK组件类名称 </p> </th> 
+   <th colname="col1" class="entry"> <p>元件ID </p> </th> 
+   <th colname="col2" class="entry"> <p>檢視器SDK元件類別名稱 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 引數管理員 </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 容器 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.container </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
@@ -102,14 +103,14 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-使用SDK API时，务必按照 [查看器SDK命名空间]
+使用SDK API時，請務必使用正確的完整SDK名稱空間，如中所述 [檢視器SDK名稱空間]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153)。
 
-有关特定组件的更多信息，请参阅查看器SDK API文档。
+如需特定元件的詳細資訊，請參閱檢視器SDK API檔案。
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 对查看器SDK组件的引用。 方法会返回 `null` 如果 `componentId` 不是受支持的查看器组件，或者如果查看器逻辑尚未创建该组件，则。
+`{Object}` 檢視器SDK元件的參考。 方法會傳回 `null` 如果 `componentId` 不是支援的檢視器元件，或是檢視器邏輯尚未建立元件。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

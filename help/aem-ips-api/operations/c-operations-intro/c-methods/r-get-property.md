@@ -1,5 +1,5 @@
 ---
-description: 获取与图像门户相关的系统属性的字符串值。
+description: 取得與影像入口網站相關之系統屬性的字串值。
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
@@ -14,20 +14,20 @@ ht-degree: 12%
 
 # getProperty{#getproperty}
 
-获取与图像门户相关的系统属性的字符串值。
+取得與影像入口網站相關之系統屬性的字串值。
 
-支持的系统属性包括：
+支援的系統屬性包括：
 
-* `IpsVersion`:IPS版本号。
-* `IpsImageServerUrl`:IPS图像服务器的完整外部URL前缀。
+* `IpsVersion`：IPS版本號碼。
+* `IpsImageServerUrl`：IPS影像伺服器的完整外部URL首碼。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:呈现SVG资产的URL前缀。
-* `SvgRenderEnabled`:如果SVG资产可以通过 `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`：呈現SVG資產的URL首碼。
+* `SvgRenderEnabled`：如果SVG資產可以轉譯者，則為True `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`:上载中允许的文件数据的最大大小（以字节为单位） [!DNL POST]. 系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`：上傳中允許的檔案資料大小上限（以位元組為單位） [!DNL POST]. 系統會拒絕大於最大限制的檔案。
 
-## 授权用户类型 {#section-2cd36bbd46ed414b8753569d5895530e}
+## 授權的使用者型別 {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,21 +41,21 @@ ht-degree: 12%
 
 ## 参数 {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**输入(getPropertyParam)**
+**輸入(getPropertyParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| name | `xsd:string` | 是 | 要获取的属性的名称。 |
+| 名称 | `xsd:string` | 是 | 要取得的屬性名稱。 |
 
-**Output(getPropertyReturn)**
+**輸出(getPropertyReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 价值 | `xsd:string` | 是 | 属性值。 |
+| 价值 | `xsd:string` | 是 | 屬性值。 |
 
 ## 示例 {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-此代码示例使用IPS属性字符串常量返回特定值。 在此示例中，IPS属性是IPS服务器的版本。
+此程式碼範例使用IPS屬性字串常數傳回特定值。 在此範例中，IPS屬性是IPS伺服器的版本。
 
 **请求**
 

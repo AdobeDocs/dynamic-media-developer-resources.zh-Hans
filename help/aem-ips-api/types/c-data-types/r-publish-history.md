@@ -1,7 +1,7 @@
 ---
-description: 资产的发布历史记录。
+description: 資產的發佈歷史記錄。
 solution: Experience Manager
-title: PublishHistory
+title: Publishhistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL PublishHistory]{#publishhistory}
 
-资产的发布历史记录。
+資產的發佈歷史記錄。
 
 语法
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| serverName | `xsd:string` | 拥有发布历史记录的服务器的名称。 |
-| contextName | `xsd:string` | 发布历史记录上下文名称。 |
-| publishFormat | `xsd:string` | 发布格式。 |
-| lastPublished | `xsd:dateTime` | 资产的上次发布日期和时间。 |
+| serverName | `xsd:string` | 擁有發佈記錄的伺服器名稱。 |
+| contextName | `xsd:string` | 發佈歷程記錄內容名稱。 |
+| publishFormat | `xsd:string` | 發佈格式。 |
+| lastPublished | `xsd:dateTime` | 上次發佈資產的日期和時間。 |

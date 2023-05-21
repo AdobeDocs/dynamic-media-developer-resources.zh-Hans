@@ -1,5 +1,5 @@
 ---
-description: HTTP响应标头元素。 在中可选 <rule> 元素。
+description: HTTP回應標頭元素。 選填於 <rule> 元素。
 solution: Experience Manager
 title: header
 feature: Dynamic Media Classic,SDK/API
@@ -12,29 +12,29 @@ ht-degree: 4%
 
 ---
 
-# 标题{#header}
+# header{#header}
 
-HTTP响应标头元素。 在中可选 `<rule>` 元素。
+HTTP回應標頭元素。 選填於 `<rule>` 元素。
 
 ## 属性 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*文本*&quot;** :必需。 指定HTTP标头的名称。
+**`Name`= &quot;*文字*&quot;** ：必填。 指定HTTP標頭的名稱。
 
-**`Action`= &quot;set&quot; |`"add"`**:可选。 默认为 `"set"`，取代任何当前标头值。 指定 `"add"` 以逗号分隔的标题值。
+**`Action`= &quot;set&quot; |`"add"`**：選擇性。 預設為 `"set"`，會取代任何目前的標頭值。 指定 `"add"` 以附加標頭值，並以逗號分隔。
 
 ## 数据 {#section-a387f541396c49d99c29692a38032914}
 
-标题值。
+標頭值。
 
 ## 说明 {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-允许添加新的HTTP响应标头，以及添加或替换预定义标头的值。 名称和值必须符合HTTP标准。 不应用其他编码。
+允許新增新的HTTP回應標頭，以及新增或取代預先定義標頭的值。 名稱和值必須符合HTTP標準。 不會套用其他編碼。
 
-图像提供替换变量可用于标题名称和标题值中。 这允许从请求中控制两个字符串。
+「影像伺服」替代變數可用於標頭名稱和標頭值。 這可讓您從請求中控制兩個字串。
 
 ## 示例 {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
-当在请求中将标头值指定为变量时，以下规则将应用自定义标头：
+當請求中的標頭值指定為變數時，下列規則會套用自訂標頭：
 
 ```
 <rule OnMatch="continue">
@@ -43,6 +43,6 @@ HTTP响应标头元素。 在中可选 `<rule>` 元素。
 </rule>
 ```
 
-此规则由以下请求触发，通过设置HTTP响应标头 `Edge-Control::no-store`:
+此規則由以下要求觸發，設定HTTP回應標頭 `Edge-Control::no-store`：
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

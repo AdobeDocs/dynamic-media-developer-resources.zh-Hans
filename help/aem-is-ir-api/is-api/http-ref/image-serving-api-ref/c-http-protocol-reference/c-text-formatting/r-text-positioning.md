@@ -1,6 +1,6 @@
 ---
-title: 文本定位
-description: 当应用于预定大小的图层时（即，当还指定了size=时），text=渲染器会放置与textPs=渲染器截然不同的文本。
+title: 文字定位
+description: 在套用至預先設定的大小圖層時（亦即指定size=時），text=轉譯器會定位與textPs=轉譯器截然不同的文字。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,54 +12,54 @@ ht-degree: 0%
 
 ---
 
-# 文本定位{#text-positioning}
+# 文字定位{#text-positioning}
 
-当应用于预定大小的图层时（即，也指定size=时），`text=`渲染器会放置与textPs=渲染器截然不同的文本。
+此 `text=` 當套用至預先設定的大小圖層時（亦即指定size=時），轉譯器會定位與textPs=轉譯器截然不同的文字。
 
-自调整`text=`和`textPs=`层的外观和位置相似。
+自行調整大小 `text=`和 `textPs=` 圖層具有類似的外觀和位置。
 
-`textPs=`将字符单元格的顶部与文本框的顶部对齐（假定为`\vertalt`），即使它会导致部分渲染的文本字形在文本框边界之外部分扩展。 某些字体的已渲染字形也可能略微突出文本框的左右边缘。 对于要求在图层矩形中包含所有渲染文本的应用程序，可使用RTF `\marg*`命令或`textFlowPath=`来调整文本渲染区域。
+此 `textPs=` 將字元儲存格的頂端與文字方塊的頂端對齊(假設 `\vertalt`)，即使這會導致部分呈現的文字字元延伸到文字方塊邊界之外。 某些字型的演算字元也可能會稍微超出文字方塊的左右邊緣。 對於要求所有演算後的文字都包含在圖層矩形內的應用程式，RTF會 `\marg*` 命令或 `textFlowPath=` 可用來調整文字演算區域。
 
-相反，`text=`会根据需要移动渲染的文本，并确保所有渲染的字形完全适合指定的文本框。
+相反地， `text=` 視需要移動演算後的文字，並確保所有演算後的字元完全符合指定的文字方塊。
 
-虽然`text=`对于简单的应用程序可能略为简单，但`textPs=`提供与字体和文本效果无关的精确定位。
+當 `text=` 對於簡單的應用程式可能更容易使用， `textPs=` 提供獨立於字型面和文字效果的精確定位。
 
 ## 示例 {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
-以下示例适用于预定大小的文本。 自行调整文本大小的行为不同。
+以下範例適用於預先調整大小的文字。 自行調整文字大小的行為不同。
 
-** `Text=`始终在顶部提供窄边距：**
+** `Text=` 一律會在頂端提供窄邊界：**
 
-![文本定位示例一幅图像](assets/tp01.png)
+![文字定位範例一個影像](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=`呈现的文本与文本框顶部紧密对齐，这会导致轻微剪切，即使对于常见的字体(如Arial®:**)也是如此
+** `textPs=` 會呈現文字與文字方塊頂端緊密對齊，因此會產生輕微的剪裁，即使是Arial®：**等常見字型也是如此
 
-![文本定位示例两幅图像](assets/tp02.png)
+![文字定位範例二影像](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=`自动向下移动呈现的文本以避免剪切：**
+** `text=` 自動將演算後的文字下移以避免剪裁：**
 
-![文本定位示例三幅图像](assets/tp03.png)
+![文字定位範例三影像](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=`不移动包含凸起部分的文本，如果文本位于图层0:**上，则会导致显着剪切
+** `textPs=` 不會移動包含凸出部分的文字，如果文字位於圖層0：**上，則會產生顯著的剪裁
 
-![文本定位示例四幅图像](assets/tp04.png)
+![文字定位範例四影像](assets/tp04.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20{\up20Raised%20}Normal`
 
-**顶部的10 pt(200 twips)边距可在不进行剪切的情况下呈现此文本：**
+**頂端的10點（200倍）邊界會轉譯此文字而不進行剪裁：**
 
-![文本定位示例五幅图像](assets/tp05.png)
+![文字定位範例五影像](assets/tp05.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs=\margt200\fs40Normal%20{\up20Raised}%20Normal`
 
-**某些脚本字体的呈现字形可能会显着扩展到文本框外部：**
+**某些指令碼字型的演算字元可能會顯著延伸至文字方塊之外：**
 
-![文本定位示例六幅图像](assets/tp06.png)
+![文字定位範例六影像](assets/tp06.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&textPs={\fonttbl{\f1\fcharset0%20FluffyFont;}}\f1\fs88%20fluffy%20font%20problems`

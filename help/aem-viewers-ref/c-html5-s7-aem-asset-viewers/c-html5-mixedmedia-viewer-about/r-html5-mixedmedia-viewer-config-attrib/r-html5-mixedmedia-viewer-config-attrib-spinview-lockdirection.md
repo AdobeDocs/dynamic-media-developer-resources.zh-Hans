@@ -8,7 +8,7 @@ exl-id: c2aeb45f-879b-4a53-b571-744fc73d04fd
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定如果有2D旋转集，是否允许旋转方向发生更改。 </p> <p>当设置为 <span class="codeph"> 1 </span>，则该组件会在手势开始时标识主要的拖动或轻扫方向（水平或垂直）。 之后，它会保持该方向直到手势结束。 例如，如果用户开始水平旋转，然后决定沿垂直方向继续拖动手势，则组件不会执行垂直旋转。 相反，它只考虑鼠标的水平移动或轻扫。 </p> <p>值 <span class="codeph"> 0 </span> 允许用户在手势进行期间随时更改旋转方向。 如果旋转集为1D，则设置不起作用。 </p> </td> 
+   <td colname="col2"> <p> 指定如果有2D迴轉集，是否允許迴轉方向的變更。 </p> <p>當設定為 <span class="codeph"> 1 </span>，元件會識別手勢開頭的主要拖曳或撥動方向（水平與垂直）。 之後，它會保持該方向直到該手勢結束。 例如，如果使用者開始水準迴轉，然後決定沿垂直方向繼續拖曳手勢，則元件不會執行垂直迴轉。 而是隻考慮滑鼠的水準移動或滑動。 </p> <p>值 <span class="codeph"> 0 </span> 可讓使用者在手勢進行期間隨時變更迴轉方向。 如果迴轉集是1D，此設定就沒有作用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

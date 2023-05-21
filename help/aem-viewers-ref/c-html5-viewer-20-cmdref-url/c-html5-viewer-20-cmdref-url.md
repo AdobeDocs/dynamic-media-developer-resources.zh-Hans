@@ -1,6 +1,6 @@
 ---
-title: 所有查看器 — URL通用的命令引用
-description: 所有查看器通用的命令参考文档。
+title: 所有檢視器通用的命令參考 — URL
+description: 所有檢視器通用的命令參考檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 所有查看器 — URL通用的命令引用{#command-reference-common-to-all-viewers-url}
+# 所有檢視器通用的命令參考 — URL{#command-reference-common-to-all-viewers-url}
 
-所有查看器通用的命令参考文档。
+所有檢視器通用的命令參考檔案。
 
-下面列出的命令通过URL或使用API `setParam()`或`setParams()`方法来应用。
+以下列出的命令是透過URL或使用API套用 `setParam()` 或 `setParams()` 方法。

@@ -1,6 +1,6 @@
 ---
 title: SocialShare.bearing
-description: Video360查看器的配置属性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,28 +8,28 @@ exl-id: f00b2539-3159-487a-b0fa-9589b694c2e6
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # SocialShare.bearing{#socialshare-bearing}
 
-Video360查看器的配置属性。
+Video360 Viewer的設定屬性。
 
 `[SocialShare.|<containerId>_socialShare.]bearing=up|down|left|right|fit-vertical|fit-lateral`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|fit-vertical|fit-lateral</span> </p> </td> 
-   <td colname="col2"> <p> 为按钮容器指定幻灯片动画的方向。 </p> <p> 当设置为<span class="codeph"> up</span>、<span class="codeph"> down</span>、<span class="codeph"> left</span>或<span class="codeph"> right</span>时，面板将按指定方向滚出，而无需额外的范围检查，这可能导致外部容器对面板进行剪切。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件会首先将基础面板位置移至SocialShare的底部，并尝试从底部、右侧或左侧推出该面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，组件会尝试将基板位置移动到顶部，并在顶部、右部和左侧重复尝试转出。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，组件使用类似的逻辑。 但是，它会先将基本向右移动，尝试右、下和上转出方向，然后将基本向左移动，尝试左、下和上转出方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 向上|向下|向左|向右|垂直適合|橫向適合</span> </p> </td> 
+   <td colname="col2"> <p> 指定按鈕容器的幻燈片動畫方向。 </p> <p> 當設定為 <span class="codeph"> 向上</span>， <span class="codeph"> 向下</span>， <span class="codeph"> left</span>，或 <span class="codeph"> 右側</span>，面板會以指定方向轉出，而不會進行額外的邊界檢查，這會導致面板被外部容器剪裁。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至SocialShare的底部，並嘗試從此類基礎位置從底部、右側或左側轉出面板。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂部，並在頂部、右側和左側重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似的邏輯。 但是，它會先將基底向右移動，嘗試向右、向下和向上轉出方向，然後將基底向左移動，嘗試向左、向下和向上轉出方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

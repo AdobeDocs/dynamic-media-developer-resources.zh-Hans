@@ -1,6 +1,6 @@
 ---
-title: 热点
-description: 在热点最初是在AEM AssetsDynamic Media中创作的地方，查看器会在主视图上显示热点图标 — 按需。
+title: 熱點
+description: 在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# 热点{#hotspots}
+# 熱點{#hotspots}
 
-在热点最初是在AEM AssetsDynamic Media中创作的地方，查看器会在主视图上显示热点图标 — 按需。
+在熱點最初是在AEM Assets的Dynamic Media中編寫的位置，檢視器會在主檢視上顯示熱點圖示（隨選）。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+**主要檢視器區域的CSS屬性**
 
-通过以下CSS类选择器控制热点图标的外观：
+熱點圖示的外觀由下列CSS類別選擇器控制：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -29,31 +29,31 @@ ht-degree: 2%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p>热点图标图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>熱點圖示圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p>在图稿快照集内放置（如果使用CSS快照）。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>若使用CSS拼寫，則定位在圖稿拼寫內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>热点图标宽度。 </p> </td> 
+   <td colname="col2"> <p>熱點圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>热点图标高度。 </p> </td> 
+   <td colname="col2"> <p>熱點圖示高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置一个56 x 56像素的热点图标，该图标针对两种不同的图标状态中的每一个状态显示不同的图像：
+範例 — 設定56 x 56畫素的熱點圖示，針對兩種不同的圖示狀態分別顯示不同的影像：
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

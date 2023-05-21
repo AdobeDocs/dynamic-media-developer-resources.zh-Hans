@@ -1,29 +1,29 @@
 ---
-description: ICC配置文件映射文件路径。 指定包含此图像目录的ICC配置文件映射的文件。
+description: ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
 solution: Experience Manager
 title: IccProfileMapFile
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a84dc64-3167-4419-a25d-c2f475552f07
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
 # IccProfileMapFile{#iccprofilemapfile}
 
-ICC配置文件映射文件路径。 指定包含此图像目录的ICC配置文件映射的文件。
+ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
 
-## 属性 {#section-962934fded9746c7953beb62616dd2a7}
+## 屬性 {#section-962934fded9746c7953beb62616dd2a7}
 
-文本字符串值。 相对于目录文件夹的绝对文件路径或路径。
+文字字串值。 相對於目錄資料夾的絕對檔案路徑。
 
 ## 默认 {#section-c368cbef2a24435ea97cc7c83bbe2ce8}
 
-为空，表示此图像目录不包含专用ICC配置文件。
+空白，表示此影像目錄不包含私人ICC設定檔。
 
 ## 另请参阅 {#section-3ed772259c8e4209b5a7766fae1d6efd}
 
-[ICC配置文件映射](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)
+[ICC設定檔對應](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)

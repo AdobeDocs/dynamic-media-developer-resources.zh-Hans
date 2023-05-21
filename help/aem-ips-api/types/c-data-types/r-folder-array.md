@@ -1,7 +1,7 @@
 ---
-description: 文件夹数组。
+description: 資料夾陣列。
 solution: Experience Manager
-title: FolderArray
+title: 資料夾陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e7de5cf2-4a2c-41e5-ba2b-7052bb5e8101
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL FolderArray]{#folderarray}
 
-文件夹数组。
+資料夾陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Folder` | 文件夹数组。 |
+| 项目 | `types:Folder` | 資料夾陣列。 |

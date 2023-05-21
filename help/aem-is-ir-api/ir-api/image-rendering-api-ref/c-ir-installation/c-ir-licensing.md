@@ -1,6 +1,6 @@
 ---
-title: 许可
-description: 需要Dynamic Media图像渲染许可证密钥，并且必须在安装图像渲染的每个系统上安装该密钥。
+title: 授權
+description: 需要Dynamic Media影像演算授權金鑰，且必須安裝在安裝影像演算的每個系統上。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 许可{#licensing}
+# 授權{#licensing}
 
-需要Dynamic Media图像渲染许可证密钥，并且必须在安装图像渲染的每个系统上安装该密钥。
+需要Dynamic Media影像演算授權金鑰，且必須安裝在安裝影像演算的每個系統上。
 
-如果没有有效的许可证，则无法运行图像渲染。 安装过程包括获取和安装许可证密钥的步骤。
+沒有有效的授權，影像演算就不會執行。 安裝程式包括取得和安裝授權金鑰的步驟。

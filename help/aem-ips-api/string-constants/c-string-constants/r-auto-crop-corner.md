@@ -1,18 +1,18 @@
 ---
 description: 由AutoCropColorOptions/corner使用。
 solution: Experience Manager
-title: 自动裁剪角
-feature: Dynamic Media Classic，SDK/API
+title: 自動裁切轉角
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a9ed9cfa-a11e-4e71-9e46-9589451cdad9
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 10%
+source-wordcount: '14'
+ht-degree: 14%
 
 ---
 
-# 自动裁剪角{#autocrop-corner}
+# 自動裁切轉角{#autocrop-corner}
 
 由AutoCropColorOptions/corner使用。
 

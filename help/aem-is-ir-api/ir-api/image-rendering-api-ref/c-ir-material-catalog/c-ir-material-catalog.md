@@ -1,6 +1,6 @@
 ---
-title: 材料目录
-description: 材料目录
+title: 材質目錄
+description: 材質目錄
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# 材料目录{#material-catalog}
+# 材質目錄{#material-catalog}

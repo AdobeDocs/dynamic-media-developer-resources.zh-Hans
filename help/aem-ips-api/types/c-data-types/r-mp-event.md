@@ -22,24 +22,24 @@ MediaPortal事件。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| eventType | `xsd:string` | 媒体门户事件类型。 |
-| createDate | `xsd:dateTime` | 事件创建日期。 |
-| ipsUser | `xsd:string` | 触发事件的系统或用户。 |
+| 事件型別 | `xsd:string` | Media Portal事件型別。 |
+| createDate | `xsd:dateTime` | 事件建立日期。 |
+| ipsUser | `xsd:string` | 觸發事件的系統或使用者。 |
 | companyId | `xsd:int` | 公司ID。 |
-| companyName | `xsd:string` | 通用名称。 |
-| jobName | `xsd:string` | 唯一的作业名称。 |
-| jobDescription | `xsd:string` | 作业的有用描述。 |
-| string1 | `xsd:string` | 字符串信息的保持符（可选）。 |
-| string2 | `xsd:string` | 字符串信息的保持符（可选）。 |
-| string3 | `xsd:string` | 字符串信息的保持符（可选）。 |
-| string4 | `xsd:string` | 字符串信息的保持符（可选）。 |
-| 字符串5 | `xsd:string` | 字符串信息的保持符（可选）。 |
-| int1 | `xsd:int` | 整数信息的保持符（可选）。 |
-| int2 | `xsd:int` | 整数信息的保持符（可选）。 |
-| int3 | `xsd:int` | 整数信息的保持符（可选）。 |
-| int4 | `xsd:int` | 整数信息的保持符（可选）。 |
-| int5 | `xsd:int` | 整数信息的保持符（可选）。 |
-| float1 | `xsd:double` | 用于浮动信息的保持器（可选）。 |
-| float2 | `xsd:double` | 用于浮动信息的保持器（可选）。 |
-| float3 | `xsd:double` | 用于浮动信息的保持器（可选）。 |
-| time1 | `xsd:dateTime` | 日期/时间戳信息的保持符（可选）。 |
+| companyName | `xsd:string` | 公司名稱。 |
+| jobName | `xsd:string` | 唯一的工作名稱。 |
+| jobDescription | `xsd:string` | 對工作有用的說明。 |
+| string1 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
+| string2 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
+| string3 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
+| string4 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
+| string5 | `xsd:string` | 字串資訊的持有者（選擇性）。 |
+| int1 | `xsd:int` | 整數資訊的持有者（選擇性）。 |
+| int2 | `xsd:int` | 整數資訊的持有者（選擇性）。 |
+| int3 | `xsd:int` | 整數資訊的持有者（選擇性）。 |
+| int4 | `xsd:int` | 整數資訊的持有者（選擇性）。 |
+| int5 | `xsd:int` | 整數資訊的持有者（選擇性）。 |
+| float1 | `xsd:double` | 浮點數資訊的持有者（選擇性）。 |
+| float2 | `xsd:double` | 浮點數資訊的持有者（選擇性）。 |
+| float3 | `xsd:double` | 浮點數資訊的持有者（選擇性）。 |
+| time1 | `xsd:dateTime` | 日期/時間戳記資訊的持有者（選擇性）。 |

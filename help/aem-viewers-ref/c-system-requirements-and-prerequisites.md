@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media HTML5查看器的系统要求
-description: Dynamic MediaHTML5查看器的系统要求。
+title: Dynamic Media HTML5檢視器的系統需求
+description: Dynamic Media HTML5檢視器的系統需求。
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,59 +13,59 @@ ht-degree: 1%
 
 ---
 
-# Dynamic MediaHTML5查看器系统要求{#system-requirements}
+# Dynamic Media HTML5檢視器系統需求{#system-requirements}
 
-Dynamic MediaHTML5查看器的系统要求。
+Dynamic Media HTML5檢視器的系統需求。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## 服务器硬件和软件 {#section-05099146f1f0418988c196635110bee6}
+## 伺服器硬體與軟體 {#section-05099146f1f0418988c196635110bee6}
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* AdobeDynamic Media Image Serving 6.7.1或更高版本。
-* HTML5查看器需要SDK JavaScript服务器端库3.11.5或更高版本。
-* *向朋友发送电子邮件* 社交功能需要s7ondemand 5.0.9或更高版本。
-* eCatalog查看器 —  [“信息”面板弹出窗口](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支持需要信息服务器2.1.8或更高版本。
-* 搜索功能组件需要s7search 2.3.0或更高版本。
+* Adobe Dynamic Media Image Serving 6.7.1或更新版本。
+* HTML5檢視器需要SDK JavaScript伺服器端程式庫3.11.5或更新版本。
+* *傳送電子郵件給朋友* 社交功能需要s7ondemand 5.0.9或更新版本。
+* eCatalog檢視器 —  [資訊面板快顯視窗](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支援需要info server 2.1.8或更新版本。
+* 搜尋功能元件需要s7search 2.3.0或更新版本。
 
-## 查看器系统要求 {#section-cc72b1e209524d038b4d5b92b35e998e}
+## 檢視器系統需求 {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**组件查看器的客户端浏览器最低要求：**
+**元件檢視器的使用者端瀏覽器最低需求：**
 
-* 以下操作系统版本或更高版本支持：
+* 支援下列作業系統版本或更新版本：
    * Microsoft® Windows® 7
    * macOS X 10.12
-* 以下浏览器/平台版本或更高版本支持：
-   * Android™ OS 4.x
-   * BlackBerry® 10。 仅支持视频播放。
+* 支援下列瀏覽器/平台版本或更新版本：
+   * Android™作業系統4.x
+   * 原生瀏覽器上的BlackBerry® 10。 僅支援視訊播放。
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS6
-   * iPad 2（仅限Safari和Chrome浏览器）
+   * iPad 2 （僅限Safari和Chrome瀏覽器）
    * iPhone 3GS
    * Safari 11
-* 不支持移动设备上的Internet Explorer。
-* *PanoramicViewer* 以下浏览器/平台版本或更高版本支持：
-   * Android™ 4.4（仅限手机设备）
+* 不支援行動裝置上的Internet Explorer。
+* *全景檢視器* 支援下列瀏覽器/平台版本或更新版本：
+   * Android™ 4.4 （僅限手機裝置）
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* 和 *DimensionalViewer* 以下浏览器/平台版本或更高版本支持：
-   * Android™ 5（仅限手机设备）
+* *Video360Viewer* 和 *維度檢視器* 支援下列瀏覽器/平台版本或更新版本：
+   * Android™ 5 （僅限手機裝置）
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* 以下浏览器/平台版本或更高版本支持：
+* *ZoomVerticalViewer* 支援下列瀏覽器/平台版本或更新版本：
    * Android™ 4.x
    * Chrome 82
    * Edge
@@ -74,14 +74,14 @@ Dynamic MediaHTML5查看器的系统要求。
    * iOS 10
    * Safari 11
 
-## 停止对TLS 1.0和1.1的支持 {#tls}
+## 終止支援TLS 1.0和1.1 {#tls}
 
 <!-- CQDOC-19433 -->
 
-自2022年9月30日起，AdobeDynamic Media查看器将停止对以下内容提供支持：
+自2022年9月30日起，AdobeDynamic Media檢視器將停止支援下列專案：
 
-* TLS（传输层安全性）1.0和1.1
-* TLS 1.2中的以下弱密码：
+* TLS （傳輸層安全性） 1.0和1.1
+* TLS 1.2中的下列弱加密：
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
    * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
    * TLS_RSA_WITH_AES_256_GCM_SHA384
@@ -97,11 +97,11 @@ Dynamic MediaHTML5查看器的系统要求。
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Dynamic Media查看器不支持的Web浏览器和操作系统组合 {#browser-os-support}
+## Dynamic Media檢視器不支援的網頁瀏覽器和作業系統組合 {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media查看器不支持以下Web浏览器和操作系统组合：
+AdobeDynamic Media檢視器不支援下列網頁瀏覽器和作業系統組合：
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -109,7 +109,7 @@ AdobeDynamic Media查看器不支持以下Web浏览器和操作系统组合：
 * Internet Explorer 11 + Windows Phone 8.1更新
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
-* Safari 7 + OS X 10.9小牛队
+* Safari 7 + OS X 10.9小牛隊
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 

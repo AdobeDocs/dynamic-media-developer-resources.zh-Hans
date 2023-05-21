@@ -1,5 +1,5 @@
 ---
-description: 字符串数组。
+description: 字串陣列。
 solution: Experience Manager
 title: StringArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL StringArray]{#stringarray}
 
-字符串数组。
+字串陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `xsd:string` | 字符串数组。 |
+| 项目 | `xsd:string` | 字串陣列。 |

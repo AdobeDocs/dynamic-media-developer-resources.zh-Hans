@@ -1,57 +1,57 @@
 ---
-description: eCatalog搜索查看器支持在主视图上方渲染图像映射图标。
+description: eCatalog搜尋檢視器支援在主檢視上方呈現影像地圖圖示。
 solution: Experience Manager
-title: 图像映射支持
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+title: 影像地圖支援
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-# 图像映射支持{#image-map-support}
+# 影像地圖支援{#image-map-support}
 
-eCatalog搜索查看器支持在主视图上方渲染图像映射图标。
+eCatalog搜尋檢視器支援在主檢視上方呈現影像地圖圖示。
 
-映射图标的外观通过CSS进行控制，如[图像映射效果](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289)中所述。
+對應圖示的外觀會透過CSS控制，如所述 [影像地圖效果](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289).
 
-图像映射执行以下三个操作之一：重定向到外部网页、“信息”面板弹出式激活和内部超链接。
+影像地圖會執行下列三個動作之一：重新導向至外部網頁、「資訊」面板快顯視窗啟用和內部超連結。
 
-## 重定向到外部网页 {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## 重新導向至外部網頁 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-图像映射的`href`属性具有指向外部资源的URL（显式指定或封装在支持的JavaScript模板函数之一中）：`loadProduct()`、`loadProductCW()`和`loadProductPW()`。
+此 `href` 影像對應的屬性具有外部資源的URL （明確指定，或包裝在其中一個支援的JavaScript範本函式中）： `loadProduct()`， `loadProductCW()`、和 `loadProductPW()`.
 
-以下是简单URL重定向的示例：
+以下是簡單URL重新導向的範例：
 
 `href=http://www.adobe.com`
 
-在此示例中，同一URL用`loadProduct()`函数括起来：
+在此範例中，相同的URL會以 `loadProduct()` 函式：
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-请注意，将JavaScript代码添加到图像映射的`HREF`属性时，该代码将在客户端的计算机上运行。 因此，请确保JavaScript代码的安全。
+請注意，當您將JavaScript程式碼新增至 `HREF` 屬性時，程式碼會在使用者端電腦上執行。 因此，請確定JavaScript程式碼是安全的。
 
-## 信息面板弹出菜单激活 {#section-7aa036420af646d1ad8cdc388add0b57}
+## 資訊面板快顯視窗啟用 {#section-7aa036420af646d1ad8cdc388add0b57}
 
-要使用“信息”面板，图像映射已设置`ROLLOVER_KEY`属性。 此外，还应同时设置`href`属性，否则外部URL处理会干扰“信息”面板弹出激活。
+若要使用資訊面板，影像地圖具有 `ROLLOVER_KEY` 屬性集。 此外，設定 `href` 屬性，否則外部URL處理會干擾資訊面板快顯視窗啟動。
 
-最后，确保查看器配置包含`InfoPanelPopup.template`和（可选）`InfoPanelPopup.infoServerUrl`参数的适当值。
+最後，請確定檢視器設定包含適當的值 `InfoPanelPopup.template` 以及（選擇性） `InfoPanelPopup.infoServerUrl` 引數。
 
 >[!NOTE]
 >
->请注意，配置“信息面板弹出窗口”时，传递到“信息面板”的HTML代码和JavaScript代码将在客户端的计算机上运行。 因此，请确保此类HTML代码和JavaScript代码的安全。
+>請注意，當您設定資訊面板快顯視窗時，傳遞至資訊面板的HTML代碼和JavaScript代碼會在使用者端電腦上執行。 因此，請確定此類HTML程式碼和JavaScript程式碼是安全的。
 
-## 内部超链接 {#section-6afa4fb2fe564c429e0201f019a95849}
+## 內部超連結 {#section-6afa4fb2fe564c429e0201f019a95849}
 
-单击图像映射会在查看器内执行内部页面交换。 要使用该功能，图像映射中的`href`属性具有以下特殊格式：
+按一下影像地圖會在檢視器內執行內部頁面交換。 若要使用該功能，請 `href` 影像地圖中的屬性具有以下特殊格式：
 
 ` href=target: *`idx`*`
 
-其中`*`idx`*`是目录跨页的从零开始的索引。
+位置 `*`idx`*` 是目錄跨頁的索引（從零開始）。
 
-以下是图像映射的`href`属性示例，该属性指向eCatalog中的3D跨页：
+以下範例為 `href` 指向eCatalog中3D跨頁的影像地圖屬性：
 
 `href=target:2`

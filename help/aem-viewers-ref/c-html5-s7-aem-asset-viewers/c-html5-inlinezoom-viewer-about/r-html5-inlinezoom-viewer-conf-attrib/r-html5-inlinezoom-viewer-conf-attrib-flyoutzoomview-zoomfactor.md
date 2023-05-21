@@ -8,34 +8,34 @@ exl-id: 2a9d4450-a1a0-471c-86bf-105d516b0bd7
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # FlyoutZoomView.zoomfactor{#flyoutzoomview-zoomfactor}
 
-` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *`primaryFactor`*[,[ *`secondaryFactor`*][, *`高档`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *`primaryFactor`*[,[ *`次要因數`*][, *`升級`*]]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定弹出视图相对于主视图的图像放大率。必须是整数或浮点值 <span class="codeph"> 1.0</span> 或更大。 </p> </td> 
+   <td colname="col2"> <p> 指定彈出檢視相對於主檢視的影像放大比例。 必須為整數或浮點數值 <span class="codeph"> 1.0</span> 或更大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> 可以指定可选的次要因素，当高亮显示处于活动状态时，可通过单击或点按主视图来访问该次要因素。 再次单击或点按时，将还原为主缩放因子。 值 <span class="codeph"> -1</span> 禁用次缩放因子。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 次要因數</span> </span> </p> </td> 
+   <td colname="col2"> <p> 當反白顯示處於活動狀態時，按一下或點選主檢視可存取的可選次要因子。 再按一下或點選一次會還原為主要縮放因數。 值 <span class="codeph"> -1</span> 停用次要縮放因數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 高档</span></span> </p> </td> 
-   <td colname="col2"> <p>指定组件处理小图像的方式。 </p> <p>如果设置为 <span class="codeph"> 1</span> 该组件会放大主图像，使其适合主视图。 此外，它还会放大缩放图像，以便它完全填充配置的弹出窗口区域。 </p> <p>如果设置为 <span class="codeph"> 0</span>，则以其原始分辨率显示小图像，并在主视图区域和弹出窗口内居中显示。 您可以在图像周围配置额外的空格，其背景或类似的 <span class="codeph"> s7flyoutzoomview</span> 和 <span class="codeph"> s7flyoutzoom</span> 主视图和弹出窗口中的CSS类。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 升級</span></span> </p> </td> 
+   <td colname="col2"> <p>指定元件處理小型影像的方式。 </p> <p>若設為 <span class="codeph"> 1</span> 元件會放大主影像，使其適合主檢視。 此外，它也會放大縮放影像，以完全填滿已設定的彈出式視窗區域。 </p> <p>若設為 <span class="codeph"> 0</span>，會以原始解析度顯示小影像，並在主檢視區域和彈出式視窗內部居中顯示。 您可以在影像周圍設定額外的空白字元，並將 <span class="codeph"> s7flyoutzoomview</span> 和 <span class="codeph"> s7flyoutzoom</span> 主檢視和彈出式視窗中的CSS類別。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
+## 屬性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
-可选。
+可选.
 
 ## 默认 {#section-fcb06fd8e7e945e590094efcf9a1d510}
 

@@ -1,5 +1,5 @@
 ---
-description: 根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资产生成的资产的信息。 generateHandle返回有关用于生成指定资产或文件的步骤的信息。
+description: 根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生之資產的相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # getGenerationInfo{#getgenerationinfo}
 
-根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资产生成的资产的信息。 generateHandle返回有关用于生成指定资产或文件的步骤的信息。
+根據傳入的引數，傳回2種不同型別的資訊。 originatorHandle會傳回從指定資產產生之資產的相關資訊。 generateHandle會傳回用來產生指定資產或檔案之步驟的相關資訊。
 
 语法
 
-## 授权用户类型 {#section-9cc2216b32c74107be07aeacecc11401}
+## 授權的使用者型別 {#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,26 +32,26 @@ ht-degree: 10%
 
 ## 参数 {#section-b7fa94c82147455888e8469fa5f6922b}
 
-**输入(getGenerationInfoParam)**
+**輸入(getGenerationInfoParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 代码短语 | `xsd:string` | 是 | 公司的把手。 |
-| 代码短语 | `xsd:string` | 否 | 一代中使用的引擎。 请参阅字体样式。 |
-| 代码短语 | `xsd:string` | 否 | 要查询已生成资产的资产的句柄。 |
-| 代码短语 | `xsd:string` | 否 | 用于查询在生成资产时使用的资产和引擎的资产句柄。 |
-| 代码短语 | `xsd:StringArray` | 否 | 操作中包含的属性。 |
-| 代码短语 | `xsd:StringArray` | 否 | 从操作中排除的属性。 |
+| 程式碼片語 | `xsd:string` | 是 | 公司的控制代碼。 |
+| 程式碼片語 | `xsd:string` | 否 | 產生時使用的引擎。 請參閱字型樣式。 |
+| 程式碼片語 | `xsd:string` | 否 | 要查詢所產生資產的資產控制代碼。 |
+| 程式碼片語 | `xsd:string` | 否 | 要查詢其產生中使用的資產和引擎的資產控制代碼。 |
+| 程式碼片語 | `xsd:StringArray` | 否 | 作業中包含的屬性。 |
+| 程式碼片語 | `xsd:StringArray` | 否 | 從作業排除的屬性。 |
 
-**输出(getGenerationInfoReturn)**
+**輸出(getGenerationInfoReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| generationArray | `types:GenerationInfoArray` | 是 | 生成信息的数组。 |
+| generationArray | `types:GenerationInfoArray` | 是 | 層代資訊的陣列。 |
 
 ## 示例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-此代码示例可返回有关从特定资产生成的资产的信息。 它不会检索有关用于生成指定资产的步骤的信息。 响应因简短而被截断。
+此程式碼範例會傳回有關從特定資產產生之資產的資訊。 它不會擷取有關用於產生指定資產的步驟的資訊。 為簡短起見，回應會遭截斷。
 
 **请求**
 

@@ -1,5 +1,5 @@
 ---
-description: 返回资产的发布历史记录。
+description: 傳回資產的發佈歷史記錄。
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
-返回资产的发布历史记录。
+傳回資產的發佈歷史記錄。
 
 语法
 
-## 授权用户类型 {#section-3b9d6a129093458fa8890139a2718912}
+## 授權的使用者型別 {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,22 +32,22 @@ ht-degree: 17%
 
 ## 参数 {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**输入(getAssetPublishHistoryParam)**
+**輸入(getAssetPublishHistoryParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有资产发布历史记录的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 包含要检查的发布历史记录的资产。 |
+| companyHandle | `xsd:string` | 是 | 具有資產發佈歷史記錄之公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 具有您要檢查之發佈記錄的資產。 |
 
-**输出(getAssetPublishHistoryReturn)**
+**輸出(getAssetPublishHistoryReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| pubHistoryArray | `types:PublishHistoryArray` | 是 | 资产的发布历史记录。 |
+| pubHistoryArray | `types:PublishHistoryArray` | 是 | 資產的發佈歷史記錄。 |
 
 ## 示例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此代码示例可返回资产的发布历史记录。 如果服务器返回空数组，则资产从未发布。
+此程式碼範例會傳回資產的發佈歷史記錄。 如果伺服器傳回空白陣列，則不會發佈資產。
 
 **请求**
 

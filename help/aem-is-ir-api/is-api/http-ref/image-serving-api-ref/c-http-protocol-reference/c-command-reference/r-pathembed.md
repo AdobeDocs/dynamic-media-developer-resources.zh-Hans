@@ -1,36 +1,36 @@
 ---
-description: 嵌入路径数据。 指定是否应将第0层源图像文件中的Photoshop路径包含在响应图像中。
+description: 內嵌路徑資料。 指定回應影像中是否應包含來自0層來源影像檔案的Photoshop路徑。
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
 # pathEmbed{#pathembed}
 
-嵌入路径数据。 指定是否应将第0层源图像文件中的Photoshop路径包含在响应图像中。
+內嵌路徑資料。 指定回應影像中是否應包含來自0層來源影像檔案的Photoshop路徑。
 
 `pathEmbed=0|1`
 
-## 属性 {#section-26eb1c9e13574a0eae39f6d5b92c8995}
+## 屬性 {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-请求属性。 如果源图像不包含路径数据，则忽略。 路径数据会像图像数据一样进行缩放和旋转。 仅处理`layer=0`源图像中的路径；将忽略来自其他图层图像的路径。
+要求屬性。 如果來源影像不包含路徑資料，則忽略。 路徑資料會像影像資料一樣縮放和旋轉。 僅限來自來源影像的路徑 `layer=0` 會處理；會忽略來自其他圖層影像的路徑。
 
-如果输出图像格式不支持路径嵌入，则忽略。 有关支持路径嵌入的输出图像格式的列表，请参阅`fmt=`的说明。
+如果輸出影像格式不支援路徑內嵌，則忽略。 請參閱 `fmt=` 以取得支援路徑內嵌的輸出影像格式清單。
 
 ## 限制 {#section-697cddb79a1542bc8457d2f4f59eec69}
 
-当前，不支持将开放Photoshop路径（不形成闭环的路径）嵌入到响应图像中。
+目前不支援將開放Photoshop路徑（未形成封閉回圈的路徑）嵌入回應影像。
 
 ## 默认 {#section-62f113ad71c04517a2741d93319a2b5d}
 
-`pathEmbed=0`，以禁止在输出图像中嵌入路径。
+`pathEmbed=0`，不會將路徑內嵌在輸出影像中。
 
 ## 另请参阅 {#section-9c20adb4147e45758ab109a543cc5862}
 

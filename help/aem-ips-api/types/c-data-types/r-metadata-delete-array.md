@@ -1,5 +1,5 @@
 ---
-description: 要从资产中删除的元数据数组。
+description: 要從資產中刪除的中繼資料陣列。
 solution: Experience Manager
 title: MetadataDeleteArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-要从资产中删除的元数据数组。
+要從資產中刪除的中繼資料陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 18%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `type:Metadata` | 要删除的元数据参数数组。 |
+| 项目 | `type:Metadata` | 要刪除的中繼資料引數陣列。 |

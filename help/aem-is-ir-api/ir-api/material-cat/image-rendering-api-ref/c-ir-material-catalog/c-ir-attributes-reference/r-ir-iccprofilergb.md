@@ -1,6 +1,6 @@
 ---
 title: IccProfileRgb
-description: RGB默认输出颜色配置文件。 指定在未使用icc=指定输出色彩空间时用于RGB响应图像的ICC颜色配置文件的名称。 此外，还适用于通过各种“图像渲染”命令（如bgc=和color=）指定的某些RGB颜色值。
+description: RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱。 此外，也可用於使用各種「影像演算」指令指定的某些RGB色彩值，例如bgc=和color=。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 2%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB默认输出颜色配置文件。 指定在未指定输出色彩空间时用于RGB响应图像的ICC色彩配置文件的名称 `icc=`. 也适用于使用各种“图像渲染”命令指定的某些RGB颜色值，例如 `bgc=` 和 `color=`.
+RGB預設輸出色彩設定檔。 指定當未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱 `icc=`. 也用於使用各種「影像演算」指令指定的某些RGB色彩值，例如 `bgc=` 和 `color=`.
 
-## 属性 {#section-b4a1bd92e99047479a5036413525a6d9}
+## 屬性 {#section-b4a1bd92e99047479a5036413525a6d9}
 
-文本字符串。 如果已指定，则必须是有效的 `icc::Name` 此材料目录或默认目录的ICC配置文件映射中的值，或相对于 `attribute::RootPath`. 引用的ICC配置文件必须是RGB配置文件。
+文字字串。 若指定，則必須為有效 `icc::Name` 來自此材料目錄或預設目錄的ICC輪廓對映的值，或相對於此材料目錄的檔案路徑 `attribute::RootPath`. 參考的ICC設定檔必須是RGB設定檔。
 
 ## 默认 {#section-5809772f8e96438ab7626d323c66a4ba}
 
-继承自 `default::IccProfileRgb` 如果未定义或为空。
+繼承自 `default::IccProfileRgb` 如果未定義或為空。
 
 ## 另请参阅 {#section-732c17dece3a4575855c9b79a08d0067}
 
-[icc:：名称](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2) , [属性：:IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40), [属性：:IccProfileSrcRgb](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49), [属性：:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[icc：：Name](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2) ， [attribute：：IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40)， [attribute：：IccProfileSrcRgb](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49)， [attribute：：RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)

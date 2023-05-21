@@ -1,18 +1,18 @@
 ---
 description: 由SystemFieldCondition/op使用。
 solution: Experience Manager
-title: 数值/日期比较运算符
-feature: Dynamic Media Classic，SDK/API
+title: 數值/日期比較運運算元
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 96fb9661-f911-4476-a848-ef5256ddbeaf
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# 数值/日期比较运算符{#numeric-date-comparison-operators}
+# 數值/日期比較運運算元{#numeric-date-comparison-operators}
 
 由SystemFieldCondition/op使用。
 

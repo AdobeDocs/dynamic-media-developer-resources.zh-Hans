@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: 弹出查看器的JavaScript API引用。
+description: 彈出式檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-弹出查看器的JavaScript API引用。
+彈出式檢視器的JavaScript API參考。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,16 +22,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> 对象 </span>}包含本地化数据的JSON对象。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 用户界面元素的本地化 </a> 以了解更多信息。 </p> <p>请参阅 <i>查看器SDK用户指南</i> 和示例，以了解有关对象内容的更多信息。 </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> 物件 </span>} JSON物件包含本地化資料。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 使用者介面元素的本地化 </a> 以取得詳細資訊。 </p> <p>請參閱 <i>檢視器SDK使用手冊</i> 和範例，以取得物件內容的詳細資訊。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置一个或多个区域设置的本地化符号值。 此参数必须在 `init()`.
+設定一或多個地區設定的本地化SYMBOL值。 必須在之前呼叫此引數 `init()`.
 
-另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

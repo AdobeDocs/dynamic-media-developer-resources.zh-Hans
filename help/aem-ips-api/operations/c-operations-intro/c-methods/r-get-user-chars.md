@@ -1,5 +1,5 @@
 ---
-description: 获取特定字段中使用的字符列表。
+description: 取得特定欄位中使用的字元清單。
 solution: Experience Manager
 title: getUserChars
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # getUserChars{#getuserchars}
 
-获取特定字段中使用的字符列表。
+取得特定欄位中使用的字元清單。
 
 语法
 
-## 授权用户类型 {#section-7023871be4d2442daf51ff060ca06d9a}
+## 授權的使用者型別 {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,33 +27,33 @@ ht-degree: 12%
 
 ## 参数 {#section-93107d87f1b24fc8ad276dfee5e30b63}
 
-**输入(getUserCharsParam)**
+**輸入(getUserCharsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| charField | `xsd:string` | 是 | 确定要搜索的垃圾桶状态。 |
-| includeInactive | `xsd:boolean` | 是 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一家公司的活动成员，才能获得授权进行任何API调用。 如果用户没有有效的公司成员资格，则返回授权错误。 |
-| includeInvalid | `xsd:boolean` | 否 | 包括或排除无效用户。 |
-| companyHandleArray | `types:HandleArray` | 否 | 根据公司筛选结果。 |
-| groupHandleArray | `types:HandleArray` | 否 | 根据组筛选结果。 |
-| userRoleArray | `types:StringArray` | 否 | 根据用户角色筛选结果。 |
-| numChars | `xsd:int` | 否 | 启用超过1个字符。 |
+| charField | `xsd:string` | 是 | 決定要搜尋的垃圾桶狀態。 |
+| includeInactive | `xsd:boolean` | 是 | 包含或排除非作用中的使用者。 非IPS管理員使用者必須是至少一個公司的作用中成員，才能獲得授權進行任何API呼叫。 如果使用者沒有有效的公司成員資格，則會傳回授權錯誤。 |
+| includInvalid | `xsd:boolean` | 否 | 包含或排除無效的使用者。 |
+| companyHandleArray | `types:HandleArray` | 否 | 根據公司篩選結果。 |
+| groupHandleArray | `types:HandleArray` | 否 | 根據群組篩選結果。 |
+| userRoleArray | `types:StringArray` | 否 | 根據使用者角色篩選結果。 |
+| numChars | `xsd:int` | 否 | 啟用>1個字元。 |
 
-**Output(getUserCharsReturn)**
+**輸出(getUserCharsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userCharsArray | `types:StringArray` | 是 | 字符前缀数组。 |
+| userCharsArray | `types:StringArray` | 是 | 字元首碼的陣列。 |
 
 ## 示例 {#section-3702f165e8b041139a6144f4a76ca25f}
 
-此代码示例会返回：
+此程式碼範例會傳回：
 
-* 特定公司用户姓氏的首字母。
-* 一组组。
-* 一组用户角色。
+* 特定公司使用者姓氏的第一個字元。
+* 一組群組。
+* 一組使用者角色。
 
-用户字符过滤器字段字符串常量确定返回的用户字符类型。
+「使用者字元篩選欄位」字串常數決定傳回的使用者字元型別。
 
 **请求**
 

@@ -1,5 +1,5 @@
 ---
-description: 元数据更新的数组。
+description: 一系列中繼資料更新。
 solution: Experience Manager
 title: MetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-元数据更新的数组。
+一系列中繼資料更新。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:MetadataUpdate` | 元数据更新的数组。 |
+| 项目 | `types:MetadataUpdate` | 中繼資料更新的陣列。 |

@@ -1,5 +1,5 @@
 ---
-description: 用于上传资产的URL数组。
+description: 用於上傳資產的URL陣列。
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL UploadUrlArray]{#uploadurlarray}
 
-用于上传资产的URL数组。
+用於上傳資產的URL陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:UploadUrl` | 用于上传资产的URL数组。 |
+| 项目 | `types:UploadUrl` | 用於上傳資產的URL陣列。 |

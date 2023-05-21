@@ -1,6 +1,6 @@
 ---
 title: AssetJobLogArray
-description: 资产作业日志的数组。
+description: 資產作業記錄陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-资产作业日志的数组。
+資產作業記錄陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:AssetJobLog` | 资产作业日志的数组。 |
+| 项目 | `types:AssetJobLog` | 資產作業記錄陣列。 |

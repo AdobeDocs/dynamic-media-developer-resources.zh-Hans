@@ -1,33 +1,33 @@
 ---
-description: 检索已提交作业的详细状态。
+description: 擷取已提交工作的詳細狀態。
 solution: Experience Manager
-title: batjobdetailsstatus
-feature: Dynamic Media Classic，SDK/API
+title: batchjobdetailedstatus
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd385327-29af-448c-9a25-75098b578272
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
-# batjobdetailsstatus{#batchjobdetailedstatus}
+# batchjobdetailedstatus{#batchjobdetailedstatus}
 
-检索已提交作业的详细状态。
+擷取已提交工作的詳細狀態。
 
-此参数：
+此引數：
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>提交时获取的作业ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
  </tr> 
 </table>
 
-返回：
+傳回：
 
-XML格式作业的详细状态；如果`jobid`无效或作业已被删除，则出错。
+以XML格式顯示工作的詳細狀態；發生下列情況時發生錯誤： `jobid` 無效或已刪除工作。
 
 ## 示例 {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

@@ -1,5 +1,5 @@
 ---
-description: 将元数据发布到元数据服务器。
+description: 將中繼資料發佈至中繼資料伺服器。
 solution: Experience Manager
 title: MetadataPublishJobType
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
-将元数据发布到元数据服务器。
+將中繼資料發佈至中繼資料伺服器。
 
 语法
 
@@ -32,7 +32,7 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">设置为 <span class="codeph"> True</span> 发布 <i>全部</i> 数据再次发送到元数据服务器。 <p>注意：根据数据量，这可能需要几分钟到几小时。 </p><p>如果只想发布新元数据或更改的元数据，请勿设置此参数。 </p></td> 
+   <td colname="col3">設定為 <span class="codeph"> True</span> 以發佈 <i>全部</i> 再次將資料傳送到中繼資料伺服器。 <p>注意：視資料量而定，這可能需要幾分鐘到幾小時的時間。 </p><p>如果您只想發佈新或變更的中繼資料，請勿設定此引數。 </p></td> 
   </tr> 
  </tbody> 
 </table>

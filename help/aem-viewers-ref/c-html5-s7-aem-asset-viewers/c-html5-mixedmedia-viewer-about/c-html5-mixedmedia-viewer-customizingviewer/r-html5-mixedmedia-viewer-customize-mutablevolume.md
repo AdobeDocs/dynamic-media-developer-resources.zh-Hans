@@ -1,6 +1,6 @@
 ---
-title: 可变卷
-description: 可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音静音或取消静音。
+title: 可變音量
+description: 可靜音音量控制最初會顯示為一個按鈕，讓使用者將視訊播放器聲音靜音或取消靜音。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,163 +12,163 @@ ht-degree: 2%
 
 ---
 
-# 可变卷{#mutable-volume}
+# 可變音量{#mutable-volume}
 
-可变音量控件最初显示为一个按钮，允许用户将视频播放器的声音静音或取消静音。
+可靜音音量控制最初會顯示為一個按鈕，讓使用者將視訊播放器聲音靜音或取消靜音。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-当用户滚动按钮时，会显示一个滑块，允许用户设置音量。 可变音量控件可以通过CSS相对于包含它的控制栏进行大小调整、外观设置和定位。
+當使用者將滑鼠移到按鈕上時，會出現一個滑桿，讓使用者可以設定音量。 可變音量控制項可以相對於包含它的控制列，由CSS來調整大小、外觀和定位。
 
-可变卷区域的外观由以下CSS类选择器控制：
+可變體積塊區域的外觀由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7mutablevolume
 ```
 
-**可变卷的CSS属性**
+**可變磁碟區的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 从上边框的位置，包括内边距。 </p> </td> 
+   <td colname="col2"> <p> 上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 从右边框的位置，包括内边距。 </p> </td> 
+   <td colname="col2"> <p> 從右邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 可变音量控件的宽度。 </p> </td> 
+   <td colname="col2"> <p> 可變音量控制的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>可变音量控制的高度。 </p> </td> 
+   <td colname="col2"> <p>可變音量控制項的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 可变音量控件的颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 可變音量控制的色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-通过以下CSS类选择器控制静音/取消静音按钮的外观：
+靜音/取消靜音按鈕外觀由以下CSS類別選擇器控制：
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7mutebutton
 ```
 
-您可以控制每个按钮状态的背景图像。 按钮的大小继承自卷控件的大小。
+您可以控制每個按鈕狀態的背景影像。 按鈕的大小繼承自磁碟區控制項的大小。
 
-**按钮图像的CSS属性**
+**按鈕影像的CSS屬性**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于“静音”状态和 `selected='false'` 对应于“未静音”状态。
+>此按鈕同時支援 `state` 和 `selected` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `selected='true'` 對應至「靜音」狀態和 `selected='false'` 對應至「未靜音」狀態。
 
-使用以下CSS类选择器控制垂直音量条区域：
+垂直音量列區域由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume
 ```
 
-**垂直卷条区域的CSS属性**
+**垂直體積塊列區域的CSS屬性**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直音量的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 垂直體積塊的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直体积块的宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p> 垂直體積塊的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直体积的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p> 垂直體積塊的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-垂直卷控件内的跟踪通过以下CSS类选择器进行控制：
+垂直音量控制內的音軌由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**垂直卷控件的CSS属性**
+**垂直音量控制項的CSS屬性**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直音量控件的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 垂直音量控制的背景色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制的宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>垂直音量控制的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>垂直音量控制的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-通过以下CSS类选择器控制垂直音量旋钮：
+垂直音量旋鈕由下列CSS類別選取器控制：
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**垂直音量控制旋钮的CSS属性**
+**垂直音量控制旋鈕的CSS屬性**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直音量控制旋钮图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 垂直音量控制旋鈕圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制旋钮的宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>垂直音量控制旋鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制旋钮的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>垂直音量控制旋鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>垂直音量控制旋钮的水平位置。 </p> </td> 
+   <td colname="col2"> <p>垂直音量控制旋鈕的水平位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以了解更多信息。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 以取得詳細資訊。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要设置一个静音按钮，该按钮为32 x 32像素，距顶部6像素，距控制栏右边缘38像素。 选择或未选择时，针对四个不同按钮状态中的每个状态显示不同的图像。
+若要設定靜音按鈕，其位置為32 x 32畫素，從上到下為6畫素，從控制列的右邊緣為38畫素。 選取或未選取時，針對四種不同按鈕狀態分別顯示不同的影像。
 
 ```
 .s7mixedmediaviewer .s7mutablevolume { 
@@ -203,7 +203,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-以下示例说明了如何在可变音量控件中设置音量滑块的样式。
+以下是如何在可變音量控制項中設定音量滑桿樣式的範例。
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume { 

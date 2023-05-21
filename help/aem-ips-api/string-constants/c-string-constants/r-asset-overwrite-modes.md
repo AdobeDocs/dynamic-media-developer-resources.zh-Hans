@@ -1,18 +1,18 @@
 ---
 description: 由setCompanySettingsParam/overwriteMode使用。
 solution: Experience Manager
-title: 资产覆盖模式
-feature: Dynamic Media Classic，SDK/API，资产管理
+title: 資產覆寫模式
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1a62026c-bad1-4459-8fe6-a94b87939ce1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
-# 资产覆盖模式{#asset-overwrite-modes}
+# 資產覆寫模式{#asset-overwrite-modes}
 
 由setCompanySettingsParam/overwriteMode使用。
 

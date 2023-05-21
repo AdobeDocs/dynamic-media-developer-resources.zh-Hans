@@ -1,21 +1,21 @@
 ---
-description: 图像服务器将记录写入此日志文件，以记录警告和错误，并保留启动和关闭事件的记录。
+description: 影像伺服器會將記錄寫入此記錄檔，以記錄警告和錯誤，並記錄啟動和關閉事件。
 solution: Experience Manager
-title: 图像服务器日志
-feature: Dynamic Media Classic，SDK/API
+title: 影像伺服器記錄
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# 图像服务器日志{#image-server-log}
+# 影像伺服器記錄{#image-server-log}
 
-图像服务器将记录写入此日志文件，以记录警告和错误，并保留启动和关闭事件的记录。
+影像伺服器會將記錄寫入此記錄檔，以記錄警告和錯誤，並記錄啟動和關閉事件。
 
-此外，还可以配置图像服务器日志来跟踪大量其他详细信息（如图像文件访问），以帮助调试服务器问题。
+此外，影像伺服器記錄檔可設定為追蹤大量其他詳細資訊（例如影像檔案存取），以協助偵錯伺服器問題。
 
-图像服务器日志配置在[!DNL ImageServerRegistry.xml]中。
+影像伺服器記錄檔設定於 [!DNL ImageServerRegistry.xml].

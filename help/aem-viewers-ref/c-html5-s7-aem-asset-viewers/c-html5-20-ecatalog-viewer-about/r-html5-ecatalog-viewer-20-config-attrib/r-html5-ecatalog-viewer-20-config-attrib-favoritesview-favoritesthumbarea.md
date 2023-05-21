@@ -8,7 +8,7 @@ exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 区域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定“收藏夹”缩略图的裁剪区域。 以相对于总帧大小的相对值表示，范围为 <span class="codeph"> 0</span> to <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 表示整个帧图像用于缩略图。 </p> <p>值 <span class="codeph"> 0.1</span> 表示仅使用帧大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定我的最愛縮圖的裁切區域。 以相對於影格總大小的值表示，範圍介於 <span class="codeph"> 0</span> 至 <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 這表示整個影格影像會用於縮圖。 </p> <p>值 <span class="codeph"> 0.1</span> 表示只會使用框架大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

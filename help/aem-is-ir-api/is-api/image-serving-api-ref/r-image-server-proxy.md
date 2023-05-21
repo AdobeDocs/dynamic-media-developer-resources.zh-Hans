@@ -1,7 +1,7 @@
 ---
-description: 图像服务器代理可用于调整日语电话的图像大小。
+description: 影像伺服器Proxy可用來調整日文電話的影像大小。
 solution: Experience Manager
-title: 图像服务器代理
+title: 影像伺服器Proxy
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 ---
 
-# 图像服务器代理{#image-server-proxy}
+# 影像伺服器Proxy{#image-server-proxy}
 
-图像服务器代理可用于调整日语电话的图像大小。
+影像伺服器Proxy可用來調整日文電話的影像大小。
 
 ## URL 格式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS修饰符都会传递到图像服务器。 您可以在 [HTTP协议参考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+IS Proxy的URL格式與一般IS要求非常類似。 任何傳遞至Proxy的IS修飾元都會傳遞至影像伺服器。 您可以在IS修飾元的 [HTTP通訊協定參考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
 `http://<server>/is-proxy/image/sample/chair?qlt=75`
 
-## 特定于代理的修饰符列表 {#section-1bff28f9cf5b4e04a31308b06176ee5f}
+## Proxy專用修飾元清單 {#section-1bff28f9cf5b4e04a31308b06176ee5f}
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>指定设备可用宽度的百分比，以用作图像宽度。 </p></td> 
+  <td class="stentry"> <p>指定裝置可用寬度的百分比，以做為影像寬度。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> 海百分比= &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>指定要用作图像高度的设备可用高度的百分比。 </p></td> 
+  <td class="stentry"> <p>指定裝置可用高度的百分比，以做為影像高度。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>指定设备的“内存限制嵌入式媒体”属性的百分比，以将响应大小限制为。 这将仅适用于jpg响应。 图像质量会降低，直到响应大小在指定的百分比范围内。 </p></td> 
+  <td class="stentry"> <p>指定裝置的記憶體限制內嵌媒體屬性中，回應大小限製為的百分比。 這僅適用於jpg回應。 影像品質會降低，直到回應大小在指定的百分比內為止。 </p></td> 
  </tr> 
 </table>
 
-## 嵌入式图像内存限制 {#section-52f7c69ed8a341ceabf92ceee19b0f36}
+## 內嵌影像記憶體限制 {#section-52f7c69ed8a341ceabf92ceee19b0f36}
 
-如果设备对可嵌入到网页上的图像大小存在限制，则只要响应格式为jpg，图像大小就会限制为该大小。 如果设备没有任何限制，则代理将响应限制为500MB。
+如果裝置具有可內嵌在網頁上的影像大小限制，只要回應格式為jpg，影像大小就會限製為該大小。 如果裝置沒有任何限制，Proxy會將回應限製為500MB。
 
-## 后端处理 {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
+## 後端處理 {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
 
-代理每天下载、验证和加载一次Device Atlas数据文件。 验证会提取不同设备的不同属性，并在接受新数据之前将其与预期值进行比较。
+Proxy每天會下載、驗證和載入Device Atlas資料檔案一次。 驗證會為不同裝置提取不同屬性，並在接受新資料之前與預期值比較。

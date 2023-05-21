@@ -1,47 +1,47 @@
 ---
-description: 除目录RootId外，所有目录属性都是可选的。
+description: 除了目錄RootId之外，所有目錄屬性都是選擇性的。
 solution: Experience Manager
-title: 属性引用
-feature: Dynamic Media Classic，SDK/API
+title: 屬性參考
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
-# 属性引用{#attributes-reference}
+# 屬性參考{#attributes-reference}
 
-除catalog::RootId之外，所有目录属性都是可选的。
+除了目錄：：RootId之外，所有目錄屬性都是選擇性的。
 
-默认目录属性文件([!DNL default.ini])中需要所有属性。
+預設目錄屬性檔案中需要所有屬性( [!DNL default.ini])。
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
-* [AllowDirectUrl](r-allowdirecturls.md)
+* [AllowDirectUrls](r-allowdirecturls.md)
 * [ApplyEffectMask](r-applyeffectmask.md)
-* [AudioBitRate](r-audiobitrate.md)
+* [音訊位元速率](r-audiobitrate.md)
 * [Bfc](r-bfc.md)
 * [BkgColor](r-bkgcolor.md)
 * [CacheValidationPolicy](r-cachevalidationpolicy.md)
 * [ClientAddressFilter](r-clientaddressfilter.md)
-* [CatalogFile](r-catalogfile.md)
-* [DefaultExpiration](r-defaultexpiration.md)
-* [DefaultExt](r-defaultext.md)
-* [DefaultFont](r-defaultfont.md)
-* [DefaultImage](r-is-cat-defaultimage.md)
-* [DefaultImageMode](r-defaultimagemode.md)
+* [目錄檔案](r-catalogfile.md)
+* [預設過期時間](r-defaultexpiration.md)
+* [預設分機](r-defaultext.md)
+* [預設字型](r-defaultfont.md)
+* [預設影像](r-is-cat-defaultimage.md)
+* [預設影像模式](r-defaultimagemode.md)
 * [DefaultLocale](r-defaultlocale.md)
-* [DefaultPix](r-defaultpix.md)
-* [DefaultThumbPix](r-defaultthumbpix.md)
+* [預設畫素](r-defaultpix.md)
+* [DefaultthumbPix](r-defaultthumbpix.md)
 * [DigimarcId](r-digimarcid.md)
 * [DigimarcInfo](r-digimarcinfo.md)
 * [ErrorImage](r-errorimage.md)
 * [ErrorDetail](r-errordetail.md)
 * [過期](r-expiration.md)
-* [FontMapFile](r-fontmapfile.md)
-* [完全匹配](r-fullmatch.md)
+* [字型地圖檔案](r-fontmapfile.md)
+* [Fullmatch](r-fullmatch.md)
 * [HttpAppleStreamingContext](r-httpapplestreamingcontext.md)
 * [HttpFlashStreamingContext](r-httpflashstreamingcontext.md)
 * [IccBlackPointCompensation](r-iccblackpointcompensation.md)
@@ -57,33 +57,33 @@ ht-degree: 3%
 * [JpegQuality](r-jpegquality.md)
 * [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
-* [宏文件](r-macrofile.md)
+* [巨集檔案](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
-* [PublishInfo](r-publishinfo.md)
-* [打印分辨率](r-printresolution.md)
+* [Publishinfo](r-publishinfo.md)
+* [PrintResolution](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [请求模糊处理](r-requestobfuscation.md)
-* [ResMode](r-is-cat-resmode.md)
+* [要求模糊化](r-requestobfuscation.md)
+* [解析模式](r-is-cat-resmode.md)
 * [分辨率](r-resolution.md)
 * [RootId](r-rootid.md)
-* [RootPath](r-rootpath.md)
+* [根路徑](r-rootpath.md)
 * [RootUrl](r-rooturl.md)
-* [RuleSetFile](r-rulesetfile.md)
-* [SavePath](r-savepath.md)
+* [規則集檔案](r-rulesetfile.md)
+* [儲存路徑](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SyntherizationFontStyles](r-synthesizefontstyles.md)
+* [SynthesizeFontStyles](r-synthesizefontstyles.md)
 * [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
-* [ThumbRes](r-thumbres.md)
-* [ThumbType](r-thumbtype.md)
+* [縮圖](r-thumbres.md)
+* [縮圖型別](r-thumbtype.md)
 * [ThumbVertAlign](r-thumbvertalign.md)
-* [时间戳](r-timestamp.md)
+* [時間戳記](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
 * [TrustedDomains](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
-* [VideoBitRate](r-videobitrate-cat.md)
-* [VideoSize](r-videosize-cat.md)
-* [水印](r-watermark.md)
+* [視訊位元速率](r-videobitrate-cat.md)
+* [Videosize](r-videosize-cat.md)
+* [浮水印](r-watermark.md)

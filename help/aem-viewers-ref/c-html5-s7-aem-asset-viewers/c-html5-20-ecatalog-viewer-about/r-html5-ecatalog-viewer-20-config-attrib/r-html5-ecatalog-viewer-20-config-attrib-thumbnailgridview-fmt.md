@@ -8,7 +8,7 @@ exl-id: 916ee5d1-e398-4923-9107-96f649033298
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>指定组件用于从图像服务器加载图像的图像格式。 它可以是图像服务器和客户端浏览器支持的任何值。 如果指定的格式以 <span class="codeph"> -alpha</span>，则组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
+   <td> <p>指定元件從影像伺服器載入影像時所用的影像格式。 它可以是Image Server和使用者端瀏覽器支援的任何值。 如果指定的格式結尾為 <span class="codeph"> -alpha</span>，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-ffe8ccc3a5f2474db47a68c2ad9a96d6}
+## 屬性 {#section-ffe8ccc3a5f2474db47a68c2ad9a96d6}
 
-可选。
+可选.
 
 ## 默认 {#section-502c098dbae1452180c7f575a1d9dc8b}
 

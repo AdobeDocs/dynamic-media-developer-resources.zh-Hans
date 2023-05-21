@@ -1,5 +1,5 @@
 ---
-description: 删除文件夹。
+description: 刪除資料夾。
 solution: Experience Manager
 title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # deleteFolder{#deletefolder}
 
-删除文件夹。
+刪除資料夾。
 
 语法
 
-## 授权用户类型 {#section-1c15a74c41194744a81f5ca86fe26585}
+## 授權的使用者型別 {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,24 +29,24 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->用户必须具有对文件夹及其所有子文件夹的读取和删除访问权限。
+>使用者必須擁有資料夾及其所有子項的讀取和刪除存取權。
 
 ## 参数 {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**输入(deleteFolderParam)**
+**輸入(deleteFolderParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 文件夹所属的公司的句柄。 |
-| folderHandle | `xsd:string` | 是 | 要删除的文件夹的句柄。 |
+| companyHandle | `xsd:string` | 是 | 資料夾所屬公司的控制代碼。 |
+| folderHandle | `xsd:string` | 是 | 要刪除的資料夾的控制代碼。 |
 
-**输出(deleteFolderParam)**
+**輸出(deleteFolderParam)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-9d4617b322e8442d80e59be0f8714841}
 
-此示例代码会从公司根中删除文件夹。 它需要一个文件夹句柄，您必须从其他操作中获取该句柄。
+此程式碼範例會從公司的根目錄中刪除資料夾。 它需要資料夾控制代碼，您必須從其他作業取得此控制代碼。
 
 **请求**
 

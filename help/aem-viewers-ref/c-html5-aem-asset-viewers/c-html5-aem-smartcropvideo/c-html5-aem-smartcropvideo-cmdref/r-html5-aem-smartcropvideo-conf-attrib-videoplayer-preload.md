@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.preload
-description: 指示查看器是否在播放开始之前开始加载视频内容。
+description: 指出檢視器是否在播放開始之前開始載入視訊內容。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # SmartCropVideoPlayer.preload{#smartcropvideoplayer-preload}
 
-指示查看器是否在播放开始之前开始加载视频内容。
+指出檢視器是否在播放開始之前開始載入視訊內容。
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]preload=0|1`
 
@@ -21,14 +22,14 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1 </span> 资产设置后，视频即开始下载；否则，仅在最终用户或API调用启动播放后，才会开始预加载。 </p> <p>如果设置为 <span class="codeph"> 0 </span> 某些功能可能在播放重新开始后才能工作；具体而言，搜寻操作不更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>在某些版本的Internet Explorer 11和Edge浏览器上，可能会忽略禁用视频预加载的问题。 </p> </td> 
+   <td colname="col2"> <p> 若設為 <span class="codeph"> 1 </span> 視訊會在設定資產後立即開始下載，否則只有在使用者起始播放或API呼叫後，才會開始預先載入。 </p> <p>若設為 <span class="codeph"> 0 </span> 某些功能可能要在播放重新開始後才能運作；具體而言，搜尋作業不會更新視訊影格。 如果停用海報影像，檢視器會顯示為空白區域，而非第一個視訊影格。 </p> <p>某些版本的Internet Explorer 11和Edge瀏覽器可能會忽略停用視訊預先載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

@@ -1,6 +1,6 @@
 ---
-title: 链接共享
-description: 链接共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
+title: 連結共用
+description: 連結共用工具包含新增至「社交」共用面板的按鈕，以及工具啟動時顯示的強制回應對話方塊。 按鈕的位置可完全由社交分享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,50 +12,50 @@ ht-degree: 2%
 
 ---
 
-# 链接共享{#link-share}
+# 連結共用{#link-share}
 
-链接共享工具由添加到Social共享面板的按钮和激活工具时显示的模式对话框组成。 按钮的位置完全由Social共享工具管理。
+連結共用工具包含新增至「社交」共用面板的按鈕，以及工具啟動時顯示的強制回應對話方塊。 按鈕的位置可完全由社交分享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-链接共享按钮的外观由以下CSS类选择器控制：
+連結共用按鈕的外觀由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkshare
 ```
 
-**链接共享工具的CSS属性**
+**連結共用工具的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p> 为给定按钮状态显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-可以通过设置 `display:none` 其CSS类上的CSS属性。
+您可以透過設定從「社交分享」面板移除按鈕 `display:none` CSS屬性的CSS類別。
 
-按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要设置一个28 x 28像素的链接共享按钮，并针对四个不同按钮状态中的每个状态显示一个不同的图像，请执行以下操作：
+範例 — 若要設定連結共用按鈕（28 x 28畫素），並針對四種不同按鈕狀態分別顯示不同的影像：
 
 ```
 .s7ecatalogviewer .s7linkshare { 
@@ -76,28 +76,28 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-当对话框处于活动状态时，将覆盖网页的背景叠加通过以下CSS类选择器进行控制：
+使用下列CSS類別選取器可控制對話方塊啟動時覆蓋網頁的背景覆蓋：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7backoverlay
 ```
 
-**背景叠加的CSS属性**
+**背景覆蓋的CSS屬性**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p>背景叠加的不透明度。 </p> </td> 
+   <td colname="col2"> <p>背景覆蓋不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>背景叠加图的颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>背景覆蓋顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要将背景叠加设置为灰色，且不透明度为70%，请执行以下操作：
+範例 — 若要將背景覆蓋設定為具有70%不透明度的灰色：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7backoverlay { 
@@ -106,36 +106,36 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-默认情况下，模态对话框以桌面系统屏幕的中心位置显示，并在触屏设备上占据整个网页区域。 在所有情况下，对话框的定位和大小调整均由组件进行管理。 使用以下CSS类选择器控制该对话框：
+依預設，強制回應對話方塊會以案頭系統熒幕的中心顯示，並會使用觸控裝置上的整個網頁區域。 在所有情況下，對話方塊的位置和大小都由元件管理。 此對話方塊由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialog
 ```
 
-**对话框的CSS属性**
+**對話方塊的CSS屬性**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框半径 </span> </p> </td> 
-   <td colname="col2"> <p> 对话框边框半径，以防对话框占用整个浏览器。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> 對話方塊邊框半徑（如果對話方塊未取用整個瀏覽器）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>对话框背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>對話方塊背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>应为未设置或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（在触屏设备上首选此模式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>应为未设置或设置为100%，在这种情况下，对话框将占据整个浏览器窗口（在触屏设备上首选此模式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要设置对话框以使用整个浏览器窗口并在触屏设备上显示白色背景，请执行以下操作：
+範例 — 若要設定對話方塊以使用整個瀏覽器視窗並在觸控裝置上擁有白色背景：
 
 ```
 .s7ecatalogviewer .s7touchinput .s7linkdialog .s7dialog { 
@@ -145,146 +145,146 @@ background-color: #ffffff;
 }
 ```
 
-对话框标题由图标、标题文本和关闭按钮组成。 标题容器通过
+對話方塊標頭包含圖示、標題文字和關閉按鈕。 標題容器的控制方式
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader
 ```
 
-**对话框标题的CSS属性**
+**對話方塊標頭的CSS屬性**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标题内容的内边距。 </p> </td> 
+   <td colname="col2"> <p> 標頭內容的內部內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-图标和标题文本将封装在通过
+圖示和標題文字會包裝進由控制的額外容器中
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
-**对话框行的CSS属性**
+**對話方塊行的CSS屬性**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标题图标和标题的内边距。 </p> </td> 
+   <td colname="col2"> <p> 標頭圖示和標題的內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-通过以下CSS类选择器控制标题图标
+頁首圖示由下列CSS類別選擇器控制
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheadericon
 ```
 
-**对话框标题图标的CSS属性**
+**對話方塊標頭圖示的CSS屬性**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>图标宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>圖示寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>图标高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>圖示高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>图标图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>圖示影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-通过以下CSS类选择器控制标题：
+標題標題由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheadertext
 ```
 
-**对话框标题文本的CSS属性**
+**對話方塊標頭文字的CSS屬性**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p>字体高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>字型高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部文本内边距。 </p> </td> 
+   <td colname="col2"> <p>內部文字內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用以下CSS类选择器控制“关闭”按钮：
+使用下列CSS類別選取器來控制「關閉」按鈕：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7closebutton
 ```
 
-**关闭按钮的CSS属性**
+**關閉按鈕的CSS屬性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 相对于标题容器的垂直按钮位置。 </p> </td> 
+   <td colname="col2"> <p> 相對於頁首容器的垂直按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 相对于标题容器的水平按钮位置。 </p> </td> 
+   <td colname="col2"> <p> 相對於頁首容器的水準按鈕位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>按钮的内边距。 </p> </td> 
+   <td colname="col2"> <p>按鈕的內部內距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>按钮图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-“关闭”按钮工具提示和对话框标题可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+「關閉」按鈕工具提示和對話方塊標題可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要设置一个对话框标题，其中包含内边距、22 x 12像素图标和粗体16点标题。 最后，一个28 x 28像素的“关闭”按钮，它位于距对话框容器顶部两个像素和距离对话框容器右侧两个像素的位置：
+範例 — 若要設定包含邊框間距的對話方塊標題，請以22 x 12畫素圖示和16點粗體標題設定。 最後，還有28 x 28畫素的「關閉」按鈕，此按鈕位於距離對話方塊容器上方的兩個畫素，以及距離右側的兩個畫素：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader { 
@@ -324,148 +324,148 @@ background-color: #ffffff;
 }
 ```
 
-对话框页脚由“取消”按钮组成。 使用以下CSS类选择器控制页脚容器：
+對話方塊頁尾包含取消按鈕。 頁尾容器由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter
 ```
 
-**对话框页脚的CSS属性**
+**對話方塊頁尾**的CSS屬性
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p> 用于以可视方式将页脚与对话框其余部分分开的边框。 </p> </td> 
+   <td colname="col2"> <p> 您可以用來在視覺上分隔頁尾與對話方塊其餘部分的邊框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-页脚具有一个保留按钮的内部容器。 它通过以下CSS类选择器进行控制：
+頁尾有保留按鈕的內部容器。 它由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**对话框按钮容器的CSS属性**
+**對話方塊按鈕容器的CSS屬性**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 页脚和按钮之间的内边距。 </p> </td> 
+   <td colname="col2"> <p> 頁尾與按鈕之間的內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用以下CSS类选择器控制“全选”按钮：
+「選取全部」按鈕由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogactionbutton
 ```
 
-该按钮仅在桌面系统上可用。
+此按鈕僅在桌上型電腦系統上可用。
 
-**“全选”按钮的CSS属性**
+**全選按鈕的CSS屬性**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->全选按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
+>全選按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-使用以下CSS类选择器控制“取消”按钮：
+取消按鈕由下列CSS類別選擇器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogcancelbutton
 ```
 
-**对话框取消按钮的CSS属性**
+**對話方塊取消按鈕的CSS屬性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，用于将不同的外观应用于不同的按钮状态。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-此外，两个按钮共享常用的CSS类，此类可包含与其他对话框按钮相同的CSS设置：
+此外，這兩個按鈕共用共用的CSS類別可以包含與其他對話方塊按鈕相同的CSS設定：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter .s7button
 ```
 
-**按钮的CSS属性**
+**按鈕的CSS屬性**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>按钮字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>按鈕字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p>按钮字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>按钮字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 行高 </span> </p> </td> 
-   <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col2"> <p> 按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框阴影 </span> </p> </td> 
-   <td colname="col2"> <p>投影。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col2"> <p>陰影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右侧 </span> </p> </td> 
-   <td colname="col2"> <p>右按钮边距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
+   <td colname="col2"> <p>右按鈕邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以对按钮工具提示进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要设置一个具有64 x 34取消按钮的对话框页脚，且每个按钮状态的文本颜色和背景颜色不同：
+範例 — 若要設定具有64 x 34 Cancel按鈕的對話方塊頁尾，讓每個按鈕狀態的文字顏色和背景顏色不同：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter { 
@@ -525,32 +525,32 @@ background-color: #ffffff;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，组件都会管理此区域的宽度，因为无法在CSS中设置它。 主对话框区域通过以下CSS类选择器进行控制：
+主要對話區域（在頁首和頁尾之間）包含對話內容。 在所有情況下，元件都會管理此區域的寬度，無法在CSS中加以設定。 主要對話方塊區域由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**对话框查看区域的CSS属性**
+對話方塊檢視區域的**CSS屬性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p> 主对话框区域的高度。 仅当对话框在桌面模式下工作时才应指定该对话框。 当调整对话框的大小以占用整个浏览器窗口时，它不适用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p> 主要對話方塊區域的高度。 只有在對話方塊在案頭模式中運作時，才應指定它。 當對話方塊的大小設定為佔據整個瀏覽器視窗時，此選項不適用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>主要對話方塊區域的背景顏色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外边距。 </p> </td> 
+   <td colname="col2"> <p>外部邊界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要将主对话框区域设置为300像素高、具有10像素边距并使用白色背景：
+範例 — 若要將主要對話方塊區域設定為300畫素高度、有10畫素邊界，並使用白色背景：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea { 
@@ -560,24 +560,24 @@ background-color: #ffffff;
 }
 ```
 
-所有表单内容（如标签和输入字段）都位于通过以下CSS类选择器控制的容器内：
+所有表單內容（例如標籤和輸入欄位）都位於由以下CSS類別選擇器控制的容器內：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbody
 ```
 
-**对话框主体的CSS属性**
+對話方塊主體**的**CSS屬性
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内边距。 </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 将表单内容设置为具有十个像素内边距：
+範例 — 若要設定表單內容為十畫素邊框間距：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbody { 
@@ -585,40 +585,40 @@ background-color: #ffffff;
 }
 ```
 
-对话框表单中的所有静态标签均使用
+對話方塊表單中的所有靜態標籤都由控制
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoglabel
 ```
 
-此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面中不同位置的文本。
+此類別不適合控制標籤大小或位置，因為您可以將其套用至表單使用者介面不同位置的文字。
 
-**对话框标签的CSS属性。 **
+對話方塊標籤的**CSS屬性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>标签字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p>标签字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>标记字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>標簽字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
-   <td colname="col2"> <p>标签文本颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>標籤文字色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以对对话框标签进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+對話方塊標籤可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要将所有标签设置为灰色、粗体，且字体为9像素，请执行以下操作：
+範例 — 將所有標籤設定為灰色、粗體加九畫素字型：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoglabel { 
@@ -628,28 +628,28 @@ background-color: #ffffff;
 }
 ```
 
-使用以下CSS类选择器控制链接顶部显示的文本副本大小：
+顯示在連結頂端的文字復本大小由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**对话框输入范围字段的CSS属性**
+**對話方塊輸入範圍欄位的CSS屬性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>文本宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>文字寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内边距。 </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 将文本副本设置为430像素宽，并在底部填充10个像素：
+範例 — 若要將文字副本設定為430畫素寬，並在底部有十個畫素的邊框間距：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputwide { 
@@ -658,28 +658,28 @@ background-color: #ffffff;
 }
 ```
 
-共享链接封装在容器中，并使用以下CSS类选择器进行控制：
+共用連結會包裝在容器中，並使用下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**对话框输入容器的CSS属性**
+**對話方塊輸入容器的CSS屬性**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>共享链接容器周围的边框。 </p> </td> 
+   <td colname="col2"> <p>共用連結容器周圍的邊框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内边距。 </p> </td> 
+   <td colname="col2"> <p>內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要在嵌入代码文本周围设置一个像素灰度边框，并且其内边距为9像素，请执行以下操作：
+範例 — 若要在內嵌程式碼文字周圍設定一個畫素的灰色邊框，且邊框間距為9畫素：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputcontainer { 
@@ -688,24 +688,24 @@ background-color: #ffffff;
 }
 ```
 
-共享链接本身由以下CSS类选择器控制：
+共用連結本身由下列CSS類別選取器控制：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoglink
 ```
 
-**对话框共享链接的CSS属性**
+**對話方塊共用連結的CSS屬性**
 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>共享链接宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>共用連結寬度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 将共享链接设置为450像素宽：
+範例 — 將共用連結設定為450畫素寬：
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoglink { 

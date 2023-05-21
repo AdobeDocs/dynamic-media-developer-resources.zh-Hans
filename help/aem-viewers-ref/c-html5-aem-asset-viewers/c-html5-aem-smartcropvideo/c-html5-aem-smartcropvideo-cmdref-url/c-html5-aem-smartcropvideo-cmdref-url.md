@@ -1,34 +1,35 @@
 ---
-title: 命令引用 — URL
-description: 智能裁剪视频查看器的命令参考文档。
+title: 命令參考 — URL
+description: 智慧型裁切視訊檢視器的命令參考檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: d0797c10-2379-45f7-9e8d-a5eb56638db8
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
-# 命令引用 — URL{#command-reference-url}
+# 命令參考 — URL{#command-reference-url}
 
-智能裁剪视频查看器的命令参考文档。
+智慧型裁切視訊檢視器的命令參考檔案。
 
-您可以在URL中设置任何配置命令。 或者，您也可以使用API方法 `setParam()`或 `setParams()`，或同时用于设置任何配置命令。 您还可以在服务器端配置记录中指定任何配置属性。
+您可以在URL中設定任何組態命令。 或者，您可以使用API方法 `setParam()`，或 `setParams()`，或兩者來設定任何組態命令。 您也可以在伺服器端組態記錄中指定任何組態屬性。
 
-您可以为某些配置命令添加前缀，其中包含类名称或相应查看器SDK组件的实例名称。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` API方法。 文档包含此类命令的可选前缀。 例如， `playback` 记录如下：
+您可以使用類別名稱或對應的Viewer SDK元件的執行個體名稱為某些設定命令加上前置詞。 元件的例項名稱是動態的，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` api方法。 說明檔案包含這類命令的選用首碼。 例如， `playback` 記錄如下：
 
 ```
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-这表示此命令的使用方式如下：
+這表示此指令的使用方式如下：
 
-* `playback` （短语法）
-* `SmartCropVideoPlayer.playback` （使用组件类名称限定）
-* `cont_smartCropVideoPlayer.playback` (使用组件ID进行鉴别，假定 `cont` 是容器元素的ID)
+* `playback` （簡短語法）
+* `SmartCropVideoPlayer.playback` （以元件類別名稱限定）
+* `cont_smartCropVideoPlayer.playback` (以元件ID限定，假設 `cont` 是容器元素的ID)
 
-另请参阅 [所有查看器通用的命令引用 — 配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd).
+另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd).
 
-另请参阅 [所有查看器 — URL通用的命令引用](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226).
+另請參閱 [所有檢視器通用的命令參考 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226).

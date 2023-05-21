@@ -1,6 +1,6 @@
 ---
-title: 改变材料不透明度
-description: 对于应用于重叠对象的纯色和可重复纹理，以及贴花和窗口覆盖材料，支持可变的不透明度。
+title: 不同材質不透明度
+description: 實色和套用至重疊物件的可重複紋理，以及貼花和視窗遮蓋材料都支援可變不透明度。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 改变材料不透明度{#varying-material-opacity}
+# 不同材質不透明度{#varying-material-opacity}
 
-对于应用于重叠对象的纯色和可重复纹理，以及贴花和窗口覆盖材料，支持可变的不透明度。
+實色和套用至重疊物件的可重複紋理，以及貼花和視窗遮蓋材料都支援可變不透明度。
 
-通过使用带有Alpha通道的RGB图像，可以简单地提供不透明度信息。 此外，整体不透明度可随 `opacity=` 命令(对于RGB和RGBA图像)。
+只要使用具有Alpha色版的RGB影像，即可提供不透明度資訊。 此外，整體不透明度可隨以下專案變化： `opacity=` 指令(適用於RGB和RGBA影像)。
 
-墙边界还支持RGBA图像，主要用于支持模切边界。
+壁邊界也支援RGBA影像，主要是為了支援壓鑄模切削邊界。
 
-的 [!DNL vnw] 定义窗口覆盖的文件可以包括不透明度通道。 它由渲染器与可重复纹理的Alpha通道和 `opacity=` 值，为透明和半透明的窗口处理提供全方位的不透明效果。
+此 [!DNL vnw] 定義視窗涵蓋範圍的檔案可包含不透明度通道。 它由轉譯器與可重複紋理的Alpha色版結合，並且 `opacity=` 其價值在於提供各種不透明效果，適用於透明和半透明視窗處理。

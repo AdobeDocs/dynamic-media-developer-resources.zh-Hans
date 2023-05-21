@@ -1,6 +1,6 @@
 ---
-title: 命令引用 — URL
-description: 轮播查看器的命令参考文档。
+title: 命令參考 — URL
+description: 轉盤檢視器的命令參考檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 命令引用 — URL{#command-reference-url}
+# 命令參考 — URL{#command-reference-url}
 
-轮播查看器的命令参考文档。
+轉盤檢視器的命令參考檔案。

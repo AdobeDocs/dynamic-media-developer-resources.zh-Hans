@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.mutevolume
-description: 视频查看器的配置属性。
+description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-视频查看器的配置属性。
+視訊檢視器的設定屬性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,14 +22,14 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在初始加载时设置视频播放的静音模式。 如果设置为 <span class="codeph"> 1 </span> 音量已静音；否则，视频将播放声音。 在某些设备上，在加载时静音播放也允许视频自动播放。 </p> </td> 
+   <td colname="col2"> <p> 設定初次載入時視訊播放的靜音模式。 若設為 <span class="codeph"> 1 </span> 音量會靜音，否則視訊會播放聲音。 在某些裝置上，載入時將視訊播放設為靜音也會允許視訊自動播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

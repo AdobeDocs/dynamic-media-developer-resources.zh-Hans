@@ -1,20 +1,20 @@
 ---
-description: 遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
+description: 遮色部分影像。 遮色片一律與影像相關聯。 從ImageInfo取得遮色片。
 solution: Experience Manager
-title: 蒙版
+title: 遮色片
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
 # [!DNL Mask]{#mask}
 
-遮罩图像的一部分。 蒙版始终与图像关联。 从ImageInfo获取蒙版。
+遮色部分影像。 遮色片一律與影像相關聯。 從ImageInfo取得遮色片。
 
 语法
 
@@ -22,8 +22,8 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| maskHandle | `xsd:string` | 口罩手柄。 |
-| name | `xsd:string` | 掩码名称。 |
-| maskPath | `xsd:string` | 蒙版的相对路径。 |
-| maskFile | `xsd:string` | 蒙版文件. |
-| lastModified | `types:dateTime` | 上次修改掩码的日期、时间和时区。 |
+| 遮色片控點 | `xsd:string` | 遮色片控點。 |
+| 名称 | `xsd:string` | 遮色片名稱。 |
+| 遮色片路徑 | `xsd:string` | 遮色片的相對路徑。 |
+| 遮色片檔案 | `xsd:string` | 遮色片檔案。 |
+| lastModified | `types:dateTime` | 上次修改遮罩的日期、時間和時區。 |

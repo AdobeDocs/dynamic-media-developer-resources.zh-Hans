@@ -1,7 +1,7 @@
 ---
-description: 为上传作业自动设置生成脚本列表。 假定为上传指定的每个脚本都会应用于所有上传的资产。
+description: 上傳工作的自動設定產生指令碼清單。 假設為上傳指定的每個指令碼都會套用至所有上傳的資產。
 solution: Experience Manager
-title: AutoSetCreationOptions
+title: 自動設定建立選項
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-为上传作业自动设置生成脚本列表。 假定为上传指定的每个脚本都会应用于所有上传的资产。
+上傳工作的自動設定產生指令碼清單。 假設為上傳指定的每個指令碼都會套用至所有上傳的資產。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 7%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | 数组 [!DNL PropertySet] 处理定义在上传期间应用的自动设置生成脚本。 |
+| autoSetsArray | `types:HandleArray` | 陣列 [!DNL PropertySet] 處理常式定義上載期間套用的自動集合產生指令碼。 |

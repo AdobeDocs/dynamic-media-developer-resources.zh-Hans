@@ -1,7 +1,7 @@
 ---
-description: 确定要从搜索结果中排除的生成引擎和生成的资产类型。
+description: 決定要從搜尋結果中排除的產生引擎和產生的資產型別。
 solution: Experience Manager
-title: ExcludeBybloudCondition
+title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
-确定要从搜索结果中排除的生成引擎和生成的资产类型。
+決定要從搜尋結果中排除的產生引擎和產生的資產型別。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | 创建要排除的资产的生成引擎。 有关值，请参阅生成信息。 |
-| generatedAssetType | `xsd:string` | 排除的资产类型。 有关值，请参阅资产类型。 |
+| [!DNL engine] | `xsd:string` | 建立您要排除之資產的產生引擎。 如需相關值，請參閱產生資訊。 |
+| generatedAssetType | `xsd:string` | 排除的資產型別。 請參閱資產型別以瞭解值。 |

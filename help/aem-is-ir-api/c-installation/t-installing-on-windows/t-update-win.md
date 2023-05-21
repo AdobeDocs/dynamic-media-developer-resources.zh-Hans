@@ -1,6 +1,6 @@
 ---
-title: 从IS 4.7.4或更高版本进行更新
-description: 升级Dynamic Media图像服务时，请使用此过程。
+title: 從IS 4.7.4或更新版本更新
+description: 升級Dynamic Media影像伺服時請使用此程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# 从IS 4.7.4或更高版本进行更新{#updating-from-is-or-later}
+# 從IS 4.7.4或更新版本更新{#updating-from-is-or-later}
 
-升级Dynamic Media图像服务时，请使用此过程。
+升級Dynamic Media影像伺服時請使用此程式。
 
-如果您从旧版图像服务升级，请联系支持人员以获取正确的过程。
+如果您從舊版的「影像伺服」進行升級，請聯絡支援以取得正確的程式。
 
 >[!NOTE]
 >
->的 [!DNL webapps] 升级时可删除文件夹。 备份 [!DNL webapps] 文件夹。
+>此 [!DNL webapps] 升級時可能會刪除資料夾。 備份 [!DNL webapps] 資料夾（升級前）。
 
-1. 使用管理权限登录服务器主机。
-1. 提取图像服务分发zip文件的内容。
-1. 通过运行 `setup/setup.exe`.
-1. 选择 **[!UICONTROL 下一个]** 要前进到最终用户许可协议(EULA)，请阅读许可协议，然后选择 **[!UICONTROL 是]**.
+1. 以管理許可權登入您的伺服器主機。
+1. 解壓縮「影像伺服」發佈zip檔案的內容。
+1. 執行以啟動安裝精靈 `setup/setup.exe`.
+1. 選取 **[!UICONTROL 下一個]** 若要前進到使用者授權合約(EULA)，請閱讀授權合約，然後選取 **[!UICONTROL 是]**.
 
-   下一页显示之前的配置设置。
-1. 单击 **[!UICONTROL 下一个]** 以启动更新安装。
+   下一頁顯示先前的組態設定。
+1. 按一下 **[!UICONTROL 下一個]** 以開始更新安裝。
 
    >[!NOTE]
    >
-   >安装程序将旧的服务器配置文件备份到 [!DNL BACKUP/] 文件夹。
+   >安裝程式會將舊伺服器組態檔備份至 [!DNL BACKUP/] 資料夾。
 
-1. 安装完成后，选择 **[!UICONTROL 完成]** 退出安装向导。
+1. 安裝完成後，請選取 **[!UICONTROL 完成]** 以結束安裝精靈。
 
-   有时，安装向导可能会要求您重新启动系统。
+   有時安裝精靈可能會要求您重新開機。
 
-在更新期间， [!DNL ImageServing/conf/server.xml] 文件将更新为最新设置。 如果您更改或添加了任何值，则应保存现有的 [!DNL server.xml] 和会在升级后重新实施您所做的更改。
+在更新期間， [!DNL ImageServing/conf/server.xml] 檔案已更新至最新設定。 如果您已變更或新增任何值，則應儲存現有的 [!DNL server.xml] 並在升級後重新實作變更。
 
-安装更新后，请考虑在使服务器处于活动状态之前预热HTTP响应缓存。 请参阅 `playlog` 实用程序。
+更新安裝後，請考慮先預熱HTTP回應快取，再讓伺服器上線。 請參閱 `playlog` 公用程式以取得詳細資訊。

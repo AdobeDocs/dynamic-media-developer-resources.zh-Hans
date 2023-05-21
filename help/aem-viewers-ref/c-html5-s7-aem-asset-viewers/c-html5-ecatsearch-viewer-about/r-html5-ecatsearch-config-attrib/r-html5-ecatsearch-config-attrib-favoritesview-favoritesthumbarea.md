@@ -2,13 +2,13 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 3a0a7482-315f-4192-aa6d-e9cc1415194f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 区域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定“收藏夹”缩略图的裁剪区域。 以相对于总帧大小的相对值表示，范围为<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值<span class="codeph"> 1</span>表示整个帧图像用于缩略图。 </p> <p>值<span class="codeph"> 0.1</span>表示仅使用帧大小的10%。 </p> </td> 
+   <td colname="col2"> <p> 指定我的最愛縮圖的裁切區域。 以相對於影格總大小的值表示，範圍介於 <span class="codeph"> 0</span> 至 <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 這表示整個影格影像會用於縮圖。 </p> <p>值 <span class="codeph"> 0.1</span> 表示只會使用框架大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,20 +1,20 @@
 ---
-description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
+description: 說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
 solution: Experience Manager
 title: 资源类型
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
 # 资源类型{#asset-types}
 
-描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
+說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
 
 语法
 

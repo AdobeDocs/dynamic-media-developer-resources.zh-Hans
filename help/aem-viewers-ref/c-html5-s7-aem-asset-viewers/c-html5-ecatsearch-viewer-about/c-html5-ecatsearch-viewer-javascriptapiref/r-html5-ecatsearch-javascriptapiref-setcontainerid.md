@@ -1,37 +1,37 @@
 ---
-description: eCatalog查看器的JavaScript API引用。
+description: eCatalog檢視器的JavaScript API參考。
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: f1491091-f109-4836-b7f1-ad0619b72dce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-eCatalog查看器的JavaScript API引用。
+eCatalog檢視器的JavaScript API參考。
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-设置将查看器插入其中的`DOM`容器（通常为`DIV`）的ID。 无需在调用此方法之前创建容器元素。 但是，运行`init()`时，容器必须存在。 必须在`init()`之前调用。
+設定ID `DOM` 容器(通常為 `DIV`)，檢視器會插入其中。 不需要在呼叫此方法時建立容器元素。 不過，容器必須存在於 `init()` 執行前填入。 必須在之前呼叫它 `init()`.
 
-如果查看器配置信息与`config` JSON对象一起传递到构造函数，则此方法是可选的。
+如果檢視器組態資訊是透過以下方式傳遞，則此方法為選用： `config` 建構函式的JSON物件。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 容器的{ </span> string} ID。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 容器的ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

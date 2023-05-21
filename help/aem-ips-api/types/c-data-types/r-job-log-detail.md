@@ -1,7 +1,7 @@
 ---
-description: 作业日志信息。
+description: 工作記錄檔資訊。
 solution: Experience Manager
-title: JobLogDetail
+title: 工作記錄詳細資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL JobLogDetail]{#joblogdetail}
 
-作业日志信息。
+工作記錄檔資訊。
 
 语法
 
@@ -22,9 +22,9 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| logMessage | `xsd:string` | 作业日志中的消息。 |
-| logType | `xsd:string` | 作业日志文件类型。 |
-| assetName | `xsd:string` | 作业日志中资产的名称（可选）。 |
-| assetType | `xsd:string` | 资产类型的选择。 |
-| assetHandle | `xsd:string` | 作业日志中引用的资产句柄。 |
-| auxArray | `types:JobLogDetailAuxArray` | 提供上述五个作业日志类型以外的其他详细作业日志信息。 |
+| logMessage | `xsd:string` | 工作記錄檔中的訊息。 |
+| logType | `xsd:string` | 工作記錄檔型別。 |
+| assetName | `xsd:string` | 工作記錄檔中的資產名稱（選擇性）。 |
+| assetType | `xsd:string` | 資產型別的選擇。 |
+| assetHandle | `xsd:string` | 工作記錄檔中參照的資產控制代碼。 |
+| auxArray | `types:JobLogDetailAuxArray` | 提供上述五種工作記錄型別以外的其他詳細工作記錄資訊。 |

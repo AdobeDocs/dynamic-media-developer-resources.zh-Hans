@@ -8,7 +8,7 @@ exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>指定组件预加载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，组件会在空闲状态下预加载所有轮播帧。 </p> <p>当设置为<span class="codeph"> 0</span>时，组件仅加载当前可见的帧、前一帧和下一帧。 </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbr定义在空闲状态下预加载当前显示框架周围的不可见框架数量。 </p> </td> 
+   <td> <p>指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 處於閒置狀態時，元件會預先載入所有輪播影格。 </p> <p>當設定為 <span class="codeph"> 0</span> 元件僅載入目前可見的影格、上一個影格和下一個影格。 </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span>定義在閒置狀態中，目前顯示影格周圍預先載入的不可見影格數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

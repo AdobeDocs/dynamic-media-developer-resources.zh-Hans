@@ -1,22 +1,22 @@
 ---
-description: 多比特率数据。
+description: 多位元速率資料。
 solution: Experience Manager
 title: mbrSet
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '259'
 ht-degree: 4%
 
 ---
 
 # mbrSet{#mbrset}
 
-多比特率数据。
+多位元速率資料。
 
-`req=mbrSet[,text|xml[, *``*]][&fmt= *`encodingfmtType`*]`
+`req=mbrSet[,text|xml[, *`編碼`*]][&fmt= *`fmtType`*]`
 
 <table id="simpletable_D2B8704E09B34337870A257CD7CB5C56"> 
  <tr class="strow"> 
@@ -29,16 +29,16 @@ ht-degree: 4%
  </tr> 
 </table>
 
-返回文本或xml响应，该响应包含与与网络路径ID关联的视频集中的有效视频条目相对应的URL列表（及相应的比特率）。
+傳回文字或xml回應，其中包含URL清單（以及對應的位元速率），這些清單會對應到與網路路徑ID相關聯之視訊集中的有效視訊專案。
 
-以前关于有效视频条目包含`catalog::VideoBitRate`值的要求现已放宽。 该条目可以包含&#x200B;`catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`的值。 只需定义其中一项，视频条目即可生效。 请注意，`catalog::Path`和有效视频文件扩展名的要求未更改。
+先前要求有效的視訊專案必須包含 `catalog::VideoBitRate` 現在已放鬆。 此專案可包含的值 `catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`. 您只需要定義其中一個專案，視訊專案才能有效。 請注意， `catalog::Path` 和有效的視訊副檔名尚未變更。
 
-响应旨在供Apple和Flash流服务器使用，因此在结构上符合这些规范。 URL使用前缀`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成。
+回應旨在供Apple和Flash串流伺服器使用，因此在結構上符合這些規格。 URL是使用字首產生 `attribute::HttpAppleStreamingContext` 和 `attribute::HttpFlashStreamingContext`.
 
-m3u8响应仅包含mp4文件（如果视频集中存在）。 如果不存在mp4文件，则这些响应仅包含f4v文件。 如果不存在mp4文件或f4v文件，则响应为空。
+m3u8回應僅包含mp4檔案（如果視訊集中存在任何檔案）。 如果沒有mp4檔案，則這些回應僅包含f4v檔案。 如果沒有mp4檔案或f4v檔案，則回應會是空的。
 
-如果视频集中存在f4v文件，则f4m响应仅包含f4v文件。 如果不存在f4v文件，则这些响应将仅包含mp4文件。 如果不存在f4v文件或mp4文件，则响应为空。
+f4m回應只包含f4v檔案（如果視訊集中存在任何檔案）。 如果沒有f4v檔案，則這些回應只會包含mp4檔案。 如果沒有f4v檔案或mp4檔案，則回應會是空的。
 
-f4m/m3u8响应中显示的比特率与`catalog::TotalStreamBitRate`中的值相对应（转换为相应的单位）。 如果未定义`catalog::TotalStreamBitRate`，则使用`catalog::VideoBitRate`和`catalog::AudioBitRate`的总和。
+顯示在f4m/m3u8回應中的位元速率，會對應至 `catalog::TotalStreamBitRate` （轉換為適當的單位）。 若 `catalog::TotalStreamBitRate` 未定義，總和為 `catalog::VideoBitRate` 和 `catalog::AudioBitRate` 已使用。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::NonImgExpiration`.

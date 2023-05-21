@@ -1,5 +1,5 @@
 ---
-description: PostScript文件属性。
+description: PostScript檔案屬性。
 solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL GenerationInfo]{#generationinfo}
 
-PostScript文件属性。
+PostScript檔案屬性。
 
 语法
 
@@ -22,7 +22,7 @@ PostScript文件属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | 使用的生成引擎（有关值，请参阅“生成信息”）。 |
-| [!DNL originator] | `types:Asset` | 生成中使用的主资产的资产记录。 |
-| [!DNL generated] | `types:Asset` | 生成的资产的资产记录。 |
-| attributeArray | `types:GenerationAttributeArray` | 与生成过程关联的属性数组。 |
+| [!DNL engine] | `xsd:string` | 使用的產生引擎（請參閱「產生資訊」以瞭解值）。 |
+| [!DNL originator] | `types:Asset` | 產生中使用的主要資產的資產記錄。 |
+| [!DNL generated] | `types:Asset` | 所產生資產的資產記錄。 |
+| 屬性陣列 | `types:GenerationAttributeArray` | 與產生程式相關聯的屬性陣列。 |

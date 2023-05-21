@@ -1,60 +1,60 @@
 ---
-description: 以下选项控制晕影文件的处理。 如果sourceFile不是晕影，则忽略它们。
+description: 下列選項可控制暈映檔案的處理。 如果sourceFile不是暈映，則會忽略它們。
 solution: Experience Manager
-title: 晕影选项
-feature: Dynamic Media Classic，SDK/API
+title: 暈映選項
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# 晕影选项{#options-for-vignettes}
+# 暈映選項{#options-for-vignettes}
 
-以下选项控制晕影文件的处理。 如果sourceFile不是晕影，则忽略它们。
+下列選項可控制暈映檔案的處理。 如果sourceFile不是暈映，則會忽略它們。
 
 <table id="simpletable_6D0C967EB84947FBAC34B46C4BB23AF0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -内容</span> </p></td> 
-  <td class="stentry"> <p>创建表示对象层次结构并包括所选对象属性的XML文件。 文件内容与<span class="codeph"> req=contents</span>命令返回的内容相同。 文件与源文件同名，但后缀为<span class="filepath"> .xml</span>。 </p></td> 
+  <td class="stentry"> <p>建立代表物件階層的XML檔案，並包含選取的物件屬性。 檔案的內容與傳回的內容相同。 <span class="codeph"> req=contents</span> 命令。 該檔案的名稱與來源檔案相同，但具有 <span class="filepath"> .xml</span> 字尾。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> — 农作物 <span class="varname"> </span><span class="varname"> </span><span class="varname"> </span><span class="varname"> 木</span></span> </p></td> 
-  <td class="stentry"> <p>在缩放前裁剪晕影。 </p> <p><span class="codeph"><span class="varname"> x</span>、<span class="varname"> </span></span> 是裁剪矩形的左上角， <span class="codeph"><span class="varname"> wid</span>、<span class="varname"> </span></span> 是裁剪矩形的大小。值是相对于源晕影的全分辨率视图图像的像素坐标。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">-crop <span class="varname"> x</span><span class="varname"> y</span><span class="varname"> wid</span><span class="varname"> hei</span></span> </p></td> 
+  <td class="stentry"> <p>縮放前裁切暈映。 </p> <p><span class="codeph"><span class="varname"> x</span>，<span class="varname"> y</span></span> 是裁切矩形的左上角，並且 <span class="codeph"><span class="varname"> wid</span>，<span class="varname"> hei</span></span> 是裁切矩形的大小。 值是相對於來源暈映之完整解析度檢視影像的畫素座標。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-cropn xnynwidnhein <span class="varname"> </span><span class="varname"> </span><span class="varname"> </span><span class="varname"> </span></span> </p> </td> 
-  <td class="stentry"> <p>在缩放前裁剪晕影。 </p> <p><span class="codeph"><span class="varname"> xn</span>、<span class="varname"> </span></span> yn是裁剪矩形的左上角， <span class="codeph"><span class="varname"> widn</span>和<span class="varname"> </span></span> hein是裁剪矩形的大小。值是相对于源晕影的视图图像进行标准化的，且必须介于0.0..1.0之间。 </p> <p><span class="codeph"><span class="varname"> xn</span></span>+<span class="codeph"><span class="varname"> </span></span> widnand  <span class="codeph"><span class="varname"> yn</span></span>+<span class="codeph"><span class="varname"> </span></span> hein不得大于1.0。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">-cropn <span class="varname"> xn</span><span class="varname"> yn</span><span class="varname"> 寬度</span><span class="varname"> hein</span></span> </p> </td> 
+  <td class="stentry"> <p>縮放前裁切暈映。 </p> <p><span class="codeph"><span class="varname"> xn</span>，<span class="varname"> yn</span></span> 是裁切矩形的左上角，並且 <span class="codeph"><span class="varname"> 寬度</span>，<span class="varname"> hein</span></span> 是裁切矩形的大小。 值會相對於來源暈映的檢視影像進行標準化，且必須介於0.0...1.0之間。 </p> <p><span class="codeph"><span class="varname"> xn</span></span>+<span class="codeph"><span class="varname"> 寬度</span></span> 和 <span class="codeph"><span class="varname"> yn</span></span>+<span class="codeph"><span class="varname"> hein</span></span> 不得大於1.0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 埋藏材料</span> </p></td> 
-  <td class="stentry"> <p>在输出晕影中保留嵌入的材料。 默认情况下，将从输出晕影中移除材料。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">  — 內嵌資料</span> </p></td> 
+  <td class="stentry"> <p>將內嵌材質保留在輸出暈映中。 依預設，材料會從輸出暈映中移除。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-height  <span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>一个或多个输出晕影高度（以像素为单位）。 如果指定了 — info，则忽略。 <span class="varname"> </span> 值可以为0，表示输入晕影的宽度。有关详细信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a> 。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">-height <span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p>一或多個輸出暈映高度（畫素）。 如果指定 — info，則忽略。 <span class="varname"> ival</span> 可以是0，代表輸入暈映的寬度。 另請參閱 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> 暈映縮放</a> 詳細資訊。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -imagemap</span> </p></td> 
-  <td class="stentry"> <p>允许从晕影中提取图像映射文件。 映射数据将写入仅包含<span class="codeph"> &lt;map&gt;</span>元素的HTML文件。 输出文件的名称与输出图像文件相同，但带有<span class="filepath"> .htm</span>后缀。 如果指定了命令，但晕影中没有映射数据，则会生成警告消息，并且不会创建文件。 </p></td> 
+  <td class="stentry"> <p>啟用從暈映擷取影像地圖檔案。 HTML對應資料會寫入只包含 <span class="codeph"> &lt;map&gt;</span> 元素。 輸出檔案的名稱與輸出影像檔案相同，但具有 <span class="filepath"> .htm</span> 字尾。 如果指定命令，但暈映中沒有對應資料，則會產生警告訊息且不會建立檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -配置文件</span> </p></td> 
-  <td class="stentry"> <p>将嵌入到晕影中的ICC配置文件的副本保存到文件。 如果指定了命令，但晕影中不存在ICC配置文件，则会生成警告消息，并且不会创建ICC配置文件。 </p></td> 
+  <td class="stentry"> <p>將內嵌於暈映中的ICC設定檔復本儲存至檔案。 如果指定命令，但暈映中沒有ICC設定檔，則會產生警告訊息，且不會建立ICC設定檔檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">  — 金字塔</span> </p></td> 
-  <td class="stentry"> <p>创建金字塔晕影。 使用Dynamic Media缩放查看器显示渲染的图像时需要此参数。 有关其他信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a> 。 </p></td> 
+  <td class="stentry"> <p>建立金字塔暈映。 當使用Dynamic Media縮放檢視器顯示演算後的影像時為必要。 另請參閱 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> 暈映縮放</a> 以取得其他資訊。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>缩略图像的像素宽度和高度约束。 如果指定，则从晕影视图图像、柜式文件的面板图像或窗口覆盖样式文件中第一样式的照明映射中生成不大于<span class="varname"> ival</span>的JPEG图像。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">-thumbwidth <span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p>縮圖影像的畫素寬度和高度限制。 如果指定，則JPEG影像不寬也不高 <span class="varname"> ival</span> 會從暈映檢視影像、封包樣式檔案的面板影像或視窗覆蓋樣式檔案中第一個樣式的照明地圖產生。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-width  <span class="varname"> ival</span> *[,<span class="varname"> ival</span>]</span> </p></td> 
-  <td class="stentry"> <p>一个或多个输出晕影宽度（以像素为单位）。 如果指定了<span class="codeph"> -info</span>，则忽略。 <span class="varname"> </span> 值可以为0，表示输入晕影的高度。有关详细信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a> 。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">-width <span class="varname"> ival</span> *[，<span class="varname"> ival</span>]</span> </p></td> 
+  <td class="stentry"> <p>一或多個輸出暈映寬度（畫素）。 忽略條件 <span class="codeph"> -info</span> 已指定。 <span class="varname"> ival</span> 可以是0，代表輸入暈映的高度。 另請參閱 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> 暈映縮放</a> 詳細資訊。 </p></td> 
  </tr> 
 </table>

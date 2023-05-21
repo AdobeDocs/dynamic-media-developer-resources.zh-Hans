@@ -1,42 +1,42 @@
 ---
-description: 缩放图像目录中的目标数据。 返回在URL路径中指定的图像目录条目的缩放目标数据。
+description: 從影像目錄縮放目標資料。 針對URL路徑中指定的影像目錄專案，傳回縮放目標資料。
 solution: Experience Manager
 title: 目标
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '181'
 ht-degree: 8%
 
 ---
 
 # 目标{#targets}
 
-缩放图像目录中的目标数据。 返回在URL路径中指定的图像目录条目的缩放目标数据。
+從影像目錄縮放目標資料。 針對URL路徑中指定的影像目錄專案，傳回縮放目標資料。
 
-`req=targets[,text|{xml[, *``*]}|{json[&id= *`encodeingreqId`*]}]`
+`req=targets[,text|{xml[, *`編碼`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D64E706258FD4A9C9C8026D97B472FCC"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 编码</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 編碼</span> </span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>唯一请求标识符。 </p></td> 
+  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
  </tr> 
 </table>
 
-返回`catalog::Targets`的内容。 当请求“text”格式时，`catalog::Targets`中`??`的所有实例都由行终止符替换，并在末尾附加单行终止符(`CR/LF`)。 如果URL路径未解析为有效的目录条目，则响应只包含单个行终结器。 请求“xml”或“json”格式时，会应用适当的格式。
+以下專案的內容： `catalog::Targets` 會傳回。 要求&#39;text&#39;格式時，所有例項 `??` 在 `catalog::Targets` 取代為直線終止元和單一直線終止元( `CR/LF`)會附加至結尾。 如果URL路徑無法解析為有效的目錄專案，回應只會包含單行終止元。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
 
-请求字符串中的其他命令将被忽略。
+請求字串中的其他命令會被忽略。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.

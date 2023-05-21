@@ -1,6 +1,6 @@
 ---
-title: 设置指示器
-description: 设置指示器是在触控设备上使用查看器时，在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点图可帮助用户在缩略图的页面中导航。
+title: 設定指標
+description: 設定指標是在觸控裝置上使用檢視器時，在主要色票上彩現的一系列點。 無法使用捲動按鈕時，圓點可協助使用者瀏覽縮圖頁面。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 设置指示器{#set-indicator}
+# 設定指標{#set-indicator}
 
-设置指示器是在触控设备上使用查看器时，在主色板上呈现的一系列点。 当滚动按钮不可用时，这些圆点图可帮助用户在缩略图的页面中导航。
+設定指標是在觸控裝置上使用檢視器時，在主要色票上彩現的一系列點。 無法使用捲動按鈕時，圓點可協助使用者瀏覽縮圖頁面。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**设置指示器的CSS属性**
+**設定指標的CSS屬性**
 
-使用以下CSS类选择器控制设置指示器容器的外观：
+設定指示器容器的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -29,19 +29,19 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>以十六进制格式表示的设置指示器的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>設定指示器的十六進位格式的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要创建具有白色背景的设置指示器：
+範例 — 若要建立具有白色背景的設定指標：
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -49,58 +49,58 @@ ht-degree: 1%
 }
 ```
 
-单个设置指示器点的外观由CSS类选择器控制：
+個別設定指標點的外觀是由CSS類別選取器所控制：
 
 `.s7mixedmediaviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>设置指示器点的宽度。 </p> </td> 
+   <td colname="col2"> <p>設定指標點的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>设置指示器点的高度。 </p> </td> 
+   <td colname="col2"> <p>設定指標點的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 左 </span> </p> </td> 
-   <td colname="col2"> <p>左边距（以像素为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
+   <td colname="col2"> <p>以畫素為單位的左側邊界。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部 </span> </p> </td> 
-   <td colname="col2"> <p>上边距（以像素为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
+   <td colname="col2"> <p>上邊界（畫素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距右侧 </span> </p> </td> 
-   <td colname="col2"> <p>右边距（以像素为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
+   <td colname="col2"> <p>以畫素為單位的右邊界。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 底部 </span> </p> </td> 
-   <td colname="col2"> <p>下边距（以像素为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 下方邊界 </span> </p> </td> 
+   <td colname="col2"> <p>下方邊界（畫素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框半径 </span> </p> </td> 
-   <td colname="col2"> <p>边框半径（以像素为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p>邊框半徑（畫素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>以十六进制格式表示的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->设置指示器圆点支持 `state` 属性选择器，用于将不同的外观应用到不同的缩略图状态。 特别是， `state="selected"` 对应于当前的缩略图页面， `state="unselected"` 对应于默认点状态。
+>設定指標點支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應至目前的縮圖頁面， `state="unselected"` 對應至預設點狀態。
 
-示例 — 创建一个15 x 15像素的设置指示点，其中包含两个像素水平边距、五个像素顶边距、一个像素底边距、12像素半径、#D5D3D3默认颜色和#939393活颜色：
+範例 — 若要建立一個15 x 15畫素的設定指標點，並具有2畫素水準邊界、5畫素上邊界、1畫素下邊界、12畫素半徑、#D5D3D3預設顏色和#939393個作用中顏色：
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

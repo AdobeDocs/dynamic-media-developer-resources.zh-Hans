@@ -1,6 +1,6 @@
 ---
-title: HTTP协议命令参考
-description: 此命令引用提供有关HTTP协议命令的详细信息。
+title: HTTP通訊協定命令參考
+description: 此命令參考提供有關HTTP通訊協定命令的詳細資訊。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP协议命令参考 {#http-protocol-command-reference}
+# HTTP通訊協定命令參考 {#http-protocol-command-reference}
 
-此命令引用提供有关HTTP协议命令的详细信息。
+此命令參考提供有關HTTP通訊協定命令的詳細資訊。

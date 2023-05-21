@@ -1,20 +1,20 @@
 ---
-description: 由SystemFieldCondition/field使用。
+description: 由SystemFieldCondition/欄位使用。
 solution: Experience Manager
-title: 资产搜索系统字段
-feature: Dynamic Media Classic，SDK/API，资产管理
+title: 資產搜尋系統欄位
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4ceba799-ff4d-4671-88cc-d85650d4995c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# 资产搜索系统字段{#asset-search-system-fields}
+# 資產搜尋系統欄位{#asset-search-system-fields}
 
-由SystemFieldCondition/field使用。
+由SystemFieldCondition/欄位使用。
 
 语法
 

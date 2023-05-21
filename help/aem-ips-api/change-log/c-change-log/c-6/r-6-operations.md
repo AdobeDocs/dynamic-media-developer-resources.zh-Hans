@@ -1,24 +1,24 @@
 ---
-description: 介绍IPS API版本6的新操作方法和更改的操作方法。
+description: 說明IPS API第6版新的和變更的作業方法。
 solution: Experience Manager
-title: 操作（新增和修改）
-feature: Dynamic Media Classic，SDK/API
+title: 新作業和修改作業
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
-# 操作：新建和已修改{#operations-new-and-modified}
+# 作業：新增與修改{#operations-new-and-modified}
 
-介绍IPS API版本6的新操作方法和更改的操作方法。
+說明IPS API第6版新的和變更的作業方法。
 
 语法
 
-## 新操作 {#section-088502a0746945f28a5ea100cd655bc6}
+## 新作業 {#section-088502a0746945f28a5ea100cd655bc6}
 
 * `batchGetAssetPublishContexts`
 * `getPublishContexts`
@@ -27,29 +27,29 @@ ht-degree: 5%
 * `updateAssetSet`
 * `updateImageSet`
 
-## 修改的操作 {#section-f4e8755527444266ae806e3f4c851ae6}
+## 已修改的作業 {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **增加了**
 
-* 已将`isHidden`和`initialTagValue`添加到：
+* 已新增 `isHidden` 和 `initialTagValue` 至：
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 已将`thumbAssetHandle`添加到：
+* 已新增 `thumbAssetHandle` 至：
 
    * `createImageSet`
    * `createAssetSet`
 
-   已将`companyHandle`添加到：
+   已新增 `companyHandle` 至：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   已将`contextHandle`添加到：
+   已新增 `contextHandle` 至：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -58,32 +58,32 @@ ht-degree: 5%
 
 
 
-* 已将includeInactive添加到：
+* 將includeInactive新增至：
 
    * `getUsers`.
    * `getUserChars`.
 
-* 已将`permissionArray`添加到`createPropertySet`。
+* 已新增 `permissionArray` 至 `createPropertySet`.
 
-* 已将`exportJob`添加到`submitJob`。
+* 已新增 `exportJob` 至 `submitJob`.
 
 **將**
 
-* 在`addUser`和`setUser`中，将`role`更改为`defaultRole`。
+* 在 `addUser` 和 `setUser`，已變更 `role` 至 `defaultRole`.
 
-* 在`getCompanyMembers`中，将`userArray`更改为`memberArray`。
+* 在 `getCompanyMembers`，已變更 `userArray` 至 `memberArray`.
 
-* 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
+* 在 `getCompanyMembership`，已變更 `companyArray` 至 `membershipArray`.
 
-* 在`addUser`、`setCompanyMembership`和`addCompanyMembership`中，将`membershipArray`更改为`companyHandleArray`。
+* 在 `addUser`， `setCompanyMembership`、和 `addCompanyMembership`，已變更 `membershipArray` 至 `companyHandleArray`.
 
-* 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
+* 在 `getCompanyMembership`，已變更 `companyArray` 至 `membershipArray`.
 
-* 在`getUserChars`中，`includeInvalid`现在是可选的。
+* 在 `getUserChars`， `includeInvalid` 現在是選用專案。
 
 **已删除**
 
-* 从`renameAsset`中删除了`renameFiles`。
+* 已移除 `renameFiles` 從 `renameAsset`.
 
 * 已删除 `getXMPPanelViewDefinition`.
-* 删除了`searchAssetsByFulltext`和`searchAssetsBySimilarity`。
+* 已移除 `searchAssetsByFulltext` 和 `searchAssetsBySimilarity`.

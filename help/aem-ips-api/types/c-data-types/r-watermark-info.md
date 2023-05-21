@@ -1,7 +1,7 @@
 ---
-description: 水印资产的属性。
+description: 浮水印資產的屬性。
 solution: Experience Manager
-title: 水印信息
+title: 浮水印資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL WatermarkInfo]{#watermarkinfo}
 
-水印资产的属性。
+浮水印資產的屬性。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 23%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| url | `xsd:string` | 表示模板的图像服务器URL。 |
+| url | `xsd:string` | 代表範本的影像伺服器URL。 |
 | urlModifier | `xsd:string` |  |
 | urlPostApplyModifier | `xsd:string` |  |

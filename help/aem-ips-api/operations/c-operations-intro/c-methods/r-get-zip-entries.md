@@ -1,5 +1,5 @@
 ---
-description: 返回Zip文件数据。
+description: 傳回Zip檔案資料。
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # getZipEntries{#getzipentries}
 
-返回Zip文件数据。
+傳回Zip檔案資料。
 
 语法
 
-## 授权用户类型 {#section-33a3f03ba8a14086922397619ce12ab8}
+## 授權的使用者型別 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,22 +32,22 @@ ht-degree: 22%
 
 ## 参数 {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**输入(getZipEntriesParam)**
+**輸入(getZipEntriesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含Zip文件的公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 处理Zip文件。 |
+| companyHandle | `xsd:string` | 是 | 包含Zip檔案之公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | Zip檔案的處理常式。 |
 
-**Output(getZipEntriesReturn)**
+**輸出(getZipEntriesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | 是 | Zip文件中的条目数组。 |
+| zipArray | `types:ZipEntryArray` | 是 | Zip檔案中的專案陣列。 |
 
 ## 示例 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-此代码示例可返回Zip文件信息，包括压缩和未压缩的大小。
+此程式碼範例會傳回Zip檔案資訊，包括壓縮和未壓縮大小。
 
 **请求**
 

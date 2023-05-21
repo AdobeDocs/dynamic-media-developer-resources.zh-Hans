@@ -1,6 +1,6 @@
 ---
-title: HTTPS视频交付
-description: HTTPS视频交付
+title: HTTPS視訊傳送
+description: HTTPS視訊傳送
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# HTTPS视频交付{#https-video-delivery}
+# HTTPS視訊傳送{#https-video-delivery}
 
 <!-- >[!NOTE]
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-如果查看器在配置中工作（如本节开头所述），则可以在HTTPS（安全）和HTTP（不安全）模式下发布视频交付。 在默认配置中，视频传输协议严格遵循嵌入网页的传输协议。 但是，可以强制HTTPS视频交付，而不考虑使用嵌入网页时使用的协议 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 配置属性。 （在创作模式下，视频预览始终通过HTTPS安全地交付。）
+如果檢視器在設定中依本節開頭所述的方式運作，則發佈的視訊傳送可能會同時在HTTPS （安全）和HTTP （不安全）模式中發生。 在預設設定中，視訊傳送通訊協定會嚴格遵循內嵌網頁的傳送通訊協定。 不過，不論使用內嵌網頁所使用的通訊協定，還是強制HTTPS視訊傳送是可能的。 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 設定屬性。 （作者模式下的視訊預覽一律會透過HTTPS安全地傳送。）
 
-取决于发布方法 [!DNL Dynamic Media] 您在Adobe Experience Manager中使用的视频， `VideoPlayer.ssl` 配置属性的应用方式不同，如下所示：
+視發佈方法而定 [!DNL Dynamic Media] 您在Adobe Experience Manager中使用的影片， `VideoPlayer.ssl` 組態屬性的套用方式不同，如下所示：
 
-* 如果您发布 [!DNL Dynamic Media] 包含URL的视频，则需附加 `VideoPlayer.ssl` 到URL。 例如，要强制安全视频交付，需附加 `&VideoPlayer.ssl=on` 以下查看器URL示例的结尾：
+* 如果您發佈 [!DNL Dynamic Media] 含有URL的視訊，您已附加 `VideoPlayer.ssl` 到URL。 例如，若要強制進行安全視訊傳送，您需在 `&VideoPlayer.ssl=on` 至下列檢視器URL範例結尾：
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   另请参阅 [将URL关联到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+   另請參閱 [將URL連結至您的Web應用程式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* 如果您发布 [!DNL Dynamic Media] 包含嵌入代码的视频，您添加 `VideoPlayer.ssl` 到嵌入代码片段中其他查看器配置参数的列表。 例如，要强制HTTPS视频交付，您需要附加 `&VideoPlayer.ssl=on` 如以下示例所示：
+* 如果您發佈 [!DNL Dynamic Media] 內嵌程式碼影片，您需新增 `VideoPlayer.ssl` 至內嵌程式碼片段中其他檢視器設定引數的清單。 例如，若要強制HTTPS視訊傳送，您需附加 `&VideoPlayer.ssl=on` 如下列範例所示：
 
    ```html {.line-numbers}
    <style type="text/css"> 
@@ -77,4 +77,4 @@ ht-degree: 0%
    </script>
    ```
 
-   另请参阅 [在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+   另請參閱 [將影片內嵌在網頁上](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

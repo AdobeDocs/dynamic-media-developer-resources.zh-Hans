@@ -1,6 +1,6 @@
 ---
-title: 图像映射支持
-description: eCatalog查看器支持在主视图上方渲染图像映射图标。
+title: 影像地圖支援
+description: eCatalog Viewer支援在主檢視上方呈現影像地圖圖示。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,46 +12,46 @@ ht-degree: 0%
 
 ---
 
-# 图像映射支持{#image-map-support}
+# 影像地圖支援{#image-map-support}
 
-eCatalog查看器支持在主视图上方渲染图像映射图标。
+eCatalog Viewer支援在主檢視上方呈現影像地圖圖示。
 
-地图图标的外观通过CSS进行控制，如 [图像映射效果](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289).
+對應圖示的外觀會透過CSS控制，如所述 [影像地圖效果](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289).
 
-图像映射执行以下三个操作之一：重定向到外部网页、“信息”面板弹出式激活和内部超链接。
+影像地圖會執行下列三個動作之一：重新導向至外部網頁、「資訊」面板快顯視窗啟用和內部超連結。
 
-## 重定向到外部网页 {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## 重新導向至外部網頁 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-的 `href` 图像映射的属性具有指向外部资源的URL（显式指定），或者封装到支持的JavaScript模板函数之一中： `loadProduct()`, `loadProductCW()`和 `loadProductPW()`.
+此 `href` 影像對應的屬性具有外部資源的URL （明確指定，或包裝在其中一個支援的JavaScript範本函式中）： `loadProduct()`， `loadProductCW()`、和 `loadProductPW()`.
 
-以下是简单URL重定向的示例：
+以下是簡單URL重新導向的範例：
 
 `href=http://www.adobe.com`
 
-在此示例中，同一URL用 `loadProduct()` 函数：
+在此範例中，相同的URL會以 `loadProduct()` 函式：
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-在 `HREF` 属性，则代码将在客户端的计算机上运行。 因此，请确保JavaScript代码的安全。
+當您將JavaScript程式碼新增至 `HREF` 屬性時，程式碼會在使用者端電腦上執行。 因此，請確定JavaScript程式碼是安全的。
 
-## 信息面板弹出菜单激活 {#section-7aa036420af646d1ad8cdc388add0b57}
+## 資訊面板快顯視窗啟用 {#section-7aa036420af646d1ad8cdc388add0b57}
 
-要使用“信息”面板，图像映射将 `ROLLOVER_KEY` 属性集。 此外，设置 `href` 属性，否则外部URL处理会干扰“信息”面板弹出激活。
+若要使用資訊面板，影像地圖具有 `ROLLOVER_KEY` 屬性集。 此外，設定 `href` 屬性，否則外部URL處理會干擾資訊面板快顯視窗啟動。
 
-最后，确保查看器配置包含 `InfoPanelPopup.template` 或者， `InfoPanelPopup.infoServerUrl` 参数。
+最後，請確定檢視器設定包含適當的值 `InfoPanelPopup.template` 以及（選擇性） `InfoPanelPopup.infoServerUrl` 引數。
 
 >[!NOTE]
 >
->配置“信息面板弹出窗口”时，传递到“信息面板”的HTML代码和JavaScript代码将在客户端的计算机上运行。 因此，请确保此类HTML代码和JavaScript代码是安全的。
+>當您設定資訊面板彈出式視窗時，傳遞至資訊面板的HTML代碼和JavaScript代碼會在使用者端電腦上執行。 因此，請確定此類HTML程式碼和JavaScript程式碼是安全的。
 
-## 内部超链接 {#section-6afa4fb2fe564c429e0201f019a95849}
+## 內部超連結 {#section-6afa4fb2fe564c429e0201f019a95849}
 
-选择图像映射会在查看器内执行内部页面交换。 要使用该功能，请 `href` 图像映射中的属性具有以下特殊格式：
+選取影像地圖會在檢視器內執行內部頁面交換。 若要使用該功能，請 `href` 影像地圖中的屬性具有以下特殊格式：
 
 ` href=target: *`idx`*`
 
-其中 `*`idx`*` 是目录跨页的从零开始的索引。
+位置 `*`idx`*` 是目錄跨頁的索引（從零開始）。
 
-以下是 `href` 指向eCatalog中3D跨页的图像映射的属性：
+以下範例為 `href` 指向eCatalog中3D跨頁的影像地圖屬性：
 
 `href=target:2`

@@ -1,7 +1,7 @@
 ---
-description: 使用属性数组来更新属性集。
+description: 使用屬性陣列來更新屬性集。
 solution: Experience Manager
-title: updatePropertySet
+title: update屬性Set
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
@@ -12,13 +12,13 @@ ht-degree: 15%
 
 ---
 
-# updatePropertySet{#updatepropertyset}
+# update屬性Set{#updatepropertyset}
 
-使用属性数组来更新属性集。
+使用屬性陣列來更新屬性集。
 
 语法
 
-## 授权用户类型 {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 授權的使用者型別 {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,21 +32,21 @@ ht-degree: 15%
 
 ## 参数 {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**Input(updatePropertySetParam)**
+**輸入(updatePropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 是 | 属性集的句柄。 |
-| replaceProperties | `xsd:string` | 否 | 设置为 `true` 替换属性。 |
-| propertyArray | `types:PropertyArray` | 是 | 属性集更新属性的数组。 |
+| setHandle | `xsd:string` | 是 | 屬性集的處理常式。 |
+| replaceProperties | `xsd:string` | 否 | 設定為 `true` 以取代屬性。 |
+| propertyArray | `types:PropertyArray` | 是 | 屬性集的更新屬性陣列。 |
 
-**输出(updatePropertySetReturn)**
+**輸出(updatePropertySetReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-此代码示例会使用属性数组中的属性更新属性集。
+此程式碼範例會更新屬性陣列中具有屬性的屬性集。
 
 **请求**
 

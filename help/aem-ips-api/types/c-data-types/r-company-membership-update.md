@@ -20,6 +20,6 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| companyHandle | `xsd:string` | 对公司负责。 |
-| 角色 | `xsd:string` | 用户对其所属的每个公司拥有的角色。 |
-| isActive | `xsd:boolean` | 为用户所属的每个公司设置用户的状态。 |
+| companyHandle | `xsd:string` | 處理公司。 |
+| 角色 | `xsd:string` | 使用者對其所屬每個公司具有的角色。 |
+| isActive | `xsd:boolean` | 設定使用者所屬每個公司的狀態。 |

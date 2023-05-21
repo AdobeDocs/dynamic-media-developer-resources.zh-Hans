@@ -1,19 +1,19 @@
 ---
 title: PanoramicView.vrrender
-description: 全景查看器的配置属性。
+description: 全景檢視器的組態屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
 # PanoramicView.vrrender{#panoramicview-vrrender}
 
-全景查看器的配置属性。
+全景檢視器的組態屬性。
 
 `[PanoramicView.|<containerId>_panoramicView.]vrrender=false|true`
 
@@ -21,14 +21,14 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> 指定是否启用虚拟现实渲染模式。</p> </td> 
+   <td colname="col2"> <p> 指定是否啟用虛擬實境呈現模式。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}

@@ -1,20 +1,20 @@
 ---
-description: 由ActiveJobs/state使用。
+description: 由ActiveJobs/狀態使用。
 solution: Experience Manager
-title: 活动作业状态
-feature: Dynamic Media Classic，SDK/API
+title: 作用中工作狀態
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 
-# 活动作业状态{#active-job-states}
+# 作用中工作狀態{#active-job-states}
 
-由ActiveJobs/state使用。
+由ActiveJobs/狀態使用。
 
 语法
 

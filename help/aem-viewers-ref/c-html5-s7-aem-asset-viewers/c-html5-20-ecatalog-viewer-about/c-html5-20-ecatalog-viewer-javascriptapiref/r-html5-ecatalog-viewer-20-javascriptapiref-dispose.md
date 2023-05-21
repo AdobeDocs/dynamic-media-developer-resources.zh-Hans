@@ -1,6 +1,6 @@
 ---
-title: 处置
-description: eCatalog查看器的JavaScript API引用。
+title: 處置
+description: eCatalog檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 3%
 
 ---
 
-# 处置{#dispose}
+# 處置{#dispose}
 
-eCatalog查看器的JavaScript API引用。
+eCatalog檢視器的JavaScript API參考。
 
 `dispose()`
 
-通过释放查看器逻辑使用的所有资源并删除查看器在运行时创建的所有内部对象和组件来处置此查看器实例。
+釋放檢視器邏輯使用的所有資源，並在執行階段刪除檢視器建立的所有內部物件和元件，以處置此檢視器執行個體。
 
-网页代码还应删除查看器实例变量，以便从Web浏览器内存中完全删除查看器。
+網頁程式碼也應刪除檢視器例項變數，並從網頁瀏覽器記憶體中完全移除檢視器。
 
-如果网页代码已在查看器使用的查看器SDK组件上直接注册了事件侦听器 — 或存储了对此类组件的外部引用 — 则此类侦听器必须由网页代码显式取消注册。 而且，必须在调用之前删除此类外部组件引用 `dispose()`.
+如果網頁程式碼已直接在檢視器使用的Viewer SDK元件上註冊事件接聽程式（或已儲存對此類元件的外部參考），則此類接聽程式必須由網頁程式碼明確取消註冊。 而且，在呼叫之前，必須刪除此類外部元件參考 `dispose()`.
 
-在以下情况下不再访问查看器API `dispose()` 调用。
+之後不再存取檢視器API `dispose()` 稱為。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 无。
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

@@ -1,34 +1,34 @@
 ---
-description: 设置一个或多个资产的缩略图图像。
+description: 設定一或多個資產的縮圖影像。
 solution: Experience Manager
-title: batchSetThumbAsset
+title: batchsetthumbasset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
-# batchSetThumbAsset{#batchsetthumbasset}
+# batchsetthumbasset{#batchsetthumbasset}
 
-设置一个或多个资产的缩略图图像。
+設定一或多個資產的縮圖影像。
 
 语法
 
-## 缩略图资产类型 {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## 縮圖資產型別 {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-允许的缩略图资产类型包括：
+允許的縮圖資產型別包含下列專案：
 
 * 图像
-* 调整后的视图
-* 蒙版
+* AdjustedView
+* 遮色片
 * 模板
-* PsdTemplate
+* Psd範本
 
-## 授权用户类型 {#section-5fc988e3d6384968b86fd9fe363658c0}
+## 授權的使用者型別 {#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,26 +39,26 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->用户必须拥有目标资产的读/写访问权限，并拥有对缩览图资产的读权限。
+>使用者必須擁有目標資產的讀取/寫入存取權，以及縮圖資產的讀取存取權。
 
 ## 参数 {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**输入(batchSetThumbAssetParam)**
+**輸入(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含资产的公司的句柄。 |
-| updateArray | `types:ThumbAssetUpdateArray` | 是 | 更新数组。 |
+| companyHandle | `xsd:string` | 是 | 包含資產的公司的控制代碼。 |
+| updatearray | `types:ThumbAssetUpdateArray` | 是 | 更新的陣列。 |
 
-**输出(batchSetThumbAssetParam)**
+**輸出(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功设置缩略图的数量。 |
-| warningCount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
-| errorCount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，资产会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 成功設定的縮圖數目。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的錯誤數目。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
 
 ## 示例 {#section-6de69a8680c24c1486c5f01488393381}
 

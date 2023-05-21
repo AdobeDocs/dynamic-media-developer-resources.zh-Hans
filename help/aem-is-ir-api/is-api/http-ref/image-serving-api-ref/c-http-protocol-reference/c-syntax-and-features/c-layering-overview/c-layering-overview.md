@@ -1,6 +1,6 @@
 ---
-title: 分层概述
-description: 图像提供允许将任意数量的图像、文本和纯色层组合到复合图像中。
+title: 分層概觀
+description: 「影像伺服」可將任意數量的影像、文字和純色圖層合併成複合影像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 11%
 
 ---
 
-# 分层概述{#layering-overview}
+# 分層概觀{#layering-overview}
 
-“图像提供”允许您将任意数量的图像、文本和纯色层合并到复合图像中。
+「影像伺服」可讓您將任意數量的影像、文字和純色圖層合併成複合影像。
 
 ## 另请参阅 {#section-9d47587692d94637af61de851f3d118f}
 
 * [模板](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
-* [图层效果](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md)
+* [圖層效果](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md)
 * [layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)
 * [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 * [文字=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md)

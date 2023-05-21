@@ -1,5 +1,5 @@
 ---
-description: 添加搜索词以用于searchAssets。
+description: 新增搜尋字詞以與searchAssets搭配使用。
 solution: Experience Manager
 title: MetadataCondition
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL MetadataCondition]{#metadatacondition}
 
-添加搜索词以用于searchAssets。
+新增搜尋字詞以與searchAssets搭配使用。
 
 语法
 
@@ -32,72 +32,72 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 字段句柄。 </td> 
+   <td colname="col3"> 欄位控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 字符串比较运算符的选择。 </td> 
+   <td colname="col3"> 字串比較運運算元的選擇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 值。 </td> 
+   <td colname="col3"> 要測試的值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 布尔瓦尔</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 布林值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 布尔比较值（仅适用于布尔类型字段）。 </td> 
+   <td colname="col3"> 布林值比較值（僅適用於布林值型別的欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 较长的比较值（仅适用于整类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：long</span> </td> 
+   <td colname="col3"> 長比較值（僅適用於int型別的欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最小长值（仅适用于整型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：long</span> </td> 
+   <td colname="col3"> 範圍比較中的最小長數值（僅適用於int型別的欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> 范围比较中的最大长值（仅适用于整型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：long</span> </td> 
+   <td colname="col3"> 範圍比較中的長數值上限（僅適用於int型別的欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 双重比较值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleval</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
+   <td colname="col3"> 雙重比較值（僅適用於浮點型欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 范围比较中的最小双精度值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
+   <td colname="col3"> 範圍比較中的最小雙精度數值（僅適用於浮點型欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> 范围比较中的最大双精度值（仅适用于浮点类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
+   <td colname="col3"> 範圍比較中的雙精度值上限（僅適用於浮點型欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 日期比较值（仅适用于日期类型字段）。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 日期值</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 日期比較值（僅適用於日期型別欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 范围比较中的最小日期值（仅适用于日期类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 範圍比較中的最小日期值（僅適用於日期型別欄位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 范围比较中的最大日期值（仅适用于日期类型字段）。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 範圍比較中的最大日期值（僅適用於日期型別欄位）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 區分大小寫</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> 为元数据服务器建立区分大小写的设置。 在 <span class="codeph"> searchAssetsByMetadata</span> 呼叫。 </p> <p>请参阅 <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> 建立中繼資料伺服器的區分大小寫。 用於 <span class="codeph"> searchAssetsByMetadata</span> 呼叫。 </p> <p>另請參閱 <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

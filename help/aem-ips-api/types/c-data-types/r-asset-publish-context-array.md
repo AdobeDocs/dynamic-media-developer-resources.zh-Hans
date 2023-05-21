@@ -20,4 +20,4 @@ ht-degree: 35%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| AssetPublishContextArray | `types:AssetPublishContext` | 资产发布上下文数组。 |
+| AssetPublishContextArray | `types:AssetPublishContext` | 資產發佈內容的陣列。 |

@@ -1,26 +1,26 @@
 ---
-description: 当经过身份验证的用户没有足够的权限完成任务时引发。
+description: 當已驗證的使用者沒有足夠的許可權完成任務時擲回。
 solution: Experience Manager
 title: authorizationFault
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76965735-92d8-46be-b589-67cad3b987dc
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 25%
+source-wordcount: '54'
+ht-degree: 27%
 
 ---
 
 # authorizationFault{#authorizationfault}
 
-当经过身份验证的用户没有足够的权限完成任务时引发。
+當已驗證的使用者沒有足夠的許可權完成任務時擲回。
 
 语法
 
-## 故障类型 {#section-1f04dec489714ee6bb7256fae6ab7730}
+## 錯誤型別 {#section-1f04dec489714ee6bb7256fae6ab7730}
 
-| ID | 故障 |
+| ID | 錯誤 |
 |---|---|
 | 20000 | `AUTHORIZATION_FAULT_CODE_INVALID_COMPANY` |
 | 20001 | `AUTHORIZATION_FAULT_CODE_INVALID_REQUEST_USERNAME` |
@@ -33,9 +33,9 @@ ht-degree: 25%
 | 20008 | `AUTHORIZATION_FAULT_CODE_ILLEGAL_ACCESS_GROUP` |
 | 20009 | `AUTHORIZATION_FAULT_CODE_MISSING_PERMISSION` |
 
-## 故障字段 {#section-4e3e41f41fea402a9ae314bfd05f663e}
+## 錯誤欄位 {#section-4e3e41f41fea402a9ae314bfd05f663e}
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `code` | `xsd:int` | 故障ID |
-| `reason` | `xsd:string` | 描述故障的信息性消息。 |
+| `code` | `xsd:int` | 錯誤ID |
+| `reason` | `xsd:string` | 說明錯誤的資訊性訊息。 |

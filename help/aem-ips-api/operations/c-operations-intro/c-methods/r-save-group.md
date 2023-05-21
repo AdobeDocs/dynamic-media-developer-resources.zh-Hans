@@ -1,5 +1,5 @@
 ---
-description: 创建或编辑群组。
+description: 建立或編輯群組。
 solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # saveGroup{#savegroup}
 
-创建或编辑群组。
+建立或編輯群組。
 
 语法
 
-## 授权用户类型 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 授權的使用者型別 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,24 +26,24 @@ ht-degree: 22%
 
 ## 参数 {#section-743610e98dd5494baffcbad6401038eb}
 
-**输入(saveGroupParam)**
+**輸入(saveGroupParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要保存的组的公司的句柄。 |
-| groupHandle | `xsd:string` | 否 | 组的句柄。 |
-| name | `xsd:string` | 是 | 群组名称. |
-| isSystemDefined | `xsd:boolean` | 是 | `false` 为默认值。 |
+| companyHandle | `xsd:string` | 是 | 具有您要儲存之群組的公司的控制代碼。 |
+| groupHandle | `xsd:string` | 否 | 群組的控制代碼。 |
+| 名称 | `xsd:string` | 是 | 群组名称. |
+| isSystemDefined | `xsd:boolean` | 是 | `false` 為預設值。 |
 
-**输出(saveGroupReturn)**
+**輸出(saveGroupReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| groupHandle | `xsd:string` | 是 | 组句柄。 |
+| groupHandle | `xsd:string` | 是 | 群組控制代碼。 |
 
 ## 示例 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-此代码示例会创建属于特定公司的组。 如果组已存在，则会使用您指定的参数值进行保存。
+此程式碼範例會建立屬於特定公司的群組。 如果群組已經存在，則會以您指定的引數值儲存。
 
 **请求**
 

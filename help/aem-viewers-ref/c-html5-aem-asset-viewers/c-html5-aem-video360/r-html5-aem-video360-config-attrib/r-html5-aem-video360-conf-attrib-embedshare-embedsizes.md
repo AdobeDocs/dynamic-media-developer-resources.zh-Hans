@@ -1,6 +1,6 @@
 ---
 title: EmbedShare.embedsizes
-description: Video360查看器的配置属性。
+description: Video360 Viewer的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,38 +8,38 @@ exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Video360查看器的配置属性。
+Video360 Viewer的設定屬性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`宽高`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬度`*, *`高度`*[,0|1][; *`寬度`*, *`高度`*[,0|1]]`
 
-在“嵌入共享”模式对话框中，为“大小”组合框指定嵌入大小列表。
+指定內嵌共用模式對話方塊中大小下拉式方塊的內嵌大小清單。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 嵌入宽度。 </p> </td> 
+   <td colname="col2"> <p> 內嵌寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>嵌入高度。 </p> </td> 
+   <td colname="col2"> <p>內嵌高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否应在组合框中最初预选此列表项。 </p> </td> 
+   <td colname="col2"> <p> 指定是否一開始應在下拉式方塊中預先選取此清單專案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

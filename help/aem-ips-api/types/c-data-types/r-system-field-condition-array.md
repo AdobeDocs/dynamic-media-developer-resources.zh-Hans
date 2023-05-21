@@ -1,5 +1,5 @@
 ---
-description: 系统字段条件数组。
+description: 系統欄位條件陣列。
 solution: Experience Manager
 title: SystemFieldConditionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-系统字段条件数组。
+系統欄位條件陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 26%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:SystemFieldConditions` | 系统字段条件的数组。 |
+| 项目 | `types:SystemFieldConditions` | 系統欄位條件的陣列。 |

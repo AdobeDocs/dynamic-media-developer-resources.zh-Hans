@@ -1,7 +1,7 @@
 ---
-description: 使用这些服务器设置设置图像大小限制。
+description: 使用這些伺服器設定來設定影像大小限制。
 solution: Experience Manager
-title: 图像大小限制
+title: 影像大小限制
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# 图像大小限制{#image-size-limits}
+# 影像大小限制{#image-size-limits}
 
-使用这些服务器设置设置图像大小限制。
+使用這些伺服器設定來設定影像大小限制。
 
-## IS::MaxMessageSize — 响应大小限制 {#section-bd942385d4d144cd904003695d72c85e}
+## IS：：MaxMessageSize — 回應大小限制 {#section-bd942385d4d144cd904003695d72c85e}
 
-限制允许图像服务器发送到的数据大小 [!DNL Platform Server]. 这有效地限制了图像服务可以通过HTTP(MB)返回到客户端的编码/压缩响应图像的大小。
+限制影像伺服器可傳送至的資料大小 [!DNL Platform Server]. 實際上，這會限制「影像伺服」可透過HTTP (MB)傳回使用者端的編碼/壓縮回應影像的大小。
 
-## IS::MaxRenderRgnPixels — 输出图像大小限制 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
+## IS：：MaxRenderRgnPixels — 輸出影像大小限制 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
-限制图像服务器可以生成的图像的大小（不包括保存到文件的图像）。 大于0的整数值（以百万为单位）。 如果渲染操作超出大小限制，则会返回错误。 默认值为 16。
+限制影像伺服器可產生的影像大小（不包括儲存至檔案的影像）。 大於0的整數值（百萬畫素）。 如果轉譯作業超過大小限制，則會傳回錯誤。 默认值为 16。
 
-## IS::MaxSavePixels — 保存到文件的大小限制 {#section-d1547c4afa88467080ab08356f775e06}
+## IS：：MaxSavePixels — 儲存至檔案的大小限制 {#section-d1547c4afa88467080ab08356f775e06}
 
-限制图像服务器将写入文件的图像大小 `req=saveToFile` 命令。 大于0的整数值（以百万为单位）。 如果文件保存操作超过该限制，则返回错误。 默认为1亿像素。
+限制影像伺服器將寫入檔案的影像大小 `req=saveToFile` 命令。 大於0的整數值（百萬畫素）。 如果檔案儲存操作超過該限制，則會傳回錯誤。 預設值為1億畫素。
 
-## IS::MaxNonDsfSize — 非PTIFF输入图像的大小限制 {#section-50de28a7158a436393cce5da0d1e4d46}
+## IS：：MaxNonDsfSize — 非PTIFF輸入影像的大小限制 {#section-50de28a7158a436393cce5da0d1e4d46}
 
-允许图像服务器打开的非PTIFF图像的最大大小（以Mpixels为单位）。 当尝试访问大于此限制的非PTIFF图像时，图像提供将返回错误。
+允許影像伺服器開啟的非PTIFF影像大小上限（單位為Mpixels）。 嘗試存取大於此限制的非PTIFF影像時，「影像伺服」會傳回錯誤。
 
 >[!NOTE]
 >
->将此值设置得过高可能会导致图像服务器内存不足，并导致故障（包括崩溃）。
+>將此值設定得太高可能會造成影像伺服器的記憶體不足，並導致失敗，包括當機。

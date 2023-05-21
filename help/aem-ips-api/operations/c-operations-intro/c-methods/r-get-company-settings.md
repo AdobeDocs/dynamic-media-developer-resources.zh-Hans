@@ -1,7 +1,7 @@
 ---
-description: 返回特定公司的IPS设置。
+description: 傳回特定公司的IPS設定。
 solution: Experience Manager
-title: getCompanySettings
+title: getcompanysettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
@@ -12,13 +12,13 @@ ht-degree: 25%
 
 ---
 
-# getCompanySettings{#getcompanysettings}
+# getcompanysettings{#getcompanysettings}
 
-返回特定公司的IPS设置。
+傳回特定公司的IPS設定。
 
 语法
 
-## 授权用户类型 {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 授權的使用者型別 {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,21 +27,21 @@ ht-degree: 25%
 
 ## 参数 {#section-e146f479c2744baa8f68be8c8848c97f}
 
-**输入(getCompanySettingsParam)**
+**輸入(getCompanySettingsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 要检索其设置的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 您要擷取其設定的公司的控制代碼。 |
 
-**Output(getCompanySettingsReturn)**
+**輸出(getCompanySettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 设置 | `types:CompanySettings` | 是 | 公司设置。 |
+| 设置 | `types:CompanySettings` | 是 | 公司設定。 |
 
 ## 示例 {#section-191f78995ecf473a95eadf7296204fd7}
 
-此代码示例可返回特定公司的所有IPS设置。
+此程式碼範例會傳回特定公司的所有IPS設定。
 
 **请求**
 

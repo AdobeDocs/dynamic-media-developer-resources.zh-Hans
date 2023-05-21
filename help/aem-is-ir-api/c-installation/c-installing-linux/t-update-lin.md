@@ -1,38 +1,38 @@
 ---
-title: 从IS 4.7.4或更高版本进行更新
-description: 在Linux®上升级Dynamic Media Image Serving时，请使用此过程。
+title: 從IS 4.7.4或更新版本更新
+description: 在Linux®上升級「Dynamic Media影像伺服」時，請使用此程式。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54733fcc-c4e3-4501-8a3d-000778678bdb
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# 从IS 4.7.4或更高版本进行更新{#updating-from-is-or-later}
+# 從IS 4.7.4或更新版本更新{#updating-from-is-or-later}
 
-在Linux®上升级Dynamic Media Image Serving时，请使用此过程。
+在Linux®上升級「Dynamic Media影像伺服」時，請使用此程式。
 
-如果您从旧版图像服务升级，请联系支持人员以获取正确的过程。
+如果您從舊版的「影像伺服」進行升級，請聯絡支援以取得正確的程式。
 
-的 [!DNL webapps] 升级时可以删除文件夹。 请备份 [!DNL webapps] 文件夹。
+此 [!DNL webapps] 升級時可刪除資料夾。 請備份 [!DNL webapps] 資料夾（升級前）。
 
-1. 使用根权限登录到服务器主机。
-1. 解压缩和解压缩图像服务分发tar文件。
-1. 在 [!DNL setup] 文件夹，运行 [!DNL `./install-is`] 启动安装向导。
+1. 以root許可權登入您的伺服器主機。
+1. 解壓縮並解壓縮「影像伺服」發佈tar檔案。
+1. 在 [!DNL setup] 資料夾，執行 [!DNL `./install-is`] 以啟動安裝精靈。
 
-   更新安装程序会检查已安装包的完整性和版本。 如果成功，则会显示最终用户许可协议(“EULA”)。
-1. 阅读许可协议，然后输入 **[!UICONTROL y]** 以继续安装。
+   更新安裝程式會檢查已安裝套件的完整性和版本。 如果成功，就會顯示使用者授權合約(「EULA」)。
+1. 閱讀授權合約，然後輸入 **[!UICONTROL y]** 以繼續安裝。
 
-   安装程序将旧的服务器配置文件备份到 [!DNL BACKUP/] 文件夹。
+   安裝程式會將舊伺服器組態檔備份至 [!DNL BACKUP/] 資料夾。
 
-   安装完成后，将显示以下消息：
+   安裝完成時，會顯示下列訊息：
 
    `Image Server was started successfully`
 
-在更新期间， [!DNL ImageServing/conf/server.xml] 文件将更新为最新设置。 如果您更改或添加了任何值，请保存您现有的 [!DNL server.xml] 和会在升级后重新实施您所做的更改。
+在更新期間， [!DNL ImageServing/conf/server.xml] 檔案已更新至最新設定。 如果您已變更或新增任何值，請儲存現有的 [!DNL server.xml] 並在升級後重新實作變更。
 
-安装更新后，请考虑在使服务器处于活动状态之前预热HTTP响应缓存。 请参阅 [!DNL playlog] 实用程序。
+更新安裝後，請考慮先預熱HTTP回應快取，再讓伺服器上線。 請參閱 [!DNL playlog] 公用程式以取得詳細資訊。

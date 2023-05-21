@@ -1,6 +1,6 @@
 ---
-title: 首次安装
-description: 使用这些步骤在Windows上首次安装图像服务。
+title: 首次安裝
+description: 使用這些步驟在Windows上首次安裝影像伺服。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,56 +12,56 @@ ht-degree: 0%
 
 ---
 
-# 首次安装{#installing-for-the-first-time}
+# 首次安裝{#installing-for-the-first-time}
 
-使用这些步骤在Windows上首次安装图像服务。
+使用這些步驟在Windows上首次安裝影像伺服。
 
-1. 使用管理权限登录服务器主机。
-1. 如果您已经收到许可证，请将其复制到服务器，然后双击文件以运行许可证安装。
+1. 以管理許可權登入您的伺服器主機。
+1. 如果您已經收到授權，請將它複製到您的伺服器，然後按兩下檔案來執行授權安裝。
 
-   如果您还没有许可证，则可以继续安装，稍后再安装许可证。
+   如果您還沒有授權，您可以繼續進行安裝，稍後再安裝授權。
 
-1. 提取图像服务分发zip文件的内容。
-1. 通过运行 [!DNL setup]/ [!DNL setup.exe].
-1. 选择 **[!UICONTROL 下一个]** 要前进到最终用户许可协议(EULA)，请阅读许可协议，然后选择 **[!UICONTROL 是]**.
+1. 解壓縮「影像伺服」發佈zip檔案的內容。
+1. 執行以啟動安裝精靈 [!DNL setup]/ [!DNL setup.exe].
+1. 選取 **[!UICONTROL 下一個]** 若要前進到使用者授權合約(EULA)，請閱讀授權合約，然後選取 **[!UICONTROL 是]**.
 
-   的 [!DNL Authentication] 对话框。
-1. 如果已安装许可证，并且许可证信息显示在 [!DNL Authentication] 对话框，选择 **[!UICONTROL 下一个]** 继续。
+   此 [!DNL Authentication] 對話方塊隨即顯示。
+1. 如果已安裝授權，且授權資訊會顯示在 [!DNL Authentication] 對話方塊，選取 **[!UICONTROL 下一個]** 以繼續。
 
-   如果您没有许可证，请选择 **[!UICONTROL 请求许可证]**. 下一个对话框显示您计算机的一个网络接口卡MAC地址。 按照提示的指示，向此MAC地址、您的公司名称以及要安装的产品发送电子邮件。
+   如果您沒有授權，請選取 **[!UICONTROL 要求授權]**. 下一個對話方塊會顯示您電腦的其中一個網路介面卡MAC位址。 依照提示的指示，透過電子郵件傳送此MAC地址、您的公司名稱以及您正在安裝的產品。
 
-   **重要信息：** 许可证基于此主机上安装的其中一个网络接口卡的MAC地址。 如果禁用、删除或替换此卡，则许可证将不再被识别为有效。 确保获得用于图像提供的硬件配置的许可证。
+   **重要：** 此授權是以此主機上所安裝的其中一個網路介面卡的MAC位址為基礎。 如果您停用、移除或取代此卡，授權就不再被識別為有效。 請務必取得您用於影像伺服的硬體組態授權。
 
-   如果没有有效的许可证，您可以继续安装IS，稍后再安装该许可证。 要继续，请选择 **[!UICONTROL 返回]** 返回 [!DNL Authentication] ，然后选择 **[!UICONTROL 下一个]**.
-1. 转到“[!DNL Platform Server] “管理员设置”页面。 根据需要输入新值或接受默认值。
+   您可以在沒有有效授權的情況下繼續安裝IS，稍後再安裝授權。 若要繼續，請選取 **[!UICONTROL 返回]** 以返回 [!DNL Authentication] 對話方塊，然後選取 **[!UICONTROL 下一個]**.
+1. 繼續前往&quot;[!DNL Platform Server] 管理員設定」頁面。 視需要輸入新值或接受預設值。
 
-   您可以配置以下项目：
+   您可以設定下列專案：
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> [!DNL Platform Server] HTTP连接端口 </p> </td>
-      <td> <p>用于图像提供和图像渲染的主HTTP侦听端口 </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP連線埠 </p> </td>
+      <td> <p>影像提供與影像轉譯的主要HTTP聆聽連線埠 </p> </td>
    </tr> 
    <tr> 
-      <td> <p> 管理员监听端口 </p> </td>
-      <td> <p>管理员监听端口 </p> </td>
+      <td> <p> 管理員接聽連線埠 </p> </td>
+      <td> <p>管理員接聽連線埠 </p> </td>
    </tr> 
    <tr> 
-      <td> <p> [!DNL Platform Server] 高速缓存大小(MB) </p> </td>
-      <td> <p>主响应缓存的初始大小 </p> </td>
+      <td> <p> [!DNL Platform Server] 快取大小(MB) </p> </td>
+      <td> <p>主要回應快取的初始大小 </p> </td>
    </tr>
    <tr> 
-      <td> <p> [!DNL Platform Server] 缓存位置 </p> </td>
-      <td> <p>PS缓存文件夹 </p> </td>
+      <td> <p> [!DNL Platform Server] 快取位置 </p> </td>
+      <td> <p>PS快取資料夾 </p> </td>
    </tr>
    </tbody>
    </table>
 
-   指定的端口号必须唯一，不能由其他应用程序或服务使用。
+   指定的連線埠號碼必須是唯一的，且不能由其他應用程式或服務使用。
 
-   下一个屏幕提供了查看所选设置的机会。
+   下一個畫面會提供檢閱所選設定的機會。
 
-1. 选择 **[!UICONTROL 返回]** 进行更改，或选择 **[!UICONTROL 下一个]** 以开始安装。
+1. 選取 **[!UICONTROL 返回]** 進行變更，或選取 **[!UICONTROL 下一個]** 以開始安裝。
 
-1. 选择 **[!UICONTROL 完成]** 退出安装向导。
+1. 選取 **[!UICONTROL 完成]** 以結束安裝精靈。

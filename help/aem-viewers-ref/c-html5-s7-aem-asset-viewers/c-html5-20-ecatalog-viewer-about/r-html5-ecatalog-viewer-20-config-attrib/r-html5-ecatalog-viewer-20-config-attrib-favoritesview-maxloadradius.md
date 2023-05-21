@@ -8,7 +8,7 @@ exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预加载行为。 </p> <p>当设置为 <span class="codeph"> -1</span>，则在初始化组件或更改资产时，会同时加载所有缩略图。 </p> <p>当设置为 <span class="codeph"> 0</span>，则仅加载可见缩略图。 </p> <p> 当设置为 <span class="codeph"><span class="varname"> preloadnbr</span></span>，则可以指定预加载可见区域周围的不可见行数。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span>，則在初始化元件或變更資產時，所有縮圖會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span>，只會載入可見的縮圖。 </p> <p> 當設定為 <span class="codeph"><span class="varname"> preloadnbr</span></span>，您可以指定預先載入可見區域附近的不可見列數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

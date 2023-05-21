@@ -1,6 +1,6 @@
 ---
-title: 倾斜
-description: 倾斜材料选择器。 为非可重复的倾斜材料启动材料规范段(MSS)。
+title: 貼花
+description: 貼花材質選取器。 為不可重複貼花材料啟動材料規格區段(MSS)。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
-# 倾斜 {#decal}
+# 貼花 {#decal}
 
-倾斜材料选择器。 为非可重复的倾斜材料启动材料规范段(MSS)。
+貼花材質選取器。 為不可重複貼花材料啟動材料規格區段(MSS)。
 
 ` decal[= *`val`*]`
 
@@ -25,9 +25,9 @@ ht-degree: 11%
  </tr> 
 </table>
 
-## 属性 {#section-4f975f78869e4c829c30cf3ca7646539}
+## 屬性 {#section-4f975f78869e4c829c30cf3ca7646539}
 
-选择命令；MSS分隔符。
+選取範圍指令；MSS分隔符號。
 
 ## 默认 {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

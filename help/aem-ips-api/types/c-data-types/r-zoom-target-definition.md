@@ -1,5 +1,5 @@
 ---
-description: 缩放目标定义。
+description: 縮放目標定義。
 solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
 # [!DNL ZoomTargetDefinition]{#zoomtargetdefinition}
 
-缩放目标定义。
+縮放目標定義。
 
 语法
 
@@ -22,9 +22,9 @@ ht-degree: 25%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| name | `xsd:string` | 目标名称. |
-| xPosition | `xsd:int` | 缩放目标的X位置。 |
-| yPosition | `xsd:int` | 缩放目标的Y位置。 |
-| 宽度 | `xsd:int` | 缩放目标宽度。 |
-| 高度 | `xsd:int` | 缩放目标高度。 |
-| 用户数据 | `xsd:string` | 关联的用户数据。 |
+| 名称 | `xsd:string` | 目标名称. |
+| xPosition | `xsd:int` | 縮放目標的X位置。 |
+| y位置 | `xsd:int` | 縮放目標的Y位置。 |
+| 宽度 | `xsd:int` | 縮放目標寬度。 |
+| 高度 | `xsd:int` | 縮放目標高度。 |
+| userData | `xsd:string` | 相關聯的使用者資料。 |

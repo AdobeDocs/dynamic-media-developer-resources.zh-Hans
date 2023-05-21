@@ -8,7 +8,7 @@ exl-id: 0536110e-a885-4fd4-baa8-742fcdba5cc9
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 3%
 <table id="table_D1D7BE09311B469983B52E34338FEAFE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 设置在时间气泡中显示的时间的模式，其中 <span class="codeph"> h</span> 是小时， <span class="codeph"> m</span> 是分钟，并且 <span class="codeph"> s</span> 为秒。 </p> <p>每个时间单位使用的字母数决定了该单位要显示的位数。 如果数字不能满足给定位数，则以后的单位显示等效值。 </p> <p>例如，如果当前影片时间为67分5秒，则时间模式为 <span class="codeph"> m:ss</span> 显示为67:05。 同一时间显示为1:07:5如果给定的时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
+   <td colname="col2"> <p> 設定時間泡泡中顯示的時間模式，其中 <span class="codeph"> h</span> 是小時， <span class="codeph"> m</span> 為分鐘，且 <span class="codeph"> s</span> 是秒。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式 <span class="codeph"> m：ss</span> 顯示為67:05。 相同時間顯示為1:07:5如果給定的時間模式為 <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

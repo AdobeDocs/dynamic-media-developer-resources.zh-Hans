@@ -1,6 +1,6 @@
 ---
 title: 過期
-description: 客户端缓存生存时间。 到期前的小时数。 用于管理客户端和代理服务器缓存。
+description: 使用者端快取存留時間。 到期前的小時數。 用於管理使用者端和Proxy伺服器快取。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 # 過期{#expiration}
 
-客户端缓存生存时间。 到期前的小时数。 用于管理客户端和代理服务器缓存。
+使用者端快取存留時間。 到期前的小時數。 用於管理使用者端和Proxy伺服器快取。
 
-服务器通过将该值添加到传输的时间/日期来计算NTTP响应数据的过期时间/日期。
+伺服器會將此值與傳輸時間/日期相加，以計算NTTP回應資料的到期時間/日期。
 
-浏览器使用文件的过期时间来管理缓存。 在向服务器传递请求之前，浏览器将检查其缓存，以查看文件是否已下载。 如果是，并且文件尚未过期，则浏览器将发送条件GET请求（例如，包含If-Modified-Since HTTP请求标头），而不是常规GET请求。 服务器可以选择以“304”状态响应，而不发送图像。 然后，浏览器只需从其缓存中加载文件即可。 这可能会显着提高频繁访问数据的整体性能。
+瀏覽器會使用檔案的到期時間來管理快取。 將請求傳遞至伺服器之前，瀏覽器會檢查其快取，檢視檔案是否已下載。 若是如此，且檔案尚未過期，瀏覽器會傳送條件式GET要求（例如包含If-Modified-Since HTTP要求標頭），而非一般GET要求。 伺服器可以選擇以「304」狀態回應，而不傳輸影像。 瀏覽器隨即會從其快取載入檔案。 這可能會大幅提升經常存取資料的整體效能。
 
-服务器会将过期的HTTP响应标头设置为当前日期/时间加上最小的晕影：:Expiration and all catalog::Expiration值，用于晕影和渲染操作中涉及的所有材料。
+伺服器會將expires HTTP回應標頭設定為目前的日期/時間，加上暈映：：Expiration和所有catalog：：Expiration值的最小值，以取得暈映和轉譯作業中涉及的所有材質。
 
-过期时间主要针对图像数据响应进行设置。 某些类型的响应将始终标记为立即过期（或标记为不可缓存），包括所有错误响应或属性回复。
+有效期主要是為影像資料回應所設定。 某些型別的回應一律會標籤為立即過期（或標籤為不可快取），包括所有錯誤回應或屬性回覆。
 
-## 属性 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
+## 屬性 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-实数、-2、-1、0或更大。 自生成响应图像后到期的小时数。 设置为0始终使响应图像立即过期，这会有效地禁用客户端缓存。 设置为–1可标记为 `never expire`. 在这种情况下，服务器始终返回304状态（未修改）以响应条件 `GET` 请求，而不检查文件是否已实际更改。 设置为–2时，将使用 `attribute::Expiration`.
+實數、-2、-1、0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回應影像立即過期，以有效停用使用者端快取。 設為–1以標籤為 `never expire`. 在此情況下，伺服器一律會傳回304狀態（未修改）以回應條件 `GET` 會要求但不檢查檔案是否已實際變更。 設定為–2會使用所提供的預設值 `attribute::Expiration`.
 
 ## 默认 {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` 如果字段不存在，则当值为–2或字段为空时，将使用。
+`attribute::Expiration` 如果欄位不存在、值是–2或欄位為空，則會使用。
 
 ## 另请参阅 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[属性：:Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [晕影：：过期](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[attribute：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ， [暈映：：Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)， [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

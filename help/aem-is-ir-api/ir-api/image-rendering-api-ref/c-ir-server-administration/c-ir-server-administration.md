@@ -1,6 +1,6 @@
 ---
-title: 服务器管理
-description: 服务器管理
+title: 伺服器管理
+description: 伺服器管理
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# 服务器管理{#server-administration}
+# 伺服器管理{#server-administration}

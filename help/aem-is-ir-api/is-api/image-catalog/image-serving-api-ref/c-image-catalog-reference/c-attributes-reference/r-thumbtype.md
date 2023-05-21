@@ -1,31 +1,31 @@
 ---
-description: 默认缩略图类型。 为缩略图类型提供默认值，以防特定目录记录不包含有效的目录ThumbType值。
+description: 預設縮圖型別。 提供縮圖型別的預設值，以防止特定目錄記錄未包含有效的目錄ThumbType值。
 solution: Experience Manager
-title: ThumbType
-feature: Dynamic Media Classic，SDK/API
+title: 縮圖型別
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 3%
 
 ---
 
-# ThumbType{#thumbtype}
+# 縮圖型別{#thumbtype}
 
-默认缩略图类型。 为缩略图类型提供默认值，以防特定目录记录不包含有效的目录：:ThumbType值。
+預設縮圖型別。 提供縮圖型別的預設值，以防止特定目錄記錄未包含有效的目錄：：ThumbType值。
 
-仅用于缩略图请求(`req=tmb`)。
+僅用於縮圖要求( `req=tmb`)。
 
-## 属性 {#section-ae0babfe3c8e4c8ebe0124bc55051265}
+## 屬性 {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-枚举。 对于&#x200B;*`crop`*、*`fit`*&#x200B;和&#x200B;*`texture`*&#x200B;缩略图类型，允许的值分别为1、2和3。
+列舉。 允許的值為1、2和3，適用於 *`crop`*， *`fit`*、和 *`texture`* 縮圖型別。
 
 ## 默认 {#section-0237fcae4f304c5b876fceaa839b6b05}
 
-从`default::ThumbType`继承（如果未定义或为空）。
+繼承自 `default::ThumbType`如果未定義或為空。
 
 ## 另请参阅 {#section-986c97470c494bfd8f179cecf8cc3ccc}
 
-[catalog::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)
+[目錄：：ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03)

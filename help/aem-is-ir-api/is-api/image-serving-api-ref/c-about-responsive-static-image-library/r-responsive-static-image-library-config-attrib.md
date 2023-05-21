@@ -1,7 +1,7 @@
 ---
-description: 配置属性直接定义为响应式图像库管理的IMG元素上的属性。 每个图像都可以有其自己的一组属性。
+description: 設定屬性是直接在Responsive影像資料庫管理的IMG元素上定義為屬性。 每個影像可以有自己的一組屬性。
 solution: Experience Manager
-title: 命令引用 — 配置属性
+title: 命令參考 — 組態屬性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 命令引用 — 配置属性{#command-reference-configuration-attributes}
+# 命令參考 — 組態屬性{#command-reference-configuration-attributes}
 
-配置属性直接定义为响应式图像库管理的IMG元素上的属性。 每个图像都可以有其自己的一组属性。
+設定屬性是直接在Responsive影像資料庫管理的IMG元素上定義為屬性。 每個影像可以有自己的一組屬性。
 
 ## data-src {#section-f52ff0f139604447a870abe6e1c03444}
 
-可选。
+可选.
 
-图像提供所提供图像的URL。 如果URL不存在，则库会使用中设置的值 `src` 属性。 此属性用于响应式图像库从不同位置管理的初始图像和动态图像。
+「影像伺服」提供之影像的URL。 如果URL不存在，程式庫會使用在中設定的值 `src` 屬性做為遞補內容。 此屬性會提供初始影像和Responsive影像庫從不同位置管理的動態影像。
 
 **示例**
 
@@ -30,54 +30,54 @@ ht-degree: 1%
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-如果 `data-src` 已设置， `src` 是可选的，并且可以包含要添加的任何URL。 例如，它可以包含一个URL，指向库所用的相同基于图像服务的图像。 或者，它可以包含GIF占位符，甚至可以包含数据URI，以避免启动时出现额外的服务器往返。
+若 `data-src` 已設定， `src` 是選用專案，可包含您要新增的任何URL。 例如，資料庫可包含的URL與「影像伺服」所使用影像相同。 或者，它可以包含GIF預留位置或甚至資料URI，以避免啟動時額外的伺服器來回行程。
 
-如果 `data-src` 未设置， `src` 是必需的，并且必须包含图像提供所用图像的URL。
+若 `data-src` 未設定， `src` 為必填專案，且必須包含「影像伺服」提供之影像的URL。
 
 **示例**
 
-将数据URI用于 `src` 属性和图像服务URL `data-src` 属性：
+將資料URI用於 `src` 的屬性和影像伺服URL `data-src` 屬性：
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
 
-## 数据断点 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
+## 資料中斷點 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
-以逗号分隔的断点列表，可选后跟冒号( `:`)和图像提供命令或图像预设。 每个断点是在逻辑CSS像素中定义的图像宽度值。 库会使用列表中值最大的值加载图像，并在客户端上缩小图像，以匹配运行时CSS图像宽度。 （如果您在高密度屏幕上工作，则从服务器加载的图像呈现表示断点值乘以设备的像素比率。）
+以逗號分隔的中斷點清單，並選擇性地後面加上冒號( `:`)，以及「影像伺服」命令或影像預設集。 每個中斷點是以邏輯CSS畫素定義的影像寬度值。 程式庫會從清單載入數值最近的影像，並在使用者端上縮小該影像，以符合執行階段CSS影像寬度。 （如果您在高密度熒幕上工作，從伺服器載入的影像轉譯會以中斷點值乘以裝置的畫素比表示）。
 
-对于列表中的任何断点，可以定义一个或多个图像提供命令或图像预设名称。 此类额外参数仅在此特定断点当前处于活动状态时才应用于图像。
+對於清單中的任何中斷點，都可以定義一或多個「影像伺服」命令或「影像預設集」名稱。 只有在這個特定中斷點目前作用中時，才會將這類額外引數套用至影像。
 
-除了那些影响响应图像大小的视图命令(如 `wid=`, `hei=`或 `scl=`. 图像预设也存在同样的限制：与响应式图像库一起使用的图像预设不得包含此类命令。
+您可以使用任何支援的「影像伺服」命令，但會影響回應影像大小的檢視命令除外，例如 `wid=`， `hei=`，或 `scl=`. 相同的限制適用於影像預設集：搭配Responsive Image Library使用的影像預設集不得包含這類命令。
 
-多个图像提供命令或图像预设名称之间用“ `&`&quot;字符。 如果图像提供命令的值中包含逗号，则此类逗号将被替换为 `%2C`. 图像预设名称用美元符号括起来( `$`)。
+多個「影像伺服」命令或影像預設集名稱會以「」分隔 `&`「字元。 如果「影像伺服」命令的值中有逗號，此類逗號會取代為 `%2C`. 影像預設集名稱會以美元符號( `$`)。
 
 **示例**
 
-**仅使用断点**
+**僅使用中斷點**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**使用图像提供命令**
+**使用影像伺服命令**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**使用图像预设**
+**使用影像預設集**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**使用图像预设和图像提供命令**
+**使用影像預設集和影像伺服命令**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
-## 数据模式 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
+## 資料模式 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-AEM 6.4及更高版本以及Dynamic Media查看器5.9及更高版本中提供了以下两种智能裁剪模式：
+下列兩種智慧型裁切模式適用於AEM 6.4及更高版本和Dynamic Media Viewers 5.9及更高版本：
 
-* **手动**  — 在图像元素的属性中定义用户定义的断点和相应的图像服务命令。
-* **智能裁剪**  — 从投放服务器自动检索计算的智能裁剪呈现版本。 使用图像元素的运行时大小选择最佳演绎版。
+* **手動**  — 使用者定義的中斷點和對應的影像服務命令會在影像元素的屬性內定義。
+* **智慧型裁切**  — 系統會自動從傳遞伺服器擷取運算智慧型裁切轉譯。 最佳轉譯是使用影像元素的執行階段大小來選取。
 
-要使用智能裁剪模式，请设置 `data-mode` 属性 `smart crop`.
+若要使用智慧型裁切模式，請設定 `data-mode` 屬性至 `smart crop`.
 
 **示例**
 
@@ -88,7 +88,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-关联的图像元素调度 `s7responsiveViewer` 断点更改时的事件。
+關聯的影像元素會傳送 `s7responsiveViewer` 執行階段中斷點變更時的事件。
 
 ```html {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

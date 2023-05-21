@@ -1,5 +1,5 @@
 ---
-description: 渲染场景资产属性。
+description: 演算場景資產屬性。
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL RenderSceneInfo]{#rendersceneinfo}
 
-渲染场景资产属性。
+演算場景資產屬性。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 26%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| url | `xsd:string` | 表示呈现场景的图像服务器URL。 |
+| url | `xsd:string` | 代表轉譯器場景的影像伺服器URL。 |

@@ -1,31 +1,31 @@
 ---
-description: 使用基于目录或基于过期的缓存验证自动刷新缓存条目，这与属性CacheValidationPolicy（在默认.ini或特定图像目录的.ini文件中）一起选择。
+description: 使用目錄型或過期型快取驗證來自動重新整理快取專案，如使用屬性CacheValidationPolicy （在default.ini或特定影像目錄的.ini檔案中）所選取。
 solution: Experience Manager
-title: 响应缓存验证
-feature: Dynamic Media Classic，SDK/API
+title: 回應快取驗證
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d2baa6e6-2700-450f-af1e-88b6d33d0e0c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
-# 响应缓存验证{#response-cache-validation}
+# 回應快取驗證{#response-cache-validation}
 
-使用基于目录或基于过期的缓存验证自动刷新缓存条目，这与属性：:CacheValidationPolicy（在默认.ini或特定图像目录的.ini文件中）一起选择。
+使用目錄型或過期型快取驗證來自動重新整理快取專案，如使用attribute：：CacheValidationPolicy （在default.ini或特定影像目錄的.ini檔案中）所選取。
 
-通过基于目录的验证，如果`catalog::LastModified`（或`attribute::LastModified`，或[!DNL catalog.ini]文件的文件修改时间）比创建缓存条目时间更近，则现有缓存条目会被视为失效。
+若使用目錄型驗證，則現有的快取專案會被視為過時 `catalog::LastModified` (或 `attribute::LastModified`，或的檔案修改時間 [!DNL catalog.ini] file)的時間比建立快取專案的時間更近。
 
-如果进行基于过期的验证，则自最近的验证后5分钟后，缓存条目会变为失效。 在这两种情况下，服务器都会通过检查与创建请求相关的所有图像文件的文件日期来验证过时的缓存条目。 如果文件日期未更改，则更新缓存条目的时间戳，并将缓存日期视为有效。
+使用過期基準驗證，快取專案在距最近一次驗證後5分鐘後會過時。 在這兩種情況下，伺服器會檢查與建立請求有關的所有影像檔案的檔案日期，以驗證過時的快取專案。 如果檔案日期未變更，則會更新快取專案的時間戳記，並將快取日期視為有效。
 
-对于通常涉及的图像目录中注册的图像较多的应用程序，基于目录的验证可提供性能优势。 不涉及图像目录的应用程序应使用基于过期时间的缓存验证。 实现此目的的一种方法是在[!DNL default.ini]中设置`attribute::cacheValidationPolicy=0`，并在所有特定图像目录文件中设置`1`。
+對於主要涉及在影像目錄中註冊的影像的典型應用程式，目錄型驗證可提供效能優勢。 不涉及影像目錄的應用程式應使用過期快取驗證。 達成此目標的一種方式是設定 `attribute::cacheValidationPolicy=0` 在 [!DNL default.ini]，並至 `1` 於所有特定影像目錄檔案中。
 
-缓存条目将变为无效，如果请求中涉及的目录条目发生更改，而更改的方式可能会导致回复图像发生更改，则可能会重新生成缓存条目。 例如，`catalog::Modifier`的内容会发生更改。
+當請求中涉及的目錄專案以可能導致回覆影像變更的方式變更時，快取專案會變成無效並需要重新產生。 例如， `catalog::Modifier` 變更。
 
 >[!NOTE]
 >
->Dynamic Media Pyramid TIFF(PTIFF)图像会出于验证目的在文件标题中内部维护文件日期。 文件系统维护的文件修改时间用于检查非PTIFF文件是否已更改。
+>Dynamic Media金字塔TIFF(PTIFF)影像會在檔案標題內部維護檔案日期，以用於驗證。 檔案系統維護的檔案修改時間用於檢查非PTIFF檔案是否已變更。
 
-只有图像文件参与缓存验证过程。 更改字体文件或ICC配置文件不会导致缓存条目自动失效。
+只有影像檔案會參與快取驗證程式。 變更字型檔案或ICC設定檔檔案不會造成快取專案自動失效。

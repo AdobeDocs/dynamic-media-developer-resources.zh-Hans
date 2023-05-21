@@ -1,5 +1,5 @@
 ---
-description: 从文件夹路径开始返回所有文件夹和子文件夹。 getFolders响应返回的文件夹数最多为100,000个。
+description: 從資料夾路徑開始，傳回所有資料夾和子資料夾。 getFolders回應最多會傳回100,000個資料夾。
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 8%
 
 # getFolders{#getfolders}
 
-从文件夹路径开始返回所有文件夹和子文件夹。 getFolders响应返回的文件夹数最多为100,000个。
+從資料夾路徑開始，傳回所有資料夾和子資料夾。 getFolders回應最多會傳回100,000個資料夾。
 
-## 文件夹的用途 {#section-66e344d5333f42f1b060a0cba25935c3}
+## 資料夾用途 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-利用文件夹，可组织子文件夹和资产。 所有文件夹和资产名称必须唯一。 共享相同名称的文件夹和资产将导致命名空间冲突，即使它们位于不同的文件夹层次结构中也是如此。
+資料夾可讓您組織子資料夾和資產。 所有資料夾和資產名稱必須是唯一的。 共用相同名稱的資料夾和資產會導致名稱空間衝突，即使它們位於不同的資料夾階層中亦然。
 语法
 
-## 授权用户类型 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## 授權的使用者型別 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,32 +35,32 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->用户必须具有对文件夹的读取权限才能返回其上的数据。
+>使用者必須擁有資料夾的讀取存取權才能傳回其上的資料。
 
 ## 参数 {#section-0c1976503eaa418a9226b51667901176}
 
-**输入(getFoldersParam)**
+**輸入(getFoldersParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司的把手。 |
-| accessUserHandle | `xsd:string` | 否 | 管理员用于模拟特定用户。 |
-| accessGroupHandle | `xsd:string` | 否 | 按特定组过滤。 |
-| folderPath | `xsd:string` | 否 | 用于将文件夹及所有子文件夹检索到叶级别的根文件夹。 如果排除，则使用公司根。 |
-| assetTypeArray | `types:StringArray` | 否 | 返回仅包含指定资产类型的文件夹。 |
-| responseFieldArray | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
-| excludeFieldArray | `types:StringArray` | 否 | 包含要从响应中排除的字段列表。 |
+| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
+| accessUserHandle | `xsd:string` | 否 | 管理員用來模擬特定使用者。 |
+| accessGroupHandle | `xsd:string` | 否 | 依特定群組篩選。 |
+| 資料夾路徑 | `xsd:string` | 否 | 根資料夾，可擷取葉層級的資料夾和所有子資料夾。 如果排除，則使用公司根目錄。 |
+| assetTypeArray | `types:StringArray` | 否 | 傳回僅包含指定資產型別的資料夾。 |
+| responseFieldArray | `types:StringArray` | 否 | 包含您要包含在回應中的欄位清單。 |
+| excludeFieldArray | `types:StringArray` | 否 | 包含您要從回應中排除的欄位清單。 |
 
-**Output(getFoldersReturn)**
+**輸出(getFoldersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| folderArray | `types:FolderArray` | 否 | 与筛选条件匹配的文件夹数组。 响应最多限制为100,000个文件夹。 |
+| folderArray | `types:FolderArray` | 否 | 符合篩選條件的資料夾陣列。 回應限製為最多100,000個資料夾。 |
 | permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-此代码示例会返回一个数组，其中包含公司的所有文件夹以及有关每个文件夹的特定信息。
+此程式碼範例會傳回陣列，其中包含公司的所有資料夾以及有關每個資料夾的特定資訊。
 
 **请求**
 

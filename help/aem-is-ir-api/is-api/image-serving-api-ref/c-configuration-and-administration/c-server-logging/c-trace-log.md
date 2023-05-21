@@ -1,7 +1,7 @@
 ---
-description: 的 [!DNL Platform Server] 将记录写入此日志文件以记录警告和错误，保留启动、关闭和目录加载事件的记录。
+description: 此 [!DNL Platform Server] 將記錄寫入此記錄檔以記錄警告和錯誤、記錄啟動、關閉和目錄載入事件。
 solution: Experience Manager
-title: 跟踪日志
+title: 追蹤記錄
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 0bc16400-0ac3-4a11-9d28-c1f47a7020de
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 跟踪日志{#trace-log}
+# 追蹤記錄{#trace-log}
 
-的 [!DNL Platform Server] 将记录写入此日志文件以记录警告和错误，保留启动、关闭和目录加载事件的记录。
+此 [!DNL Platform Server] 將記錄寫入此記錄檔以記錄警告和錯誤、記錄啟動、關閉和目錄載入事件。

@@ -1,7 +1,7 @@
 ---
-description: 图像的手动裁剪选项。
+description: 影像的手動裁切選項。
 solution: Experience Manager
-title: 手动裁剪选项
+title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL ManualCropOptions]{#manualcropoptions}
 
-图像的手动裁剪选项。
+影像的手動裁切選項。
 
 语法
 
@@ -22,7 +22,7 @@ ht-degree: 16%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 左侧 | `xsd:int` | 手动裁剪的左侧位置（以像素为单位）。 |
-| 右 | `xsd:int` | 手动裁剪的正确位置（以像素为单位）。 |
-| 顶端 | `xsd:int` | 手动裁剪的顶部位置（以像素为单位）。 |
-| 底部 | `xsd:int` | 手动裁剪的底部位置（以像素为单位）。 |
+| 左侧 | `xsd:int` | 手動裁切的左側位置（畫素）。 |
+| 右 | `xsd:int` | 手動裁切的正確位置（畫素）。 |
+| 顶端 | `xsd:int` | 手動裁切的頂端位置（畫素）。 |
+| 底部 | `xsd:int` | 手動裁切的底部位置（畫素）。 |

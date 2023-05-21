@@ -1,40 +1,40 @@
 ---
-description: 晕影转换器(vntc)是一个命令行实用程序，用于准备通过“图像创作”创建的内容，以便在“图像渲染”中部署。
+description: 暈映轉換程式(vntc)是命令列公用程式，用來準備使用影像製作所建立的內容，以使用影像演算部署。
 solution: Experience Manager
-title: 晕影转换器
-feature: Dynamic Media Classic，SDK/API
+title: 暈映轉換工具
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# 晕影转换器{#vignette-converter}
+# 暈映轉換工具{#vignette-converter}
 
-晕影转换器(vntc)是一个命令行实用程序，用于准备通过“图像创作”创建的内容，以便在“图像渲染”中部署。
+暈映轉換程式(vntc)是命令列公用程式，用來準備使用影像製作所建立的內容，以使用影像演算部署。
 
-[!DNL vntc] 位于[!DNL  *[!DNL install_root]*\ImageServing\bin]中。它具有以下功能：
+[!DNL vntc] 位於[！DNL *[!DNL install_root]*\ImageServing\bin]。 它有下列功能：
 
-* 将主晕影转换为单分辨率、多分辨率或金字塔生产晕影（请参阅[晕影缩放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)）。
-* 生产包含样式文件的生产机柜和窗口（请参阅`-resolution`和`-jpegquality`）。
+* 將主要暈映轉換為單一解析度、多解析度或金字塔生產暈映(請參閱 [暈映縮放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585))。
+* 產生生產封包和視窗涵蓋樣式檔案(請參閱 `-resolution` 和 `-jpegquality`)。
 
-* 可以生成晕影、文件柜和窗口覆盖样式文件的不同文件版本，以便与早期版本的“图像渲染”一起使用。
-* 从小角像中提取视图图像（全分辨率或缩略图）（请参阅`-thumbwidth`和`-image`）。
-* 从源文件中提取相关属性（请参阅`-info`），并将其发送到`stdout`或可选日志文件（请参阅`-log`）。
+* 可以產生不同版本的暈映、檔案櫃和視窗覆蓋樣式檔案，以搭配較舊版本的影像演算使用。
+* 從完整解析度或縮圖的暈映擷取檢視影像(請參閱 `-thumbwidth` 和 `-image`)。
+* 從來源檔案擷取相關屬性(請參閱 `-info`)並傳送至 `stdout` 或選用的記錄檔(請參閱 `-log`)。
 
-虽然可选使用[!DNL vntc]，但强烈建议使用以获得最佳服务器性能。 [!DNL vntc] 此外，还实施了广泛的错误检查，并可以防止在勤勉使用时出现严重的服务器问题（包括崩溃）。
+當使用 [!DNL vntc] 是選用專案，強烈建議使用它以獲得最佳伺服器效能。 [!DNL vntc] 此外，還實施廣泛的錯誤檢查，並可防止嚴重伺服器問題（包括當機）。
 
-在生成生产晕影时，输出晕影的像素宽度（在金字塔或多分辨率晕影的情况下为0）会附加到生成的输出晕影文件的名称中。 处理文件柜样式文件时，输出分辨率会附加到输出文件名。 所有输出文件（包括可选缩略图、图像和日志文件以及生产晕影或机柜样式文件）都放置在&#x200B;*[!DNL sourceFile]*&#x200B;所在的同一目录中（除非指定了`-destPath`）。
+產生生產暈映時，輸出暈映的畫素寬度（如果是金字塔或多解析度暈映，則為0）會附加至產生的輸出暈映檔案的名稱中。 處理封包樣式檔案時，輸出解析度會附加至輸出檔案名稱。 所有輸出檔案（包括選用的縮圖、影像和記錄檔）以及生產暈映或封包樣式檔案都放在相同的目錄中，其中 *[!DNL sourceFile]* 位置(除非 `-destPath` （已指定）。
 
-[!DNL vntc] 默认情况下，将其自身内存限制为最多3GB。当Vntc达到此限制时，它将停止处理并产生错误。 使用`-maxmem`可以更改此限制。
+[!DNL vntc] 預設會將其自身限製為最多3GB的記憶體。 當Vntc達到此限制時，它將停止處理並將產生錯誤。 此限制可使用以下變更： `-maxmem`.
 
 >[!NOTE]
 >
->图像创作中的晕影更新工具还可用于准备晕影以用于图像渲染。 同样，内容创作工具能够生成用于图像渲染的文件柜样式文件。 如果要自动处理，请使用[!DNL vntc]。 图像创作中的工具包含一个图形用户界面，因此通常更便于以交互方式使用。
+>影像製作中的暈映更新工具也可用來準備用於影像演算的暈映。 同樣地，「內容製作工具」也能產生封包樣式檔案，以與「影像演算」搭配使用。 使用 [!DNL vntc] 如果處理作業要自動化。 影像製作中的工具包括圖形化使用者介面，因此通常更易於以互動方式使用。
 
 ## 另请参阅 {#section-3c756bf17b634543904fdd928adeafb2}
 
-图像创作文档
+影像製作檔案

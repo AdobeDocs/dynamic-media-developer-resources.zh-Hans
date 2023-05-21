@@ -1,7 +1,7 @@
 ---
-description: 图像提供控制脚本。 此脚本用于启动、停止或重新启动图像服务服务器管理器，而映像服务服务器管理器又启动、停止或重新启动所有其他图像服务组件。
+description: 影像伺服控制指令碼。 此指令碼可用來啟動、停止或重新啟動「影像伺服伺服器監督員」，進而啟動、停止或重新啟動所有其他的「影像伺服」元件。
 solution: Experience Manager
-title: 图像服务
+title: ImageServe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# 图像服务{#imageserving}
+# ImageServe{#imageserving}
 
-图像提供控制脚本。 此脚本用于启动、停止或重新启动图像服务服务器管理器，而映像服务服务器管理器又启动、停止或重新启动所有其他图像服务组件。
+影像伺服控制指令碼。 此指令碼可用來啟動、停止或重新啟動「影像伺服伺服器監督員」，進而啟動、停止或重新啟動所有其他的「影像伺服」元件。
 
 ## 使用 {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -32,23 +32,23 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 启动 </span> </p> </td> 
-   <td colname="col2"> <p> 启动服务器管理员和所有其他图像服务组件。 </p> </td> 
+   <td colname="col2"> <p> 啟動「伺服器監督員」和所有其他的「影像伺服」元件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
-   <td colname="col2"> <p> 停止所有图像服务组件，包括服务器管理员。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 停止 </span> </p> </td> 
+   <td colname="col2"> <p> 停止所有「影像伺服」元件，包括「伺服器監督員」。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重新启动 </span> </p> </td> 
-   <td colname="col2"> <p>重新启动所有映像服务组件，包括服务器管理员。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 重新啟動 </span> </p> </td> 
+   <td colname="col2"> <p>重新啟動所有「影像伺服」元件，包括Server Supervisor。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重新启动 |表示 | svg } </span> </p> </td> 
-   <td colname="col2"> <p> 重新启动Tomcat/[!DNL Platform Server]、图像服务器或SVG。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 重新啟動{ ps |是 | svg } </span> </p> </td> 
+   <td colname="col2"> <p> 重新啟動Tomcat/[!DNL Platform Server]、影像伺服器或SVG。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 状态[ ps |表示 | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>返回Image Server、Tomcat/[!DNL Platform Server]、和SVGserver，或仅指定服务器的状态；如果服务器管理员未运行，则会返回信息性消息。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 狀態[ ps |是 | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>傳回影像伺服器Tomcat/的運作時間和目前記憶體使用量資訊[!DNL Platform Server]和SVGserver，或只有指定伺服器的狀態；如果Server Supervisor未執行，則會傳回資訊性訊息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

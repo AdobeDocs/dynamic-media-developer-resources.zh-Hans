@@ -1,24 +1,24 @@
 ---
-description: 创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
+description: 建立現有影像資產的復本。 指定的影像伺服器通訊協定命令會套用以產生新復本
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 21%
+source-wordcount: '139'
+ht-degree: 22%
 
 ---
 
 # copyImage{#copyimage}
 
-创建现有图像资产的副本。 将应用指定的图像服务器协议命令来生成新副本
+建立現有影像資產的復本。 指定的影像伺服器通訊協定命令會套用以產生新復本
 
 语法
 
-## 授权用户类型 {#section-c9fe7abb550e495f832234f845db7d6e}
+## 授權的使用者型別 {#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 ## 参数 {#section-bf36fcbfda6742f5b9c6b02ea27e5b9d}
 
-**输入(copyImageParam)**
+**輸入(copyImageParam)**
 
 <table id="table_F6B14D4875F2424D98B8C4899B1DD867"> 
  <thead> 
@@ -45,25 +45,25 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>包含图像的公司的句柄。 </p> </td> 
+   <td colname="col4"> <p>包含影像之公司的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>图像资产的句柄。 </p> </td> 
+   <td colname="col4"> <p>影像資產的控點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要复制图像的文件夹的句柄。 </p> </td> 
+   <td colname="col4"> <p>要複製影像的資料夾的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 名稱</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>新图像的名称。 </p> </td> 
+   <td colname="col4"> <p>新影像的名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
@@ -74,7 +74,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-**输出(copyImageParam)**
+**輸出(copyImageParam)**
 
 <table id="table_5E4ED83047314DFABC1BFAAC76C0EAC3"> 
  <thead> 
@@ -90,14 +90,14 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>复制图像的句柄。 </p> </td> 
+   <td colname="col4"> <p>複製影像的控制代碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-示例代码可复制由公司、资产、文件夹句柄和名称指定的图像。
+範常式式碼會複製公司、資產、資料夾控制代碼和名稱指定的影像。
 
 **请求**
 

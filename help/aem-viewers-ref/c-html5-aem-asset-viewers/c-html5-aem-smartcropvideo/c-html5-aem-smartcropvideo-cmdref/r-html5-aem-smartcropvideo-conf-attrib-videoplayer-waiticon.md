@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.waiticon
-description: 智能裁剪视频查看器的配置属性。
+description: 智慧型裁切視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 8c86d721-e1c9-4114-9896-e2dd134fb625
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
 # SmartCropVideoPlayer.waiticon{#smartcropvideoplayer-waiticon}
 
-智能裁剪视频查看器的配置属性。
+智慧型裁切視訊檢視器的設定屬性。
 
 `[SmartCropVideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -21,14 +22,14 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用或禁用缓冲动画（等待图标）显示。 </p> </td> 
+   <td colname="col2"> <p> 啟用或停用緩衝動畫（等待圖示）顯示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

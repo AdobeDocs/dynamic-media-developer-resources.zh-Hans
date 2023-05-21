@@ -1,6 +1,6 @@
 ---
-title: 主查看器区域
-description: 主视图区域是旋转图像所占用的区域。 通常在未指定大小时设置为适合可用设备屏幕。
+title: 主要檢視器區域
+description: 主要檢視區域是迴轉影像佔用的區域。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# 主查看器区域{#main-viewer-area}
+# 主要檢視器區域{#main-viewer-area}
 
-主视图区域是旋转图像所占用的区域。 通常在未指定大小时设置为适合可用设备屏幕。
+主要檢視區域是迴轉影像佔用的區域。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+**主要檢視器區域的CSS屬性**
 
-通过以下CSS类选择器控制查看区域的外观：
+檢視區域的外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7spinviewer
@@ -29,27 +29,27 @@ ht-degree: 2%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>查看器的宽度。 </p> </td> 
+   <td colname="col2"> <p>檢視器的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>查看器的高度。 </p> </td> 
+   <td colname="col2"> <p>檢視器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置具有白色背景的查看器( `#FFFFFF`)，并使其大小为512 x 288像素。
+範例 — 設定具有白色背景的檢視器( `#FFFFFF`)，並將其大小設為512 x 288畫素。
 
 ```
 .s7spinviewer { 

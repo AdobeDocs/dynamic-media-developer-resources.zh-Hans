@@ -1,7 +1,7 @@
 ---
-description: 设置属于特定公司的用户的组成员资格。
+description: 設定屬於特定公司之使用者的群組成員資格。
 solution: Experience Manager
-title: setGroupMembers
+title: setgroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
@@ -12,13 +12,13 @@ ht-degree: 9%
 
 ---
 
-# setGroupMembers{#setgroupmembers}
+# setgroupMembers{#setgroupmembers}
 
-设置属于特定公司的用户的组成员资格。
+設定屬於特定公司之使用者的群組成員資格。
 
-如果您没有完成此操作的权限，则操作会引发身份验证错误。 如果用户句柄数组中的任何用户不属于公司句柄中指定的公司，则也是如此。
+如果您沒有完成此作業的許可權，作業會擲回驗證錯誤。 如果使用者控制代碼陣列中的任何使用者不屬於公司控制代碼中指定的公司，也是如此。
 
-## 授权用户类型 {#section-4523594039c24aa29c8d0d5c9c415391}
+## 授權的使用者型別 {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,21 +26,21 @@ ht-degree: 9%
 
 ## 参数 {#section-6a18562fc8e942af94be10bbb8c51151}
 
-**输入(setGroupMembersParam)**
+**輸入(setGroupMembersParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司负责人。 |
-| groupHandle | `xsd:string` | 是 | 组句柄。 |
-| userHandleArray | `types:HandleArray` | 是 | 要设置其组成员资格的用户的句柄数组。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| groupHandle | `xsd:string` | 是 | 群組控制代碼。 |
+| userHandleArray | `types:HandleArray` | 是 | 您要設定其群組成員資格的使用者之控制代碼陣列。 |
 
-**Output(setGroupMembesReturn)**
+**輸出(setGroupMembesReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-此代码示例可为单个用户设置组成员资格。
+此程式碼範例為單一使用者設定群組成員資格。
 
 **请求**
 

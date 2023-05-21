@@ -1,24 +1,24 @@
 ---
-description: 介绍IPS API版本3.7的新字符串常量和已更改的字符串常量。
+description: 說明IPS API 3.7版的新字串常數和變更的字串常數。
 solution: Experience Manager
-title: 新增和修改的字符串常量
-feature: Dynamic Media Classic，SDK/API
+title: 字串常數 — 新增與修改
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '40'
+ht-degree: 10%
 
 ---
 
-# 字符串常量：新建和已修改{#string-constants-new-and-modified}
+# 字串常數：新增和修改{#string-constants-new-and-modified}
 
-介绍IPS API版本3.7的新字符串常量和已更改的字符串常量。
+說明IPS API 3.7版的新字串常數和變更的字串常數。
 
 语法
 
-## 新常量 {#section-2aef3a41d8274756ad5af4b2349edaae}
+## 新常數 {#section-2aef3a41d8274756ad5af4b2349edaae}
 
 * `Job Types`
 * `Active Job States`
@@ -34,7 +34,7 @@ ht-degree: 8%
 * `Job Log Sort Fields`
 * `Email settings`
 
-## 修改的常量 {#section-559927ae41e64ac285ac3d907ce3afb6}
+## 修改的常數 {#section-559927ae41e64ac285ac3d907ce3afb6}
 
 **资源类型**
 

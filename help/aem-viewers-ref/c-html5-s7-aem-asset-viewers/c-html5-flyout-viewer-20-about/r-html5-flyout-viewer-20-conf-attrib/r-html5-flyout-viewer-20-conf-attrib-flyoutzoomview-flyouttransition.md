@@ -8,42 +8,42 @@ exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`隐藏延迟`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 无|幻灯片|渐隐 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定显示或隐藏弹出视图时应用的效果类型。 使用 <span class="codeph"> 无 </span>激活并准备就绪后，弹出图像会立即显示； <span class="codeph"> 幻灯片 </span> 使幻灯片动画以从左到右的方向播放； <span class="codeph"> 淡淡 </span> 对弹出图像应用alpha过渡。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定顯示或隱藏彈出式檢視時套用的效果型別。 替換為 <span class="codeph"> 無 </span>，彈出式影像在啟動並準備就緒時立即顯示； <span class="codeph"> 幻燈片 </span> 讓幻燈片動畫以由左至右的方向播放； <span class="codeph"> 淡化 </span> 將Alpha轉變套用至彈出式影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> 节目动画完成所用的秒数。 </p> </td> 
+   <td colname="col2"> <p> 完成顯示動畫所需的秒數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> 启动节目动画的用户操作与节目动画本身的开始之间的延迟（以秒为单位）。 </p> </td> 
+   <td colname="col2"> <p> 使用者起始顯示動畫的動作與顯示動畫本身開始之間的延遲秒數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
-   <td colname="col2"> <p> 隐藏动画完成所用的秒数。 </p> </td> 
+   <td colname="col2"> <p> 隱藏動畫完成所需的秒數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 隐藏延迟 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 启动隐藏动画的用户操作与隐藏动画本身的开始之间的延迟（以秒为单位）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> 使用者起始隱藏動畫的動作與隱藏動畫本身開始之間的延遲秒數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
-可选。
+可选.
 
 ## 默认 {#section-a08032f0fcf041c09e63c0238a339fc9}
 

@@ -1,20 +1,20 @@
 ---
-description: 图像目录中的用户数据。 返回在url路径中指定的图像目录条目的用户数据。
+description: 影像目錄中的使用者資料。 傳回URL路徑中所指定影像目錄專案的使用者資料。
 solution: Experience Manager
-title: userdata
-feature: Dynamic Media Classic，SDK/API
+title: 使用者資料
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 7%
+source-wordcount: '185'
+ht-degree: 8%
 
 ---
 
-# userdata{#userdata}
+# 使用者資料{#userdata}
 
-图像目录中的用户数据。 返回在url路径中指定的图像目录条目的用户数据。
+影像目錄中的使用者資料。 傳回URL路徑中所指定影像目錄專案的使用者資料。
 
 `req=userdata[,text|{xml[, *`编码`*]}|json]`
 
@@ -25,18 +25,18 @@ ht-degree: 7%
  </tr> 
 </table>
 
-返回`catalog::UserData`的内容。 指定“text”格式时，`catalog::UserData`中`??`的所有实例都由行终止符替换，并在末尾附加单行终止符(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应只包含单个行终结器。 请求“xml”或“json”格式时，会应用适当的格式。
+以下專案的內容： `catalog::UserData` 會傳回。 指定&#39;text&#39;格式時，所有實體 `??` 在 `catalog::UserData`取代為直線終止元，且單線終止元(CR/LF)會附加至末端。 如果URL路徑無法解析為有效的目錄專案，回應只會包含單行終止元。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
 
-请求字符串中的其他命令将被忽略。
+請求字串中的其他命令會被忽略。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
 >[!NOTE]
 >
->userdata属性键名称中不允许使用冒号字符。
+>使用者資料屬性索引鍵名稱中不允許冒號字元。
 
-支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法来指定JS回调处理程序的名称：
+支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。只允许使用a-z、A-Z和0-9个字符。 可选。默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.

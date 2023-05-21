@@ -1,6 +1,6 @@
 ---
-title: 新增内容和更改
-description: 介绍IPS API v4.0的新更改和已实施的更改。
+title: 新增與變更
+description: 說明IPS API v4.0的新變更和實施變更。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -12,116 +12,116 @@ ht-degree: 2%
 
 ---
 
-# 新增内容和更改{#new-additions-and-changes}
+# 新增與變更{#new-additions-and-changes}
 
-介绍IPS API v4.0的新更改和已实施的更改。
+說明IPS API v4.0的新變更和實施變更。
 
-通过单独的WSDL和架构命名空间并排实施了API版本。
+使用不同的WSDL和結構描述名稱空間並排實作API版本。
 
-* 以前的API版本： `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
+* 舊版API： `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
 * SPS 4.0版本： `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
-添加了 `PostScriptOptions/alpha` 字段。
+已新增 `PostScriptOptions/alpha` 欄位。
 
-添加了 `VideoRootUrl` 和 `SwfRootUrl` 属性 `getProperty` 操作。
+已新增 `VideoRootUrl` 和 `SwfRootUrl` 屬性 `getProperty` 作業。
 
-添加了可选 `appName` 和 `appVersion` params to `authHeader` 跟踪调用应用程序。 向添加了日志记录 `ipsApiService.log`.
+新增選用專案 `appName` 和 `appVersion` 引數至 `authHeader` 以追蹤呼叫應用程式。 已新增記錄至 `ipsApiService.log`.
 
-添加了可选 `serviceUrl` 参数到WSDL层代servlet。 此参数对于调试代理非常有用。 示例: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+新增選用專案 `serviceUrl` 引數至WSDL產生servlet。 此引數適用於除錯代理。 示例: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
-已实施 `getZipEntries` 操作。
+已實作 `getZipEntries` 作業。
 
-实现了系统字段条件的搜索范围和键入的比较值。
+已實作系統欄位條件的搜尋範圍和輸入的比較值。
 
-添加了 `'Asset'` 资产类型字符串常量，主要用于允许跨资产元数据字段。
+已新增 `'Asset'` 資產型別字串常數，主要用於允許跨資產中繼資料欄位。
 
-已实施 `trashState` 参数 `searchAssets`.
+已實作 `trashState` 引數： `searchAssets`.
 
-已实施 `getAssetPublishHistory` 操作。
+已實作 `getAssetPublishHistory` 作業。
 
-添加了可选 `faultHttpStatusCode` 用于在Flex中启用故障处理的SOAP标头。 对于Flex，请使用 `<faultHttpStatusCode>200</faultHttpStatusCode>`. 故障响应的默认状态代码为 `500 (Internal Server Error)`.
+新增選用專案 `faultHttpStatusCode` SOAP標頭，可在Flex中啟用錯誤處理。 若為Flex，請使用 `<faultHttpStatusCode>200</faultHttpStatusCode>`. 錯誤回應的預設狀態代碼為 `500 (Internal Server Error)`.
 
-添加了从垃圾桶恢复资产和从垃圾桶恢复空资产的操作。
+新增從垃圾桶還原資產和從垃圾桶還原空白資產的操作。
 
-已实施CRUD操作。
+實作CRUD作業。
 
-在 `ImageMap` 类型和 `saveImageMap` 操作。
+已新增啟用的標幟至 `ImageMap` 型別和 `saveImageMap` 作業。
 
-添加了对“优化剩余文件”作业的支持。
+新增對「最佳化剩餘檔案」工作的支援。
 
-添加了 `setAssetsPublishState` 以批量发布状态更新。
+已新增 `setAssetsPublishState` 以取得大量發佈狀態更新。
 
-添加了 `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
+已新增 `ImageServingPublishSettings`， `getImageServingPublishSettings`， `setImageServingPublishSettings`.
 
-已弃用 `saveMetadataField` 支持新 `createMetadataField` 和 `updateMetadataField` 操作。
+已棄用 `saveMetadataField` 支援新增的作業 `createMetadataField` 和 `updateMetadataField` 作業。
 
-已实施 `deleteAssetsParam` 批量删除操作。
+已實作 `deleteAssetsParam` 批次刪除作業。
 
-已实施 `moveAssetsParam` 批量移动操作。
+已實作 `moveAssetsParam` 批次移動作業。
 
-已实施 `deleteMetadataField` 操作。
+已實作 `deleteMetadataField` 作業。
 
-已实施 `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat` 操作。
+已實作 `get/setImageRenderingPublishSettings`， `get/set/create/updateVignettePublishFormat` 作業。
 
-已实施 `getAssetCounts`.
+已實作 `getAssetCounts`.
 
-在 `setImageSetMembers` 包括 `RenderSet` 成员 `ImageSet` 资产。
+新增支援至 `setImageSetMembers` 針對，包括 `RenderSet` 中的成員 `ImageSet` 資產。
 
-添加了 `replaceImage` 操作。
+已新增 `replaceImage` 作業。
 
-添加了 `copyImage` 操作。
+已新增 `copyImage` 作業。
 
-添加了 `setUrlModifier` 操作和 `urlModifier/urlPostApplyModifier` 字段 `LayerViewInfo`, `TemplateInfo`和 `WatermarkInfo`.
+已新增 `setUrlModifier` 操作和 `urlModifier/urlPostApplyModifier` 欄位 `LayerViewInfo`， `TemplateInfo`、和 `WatermarkInfo`.
 
-添加了 `createDerivedAsset` 操作。 当前 `ownerHandle` 必须引用图像资产，且类型可能 `AdjustedView` 或 `LayerView`.
+已新增 `createDerivedAsset` 作業。 目前為 `ownerHandle` 必須參考影像資產，型別可以是 `AdjustedView` 或 `LayerView`.
 
-添加了 `createTemplate` 操作。 调用以创建模板或水印资产。
+已新增 `createTemplate` 作業。 呼叫以建立範本或浮水印資產。
 
-IPS公司设置， `CompanySettings`，移植到Web服务API。
+IPS公司設定， `CompanySettings`，移轉至網站服務API。
 
-添加了 `excludeByproducts` 筛选标记为 `searchAssets` 操作。 将此标志设置为true会运行 `PSDlayer` 图像和PDF已撕裂的图像。
+已新增 `excludeByproducts` 篩選標幟至 `searchAssets` 作業。 將此標幟設定為true執行 `PSDlayer` 影像和PDF擷取的影像。
 
-添加了 `getGenerationInfo` 操作。
+已新增 `getGenerationInfo` 作業。
 
-添加了 `SystemMessage` 属性名称 `getProperty` 操作。
+已新增 `SystemMessage` 屬性名稱至 `getProperty` 作業。
 
-修改了一些资产类型字符串常量，以匹配相应的“资产信息”字段。
+修改部分資產型別字串常數，以符合對應的資產資訊欄位。
 
-* WordDoc:Word
-* ExcelDoc:Excel
-* PowerPointDoc:PowerPoint
-* RTFDoc:Rtf
+* WordDoc： Word
+* ExcelDoc： Excel
+* PowerPointDoc： PowerPoint
+* RTFDoc： Rtf
 
-修改了批处理操作的结果格式，以汇总成功、警告和错误。
+修改批次作業的結果格式，以彙總成功、警告和錯誤。
 
-已实施 `batchSetAssetMetadata` 批量元数据操作。
+已實作 `batchSetAssetMetadata` 批次中繼資料作業。
 
-对特定于应用程序的数据实施了支持。
+實作應用程式特定資料的支援。
 
-对的布尔标记实施了支持 `createTemplate`, `extendLayers`和 `extractText` 用于上传作业以控制Photoshop处理过程（与对添加文件上传的更改类似）。
+實作布林值標幟的支援 `createTemplate`， `extendLayers`、和 `extractText` 用於上傳工作，以控制Photoshop的處理程式（類似於新增檔案上傳的變更）。
 
-已实施 `setImageMaps` 和 `setZoomTargets` 操作。
+已實作 `setImageMaps` 和 `setZoomTargets` 作業。
 
-已实施 `ViewerPreset` 操作。 已识别的类型包括：
+已實作 `ViewerPreset` 作業。 可識別的型別包括：
 
-* `VideoPlayer` （视频仅发布这些查看器。）
+* `VideoPlayer` （影片只會發佈這些檢視器）。
 * `Brochure`
 * `BasicZoom`
 * `AdvancedZoom`
 * `Spin`
 * `Custom types`
 
-查看器外观支持两个参数： `skinFg` 和 `skinBg`. 后端代码会执行维护向后兼容性所需的所有处理。
+檢視器外觀元素支援兩個引數： `skinFg` 和 `skinBg`. 後端程式碼會執行維持回溯相容性所需的所有處理。
 
-已实施 `getAssociatedAssets` 操作。
+已實作 `getAssociatedAssets` 作業。
 
-添加了 `ReprocessAssets` 作业类型，允许重新处理以前上传的主源文件，包括重新处理PDF和重新优化图像。
+已新增 `ReprocessAssets` 允許重新處理先前上傳的主要來源檔案的工作型別，包括重新擷取PDF和重新最佳化影像。
 
-已重命名 `PropertySetType` 字段类型更改为 `propertyType`. 此重命名会影响 `createPropertySetType` 参数和 `getPropertySetType/getPropertySetTypes` 响应。
+已重新命名 `PropertySetType` 欄位型別至 `propertyType`. 此重新命名會影響 `createPropertySetType` 引數和 `getPropertySetType/getPropertySetTypes` 回應。
 
-已实施 `batchSetImageFields` 操作，以支持设置图像用户数据和其他可编辑的图像字段。
+已實作 `batchSetImageFields` 支援設定影像使用者資料和其他可編輯影像欄位的作業。
 
-47向各种资产信息类型添加了fileSize字段：
+47將fileSize欄位新增至各種資產資訊型別：
 
 * `VignetteInfo`
 * `CabinetInfo`
@@ -150,55 +150,55 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
 * `PowerPointInfo`
 * `RTFInfo`
 
-已实施 `getActivePublishContexts` 操作。 此操作会返回一个发布上下文名称数组，其中包含指定公司的活动发布服务器。 当前发布上下文名称为：
+已實作 `getActivePublishContexts` 作業。 此操作會傳回具有指定公司之作用中發佈伺服器的發佈內容名稱陣列。 目前的發佈內容名稱為：
 
 * `ImageServing`
 * `ImageRendering`
 * `Video`
 
-已实施 `getSearchStrings` 操作。 它会返回给定资产的搜索字符串数组。
+已實作 `getSearchStrings` 作業。 它會傳回指定資產的搜尋字串陣列。
 
-添加了作业的区域设置参数以及设置API操作区域设置的机制。 区域设置字符串的格式应为 `<language_code>[-<country_code>]`. 语言代码是ISO-639指定的小写双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。
+新增工作的地區設定引數，以及設定API作業地區設定的機制。 地區設定字串的格式應該是 `<language_code>[-<country_code>]`. 語言代碼是ISO-639所指定的小寫雙字母代碼，而選用的國家/地區代碼是ISO-3166所指定的大寫雙字母代碼。
 
-在 `authHeader` 用于设置API操作的区域设置的SOAP标头。 如果此参数不存在，则HTTP标头 `Accept-Language` 中，将使用。 如果此标头不存在，则使用IPS服务器的默认区域设置。
+將選用的地區設定引數新增至 `authHeader` 設定API作業地區設定的SOAP標頭。 如果此引數不存在，HTTP標頭 `Accept-Language` 已使用。 如果此標頭也不存在，則會使用IPS伺服器的預設地區設定。
 
-添加了对强类型元数据字段的获取/设置支持。
+新增強型別中繼資料欄位的get/set支援。
 
-实现了对gzip响应控制的SOAP和HTTP标头支持。
+實作對gzip回應控制項的SOAP和HTTP標頭支援。
 
-添加了 `gzipResponse` 标记为 `authHeader`. 如果不存在，则API会检查HTTP `Accept-Encoding` 标题。
+已新增 `gzipResponse` 標幟到 `authHeader`. 如果不存在，API會檢查HTTP `Accept-Encoding` 標頭。
 
-为强类型元数据字段条件的searchAssets添加了支持。
+新增對searchAssets的強型別中繼資料欄位條件支援。
 
-* 对于所有字段类型，值可以使用字符串比较运算符( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)
-* 对于布尔字段， `boolVal` 可以与 `Equals` 操作。
-* 对于整型字段， `longVal` 可以使用数值比较运算符( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)或 `minLong/maxLong` 可以通过数字范围运算( `Between, NotBetween`)。
-* 对于浮点字段， `doubleVal` 可以使用数值比较运算符( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)或 `minDouble/maxDouble` 可以通过数字范围运算( `Between, NotBetween`)。
-* 对于“日期”字段，您可以 `dateVal` 与数值比较运算符( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)，或者您可以传递包含数值范围运算( `Between, NotBetween`)。
+* 對於所有欄位型別，值可透過字串比較運運算元( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)
+* 對於布林值欄位， `boolVal` 可透過 `Equals` 操作。
+* 對於Int欄位， `longVal` 可透過數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)或 `minLong/maxLong` 可透過數值範圍作業( `Between, NotBetween`)。
+* 對於Float欄位， `doubleVal` 可透過數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)或 `minDouble/maxDouble` 可透過數值範圍作業( `Between, NotBetween`)。
+* 對於日期欄位，您可以傳遞 `dateVal` 使用數值比較運運算元( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)或您可以透過數值範圍作業( `Between, NotBetween`)。
 
-添加了描述、 `jobSubType`和 `originalJobName` 字段 `JobLog` 类型。
+已新增說明， `jobSubType`、和 `originalJobName` 欄位至 `JobLog` 型別。
 
-* `originalJobName` 是提交到的作业名称 `submitJob` （没有任何唯一性后缀或后续作业名称）。
-* `jobSubType` 仅用于 `ImageServingPublishJob` 工作(其中 `full`, `increment, fullwithsearch,` 或 `fulloverride`)。
-* `description` 是所有作业类型的空字符串，但最终包含摘要作业信息，如上载路径。
+* `originalJobName` 是工作名稱已提交至 `submitJob` （沒有任何唯一性尾碼或後續工作名稱）。
+* `jobSubType` 僅供 `ImageServingPublishJob` 工作（其中為下列之一） `full`， `increment, fullwithsearch,` 或 `fulloverride`)。
+* `description` 是適用於所有工作型別的空字串，但最終包含摘要工作資訊，例如上傳路徑。
 
-此外，以下字段不包含在两者中 `getJobLogs` 和 `getJobLogDetails`. 在以前的版本中，它们仅可用于 `getJobLogDetails`.
+此外，以下欄位不會同時包含於兩者 `getJobLogs` 和 `getJobLogDetails`. 在舊版中，它們僅適用於 `getJobLogDetails`.
 
-* `endDate` （如果作业已完成）。
-* `fileDuplicateCount` (以前， `0` with `getJobLogs`)
-* `fileUpdateCount` (以前 `0` with `getJobLogs` 和 `fileSuccessCount`;现在，它被拆分为单独的字段)。
+* `endDate` （如果工作已完成）。
+* `fileDuplicateCount` (之前一直 `0` 替換為 `getJobLogs`)
+* `fileUpdateCount` (先前一直 `0` 替換為 `getJobLogs` 並包含在 `fileSuccessCount`；現在會分割成個別欄位)。
 
-已将assetHandle字段添加到 `JobLogDetail` 类型。
+將assetHandle欄位新增至 `JobLogDetail` 型別。
 
-向添加了可选描述参数 `submitJob`. 此参数将通过传递以在中检索 `getScheduledJobs`, `getActiveJobs`和 `getJobLogs`.
+新增選用說明引數至 `submitJob`. 傳遞此引數以便擷取 `getScheduledJobs`， `getActiveJobs`、和 `getJobLogs`.
 
-已弃用SKU系统字段。 如果字段作为 `SystemFieldCondition` to `searchAssets`.
+已棄用SKU系統欄位。 如果欄位作為「 」傳入，則會忽略該欄位 `SystemFieldCondition` 至 `searchAssets`.
 
-添加了 `excludeAssetTypeArray` 筛选 `searchAssets`.
+已新增 `excludeAssetTypeArray` 篩選至 `searchAssets`.
 
-添加了 `MaskInfo` 键入 `Asset`.
+已新增 `MaskInfo` 輸入至 `Asset`.
 
-添加了新的资产类型，供IPS管理：
+已新增IPS管理的新資產型別：
 
 <table id="table_DCCE936B797A448598C30E3B344525A5"> 
  <thead> 
@@ -210,32 +210,32 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Illustrator </span> </p> </td> 
-   <td colname="col2"> <p>Adobe Illustrator文件。 </p> </td> 
+   <td colname="col2"> <p>Adobe Illustrator檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PostScript </span> </p> </td> 
-   <td colname="col2"> <p>EPS和PostScript文件。 </p> </td> 
+   <td colname="col2"> <p>EPS和PostScript檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft®以.doc结尾的文件的Word文档。 </p> </td> 
+   <td colname="col2"> <p>以.doc結尾之檔案的Microsoft® Word檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft® Excel文档，以.xls结尾的文件。 </p> </td> 
+   <td colname="col2"> <p>以.xls結尾之檔案的Microsoft® Excel檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft® PowerPoint文档，用于以.ppt结尾的文件。 </p> </td> 
+   <td colname="col2"> <p>以.ppt結尾之檔案的Microsoft® PowerPoint檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.rtf结尾的文件的RTF文件。 </p> </td> 
+   <td colname="col2"> <p>以.rtf結尾的上傳檔案的RTF檔案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-添加了 `UploadDirectoryJob` 和 `UploadUrlsJob` 可单独控制Postscript、Illustrator和PDF文件的处理。 所有现有的作业都为三个处理管道中的每个管道提供了必要的参数，以便它们能够像现在一样正常工作。 原始 `PostScriptOptions` 块用于设置Illustrator和EPS/PS文件的处理。 或者，可以提供特定文件选项块以指定处理。 更改列表包括：
+新增其他選項至 `UploadDirectoryJob` 和 `UploadUrlsJob` 獨立控制Postscript、Illustrator和PDF檔案的處理。 所有現有作業都會為三個處理管道的每個提供必要引數，以便它們能夠完全按照今天的方式運作。 原始 `PostScriptOptions` 區塊是用來設定Illustrator和EPS/PS檔案的處理作業。 您可以選擇提供特定的檔案選項區塊來指定處理。 變更清單包括：
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -253,18 +253,18 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> 无 </span> </p> </li> 
-      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> 光栅化 </span>（默认） </p> </li> 
+      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> 點陣化 </span>（預設） </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_14D0A696DF4E408DA50E102057EB7AC7"> 
-      <li id="li_D8AA718D9F504B91AB557216D2D7DBCC"> <p>仅管理资产，并且不会在上传时创建任何派生项。 </p> </li> 
-      <li id="li_3F56CEABAB3E43EAB157C83583A2F58D"> <p>以规定的分辨率和色彩空间将EPS和PostScript文件渲染到图像中。 </p> </li> 
+      <li id="li_D8AA718D9F504B91AB557216D2D7DBCC"> <p>僅管理資產，上傳時不會建立任何衍生工具。 </p> </li> 
+      <li id="li_3F56CEABAB3E43EAB157C83583A2F58D"> <p>以指定的解析度和色域將EPS和PostScript檔案演算為影像。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>可选。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>可选. </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>将文件栅格化为图像时生效。 如果以这种方式定义原始文件以叠加徽标，则会创建透明背景。 </p> </td> 
+   <td colname="col4"> <p>將檔案點陣化成影像時生效。 如果以這種方式定義原始檔案以覆蓋標誌，則會建立透明背景。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
@@ -272,28 +272,28 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
       <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> 无 </span> </li> 
-      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> 光栅化 </span> （默认） </li> 
+      <li id="li_C5332FC35E5C4687B30D4C1081015BB0"> <span class="codeph"> 點陣化 </span> （預設） </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_41924574773542B7BFC4989667C14E97"> 
-      <li id="li_3886554059AB4F7383619A9CB7292E0E"> <p>仅管理资产，并且不会在上传时创建任何派生项。 </p> </li> 
-      <li id="li_BF3F5E54484C46D8887CA48D8646648E"> <p>以规定的分辨率和色彩空间将文件渲染到图像中。 </p> </li> 
+      <li id="li_3886554059AB4F7383619A9CB7292E0E"> <p>僅管理資產，上傳時不會建立任何衍生工具。 </p> </li> 
+      <li id="li_BF3F5E54484C46D8887CA48D8646648E"> <p>以指定的解析度和色域將檔案演算為影像。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
-   <td colname="col4"> <p>光栅化分辨率。 </p> </td> 
+   <td colname="col4"> <p>點陣化解析度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>用于渲染的目标色彩空间。 </p> </td> 
+   <td colname="col4"> <p>呈現的目標色彩空間。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>可选。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>可选. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>将文件栅格化为图像时生效。 如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 </p> </td> 
+   <td colname="col4"> <p>將檔案點陣化成影像時生效。 如果以這種方式定義原始檔案來建立重疊圖志，則建立透明背景。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions </span> </p> </td> 
@@ -301,40 +301,40 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
       <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> 无 </span> </p> </li> 
-      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> 光栅化 </span> （默认） </p> </li> 
+      <li id="li_E3FA07129C2646C7B98854C22CDAC1F0"> <p> <span class="codeph"> 點陣化 </span> （預設） </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_84EE74454FF5434087A895F915E68103"> 
-      <li id="li_4312A1CD5F4B44589678311A59536FA7"> <p>仅管理资产，并且不会在上传时创建任何派生项。 </p> </li> 
-      <li id="li_06FBA83EA3F248E288F4790255802DE6"> <p>以规定的分辨率和色彩空间将文件渲染到图像中。 </p> </li> 
+      <li id="li_4312A1CD5F4B44589678311A59536FA7"> <p>僅管理資產，上傳時不會建立任何衍生工具。 </p> </li> 
+      <li id="li_06FBA83EA3F248E288F4790255802DE6"> <p>以指定的解析度和色域將檔案演算為影像。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
-   <td colname="col4"> <p>光栅化分辨率。 </p> </td> 
+   <td colname="col4"> <p>點陣化解析度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>用于渲染的目标色彩空间。 </p> </td> 
+   <td colname="col4"> <p>呈現的目標色彩空間。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定义在渲染后是否将多个页面PDF合并到eCatalog中（默认值为true）。 </p> </td> 
+   <td colname="col4"> <p>定義在呈現後是否將多頁PDF合併到eCatalog中（預設為true）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;boolean&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定义是否将PDF中的词语提取到数据库中，以供稍后提供给搜索服务器（默认值为false）。 </p> </td> 
+   <td colname="col4"> <p>定義是否將PDF中的字詞擷取到DB以供稍後提供給搜尋伺服器（預設為false）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您还可以从 `getScheduledJobs`.
+您也可以從下列位置查詢： `getScheduledJobs`.
 
-修改了 `webservice.gzip.response` 配置属性来获取以下值之一：
+已修改 `webservice.gzip.response` 設定屬性以取得下列其中一個值：
 
 <table id="table_FCBBF1643DC84F5CBF81DCA6B552E0C4"> 
  <thead> 
@@ -346,19 +346,19 @@ IPS公司设置， `CompanySettings`，移植到Web服务API。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [!DNL never] </span> </p> </td> 
-   <td colname="col2"> <p>请勿gzip响应。 </p> </td> 
+   <td colname="col2"> <p>不要gzip回應。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [!DNL soap] </span> </p> </td> 
-   <td colname="col2"> <p>仅当authHeader/gzipResponse为true时，才响应Gzip。 </p> </td> 
+   <td colname="col2"> <p>Gzip回應僅在authHeader/gzipResponse為true時。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [!DNL accept] </span> </p> </td> 
-   <td colname="col2"> <p>如果authHeader/gzipResponse为true，或者不存在gzipResponse标头且HTTP Accept-Encoding标头包含gzip，则会设置Gzip。 (默认). </p> </td> 
+   <td colname="col2"> <p>Gzip （如果authHeader/gzipResponse為true，或不存在gzipResponse標頭且HTTP Accept-Encoding標頭包含gzip）。 (默认). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [!DNL always] </span> </p> </td> 
-   <td colname="col2"> <p>始终gzip响应，而不考虑标头值。 此值仅用于调试目的。 </p> </td> 
+   <td colname="col2"> <p>一律gzip回應，無論標頭值為何。 此值僅用於偵錯。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: IS服务器可以配置为对于涉及源映像且无法成功打开或读取的请求，故障转移到备用服务器。
+description: IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
 solution: Experience Manager
-title: 出错时重定向
+title: 發生錯誤時重新導向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 ---
 
-# 出错时重定向{#redirect-on-error}
+# 發生錯誤時重新導向{#redirect-on-error}
 
-IS服务器可以配置为对于涉及源映像且无法成功打开或读取的请求，故障转移到备用服务器。
+IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
 
-将重定向以下类型的请求：
+系統會重新導向下列型別的請求：
 
-* 是目录中的映像，但不在磁盘上。
+* IS目錄中的影像，但不在磁碟上。
 
-   如果图像不在目录中，则在找不到图像时不应发生错误重定向。
+   如果影像不在目錄中，則在找不到影像時，不應發生錯誤重新導向。
 
-* 图像、颜色配置文件或字体损坏。
-* 在磁盘上找不到静态内容。
+* 損毀的影像、色彩設定檔或字型。
+* 磁碟上找不到靜態內容。
 
-   在磁盘上找不到静态内容请求时，即使引用的静态内容没有目录记录，也会重定向静态内容请求。
+   在磁碟上找不到靜態內容請求時，即使參考的靜態內容沒有目錄記錄，也會重新導向靜態內容請求。
 
-在任何其他情况下都不会发生错误重定向。
+錯誤重新導向在任何其他情況下都不會發生。
 
-启用后，如果在请求处理期间发生此类错误，主服务器将将请求发送到辅助服务器进行处理。 无论响应是指示成功还是失败，该响应随后都会直接转发给客户端。 主服务器标记此类转发请求的日志条目并使用缓存 `REMOTE`. 响应数据不会由主服务器本地缓存。
+當啟用並在處理請求期間發生這類錯誤時，主要伺服器會將請求傳送至次要伺服器以進行處理。 然後會直接將回應轉送給使用者端，無論回應是指示成功還是失敗。 主要伺服器會使用快取來標籤此類轉送請求的記錄專案 `REMOTE`. 主要伺服器不會在本機快取回應資料。
 
-通过设置 `PS::errorRedirect.rootUrl` 到次服务器的HTTP域名和端口号。 此外，连接超时配置为 `PS::errorRedirect.connectTimeout` 以及主服务器在向客户端返回错误之前等待从辅助服务器响应的最长时间，配置了 `PS::errorRedirect.socketTimeout`.
-
->[!NOTE]
->
->如果无法联系次服务器，则会向客户端返回文本错误响应，即使配置了默认图像或错误图像也是如此。
+錯誤重新導向功能已透過設定啟用 `PS::errorRedirect.rootUrl` 至次要伺服器的HTTP網域名稱和連線埠號碼。 此外，連線逾時設定為 `PS::errorRedirect.connectTimeout` 以及主要伺服器等待次要伺服器回應至使用者端傳回錯誤的最長時間，已設定為 `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->错误重定向不支持网络路径中的管道字符(|)。
+>如果無法連絡次要伺服器，則會傳回文字錯誤回應給使用者端，即使已設定預設影像或錯誤影像亦然。
+
+>[!NOTE]
+>
+>網路路徑中的垂直號字元(|)不支援錯誤重新導向。
 
 ## 另请参阅 {#section-2e8bfc128b944baf8108279d16492f3f}
 
-[错误重定向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)
+[錯誤重新導向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)

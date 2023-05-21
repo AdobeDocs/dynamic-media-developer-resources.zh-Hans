@@ -1,6 +1,6 @@
 ---
-title: 视频洗涤器
-description: 视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置
+title: 視訊筆畫壓感
+description: 視訊筆畫壓感是水準滑桿控制項，可讓使用者動態搜尋目前播放視訊內的任何時間位置
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 ---
 
-# 视频洗涤器{#video-scrubber}
+# 視訊筆畫壓感{#video-scrubber}
 
-视频清理器是一个水平滑块控件，它允许用户动态地搜寻当前播放的视频中的任意时间位置。
+視訊筆畫壓感是水準滑桿控制項，可讓使用者動態搜尋目前播放視訊內的任何時間位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-在视频播放时，擦洗器“旋钮”也会移动，以指示视频在播放期间的当前时间位置。 视频清理器始终采用控制栏的整个宽度。 可以通过CSS将视频擦洗器蒙皮并更改其高度和垂直位置。
+清除器「旋鈕」也會隨著視訊播放而移動，以指出視訊在播放期間的目前時間位置。 視訊筆畫壓感一律採用控制列的整個寬度。 您可以透過CSS建立視訊筆畫壓感的外觀，並變更其高度和垂直位置。
 
-通过以下CSS类选择器控制视频清理器的常规外观：
+視訊筆畫壓感的一般外觀是由下列CSS類別選取器所控制：
 
 ```
 .s7videoviewer .s7videoscrubber 
@@ -28,30 +28,30 @@ ht-degree: 2%
 .s7videoviewer .s7videoscrubber .s7knob
 ```
 
-**视频清理器的CSS属性**
+**視訊筆畫壓感的CSS屬性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从上边框的位置，包括内边距。 </p> </td> 
+   <td colname="col2"> <p>上邊框的位置，包括邊框間距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 从下边框的位置，包括内边距。 </p> </td> 
+   <td colname="col2"> <p> 從下邊框定位，包括內距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>视频清理器的高度。 </p> </td> 
+   <td colname="col2"> <p>視訊清除程式的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>视频擦洗器的颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>視訊筆畫壓感色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-以下CSS类选择器跟踪背景、播放和加载指示器：
+下列CSS類別選取器會追蹤背景、播放和載入指標：
 
 ```
 .s7videoviewer .s7videoscrubber .s7track 
@@ -59,106 +59,106 @@ ht-degree: 2%
 .s7videoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**跟踪的CSS属性**
+**曲目的CSS屬性**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>相应轨道的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>對應軌道的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>相应轨道的颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>對應曲目的色彩。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-以下CSS类选择器控制旋钮：
+下列CSS類別選擇器會控制旋鈕：
 
 ```
 .s7videoviewer .s7videoscrubber .s7knob
 ```
 
-**旋钮的CSS属性**
+**旋鈕的CSS屬性**
 
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>垂直旋钮偏移。 </p> </td> 
+   <td colname="col2"> <p>垂直旋鈕位移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>旋钮的宽度。 </p> </td> 
+   <td colname="col2"> <p>旋鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>旋钮的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>旋鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>旋钮图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>旋鈕圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-以下CSS类选择器控制播放的气泡时间：
+下列CSS類別選擇器可控制播放時間泡泡：
 
 ```
 .s7videoviewer .s7videoscrubber .s7videotime
 ```
 
-**播放时间气泡的CSS属性**
+**時間播放泡泡的CSS屬性**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p> 用于时间显示文本的字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p> 用於時間顯示文字的字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p> 用于时间显示文本的字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p> 用於時間顯示文字的字型大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 用于时间显示文本的字体颜色。 </p> </td> 
+   <td colname="col2"> <p> 用於時間顯示文字的字型顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>气泡区域宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>泡泡區域寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>气泡区域高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>泡泡區域高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>气泡区域填充。 </p> </td> 
+   <td colname="col2"> <p>泡泡區域邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>气泡图。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>泡泡圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
-   <td colname="col2"> <p>文本与气泡区域对齐。 </p> </td> 
+   <td colname="col2"> <p>文字與泡泡區域的對齊方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-视频清洗工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
+視訊筆畫壓感工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
 
-**示例**  — 设置带有自定义跟踪颜色的视频清洗器的视频查看器。 擦洗器必须高10个像素，且距控制栏的上边缘和左边缘的位置为10个像素和35个像素。
+**範例**  — 使用自訂軌跡顏色的視訊筆畫壓感來設定視訊檢視器。 筆畫壓感必須有10個畫素高，並且位於距離控制列頂端和左側邊緣10個畫素和35個畫素的位置。
 
 ```
 .s7videoviewer .s7videoscrubber  { 
@@ -181,42 +181,42 @@ background-color:#888888;
 }
 ```
 
-在启用视频章节时，使用 `navigation` 参数，章节位置将作为标记显示在视频清理器轨道的顶部。
+使用啟用視訊章節時 `navigation` 引數，章節位置會在視訊筆畫壓感軌跡上方顯示為標籤。
 
-视频章节标记由以下CSS类选择器控制：
+視訊章節標籤是由下列CSS類別選擇器所控制：
 
 ```
  .s7videoviewer .s7videoscrubber .s7navigation
 ```
 
-**视频章节标记的CSS属性**
+**視訊章節標籤的CSS屬性**
 
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标记宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節標籤寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标记高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節標籤高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标记图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>影片章節標籤圖稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，您可以使用该选择器将不同的外观应用到不同的按钮状态。 特别是， `selected='default'` 与默认视频章节标记状态和 `selected='over'` 在鼠标悬停或触摸手势激活视频章节标记时使用。
+>此按鈕同時支援 `state` 屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `selected='default'` 對應至預設的視訊章節標籤狀態和 `selected='over'` 當滑鼠懸停或觸控手勢啟動視訊章節標籤時使用。
 
-**示例**  — 设置5 x 8像素的视频章节标记，并将不同的图标用于“默认”和“超出”状态。
+**範例**  — 設定5 x 8畫素的視訊章節標籤，並在「預設」和「超過」狀態使用不同的圖片。
 
 ```
 .s7videoviewer .s7videoscrubber .s7navigation { 
@@ -231,30 +231,30 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
 }
 ```
 
-视频章节气泡位于视频章节标记的顶部，并显示给定章节的标题、开始时间和描述。 可以控制相对于视频洗涤器轨道的最大气泡宽度和垂直偏移。 其余部分由组件自动计算。
+影片章節泡泡位於影片章節標籤上方，並顯示指定章節的標題、開始時間和說明。 您可以控制相對於視訊筆畫壓感軌跡的最大泡泡寬度和垂直位移。 其餘由元件自動計算。
 
-视频章节气泡由以下CSS类选择器控制：
+視訊章節泡泡由下列CSS類別選擇器控制：
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter
 ```
 
-**视频章节气泡的CSS属性**
+**視訊章節泡泡的CSS屬性**
 
 <table id="table_7F33738422F84978B9132495F67C2156"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 最大宽度 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡的最大宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節泡泡的最大寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>与视频擦洗器轨道的垂直偏移。 </p> </td> 
+   <td colname="col2"> <p>從視訊筆畫壓感軌跡的垂直位移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置宽度为235像素且距离视频清理器轨道底部向上八像素的视频章节气泡。
+**範例**  — 若要設定寬235畫素、且從視訊筆畫壓感軌跡底部往上八畫素的視訊章節泡泡。
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter { 
@@ -263,38 +263,38 @@ bottom:8px;
 }
 ```
 
-视频章节气泡由可选标题和内容组成。 标题具有可选的章节开始时间和章节标题。
+影片章節泡泡圖包含選用的標題和內容。 標題具有可選的章節開始時間和章節標題。
 
-标头由以下CSS类选择器控制：
+標頭由以下CSS類別選擇器控制：
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header
 ```
 
-**视频章节气泡标题的CSS属性**
+**視訊章節泡泡標題的CSS屬性**
 
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡标题高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>影片章節泡泡標題高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡标题文本的内边距。 </p> </td> 
+   <td colname="col2"> <p>視訊章節泡泡標題文字的內部邊框間距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡标题背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>影片章節泡泡標題背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 行高 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节气泡标题文本行高。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節泡泡圖示頭文字行高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置高22像素、高22像素、水平边距12像素和灰色背景的视频章节气泡标题。
+**範例**  — 若要設定高22畫素、行高22畫素、水準邊界12畫素和灰色背景的視訊章節泡泡標題。
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -305,40 +305,40 @@ background-color: rgba(51, 51, 51, 0.8);
 }
 ```
 
-视频章节的开始时间由以下CSS类选择器控制：
+視訊章節的開始時間由下列CSS類別選取器控制：
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7starttime
 ```
 
-**视频章节开始时间的CSS属性**
+**視訊章節開始時間的CSS屬性**
 
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
-   <td colname="col2"> <p>文本颜色. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>字体大小. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 内边距 — 右边距 </span> </p> </td> 
-   <td colname="col2"> <p> 开始时间和章节标题之间的内边距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右內邊距 </span> </p> </td> 
+   <td colname="col2"> <p> 開始時間和章節標題之間的內距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 使用灰色十像素Verdana字体设置章节开始时间，其右侧有十个像素内边距。
+**範例**  — 若要設定章節開始時間，請使用灰色10畫素Verdana字型，並在右側有10畫素邊框間距。
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -349,36 +349,36 @@ padding-right: 10px;
 }
 ```
 
-视频章节标题由以下CSS类选择器控制：
+視訊章節標題由下列CSS類別選擇器控制：
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7title
 ```
 
-**视频章节标题的CSS属性**
+**視訊章節標題的CSS屬性**
 
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标题文本颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節標題文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标题字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節標題字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标题字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節標題字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节标题字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>影片章節標題字型系列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置使用白色、粗体、十像素Verdana字体的视频章节标题。
+**範例**  — 設定使用白色、粗體、10畫素Verdana字型的視訊章節標題。
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7title { 
@@ -389,48 +389,48 @@ font-weight: bold;
 }
 ```
 
-视频章节描述由以下CSS类选择器控制：
+視訊章節說明由下列CSS類別選擇器控制：
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7description
 ```
 
-**视频章节描述的CSS属性**
+**視訊章節說明的CSS屬性**
 
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述文本颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>影片章節說明文字色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>影片章節說明背景色彩。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体粗细 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述字体粗细。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>影片章節說明字型粗細。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体大小 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節說明字型大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述字体系列。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>視訊章節說明字型系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 行高 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述行高。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col2"> <p>影片章節說明行高。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>视频章节描述内边距。 </p> </td> 
+   <td colname="col2"> <p>影片章節說明內邊距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 使用深灰色、11像素Verdana字体和浅灰色背景设置视频章节描述。 最后，使用5个像素线高、12个像素水平边距、12个像素上边距和9个像素下边距。
+**範例**  — 使用深灰色11畫素Verdana字型搭配淺灰色背景來設定視訊章節說明。 最後，使用5個畫素的行高、12個畫素的水準邊框間距、12個畫素的上邊框間距和9個畫素的下邊框間距。
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -443,32 +443,32 @@ padding: 12px 12px 9px;
 }
 ```
 
-章节气泡底部的楔形连接器由以下CSS类选择器控制：
+章節泡泡底部的楔形聯結器由以下CSS類別選取器控制：
 
 ```
  .s7videoviewer .s7videoscrubber .s7chapter .s7tail
 ```
 
-**楔形连接器的CSS属性**
+**楔形聯結器的CSS屬性**
 
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框颜色 </span> </p> </td> 
-   <td colname="col2"> <p>楔形连接器颜色。 </p> <p>定义为 <span class="codeph"> &lt;color&gt; 透明 </span> 以便仅定义上边框颜色，并使其余边框保持透明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col2"> <p>楔形聯結器顏色。 </p> <p>定義為 <span class="codeph"> &lt;color&gt; 透明 </span> 因此只定義上邊框顏色，其餘邊框則保持透明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框宽度 </span> </p> </td> 
-   <td colname="col2"> <p> 楔形连接器宽度。 </p> <p>定义为 <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> 以便仅为上边框和水平边框定义相同的宽度，并且为下边框宽度 <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 
+   <td colname="col2"> <p> 楔形聯結器寬度。 </p> <p>定義為 <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> 因此只為頂端和水準框線定義相同的寬度，而底端框線寬度為 <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 仅定义负下边距。 它的值应与 <span class="codeph"> 边框宽度 </span>. </p> </td> 
+   <td colname="col2"> <p> 僅定義負下邊界。 其值應與 <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 要设置灰色的六像素楔形连接器：
+**範例**  — 若要設定灰色、6畫素楔形聯結器：
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7tail { 

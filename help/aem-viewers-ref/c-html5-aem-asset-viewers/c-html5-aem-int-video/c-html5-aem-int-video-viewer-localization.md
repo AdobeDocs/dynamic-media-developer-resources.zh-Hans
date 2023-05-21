@@ -1,6 +1,6 @@
 ---
-title: 用户界面元素的本地化
-description: 交互式视频查看器显示的某些内容需要本地化。 此类内容包括用户界面元素工具提示和在视频无法播放时显示的错误消息。
+title: 使用者介面元素的本地化
+description: Interactive Video Viewer顯示的某些內容必須經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# 用户界面元素的本地化{#localization-of-user-interface-elements}
+# 使用者介面元素的本地化{#localization-of-user-interface-elements}
 
-交互式视频查看器显示的某些内容需要本地化。 此类内容包括用户界面元素工具提示和在视频无法播放时显示的错误消息。
+Interactive Video Viewer顯示的某些內容必須經過本地化。 這類內容包含使用者介面元素工具提示，以及在視訊無法播放時顯示的錯誤訊息。
 
-查看器中每个可以本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为所需数量的区域设置用户定义的值。
+檢視器中可本地化的每個文字內容，都會以稱為SYMBOL的特殊檢視器SDK識別碼表示。 任何SYMBOL都有預設的英文地區設定相關文字值( `"en"`)隨現成可用的檢視器提供。 它也可以視需要為許多區域設定設定使用者定義的值。
 
-查看器启动时，它会检查当前区域设置，以查看此区域设置的每个支持的SYMBOL是否有用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
+當檢視器啟動時，它會檢查目前的地區設定，檢視此類地區設定的每個受支援的SYMBOL是否有使用者定義的值。 如果有的話，它會使用使用者定義的值；否則，會退回現成的預設文字。
 
-用户定义的本地化数据可以作为本地化JSON对象传递到查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
+使用者定義的本地化資料可作為本地化JSON物件傳遞至檢視器。 這類物件包含支援的語言環境清單、每個語言環境的SYMBOL文字值，以及預設語言環境。
 
-此类本地化对象的示例如下：
+以下是這類本地化物件的範例：
 
 ```
 { 
@@ -38,135 +38,135 @@ defaultLocale:"en"
 }
 ```
 
-在上例中，本地化对象定义了两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供本地化。
+在上述範例中，本地化物件會定義兩個地區設定( `"en"` 和 `"fr"`)並提供每個地區設定中兩個使用者介面元素的本地化。
 
-网页代码应该将本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 替代选项是通过调用`setLocalizedTexts(localizationInfo)`方法来传递本地化对象。
+網頁程式碼應將本地化物件傳遞至檢視器建構函式，其值為 `localizedTexts` 設定物件的欄位。 另一種選擇是呼叫，傳遞本地化物件 `setLocalizedTexts(localizationInfo)` 方法。
 
-支持以下符号：
+支援下列SYMBOL：
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>符号 </p> </th> 
+   <th colname="col1" class="entry"> <p>符號 </p> </th> 
    <th colname="col2" class="entry"> <p>工具提示…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容器.LABEL  </span> </p> </td> 
-   <td colname="col2"> <p>顶级查看器元素的ARIA标签。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col2"> <p>頂層檢視器元素的ARIA標籤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> 已选择播放暂停按钮状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> 選取的播放暫停按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>取消选择的播放暂停按钮状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>取消選取播放暫停按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
-   <td colname="col2"> <p> 重播播放暂停按钮状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
+   <td colname="col2"> <p> 重播播放暫停按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>视频清理器。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>視訊筆畫壓感器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>控制栏上的视频时间。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>控制列上的視訊時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> 选定的可变卷。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> 選取的可變磁碟區。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>取消选择的可变卷。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>取消選取的可變磁碟區。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> 通过ARIA <span class="codeph"> aria-valuetext </span>属性公开的音量滑块旋钮标签。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
+   <td colname="col2"> <p> 透過ARIA公開的音量滑桿旋鈕標籤 <span class="codeph"> aria-valuetext </span> 屬性。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>全屏按钮处于正常状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p>正常狀態下的全熒幕按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>全屏状态的全屏按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>全熒幕狀態的全熒幕按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> 选定的隐藏式字幕按钮状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> 選取的隱藏式字幕按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> 取消选择的隐藏式字幕按钮状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p> 取消選取隱藏式字幕按鈕狀態。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> InteractiveSwatches.BANNER  </span> </p> </td> 
-   <td colname="col2"> <p>横幅的标题。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> InteractiveSwatches.BANNER </span> </p> </td> 
+   <td colname="col2"> <p>橫幅的標題。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>向上滚动按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>向上捲動按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>向下滚动按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>向下捲動按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>社交共享工具。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>社交分享工具。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>链接共享按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>連結共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>链接对话框标题。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
+   <td colname="col2"> <p>連結對話方塊標頭。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>“链接”对话框右上关闭按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col2"> <p>連結對話方塊右上角關閉按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LINKShare.DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>共享链接的描述。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
+   <td colname="col2"> <p>共用連結的說明。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>“取消”按钮的说明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
+   <td colname="col2"> <p>取消按鈕的註解。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>“取消”按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col2"> <p>取消按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>“全选”按钮的说明。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
+   <td colname="col2"> <p>全選按鈕的註解。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p> 选择全部按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
+   <td colname="col2"> <p> 全選按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Facebook共享按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>facebook共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Twitter共享按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>twitter共用按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>“行动动员”面板“关闭”按钮。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>呼叫動作面板關閉按鈕。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
-   <td colname="col2"> <p>无法播放视频时显示的错误消息。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col2"> <p>無法播放視訊時顯示的錯誤訊息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

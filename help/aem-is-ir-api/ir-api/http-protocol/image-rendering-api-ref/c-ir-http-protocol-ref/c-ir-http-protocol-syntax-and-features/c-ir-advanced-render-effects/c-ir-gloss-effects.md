@@ -1,6 +1,6 @@
 ---
-title: 光泽效果
-description: 如果在晕影中启用了这种方法，则渲染器会改变照明算法以模拟材料光泽度的变化（主要通过控制对比度）。
+title: 光澤效果
+description: 如果在暈映中啟用此功能，彩現程式會變更照明演演算法，以模擬材質光澤度的變化（主要是透過控制對比）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 光泽效果{#gloss-effects}
+# 光澤效果{#gloss-effects}
 
-如果在晕影中启用了这种方法，则渲染器会改变照明算法以模拟材料光泽度的变化（主要通过控制对比度）。
+如果在暈映中啟用此功能，彩現程式會變更照明演演算法，以模擬材質光澤度的變化（主要是透過控制對比）。
 
-此效果与反射呈现无关，并通过模拟镜面反射来补充它。 用相同的方法控制效果 `gloss=`, `glossmap=`和 `type=` 用于控制反射的属性。
+此效果與反射彩現無關，而是藉由模擬鏡面反射來補充。 效果由相同的控制 `gloss=`， `glossmap=`、和 `type=` 用來控制反射的屬性。

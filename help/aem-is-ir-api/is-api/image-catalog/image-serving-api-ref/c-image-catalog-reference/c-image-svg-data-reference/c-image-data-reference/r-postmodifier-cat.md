@@ -1,34 +1,34 @@
 ---
-description: 后缀请求修饰符字符串。 “&”字符分隔的“图像提供”命令中没有或多个。
+description: Postfix要求修飾元字串。 沒有或多個以「&」字元分隔的「影像伺服」命令。
 solution: Experience Manager
 title: PostModifier
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
 # PostModifier{#postmodifier}
 
-后缀请求修饰符字符串。 “&amp;”字符分隔的“图像提供”命令中没有或多个。
+Postfix要求修飾元字串。 沒有或多個以「&amp;」字元分隔的「影像伺服」命令。
 
-此字段中的命令始终会覆盖HTTP请求和`catalog::Modifier`中的命令。
+此欄位中的命令一律會覆寫HTTP請求和中的命令 `catalog::Modifier`.
 
-`catalog::PostModifier` 当某些图像需要特殊设置（通常由URL控制，例如或）时，此变量将 `qlt=` 很有用 `resmode=`。`catalog::Modifier` 应用于在图像目录中设置大多数IS命令。
+`catalog::PostModifier` 如果某些影像需要特殊設定，而這些設定通常由URL控制，例如 `qlt=` 或 `resmode=`. `catalog::Modifier` 應該用於設定影像目錄中的大多數IS命令。
 
-允许在`catalog::PostModifier`中使用宏，只要它们在同一目录或默认目录中定义。 也可以使用自定义变量。
+中允許巨集 `catalog::PostModifier`，只要它們是在相同目錄或預設目錄中定義。 您也可以使用自訂變數。
 
 >[!NOTE]
 >
->如果请求涉及多个层，则仅应用层0的`catalog::PostModifier`内容。 `catalog::PostModifier` 会忽略所有其他层。
+>如果請求涉及多個圖層，則僅請求 `catalog::PostModifier` 套用圖層0。 `catalog::PostModifier` 會忽略其他所有圖層。
 
-## 属性 {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
+## 屬性 {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
-文本字符串。 可选。
+文字字串。 可选.
 
 ## 默认 {#section-8c83bce7f6c846d48fbe8fd30bedf5d5}
 
@@ -36,4 +36,4 @@ ht-degree: 4%
 
 ## 另请参阅 {#section-8942f70e40f44dc48df51b4d8d0a7cde}
 
-[目录：：修饰符](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)
+[catalog：：Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)

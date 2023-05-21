@@ -1,24 +1,24 @@
 ---
-description: 获取与指定资产关联的资产以及有关其关系的详细信息。
+description: 取得與指定資產相關聯的資產以及與其關係的詳細資訊。
 solution: Experience Manager
-title: getAssetations
-feature: Dynamic Media Classic，SDK/API，资产管理
+title: getAssociatedAssets
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '407'
 ht-degree: 8%
 
 ---
 
-# getAssetations{#getassociatedassets}
+# getAssociatedAssets{#getassociatedassets}
 
-获取与指定资产关联的资产以及有关其关系的详细信息。
+取得與指定資產相關聯的資產以及與其關係的詳細資訊。
 
 语法
 
-## 授权用户类型 {#section-453cc706400345778713cda249bfac16}
+## 授權的使用者型別 {#section-453cc706400345778713cda249bfac16}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +32,7 @@ ht-degree: 8%
 
 ## 参数 {#section-d11d0dab59e94e89b466123a0ebfa82e}
 
-**输入(getAssociatedAssetsParam)**
+**輸入(getAssociatedAssetsParam)**
 
 <table id="table_DBB97A6507EB48479FFFD2184FF8F07C"> 
  <thead> 
@@ -48,30 +48,30 @@ ht-degree: 8%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>对资产所有者的公司进行处理。 </p> </td> 
+   <td colname="col4"> <p>處理擁有資產的公司。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>资产句柄。 </p> </td> 
+   <td colname="col4"> <p>資產控點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>所需的响应字段数组。 请参阅“简介”中的response- FieldArray/excludeFieldArray 。 </p> </td> 
+   <td colname="col4"> <p>所需的回應欄位陣列。 請參閱簡介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>排除的响应字段的数组。 请参阅“简介”中的response- FieldArray/excludeFieldArray 。 </p> </td> 
+   <td colname="col4"> <p>排除的回應欄位陣列。 請參閱簡介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(getAssociatedAssetsReturn)**
+**輸出(getAssociatedAssetsReturn)**
 
 <table id="table_B894B4B6EFA24359A0250A8A4523EA8D"> 
  <thead> 
@@ -85,60 +85,60 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>包含指定资产的集和模板资产数组。 </p> </td> 
+   <td colname="col4"> <p>包含指定資產的集合與範本資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定集或模板资产包含的资产数组。 </p> </td> 
+   <td colname="col4"> <p>指定集或範本資產所包含的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>层或模板URL中引用的资产数组。 </p> </td> 
+   <td colname="col4"> <p>圖層或範本URL中參照的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>拥有指定资产的资产数组。 </p> </td> 
+   <td colname="col4"> <p>擁有指定資產的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>用于生成指定资产的资产数组。 </p> </td> 
+   <td colname="col4"> <p>用來產生指定資產的資產陣列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorarray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列出了创建此资产的方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页面，则它将包含PDF处理器工具并引用PdfFile资产。 </p> </td> 
+   <td colname="col4"> <p>此 <span class="codeph"> generatorarray</span> 列出建立此資產的方式。 例如，如果 <span class="codeph"> assetHandler</span> 是PDF的影像頁面，則其中會包含PDF處理器工具並參照PdfFile資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatedArray</span>会反转此资产的创建方式。 例如，如果<span class="codeph"> generatedArray</span>是PdfFile资产，则可以包含从此<span class="codeph"> assetHandler</span>生成的图像列表。 </p> </td> 
+   <td colname="col4"> <p>此 <span class="codeph"> generatedArray</span> 反轉建立此資產的方式。 例如， <span class="codeph"> generatedArray</span> 可以包含由此產生的影像清單 <span class="codeph"> assetHandler</span> 如果這是Pdf檔案資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：资产</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：資產</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>与请求资产关联的缩略图资产信息。 如果未分配缩略图资产，则响应中将忽略该字段。 </p> </td> 
+   <td colname="col4"> <p>與請求資產相關聯的縮圖資產資訊。 如果未指派縮圖資產，回應中會忽略欄位。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以使用参数`responseFieldArray`或`excludeFieldArray`限制响应大小。 特别是，在`generatorArray`或`generatedArray`中返回的`GenerationInfo`项目默认包含创作者和生成的资产记录。 对于PDF资产类型，此行为会在响应中生成“创作者”PDF资产记录的多个不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您也可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
+您可以使用引數 `responseFieldArray` 或 `excludeFieldArray` 以限制回應大小。 尤其是 `GenerationInfo` 專案傳回 `generatorArray` 或 `generatedArray` 預設為同時包含建立者和產生的資產記錄。 對於PDF資產型別，此行為會在回應中導致不需要的「創作者」PDF資產記錄多個副本。 您可以透過新增以下專案來消除此問題 `generatedArray/items/originator` 至 `excludeFieldArray`. 或者，您可以指定要加入的明確回應欄位清單 `responseFieldArray`.
 
 ## 示例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-以下基本示例是对从PDF提取的图像生成器句柄的请求。 它包含长度为`containerArray`的项目，其中包含PDF的`assetHandle`。
+以下基本範例是為從PDF擷取的影像要求產生器的控制代碼。 它包含 `containerArray` 長度為1，且專案包含 `assetHandle` PDF的。
 
 **请求**
 
@@ -172,7 +172,7 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-与上述示例相反的是：
+上述範例的相反情況如下：
 
 **请求**
 
@@ -253,7 +253,7 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-在下一个示例中，将组添加到具有`groupHandleArray`的公司。 此示例仅使用一个组。
+在下個範例中，群組會新增至公司，具有 `groupHandleArray`. 此範例僅使用一個群組。
 
 **请求**
 

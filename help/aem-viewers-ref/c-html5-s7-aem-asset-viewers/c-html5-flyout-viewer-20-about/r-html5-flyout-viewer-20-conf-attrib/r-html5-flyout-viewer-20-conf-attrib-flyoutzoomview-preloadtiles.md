@@ -8,7 +8,7 @@ exl-id: 34c8c7b9-0369-4d13-95f5-ad129e913453
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> 启用预加载缩放的图像，或将设置为 <span class="codeph"> 0</span> 以根据需要以增量方式加载缩放图像。 </p> <p> <p>注意：如果启用此选项，则可能会显着提高带宽使用率。 即使用户未启动缩放操作，缩放的图像也会全部加载。 </p> </p> </td> 
+   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 以啟用預先載入已縮放影像，或設為 <span class="codeph"> 0</span> 以視需要增量載入縮放影像。 </p> <p> <p>注意：如果啟用此選項，可能會大幅增加頻寬使用量。 縮放的影像會完整載入，即使使用者未起始縮放動作亦然。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
-可选。
+可选.
 
 ## 默认 {#section-a08032f0fcf041c09e63c0238a339fc9}
 

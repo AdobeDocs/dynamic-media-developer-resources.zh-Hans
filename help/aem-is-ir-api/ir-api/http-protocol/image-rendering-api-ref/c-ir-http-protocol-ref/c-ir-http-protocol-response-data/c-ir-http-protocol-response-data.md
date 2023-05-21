@@ -1,6 +1,6 @@
 ---
-title: HTTP协议响应数据
-description: 图像渲染会生成HTTP/1.1响应标头。
+title: HTTP通訊協定回應資料
+description: 影像演算會產生HTTP/1.1回應標題。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP协议响应数据{#http-protocol-response-data}
+# HTTP通訊協定回應資料{#http-protocol-response-data}
 
-图像渲染会生成HTTP/1.1响应标头。
+影像演算會產生HTTP/1.1回應標題。

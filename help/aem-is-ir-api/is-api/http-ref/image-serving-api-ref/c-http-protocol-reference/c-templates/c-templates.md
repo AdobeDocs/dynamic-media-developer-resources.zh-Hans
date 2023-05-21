@@ -1,6 +1,6 @@
 ---
 title: 模板
-description: 模板可用于减少复合多个图像层或包含RTF格式文本的请求的长度和复杂性。
+description: 範本可用來減少複合多個影像圖層或包含rtf格式文字之要求的長度和複雜性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # 模板{#templates}
 
-模板可用于减少复合多个图像层或包含RTF格式文本的请求的长度和复杂性。
+範本可用來減少複合多個影像圖層或包含rtf格式文字之要求的長度和複雜性。
 
-自定义变量可用于进一步简化模板的使用。 模板通常设置为允许轻松交换图像或文本，或在运行时设置其他选项。
+自訂變數可用來進一步簡化範本的使用。 範本通常設定為可輕鬆交換影像或文字，或在執行階段設定其他選項。
 
-模板作为记录存储在图像目录中，模板正文位于 `catalog::Modifier` 字段，以及 `catalog::Path` 字段为空或指定不能动态更改的静态背景图像。
+範本會儲存為影像目錄中的記錄，範本主體會位於 `catalog::Modifier` 欄位，以及 `catalog::Path` 欄位空白或指定無法動態變更的靜態背景影像。
 
-模板由 `template=` 命令或请求URL的路径组件中。 对于大多数应用程序，建议使用 `template=` 命令来指定模板。 的 `template=`命令不得出现在 `catalog::PostModifier` 字段，并且只能出现在 `catalog::Modifier` 字段(例如， `src=is{...}` 构造)。 模板记录可能未在 `src=` 或 `mask=`中。
+範本是使用 `template=` 命令或在請求URL的路徑元件中。 對於大多數應用程式，建議使用 `template=` 指定範本的命令。 此 `template=`命令不得出現在 `catalog::PostModifier` 欄位，且只能出現在 `catalog::Modifier` 巢狀IS請求中的欄位(即 `src=is{...}` 建構)。 範本記錄不可在中參照 `src=` 或 `mask=`命令。
 
-任意 `src=` 或 `mask=`嵌入在模板中的命令可以解析到请求的主目录或到不同的图像目录。 如果否 `rootId` 显式指定，则假定是主目录。 指定的模板 `template=` 也可能位于主目录或其他图像目录中。
+任何 `src=` 或 `mask=`內嵌在範本中的命令可能會解析為請求的主目錄或不同的影像目錄。 若否 `rootId` 明確指定，則假設是主目錄。 指定的範本 `template=` 也可能位於主目錄或其他影像目錄中。
 
-强烈建议始终包含模板中所用所有变量的默认定义。 这样，模板的图像输出总是可以通过指定其 `attribute::RootId` 和 `catalog::Id`，而无需知道模板中使用的变量。
+強烈建議永遠包含範本中使用之所有變數的預設定義。 如此一來，只要指定範本的影像輸出即可，檢視範本的影像輸出 `attribute::RootId` 和 `catalog::Id`，不需知道範本中使用了哪些變數。
 
-预定义路径替换变量 `$object$` 可用于将url路径中指定的图像对象应用到任何层源或蒙版( `src=` 或 `mask=`)，即使在嵌套或嵌入的请求中也是如此。
+預先定義的路徑替代變數 `$object$` 可用來將url路徑中指定的影像物件套用至任何圖層來源或遮色片( `src=` 或 `mask=`)，即使是在巢狀內嵌請求中亦然。
 
-* [示例A](r-example-a.md)
-* [示例B](r-example-b.md)
-* [示例C](r-example-c.md)
+* [範例A](r-example-a.md)
+* [範例B](r-example-b.md)
+* [範例C](r-example-c.md)

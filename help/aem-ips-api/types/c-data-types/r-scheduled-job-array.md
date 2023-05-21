@@ -1,5 +1,5 @@
 ---
-description: 一组计划作业。
+description: 排程工作的陣列。
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-一组计划作业。
+排程工作的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ScheduledJobs` | 计划作业数组。 |
+| 项目 | `types:ScheduledJobs` | 排程的工作陣列。 |

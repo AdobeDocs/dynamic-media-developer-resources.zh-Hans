@@ -1,32 +1,32 @@
 ---
-description: 渐进式JPEG扫描。 渐进式JPEG以这样的方式显示图像，以便最初显示整张模糊/低质量照片。 随着扫描过程的继续，随着图像数据的下载更加完整，扫描过程会变得更清晰。 通过此参数，您可以设置显示整个图像所花费的扫描次数（3、4或5）。
+description: 漸進式JPEG掃描。 漸進式JPEG顯示影像的方式，使其一開始會顯示整個模糊/低品質像片。 隨著掃描過程繼續進行，影像的資料下載得越充分，掃描過程就越清晰。 此引數可讓您設定顯示整個影像所需的掃描次數（3、4或5）。
 solution: Experience Manager
 title: pscan
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 2%
+source-wordcount: '212'
+ht-degree: 1%
 
 ---
 
 # pscan{#pscan}
 
-渐进式JPEG扫描。 渐进式JPEG以这样的方式显示图像，以便最初显示整张模糊/低质量照片。 随着扫描过程的继续，随着图像数据的下载更加完整，扫描过程会变得更清晰。 通过此参数，您可以设置显示整个图像所花费的扫描次数（3、4或5）。
+漸進式JPEG掃描。 漸進式JPEG顯示影像的方式，使其一開始會顯示整個模糊/低品質像片。 隨著掃描過程繼續進行，影像的資料下載得越充分，掃描過程就越清晰。 此引數可讓您設定顯示整個影像所需的掃描次數（3、4或5）。
 
 `pscan=auto|3|4|5`
 
-每个扫描的实际速度取决于用户系统和接收和解压缩数据的计算机的传输速度。
+每次掃描的實際速度取決於使用者系統和接收及解壓縮資料的電腦的傳輸速度。
 
-`Auto` 使用由独立JPEG库计算的扫描设置，并取决于颜色模型。`3`、`4`、`5`的值与将JPEG文件另存为pjpeg（渐进式JPEG）时在Adobe Photoshop中找到的“扫描”设置相对应。
+`Auto` 使用由獨立JPEG庫計算並取決於顏色模型的掃描設定。 的值 `3`， `4`， `5` 對應至將JPEG檔案儲存為pjpeg (漸進式JPEG)時，在Adobe Photoshop中找到的「掃描」設定。
 
-如果未设置`pscan`，则默认为`auto`。
+若 `pscan` 未設定，其預設值為 `auto`.
 
-## 属性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
+## 屬性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-请求属性。 无论当前的层设置如何，都适用。 如果输出格式不是渐进式JPEG，则忽略。
+要求屬性。 無論目前的圖層設定為何，均適用。 如果輸出格式不是漸進式JPEG，則忽略。
 
 ## 默认 {#section-01948f6cd7a2415091004cd7526436c7}
 

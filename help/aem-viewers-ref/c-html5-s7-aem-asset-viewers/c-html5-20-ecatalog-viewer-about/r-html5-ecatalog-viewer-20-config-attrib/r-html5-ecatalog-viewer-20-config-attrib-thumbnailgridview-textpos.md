@@ -8,7 +8,7 @@ exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 6%
 <table id="table_1BEBE260769B4A0C9E9F5016D2FA68A0"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 下|上|左|右|无|工具提示</span> </p> </td> 
-   <td> <p> 指定标签相对于缩略图图像的绘制位置。即，标签在相对于缩略图的指定位置居中。 </p> <p>When <span class="codeph"> 工具提示</span> ，标签文本将作为浮动工具提示显示在缩略图上。 设置为 <span class="codeph"> 无</span> 关闭标签。 </p> </td> 
+   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
+   <td> <p> 指定相對於縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>時間 <span class="codeph"> 工具提示</span> 指定，標籤文字會以浮動工具提示的形式顯示在縮圖影像上。 設定為 <span class="codeph"> 無</span> 以關閉標籤。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-a58f487de5114d7fb3a4e3b65096d138}
+## 屬性 {#section-a58f487de5114d7fb3a4e3b65096d138}
 
-可选。
+可选.
 
 ## 默认 {#section-7dde91b778d54fa483bd6bb2b1a403f5}
 

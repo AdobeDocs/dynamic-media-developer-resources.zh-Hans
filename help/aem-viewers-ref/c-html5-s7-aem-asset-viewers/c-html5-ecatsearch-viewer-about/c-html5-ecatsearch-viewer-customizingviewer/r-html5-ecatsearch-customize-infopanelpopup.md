@@ -1,6 +1,6 @@
 ---
-title: “信息”面板弹出窗口
-description: 当用户激活的图像映射具有在Dynamic Media Classic中定义的rollover_key属性，并且已为查看器正确配置了信息面板功能时，“信息面板弹出窗口”会显示在查看器区域的中间。
+title: 資訊面板快顯視窗
+description: 使用者啟動影像地圖時，資訊面板彈出式視窗會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且檢視器的資訊面板功能已正確設定。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,34 +12,34 @@ ht-degree: 3%
 
 ---
 
-# “信息”面板弹出窗口{#info-panel-popup}
+# 資訊面板快顯視窗{#info-panel-popup}
 
-当用户激活的图像映射具有在Dynamic Media Classic中定义的rollover_key属性，并且已为查看器正确配置了信息面板功能时，“信息面板弹出窗口”会显示在查看器区域的中间。
+使用者啟動影像地圖時，資訊面板彈出式視窗會顯示在檢視器區域的中央，該影像地圖具有Dynamic Media Classic中定義的rollover_key屬性，且檢視器的資訊面板功能已正確設定。
 
-“信息”面板背景涵盖整个查看器区域，并可通过以下CSS类选择器进行控制：
+資訊面板背景涵蓋整個檢視器區域，並透過下列CSS類別選取器控制：
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>信息面板背景填充。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>資訊面板背景填滿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。</p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。</p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置信息面板弹出窗口以使用半透明黑色背景。
+範例 — 設定資訊面板快顯視窗以使用半透明黑色背景。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay { 
@@ -47,62 +47,62 @@ ht-degree: 3%
 }
 ```
 
-默认情况下，“信息”面板对话框显示在查看器区域的中间。 但是，可以使用CSS类选择器控制其大小、对齐方式、背景和边框。
+依預設，資訊面板對話方塊會顯示在檢視器區域的中央。 不過，您可以使用CSS類別選取器來控制其大小、對齊方式、背景和框線。
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
 <table id="table_4E666A03A3D44CEEA72225113553AB3F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>“信息面板”对话框在查看器区域面板背景填充中的水平位置。 </p> </td> 
+   <td colname="col2"> <p>檢視器區域面板背景填滿內資訊面板對話方塊的水平位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>“信息面板”对话框在查看器区域中的垂直位置。 </p> </td> 
+   <td colname="col2"> <p>資訊面板對話方塊在檢視器區域中的垂直位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>对话框宽度。 </p> </td> 
+   <td colname="col2"> <p>對話方塊寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>对话框高度。 </p> </td> 
+   <td colname="col2"> <p>對話方塊高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 左 </span> </p> </td> 
-   <td colname="col2"> <p>信息面板对话框的左边距可用于居中显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
+   <td colname="col2"> <p>資訊面板對話方塊的左邊界，可用於居中用途。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 — 顶部 </span> </p> </td> 
-   <td colname="col2"> <p>信息面板对话框的上边距可用于居中显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
+   <td colname="col2"> <p>資訊面板對話方塊的上邊界，可用於居中用途。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部对话框内边距。 </p> </td> 
+   <td colname="col2"> <p>內部對話方塊內距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p>对话框背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>對話方塊背景顏色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框半径 </span> </p> </td> 
-   <td colname="col2"> <p>对话框边框半径。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p>對話方塊邊框半徑。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 框阴影 </span> </p> </td> 
-   <td colname="col2"> <p>对话阴影。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col2"> <p>對話方塊陰影。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置位于查看器区域中心的300 x 200像素信息面板对话框；顶部有40个像素的内边距，其他所有侧边有10个像素的内边距，背景为浅灰色，边框半径和投影为10个像素。
+範例 — 設定檢視器區域中央的300 x 200畫素資訊面板對話方塊；頂端有40畫素邊框間距，其他兩側有10畫素邊框間距、淺灰色背景，以及10畫素邊框半徑和陰影。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -122,62 +122,62 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 ```
 
-“信息面板”对话框具有一个关闭按钮，单击或点按该按钮可关闭该对话框。
+「資訊面板」對話方塊有一個關閉按鈕，按一下或點選按鈕可關閉對話方塊。
 
-通过以下CSS类选择器控制此按钮的外观：
+此按鈕的外觀由下列CSS類別選取器控制：
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton`
 
 <table id="table_2C8D322F57114A72B43053CB4539C65C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从对话框的上边框的位置。 </p> </td> 
+   <td colname="col2"> <p>從對話方塊的頂端邊框定位。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从对话框的右边框定位。 </p> </td> 
+   <td colname="col2"> <p>從對話方塊的右邊框定位。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从对话框的左边框开始的位置。 </p> </td> 
+   <td colname="col2"> <p>從對話方塊的左邊框定位。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从对话框的下边框定位。 </p> </td> 
+   <td colname="col2"> <p>從對話方塊的底部邊框定位。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
-   <td colname="col2"> <p>按钮高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>按鈕高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像 </span> </p> </td> 
-   <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置 </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，您可以使用该选择器将不同的外观应用到不同的按钮状态。
+>此按鈕支援 `state` 屬性選取器，可用來將不同的外觀元素套用至不同的按鈕狀態。
 
-按钮工具提示可进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
 
-示例 — 要设置一个28 x 28像素的对话框关闭按钮，该按钮位于信息面板对话框的上边缘和右边缘5个像素处，并针对四个不同按钮状态中的每个状态显示一个不同的图像。
+範例 — 設定對話方塊關閉按鈕（28 x 28畫素），位置距資訊面板對話方塊的上邊緣和右邊緣5畫素，並針對四種不同按鈕狀態顯示不同的影像。
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 

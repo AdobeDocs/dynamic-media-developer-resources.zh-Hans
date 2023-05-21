@@ -1,5 +1,5 @@
 ---
-description: 表示公司。
+description: 代表公司。
 solution: Experience Manager
 title: 公司
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL Company]{#company}
 
-表示公司。
+代表公司。
 
 语法
 
@@ -22,7 +22,7 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| companyHandle | `xsd:string` | 公司负责人。 |
+| companyHandle | `xsd:string` | 公司控點。 |
 | [!DNL name] | `xsd:string` | 公司名称. |
-| rootPath | `xsd:string` | 公司的根路径。 |
-| [!DNL expires] | `xsd:dateTime` | 公司过期的日期和时间。 |
+| rootPath | `xsd:string` | 公司的根路徑。 |
+| [!DNL expires] | `xsd:dateTime` | 公司到期的日期和時間。 |

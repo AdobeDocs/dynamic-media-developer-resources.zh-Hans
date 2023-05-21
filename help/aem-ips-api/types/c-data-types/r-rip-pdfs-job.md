@@ -1,7 +1,7 @@
 ---
-description: 重新拆分现有PDF资产的流程。
+description: 重新擷取現有PDF資產的程式。
 solution: Experience Manager
-title: RipPdfsJob
+title: RipPdfJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-重新拆分现有PDF资产的流程。
+重新擷取現有PDF資產的程式。
 
 >[!NOTE]
 >
->此作业类型已弃用。 过渡到 `ReprocessAssetsJob` ，以用于所有将来的集成。
+>此工作型別已過時。 轉換至 `ReprocessAssetsJob` 用於所有未來的整合。
 
 ## 参数 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -33,101 +33,101 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>对要撕开的PDF文件数组的句柄。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：HandleArray</span> </p> </td> 
+   <td colname="col3"> <p>要擷取的PDF檔案陣列的控制代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>确定是否要创建蒙版。 </p> </td> 
+   <td colname="col3"> <p>決定是否要建立遮色片。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>手动裁剪选项。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：ManualCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>手動裁切選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>自动裁剪选项。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：AutoColorCropOptions</span> </p> </td> 
+   <td colname="col3"> <p>自動裁切選項。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:PostTransparentCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：PostTransparentCropOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:PostScriptOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：PostScriptOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：PDFOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：PDFOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:IllustratorOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：ColorManagementOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>项目句柄数组。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandlearray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：HandleArray</span> </p> </td> 
+   <td colname="col3"> <p>專案控點的陣列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>电子邮件设置。 </p> </td> 
+   <td colname="col3"> <p>電子郵件設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>将文件上传到的URL。 </p> </td> 
+   <td colname="col3"> <p>檔案上傳目標的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上传完成后要运行的图像提供发布作业的作业详细信息。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postimageservingPublishJob</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：ImageServingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>影像伺服發佈工作之工作詳細資訊將在上傳完成後執行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上传完成后要运行的图像渲染发布作业的作业详细信息。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：ImageRenderingPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>上傳完成後要執行的影像演算發佈工作的工作詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>上传完成后要运行的视频发布作业的作业详细信息。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> postvideopublishJob</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：VideoPublishJob</span> </p> </td> 
+   <td colname="col3"> <p>上傳完成後要執行的視訊發佈工作之工作詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>用于将Adobe InDesign文件上传到图像服务器的选项。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：InDesignOptions</span> </p> </td> 
+   <td colname="col3"> <p>將Adobe InDesign檔案上傳至影像伺服器的選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoudBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>掩盖选定图像的背景。 这样，您就可以在主题图像外部以透明方式将它们叠加到其他图层中。 </p> <p>可选。 </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockBackgroundOptions</a> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 去底色背景</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 型別：去底色背景選項</span> </p> </td> 
+   <td colname="col3"> <p>遮色所選影像的背景。 如此一來，您就可以用主題影像之外的透明度，將之覆蓋在其他圖層上。 </p> <p>可选. </p> <p>另請參閱<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 去底色背景選項</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 说明 {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-选项 `*CropOptions` 包括：
+選擇 `*CropOptions` 包括：
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-选项 `*PublishJob` 包括：
+選擇 `*PublishJob` 包括：
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

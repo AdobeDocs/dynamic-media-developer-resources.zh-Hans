@@ -1,5 +1,5 @@
 ---
-description: 分层文件或资产存储对象。 文件夹可以包含一个（或多个）子文件夹。
+description: 階層式檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
 solution: Experience Manager
 title: 文件夹
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Folder]{#folder}
 
-分层文件或资产存储对象。 文件夹可以包含一个（或多个）子文件夹。
+階層式檔案或資產儲存物件。 資料夾可以包含一個（或多個）子資料夾。
 
 语法
 
@@ -22,10 +22,10 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| folderHandle | `xsd:string` | 文件夹句柄。 |
-| [!DNL path] | `xsd:string` | 文件夹路径。 |
+| folderHandle | `xsd:string` | 資料夾控制代碼。 |
+| [!DNL path] | `xsd:string` | 資料夾路徑。 |
 | lastModified | `xsd:dateTime` | 上次修改日期。 |
-| childLastModified | `xsd:dateTime` | 子文件夹和文件夹子资产的上次修改日期。 |
-| permissionsSetHandle | `xsd:string` | 文件夹权限句柄。 |
-| hasSubfolder | `types:Boolean` | 确定文件夹是否包含子文件夹。 |
-| subfolderArray | `types:FolderArray` | 文件夹中的子文件夹数组。 |
+| childLastModified | `xsd:dateTime` | 子資料夾和資料夾子資產的上次修改日期。 |
+| permissionsSetHandle | `xsd:string` | 檔案夾許可權控制代碼。 |
+| hasSubfolder | `types:Boolean` | 決定資料夾是否有子資料夾。 |
+| subfolderarray | `types:FolderArray` | 資料夾中的子資料夾陣列。 |

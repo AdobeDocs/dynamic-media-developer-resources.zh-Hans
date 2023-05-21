@@ -1,7 +1,7 @@
 ---
-description: IS提供了简化HTML图像映射使用的机制。 IS中基于JAVA和基于Flash的查看器还对图像映射提供了有限支持。
+description: IS提供簡化HTML影像地圖使用的機制。 IS中的JAVA和Flash型檢視器也包含對影像地圖的有限支援。
 solution: Experience Manager
-title: 图像映射
+title: 影像地圖
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# 图像映射{#image-maps}
+# 影像地圖{#image-maps}
 
-IS提供了简化HTML图像映射使用的机制。 IS中基于JAVA和基于Flash的查看器还对图像映射提供了有限支持。
+IS提供簡化HTML影像地圖使用的機制。 IS中的JAVA和Flash型檢視器也包含對影像地圖的有限支援。
 
-源图像映射通过 `catalog::Map` 或 `map=` 命令，并使用 `req=map` 命令。
+來源影像地圖會透過以下方式提供給IS： `catalog::Map` 或使用 `map=` 命令和已處理的地圖會使用 `req=map` 命令。
 
-图像映射由一个或多个HTMLAREA元素组成，正确分隔为“&lt;”和“>”。 如果通过catalog::Map提供，则所有像素坐标值都假定在原始图像分辨率中，并且相对于（未修改）源图像的左上角。 当通过 `map=` 命令，则坐标值被假定为相对于层左上角的层坐标（之后） `rotate=` 和 `extend=`)。
+影像地圖由一或多個HTMLAREA元素組成，並以&#39;&lt;&#39;和&#39;>&#39;正確分隔。 如果透過catalog：：Map提供，則所有畫素座標值都會假設為使用原始影像解析度，並且相對於（未修改的）來源影像的左上角。 若透過 `map=` 指令，座標值會假設為圖層座標，相對於圖層的左上角(在 `rotate=` 和 `extend=`)。
 
 >[!NOTE]
 >
->此时不允许%坐标，并且可能处理不正确。
+>%座標目前不允許使用，且處理方式可能不正確。
 
-IS通过将空间变换（如缩放和旋转）应用到映射坐标，然后以适当的z顺序（前后）和适当的定位来组装处理的层映射，从每个组成层的源图像映射生成复合图像映射。
+IS會透過將空間轉換（例如縮放和旋轉）套用至地圖座標，然後以適當的z順序（從前到後）組裝處理過的圖層地圖，從每個組成圖層的來源影像地圖產生複合影像地圖。
 
-如果与 `req=map` (通过目录模板直接在请求中或在 `catalog::Modifier` 字符串):
+提供下列指令時，會考慮搭配使用於影像地圖處理 `req=map` (直接在請求中、透過目錄範本或在 `catalog::Modifier` 字串)：
 
 * `align=`
 * `wid=`
@@ -45,14 +45,14 @@ IS通过将空间变换（如缩放和旋转）应用到映射坐标，然后以
 * `src=`
 * `map=`
 
-所有其他命令都会被有效忽略。
+所有其他指令都會被有效忽略。
 
-的 `SHAPE` 和 `COORDS` 属性 `AREA` 可在 `req=map` 请求，则 `AREA` 元素未经修改即可传递。 在大多数情况下，这涉及更改 `SHAPE` 值 `DEFAULT` to `RECT` (这也会将 `COORDS` 属性)，或更改 `COORDS` 值。
+此 `SHAPE` 和 `COORDS` 屬性 `AREA` 在處理期間可能修改 `req=map` 請求，的所有其他屬性 `AREA` 傳遞元素時不會進行修改。 在大多數情況下，這涉及到變更 `SHAPE` 值自 `DEFAULT` 至 `RECT` (這也會新增 `COORDS` 屬性)，或變更 `COORDS` 值。
 
-任意 `AREA` 在处理期间变为空的元素将被完全删除。 如果地图与 `layer=comp` 它被放在所有其他地图的后面。 数据以文本形式一返回为一个或多个HTML `AREA` 元素。 空的回复字符串表示指定对象不存在图像映射。
+任何 `AREA` 處理期間變為空白的元素會完全移除。 如果地圖與 `layer=comp` 它位於所有其他地圖之後。 資料會以文字形式傳回一個或多個HTML `AREA` 元素。 空白的回覆字串表示指定的物件沒有影像對應。
 
-地图处理不考虑图层透明度。 完全透明的图层仍然可以与其关联图像映射。 部分透明层的映射不会被剪切到透明区域。
+處理地圖時不考慮圖層透明度。 完全透明的圖層仍然可以有相關聯的影像地圖。 部分透明圖層的對映將不會裁剪至透明區域。
 
 ## 另请参阅 {#see-also}
 
-[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [目录：:Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [HTML4.01规范](https://www.w3.org/TR/html401/)
+[對應=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) ， [catalog：：Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)， [HTML4.01規格](https://www.w3.org/TR/html401/)

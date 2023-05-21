@@ -1,5 +1,5 @@
 ---
-description: 图像转换实用程序。
+description: 影像轉換公用程式。
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # ic {#ic}
 
-图像转换实用程序。
+影像轉換公用程式。
 
-`ic` 是一种命令行工具，可将图像文件转换为优化的金字塔TIFF格式(PTIFF)。 虽然“图像提供”可以在不进行转换的情况下处理图像，但我们建议您将所有大于512x512像素的图像转换为PTIFF。 此转换可确保最佳服务器性能和资源使用，并最大限度地缩短响应时间。
+`ic` 是一個命令列工具，可將影像檔案轉換為最佳化的金字塔TIFF格式(PTIFF)。 雖然「影像伺服」可以處理影像而不轉換，但建議您將所有大於512x512畫素的影像轉換為PTIFF。 此轉換可確保最佳伺服器效能和資源使用率，並將回應時間縮到最短。
 
-建议对包含照片内容的PTIFF文件进行JPEG编码(指定 `-jpegcompress`)。 计算机生成的内容可以从无损压缩中受益(无论是 `-deflatecompress` 或 `-lzwcompress`)。 除非需要颜色转换或像素类型转换，否则JPEG源图像数据在不解码的情况下被传送到PTIFF，以避免质量下降。 在这种情况下，指定的压缩选项仅适用于低分辨率金字塔级。
+建議包含像片內容的PTIFF檔案使用JPEG編碼(指定 `-jpegcompress`)。 電腦產生的內容可以受益於無失真壓縮（以下兩種方式之一） `-deflatecompress` 或 `-lzwcompress`)。 除非需要進行色彩轉換或畫素型別轉換，否則會將JPEG來源影像資料傳輸至PTIFF而不進行解碼，以避免品質降低。 在此情況下，指定的壓縮選項只會套用至解析度較低的金字塔層次。
 
-如果不转换大图像，则无需设置控制要使用的内存量的参数。 但是，如果您是，请提供 `ic` 使用 `-maxmem` 设置。 计算所需内存量的一条经验法则是将图像的宽度乘以图像的高度乘以通道数。 例如，对于Alpha为3的RGB图像，为4。 此外，如果每个组件的通道为16位，而不是最终结果的8倍。
+如果您不轉換大型影像，您就不需要設定控制要使用多少記憶體的引數。 不過，如果您確實如此，請 `ic` 使用 `-maxmem` 設定如下所述。 計算所需記憶體量的經驗法則是將影像寬度乘以影像高度，再乘以色版數量。 例如，Alpha乘以3的RGB影像為4。 此外，如果通道是每個元件16位元，而不是8位元，則會使最終結果加倍。
 
 ## 使用 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -33,31 +33,31 @@ ht-degree: 2%
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>选项</i> </span> </span> </p> </td> 
-   <td colname="col2"> <p>命令选项（请参阅下文）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>選項</i> </span> </span> </p> </td> 
+   <td colname="col2"> <p>命令選項（請參閱下文）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> <i>sourceFile</i> </span> </span> </p> </td> 
-   <td colname="col2"> <p>单个输入图像文件。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> <i>來源檔案</i> </span> </span> </p> </td> 
+   <td colname="col2"> <p>單一輸入影像檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFile</i></span> </span> </p> </td> 
-   <td colname="col2"> <p>单个输出PTIFF文件（如果与SourceDirectory一起使用，则无效）。 </p> </td> 
+   <td colname="col2"> <p>單一輸出PTIFF檔案（如果與SourceDirectory一起使用則無效）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>sourceFolder</i></span> </span> </p> </td> 
-   <td colname="col2"> <p>包含输入图像的文件夹。 </p> </td> 
+   <td colname="col2"> <p>包含輸入影像的資料夾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFolder</i></span> </span> </p> </td> 
-   <td colname="col2"> <p>将输出PTIFF文件写入到的文件夹。 </p> </td> 
+   <td colname="col2"> <p>將輸出PTIFF檔案寫入其中的資料夾。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回结果 {#section-36a2dcfa39824d29b69547c432366219}
+## 傳回 {#section-36a2dcfa39824d29b69547c432366219}
 
-0（如果成功）。 如果发生错误，则返回一个非零值，并将错误详细信息发送到 `stderr`.
+如果成功，則為0。 如果發生錯誤，則會傳回非零值，並將錯誤詳細資料傳送至 `stderr`.
 
 ## 选项 {#section-df311ace43f947b3817b60b667ae04ca}
 
@@ -65,204 +65,204 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -未压缩的 </span> </p> </td> 
-   <td colname="col2"> <p>请勿压缩输出图像。 </p> </td> 
+   <td colname="col2"> <p>請勿壓縮輸出影像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -deflatecompress </span> </p> </td> 
-   <td colname="col2"> <p>使用缩减(zip)压缩（默认）。 </p> </td> 
+   <td colname="col2"> <p>使用deflate (zip)壓縮（預設）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -lzwcompress </span> </p> </td> 
-   <td colname="col2"> <p>使用Lempel-Ziv-Welch(LZW)压缩。 </p> </td> 
+   <td colname="col2"> <p>使用Lempel-Ziv-Welch (LZW)壓縮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>使用JPEG编码。 如果 <span class="codeph"> <span class="varname"> sourceFile </span> </span> 包括alpha数据。 </p> </td> 
+   <td colname="col2"> <p>使用JPEG編碼。 忽略條件 <span class="codeph"> <span class="varname"> 來源檔案 </span> </span> 包含alpha資料。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> 质量 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>JPEG质量(0-100;默认值为95)。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> 品質 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>JPEG品質（0-100；預設為95）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominance </span> </p> </td> 
-   <td colname="col2"> <p>禁用JPEG色度缩减采样（可提高颜色文本和图形的质量）。 这对CMYK或灰度的输出图像没有影响。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">  — 完整範例許可權 </span> </p> </td> 
+   <td colname="col2"> <p>停用JPEG色度縮減取樣（可以改善色彩文字和圖形的品質）。 這對CMYK或灰階的輸出影像沒有影響。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> 金额 </span>&gt; &lt; <span class="varname"> 半径 </span>&gt; &lt; <span class="varname"> 阈值 </span>&gt; &lt; <span class="varname"> 单色 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>将USM锐化应用于子采样金字塔级。 请参阅 <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a> 以了解详细信息。 （未应用于全分辨率图像。） </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> 金額 </span>&gt; &lt; <span class="varname"> 半徑 </span>&gt; &lt; <span class="varname"> 臨界值 </span>&gt; &lt; <span class="varname"> 單色 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>將遮色片銳利化調整套用至取樣不足的金字塔色階。 另請參閱 <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a> 以取得詳細資訊。 （未套用至完整解析度的影像。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -applyClippath </span> </p> </td> 
-   <td colname="col2"> <p>使用源文件中的剪辑路径（如果有）创建关联的Alpha数据。 </p> </td> 
+   <td colname="col2"> <p>使用來源檔案中的剪裁路徑（如果有的話）來建立關聯的Alpha資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>打印分辨率(dpi) <span class="codeph"> <span class="varname"> destFile </span> </span>;如果未指定，则打印分辨率为 <span class="codeph"> srcFile </span> 复制到 <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>列印解析度(dpi) <span class="codeph"> <span class="varname"> destFile </span> </span>；若未指定，則列印解析度為 <span class="codeph"> srcFile </span> 已複製到 <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> 角 </span>&gt; &lt; <span class="varname"> 模式 </span>&gt; &lt; <span class="varname"> 容差 </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>计算裁切矩形以最小化纯色背景。 如果自动裁剪算法会导致整个图像被裁剪，则不会输出裁剪信息。 </p> <p>要在不转换图像的情况下计算裁剪矩形，请指定 <span class="codeph">  — 自动裁剪 </span> 无 <span class="codeph"> -convert </span> 没有 <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
+   <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> 轉角 </span>&gt; &lt; <span class="varname"> 模式 </span>&gt; &lt; <span class="varname"> 容許度 </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>計算裁切矩形以將純色背景最小化。 如果自動裁切演演算法會導致整個影像被裁切，則不會輸出裁切資訊。 </p> <p>若要計算裁切矩形而不轉換影像，請指定 <span class="codeph"> -autocrop </span> 不含 <span class="codeph"> -convert </span> 和沒有 <span class="codeph"> <span class="varname"> destFile。</span> </span></p>
 
-<p><i><b>角</b></i> - ul | url | ll | lr </p>
-   <p> 指定要使用种子点的图像角。 如果模式为1，则忽略。</p>
+<p><i><b>轉角</b></i> - ul | ur | ll | lr </p>
+   <p> 指定要使用種子點的影像轉角。 如果模式為1，則忽略。</p>
    <p><i><b>模式</b></i> - 0 | 1</p>
-   <p>设置为0时，根据指定角像素的颜色进行裁剪；如果alpha数据与源图像关联，则处理预乘颜色数据。</p>
-   <p>设置为1时，根据Alpha数据进行裁剪；角被忽略，0始终为种子值；如果没有与源图像关联的alpha数据，则不会应用裁剪。</p> 
-   <p><i><b>容差</b></i>  — 匹配容差。 实数值0.0到1.0。指定匹配像素分量值的容差。 对于完全匹配，设置为0。</p>
-   <p><i><b>infoFile</b></i>  — 将裁剪信息数据写入到的XML输出文件的路径和名称。</p>
+   <p>設定為0可根據指定角點畫素的顏色裁切；如果Alpha資料與來源影像相關聯，則適用於預乘顏色資料。</p>
+   <p>設定為1可根據Alpha資料裁切；會忽略轉角，且0一律為種子值；如果沒有Alpha資料與來源影像相關聯，則不會套用裁切。</p> 
+   <p><i><b>容許度</b></i>  — 相符公差。 從0.0到1.0的實數值。指定符合畫素元件值的公差。 若完全相符，則設為0。</p>
+   <p><i><b>infoFile</b></i>  — 寫入裁切資訊資料的XML輸出檔案的路徑和名稱。</p>
 
 <p>  
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>复制XMP元数据（如果可用） <span class="codeph"> <span class="varname"> sourceFile </span> </span> to <span class="codeph"> <span class="varname"> destFile </span> </span> 无需修改。 </p> </td> 
+   <td colname="col2"> <p>複製XMP中繼資料（如果有的話）來源 <span class="codeph"> <span class="varname"> 來源檔案 </span> </span> 至 <span class="codeph"> <span class="varname"> destFile </span> </span> 而不修改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
-   <td colname="col2"> <p> 在中嵌入ICC颜色配置文件 <span class="codeph"> <span class="varname"> destFile </span> </span>，如果可用（默认情况下未嵌入任何配置文件）。 </p> </td> 
+   <td colname="col2"> <p> 將ICC色彩設定檔內嵌於 <span class="codeph"> <span class="varname"> destFile </span> </span>，若有的話（預設不會嵌入任何設定檔）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> 文件 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>ICC配置文件的路径和名称。 定义 <span class="codeph"> <span class="varname"> sourceFile </span> </span> 和必须匹配其像素类型。 仅当中未嵌入配置文件时，才应指定 <span class="codeph"> <span class="varname"> sourceFile </span> </span>，因为这将覆盖嵌入的配置文件。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> 檔案 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>ICC設定檔的路徑和名稱。 定義色彩空間 <span class="codeph"> <span class="varname"> 來源檔案 </span> </span> 和必須與其畫素型別相符。 只有在未內嵌設定檔時，才應指定 <span class="codeph"> <span class="varname"> 來源檔案 </span> </span>，因為這會覆寫內嵌設定檔。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> 文件 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>ICC配置文件的路径和名称。 定义的像素类型和颜色空间 <span class="codeph"> <span class="varname"> destFile </span> </span>. 如果 <span class="codeph"> <span class="varname"> sourceFile </span> </span> 具有嵌入的配置文件，或者 <span class="codeph"> -imageprofile </span> 也指定了。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> 檔案 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>ICC設定檔的路徑和名稱。 定義畫素型別和色域 <span class="codeph"> <span class="varname"> destFile </span> </span>. IC會轉換成此設定檔，如果 <span class="codeph"> <span class="varname"> 來源檔案 </span> </span> 具有內嵌設定檔，或者 <span class="codeph"> -imageprofile </span> 也會指定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentPensevent </span> </p> </td> 
-   <td colname="col2"> <p>用于色彩空间转换的感知渲染意图。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
+   <td colname="col2"> <p>色彩空間轉換的感應式演算色彩比對方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentRelBorical </span> </p> </td> 
-   <td colname="col2"> <p> 用于色彩空间转换的相对比色渲染意图（默认）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentRelColorimetric </span> </p> </td> 
+   <td colname="col2"> <p> 色彩空間轉換的相對色彩演算比對方式（預設）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentAbsBorical </span> </p> </td> 
-   <td colname="col2"> <p>用于色彩空间转换的绝对比色渲染意图。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentAbsColorimetric </span> </p> </td> 
+   <td colname="col2"> <p>色彩空間轉換的絕對色彩比對方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -intentSaturation </span> </p> </td> 
-   <td colname="col2"> <p>色彩空间转换的饱和度渲染意图。 </p> </td> 
+   <td colname="col2"> <p>色彩空間轉換的飽和度演算色彩比對方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -cmsNoBlackPointCompensation </span> </p> </td> 
-   <td colname="col2"> <p>禁用某些颜色转换的黑点补偿 </p> <p>默认启动. </p> </td> 
+   <td colname="col2"> <p>停用特定色彩轉換的黑點補償 </p> <p>默认启动. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -cmsNoDither8 </span> </p> </td> 
-   <td colname="col2"> <p>在颜色转换时禁用抖动（误差扩散）。 </p> </td> 
+   <td colname="col2"> <p>色彩轉換時停用遞色（錯誤擴散）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maintainpixeltype </span> </p> </td> 
-   <td colname="col2"> <p> 禁用从CMYK到RGB的自动转换。 </p> </td> 
+   <td colname="col2"> <p> 停用從CMYK到RGB的自動轉換。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>强制解码和重新编码JPEG输入图像。 </p> <p> <b>注意：</b> 应用此选项可能会降低图像质量。 </p> </td> 
+   <td colname="col2"> <p>強制對JPEG輸入影像進行解碼和重新編碼。 </p> <p> <b>注意：</b> 套用此選項可能會降低影像品質。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
-   <td colname="col2"> <p>使用标准质量（双线性）重新取样过滤器。 </p> </td> 
+   <td colname="col2"> <p>使用標準品質（雙線性）重新取樣濾鏡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8 </span> </p> </td> 
-   <td colname="col2"> <p>使用更高质量（Lanczos窗口）的重新取样滤镜（默认）。 </p> </td> 
+   <td colname="col2"> <p>使用較高品質（Lanczos視窗）重新取樣濾鏡（預設）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8FlashPix </span> </p> </td> 
-   <td colname="col2"> <p>使用更高质量(FlashPix)的重新取样滤镜。 </p> </td> 
+   <td colname="col2"> <p>使用更高品質(FlashPix)重新取樣濾鏡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8BicubicSharp </span> </p> </td> 
-   <td colname="col2"> <p>使用Photoshop样式8x8双立方 — 锐化滤镜进行缩减采样。 </p> </td> 
+   <td colname="col2"> <p>使用Photoshop樣式的8x8雙立方銳利化濾鏡縮減取樣。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -nousage </span> </p> </td> 
-   <td colname="col2"> <p> 如果指定为第一个选项，则在遇到无效选项时会禁止输出使用信息。 </p> </td> 
+   <td colname="col2"> <p> 當指定為第一個選項時，遇到無效選項時會隱藏使用狀況資訊的輸出。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -覆盖 </span> </p> </td> 
-   <td colname="col2"> <p>允许覆盖现有 <span class="codeph"> <span class="varname"> destFile </span> </span>. 默认情况下，会将数字后缀附加到文件名中，以防止覆盖。 </p> </td> 
+   <td colname="col2"> <p>允許覆寫現有的 <span class="codeph"> <span class="varname"> destFile </span> </span>. 依預設，會在檔案名稱后面附加數值尾碼，以防止覆寫。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">  — 斯基菲登 </span> </p> </td> 
-   <td colname="col2"> <p>忽略隐藏的源文件。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -skiphidden </span> </p> </td> 
+   <td colname="col2"> <p>忽略隱藏的來源檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -continueonerror </span> </p> </td> 
-   <td colname="col2"> <p>发生错误时，请勿停止处理。 仅在处理多个文件时有效。 </p> </td> 
+   <td colname="col2"> <p>發生錯誤時，請勿停止處理。 只有在處理多個檔案時才有效。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logfile &lt; <span class="varname"> 文件 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>日志文件的路径和名称(默认为 <span class="codeph"> stdout </span>)。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logfile &lt; <span class="varname"> 檔案 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>記錄檔的路徑和名稱(預設為 <span class="codeph"> stdout </span>)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> 级别 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>日志级别。 </p> 
-   <p>&lt; 0 — 已禁用日志记录。</p>
-   <p>0 — 列出要处理的文件。</p>
-   <p>1 — 为不需要的文件添加报表。</p>
-   <p>2 — 添加进度报告。</p>
-   <p>3 — 添加有关遇到的每个文件的报告。</p>
-   <p>4 — 在文件级别添加进度报告。</p>
+   <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> level </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>記錄層級。 </p> 
+   <p>&lt; 0 — 停用記錄。</p>
+   <p>0 — 列出要處理的檔案。</p>
+   <p>1 — 為不需要的檔案新增報告。</p>
+   <p>2 — 新增進度報告。</p>
+   <p>3 — 新增每個檔案的報告。</p>
+   <p>4 — 在檔案層級新增進度報告。</p>
    <p> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -logappend </span> </p> </td> 
-   <td colname="col2"> <p>附加到日志文件（默认）。 </p> </td> 
+   <td colname="col2"> <p>附加至記錄檔（預設）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -nologappend </span> </p> </td> 
-   <td colname="col2"> <p>覆盖日志文件。 </p> </td> 
+   <td colname="col2"> <p>覆寫記錄檔。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logprogressmsec &lt; <span class="varname"> msec </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>日志级别2及更高版本的日志记录间隔（以毫秒为单位）（默认为3000）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logprogressmsec &lt; <span class="varname"> 毫秒 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>記錄層級2和更高層級的記錄間隔（以毫秒為單位） （預設值為3000）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> 字节 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>内存使用限制。 必须至少为10 MB。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> 位元組 </span>&gt; </span> </p> </td> 
+   <td colname="col2"> <p>記憶體使用量限制。 至少必須是10 MB。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> 百分比 </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>内存使用限制。 默认为物理内存的25%。 如果两者都不 <span class="codeph"> maxmem </span> nor <span class="codeph"> maxmempercent </span> 显式设置时使用maxmempercent默认值。 </p> </td> 
+   <td colname="col2"> <p>記憶體使用量限制。 預設為實體記憶體的25%。 如果兩者都不 <span class="codeph"> 最大 </span> 也不 <span class="codeph"> maxmempercent </span> 明確設定時使用maxmempercent預設值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -版本 </span> </p> </td> 
-   <td colname="col2"> <p> 返回此实用工具的版本信息。 指定而不使用其他选项。 </p> </td> 
+   <td colname="col2"> <p> 傳回此公用程式的版本資訊。 指定而不使用其他選項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 支持的输入图像格式 {#section-ab13d941d6724e65b9f84b62d949d31c}
+## 支援的輸入影像格式 {#section-ab13d941d6724e65b9f84b62d949d31c}
 
-下表列出了IC支持的图像文件格式和格式选项。
+下表列出IC支援的影像檔案格式和格式選項。
 
 <table id="table_1EB2B60993D34B1887275EA4E3491401"> 
  <thead> 
   <tr> 
    <th class="entry"> <p> <b> 格式</b> </p> </th> 
-   <th class="entry"> <p> <b> 像素类型</b> <b> 位/陈</b> </p> </th> 
-   <th class="entry"> <p> <b> 位/陈</b> </p> </th> 
+   <th class="entry"> <p> <b> 畫素型別</b> <b> Bits/Chan</b> </p> </th> 
+   <th class="entry"> <p> <b> Bits/Chan</b> </p> </th> 
    <th class="entry"> <p> <b> 压缩</b> </p> </th> 
    <th class="entry"> <p> <b> 说明</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <b> BMP</b> <p> （Windows位图） </p> </td> 
+   <td> <b> BMP</b> <p> （Windows點陣圖） </p> </td> 
    <td> <p> RGB |已索引 </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
-   <td> <p> 未压缩 | RLE </p> </td> 
-   <td> <p> 5/6位/通道表示支持16位RGB(5-5-5和5-6-5位/通道)。 </p> </td> 
+   <td> <p> 未壓縮 | RLE </p> </td> 
+   <td> <p> 5/6位元/通道表示支援16位元RGB（5-5-5和5-6-5位元/通道）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> EPS</b> <p> （封装的Postscript） </p> </td> 
+   <td> <b> EPS</b> <p> （封裝的Postscript） </p> </td> 
    <td> <p> CMYK |RGB |灰色 </p> </td> 
    <td> <p> 8 </p> </td> 
-   <td> <p> ASCII |ASCII85 |二进制 |JPEG </p> </td> 
-   <td> <p> 仅支持由Photoshop生成的EPS文件。 </p> </td> 
+   <td> <p> ASCII | ASCII85 |二進位 |JPEG </p> </td> 
+   <td> <p> 僅支援Photoshop產生的EPS檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -273,10 +273,10 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> CompuServe </p> <b>GIF</b> </td> 
-   <td> <p> 索引 </p> </td> 
+   <td> <p> 已索引 </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> LZW </p> </td> 
-   <td> <p> 如果存在，则面板中的透明度值将转换为Alpha。 </p> </td> 
+   <td> <p> 如果存在，調色盤中的透明度值會轉換為Alpha。 </p> </td> 
   </tr> 
   <tr> 
    <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
@@ -287,17 +287,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMYK | CMYKA |RGB | RGBA |灰色 | grayA </p> </td> 
+   <td> <p> CMYK |奇姆卡 |RGB | RGBA |灰色 | grayA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> 未压缩 |压缩 </p> </td> 
-   <td> <p> 仅合并图像；层和额外通道会被忽略。 </p> </td> 
+   <td> <p> 未壓縮 |已壓縮 </p> </td> 
+   <td> <p> 僅限合併的影像；會忽略圖層和額外的色版。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Macintosh </p> <b>PICT</b> </td> 
    <td> <p> RGB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> 仅位图数据；矢量数据被忽略。 </p> </td> 
+   <td> <p> 僅限點陣圖資料；會忽略向量資料。 </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
@@ -308,28 +308,28 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMYK | CMYKA |RGB | RGBA |灰色 | grayA |已索引 </p> </td> 
+   <td> <p> CMYK |奇姆卡 |RGB | RGBA |灰色 | grayA |已索引 </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> 未压缩 | ZIP | LZW |JPEG | CCIT规则 | CCITT G3 | CCITT G4 |包位 </p> </td> 
-   <td> <p> 除了第一个关联的Alpha通道外，会忽略额外的通道。 </p> </td> 
+   <td> <p> 未壓縮 | ZIP | LZW |JPEG |核心規則 |中信泰富G3 |中信泰富G4 | Packbits </p> </td> 
+   <td> <p> 除了第一個關聯的Alpha色版以外，會忽略額外的色版。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-嵌入的ICC配置文件可在EPS、JPG、PSD、PNG和TIFF文件中识别。
+內嵌ICC設定檔可在EPS、JPG、PSD、PNG和TIFF檔案中辨識。
 
-嵌入的路径和XMP元数据可在EPS、JPG、PSD和TIFF文件中识别。
+EPS、JPG、PSD和TIFF檔案可辨識內嵌路徑和XMP中繼資料。
 
 ## 示例 {#section-3c1986b30315431989bd76b1ee5bef6d}
 
-以最佳质量转换单个图像，并将其保留在同一文件夹中：
+以最佳品質轉換單一影像，並將其儲存在相同的資料夾中：
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-在 *`srcFolder`* 到JPEG编码的金字塔TIFF并置于 *`destFolder`*:
+轉換所有影像 *`srcFolder`* JPEG編碼的金字塔TIFF並置於 *`destFolder`*：
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-在 *`srcFolder`*. JPG文件的编码图像数据用于这些图像的其余图像金字塔的全分辨率级无损耗LZW压缩以及所有非JPG输入文件的整个输出图像。 像素类型、嵌入的颜色配置文件、XMP元数据等。 进行维护。
+轉換所有影像 *`srcFolder`*. JPG檔案的編碼影像資料用於完整解析度層級、無遺失的LZW壓縮，用於這些影像的影像金字塔的其餘部分，以及所有非JPG輸入檔案的整個輸出影像。 畫素型別、內嵌色彩設定檔、XMP中繼資料等。 會進行維護。
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

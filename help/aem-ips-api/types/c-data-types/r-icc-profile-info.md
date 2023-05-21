@@ -1,5 +1,5 @@
 ---
-description: ICC配置文件资产的属性。
+description: ICC設定檔資產的屬性。
 solution: Experience Manager
 title: IccProfileInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL IccProfileInfo]{#iccprofileinfo}
 
-ICC配置文件资产的属性。
+ICC設定檔資產的屬性。
 
 语法
 
@@ -22,6 +22,6 @@ ICC配置文件资产的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| originalPath | `xsd:string` | ICC配置文件路径。 |
-| originalFile | `xsd:string` | 原始ICC配置文件的名称。 |
-| fileSize | `xsd:int` | ICC配置文件大小。 |
+| 原始路徑 | `xsd:string` | ICC設定檔路徑。 |
+| 原始檔案 | `xsd:string` | 原始ICC設定檔的名稱。 |
+| fileSize | `xsd:int` | ICC設定檔大小。 |

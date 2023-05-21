@@ -8,7 +8,7 @@ exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x，y，w，h</span> </p> </td> 
-   <td colname="col2"> <p> 像素坐标中的初始目标区域。 如果未指定这些值，则整个图像会拟合到初始视区中。 </p> </td> 
+   <td colname="col2"> <p> 以畫素座標表示的初始興趣區域。 如果未指定這些值，會在初始檢視區中填入整個影像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-50bcd15223174bb79ce08b31ea03d682}
+## 屬性 {#section-50bcd15223174bb79ce08b31ea03d682}
 
-可选。
+可选.
 
 ## 默认 {#section-7564169749ff4a4996049ea1148cb2a5}
 

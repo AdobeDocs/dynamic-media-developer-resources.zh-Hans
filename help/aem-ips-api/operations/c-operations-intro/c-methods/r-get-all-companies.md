@@ -1,5 +1,5 @@
 ---
-description: 返回所有公司的数组。
+description: 傳回所有公司的陣列。
 solution: Experience Manager
 title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
@@ -14,31 +14,31 @@ ht-degree: 21%
 
 # getAllCompanies{#getallcompanies}
 
-返回所有公司的数组。
+傳回所有公司的陣列。
 
 语法
 
-## 授权用户类型 {#section-773db3753b4842e5a4623ad810176508}
+## 授權的使用者型別 {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
 ## 参数 {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**输入(getAllCompaniesParam)**
+**輸入(getAllCompaniesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | 是 | 设置为true可返回已过期和未过期的公司。 |
+| includeExpired | `xsd:boolean` | 是 | 設為true可傳回過期和未過期的公司。 |
 
-**Output(getAllCompaniesReturn)**
+**輸出(getAllCompaniesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | 是 | 一系列公司。 |
+| companyArray | `types:CompanyArray` | 是 | 公司陣列。 |
 
 ## 示例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代码示例可返回数组中IPS中的所有公司。 请注意，为简短起见，示例响应被截断。
+此程式碼範例會傳回陣列中IPS中的所有公司。 請注意，為簡短起見，範例回應會遭截斷。
 
 **请求**
 

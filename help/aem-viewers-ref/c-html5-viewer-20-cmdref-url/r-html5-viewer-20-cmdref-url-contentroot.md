@@ -1,6 +1,6 @@
 ---
 title: contentUrl
-description: 所有查看器通用的参数。
+description: 所有檢視器通用的引數。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # contentUrl{#contenturl}
 
-所有查看器通用的参数。
+所有檢視器通用的引數。
 
 ` contentUrl= *`contentUrlPath`*`
 
@@ -22,14 +22,14 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定自定义CSS文件、任何隐藏式字幕内容或导航内容的基本路径。 </p> <p>如果路径没有前导<span class="filepath"> /</span>，则它相对于查看器HTML页面的位置。 如果路径具有前导<span class="filepath"> /</span>，则它会指定同一服务器上的绝对路径。 </p> <p> 未指定样式命令时，不会影响默认CSS文件的加载。 </p> </td> 
+   <td colname="col2"> <p>指定自訂CSS檔案、任何隱藏式字幕內容或導覽內容的基本路徑。 </p> <p>如果路徑沒有行距 <span class="filepath"> /</span>，此量度會與檢視器HTML頁面的位置相對應。 如果路徑有行距 <span class="filepath"> /</span>，會指定相同伺服器上的絕對路徑。 </p> <p> 若您未指定樣式指令，不會影響預設CSS檔案的載入。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-10ee45d637134e0fbcd943c62578cb78}
+## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-可选。
+可选.
 
 ## 默认 {#section-d411e450028c460392cb8508f8ccc5d9}
 

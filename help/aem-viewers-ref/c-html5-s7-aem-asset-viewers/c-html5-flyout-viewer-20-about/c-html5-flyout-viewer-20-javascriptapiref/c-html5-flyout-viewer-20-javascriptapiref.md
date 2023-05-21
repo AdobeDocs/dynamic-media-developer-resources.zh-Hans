@@ -1,6 +1,6 @@
 ---
-title: 弹出查看器的JavaScript API引用
-description: 弹出查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
+title: 彈出式檢視器的JavaScript API參考
+description: Flyout Viewer的主要類別是FlyoutViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# 弹出查看器的JavaScript API引用{#javascript-api-reference-for-flyout-viewer}
+# 彈出式檢視器的JavaScript API參考{#javascript-api-reference-for-flyout-viewer}
 
-弹出查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和调用回调。
+Flyout Viewer的主要類別是FlyoutViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 
-在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.FlyoutViewer` 类。
+在下列所有範例中， `<instance>` 代表從具現化的JavaScript檢視器物件的實際名稱。 `s7viewers.FlyoutViewer` 類別。
 
-* [处置](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
+* [處置](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
 * [getComponent](r-html5-flyout-viewer-20-javascriptapiref-getcomponent.md)
 * [init](r-html5-flyout-viewer-20-javascriptapiref-init.md)

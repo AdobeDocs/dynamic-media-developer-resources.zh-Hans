@@ -1,23 +1,23 @@
 ---
-description: 搜索功能
+description: 搜尋功能
 solution: Experience Manager
-title: 搜索功能
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+title: 搜尋功能
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d9bee7a6-332f-481b-b0aa-9caa0b6d982c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# 搜索功能{#search-feature}
+# 搜尋功能{#search-feature}
 
-查看器支持对目录内容进行文本搜索。 要使搜索功能正常工作，在将源PDF文件上传到Dynamic Media Classic时，必须打开目录“提取搜索词”功能。
+檢視器支援在目錄內容上搜尋文字。 為了使搜尋功能發揮作用，當來源PDF檔案上傳到Dynamic Media Classic時，必須開啟目錄「擷取搜尋字詞」功能。
 
-“搜索”功能通过激活主工具栏中的“搜索”按钮来触发。 此操作将显示一个包含文本输入字段的搜索结果面板。 用户可以使用与空格分隔的关键字或使用短语（用双引号括起来）来运行搜索。
+啟動主工具列中的「搜尋」按鈕即可觸發「搜尋」功能。 此動作會開啟含有文字輸入欄位的搜尋結果面板。 使用者可以使用以空格分隔的關鍵字來執行搜尋，或使用由雙引號括住的詞句。
 
-搜索结果以页面缩略图的形式显示，其中找到搜索文本。 此外，查看器还会显示在搜索期间找到的页面和点击总数。 用户可以单击或点按搜索结果缩略图，以导航到目录的相应页面。
+搜尋結果會顯示為找到搜尋文字的頁面縮圖。 此外，檢視器會顯示搜尋期間找到的頁面和點選總數。 使用者可以按一下或點選搜尋結果縮圖，以導覽至目錄的對應頁面。
 
-最后，查看器使用半透明的黄色区域在主视图中突出显示搜索点击。
+最後，檢視器會使用半透明的黃色區域，反白標示主檢視中的搜尋點選。

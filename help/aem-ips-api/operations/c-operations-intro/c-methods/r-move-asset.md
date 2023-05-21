@@ -1,5 +1,5 @@
 ---
-description: 将资产移动到特定文件夹。
+description: 將資產移至特定資料夾。
 solution: Experience Manager
 title: moveAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # moveAsset{#moveasset}
 
-将资产移动到特定文件夹。
+將資產移至特定資料夾。
 
 语法
 
-## 授权用户类型 {#section-e4f2d2a58132450aa36da6377134211e}
+## 授權的使用者型別 {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,21 +29,21 @@ ht-degree: 17%
 
 ## 参数 {#section-dd0bbdf293aa4563af70a91f97c861f1}
 
-**输入(moveAssetParam)**
+**輸入(moveAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 对公司负责。 |
-| assetHandle | `xsd:string` | 是 | 处理要移动的资产。 |
-| folderHandle | `xsd:string` | 是 | 处理到目标文件夹。 |
+| companyHandle | `xsd:string` | 是 | 處理公司。 |
+| assetHandle | `xsd:string` | 是 | 處理您要移動的資產。 |
+| folderHandle | `xsd:string` | 是 | 目的地資料夾的處理常式。 |
 
-**输出(moveAssetReturn)**
+**輸出(moveAssetReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-此代码示例可将资产移到文件夹。
+此程式碼範例將資產移至資料夾。
 
 **请求**
 

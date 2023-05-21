@@ -1,5 +1,5 @@
 ---
-description: 将文件发布到图像渲染服务器。
+description: 將檔案發佈至影像演算伺服器。
 solution: Experience Manager
 title: ImageRenderingPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageRenderingPublishJob]{#imagerenderingpublishjob}
 
-将文件发布到图像渲染服务器。
+將檔案發佈至影像演算伺服器。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| emailSetting | `xsd:string` | 选择电子邮件设置。 |
-| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |
-| contextHandle | `xsd:string` | 处理发布上下文。 |
+| emailSetting | `xsd:string` | 選擇電子郵件設定。 |
+| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
+| contextHandle | `xsd:string` | 處理發佈內容的動作。 |

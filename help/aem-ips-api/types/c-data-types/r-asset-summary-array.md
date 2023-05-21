@@ -1,5 +1,5 @@
 ---
-description: 资产概要的数组。
+description: 資產摘要陣列。
 solution: Experience Manager
 title: AssetSummaryArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetSummaryArray]{#assetsummaryarray}
 
-资产概要的数组。
+資產摘要陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:AssetSummary` | 资产概要数组。 |
+| 项目 | `types:AssetSummary` | 資產摘要陣列。 |

@@ -1,6 +1,6 @@
 ---
-title: emptyAssetsFromTrashe
-description: 清空IPS垃圾桶中的资产。
+title: emptyAssetsFromTrash
+description: 清空IPS垃圾桶中的資產。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -12,13 +12,13 @@ ht-degree: 8%
 
 ---
 
-# emptyAssetsFromTrashe{#emptyassetsfromtrash}
+# emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-清空IPS垃圾桶中的资产。
+清空IPS垃圾桶中的資產。
 
-资产会一直存放在垃圾桶中，直到被手动清空，或者超时从垃圾桶中清空。 如果手动清空这些清空文件，则它们会一直存在在垃圾桶中，直到最终从系统中清除它们时（通常是夜间清除）下一个清理作业为止。 如果资产超时进入垃圾桶，则会作为同一清理活动的一部分清理资产。 超时可进行配置（默认为7天）。
+資產會一直留在垃圾桶中，直到手動清空或逾時。 如果手動清空，它們會留在垃圾桶中，直到最後從系統中清除時為止（通常是在夜間）。 如果資產在垃圾桶中逾時，系統會在該清理活動中清理資產。 可設定逾時（預設為7天）。
 
-## 授权用户类型 {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## 授權的使用者型別 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,26 +29,26 @@ ht-degree: 8%
 
 ## 参数 {#section-8e1fb0ee3aae453581e99ef76e298569}
 
-**输入(emptyAssetsFromTrashParam)**
+**輸入(emptyAssetsFromTrashParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | xsd:string | 是 | 拥有资产的公司的句柄。 |
-| assetHandleArray | 类型：HandleArray | 是 | 表示要从垃圾桶中清空的项目的句柄数组。 |
+| companyHandle | xsd:string | 是 | 擁有資產的公司的控制代碼。 |
+| assetHandleArray | 型別：HandleArray | 是 | 代表要從垃圾桶清空之專案的控點陣列。 |
 
-**输出(emptyAssetsFromTrasheParam)**
+**輸出(emptyAssetsFromTrashParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | xsd:Int | 是 | 成功从垃圾桶清空的资产数。 |
-| warningCount | xsd:Int | 是 | 操作尝试从垃圾桶中清空资产时生成的警告数。 |
-| errorCount | xsd:Int | 是 | 操作尝试从垃圾桶中清空资产时生成的错误数。 |
-| warningDetailArray | 类型：AssetOperationFaultArray | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成警告。 |
-| errorDetailArray | 类型：AssetOperationFaultArray | 否 | 与资产关联的详细信息数组，当操作尝试从垃圾桶中清空资产时，资产会生成错误。 |
+| successCount | xsd：Int | 是 | 已成功從垃圾桶清空的資產數量。 |
+| warningCount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的警告數目。 |
+| errororcount | xsd：Int | 是 | 作業嘗試從垃圾桶清空資產時產生的錯誤數。 |
+| warningDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從垃圾桶清空資產時產生警告。 |
+| errorDetailArray | 型別：AssetOperationFaultArray | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶清空資產時產生錯誤。 |
 
 ## 示例 {#section-6154a873b6c342bf92e2036280cafdcf}
 
-此代码示例使用公司的句柄和一个资产句柄数组，其中包含要从垃圾桶中清空的资产的句柄。
+此程式碼範例使用公司的控制代碼和資產控制代碼陣列，其中包含要從垃圾桶清空的資產控制代碼。
 
 **请求**
 

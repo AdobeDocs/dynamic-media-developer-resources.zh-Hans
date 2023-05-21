@@ -1,6 +1,6 @@
 ---
 title: AssetArray
-description: 一组资产。
+description: 資產陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 35%
 
 # [!DNL AssetArray]{#assetarray}
 
-一组资产。
+資產陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 35%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Asset` | 资产数组。 |
+| 项目 | `types:Asset` | 資產陣列。 |

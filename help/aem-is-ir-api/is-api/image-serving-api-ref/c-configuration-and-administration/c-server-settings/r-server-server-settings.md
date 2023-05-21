@@ -1,5 +1,5 @@
 ---
-description: 使用这些服务器设置来配置您的服务器。
+description: 使用這些伺服器設定來設定您的伺服器。
 solution: Experience Manager
 title: 服务器
 feature: Dynamic Media Classic,SDK/API
@@ -14,46 +14,46 @@ ht-degree: 0%
 
 # 服务器{#server}
 
-使用这些服务器设置来配置您的服务器。
+使用這些伺服器設定來設定您的伺服器。
 
-## SV::ImageServerMode — 图像服务器模式 {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV：：ImageServerMode — 影像伺服器模式 {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
-32位和64位版本的图像服务器都适用于Linux。 如果安装在64位Linux服务器上，请指定ImageServer64；如果安装在32位服务器上，请指定ImageServer32（默认）。
-
->[!NOTE]
->
->图像服务器的64位版本不支持FlashPix源文件。
+影像伺服器的32位元和64位元版本均適用於Linux。 若安裝在64位元Linux伺服器上，請指定ImageServer64；若安裝在32位元伺服器上，請指定ImageServer32 （預設）。
 
 >[!NOTE]
 >
->Windows不支持64位模式。 仅 `ImageServer32` 可以指定。 否则，将不会启动图像提供。
-
-## SV::PsHeapSize - [!DNL Platform Server] 堆大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
-
-的Java堆大小 [!DNL Platform Server]. 默认为“ `512m`“（512兆字节）。
-
-## IS::TcpPort， PS::isConnection.port — 图像服务器侦听端口 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
-
-指定用于在 [!DNL Platform Server] 和图像服务器。 确保指定主机系统上未使用的端口号。
+>64位元版本的Image Server不支援FlashPix來源檔案。
 
 >[!NOTE]
 >
->为了使图像服务正常工作，必须为 `IS::TcpPort` 和 `PS::isConnection.port`.
+>Windows不支援64位元模式。 僅限 `ImageServer32` 可指定。 否則將不會啟動影像伺服。
 
-## IS::PhysicalMemory — 图像服务器内存限制 {#section-85e37aa2ac6e456eb698da716dd3247d}
+## SV：：PsHeapSize - [!DNL Platform Server] 棧積大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-内存中图像数据的近似限制，以物理内存的百分比表示。 有效范围为10%到90%。 图像服务器尝试将其对图像内存的使用限制为指定的数量（如果可能）。 在繁重的处理活动期间，可能会暂时超出限制。
+的Java棧積大小 [!DNL Platform Server]. 預設為&quot; `512m`「 (512 MB)。
 
-## IS::WorkerThreads — 图像服务器工作线程数 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS：：TcpPort， PS：：isConnection.port — 影像伺服器接聽連線埠 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-图像服务器用于处理图像数据的最大线程数。 默认值为0，这允许图像服务器自动优化线程数。
+指定用於通訊的通訊埠 [!DNL Platform Server] 和影像伺服器。 請務必指定在主機系統上不會使用的連線埠號碼。
 
-某些操作系统具有线程模型，且上下文切换开销较高。 在这种情况下，当选择特定线程计数（例如每个CPU一个线程）时，整体服务器性能可能会提高。 可能需要进行一些实验以找到最佳设置。 有关其他信息，请参阅图像提供发行说明和操作系统文档。
+>[!NOTE]
+>
+>若要讓「影像伺服」正常運作，必須設定相同的值 `IS::TcpPort` 和 `PS::isConnection.port`.
 
-## IS::NumberOfTextServers — 文本服务器实例数 {#section-971e20a90c1a473598fba738ed95671a}
+## IS：：PhysicalMemory — 影像伺服器記憶體限制 {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-同时处于活动状态的文本渲染器的最大数量。 0（默认）等于可用CPU核心数的1.5倍。
+記憶體內部影像資料的大約限制，以實體記憶體的百分比表示。 有效範圍為10%到90%。 影像伺服器會儘可能將影像記憶體的使用限制在指定的數量。 在繁重處理作業期間，可能會暫時超過限制。
 
-## IS::TextServerTcpPortRange — 文本服务器通信端口 {#section-a13465de88ed4df09931e5ba840c1942}
+## IS：：WorkerThreads — 影像伺服器工作執行緒數目 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
-用于文本服务器通信的端口。 指定第一个和最后一个端口号（以“ — ”分隔）。
+影像伺服器用於處理影像資料的最大執行緒數量。 預設值為0，可讓影像伺服器自動最佳化執行緒計數。
+
+某些作業系統有執行緒模型，而且內容交換開銷很高。 在這種情況下，選取特定執行緒計數時（例如每個CPU一個執行緒），整體伺服器效能可能會改善。 可能需要一些實驗來尋找最佳設定。 如需詳細資訊，請參閱「影像伺服」發行說明和作業系統檔案。
+
+## IS：：NumberOfTextServers — 文字伺服器執行個體數目 {#section-971e20a90c1a473598fba738ed95671a}
+
+同時作用中的文字轉譯器數目上限。 0 （預設）等於可用CPU核心數的1.5倍。
+
+## IS：：TextServerTcpPortRange — 文字伺服器通訊連線埠 {#section-a13465de88ed4df09931e5ba840c1942}
+
+用於文字伺服器通訊的連線埠。 指定第一個和最後一個連線埠號碼，以&#39;-&#39;分隔。

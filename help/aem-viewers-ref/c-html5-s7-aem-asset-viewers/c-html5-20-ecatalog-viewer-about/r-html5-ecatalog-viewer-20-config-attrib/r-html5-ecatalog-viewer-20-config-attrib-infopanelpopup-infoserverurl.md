@@ -20,18 +20,18 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>信息服务器URL模板用于获取信息面板内容模板中变量替换的键/值对。指定的模板通常包含宏占位符，在将请求发送到服务器之前，宏占位符会被替换为实际数据。 </p> <p><span class="codeph"> $1$</span> 替换为触发 <span class="codeph"> 信息面板弹出窗口</span> 激活。 </p> <p><span class="codeph"> 2美元</span> 替换为图像集中当前帧的序列号。 </p> <p><span class="codeph"> 3美元</span> 将替换为在当前项目的父项集名称中指定的第一个路径元素。 它通常与目录ID相对应。 </p> <p><span class="codeph"> 4美元</span> 将在路径中替换为以下元素，并与资产id相对应。 实际的信息服务器请求语法与信息服务器相关，它不同于服务器。 例如，以下是典型的Dynamic Media信息服务器请求模板： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>資訊伺服器URL範本是用來擷取資訊面板內容範本中變數替代的索引鍵/值組。 指定的範本通常包含巨集預留位置，這些預留位置會在請求傳送至伺服器之前被實際資料取代。 </p> <p><span class="codeph"> $1$</span> 會取代為觸發下列專案的滑鼠指向效果值： <span class="codeph"> InfoPanelPopup</span> 啟用。 </p> <p><span class="codeph"> $2$</span> 會取代為影像集中目前影格的序號。 </p> <p><span class="codeph"> $3$</span> 會取代為目前專案的父項集名稱中指定的第一個路徑元素。 通常會對應至目錄ID。 </p> <p><span class="codeph"> $4$</span> 會以路徑中的下列元素取代，且會對應至資產id。 實際的資訊伺服器要求語法取決於資訊伺服器，而且伺服器之間有所不同。 例如，以下是典型的Dynamic Media資訊伺服器請求範本： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->配置“信息面板弹出窗口”时，传递到“信息面板”的HTML代码和JavaScript代码将在客户端的计算机上运行。 因此，请确保此类HTML代码和JavaScript代码是安全的。
+>當您設定資訊面板彈出式視窗時，傳遞至資訊面板的HTML代碼和JavaScript代碼會在使用者端電腦上執行。 因此，請確定此類HTML程式碼和JavaScript程式碼是安全的。
 
-## 属性 {#section-71356e3c13244e62b0582980d9d05328}
+## 屬性 {#section-71356e3c13244e62b0582980d9d05328}
 
-可选。
+可选.
 
 ## 默认 {#section-22e9af803f724434807d34e200eb7518}
 

@@ -1,24 +1,24 @@
 ---
-description: 设置与图像集关联的资产列表。
+description: 設定與影像集相關聯的資產清單。
 solution: Experience Manager
-title: setImageSetMembers
-feature: Dynamic Media Classic，SDK/API，图像集
+title: setImageSetMember
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
 
-# setImageSetMembers{#setimagesetmembers}
+# setImageSetMember{#setimagesetmembers}
 
-设置与图像集关联的资产列表。
+設定與影像集相關聯的資產清單。
 
-此操作会忽略`ImageSets`和`SpinSets`的`pageReset`参数，并强制将值设为true。
+此操作會忽略 `pageReset` 的引數 `ImageSets` 和 `SpinSets` 和會強制將值設為true。
 
-## 授权用户类型 {#section-8968d6a39a344cfc8521020d92ae8916}
+## 授權的使用者型別 {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->用户必须具有对图像集资产的读和写访问权限，并且对每个成员资产具有读访问权限。
+>使用者必須擁有影像集資產的讀取和寫入存取權，以及每個成員資產的讀取存取權。
 
 ## 参数 {#section-2f46efcd24c648aeacba738509426e46}
 
-**输入(setImageSetMembersParam)**
+**輸入(setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -49,30 +49,30 @@ ht-degree: 12%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>公司负责人。 </p> </td> 
+   <td colname="col4"> <p>公司控點。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 图像集句柄。 </td> 
+   <td colname="col4"> 影像集控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 属于图像集的资产成员数组。 </td> 
+   <td colname="col4"> 屬於影像集的資產成員陣列。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(setImageSetMembersReturn)**
+**輸出(setImageSetMembersReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-7b87219034464aa98524178ccee27738}
 
-此代码示例使用成员数组来设置图像集的成员。
+此程式碼範例使用成員陣列來設定影像集的成員。
 
 **请求**
 

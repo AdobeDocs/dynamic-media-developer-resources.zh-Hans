@@ -1,6 +1,6 @@
 ---
-title: PlayPause按钮
-description: “播放/暂停”按钮允许用户暂停或继续轮播自动播放行为。
+title: PlayPause按鈕
+description: 「播放/暫停」按鈕可讓使用者暫停或繼續輪播自動播放行為。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,74 +12,74 @@ ht-degree: 2%
 
 ---
 
-# PlayPause按钮{#playpause-button}
+# PlayPause按鈕{#playpause-button}
 
-“播放/暂停”按钮允许用户暂停或继续轮播自动播放行为。
+「播放/暫停」按鈕可讓使用者暫停或繼續輪播自動播放行為。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-仅当`CarouselViewer.autoplay`参数设置为`1`时，按钮才可见；否则，将隐藏。 您可以使用CSS，相对于包含该按钮的控制栏来调整其大小、外观和位置。
+按鈕只有在以下情況下才可見： `CarouselViewer.autoplay` 引數已設為 `1`；否則會隱藏。 您可以使用CSS調整此按鈕的大小、外觀及相對於包含它的控制列定位。
 
-**主查看器区域的CSS属性**
+**主要檢視器區域的CSS屬性**
 
-通过以下CSS类选择器控制按钮的外观：
+按鈕的外觀由下列CSS類別選取器控制：
 
 `.s7carouselviewer .s7playpausebutton`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>查看器边框顶部的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框頂端的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>查看器边框右侧的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器邊框右側的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>查看器左侧的位置。 </p> </td> 
+   <td colname="col2"> <p>從檢視器左側的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器边框底部的位置。 </p> </td> 
+   <td colname="col2"> <p>位於檢視器邊框底部。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按钮的宽度。 </p> </td> 
+   <td colname="col2"> <p>按鈕的寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按钮的高度。 </p> </td> 
+   <td colname="col2"> <p>按鈕的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景图像  </span> </p> </td> 
-   <td colname="col2"> <p>为给定按钮状态显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景位置  </span> </p> </td> 
-   <td colname="col2"> <p> 在图稿Sprite中放置（如果使用CSS Sprite）。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标  </span> </p> </td> 
-   <td colname="col2"> <p>光标类型。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
+   <td colname="col2"> <p>游標型別。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用到不同的按钮状态。
+>此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
 
-按钮工具提示可进行本地化。 有关更多信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 。
+按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) 以取得詳細資訊。
 
-例如，假定您要设置一个28 x 28像素的播放暂停按钮。 您希望按钮距查看器底部17像素，距查看器左边缘12像素。 此外，您还希望它在选择或未选择时，针对四个不同按钮状态中的每个状态显示一个不同的图像。
+例如，假設您要設定28 x 28畫素的播放暫停按鈕。 您想要將按鈕放置在距離檢視器底部17畫素和距離左邊緣12畫素的位置。 而且，您想要它在選取或未選取時，針對四種不同的按鈕狀態顯示不同的影像。
 
 ```
 .s7carouselviewer .s7playpausebutton { 

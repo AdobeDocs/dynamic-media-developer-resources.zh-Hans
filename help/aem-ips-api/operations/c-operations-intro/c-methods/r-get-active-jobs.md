@@ -1,5 +1,5 @@
 ---
-description: 获取当前所有活动的作业。
+description: 取得所有目前作用中的工作。
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # getActiveJobs{#getactivejobs}
 
-获取当前所有活动的作业。
+取得所有目前作用中的工作。
 
 语法
 
-## 授权用户类型 {#section-125557a6ea7b4fc894d4bb468cd02118}
+## 授權的使用者型別 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,23 +31,23 @@ ht-degree: 16%
 
 ## 参数 {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**输入(getActiveJobsParam)**
+**輸入(getActiveJobsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 公司的把手。 |
-| jobHandle | `xsd:string` | 否 | 工作的把手。 |
-| originalName | `xsd:string` | 否 | 原始作业名称。 |
+| companyHandle | `xsd:string` | 否 | 公司的控制代碼。 |
+| jobHandle | `xsd:string` | 否 | 工作的控制代碼。 |
+| 原始名稱 | `xsd:string` | 否 | 原始工作名稱。 |
 
-**Output(getActiveJobsReturn)**
+**輸出(getActiveJobsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| jobArray | `xsd:string` | 是 | 活动作业数组。 |
+| jobArray | `xsd:string` | 是 | 作用中工作的陣列。 |
 
 ## 示例 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-此代码示例返回在IPS中运行的公司的所有活动作业。 在这种情况下，响应异常，因为IPS调度协调器处于禁用状态，且未运行活动作业。 在正常情况下，响应将返回多个活动作业。
+此程式碼範例會傳回公司在IPS中執行的所有作用中工作。 在此情況下，回應是不尋常的，因為IPS排程協調器已停用，而且沒有執行中的作用中工作。 在正常情況下，回應會傳回許多作用中的工作。
 
 **请求**
 

@@ -1,6 +1,6 @@
 ---
-title: 预加载图像
-description: 预加载图像是一种静态资产预览图像，它在调用init()方法后直接加载，并在下载查看器SDK库、资产和预设信息时显示。 预加载图像的目的是直观地缩短查看者加载时间并快速向用户呈现内容。
+title: 預先載入影像
+description: 預先載入影像是靜態資產預覽影像，在呼叫init()方法後立即載入，並在下載檢視器SDK程式庫、資產和預設集資訊時顯示。 預先載入影像的用途是在視覺上改善檢視器載入時間，並快速將內容呈現給使用者。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# 预加载图像{#preload-image}
+# 預先載入影像{#preload-image}
 
-预加载图像是一种静态资产预览图像，它在调用init()方法后直接加载，并在下载查看器SDK库、资产和预设信息时显示。 预加载图像的目的是直观地缩短查看者加载时间并快速向用户呈现内容。
+預先載入影像是靜態資產預覽影像，在呼叫init()方法後立即載入，並在下載檢視器SDK程式庫、資產和預設集資訊時顯示。 預先載入影像的用途是在視覺上改善檢視器載入時間，並快速將內容呈現給使用者。
 
-预加载图像非常适合于最常用的查看器嵌入方法，即具有无限制高度的响应嵌入。 请参阅标题[具有不受限高度的响应式设计嵌入](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md#concept-b44f1df3c1c64d4e8b5565e7736bf95e)。
+預先載入影像適用於最常見的檢視器內嵌方法，也就是不受高度限制的回應式內嵌。 檢視標題 [高度不受限制的回應式設計內嵌](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md#concept-b44f1df3c1c64d4e8b5565e7736bf95e).
 
-但是，当使用其他嵌入方法或特定配置选项时，该功能存在某些限制。 在以下情况下，预加载图像可能无法正确呈现：
+但是，當使用其他內嵌方法或特定設定選項時，功能會有某些限制。 在下列情況下，預先載入影像可能無法正確轉譯：
 
-* 当查看器的大小固定且大小是使用查看器预设记录内的`stagesize`配置属性定义的，或者在顶级查看器容器元素的外部查看器CSS文件中定义的。
-* 在查看器嵌入的宽度和高度定义方法中使用灵活的大小嵌入时。 请参阅标题[定义了宽度和高度的灵活大小嵌入](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435)。
+* 如果檢視器的大小固定，且大小是使用以下其中一種來定義 `stagesize` 檢視器預設集記錄內的設定屬性，或頂層檢視器容器元素的外部檢視器CSS檔案內的設定屬性。
+* 使用彈性大小內嵌，且使用定義寬度與高度的檢視器內嵌方法時。 檢視標題 [定義寬度和高度的彈性大小內嵌](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-如果在上面列出的操作模式之一中使用查看器，请使用`preloadImage`配置属性禁用预加载图像功能。
+如果您在上面列出的操作模式之一中使用檢視器，請使用來停用預先載入影像功能。 `preloadImage` 設定屬性。
 
-此外，即使在配置中启用了预加载图像，也不会使用预加载图像 — 如果查看器已嵌入到DOM元素中，则会使用`display:none` CSS设置进行隐藏，或从DOM树中分离查看器。
+此外，即使已在設定中啟用，也不會使用預先載入影像，前提是檢視器已嵌入至DOM元素，並使用進行隱藏 `display:none` CSS設定，或從DOM樹狀結構中斷連結。

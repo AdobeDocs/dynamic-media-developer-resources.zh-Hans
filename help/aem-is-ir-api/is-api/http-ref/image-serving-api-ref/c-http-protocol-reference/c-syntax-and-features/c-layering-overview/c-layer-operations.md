@@ -1,23 +1,23 @@
 ---
-description: 除了相对于层0的大小调整(size=)和定位(pos=)层以及使用layer=命令指定复合顺序（z阶）外，层还可以旋转(rotate=)和翻转(flip=)。
+description: 除了調整大小(size=)和相對於圖層0定位(pos=)圖層，以及使用layer=指令指定合成順序（z順序）之外，圖層還可以旋轉(rotate=)和翻轉(flip=)。
 solution: Experience Manager
-title: 层操作
-feature: Dynamic Media Classic，SDK/API
+title: 圖層作業
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# 层操作{#layer-operations}
+# 圖層作業{#layer-operations}
 
-除了相对于层0的大小调整(size=)和定位(pos=)层以及使用layer=命令指定复合顺序（z阶）外，层还可以旋转(rotate=)和翻转(flip=)。
+除了調整大小(size=)和相對於圖層0定位(pos=)圖層，以及使用layer=指令指定合成順序（z順序）之外，圖層還可以旋轉(rotate=)和翻轉(flip=)。
 
-当模板中的图像或文本发生动态更改时，`origin=`和`anchor=`属性可用于保持图层之间的所需对齐方式。
+此 `origin=` 和 `anchor=` 當範本中的影像或文字動態變更時，可以使用屬性來維持圖層之間所需的對齊方式。
 
-`maskUse=`命令可用于图像层访问具有单独掩码的图像的背景区域。
+此 `maskUse=` 命令可用於影像圖層，以存取具有個別遮色片之影像的背景區域。
 
-`opac=` 可用于更改图层的不透明度，以 `hide=` 及显示或隐藏图层。
+`opac=` 可用來改變圖層不透明度，以及 `hide=` 來顯示或隱藏圖層。

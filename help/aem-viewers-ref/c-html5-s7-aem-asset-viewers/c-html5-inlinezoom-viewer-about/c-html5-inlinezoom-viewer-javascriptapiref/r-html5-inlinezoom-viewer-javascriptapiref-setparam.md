@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: 内联缩放查看器的JavaScript API引用。
+description: 內嵌縮放檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-内联缩放查看器的JavaScript API引用。
+內嵌縮放檢視器的JavaScript API參考。
 
-` setParam( *`name， value`*)`
+` setParam( *`名稱，值`*)`
 
-将查看器参数设置为指定值。 参数是特定于查看器的配置选项或软件开发包修饰符。 此参数在 `init()`. 如果查看器配置信息是通过 `config` 构造函数的JSON对象。
+將檢視器引數設定為指定的值。 引數是檢視器特定的組態選項或軟體開發套件修飾元。 此引數是在以下時間之前呼叫： `init()`. 如果透過以下方式傳遞檢視器設定資訊，則此方法為選用： `config` 建構函式的JSON物件。
 
-另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数的名称。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。 该值不能进行百分比编码。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數值。 值不得以百分比編碼。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

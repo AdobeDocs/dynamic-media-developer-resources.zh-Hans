@@ -1,5 +1,5 @@
 ---
-description: 图像映射定义数组。
+description: 影像地圖定義的陣列。
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageMapDefinitionArray]{#imagemapdefinitionarray}
 
-图像映射定义数组。
+影像地圖定義的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ImageMapDefinition` | 图像映射定义的数组。 |
+| 项目 | `types:ImageMapDefinition` | 影像地圖定義的陣列。 |

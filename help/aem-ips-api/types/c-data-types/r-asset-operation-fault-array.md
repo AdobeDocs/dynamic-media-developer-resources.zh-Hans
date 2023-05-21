@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFaultArray
-description: 资产操作故障的数组。
+description: 資產作業錯誤的陣列。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL AssetOperationFaultArray]{#assetoperationfaultarray}
 
-资产操作故障的数组。
+資產作業錯誤的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 23%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:AssetOperationFault` | 资产操作故障项的数组。 |
+| 项目 | `types:AssetOperationFault` | 資產操作錯誤專案的陣列。 |

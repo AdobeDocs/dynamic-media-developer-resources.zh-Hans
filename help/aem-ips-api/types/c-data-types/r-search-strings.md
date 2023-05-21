@@ -1,5 +1,5 @@
 ---
-description: 从PDF文件提取的搜索字符串记录。
+description: 從PDF檔案擷取的搜尋字串記錄。
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-从PDF文件提取的搜索字符串记录。
+從PDF檔案擷取的搜尋字串記錄。
 
 语法
 
@@ -22,12 +22,12 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| searchString | `xsd:string` | 搜索字符串文本。 |
-| keywordsArray | `types:KeywordsArray` | 搜索字符串中的关键词数组。 |
-| 状态 | `xsd:boolean` | 如果搜索字符串有效且已启用，则返回true。 |
-| x | `xsd:int` | 搜索字符串的X轴位置。 |
-| y | `xsd:int` | 搜索字符串的Y轴位置。 |
-| 宽度 | `xsd:int` | 搜索字符串宽度。 |
-| 高度 | `xsd:int` | 搜索字符串高度。 |
-| fontName | `xsd:string` | 搜索字符串中使用的字体的名称。 |
+| searchString | `xsd:string` | 搜尋字串文字。 |
+| 關鍵字陣列 | `types:KeywordsArray` | 搜尋字串中的關鍵字陣列。 |
+| 状态 | `xsd:boolean` | 如果搜尋字串有效且已啟用，則為True。 |
+| x | `xsd:int` | 搜尋字串的X軸位置。 |
+| y | `xsd:int` | 搜尋字串的Y軸位置。 |
+| 宽度 | `xsd:int` | 搜尋字串寬度。 |
+| 高度 | `xsd:int` | 搜尋字串高度。 |
+| 字型名稱 | `xsd:string` | 搜尋字串中使用的字型名稱。 |
 | pointSize | `xsd:string` | 字体大小. |

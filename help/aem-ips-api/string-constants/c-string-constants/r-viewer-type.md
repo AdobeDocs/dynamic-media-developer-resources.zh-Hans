@@ -1,18 +1,18 @@
 ---
 description: 由ViewerPresetInfo使用。
 solution: Experience Manager
-title: 查看器类型
-feature: Dynamic Media Classic，SDK/API，查看器
+title: 檢視器型別
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 33%
+source-wordcount: '12'
+ht-degree: 16%
 
 ---
 
-# 查看器类型{#viewer-type}
+# 檢視器型別{#viewer-type}
 
 由ViewerPresetInfo使用。
 

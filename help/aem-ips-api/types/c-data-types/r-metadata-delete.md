@@ -1,7 +1,7 @@
 ---
-description: 要从资产中删除的元数据。
+description: 要從資產刪除的中繼資料。
 solution: Experience Manager
-title: 元数据删除
+title: MetadataDelete
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-要从资产中删除的元数据。
+要從資產刪除的中繼資料。
 
 语法
 
@@ -32,7 +32,7 @@ ht-degree: 28%
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>要删除的元数据参数。 </p> </td> 
+   <td colname="col3"> <p>要刪除的中繼資料引數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

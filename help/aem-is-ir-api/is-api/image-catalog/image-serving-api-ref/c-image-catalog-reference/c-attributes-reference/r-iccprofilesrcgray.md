@@ -1,29 +1,29 @@
 ---
-description: 灰度默认输入颜色配置文件。 指定ICC颜色配置文件的名称，该名称用于未嵌入颜色配置文件的灰度源图像，以及使用各种“图像提供”命令（如color=）指定的某些灰度颜色值。
+description: 灰階預設輸入色彩設定檔。 指定用於未內嵌色彩設定檔的灰階來源影像，以及用各種「影像伺服」命令（例如color=）指定的某些灰階色彩值的ICC色彩設定檔名稱。
 solution: Experience Manager
 title: IccProfileSrcGray
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54290f71-36b2-4b37-ac04-4fe85c1f34ab
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-灰度默认输入颜色配置文件。 指定ICC颜色配置文件的名称，该名称用于未嵌入颜色配置文件的灰度源图像，以及使用各种“图像提供”命令（如color=）指定的某些灰度颜色值。
+灰階預設輸入色彩設定檔。 指定用於未內嵌色彩設定檔的灰階來源影像，以及用各種「影像伺服」命令（例如color=）指定的某些灰階色彩值的ICC色彩設定檔名稱。
 
-## 属性 {#section-8cbb316df6eb463aaca7b308d3568086}
+## 屬性 {#section-8cbb316df6eb463aaca7b308d3568086}
 
-文本字符串。 如果已指定，则必须是此图像目录或默认目录的ICC配置文件映射中的有效`icc::Name`值，或是相对于`attribute::RootPath`的文件路径。 引用的ICC配置文件必须是灰度配置文件。
+文字字串。 若指定，則必須為有效 `icc::Name` 值來自此影像目錄或預設目錄的ICC設定檔對映，或是相對於的檔案路徑 `attribute::RootPath`. 參照的ICC設定檔必須是灰階設定檔。
 
 ## 默认 {#section-bcc7250715884412bd0780f60d1cce7b}
 
-从`default::IccProfileSrcGray`继承（如果未定义或为空）。 如果`attribute::IccProfileSrcGray`未解析为有效的配置文件，则使用`attribute::IccProfileGray`。
+繼承自 `default::IccProfileSrcGray` 如果未定義或為空。 若 `attribute::IccProfileSrcGray` 無法解析為有效的設定檔， `attribute::IccProfileGray` 會改用。
 
 ## 另请参阅 {#section-e429b76daf2e4b92b326db2b0bcbd0c5}
 
-[icc::Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md#reference-9e7d3c8e35434981a3dfac66b8946cbe) ,  [属性：:IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [属性：:IccProfileGray](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35),  [属性：:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494)
+[icc：：Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md#reference-9e7d3c8e35434981a3dfac66b8946cbe) ， [attribute：：IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)， [attribute：：IccProfileGray](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35)， [attribute：：RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494)

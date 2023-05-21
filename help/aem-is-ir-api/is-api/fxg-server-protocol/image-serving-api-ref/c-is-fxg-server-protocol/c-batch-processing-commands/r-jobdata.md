@@ -1,19 +1,19 @@
 ---
-description: 批处理作业的作业数据。
+description: 批次工作的工作資料。
 solution: Experience Manager
-title: 作业数据
-feature: Dynamic Media Classic，SDK/API
+title: jobdata
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2fefc2ea-415e-4c47-bbd6-ba081f849d5f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
-# 作业数据{#jobdata}
+# jobdata{#jobdata}
 
-批处理作业的作业数据。
+批次工作的工作資料。
 
-在批量作业请求中使用，以在提交作业进行处理时完整描述作业。 值是URL编码的XML代码段。
+用於批次工作請求，在送出工作以進行處理時完整說明工作。 值是URL編碼的XML程式碼片段。

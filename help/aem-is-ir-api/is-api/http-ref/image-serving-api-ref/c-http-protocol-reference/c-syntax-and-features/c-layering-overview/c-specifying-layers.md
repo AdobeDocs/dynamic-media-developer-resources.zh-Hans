@@ -1,21 +1,21 @@
 ---
-description: 在URL或目录修饰符命令序列中，层定义序列以layer=命令开头，并以另一个layer=命令、effect=命令或URL结尾终止。
+description: 在URL或catalog Modifier命令序列中，圖層定義序列以layer=命令開頭，以另一個layer=命令、effect=命令或URL結尾結束。
 solution: Experience Manager
-title: 指定图层
-feature: Dynamic Media Classic，SDK/API
+title: 指定圖層
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# 指定图层{#specifying-layers}
+# 指定圖層{#specifying-layers}
 
-在URL或目录：:Modifier命令序列中，层定义序列以layer=命令开头，以另一个layer=命令、effect=命令或URL的结尾终止。
+在URL或catalog：：Modifier命令序列中，圖層定義序列以layer=命令開頭，以另一個layer=命令、effect=命令或URL結尾結束。
 
-层定义序列中的所有命令都与层相关联。
+圖層定義序列中的所有指令都與圖層相關聯。
 
-`layer=`命令指定一个层数，该层数必须是0或更大的整数。 具有相同层编号的层定义序列中的所有命令都应用于同一层。 如果同一命令多次发生，则最后一个实例将占上风。
+此 `layer=` command指定圖層編號，它必須是大於或等於0的整數。 具有相同圖層編號的圖層定義序列中的所有指令都會套用至相同的圖層。 如果同一命令發生多次，則最後一個例項將優先。

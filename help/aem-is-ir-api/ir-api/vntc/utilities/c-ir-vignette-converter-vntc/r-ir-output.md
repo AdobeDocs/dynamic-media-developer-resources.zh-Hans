@@ -1,144 +1,144 @@
 ---
-description: vntc会生成文本数据，该数据会发送到stderr或日志文件。
+description: vntc會產生文字資料，並傳送至stderr或記錄檔。
 solution: Experience Manager
-title: 输出
-feature: Dynamic Media Classic，SDK/API
+title: 輸出
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
-# 输出{#output}
+# 輸出{#output}
 
-vntc会生成文本数据，该数据会发送到stderr或日志文件。
+vntc會產生文字資料，並傳送至stderr或記錄檔。
 
-每个文本记录的数据格式为一个`name=value`属性。 字符串值不加引号。 即使指定了`-log`，警告消息和错误消息也始终会发送到`stderr`。
+資料會格式化為一個 `name=value` 每個文字記錄的屬性。 字串值未加上引號。 警告和錯誤訊息一律會傳送至 `stderr`，即使 `-log` 已指定。
 
-某些属性可能在同一输出中发生多次。 以0开始的序列号将附加到这些属性的名称中，并以句点分隔。 此类属性在下面的属性名称后面带有`. *`n`*`后缀。
+某些屬性可能會在同一輸出中出現多次。 以0開始的序號會附加至這些屬性的名稱，並以句點分隔。 此類屬性以下文以「 」表示 `. *`n`*` 屬性名稱后的尾碼。
 
-将生成以下属性：
+會產生下列屬性：
 
 <table id="simpletable_32AAA1A2DDB04BC6B86885E6223BF609"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>、<span class="varname"> ival</span>、<span class="varname"> ival</span></span> </p> </td> 
-  <td class="stentry"> <p>机柜样式的RGB背景颜色。 仅柜样式。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">bgc=<span class="varname"> ival</span>，<span class="varname"> ival</span>，<span class="varname"> ival</span></span> </p> </td> 
+  <td class="stentry"> <p>封包樣式的RGB背景色彩。 僅限封包樣式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>默认输出文件版本。 此外，此版本的<span class="filepath"> vntc</span>可以生成的最高文件版本号。 </p></td> 
+  <td class="stentry"> <p>預設的輸出檔案版本。 也是此版本的最高檔案版本編號 <span class="filepath"> vntc</span> 可以產生。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">错误.<span class="varname"> n</span>=<span class="varname"> 字符串</span></span> </p></td> 
-  <td class="stentry"> <p>错误消息. 出现错误消息通常表示未创建任何输出文件，或者这些文件不适合用于图像渲染。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">错误.<span class="varname"> n</span>=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>错误消息. 錯誤訊息的存在通常表示未建立輸出檔案，或這些檔案不適合用於影像演算。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">文件。<span class="varname"> n</span>=<span class="varname"> 字符串</span></span> </p></td> 
-  <td class="stentry"> <p>所有输出文件的完全限定的路径/名称，包括晕影、文件柜样式文件、全分辨率图像和缩略图图像。 每个生成的文件（日志文件除外）都有一个文件属性。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">文件。<span class="varname"> n</span>=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>所有輸出檔案（包括暈映、封包樣式檔案、完整解析度影像和縮圖影像）的完整路徑/名稱。 每個產生的檔案（記錄檔除外）都有一個檔案屬性。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">glass=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> 如果机柜包含玻璃门，则为ivalis 1 ，否则为0。仅柜样式。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">玻璃=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> 如果機櫃內有玻璃門，則為1，否則為0。 僅限封包樣式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">iccProfile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>嵌入在<span class="varname"> sourceFile</span>中的iccProfile的名称。 </p> <p>如果<span class="varname"> sourceFile</span>未进行颜色管理，则为空。 仅小插图。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">icc設定檔=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>內嵌於iccProfile的名稱 <span class="varname"> 來源檔案</span>. </p> <p>清空條件 <span class="varname"> 來源檔案</span> 不是色彩管理。 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">info.<span class="varname"> n</span>=<span class="varname"> 字符串</span></span> </p></td> 
-  <td class="stentry"> <p>信息性消息，如进度信息。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">info.<span class="varname"> n</span>=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>參考訊息，例如進度資訊。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceIsMaster=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> 如果sourceFile是 <span class="varname"> </span> 主控晕影，则为1；如果之前已使用vnUpdateor vntc处理 <span class="filepath"> </span> 它，则为 <span class="filepath"> 0</span>。仅小插图。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> 為1，如果 <span class="varname"> 來源檔案</span> 是主暈映，如果先前已經處理過，則為0 <span class="filepath"> vnUpdate</span> 或 <span class="filepath"> vntc</span>. 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">主控=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> 如果sourceFile是包 <span class="varname"> </span> 含JPEG图像数据的文件柜样式（在这种情况下，也会输出警告），则为0，否则为1。文件柜和窗口仅覆盖样式文件。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> 為0，如果 <span class="varname"> 來源檔案</span> 是包含JPEG影像資料的封包樣式（在此情況下也會輸出警告），否則為1。 僅封包和視窗涵蓋樣式檔案。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>应用于运行的<span class="filepath"> vntc</span>进程的最大内存限制。 <span class="varname"> </span> 字符串 <span class="varname"> ival</span>、 <span class="varname"> ivalK</span>、 <span class="varname"> ivalM</span>、 <span class="varname"> ivalG</span>或 <span class="codeph"> 0</span> （禁用）。其中，<span class="varname"> K</span>、<span class="varname"> M</span>和<span class="varname"> G</span>表示千字节（1024字节）、兆字节(1048576字节)和千兆字节(1073741824字节)。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>套用至執行中的最大記憶體限制 <span class="filepath"> vntc</span> 程式。 <span class="varname"> 字串</span> 為 <span class="varname"> ival</span>， <span class="varname"> ivalK</span>， <span class="varname"> ivalM</span>， <span class="varname"> ivalG</span>，或 <span class="codeph"> 0</span> （已停用）。 位置 <span class="varname"> K</span>， <span class="varname"> M</span>、和 <span class="varname"> G</span> 請參閱千位元組（1024位元組）、百萬位元組(1048576位元組)和十億位元組(1073741824位元組)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>输出晕影中分辨率最低的金字塔级的比例。 仅当指定了<span class="codeph"> -pyramid</span>时才存在。 </p></td> 
+  <td class="stentry"> <p>輸出暈映中最低解析度金字塔階層的比例。 僅存在於 <span class="codeph">  — 金字塔</span> 已指定。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>保存在<span class="varname"> sourceFile</span>中的材料数。 仅小插图。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">材料編號=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p>儲存在中的材料數量 <span class="varname"> 來源檔案</span>. 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numPanels=<span class="codeph"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>此文件柜样式文件中的面板图像数量。 仅柜样式。 </p></td> 
+  <td class="stentry"> <p>此封包樣式檔案中的面板影像數目。 僅限封包樣式。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">numViews=<span class="codeph"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>输出晕影中的金字塔级数。 仅当指定了 — pyramid时才存在。 仅小插图。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">數字檢視=<span class="codeph"> ival</span></span> </p></td> 
+  <td class="stentry"> <p>輸出暈映中的金字塔層級數目。 只有在指定 — pyramid時才會出現。 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">金字塔=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>如果源或目标晕影具有金字塔结构，则为0。 仅小插图。 </p></td> 
+  <td class="stentry"> <p>如果來源或目的地暈映具有金字塔結構，則為0。 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution=<span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>对于文件柜样式，<span class="varname"> sourceFile</span>的对象分辨率。 对于晕影，在渲染输出晕影时，建议使用这种材料分辨率来获得最佳质量渲染结果。 像素/英寸(ppi)。 </p></td> 
+  <td class="stentry"> <p>若為封包樣式，則為的物件解析度<span class="varname"> 來源檔案</span>. 對於暈映，這是在轉譯輸出暈映時，為獲得最佳品質轉譯結果的建議材質解析度。 畫素/英吋(ppi)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.min=<span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>输出晕影中最小的对象分辨率。 仅小插图。 </p></td> 
+  <td class="stentry"> <p>輸出暈映中最小的物件解析度。 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.avg=<span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>输出晕影中的平均对象分辨率。 仅小插图。 </p></td> 
+  <td class="stentry"> <p>輸出暈映中的平均物件解析度。 僅限暈映。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">sourceFile=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>完全限定的<span class="varname"> sourceFile</span>路径。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">sourceFile=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>完全合格 <span class="varname"> 來源檔案</span> 路徑。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> sourceFile</span>的文件版本。 </p></td> 
+  <td class="stentry"> <p>的檔案版本 <span class="varname"> 來源檔案</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">sourceSize=<span class="varname"> ival</span>,<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>输入晕影的像素大小、机柜样式文件中的默认面板图像，或窗口覆盖样式文件的第一个不透明度图像。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">sourceSize=<span class="varname"> ival</span>，<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p>輸入暈映的畫素大小、封包樣式檔案中的預設面板影像，或視窗涵蓋樣式檔案的第一個不透明度影像。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">style=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>窗口覆盖类型（仅限窗口覆盖样式）： </p> <p> 
+  <td class="stentry"> <p><span class="codeph">style=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>視窗涵蓋範圍型別（僅限視窗涵蓋範圍樣式）： </p> <p> 
     <ul id="ul_51AECE556B8B40109FFAD2B315D0695C"> 
-     <li id="li_3D3B9211C7AF4810883AE815BEBD4228">0=水平阴影或百叶窗 </li> 
-     <li id="li_DE88052467D64ECDAEB29264FC3904E4">1=垂直百叶窗 </li> 
-     <li id="li_6F976CABF7244B20A471391A685ED05F"> 2=全宽短窗帘 </li> 
-     <li id="li_E8D2B0B9189F4BDBB70E145E9196C1CD">3=左/右短窗帘 </li> 
-     <li id="li_026F043A50D34C8AB850D9832F375DB7"> 4=全宽全长窗帘 </li> 
-     <li id="li_283A2E5BFF75461B8F697FFF0796361F"> 5=左/右全长窗帘 </li> 
-     <li id="li_E175BA9EAE1F46B89109F4892FF54656"> 6=咖啡厅帘子 </li> 
+     <li id="li_3D3B9211C7AF4810883AE815BEBD4228">0=水準陰影或百葉窗 </li> 
+     <li id="li_DE88052467D64ECDAEB29264FC3904E4">1=垂直百葉窗 </li> 
+     <li id="li_6F976CABF7244B20A471391A685ED05F"> 2=全形短窗簾 </li> 
+     <li id="li_E8D2B0B9189F4BDBB70E145E9196C1CD">3=左/右短窗簾 </li> 
+     <li id="li_026F043A50D34C8AB850D9832F375DB7"> 4=全形全長窗簾 </li> 
+     <li id="li_283A2E5BFF75461B8F697FFF0796361F"> 5=左/右全長窗簾 </li> 
+     <li id="li_E175BA9EAE1F46B89109F4892FF54656"> 6=咖啡館窗簾 </li> 
      <li id="li_79D2F7F68C4746F3B6742EFECD01BDD9"> 7=valance </li> 
     </ul> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> </span> vntif  <span class="varname"> </span> sourceFile是晕影， vncif  <span class="codeph"> </span> sourceFile是文 <span class="varname"> </span> 件柜 <span class="codeph"> </span> 样式，或vnwif sourceFile是 <span class="varname"> </span> 覆盖样式的窗口。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> vnt</span> 如果 <span class="varname"> 來源檔案</span> 是暈映， <span class="codeph"> vnc</span> 如果 <span class="varname"> 來源檔案</span> 是封包樣式，或 <span class="codeph"> vnw</span> 如果 <span class="varname"> 來源檔案</span> 是視窗遮蓋樣式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>使用<span class="codeph"> -version</span>指定的值，或者如果未指定<span class="codeph"> -version</span>，则使用<span class="codeph"> defaultFileVersion</span>的值。 </p></td> 
+  <td class="stentry"> <p>指定的值 <span class="codeph"> -version</span>，或的值<span class="codeph"> 預設檔案版本</span> 如果<span class="codeph"> -version</span> 未指定。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">targetSizes=<span class="varname"> ival</span>、<span class="varname"> ival</span>*[,<span class="varname"> ival</span>、<span class="varname"> ival</span>]</span> </p></td> 
-  <td class="stentry"> <p>输出晕影（金字塔晕影的全分辨率视图）、文件柜样式文件中默认面板图像或覆盖样式文件的窗口第一个不透明图像的所有视图的像素大小列表（以逗号分隔）。 </p> </td> 
+  <td class="stentry"> <p><span class="codeph">targetSizes=<span class="varname"> ival</span>，<span class="varname"> ival</span>*[，<span class="varname"> ival</span>，<span class="varname"> ival</span>]</span> </p></td> 
+  <td class="stentry"> <p>以逗號分隔的輸出暈映（金字塔暈映的全解析度檢視）中所有檢視的畫素大小清單、封包樣式檔案中預設面板影像的畫素大小清單，或視窗涵蓋樣式檔案的第一個不透明度影像的畫素大小清單。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">texturable=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> 如果机柜样式可变，则为1；否则为0。晕影和窗口覆盖样式文件不存在。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">可紋理=<span class="varname"> ival</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> ival</span> 如果封包樣式是可紋理的，則為1，否則為0。 對於暈映和視窗覆蓋樣式檔案不存在。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">警告.<span class="varname"> n</span>=<span class="varname"> 字符串</span></span> </p></td> 
-  <td class="stentry"> <p>警告消息（例如，当指定了<span class="codeph"> -imagemap</span>但晕影中未找到映射数据时）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph">警告.<span class="varname"> n</span>=<span class="varname"> 字串</span></span> </p></td> 
+  <td class="stentry"> <p>警告訊息(例如 <span class="codeph"> -imagemap</span> 已指定，但在暈映中找不到對應資料)。 </p></td> 
  </tr> 
 </table>

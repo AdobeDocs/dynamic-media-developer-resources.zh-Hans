@@ -1,20 +1,20 @@
 ---
-description: getActivePublishContextsReturn/publishContext使用。
+description: 由getActivePublishContextsReturn/publishContext使用。
 solution: Experience Manager
-title: 发布上下文
-feature: Dynamic Media Classic，SDK/API
+title: 發佈內容
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 31%
+source-wordcount: '14'
+ht-degree: 14%
 
 ---
 
-# 发布上下文{#publish-context}
+# 發佈內容{#publish-context}
 
-getActivePublishContextsReturn/publishContext使用。
+由getActivePublishContextsReturn/publishContext使用。
 
 语法
 

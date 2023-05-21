@@ -1,5 +1,5 @@
 ---
-description: ZIP文件中的条目。
+description: ZIP檔案中的一個專案。
 solution: Experience Manager
 title: ZipEntry
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL ZipEntry]{#zipentry}
 
-ZIP文件中的条目。
+ZIP檔案中的一個專案。
 
 语法
 
@@ -22,8 +22,8 @@ ZIP文件中的条目。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| name | `xsd:string` | 条目名称。 |
-| isDirectory | `xsd:boolean` | 确定条目是否为目录。 |
-| lastModified | `xsd:dateTime` | 上次修改的日期和时间。 |
-| compressedSize | `xsd:long` | 压缩大小。 |
-| uncompressedSize | `xsd:long` | 未压缩的大小。 |
+| 名称 | `xsd:string` | 專案名稱。 |
+| isDirectory | `xsd:boolean` | 判斷專案是否為目錄。 |
+| lastModified | `xsd:dateTime` | 上次修改的日期和時間。 |
+| compressedSize | `xsd:long` | 壓縮大小。 |
+| uncompressedsize | `xsd:long` | 未壓縮大小。 |

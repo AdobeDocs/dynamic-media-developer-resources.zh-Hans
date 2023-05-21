@@ -1,5 +1,5 @@
 ---
-description: 在批处理模式下更新元数据。
+description: 以批次模式更新中繼資料。
 solution: Experience Manager
 title: BatchMetadataUpdate
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL BatchMetadataUpdate]{#batchmetadataupdate}
 
-在批处理模式下更新元数据。
+以批次模式更新中繼資料。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 18%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandleArray | `types:HandleArray` | 资产句柄数组。 |
-| updateArray | `types:MetadataUpdateArray` | 元数据更新句柄数组。 |
+| assetHandleArray | `types:HandleArray` | 資產控點的陣列。 |
+| updatearray | `types:MetadataUpdateArray` | 中繼資料更新控點的陣列。 |

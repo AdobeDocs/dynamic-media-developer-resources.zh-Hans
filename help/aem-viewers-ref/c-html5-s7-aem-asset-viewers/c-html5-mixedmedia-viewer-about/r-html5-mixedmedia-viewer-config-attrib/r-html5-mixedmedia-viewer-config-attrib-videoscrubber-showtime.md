@@ -8,7 +8,7 @@ exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '19'
-ht-degree: 26%
+ht-degree: 21%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 26%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 调整旋钮位置时，启用或禁用播放时间气泡。 </p> </td> 
+   <td colname="col2"> <p> 在調整旋鈕位置時啟用或停用時間播放泡泡。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

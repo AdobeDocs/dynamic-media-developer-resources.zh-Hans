@@ -1,50 +1,51 @@
 ---
-title: 主查看器区域
-description: 主视图区域被智能裁剪视频占据。 通常在未指定大小时设置为适合可用设备屏幕。
+title: 主要檢視器區域
+description: 主要檢視區域由智慧型裁切視訊佔用。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: c8ea6698-e425-491f-8413-2260ddf40c33
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%
 
 ---
 
-# 主查看器区域{#main-viewer-area}
+# 主要檢視器區域{#main-viewer-area}
 
-主视区域被视频占据。 通常在未指定大小时设置为适合可用设备屏幕。
+主檢視區域由視訊佔用。 若未指定大小，通常會設定為符合可用的裝置熒幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-以下CSS类选择器控制查看区域的外观：
+下列CSS類別選取器可控制檢視區域的外觀：
 
 ```
 .s7smartcropvideoviewer 
 ```
 
-## 主查看器区域的CSS属性 {#css-properties-of-the-main-viewer-area}
+## 主要檢視器區域的CSS屬性 {#css-properties-of-the-main-viewer-area}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>查看器宽度。 </p> </td> 
+   <td colname="col2"> <p>檢視器寬度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>查看器高度。 </p> </td> 
+   <td colname="col2"> <p>檢視器高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景颜色 </span> </p> </td> 
-   <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 以十六進位格式表示的背景顏色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要设置具有白色背景的智能裁剪视频查看器(#FFFFFF)，并使其大小为512 x 288像素，请执行以下操作：
+若要設定具有白色背景(#FFFFFF)的智慧型裁切視訊檢視器，並使其大小為512 x 288畫素：
 
 ```
 .s7smartcropvideoviewer { 

@@ -2,27 +2,27 @@
 description: Id
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '163'
+ht-degree: 4%
 
 ---
 
 # Id{#id}
 
-通常是一个简短的唯一标识符，例如SKU编号，可能带有某种后缀，例如SKU具有多个图像或具有特定于区域设置的变体。 可能还是一个更复杂的字符串，看起来更像文件路径，可支持使用图像服务轻松改造网站。
+通常是簡短且唯一的識別碼（例如SKU編號），可能帶有某種尾碼，例如SKU具有多個影像或地區設定特有的變數。 也可能是更複雜的字串，看起來更像檔案路徑，以支援透過影像伺服輕鬆更新網站。
 
 >[!NOTE]
 >
->加载图像目录后，图像和SVG表将合并到单个表中。 两个表中的ID值必须唯一。 如果图像表包含具有相同ID值的记录，则会丢弃SVG记录。 静态内容通过单独的表进行管理；因此，静态内容项和图像/SVG项可能具有相同的ID值。
+>載入影像目錄時，影像和SVG表格會合併到單一表格中。 兩個表格中的ID值必須是唯一的。 如果影像表格包含具有相同ID值的記錄，則會捨棄SVG記錄。 靜態內容是由個別的表格管理；因此，靜態內容專案和影像/SVG專案可能具有相同的ID值。
 
-## 属性 {#section-874a6853f67b4b229341ca76682884ae}
+## 屬性 {#section-874a6853f67b4b229341ca76682884ae}
 
-文本字符串。 必需. 记录图像/SVG或静态内容数据表的标识符。 此图像目录/SVG目录或此静态内容目录中的每个`catalog::Id`值必须唯一，且不得包含“，”字符。
+文字字串。 必需. 影像/SVG或靜態內容資料表的記錄識別碼。 每個 `catalog::Id` 此影像目錄/SVG目錄或此靜態內容目錄中的值必須是唯一的，且不得包含「，」字元。
 
 ## 默认 {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
@@ -30,4 +30,4 @@ ht-degree: 5%
 
 ## 另请参阅 {#section-a258d818487d4ee6b7a99a65d18471a9}
 
-[属性：:RootId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546)
+[attribute：：RootId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546)

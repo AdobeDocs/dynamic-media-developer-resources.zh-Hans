@@ -2,13 +2,13 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-feature: Dynamic Media Classic，查看器，SDK/API，eCatalog搜索
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> 控制下拉面板外观的方向。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件首先将基板位置移到其按钮的底部，并尝试从底部位置向右或向左滚出面板。 每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基面板位置移至顶部，并在左右方向重复转出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，组件使用类似的逻辑，但首先将基础向右移动，然后向下和向上滚动方向。 然后，它把底座向左移动，向下和向上展开方向。 </p> </td> 
+   <td> <p> <span class="codeph"> 適合 — 橫向|適合 — 垂直</span> </p> </td> 
+   <td> <p> 控制下拉式面板外觀的方向。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至其按鈕底部，並嘗試從基礎位置將面板向右或向左捲動。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂端，並在右側和左側重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似邏輯，但會先將基底向右移動，然後嘗試向下和向上轉出方向。 然後，它會將基底向左移動，嘗試向下和向上轉出方向。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> 设置下拉自动隐藏计时器的延迟（以秒为单位），当用户空闲时，该计时器会隐藏面板。 </p> </td> 
+   <td> <p> 設定下拉式自動隱藏計時器的延遲秒數，該計時器在使用者閒置時隱藏面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-55436ddd78b04f538dbb9a7a8463feae}
+## 屬性 {#section-55436ddd78b04f538dbb9a7a8463feae}
 
-可选。
+可选.
 
 ## 默认 {#section-049d3f94c9794510906c6f81d6cc5485}
 

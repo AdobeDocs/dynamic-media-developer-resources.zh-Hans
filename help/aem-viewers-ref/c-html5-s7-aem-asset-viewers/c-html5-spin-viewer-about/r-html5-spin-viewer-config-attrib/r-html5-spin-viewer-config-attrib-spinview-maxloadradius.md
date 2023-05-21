@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-` [SpinView.|<containerId>_spinView.]maxloadradius= *`值`*[, *`highRes`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius= *`值`*[, *`高解析度`*]`
 
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 值</span></span> </p> </td> 
-   <td colname="col2"> <p> 表示在SpinView空闲时，要在每个方向上预载的帧数上限。 值 <span class="codeph"> -1</span> 预加载集中的所有帧。 预加载的帧始终以最初加载SpinView的原始分辨率显示。 </p> </td> 
+   <td colname="col2"> <p> 表示當「迴轉檢視」閒置時，在每個方向要預先載入影格數的上限。 值 <span class="codeph"> -1</span> 預先載入集中的所有影格。 預先載入的影格一律會以「迴轉檢視」最初載入的原始解析度顯示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> 控制预加载帧的质量。 当设置为 <span class="codeph"> 1</span> 帧以高质量加载，与组件的大小匹配。 当设置为 <span class="codeph"> 0</span> 仅加载低分辨率预览拼贴。 </p> <p>以高分辨率预加载可改善最终用户体验，尤其是在启用了自动旋转的情况下。 同时，这会导致启动时间变慢和网络消耗增加，因此请谨慎使用。 使用高分辨率预加载时，预加载的帧始终以组件最初加载时的原始分辨率进行加载。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 高解析度</span></span> </p> </td> 
+   <td colname="col2"> <p> 控制預先載入影格的品質。 當設定為 <span class="codeph"> 1</span> 影格會以高品質載入，符合元件的大小。 當設定為 <span class="codeph"> 0</span> 僅載入低解析度預覽拼貼。 </p> <p>以高解析度預先載入可改善一般使用者體驗，尤其是啟用自動迴轉時。 同時，它會導致啟動時間變慢和網路耗電量增加，因此請謹慎使用。 使用高解析度預先載入時，預先載入的影格一律為元件最初載入的原始解析度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-924163cb2f6542499f49894becef7fb5}
+## 屬性 {#section-924163cb2f6542499f49894becef7fb5}
 
-可选。
+可选.
 
 ## 默认 {#section-7a2128fd488941948aff18421f533ccf}
 

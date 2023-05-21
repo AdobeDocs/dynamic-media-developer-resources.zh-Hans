@@ -1,7 +1,7 @@
 ---
-description: 字体字段数组已更新。
+description: 字型欄位更新的陣列。
 solution: Experience Manager
-title: FontFieldUpdateArray
+title: 字型欄位更新陣列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
-字体字段数组已更新。
+字型欄位更新的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:FontFieldUpdate` | 字体字段更新数组中的项目。 |
+| 项目 | `types:FontFieldUpdate` | 字型欄位中的專案更新陣列。 |

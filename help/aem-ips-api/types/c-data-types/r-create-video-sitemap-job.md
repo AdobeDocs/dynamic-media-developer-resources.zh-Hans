@@ -1,5 +1,5 @@
 ---
-description: 创建视频站点地图。
+description: 建立視訊網站地圖。
 solution: Experience Manager
 title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
-创建视频站点地图。
+建立視訊網站地圖。
 
 语法
 
@@ -32,7 +32,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">将设置为时，生成网站映射 <span class="codeph"> true</span>. <p><p>注意：如果将“站点地图生成配置”设置为“手动”和 <span class="codeph"> forceUpdate</span> 未设置，则不会生成网站映射。 </p></p></td> 
+   <td colname="col3">設定為時產生網站地圖 <span class="codeph"> true</span>. <p><p>注意：如果Sitemap產生組態設定為手動，而且 <span class="codeph"> forceUpdate</span> 未設定，則不會產生網站地圖。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

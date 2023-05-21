@@ -1,5 +1,5 @@
 ---
-description: 获取数组中的所有用户。
+description: 取得陣列中的所有使用者。
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 24%
 
 # getAllUsers{#getallusers}
 
-获取数组中的所有用户。
+取得陣列中的所有使用者。
 
 语法
 
-## 授权用户类型 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 授權的使用者型別 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +27,7 @@ ht-degree: 24%
 
 ## 参数 {#section-f092ca72f2024d66a1cec690aeab870a}
 
-**输入(getAllUsersParam)**
+**輸入(getAllUsersParam)**
 
 <table id="table_1FE6DDADBD134E6D8BD4B52F1EAD2E85"> 
  <thead> 
@@ -43,25 +43,25 @@ ht-degree: 24%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">设置为： 
+   <td colname="col4">設定為： 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 包含无效用户。 </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 以忽略无效用户。 </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 以包含無效的使用者。 </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 以忽略無效的使用者。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output(getAllUsersReturn)**
+**輸出(getAllUsersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userArray | `types:UserArray` | 是 | 所有用户的数组。 |
-| 代码短语 | `Code Phrase` |  |  |
+| userArray | `types:UserArray` | 是 | 所有使用者的陣列。 |
+| 程式碼片語 | `Code Phrase` |  |  |
 
 ## 示例 {#section-9c9a2d335513478da20652c1b1443731}
 
-此代码示例将返回所有用户。 响应因简短而被截断。
+此程式碼範例會傳回所有使用者。 為簡短起見，回應會遭截斷。
 
 **请求**
 

@@ -1,6 +1,6 @@
 ---
 title: AssetMetadataFieldsArray
-description: AssetMetadataFields数组。 getAssetMetadataFields用于在单个调用中返回所有资产元数据字段，其结果按资产类型分组。
+description: AssetMetadataFields陣列。 getAssetMetadataFields用來傳回單一呼叫中的所有資產中繼資料欄位，其結果會依資產型別分組。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
-AssetMetadataFields数组。 getAssetMetadataFields用于在单个调用中返回所有资产元数据字段，其结果按资产类型分组。
+AssetMetadataFields陣列。 getAssetMetadataFields用來傳回單一呼叫中的所有資產中繼資料欄位，其結果會依資產型別分組。
 
 语法
 
@@ -22,4 +22,4 @@ AssetMetadataFields数组。 getAssetMetadataFields用于在单个调用中返�
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:AssetMetadataFields` | 安 `AssetMetadataFields` 数组项。 |
+| 项目 | `types:AssetMetadataFields` | 一個 `AssetMetadataFields` 陣列專案。 |

@@ -1,5 +1,5 @@
 ---
-description: 获取公司作业日志的详细信息。
+description: 取得公司工作記錄檔的詳細資料。
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getJobLogDetails{#getjoblogdetails}
 
-获取公司作业日志的详细信息。
+取得公司工作記錄檔的詳細資料。
 
-的 `logMessage` 响应字段根据 `authHeader` `locale` 字段。
+此 `logMessage` 回應欄位已根據 `authHeader` `locale` 欄位。
 
-## 授权用户类型 {#section-6f720a7baad64eb3805868c88af9a960}
+## 授權的使用者型別 {#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +31,7 @@ ht-degree: 18%
 
 ## 参数 {#section-47d411a755224c23a4521f10341d66ab}
 
-**输入(getJobLogDetailsParam)**
+**輸入(getJobLogDetailsParam)**
 
 <table id="table_A77122D73F684B3F8F5AFA1C11C189ED"> 
  <thead> 
@@ -47,62 +47,62 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 作业日志所属公司的句柄。 </td> 
+   <td colname="col4"> 工作記錄檔所屬公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 活动或已完成作业的句柄。 </td> 
+   <td colname="col4"> 作用中或已完成工作的控制代碼。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 原始名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 作业日志的原始名称。 </td> 
+   <td colname="col4"> 工作記錄檔的原始名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 一个或多个日志类型常量。 如果存在，则仅返回指定的日志类型。 默认情况下，将返回所有日志类型。 </td> 
+   <td colname="col4"> 一或多個「記錄型別」常數。 如果存在，則只會傳回指定的記錄型別。 依預設，會傳回所有記錄型別。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">最大数 <span class="codeph"> detailArray</span> 要返回的项目。 最大值和默认值为1000。 </td> 
+   <td colname="col4">最大數量 <span class="codeph"> detailArray</span> 要傳回的專案。 最大值和預設值為1000。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">页码 <span class="codeph"> recordsPerPage</span>返回 — 结果。 預設值為 1。 </td> 
+   <td colname="col4">頁碼 <span class="codeph"> recordsPerPage</span>-results以傳回。 預設值為 1。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortby</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>作业详细信息排序字段常数值之一（日期或日志类型）。 默认值为Date。 </p> </td> 
+   <td colname="col4"> <p>工作詳細資料排序欄位常數值之一（日期或LogType）。 預設值為Date。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>排序方向字符串常量之一。 默认值为升序。 </p> </td> 
+   <td colname="col4"> <p>排序方向字串常數之一。 預設值為升序。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出(getJobLogDetailsReturn)**
+**輸出(getJobLogDetailsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| jobLogArray | `types:JobLogArray` | 是 | 作业日志数组。 |
+| jobLogArray | `types:JobLogArray` | 是 | 工作記錄陣列。 |
 
 ## 示例 {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-此代码示例可返回特定公司的所有作业日志详细信息。 第一个阵列包含标准作业日志详细信息。 嵌入式数组返回有关该作业的其他信息。
+此程式碼範例會傳回特定公司的所有工作記錄檔詳細資料。 第一個陣列包含標準作業記錄檔詳細資訊。 內嵌陣列會傳回有關作業的其他資訊。
 
 **请求**
 

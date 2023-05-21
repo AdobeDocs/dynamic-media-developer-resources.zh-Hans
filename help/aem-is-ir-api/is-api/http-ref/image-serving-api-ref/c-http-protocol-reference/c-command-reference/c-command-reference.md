@@ -1,6 +1,6 @@
 ---
-title: 命令引用
-description: 本节介绍HTTP协议命令。
+title: 命令參考
+description: 本節說明HTTP通訊協定命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,56 +12,56 @@ ht-degree: 6%
 
 ---
 
-# 命令引用{#command-reference}
+# 命令參考{#command-reference}
 
-本节介绍HTTP协议命令。
+本節說明HTTP通訊協定命令。
 
 >[!TIP]
 >
->尝试使用Dynamic Media了解Dynamic Media图像修饰符和智能成像的优势 [_快照_](https://snapshot.scene7.com/).
+>嘗試使用Dynamic Media來探索Dynamic Media影像修飾元和智慧型影像處理的優點 [_快照_](https://snapshot.scene7.com/).
 >
-> Snapshot是一款可视演示工具，旨在说明Dynamic Media在优化和动态图像交付方面的强大功能。 试用测试图像或Dynamic Media URL，以直观地观察各种Dynamic Media图像修饰符的输出，并针对以下内容进行智能成像优化：
->* 文件大小（通过WebP和AVIF交付）
->* 网络带宽
->* DPR（设备像素比）
+> Snapshot是視覺化展示工具，旨在說明Dynamic Media在最佳化及動態影像傳送方面的強大功能。 實驗測試影像或Dynamic Media URL，以視覺化方式觀察各種Dynamic Media影像修飾元的輸出，以及針對下列專案的智慧型影像最佳化：
+>* 檔案大小（含WebP和AVIF傳送）
+>* 網路頻寬
+>* DPR （裝置畫素比率）
 >
->要了解使用Snapshot有多容易，请播放 [快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+>若要瞭解使用快照的簡單程度，請播放 [快照訓練影片](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**仅适用于Adobe Experience Manager中的Dynamic Media**  — 除了用户界面中提供的基本图像设置之外， [!DNL Dynamic Media] 在AEM( [!DNL Adobe Experience Manager])支持许多高级图像修改，您可以在 **图像修饰符** 字段。 这些参数在下面进行定义。 但是，请注意，AEM的Dynamic Media中不支持以下功能。
+**僅適用於Adobe Experience Manager中的Dynamic Media**  — 除了使用者介面中可用的基本影像設定外， [!DNL Dynamic Media] 在AEM ( [!DNL Adobe Experience Manager])支援許多進階影像修改，您可在 **影像修飾元** 欄位。 這些引數定義如下。 但請注意，AEM的Dynamic Media不支援下列功能。
 
-* 颜色校正命令： `icc=` 和 `iccEmbed=`.
-* 基本模板和文本渲染命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`.
+* 色彩校正指令： `icc=` 和 `iccEmbed=`.
+* 基本範本和文字演算指令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`.
 * 本地化命令： `locale=` 和 `req=xlate`.
-* `req=set` 不可用于常规用法。
+* `req=set` 無法用於一般用途。
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 非核心Dynamic Media服务：SVG、图像渲染和Web-to-Print。
+* 非核心Dynamic Media服務：SVG、影像演算和Web對列印。
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另请参阅Dynamic Media [图像预设选项](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) (位于AEM 6.5文档中)。
+另請參閱Dynamic Media [影像預設集選項](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) 在AEM 6.5檔案中。
 
-* [对齐](r-align.md)
+* [對齊](r-align.md)
 * [锚记](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
 * [blendMode](r-blendmode.md)
-* [缓存](r-is-http-cache.md)
-* [clipPath](r-clippath.md)
+* [快取](r-is-http-cache.md)
+* [剪裁路徑](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [颜色](r-color-commandref.md)
-* [农作物](r-crop.md)
+* [裁切](r-crop.md)
 * [cropPathE](r-croppath.md)
-* [defaultImage](r-is-http-defaultimage.md)
+* [預設影像](r-is-http-defaultimage.md)
 * [效果](r-effect.md)
 * [effectMask](r-effectmask.md)
-* [扩展](r-extend.md)
-* [拟合](r-fit.md)
-* [翻转](r-flip.md)
+* [延伸](r-extend.md)
+* [符合](r-fit.md)
+* [翻轉](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [隐藏](r-hide.md)
@@ -70,11 +70,11 @@ ht-degree: 6%
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [层](r-layer.md)
+* [圖層](r-layer.md)
 * [区域设置](r-locale.md)
 * [地图](r-map.md)
-* [蒙版](r-mask.md)
-* [maskUse](r-maskuse.md)
+* [遮色片](r-mask.md)
+* [遮色片使用](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
@@ -91,17 +91,17 @@ ht-degree: 6%
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [来源](r-origin.md)
+* [來源](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
-* [透视](r-perspective.md)
+* [透視](r-perspective.md)
 * [pos](r-pos.md)
 * [printRes](r-printres.md)
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)
-* [数量](r-is-http-quantize.md)
-* [rect](r-rect.md)
-* [请求](r-req/r-req.md)
+* [量化](r-is-http-quantize.md)
+* [矩形](r-rect.md)
+* [需要](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
@@ -114,9 +114,9 @@ ht-degree: 6%
 * [文字](r-text.md)
 * [textAngle](r-textangle.md)
 * [textAttr](r-textattr.md)
-* [textFlowPath](r-textflowpath.md)
+* [文字流程路徑](r-textflowpath.md)
 * [textFlowXPath](r-textflowxpath.md)
-* [textPath](r-textpath.md)
+* [文字路徑](r-textpath.md)
 * [textPs](r-textps.md)
 * [类型](r-type.md)
 * [wid](r-is-http-wid.md)

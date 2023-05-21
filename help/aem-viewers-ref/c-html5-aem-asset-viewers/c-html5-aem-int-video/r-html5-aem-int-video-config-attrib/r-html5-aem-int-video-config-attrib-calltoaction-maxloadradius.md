@@ -1,6 +1,6 @@
 ---
 title: CallToAction.maxloadradius
-description: 交互式视频查看器的配置属性。
+description: 互動式視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: db04133e-bb23-4d94-b91d-fcf34576c03f
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
 # CallToAction.maxloadradius{#calltoaction-maxloadradius}
 
-交互式视频查看器的配置属性。
+互動式視訊檢視器的設定屬性。
 
 ` [CallToAction.|<containerId>_callToAction.]maxloadradius=-1|0| *`preloadnbr`*`
 
@@ -22,14 +22,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预加载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，在初始化组件或更改资产时，会同时加载所有缩略图。 </p> <p>设置为<span class="codeph"> 0</span>时，只加载可见的缩略图。 </p> <p>设置为<span class="codeph"><span class="varname"> preloadnbr</span></span>以定义预加载可见区域周围有多少不可见的行/列。 </p> </td> 
+   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有縮圖會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span> 僅載入可見的縮圖。 </p> <p>設定為 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入多少不可見的列/欄。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

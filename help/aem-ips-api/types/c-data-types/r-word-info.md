@@ -1,20 +1,20 @@
 ---
-description: Word文件的属性。
+description: Word檔案的屬性。
 solution: Experience Manager
-title: WordInfo
+title: 文字資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 36%
+ht-degree: 28%
 
 ---
 
 # [!DNL WordInfo]{#wordinfo}
 
-Word文件的属性。
+Word檔案的屬性。
 
 语法
 
@@ -22,6 +22,6 @@ Word文件的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| originalPath | `xsd:string` | 文件路径。 |
-| originalFile | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 文件大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 檔案大小。 |

@@ -1,7 +1,7 @@
 ---
-description: PropertySetType和createPropertySetTypeParam字段的有效值。
+description: PropertySetType和createPropertySetTypeParam欄位的有效值。
 solution: Experience Manager
-title: PropertySetType
+title: 屬性集型別
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL PropertySetType]{#propertysettype}
 
-PropertySetType和createPropertySetTypeParam字段的有效值。
+PropertySetType和createPropertySetTypeParam欄位的有效值。
 
 值包括：
 
@@ -36,27 +36,27 @@ PropertySetType和createPropertySetTypeParam字段的有效值。
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 键入句柄。 </td> 
+   <td colname="col3"> 輸入控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">公司负责人。 <p>注意：如果公司句柄不存在，则类型为全局。 </p></td> 
+   <td colname="col3">公司控點。 <p>注意：如果公司控制代碼不存在，則型別為全域。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 类型名称。 </td> 
+   <td colname="col3"> 輸入名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">属性集类型之一。 请参阅输入(<span class="codeph"> createPropertySetTypeParam</span>)。 </td> 
+   <td colname="col3">屬性集型別之一。 請參閱輸入(<span class="codeph"> createPropertySetTypeParam</span>)。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 是否允许将多个属性集实例附加到此类型的对象。 </td> 
+   <td colname="col3"> 是否允許將多個屬性集執行個體附加到此型別的物件。 </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,24 +1,24 @@
 ---
-description: 介绍IPS API版本3.7的新操作方法和已更改的操作方法。
+description: 說明IPS API 3.7版的新增和變更的作業方法。
 solution: Experience Manager
-title: 操作（新增和修改）
-feature: Dynamic Media Classic，SDK/API
+title: 新作業和修改作業
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
-# 操作：新建和已修改{#operations-new-and-modified}
+# 作業：新增與修改{#operations-new-and-modified}
 
-介绍IPS API版本3.7的新操作方法和已更改的操作方法。
+說明IPS API 3.7版的新增和變更的作業方法。
 
 语法
 
-## 新操作 {#section-c4d34a58f8194d548fbe26ab3764ea58}
+## 新作業 {#section-c4d34a58f8194d548fbe26ab3764ea58}
 
 * `moveAsset`
 * `renameAsset`
@@ -36,11 +36,11 @@ ht-degree: 5%
 * `executeJob`
 * `deleteJob`
 
-## 修改的操作 {#section-596ea55a371e4c2ab5531e21ea9d8090}
+## 已修改的作業 {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
 **searchAsset**
 
-* 删除了`name`参数。
+* 已移除 `name` 引數。
 * 增加了 `excludeFieldArray`.
 
 **getFolders**
@@ -49,5 +49,5 @@ ht-degree: 5%
 
 **getFolderTree**
 
-* 添加了`excludeFieldArray`和`getUniqueMetadataValues`。
-* 将`fieldHandle`设为必需参数。
+* 已新增 `excludeFieldArray` 和 `getUniqueMetadataValues`.
+* 已建立 `fieldHandle` 必要引數。

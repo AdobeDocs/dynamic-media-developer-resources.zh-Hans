@@ -8,7 +8,7 @@ exl-id: 906541bc-46dd-4a7c-8ee9-eb45ec3bd340
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 自动|左|右 </span> </p> </td> 
-   <td> <p> 指定色板在视图中的填充方式。 </p> <p> <span class="codeph"> left </span> 设置从左到右的填充顺序； </p> <p> <span class="codeph"> 右 </span> 反转顺序，以便视图从右到左和从上到下填充。 </p> <p>When <span class="codeph"> 自动 </span> 设置时，组件会应用 <span class="codeph"> 右 </span> 模式 <span class="codeph"> ja </span>;否则，使用left。 </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> 指定在檢視中填入色票的方式。 </p> <p> <span class="codeph"> left </span> 設定由左至右的填色順序； </p> <p> <span class="codeph"> 右側 </span> 顛倒順序，因此檢視會由右至左、由上至下填入。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定，則元件適用 <span class="codeph"> 右側 </span> locale設定為時的模式 <span class="codeph"> ja </span>；否則會使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
 
-可选。
+可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 

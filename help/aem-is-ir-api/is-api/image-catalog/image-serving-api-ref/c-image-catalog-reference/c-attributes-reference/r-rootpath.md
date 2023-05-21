@@ -1,31 +1,31 @@
 ---
-description: 源数据根路径。 此图像目录源数据的根文件夹的绝对或相对路径。
+description: 來源資料根路徑。 此影像目錄之來源資料的根資料夾的絕對或相對路徑。
 solution: Experience Manager
-title: RootPath
-feature: Dynamic Media Classic，SDK/API
+title: 根路徑
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
-# RootPath{#rootpath}
+# 根路徑{#rootpath}
 
-源数据根路径。 此图像目录源数据的根文件夹的绝对或相对路径。
+來源資料根路徑。 此影像目錄之來源資料的根資料夾的絕對或相對路徑。
 
-`RootPath`是一个文本字符串值。 有关服务器根路径的其他信息，请参阅[管理源数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)。
+此 `RootPath` 是文字字串值。 另請參閱 [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) 以取得伺服器根路徑的其他資訊。
 
-## 属性 {#section-b41d7e0ea63143eb8034569706cad0c0}
+## 屬性 {#section-b41d7e0ea63143eb8034569706cad0c0}
 
-文本字符串。 必须为空、有效的相对文件夹路径或图像服务器可访问的有效绝对路径。
+文字字串。 必須為空白、有效的相對資料夾路徑，或影像伺服器可存取的有效絕對路徑。
 
 ## 默认 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-从`default::RootPath`继承（如果未定义）。 如果定义为空，则不会对源文件根路径产生影响。
+繼承自 `default::RootPath` 若未定義。 如果已定義但為空，將不會對來源檔案根路徑產生作用。
 
 ## 另请参阅 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[目录：:Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [目录：:MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),   [ruleset::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e),  [Managing Source Data](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[catalog：：Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ， [catalog：：MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)，  [規則集：：PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)， [管理來源資料](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)

@@ -1,5 +1,5 @@
 ---
-description: ZIP存档资产的属性。
+description: ZIP封存資產的屬性。
 solution: Experience Manager
 title: ZipInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: a19f0047-3219-4929-a850-93bc5757f004
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 33%
+ht-degree: 25%
 
 ---
 
 # [!DNL ZipInfo]{#zipinfo}
 
-ZIP存档资产的属性。
+ZIP封存資產的屬性。
 
 语法
 
@@ -22,6 +22,6 @@ ZIP存档资产的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| originalPath | `xsd:string` | 文件路径。 |
-| originalFile | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 文件大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 檔案大小。 |

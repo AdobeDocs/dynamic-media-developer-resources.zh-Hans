@@ -1,5 +1,5 @@
 ---
-description: 创建一个预设视图，以确定用户可以查看的内容。 IPS中可提供任何类型的查看器。 资产发布后，将应用预设视图。
+description: 建立預設集檢視，決定使用者可以看到的內容。 檢視器可以是IPS中任何可用的型別。 資產發佈時會套用預設集檢視。
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # createViewerPreset{#createviewerpreset}
 
-创建一个预设视图，以确定用户可以查看的内容。 IPS中可提供任何类型的查看器。 资产发布后，将应用预设视图。
+建立預設集檢視，決定使用者可以看到的內容。 檢視器可以是IPS中任何可用的型別。 資產發佈時會套用預設集檢視。
 
 语法
 
-## 授权用户类型 {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## 授權的使用者型別 {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,25 +27,25 @@ ht-degree: 13%
 
 ## 参数 {#section-aa6dc37e327541ebbfed7685cd8071ff}
 
-**输入(createViewerPresetParam)**
+**輸入(createViewerPresetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含查看器预设和资产的公司句柄。 |
-| folderHandle | `xsd:string` | 是 | 包含资产的文件夹的句柄。 |
-| name | `xsd:string` | 是 | 查看器名称。 |
+| companyHandle | `xsd:string` | 是 | 包含檢視器預設集和資產的公司的控制代碼。 |
+| folderHandle | `xsd:string` | 是 | 包含資產的資料夾的控制代碼。 |
+| 名称 | `xsd:string` | 是 | 檢視器名稱。 |
 | 类型 | `xsd:string` | 是 | 查看器类型. |
-| configSettingArray | `types:ConfigSettingArray` | 否 | 一个数组，其中包含要应用预设的图像的名称、值和句柄。 |
+| configSettingArray | `types:ConfigSettingArray` | 否 | 一個陣列，內含您套用預設集的影像名稱、值和控點。 |
 
-**Output(createViewerPresetReturn)**
+**輸出(createViewerPresetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | 是 | 将预设处理到查看器。 |
+| viewerPresetHandle | `xsd:string` | 是 | 檢視器預設集的操作框。 |
 
 ## 示例 {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-此代码示例将创建一个视频播放器预设。 响应将返回预设的句柄。
+此程式碼範例會建立視訊播放器預設集。 回應會傳回預設集的控點。
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -1,5 +1,5 @@
 ---
-description: 标记条件数组。
+description: 標籤條件的陣列。
 solution: Experience Manager
 title: TagConditionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL TagConditionArray]{#tagconditionarray}
 
-标记条件数组。
+標籤條件的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:TagCondition` | 标记条件数组。 |
+| 项目 | `types:TagCondition` | 標籤條件的陣列。 |

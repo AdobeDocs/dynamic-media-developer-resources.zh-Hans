@@ -1,6 +1,6 @@
 ---
-title: 命令引用 — 配置属性
-description: 交互式视频查看器的配置属性文档。
+title: 命令參考 — 組態屬性
+description: 互動式視訊檢視器的設定屬性檔案。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# 命令引用 — 配置属性{#command-reference-configuration-attributes}
+# 命令參考 — 組態屬性{#command-reference-configuration-attributes}
 
-交互式视频查看器的配置属性文档。
+互動式視訊檢視器的設定屬性檔案。
 
-任何配置命令都可以在URL中设置，也可以使用`setParam()`或`setParams()`（或同时使用两者）API方法进行设置。 也可以在服务器端配置记录中指定任何配置属性。
+任何設定命令都可以在URL中設定或使用 `setParam()`，或 `setParams()`、或兩者。 任何設定屬性也可在伺服器端設定記錄中指定。
 
-某些配置命令可能带有相应查看器SDK组件的类名或实例名的前缀。 组件的实例名称是动态的，具体取决于传递到`setContainerId()` API方法的查看器容器DOM元素的ID。 文档包含此类命令的可选前缀。 例如， `playback`命令记录如下：
+某些設定命令可能會加上對應Viewer SDK元件的類別名稱或執行個體名稱當作前置詞。 元件的例項名稱是動態的，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` api方法。 檔案包含這類命令的選用首碼。 例如， `playback` 命令記錄如下：
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-并表示您可以使用以下命令：
+而且表示您可以使用下列指令作為：
 
-* `playback` （短语法）
-* `VideoPlayer.playback` （使用组件类名称限定）
-* `cont_videoPlayer.playback` (使用组件ID进行鉴别， `cont` 假定是容器元素的ID)
+* `playback` （簡短語法）
+* `VideoPlayer.playback` （以元件類別名稱限定）
+* `cont_videoPlayer.playback` (以元件ID限定，假設 `cont` 是容器元素的ID)
 
-另请参阅[所有查看器通用的命令引用 — 配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

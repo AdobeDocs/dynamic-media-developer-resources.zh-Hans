@@ -1,7 +1,7 @@
 ---
-description: 文件夹层次结构中的对象或容器。
+description: 資料夾階層中的物件或容器。
 solution: Experience Manager
-title: 资源
+title: 資產
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Asset]{#asset}
 
-文件夹层次结构中的对象或容器。
+資料夾階層中的物件或容器。
 
 语法
 
@@ -36,277 +36,277 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> 有关动画GIF文件的详细信息。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：AnimatedGifInfo</span> </td> 
+   <td colname="col3"> 有關動畫GIF檔案的詳細資訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 资产句柄。 </td> 
+   <td colname="col3"> 資產控點。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：CabinetInfo</span> </td> 
-   <td colname="col3"> 文件柜资产类型的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：封包資訊</span> </td> 
+   <td colname="col3"> 封包資產型別的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL created]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 上传资产的日期和时间。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 上傳資產的日期和時間。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL createUser]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 创建资产的用户的电子邮件地址。 </td> 
+   <td colname="col3"> 建立資產之使用者的電子郵件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cssInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：CssInfo</span> </td> 
-   <td colname="col3"> 有关CSS文件的详细信息。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：CssInfo</span> </td> 
+   <td colname="col3"> CSS檔案的詳細資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">返回虚拟文件名。 完整的虚拟文件路径为 <span class="codeph"> 文件夹</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">傳回虛擬檔案名稱。 完整的虛擬檔案路徑為 <span class="codeph"> 資料夾</span>+<span class="codeph"> 檔案名稱</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 包含资产的文件夹。 </td> 
+   <td colname="col3"> 包含資產的資料夾。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 处理资产的父文件夹。 </td> 
+   <td colname="col3"> 資產上層資料夾的處理常式。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
-   <td colname="col3"> 字体资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 文字：fontInfo</span> </td> 
+   <td colname="col3"> 字型資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL iccProfileInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:IccProfileInfo</span> </td> 
-   <td colname="col3"> ICC配置文件资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：IccProfileInfo</span> </td> 
+   <td colname="col3"> ICC設定檔資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ImageInfo</span> </td> 
-   <td colname="col3"> 图像资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：影像資訊</span> </td> 
+   <td colname="col3"> 影像資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 相对URL，表示资产的缩略图视图。 </td> 
+   <td colname="col3"> 代表資產縮圖檢視的相對URL。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：JavascriptInfo</span> </td> 
-   <td colname="col3"> 有关JavaScript文件的详细信息。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：JavascriptInfo</span> </td> 
+   <td colname="col3"> JavaScript檔案的詳細資訊。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModified]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 上次修改资产的日期和时间。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
+   <td colname="col3"> 上次修改資產的日期和時間。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModifyUser]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 上次修改资产的用户的电子邮件地址。 </td> 
+   <td colname="col3"> 上次修改資產之使用者的電子郵件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL layerViewInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:LayerViewInfo</span> </td> 
-   <td colname="col3"> 层视图资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：LayerViewInfo</span> </td> 
+   <td colname="col3"> 圖層檢視資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：MetadataArray</span> </td> 
-   <td colname="col3"> 与资产关联的元数据值数组。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：MetadataArray</span> </td> 
+   <td colname="col3"> 與資產相關聯的中繼資料值陣列。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL name]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 资产名称。 </td> 
+   <td colname="col3"> 資產名稱。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> PDF设置资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：PdfSettingsInfo</span> </td> 
+   <td colname="col3"> PDF設定資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL projects]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 项目名称列表。 </td> 
+   <td colname="col3"> 專案名稱清單。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 设置一个标志以指示是否应发布资产。 </td> 
+   <td colname="col3"> 設定旗標以指出是否應該發佈資產。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL renderSceneInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:RenderSceneInfo</span> </td> 
-   <td colname="col3"> 呈现场景资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：RenderSceneInfo</span> </td> 
+   <td colname="col3"> 演算場景資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL subType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">支持子类型值的通用资产子类型(例如， <span class="codeph"> 资产集</span>)。 </td> 
+   <td colname="col3">支援子型別值的一般資產子型別(例如， <span class="codeph"> 資產集</span>)。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：SvgInfo</span> </td> 
-   <td colname="col3"> SVG资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：SvgInfo</span> </td> 
+   <td colname="col3"> SVG資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：SwcInfo</span> </td> 
-   <td colname="col3"> SWC资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：SwcInfo</span> </td> 
+   <td colname="col3"> SWC資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TemplateInfo</span> </td> 
-   <td colname="col3"> 模板资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：TemplateInfo</span> </td> 
+   <td colname="col3"> 範本資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 指示资产是处于垃圾桶中还是处于实时状态（有关值，请参阅“垃圾桶状态”）。 </td> 
+   <td colname="col3"> 指出資產是在垃圾桶中還是即時狀態（請參閱「垃圾桶狀態」以瞭解值）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">资源类型. 请参阅 <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> 资产类型</a> 值。 </td> 
+   <td colname="col3">资源类型. 另請參閱 <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> 資產型別</a> 以取得值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoCaptionInfo</span> </td> 
-   <td colname="col3"> <p>视频标题资产的属性。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 型別：VideoCaptionInfo</span> </td> 
+   <td colname="col3"> <p>視訊註解資產的屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
-   <td colname="col3"> <p>视频资产的属性。 </p> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
+   <td colname="col3"> <p>視訊資產的屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> 查看器预设资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：檢視器預設集資訊</span> </td> 
+   <td colname="col3"> 檢視器預設集資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ViewerSwfInfo</span> </td> 
-   <td colname="col3"> 查看器SWf资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：檢視器SwfInfo</span> </td> 
+   <td colname="col3"> 檢視器軟體資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：VignetteInfo</span> </td> 
-   <td colname="col3"> 晕影资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：VignetteInfo</span> </td> 
+   <td colname="col3"> 暈映資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL watermarkInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：WatermarkInfo</span> </td> 
-   <td colname="col3"> 水印资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：WatermarkInfo</span> </td> 
+   <td colname="col3"> 浮水印資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:WindowCoveringInfo</span> </td> 
-   <td colname="col3"> 覆盖资产的窗口的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：視窗涵蓋範圍資訊</span> </td> 
+   <td colname="col3"> 涵蓋資產的視窗屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL xmlInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:XmlInfo</span> </td> 
-   <td colname="col3"> XML资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：XmlInfo</span> </td> 
+   <td colname="col3"> XML資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：XslInfo</span> </td> 
-   <td colname="col3"> XSL资产的属性。 </td> 
+   <td colname="col2"> <span class="codeph"> 型別：XslInfo</span> </td> 
+   <td colname="col3"> XSL資產的屬性。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

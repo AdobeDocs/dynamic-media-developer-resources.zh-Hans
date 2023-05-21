@@ -1,7 +1,7 @@
 ---
-description: 任务项进度信息。
+description: 任務專案進度資訊。
 solution: Experience Manager
-title: TaskItemProgress
+title: 任務專案進度
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 568a5601-b928-447d-8297-01139f36cf73
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL TaskItemProgress]{#taskitemprogress}
 
-任务项进度信息。
+任務專案進度資訊。
 
 语法
 
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| itemName | `xsd:string` | 正在处理的项目的名称。 |
-| progress | `xsd:double` | 进度完成%。 |
-| progressMessage | `xsd:string` | 处理消息。 |
-| lastProgressUpdate | `xsd:dateTime` | 上次更新的时间。 |
+| itemName | `xsd:string` | 正在處理的專案名稱。 |
+| progress | `xsd:double` | 進度完成%。 |
+| progressMessage | `xsd:string` | 處理訊息。 |
+| lastProgressUpdate | `xsd:dateTime` | 上次更新時間。 |

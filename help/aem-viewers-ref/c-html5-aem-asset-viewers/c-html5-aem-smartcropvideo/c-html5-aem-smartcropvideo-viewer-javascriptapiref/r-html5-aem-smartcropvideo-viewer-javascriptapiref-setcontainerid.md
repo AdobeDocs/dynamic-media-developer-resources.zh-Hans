@@ -1,10 +1,11 @@
 ---
 title: setContainerId
-description: 智能裁剪视频查看器的JavaScript API引用。
+description: 智慧型裁切視訊檢視器的JavaScript API參考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -13,11 +14,11 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-智能裁剪视频查看器的JavaScript API引用。
+智慧型裁切視訊檢視器的JavaScript API參考。
 
 ` setContainerId( *`containerId`*)`
 
-设置DOM容器的ID(通常为 `DIV`)，将查看器插入到其中。 无需在调用此方法之前创建容器元素。 但是，容器必须存在于 `init()` 运行。 此参数在 `init()`. 如果查看器配置信息是通过 `config` 构造函数的JSON对象。
+設定DOM容器的ID (通常是 `DIV`)，即可將檢視器插入其中。 不需要在呼叫此方法時建立容器元素。 不過，容器必須存在於 `init()` 執行前填入。 此引數是在以下時間之前呼叫： `init()`. 如果檢視器組態資訊是透過以下方式傳遞，則此方法為選用： `config` 建構函式的JSON物件。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
@@ -28,7 +29,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-## 返回结果 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

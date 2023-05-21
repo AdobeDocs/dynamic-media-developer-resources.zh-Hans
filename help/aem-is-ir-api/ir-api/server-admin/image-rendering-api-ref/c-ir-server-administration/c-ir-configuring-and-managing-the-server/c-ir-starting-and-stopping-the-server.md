@@ -1,7 +1,7 @@
 ---
-description: 图像渲染嵌入到图像服务的图像服务器和 [!DNL Platform Server] 组件。
+description: 影像演算內嵌於「影像伺服」的影像伺服器及 [!DNL Platform Server] 元件。
 solution: Experience Manager
-title: 启动和停止服务器
+title: 啟動和停止伺服器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 79ec6e27-4964-41bc-b8ae-fc50cc59e728
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 启动和停止服务器{#starting-and-stopping-the-server}
+# 啟動和停止伺服器{#starting-and-stopping-the-server}
 
-图像渲染嵌入到图像服务的图像服务器和 [!DNL Platform Server] 组件。
+影像演算內嵌於「影像伺服」的影像伺服器及 [!DNL Platform Server] 元件。
 
-有关更多信息，请参阅图像提供文档。
+如需詳細資訊，請參閱影像伺服檔案。

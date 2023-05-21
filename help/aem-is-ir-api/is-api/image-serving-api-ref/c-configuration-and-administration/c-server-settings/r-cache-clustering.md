@@ -1,33 +1,33 @@
 ---
-description: 使用这些服务器设置进行缓存聚类。
+description: 使用這些伺服器設定進行快取叢集。
 solution: Experience Manager
-title: 缓存聚类
-feature: Dynamic Media Classic，SDK/API
+title: 快取叢集
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# 缓存聚类{#cache-clustering}
+# 快取叢集{#cache-clustering}
 
-使用这些服务器设置进行缓存聚类。
+使用這些伺服器設定進行快取叢集。
 
-## PS::cacheCluster.hosts — 主机 {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
+## PS：：cacheCluster.hosts — 主機 {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-IP地址列表，以分号分隔。 包括此主机应从中获取缓存数据的所有对等服务器的IP地址。 为方便起见，可以包括本地主机的IP地址；这允许群集中所有服务器的配置设置相同。
+IP位址清單，以分號分隔。 包含此主機應從中取得快取資料的所有對等伺服器的IP位址。 為方便起見，可能會包含本機主機的IP位址；如此可讓叢集中所有伺服器的組態設定相同。
 
-## PS::cacheCluster.updateLocalCache — 更新本地缓存 {#section-154c2c0af4544200a3499232bb130dde}
+## PS：：cacheCluster.updateLocalCache — 更新本機快取 {#section-154c2c0af4544200a3499232bb130dde}
 
-如果应将对等服务器提供的缓存条目复制到本地响应缓存，则设置为“是”。
+若對等伺服器提供的快取專案應複製到本機回應快取，則設為「是」。
 
-## PS::cacheCluster.queryTimeout — 查询超时 {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## ps：：cacheCluster.queryTimeout — 查詢逾時 {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-当从对等服务器请求缓存条目时，服务器将等待直到一个服务器做出响应，表示它具有此特定数据项，或者直到所有对等服务器都做出响应，表示它们没有该数据项，或者直到通过此设置指定的时间（以毫秒为单位）过期。
+從對等伺服器請求快取專案時，伺服器會等到有一部伺服器回應它有此特定資料專案，或等到所有對等伺服器回應它們沒有資料專案，或直到使用此設定指定的時間（以毫秒為單位）過期。
 
-## PS::cacheCluster.fetchTimeout — 获取超时 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
+## PS：：cacheCluster.fetchTimeout — 擷取逾時 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-指定服务器将等待从对等服务器传送的实际缓存数据的最大毫秒数。 如果在超时期间之前未提交完整数据，则服务器会假定对等方不可用。 然后，在本地生成缓存条目。
+指定伺服器等待從對等伺服器傳送實際快取資料的最大毫秒數。 如果逾時到期前尚未傳送完整資料，則伺服器會假設對等節點已無法使用。 然後本機產生快取專案。

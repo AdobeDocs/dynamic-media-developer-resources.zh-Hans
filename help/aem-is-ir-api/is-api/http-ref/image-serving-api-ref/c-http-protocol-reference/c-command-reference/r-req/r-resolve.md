@@ -1,23 +1,23 @@
 ---
-description: 调试请求。 此调试命令会解析并预处理请求、执行图像目录查找、目录修饰符包含、宏和变量替换等，如req=img。
+description: 偵錯請求。 此偵錯命令會剖析及預先處理請求、執行影像目錄查閱、目錄修飾元包含、巨集和變數替代等，就像req=img一樣。
 solution: Experience Manager
 title: 解决
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef357c19-e725-4904-b635-102e75ff7518
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '74'
 ht-degree: 2%
 
 ---
 
 # 解决{#resolve}
 
-调试请求。 此调试命令会解析并预处理请求、执行图像目录查找、目录：：修饰符包含、宏和变量替换等，如req=img。
+偵錯請求。 此偵錯命令會剖析及預先處理請求、執行影像目錄查閱、catalog：：Modifier包含、巨集和變數替代等，就像req=img一樣。
 
 `req=resolve`
 
-返回最终的请求字符串，而不是结果图像，其MIME类型为`text/plain`。
+傳回的是MIME型別的最終請求字串，而不是結果影像 `text/plain`.
 
-无法缓存HTTP响应。
+無法快取HTTP回應。

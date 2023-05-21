@@ -8,34 +8,34 @@ exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`持续时间`*[, *`计数`*][, *`淡淡`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`持續時間`*[, *`count`*][, *`淡化`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定提示文本在隐藏之前显示的秒数。 当设置为 <span class="codeph"> -1</span>，则会始终显示消息，即使用户激活弹出窗口也是如此。 </p> </td> 
+   <td colname="col2"> <p> 指定提示文字在隱藏前顯示的秒數。 當設定為 <span class="codeph"> -1</span>，則一律會顯示訊息，即使使用者啟用彈出式視窗亦然。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定在查看集合中的新图像时显示文本的次数。 值 <span class="codeph"> -1</span> 表示在查看集合中的任何图像时，始终显示文本。 </p> </td> 
+   <td colname="col2"> <p> 指定檢視集合中新影像時顯示文字的次數。 值 <span class="codeph"> -1</span> 表示檢視影像集中的任何影像時，一律會顯示文字。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡淡</span></span> </p> </td> 
-   <td colname="col2"> 指定文本出现或消失时出现的渐隐动画的持续时间。 值 <span class="codeph"> 0</span> 表示无渐隐过渡。 </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 淡化</span></span> </p> </td> 
+   <td colname="col2"> 指定文字出現或消失時所發生之淡化動畫的持續時間。 值 <span class="codeph"> 0</span> 表示無淡化切換。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-65be9301796240e38f31818229da7acc}
+## 屬性 {#section-65be9301796240e38f31818229da7acc}
 
-可选。
+可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

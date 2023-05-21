@@ -1,6 +1,6 @@
 ---
-title: 字符编码
-description: 图像渲染支持采用ISO-8859-1和UTF-8编码的材料目录。
+title: 字元編碼
+description: 「影像演算」支援使用ISO-8859-1和UTF-8編碼的材質目錄。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 字符编码{#character-encoding}
+# 字元編碼{#character-encoding}
 
-图像渲染支持采用ISO-8859-1和UTF-8编码的材料目录。
+「影像演算」支援使用ISO-8859-1和UTF-8編碼的材質目錄。
 
-字节顺序标记(BOM)用于指定每个文件的编码。 对于UTF-8,BOM是字节序列 `EF BB BF`. 当在每个材料目录文件的最开头处检测到此字符序列时，假定使用UTF-8编码。 任何其他字节序列都会导致文件被解释为已编码为ISO-8859-1标准。
+位元組順序標籤(BOM)可用來指定每個檔案的編碼。 對於UTF-8，BOM是位元組順序 `EF BB BF`. 在每個材質目錄檔案的開頭偵測到此字元序列時，會假設UTF-8編碼。 任何其他位元組序列都會導致檔案被解譯成ISO-8859-1標準。
 
-许多当代应用程序在为UTF-8配置后，会自动插入物料清单。
+許多當代應用程式在針對UTF-8進行配置時，會自動插入BOM。

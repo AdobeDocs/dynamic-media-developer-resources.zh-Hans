@@ -1,5 +1,5 @@
 ---
-description: 将用户添加到一个或多个公司。
+description: 新增使用者至一或多間公司。
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # addCompanyMembership{#addcompanymembership}
 
-将用户添加到一个或多个公司。
+新增使用者至一或多間公司。
 
 语法
 
-## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
+## 授權的使用者型別 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,20 +27,20 @@ ht-degree: 14%
 
 ## 参数 {#section-0e925b91d63e48aa91f0b0014e6a0cab}
 
-**输入(addCompanyMembershipParam)**
+**輸入(addCompanyMembershipParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 要添加其成员资格的用户的句柄。 |
-| membersingArray | `types:CompanyMembershipUpdateArray` | 是 | 要将用户添加到的公司数组。 |
+| userHandle | `xsd:string` | 否 | 您要新增其成員資格之使用者的控制代碼。 |
+| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 您要新增使用者的許多公司。 |
 
-**输出(addCompanyMembershipReturn)**
+**輸出(addCompanyMembershipReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-5469f88bac7047cca131faa6b021e437}
 
-此示例使用companyHandleArray将用户添加到单个公司。
+此範例使用companyHandleArray將使用者新增至單一公司。
 
 **请求**
 

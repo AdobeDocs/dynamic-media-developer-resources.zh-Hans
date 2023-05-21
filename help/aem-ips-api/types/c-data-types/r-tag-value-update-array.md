@@ -1,5 +1,5 @@
 ---
-description: 标记值更新的数组。
+description: 標籤值更新陣列。
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-标记值更新的数组。
+標籤值更新陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:TagValueUpdate` | 标记值更新的数组。 |
+| 项目 | `types:TagValueUpdate` | 標籤值更新陣列。 |

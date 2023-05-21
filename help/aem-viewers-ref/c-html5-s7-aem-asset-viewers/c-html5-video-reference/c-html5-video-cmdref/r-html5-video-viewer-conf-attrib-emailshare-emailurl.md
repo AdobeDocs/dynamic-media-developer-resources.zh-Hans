@@ -1,6 +1,6 @@
 ---
 title: EmailShare.emailurl
-description: 视频查看器的配置属性。
+description: 視訊檢視器的設定屬性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-视频查看器的配置属性。
+視訊檢視器的設定屬性。
 
 ` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
@@ -22,14 +22,14 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand电子邮件服务的基本URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media Classic OnDemand電子郵件服務的基底URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。
+可选.
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,6 +1,6 @@
 ---
-title: 图像渲染HTTP编码
-description: 命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&”和“%”。
+title: 影像演算HTTP編碼
+description: 命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元'='、'&'和'%'。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# 图像渲染HTTP编码{#image-rendering-http-encoding}
+# 影像演算HTTP編碼{#image-rendering-http-encoding}
 
-命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&amp;”和“%”。
+命令值必須使用%xx逸出序列進行http編碼，因此值字串不包含保留字元&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39;。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符(如“（空格）”、“”（双引号）、“#”、“%”、“&lt;”和“>”)以及任何控制字符(如 `<return>` 和 `<tab>`.
+否則，會套用標準HTTP編碼規則。 HTTP規格要求對不安全的字元進行編碼，例如「 」（空格）、「 」（雙引號）、「#」、「%」、「&lt;」和「>」，以及任何控制字元，例如 `<return>` 和 `<tab>`.
 
-**注意：** 不得对用作请求嵌套分隔符的大括号{ }进行编码。 遗憾的是，某些电子邮件客户端在嵌入的HTTP请求中对大括号进行编码。 如果出现此问题，图像渲染允许使用圆括号()而不是大括号。
+**注意：** 不得對用作請求巢狀分隔符號的大括弧{ }進行編碼。 很抱歉，某些電子郵件使用者端會在內嵌HTTP請求中編碼大括弧。 如果這個問題有問題，影像演算可以使用括弧( )來取代大括弧。
 
 ## 示例 {#section-3edc5b8ee2354220a281b01722ad337a}
 
 `…&$text=rate&weight=85% 27#&…`
 
-上述请求片段必须进行如下编码：
+上述請求片段必須編碼如下：
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
 ## 另请参阅 {#section-d31268a02fe345e3abf0a4eb95a1dac5}
 
-[HTTP/1.1规范(RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[HTTP/1.1規格(RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

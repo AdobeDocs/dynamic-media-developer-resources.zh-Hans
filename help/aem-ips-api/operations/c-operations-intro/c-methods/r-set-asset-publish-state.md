@@ -1,24 +1,24 @@
 ---
-description: 确定资产是否已准备好发布。
+description: 判斷資產是否已準備好發佈。
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic，SDK/API，资产管理
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '95'
+ht-degree: 20%
 
 ---
 
 # setAssetPublishState{#setassetpublishstate}
 
-确定资产是否已准备好发布。
+判斷資產是否已準備好發佈。
 
 语法
 
-## 授权用户类型 {#section-11bec77e50b24461bb8c8aacf016eec8}
+## 授權的使用者型別 {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,11 +28,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->用户必须具有资产的读取和写入权限。
+>使用者必須擁有資產的讀取和寫入存取權。
 
 ## 参数 {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**输入(setAssetPublishStateParam)**
+**輸入(setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -48,40 +48,40 @@ ht-degree: 18%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司的把手。 </td> 
+   <td colname="col4"> 公司的控制代碼。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 资产句柄。 </td> 
+   <td colname="col4"> 資產控點。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4">可用状态： 
+   <td colname="col4">可用狀態： 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
-     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
+     <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> 已標籤為發佈</span> </li> 
      <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 代码短语  </span> </td> 
+   <td colname="col2"> <span class="codeph"> 程式碼片語 </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出**
+**輸出**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-c31ead6d0e594317a12c120509527792}
 
-此代码示例使用`NotMarkedForPublish`设置资产的发布状态。
+此程式碼範例使用來設定資產的發佈狀態 `NotMarkedForPublish`.
 
 **请求**
 

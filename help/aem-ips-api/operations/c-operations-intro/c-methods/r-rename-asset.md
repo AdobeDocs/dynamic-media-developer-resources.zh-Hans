@@ -1,5 +1,5 @@
 ---
-description: 重命名资产。
+description: 重新命名資產。
 solution: Experience Manager
 title: renameAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # renameAsset{#renameasset}
 
-重命名资产。
+重新命名資產。
 
 >[!NOTE]
 >
->的 `renameFiles` 参数已在以前的版本中弃用，已从 `renameAsset`. 虚拟文件路径会进行更改以匹配新资产名称（保留文件扩展名），而物理文件路径则不会受到影响。 API客户端在更新到新API版本时，需要删除对此参数的引用。
+>此 `renameFiles` 舊版已棄用引數，並已從以下版本中移除： `renameAsset`. 虛擬檔案路徑會變更為符合新的資產名稱（保留副檔名），而實體檔案路徑則不受影響。 API使用者端在更新至新API版本時需要移除此引數的參考。
 
-## 授权用户类型 {#section-cc27ad713c6d498b8f056850b20976f4}
+## 授權的使用者型別 {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,26 +31,26 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->用户必须具有资产的读取和写入权限。
+>使用者必須擁有資產的讀取和寫入存取權。
 
 ## 参数 {#section-ef95a994106841e0ab346dd4cf672258}
 
-**输入(renameAssetParam)**
+**輸入(renameAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 资产所属公司的句柄。 |
-| assetHandle | `xsd:string` | 是 | 要重命名的资产的句柄。 |
-| newName | `xsd:string` | 是 | 资产的新名称。 |
-| validateName | `xsd:boolean` | 是 | 如果 `validateName` is `true` 并且资产类型需要唯一的IPS ID，然后检查新名称是否具有全局唯一性和 `renameAsset` 如果它不是唯一的，则会引发错误。 |
+| companyHandle | `xsd:string` | 是 | 資產所屬公司的控制代碼。 |
+| assetHandle | `xsd:string` | 是 | 您要重新命名的資產的控制代碼。 |
+| newName | `xsd:string` | 是 | 資產的新名稱。 |
+| validateName | `xsd:boolean` | 是 | 如果 `validateName` 是 `true` 且資產型別需要唯一的IPS ID，則會檢查新名稱是否有全域唯一性，以及 `renameAsset` 如果錯誤不是唯一的，則會擲回錯誤。 |
 
-**输出(renameAssetReturn)**
+**輸出(renameAssetReturn)**
 
-IPS API不会返回此操作的响应。 请参阅 `<ns1:validateName>` 元素，以了解有关此元素的注意事项。
+IPS API未傳回此作業的回應。 請參閱「 」的說明 `<ns1:validateName>` 元素，以取得關於此元素的警告。
 
 ## 示例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
-此代码示例可重命名资产
+此程式碼範例會重新命名資產
 
 **请求**
 

@@ -1,7 +1,7 @@
 ---
-description: 为一个或多个图像资产设置特定于图像的字段。
+description: 設定一或多個影像資產的影像特定欄位。
 solution: Experience Manager
-title: batchSetImageFields
+title: batchsetImageFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
@@ -12,13 +12,13 @@ ht-degree: 10%
 
 ---
 
-# batchSetImageFields{#batchsetimagefields}
+# batchsetImageFields{#batchsetimagefields}
 
-为一个或多个图像资产设置特定于图像的字段。
+設定一或多個影像資產的影像特定欄位。
 
 语法
 
-## 授权用户类型 {#section-6b087bdcb7874c13acf76e113a093054}
+## 授權的使用者型別 {#section-6b087bdcb7874c13acf76e113a093054}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,26 +29,26 @@ ht-degree: 10%
 
 ## 参数 {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**输入(batchSetImageFields)**
+**輸入(batchSetImageFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含图像资产的公司的句柄。 |
-| updateArray | `types:ImageFieldUpdateArray` | 是 | 更新了图像字段的数组。 |
+| companyHandle | `xsd:string` | 是 | 包含影像資產的公司的控制代碼。 |
+| updatearray | `types:ImageFieldUpdateArray` | 是 | 影像欄位陣列會更新。 |
 
-**输出(batchSetImageFields)**
+**輸出(batchSetImageFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功设置图像字段的数量。 |
-| warningCount | `xsd:int` | 是 | 操作尝试设置图像字段时生成的警告数。 |
-| errorCount | `xsd:int` | 是 | 操作尝试设置图像字段时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时，资产会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与在操作尝试应用更新时生成错误的资产关联的详细信息数组。 |
+| successCount | `xsd:int` | 是 | 成功設定的影像欄位數。 |
+| warningCount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的警告數目。 |
+| errororcount | `xsd:int` | 是 | 作業嘗試設定影像欄位時產生的錯誤數。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
 
 ## 示例 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-此示例在更新数组中的两个图像的字段中设置数据。 在数组中，图像由其资产句柄指定，并包含像素、x和y位置锚点坐标以及用户数据的分辨率。 响应指示已成功设置两个图像的字段。
+此範例會在更新陣列中設定兩個影像欄位中的資料。 在陣列中，影像由其資產控點指定，並包含解析度（以畫素為單位）、x和y位置錨點座標，以及使用者資料。 此回應表示兩個影像的欄位皆已成功設定。
 
 **请求**
 

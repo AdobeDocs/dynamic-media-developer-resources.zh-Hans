@@ -8,26 +8,26 @@ exl-id: d3196158-5eab-46de-8a29-8f08f4797185
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
-` [TableOfContents.|<containerId>_tableOfContents.]maxitems= *`maxitems`*`
+` [TableOfContents.|<containerId>_tableOfContents.]maxitems= *`Maxitems`*`
 
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，如果下拉菜单被外部容器裁剪，您还可以减少可见项目的数量。 </p> <p>当设置为 <span class="codeph"> 0</span> 该组件会在添加到的容器中显示尽可能多的项目。 </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Maxitems</span></span> </p> </td> 
+   <td> <p>下拉式目錄中的專案最大數量。 </p> <p>此外，您可以減少下拉式清單中的可見專案數量，以防外部容器裁切該專案。 </p> <p>當設定為 <span class="codeph"> 0</span> 該元件會以其新增至的容器顯示儘可能多的專案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 属性 {#section-850a060bf471467f9a640116f8368851}
+## 屬性 {#section-850a060bf471467f9a640116f8368851}
 
-可选。
+可选.
 
 ## 默认 {#section-fb1423f100624658a90fc8ba5e0cee7e}
 

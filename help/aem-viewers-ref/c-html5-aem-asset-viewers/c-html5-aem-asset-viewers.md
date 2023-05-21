@@ -1,6 +1,6 @@
 ---
-title: 仅AEM Assets查看器
-description: 仅AEM Assets查看器
+title: 僅適用於AEM Assets的檢視器
+description: 僅適用於AEM Assets的檢視器
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 5%
 
 ---
 
-# 仅AEM Assets查看器{#viewers-for-aem-assets-only}
+# 僅適用於AEM Assets的檢視器{#viewers-for-aem-assets-only}
 
-以下查看器专门用于Adobe Experience Manager Assets。
+下列檢視器僅可在Adobe Experience Manager資產下使用。
 
 * [轮盘式](c-html5-aem-carousel/c-html5-aem-carousel.md)
-* [交互式图像](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
-* [交互式视频](c-html5-aem-int-video/c-html5-aem-int-video.md)
-* [智能裁剪视频](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
+* [互動式影像](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
+* [互動視訊](c-html5-aem-int-video/c-html5-aem-int-video.md)
+* [智慧型裁切視訊](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
 * [Video360](c-html5-aem-video360/c-html5-aem-video360.md)

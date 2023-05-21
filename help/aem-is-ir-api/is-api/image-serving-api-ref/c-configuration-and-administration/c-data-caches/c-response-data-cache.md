@@ -1,7 +1,7 @@
 ---
-description: 的 [!DNL Platform Server] 将所有回复图像和某些文本数据缓存到磁盘，除非将请求标记为不可缓存。
+description: 此 [!DNL Platform Server] 除非要求標示為不可快取，否則會將所有回覆影像和特定文字資料快取到磁碟。
 solution: Experience Manager
-title: 响应数据缓存
+title: 回應資料快取
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: f09e596d-2b85-4950-8515-d54a2c2e86ae
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# 响应数据缓存{#response-data-cache}
+# 回應資料快取{#response-data-cache}
 
-的 [!DNL Platform Server] 将所有回复图像和某些文本数据缓存到磁盘，除非将请求标记为不可缓存。
+此 [!DNL Platform Server] 除非要求標示為不可快取，否則會將所有回覆影像和特定文字資料快取到磁碟。
 
-的位置 [!DNL Platform Server]的磁盘缓存设置为 `PS::cache.rootPaths`.
+的位置 [!DNL Platform Server]的磁碟快取設定為 `PS::cache.rootPaths`.
 
-对于缓存命中率较高的应用程序，您可以通过在多个磁盘设备之间分配响应数据缓存来提高服务器性能和容量。 为此，请在每个磁盘上创建一个缓存根文件夹，并在中注册 `PS::cache.rootPaths`.
+對於快取命中率高的應用程式，您可以在多個磁碟裝置之間分配回應資料快取，以提高伺服器效能和容量。 您可在每個磁碟上建立快取根資料夾，並在中註冊這些資料夾，即可完成此作業 `PS::cache.rootPaths`.
 
-`PS::cache.maxSize` 指定所有缓存条目的总大小，而不考虑任何文件系统开销。 实际需要的磁盘空间量取决于文件系统属性（如磁盘块大小）和缓存条目数。 建议为HTTP磁盘缓存保留的磁盘空间是指定的磁盘空间量的两倍 `PS::cache.maxSize`. 使用最近使用的算法将缓存数据量保持在限制内。
+`PS::cache.maxSize` 指定所有快取專案的總大小，不考慮任何檔案系統負荷。 實際需要的磁碟空間量取決於檔案系統屬性（例如磁碟區塊大小）和快取專案數量。 建議為HTTP磁碟快取保留兩倍的磁碟空間，其數量由以下指定 `PS::cache.maxSize`. 系統會使用最近最少使用的演演算法，將快取資料量保持在限制內。
 
-除 `PS::cache.maxSize`，则响应缓存也可通过限制 `PS::cache.maxEntries`. 在Linux上，此设置必须指定一个值，该值必须不大于缓存分区上可用inode的数量。
+除了 `PS::cache.maxSize`，回應快取也是透過限制快取專案的最大數量來管理 `PS::cache.maxEntries`. 在Linux上，此設定所指定的值不得大於快取分割上可用的inode數目。
 
 >[!NOTE]
 >
->的 [!DNL Platform Server] 维护内存中的缓存索引。 此索引的大小是 `PS::cache.maxEntries`. 您可能需要将 [!DNL Platform Server] 堆大小以容纳较大的缓存。
+>此 [!DNL Platform Server] 維護記憶體中的快取索引。 此索引的大小是32個位元組乘以 `PS::cache.maxEntries`. 您可能需要增加 [!DNL Platform Server] 棧集大小以容納較大的快取。
 
-系统使用缓存索引文件，当服务器按顺序关闭时，该文件会保存到磁盘中。 如果发生电源故障等意外事件，可能无法保存此文件。 此外，可能需要几分钟时间才能 [!DNL Platform Server] 准备好。
+當伺服器依序關閉時，系統會使用儲存至磁碟的快取索引檔案。 萬一發生意外事件（例如電源故障），可能無法儲存此檔案。 此外，可能需要幾分鐘的時間才能完成 [!DNL Platform Server] 準備就緒。

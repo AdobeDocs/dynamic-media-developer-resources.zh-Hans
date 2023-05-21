@@ -1,7 +1,7 @@
 ---
-description: 使用这些服务器设置配置警报阈值。
+description: 使用這些伺服器設定值來設定警示臨界值。
 solution: Experience Manager
-title: 警报阈值
+title: 警示臨界值
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
@@ -12,40 +12,40 @@ ht-degree: 0%
 
 ---
 
-# 警报阈值{#alert-thresholds}
+# 警示臨界值{#alert-thresholds}
 
-使用这些服务器设置配置警报阈值。
+使用這些伺服器設定值來設定警示臨界值。
 
-## 作为：monitorAlertGenerator.maxAverageResponseTime — 响应时间阈值AS:monitorAlertGenerator.maxAverageResponseTime — 响应时间 {#section-35111039ac6c4a63ba23fc2c828ab726}
+## AS：： monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS：： monitorAlertGenerator.maxAverageResponseTime -Response Time {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-当在采样间隔期间处理请求的平均时间超过此处设置的阈值时，发出响应时间警报。 以毫秒表示；整数0或更大。 典型值介于100到1000毫秒之间，具体取决于操作的复杂性。
+當取樣間隔期間處理要求的平均時間超過此處設定的臨界值時，會發出回應時間警報。 以毫秒為單位表示；整數0或更大。 一般值介於100和1000毫秒之間，視操作的複雜度而定。
 
 >[!NOTE]
 >
->此警报不考虑导致4xx或5xx响应状态的请求。
+>此警報不會考慮導致4xx或5xx回應狀態的請求。
 
-## AS::monitorAlertGenerator.maxErrorRate — 错误响应率阈值AS::monitorAlertGenerator.maxErrorRate — 错误响应率 {#section-76ba77fd3102419395e0f86719a1f3ec}
+## AS：：monitorAlertGenerator.maxErrorRate — 錯誤回應率ThresholdAS：：monitorAlertGenerator.maxErrorRate — 錯誤回應率 {#section-76ba77fd3102419395e0f86719a1f3ec}
 
-当采样间隔期间HTTP错误响应与总响应的比率超过指定的阈值时，将发出错误警报。
+當取樣間隔期間的HTTP錯誤回應與總回應之比超過指定的臨界值時，會發出錯誤警報。
 
-0.0到1.0之间的实际值。通常设置为0.005到0.1之间。设置为1可禁用错误警报。
+介於0.0和1.0之間的實際值。通常設定為0.005和0.1之間。設為1可停用錯誤警示。
 
-## AS::monitorAlertGenerator.minRequestRate — 低流量阈值 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
+## AS：：monitorAlertGenerator.minRequestRate — 低流量臨界值 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
-当当前采样间隔内每秒接收的请求数平均数低于此阈值时，将发送最小流量警报。 将此值设置为0，以禁用警报。 以每秒请求数表示。 实际值0或更大。
+當目前取樣間隔內每秒接收的平均要求數低於此臨界值時，會傳送最小流量警報。 將此值設定為0，停用警示。 以每秒的請求數表示。 大於或等於0的實數值。
 
-## AS::monitorAlertGenerator.minFreeHeapSpace — 可用堆空间阈值 {#section-ce6705045f6842769030ccb1894594cc}
+## AS：：monitorAlertGenerator.minFreeHeapSpace -Free棧積空間臨界值 {#section-ce6705045f6842769030ccb1894594cc}
 
-指定最小可用Java堆空间。 当可用堆空间低于此阈值时，将在Java垃圾收集周期后立即发送优先级警报。 建议使用50 MB以安全运行 [!DNL Platform Server]. 将可用堆空间保持在此值以上会减少垃圾收集周期的频率，这可能会提高整体服务器性能。 整数值（以字节为单位，0或更大）。
+指定最小可用Java棧積空間。 當可用棧積空間低於此臨界值時，會在Java垃圾收集循環後立即傳送優先順序警報。 建議使用50 MB以確保 [!DNL Platform Server]. 將可用棧積空間維持在此值以上，可以減少垃圾收集週期的頻率，進而改善整體伺服器效能。 以位元組為單位的整數值，0或更大。
 
-## AS::monitorAlertGenerator.maxOverlap — 并发请求的最大数量 {#section-ddc6925bff944758ab19bcc9cf3f2589}
+## AS：：monitorAlertGenerator.maxOverlap — 最大並行請求數 {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
-在平均间隔期间同时处理的平均请求数超过此阈值时，将触发重叠警报。 高重叠可能表示服务器过载情况。
+當平均間隔期間同時處理的平均要求數超過此臨界值時，就會觸發重疊警報。 高度重疊可能表示伺服器可能超載的情況。
 
-整数值1或更大。 根据缓存点击率和请求复杂度，典型值范围为20到50。
+整數值1或更大。 一般範圍為20到50，視快取命中率和請求複雜度而定。
 
-## AS::monitorAlertGenerator.lockedThreshold — 锁定请求阈值 {#section-012a1c9937d445708380339279c62d80}
+## AS：：monitorAlertGenerator.lockedThreshold — 鎖定的要求臨界值 {#section-012a1c9937d445708380339279c62d80}
 
-指定请求在被视为锁定或挂起之前必须处于挂起状态的秒数。 如果在平均间隔结束时至少有一个请求处于挂起状态的时间超过指定时间段，则发出锁定请求警报。 正整数值（毫秒）。
+指定要求必須擱置的秒數，超過秒數才會被視為鎖定或擱置。 如果在平均間隔結束時，至少有一個請求處於擱置狀態的時間超過指定的時段，則會發出鎖定的請求警示。 正整數值（以毫秒為單位）。
 
-要考虑到涉及从外部HTTP服务器获取数据的复杂呈现请求和请求，建议将此值至少设置为30秒（除非此警报会检测到此情况）。
+若要解決涉及從外部HTTP伺服器取得資料的複雜轉譯請求和請求，建議將此值設定為至少30秒（除非此警報會偵測到這類條件）。

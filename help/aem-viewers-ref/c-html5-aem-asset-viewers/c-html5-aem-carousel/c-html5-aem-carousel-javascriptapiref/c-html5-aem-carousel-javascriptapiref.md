@@ -1,6 +1,6 @@
 ---
-title: 轮播查看器的JavaScript API引用
-description: 传送查看器的主类是传送查看器。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
+title: 輪播檢視器的JavaScript API參考
+description: Carousel Viewer的主要類別是CarouselViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 轮播查看器的JavaScript API引用{#javascript-api-reference-for-carousel-viewer}
+# 輪播檢視器的JavaScript API參考{#javascript-api-reference-for-carousel-viewer}
 
-传送查看器的主类是传送查看器。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
+Carousel Viewer的主要類別是CarouselViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
 
-在以下所有示例中， `<instance>`表示从`s7viewers.CarouselViewer`类实例化的JavaScript查看器对象的实际名称。
+在下列所有範例中， `<instance>` 代表從具現化的JavaScript檢視器物件的實際名稱。 `s7viewers.CarouselViewer` 類別。

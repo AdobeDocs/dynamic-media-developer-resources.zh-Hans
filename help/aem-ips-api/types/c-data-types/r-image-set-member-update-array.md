@@ -1,5 +1,5 @@
 ---
-description: 更新图像集成员的数组。
+description: 影像整合員更新的陣列。
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL ImageSetMemberUpdateArray]{#imagesetmemberupdatearray}
 
-更新图像集成员的数组。
+影像整合員更新的陣列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ImageSetMemberUpdate` | 更新了图像集成员的数组。 |
+| 项目 | `types:ImageSetMemberUpdate` | 影像整合員更新的陣列。 |

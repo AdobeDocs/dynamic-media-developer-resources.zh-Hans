@@ -1,5 +1,5 @@
 ---
-description: 用于使CDN缓存失效的URL数组。
+description: 使CDN快取失效的URL陣列。
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # [!DNL UrlArray]{#urlarray}
 
-用于使CDN缓存失效的URL数组。
+使CDN快取失效的URL陣列。
 
-**支持时间**
+**支援開始時間**
 
-4.5.0，修补程序2011-02
+4.5.0，修補程式2011-02
 
 ## 参数 {#section-20f617c881f34dc287989cbb20ee494d}
 
@@ -32,9 +32,9 @@ ht-degree: 14%
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 项目</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 個專案</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> 要失效的URL列表。 WSDL定义限制为最多1000个URL。 </p> </td> 
+   <td> <p> 要失效的URL清單。 根據WSDL定義，最多只能有1000個URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

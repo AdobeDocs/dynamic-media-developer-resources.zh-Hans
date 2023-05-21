@@ -1,7 +1,7 @@
 ---
-description: 层视图属性。
+description: 圖層檢視屬性。
 solution: Experience Manager
-title: 层视图信息
+title: 圖層檢視資訊
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL LayerViewInfo]{#layerviewinfo}
 
-层视图属性。
+圖層檢視屬性。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| url | `xsd:string` | 表示模板的图像服务器URL。 组合 `urlModifier` 和 `urlPostAp- plyModifier` 字段。 |
-| urlModifier | `xsd:string` | 在请求或 `urlPostApplyModifier` 中。 |
-| urlPostApplyModifier | `xsd:string` | 要在之后应用的图像服务协议命令 `urlModifier` 和请求命令。 |
+| url | `xsd:string` | 代表範本的影像伺服器URL。 結合 `urlModifier` 和 `urlPostAp- plyModifier` 欄位。 |
+| urlModifier | `xsd:string` | 在請求或之前套用的影像伺服通訊協定命令 `urlPostApplyModifier` 命令。 |
+| urlPostApplyModifier | `xsd:string` | 之後要套用的影像伺服通訊協定命令 `urlModifier` 和request命令。 |

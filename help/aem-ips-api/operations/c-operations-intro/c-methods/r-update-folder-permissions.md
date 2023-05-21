@@ -1,5 +1,5 @@
 ---
-description: 更新文件夹权限。
+description: 更新檔案夾許可權。
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 19%
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-更新文件夹权限。
+更新檔案夾許可權。
 
 语法
 
-## 授权用户类型 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 授權的使用者型別 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,18 +26,18 @@ ht-degree: 19%
 
 ## 参数 {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**输入(updateFolderPermissionsParam)**
+**輸入(updateFolderPermissionsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司负责人。 |
-| folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
-| updateChildren | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限来更新子项。 |
-| updateArray | `types:PermissionUpdateArray` | 是 | 要应用于文件夹的权限更新数组。 |
+| companyHandle | `xsd:string` | 是 | 公司控點。 |
+| folderHandle | `xsd:string` | 是 | 資料夾控制代碼。 |
+| updateChilds | `xsd:boolean` | 是 | 決定是否使用為頂層檔案夾設定的許可權更新子系。 |
+| updatearray | `types:PermissionUpdateArray` | 是 | 您要套用至資料夾的許可權更新陣列。 |
 
-**Output(updateFolderPermissionsReturn)**
+**輸出(updateFolderPermissionsReturn)**
 
-IPS API不会返回此操作的响应。
+IPS API未傳回此作業的回應。
 
 ## 示例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

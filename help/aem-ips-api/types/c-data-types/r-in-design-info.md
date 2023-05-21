@@ -1,5 +1,5 @@
 ---
-description: InDesign文件属性。
+description: 檔案屬性InDesign。
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 34e7f447-4301-4120-87b6-6f3ddd1c5fb6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 42%
+ht-degree: 33%
 
 ---
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-InDesign文件属性。
+檔案屬性InDesign。
 
 语法
 
@@ -22,6 +22,6 @@ InDesign文件属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| originalPath | `xsd:string` | 文件路径。 |
-| originalFile | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 文件大小. |
+| 原始路徑 | `xsd:string` | 檔案路徑。 |
+| 原始檔案 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 檔案大小。 |
