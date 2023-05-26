@@ -1,5 +1,5 @@
 ---
-description: 工作記錄檔詳細資料的陣列。
+description: 作业日志详细信息数组。
 solution: Experience Manager
 title: JobLogDetailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL JobLogDetailArray]{#joblogdetailarray}
 
-工作記錄檔詳細資料的陣列。
+作业日志详细信息数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 26%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:JobLogDetail` | 工作記錄檔詳細資料的陣列。 |
+| 项目 | `types:JobLogDetail` | 作业日志详细信息数组。 |

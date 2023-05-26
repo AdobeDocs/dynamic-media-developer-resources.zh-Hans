@@ -20,16 +20,16 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td> <p> 啟用或停用使用者利用滑鼠或觸控手勢捲動色票的能力 </p> </td> 
+   <td> <p> 启用或禁用用户通过鼠标或使用触控手势滚动样本的功能 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> 中的函式 <span class="codeph"> 0-1 </span> 範圍。 它是 <span class="codeph"> % </span> 以實際速度在錯誤方向移動的值。 如果設定為 <span class="codeph"> 1 </span>，它會隨滑鼠移動。 如果設定為 <span class="codeph"> 0 </span>，讓您完全無法向錯誤的方向移動。 </p> </td> 
+   <td> <p> 中的函数 <span class="codeph"> 0-1 </span> 范围。 它是一个 <span class="codeph"> % </span> 实际速度在错误方向移动的值。 如果设置为 <span class="codeph"> 1 </span>，它会随鼠标移动。 如果设置为 <span class="codeph"> 0 </span>，它根本不允许您向错误的方向移动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

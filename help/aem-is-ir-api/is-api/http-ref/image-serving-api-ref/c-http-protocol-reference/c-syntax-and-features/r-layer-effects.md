@@ -1,6 +1,6 @@
 ---
-title: 圖層效果
-description: Photoshop樣式圖層陰影和光暈效果是使用特殊子圖層（效果圖層）實作，這些子圖層可以附加到任何圖層（父圖層），包括layer=0和layer=comp。
+title: 图层效果
+description: Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果图层）实现的，这些子图层可以附加到任何图层（父图层），包括layer=0和layer=comp。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# 圖層效果{#layer-effects}
+# 图层效果{#layer-effects}
 
-Photoshop樣式圖層陰影和光暈效果是使用特殊子圖層（效果圖層）實作，這些子圖層可以附加到任何圖層（父圖層），包括layer=0和layer=comp。
+Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果图层）实现的，这些子图层可以附加到任何图层（父图层），包括layer=0和layer=comp。
 
-雖然效果圖層支援許多標準的影像和圖層屬性及指令，但並非一般用途圖層，也不支援獨立的影像或文字資料。
+虽然效果图层支持许多标准图像和图层属性及命令，但它们不是用于一般用途的图层，并且不支持独立的图像或文本数据。
 
-任何數量的圖層效果都可以附加至單一父圖層。
+可以将任意数量的图层效果附加到单个父图层。
 
-## 內部和外部效果 {#section-2dade7ee98e041d1b4d1725e6f98a515}
+## 内部和外部效果 {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*內部效果* 會呈現在上層圖層的頂端，而且只會在上層圖層的不透明區域顯示。 *外部效果* 會呈現在上層圖層後面（因此它們永遠無法在上層圖層的不透明區域中顯示），且可在合成畫布內的任何位置放置。 透過指定正或負的效果圖層編號來選擇內部或外部效果 `effect=` 命令。 此 `effect=` 指令也會控制附加至相同父圖層的多個效果圖層之間的z排序。
+*内部效果* 在父图层的顶部渲染，并且仅在父图层的不透明区域中可见。 *外部效果* 渲染到父图层之后（因此它们永远不会在父图层的不透明区域中可见），并且可以放置在合成画布中的任意位置。 内效应或外效应的选择是通过将正效应层或负效应层编号赋予 `effect=` 命令。 此 `effect=` 该命令还控制连接到同一父层的多个效果层之间的z排序。
 
-## 與上層圖層的關係 {#section-eb8bfc4f754a42fc973b562821d6f2d3}
+## 与父层的关系 {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-效果圖層會自動調整大小並放置成與父圖層一致(亦即，效果圖層會繼承 `size=` 和 `origin=` 值)。 `pos=` 可用來將效果圖層從父圖層移開，這是下落和內陰影效果通常需要的功能。 而標準圖層則為 `pos=` 指定此圖層的起點與圖層0之間的位移，用於效果圖層 `pos=` 指定效果圖層的起點與父圖層之間的位移。
+效果层会自动调整大小并定位为与父层一致(即，效果层会继承 `size=` 和 `origin=` 值)。 `pos=` 可用于将效果图层从父图层移开，这通常是投影和内阴影效果所必需的。 对于标准图层，则为 `pos=` 指定此图层的起点与图层0之间的偏移，用于效果图层 `pos=` 指定效果图层的原点与父图层之间的偏移。
 
-## 支援的命令和屬性 {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
+## 支持的命令和属性 {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
-效果圖層接受下列指令和屬性：
+效果层接受以下命令和属性：
 
 * `blendMode=`
 * `effect=`
@@ -42,11 +42,11 @@ Photoshop樣式圖層陰影和光暈效果是使用特殊子圖層（效果圖�
 * `op_noise=`
 * `pos=`
 
-會忽略效果圖層中包含的所有其他影像和圖層指令。
+将忽略效果图层中包含的所有其他图像和图层命令。
 
-## 預設效果巨集 {#section-a01e8dcc87c94495b54a6dfb21d2a718}
+## 默认效果宏 {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-為方便圖層效果使用，IS提供兩個巨集與預設影像目錄， `$shadow$` 和 `$glow$`，可提供與Photoshop圖層效果類似的效果圖層屬性預設值。 下表列出應使用哪個效果指令和巨集來實作預設圖層效果。 自然地，可在URL中修改巨集中指定的任何屬性，或可建立其他巨集來實作自訂圖層效果。
+为便于使用图层效果， IS提供了两个带有缺省图像目录的宏， `$shadow$` 和 `$glow$`，提供与Photoshop图层效果类似的效果图层属性的默认值。 下表列出应使用哪个效果命令和宏来实施默认图层效果。 当然，可以在URL中修改宏中指定的任何属性，也可以创建其他宏以实现自定义图层效果。
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -77,18 +77,18 @@ Photoshop樣式圖層陰影和光暈效果是使用特殊子圖層（效果圖�
 
 ## 示例 {#section-4c449fdf707b43858917fb271fa1fe96}
 
-在圖層上增加三畫素寬、紅色邊框和50%的不透明度：
+向图层添加一个具有50%不透明度的3像素宽、红色边框：
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-邊框將遵循影像的Alpha色版或遮色片的輪廓。 設定 `effect=1` 會將邊框放在內部邊緣上。
+边框将遵循图像的Alpha通道或蒙版的轮廓。 设置 `effect=1` 将边框放在内边缘上。
 
-使用預設效果設定（顏色除外），在影像中新增藍色投影：
+使用默认效果设置（颜色除外），为图像添加蓝色投影：
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` 在影像的右下邊緣增加一點邊界，可防止投影裁剪至影像邊界。
+`extend=` 在图像的右下边缘添加一小段边距，可防止投影裁剪到图像边界上。
 
 ## 另请参阅 {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135)， [命令巨集%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135)， [命令宏%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

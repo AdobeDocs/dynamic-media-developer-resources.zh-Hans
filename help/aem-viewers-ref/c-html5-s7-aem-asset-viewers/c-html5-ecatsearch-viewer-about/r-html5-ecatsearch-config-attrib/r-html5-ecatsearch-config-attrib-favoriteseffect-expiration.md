@@ -20,12 +20,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 天数</span></span> </p> </td> 
-   <td colname="col2"> <p> 我的最愛集合在使用者端系統上保留的天數，超過該天數後便會過期。 每次使用者造訪目錄並變更我的最愛時（例如新增或移除），到期計時器都會重設。 </p> </td> 
+   <td colname="col2"> <p> 收藏夹集合在客户端系统上保留多少天后过期。 每次用户访问目录并对收藏夹进行更改（例如添加或删除）时，过期计时器都会重置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

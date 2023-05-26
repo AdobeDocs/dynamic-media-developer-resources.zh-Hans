@@ -1,7 +1,7 @@
 ---
-description: 視窗涵蓋範圍檔案的屬性。
+description: 窗口覆盖文件的属性。
 solution: Experience Manager
-title: 視窗涵蓋範圍資訊
+title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL WindowCoveringInfo]{#windowcoveringinfo}
 
-視窗涵蓋範圍檔案的屬性。
+窗口覆盖文件的属性。
 
 语法
 
@@ -22,10 +22,10 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
-| imagePath | `xsd:string` | 影像的相對路徑。 |
-| imageFile | `xsd:string` | 涵蓋影像的視窗檔案名稱。 |
-| optimizedPath | `xsd:string` | 最佳化的檔案路徑。 |
-| optimizedFile | `xsd:string` | 最佳化的檔案名稱。 |
+| 原始路径 | `xsd:string` | 文件路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |
+| imagePath | `xsd:string` | 图像的相对路径。 |
+| imageFile | `xsd:string` | 覆盖图像的窗口的文件名。 |
+| 优化路径 | `xsd:string` | 优化的文件路径。 |
+| 优化文件 | `xsd:string` | 优化的文件名。 |

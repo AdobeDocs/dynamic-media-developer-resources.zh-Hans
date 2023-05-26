@@ -1,5 +1,5 @@
 ---
-description: 縮放目標資料。 沒有或多個縮放目標屬性，這些屬性可以與縮放檢視器使用者端結合使用。
+description: 缩放目标数据。 没有或多个缩放目标属性，这些属性可以与缩放查看器客户端结合使用。
 solution: Experience Manager
 title: 目标
 feature: Dynamic Media Classic,SDK/API
@@ -14,58 +14,58 @@ ht-degree: 2%
 
 # 目标{#targets}
 
-縮放目標資料。 沒有或多個縮放目標屬性，這些屬性可以與縮放檢視器使用者端結合使用。
+缩放目标数据。 没有或多个缩放目标属性，这些属性可以与缩放查看器客户端结合使用。
 
-伺服器傳回此欄位的內容以回應 `req=targets`，取代&#39; `??`&#39;記錄終止元Token。
+服务器返回此字段的内容以响应 `req=targets`，在替换“ `??`&#39;记录终结器令牌。
 
-每個縮放目標最多可以有四個屬性相關聯：
+每个缩放目标最多可以关联四个属性：
 
-` Target. *`數字`*.frame= *`框架`*`
+` Target. *`数字`*.frame= *`框架`*`
 
-` Target. *`數字`*.rect= *`left，top，width，height`*`
+` Target. *`数字`*.rect= *`left，top，width，height`*`
 
-` Target. *`數字`*.label= *`標籤`*`
+` Target. *`数字`*.label= *`标签`*`
 
-` Target. *`數字`*.userData= *`userData`*`
+` Target. *`数字`*.userData= *`userData`*`
 
 <table id="simpletable_4C20157A7A444DEB9959B335CAFBAEC8"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 數字 </span> </span> </p> </td> 
-  <td class="stentry"> <p>縮放目標編號(int)；縮放目標必須從1開始依序連續編號。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 数字 </span> </span> </p> </td> 
+  <td class="stentry"> <p>缩放目标编号(int)；缩放目标必须从1开始按顺序连续编号。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 框架 </span> </span> </p> </td> 
-  <td class="stentry"> <p>選擇性影格/頁碼，用於鎖定迴轉或摺頁集的特定影格/頁面；如果未針對迴轉與摺頁檢視器用途指定，則預設為0；縮放檢視器會略過。 </p> </td> 
+  <td class="stentry"> <p>用于定位旋转或小册子集的特定帧/页的可选帧/页码；如果未指定用于旋转和小册子查看器，则默认为0；缩放查看器将忽略该值。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 左，上 </span> </span> </p> </td> 
-  <td class="stentry"> <p>從影像左上角到縮放目標矩形(int， int)左上角的畫素位移；必須是0或更大。 </p> </td> 
+  <td class="stentry"> <p>从图像的左上角到缩放目标矩形(int， int)左上角的像素偏移；必须为0或更大。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 寬度，高度 </span> </span> </p> </td> 
-  <td class="stentry"> <p>縮放目標矩形(int， int)的畫素大小；必須大於0。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 宽度、高度 </span> </span> </p> </td> 
+  <td class="stentry"> <p>缩放目标矩形(int， int)的像素大小；必须大于0。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 標籤 </span> </span> </p> </td> 
-  <td class="stentry"> <p>文字資料值；可用作縮放目標連結的文字標籤。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 标签 </span> </span> </p> </td> 
+  <td class="stentry"> <p>文本数据值；可用作缩放目标链接的文本标签。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> userData </span> </span> </p> </td> 
-  <td class="stentry"> <p>文字資料值；可用來將目標特定資訊傳遞至使用者端，例如SKU值或快速連結URL。 </p> </td> 
+  <td class="stentry"> <p>文本数据值；可用于向客户端传递目标特定信息，例如SKU值或热链接URL。 </p> </td> 
  </tr> 
 </table>
 
-Target. *`num`*&#x200B;每個縮放目標都需要.rect，而且必須在影像中完全指定一個矩形。 所有其他屬性都是選用的。
+Target. *`num`*&#x200B;每个缩放目标都需要使用.rect，并且必须在图像内完全指定一个矩形。 所有其他属性都是可选的。
 
-*`label`* 和 *`userData`* 參與文字字串本地化。 請參閱 [文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 在 *HTTP通訊協定參考* 以取得詳細資訊。
+*`label`* 和 *`userData`* 参与文本字符串本地化。 请参阅 [文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 在 *HTTP协议参考* 了解详细信息。
 
-對於涉及迴轉和小冊子檢視器使用者端的應用程式，必須在定義影像集的相同目錄記錄中定義縮放目標。 檢視器會忽略影像整合員的目錄記錄中的任何縮放目標定義。
+对于涉及旋转和小册子查看器客户端的应用程序，必须在定义图像集的同一目录记录中定义缩放目标。 查看器将忽略图像集成员的目录记录中的任何缩放目标定义。
 
-Dynamic Media檢視器會使用已透過下列指令調整之完整解析度影像座標中的縮放目標： `catalog::Modifier`.
+Dynamic Media查看器期望全分辨率图像坐标中的缩放目标已由中的命令调整 `catalog::Modifier`.
 
-## 屬性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
+## 属性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
-[屬性資料](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) 值。
+[属性数据](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) 值。
 
 ## 默认 {#section-feab29f6575e482391086a57f547543c}
 
@@ -73,4 +73,4 @@ Dynamic Media檢視器會使用已透過下列指令調整之完整解析度影�
 
 ## 另请参阅 {#section-83dea73b1dbf4aa1b64b0aae2933e6e1}
 
-[catalog：：Imageset](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ， [catalog：：Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)， [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [文字字串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[catalog：：图像集](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ， [catalog：：Modifier](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834)， [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)， [文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

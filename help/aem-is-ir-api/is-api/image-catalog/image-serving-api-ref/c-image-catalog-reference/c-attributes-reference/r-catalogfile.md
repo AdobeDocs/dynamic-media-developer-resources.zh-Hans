@@ -1,7 +1,7 @@
 ---
-description: 影像資料檔案路徑。 指定包含此目錄之影像資料的檔案。
+description: 图像数据文件路径。 指定包含此目录的图像数据的文件。
 solution: Experience Manager
-title: 目錄檔案
+title: 目录文件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
@@ -12,20 +12,20 @@ ht-degree: 3%
 
 ---
 
-# 目錄檔案{#catalogfile}
+# 目录文件{#catalogfile}
 
-影像資料檔案路徑。 指定包含此目錄之影像資料的檔案。
+图像数据文件路径。 指定包含此目录的图像数据的文件。
 
-影像資料檔案會依指定的順序載入。 若相同 `catalog::Id` 值發生在多個記錄中（在相同或不同的目錄檔案中），最後一個例項優先。
+图像数据文件将按指定的顺序加载。 如果相同 `catalog::Id` 值出现在多个记录中（在同一目录文件中或不同目录文件中），最后实例优先。
 
-## 屬性 {#section-6da55f145ecd4e31a5de52637a436983}
+## 属性 {#section-6da55f145ecd4e31a5de52637a436983}
 
-一或多個文字字串值，以逗號分隔。 可选. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
+一个或多个文本字符串值，以逗号分隔。 可选. 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
 
 ## 默认 {#section-80f91cd7a6b2479ebb310319e9c74da7}
 
-空白，表示此影像目錄不包含任何影像資料。
+为空，表示此图像目录不包含任何图像数据。
 
 ## 另请参阅 {#section-910b67c5041d44d99a105ad43ff63a37}
 
-[目錄資料欄位](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)
+[目录数据字段](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)

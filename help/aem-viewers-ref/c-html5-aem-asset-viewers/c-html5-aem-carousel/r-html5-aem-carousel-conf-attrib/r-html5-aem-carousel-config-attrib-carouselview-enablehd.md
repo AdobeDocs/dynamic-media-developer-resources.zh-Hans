@@ -19,17 +19,17 @@ ht-degree: 5%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 一律|永不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 啟用、限制或停用裝置的最佳化，其中 <span class="codeph"> devicePixelRatio</span> 大於 <span class="codeph"> 1</span>，也就是具有高密度顯示器的裝置，例如iPhone4和類似裝置。 </p> <p>如果啟用，則元件會限制IS影像請求的大小，彷彿裝置的畫素比僅為 <span class="codeph"> 1</span> 進而減少頻寬。 </p> <p>請參閱以下範例。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 始终|从不|限制</span> </p> </td> 
+   <td colname="col2"> <p> 启用、限制或禁用设备优化，其中 <span class="codeph"> devicePixelRatio</span> 大于 <span class="codeph"> 1</span>，即配备高密度显示器的设备，如iPhone4和类似设备。 </p> <p>如果激活，则组件限制IS图像请求的大小，就像设备只有像素比一样 <span class="codeph"> 1</span> 这样就可以减少带宽。 </p> <p>请参阅以下示例。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数字</span></span> </p> </td> 
-   <td colname="col2"> <p> 若使用 <span class="codeph"> 限制</span> 設定時，元件僅會啟用指定上限的高畫素密度。 </p> <p>請參閱以下範例。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 <span class="codeph"> 限制</span> 设置时，组件启用高像素密度，但最多只能达到指定的限制。 </p> <p>请参阅以下示例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

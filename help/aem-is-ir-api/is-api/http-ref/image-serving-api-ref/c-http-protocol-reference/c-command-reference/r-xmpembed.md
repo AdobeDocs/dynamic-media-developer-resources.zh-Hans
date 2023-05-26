@@ -1,5 +1,5 @@
 ---
-description: 內嵌XMP中繼資料。 指定是否應在回應影像中包含XMP中繼資料。
+description: 嵌入XMP元数据。 指定是否应在响应图像中包含XMP元数据。
 solution: Experience Manager
 title: xmpEmbed
 feature: Dynamic Media Classic,SDK/API
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # xmpEmbed{#xmpembed}
 
-內嵌XMP中繼資料。 指定是否應在回應影像中包含XMP中繼資料。
+嵌入XMP元数据。 指定是否应在响应图像中包含XMP元数据。
 
 `xmpEmbed=0|1`
 
 >[!NOTE]
 >
->XMP資料會從來源影像傳遞至回應影像，而不會進行修改。 這可能會導致回應影像中嵌入了不正確的資料。
+>XMP数据无需修改即可从源图像传递到响应图像。 这可能会导致在响应图像中嵌入不正确的数据。
 
-## 屬性 {#section-27024c4272f44d9a8c264a0629193af2}
+## 属性 {#section-27024c4272f44d9a8c264a0629193af2}
 
-要求屬性。 如果來源影像不包含XMP資料，則忽略。 僅來自來源影像的XMP資料 `layer=0` 都會被處理。 會忽略其他圖層影像的XMP資料。
+请求属性。 如果源图像不包含XMP数据，则忽略。 仅来自的源图像的XMP数据 `layer=0` 都会被处理。 来自其他层图像的XMP数据将被忽略。
 
-如果輸出影像格式不支援XMP內嵌，則忽略。 請參閱 `fmt=` 以取得支援XMP內嵌的輸出影像格式清單。
+如果输出图像格式不支持XMP嵌入，则忽略。 请参阅 `fmt=` 以获取支持XMP嵌入的输出图像格式列表。
 
 ## 默认 {#section-aedbedd04d664ba184b2cfe35644b960}
 
-`xmpEmbed=0`，不會將路徑內嵌在輸出影像中。
+`xmpEmbed=0`，以便在输出图像中不会嵌入路径。
 
 ## 另请参阅 {#section-0b5b7d0a19564101ba7102e667e29828}
 

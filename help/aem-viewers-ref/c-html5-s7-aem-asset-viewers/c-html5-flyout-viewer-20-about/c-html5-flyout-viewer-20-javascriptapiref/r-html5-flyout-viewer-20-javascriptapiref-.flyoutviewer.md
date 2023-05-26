@@ -1,6 +1,6 @@
 ---
-title: FlyoutViewer
-description: 彈出式檢視器的JavaScript API參考。
+title: 弹出查看器
+description: 适用于弹出查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 3%
 
 ---
 
-# FlyoutViewer{#flyoutviewer}
+# 弹出查看器{#flyoutviewer}
 
-彈出式檢視器的JavaScript API參考。
+适用于弹出查看器的JavaScript API参考。
 
 `FlyoutViewer([config])`
 
-建構函式；建立彈出式檢視器例項。
+构造函数；创建弹出查看器实例。
 
 ## 参数 {#section-8bc3d1424c8444f193716fc8d9975765}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 設定 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 選用的JSON設定物件，可讓所有檢視器設定傳遞至建構函式，並避免呼叫個別setter方法。 包含以下屬性： </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 可选的JSON配置对象，允许所有查看器设置传递到构造函数，并避免调用单独的setter方法。 包含以下属性： </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> DOM容器的ID (通常是 <span class="codeph"> DIV </span>)，即可將檢視器插入其中。 不需要在呼叫此方法時建立容器元素。 不過，容器必須存在於 <span class="codeph"> init() </span> 執行前填入。 必需. </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> 引數 </span> - <span class="codeph"> {Object} </span> 具有檢視器組態引數的JSON物件，其中屬性名稱是檢視器特定的組態選項或SDK修飾元，而該屬性的值是對應的設定值。 必需. </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> 處理常式 </span> - <span class="codeph"> {Object} </span> 具有檢視器事件回呼的JSON物件，其中屬性名稱是支援的檢視器事件的名稱，屬性值是對適當回呼的JavaScript函式參照。 可选. <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 事件回呼 </a> 以取得檢視器事件的詳細資訊。 </p> </li> 
-      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedText </span> - { <span class="codeph"> 物件 </span>} JSON物件包含本地化資料。 可选. </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 使用者介面元素的本地化 </a> 以取得詳細資訊。 </p> <p>請參閱 <i>檢視器SDK使用手冊</i> 和範例，以取得物件內容的詳細資訊。 可选. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> DOM容器的ID(通常为 <span class="codeph"> DIV </span>)，查看器将插入其中。 无需在调用此方法时创建容器元素。 但是，在以下情况下必须存在容器： <span class="codeph"> init() </span> 运行。 必需. </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> 参数 </span> - <span class="codeph"> {Object} </span> 具有查看器配置参数的JSON对象，其中属性名称是查看器特定的配置选项或SDK修饰符，该属性的值是相应的设置值。 必需. </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> 处理程序 </span> - <span class="codeph"> {Object} </span> 具有查看器事件回调的JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 可选. <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 事件回调 </a> 以了解有关查看器事件的更多信息。 </p> </li> 
+      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedText </span> - { <span class="codeph"> 对象 </span>} JSON对象和本地化数据。 可选. </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 用户界面元素的本地化 </a> 了解更多信息。 </p> <p>请参阅 <i>Viewer SDK用户指南</i> 和示例，以了解有关对象内容的更多信息。 可选. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

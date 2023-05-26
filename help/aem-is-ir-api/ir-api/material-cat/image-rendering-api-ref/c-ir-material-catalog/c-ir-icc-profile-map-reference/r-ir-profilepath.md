@@ -1,7 +1,7 @@
 ---
-description: 設定檔檔案路徑。 ICC色彩設定檔檔案的路徑和名稱，包括檔案字尾。
+description: 配置文件路径。 ICC颜色配置文件文件的路径和名称，包括文件后缀。
 solution: Experience Manager
-title: 設定檔路徑
+title: 配置文件路径
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
@@ -12,13 +12,13 @@ ht-degree: 9%
 
 ---
 
-# 設定檔路徑{#profilepath}
+# 配置文件路径{#profilepath}
 
-設定檔檔案路徑。 ICC色彩設定檔檔案的路徑和名稱，包括檔案字尾。
+配置文件路径。 ICC颜色配置文件文件的路径和名称，包括文件后缀。
 
-## 屬性 {#section-5b75d459083f49f3bbd89ce8458559f7}
+## 属性 {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-文字字串。 必需. 必須為有效的影像伺服器檔案路徑，絕對或相對於 `attribute::RootPath`.
+文本字符串。 必需. 必须是有效的图像服务器文件路径，可以是绝对路径，也可以是相对路径 `attribute::RootPath`.
 
 ## 默认 {#section-67b79d62b3e24c62aff6844cc5e04251}
 

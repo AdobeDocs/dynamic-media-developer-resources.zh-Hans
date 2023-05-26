@@ -1,7 +1,7 @@
 ---
-description: 說明IPS API 4.5版的新資料和變更資料型別。
+description: 介绍IPS API版本4.5的新数据类型和更改的数据类型。
 solution: Experience Manager
-title: 新增和修改的資料型別
+title: 新数据类型和修改的数据类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# 資料型別：新增和修改{#data-types-new-and-modified}
+# 数据类型：新增和已修改{#data-types-new-and-modified}
 
-說明IPS API 4.5版的新資料和變更資料型別。
+介绍IPS API版本4.5的新数据类型和更改的数据类型。
 
 语法
 
-## 新型別 {#section-6941b228cf6747a987e98c3d6e4b6b17}
+## 新类型 {#section-6941b228cf6747a987e98c3d6e4b6b17}
 
 * `AssetSummary`
 * `AssetSummaryArray`
@@ -39,12 +39,12 @@ ht-degree: 3%
 * `TagValueUpdateFaultArray`
 * `UrlArray`
 
-## 修改型別 {#section-6ecdf752cc1a4636a583b4c546a0fccf}
+## 已修改类型 {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* 資產包含新的 `fileName` 傳回虛擬檔案名稱的欄位。
-* `AssetSummary` 傳回 `type` 和 `name` 欄位
+* 资产包含新的 `fileName` 返回虚拟文件名的字段。
+* `AssetSummary` 返回 `type` 和 `name` 字段
 
 * `MetadataField` 包括 `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` 需要 `urlArray` 並新增選用的 `numUrls` count
+* `UploadUrlsJob` 需要 `urlArray` 并添加一个可选 `numUrls` count

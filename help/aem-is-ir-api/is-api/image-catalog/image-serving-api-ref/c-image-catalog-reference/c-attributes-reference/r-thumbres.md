@@ -1,7 +1,7 @@
 ---
-description: 預設縮圖解析度。 提供縮圖物件解析度的預設值，以防止特定目錄記錄未包含有效的目錄ThumbRes值。
+description: 默认缩略图分辨率。 提供特定目录记录中不包含有效目录ThumbRes值时的缩略图对象分辨率默认值。
 solution: Experience Manager
-title: 縮圖
+title: 缩略图
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
@@ -12,20 +12,20 @@ ht-degree: 3%
 
 ---
 
-# 縮圖{#thumbres}
+# 缩略图{#thumbres}
 
-預設縮圖解析度。 提供縮圖物件解析度的預設值，以防止特定目錄記錄未包含有效的目錄：：ThumbRes值。
+默认缩略图分辨率。 提供特定目录记录中不包含有效catalog：：ThumbRes值时的缩略图对象分辨率默认值。
 
-僅用於縮圖要求( `req=tmb`)和時間 `catalog::ThumbType=3`.
+仅用于缩略图请求( `req=tmb`)和时间 `catalog::ThumbType=3`.
 
-## 屬性 {#section-88d37d0e030f4879a9e584dd2cc780f3}
+## 属性 {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
-實數，大於0。通常以畫素/英吋表示，但也可能是其他單位，例如每米的畫素。
+实数，大于0。通常以每英寸像素数表示，但也可能以其他单位表示，如每米像素数。
 
 ## 默认 {#section-86588899ec9b4276a98b03d7faf64003}
 
-繼承自 `default::ThumbRes` 如果未定義或為空。
+继承自 `default::ThumbRes` 如果未定义或为空。
 
 ## 另请参阅 {#section-a6d2cce2e404441a996dba98a95c8e16}
 
-[目錄：：ThumbRes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69)
+[目录：：ThumbRes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69)

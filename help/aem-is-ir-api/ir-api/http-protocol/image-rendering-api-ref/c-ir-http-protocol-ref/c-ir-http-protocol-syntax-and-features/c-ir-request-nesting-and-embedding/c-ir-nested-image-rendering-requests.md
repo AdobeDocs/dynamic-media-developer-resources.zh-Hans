@@ -1,6 +1,6 @@
 ---
-title: 巢狀影像演算請求
-description: 對於進階應用程式，可以將轉譯作業的結果當做材質影像使用，就像從「影像伺服」取得的影像一樣。
+title: 嵌套图像渲染请求
+description: 对于高级应用，可以将渲染操作的结果用作材料图像，就像从图像服务获得的图像一样。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# 巢狀影像演算請求{#nested-image-rendering-requests}
+# 嵌套图像渲染请求{#nested-image-rendering-requests}
 
-對於進階應用程式，可以將轉譯作業的結果當做材質影像使用，就像從「影像伺服」取得的影像一樣。
+对于高级应用，可以将渲染操作的结果用作材料图像，就像从图像服务获得的图像一样。
 
-轉譯請求可透過在 `src=` 命令，如下所示：
+渲染请求可通过在 `src=` 命令，如下所示：
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-此 `ir` Token區分大小寫。
+此 `ir` 令牌区分大小写。
 
-巢狀請求不得包含影像演算根路徑(通常是 `http:// *[!DNL server]*/ir/render/'`)，但可能包含預先處理規則Token。
+嵌套请求不得包含图像渲染根路径(通常 `http:// *[!DNL server]*/ir/render/'`)，但可能包括预处理规则令牌。
 
-在巢狀請求中指定時(在請求url中或在 `catalog::Modifier` 或 `catalog::PostModifier`)：
+在嵌套请求(在请求url中或在 `catalog::Modifier` 或 `catalog::PostModifier`)：
 
 * `fmt=`
 * `qlt=`
@@ -34,6 +34,6 @@ ht-degree: 0%
 * `req=`
 * `bgc=`
 
-同樣被忽略的是 `attribute::MaxPix` 和 `attribute::DefaultPix` 套用至巢狀轉譯器請求的材質目錄的。
+同样被忽略的是 `attribute::MaxPix` 和 `attribute::DefaultPix` 应用于嵌套渲染请求的材质目录的内容。
 
-可選擇快取巢狀IR要求的影像結果，方法是包含 `cache=on`. 依預設，會停用中繼資料的快取。 只有在合理時段內不同的請求中重複使用中間影像時，才應啟用快取。 標準伺服器端快取管理適用。 資料會以無損格式快取。
+可以选择性地缓存嵌套IR请求的图像结果，方法是： `cache=on`. 默认情况下，将禁用中间数据缓存。 仅当在合理的时间段内在不同的请求中重用中间图像时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式缓存。

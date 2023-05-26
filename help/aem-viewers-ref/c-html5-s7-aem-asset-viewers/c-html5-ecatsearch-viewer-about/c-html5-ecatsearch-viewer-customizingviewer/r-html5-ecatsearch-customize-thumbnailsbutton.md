@@ -1,6 +1,6 @@
 ---
-title: 「縮圖」按鈕
-description: 選取此按鈕會重設檢視器在主要檢視和縮圖之間切換。 此按鈕會出現在主控制列中。 您可以使用CSS調整此按鈕的大小、外觀和位置。
+title: “缩略图”按钮
+description: 选择此按钮会重置主视图和缩略图之间的查看器。 此按钮显示在主控制栏中。 您可以使用CSS调整此按钮的大小、外观和位置。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,60 +12,60 @@ ht-degree: 1%
 
 ---
 
-# 「縮圖」按鈕{#thumbnails-button}
+# “缩略图”按钮{#thumbnails-button}
 
-選取此按鈕會重設檢視器在主要檢視和縮圖之間切換。 此按鈕會出現在主控制列中。 您可以使用CSS調整此按鈕的大小、外觀和位置。
+选择此按钮会重置主视图和缩略图之间的查看器。 此按钮显示在主控制栏中。 您可以使用CSS调整此按钮的大小、外观和位置。
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**主要檢視器區域的CSS屬性**
+**主查看器区域的CSS属性**
 
-按鈕的外觀由下列CSS類別選取器控制：
+使用以下CSS类选择器控制按钮的外观：
 
 `.s7ecatalogsearchviewer .s7thumbnailpagebutton`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
-   <td colname="col2"> <p> 從控制列頂端的位移。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col2"> <p> 从控制栏顶部的偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
-   <td colname="col2"> <p> 左邊下一個按鈕的距離，如果這個按鈕是列中的第一個按鈕，則為控制列左邊的距離。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col2"> <p> 与左侧的下一个按钮的距离，如果这是一个连续第一个按钮，则为控制栏左侧的距离。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的高度。 </p> </td> 
+   <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕同時支援 `state` 和 `selected` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `selected='true'` 對應至縮圖模式為作用中狀態時的檢視器狀態，並且 `selected='false'` 與主檢視的預設狀態相對應。
+>此按钮同时支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于缩略图模式为活动状态时的查看器状态，并且 `selected='false'` 与主视图的默认状态相对应。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
 
-範例 — 若要設定縮圖按鈕，其大小為28 x 28畫素，且位於主控制列下方4畫素和左邊緣5畫素的位置。 最後，選取或未選取時，針對四種不同按鈕狀態顯示不同的影像。
+示例 — 设置一个缩览图按钮，其大小为28 x 28像素，位于距主控栏底部4像素和距左边缘5像素的位置。 最后，在选中或未选中时，为四个不同的按钮状态中的每一个显示不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailpagebutton{ 

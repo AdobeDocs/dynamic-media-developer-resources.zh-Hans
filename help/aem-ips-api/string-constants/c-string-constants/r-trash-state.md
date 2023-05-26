@@ -1,7 +1,7 @@
 ---
 description: 由searchAssetReturn/trashState使用。
 solution: Experience Manager
-title: 垃圾桶狀態
+title: 垃圾桶状态
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d7380-127e-48ef-808f-5aa36bf2c665
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# 垃圾桶狀態{#trash-state}
+# 垃圾桶状态{#trash-state}
 
 由searchAssetReturn/trashState使用。
 

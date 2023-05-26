@@ -1,7 +1,7 @@
 ---
-description: 字型檔案路徑。 主要字型檔案的路徑和名稱，包括檔案字尾。
+description: 字体文件路径。 主体字体文件的路径和名称，包括文件后缀。
 solution: Experience Manager
-title: 字型路徑
+title: 字体路径
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 251ded53-47db-4855-a40b-7078dfc24d87
@@ -12,13 +12,13 @@ ht-degree: 9%
 
 ---
 
-# 字型路徑{#fontpath}
+# 字体路径{#fontpath}
 
-字型檔案路徑。 主要字型檔案的路徑和名稱，包括檔案字尾。
+字体文件路径。 主体字体文件的路径和名称，包括文件后缀。
 
-## 屬性 {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
+## 属性 {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-文字字串。 必需. 必須是有效的影像伺服器檔案路徑，絕對或相對於 `attribute::RootPath`.
+文本字符串。 必需. 必须为有效的图像服务器文件路径，可以是绝对路径，也可以是相对路径 `attribute::RootPath`.
 
 ## 默认 {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 

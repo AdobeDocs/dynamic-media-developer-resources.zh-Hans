@@ -1,7 +1,7 @@
 ---
-description: 主影像色彩。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
+description: 主图像颜色。 减色颜色，用于纹理上色。 应为纹理图像中的平均主色。
 solution: Experience Manager
-title: 基本色彩
+title: 基色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
@@ -12,15 +12,15 @@ ht-degree: 5%
 
 ---
 
-# 基本色彩{#basecolor}
+# 基色{#basecolor}
 
-主影像色彩。 減色顏色，用於紋理上色。 應該是紋理影像中的平均主色。
+主图像颜色。 减色颜色，用于纹理上色。 应为纹理图像中的平均主色。
 
-您也可以使用 `BaseColor`作為填色顏色，如果紋理材料沒有 `catalog::Color` 套用至不可紋理化的暈映物件。
+您还可以使用 `BaseColor`作为填充颜色（如果纹理材料没有） `catalog::Color` 应用于不可纹理的晕影对象。
 
-## 屬性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
+## 属性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-颜色. 被純色和機櫃材料忽略。
+颜色. 已被纯色和机箱材料忽略。
 
 ## 默认 {#section-ca1813a6fcb24645b5835af0891b279d}
 

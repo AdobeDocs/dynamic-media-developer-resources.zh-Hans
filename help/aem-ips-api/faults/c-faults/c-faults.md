@@ -1,7 +1,7 @@
 ---
-description: 錯誤
+description: 故障
 solution: Experience Manager
-title: 錯誤
+title: 故障
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d6bcd1d-2ca9-4f05-bb41-7d0be09aa1c7
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 錯誤{#faults}
+# 故障{#faults}
 
 * [authenticationFault](r-authentication-fault.md)
 * [authorizationFault](r-authorization-fault.md)

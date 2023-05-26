@@ -22,12 +22,12 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> 指定相對於色票縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於色票縮圖的指定位置為中心。 時間 <span class="codeph"> 工具提示</span> 已指定，不會繪製任何標籤。 </p> </td> 
+   <td> <p> 指定相对于样本缩略图图像绘制标签的位置。 即，标签在相对于样本缩略图的指定位置正中。 时间 <span class="codeph"> 工具提示</span> 指定，不绘制标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

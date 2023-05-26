@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.preload
-description: 指出檢視器是否在播放開始之前開始載入視訊內容。
+description: 指示查看器是否在播放开始之前开始加载视频内容。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # VideoPlayer.preload{#videoplayer-preload}
 
-指出檢視器是否在播放開始之前開始載入視訊內容。
+指示查看器是否在播放开始之前开始加载视频内容。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]preload=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 若設為 <span class="codeph"> 1 </span> 視訊會在設定資產後立即開始下載，否則只有在使用者起始播放或API呼叫後，才會開始預先載入。 </p> <p>若設為 <span class="codeph"> 0 </span> 某些功能可能要在播放開始後才能運作；具體而言，搜尋作業不會更新視訊影格。 如果停用海報影像，檢視器會顯示為空白區域，而非第一個視訊影格。 </p> <p>某些版本的Internet Explorer 11和Edge瀏覽器可能會忽略停用視訊預先載入。 </p> </td> 
+   <td colname="col2"> <p> 如果设置为 <span class="codeph"> 1 </span> 设置资源后，视频就会开始下载；否则，只有在最终用户启动播放或API调用后，才会开始预加载。 </p> <p>如果设置为 <span class="codeph"> 0 </span> 某些功能在播放开始之前可能无法正常工作；具体而言，搜寻操作不会更新视频帧。 如果禁用了海报图像，则查看器将显示为空区域，而不是第一个视频帧。 </p> <p>某些版本的Internet Explorer 11和Edge浏览器可能会忽略禁用视频预加载。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

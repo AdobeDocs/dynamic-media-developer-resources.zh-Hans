@@ -1,7 +1,7 @@
 ---
-description: 將資產對應至資產標示為要發佈的PublishContexts。
+description: 将资源映射到将资源标记为发布的PublishContexts。
 solution: Experience Manager
-title: AssetPublishContexts
+title: AssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-將資產對應至資產標示為要發佈的PublishContexts。
+将资源映射到将资源标记为发布的PublishContexts。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 9%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 處理資產。 |
-| publishContextArray | `types:PublishContextArray` | 資產標示為要發佈的發佈內容陣列。 |
+| assetHandle | `xsd:string` | 处理资源。 |
+| publishContextArray | `types:PublishContextArray` | 一个发布上下文数组，其中资产被标记为发布。 |

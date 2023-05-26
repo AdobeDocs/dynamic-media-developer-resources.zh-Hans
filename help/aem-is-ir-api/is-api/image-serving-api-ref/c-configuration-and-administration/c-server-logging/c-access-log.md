@@ -1,7 +1,7 @@
 ---
-description: 這是主要記錄，用於追蹤對發出的所有HTTP請求 [!DNL Platform Server]. 影像演算（如果已啟用）會將其存取記錄檔資料寫入相同的檔案。
+description: 这是主要日志，用于跟踪向 [!DNL Platform Server]. 图像渲染（如果已启用）将其访问日志数据写入同一文件。
 solution: Experience Manager
-title: 存取記錄
+title: 访问日志
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# 存取記錄{#access-log}
+# 访问日志{#access-log}
 
-這是主要記錄，用於追蹤對發出的所有HTTP請求 [!DNL Platform Server]. 影像演算（如果已啟用）會將其存取記錄檔資料寫入相同的檔案。
+这是主要日志，用于跟踪向 [!DNL Platform Server]. 图像渲染（如果已启用）将其访问日志数据写入同一文件。
 
-存取記錄檔是在server.xml中設定。
+在server.xml中配置访问日志。
 
 >[!NOTE]
 >
->除了影像伺服的使用者端流量以外( [!DNL /is/image/*])和影像演算( [!DNL /ir/render/*])，則存取記錄檔可能包含特定內部流量：存取 [!DNL Platform Server] 目錄系統( [!DNL /is-catalog/*])，快取共用和錯誤重新導向請求( [!DNL /is/cache/*])，存取部署至的其他套件 [!DNL Platform Server]，例如Dynamic Media Viewers ( [!DNL /is-viewers/*])，靜態流量和靜態內容請求由提供服務 [!DNL Platform Server] (例如： [!DNL /is-docs/*])。
+>除了图像服务的客户端流量之外( [!DNL /is/image/*])和图像渲染( [!DNL /ir/render/*])，则访问日志可能包括某些内部流量：访问 [!DNL Platform Server] 目录系统( [!DNL /is-catalog/*])，缓存共享和错误重定向请求( [!DNL /is/cache/*])，访问部署到的其他包 [!DNL Platform Server]，例如Dynamic Media查看器( [!DNL /is-viewers/*])，由提供的静态流量和静态内容请求 [!DNL Platform Server] (例如， [!DNL /is-docs/*])。
 
-請求 [!DNL /is-catalog] 和 [!DNL /is/cache] 根路徑應一律從任何使用者端流量分析中排除。
+请求 [!DNL /is-catalog] 和 [!DNL /is/cache] 根路径应始终从任何客户端流量分析中排除。

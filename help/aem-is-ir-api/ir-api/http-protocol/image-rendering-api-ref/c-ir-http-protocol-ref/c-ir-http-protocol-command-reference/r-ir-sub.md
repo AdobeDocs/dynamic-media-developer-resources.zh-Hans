@@ -1,6 +1,6 @@
 ---
 title: sub
-description: 子選取範圍。 允許將不同的材料套用至所選物件或群組的不同區域，並移除先前套用的材料。
+description: 子选择。 允许将不同的材料应用到所选对象或组的不同区域，并移除先前应用的材料。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,44 +14,44 @@ ht-degree: 7%
 
 # sub{#sub}
 
-子選取範圍。 允許將不同的材料套用至所選物件或群組的不同區域，並移除先前套用的材料。
+子选择。 允许将不同的材料应用到所选对象或组的不同区域，并移除先前应用的材料。
 
 `sub=0|1|2|3|4|5`
 
 <table id="simpletable_F6BF91BD2C4B47BF8A28032E392D37F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>選取整個壁。 </p> </td> 
+  <td class="stentry"> <p>选取整个壁。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>選取壁的上半部。 </p> </td> 
+  <td class="stentry"> <p>选择壁的上半部。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>選取壁的下半部。 </p> </td> 
+  <td class="stentry"> <p>选择壁的下半部。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>選取頂端壁框線區域。 </p> </td> 
+  <td class="stentry"> <p>选择顶壁边框区域。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選取中壁邊框區域。 </p> </td> 
+  <td class="stentry"> <p>选择中壁边框区域。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>選取下壁邊框區域。 </p> </td> 
+  <td class="stentry"> <p>选择下壁边框区域。 </p> </td> 
  </tr> 
 </table>
 
-目前僅支援壁物件。 終止先前MSS並起始要套用至指定次選取之材料的新MSS。
+当前仅支持墙对象。 终止先前的MSS并为要应用于指定子选区的材料启动新的MSS。
 
-為上壁或下壁指定的材料會套用至整個壁，除非另外為另一半壁指定了不同的材料。
+为上壁或下壁指定的材料应用于整个壁，除非为另一半壁指定了不同的材料。
 
-## 屬性 {#section-b202139d6d0847cc8d520a154104ab9d}
+## 属性 {#section-b202139d6d0847cc8d520a154104ab9d}
 
-選取範圍指令；MSS分隔符號。
+选择命令；MSS分隔符。
 
 ## 默认 {#section-5b45a167a17c451596e4c59b7d53c368}
 

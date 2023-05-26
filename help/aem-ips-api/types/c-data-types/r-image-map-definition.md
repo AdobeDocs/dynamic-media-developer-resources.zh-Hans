@@ -1,5 +1,5 @@
 ---
-description: 瀏覽器中點選動作的目標定義。
+description: 浏览器中点击操作的目标定义。
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageMapDefinition]{#imagemapdefinition}
 
-瀏覽器中點選動作的目標定義。
+浏览器中点击操作的目标定义。
 
 语法
 
@@ -22,8 +22,8 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 名称 | `xsd:string` | 影像地圖定義的名稱。 |
-| shapeType | `xsd:string` | 區域形狀值之一。 |
-| 地区 | `xsd:string` | 影像地圖座標。 格式以HTML為基礎 `<area>` 標籤屬性。 |
-| 操作 | `xsd:string` | 要包含在HTML中的其他屬性 `<area>` 標籤，包括 `href` URL。 |
-| 已启用 | `xsd:boolean` | 如果影像地圖已啟用，則為True。 |
+| 名称 | `xsd:string` | 图像映射定义的名称。 |
+| shapetype | `xsd:string` | 区域形状值之一。 |
+| 地区 | `xsd:string` | 图像映射坐标。 格式基于HTML `<area>` 标记属性。 |
+| 操作 | `xsd:string` | 要包含在HTML中的其他属性 `<area>` 标记，包括 `href` URL。 |
+| 已启用 | `xsd:boolean` | 如果启用了图像映射，则为True。 |

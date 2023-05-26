@@ -1,5 +1,5 @@
 ---
-description: 預設物件解析度。 提供預設物件解析度，以防止特定目錄記錄未包含有效的目錄解析度值。
+description: 默认对象分辨率。 提供特定目录记录中不包含有效目录分辨率值时的默认对象分辨率。
 solution: Experience Manager
 title: 分辨率
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # 分辨率{#resolution}
 
-預設物件解析度。 提供預設物件解析度，以防止特定目錄記錄未包含有效的catalog：：Resolution值。
+默认对象分辨率。 提供特定目录记录中不包含有效catalog：：Resolution值时的默认对象分辨率。
 
-## 屬性 {#section-1f65ea81c3324781af17d0321facbd19}
+## 属性 {#section-1f65ea81c3324781af17d0321facbd19}
 
-大於0的實數。 通常以畫素/英吋表示，但也可能是其他單位，例如每米的畫素。
+实数，大于0。 通常以每英寸像素数表示，但也可能以其他单位表示，例如每米像素数。
 
 ## 默认 {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-繼承自 `default::Resolution` 如果未定義或為空。
+继承自 `default::Resolution` 如果未定义或为空。
 
 ## 另请参阅 {#section-dffa1f318fd84833b74d08d09c24c974}
 

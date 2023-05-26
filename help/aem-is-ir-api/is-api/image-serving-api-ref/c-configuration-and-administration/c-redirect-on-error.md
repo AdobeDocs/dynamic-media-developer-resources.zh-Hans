@@ -1,7 +1,7 @@
 ---
-description: IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
+description: 可以将IS服务器配置为故障切换到备用服务器来处理涉及无法成功打开或读取的源映像的请求。
 solution: Experience Manager
-title: 發生錯誤時重新導向
+title: 出错时重定向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 ---
 
-# 發生錯誤時重新導向{#redirect-on-error}
+# 出错时重定向{#redirect-on-error}
 
-IS伺服器可設定成容錯移轉至替代伺服器，以處理涉及無法成功開啟或讀取之來源影像的要求。
+可以将IS服务器配置为故障切换到备用服务器来处理涉及无法成功打开或读取的源映像的请求。
 
-系統會重新導向下列型別的請求：
+重定向以下类型的请求：
 
-* IS目錄中的影像，但不在磁碟上。
+* IS目录中的映像，但不在磁盘上。
 
-   如果影像不在目錄中，則在找不到影像時，不應發生錯誤重新導向。
+   如果图像不在目录中，则在找不到图像时不应发生错误重定向。
 
-* 損毀的影像、色彩設定檔或字型。
-* 磁碟上找不到靜態內容。
+* 损坏的图像、颜色配置文件或字体。
+* 在磁盘上找不到静态内容。
 
-   在磁碟上找不到靜態內容請求時，即使參考的靜態內容沒有目錄記錄，也會重新導向靜態內容請求。
+   如果在磁盘上找不到静态内容请求，则会重定向该请求，即使引用的静态内容没有目录记录也是如此。
 
-錯誤重新導向在任何其他情況下都不會發生。
+错误重定向在任何其他情况下都不会发生。
 
-當啟用並在處理請求期間發生這類錯誤時，主要伺服器會將請求傳送至次要伺服器以進行處理。 然後會直接將回應轉送給使用者端，無論回應是指示成功還是失敗。 主要伺服器會使用快取來標籤此類轉送請求的記錄專案 `REMOTE`. 主要伺服器不會在本機快取回應資料。
+启用并在处理请求期间发生此类错误时，主服务器会将请求发送到辅助服务器进行处理。 无论响应是指示成功还是失败，该响应都将直接转发到客户端。 主服务器使用缓存标记此类转发请求的日志条目 `REMOTE`. 主服务器不会将响应数据缓存在本地。
 
-錯誤重新導向功能已透過設定啟用 `PS::errorRedirect.rootUrl` 至次要伺服器的HTTP網域名稱和連線埠號碼。 此外，連線逾時設定為 `PS::errorRedirect.connectTimeout` 以及主要伺服器等待次要伺服器回應至使用者端傳回錯誤的最長時間，已設定為 `PS::errorRedirect.socketTimeout`.
-
->[!NOTE]
->
->如果無法連絡次要伺服器，則會傳回文字錯誤回應給使用者端，即使已設定預設影像或錯誤影像亦然。
+错误重定向通过设置启用 `PS::errorRedirect.rootUrl` 到从属服务器的HTTP域名和端口号。 此外，连接超时配置为 `PS::errorRedirect.connectTimeout` 以及主服务器在向客户端返回错误之前等待从服务器响应的最长时间，配置为 `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->網路路徑中的垂直號字元(|)不支援錯誤重新導向。
+>如果无法连接从属服务器，则即使配置了默认映像或错误映像，也会向客户端返回文本错误响应。
+
+>[!NOTE]
+>
+>网络路径中的管道字符(|)不支持错误重定向。
 
 ## 另请参阅 {#section-2e8bfc128b944baf8108279d16492f3f}
 
-[錯誤重新導向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)
+[错误重定向](../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md#reference-268b1bf6ce1b44bb979727c6f5daf1ac)

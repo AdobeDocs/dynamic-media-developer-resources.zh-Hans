@@ -1,7 +1,7 @@
 ---
-description: 請將這些伺服器設定用於伺服器快取。
+description: 将这些服务器设置用于服务器缓存。
 solution: Experience Manager
-title: 伺服器快取
+title: 服务器缓存
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# 伺服器快取{#server-caches}
+# 服务器缓存{#server-caches}
 
-請將這些伺服器設定用於伺服器快取。
+将这些服务器设置用于服务器缓存。
 
-## PS：：cache.rootPaths — 快取資料夾 {#section-f0aa808304d74ecdb0c3644f11906c53}
+## PS：：cache.rootPaths — 缓存数据文件夹 {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-的根資料夾 [!DNL Platform Server]的磁碟快取。 一個或多個絕對檔案路徑或相對於 *[!DNL install_folder]*，以分號(；)分隔。 HTTP回應快取的資料會平均分配到所有指定的資料夾。 輔助快取（編譯的影像目錄和外部影像資料）的快取位於主要快取資料夾（清單中的第一個資料夾）中。
+的根文件夹 [!DNL Platform Server]的磁盘缓存。 一个或多个绝对文件路径或相对于 *[!DNL install_folder]*，以分号(；)分隔。 HTTP响应缓存的数据均匀地分布在所有指定的文件夹中。 辅助高速缓存（编译的图像目录和外来图像数据）的高速缓存位于主高速缓存文件夹（列表中的第一个文件夹）中。
 
-## PS：：cache.maxSize — 回應資料快取大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
+## PS：：cache.maxSize — 响应数据缓存大小 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP回應快取的大小上限（位元組）。 此設定會限制要快取的實際資料量；不會考慮檔案系統額外負荷。 (請參閱 [回應資料快取](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) 如果指定了多個快取資料夾，則快取資料會平均分佈在所有資料夾中。 的值 `cache.maxSize` 在 [!DNL PlatformServer.conf] 以位元組為單位。
+HTTP响应缓存的最大大小（字节）。 此设置限制要缓存的实际数据量；不考虑文件系统开销。 (请参阅 [响应数据缓存](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) 如果指定了多个缓存数据文件夹，则缓存数据会平均分布在所有文件夹中。 的值 `cache.maxSize` 在 [!DNL PlatformServer.conf] 以字节为单位。
 
-## PS：：cache.maxEntries — 回應資料快取專案上限 {#section-5603e327e90542a5b50aeeb27b080410}
+## PS：：cache.maxEntries — 响应数据缓存最大条目数 {#section-5603e327e90542a5b50aeeb27b080410}
 
-配置給記憶體內HTTP回應快取索引的專案數。
-
->[!NOTE]
->
->在Linux上，請確定為快取分割區分配了足夠的i-node，以避免i-node用完。
-
-## IS：：TempDirectory — 影像伺服器暫存檔資料夾 {#section-42ea1e7a68c444878f7245c5bbcb1672}
-
-Image Server偶爾需要將中繼資料儲存至磁碟。 路徑可以是絕對或相對於 *[!DNL install_folder]*.
+为内存中HTTP响应缓存索引分配的条目数。
 
 >[!NOTE]
 >
->在變更此設定之前，必須先建立新資料夾。 請確定存取許可權已設定，讓影像伺服器可完全控制資料夾。
+>在Linux上，确保为缓存分区分配了足够的i-node ，以避免i-node用完。
 
-## SV：：temp — 伺服器監督員暫存檔案資料夾 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
+## IS：：TempDirectory — 图像服务器临时文件文件夹 {#section-42ea1e7a68c444878f7245c5bbcb1672}
 
-伺服器管理員有時需要將中繼資料儲存到磁碟。 路徑可以是絕對或相對於 *[!DNL install_folder]*. 預設為[！DNL  *[!DNL install_folder]*/temp]。
+图像服务器有时需要将中间数据保存到磁盘。 路径可以是绝对路径或相对路径 *[!DNL install_folder]*.
 
 >[!NOTE]
 >
->在變更此設定之前，必須先建立新資料夾。 請確定存取許可權已設定好，好讓伺服器管理員可以完全控制資料夾。
+>在更改此设置之前，必须创建新文件夹。 确保设置了访问权限，以便图像服务器完全控制文件夹。
+
+## SV：：temp — 服务器主管临时文件文件夹 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
+
+服务器管理员有时需要将中间数据保存到磁盘。 路径可以是绝对路径或相对路径 *[!DNL install_folder]*. 默认为[！DNL  *[!DNL install_folder]*/temp]。
+
+>[!NOTE]
+>
+>在更改此设置之前，必须创建新文件夹。 确保设置了访问权限，以便Server Supervisor完全控制文件夹。

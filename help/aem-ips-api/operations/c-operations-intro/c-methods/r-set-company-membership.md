@@ -1,5 +1,5 @@
 ---
-description: 設定使用者在一或多個公司中的成員資格。
+description: 设置用户在一个或多个公司中的成员资格。
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # setCompanyMembership{#setcompanymembership}
 
-設定使用者在一或多個公司中的成員資格。
+设置用户在一个或多个公司中的成员资格。
 
 语法
 
-## 授權的使用者型別 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## 授权用户类型 {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,20 +27,20 @@ ht-degree: 15%
 
 ## 参数 {#section-3930dc6a016140178631083563598104}
 
-**輸入(setCompanyMembershipParam)**
+**输入(setCompanyMembershipParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandle | `xsd:sting` | 否 | 使用者控制代碼。 |
-| memberlationarray | `types:CompanyMembershipUpdateArray` | 是 | 許多公司。 |
+| userHandle | `xsd:sting` | 否 | 用户句柄。 |
+| membershipArray | `types:CompanyMembershipUpdateArray` | 是 | 许多公司。 |
 
-**輸出(setCompanyMembershipParam)**
+**输出(setCompanyMembershipParam)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此程式碼範例會將使用者新增至公司。 如有需要，在公司處理陣列中指定多個公司。
+此代码示例将一个用户添加到公司。 如果需要，在公司句柄数组中指定多个公司。
 
 **请求**
 

@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: 內嵌ICC設定檔。 指定是否應在回覆影像中內嵌作用中的ICC色彩設定檔或以icc=指定的設定檔。
+description: 嵌入ICC配置文件。 指定是否应在回复图像中嵌入正在使用的ICC颜色配置文件或使用icc=指定的配置文件。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # iccEmbed{#iccembed}
 
-內嵌ICC設定檔。 指定是否應在回覆影像中內嵌作用中的ICC色彩設定檔或以icc=指定的設定檔。
+嵌入ICC配置文件。 指定是否应在回复图像中嵌入正在使用的ICC颜色配置文件或使用icc=指定的配置文件。
 
 `iccEmbed=0|1`
 
-## 屬性 {#section-45c08073626a4cc7823d423dc35b4479}
+## 属性 {#section-45c08073626a4cc7823d423dc35b4479}
 
-可能發生在請求中的任何位置。
+可能出现在请求中的任意位置。
 
 ## 默认 {#section-68ed1f0c68dc46b58972804799c277b7}
 
-`iccEmbed=0`，輸出影像中不內嵌ICC設定檔。
+`iccEmbed=0`，输出图像中不会嵌入ICC配置文件。
 
 ## 另请参阅 {#section-e9e6bb04e2154f4387261edcbbbfe7d3}
 

@@ -1,5 +1,5 @@
 ---
-description: JPEG品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變檔案大小（回覆資料量），並間接改變結果影像的視覺品質。
+description: JPEG质量。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
@@ -14,30 +14,30 @@ ht-degree: 6%
 
 # qlt{#qlt}
 
-JPEG品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變檔案大小（回覆資料量），並間接改變結果影像的視覺品質。
+JPEG质量。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
 
-` qlt= *`品質`*[, *`色度`*]`
+` qlt= *`品质`*[, *`色度`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 质量 </span> </p> </td> 
-  <td class="stentry"> <p>編碼品質JPEG(1...100 int)。 </p> </td> 
+  <td class="stentry"> <p>编码质量JPEG(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 色度 </span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度縮減取樣（0=一般，1=停用）；選擇性，預設為0。 </p> </td> 
+  <td class="stentry"> <p>JPEG色度缩减像素采样（0=正常，1=禁用）；可选，默认值为0。 </p> </td> 
  </tr> 
 </table>
 
-較高 *`quality`* 值會增加檔案大小和品質，值越低會減少檔案大小並降低感知的影像品質。 如果值大于 90，所产生的图像往往与未解压缩图像几乎没有区别。
+更高 *`quality`* 值会增加文件大小和质量，值越小，文件大小越小，感知到的图像质量也越低。 如果值大于 90，所产生的图像往往与未解压缩图像几乎没有区别。
 
-設定 *`chroma`* 此旗標可停用典型RGB編碼器所採用的JPEG色度縮減取樣。 當邊緣是由色相變化而不是亮度所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+设置 *`chroma`* 用于禁用典型JPEG编码器采用的RGB色度缩减采样的标志。 当边缘由色相变化而不是亮度变化定义时，这可以提高图像中边缘的感知锐度。 设置此标志可能会导致文件大小略有增加。 如果文本看起来稍微模糊，请尝试使用此设置。
 
-## 屬性 {#section-925a44cbdc9042db8d4eb149cd073d21}
+## 属性 {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-要求屬性。 無論目前的圖層設定為何，均適用。 如果輸出影像檔案格式不支援JPEG編碼，則忽略。 請參閱 `fmt=` 以取得哪些輸出影像格式支援的資訊 `qlt=`.
+请求属性。 无论当前图层设置如何，均适用。 如果输出图像文件格式不支持JPEG编码，则忽略。 请参阅 `fmt=` 有关哪些输出图像格式支持的信息 `qlt=`.
 
-*`chroma`* 如果輸出畫素型別為CMYK或灰色，則會被忽略。
+*`chroma`* 如果输出像素类型为CMYK或灰度，则会被忽略。
 
 ## 默认 {#section-0d8aa45d84df49e6b846596bbaf7f740}
 
@@ -45,11 +45,11 @@ JPEG品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變�
 
 ## 示例 {#section-d7d33871d401433aa51d028823eae7a9}
 
-降低品質，透過低頻寬連線加快傳輸速度：
+降低通过低带宽连接进行更快传输的质量：
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300`
 
-提高高頻寬連線的品質：
+提高高带宽连接的质量：
 
 `http://server/myRootId/myImageId?qlt=95,1&wid=300`
 

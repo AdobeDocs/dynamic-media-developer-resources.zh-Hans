@@ -1,7 +1,7 @@
 ---
-description: 下列命令包含PlatformServer公開的批次處理API。
+description: 以下命令包含由PlatformServer公开的批量处理API。
 solution: Experience Manager
-title: 批次處理命令
+title: 批处理命令
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40a5b597-3db2-4846-903e-1a47a999610b
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 批次處理命令{#batch-processing-commands}
+# 批处理命令{#batch-processing-commands}
 
-下列命令包含PlatformServer公開的批次處理API。
+以下命令包含由PlatformServer公开的批量处理API。
 
-這些在特殊請求格式中指定為： `?req=<command>`
+这些在特殊请求格式中指定为： `?req=<command>`
 
-針對這些命令顯示的範例使用虛構的 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]」和一個名為AcmeCorp的虛構公司。 作業ID也是虛構的。
+这些命令的示例使用虚构的 `PlatformServer` URL » [!DNL scene7.adobe.com:8080]”和一个名为AcmeCorp的虚构公司。 作业ID也是虚构的。
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
 * [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
 * [batchjobgetoutput](r-batchjobgetoutput.md)
-* [batchjobsubmit](r-batchjobsubmit.md)
+* [batchjobsub](r-batchjobsubmit.md)
 * [jobdata](r-jobdata.md)
 * [jobid](r-jobid.md)

@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」實作簡單的視覺浮水印功能。
+description: 图像服务实现了一个简单的可视水印功能。
 solution: Experience Manager
-title: 浮水印
+title: 水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# 浮水印{#watermarks}
+# 水印{#watermarks}
 
-「影像伺服」實作簡單的視覺浮水印功能。
+图像服务实现了一个简单的可视水印功能。
 
-浮水印通常為半透明影像，但也可能為文字，或更複雜、分層的複合影像。 伺服器會在所有檢視屬性( `wid=`， `hei=`， `align=`， `scl=`， `bgc=`)已套用。
+水印通常为半透明图像，但也可能为文本或更复杂、分层的复合图像。 服务器将在所有视图属性( `wid=`， `hei=`， `align=`， `scl=`， `bgc=`)已应用。
 
-可透過設定啟用浮水印 `attribute::Watermark` 至包含浮水印影像或範本的有效目錄專案。 若 `attribute::Watermark` 設定於具名目錄中，伺服器會將浮水印新增至所有影像要求，這些影像要求會參考要求URL中的目錄ID。 若 `default::Watermark` 已設定(在預設目錄中， [!DNL default.ini])，則浮水印會套用至所有影像要求，無論其是否參考目錄。
+可通过设置启用水印 `attribute::Watermark` 到包含水印图像或模板的有效目录条目。 如果 `attribute::Watermark` 在命名目录中设置，则服务器会将水印添加到所有引用请求URL中的目录ID的图像请求。 如果 `default::Watermark` 设置(在默认目录中， [!DNL default.ini])，水印将应用于所有图像请求，无论它们是否引用目录。
 
-浮水印不會套用至回應縮圖要求而傳回的影像( `req=tmb`)以及來自Dynamic Media檢視器的特定請求。
+水印不会应用于响应缩略图请求返回的图像( `req=tmb`)，以及来自Dynamic Media查看者的某些请求。
 
-## 縮放和對齊 {#section-89ef9e5926ae438abbd8e70332749b76}
+## 缩放和对齐 {#section-89ef9e5926ae438abbd8e70332749b76}
 
-指定浮水印時，伺服器會先產生複合影像(例如 *目標影像*)，並需要套用浮水印（在套用檢視轉換之前）。 然後，伺服器會像其他影像一樣，為浮水印產生複合影像( *浮水印影像*)。
+指定水印后，服务器将首先生成复合图像(即 *目标图像*)中需要应用水印（在应用视图转换之前）。 然后，服务器为水印生成复合图像，就像任何其他图像一样( *水印图像*)。
 
-與標準影像不同， `sizeN=` 可以為浮水印影像的layer=0或layer=comp指定。 這允許浮水印影像相對於目標影像縮放。 若 `sizeN=` 未指定，水印影像與目標影像合併時仍會保留其畫素大小。
+与标准图像不同， `sizeN=` 可以为水印图像的layer=0或layer=comp指定。 这允许水印图像相对于目标图像进行缩放。 如果 `sizeN=` 如果未指定，则水印图像在与目标图像合并时保留其像素大小。
 
-要求命令(例如 `fmt=`)和檢視命令(例如 `wid=`)在浮水印記錄中被忽略，但 `align=`. `align=` 可用來相對於相對於目標影像的浮水印影像來定位浮水印影像。 如此可讓浮水印相對於目標影像的角落或邊緣定位。
+请求命令(例如 `fmt=`)和view命令(例如 `wid=`)在水印记录中被忽略，但以下情况除外 `align=`. `align=` 可用于相对于水印图像相对于目标图像定位水印图像。 这允许相对于目标图像的角或边缘定位水印。
 
-縮放和對齊之後，伺服器會使用 `blendMode=` 和 `opac=` 為指定的值 `layer=0` 或 `layer=comp` 浮水印影像的。 最後，會套用為目標影像指定的請求和檢視指令來建構回覆影像。
+缩放和对齐后，服务器将使用将水印图像叠加到目标图像上 `blendMode=` 和 `opac=` 指定的值 `layer=0` 或 `layer=comp` 水印图像的。 最后，使用为目标图像指定的请求和视图命令来构造回复图像。
 
-請注意，浮水印影像絕不會延伸超過使用者新增至回覆影像的任何空白處。 `wid=` 和 `hei=` 命令。
+请注意，水印图像绝不会超过由向回复图像添加的任何空格 `wid=` 和 `hei=` 命令。
 
 ## 示例 {#section-0408c977d7324d4cb0e76a91cdfa2acd}
 
-典型的浮水印可能包含包含標誌或版權宣告的簡單RGBA影像。 我們使用在影像目錄（或預設目錄）中建立記錄 `catalog::Id` 設定為 `watermark` 並指定中的浮水印影像檔案 `catalog::Path`. 我們想要拉伸浮水印以符合檢視影像（不扭曲浮水印），同時保留一些額外的邊界，並將不透明度減少到原始浮水印的20%，因此我們設定 `catalog::Modifier` 至 `sizeN=0.9,0.9&opac=20`. 若要啟用浮水印，請設定 `attribute::Watermark` 至浮水印目錄專案的id，在此範例中為「浮水印」。 我們可能會想要實驗不同的 `blendMode=` 可取得不同浮水印效果的選擇。
+典型的水印可能包含包含包含徽标或版权声明的简单RGBA图像。 我们使用在图像目录（或默认目录）中创建记录 `catalog::Id` 设置为 `watermark` 并在中指定水印图像文件 `catalog::Path`. 在保留少量额外边界的同时，对水印进行拉伸以符合视图图像（水印不失真），并将水印的不透明度降低到原始水印的20%，因此我们设置 `catalog::Modifier` 到 `sizeN=0.9,0.9&opac=20`. 要激活水印，请设置 `attribute::Watermark` 至水印目录条目的id，在本例中为“水印”。 我们可能会想用不同的 `blendMode=` 选择实现不同的水印效果。
 
 ## 另请参阅 {#section-4d66713abacb42c7b6a0c93cbf966a97}
 
-[attribute：：Watermark](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b)
+[属性：：水印](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b)

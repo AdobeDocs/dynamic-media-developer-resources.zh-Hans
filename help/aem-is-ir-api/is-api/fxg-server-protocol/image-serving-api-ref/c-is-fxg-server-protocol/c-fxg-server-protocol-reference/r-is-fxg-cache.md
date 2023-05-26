@@ -1,7 +1,7 @@
 ---
-description: 快取控制。 允許選擇性地停用使用者端快取（瀏覽器、Proxy伺服器、網路快取系統）和內部快取 [!DNL Platform Server] 快取。
+description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 solution: Experience Manager
-title: 快取
+title: 缓存
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 快取{#cache}
+# 缓存{#cache}
 
-快取控制。 允許選擇性地停用使用者端快取（瀏覽器、Proxy伺服器、網路快取系統）和內部快取 [!DNL Platform Server] 快取。
+缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 
 `&cache= *`cacheControl`*`
 
@@ -23,20 +23,20 @@ ht-degree: 0%
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cacheControl</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 開啟|關閉</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 开|关</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> clientControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> 開啟|關閉</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 开|关</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> serverControl</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> 開啟|關閉</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 开|关</span> </p></td> 
  </tr> 
 </table>
 
-若只有一個 *`cacheControl`* 指定值，則會同時套用至使用者端和伺服器快取。
+如果只有一个 *`cacheControl`* 指定值后，该值会同时应用于客户端和服务器缓存。
 
-要求屬性。 當請求未傳回回覆影像時忽略。 *`clientControl`* 被影像目錄停用時忽略(如果 `catalog::Expiration` 具有負值)。
+请求属性。 在请求未返回回复图像时忽略。 *`clientControl`* 被图像目录禁用时忽略(如果 `catalog::Expiration` 具有负值)。
 
-預設為 `cache=on,on`.
+默认为 `cache=on,on`.

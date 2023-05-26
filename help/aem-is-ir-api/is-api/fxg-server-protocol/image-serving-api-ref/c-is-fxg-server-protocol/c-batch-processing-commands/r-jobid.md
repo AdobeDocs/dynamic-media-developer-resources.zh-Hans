@@ -1,5 +1,5 @@
 ---
-description: 批次工作的工作識別碼。
+description: 批处理作业的作业ID。
 solution: Experience Manager
 title: jobid
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # jobid{#jobid}
 
-批次工作的工作識別碼。
+批处理作业的作业ID。
 
-用於批次工作請求，以指定請求其狀態或輸出的工作或刪除特定工作。 值是在提交作業時傳回的作業ID字串。
+在批处理作业请求中用于指定请求其状态或输出的作业或删除特定作业。 该值是在提交作业时返回的作业ID字符串。

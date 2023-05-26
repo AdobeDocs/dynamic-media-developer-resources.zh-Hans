@@ -1,6 +1,6 @@
 ---
-title: 轉譯設定
-description: 預設進階演算設定。 目錄RenderSettings的預設。
+title: 渲染设置
+description: 默认高级渲染设置。 目录RenderSettings的默认值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 5%
 
 ---
 
-# 轉譯設定{#rendersettings}
+# 渲染设置{#rendersettings}
 
-預設進階演算設定。 的預設值 `catalog::RenderSettings`.
+默认高级渲染设置。 默认为 `catalog::RenderSettings`.
 
-## 屬性 {#section-fa89db09aeeb420292cf783f07b8547a}
+## 属性 {#section-fa89db09aeeb420292cf783f07b8547a}
 
-文字字串。 若指定，則必須為有效的轉譯器設定字串，如暈映製作工具(Dynamic Media影像製作套件的一部分)所定義。
+文本字符串。 如果指定，则必须是有效的渲染设置字符串，如晕影创作工具(Dynamic Media图像创作包的一部分)所定义。
 
 ## 默认 {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` 若未指定或為空。
+`default::RenderSettings` 如果未指定或为空。
 
 ## 另请参阅 {#section-f35d7772f4b744d1846331e19ea99173}
 

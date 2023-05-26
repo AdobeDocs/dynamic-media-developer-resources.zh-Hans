@@ -1,5 +1,5 @@
 ---
-description: 一系列MediaPortal事件。
+description: MediaPortal事件数组。
 solution: Experience Manager
 title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MPEventArray]{#mpeventarray}
 
-一系列MediaPortal事件。
+MediaPortal事件数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:MPEvent` | MediaPortal事件陣列。 |
+| 项目 | `types:MPEvent` | MediaPortal事件数组。 |

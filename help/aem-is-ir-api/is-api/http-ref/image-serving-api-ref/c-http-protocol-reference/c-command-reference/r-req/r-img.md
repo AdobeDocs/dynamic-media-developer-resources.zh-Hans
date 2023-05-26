@@ -1,5 +1,5 @@
 ---
-description: 影像（預設）。 要求標準影像資料。
+description: 图像（默认）。 请求标准图像数据。
 solution: Experience Manager
 title: img
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 21%
 
 # img{#img}
 
-影像（預設）。 要求標準影像資料。
+图像（默认）。 请求标准图像数据。
 
 `req=img`
 
-回覆資料格式和回應MIME型別由以下專案決定 `fmt=`. `req=img` 是預設要求型別，不需要明確指定。 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
+回复数据格式和响应MIME类型由以下确定 `fmt=`. `req=img` 是默认的请求类型，无需显式指定。 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
-其他要求命令會依檔案說明套用。
+其他请求命令将按文档所述应用。

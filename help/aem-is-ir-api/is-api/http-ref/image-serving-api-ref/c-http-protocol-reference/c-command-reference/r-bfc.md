@@ -1,7 +1,7 @@
 ---
-description: 瀏覽器格式轉換。 指定是否開啟瀏覽器格式轉換功能。
+description: 浏览器格式转换。 指定是打开还是关闭浏览器格式转换功能。
 solution: Experience Manager
-title: bfc
+title: BFC
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
@@ -12,22 +12,22 @@ ht-degree: 3%
 
 ---
 
-# bfc{#bfc}
+# BFC{#bfc}
 
-瀏覽器格式轉換。 指定是否開啟瀏覽器格式轉換功能。
+浏览器格式转换。 指定是打开还是关闭浏览器格式转换功能。
 
 `bfc=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 開啟|關閉 </span> </p> </td> 
-  <td class="stentry"> <p>指定瀏覽器格式轉換功能(將JPEG或PNG影像轉換為較小的瀏覽器特定檔案格式)是否為true ( <span class="codeph"> 於 </span>)或false ( <span class="codeph"> 關閉 </span> （無瀏覽器特定格式轉換）。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 开|关 </span> </p> </td> 
+  <td class="stentry"> <p>指定浏览器格式转换功能 — 将JPEG或PNG图像转换为较小的浏览器特定文件格式 — 是否为true ( <span class="codeph"> 日期 </span>)或false ( <span class="codeph"> 关闭 </span> （表示无特定于浏览器的格式转换）。 </p> </td> 
  </tr> 
 </table>
 
-## 屬性 {#section-19dfc13e997f4a33889a1df1e4ad50b9}
+## 属性 {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
-要求屬性。 若未請求JPEG或PNG檔案，則沒有作用。
+请求属性。 如果不请求JPEG或PNG文件，则不起作用。
 
 ## 默认 {#section-ecc2385ed8c0408cbab3f5cf9c079dad}
 

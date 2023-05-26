@@ -1,5 +1,5 @@
 ---
-description: 屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
+description: 属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经有一个相同类型的关联集，则新集将替换现有集。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # createPropertySet{#createpropertyset}
 
-屬性集是應用程式專用的名稱 — 值組集合，可根據屬性集型別附加到各種IPS物件。 如果屬性集型別不允許將多個集合附加至物件(PropertySetType/allowMultipleisfalse)，而且物件已經有相同型別的關聯集合，則新集合會取代現有集合。
+属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经有一个相同类型的关联集，则新集将替换现有集。
 
 语法
 
-## 授權的使用者型別 {#section-f9b6187ba636475787c997fc27bb192a}
+## 授权用户类型 {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,25 +27,25 @@ ht-degree: 8%
 
 ## 参数 {#section-25258e75f5f3419bad165c797eb6cd8e}
 
-**輸入(createPropertySetParam)**
+**输入(createPropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | 是 | 屬性集型別的控制代碼。 |
-| primaryOwnerHandle | `xsd:string` | 是 | 屬性集主要擁有者的控制代碼。 |
-| secondaryOwnerHandle | `xsd:string` | 否 | 屬性集的次要擁有者的控制代碼。 |
-| propertyArray | `types:PropertyArray` | 是 | 屬性的陣列。 |
+| typeHandle | `xsd:string` | 是 | 属性集类型的句柄。 |
+| primaryOwnerHandle | `xsd:string` | 是 | 属性集的主要所有者的句柄。 |
+| secondaryOwnerHandle | `xsd:string` | 否 | 属性集的辅助所有者的句柄。 |
+| propertyArray | `types:PropertyArray` | 是 | 属性数组。 |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
 
-**輸出(createPropertySetParam)**
+**输出(createPropertySetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 是 | 新屬性集的控制代碼。 |
+| setHandle | `xsd:string` | 是 | 新属性集的句柄。 |
 
 ## 示例 {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-此程式碼範例會建立包含屬性名稱和值的屬性集。 回應會傳回新屬性集的控制代碼。
+此代码示例创建一个属性集，其中包含属性的名称和值。 响应将返回新属性集的句柄。
 
 **请求**
 

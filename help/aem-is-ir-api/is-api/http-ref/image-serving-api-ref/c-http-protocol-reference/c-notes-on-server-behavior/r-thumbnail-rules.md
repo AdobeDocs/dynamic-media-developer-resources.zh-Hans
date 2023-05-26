@@ -1,7 +1,7 @@
 ---
-description: 請注意這些縮圖規則。
+description: 请注意这些缩略图规则。
 solution: Experience Manager
-title: 縮圖規則
+title: 缩略图规则
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d81dc4ad-dd59-4235-996e-58996f009d88
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 縮圖規則{#thumbnail-rules}
+# 缩略图规则{#thumbnail-rules}
 
-請注意這些縮圖規則。
+请注意这些缩略图规则。
 
-1. 若 `catalog::ThumbType=Crop`，然後會將（裁切）影像縮放至可能的最小尺寸，同時仍覆蓋整個目標矩形。 若 `catalog::ThumbType=Fit`，然後會將（裁切）影像縮放至可能的最大尺寸，同時仍讓整個影像符合目標矩形。 若 `catalog::ThumbType=Texture`，則（裁切的）影像會縮放成以下比例： `catalog::ThumbRes` 至 `catalog::Resolution`.
-1. 將縮放的影像對齊目標矩形，依據 `attribute::ThumbHorizAlign` 和 `attribute::ThumbVertAlign`.
-1. 裁切結果至目標矩形。
+1. 如果 `catalog::ThumbType=Crop`，然后将（裁切）图像缩放到可能的最小尺寸，同时仍覆盖整个目标矩形。 如果 `catalog::ThumbType=Fit`，然后将（裁切）图像缩放到可能的最大大小，同时仍然将整个图像拟合到目标矩形中。 如果 `catalog::ThumbType=Texture`，则（裁剪的）图像将缩放为以下比例： `catalog::ThumbRes` 到 `catalog::Resolution`.
+1. 将缩放图像与目标矩形对齐，基于 `attribute::ThumbHorizAlign` 和 `attribute::ThumbVertAlign`.
+1. 将结果裁切到目标矩形。

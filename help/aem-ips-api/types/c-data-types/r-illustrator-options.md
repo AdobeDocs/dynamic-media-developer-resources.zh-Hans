@@ -1,5 +1,5 @@
 ---
-description: Adobe Illustrator檔案的選項。
+description: Adobe Illustrator文件的选项。
 solution: Experience Manager
 title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL IllustratorOptions]{#illustratoroptions}
 
-Adobe Illustrator檔案的選項。
+Adobe Illustrator文件的选项。
 
 语法
 
@@ -22,7 +22,7 @@ Adobe Illustrator檔案的選項。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL process] | `xsd:string` | 選擇Illustrator程式。 |
-| [!DNL resolution] | `xsd:string` | 檔案解析度。 |
-| 色域 | `xsd:string` | 目標色域。 |
-| [!DNL alpha] | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣的話，如果以這種方式定義原始檔案來建立覆蓋圖志，請建立透明背景。 |
+| [!DNL process] | `xsd:string` | 选择Illustrator流程。 |
+| [!DNL resolution] | `xsd:string` | 文件解析。 |
+| 色彩空间 | `xsd:string` | 目标颜色空间。 |
+| [!DNL alpha] | `xsd:boolean` | 是否将文件栅格化为图像。 如果是这样，如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 |

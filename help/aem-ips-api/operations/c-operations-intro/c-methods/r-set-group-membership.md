@@ -1,5 +1,5 @@
 ---
-description: 設定使用者的群組成員資格。
+description: 为用户设置组成员资格。
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # setGroupMembership{#setgroupmembership}
 
-設定使用者的群組成員資格。
+为用户设置组成员资格。
 
 语法
 
-## 授權的使用者型別 {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 授权用户类型 {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,21 +26,21 @@ ht-degree: 13%
 
 ## 参数 {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**輸入(setGroupMembershipParam)**
+**输入(setGroupMembershipParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 您要設定其群組成員資格之使用者的控制代碼。 |
-| companyHandle | `xsd:string` | 否 | 公司控點。 |
-| groupHandleArray | `types:HandleArray` | 是 | 使用者所屬群組的控制代碼陣列。 |
+| userHandle | `xsd:string` | 否 | 要设置其组成员资格的用户的句柄。 |
+| companyHandle | `xsd:string` | 否 | 公司处理。 |
+| groupHandleArray | `types:HandleArray` | 是 | 用户所属的组的句柄数组。 |
 
-**輸出(setGroupMembershipReturn)**
+**输出(setGroupMembershipReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-67b86d259df24938896fe19061845811}
 
-此程式碼範例將使用者設為群組的成員。 使用群組控制代碼陣列將使用者新增至多個群組。
+此代码示例使用户成为组的成员。 使用组句柄数组将用户添加到多个组。
 
 **请求**
 

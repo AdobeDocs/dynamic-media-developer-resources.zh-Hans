@@ -1,6 +1,6 @@
 ---
-title: 頁面指標
-description: 頁面指示器會顯示目前的頁面索引和總頁面計數。 它會顯示在桌上型電腦系統和平板電腦的主控制列中，在行動電話上則會新增至次要控制列。 頁面指標可由CSS調整大小、建立外觀和定位。
+title: 页面指示器
+description: 页指示器显示当前页索引和总页数。 它显示在桌面系统和平板电脑的主控制栏中，在手机上，它被添加到辅助控制栏中。 页面指示器可以由CSS调整大小、设置外观和进行定位。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,45 +12,45 @@ ht-degree: 4%
 
 ---
 
-# 頁面指標{#page-indicator}
+# 页面指示器{#page-indicator}
 
-頁面指示器會顯示目前的頁面索引和總頁面計數。 它會顯示在桌上型電腦系統和平板電腦的主控制列中，在行動電話上則會新增至次要控制列。 頁面指標可由CSS調整大小、建立外觀和定位。
+页指示器显示当前页索引和总页数。 它显示在桌面系统和平板电脑的主控制栏中，在手机上，它被添加到辅助控制栏中。 页面指示器可以由CSS调整大小、设置外观和进行定位。
 
-外觀頁面指示器由下列CSS類別選取器控制：
+外观页面指示器由以下CSS类选择器控制：
 
 `.s7ecatalogsearchviewer .s7pageindicator`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>從主要控制列（在桌上型電腦系統和平板電腦上）或次要控制列（在行動電話上）的頂端邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在桌面系统和平板电脑上）或辅助控制栏（在手机上）的顶部边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>從主要控制列（在桌上型電腦系統和平板電腦上）或次要控制列（在行動電話上）的右邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在桌面系统和平板电脑上）或辅助控制栏（在手机上）的右边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>從主要控制列（在桌上型電腦系統和平板電腦上）或次要控制列（在行動電話上）的左邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在桌面系统和平板电脑上）或辅助控制栏（在手机上）的左边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>從主要控制列（在桌上型電腦系統和平板電腦上）或次要控制列（在行動電話上）的底部邊框定位，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏（在桌面系统和平板电脑上）或辅助控制栏（在手机上）的底部边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>頁面指示器的寬度。 </p> </td> 
+   <td colname="col2"> <p>页面指示器的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>頁面指示器的高度。 </p> </td> 
+   <td colname="col2"> <p>页面指示器的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -58,7 +58,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>字型名稱。 </p> </td> 
+   <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -67,7 +67,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-範例 — 設定頁面指示器為56 x 28畫素、水準置中和從主控列底部放置4畫素，並使用14畫素的Helvetica®字型。
+示例 — 设置一个页面指示器，其大小为56 x 28像素，水平居中并位于距主控栏底部4像素的位置，并使用14像素的Helvetica®字体。
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 

@@ -1,5 +1,5 @@
 ---
-description: 建立使用者帳戶，並將該帳戶新增至一或多個公司。
+description: 创建一个用户帐户，并将该帐户添加到一个或多个公司。
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # addUser{#adduser}
 
-建立使用者帳戶，並將該帳戶新增至一或多個公司。
+创建一个用户帐户，并将该帐户添加到一个或多个公司。
 
-將使用者新增至多個公司時，請透過公司的控點指定這些公司 `companyHandleArray`. 此操作會將控制代碼傳回給您剛剛新增的使用者。
+将用户添加到多个公司时，请通过其公司句柄指定这些公司 `companyHandleArray`. 此操作会将句柄返回给刚刚添加的用户。
 
-## 授權的使用者型別 {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 授权用户类型 {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,28 +27,28 @@ ht-degree: 13%
 
 ## 参数 {#section-40390a512e314b8d80ecffbb7729f6fb}
 
-**輸入(addUserParam)**
+**输入(addUserParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 名字 | `xsd:string` | 是 | 使用者的名字。 |
-| 姓氏 | `xsd:string` | 是 | 使用者的姓氏。 |
-| 电子邮件 | `xsd:string` | 是 | 使用者的電子郵件地址。 |
-| 預設角色 | `xsd:string` | 是 | 設定使用者在其所屬每個公司中的角色。 但是請注意 `IpsAdmin` 角色會覆寫其他每個公司的設定。 |
-| 密码 | `xsd:string` | 是 | 設定使用者的密碼 |
-| passwordExpires | `xsd:dateTime` | 否 | 設定密碼有效期。 傳入請求時提供時區。 時區會調整為中部時間。 |
-| isValid | `xsd:boolean` | 是 | 判斷使用者是否有效。 |
-| memberlationarray | `xsd:CompanyMembershipUpdateArray` | 是 | 公司控點的陣列。 |
+| 名字 | `xsd:string` | 是 | 用户的名字。 |
+| 姓氏 | `xsd:string` | 是 | 用户的姓氏。 |
+| 电子邮件 | `xsd:string` | 是 | 用户的电子邮件地址。 |
+| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意 `IpsAdmin` 角色将覆盖其他按公司列出的设置。 |
+| 密码 | `xsd:string` | 是 | 设置用户的密码 |
+| passwordExpires | `xsd:dateTime` | 否 | 设置密码过期期限。 在传入请求时提供时区。 时区将调整为中部时间。 |
+| isValid | `xsd:boolean` | 是 | 确定用户是否有效。 |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |
 
-**輸出(addUserParam)**
+**输出(addUserParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 是 | 使用者的控制代碼。 |
+| userHandle | `xsd:string` | 是 | 用户的句柄。 |
 
 ## 示例 {#section-2547cef622734b71919eef849960b5cb}
 
-IPS API會傳回指定新使用者的使用者控制代碼元素。
+IPS API返回指定新用户的用户句柄元素。
 
 **请求**
 

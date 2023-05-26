@@ -1,5 +1,5 @@
 ---
-description: 目錄記錄識別碼。 轉譯器伺服器用來尋找材料記錄的機碼值。 通常是簡短且唯一的資料識別碼，例如SKU編號。
+description: 目录记录标识符。 渲染服务器用于查找材质记录的键值。 通常是简短且唯一的材料标识符，例如SKU编号。
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # Id{#id}
 
-目錄記錄識別碼。 轉譯器伺服器用來尋找材料記錄的機碼值。 通常是簡短且唯一的資料識別碼，例如SKU編號。
+目录记录标识符。 渲染服务器用于查找材质记录的键值。 通常是简短且唯一的材料标识符，例如SKU编号。
 
-## 屬性 {#section-9b20bf2545314620808b4210bce7afc9}
+## 属性 {#section-9b20bf2545314620808b4210bce7afc9}
 
-文字字串。 必需. 每個 `catalog::Id` 值在此材質目錄中必須是唯一的，且不得包含&#39;，&#39;字元。
+文本字符串。 必需. 每个 `catalog::Id` 值在此材质目录中必须是唯一的，且不得包含“，”字符。
 
 ## 默认 {#section-6a517046c43a40a7ba0af0212b5f31d2}
 

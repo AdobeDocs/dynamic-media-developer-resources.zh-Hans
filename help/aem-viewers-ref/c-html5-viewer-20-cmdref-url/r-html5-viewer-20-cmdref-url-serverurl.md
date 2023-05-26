@@ -1,6 +1,6 @@
 ---
 title: serverUrl
-description: 所有檢視器通用的引數。
+description: 所有查看者通用的参数。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # serverUrl{#serverurl}
 
-所有檢視器通用的引數。
+所有查看者通用的参数。
 
 ` serverUrl= *`isRootPath`*`
 
@@ -22,14 +22,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>相對或絕對的「影像伺服」根路徑。 </p> <p> 指定「影像伺服」的相對或絕對路徑，檢視器會從中擷取影像。 如果路徑沒有行距 <span class="filepath"> /</span>，此量度會與檢視器HTML頁面的位置相對應。 如果路徑有行距 <span class="filepath"> /</span>，會指定相同伺服器上的絕對路徑。 </p> <p> 在檢視器中啟用電子郵件共用模組時，僅使用絕對路徑。 </p> </td> 
+   <td colname="col2"> <p>相对或绝对图像服务根路径。 </p> <p> 指定图像服务的相对或绝对路径，查看器从中检索图像。 如果路径没有行距 <span class="filepath"> /</span>，该值相对于查看器HTML页面的位置。 如果路径具有行距 <span class="filepath"> /</span>，它指定同一服务器上的绝对路径。 </p> <p> 在查看器中启用电子邮件共享模块时，仅使用绝对路径。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
+## 属性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-可选. 標準SaaS （軟體即服務）使用不需要。
+可选. 标准SaaS（软件即服务）使用不需要。
 
 ## 默认 {#section-d411e450028c460392cb8508f8ccc5d9}
 

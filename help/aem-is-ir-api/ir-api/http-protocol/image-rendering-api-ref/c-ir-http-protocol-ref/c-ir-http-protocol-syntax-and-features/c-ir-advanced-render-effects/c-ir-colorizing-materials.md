@@ -1,6 +1,6 @@
 ---
-title: 色彩化材質
-description: 大多數材質都可動態上色。
+title: 着色材料
+description: 大多数材料都可以动态着色。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 色彩化材質{#colorizing-materials}
+# 着色材料{#colorizing-materials}
 
-大多數材質都可動態上色。
+大多数材料都可以动态着色。
 
-上色演演算法非常簡單，最適合色相範圍有限的材質影像。 若要將材質上色，轉譯器只會減去 `bgc=` 值並新增 `color=` 值至每個畫素值。
+彩色化算法简单，对色调范围有限的材质图像效果最好。 为了给材料着色，渲染器只需 `bgc=` 值并添加 `color=` 值到每个像素值。
 
-若有下列情況，則已停用色彩化： `color=` 未指定。 此 `bgc=` 屬性會被封包材料忽略；內嵌在封包材料中的基色值 [!DNL vnc] 會改用檔案。
+在以下情况下，将禁用彩色化 `color=` 未指定。 此 `bgc=` 属性被机箱材料忽略；基本颜色值嵌入到 [!DNL vnc] 而使用file。

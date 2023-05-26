@@ -1,6 +1,6 @@
 ---
-title: ErrorImage
-description: 錯誤回應影像。 發生錯誤時，影像演算通常會傳回錯誤狀態，並顯示文字訊息。
+title: 错误图像
+description: 错误响应图像。 图像渲染通常在发生错误时返回错误状态并显示文本消息。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 1%
 
 ---
 
-# ErrorImage {#errorimage}
+# 错误图像 {#errorimage}
 
-錯誤回應影像。 發生錯誤時，影像演算通常會傳回錯誤狀態，並顯示文字訊息。 此 `attribute::ErrorImage` 允許設定發生錯誤時要傳回的影像。
+错误响应图像。 图像渲染通常在发生错误时返回错误状态并显示文本消息。 此 `attribute::ErrorImage` 允许配置在发生错误时返回的图像。
 
-發生錯誤時，伺服器會嘗試解譯以下專案的值： `ImageRendering::attribute::ErrorImage`做為簡單的影像檔案路徑。 如果檔案無法開啟，則會將屬性值和錯誤詳細資料傳送至「影像伺服」，由其處理（如所述） `ImageServing::attribute::ErrorImage`. 如果「影像伺服」未傳回有效的回應影像，系統會將標準HTTP錯誤狀態和文字訊息傳送給使用者端。
+发生错误时，服务器尝试解释 `ImageRendering::attribute::ErrorImage`作为简单图像文件路径。 如果无法打开该文件，则会将属性值和错误详细信息发送到图像服务，后者将按照中的说明进行处理 `ImageServing::attribute::ErrorImage`. 如果图像服务未返回有效的响应图像，则会将标准HTTP错误状态和文本消息发送到客户端。
 
-錯誤影像會傳回HTTP狀態200。
+错误图像返回了HTTP状态200。
 
-## 屬性 {#section-4a4a7e37ed11483db0b9922dc68ea7db}
+## 属性 {#section-4a4a7e37ed11483db0b9922dc68ea7db}
 
-文字字串。 若指定，則必須是 **`ImageServing::catalog::id`** 值，相對路徑(至 **`ImageServing::attribute::RootPath`** 或 **`ImageRendering::attribute::RootPath`**)或影像伺服器可存取之影像檔案的絕對路徑。
+文本字符串。 如果指定，则必须是 **`ImageServing::catalog::id`** 值，相对路径(到 **`ImageServing::attribute::RootPath`** 或 **`ImageRendering::attribute::RootPath`**)，或图像服务器可访问的图像文件的绝对路径。
 
 ## 默认 {#section-4c463e369dfb4b43a7b2a3bce9619dd4}
 
-繼承自 `default::ErrorImage` 如果未定義。 如果已定義但空白，則會停用錯誤影像行為，即使 `default::ErrorImage` 已定義，且會傳回HTTP錯誤狀態。
+继承自 `default::ErrorImage` 如果未定义。 如果已定义但为空，则会禁用错误图像行为，即使 `default::ErrorImage` 定义，并返回HTTP错误状态。
 
 ## 另请参阅 {#section-3e0308eaf4124451909dacd570e27695}
 

@@ -1,5 +1,5 @@
 ---
-description: 發佈內容的陣列。
+description: 发布上下文的数组。
 solution: Experience Manager
 title: PublishContextArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL PublishContextArray]{#publishcontextarray}
 
-發佈內容的陣列。
+发布上下文的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| PublishContextArray | `types:PublishContext` | 發佈內容的陣列。 |
+| PublishContextArray | `types:PublishContext` | 发布上下文的数组。 |

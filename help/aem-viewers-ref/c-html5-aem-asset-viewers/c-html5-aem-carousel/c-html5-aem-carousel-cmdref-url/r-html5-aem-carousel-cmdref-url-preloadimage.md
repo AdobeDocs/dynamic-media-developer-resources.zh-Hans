@@ -1,6 +1,6 @@
 ---
 title: preloadImage
-description: 轉盤檢視器的URL命令。
+description: 轮播查看器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # preloadImage {#preloadimage}
 
-轉盤檢視器的URL命令。
+轮播查看器的URL命令。
 
 `preloadImage=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用(<span class="codeph"> 1</span>)或停用(<span class="codeph"> 0</span>)預先載入影像功能。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 預先載入影像</a>. </p> </td> 
+   <td colname="col2"> <p> 启用(<span class="codeph"> 1</span>)或禁用(<span class="codeph"> 0</span>)预加载图像功能。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 预载图像</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.scrollstep
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # InteractiveSwatches.scrollstep{#interactiveswatches-scrollstep}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`步骤`*`
 
@@ -22,12 +22,12 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p>指定每次點選對應的捲動按鈕時，要捲動的色票數目。 </p> <p>如果指定的值大於可見的互動色票數目，則每次點選都只會捲動可見色票數目，以避免遺漏任何色票。 </p> </td> 
+   <td colname="col2"> <p>指定每次点按相应的滚动按钮时所滚动的样本数。 </p> <p>如果指定的值大于可见的交互式样本数，则每次点按仅滚动可见样本数，以防止遗漏任何样本。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

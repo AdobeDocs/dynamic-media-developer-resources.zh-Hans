@@ -1,7 +1,7 @@
 ---
-description: 圖層編號也會決定z順序。
+description: 层号也决定了z顺序。
 solution: Experience Manager
-title: 圖層順序
+title: 图层顺序
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a8fdd55-6ac1-4bc9-935d-188ee60946d9
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 圖層順序{#layer-order}
+# 图层顺序{#layer-order}
 
-圖層編號也會決定z順序。
+层号也决定了z顺序。
 
-需要圖層0 （背景圖層）；其他圖層編號不需要連續，並且會以遞增圖層編號的順序在背景圖層上方繪製。 具有最高圖層編號的圖層會呈現在頂端，且永遠不會被其他圖層遮擋。
+要求图层0（背景图层）；其他图层编号不需要连续，并且按图层编号的升序在背景图层上方绘制。 具有最高图层编号的图层将渲染到顶部，且永远不会被其他图层遮挡。

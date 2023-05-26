@@ -1,5 +1,5 @@
 ---
-description: 指派或更新專案中的資產。
+description: 分配或更新项目中的资产。
 solution: Experience Manager
 title: setprojectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # setprojectAssets{#setprojectassets}
 
-指派或更新專案中的資產。
+分配或更新项目中的资产。
 
 语法
 
-## 授權的使用者型別 {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 授权用户类型 {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +29,23 @@ ht-degree: 20%
 
 ## 参数 {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**輸入(setProjectAssetsParam)**
+**输入(setProjectAssetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyName | `xsd:string` | 是 | 公司控點。 |
-| projectHandle | `xsd:string` | 是 | 專案控制代碼。 |
-| assetHandleArray | `types:HandleArray` | 是 | 您要與專案關聯的資產控點陣列。 |
+| companyName | `xsd:string` | 是 | 公司处理。 |
+| projectHandle | `xsd:string` | 是 | 项目句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要与项目关联的资源句柄数组。 |
 
-**輸出(setProjectAssetsReturn)**
+**输出(setProjectAssetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功新增的資產數量。 |
+| successCount | `xsd:int` | 是 | 成功添加的资源的数量。 |
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此程式碼範例會將資產指派給專案。 要求傳回成功計數1。
+此代码示例将资产分配给项目。 该请求返回成功计数1。
 
 **请求**
 

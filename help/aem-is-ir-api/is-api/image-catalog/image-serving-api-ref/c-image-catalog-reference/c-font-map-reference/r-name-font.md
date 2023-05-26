@@ -1,5 +1,5 @@
 ---
-description: 字型名稱。 字型名稱，與RTF \fonttbl命令中指定的名稱完全相同。
+description: 字体名称。 字体名称，与RTF \fonttbl命令中指定的名称完全相同。
 solution: Experience Manager
 title: 名称
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # 名称{#name}
 
-字型名稱。 字型名稱，與RTF \fonttbl命令中指定的名稱完全相同。
+字体名称。 字体名称，与RTF \fonttbl命令中指定的名称完全相同。
 
-## 屬性 {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
+## 属性 {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-文字字串。 必需. 字型對應的主索引鍵。 相同的字型：：Name值在相同的字型對應檔案中最多可能出現四次，但每個記錄必須具有不同的組合 `font::Bold` 和 `font::Italic` 值。
+文本字符串。 必需. 字体映射的主索引键。 相同的字体：：Name值在相同的字体映射文件中最多可以出现四次，但每个记录必须具有不同的组合 `font::Bold` 和 `font::Italic` 值。
 
 ## 默认 {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 

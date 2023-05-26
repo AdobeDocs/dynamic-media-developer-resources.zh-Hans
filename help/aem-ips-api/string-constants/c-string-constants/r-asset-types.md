@@ -1,5 +1,5 @@
 ---
-description: 說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
+description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 solution: Experience Manager
 title: 资源类型
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # 资源类型{#asset-types}
 
-說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
+描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 
 语法
 

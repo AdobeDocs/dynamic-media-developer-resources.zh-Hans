@@ -1,7 +1,7 @@
 ---
-description: 本節說明SVG資料屬性。
+description: 本节介绍SVG数据属性。
 solution: Experience Manager
-title: SVG資料參考
+title: SVG数据引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
@@ -12,11 +12,11 @@ ht-degree: 12%
 
 ---
 
-# SVG資料參考{#svg-data-reference}
+# SVG数据引用{#svg-data-reference}
 
-本節說明SVG資料屬性。
+本节介绍SVG数据属性。
 
 * [過期](r-expiration-svg.md)
 * [Id](r-id-svg.md)
 * [路径](r-path-svg.md)
-* [時間戳記](r-timestamp-svg.md)
+* [时间戳](r-timestamp-svg.md)

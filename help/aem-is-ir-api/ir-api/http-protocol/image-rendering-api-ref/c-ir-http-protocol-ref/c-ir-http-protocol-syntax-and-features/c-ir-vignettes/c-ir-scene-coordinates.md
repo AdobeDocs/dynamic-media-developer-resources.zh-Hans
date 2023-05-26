@@ -1,6 +1,6 @@
 ---
-title: 場景座標
-description: 場景座標空間用於指定可紋理化物件曲面上的大小和距離。
+title: 场景坐标
+description: 场景坐标空间用于指定可纹理对象曲面上的大小和距离。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 1%
 
 ---
 
-# 場景座標{#scene-coordinates}
+# 场景坐标{#scene-coordinates}
 
-場景座標空間用於指定可紋理化物件曲面上的大小和距離。
+场景坐标空间用于指定可纹理对象曲面上的大小和距离。
 
-由於大部分的暈映都是描繪實體物件的真實世界場景，所以大部分暈映都是使用英吋作為場景座標空間的單位來創作。 也可以使用其他單位，例如mm或cm。 影像演算不支援單位轉換。
+由于大多数晕影是描述物理对象的真实世界场景，因此大多数晕影都是使用英寸作为场景坐标空间的单位来创作的。 也可以使用其它单位，如mm或cm。 图像渲染不支持单位转换。
 
-下列指令接受場景座標空間中的值：
+以下命令接受场景坐标空间中的值：
 
-* [格勞特=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+* [格劳特=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
 * [pos=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8)
 * [大小=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988)

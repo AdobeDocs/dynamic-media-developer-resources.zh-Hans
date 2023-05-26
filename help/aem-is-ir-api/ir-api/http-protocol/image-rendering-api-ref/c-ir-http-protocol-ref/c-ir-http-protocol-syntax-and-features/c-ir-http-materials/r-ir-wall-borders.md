@@ -1,6 +1,6 @@
 ---
-title: 牆邊框
-description: 當在壁邊框MSS （隨sub=3..5引入）中指定材料時，它被視為壁邊框。
+title: 墙边框
+description: 当在墙边界MSS（随sub=3..5引入）中指定材料时，该材料被视为墙边界。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 5%
 
 ---
 
-# 牆邊框{#wall-borders}
+# 墙边框{#wall-borders}
 
-當在壁邊框MSS （隨sub=3..5引入）中指定材料時，它被視為壁邊框。
+当在墙边界MSS（随sub=3..5引入）中指定材料时，该材料被视为墙边界。
 
-壁框線紋理影像可包含Alpha色版來定義框線的形狀。 壁邊界只能套用至壁物件。
+壁边界纹理图像可以包括Alpha通道以定义边界的形状。 壁边界只能应用于壁对象。
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -29,23 +29,23 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>可重複的紋理影像；必要 </p> </td> 
+   <td colname="col2"> <p>可重复的纹理图像；必需 </p> </td> 
    <td colname="col3"> <p>无 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
-   <td colname="col2"> <p>紋理解析度 </p> </td> 
+   <td colname="col2"> <p>纹理分辨率 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> attribute：：Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
-   <td colname="col2"> <p>水準紋理對齊方式（會忽略y值） </p> </td> 
-   <td colname="col3"> <p>0 （影像左邊緣） </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> 锚点= </span> </a> </p> </td> 
+   <td colname="col2"> <p>水平纹理对齐方式（忽略y值） </p> </td> 
+   <td colname="col3"> <p>0（左图像边缘） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </p> </td> 
    <td colname="col2"> <p>锐化 </p> </td> 
-   <td colname="col3"> <p>0 （無銳利化） </p> </td> 
+   <td colname="col3"> <p>0（无锐化） </p> </td> 
   </tr> 
  </tbody> 
 </table>

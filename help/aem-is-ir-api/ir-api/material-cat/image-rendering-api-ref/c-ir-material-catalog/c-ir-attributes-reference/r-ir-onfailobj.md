@@ -1,6 +1,6 @@
 ---
 title: OnFailObj
-description: 物件選取範圍錯誤處理。 指定當obj=命令因指定的路徑在暈映物件階層中不相符而失敗時要採取的動作。
+description: 对象选择错误处理。 指定由于指定的路径在晕影对象层次结构中不匹配，导致obj=命令失败时应采取的操作。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,38 +14,38 @@ ht-degree: 7%
 
 # OnFailObj{#onfailobj}
 
-物件選取範圍錯誤處理。 指定當obj=命令因指定的路徑在暈映物件階層中不相符而失敗時要採取的動作。
+对象选择错误处理。 指定由于指定的路径在晕影对象层次结构中不匹配，导致obj=命令失败时应采取的操作。
 
-## 屬性 {#section-2c779d9c133a443d9f0aed9fde7b703c}
+## 属性 {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
-列舉。
+枚举。
 
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>繼承自 <span class="codeph"> default：：OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>继承自 <span class="codeph"> default：：OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>保留先前的選取範圍。 </p> </td> 
+  <td class="stentry"> <p>保留以前的选择。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選取；會忽略任何套用材料或顯示/隱藏物件的嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消选择；应用材料或显示/隐藏对象的任何尝试都将被忽略。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>傳回錯誤。 </p> </td> 
+  <td class="stentry"> <p>返回错误。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選取預設群組（暈映階層中第一個包含可轉譯物件的群組）。 </p> </td> 
+  <td class="stentry"> <p>选择默认组（晕影层次结构中包含可渲染对象的第一个组）。 </p> </td> 
  </tr> 
 </table>
 
 ## 默认 {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-繼承自 `default::OnFailObj` 若未定義。
+继承自 `default::OnFailObj` 如果未定义。
 
 ## 另请参阅 {#section-806dc2c5973c41f683af085b3315043c}
 

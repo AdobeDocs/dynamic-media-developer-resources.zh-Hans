@@ -1,5 +1,5 @@
 ---
-description: 預設背景顏色。 用於填滿不包含實際影像資料之回覆影像任何區域的RGB值。
+description: 默认背景颜色。 用于填充不包含实际图像数据的回复图像的任意区域的RGB值。
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # BkgColor{#bkgcolor}
 
-預設背景顏色。 用於填滿不包含實際影像資料之回覆影像任何區域的RGB值。
+默认背景颜色。 用于填充不包含实际图像数据的回复图像的任意区域的RGB值。
 
-## 屬性 {#section-2768b2beee214676aa32f17e2a0e3343}
+## 属性 {#section-2768b2beee214676aa32f17e2a0e3343}
 
 颜色.
 
 ## 默认 {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-繼承自 `default::BkgColor` 如果未定義或為空。
+继承自 `default::BkgColor` 如果未定义或为空。
 
 ## 另请参阅 {#section-90967e515a0d46bd8a9361fd49fc43cf}
 

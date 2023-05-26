@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: 彈出式檢視器的JavaScript API參考。
+description: 适用于弹出查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-彈出式檢視器的JavaScript API參考。
+适用于弹出查看器的JavaScript API参考。
 
-` setParam( *`名稱，值`*)`
+` setParam( *`名称，值`*)`
 
-將檢視器引數設定為指定的值。 引數是檢視器特定的組態選項或軟體開發套件修飾元。 此引數是在以下時間之前呼叫： `init()`. 如果透過以下方式傳遞檢視器設定資訊，則此方法為選用： `config` 建構函式的JSON物件。
+将查看器参数设置为指定的值。 参数是查看器特定的配置选项或软件开发工具包修饰符。 此参数是在之前调用的 `init()`. 如果通过以下方式传递查看器配置信息，则可以选择此方法 `config` 构造函数的JSON对象。
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數名稱。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數值。 值不得以百分比編碼。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。 该值不能采用百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

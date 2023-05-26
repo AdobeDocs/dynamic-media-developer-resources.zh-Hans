@@ -20,12 +20,12 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 設定按一下/點選以切換播放/暫停的對應。 設定為 <span class="codeph"> 無</span> 停用按一下/點選以播放/暫停。 若設為 <span class="codeph"> playPause</span>，按一下視訊可在播放和暫停視訊之間切換。 在某些裝置上，您可以使用原生控制項。 在這種情況下， <span class="codeph"> singleclick</span> 行為已停用。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按到切换播放/暂停的映射。 将设置为 <span class="codeph"> 无</span> 禁用单击/点按以播放/暂停。 如果设置为 <span class="codeph"> playPause</span>，单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下， <span class="codeph"> singleclick</span> 行为已禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

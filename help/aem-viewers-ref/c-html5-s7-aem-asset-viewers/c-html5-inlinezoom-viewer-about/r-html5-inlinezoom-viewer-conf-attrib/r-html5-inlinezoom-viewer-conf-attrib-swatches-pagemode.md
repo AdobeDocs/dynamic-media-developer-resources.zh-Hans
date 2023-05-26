@@ -20,12 +20,12 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 切換時，捲動按鈕會自動讓色票跳至一頁的長度。 </p> <p>如果色票不合適，會在最後一頁顯示額外的空白字元。 此外，最後一頁的儲存格數也與任何上一頁相同。 </p> <p>會忽略scrollstep，滑鼠捲動功能只適用於完整頁面。 </p> </td> 
+   <td colname="col2"> <p> 切换后，滚动按钮会自动使样本跳过一页的长度。 </p> <p>如果样本不适合，则会在最后一页显示多余的空白。 此外，最后一页的单元格数量与上一页相同。 </p> <p>scrollstep将被忽略，鼠标滚动仅在完整页面上进行。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
+## 属性 {#section-e6310c8c4e8547689a5b48ceddb3671d}
 
 可选.
 

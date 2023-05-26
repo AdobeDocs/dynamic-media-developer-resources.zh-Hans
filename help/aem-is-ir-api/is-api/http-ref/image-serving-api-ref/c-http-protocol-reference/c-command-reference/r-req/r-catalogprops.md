@@ -1,5 +1,5 @@
 ---
-description: 影像目錄屬性。 傳回要求路徑中指定的影像目錄的一般屬性。
+description: 图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 solution: Experience Manager
 title: catalogprops
 feature: Dynamic Media Classic,SDK/API
@@ -14,43 +14,43 @@ ht-degree: 11%
 
 # catalogprops{#catalogprops}
 
-影像目錄屬性。 傳回要求路徑中指定的影像目錄的一般屬性。
+图像目录属性。 返回在请求路径中指定的图像目录的通用属性。
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D1D9183C08834005B482B103CEF2EDA9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一请求标识符。 </p></td> 
  </tr> 
 </table>
 
-擷取預設目錄屬性( [!DNL default.ini])，省略目錄ID。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
+要检索默认目录属性( [!DNL default.ini])，省略目录ID。 HTTP 响应是可缓存的，且 TTL 基于 `attribute::NonImgExpiration`.
 
-支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支持JSONP响应格式的请求允许您使用扩展语法指定JS回调处理程序的名称 `req=` 参数：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.
 
-系統會傳回下列屬性值：
+返回以下属性值：
 
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
   <tr> 
    <td> <b> 属性</b> </td> 
    <td> <b> 类型</b> </td> 
-   <td> <b> 對應的目錄屬性</b> </td> 
+   <td> <b> 对应的目录属性</b> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
-   <td> <p> 十六進位 </p> </td> 
+   <td> <p> 十六进制 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：：defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog：：defaultExt</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> 屬性：：DefaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：DefaultExt</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 11%
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute：：LastModified</span>、或（如果不存在）的上次修改時間 <span class="varname"> 目錄</span><span class="filepath"> .ini</span> 檔案 </p> </td> 
+   <td> <p> <span class="codeph"> attribute：：LastModified</span>，或者，如果不存在，则为的上次修改时间 <span class="varname"> 目录</span><span class="filepath"> .ini</span> 文件 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -104,7 +104,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：ResMode</span> </p> </td> 
   </tr> 
   <tr> 
@@ -114,12 +114,12 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
-   <td> <p> 十六進位 </p> </td> 
+   <td> <p> 十六进制 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
@@ -129,18 +129,18 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> 列舉 </p> </td> 
+   <td> <p> 枚举 </p> </td> 
    <td> <p> <span class="codeph"> attribute：：ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 目錄：：浮水印</span> </p> </td> 
+   <td> <p> <span class="codeph"> 目录：：水印</span> </p> </td> 
    <td> <p> 字串 </p> </td> 
-   <td> <p> <span class="codeph"> attribute：：Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> 属性：：水印</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 名稱和值組。
+description: 名称和值对。
 solution: Experience Manager
 title: 属性
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # [!DNL Property]{#property}
 
-名稱和值組。
+名称和值对。
 
 语法
 
@@ -23,4 +23,4 @@ ht-degree: 45%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 名称 | `xsd:string` | 屬性 名稱. |
-| 价值 | `xsd:string` | 屬性值。 |
+| 价值 | `xsd:string` | 属性值。 |

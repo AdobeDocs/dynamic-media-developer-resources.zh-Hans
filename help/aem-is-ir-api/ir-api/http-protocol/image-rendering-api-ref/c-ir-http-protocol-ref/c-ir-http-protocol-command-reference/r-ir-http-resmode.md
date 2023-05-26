@@ -1,6 +1,6 @@
 ---
 title: resMode
-description: 重新取樣模式。 選取重新取樣和/或內插演演算法，以將演算後的影像縮放至以wid=、hei=或scl=指定的大小。
+description: 重新取样模式。 选择重新取样和/或插值算法，用于将渲染的图像缩放到以wid=、hei=或scl=指定的大小。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # resMode{#resmode}
 
-重新取樣模式。 選取重新取樣和/或內插補點演演算法，以將演算後的影像縮放到指定的大小 `wid=`， `hei=`，或 `scl=`.
+重新取样模式。 选择重新取样和/或插值算法，用于将渲染的图像缩放到指定的大小 `wid=`， `hei=`，或 `scl=`.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -22,26 +22,26 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>選取標準雙線性內插。 最快的重新取样方法；某些锯齿伪影会相当明显。 </p> </td> 
+   <td colname="col2"> <p>选择标准双线性插值。 最快的重新取样方法；某些锯齿伪影会相当明显。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>選取雙立方內插。 比雙線性內插運算耗用更多CPU，但產生更銳利的影像，且鋸齒狀不自然感更不明顯。 </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 比双线性插值占用更多CPU资源，但生成更锐利的图像，出现的锯齿伪像较少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>選取修改過的Lanczos視窗函式作為內插演演算法。 可能會產生比雙立方體稍微銳利的結果，但CPU成本會更高。 </p> <p> <span class="codeph"> 銳利化 </span> 已取代為 <span class="codeph"> sharp2 </span>，因此造成鋸齒狀不自然感（也稱為Moiré）的可能性較低。 </p> </td> 
+   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 可能会产生比双三次方更锐利的结果，但CPU成本会更高。 </p> <p> <span class="codeph"> 锐化 </span> 已替换为 <span class="codeph"> sharp2 </span>（也称为Moiré）的锯齿伪像（锯齿伪像）产生的可能性较小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>選取 <span class="keyword"> Adobe Photoshop </span> 用於縮減影像大小的預設重新取樣器，在中稱為「雙立方銳利化」 <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 两次锐化 </span> </p> </td> 
+   <td colname="col2"> <p>选择 <span class="keyword"> Adobe Photoshop </span> 用于减小图像大小的默认重新取样器，在中称为“双三次锐化” <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-ea7029f37e094d9cb85646b85fbac0ce}
+## 属性 {#section-ea7029f37e094d9cb85646b85fbac0ce}
 
-可能發生在請求中的任何位置。 若未套用最終影像縮放比例，則忽略。
+可能出现在请求中的任意位置。 如果未应用最终图像缩放，则忽略。
 
 ## 默认 {#section-900872fb93dc41efb3e8ad5b62aadc38}
 

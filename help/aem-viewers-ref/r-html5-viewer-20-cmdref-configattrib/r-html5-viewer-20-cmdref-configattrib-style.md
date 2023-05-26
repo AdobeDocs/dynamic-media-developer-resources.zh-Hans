@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # 样式{#style}
 
-您可以從URL查詢字串和設定中套用以下命令。 URL查詢字串中套用的命令一律優先於config中顯示的相同命令。
+您可以从URL查询字符串和配置中应用以下命令。 在URL查询字符串中应用的命令始终优先于config中存在的相同命令。
 
 `style= *`cssPath`*`
 
@@ -22,14 +22,14 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 相對或絕對CSS位置。 </p> <p>指定自訂CSS檔案的位置。 如果 <span class="codeph"><span class="varname"> cssPath</span></span> 是相對的，則會根據檢視器HTML頁面位置與的值來解析 <span class="codeph"> contentUrl=</span> 引數。 </p> </td> 
+   <td colname="col2"> <p> CSS的相对或绝对位置。 </p> <p>指定自定义CSS文件的位置。 如果 <span class="codeph"><span class="varname"> cssPath</span></span> 是相对的，它将根据查看器HTML页面位置和的值来解析 <span class="codeph"> contentUrl=</span> 参数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSS檔案內的所有資產參考都是根據CSS檔案位置來解析，而非根據呼叫HTML頁面的位置來解析。
+CSS文件中的所有资源引用都是针对CSS文件位置解析的，而不是针对调用HTML页的位置解析的。
 
-## 屬性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
+## 属性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
 可选.
 

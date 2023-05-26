@@ -1,7 +1,7 @@
 ---
-description: 下列選項控制封包樣式檔案的處理。 如果sourceFile不是封包樣式檔案或指定了 — info，則會忽略它們。
+description: 以下选项控制对CAB样式文件的处理。 如果sourceFile不是CAB样式文件，或者如果指定了 — info，则会忽略它们。
 solution: Experience Manager
-title: 封包樣式檔案的選項
+title: CAB样式文件的选项
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1b72d65-fd91-4a83-8314-eab90fe64301
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# 封包樣式檔案的選項{#options-for-cabinet-style-files}
+# CAB样式文件的选项{#options-for-cabinet-style-files}
 
-下列選項控制封包樣式檔案的處理。 如果sourceFile不是封包樣式檔案或指定了 — info，則會忽略它們。
+以下选项控制对CAB样式文件的处理。 如果sourceFile不是CAB样式文件，或者如果指定了 — info，则会忽略它们。
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>指定封包樣式檔案的目標解析度。 以畫素/英吋為單位的實數值。 如果未指定，生產封包樣式檔案的解析度將與來源檔案相同。 </p></td> 
+  <td class="stentry"> <p>指定CAB样式文件的目标分辨率。 以像素/英寸为单位的真实值。 如果未指定，生产文件柜样式文件将与源文件具有相同的分辨率。 </p></td> 
  </tr> 
 </table>

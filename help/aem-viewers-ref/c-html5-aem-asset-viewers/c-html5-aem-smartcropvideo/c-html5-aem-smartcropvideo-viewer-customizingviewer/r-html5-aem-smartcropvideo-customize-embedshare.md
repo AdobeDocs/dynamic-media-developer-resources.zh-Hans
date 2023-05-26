@@ -1,6 +1,6 @@
 ---
-title: 內嵌共用
-description: 內嵌共用工具包含新增至Social共用面板的按鈕，以及工具啟動時顯示的強制回應對話方塊。 按鈕的位置可完全由社交分享工具管理。
+title: 嵌入共享
+description: 嵌入共享工具包含一个添加到“社交”共享面板的按钮，以及一个在激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,50 +12,50 @@ ht-degree: 2%
 
 ---
 
-# 內嵌共用{#embed-share}
+# 嵌入共享{#embed-share}
 
-內嵌共用工具包含新增至Social共用面板的按鈕，以及工具啟動時顯示的強制回應對話方塊。 按鈕的位置可完全由社交分享工具管理。
+嵌入共享工具包含一个添加到“社交”共享面板的按钮，以及一个在激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-內嵌共用按鈕的外觀由以下CSS類別選取器控制：
+嵌入共享按钮的外观由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embedshare
 ```
 
-**內嵌共用工具的CSS屬性**
+**嵌入共享工具的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-您可以透過設定從「社交分享」面板移除按鈕 `display:none` CSS屬性的CSS類別。
+可以通过设置从Social共享面板中删除按钮 `display:none` CSS属性的CSS类。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
 
-範例 — 若要設定28 x 28畫素的內嵌共用按鈕，並針對四種不同按鈕狀態分別顯示不同影像：
+示例 — 要设置一个28 x 28像素的嵌入共享按钮，并为四种不同的按钮状态中的每种状态显示不同的图像：
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -76,28 +76,28 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-使用下列CSS類別選取器可控制對話方塊啟動時覆蓋網頁的背景覆蓋：
+使用以下CSS类选择器来控制对话框处于活动状态时覆盖网页的背景叠加：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay
 ```
 
-**背景覆蓋的CSS屬性**
+**背景叠加的CSS属性**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
-   <td colname="col2"> <p>背景覆蓋不透明度。 </p> </td> 
+   <td colname="col2"> <p>背景叠加不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>背景覆蓋顏色。 </p> </td> 
+   <td colname="col2"> <p>背景叠加颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將背景覆蓋設定為具有70%不透明度的灰色：
+示例 — 要将背景叠加设置为具有70%不透明度的灰色，请执行以下操作：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay { 
@@ -106,36 +106,36 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-依預設，強制回應對話方塊會以案頭系統熒幕的中心顯示，並會使用觸控裝置上的整個網頁區域。 在所有情況下，對話方塊的位置和大小都由元件管理。 此對話方塊由下列CSS類別選取器控制：
+默认情况下，模式对话框会以桌面系统屏幕的中心位置显示，并在触控设备上显示整个网页区域。 在所有情况下，对话框的位置和大小都由组件管理。 该对话框由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialog
 ```
 
-**對話方塊的CSS屬性**
+**对话框的CSS属性**
 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> 對話方塊邊框半徑（如果對話方塊未取用整個瀏覽器）。 </p> </td> 
+   <td colname="col2"> <p> 对话框边框半径（如果对话框不占用整个浏览器）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>對話方塊背景顏色。 </p> </td> 
+   <td colname="col2"> <p>对话框背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
+   <td colname="col2"> <p>应取消设置或设置为100%，在这种情况下，对话框会占用整个浏览器窗口（触控设备首选此模式）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>應取消設定或設為100%，此時對話方塊會取用整個瀏覽器視窗（觸控裝置偏好此模式）。 </p> </td> 
+   <td colname="col2"> <p>应取消设置或设置为100%，在这种情况下，对话框会占用整个浏览器窗口（触控设备首选此模式）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定對話方塊以使用整個瀏覽器視窗並在觸控裝置上擁有白色背景：
+示例 — 设置对话框以使用整个浏览器窗口，并在触控设备上使用白色背景：
 
 ```
 .s7smartcropvideoviewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -145,146 +145,146 @@ background-color: #ffffff;
 }
 ```
 
-對話方塊標頭包含圖示、標題文字和關閉按鈕。 標題容器的控制方式
+对话框标题由图标、标题文本和关闭按钮组成。 标头容器的控制方式
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader
 ```
 
-**對話方塊標頭的CSS屬性**
+**对话框标题的CSS属性**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 標頭內容的內部內距。 </p> </td> 
+   <td colname="col2"> <p> 标头内容的内部填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-圖示和標題文字會包裝進由控制的額外容器中
+图标和标题文本将封装在一个由控制的额外容器中
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**對話方塊行的CSS屬性**
+**对话框行的CSS属性**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 標頭圖示和標題的內邊距 </p> </td> 
+   <td colname="col2"> <p> 标题图标和标题的内边距 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-頁首圖示由下列CSS類別選擇器控制
+标头图标由以下CSS类选择器控制
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**對話方塊標頭圖示的CSS屬性**
+**对话框标题图标的CSS属性**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>圖示寬度。 </p> </td> 
+   <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>圖示高度。 </p> </td> 
+   <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>圖示影像。 </p> </td> 
+   <td colname="col2"> <p>图标图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-標題標題由下列CSS類別選擇器控制：
+标头标题由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadertext
 ```
 
-**對話方塊標頭文字的CSS屬性**
+**对话框标题文本的CSS属性**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>字型粗細。 </p> </td> 
+   <td colname="col2"> <p>字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>字型高度。 </p> </td> 
+   <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>字型系列。 </p> </td> 
+   <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>內部文字內距。 </p> </td> 
+   <td colname="col2"> <p>内部文本填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用下列CSS類別選取器來控制「關閉」按鈕：
+“关闭”按钮由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7closebutton
 ```
 
-**關閉按鈕的CSS屬性**
+关闭按钮的**CSS属性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 相對於頁首容器的垂直按鈕位置。 </p> </td> 
+   <td colname="col2"> <p> 相对于标题容器的垂直按钮位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 相對於頁首容器的水準按鈕位置。 </p> </td> 
+   <td colname="col2"> <p> 相对于标题容器的水平按钮位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的內部內距。 </p> </td> 
+   <td colname="col2"> <p>按钮的内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
+   <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-「關閉」按鈕工具提示和對話方塊標題可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+可以本地化“关闭”按钮工具提示和对话框标题。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
 
-範例 — 若要設定包含邊框間距的對話方塊標題，請選取24 x 14畫素圖示、粗體16點標題和28 x 28畫素關閉按鈕。 最後，請讓它定位為距離上方的兩個畫素，以及距離對話方塊容器右方的兩個畫素：
+示例 — 要设置带有内边距的对话框标题，请添加24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮。 最后，将其定位为从顶部开始的两个像素，以及从对话框容器右侧开始的两个像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -324,148 +324,148 @@ background-color: #ffffff;
 }
 ```
 
-對話方塊頁尾包含「取消」按鈕。 頁尾容器由下列CSS類別選擇器控制：
+对话框页脚包含“取消”按钮。 页脚容器由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**對話方塊頁尾**的CSS屬性
+**对话框页脚的CSS属性**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p> 您可以用來在視覺上分隔頁尾與對話方塊其餘部分的邊框。 </p> </td> 
+   <td colname="col2"> <p> 可用于在视觉上分隔页脚和对话框其余部分的边框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-頁尾有保留按鈕的內部容器。 它由下列CSS類別選取器控制：
+页脚具有保持按钮的内容器。 它通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**對話方塊按鈕容器的CSS屬性**
+**对话框按钮容器的CSS属性**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 頁尾與按鈕之間的內距。 </p> </td> 
+   <td colname="col2"> <p> 页脚和按钮之间的内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-「選取全部」按鈕由下列CSS類別選取器控制：
+“全选”按钮由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogactionbutton
 ```
 
-此按鈕僅在桌上型電腦系統上可用。
+该按钮仅在桌面系统上可用。
 
-**全選按鈕的CSS屬性**
+**全选按钮的CSS属性**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
+   <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
+   <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->全選按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+>全选按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-取消按鈕由下列CSS類別選擇器控制：
+“取消”按钮由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**對話方塊取消按鈕的CSS屬性**
+**对话框取消按钮的CSS属性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕文字色彩。 </p> </td> 
+   <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 每個狀態的按鈕背景顏色。 </p> </td> 
+   <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->取消按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+>取消按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-此外，這兩個按鈕共用共用的CSS類別可以包含與其他對話方塊按鈕相同的CSS設定：
+此外，这两个按钮共享公用的CSS类，该类可以包含与其他对话框按钮相同的CSS设置：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
 ```
 
-**按鈕的CSS屬性**
+**按钮的CSS属性**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>按鈕字型粗細。 </p> </td> 
+   <td colname="col2"> <p>按钮字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>按鈕字型大小。 </p> </td> 
+   <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>按鈕字型系列。 </p> </td> 
+   <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p> 按鈕內的文字高度。 影響垂直對齊。 </p> </td> 
+   <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>陰影。 </p> </td> 
+   <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
-   <td colname="col2"> <p>右按鈕邊界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右边距 </span> </p> </td> 
+   <td colname="col2"> <p>右按钮边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
 
-範例 — 若要設定具有64 x 34 Cancel按鈕的對話方塊頁尾，讓每個按鈕狀態的文字顏色和背景顏色不同：
+示例 — 要设置一个对话框页脚，其中具有64 x 34 Cancel按钮，并且每个按钮状态的文本颜色和背景颜色不同：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter { 
@@ -525,32 +525,32 @@ background-color: #ffffff;
 }
 ```
 
-主要對話方塊區域（在頁首和頁尾之間）右側包含可捲動對話方塊內容和捲動面板。 在任何情況下，元件都會管理此區域的寬度，無法在CSS中加以設定。 主要對話方塊區域由下列CSS類別選取器控制：
+主对话框区域（在页眉和页脚之间）右侧包含可滚动的对话框内容和滚动面板。 在所有情况下，组件都会管理此区域的宽度，因此无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-對話方塊檢視區域的**CSS屬性**
+对话框查看区域的**CSS属性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> 主要對話方塊區域的高度。 只有在對話方塊在案頭模式中運作時，才應指定它。 當對話方塊的大小設定為佔據整個瀏覽器視窗時，此選項不適用。 </p> </td> 
+   <td colname="col2"> <p> 主对话框区域的高度。 仅当对话框在桌面模式下工作时，才应指定它。 当调整对话框的大小以占据整个浏览器窗口时，此选项不适用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>主要對話方塊區域的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>外部邊界。 </p> </td> 
+   <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將主要對話方塊區域設定為300畫素高度、有10畫素邊界，並使用白色背景：
+示例 — 要将主对话框区域设置为300像素高度，具有十像素边距，并使用白色背景：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea { 
@@ -560,26 +560,26 @@ background-color: #ffffff;
 }
 ```
 
-所有表單內容（例如標籤和輸入欄位）都位在容器內，由控制
+所有表单内容（如标签和输入字段）都驻留在由控制的容器中
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody
 ```
 
-如果此容器的高度看起來大於主對話方塊區域，元件會自動啟用垂直捲動。
+如果此容器的高度看起来大于主对话框区域，则组件会自动启用垂直滚动。
 
-對話方塊主體**的**CSS屬性
+对话框正文的**CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>內邊距。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定表單內容為十畫素邊框間距：
+示例 — 要将表单内容设置为具有十像素填充：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -587,40 +587,40 @@ background-color: #ffffff;
 }
 ```
 
-對話方塊表單中的所有靜態標籤都由控制
+对话框表单中的所有静态标签都由控制
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoglabel
 ```
 
-此類別不適合控制標籤大小或位置，因為您可以將其套用至表單使用者介面不同位置的文字。
+此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面各个位置的文本。
 
-對話方塊標籤的**CSS屬性。 **
+对话框标签的**CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>標簽字型粗細。 </p> </td> 
+   <td colname="col2"> <p>标签字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>標簽字型大小。 </p> </td> 
+   <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>標簽字型系列。 </p> </td> 
+   <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>標籤文字色彩。 </p> </td> 
+   <td colname="col2"> <p>标签文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-對話方塊標籤工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+可以本地化对话框标签工具提示。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
 
-範例 — 將所有標籤設定為灰色、粗體加九畫素字型：
+示例 — 要将所有标签设置为灰色、粗体加九像素字体：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoglabel { 
@@ -630,28 +630,28 @@ background-color: #ffffff;
 }
 ```
 
-顯示在內嵌程式碼頂端的文字復本大小，由下列CSS類別選取器控制：
+显示在嵌入代码顶部的文本副本的大小由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**對話方塊輸入範圍欄位的CSS屬性**
+**对话框输入范围字段的CSS属性**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>輸入欄位寬度。 </p> </td> 
+   <td colname="col2"> <p>输入字段宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>內邊距。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將文字副本設定為430畫素寬，並在底部有十個畫素的邊框間距：
+示例 — 将文本副本的宽度设置为430像素，并在底部使用10像素填充：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide { 
@@ -660,32 +660,32 @@ background-color: #ffffff;
 }
 ```
 
-內嵌程式碼會包裝在容器中，並使用下列CSS類別選取器控制：
+嵌入代码将封装在容器中，并受以下CSS类选择器的控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**對話方塊輸入容器的CSS屬性**
+**对话框输入容器的CSS属性**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>內嵌程式碼容器的寬度。 </p> </td> 
+   <td colname="col2"> <p>嵌入代码容器的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>內嵌程式碼容器周圍的邊框。 </p> </td> 
+   <td colname="col2"> <p>嵌入代码容器周围的边框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>內邊距。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要在內嵌程式碼文字周圍設定一個畫素的灰色邊框，請使其寬度430畫素，並加上十畫素邊框間距：
+示例 — 要在嵌入代码文本周围设置一个像素的灰色边框，请使其宽度为430像素，并具有十像素填充：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -695,24 +695,24 @@ background-color: #ffffff;
 }
 ```
 
-實際的內嵌程式碼文字由下列CSS類別選取器控制：
+使用以下CSS类选择器控制实际的嵌入代码文本：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**對話方塊輸入容器的CSS屬性**
+**对话框输入容器的CSS属性**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自動換行 </span> </p> </td> 
-   <td colname="col2"> <p>文字環繞樣式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自动换行 </span> </p> </td> 
+   <td colname="col2"> <p>文字环绕样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 設定要使用的內嵌程式碼 `break-word` 自動換行：
+示例 — 设置要使用的嵌入代码 `break-word` 自动换行：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -720,24 +720,24 @@ background-color: #ffffff;
 }
 ```
 
-內嵌大小標籤和下拉式清單位於對話方塊底部，並放入由以下CSS類別選取器控制的容器中：
+嵌入大小标签和下拉列表位于对话框底部，并放入由以下CSS类选择器控制的容器中：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**對話方塊內嵌大小面板的CSS屬性**
+**对话框嵌入大小面板的CSS属性**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>內邊距。 </p> </td> 
+   <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定內嵌大小面板，使其有10個畫素的內距：
+示例 — 要将嵌入大小面板设置为具有十个像素的内边距：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -745,28 +745,28 @@ background-color: #ffffff;
 }
 ```
 
-內嵌大小標籤的大小和對齊方式由下列CSS類別選取器控制：
+嵌入大小标签的大小和对齐方式由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**對話方塊內嵌大小面板的CSS屬性**
+**对话框嵌入大小面板的CSS属性**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>垂直標籤對齊方式。 </p> </td> 
+   <td colname="col2"> <p>垂直标签对齐方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>標籤寬度。 </p> </td> 
+   <td colname="col2"> <p>标签宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 將內嵌大小標籤設定為靠上對齊和80畫素寬：
+示例 — 将嵌入大小标签设置为顶部对齐和80像素宽：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -775,28 +775,28 @@ background-color: #ffffff;
 }
 ```
 
-內嵌大小下拉式方塊的寬度由下列CSS類別選取器控制：
+嵌入大小组合框的宽度由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox
 ```
 
-**下拉式方塊的CSS屬性**
+**组合框的CSS属性**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>下拉式方塊寬度。 </p> </td> 
+   <td colname="col2"> <p>组合框宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->下拉式方塊支援 `expanded` 屬性選擇器，可能的值為 `true` 和 `false`. 此 `true` 當下拉式方塊顯示預先定義的內嵌大小之一時使用value，因此應採用所有可用寬度。 此 `false` 當在下拉式方塊中選取自訂大小選項時會使用值，因此應將其縮小以允許為自訂寬度和高度輸入欄位使用空間。
+>组合框支持 `expanded` 属性选择器，可能的值为 `true` 和 `false`. 此 `true` 当组合框显示预定义的嵌入大小之一时使用value，因此应采用所有可用宽度。 此 `false` 在组合框中选择了“自定义大小”选项时，会使用值，因此应将其收缩以便为自定义宽度和高度输入字段留出空间。
 
-範例 — 設定內嵌大小下拉式方塊在顯示預先定義的專案時為300畫素寬，而在顯示自訂大小時為110畫素寬：
+示例 — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -807,24 +807,24 @@ background-color: #ffffff;
 }
 ```
 
-下拉式方塊文字的高度是由特殊內部元素定義，並且由下列CSS類別選取器控制：
+组合框文本的高度由特殊内部元素定义，并使用以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext
 ```
 
-**下拉式方塊文字的CSS屬性**
+**组合框文本的CSS属性**
 
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>下拉式方塊文字高度。 </p> </td> 
+   <td colname="col2"> <p>组合框文本高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將內嵌大小下拉式方塊文字高度設定為40畫素：
+示例 — 要将嵌入大小组合框文本高度设置为40像素，请执行以下操作：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -832,46 +832,46 @@ background-color: #ffffff;
 }
 ```
 
-下拉式方塊右側有一個「下拉」按鈕，它由以下CSS類別選擇器控制：
+组合框的右侧有一个“下拉”按钮，它通过以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton
 ```
 
-**下拉式方塊按鈕的CSS屬性**
+**组合框按钮的CSS属性**
 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>下拉式方塊內的垂直按鈕位置。 </p> </td> 
+   <td colname="col2"> <p>组合框中的垂直按钮位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>組合方塊內的水準按鈕位置。 </p> </td> 
+   <td colname="col2"> <p>组合框中的水平按钮位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>每個狀態的按鈕影像。 </p> </td> 
+   <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-範例 — 若要將「下拉」按鈕設為28 x 28畫素，並為每個狀態設定個別影像：
+示例 — 将“下拉”按钮设置为28 x 28像素，并为每种状态使用单独的图像：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -892,26 +892,26 @@ background-color: #ffffff;
 }
 ```
 
-在開啟下拉式方塊時會顯示內嵌大小清單的面板，由下列CSS類別選取器控制：
+在打开组合框时显示嵌入大小列表的面板由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
 ```
 
-面板的大小和位置由元件控制。 無法透過CSS變更它。
+面板的大小和位置由组件控制。 无法通过CSS更改它。
 
-**下拉式方塊的CSS屬性**
+**组合框下拉列表的CSS属性**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>面板邊框。 </p> </td> 
+   <td colname="col2"> <p>面板边框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將下拉式方塊面板設定為一個畫素灰色邊框：
+示例 — 将组合框面板设置为具有一个像素灰色边框：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown { 
@@ -919,24 +919,24 @@ background-color: #ffffff;
 }
 ```
 
-下拉式面板中的單一專案，由下列CSS類別選取器控制：
+下拉面板中的单个项目，使用以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor
 ```
 
-**下拉式專案錨點的CSS屬性**
+**下拉项锚点的CSS属性**
 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>專案背景。 </p> </td> 
+   <td colname="col2"> <p>项目背景。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將下拉式方塊面板專案設定為白色背景：
+示例 — 将组合框面板项目设置为使用白色背景：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor { 
@@ -944,36 +944,36 @@ background-color: #ffffff;
 }
 ```
 
-在下拉式方塊面板內所選專案左側顯示的核取標籤，由下列CSS類別選取器控制：
+组合框面板中选定项目左侧显示的复选标记，由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7checkmark
 ```
 
-**核取方塊的CSS屬性**
+**复选框的CSS属性**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>圖示寬度。 </p> </td> 
+   <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>圖示高度。 </p> </td> 
+   <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>專案影像。 </p> </td> 
+   <td colname="col2"> <p>项目图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將勾號圖示設定為25 x 25畫素：
+示例 — 将复选标记图标设置为25 x 25像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7checkmark { 
@@ -983,24 +983,24 @@ background-color: #ffffff;
 }
 ```
 
-在內嵌大小下拉式方塊中選取「自訂大小」選項時，對話方塊右側會顯示兩個額外的輸入欄位，以讓使用者輸入自訂內嵌大小。 這些欄位會包裝在容器中，而容器是由下列CSS類別選取器所控制：
+在嵌入大小组合框中选择“自定义大小”选项后，对话框的右侧会显示两个额外的输入字段，以允许用户输入自定义嵌入大小。 这些字段封装在一个容器中，该容器由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
 ```
 
-**對話方塊自訂大小面板的CSS屬性**
+**对话框自定义大小面板的CSS属性**
 
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p> 與內嵌大小下拉式方塊的距離。 </p> </td> 
+   <td colname="col2"> <p> 距嵌入大小组合框的距离。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要將自訂大小輸入欄位面板設定為下拉式方塊右側的20畫素：
+示例 — 要将自定义大小输入字段面板设置为组合框右侧20像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1008,36 +1008,36 @@ background-color: #ffffff;
 }
 ```
 
-每個自訂大小輸入欄位都會包裝在容器中，以呈現框線並設定欄位之間的邊界。 它由下列CSS類別選取器控制：
+每个自定义大小输入字段都包装在一个容器中，该容器可渲染边框并设置字段之间的边距。 它通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**對話方塊自訂大小的CSS屬性**
+**对话框自定义大小的CSS属性**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>輸入欄位周圍的邊框。 </p> </td> 
+   <td colname="col2"> <p>输入字段周围的边框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 輸入欄位寬度。 </p> </td> 
+   <td colname="col2"> <p> 输入字段宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 輸入欄位邊界。 </p> </td> 
+   <td colname="col2"> <p> 输入字段边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 輸入欄位內距。 </p> </td> 
+   <td colname="col2"> <p> 输入字段填充。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定自訂大小輸入欄位，使其有一個畫素灰色邊框、邊界、邊框間距，以及寬度為70畫素：
+示例 — 将自定义大小输入字段设置为具有一个像素灰色边框、边距、内边距和70像素宽：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1049,24 +1049,24 @@ background-color: #ffffff;
 }
 ```
 
-如果需要垂直捲動，卷軸會呈現在對話方塊右邊緣附近的面板中（使用下列CSS類別選取器控制）：
+如果需要垂直滚动，滚动条将在对话框右边缘附近的面板中呈现，该面板由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel
 ```
 
-**對話方塊捲動面板的CSS屬性**
+**对话框滚动面板的CSS属性**
 
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>捲動面板寬度。 </p> </td> 
+   <td colname="col2"> <p>滚动面板宽度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 將捲動面板設定為44畫素寬
+示例 — 将滚动面板设置为44像素宽
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1074,36 +1074,36 @@ background-color: #ffffff;
 }
 ```
 
-卷軸區域的外觀是由下列CSS類別選取器所控制：
+滚动条区域的外观由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar
 ```
 
-**卷軸的CSS屬性**
+**滚动条的CSS属性**
 
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>卷軸寬度。 </p> </td> 
+   <td colname="col2"> <p>滚动条宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直卷軸從捲動面板頂端位移。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条从滚动面板顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直卷軸從捲動面板底部位移。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条从滚动面板的底部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p> 水準卷軸從捲動面板的右邊緣位移。 </p> </td> 
+   <td colname="col2"> <p> 水平滚动条从滚动面板的右边缘偏移。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定寬度為28畫素的卷軸，且卷軸面板的上下左右各有8個畫素的邊界：
+示例 — 设置一个宽度为28像素的滚动条，该滚动条在滚动面板的顶部、右侧和底部各有8个像素的边距：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar { 
@@ -1114,28 +1114,28 @@ background-color: #ffffff;
 }
 ```
 
-卷軸軌跡是上下捲動按鈕之間的區域。 元件會自動設定軌跡的位置和高度。 使用下列CSS類別選取器來控制曲目
+滚动条轨道是上下滚动按钮之间的区域。 组件会自动设置轨道的位置和高度。 使用以下CSS类选择器控制跟踪
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**卷軸軌跡的CSS屬性**
+**滚动条轨道的CSS属性**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>磁軌寬度。 </p> </td> 
+   <td colname="col2"> <p>轨道宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 追蹤背景顏色。 </p> </td> 
+   <td colname="col2"> <p> 跟踪背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要設定寬度為28畫素且背景為灰色的卷軸軌跡：
+示例 — 要设置宽度为28像素且背景为灰色的滚动条轨道：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1144,44 +1144,44 @@ background-color: #B2B2B2;
 }
 ```
 
-卷軸縮圖在捲動軌跡區域中垂直移動。 其垂直位置完全由元件邏輯控制。 不過，縮圖高度不會隨著內容量而動態變更。 您可以使用以下CSS類別選取器來設定縮圖高度和其他方面：
+滚动条缩略图在滚动轨道区域中垂直移动。 其垂直位置完全由组件逻辑控制。 但是，缩略图高度不会因内容量而动态变化。 可以使用以下CSS类选择器配置缩略图高度和其他方面：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb
 ```
 
-**卷軸縮圖的CSS屬性**
+**滚动条缩略图的CSS属性**
 
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>縮圖寬度。 </p> </td> 
+   <td colname="col2"> <p>缩略图宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>縮圖高度。 </p> </td> 
+   <td colname="col2"> <p>缩略图高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上內邊距 </span> </p> </td> 
-   <td colname="col2"> <p>磁軌頂端之間的垂直邊框間距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上内边距 </span> </p> </td> 
+   <td colname="col2"> <p>轨道顶部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下內邊距 </span> </p> </td> 
-   <td colname="col2"> <p> 軌道底部之間的垂直邊框間距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 底部填充 </span> </p> </td> 
+   <td colname="col2"> <p> 轨道底部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定縮圖狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 为给定的缩略图状态显示的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態： `up`， `down`， `over`、和 `disabled`.
+>缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态： `up`， `down`， `over`、和 `disabled`.
 
-範例 — 若要設定卷軸縮圖，其大小為28 x 45畫素，上下各有10畫素邊界，且每種狀態的圖稿都不同：
+示例 — 设置一个滚动条缩略图，其大小为28 x 45像素，上下各有10个像素的边距，并且每种状态的图稿都不同：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1204,7 +1204,7 @@ background-color: #B2B2B2;
 }
 ```
 
-上下捲動按鈕的外觀由下列CSS類別選取器控制：
+顶部和底部滚动按钮的外观由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton 
@@ -1214,38 +1214,38 @@ background-color: #B2B2B2;
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-無法使用CSS top、left、bottom和right屬性來定位捲動按鈕。 相反地，檢視器邏輯會自動定位它們。
+无法使用CSS top、left、bottom和right属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
-**頂端和底部捲動按鈕的CSS屬性**
+**顶部和底部滚动按钮的CSS属性**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 为给定的按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->這些按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態： `up`， `down`， `over`、和 `disabled`.
+>这些按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态： `up`， `down`， `over`、和 `disabled`.
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
 
-範例 — 若要設定28 x 32畫素的捲動按鈕，且每個狀態的圖稿都不同：
+示例 — 设置像素为28 x 32的滚动按钮，并为每种状态设置不同的图稿：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

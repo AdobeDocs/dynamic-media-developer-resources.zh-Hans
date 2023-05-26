@@ -20,12 +20,12 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定Dynamic Media OnDemand電子郵件服務的基底URL。 </p> </td> 
+   <td colname="col2"> <p> 指定Dynamic Media OnDemand电子邮件服务的基本URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

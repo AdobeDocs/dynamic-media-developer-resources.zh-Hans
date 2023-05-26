@@ -1,7 +1,7 @@
 ---
-description: 使用下列專案聯絡技術支援。
+description: 使用以下内容联系技术支持。
 solution: Experience Manager
-title: 技術支援
+title: 技术支持
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 14d0c190-5b12-43d4-9e88-09f47b17d85e
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 技術支援{#technical-support}
+# 技术支持{#technical-support}
 
-使用下列專案聯絡技術支援。
+使用以下内容联系技术支持。
 
-* **電話** - 800-898-9743，美國太平洋時間，週一至週五，06:00至18:00，節假日除外。
-* **建立支援案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **电话** - 800-898-9743，美国太平洋时间，星期一至星期五，06:00至18:00，节假日除外。
+* **创建支持案例** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

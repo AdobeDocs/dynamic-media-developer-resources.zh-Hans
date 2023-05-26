@@ -14,18 +14,18 @@ ht-degree: 10%
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= `x`, `y`, `w`, `h」
+` [ZoomView.|<containerId>_zoomView.]rgn= `x`, `y`, `w`, `h”
 
 <table id="table_A5BFF854E2064B048BF9AA8D576F7DA2"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x</span>，<span class="codeph"> y</span>，<span class="codeph"> w</span>，<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> 以畫素座標表示的初始興趣區域。 如果未指定此值，則整個影像會符合初始檢視區。 </p> </td> 
+   <td colname="col2"> <p> 以像素坐标表示的初始关注区域。 如果未指定此值，则整个图像将适合初始视区。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.autoplay
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]autoplay=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器在載入時是否開始播放視訊。 某些系統（例如某些行動裝置）可能不支援自動播放。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 某些系统（如某些移动设备）可能不支持自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

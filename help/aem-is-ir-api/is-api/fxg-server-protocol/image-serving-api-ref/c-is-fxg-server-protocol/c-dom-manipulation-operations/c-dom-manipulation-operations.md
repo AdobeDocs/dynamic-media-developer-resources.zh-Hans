@@ -1,7 +1,7 @@
 ---
-description: 支援多個DOM操作操作。
+description: 支持多个DOM操作操作。
 solution: Experience Manager
-title: FXG DOM操作作業
+title: FXG DOM操作操作
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# FXG DOM操作作業{#fxg-dom-manipulation-operations}
+# FXG DOM操作操作{#fxg-dom-manipulation-operations}
 
-支援多個DOM操作操作。
+支持多个DOM操作操作。
 
 * [appendElement](r-appendelement.md)
 * [deleteAttr](r-deleteattr.md)

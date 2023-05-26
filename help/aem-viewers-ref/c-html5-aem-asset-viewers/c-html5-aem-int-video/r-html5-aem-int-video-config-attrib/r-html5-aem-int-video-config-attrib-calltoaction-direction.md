@@ -1,6 +1,6 @@
 ---
 title: CallToAction.direction
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 3%
 
 # CallToAction.direction{#calltoaction-direction}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[CallToAction.|<containerId>_callToAction.]direction=auto|left|right`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> 指定在檢視中填入縮圖的方式。 </p> <p>設定為 <span class="codeph"> left </span> 以設定由左至右的填入順序。 </p> <p>設定為 <span class="codeph"> 右側 </span> 反轉順序，使檢視以從右至左、從上至下的方向填充。 </p> <p>設定為 <span class="codeph"> 自動 </span> 地區設定設為「 」時，讓元件套用正確的模式 <span class="codeph"> "ja" </span>；否則， <span class="codeph"> left </span> 已使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自动|左|右 </span> </p> </td> 
+   <td colname="col2"> <p> 指定缩略图在视图中填充的方式。 </p> <p>设置为 <span class="codeph"> left </span> 设置从左至右的填充顺序。 </p> <p>设置为 <span class="codeph"> 右 </span> 反转顺序，以便视图按从右至左、从上至下的方向填充。 </p> <p>设置为 <span class="codeph"> 自动 </span> 区域设置设置为时，使组件应用正确的模式 <span class="codeph"> "ja" </span>；否则， <span class="codeph"> left </span> 已使用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

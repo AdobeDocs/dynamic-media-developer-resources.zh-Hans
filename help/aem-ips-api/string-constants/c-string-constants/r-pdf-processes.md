@@ -1,5 +1,5 @@
 ---
-description: 由PDFOptions/型別使用。
+description: 由PDFOptions/类型使用。
 solution: Experience Manager
 title: PDF流程
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # PDF流程{#pdf-processes}
 
-由PDFOptions/型別使用。
+由PDFOptions/类型使用。
 
 语法
 

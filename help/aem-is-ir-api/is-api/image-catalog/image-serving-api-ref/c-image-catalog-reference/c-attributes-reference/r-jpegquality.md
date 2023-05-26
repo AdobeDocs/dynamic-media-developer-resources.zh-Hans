@@ -1,7 +1,7 @@
 ---
-description: 預設JPEG編碼屬性。 指定JPEG回覆影像的預設屬性。
+description: 默认JPEG编码属性。 指定JPEG回复图像的默认属性。
 solution: Experience Manager
-title: JpegQuality
+title: Jpeg品质
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
@@ -12,17 +12,17 @@ ht-degree: 3%
 
 ---
 
-# JpegQuality{#jpegquality}
+# Jpeg品质{#jpegquality}
 
-預設JPEG編碼屬性。 指定JPEG回覆影像的預設屬性。
+默认JPEG编码属性。 指定JPEG回复图像的默认属性。
 
-## 屬性 {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
+## 属性 {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-整數與旗標，以逗號分隔。 第一個值在1到100的範圍內，並定義品質。 第二個值可能是0 （代表正常行為），或是1 (代表停用JPEG編碼器通常採用的RGB色度縮減取樣)。
+用逗号分隔的整数和标志。 第一个值在1至100的范围内，用于定义质量。 对于正常行为，第二个值可以是0，或者可以是1以禁用JPEG编码器通常采用的RGB色度缩减采样。
 
 ## 默认 {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-繼承自 `default::JpegQuality` 如果未定義或為空。
+继承自 `default::JpegQuality` 如果未定义或为空。
 
 ## 另请参阅 {#section-aa994afc02ea4f799655233ea32d36c9}
 

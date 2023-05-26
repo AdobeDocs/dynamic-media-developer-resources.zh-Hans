@@ -1,7 +1,7 @@
 ---
-description: 說明IPS API 4.5版的新增和變更的作業方法。
+description: 介绍IPS API版本4.5的新操作和更改的操作方法。
 solution: Experience Manager
-title: 作業 — 新增與修改
+title: 操作 — 新建和已修改
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# 作業：新增與修改{#operations-new-and-modified}
+# 操作：新建和已修改{#operations-new-and-modified}
 
-說明IPS API 4.5版的新增和變更的作業方法。
+介绍IPS API版本4.5的新操作和更改的操作方法。
 
 语法
 
-## 新作業 {#section-a3be679d8e9345aba2e97699c3a537b9}
+## 新操作 {#section-a3be679d8e9345aba2e97699c3a537b9}
 
 * `addMediaPortalEvent`
 * `addTagFieldValues`
@@ -35,10 +35,10 @@ ht-degree: 1%
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## 已修改的作業 {#section-1c022cc62d274c349837013f1c02ca51}
+## 已修改的操作 {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` 包含 `animatedGifInfo`， `swcInfo`， `cssInfo`、和 `javascriptInfo` 引數。
-* `createMetadataField` 包含選購專案 `isHidden` 引數。
-* `saveMetadataField` 包含選購專案 `isHidden` 引數。
+* `Asset` 包含 `animatedGifInfo`， `swcInfo`， `cssInfo`、和 `javascriptInfo` 参数。
+* `createMetadataField` 包含一个可选 `isHidden` 参数。
+* `saveMetadataField` 包含一个可选 `isHidden` 参数。
 * `searchAssets`
-* 此 `renameFiles` 舊版已棄用引數，並已從 `renameAsset` 作業。 虛擬檔案路徑會變更為符合新的資產名稱（保留副檔名），而實體檔案路徑則不受影響。 API使用者端在更新至新API版本時需要移除此引數的參考。
+* 此 `renameFiles` 参数在以前的版本中已弃用，已从 `renameAsset` 操作。 虚拟文件路径将更改以匹配新的资源名称（保留文件扩展名），而物理文件路径不受影响。 在更新到新的API版本时，API客户端需要移除对此参数的引用。

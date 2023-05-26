@@ -1,5 +1,5 @@
 ---
-description: 取得影像集中的成員陣列。
+description: 获取图像集中的成员数组。
 solution: Experience Manager
 title: getImageSetMember
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # getImageSetMember{#getimagesetmembers}
 
-取得影像集中的成員陣列。
+获取图像集中的成员数组。
 
 语法
 
-## 授權的使用者型別 {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 授权用户类型 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,26 +31,26 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->需要影像和成員集資產的讀取存取權。
+>需要对图像和成员集资源的读取权限。
 
 ## 参数 {#section-a67ba98095574533980997c83ceaa316}
 
-**輸入(getImageSetMembersParam)**
+**输入(getImageSetMembersParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含影像集的公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 影像集資產控制點。 |
+| companyHandle | `xsd:string` | 是 | 包含图像集的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 图像集资源句柄。 |
 
-**輸出(getImageSetMembersReturn)**
+**输出(getImageSetMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| memberArray | `types:ImageSetMemberArray` | 否 | 影像整合員的陣列。 |
+| memberArray | `types:ImageSetMemberArray` | 否 | 图像集成员数组。 |
 
 ## 示例 {#section-888a9a78033346f39b171229de93dfa0}
 
-此程式碼範例會傳回特定的影像整合員。 回應會傳回空白陣列。
+此代码示例返回特定的图像集成员。 响应返回空数组。
 
 **请求**
 

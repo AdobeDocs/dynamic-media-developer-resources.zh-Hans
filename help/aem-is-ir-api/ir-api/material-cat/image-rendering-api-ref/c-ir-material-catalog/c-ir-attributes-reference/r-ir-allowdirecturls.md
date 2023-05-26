@@ -1,6 +1,6 @@
 ---
 title: AllowDirectURLs
-description: 允許絕對來源URL。
+description: 允许绝对源URL。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 9%
 
 # AllowDirectURLs{#allowdirecturls}
 
-允許絕對來源URL。
+允许绝对源URL。
 
-設定為 `1` 以允許絕對HTTP URL (開頭為&quot; `http://`&quot;) in `src=` 命令。 設定為 `0` 以禁止絕對URL。
+设置为 `1` 以允许绝对HTTP URL(以&quot; `http://`“) in `src=` 命令。 设置为 `0` 不允许使用绝对URL。
 
-## 屬性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
+## 属性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
 标记.
 
 ## 默认 {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-繼承自 `default::AllowDirectUrls` 如果未定義或為空。
+继承自 `default::AllowDirectUrls` 如果未定义或为空。
 
 ## 另请参阅 {#section-66e0c597a8b04155b40538385312b389}
 

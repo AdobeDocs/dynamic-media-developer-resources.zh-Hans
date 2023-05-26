@@ -1,6 +1,6 @@
 ---
 title: IccProfileRgb
-description: RGB預設輸出色彩設定檔。 指定當icc=未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱。 此外，也可用於使用各種「影像演算」指令指定的某些RGB色彩值，例如bgc=和color=。
+description: RGB默认输出颜色配置文件。 指定当没有使用icc=指定输出色彩空间时，用于RGB响应图像的ICC色彩配置文件的名称。 对于通过各种“图像渲染”命令（例如bgc=和color=）指定的某些RGB颜色值，也是如此。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB預設輸出色彩設定檔。 指定當未指定輸出色域時，用於RGB回應影像的ICC色彩設定檔名稱 `icc=`. 也用於使用各種「影像演算」指令指定的某些RGB色彩值，例如 `bgc=` 和 `color=`.
+RGB默认输出颜色配置文件。 指定当未指定输出色彩空间时，用于RGB响应图像的ICC色彩配置文件的名称 `icc=`. 对于通过各种“图像渲染”命令指定的某些RGB颜色值，如 `bgc=` 和 `color=`.
 
-## 屬性 {#section-b4a1bd92e99047479a5036413525a6d9}
+## 属性 {#section-b4a1bd92e99047479a5036413525a6d9}
 
-文字字串。 若指定，則必須為有效 `icc::Name` 來自此材料目錄或預設目錄的ICC輪廓對映的值，或相對於此材料目錄的檔案路徑 `attribute::RootPath`. 參考的ICC設定檔必須是RGB設定檔。
+文本字符串。 如果指定，则必须为有效 `icc::Name` 此材质目录或默认目录的ICC配置文件映射中的值，或相对于 `attribute::RootPath`. 引用的ICC配置文件必须是RGB配置文件。
 
 ## 默认 {#section-5809772f8e96438ab7626d323c66a4ba}
 
-繼承自 `default::IccProfileRgb` 如果未定義或為空。
+继承自 `default::IccProfileRgb` 如果未定义或为空。
 
 ## 另请参阅 {#section-732c17dece3a4575855c9b79a08d0067}
 

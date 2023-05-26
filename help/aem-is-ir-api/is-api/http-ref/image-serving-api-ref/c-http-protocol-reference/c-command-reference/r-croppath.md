@@ -1,7 +1,7 @@
 ---
-description: 可讓您裁切至內嵌命名路徑的邊界方框。 此裁切作業進而會變更影像的大小。
+description: 允许您裁切到嵌入命名路径的边界框。 此裁剪依次更改图像的大小。
 solution: Experience Manager
-title: cropPathE
+title: 裁切路径E
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# cropPathE{#croppathe}
+# 裁切路径E{#croppathe}
 
-可讓您裁切至內嵌命名路徑的邊界方框。 此裁切作業進而會變更影像的大小。
+允许您裁切到嵌入命名路径的边界框。 此裁剪依次更改图像的大小。
 
 `cropPathE= *`pathName`*&#42;[, *`pathName`*]`
 
@@ -22,20 +22,20 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>內嵌在圖層來源影像中的路徑名稱（僅限ASCII）。 </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> 是內嵌在圖層來源影像中的路徑名稱。 路徑會視需要自動轉換，以維持與影像內容的相對對齊方式。 如果超過一個 <span class="codeph"><span class="varname"> pathName</span></span> 指定時，伺服器會裁切至每個路徑的邊界方框，一次一個。 任何 <span class="codeph"><span class="varname"> pathName</span></span> 在來源影像中找不到，則會被忽略。 </p> </td> 
+   <td colname="col2"> <p>嵌入到图层源图像中的路径名称（仅限ASCII）。 </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> 是嵌入到图层源图像中的路径的名称。 根据需要自动转换路径，以保持与图像内容的相对对齐。 如果超过一个 <span class="codeph"><span class="varname"> pathName</span></span> 指定时，服务器将裁切到每个路径的边界框，一次裁切一个。 任意 <span class="codeph"><span class="varname"> pathName</span></span> 在源映像中未找到将被忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
+## 属性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`. 被效果圖層忽略。
+层属性。 应用于当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
 
-`cropPathE=` 如果在圖層來源影像中找不到具有指定名稱的路徑，或圖層來源不是影像，則會忽略該專案。
+`cropPathE=` 如果在图层源图像中未找到具有指定名称的路径，或者图层源不是图像，则会忽略该项。
 
 ## 默认 {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-「無」，表示沒有額外的圖層裁切。
+无，表示不进行额外的图层裁剪。
 
 ## 另请参阅 {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 

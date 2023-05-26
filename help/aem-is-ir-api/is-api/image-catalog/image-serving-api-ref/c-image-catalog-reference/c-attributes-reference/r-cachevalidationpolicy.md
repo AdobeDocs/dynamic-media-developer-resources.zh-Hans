@@ -1,6 +1,6 @@
 ---
 title: CacheValidationPolicy
-description: 伺服器快取驗證原則。 指定伺服器端快取專案驗證的時間。
+description: 服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 3%
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-伺服器快取驗證原則。 指定伺服器端快取專案驗證的時間。
+服务器缓存验证策略。 指定验证服务器端缓存条目的时间。
 
-透過基於到期日的驗證，會定期檢查來源影像是否已變更。 使用目錄型驗證時，來源影像只會在 `catalog::TimeStamp` 值已變更。
+使用基于到期的验证，将定期检查源图像是否已更改。 使用基于目录的验证时，仅在以下时间后检查源图像： `catalog::TimeStamp` 值已更改。
 
-使用影像目錄時，建議使用目錄型驗證。 直接參照影像時，應使用過期基準驗證，而不使用影像目錄。
+在使用图像目录时，建议使用基于目录的验证。 在不使用图像目录的情况下，直接引用图像时应使用基于到期的验证。
 
-## 屬性 {#section-650cbddd81a24c3b8b70479248a45dc9}
+## 属性 {#section-650cbddd81a24c3b8b70479248a45dc9}
 
-列舉。 0代表選取過期型驗證，1代表選取目錄型快取驗證。
+枚举。 0表示选择基于到期的验证，1表示选择基于目录的缓存验证。
 
 ## 默认 {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-繼承自 `default::CacheValidationPolicy` 如果未定義或為空。
+继承自 `default::CacheValidationPolicy` 如果未定义或为空。
 
 ## 另请参阅 {#section-a0c922fa519641f2bce05e75e4eb51d0}
 
-[catalog：：TimeStamp](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md#reference-59a27b72f4cb4a53a3baba83214c4ded)
+[catalog：：时间戳](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-timestamp-svg.md#reference-59a27b72f4cb4a53a3baba83214c4ded)

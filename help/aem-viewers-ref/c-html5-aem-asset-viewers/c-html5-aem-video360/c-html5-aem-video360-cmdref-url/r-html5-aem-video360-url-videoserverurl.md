@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Video360檢視器的URL命令。
+description: Video360查看器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # videoServerUrl{#videoserverurl}
 
-Video360檢視器的URL命令。
+Video360查看器的URL命令。
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,14 +22,14 @@ Video360檢視器的URL命令。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 視訊伺服器根路徑。 若未指定網域，則改為套用伺服頁面的網域。 適用標準URI路徑解析。 </p> </td> 
+   <td colname="col2"> <p> 视频服务器根路径。 如果没有指定域，则应用为页面提供服务的域。 标准URI路径解析在此处适用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选. 標準SaaS使用不需要。
+可选. 标准SaaS使用不需要。
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

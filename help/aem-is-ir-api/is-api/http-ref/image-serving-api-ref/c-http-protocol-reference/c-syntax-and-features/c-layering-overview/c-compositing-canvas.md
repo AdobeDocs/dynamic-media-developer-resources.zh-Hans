@@ -1,7 +1,7 @@
 ---
-description: 圖層會以layer=指令指定的順序組合，編號較高的圖層會隱藏編號較低的圖層。
+description: 按照layer=命令指定的顺序合成图层，其中编号较高的图层隐藏编号较低的图层。
 solution: Experience Manager
-title: 合成畫布
+title: 合成画布
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 合成畫布{#the-compositing-canvas}
+# 合成画布{#the-compositing-canvas}
 
-圖層會以layer=指令指定的順序組合，編號較高的圖層會隱藏編號較低的圖層。
+按照layer=命令指定的顺序合成图层，其中编号较高的图层隐藏编号较低的图层。
 
-圖層0構成背景圖層，背景圖層永遠是必要的，並定義複合影像的大小。 圖層0允許使用任何圖層型別。 必須定義圖層0的大小，或是明確使用 `size=` 或隱含地，根據內容影像或文字。 其他圖層的任何區域若落在圖層0的區域之外，將不會包含在輸出影像中。
+图层0构成背景图层，背景图层始终是必需的，它定义了复合图像的大小。 层0允许使用任何层类型。 必须定义图层0的大小，或者显式使用 `size=` 或者隐式地，基于内容图像或文本。 其他图层中任何落在图层0区域之外的区域都不会包含在输出图像中。
 
 >[!NOTE]
 >
->所有圖層都平面化後，複合影像會轉換為最終回應影像，如同以 [檢視命令和屬性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).
+>拼合所有图层后，复合图像将转换为最终响应图像，如使用 [查看命令和属性](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).

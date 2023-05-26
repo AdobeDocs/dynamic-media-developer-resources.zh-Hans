@@ -1,6 +1,6 @@
 ---
 title: callToActionRecap
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # callToActionRecap{#calltoactionrecap}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `callToActionRecap=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指出檢視器在視訊播放結束時是否顯示「呼叫動作」面板。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在视频播放结束时显示“行动号召”面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

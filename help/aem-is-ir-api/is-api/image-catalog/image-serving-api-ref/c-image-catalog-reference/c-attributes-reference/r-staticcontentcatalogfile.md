@@ -1,5 +1,5 @@
 ---
-description: 靜態內容目錄資料檔案路徑。 指定包含此目錄之靜態內容資料的檔案。
+description: 静态内容目录数据文件路径。 指定包含此目录的静态内容数据的文件。
 solution: Experience Manager
 title: StaticContentCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 3%
 
 # StaticContentCatalogFile{#staticcontentcatalogfile}
 
-靜態內容目錄資料檔案路徑。 指定包含此目錄之靜態內容資料的檔案。
+静态内容目录数据文件路径。 指定包含此目录的静态内容数据的文件。
 
-靜態內容目錄資料檔案會依照指定的順序載入。 若相同 `static::Id` 值發生在多個記錄中（在相同或不同的目錄檔案中），最後一個例項優先。
+按指定的顺序加载静态内容目录数据文件。 如果相同 `static::Id` 值出现在多个记录中（在同一目录文件中或不同目录文件中），最后实例优先。
 
-## 屬性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
+## 属性 {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
-一或多個文字字串值，以逗號分隔。 可选. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
+一个或多个文本字符串值，以逗号分隔。 可选. 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
 
 ## 默认 {#section-702edfbc00c54fc29e412a3ff99fef2b}
 
-空白，表示此影像目錄不包含任何靜態內容資料。
+为空，这表示此图像目录不包含任何静态内容数据。
 
 ## 另请参阅 {#section-13d78d475fff40e7a4edf9a9c73f3c15}
 
-[目錄資料](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)
+[目录数据](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)

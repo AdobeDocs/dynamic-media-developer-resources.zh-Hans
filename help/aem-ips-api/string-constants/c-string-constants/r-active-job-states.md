@@ -1,7 +1,7 @@
 ---
-description: 由ActiveJobs/狀態使用。
+description: 由ActiveJobs/状态使用。
 solution: Experience Manager
-title: 作用中工作狀態
+title: 活动作业状态
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# 作用中工作狀態{#active-job-states}
+# 活动作业状态{#active-job-states}
 
-由ActiveJobs/狀態使用。
+由ActiveJobs/状态使用。
 
 语法
 

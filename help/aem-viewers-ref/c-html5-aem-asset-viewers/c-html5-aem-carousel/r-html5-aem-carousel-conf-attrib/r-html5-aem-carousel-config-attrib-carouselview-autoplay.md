@@ -1,6 +1,6 @@
 ---
 title: CarouselView.autoplay
-description: 轉盤檢視器的設定屬性。
+description: 轮播查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # CarouselView.autoplay{#carouselview-autoplay}
 
-轉盤檢視器的設定屬性。
+轮播查看器的配置属性。
 
 `[CarouselView.|<containerId>_carouselView.]autoplay=[0|1][,duration][,direction]`
 
@@ -22,12 +22,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][，duration][，direction]</span> </p> </td> 
-   <td colname="col2"> <p> 指定開啟/關閉、在輪播中顯示每個橫幅的持續時間以及自動回圈的方向。 </p> <p>設定為 <span class="codeph"> 0</span> 關閉自動回圈。 </p> <p>設定 <span class="codeph"> 1</span> 開啟以秒為單位之轉換持續時間的自動回圈，控制方式為 <span class="codeph"> 持續時間</span>. </p> <p>自動回圈的方向由控制 <span class="codeph"> 方向</span>. 此 <span class="codeph"> 方向</span> 範圍介於 <span class="codeph"> 1</span> 由右至左和 <span class="codeph"> 0</span> 由左至右。 </p> </td> 
+   <td colname="col2"> <p> 指定自动循环的打开/关闭、在轮播中显示每个横幅的持续时间以及方向。 </p> <p>设置为 <span class="codeph"> 0</span> 关闭自动循环。 </p> <p>设置 <span class="codeph"> 1</span> 自动循环，过渡持续时间（以秒为单位）由控制 <span class="codeph"> 持续时间</span>. </p> <p>自动循环的方向由控制 <span class="codeph"> 方向</span>. 此 <span class="codeph"> 方向</span> 范围介于 <span class="codeph"> 1</span> 从右至左和 <span class="codeph"> 0</span> 从左至右。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

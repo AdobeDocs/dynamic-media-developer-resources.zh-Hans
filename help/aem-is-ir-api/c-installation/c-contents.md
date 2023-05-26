@@ -1,6 +1,6 @@
 ---
 title: 内容
-description: 安裝之後，install_root中的資料夾階層會包含下列檔案和資料夾。
+description: 安装后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 2%
 
 # 内容{#contents}
 
-安裝之後，install_root中的資料夾階層會包含下列檔案和資料夾。
+安装后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
 
 >[!NOTE]
 >
->存在其他檔案和資料夾；請勿變更它們。
+>存在其他文件和文件夹；请勿更改它们。
 
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>安裝根目錄 </p> </th> 
+   <th colname="col1" class="entry"> <p>安装根目录 </p> </th> 
    <th colname="col2" class="entry"> <p> </p> </th> 
    <th colname="col3" class="entry"> <p> </p> </th> 
    <th colname="col4" class="entry"> <p>说明 </p> </th> 
@@ -34,23 +34,23 @@ ht-degree: 2%
    <td colname="col1"> <p> <span class="filepath"> 许可证 </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Linux®的授權檔案資料夾。 </p> </td> 
+   <td colname="col4"> <p>Linux®的License files文件夹。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> ImageServing/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>「影像伺服」安裝根資料夾。 </p> </td> 
+   <td colname="col4"> <p>图像服务安装根文件夹。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 備份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 备份/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像伺服組態檔備份先前安裝。 </p> </td> 
+   <td colname="col4"> <p>图像服务配置文件备份以前安装。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> bin/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 纸盒/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -58,7 +58,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>啟動和停止影像伺服的指令碼。 </p> </td> 
+   <td colname="col4"> <p>用于启动和停止图像服务的脚本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -70,55 +70,55 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>影像伺服影像轉換公用程式。 </p> </td> 
+   <td colname="col4"> <p>图像服务图像转换器实用程序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> PsLayers (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>[!DNL Photoshop] 文字圖層變數擷取。 </p> </td> 
+   <td colname="col4"> <p>[!DNL Photoshop] 文本图层变量提取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 驗證(.exe) </span> </p> </td> 
-   <td colname="col4"> <p>影像伺服影像驗證公用程式。 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> 验证(.exe) </span> </p> </td> 
+   <td colname="col4"> <p>图像服务图像验证实用程序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>影像演算暈映、封包和視窗涵蓋轉換公用程式。 </p> </td> 
+   <td colname="col4"> <p>图像渲染晕影、机柜和窗口覆盖转换器实用程序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 缓存/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>資料快取資料夾；可在安裝時設定，或手動編輯設定檔案進行設定。 </p> </td> 
+   <td colname="col4"> <p>数据缓存文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>PS會將編譯的目錄資料儲存在這裡。 </p> </td> 
+   <td colname="col4"> <p>PS将编译后的目录数据保存在此处。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ir-catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>影像演算會將編譯的目錄資料儲存在這裡。 </p> </td> 
+   <td colname="col4"> <p>图像渲染在此处保存编译的目录数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> is-response/ </span> </p> </td> 
-   <td colname="col4"> <p>主要HTTP回應快取。 </p> </td> 
+   <td colname="col4"> <p>主HTTP响应缓存。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目錄/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 目录/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS影像目錄資料夾；可在安裝時設定，或透過手動編輯組態檔來設定。 </p> </td> 
+   <td colname="col4"> <p>IS图像目录文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,31 +130,31 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是伺服器正常運作所必需的。 </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是服务器正常工作所必需的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> conf/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>伺服器組態檔位於此處。 </p> </td> 
+   <td colname="col4"> <p>服务器配置文件位于此处。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-service.conf </span> </p> <p> <span class="filepath"> ImageServerRegistry.xml </span> </p> <p> <span class="filepath"> PlatformServer.conf </span> </p> <p> <span class="filepath"> server.xml </span> </p> <p> <span class="filepath"> SupervisorRegistry.xml </span> </p> </td> 
-   <td colname="col4"> <p>如需進一步資訊，請參閱檔案。 </p> </td> 
+   <td colname="col4"> <p>有关更多信息，请参阅文档。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>包含預設字型。 </p> </td> 
+   <td colname="col4"> <p>包含默认字体。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>包含「影像伺服」的預設設定檔。 </p> </td> 
+   <td colname="col4"> <p>包含图像服务的默认配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -166,41 +166,41 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 图像/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像伺服來源資料夾；手動編輯組態檔。 </p> </td> 
+   <td colname="col4"> <p>图像服务源数据文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 日志/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>所有PS和IS記錄檔資料都會寫入此資料夾；請手動編輯組態檔。 </p> </td> 
+   <td colname="col4"> <p>所有PS和IS日志数据都将写入此文件夹；请手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> access-*.log </span> </p> </td> 
-   <td colname="col4"> <p>HTTP存取記錄檔。 </p> </td> 
+   <td colname="col4"> <p>HTTP访问日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> ImageServer-*.log </span> </p> </td> 
-   <td colname="col4"> <p>影像伺服除錯/錯誤記錄。 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> 图像服务器 — *.log </span> </p> </td> 
+   <td colname="col4"> <p>图像服务调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 監督員 — *.log </span> </p> </td> 
-   <td colname="col4"> <p>監督員除錯/錯誤記錄。 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> 主管 — *.log </span> </p> </td> 
+   <td colname="col4"> <p>主管调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> trace-*.log </span> </p> </td> 
-   <td colname="col4"> <p>PS偵錯/錯誤記錄。 </p> </td> 
+   <td colname="col4"> <p>PS调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 讀我.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 自述.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -208,7 +208,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>靜態內容資料來源資料夾；手動編輯組態檔。 </p> </td> 
+   <td colname="col4"> <p>静态内容数据源文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -220,31 +220,31 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> playlog.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>快取暖機公用程式。 </p> </td> 
+   <td colname="col4"> <p>缓存预热实用程序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>在此處部署Java™網頁應用程式（包括is-docs、ir-docs和is-viewers）。 </p> </td> 
+   <td colname="col4"> <p>在此处部署Java™ Web应用程序（包括is-docs、ir-docs和is-viewer）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> 影像演算/ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> 图像渲染/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像演算安裝根資料夾。 </p> </td> 
+   <td colname="col4"> <p>图像渲染安装根文件夹。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 備份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 备份/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>先前安裝的組態檔備份。 </p> </td> 
+   <td colname="col4"> <p>以前安装的配置文件备份。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目錄/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 目录/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像演算目錄資料夾；可在安裝時設定，或透過手動編輯組態檔來設定。 </p> </td> 
+   <td colname="col4"> <p>图像渲染目录文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,19 +262,19 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是伺服器正常運作所必需的。 </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是服务器正常工作所必需的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>包含影像演算的預設設定檔。 </p> </td> 
+   <td colname="col4"> <p>包含图像渲染的默认配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 资源/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>影像演算來源資料夾；手動編輯組態檔。 </p> </td> 
+   <td colname="col4"> <p>图像渲染源数据文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

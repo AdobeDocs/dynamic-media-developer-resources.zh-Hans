@@ -1,5 +1,5 @@
 ---
-description: 更新資產許可權。
+description: 更新资源权限。
 solution: Experience Manager
 title: updateAssetPermissons
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 24%
 
 # updateAssetPermissons{#updateassetpermissons}
 
-更新資產許可權。
+更新资源权限。
 
 语法
 
-## 授權的使用者型別 {#section-3928e9badc3842e1859af4ed362df719}
+## 授权用户类型 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,17 +26,17 @@ ht-degree: 24%
 
 ## 参数 {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**輸入(updateAssetPermissionsParam)**
+**输入(updateAssetPermissionsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
-| updatearray | `types:PermissionUpdateArray` | 是 | 您要套用至資產的許可權。 |
+| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| updateArray | `types:PermissionUpdateArray` | 是 | 要应用于资源的权限。 |
 
-**輸出(updateAssetPermissionsReturn)**
+**输出(updateAssetPermissionsReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

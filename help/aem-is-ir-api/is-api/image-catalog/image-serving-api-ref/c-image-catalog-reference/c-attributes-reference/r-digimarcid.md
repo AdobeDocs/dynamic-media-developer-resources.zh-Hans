@@ -1,5 +1,5 @@
 ---
-description: Digimarc使用者資訊。 指定Digimarc內嵌的使用者資訊。
+description: Digimarc用户信息。 指定Digimarc嵌入的用户信息。
 solution: Experience Manager
 title: DigimarcId
 feature: Dynamic Media Classic,SDK/API
@@ -14,27 +14,27 @@ ht-degree: 3%
 
 # DigimarcId{#digimarcid}
 
-Digimarc使用者資訊。 指定Digimarc內嵌的使用者資訊。
+Digimarc用户信息。 指定Digimarc嵌入的用户信息。
 
-## 屬性 {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
+## 属性 {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
-五個或六個以逗號分隔的整數。 第三個和第四個數字已不再使用：
+五个或六个以逗号分隔的整数。 第三个和第四个数字已不再使用：
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-此 `creator-id` 和 `creator-pin` 由Digimarc在購買服務時提供。 未使用的值應留空。
+此 `creator-id` 和 `creator-pin` 由Digimarc在购买服务时提供。 未使用的值应留空。
 
-`durability` 指定Digimarc浮水印嵌入強度。 可能是1、2、3或4，其中1表示最弱，4表示最堅固耐用。
+`durability` 指定Digimarc水印嵌入强度。 它可为1、2、3或4，其中1表示最弱，4表示最强的耐久性。
 
-設定 `chroma` 設為1，將浮水印編碼為影像的色度資料，或設為0 （預設），將浮水印編碼為明度。 輸出灰階影像時會忽略此設定。
+设置 `chroma` 设置为1可将水印编码到图像的色度数据中，设置为0（默认值）可将水印编码到亮度中。 输出灰度图像时，此设置将被忽略。
 
 ## 默认 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
-繼承自 `default::DigimarcId` 如果未定義或為空。
+继承自 `default::DigimarcId` 如果未定义或为空。
 
 ## 示例 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
-指定耐久性設為4的測試Digimarc建立者ID。
+指定耐久性设置为4的测试Digimarc创建者ID。
 
 `DigimarcId= 404407,32,,,4`
 

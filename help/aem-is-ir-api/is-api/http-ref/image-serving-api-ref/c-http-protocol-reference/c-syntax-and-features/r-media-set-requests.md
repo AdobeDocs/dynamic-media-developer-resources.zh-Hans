@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」提供一種機制，用於擷取代表與特定記錄的目錄ImageSet相關的所有資源和中繼資料的階層式文字回應（xml或json）。
+description: 图像服务提供了一种机制，用于获取表示与特定记录的目录ImageSet关联的所有资源和元数据的分层文本响应（xml或json）。
 solution: Experience Manager
-title: 媒體集請求
+title: 媒体集请求
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
@@ -12,97 +12,97 @@ ht-degree: 0%
 
 ---
 
-# 媒體集請求{#media-set-requests}
+# 媒体集请求{#media-set-requests}
 
-「影像伺服」提供一種機制，用於擷取階層文字回應（xml或json），該回應代表特定記錄的catalog：：ImageSet相關的所有資源和中繼資料。
+图像服务提供了一种机制，用于获取表示与特定记录的catalog：：ImageSet关联的所有资源和元数据的分层文本响应（xml或json）。
 
-檢視者可以使用此機制產生回應，以告知簡單影像、影片、影片集、色票集、迴轉集、頁面集(e-catalog)和媒體集的呈現方式。
+观看者可以使用此机制生成响应，以告知简单图像、视频、视频集、样本集、旋转集、页面集(e-catalog)和媒体集的呈现。
 
-## 要求語法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
+## 请求语法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-設定的回應 `catalog::ImageSet` 可透過以下方式擷取： `req=set` 修飾元並參考網路路徑中的目錄記錄id。 或者，您也可以使用直接在URL中指定影像集 `imageset=` 修飾元。 如果 `imageset=` 修飾元可用來指定影像集，整個值應括在大括弧中，以便逸出影像集值，並確保任何包含的修飾元不會解譯為URL查詢字串的一部分。
+设置的响应 `catalog::ImageSet` 可以通过以下方式检索： `req=set` 修饰符和引用net路径中的目录记录id。 或者，可以使用直接在URL中指定图像集 `imageset=` 修饰符。 如果 `imageset=` 修饰符用于指定图像集，整个值应括在大括号中，以便转义图像集值并确保包含的任何修饰符不会解释为URL查询字符串的一部分。
 
-## 集合回應的型別 {#section-93eb0a1f70344da2a888e56372ad3896}
+## 设置的响应类型 {#section-93eb0a1f70344da2a888e56372ad3896}
 
-設定機制支援下列回應型別：
+设置机制支持以下类型的响应：
 
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>簡單影像 </p></td> 
-  <td class="stentry"> <p>影像記錄，但沒有 <span class="codeph"> catalog：：Imageset</span> 已定義。 </p></td> 
+  <td class="stentry"> <p>简单图像 </p></td> 
+  <td class="stentry"> <p>图像记录，但不包含 <span class="codeph"> catalog：：图像集</span> 已定义。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>簡單影片 </p></td> 
-  <td class="stentry"> <p>靜態內容目錄中的視訊記錄。 </p></td> 
+  <td class="stentry"> <p>简单视频 </p></td> 
+  <td class="stentry"> <p>静态内容目录中的视频记录。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>色票集 </p></td> 
-  <td class="stentry"> <p>一組專案，包含影像記錄的參照和用作色票之影像記錄的選擇性個別參照。 </p></td> 
+  <td class="stentry"> <p>样本集 </p></td> 
+  <td class="stentry"> <p>一组项，包含对图像记录的引用和对用作色板的图像记录的可选单独引用。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>階層式色票集 </p></td> 
-  <td class="stentry"> <p>一組專案，包含基本色票專案或色票集記錄的參照。 </p></td> 
+  <td class="stentry"> <p>分层样本集 </p></td> 
+  <td class="stentry"> <p>由基本样本项或样本集记录引用组成的一组项。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>迴轉集 </p></td> 
-  <td class="stentry"> <p>由影像ID的簡單清單組成的一組專案。 </p></td> 
+  <td class="stentry"> <p>旋转集 </p></td> 
+  <td class="stentry"> <p>由图像ID的简单列表组成的一组项目。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>二維迴轉集 </p></td> 
-  <td class="stentry"> <p>由簡單影像或基本迴轉集參照組成的一組專案。 </p></td> 
+  <td class="stentry"> <p>二维旋转集 </p></td> 
+  <td class="stentry"> <p>由简单图像或基本旋转集的引用组成的一组项目。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>頁面集 </p></td> 
-  <td class="stentry"> <p>一組專案，包含最多三個頁面影像的清單 </p></td> 
+  <td class="stentry"> <p>页面集 </p></td> 
+  <td class="stentry"> <p>一组项目，由最多三个页面图像的列表组成 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>媒體集 </p></td> 
-  <td class="stentry"> <p>一組專案，包含簡單影像、視訊集、色票集、階層式色票集、迴轉集、二維迴轉集、頁面集和視訊資產。 每個媒體集專案也可以包含選用的色票。 </p></td> 
+  <td class="stentry"> <p>媒体集 </p></td> 
+  <td class="stentry"> <p>一组项目，由简单图像、视频集、样本集、分层样本集、旋转集、二维旋转集、页面集和视频资产组成。 每个媒体集项目也可以包含一个可选色板。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>視訊集 </p></td> 
-  <td class="stentry"> <p>由簡單影片清單組成的一組專案。 </p></td> 
+  <td class="stentry"> <p>视频集 </p></td> 
+  <td class="stentry"> <p>由简单视频列表组成的一组项目。 </p></td> 
  </tr> 
 </table>
 
-## 外部集合型別偵測 {#section-3dd6e453528d46898e559d31458a59ba}
+## 外部集类型检测 {#section-3dd6e453528d46898e559d31458a59ba}
 
-當 `req=set` 收到要求後，要產生的回應型別會由 `catalog::AssetType`. 若 `catalog::AssetType` 未定義，則回應型別由以下規則決定：
+当 `req=set` 收到请求后，要生成的响应类型由的值确定 `catalog::AssetType`. 如果 `catalog::AssetType` 未定义，则响应类型由以下规则确定：
 
-* 如果在影像目錄中找到記錄，並且 `catalog::ImageSet` 已定義
+* 如果在图像目录中找到记录，并且 `catalog::ImageSet` 已定义
 
-   * 如果記錄影像集欄位中至少有一個專案包含冒號，則假設電子目錄集
-   * 如果記錄影像集欄位中至少有一個專案包含兩個分號，則假設媒體已設定。
-   * 如果記錄影像集欄位中至少有一個專案包含一個分號，則假設影像集。
-   * 如果沒有任何專案包含冒號或分號，但至少有一個專案包含參考集或內嵌集（這是2D迴轉集），請假設迴轉集。
-   * 如果沒有專案包含冒號、分號、參照集合或內嵌集合（即逗號分隔的影像清單），則假設為未知集合。
+   * 如果记录图像集字段中至少有一个条目包含冒号，则假定已设置e目录
+   * 如果记录图像集字段中至少有一个条目包含两个分号，则假定媒体集。
+   * 如果记录图像集字段中至少有一个条目包含一个分号，则假定图像集。
+   * 如果没有任何条目包含冒号或分号，但至少有一个条目包含引用的集或内联集（这是2D旋转集），则假定为旋转集。
+   * 如果没有条目包含冒号、分号、引用的集或内嵌集（即逗号分隔的图像列表），则假定为未知集。
 
-* 如果在影像和靜態內容目錄中找到記錄
+* 如果在图像和静态内容目录中都找到了记录
 
-   * 如果副檔名設定如下，請假設視訊： mp3、mp4、flv、f4v、swf、xml
-   * 否則假設影像
+   * 如果文件扩展名在以下集中，则假定为视频： mp3、mp4、flv、f4v、swf、xml
+   * 否则，假定图像
 
-* 如果在靜態內容目錄中找到記錄，但在影像目錄中找不到
+* 如果在静态内容目录中找到记录，但在图像目录中找不到记录
 
-   * 如果副檔名設定如下，請假設視訊： mp3、mp4、flv、f4v、swf、xml
-   * 假設為靜態，否則
+   * 如果文件扩展名在以下集中，则假定为视频： mp3、mp4、flv、f4v、swf、xml
+   * 假设为静态，否则
 
-* 如果在影像目錄中找到記錄但在靜態內容目錄中找不到
+* 如果在图像目录中找到记录，但在静态内容目录中找不到记录，则
 
-   * 假設影像
+   * 假设图像
 
-* 如果在影像目錄中找不到記錄，在靜態內容目錄中找不到
+* 如果在图像目录中未找到记录，则在静态内容目录中未找到记录
 
-   * 如果副檔名設定如下，則假設使用檔案式視訊： mp3、mp4、flv、f4v、swf、xml
-   * 否則假設檔案型影像
+   * 如果文件扩展名在以下集中，则假定是基于文件的视频： mp3、mp4、flv、f4v、swf、xml
+   * 否则，假定使用基于文件的图像
 
-在所有情況下，產生的xml回應都會符合指定的XML檔案，且設定根節點會對應偵測到的型別。
+在所有情况下，生成的xml响应都将符合指定的XML文档，并且设置的根节点对应于检测到的类型。
 
-## 內部集合型別偵測 {#section-8f46490e467247e69ce284704def06f3}
+## 内集类型检测 {#section-8f46490e467247e69ce284704def06f3}
 
-當偵測到外部集為型別媒體集時，回應會包含一組媒體集專案，這些專案會與中的每個媒體集專案相對應。 `catalog::ImageSet`. 如果為特定媒體集專案指定了可選的型別引數，則會根據下表將其對應到輸出型別：
+当检测到外部集为类型媒体集时，响应将包含一组媒体集项目，这些项目与中的每个媒体集项目相对应。 `catalog::ImageSet`. 如果为特定媒体集条目指定了可选的类型参数，则会根据下表将其映射到输出类型：
 
-| 输入类型 | 輸出型別 |
+| 输入类型 | 输出类型 |
 |---|---|
 | `img` | `img` |
 | `basic` | `img` |
@@ -116,32 +116,32 @@ ht-degree: 0%
 | `static` | `static` |
 | `ecat` | `ecat` |
 
-如果未指定特定媒體集專案的可選型別引數，或該引數對應至不支援的型別，則會使用套用至外部集層級的相同規則，自動偵測媒體集專案型別。
+如果没有为特定媒体集条目指定可选的类型参数，或者该参数对应于不受支持的类型，则使用与在外层媒体集级别应用的规则相同的规则自动检测媒体集项目类型。
 
-## XML規格 {#section-c1bd60948ef545759a16885bb6fcc607}
+## XML规范 {#section-c1bd60948ef545759a16885bb6fcc607}
 
-傳回的xml回應符合以下規格：
+返回的xml响应符合以下规范：
 
 `http://crc.scene7.com/is-docs/examples/mediaset.dtd`
 
-## 標籤索引鍵 {#section-bf565de6f7294cf89620343c9071f415}
+## 标签键 {#section-bf565de6f7294cf89620343c9071f415}
 
-此 `labelkey=` 修飾元會與 `catalog::UserData`產生影像和色票標籤的欄位。 此 `catalog:UserData` 欄位會剖析為一組索引鍵/值配對，而該組中的labelkey索引會擷取給定索引鍵的值。 此值隨後會傳回 *`l`* 屬性 *`s`* 和 *`i`*.
+此 `labelkey=` 修饰符与 `catalog::UserData`用于为图像和样本生成标签的字段。 此 `catalog:UserData` 字段解析为一组键/值对，并且其中的标签键索引用于检索给定键的值。 此值随后返回到 *`l`* 属性 *`s`* 和 *`i`*.
 
-## 強制限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
+## 强制限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-為了限制回應的大小並防止自我參照問題，最大巢狀深度是由伺服器屬性所控制 `PS::fvctx.nestingLimit`. 如果超過此限制，則會傳回錯誤。
+为了限制响应大小并防止自引用问题，最大嵌套深度由服务器属性控制 `PS::fvctx.nestingLimit`. 如果超过此限制，则会返回错误。
 
-為了限制大型e-catalog集的xml回應大小，會根據伺服器屬性隱藏手冊集專案的私人中繼資料 `PS::fvctx.brochureLimit`. 會匯出與手冊相關的所有私人中繼資料，直到達到手冊限製為止。 超過限制後，會隱藏私人地圖和使用者資料，並設定對應的旗標來指示隱藏的資料型別。
+为了限制大型e-catalog集的xml响应的大小，根据服务器属性禁止小册子集项目的私有元数据 `PS::fvctx.brochureLimit`. 与宣传册关联的所有专用元数据都将导出，直到达到宣传册限制为止。 超过限制后，将禁止专用映射和用户数据，并设置相应标志以指示禁止的数据类型。
 
-不支援巢狀媒體集。 巢狀媒體集定義為包含型別媒體集的媒體集專案的媒體集。 如果偵測到這種情況，則會傳回錯誤。
+不支持嵌套媒体集。 嵌套媒体集定义为包含媒体集类型的媒体集项目的媒体集。 如果检测到此情况，则会返回错误。
 
 ## 示例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-針對以下專案的XML回應範例： `req=set` 請參考HTML範例標題底下的「屬性」頁面。
+对于示例XML响应 `req=set` 请求，请参阅HTML示例标题下的“属性”页面。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## 另请参阅 {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [影像集=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)， [catalog：：Imageset](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)， [影像目錄參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)， [catalog：：图像集](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)， [图像目录引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

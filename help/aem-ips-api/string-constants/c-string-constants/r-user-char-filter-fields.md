@@ -1,7 +1,7 @@
 ---
 description: 由getUsersParam和getUserCharsParam/charField使用。
 solution: Experience Manager
-title: 使用者字元篩選器欄位
+title: 用户Char筛选器字段
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# 使用者字元篩選器欄位{#user-char-filter-fields}
+# 用户Char筛选器字段{#user-char-filter-fields}
 
 由getUsersParam和getUserCharsParam/charField使用。
 

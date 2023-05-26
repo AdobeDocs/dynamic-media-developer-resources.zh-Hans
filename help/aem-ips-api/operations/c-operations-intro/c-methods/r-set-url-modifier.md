@@ -1,5 +1,5 @@
 ---
-description: 為指定的資產設定影像伺服或影像演算通訊協定命令。 這些命令會修改資產的表示方式，而不會破壞資產。
+description: 为指定的资源设置图像服务或图像渲染协议命令。 这些命令可修改资产的表示形式而不会破坏资产。
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # setUrlModifier{#seturlmodifier}
 
-為指定的資產設定影像伺服或影像演算通訊協定命令。 這些命令會修改資產的表示方式，而不會破壞資產。
+为指定的资源设置图像服务或图像渲染协议命令。 这些命令可修改资产的表示形式而不会破坏资产。
 
-針對「影像伺服」，命令位在 `urlModifier` 引數會發佈在Modifier catalog欄位中，並在要求URL上指定的任何命令之前套用。 中的命令 `urlPostApplyModifier` 發佈至 `PostModifier` 目錄欄位並覆寫請求URL上或中的任何命令 `urlModifier`. 對於影像演算，命令位於 `urlModifier` 和 `urlPostApplyModifier` 串連並發佈至「修飾元目錄」欄位。
+对于图像提供，命令位于 `urlModifier` 参数发布在Modifier catalog字段中，并在请求URL上指定的任何命令之前应用。 中的命令 `urlPostApplyModifier` 发布到 `PostModifier` 目录字段，并覆盖请求URL上或 `urlModifier`. 对于图像渲染，命令位于 `urlModifier` 和 `urlPostApplyModifier` 连接并发布到修饰符目录字段。
 
-## 授權的使用者型別 {#section-fefcd732ccf64c78956606538f96c73d}
+## 授权用户类型 {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,18 +29,18 @@ ht-degree: 7%
 
 ## 参数 {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**輸入(setUrlModifierParam)**
+**输入(setUrlModifierParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
-| urlModifier | `xsd:string` | 否 | 在請求或之前，要套用的影像提供或影像演算通訊協定命令 `urlPostApplyModifier` 命令。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 之後要套用的影像提供或影像演算通訊協定命令 `urlModifier` 和request命令。 |
+| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| urlModifier | `xsd:string` | 否 | 在请求之前应用的图像服务或图像渲染协议命令，或者 `urlPostApplyModifier` 命令。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 之后要应用的图像提供或图像渲染协议命令 `urlModifier` 和请求命令。 |
 
-**輸出(setUrlModifierReturn)**
+**输出(setUrlModifierReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-801d4b9b986443f59a5783a3d6bf44aa}
 

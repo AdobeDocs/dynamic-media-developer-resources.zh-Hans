@@ -1,5 +1,5 @@
 ---
-description: 發佈狀態更新的陣列。
+description: 发布状态更新的数组。
 solution: Experience Manager
 title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL PublishStateUpdateArray]{#publishstateupdatearray}
 
-發佈狀態更新的陣列。
+发布状态更新的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:PublishStateUpdate` | 發佈狀態更新的陣列。 |
+| 项目 | `types:PublishStateUpdate` | 发布状态更新的数组。 |

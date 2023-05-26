@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Video360檢視器的JavaScript API參考。
+description: 适用于Video360查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Video360檢視器的JavaScript API參考。
+适用于Video360查看器的JavaScript API参考。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
-設定一或多個地區設定的本地化SYMBOL值。 必須在之前呼叫此引數 `init()`.
+设置一个或多个区域设置的本地化SYMBOL值。 必须在之前调用此参数 `init()`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> 物件 </span>} JSON物件包含本地化資料。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> 使用者介面元素的本地化 </a> 以取得詳細資訊。 </p> <p>另請參閱 <i>檢視器SDK使用手冊</i> 和範例，以取得物件內容的詳細資訊。 </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> 对象 </span>} JSON对象和本地化数据。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> 用户界面元素的本地化 </a> 了解更多信息。 </p> <p>另请参阅 <i>Viewer SDK用户指南</i> 和示例，以了解有关对象内容的更多信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-另請參閱 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+另请参阅 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

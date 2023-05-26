@@ -1,5 +1,5 @@
 ---
-description: 斜體標幟。
+description: 斜体标志。
 solution: Experience Manager
 title: 斜体
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 13%
 
 # 斜体{#italic}
 
-斜體標幟。
+斜体标志。
 
-指定在RTF斜體字請求時，是否應使用此字型對應記錄所參考的字型檔案( `\i`)命令。
+指定在RTF斜体请求时是否应使用此字体映射记录引用的字体文件( `\i`)命令。
 
-## 屬性 {#section-607e76490e87418496d1c6763018a14f}
+## 属性 {#section-607e76490e87418496d1c6763018a14f}
 
-标记. 字型對應的選擇性第三索引鍵。
+标记. 字体映射的可选第三索引键。
 
 ## 默认 {#section-0b88057d00ce4160929c23fbf138b309}
 

@@ -1,6 +1,6 @@
 ---
 title: Video360Player.mutevolume
-description: Video360 Viewer的設定屬性。
+description: Video360 Viewer的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-Video360 Viewer的設定屬性。
+Video360 Viewer的配置属性。
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -22,12 +22,12 @@ Video360 Viewer的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定初次載入時視訊播放的靜音模式。 若設為 <span class="codeph"> 1 </span> 音量會靜音，否則視訊會播放聲音。 在某些裝置上，在載入時將視訊播放設為靜音也可讓視訊自動播放。 </p> </td> 
+   <td colname="col2"> <p> 在首次加载时将视频播放设置为静音模式。 如果设置为 <span class="codeph"> 1 </span> 音量已静音；否则，视频将播放声音。 在某些设备上，在加载时将视频播放静音还可以允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

@@ -19,13 +19,13 @@ ht-degree: 5%
 <table id="table_8DA8AC17A6FB4EC09DC9384B812D841C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> 指定在檢視中填入色票的方式。 </p> <p> <span class="codeph"> left </span> 設定由左至右的填色順序； <span class="codeph"> 右側 </span> 反轉順序，使檢視以從右至左、從上至下的方向填充。 時間 <span class="codeph"> 自動 </span> 設定，則當locale設定為時，元件會套用正確的模式 <span class="codeph"> "ja" </span>，否則會使用left。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自动|左|右 </span> </p> </td> 
+   <td colname="col2"> <p> 指定样本在视图中填充的方式。 </p> <p> <span class="codeph"> left </span> 设置从左至右的填充顺序； <span class="codeph"> 右 </span> 反转顺序，以便视图按从右至左、从上至下的方向填充。 时间 <span class="codeph"> 自动 </span> 设置，组件将在locale设置为时应用右模式 <span class="codeph"> "ja" </span>，否则和会使用left。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

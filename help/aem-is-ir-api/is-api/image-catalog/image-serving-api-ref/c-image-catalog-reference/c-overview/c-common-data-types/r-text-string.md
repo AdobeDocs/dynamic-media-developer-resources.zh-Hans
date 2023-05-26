@@ -1,7 +1,7 @@
 ---
-description: 文字字串資料型別。
+description: 文本字符串数据类型。
 solution: Experience Manager
-title: 文字字串
+title: 文本字符串
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7e5d5741-292f-43fd-8ba0-7a333f350a40
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 文字字串{#text-string}
+# 文本字符串{#text-string}
 
-文字字串資料型別。
+文本字符串数据类型。
 
-字串分隔符號為選用，除非字串包含 `<CR>`， `<LF>`，或 `<TAB>` 個字元。 可使用單引號或雙引號做為分隔字元。 如果使用引號，則內嵌在字串中的任何引號都必須使用兩個連續引號來逸出（例如：本月的特殊引號）。
+字符串分隔符是可选的，除非该字符串包含 `<CR>`， `<LF>`，或 `<TAB>` 个字符。 可以使用单引号或双引号作为分隔符。 如果使用引号，则必须使用两个连续的引号对字符串中嵌入的任何此类引号进行转义（例如：本月的特殊引号）。

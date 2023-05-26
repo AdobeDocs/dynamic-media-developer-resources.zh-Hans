@@ -1,5 +1,5 @@
 ---
-description: 不銳利化遮色片。 如果圖層=comp，則在所有縮放之後，對圖層或最終檢視影像進行遮色片銳利化調整。
+description: 钝化蒙版。 如果图层为comp，则在全部缩放后，对图层或最终视图图像进行USM锐化。
 solution: Experience Manager
 title: op_usm
 feature: Dynamic Media Classic,SDK/API
@@ -14,40 +14,40 @@ ht-degree: 6%
 
 # op_usm{#op-usm}
 
-不銳利化遮色片。 如果圖層=comp，則在所有縮放之後，對圖層或最終檢視影像進行遮色片銳利化調整。
+钝化蒙版。 如果图层为comp，则在全部缩放后，对图层或最终视图图像进行USM锐化。
 
-這些引數會假設為套用至完整解析度的影像，並在處理縮減取樣影像時縮小。
+假设这些参数适用于全分辨率图像，并在处理缩减像素取样图像时按比例缩小。
 
-`op_usm= *`金額`*[, *`半徑`*[, *`臨界值`*[, *`單色`*]]]`
+`op_usm= *`数量`*[, *`半径`*[, *`阈值`*[, *`单色`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 数量</span></span> </p></td> 
-  <td class="stentry"> <p>濾鏡強度係數（實數0...5）。 </p></td> 
+  <td class="stentry"> <p>滤镜强度因子（实数0...5）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半徑</span></span> </p></td> 
-  <td class="stentry"> <p>濾鏡核心半徑，以畫素為單位（實數0...250）。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径</span></span> </p></td> 
+  <td class="stentry"> <p>滤镜内核半径，以像素为单位（实数0...250）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 阀值</span></span> </p></td> 
-  <td class="stentry"> <p>濾鏡臨界值層級（整數0...255）。 </p></td> 
+  <td class="stentry"> <p>滤镜阈值级别（整数0...255）。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 單色</span></span> </p></td> 
-  <td class="stentry"> <p>設為0可分別套用至每個色彩元件，或設為1僅套用至影像亮度（強度）。 </p> <p> <span class="codeph"><span class="varname"> 單色</span></span> 會略過灰階影像。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 单色</span></span> </p></td> 
+  <td class="stentry"> <p>设置为0将分别应用至每个颜色组件，或者设置为1将仅应用至图像亮度（强度）。 </p> <p> <span class="codeph"><span class="varname"> 单色</span></span> 对于灰度图像，将忽略。 </p></td> 
  </tr> 
 </table>
 
-圖層遮色片或複合遮色片也會銳利化。
+该图层掩模或复合掩模也被锐化。
 
-## 屬性 {#section-fb5311b34d164946b74dadb32359518a}
+## 属性 {#section-fb5311b34d164946b74dadb32359518a}
 
-圖層屬性或檢視屬性。 套用至目前圖層或最終檢視影像，如果 `layer=comp`. 被效果圖層忽略。
+层属性或视图属性。 应用于当前图层或最终视图图像，如果 `layer=comp`. 被效果层忽略。
 
 ## 默认 {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` 不會產生不銳利化遮色片效果。
+`op_usm=0,0,0,0` 不会产生钝化蒙版效果。
 
 ## 另请参阅 {#section-63f186b8a1b34ec4bb895230838502a4}
 

@@ -1,5 +1,5 @@
 ---
-description: 取得公司資產的原始檔案路徑。
+description: 获取公司资产的原始文件路径。
 solution: Experience Manager
 title: getOriginalFilePath
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # getOriginalFilePath{#getoriginalfilepaths}
 
-取得公司資產的原始檔案路徑。
+获取公司资产的原始文件路径。
 
 语法
 
-## 授權的使用者型別 {#section-da8d8561e9174e938f3595a5d6e50089}
+## 授权用户类型 {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,26 +30,26 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->需要資產的讀取存取權。
+>需要对该资源的读取权限。
 
 ## 参数 {#section-a6b394daba6e49a8882cf3051035d9d1}
 
-**輸入(getOriginalFilePathsParam)**
+**输入(getOriginalFilePathsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
-| assetHandleArray | `types:HandleArray` | 是 | 要取得其原始檔案路徑的資產的控制點陣列。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要获取其原始文件路径的资源的句柄数组。 |
 
-**輸出(getOriginalFilePathsReturn)**
+**输出(getOriginalFilePathsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 原始檔案陣列 | `types:StringArray` | 是 | 代表原始檔案路徑的字串陣列。 |
+| originalFileArray | `types:StringArray` | 是 | 表示原始文件路径的字符串数组。 |
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-此程式碼範例會傳回資產控制代碼陣列中，以唯一資產控制代碼指定的資產檔案路徑。
+此代码示例返回在资产句柄数组中通过唯一资产句柄指定的资产的文件路径。
 
 **请求**
 

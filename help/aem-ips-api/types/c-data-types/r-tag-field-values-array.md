@@ -1,5 +1,5 @@
 ---
-description: 標籤欄位值的陣列。
+description: 标记字段值的数组。
 solution: Experience Manager
 title: TagFieldValuesArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagFieldValuesArray]{#tagfieldvaluesarray}
 
-標籤欄位值的陣列。
+标记字段值的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:TagFieldValues` | 標籤欄位值的陣列。 |
+| 项目 | `types:TagFieldValues` | 标记字段值的数组。 |

@@ -1,5 +1,5 @@
 ---
-description: 取得唯一的中繼資料欄位值。
+description: 获取唯一的元数据字段值。
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 28%
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-取得唯一的中繼資料欄位值。
+获取唯一的元数据字段值。
 
 语法
 
-## 授權的使用者型別 {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 授权用户类型 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,14 +30,14 @@ ht-degree: 28%
 
 ## 参数 {#section-b9d1413811c24566b6d095701f0f66db}
 
-**輸入(getUniqueMetadataValuesParam)**
+**输入(getUniqueMetadataValuesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| fieldHandle | `xsd:string` | 否 | 中繼資料欄位的控點。 |
+| companyHandle | `xsd:string` | 是 | 处理公司。 |
+| fieldHandle | `xsd:string` | 否 | 元数据字段的句柄。 |
 
-**輸出(getUniqueMetadataValuesReturn)**
+**输出(getUniqueMetadataValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 ## 示例 {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-此程式碼範例使用欄位控制代碼來傳回特定的中繼資料值。
+此代码示例使用字段句柄返回特定的元数据值。
 
 **请求**
 

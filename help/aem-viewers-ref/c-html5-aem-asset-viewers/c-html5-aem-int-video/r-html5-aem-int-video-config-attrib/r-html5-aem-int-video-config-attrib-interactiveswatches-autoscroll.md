@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.autoscroll
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]autoscroll=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用或停用互動色票隨著每個媒體轉變自動捲動的功能，例如在視訊播放期間。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用交互式样本随每个媒体过渡自动滚动的功能，例如在视频播放期间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

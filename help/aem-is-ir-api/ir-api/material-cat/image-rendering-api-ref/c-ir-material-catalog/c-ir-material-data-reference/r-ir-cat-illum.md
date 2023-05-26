@@ -1,5 +1,5 @@
 ---
-description: 照明地圖選擇器。 允許在呈現此材質時明確選取要使用的照明對映。
+description: 照明地图选择器。 允许在渲染此材质时显式选择照明映射。
 solution: Experience Manager
 title: Illum
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # Illum{#illum}
 
-照明地圖選擇器。 允許在呈現此材質時明確選取要使用的照明對映。
+照明地图选择器。 允许在渲染此材质时显式选择照明映射。
 
-## 屬性 {#section-162bcf562ca844ccba9e81e267508cca}
+## 属性 {#section-162bcf562ca844ccba9e81e267508cca}
 
-列舉。 設定為–1，以根據catalog：：Gloss的值自動選取照明地圖。
+枚举。 设置为–1可根据catalog：：Gloss的值自动选择照明地图。
 
-設定為0、1或2，以選取照明地圖A、B或C。轉譯器會選擇暈映中可用的最近照明地圖。
+设置为0、1或2可选择照明图A、B或C。渲染器将选择晕影中可用的最接近的照明映射。
 
 ## 默认 {#section-ac386d31ef90423b8a367010a60bddc7}
 
--1 （自動選取）
+-1（自动选择）
 
 ## 另请参阅 {#section-d9db8507a5e54692b84f54b3f84b782a}
 

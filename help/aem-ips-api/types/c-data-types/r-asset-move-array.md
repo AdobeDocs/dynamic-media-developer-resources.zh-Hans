@@ -1,6 +1,6 @@
 ---
 title: AssetMoveArray
-description: 資產移動陣列。
+description: 资源移动数组。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL AssetMoveArray]{#assetmovearray}
 
-資產移動陣列。
+资源移动数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `type:AssetMove` | 資產移動陣列。 |
+| 项目 | `type:AssetMove` | 资源移动数组。 |

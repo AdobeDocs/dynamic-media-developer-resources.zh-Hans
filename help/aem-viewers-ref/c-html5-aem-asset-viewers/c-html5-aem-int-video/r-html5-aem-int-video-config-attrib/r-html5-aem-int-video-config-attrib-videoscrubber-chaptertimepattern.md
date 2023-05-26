@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.chaptertimepattern
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # VideoScrubber.chaptertimepattern{#videoscrubber-chaptertimepattern}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[VideoScrubber.|<containerId>_videoScrubber.]chaptertimepattern=[h:]m|mm:s|ss`
 
@@ -22,12 +22,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 設定顯示在章節標籤標題列中的時間模式，其中 <span class="codeph"> h</span> 代表小時， <span class="codeph"> m</span> 代表分鐘，以及 <span class="codeph"> s</span> 數秒鐘。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式為 <span class="codeph"> m：ss</span> 顯示為67:05。 相同時間顯示為1:07:5如果時間模式為 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> 为章节标签的标题栏中显示的时间设置模式，其中 <span class="codeph"> h</span> 表示小时， <span class="codeph"> m</span> 表示分钟，并且 <span class="codeph"> s</span> 一秒钟。 </p> <p>用于每个时间单位的字母数决定了时间单位要显示的位数。 如果数字不符合指定的位数，则会在后续单位中显示对等值。 </p> <p>例如，如果当前的电影时间是67分5秒，则时间模式为 <span class="codeph"> m：ss</span> 显示为67:05。 相同时间显示为1:07:5(如果时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

@@ -1,7 +1,7 @@
 ---
-description: 所有記錄檔都會寫入以TC目錄指定的相同記錄資料夾。
+description: 所有日志文件都写入使用TC目录指定的同一日志文件夹中。
 solution: Experience Manager
-title: 伺服器記錄
+title: 服务器日志记录
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
@@ -12,22 +12,22 @@ ht-degree: 1%
 
 ---
 
-# 伺服器記錄{#server-logging}
+# 服务器日志记录{#server-logging}
 
-所有記錄檔都會寫入以TC：：directory指定的相同記錄資料夾。
+所有日志文件都写入使用TC：：directory指定的同一日志文件夹中。
 
-通常會每天建立和輪換記錄檔。 在指定的天數後，日誌資料夾中的舊日誌檔案會自動刪除( `TC::maxDays`)。
+日志文件通常每天创建和轮换。 在指定的天数后，日志文件夹中的旧日志文件将自动删除( `TC::maxDays`)。
 
-重要須為記錄檔保留足夠的磁碟空間，以免磁碟空間用盡。 大量使用的伺服器和預設記錄檔設定可能需要1-2 GB/天。
+重要信息必须为日志文件保留足够的磁盘空间，以避免磁盘空间不足。 大量使用的服务器和默认日志设置可能需要1-2 GB/天。
 
-此 [!DNL Platform Server] 和Image Server會建立下列三種型別的記錄檔。
+此 [!DNL Platform Server] 和图像服务器创建下面描述的三种类型的日志文件。
 
-其他「影像伺服」元件和某些其他Dynamic Media套件(例如Dynamic Media檢視器)也可能會在相同資料夾中建立記錄檔。 這些記錄檔供Dynamic Media內部使用，Dynamic Media技術支援可能會要求這些記錄檔進行疑難排解。
+其他图像服务组件和某些其他Dynamic Media包(如Dynamic Media查看器)也可能会在同一文件夹中创建日志文件。 这些日志文件供Dynamic Media内部使用，Dynamic Media技术支持可请求这些文件以进行故障排除。
 
-* [存取記錄](c-access-log.md)
-* [追蹤記錄](c-trace-log.md)
-* [影像伺服器記錄](c-image-server-log.md)
+* [访问日志](c-access-log.md)
+* [跟踪日志](c-trace-log.md)
+* [图像服务器日志](c-image-server-log.md)
 
 ## 另请参阅 {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[存取記錄](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)， [偵錯/追蹤記錄](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[访问日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f)， [调试/跟踪日志记录](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

@@ -1,5 +1,5 @@
 ---
-description: 檔案屬性PDF。
+description: 文件属性PDF。
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-檔案屬性PDF。
+文件属性PDF。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:int` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 文件路径。 |
+| 原始文件 | `xsd:int` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

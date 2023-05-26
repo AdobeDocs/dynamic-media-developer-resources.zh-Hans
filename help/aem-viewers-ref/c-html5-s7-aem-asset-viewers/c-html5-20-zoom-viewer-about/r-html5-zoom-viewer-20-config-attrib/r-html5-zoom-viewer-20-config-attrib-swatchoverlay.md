@@ -1,6 +1,6 @@
 ---
-title: 色票覆蓋
-description: 色票覆蓋
+title: 样本叠加
+description: 样本叠加
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 ---
 
-# 色票覆蓋{#swatchoverlay}
+# 样本叠加{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,12 +20,12 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>指定觸控式裝置上的檢視器配置。 當引數設定為 <span class="codeph"> 1 </span>，檢視器在案頭的主檢視下方顯示色票；在觸控式裝置上，色票會覆蓋在主檢視上方。 </p> <p>當引數設定為 <span class="codeph"> 0 </span>，色票會呈現在所有裝置型別的主要檢視下方。 </p> </td> 
+   <td colname="col2"> <p>指定触屏设备上的查看器布局。 当参数设置为 <span class="codeph"> 1 </span>时，查看器会在桌面上的主视图下方显示样本；在启用了触屏的设备上，样本会叠加在主视图上方。 </p> <p>当参数设置为 <span class="codeph"> 0 </span>，色板在所有设备类型上的主视图下呈现。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

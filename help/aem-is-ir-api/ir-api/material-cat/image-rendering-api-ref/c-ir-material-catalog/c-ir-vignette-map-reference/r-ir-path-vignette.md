@@ -1,5 +1,5 @@
 ---
-description: 暈映檔案路徑。 暈映檔案的相對路徑和名稱。
+description: 晕影文件路径。 晕影文件的相对路径和名称。
 solution: Experience Manager
 title: 路径
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 9%
 
 # 路径{#path}
 
-暈映檔案路徑。 暈映檔案的相對路徑和名稱。
+晕影文件路径。 晕影文件的相对路径和名称。
 
-伺服器會將此值與 `attribute::RootPath` 以建置實際的暈映檔案路徑。 也可以是絕對路徑。
+服务器将此值与 `attribute::RootPath` 构建实际的晕影文件路径。 也可以是绝对路径。
 
-## 屬性 {#section-b3b295feac084b56bd8a153c04987153}
+## 属性 {#section-b3b295feac084b56bd8a153c04987153}
 
-文字字串。 可选. 如果已指定，則必須是有效的相對或絕對檔案路徑。 如果為空， `vignette::Modifier` 必須包括 `vignette=` 命令。
+文本字符串。 可选. 如果指定，则必须是有效的相对或绝对文件路径。 如果为空， `vignette::Modifier` 必须包括 `vignette=` 命令。
 
 ## 默认 {#section-a1d2133856084eb79a5be8230a4b38fd}
 

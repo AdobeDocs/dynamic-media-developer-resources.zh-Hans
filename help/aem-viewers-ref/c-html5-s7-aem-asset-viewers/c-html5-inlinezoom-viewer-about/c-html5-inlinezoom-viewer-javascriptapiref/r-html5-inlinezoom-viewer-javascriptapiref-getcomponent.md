@@ -1,6 +1,6 @@
 ---
 title: getComponent
-description: 內嵌縮放檢視器的JavaScript API參考
+description: 内联缩放查看器的JavaScript API参考
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,26 +14,26 @@ ht-degree: 1%
 
 # getComponent{#getcomponent}
 
-內嵌縮放檢視器的JavaScript API參考
+内联缩放查看器的JavaScript API参考
 
 `getComponent(componentId)`
 
-傳回檢視器所使用之檢視器SDK元件的參考。 網頁可以使用此方法來延伸或自訂現成可用的檢視器的行為。 只有在下列動作之後，才呼叫此方法： `initComplete` 檢視器回呼已執行；否則，元件可能尚未由檢視器邏輯建立。
+返回对查看器使用的查看器SDK组件的引用。 网页可以使用此方法来扩展或自定义开箱即用查看器的行为。 仅在以下情况下调用此方法： `initComplete` 查看器回调已运行；否则，查看器逻辑可能尚未创建组件。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` 檢視器使用的Viewer SDK元件ID。 此檢視器支援下列元件ID：
+`*`componentID`*` - `{String}` 查看器使用的查看器SDK组件的ID。 此查看器支持以下组件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>元件ID </p> </th> 
-   <th colname="col2" class="entry"> <p>檢視器SDK元件類別名稱 </p> </th> 
+   <th colname="col1" class="entry"> <p>组件Id </p> </th> 
+   <th colname="col2" class="entry"> <p>查看器SDK组件类名称 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 引數管理員 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 参数管理器 </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
@@ -45,23 +45,23 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 彈出 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 弹出 </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 色票 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 色板 </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用SDK API時，請務必正確使用完整限定的SDK名稱空間，如所述 [檢視器SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
+在使用SDK API时，请务必正确使用完全限定的SDK命名空间，如中所述 [Viewer SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80).
 
-如需特定元件的詳細資訊，請參閱檢視器SDK檔案。
+有关特定组件的更多信息，请参阅查看器SDK文档。
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 檢視器SDK元件的參考。 方法會傳回 `null` 如果 `componentId` 不是支援的檢視器元件，或是檢視器邏輯尚未建立元件。
+`{Object}` 对查看器SDK组件的引用。 方法返回 `null` 如果 `componentId` 不是支持的查看器组件，或者该组件尚未由查看器逻辑创建。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,6 +1,6 @@
 ---
-description: 檢視「影像伺服」公用程式和暈映轉換器的說明。
-title: 公用程式
+description: 查看图像服务实用程序和晕影转换器的帮助。
+title: 实用工具
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a2bd12b1-a64b-4314-bac9-66aae807356d
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 公用程式{#utilities}
+# 实用工具{#utilities}
 
-檢視「影像伺服」公用程式和暈映轉換器的說明。
+查看图像服务实用程序和晕影转换器的帮助。
 
-* [影像伺服公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/c-utils-home.md)
-* [暈映轉換器(vntc)](/help/aem-is-ir-api/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
+* [图像服务实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/c-utils-home.md)
+* [晕影转换器(vntc)](/help/aem-is-ir-api/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)

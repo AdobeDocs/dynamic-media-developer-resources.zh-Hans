@@ -1,7 +1,7 @@
 ---
-description: 屬性資料包含代表一或多個屬性的文字字串。
+description: 属性数据由表示一个或多个属性的文本字符串组成。
 solution: Experience Manager
-title: 屬性資料
+title: 属性数据
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# 屬性資料{#property-data}
+# 属性数据{#property-data}
 
-屬性資料包含代表一或多個屬性的文字字串。
+属性数据由表示一个或多个属性的文本字符串组成。
 
-屬性包含屬性名稱和屬性值，以=分隔。
+属性由属性名称和属性值组成，以=分隔。
 
-多個屬性以行分隔符號分隔，行分隔符號可能是 `??` 或 `<CR><LF>`. 如果整個屬性資料字串未括在引號中，則伺服器會取代每個出現的 `??` 替換為 `<CR><LF>` 將資料傳輸至使用者端之前。 屬性名稱可由字母、數字、&#39;.&#39;、&#39;-&#39;和&#39;_&#39;組成。 屬性名稱不區分大小寫。
+多个属性由行分隔符分隔，该分隔符可以是 `??` 或 `<CR><LF>`. 如果整个属性数据字符串未用引号括起来，则服务器将替换出现的每个 `??` 替换为 `<CR><LF>` 将数据传输到客户端之前。 属性名称可以包含字母、数字、“。”、“ — ”和“_”。 属性名称不区分大小写。
 
-屬性值不得包含行分隔符號。
+属性值不得包含行分隔符。
 
-另請參閱 [文字字串](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63) 適用於屬性資料的其他規則。
+参见 [文本字符串](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md#reference-ae0a9e181b0e40c6bcdb43af7f481d63) 以了解应用于属性数据的其他规则。

@@ -1,7 +1,7 @@
 ---
-description: 許可權集
+description: 权限集
 solution: Experience Manager
-title: 許可權集
+title: 权限集
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | 處理許可權集。 |
-| permissionArray | `types:PermissionArray` | 一系列許可權。 |
+| PermissionsetHandle | `xsd:string` | 处理权限集。 |
+| permissionArray | `types:PermissionArray` | 一系列权限。 |

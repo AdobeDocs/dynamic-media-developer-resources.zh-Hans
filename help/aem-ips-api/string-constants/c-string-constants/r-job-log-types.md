@@ -1,7 +1,7 @@
 ---
 description: 由JobLogDetail/logType和JobLog/logType使用。
 solution: Experience Manager
-title: 工作記錄型別
+title: 作业日志类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# 工作記錄型別{#job-log-types}
+# 作业日志类型{#job-log-types}
 
 由JobLogDetail/logType和JobLog/logType使用。
 

@@ -20,16 +20,16 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> 指定在資產變更時套用至主要檢視的效果型別。 此 <span class="codeph"> 無</span> 代表無轉變，主要檢視變更會立即發生。 此 <span class="codeph"> 淡化</span> 啟用交叉淡化轉變，舊影像淡出且新影像淡入 </p> </td> 
+   <td colname="col2"> <p> 指定在资源更改时应用于主视图的效果的类型。 此 <span class="codeph"> 无</span> 表示无过渡，主视图更改会立即发生。 此 <span class="codeph"> 渐隐</span> 激活旧图像淡出和新图像淡入的交叉淡入淡出过渡 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 时段</span></span> </p> </td> 
-   <td colname="col2"> <p> 完成動畫所需的秒數。 </p> </td> 
+   <td colname="col2"> <p> 完成动画所需的秒数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

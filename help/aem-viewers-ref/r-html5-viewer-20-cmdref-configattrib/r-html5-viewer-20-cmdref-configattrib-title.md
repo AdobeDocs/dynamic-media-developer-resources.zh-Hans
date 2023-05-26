@@ -1,6 +1,6 @@
 ---
 title: 标题
-description: 標題命令
+description: 标题命令
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 12%
 
 # 标题{#title}
 
-` title= *`windowTitle`*`
+` title= *`窗口标题`*`
 
 >[!NOTE]
 >
->此命令不適用於彈出式檢視器、基本縮放檢視器、迴轉檢視器或互動式影像檢視器。
+>此命令不适用于弹出查看器、基本缩放查看器、旋转查看器或交互式图像查看器。
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定包含檢視器的瀏覽器視窗標題。 </p> </td> 
+   <td colname="col2"> <p>指定包含查看器的浏览器窗口的标题。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
+## 属性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
 可选.
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 `Adobe Dynamic Media Video` 或者 `Adobe Dynamic Media Classic eCatalog`
 
-## 屬性 {#section-f8a0c032979047a38041abfce3f7a70b}
+## 属性 {#section-f8a0c032979047a38041abfce3f7a70b}
 
 `title=Video`
 

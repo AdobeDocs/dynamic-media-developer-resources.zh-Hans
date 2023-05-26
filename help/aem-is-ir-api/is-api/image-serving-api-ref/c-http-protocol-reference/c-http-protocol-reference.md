@@ -1,7 +1,7 @@
 ---
-description: 本檔案說明Dynamic Media影像伺服的HTTP通訊協定。
+description: 本文档介绍了适用于Dynamic Media图像服务的HTTP协议。
 solution: Experience Manager
-title: HTTP通訊協定參考
+title: HTTP协议引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d10a8-3b10-4daa-8559-dc36f7a54382
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# HTTP通訊協定參考{#http-protocol-reference}
+# HTTP协议引用{#http-protocol-reference}
 
-本檔案說明Dynamic Media影像伺服的HTTP通訊協定。
+本文档介绍了适用于Dynamic Media图像服务的HTTP协议。
 
 * [简介](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
-* [語法和功能](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
+* [语法和功能](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)

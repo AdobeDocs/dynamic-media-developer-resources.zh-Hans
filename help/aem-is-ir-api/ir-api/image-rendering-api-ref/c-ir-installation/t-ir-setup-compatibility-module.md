@@ -1,6 +1,6 @@
 ---
-title: 設定和設定IR 3.x相容性模組
-description: 設定並設定IR 3.x相容性模組。
+title: 设置和配置IR 3.x兼容模块
+description: 设置和配置IR 3.x兼容模块。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# 設定和設定IR 3.x相容性模組{#setup-and-configure-ir-x-compatibility-module}
+# 设置和配置IR 3.x兼容模块{#setup-and-configure-ir-x-compatibility-module}
 
 1. Stop `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
-1. 變更至ImageServer webapps目錄。
-1. 複製以下專案的內容： [!DNL ir] 目錄到 [!DNL `ROOT`] 目錄。
-1. 開啟 [!DNL `ROOT/WEB-INF/web.xml`] 在文字編輯器中。
-1. 搜尋行 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. 取消註解 `<servlet>` 和 `<servlet-mapping>` 標籤之間。
+1. 转到ImageServer webapps目录。
+1. 复制 [!DNL ir] 目录到 [!DNL `ROOT`] 目录。
+1. 打开 [!DNL `ROOT/WEB-INF/web.xml`] 在文本编辑器中。
+1. 搜索行 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. 取消注释 `<servlet>` 和 `<servlet-mapping>` 标记之间。
 1. 重新启动 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
-**Linux®範例**
+**Linux®示例**
 
 `cd /usr/local/scene7/ImageServing/webapps/ROOT`
 
@@ -30,12 +30,12 @@ ht-degree: 2%
 
 `cd WEB-INF`
 
-然後編輯 [!DNL `web.xml`] 使用您最愛的編輯器取消註解 `<servlet>` 和 `<servlet-mapping>` 標籤之間。
+然后编辑 [!DNL `web.xml`] 使用您最喜爱的编辑器取消评论 `<servlet>` 和 `<servlet-mapping>` 标记之间。
 
-**Windows範例**
+**Windows示例**
 
-開啟檔案總管並前往 `C:\Program Files\Scene7\ImageServing\webapps\ir`.
+打开资源管理器并转到 `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
-選取所有檔案和資料夾，並複製其中的檔案和資料夾 `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
+选择所有文件和文件夹并复制其中的文件和文件夹 `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-然後編輯檔案 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`，取消註解 `<servlet>` 和 `<servlet-mapping>` 標籤之間。
+然后编辑文件 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`，取消注释 `<servlet>` 和 `<servlet-mapping>` 标记之间。

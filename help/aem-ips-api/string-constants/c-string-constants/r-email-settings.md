@@ -1,7 +1,7 @@
 ---
-description: 說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
+description: 描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 solution: Experience Manager
-title: 電子郵件設定
+title: 电子邮件设置
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# 電子郵件設定{#email-settings}
+# 电子邮件设置{#email-settings}
 
-說明各種輸入引數所使用的值。 如需詳細資訊，請參閱本文中的清單。
+描述各种输入参数使用的值。 有关详细信息，请参阅本文中的列表。
 
 语法
 

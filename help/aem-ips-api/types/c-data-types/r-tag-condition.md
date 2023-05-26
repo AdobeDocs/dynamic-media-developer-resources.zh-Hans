@@ -1,5 +1,5 @@
 ---
-description: 定義標籤欄位的搜尋條件。
+description: 定义标记字段的搜索条件。
 solution: Experience Manager
 title: TagCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL TagCondition]{#tagcondition}
 
-定義標籤欄位的搜尋條件。
+定义标记字段的搜索条件。
 
 语法
 
@@ -32,27 +32,27 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 標籤欄位控制代碼。 </td> 
+   <td colname="col3"> 标记字段句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">取決於標籤欄位型別以及是否使用value或valueArray欄位。 
+   <td colname="col3">取决于标记字段类型以及使用的是value还是valueArray字段。 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">若 <span class="codeph"> 值</span> 已通過， <span class="codeph"> op</span> 必須為字串常數Matches。 條件符合與標籤值相關聯的任何資產。 </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">若 <span class="codeph"> valueArray</span> 傳遞，op欄位可以是常數 <span class="codeph"> MatchesAny</span> 用於單一或多值標籤欄位。 A <span class="codeph"> MatchesAny</span> 條件符合與中至少一個標籤值相關聯的任何資產 <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">對於多值標籤欄位，可將運算欄位設為常數 <span class="codeph"> MatchesAll</span> 使用 <span class="codeph"> valueArray</span> 欄位。 在此情況下，條件只會符合與以下專案中的所有標籤值相關聯的資產： <span class="codeph"> valueArray</span> （可能除了其他標籤值之外）。 </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">如果 <span class="codeph"> 值</span> 通过， <span class="codeph"> 操作</span> 必须为字符串常量Matches。 条件匹配与标记值关联的任何资源。 </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">如果 <span class="codeph"> valueArray</span> 传递，操作字段可以是常量 <span class="codeph"> MatchesAny</span> 用于单值或多值标记字段。 A <span class="codeph"> MatchesAny</span> 条件匹配与中的至少一个标记值关联的任何资源 <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">对于多值标记字段，可将op字段设置为常量 <span class="codeph"> MatchesAll</span> 使用 <span class="codeph"> valueArray</span> 字段。 在这种情况下，条件仅匹配与中的所有标记值关联的资产。 <span class="codeph"> valueArray</span> （可能是在其他标记值之外）。 </li>
     </ul></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 相符的值。 </td> 
+   <td colname="col3"> 匹配值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：StringArray</span> </td> 
-   <td colname="col3"> 多個相符的值。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col3"> 多个匹配值。 </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-title: 透過HTTP POST將資產上傳至UploadFile Servlet
-description: 將資產上傳至 [!DNL Dynamic Media] Classic涉及一個或多個HTTPPOST請求，這些請求會設定一個工作，以協調與上傳檔案相關的所有記錄活動。
+title: 通过HTTP POST将资产上传到UploadFile Servlet
+description: 将资产上传到 [!DNL Dynamic Media] Classic涉及一个或多个HTTPPOST请求，这些请求设置作业以协调与上载文件关联的所有日志活动。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 ---
 
-# 透過HTTP POST將資產上傳至UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
+# 通过HTTP POST将资产上传到UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-將資產上傳到Dynamic Media Classic中涉及一個或多個HTTPPOST請求，這些請求會設定一個工作來協調與上傳檔案關聯的所有記錄活動。
+将资源上传到Dynamic Media Classic中涉及一个或多个HTTPPOST请求，这些请求设置作业以协调与上传文件关联的所有日志活动。
 
-使用下列URL存取UploadFile Servlet：
+使用以下URL访问UploadFile Servlet：
 
 ```
 https://<server>/scene7/UploadFile
@@ -24,16 +24,16 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->上傳工作的所有POST請求都必須來自相同的IP位址。
+>上载作业的所有POST请求必须源自相同的IP地址。
 
-**Dynamic Media地區的存取URL**
+**访问Dynamic Media地区的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>地理位置 </p> </th> 
-   <th colname="col2" class="entry"> <p>生產URL </p> </th> 
-   <th colname="col3" class="entry"> <p>預備URL （用於生產前的開發和測試） </p> </th> 
+   <th colname="col2" class="entry"> <p>生产URL </p> </th> 
+   <th colname="col3" class="entry"> <p>暂存URL（用于生产前的开发和测试） </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -43,56 +43,56 @@ https://<server>/scene7/UploadFile
    <td colname="col3"> <p> https://s7sps1ssl-staging.scene7.com/scene7/UploadFile </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>歐洲、中東、亞洲 </p> </td> 
+   <td colname="col1"> <p>欧洲、中东、亚洲 </p> </td> 
    <td colname="col2"> <p> https://s7sps3ssl.scene7.com/scene7/UploadFile </p> </td> 
    <td colname="col3"> <p> https://s7sps3ssl-staging.scene7.com/scene7/UploadFile </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>日本/亞太地區 </p> </td> 
+   <td colname="col1"> <p>日本/亚太 </p> </td> 
    <td colname="col2"> <p> https://s7sps5ssl.scene7.com/scene7/UploadFile </p> </td> 
    <td colname="col3"> <p> https://s7sps5ssl-staging.scene7.com/scene7/UploadFile </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 上傳工作的工作流程 {#section-873625b9512f477c992f5cdd77267094}
+## 上载作业的工作流 {#section-873625b9512f477c992f5cdd77267094}
 
-上傳工作包含一或多個使用通用的HTTP POST `jobHandle` 將處理關聯至相同工作。 每個請求都是 `multipart/form-data` 編碼並包含下清單單元件：
+上载作业包含一个或多个HTTP POST，它们使用通用的 `jobHandle` 将处理关联到同一作业。 每个请求都是 `multipart/form-data` 编码并包含以下表单部分：
 
 >[!NOTE]
 >
->上傳工作的所有POST請求都必須來自相同的IP位址。
+>上载作业的所有POST请求必须源自相同的IP地址。
 
-|  HTTPPOST表單部分  |  说明  |
+|  HTTPPOST窗体部件  |  说明  |
 |---|---|
-| `auth`  |   必需. 指定驗證和使用者端資訊的XML authHeader檔案。 另請參閱 **要求驗證** 在 [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   可选. 您可以包含一或多個要連同每個POST請求一起上傳的檔案。 每個檔案零件都可在Content-Disposition標頭中包含一個檔案名稱引數，如果沒有，則用作IPS中的目標檔案名稱 `uploadPostParams/fileName` 引數已指定。 |
+| `auth`  |   必需. 指定身份验证和客户端信息的XML authHeader文档。 参见 **请求身份验证** 下 [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   可选. 您可以包含一个或多个要与每个POST请求一起上传的文件。 每个文件部分都可以在Content-Disposition标头中包含一个文件名参数，该参数用作IPS中的目标文件名（如果没有） `uploadPostParams/fileName` 指定参数。 |
 
-|  HTTPPOST表單部分   |  uploadPostParams元素名稱   |  类型   |  说明   |
+|  HTTPPOST窗体部件   |  uploadPostParams元素名称   |  类型   |  说明   |
 |---|---|---|---|
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案)   |   `companyHandle`  |  `xsd:string`  | 必需. 檔案要上傳到的公司的控制代碼。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `jobName`  |  `xsd:string`  | 兩者之一 `jobName` 或 `jobHandle` 為必填欄位。 上載工作的名稱。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `jobHandle`  |  `xsd:string`  | 兩者之一 `jobName` 或 `jobHandle` 為必填欄位。 處理在上一個請求中啟動的上傳工作。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `locale`  |  `xsd:string`  | 可选. 本地化的語言和國家/地區代碼。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `description`  |  `xsd:string`  | 可选. 工作的說明。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `destFolder`  |  `xsd:string`  | 可选. 檔案名稱屬性前置詞的目標資料夾路徑，特別是針對檔案名稱中可能不支援完整路徑的瀏覽器和其他使用者端。  |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `fileName`  |  `xsd:string`  | 可选. 目標檔案的名稱。 覆寫檔案名稱屬性。 |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `endJob`  |  `xsd:boolean`  | 可选. 默认值为 false。 |
-| `uploadParams` (必需. XML `uploadParams` 指定上傳引數的檔案) | `uploadParams`  |  `types:UploadPostJob`  | 如果這是現有作用中工作的後續請求，則此選項為選用。 如果有現有工作， `uploadParams` 會略過並使用現有的工作上傳引數。 另請參閱 [UploadpostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档)   |   `companyHandle`  |  `xsd:string`  | 必需. 将文件上传到的公司的句柄。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `jobName`  |  `xsd:string`  | 可以 `jobName` 或 `jobHandle` 为必填项。 上载作业的名称。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `jobHandle`  |  `xsd:string`  | 可以 `jobName` 或 `jobHandle` 为必填项。 上载作业在上一个请求中启动的句柄。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `locale`  |  `xsd:string`  | 可选. 本地化的语言和国家/地区代码。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `description`  |  `xsd:string`  | 可选. 作业的描述。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `destFolder`  |  `xsd:string`  | 可选. 文件名属性前缀的目标文件夹路径，特别是对于可能不支持文件名中完整路径的浏览器和其他客户端。  |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `fileName`  |  `xsd:string`  | 可选. 目标文件的名称。 覆盖文件名属性。 |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `endJob`  |  `xsd:boolean`  | 可选. 默认值为 false。 |
+| `uploadParams` (必需. XML `uploadParams` 指定上传参数的文档) | `uploadParams`  |  `types:UploadPostJob`  | 如果这是对现有活动作业的后续请求，则此为可选项。 如果有现成的工作， `uploadParams` 将被忽略，并且会使用现有的作业上载参数。 参见 [UploadPost作业](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-在內 `<uploadPostParams>` 區塊是 `<uploadParams>` 指定處理所包含檔案的區塊。
+在 `<uploadPostParams>` 块是 `<uploadParams>` 指定处理所包含文件的块。
 
-另請參閱 [UploadpostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
+参见 [UploadPost作业](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-雖然您可能會假設 `uploadParams` 但同一作業中的個別檔案引數可能會變更，情況並非如此。 使用相同的 `uploadParams` 整個工作的引數。
+虽然您可能会假设 `uploadParams` 参数可以为同一作业中的各个文件更改，但情况并非如此。 使用相同的 `uploadParams` 整个作业的参数。
 
-新上傳工作的初始POST請求應指定 `jobName` 引數，最好使用唯一的工作名稱，以簡化後續的工作狀態輪詢和工作記錄查詢。 相同上載工作的其他POST請求應指定 `jobHandle` 引數而非 `jobName`，使用 `jobHandle` 從初始請求傳回的值。
+新上载作业的初始POST请求应指定 `jobName` 参数，最好使用唯一作业名称来简化后续作业状态轮询和作业日志查询。 对于同一上载作业的其他POST请求，应指定 `jobHandle` 参数而不是 `jobName`，使用 `jobHandle` 从初始请求返回的值。
 
-上載工作的最終POST請求應將 `endJob` 引數為true，以便此工作日後不會發佈任何檔案。 反過來，這可讓工作在擷取所有POSTed檔案後立即完成。 否則，如果未在30分鐘內收到其他POST請求，則作業會逾時。
+上载作业的最终POST请求应将 `endJob` 参数为true，以便此作业以后不发布任何文件。 反过来，这又允许作业在摄取所有POSTed文件后立即完成。 否则，如果未在30分钟内收到其他POST请求，则作业会超时。
 
-## uploadpost回應 {#section-421df5cc04d44e23a464059aad86d64e}
+## UploadPOST响应 {#section-421df5cc04d44e23a464059aad86d64e}
 
-對於成功的POST請求，回應本文是XML `uploadPostReturn` 檔案，如XSD在下列專案中所指定：
+对于成功的POST请求，响应正文为XML `uploadPostReturn` 文档，如XSD在以下内容中所指定：
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -104,11 +104,11 @@ https://<server>/scene7/UploadFile
     </element>
 ```
 
-此 `jobHandle` 傳回的內容傳入 `uploadPostParams`/ `jobHandle` 相同工作的任何後續POST請求的引數。 您也可以使用它來輪詢工作狀態 `getActiveJobs` 作業或透過查詢工作記錄檔 `getJobLogDetails` 作業。
+此 `jobHandle` 返回的结果传入 `uploadPostParams`/ `jobHandle` 用于同一作业的任何后续POST请求的参数。 您还可以使用它来轮询作业状态 `getActiveJobs` 操作或使用查询作业日志 `getJobLogDetails` 操作。
 
-如果處理POST請求時發生錯誤，則回應內文會由其中一種API錯誤型別組成，如所述 [錯誤](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+如果处理POST请求时出错，则响应正文将包含中所述的某种API错误类型 [故障](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
-## 範例POST請求 {#section-810fe32abdb9426ba0fea488dffadd1e}
+## 示例POST请求 {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## 範例POST回應 — 成功 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## 示例POST响应 — 成功 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## 範例POST回應 — 錯誤 {#section-efc32bb371554982858b8690b05090ec}
+## 示例POST响应 — 错误 {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

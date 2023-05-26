@@ -1,7 +1,7 @@
 ---
-description: 僅供內部使用。 請參閱影像演算材質目錄參考目錄屬性區段。
+description: 仅供内部使用。 请参阅图像渲染材质目录Reference-Catalog属性部分。
 solution: Experience Manager
-title: getimagerenderingpublishSettings
+title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
@@ -12,13 +12,13 @@ ht-degree: 17%
 
 ---
 
-# getimagerenderingpublishSettings{#getimagerenderingpublishsettings}
+# getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-僅供內部使用。 請參閱影像演算材質目錄參考目錄屬性區段。
+仅供内部使用。 请参阅图像渲染材质目录Reference-Catalog属性部分。
 
 语法
 
-## 授權的使用者型別 {#section-1097e0563c61480a8e97822dc3527070}
+## 授权用户类型 {#section-1097e0563c61480a8e97822dc3527070}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,15 +27,15 @@ ht-degree: 17%
 
 ## 参数 {#section-4f2cb8c589384816bb2525654ec49963}
 
-**輸入(getImageRenderingPublishSettingsParam)**
+**输入(getImageRenderingPublishSettingsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 您要取得其影像演算發佈設定的公司控制代碼。 |
-| contextHandle | `xsd:string` | 是 | 處理發佈內容的動作。 |
+| companyHandle | `xsd:string` | 是 | 您希望获取其图像渲染发布设置的公司的句柄。 |
+| contextHandle | `xsd:string` | 是 | 处理发布上下文。 |
 
-**輸出(getImageRenderingPublishSettingsReturn)**
+**输出(getImageRenderingPublishSettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| publishSettingsArray | `type:ConfigSettingArray` | 是 | 影像演算發佈設定。 |
+| publishSettingsArray | `type:ConfigSettingArray` | 是 | 图像渲染发布设置。 |

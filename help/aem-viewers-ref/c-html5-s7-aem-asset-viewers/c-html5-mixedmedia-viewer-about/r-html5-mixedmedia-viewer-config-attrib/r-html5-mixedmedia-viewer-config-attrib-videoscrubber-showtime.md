@@ -20,12 +20,12 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在調整旋鈕位置時啟用或停用時間播放泡泡。 </p> </td> 
+   <td colname="col2"> <p> 启用或禁用在调整旋钮位置时播放时间泡的时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

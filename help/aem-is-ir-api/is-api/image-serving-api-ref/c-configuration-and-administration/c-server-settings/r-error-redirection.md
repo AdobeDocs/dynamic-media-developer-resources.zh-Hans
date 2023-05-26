@@ -1,7 +1,7 @@
 ---
-description: 使用這些伺服器設定來重新導向錯誤。
+description: 使用这些服务器设置重定向错误。
 solution: Experience Manager
-title: 錯誤重新導向
+title: 错误重定向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# 錯誤重新導向{#error-redirection}
+# 错误重定向{#error-redirection}
 
-使用這些伺服器設定來重新導向錯誤。
+使用这些服务器设置重定向错误。
 
 >[!NOTE]
 >
->網路路徑中的垂直號字元(|)不支援錯誤重新導向。
+>网络路径中的管道字符(|)不支持错误重定向。
 
-## PS：：errorRedirect.rootUrl — 重新導向伺服器 {#section-85f22e48d68842a490b0e1191543b558}
+## PS：：errorRedirect.rootUrl — 重定向服务器 {#section-85f22e48d68842a490b0e1191543b558}
 
-根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]])，對於次要影像伺服部署，若在本機失敗時，應重新導向該部署。 此設定為空白或未定義時，錯誤重新導向功能會停用（預設）。
+根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]])，对于在本地失败的请求应重定向到的次映像服务部署。 当此设置为空或未定义时，将禁用错误重定向（默认）。
 
-## PS：：errorRedirect.connectTimeout — 重新導向連線逾時 {#section-3971be8f720d4b32a2cc7860b4085971}
+## PS：：errorRedirect.connectTimeout — 重定向连接超时 {#section-3971be8f720d4b32a2cc7860b4085971}
 
-伺服器將等待與次要伺服器建立連線的最長時間（以毫秒為單位），之後才會將錯誤傳回使用者端。
+在将错误返回到客户端之前，服务器将等待与辅助服务器建立连接的最长时间（以毫秒为单位）。
 
-## PS：：errorRedirect.socketTimeout — 重新導向回應逾時 {#section-69d8579f748d4044bca99dfb64dd523c}
+## PS：：errorRedirect.socketTimeout — 重定向响应超时 {#section-69d8579f748d4044bca99dfb64dd523c}
 
-伺服器放棄重新導向要求並傳回錯誤給使用者端之前，等待次要伺服器傳回資料的最長時間（毫秒）。
+在放弃重定向请求并向客户端返回错误之前，服务器等待辅助服务器返回数据的最长时间（以毫秒为单位）。

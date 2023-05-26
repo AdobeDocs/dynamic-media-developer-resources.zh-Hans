@@ -1,5 +1,5 @@
 ---
-description: 設定要列印的網頁請求中內嵌點陣圖的解析度。
+description: 设置Web To Print请求中嵌入位图的分辨率。
 solution: Experience Manager
 title: imageRes
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 2%
 
 # imageRes{#imageres}
 
-設定要列印的網頁請求中內嵌點陣圖的解析度。
+设置Web To Print请求中嵌入位图的分辨率。
 
 ` imageRes=< *`数字`*>`
 
-列印時建議使用300。 數字越大，轉譯影像所需的時間就越多。
+打印时建议使用300。 数字越大，渲染图像所需的时间就越长。

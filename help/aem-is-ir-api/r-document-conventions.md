@@ -1,7 +1,7 @@
 ---
-description: 本檔案使用下列慣例。
+description: 本文档使用以下约定。
 solution: Experience Manager
-title: 檔案慣例
+title: 文档惯例
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
@@ -12,77 +12,77 @@ ht-degree: 0%
 
 ---
 
-# 檔案慣例{#document-conventions}
+# 文档惯例{#document-conventions}
 
-本檔案使用下列慣例。
+本文档使用以下约定。
 
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>常值 </p> </td> 
-  <td class="stentry"> <p>在語法區段中，非斜體文字是常值；這不適用於空格和符號[ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>文本 </p> </td> 
+  <td class="stentry"> <p>在语法部分中，非斜体文本为文本；这不适用于空格和符号[ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>'常值' </p> </td> 
-  <td class="stentry"> <p>在描述性區段中，單引號中的非斜體文字是常值。 </p> </td> 
+  <td class="stentry"> <p>'文本' </p> </td> 
+  <td class="stentry"> <p>在描述性部分中，单引号中的非斜体文本为文本。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 参数 </span> </p> </td> 
-  <td class="stentry"> <p>斜體表示變數或引數，以實際值取代。 </p> </td> 
+  <td class="stentry"> <p>斜体表示要用实际值替换的变量或参数。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
-  <td class="stentry"> <p>結尾為'='的名稱是指影像伺服HTTP通訊協定命令。 </p> </td> 
+  <td class="stentry"> <p>带有尾部“=”的名称是指图像服务HTTP协议命令。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> attribute：：Item </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 屬性：： </span> 是指影像目錄屬性。 </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 属性：： </span> 是指图像目录属性。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 目錄：：專案 </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 目錄： </span> 參考影像目錄資料欄位。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 目录：：项目 </span> </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 目录： </span> 是指图像目录数据字段。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc：：Item </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> icc：： </span> 參考ICC色彩設定檔地圖中的欄位。 </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> icc：： </span> 引用ICC颜色配置文件映射中的字段。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> font：：Item </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 字型：： </span> 參考字型地圖中的欄位。 </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 字体： </span> 指字体映射中的字段。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 巨集：：專案 </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 巨集：： </span> 參照巨集定義表格中的欄位。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 宏：：项目 </span> </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 宏： </span> 指宏定义表中的字段。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 規則集：：Item </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 規則集： </span> 是指URL預先處理規則集中的元素。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 规则集：：Item </span> </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 规则集： </span> 引用URL预处理规则集中的元素。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> default：：Item </span> </p> </td> 
-  <td class="stentry"> <p>前置詞為 <span class="codeph"> 預設： </span> 是指預設影像目錄的屬性。 </p> </td> 
+  <td class="stentry"> <p>带有前缀的名称 <span class="codeph"> 默认：： </span> 是指默认图像目录的属性。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> 可選 </span>] </span> </p> </td> 
-  <td class="stentry"> <p>選用的語法元素會以方括弧括住。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> 可选 </span>] </span> </p> </td> 
+  <td class="stentry"> <p>可选语法元素用方括号括起来。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> 可選 </span>] </span> </p> </td> 
-  <td class="stentry"> <p>此 <span class="varname"> 可選 </span> 語法元素可以重複無次或多次。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> 可选 </span>] </span> </p> </td> 
+  <td class="stentry"> <p>此 <span class="varname"> 可选 </span> 语法元素可以重复一次或多次。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 
-  <td class="stentry"> <p>垂直列表示可以使用左邊的單一語法專案或右邊的專案。 只能選取一個專案。 </p> </td> 
+  <td class="stentry"> <p>垂直条表示可以使用左侧的单个语法项或右侧的项。 只能选择一个项目。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> 群組 </span>} </span> </p> </td> 
-  <td class="stentry"> <p>大括弧用於將語法元素分組。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> 群组 </span>} </span> </p> </td> 
+  <td class="stentry"> <p>大括号用于对语法元素进行分组。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *{ <span class="varname"> 群組 </span>} </span> </p> </td> 
-  <td class="stentry"> <p>群組中的語法元素可能會重複一次或多次。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *{ <span class="varname"> 群组 </span>} </span> </p> </td> 
+  <td class="stentry"> <p>组中的语法元素可以重复一次或多次。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>空格 </p> </td> 
-  <td class="stentry"> <p>HTTP請求中不允許使用空白字元（空格或定位字元）。 本檔案偶爾會在語法元素之間使用空白字元，以清楚明瞭。 </p> </td> 
+  <td class="stentry"> <p>HTTP请求中不允许使用空格（空格或制表符）。 本文档偶尔会为清楚起见而在语法元素之间使用空格。 </p> </td> 
  </tr> 
 </table>

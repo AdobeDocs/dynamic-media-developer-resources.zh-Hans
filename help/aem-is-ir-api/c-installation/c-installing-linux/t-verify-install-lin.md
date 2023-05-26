@@ -1,6 +1,6 @@
 ---
-title: 驗證安裝
-description: 在Linux®上安裝「影像伺服」後，請確認是否已安裝。
+title: 验证安装
+description: 在Linux®上安装映像服务后，请验证安装。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,28 +12,28 @@ ht-degree: 0%
 
 ---
 
-# 驗證安裝{#verifying-the-installation}
+# 验证安装{#verifying-the-installation}
 
-在Linux®上安裝「影像伺服」後，請確認是否已安裝。
+在Linux®上安装映像服务后，请验证安装。
 
-Image Server會安裝為Linux®精靈。
+映像服务器安装为Linux®守护程序。
 
-**驗證安裝的方式**
+**验证安装**
 
-1. 確認「影像伺服」已設定為自動啟動，且執行中：
+1. 验证图像服务是否已配置为自动启动并且正在运行：
 
    `> /sbin/service ImageServing status`
 
    >[!NOTE]
    >
-   >您必須具有root許可權才能執行這些指令碼。
+   >您必须具有root权限才能运行这些脚本。
 
-1. 開啟相同或不同主機上的網際網路瀏覽器，並檢查預設伺服器回應：
+1. 在同一台主机或另一台主机上打开Internet浏览器，并检查默认服务器响应：
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-在回應中，檢查開頭為的專案是否存在 `imageServer`，表示 [!DNL Platform Server] 可成功與影像伺服器通訊。
+在响应中，检查是否存在以开头的项目 `imageServer`，这表示 [!DNL Platform Server] 无法成功与图像服务器通信。
 
->若已安裝，可使用檔案和示範套件的範例頁面執行其他驗證。
+>可以使用文档和演示软件包的示例页面（如果已安装）执行其他验证。

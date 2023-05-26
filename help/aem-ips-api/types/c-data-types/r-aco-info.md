@@ -1,6 +1,6 @@
 ---
 title: AcoInfo
-description: ACO資產的屬性。
+description: ACO资产的属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL AcoInfo]{#acoinfo}
 
-ACO資產的屬性。
+ACO资产的属性。
 
 语法
 
@@ -22,6 +22,6 @@ ACO資產的屬性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | ACO檔案路徑。 |
-| 原始檔案 | `xsd:string` | ACO檔案名稱。 |
-| fileSize | `xsd:int` | ACO檔案大小。 |
+| 原始路径 | `xsd:string` | ACO文件路径。 |
+| 原始文件 | `xsd:string` | ACO文件名。 |
+| fileSize | `xsd:int` | ACO文件大小。 |

@@ -1,5 +1,5 @@
 ---
-description: 取得所選公司的指定工作記錄檔。 您可以依字元、方向、開始和結束日期以及列數排序。
+description: 获取所选公司的指定作业日志。 您可以按字符、方向、开始和结束日期以及行数进行排序。
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # getJobLogs{#getjoblogs}
 
-取得所選公司的指定工作記錄檔。 您可以依字元、方向、開始和結束日期以及列數排序。
+获取所选公司的指定作业日志。 您可以按字符、方向、开始和结束日期以及行数进行排序。
 
 语法
 
-## 授權的使用者型別 {#section-9df82972265d44c9ad91504a17c3ffa6}
+## 授权用户类型 {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,27 +32,27 @@ ht-degree: 11%
 
 ## 参数 {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**輸入(getJobLogsParam)**
+**输入(getJobLogsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 公司控點。 |
-| userHandle | `xsd:string` | 否 | 取得特定使用者所提交工作的記錄。 |
-| sortby | `xsd:string` | 否 | 可讓您選取排序欄位。 |
-| sortDirection | `xsd:string` | 否 | 排序順序（升序或降序）。 |
-| startDate | `xsd:dateTime` | 否 | 工作記錄的開始日期和時間。 提供此欄位請求的時區。 |
-| endDate | `xsd:dateTime` | 否 | 工作記錄結束的日期和時間。 提供此欄位請求的時區。 |
-| numRows | `xsd:int` | 否 | 要傳回的最大列數。 |
+| companyHandle | `xsd:string` | 否 | 公司处理。 |
+| userHandle | `xsd:string` | 否 | 获取由特定用户提交的作业的日志。 |
+| sortby | `xsd:string` | 否 | 允许您选择排序字段。 |
+| sortDirection | `xsd:string` | 否 | 排序顺序（升序或降序）。 |
+| startDate | `xsd:dateTime` | 否 | 作业日志的开始日期和时间。 为此字段提供请求时区。 |
+| endDate | `xsd:dateTime` | 否 | 作业日志结束的日期和时间。 为此字段提供请求时区。 |
+| numRows | `xsd:int` | 否 | 要返回的最大行数。 |
 
-**輸出(getJobLogsReturn)**
+**输出(getJobLogsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| jobLogArray | `types: JobLogArray` | 是 | 工作記錄陣列。 |
+| jobLogArray | `types: JobLogArray` | 是 | 作业日志数组。 |
 
 ## 示例 {#section-35871c94b4a44559912577efddbc46a6}
 
-此程式碼範例會傳回特定公司的IPS工作記錄檔。 您也可以使用它來傳回特定使用者或公司和使用者的工作記錄。
+此代码示例返回特定公司的IPS作业日志。 您还可以使用它返回特定用户或公司及用户的作业日志。
 
 **请求**
 

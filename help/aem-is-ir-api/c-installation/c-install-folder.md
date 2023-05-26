@@ -1,6 +1,6 @@
 ---
-title: 安裝資料夾
-description: 「影像伺服」安裝資料夾(install_folder)是install_root/ImageServing。
+title: 安装文件夹
+description: 映像服务安装文件夹(install_folder)是install_root/ImageServing。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 安裝資料夾{#install-folder}
+# 安装文件夹{#install-folder}
 
-「影像伺服」安裝資料夾(install_folder)是install_root/ImageServing。
+映像服务安装文件夹(install_folder)是install_root/ImageServing。
 
-*[!DNL install_root]* 預設為 `C:\Program Files\Scene7` 在Windows上(其他 *[!DNL install_root]* 資料夾可在安裝期間選取)。 在Linux®， *[!DNL install_root]* 必須一律為 [!DNL /usr/local/scene7] （可使用符號連結）。
+*[!DNL install_root]* 默认为 `C:\Program Files\Scene7` 在Windows上(其他 *[!DNL install_root]* 可以在安装期间选择文件夹)。 在Linux®上， *[!DNL install_root]* 必须始终为 [!DNL /usr/local/scene7] （可以使用符号链接）。
 
-在本檔案中， *[!DNL install_folder]* 可能由「 [!DNL ./]&#39;.
+在本文档中， *[!DNL install_folder]* 可能表示为&#39; [!DNL ./]&#39;.
 
-所有檔案路徑在UNIX上區分大小寫®在Windows上不區分大小寫。
+所有文件路径在UNIX上区分大小写®在Windows上不区分大小写。

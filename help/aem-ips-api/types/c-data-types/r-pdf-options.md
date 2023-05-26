@@ -1,5 +1,5 @@
 ---
-description: PDF檔案選項。
+description: 文件选项PDF。
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-PDF檔案選項。
+文件选项PDF。
 
 语法
 
@@ -22,9 +22,9 @@ PDF檔案選項。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 进度 | `xsd:string` | 選擇「PDF流程」。 |
-| 解析度 | `xsd:double` | 檔案解析度。 |
-| 色域 | `xsd:string` | 後置指令碼色彩空間模式選擇。 |
-| pdfCatalog | `xsd:boolean` | 轉譯後是否要將多頁PDF合併到eCatalog （預設為true）。 |
-| extractSearchWords | `xsd:boolean` | 是否要從PDF檔案擷取搜尋字詞。 |
-| extractLinks | `xsd:boolean` | 是否將PDF連結擷取至指派給IPS內點陣化頁面的影像地圖。 |
+| 进度 | `xsd:string` | 选择“PDF流程”。 |
+| 解析度 | `xsd:double` | 文件解析。 |
+| 颜色空间 | `xsd:string` | 后脚本色彩空间模式选项。 |
+| pdfCatalog | `xsd:boolean` | 是否在呈现后将多页PDF合并到eCatalog中（默认值为true）。 |
+| extractSearchWords | `xsd:boolean` | 是否从PDF文件中提取搜索词。 |
+| extractLinks | `xsd:boolean` | 是否将PDF链接提取到分配给IPS内栅格化页面的图像映射中。 |

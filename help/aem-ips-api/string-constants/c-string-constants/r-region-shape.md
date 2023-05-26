@@ -1,7 +1,7 @@
 ---
 description: 由ImageMap/shapeType和saveImageMapParam/shapType使用。
 solution: Experience Manager
-title: 區域形狀
+title: 区域形状
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# 區域形狀{#region-shape}
+# 区域形状{#region-shape}
 
 由ImageMap/shapeType和saveImageMapParam/shapType使用。
 

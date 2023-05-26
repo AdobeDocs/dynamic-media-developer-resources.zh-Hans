@@ -1,5 +1,5 @@
 ---
-description: 建立新影像地圖或編輯現有地圖。
+description: 创建新图像映射或编辑现有映射。
 solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # saveImageMap{#saveimagemap}
 
-建立新影像地圖或編輯現有地圖。
+创建新图像映射或编辑现有映射。
 
 语法
 
-## 授權的使用者型別 {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## 授权用户类型 {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +29,11 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用户必须具有对资源的读写访问权限。
 
 ## 参数 {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**輸入(saveImageMapParam)**
+**输入(saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -49,52 +49,52 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 含有您要儲存之影像地圖的公司的控制代碼。 </td> 
+   <td colname="col4"> 包含要保存的图像映射的公司的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 影像地圖所屬影像資產的控點。 </td> 
+   <td colname="col4"> 图像映射所属的图像资源的句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 影像地圖的控點。 如果為NULL，則建立影像地圖。 </td> 
+   <td colname="col4"> 图像映射的句柄。 如果为NULL，则创建图像映射。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 建立或儲存的影像地圖名稱。 </td> 
+   <td colname="col4"> 创建或保存的图像映射的名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapetype </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 選擇區域形狀。 </td> 
+   <td colname="col4"> 区域形状选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 區域 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 区域 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 以逗號分隔定義區域的點清單。 </td> 
+   <td colname="col4"> 以逗号分隔的定义区域的点列表。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 動作 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 操作 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> href </span> 與IPS介面中指定的影像地圖相關聯的值。 </p> <p>若要取得 <span class="codeph"> href </span> 值、按一下IPS介面中的影像、將URL複製並貼至此元素中，然後將IPS URL格式化為適當的URL。 例如， <span class="codeph"> 和 </span> 變成 <span class="codeph"> amp；(&amp;a) </span>. </p> </td> 
+   <td colname="col4"> <p>此 <span class="codeph"> href </span> 与IPS接口中指定的图像映射关联的值。 </p> <p>要获取 <span class="codeph"> href </span> 值，单击IPS界面中的图像，将URL复制并粘贴到此元素中，然后将IPS URL格式化为适当的URL。 例如， <span class="codeph"> 和 </span> 变为 <span class="codeph"> amp； </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 影像地圖清單中的順序（Z軸）。 </td> 
+   <td colname="col4"> 图像映射列表中的顺序（Z轴）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 已啟用 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 已启用 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"></td> 
@@ -102,15 +102,15 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-**輸出(saveImageMapReturn)**
+**输出(saveImageMapReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | 是 | 新影像地圖或已編輯影像地圖的控點。 |
+| imageMapHandle | `xsd:string` | 是 | 新图像映射或编辑后的图像映射的句柄。 |
 
 ## 示例 {#section-fdac488b640f427c8aa3d549c5032851}
 
-此程式碼範例會為資產建立新的影像地圖。 它使用由區域形狀字串常數決定的形狀型別，並傳回新影像地圖的控點。
+此代码示例为资源创建新的图像映射。 它使用由区域形状字符串常量确定的形状类型，并向新图像映射返回一个句柄。
 
 **请求**
 

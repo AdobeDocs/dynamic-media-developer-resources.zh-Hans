@@ -19,29 +19,29 @@ ht-degree: 2%
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定顯示或隱藏彈出式檢視時套用的效果型別。 替換為 <span class="codeph"> 無 </span>，彈出式影像在啟動並準備就緒時立即顯示； <span class="codeph"> 幻燈片 </span> 讓幻燈片動畫以由左至右的方向播放； <span class="codeph"> 淡化 </span> 將Alpha轉變套用至彈出式影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 无|幻灯片|渐隐 </span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定显示或隐藏弹出视图时应用的效果的类型。 替换为 <span class="codeph"> 无 </span>，弹出图像在激活并准备就绪后立即显示； <span class="codeph"> 幻灯片 </span> 使幻灯片动画从左到右播放； <span class="codeph"> 渐隐 </span> 将alpha过渡应用于弹出图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> 完成顯示動畫所需的秒數。 </p> </td> 
+   <td colname="col2"> <p> 显示动画完成需要的秒数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> 使用者起始顯示動畫的動作與顯示動畫本身開始之間的延遲秒數。 </p> </td> 
+   <td colname="col2"> <p> 启动显示动画的用户操作和显示动画本身开始之间的延迟（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
-   <td colname="col2"> <p> 隱藏動畫完成所需的秒數。 </p> </td> 
+   <td colname="col2"> <p> 隐藏动画完成需要的秒数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> 使用者起始隱藏動畫的動作與隱藏動畫本身開始之間的延遲秒數。 </p> </td> 
+   <td colname="col2"> <p> 启动隐藏动画的用户操作和隐藏动画本身开始之间的延迟（以秒为单位）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

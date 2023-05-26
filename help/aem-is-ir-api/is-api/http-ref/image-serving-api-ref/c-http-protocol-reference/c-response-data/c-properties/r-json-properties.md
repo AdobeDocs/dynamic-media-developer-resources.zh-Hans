@@ -1,6 +1,6 @@
 ---
-title: JSONP屬性
-description: 如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加內邊距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
+title: JSONP属性
+description: 如果将jsonp指定为响应格式，则会使用JSONP（带填充的JavaScript对象表示法）对回复数据进行格式化，并封装在JavaScript函数调用中。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 1%
 
 ---
 
-# JSONP屬性{#jsonp-properties}
+# JSONP属性{#jsonp-properties}
 
-如果將jsonp指定為回應格式，則會使用JSONP （JavaScript物件標籤法加內邊距）將回覆資料格式化，並包裝在JavaScript函式呼叫中。
+如果将jsonp指定为响应格式，则会使用JSONP（带填充的JavaScript对象表示法）对回复数据进行格式化，并封装在JavaScript函数调用中。
 
-使用者端可以指定選用的唯一請求識別碼( *`reqId`*)，此資訊會傳回至回應，並允許使用者端區分非同步收到的多個回應。 典型回應的一般結構如下：
+客户端可以指定可选的唯一请求标识符( *`reqId`*)，响应中会返回并允许客户端区分异步收到的多个响应。 典型响应具有以下一般结构：
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -37,7 +37,7 @@ ht-degree: 1%
 </varname>" );
 ```
 
-此 `s7jsonResponse` JavaScript函式必須由使用者端定義。 函式最簡單的形式可能如下所示：
+此 `s7jsonResponse` JavaScript函数必须由客户端定义。 函数最简单的形式可能如下所示：
 
 ```
 var responseData; 
@@ -47,16 +47,16 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支持JSONP响应格式的请求允许您使用扩展语法指定JS回调处理程序的名称 `req=` 参数：
 
 `req=...,json [&handler = reqHandler]`
 
-此 `<reqHandler>` 語法是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.
+此 `<reqHandler>` 语法是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.
 
-Dynamic Media Image Serving Viewers套件包含從Image Serving請求及剖析JSONP格式資料的公用程式。
+Dynamic Media图像服务查看器包包括用于从图像服务请求和解析JSONP格式数据的实用程序。
 
-另請參閱 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 以取得有關JSONP格式的詳細資訊。
+参见 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 有关JSONP格式的详细信息。
 
-另請參閱 [www.json.org](https://www.json.org/json-en.html) 以取得有關JSON格式的詳細資訊。
+参见 [www.json.org](https://www.json.org/json-en.html) 有关JSON格式的详细信息。
 
-另請參閱 [需要](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
+另请参阅 [需要](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

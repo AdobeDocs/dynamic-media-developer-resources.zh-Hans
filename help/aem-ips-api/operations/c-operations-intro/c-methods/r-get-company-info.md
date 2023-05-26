@@ -1,5 +1,5 @@
 ---
-description: 傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 您必須指定要擷取其資訊的companyHandle或companyName。
+description: 返回有关指定公司的信息，包括公司句柄、公司名称、根路径和到期日期。 您必须指定要检索其信息的companyHandle或companyName。
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # getCompanyInfo{#getcompanyinfo}
 
-傳回指定公司的相關資訊，包括公司控制代碼、公司名稱、根路徑和到期日。 您必須指定要擷取其資訊的companyHandle或companyName。
+返回有关指定公司的信息，包括公司句柄、公司名称、根路径和到期日期。 您必须指定要检索其信息的companyHandle或companyName。
 
 语法
 
-## 授權的使用者型別 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 授权用户类型 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 ## 参数 {#section-7dec8871c89a414c9f066adade1831d8}
 
-**輸入(getCompanyInfoParam)**
+**输入(getCompanyInfoParam)**
 
 <table id="table_DD2688C9DA9F49C9ABCA24944829B3E5"> 
  <thead> 
@@ -46,19 +46,19 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>兩者之一 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 為必填欄位。 </p> </td> 
-   <td colname="col4"> <p>您要取得其資訊之公司的控制代碼。 </p> </td> 
+   <td colname="col3"> <p>可以 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 为必填项。 </p> </td> 
+   <td colname="col4"> <p>要获取其信息的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>兩者之一 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 為必填欄位。 </p> </td> 
-   <td colname="col4"> <p>您要取得其資訊的公司名稱。 </p> </td> 
+   <td colname="col3"> <p>可以 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 为必填项。 </p> </td> 
+   <td colname="col4"> <p>要获取其信息的公司的名称。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**輸出(getCompanyInfoReturn)**
+**输出(getCompanyInfoReturn)**
 
 <table id="table_634D4E274BA7494C9C917FD244286F0D"> 
  <thead> 
@@ -72,16 +72,16 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：公司</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>處理公司和其他描述性資訊。 </p> </td> 
+   <td colname="col4"> <p>处理公司和其他描述性信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-此程式碼範例會使用公司名稱和控制代碼來傳回有關公司的所有資訊。 它會傳回與建立公司時收到的回應類似的資料。
+此代码示例通过使用公司名称和句柄返回有关公司的所有信息。 它会返回与创建公司时收到的响应类似的数据。
 
 **请求**
 

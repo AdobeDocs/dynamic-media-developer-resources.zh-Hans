@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcGray
-description: 灰階預設輸入色彩設定檔。 指定用於未嵌入色彩設定檔之灰階材質影像的ICC色彩設定檔名稱。
+description: 灰度默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的灰度材质图像的ICC颜色配置文件的名称。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-灰階預設輸入色彩設定檔。 指定用於未嵌入色彩設定檔之灰階材質影像的ICC色彩設定檔名稱。
+灰度默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的灰度材质图像的ICC颜色配置文件的名称。
 
-## 屬性 {#section-97923d8561b845309442d57d017d91a4}
+## 属性 {#section-97923d8561b845309442d57d017d91a4}
 
-文字字串。 若指定，則必須為有效 `icc::Name` 值來自此影像目錄或預設目錄的ICC設定檔對映，或是相對於的檔案路徑 `attribute::RootPath`. 參照的ICC設定檔必須是灰階設定檔。
+文本字符串。 如果指定，则必须为有效 `icc::Name` 值，该值来自此图像目录或默认目录的ICC配置文件映射，或相对于该图像目录的文件路径 `attribute::RootPath`. 引用的ICC配置文件必须是灰度配置文件。
 
 ## 默认 {#section-02c52805ee13483dba7878aeab51f889}
 
-繼承自 `default::IccProfileSrcGray` 如果未定義或為空。 若 `attribute::IccProfileSrcGray` 無法解析為有效的設定檔， `attribute::IccProfileGray` 會改用。
+继承自 `default::IccProfileSrcGray` 如果未定义或为空。 如果 `attribute::IccProfileSrcGray` 无法解析为有效的配置文件， `attribute::IccProfileGray` 而使用。
 
 ## 另请参阅 {#section-c361d6f6231942b3aa8b4b496e1d3de3}
 

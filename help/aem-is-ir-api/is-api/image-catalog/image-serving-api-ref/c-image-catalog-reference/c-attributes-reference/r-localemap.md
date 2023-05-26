@@ -1,5 +1,5 @@
 ---
-description: ID翻譯對應。 指定用來將一般影像ID轉譯為地區設定特定ID的規則。
+description: ID转换映射。 指定用于将通用图像ID转换为特定于区域设置的ID的规则。
 solution: Experience Manager
 title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # LocaleMap{#localemap}
 
-ID翻譯對應。 指定用來將一般影像ID轉譯為地區設定特定ID的規則。
+ID转换映射。 指定用于将通用图像ID转换为特定于区域设置的ID的规则。
 
-`*`個專案`*&#42;['|' *`個專案`*]`
+`*`项目`*&#42;['|' *`项目`*]`
 
 <table id="simpletable_A6DD1A28F8ED4178A8ADDB2F3AEFC402"> 
  <tr class="strow"> 
@@ -25,28 +25,28 @@ ID翻譯對應。 指定用來將一般影像ID轉譯為地區設定特定ID的�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locId</span> </p></td> 
-  <td class="stentry"> <p>地區設定ID （不區分大小寫）。 </p></td> 
+  <td class="stentry"> <p>区域设置ID（不区分大小写）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> locSuffix</span> </p></td> 
-  <td class="stentry"> <p>地區設定字尾。 </p></td> 
+  <td class="stentry"> <p>区域设置后缀。 </p></td> 
  </tr> 
 </table>
 
-`LocaleMap` 是指 `locId` 可對應至任意數量的 `locSuffix`.
+`LocaleMap` 是指 `locId` 可以映射到任意数量的受众 `locSuffix`.
 
-空白 *`locSuffix`* 允許使用值。 *`locSuffix`* 值必須依其搜尋順序排序。 傳回第一個相符項。
+空 *`locSuffix`* 值是允许的。 *`locSuffix`* 值必须按搜索顺序排序。 返回第一个匹配项。
 
-「影像伺服」搜尋 *`locId`* 不區分大小寫的值會與 `locale=` 請求中指定的值。 如果找到相符專案，則第一個相關聯的 *`locSuffix`* 值會附加至原始目錄id。 如果此目錄專案存在，則會使用它，否則會使用下一個 *`locSuffix`* 已嘗試值。 如果沒有 *`locSuffix`* 值與目錄專案相符，影像伺服會傳回錯誤或預設影像。
+图像服务搜索 *`locId`* 不区分大小写的值与 `locale=` 请求中指定的值。 如果找到匹配项，则第一个关联的 *`locSuffix`* 值将附加到原始目录id。 如果此目录条目存在，则使用它，否则使用下一个 *`locSuffix`* 值已尝试。 如果所有 *`locSuffix`* 值与目录条目匹配，图像服务返回错误或默认图像。
 
-空白 *`locId`* 值符合空白和未知 `locale=` 字串。 這允許為未知地區設定定義預設規則。
+空 *`locId`* 值匹配空和未知 `locale=` 字符串。 这允许为未知区域设置定义默认规则。
 
-ID轉譯在啟用時，會套用至參考影像目錄和靜態內容目錄專案的所有ID。
+ID翻译在启用时应用到引用图像目录和静态内容目录条目的所有ID。
 
-## 屬性 {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
+## 属性 {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-一或多個專案，以分隔 |，其中每個專案都包含兩個或多個以逗號分隔的字串值。 *`locId`* 和 `locale=` 會比較。 不區分大小寫。
+一个或多个项目，用分隔 |，其中每个项目由两个或更多逗号分隔的字符串值组成。 *`locId`* 和 `locale=` 比较。 不区分大小写。
 
 ## 另请参阅 {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 
-本地化支援， [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb)， [attribute：：LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)
+本地化支持， [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb)， [attribute：：LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)

@@ -1,7 +1,7 @@
 ---
-description: 預設縮圖大小。 用於縮圖請求(req=tmb)，而非屬性DefaultPix。
+description: 默认缩略图大小。 用于替代缩略图请求(req=tmb)的属性DefaultPix。
 solution: Experience Manager
-title: DefaultthumbPix
+title: DefaultThumbPix
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1413da0-a68d-4345-928f-b532991966a8
@@ -12,21 +12,21 @@ ht-degree: 2%
 
 ---
 
-# DefaultthumbPix{#defaultthumbpix}
+# DefaultThumbPix{#defaultthumbpix}
 
-預設縮圖大小。 用於縮圖請求(req=tmb)，而不是attribute：：DefaultPix。
+默认缩略图大小。 用于缩略图请求(req=tmb)，而不是attribute：：DefaultPix。
 
-如果縮圖要求( `req=tmb`)不會明確指定大小，不會明確使用指定檢視大小 `wid=`， `hei=`，或 `scl=`.
+如果缩略图请求( `req=tmb`)不会明确指定大小，也不会明确使用以下选项指定视图大小： `wid=`， `hei=`，或 `scl=`.
 
-## 屬性 {#section-650d9b1194fb4c47a03c6809e6b4af0e}
+## 属性 {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-0或更大的兩個整數，以逗號分隔。 寬度和高度（畫素）。 可將任一或兩個值都設定為0，以保持其不受限制。
+0或更大的两个整数，以逗号分隔。 宽度和高度（像素）。 可以将任一值或两个值都设置为0以保持其不受约束。
 
-不適用於巢狀/內嵌請求。
+不适用于嵌套/嵌入的请求。
 
 ## 默认 {#section-2c4a4f14540449638822913513170ff1}
 
-繼承自 `default::DefaultThumbPix` 如果未定義或為空。
+继承自 `default::DefaultThumbPix` 如果未定义或为空。
 
 ## 另请参阅 {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 

@@ -1,7 +1,7 @@
 ---
-description: 視訊資產屬性。
+description: 视频资源属性。
 solution: Experience Manager
-title: 視訊資訊
+title: 视频信息
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL VideoInfo]{#videoinfo}
 
-視訊資產屬性。
+视频资源属性。
 
 语法
 
@@ -22,10 +22,10 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 上傳視訊的相對路徑。 |
-| 原始檔案 | `xsd:string` | 原始視訊檔案的名稱。 |
-| fileSize | `xsd:int` | 檔案大小。 |
-| imagePath | `xsd:string` | 視訊檔案的相對路徑。 |
-| imageFile | `xsd:string` | 視訊檔案的檔案名稱。 |
-| optimizedPath | `xsd:string` | IPS最佳化視訊檔案的路徑。 |
-| optimizedFile | `xsd:string` | IPS最佳化視訊檔案的檔案名稱。 |
+| 原始路径 | `xsd:string` | 上传视频的相对路径。 |
+| 原始文件 | `xsd:string` | 原始视频文件的名称。 |
+| fileSize | `xsd:int` | 文件大小。 |
+| imagePath | `xsd:string` | 视频文件的相对路径。 |
+| imageFile | `xsd:string` | 视频文件的文件名。 |
+| 优化路径 | `xsd:string` | IPS优化视频文件的路径。 |
+| 优化文件 | `xsd:string` | IPS优化视频文件的文件名。 |

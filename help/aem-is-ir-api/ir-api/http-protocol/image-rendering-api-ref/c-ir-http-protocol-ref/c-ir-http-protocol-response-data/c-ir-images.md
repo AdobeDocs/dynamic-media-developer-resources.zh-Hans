@@ -1,6 +1,6 @@
 ---
 title: 图像
-description: 如果要求成功完成，且要求不包含req=命令，或req=有下列其中一個值img， debug，則會傳回影像資料。
+description: 如果请求成功完成，并且请求不包含req=命令，或者req=具有以下值之一img，则返回图像数据。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # 图像{#images}
 
-如果要求成功完成，且要求未包含req=命令，或req=有下列其中一個值，則會傳回影像資料： img、debug
+如果请求成功完成，并且请求不包含req=命令或req=具有以下值之一，则会返回图像数据： img、debug
 
-HTTP回應MIME型別由以下專案決定 `fmt=`，或，如果 `fmt=` 未指定，它取決於 `attribute::Format`.
+HTTP响应MIME类型由 `fmt=`，或者，如果 `fmt=` 未指定，它取决于 `attribute::Format`.
 
-如果要求方法為無條件，則HTTP回應狀態為「200 OK」 `GET` 或 `HEAD`.
+如果请求方法是无条件的，则HTTP响应状态为“200 OK” `GET` 或 `HEAD`.
 
-伺服器可能會以「304」狀態回覆（未修改），並且不會傳回任何影像資料來回應條件 `GET` 請求(使用 [!DNL If-Modified-Since] 存在於中的欄位 `request-header`)。
+服务器可以状态“304”（未修改）回复，并且不响应条件返回任何图像数据 `GET` 请求(使用 [!DNL If-Modified-Since] 字段中存在 `request-header`)。

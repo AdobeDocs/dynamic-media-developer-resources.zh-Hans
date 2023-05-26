@@ -1,5 +1,5 @@
 ---
-description: 一系列許可權。
+description: 一系列权限。
 solution: Experience Manager
 title: Permissionarray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PermissionArray]{#permissionarray}
 
-一系列許可權。
+一系列权限。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Permission` | 許可權陣列。 |
+| 项目 | `types:Permission` | 权限数组。 |

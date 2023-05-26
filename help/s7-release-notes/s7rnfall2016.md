@@ -1,6 +1,6 @@
 ---
-title: Scene7 2016年秋季版
-description: 「Adobe Scene7 2016年秋季版的最新發行說明，屬於Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分。」
+title: Scene7 2016年秋季版本
+description: “Adobe Scene7 2016年秋季版的最新发行说明，它是Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分。”
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -12,340 +12,340 @@ ht-degree: 0%
 
 ---
 
-# Scene7 2016年秋季版{#scene-fall-release}
+# Scene7 2016年秋季版本{#scene-fall-release}
 
-Adobe Scene7 2016年秋季版的最新發行說明 — Adobe Experience Cloud中Adobe Experience Manager解決方案的一部分。
+Adobe Scene7 2016年秋季版的最新发行说明，它是Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分。
 
-## Scene7 2016年秋季版 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7 2016年秋季版本 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-的最新版本注意事項 [!DNL Adobe Scene7] 2016年秋季版 —  [!DNL Adobe Experience Manager] 中的解決方案 [!DNL Adobe Experience Cloud].
+的最新发行说明 [!DNL Adobe Scene7] 2016年秋季版 —  [!DNL Adobe Experience Manager] 中的解决方案 [!DNL Adobe Experience Cloud].
 
 * [常规](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [场景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
-* [檢視器（影像伺服5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
-* [檢視器（影像伺服5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
-* [檢視器（影像伺服5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [HTML5檢視器SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Classic影像提供6.3.2和影像轉譯6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [查看器（图像服务5.5.3）](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
+* [查看器（图像服务5.5.2）](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
+* [查看器（图像服务5.5.1）](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
+* [HTML5查看器SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Classic图像服务6.3.2和图像渲染6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 常规 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe很高興宣佈推出HTTP/2內容傳送，並擁有提升效能的整體優點。
+Adobe很高兴地宣布推出HTTP/2内容交付，这从总体上提高了性能。
 
-另請參閱 [HTTP2傳送內容常見問答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+参见 [http2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
-## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
+## Scene7发布系统 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-如需完整檔案，請參閱 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+有关完整文档，请参阅 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
-**新功能、增強功能和錯誤修正**
+**新增功能、增强功能和错误修复**
 
-* 移除的視訊重新剪輯功能 [!DNL Adobe Scene7 Publishing System] 使用者介面。
-* 在必要和可能的情況下，新增驗證至所有Scene7 servlet
-* 垃圾桶中涉及清單檢視的錯誤修正。
-* 已移除 **建立Dynamic Media Classic (Scene7)管理員** 基於安全性考量，從「使用者管理」取得使用者功能。
-* FTP WebAdmin現在支援OKTA驗證。
-* 移除為新Media Portal使用者建立的預設密碼功能。
-* 涉及新增使用者時產生的暫時密碼的錯誤修正。 密碼不符合必要的密碼要求。
-* 已解決WebAdmin根磁碟已滿的問題。
-* 使用者介面中不會立即反映停用使用者的錯誤修正。
-* 有關刪除使用者的錯誤修正，但您稍後無法重新建立使用者。
-* 錯誤修正：傳送給新Scene7使用者的歡迎電子郵件未包含驗證以控制特定設定。
-* 若任何檔案夾名稱中包含特殊字元，則修復無法擷取FTP檔案夾清單的錯誤。
-* 設定Scene7環境的OKTA服務提供者。
-* 新增對Viewer Analytics的Experience Cloud組織ID的支援。
-* 實作Scene7 SAML消費者。
+* 已从删除视频剪辑功能 [!DNL Adobe Scene7 Publishing System] 用户界面。
+* 在必要和可能的情况下，向所有Scene7 servlet添加了身份验证
+* 修复了垃圾桶中列表视图存在的错误。
+* 已删除 **创建Dynamic Media Classic (Scene7)管理员** 出于安全考虑，用户管理中的用户功能。
+* FTP WebAdmin现在支持OKTA身份验证。
+* 删除了为新Media Portal用户创建的默认密码的功能。
+* 修复了在添加新用户时生成的临时密码的错误。 密码不符合必要的密码要求。
+* 已解决WebAdmin根磁盘已满的问题。
+* 涉及禁用用户的错误修复不会立即反映在用户界面中。
+* 修复了涉及删除用户的错误，之后未允许您重新创建用户。
+* 修复了向新增Scene7用户发送欢迎电子邮件的错误，这些用户未使用身份验证来控制某些设置。
+* 修复了以下错误：如果任何文件夹的名称中包含特殊字符，则无法检索FTP文件夹列表。
+* 为Scene7环境配置OKTA服务提供程序。
+* 为查看器Analytics添加了对Experience Cloud组织ID的支持。
+* 实施了Scene7 SAML消费者。
 
-## 檢視器（影像伺服5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**影像伺服5.5.3的錯誤修正**
+**图像服务5.5.3的错误修复**
 
-* 與RequireJS和DOJO程式庫的相容性。
+* 与RequireJS和DOJO库的兼容性。
 
-   在檢視器部署期間整合的SDK JS快取。
+   在查看器部署期间进行整合SDK JS缓存。
 
-## 檢視器（影像伺服5.5.2） {#section-9932c988cfee45749594af481dfc6476}
+## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**影像伺服5.5.2的錯誤修正**
+**图像服务5.5.2的错误修复**
 
-* 無法在Windows 7上的Internet Explorer 11中播放視訊。
-* `initialframe` 不會影響HTML5 eCatalog行動裝置上的縱向模式。
+* 无法在Windows 7上的Internet Explorer 11中播放视频。
+* `initialframe` 不影响移动设备上用于HTML5 eCatalog的纵向模式。
 
-## 檢視器（影像伺服5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
+## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-如需完整檔案，請參閱 [檢視器參考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**影像伺服5.5.1的新功能、增強功能和錯誤修正**
+**图像服务5.5.1的新增功能、增强功能和错误修复**
 
-* HTML5具有搜尋功能的eCatalog檢視器。
-* 新增HLS串流視訊播放，作為大部分案頭系統的預設視訊傳送方法。 Flash式HDS視訊串流仍可作為替代播放選項。
-* 新增對具有執行Chrome瀏覽器的滑鼠和觸控輸入裝置的支援。
-* 將Experience Cloud組織ID支援新增至Analytics整合。
-* 將AppMeasurement JavaScript程式庫更新至1.6.1版。
-* 在eCatalog檢視器中新增從右至左方向的支援。
-* 已修正以下問題： `tip=0,-1,0` 造成超出範圍的錯誤。
+* 具有搜索功能的HTML5 eCatalog查看器。
+* 已添加HLS流视频播放作为大多数桌面系统的默认视频交付方法。 基于Flash的HDS视频流仍可用作替代播放选项。
+* 添加了对运行Chrome浏览器的鼠标和触摸输入设备的支持。
+* 向Analytics集成添加了Experience Cloud组织ID支持。
+* 将AppMeasurement JavaScript库更新到版本1.6.1。
+* 在eCatalog查看器中增加了对从右至左方向的支持。
+* 修复了以下问题： `tip=0,-1,0` 导致出现超出范围错误。
 
-**相容性說明**
+**兼容性说明**
 
 * BlackBerry®
 
-   * 與舊版AVS集不相容。 使用者端必須重新上傳AVS集才能允許播放。
+   * 与旧版AVS集不兼容。 客户端必须重新上传AVS集以允许播放。
 
 * 常规
 
-   * 瀏覽器端縮放可能會造成使用者放大至頁面時，UI和影像變得模糊。 視縮放而定，UI格式也可能顯示不正確。 此效果會延續至全熒幕。
-   * 由於行動裝置上的大小限制，混合媒體檢視器會使用滑動手勢來交換內嵌影像集中的影格，而非點選內嵌色票元件。 元件會以視覺指示器的形式存在。
-   * 在Internet Explorer瀏覽器和某些觸控裝置中，全熒幕模式不會佔據整個裝置熒幕。 而是將應用程式的大小調整為瀏覽器視窗的大小。
-   * 「關閉」按鈕在iOS 8.0和8.1中無法運作，但在iOS 8.2中不再出現
+   * 浏览器端缩放可能会在用户放大到页面时导致UI和图像变得模糊。 UI格式也可能因缩放而显示不正确。 这种效果会延续到全屏。
+   * 由于移动设备上的大小限制，混合媒体查看器使用幻灯片手势在嵌入的图像集中交换帧，而不是点按嵌入的样本组件。 该组件以可视指示器的形式存在。
+   * 在Internet Explorer浏览器和某些触控设备中，全屏模式不会占用整个设备屏幕。 相反，它会将应用程序的大小调整为与浏览器窗口的大小相同。
+   * “关闭”按钮在iOS 8.0和8.1中不起作用，但在iOS 8.2中不再出现
 
 * Galaxy SIII
 
-   * 使用Zoom和eCatalogHTML5檢視器時發現記憶體流失。 重複瀏覽畫面可能會造成瀏覽器當機。
-   * 在檢視器上點兩下可能會導致整個頁面縮放，而不僅僅是啟用瀏覽器端縮放的檢視器。
+   * 使用Zoom和eCatalogHTML5查看器时发现内存泄漏。 重复浏览帧可能会导致浏览器崩溃。
+   * 双击查看器可能会导致整个页面缩放，而不仅仅是启用了浏览器端缩放的查看器。
 
 * Galaxy S4
 
-   * 在直向模式中偵測到裝置為平板電腦，且瀏覽器設定中勾選全熒幕。
+   * 在浏览器设置中选中“全屏”后，设备在纵向模式下被检测为平板电脑。
 
 * Galaxy Nexus
 
-   * 在檢視器上點兩下可能會導致整個頁面縮放，而不僅僅是啟用瀏覽器端縮放的檢視器。
+   * 双击查看器可能会导致整个页面缩放，而不仅仅是启用了浏览器端缩放的查看器。
 
-* Galaxy Nexus 10和Galaxy平板電腦
+* Galaxy Nexus 10和Galaxy平板电脑
 
-   * eCatalog顯示不正確的頁面跨頁，具有直向和橫向方向。
+   * eCatalog显示错误的页面跨页，具有纵向和横向方向。
 
-* HTC行動裝置
+* HTC移动设备
 
-   * HTC行動裝置Adobe的調查結果顯示，無法停用原生縮放，這是HTC UI包裝函式(HTC Sense)的「功能」。 在檢視器上使用「捏合縮放」手勢時，此問題可能會導致整個頁面縮放。 建議改用點兩下。
-   * 如果影像地圖很小且很接近，則影像地圖圖示可能會重疊。
+   * HTC移动设备Adobe的调查结果显示，无法禁用本机缩放，这是HTC UI包装器(HTC Sense)的“功能”。 在查看器上使用“捏合缩放”手势时，此问题可能会导致整个页面缩放。 建议改用双击操作。
+   * 如果图像映射较小且彼此靠近，则图像映射图标可能会重叠。
 
-* HTML5影片
+* HTML5视频
 
-   * Internet Explorer 9：不顯示自訂海報影像。
-   * `IntialBitRate` 修飾元僅支援軟體HLS和FlashHDS播放。 使用原生播放器播放時無法運作。
-   * 目前不支援OGG和WebM漸進式播放。
-   * 瀏覽器縮放可能會導致視訊播放器以不正確的大小顯示（包括Windows作業系統控制面板顯示設定）。
-   * 在Safari上使用HLS串流的視訊搜尋可能不一致。
+   * Internet Explorer 9：不显示自定义海报图像。
+   * `IntialBitRate` 仅软件HLS和FlashHDS播放支持修饰符。 使用本机播放器播放时，此选项不起作用。
+   * 当前不支持OGG和WebM渐进式播放。
+   * 浏览器缩放可能会导致视频播放器以不正确的大小显示（包括Windows操作系统控制面板显示设置）。
+   * 在Safari上使用HLS流进行视频搜寻可能不一致。
 
 * Internet Explorer
 
-   * 目前不支援Quirks模式。
-   * 目前不支援相容模式。
-   * 目前不支援行動裝置上的Internet Explorer。
+   * 当前不支持Quirks模式。
+   * 当前不支持兼容模式。
+   * 当前不支持移动设备上的Internet Explorer。
 
 * iOS
 
-   * 大型的eCatalog可能會導致iPad 2上的瀏覽器當機。
-   * 檢視器偵測到iPhone 6+手機為平板電腦。
+   * 大型eCatalog可能会导致iPad 2上的浏览器崩溃。
+   * 查看者检测到iPhone 6+手机为平板电脑。
 
 * Safari
 
-   * Safari 6.1或更新版本：網際網路外掛程式設定可能會導致Flash影片無法播放。
-   * 在Safari上使用HLS串流的視訊「搜尋」可能不一致。
-   * 無法使用HLS串流在Safari 6上搜尋視訊結尾。
+   * Safari 6.1或更高版本： Internet插件设置可能会阻止Flash视频播放。
+   * 在Safari上使用HLS流播放的视频“搜寻”可能不一致。
+   * 无法使用HLS流在Safari 6上搜寻结束视频。
 
-**已知問題和限制**
+**已知问题和限制**
 
-* 影像伺服修飾元來自 `iscommands` 不會新增至 `req=set` 依設計要求。 只影響影像顯示的修飾元可以正常運作。 影響大小的修飾元必須用於複雜資產。 例如︰
+* 图像服务修饰符来自 `iscommands` 未添加到 `req=set` 按设计要求。 仅影响图像显示的修饰符工作正常。 必须在复杂资源中使用影响大小的修饰符。 例如︰
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [彈出] 滑鼠關閉後，IE9有時仍會留在熒幕上。
-* 瀏覽器縮放會導致重新調整大小錯誤。
-* iPad 2：iOS上的大型eCatalog資產導致Safari當機。
-* 所有檢視器
+* [弹出] 鼠标关闭后，IE9有时仍会保留在屏幕上。
+* 浏览器缩放会导致调整大小错误。
+* iPad 2：大型eCatalog资源在iOS上导致Safari崩溃。
+* 所有查看器
 
-   * 不支援浮水印、模糊化及鎖定。
-   * 不支援影像預設集。
-   * 使用在DOM中新增或移除檢視器 `display:none` 目前不支援CSS或透過將其從父節點動態分離的方式來建立。
+   * 不支持水印、模糊处理和锁定。
+   * 不支持图像预设。
+   * 使用以下方式在DOM中添加或删除查看器 `display:none` 当前不支持CSS或将其从父节点动态分离。
 
-* HTML5所有檢視器
+* HTML5所有查看器
 
-   * 將檢視器內嵌在表格中，可能會導致檢視器大小或位置不正確，無法置於非原生全熒幕模式。 建議改用DIV。
-   * 程式碼中具有明確執行個體名稱的引數需要URL中的執行個體名稱也被覆寫(例如， `zoomView.iconfeffect=0`)。
-   * 目前不支援「影像伺服」命令裁切。
-   * 只有在子視窗中開啟檢視器時，「關閉」按鈕才有效。
-   * 此 `iscommands` 修飾元不支援影響影像大小的「影像伺服」修飾元。
+   * 将查看器嵌入表中可能会导致查看器大小不正确或以非本机全屏模式放置。 建议改用DIV。
+   * 代码中具有显式实例名称的参数要求URL中的实例名称也被覆盖(例如， `zoomView.iconfeffect=0`)。
+   * 当前不支持图像服务命令裁切。
+   * 仅当在子窗口中打开查看器时，“关闭”按钮才有效。
+   * 此 `iscommands` 修饰符不支持影响图像大小的图像服务修饰符。
 
 * HTML5 eCatalog
 
-   * 導覽至其他HTML頁面並偶爾回訪，會導致檢視器重設回第一頁。
-   * 旋轉iOS裝置後，頁面配置偶爾會顯示不正確。 放大至頁面可更正版面。
-   * 僅連至多頁跨頁中最左側頁面的內部連結。 影響直向模式中的行動裝置。
-   * InitialFrame僅連結至多頁跨頁中最左邊的頁面。 影響直向模式中的行動裝置。
-   * 由於瀏覽器限制，IE9中無法使用列印功能。
+   * 导航到其他HTML页并偶尔返回会导致查看器重置回第一页。
+   * 旋转iOS设备后，页面布局偶尔会显示不正确。 放大页面可更正布局。
+   * 仅指向多页跨页中最左侧页面的内部链接。 影响纵向模式的移动设备。
+   * InitialFrame仅链接到多页跨页中最左侧的页面。 影响纵向模式的移动设备。
+   * 由于浏览器限制，打印功能在IE9中不可用。
 
 * HTML5 MixedMedia
 
-   * 不支援音軌播放。
+   * 不支持音轨播放。
 
 * HTML5社交
 
-   * 若要正確呈現傳出電子郵件中的縮圖，請 `serverurl` 修飾元必須具有絕對URL。
+   * 要在传出电子邮件中正确呈现缩略图，请 `serverurl` 修饰符必须具有绝对URL。
 
-* HTML5影片
+* HTML5视频
 
-   * 海報影像可能發生「大小上限」錯誤。 公司必須增加「影像伺服發佈」的限制。
-   * 如果從外部伺服器(而不是Scene7伺服器)提供託管HTML頁面，則視訊字幕需要公司規則集。 請聯絡Adobe支援以尋求協助。
-   * 由於緩衝，Analytics追蹤可能會報告不正確的播放百分比
-   * iPad或Android™裝置上可能會顯示黑色影格而非海報影像。
-   * 在iPad或Android™裝置上載入檢視器時，黑色影格可能會在熒幕上閃爍。
-   * 當iPad裝置上的背景設定為白色/透明時，VideoPlayer元件的一側會顯示黑色框線。
-   * 使用iOS 7時，iPad上的最後一個視訊影格可能會失真。
-   * 在Chrome、Firefox和Internet Explorer瀏覽器中，以HLS串流模式搜尋視訊時，可能會偶爾發生巨集封鎖。
-      * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
-      * 使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
+   * 海报图像可能遇到“最大尺寸”错误。 公司必须增加图像服务发布的限制设置。
+   * 如果从外部服务器(而不是Scene7服务器)提供托管HTML页面，则视频字幕需要公司规则集。 请联系Adobe支持部门以获取帮助。
+   * Analytics跟踪可能会由于缓冲而报告不正确的播放百分比
+   * iPad或Android™设备上可能会显示黑色框架而不是海报图像。
+   * 在iPad或Android™设备上加载查看器时，屏幕上可能会闪烁“黑框”。
+   * 当iPad设备上的背景设置为白色/透明时，VideoPlayer组件的一侧会显示黑色边框。
+   * 在使用iOS 7的iPad上，视频的最后一帧可能会失真。
+   * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式下，视频搜寻期间可能会发生偶尔的宏阻止。
+      * 首次访客时，海报图像可能不会显示在Microsoft® Edge浏览器中。
+      * 使用渐进式播放时，在Internet Explorer 9中加载视频后，海报图像可能会隐藏。
 
-## Scene7 HTML5檢視器SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## Scene7HTML5查看器SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-使用手冊位於使用者端安裝的Adobe HTML5 Viewer SDK資料夾中。 在使用者端安裝的檔案子資料夾中找到元件API檔案。
+该用户指南位于客户端安装的AdobeHTML5查看器SDK文件夹中。 组件API文档可在客户端安装的docs子文件夹找到。
 
-**3.0.2的錯誤修正**
+**3.0.2的错误修复**
 
-* VideoPlayer — 無法在Windows 7上的Internet Explorer 11中播放視訊。
-* 目錄 —   `initialframe` 並未影響HTML5 eCatalog檢視器行動裝置上的縱向模式。
+* VideoPlayer — 无法在Windows 7上的Internet Explorer 11中播放视频。
+* 目录 —   `initialframe` 未影响HTML5 eCatalog查看器的移动设备上的纵向模式。
 
-**3.0.1的新功能、增強功能和錯誤修正**
+**3.0.1的新增功能、增强功能和错误修复**
 
 * 常规
 
-   * 新增HLS串流視訊播放，作為大部分案頭系統的預設視訊傳送方法。 Flash式HDS視訊串流仍可作為替代播放選項。
-   * 新增SearchManager、SearchPanel、SearchEffect和SearchButton元件，以支援eCatalog檢視器的新搜尋功能。
-   * 新增對在Chrome瀏覽器上執行滑鼠和觸控輸入之裝置的支援。
-   * 重構Android™版本偵測，以支援未來版本的作業系統。
-   * 在eCatalog專屬的SDK元件中新增從右至左方向的支援。
+   * 已添加HLS流视频播放作为大多数桌面系统的默认视频交付方法。 基于Flash的HDS视频流仍可用作替代播放选项。
+   * 添加了SearchManager、SearchPanel、SearchEffect和SearchButton组件，以支持eCatalog查看器中的新“搜索”功能。
+   * 增加了对在Chrome浏览器上运行鼠标和触摸输入的设备的支持。
+   * 重构了Android™版本检测，以支持未来版本的操作系统。
+   * 在特定于eCatalog的SDK组件中添加对从右到左方向的支持。
 
-* 控制列
+* 控制栏
 
-   * 新增選擇性的ControlBar內容捲動，以防其不符合可用寬度。
+   * 为ControlBar内容添加了可选的滚动，以防其不适合可用宽度。
 
 * FlyoutzoomView
 
-   * 修正案例 `tip=0,-1,0` 造成超出範圍的錯誤。
+   * 修复了以下情况 `tip=0,-1,0` 导致出现超出范围错误。
 
-**相容性說明**
+**兼容性说明**
 
 * Android™ 4.x
 
-   * 若要停用預設值，必須為元件新增藍色反白顯示下列CSS規則：
+   * 要禁用默认值，必须为组件添加蓝色突出显示以下CSS规则：
 
       `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * BlackBerry®
 
-   * 變更AVS集中的位元速率資料流時，視訊播放可能會停止。
+   * 当更改AVS集中的比特率流时，视频播放可能会停止。
 
-* 鉻黃
+* 铬黄
 
-   * 任何強制元件重建的API呼叫可能會因Chrome的內部快取而遭到忽略。
+   * 由于Chrome的内部缓存，任何强制组件重建的API调用都可能被忽略。
 
 * Galaxy SIII
 
-   * 檢視器有時無法載入全熒幕。
-   * 目前裝置上的Pageview發生記憶體洩漏問題。
-   * 當瀏覽器端縮放作用中時，點兩下手勢可縮放檢視器和頁面。
+   * 有时，查看器无法全屏加载。
+   * Pageview当前遇到设备内存泄漏问题。
+   * 双击手势可在浏览器端缩放处于活动状态时缩放查看器和页面。
 
 * Galaxy Nexus
 
-   * 某些檢視元件上會顯示成品。
-   * 當瀏覽器端縮放作用中時，點兩下手勢可縮放檢視器和頁面。
+   * 构件显示在某些视图组件上。
+   * 双击手势可在浏览器端缩放处于活动状态时缩放查看器和页面。
 
 * IPAD 3
 
-   * iPad 3的原始解析度為2048x1536。 如果公司的IS發佈、影像大小限制設定得較低，此解析度可能會導致顯示問題。
+   * iPad 3的原始分辨率为2048x1536。 如果公司的IS发布、图像大小限制设置得较低，此分辨率可能会导致显示问题。
 
 * iPhone4
 
-   * Iconeffect重播圖示已在捲動頁面後取代為播放圖示。
+   * 滚动页面后，Iconeffect重播图标被替换为播放图标。
 
 * Internet Explorer
 
-   * 在IE 10和舊版全熒幕模式中，不會佔用整個熒幕，而是根據瀏覽器視窗的大小來調整應用程式的大小。
-   * 不支援Quirks演算模式。
-   * 目前不支援行動裝置上的Internet Explorer。
-   * 如果以非同步方式包含，Util.js可能無法載入。
-   * IconEffect圖示會封鎖SpinView和ZoomView元件上的點選事件。
+   * 在IE 10和更旧的全屏模式中，不会占用整个屏幕，而是根据浏览器窗口的大小调整应用程序的大小。
+   * 不支持Quirks渲染模式。
+   * 当前不支持移动设备上的Internet Explorer。
+   * 如果异步包含Util.js，则可能无法加载。
+   * IconEffect图标阻止SpinView和ZoomView组件上的单击事件。
 
-* 原生裝置影片播放程式
+* 本机设备视频播放器
 
-   * 使用VideoPlayer呼叫裝置的原生播放器時，不支援透過VideoPlayer來分層UI元件。
-   * Safari 6上原生模式的視訊播放不一致。
-   * 原生的播放會在捲動頁面後以播放圖示取代重播圖示。
+   * 使用VideoPlayer调用设备的本机播放器时，不支持通过VideoPlayer分层UI组件。
+   * 在Safari 6上，本机模式下的视频播放不一致。
+   * 本机播放在滚动页面后用播放图标替换重播图标。
 
-* 觸控裝置
+* 触控设备
 
-   * 全熒幕模式不會佔據整個裝置熒幕，而只是將應用程式大小調整為符合瀏覽器視窗的大小。
-   * 自訂游標不適用於觸控裝置。
-   * 目前不支援觸控裝置上的頁面縮放。 內嵌HTML5檢視器需要具備適當設定的檢視區meta標籤。
+   * 全屏模式不会占用整个设备屏幕，它只是根据浏览器窗口的大小调整应用程序的大小。
+   * 自定义游标在触控设备上不起作用。
+   * 当前不支持触控设备上的页面缩放。 嵌入HTML5查看器需要具有适当设置的视区meta标记。
 
 * Xoom
 
-   * 當瀏覽器端縮放作用中時，點兩下手勢可縮放檢視器和頁面。
+   * 双击手势可在浏览器端缩放处于活动状态时缩放查看器和页面。
 
-**已知問題和限制**
+**已知问题和限制**
 
-* 所有元件
+* 所有组件
 
-   * 在2.7.2版和更早版本中，有些元件是使用新增至DOM `insertBefore()` API。 因此，無論元件例項是相對於其他元件建立的，此類元件都會置於棧疊順序的底部。 在2.8.1版中，所有元件都使用 `appendChild()` 現在API，這表示元件棧疊順序會符合執行個體建立的順序。
+   * 在版本2.7.2及更早版本中，一些组件是使用添加到DOM的 `insertBefore()` API。 因此，无论组件实例是相对于其他组件创建的，此类组件都将处于栈叠顺序的底部。 在2.8.1版本中，所有组件都使用 `appendChild()` API的栈叠顺序与实例创建的顺序相匹配。
 
-   * 使用 `iscommand` 不支援用來設定影像alpha色版格式的修飾元。 使用元件 `FMT` 引數。
-   * 目前不支援CSS轉換屬性。
+   * 使用 `iscommand` 不支持用于设置图像alpha通道格式的修饰符。 使用组件 `FMT` 参数。
+   * 当前不支持CSS转换属性。
 
-* 觸控裝置
+* 触控设备
 
-   * 觸控裝置上的夾捏手勢不會產生縮放事件
+   * 触控设备上的夹捏手势不会生成缩放事件
 
 * 容器
 
-   * 不支援容器的邊框、邊框間距和邊界。 Adobe建議將樣式元素新增至父項DIV。
-   * 必須明確設定容器大小，否則元件大小可能不正確。
+   * 不支持容器上的边框、内边距和边距。 Adobe建议向父DIV添加样式元素。
+   * 必须明确设置容器大小，否则组件大小可能不正确。
 
-* 列印元件
+* 打印组件
 
-   * 由於瀏覽器限制，在Internet Explorer 9中，列印元件可能無法正確地縮放紙張上的內容。
+   * 由于浏览器限制，在Internet Explorer 9中，打印组件可能无法正确缩放纸张上的内容。
 
-* IconEffect元件
+* IconEffect组件
 
-   * IconEffect會在Internet Explorer上產生指令碼錯誤，如果 `autohide` 已停用(設定為 `0`)。
+   * 在以下情况下，IconEffect会在Internet Explorer上生成脚本错误 `autohide` 已禁用(设置为 `0`)。
 
-* ImageMapEffect元件
+* ImageMapEffect组件
 
-   * 在檢視元件上平移影像時，重新定點陣圖示延遲顯示。
+   * 在视图组件上平移图像时，重新定位图标延迟。
 
-* MediaSet元件
+* 媒体集组件
 
-   * 內嵌資產要求與URL上相同的編碼。
+   * 内联资产请求的编码与URL上的相同。
 
-* NavigationView元件
+* NavigationView组件
 
-   * 元件目前不支援調整大小。
+   * 当前组件不支持调整大小。
 
-* PageScrubber元件
+* PageScrubber组件
 
-   * 在iPhone 5上，當PageScrubber泡泡設定為文字時，它會在沿著軌道滑動按鈕時顯示成品。 使用 `-webkit-background-clip: content;` 在樣式中可解決此問題。
+   * 在iPhone 5上，当PageScrubber气泡设置为文本时，它会在沿轨道滑动按钮时显示构件。 使用 `-webkit-background-clip: content;` 中的样式可解决此问题。
 
-* SpinView元件
+* SpinView组件
 
-   * 影像旋轉時，SpinView在滑動手勢和旋轉裝置後有時會顯示為凍結。
+   * 图像旋转时，在轻扫手势和旋转设备后，SpinView有时似乎冻结。
 
-* 色票元件
+* 样本组件
 
-   * 選取超出範圍的色票時，會顯示兩個反白專案。
-   * 自動捲動 `selectSwatch()` 方法運作不正確。
+   * 选择超出范围的样本时，将显示两个高亮部分。
+   * 自动滚动 `selectSwatch()` 方法工作不正确。
 
-* videoplayer
+* Videoplayer
 
-   * 如果搜尋設為100%且後援設為auto，則視訊影格不會更新。
-   * 在Chrome、Firefox和Internet Explorer瀏覽器中，以HLS串流模式搜尋視訊時，可能會偶爾發生巨集封鎖。
-   * 首次造訪的訪客可能無法在Microsoft® Edge瀏覽器中顯示海報影像。
-   * 使用漸進式播放時，在Internet Explorer 9中載入視訊後，海報影像可能會隱藏。
+   * 如果将搜寻设置为100%并将回退设置为auto，则视频帧不会更新。
+   * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式中，视频搜寻期间可能会发生偶尔的宏阻止。
+   * 首次访客时，海报图像可能不会显示在Microsoft® Edge浏览器中。
+   * 使用渐进式播放时，在Internet Explorer 9中加载视频后，海报图像可能会隐藏。
 
-## Dynamic Media影像提供6.3.2和影像轉譯6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media图像服务6.3.2和图像渲染6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC公用程式 —  `downsample2x2` 不再支援標幟。 此旗標是品質較差的2x2縮減取樣器，IPS已不再使用。
-* CORS標頭 — 目前，CORS標頭設定為 `/is/content/` 要求。
+* 集成电路实用程序 —  `downsample2x2` 标记不再受支持。 此标志是IPS不再使用的低质量2x2缩减取样器。
+* CORS标头 — 当前，CORS标头配置用于 `/is/content/` 请求。

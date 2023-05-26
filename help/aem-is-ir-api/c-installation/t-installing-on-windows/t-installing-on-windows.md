@@ -1,6 +1,6 @@
 ---
-title: 在Windows上安裝
-description: 影像伺服可安裝在64位元Windows上。
+title: 在Windows上安装
+description: 可以在64位Windows上安装映像服务。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 在Windows上安裝{#installing-on-windows}
+# 在Windows上安装{#installing-on-windows}
 
-影像伺服可安裝在64位元Windows上。
+可以在64位Windows上安装映像服务。
 
-* [首次安裝](t-first-time-installation-win.md)
-* [在管理員以外的其他使用者帳戶下安裝](t-diff-account-win.md)
-* [從IS 4.7.4或更新版本更新](t-update-win.md)
-* [驗證安裝](t-verify-win.md)
+* [首次安装](t-first-time-installation-win.md)
+* [在管理员以外的其他用户帐户下安装](t-diff-account-win.md)
+* [从IS 4.7.4或更高版本更新](t-update-win.md)
+* [验证安装](t-verify-win.md)

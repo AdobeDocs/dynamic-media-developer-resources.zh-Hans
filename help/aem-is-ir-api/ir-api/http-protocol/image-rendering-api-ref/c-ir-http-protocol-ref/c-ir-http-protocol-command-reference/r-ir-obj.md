@@ -1,6 +1,6 @@
 ---
-title: 物件
-description: 依名稱選取物件。 依名稱選取指定的暈映群組，並開始新的MSS。
+title: 对象
+description: 按名称选择对象。 按名称选择指定的晕影组并启动新的MSS。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 2%
 
 ---
 
-# 物件{#obj}
+# 对象{#obj}
 
-依名稱選取物件。 依名稱選取指定的暈映群組，並開始新的MSS。
+按名称选择对象。 按名称选择指定的晕影组并启动新的MSS。
 
 ` obj= *`名称`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td> 
-  <td class="stentry"> <p>群組名稱或路徑/名稱。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+  <td class="stentry"> <p>组名称或路径/名称。 </p> </td> 
  </tr> 
 </table>
 
-子群組或個別物件可使用完全合格的群組路徑來選取(亦即，指定目標群組或物件的名稱，其前面有以/ （正斜線）分隔的所有父群組。
+可以使用完全限定的组路径选择子组或单个对象(即，通过指定目标组或所有父组前面的对象的名称，以/（正斜杠）分隔)。
 
-如果找不到具有指定名稱的群組/物件，則指定的動作會位於 `attribute::OnObjFail` 已採用。
+如果未找到具有指定名称的组/对象，则在 `attribute::OnObjFail` 已获取。
 
-## 屬性 {#section-9463b36e8ff74c81a70c7c2b58927430}
+## 属性 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-選取範圍指令；MSS分隔符號。 物件選取項會持續存在，直到選取其他物件為止，或是使用 `obj=` 或 `sel=`.
+选择命令；MSS分隔符。 对象选择将一直持续到选择其他对象为止，可使用以下任一选项进行选择 `obj=` 或 `sel=`.
 
-群組/物件路徑和名稱不區分大小寫。
+组/对象路径和名称不区分大小写。
 
 ## 默认 {#section-0c322850512c4896bb551856a549440e}
 
-開啟新暈映時，會自動選取暈映中包含可轉譯物件的第一個群組。
+在打开新晕影时，将自动选择晕影中包含可渲染对象的第一个组。
 
 ## 另请参阅 {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 

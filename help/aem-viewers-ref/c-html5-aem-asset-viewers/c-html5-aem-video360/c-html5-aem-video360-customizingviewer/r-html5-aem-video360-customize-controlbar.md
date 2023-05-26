@@ -1,6 +1,6 @@
 ---
-title: 控制列
-description: 控制列是矩形區域，包含並位於所有可用於視訊檢視器的使用者介面控制項後面，例如播放/暫停按鈕和音量控制項。
+title: 控制栏
+description: 控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有用户界面控件后面，如播放/暂停按钮和音量控件。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,44 +12,44 @@ ht-degree: 1%
 
 ---
 
-# 控制列{#control-bar}
+# 控制栏{#control-bar}
 
-控制列是矩形區域，包含並位於所有可用於視訊檢視器的使用者介面控制項後面，例如播放/暫停按鈕和音量控制項。
+控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有用户界面控件后面，如播放/暂停按钮和音量控件。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-控制列總是取用整個可用的檢視器寬度。 您可以透過CSS變更其相對於視訊檢視器容器的顏色、高度和垂直位置。
+控制栏始终采用所有可用的查看器宽度。 可以通过CSS更改其相对于视频查看器容器的颜色、高度和垂直位置。
 
-下列CSS類別選擇器會控制控制列的外觀：
+以下CSS类选择器控制控件栏的外观：
 
 ```
 .s7video360viewer .s7controlbar
 ```
 
-## 控制列的CSS屬性 {#css-properties-of-the-control-bar}
+## 控件栏的CSS属性 {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>上邊框的位置，包括邊框間距。 </p> </td> 
+   <td colname="col2"> <p>上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 從下邊框定位，包括內距。 </p> </td> 
+   <td colname="col2"> <p> 从下边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>控制列的高度。 </p> </td> 
+   <td colname="col2"> <p>控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>控制列的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>控制栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**範例**  — 以灰色控制列設定視訊檢視器，該控制列高30畫素，位於視訊檢視器容器的頂端。
+**示例**  — 设置一个视频查看器，其灰色控制栏高度为30像素，位于视频查看器容器的顶部。
 
 ```
 .s7video360viewer .s7controlbar {  

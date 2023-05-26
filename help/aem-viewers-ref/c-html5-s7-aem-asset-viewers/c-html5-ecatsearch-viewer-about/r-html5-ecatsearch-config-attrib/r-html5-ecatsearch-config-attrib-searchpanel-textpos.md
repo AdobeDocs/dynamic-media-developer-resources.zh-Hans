@@ -20,12 +20,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> 指定相對於縮圖影像的標籤繪製位置。 也就是說，標籤會以相對於縮圖的指定位置為中心。 </p> <p>時間 <span class="codeph"> 工具提示</span> 標籤文字會以浮動工具提示的形式顯示在縮圖影像上。 </p> <p>當設定為 <span class="codeph"> 無</span>，則會關閉標籤顯示。 </p> </td> 
+   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。 即，标签在相对于缩略图的指定位置正中。 </p> <p>时间 <span class="codeph"> 工具提示</span> 指定时，标签文本将作为浮动工具提示显示在缩略图图像上。 </p> <p>当设置为 <span class="codeph"> 无</span>，则会关闭标签显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

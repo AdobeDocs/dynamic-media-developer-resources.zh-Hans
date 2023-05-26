@@ -1,6 +1,6 @@
 ---
 title: 视频
-description: Video360檢視器的URL命令。
+description: Video360查看器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # 视频{#video}
 
-Video360檢視器的URL命令。
+Video360查看器的URL命令。
 
 ` video= *`videourl`*`
 
@@ -22,14 +22,14 @@ Video360檢視器的URL命令。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videourl</span> </span> </p> </td> 
-   <td colname="col2"> <p> 外部視訊的絕對URL。 </p> </td> 
+   <td colname="col2"> <p> 外部视频的绝对URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-必需. (除非 `asset` 引數。 另請參閱 [外部視訊支援](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+必需. (除非 `asset` 参数。 参见 [外部视频支持](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

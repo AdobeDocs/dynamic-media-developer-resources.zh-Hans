@@ -1,5 +1,5 @@
 ---
-description: 影像地圖資料。
+description: 图像映射数据。
 solution: Experience Manager
 title: 地图
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # 地图{#map}
 
-影像地圖資料。
+图像映射数据。
 
-`req=map[,text|{xml[, *`編碼`*]}|{json[&id= *`reqId`*]}]`
+`req=map[,text|{xml[, *`编码`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
@@ -25,26 +25,26 @@ ht-degree: 9%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>唯一請求識別碼。 </p></td> 
+  <td class="stentry"> <p>唯一请求标识符。 </p></td> 
  </tr> 
 </table>
 
-傳回 `catalog::Map` 查詢未指定其他命令的簡單目錄專案時未進行修改(不會縮放到 `catalog::maxPix`)。
+返回 `catalog::Map` 在查询未指定其他命令的简单目录条目时未进行修改(不会缩放到 `catalog::maxPix`)。
 
-如果在請求中指定了任何其他命令，則會傳回複合影像地圖，該地圖是透過縮放、裁切、旋轉和全部圖層化而衍生的 `catalog::Map` 和/或 `map=` 要求中包含的命令，就像影像資料會使用的一樣 `req=img`.
+如果在请求中指定了任何其他命令，则会返回复合图像映射，该映射通过缩放、裁切、旋转和分层全部导出 `catalog::Map` 和/或 `map=` 请求中包含的命令，就像图像数据将用于 `req=img`.
 
-指定 `text` 或省略第二個引數，以格式傳回影像地圖資料 `HTML <AREA>` 具有回應MIME型別的元素字串 `text/plain`.
+指定 `text` 或省略第二个参数，以返回格式为 `HTML <AREA>` 具有响应MIME类型的元素字符串 `text/plain`.
 
-指定 `xml` 將回應格式化為XML而非HTML。 可選擇指定文字編碼。 默认值为 `UTF-8`.
+指定 `xml` 将响应格式设置为XML而不是HTML。 可以选择指定文本编码。 默认值为 `UTF-8`.
 
-傳回空白字串（或空白） `<AREA>` 元素)，如果沒有找到指定目錄物件的對應資料，和/或沒有 `<AREA>` 裁切影像後，元素仍會保留。
+返回空字符串（或为空） `<AREA>` 元素)，如果没有找到指定目录对象的映射数据，和/或如果没有 `<AREA>` 裁切图像后元素仍会保留。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
-支援JSONP回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支持JSONP响应格式的请求允许您使用扩展语法指定JS回调处理程序的名称 `req=` 参数：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.
 
-另請參閱 [影像地圖](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+参见 [图像映射](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

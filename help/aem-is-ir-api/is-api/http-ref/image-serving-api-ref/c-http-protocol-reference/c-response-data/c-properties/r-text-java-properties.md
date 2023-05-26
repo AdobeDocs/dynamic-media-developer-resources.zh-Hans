@@ -1,7 +1,7 @@
 ---
-description: 如果將文字指定為回應格式，則會將回覆資料格式化為可讀取的Java屬性。
+description: 如果指定文本作为响应格式，则回复数据的格式将设置为可读的Java属性。
 solution: Experience Manager
-title: 文字(Java)屬性
+title: 文本(Java)属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 文字(Java)屬性{#text-java-properties}
+# 文本(Java)属性{#text-java-properties}
 
-如果將文字指定為回應格式，則會將回覆資料格式化為可讀取的Java屬性。
+如果指定文本作为响应格式，则回复数据的格式将设置为可读的Java属性。
 
-典型的文字屬性回應具有此一般結構：
+典型的文本属性响应具有以下常规结构：
 
 ```
 #S7Z OK
@@ -33,6 +33,6 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* 可能是空的。 每行開頭和結尾以及=分隔符號之前和之後的空白字元為選用。 可以使用單引號或雙引號來括住字串值，但並非必要。
+*`propertyValue`* 可能为空。 每行开头和结尾以及=分隔符之前和之后的空格是可选的。 可以使用单引号或双引号来括住字符串值，但不是必需的。
 
-字串值可包含JAVA樣式的逸出字元，例如 `\n`， `\t`， `\:`，或 `\\`.
+字符串值可以包含JAVA样式转义字符，例如 `\n`， `\t`， `\:`，或 `\\`.

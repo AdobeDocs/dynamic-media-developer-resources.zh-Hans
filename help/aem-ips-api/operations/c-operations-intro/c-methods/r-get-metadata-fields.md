@@ -1,5 +1,5 @@
 ---
-description: 取得與資產相關聯的使用者定義中繼資料欄位。
+description: 获取与资源关联的用户定义元数据字段。
 solution: Experience Manager
 title: getMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # getMetadataFields{#getmetadatafields}
 
-取得與資產相關聯的使用者定義中繼資料欄位。
+获取与资源关联的用户定义元数据字段。
 
 语法
 
-## 授權的使用者型別 {#section-e32e481a02674b729bfc5454a6c9ff65}
+## 授权用户类型 {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,22 +30,22 @@ ht-degree: 15%
 
 ## 参数 {#section-bac949e59c0546429c5786fe422d750d}
 
-**輸入(getMetadataFieldsParam)**
+**输入(getMetadataFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| assetType | `xsd:string` | 是 | 從中取得中繼資料的資產型別。 |
+| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| 资产类型 | `xsd:string` | 是 | 从中获取元数据的资源类型。 |
 
-**輸出(getMetadataFieldsParam)**
+**输出(getMetadataFieldsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 程式碼片語 | `Code Phrase` |  |  |
+| 代码短语 | `Code Phrase` |  |  |
 
 ## 示例 {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-此程式碼範例會傳回指定型別和公司的中繼資料資產。 回應包含欄位陣列中的中繼資料欄位陣列。 並非所有資產都有相同的中繼資料。 ips使用者會定義資產的中繼資料欄位。
+此代码示例返回指定类型和公司的元数据资产。 响应在字段数组中包含元数据字段的数组。 并非所有资源都具有相同的元数据。 IPS用户定义资源的元数据字段。
 
 **请求**
 

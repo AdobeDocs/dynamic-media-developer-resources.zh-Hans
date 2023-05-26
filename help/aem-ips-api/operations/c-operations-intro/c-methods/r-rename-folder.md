@@ -1,5 +1,5 @@
 ---
-description: 重新命名資料夾。
+description: 重命名文件夹。
 solution: Experience Manager
 title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # renameFolder{#renamefolder}
 
-重新命名資料夾。
+重命名文件夹。
 
 语法
 
-## 授權的使用者型別 {#section-5a252b00937d4befbec76fa23fbae9df}
+## 授权用户类型 {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,27 +29,27 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用户必须具有对资源的读写访问权限。
 
 ## 参数 {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**輸入(renameFolderParam)**
+**输入(renameFolderParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理具有您要重新命名資料夾的公司。 |
-| folderHandle | `xsd:string` | 是 | 資料夾的控制代碼。 |
-| folderName | `xsd:string` | 是 | 新資料夾名稱。 |
+| companyHandle | `xsd:string` | 是 | 处理包含要重命名的文件夹的公司。 |
+| folderHandle | `xsd:string` | 是 | 处理文件夹。 |
+| 文件夹名称 | `xsd:string` | 是 | 新文件夹名称。 |
 
-**輸出(renameFolderReturn)**
+**输出(renameFolderReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| folderHandle | `xsd:string` | 是 | 重新命名資料夾的處理常式。 |
+| folderHandle | `xsd:string` | 是 | 重命名文件夹的句柄。 |
 
 ## 示例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
-此程式碼範例會重新命名資料夾。
+此代码示例将重命名文件夹。
 
 **请求**
 

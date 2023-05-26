@@ -1,7 +1,7 @@
 ---
-description: 檢視器SWF檔案資產的屬性。
+description: 查看器SWF文件资源的属性。
 solution: Experience Manager
-title: 檢視器SwfInfo
+title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-檢視器SWF檔案資產的屬性。
+查看器SWF文件资源的属性。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 原先上傳的檢視器SWF檔案的相對路徑。 |
-| 原始檔案 | `xsd:string` | 原始檢視器SWF檔案的檔案名稱。 |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 最初上载的查看器SWF文件的相对路径。 |
+| 原始文件 | `xsd:string` | 原始查看器SWF文件的文件名。 |
+| fileSize | `xsd:int` | 文件大小。 |

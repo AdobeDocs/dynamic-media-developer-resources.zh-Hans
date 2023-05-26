@@ -1,6 +1,6 @@
 ---
 title: resMode
-description: 重新取樣模式。 選擇要用於縮放影像資料的重新取樣和/或內插演演算法。 也適用於在檢視轉換期間旋轉文字圖層以及調整複合影像大小。
+description: 重新取样模式。 选择要用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图转换期间文本图层的旋转和复合图像大小调整。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # resMode{#resmode}
 
-重新取樣模式。 選擇要用於縮放影像資料的重新取樣和/或內插演演算法。 也適用於在檢視轉換期間旋轉文字圖層以及調整複合影像大小。
+重新取样模式。 选择要用于缩放图像数据的重新取样和/或插值算法。 还适用于在视图转换期间文本图层的旋转和复合图像大小调整。
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
@@ -22,32 +22,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>選取標準雙線性內插。 最快速的重新取樣方法；會產生一些明顯的鋸齒狀不自然感。 </p> </td> 
+   <td colname="col2"> <p>选择标准的双线性插值。 最快速的重新取样方法；会出现一些锯齿伪像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>選取雙三次方內插。 比雙線性內插運算耗用更多CPU，但產生更銳利的影像，且鋸齒狀不自然感更不明顯。 </p> </td> 
+   <td colname="col2"> <p>选取双三次插值法。 CPU占用率高于双线性插值，但生成更锐利的图像，出现的锯齿伪像较少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>選取修改過的Lanczos視窗函式作為內插演演算法。 可以產生比雙立方體稍微銳利的結果，但CPU成本較高。 <span class="codeph"> 銳利化 </span> 已取代為 <span class="codeph"> sharp2 </span>，因此造成鋸齒狀不自然感的可能性較低(Moiré)。 </p> </td> 
+   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 可以生成比双立方体更锐利的结果，但CPU成本更高。 <span class="codeph"> 锐化 </span> 已替换为 <span class="codeph"> sharp2 </span>，因此产生锯齿状伪像的可能性较小(Moiré)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>選取Photoshop預設重新取樣器以縮減影像大小，在Adobe Photoshop中稱為「雙立方銳利化」。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 两次锐化 </span> </p> </td> 
+   <td colname="col2"> <p>选择Photoshop默认重新取样器以减小图像大小(在Adobe Photoshop中称为“双立方锐化”)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->若要在使用兩者時維持影像的外觀比例 `resMode=bisharp` 和 `fit=stretch`，最佳做法是使用width引數或height引數。 如果兩個引數都必須定義，您可以將其換成不同的圖層，如下列範例所示：
+>要在同时使用两种图像时保持图像的纵横比，请执行以下操作 `resMode=bisharp` 和 `fit=stretch`，最佳做法是使用width参数或height参数。 如果必须定义这两个参数，则可以将它们封装在不同的图层中，如以下示例所示：
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
-## 屬性 {#section-a171bacf4ddf43c782e46b86a16d443e}
+## 属性 {#section-a171bacf4ddf43c782e46b86a16d443e}
 
-要求屬性。 適用於建立最終回覆影像時涉及的所有縮放操作，包括所有圖層縮放。
+请求属性。 适用于创建最终回复图像涉及的所有缩放操作，包括所有图层缩放。
 
 ## 默认 {#section-d5e1b26f5703461395018a3a627f7283}
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 ## 示例 {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-擷取影像目錄中儲存之圖層影像的最佳品質轉譯。 影像可包含文字。 影像會在影像編輯應用程式中進一步處理，因此要求影像有Alpha色版。
+检索存储在图像目录中的分层图像的最佳质量演绎版。 图像可以包含文本。 在图像编辑应用中进一步处理该图像，从而请求具有图像的α通道。
 
 ` http:// *`伺服器`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

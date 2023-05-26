@@ -1,5 +1,5 @@
 ---
-description: 設定媒體邊界。 設定PDF檔案中設定的媒體邊界。
+description: 设置媒体边距。 设置PDF文件中设置的介质边距。
 solution: Experience Manager
 title: mediaMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # mediaMargin{#mediamargin}
 
-設定媒體邊界。 設定PDF檔案中設定的媒體邊界。
+设置媒体边距。 设置PDF文件中设置的介质边距。
 
-` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 點數
+` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 点数
 
-根據預設 `mediaMargin` 設為所定義檔案的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值會預設為 *[!DNL top]* 值（若未指定）。
+默认情况下， `mediaMargin` 设置为由定义的文档的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值默认为 *[!DNL top]* 值（如果未指定）。

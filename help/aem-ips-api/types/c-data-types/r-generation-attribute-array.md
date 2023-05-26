@@ -1,5 +1,5 @@
 ---
-description: 層代屬性的陣列。
+description: 层代属性数组。
 solution: Experience Manager
 title: GenerationAttributeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL GenerationAttributeArray]{#generationattributearray}
 
-層代屬性的陣列。
+层代属性数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:GenerationAttribute` | 層代屬性的陣列。 |
+| 项目 | `types:GenerationAttribute` | 层代属性的数组。 |

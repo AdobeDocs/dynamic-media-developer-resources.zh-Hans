@@ -1,5 +1,5 @@
 ---
-description: Photoshop影像層選項。
+description: Photoshop图像图层选项。
 solution: Experience Manager
 title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
-Photoshop影像層選項。
+Photoshop图像图层选项。
 
 语法
 
@@ -22,8 +22,8 @@ Photoshop影像層選項。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| layernaming | `xsd:string` | 選擇Photoshop圖層命名模式。 |
-| 锚记 | `xsd:string` | 選擇Photoshop錨點模式。 |
-| createTemplate | `xsd:boolean` | 是否要從Photoshop圖層建立範本。 |
-| extractText | `xsd:boolean` | 是否將文字擷取為文字圖層。 |
-| extendLayers | `xsd:boolean` | 是否將圖層延伸至背景的完整尺寸。 |
+| 图层命名 | `xsd:string` | 选择Photoshop图层命名模式。 |
+| 锚记 | `xsd:string` | 选择Photoshop锚点模式。 |
+| createTemplate | `xsd:boolean` | 是否从Photoshop图层创建模板。 |
+| extractText | `xsd:boolean` | 是否提取文本作为文本图层。 |
+| extendLayers | `xsd:boolean` | 是否将图层扩展至背景的全尺寸。 |

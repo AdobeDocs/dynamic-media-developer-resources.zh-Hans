@@ -1,7 +1,7 @@
 ---
-description: 說明各種引數使用的值。 如需詳細資訊，請參閱本文中的清單
+description: 描述各种参数使用的值。 有关详细信息，请参阅本文中的列表
 solution: Experience Manager
-title: 使用者角色
+title: 用户角色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# 使用者角色{#user-roles}
+# 用户角色{#user-roles}
 
-說明各種引數使用的值。 如需詳細資訊，請參閱本文中的清單
+描述各种参数使用的值。 有关详细信息，请参阅本文中的列表
 
 语法
 

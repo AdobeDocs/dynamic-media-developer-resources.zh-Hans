@@ -1,5 +1,5 @@
 ---
-description: 影像檔案路徑。 紋理或貼花影像檔案的相對路徑和名稱。
+description: 图像文件路径。 纹理或贴花图像文件的相对路径和名称。
 solution: Experience Manager
 title: 路径 *
 feature: Dynamic Media Classic,SDK/API
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # 路径 *{#path}
 
-影像檔案路徑。 紋理或貼花影像檔案的相對路徑和名稱。
+图像文件路径。 纹理或贴花图像文件的相对路径和名称。
 
-伺服器會將此值與 `attribute::RootPath` 以建置實際的影像檔案路徑。 也可以是絕對路徑。
+服务器将此值与 `attribute::RootPath` 以构建实际图像文件路径。 也可以是绝对路径。
 
-用於指定材質、封包和視窗遮蓋材料的材質影像檔案，以及貼花和牆壁邊框材料的RGB或RGBA影像檔案。 並非所有的機櫃和視窗遮蓋材料都需要單獨的可重複紋理影像。
+用于指定纹理、橱柜和窗口覆盖材料的纹理图像文件，以及贴花和墙壁边界材料的RGB或RGBA图像文件。 并非所有的机柜和窗户覆盖材料都需要单独的可重复纹理图像。
 
-## 屬性 {#section-8c12ea24f21d4472be677581893e6681}
+## 属性 {#section-8c12ea24f21d4472be677581893e6681}
 
-文字字串。 材質與貼花材質必須使用，機櫃與視窗遮蓋材質則可選用。 如果已指定，則必須是有效的相對或絕對檔案路徑。 純色材質必須為空白。
+文本字符串。 纹理和贴花材料所需，机柜和窗户覆盖材料可选。 如果指定，则必须是有效的相对或绝对文件路径。 纯色材料必须为空。
 
-## 支援的檔案格式 {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
+## 支持的文件格式 {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-影像演算支援與Dynamic Media Image Serving相同的來源影像格式。
+图像渲染支持与Dynamic Media图像服务相同的源图像格式。
 
-需要多個不同解析度的影像資料的應用程式，在使用Dynamic Media金字塔TIFF(PTIFF)多解析度格式時表現最佳。 「影像伺服」包含影像轉換器(IC)公用程式，可從任何支援的格式建立PTIFF影像。
+当使用Dynamic Media金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序将获得最佳性能。 图像服务包括从任何支持的格式创建PTIFF图像的图像转换器(IC)实用程序。
 
-如需支援檔案格式的完整清單，請參閱「影像伺服」檔案中的IC公用程式說明。
+有关支持的文件格式的完整列表，请参阅“图像服务”文档中的IC实用程序说明。
 
 ## 默认 {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[積體電路公用程式](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

@@ -1,6 +1,6 @@
 ---
 title: OnFailSel
-description: 挑選選取範圍錯誤處理。 指定當sel=命令因指定的畫素位置不在可選取物件的遮色片區域內而失敗時，所要採取的動作。
+description: 挑选选区错误处理。 指定sel=命令因指定的像素位置不在可选对象的蒙版区域中而失败时应采取的操作。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,38 +14,38 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-挑選選取範圍錯誤處理。 指定在下列情況下要採取的動作： `sel=` 命令失敗，因為指定的畫素位置不在可選取物件的遮色片區域內。
+挑选选区错误处理。 指定在执行以下操作时要执行的操作： `sel=` 命令失败，因为指定的像素位置不在可选对象的蒙版区域内。
 
-## 屬性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
+## 属性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
-列舉。
+枚举。
 
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>繼承自 <span class="codeph"> default：：OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>继承自 <span class="codeph"> default：：OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>保留先前的選取範圍。 </p> </td> 
+  <td class="stentry"> <p>保留以前的选择。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消選取；會忽略任何套用材料或顯示/隱藏物件的嘗試。 </p> </td> 
+  <td class="stentry"> <p>取消选择；应用材料或显示/隐藏对象的任何尝试都将被忽略。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>傳回錯誤。 </p> </td> 
+  <td class="stentry"> <p>返回错误。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>選取預設群組（暈映階層中第一個包含可轉譯物件的群組）。 </p> </td> 
+  <td class="stentry"> <p>选择默认组（晕影层次结构中包含可渲染对象的第一个组）。 </p> </td> 
  </tr> 
 </table>
 
 ## 默认 {#section-c25f458f9f8f4236963a95779529e664}
 
-繼承自 `default::OnFailSel` 若未定義。
+继承自 `default::OnFailSel` 如果未定义。
 
 ## 另请参阅 {#section-f8b15dd64c674c5484d190dd9e3016af}
 

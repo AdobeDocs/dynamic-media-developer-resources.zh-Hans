@@ -1,5 +1,5 @@
 ---
-description: 視訊註解屬性
+description: 视频字幕属性
 title: VideoCaptionInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
@@ -13,7 +13,7 @@ ht-degree: 30%
 
 # [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
-視訊註解屬性
+视频字幕属性
 
 ## 参数 {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
@@ -27,19 +27,19 @@ ht-degree: 30%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 原始路徑</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 原始路径</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>上傳視訊的相對路徑。 </p> </td> 
+   <td colname="col3"> <p>上传视频的相对路径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 原始檔案</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 原始文件</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>原始視訊的名稱。 </p> </td> 
+   <td colname="col3"> <p>原始视频的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> fileSize</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
-   <td colname="col3"> <p>檔案大小。 </p> </td> 
+   <td colname="col3"> <p>文件大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

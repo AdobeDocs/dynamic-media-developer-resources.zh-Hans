@@ -20,4 +20,4 @@ ht-degree: 50%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:PermissionSet` | 許可權集陣列。 |
+| 项目 | `types:PermissionSet` | 权限集数组。 |

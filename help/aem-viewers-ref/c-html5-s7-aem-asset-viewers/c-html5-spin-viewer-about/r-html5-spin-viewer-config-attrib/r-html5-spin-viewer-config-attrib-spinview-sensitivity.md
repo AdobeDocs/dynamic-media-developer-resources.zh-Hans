@@ -14,18 +14,18 @@ ht-degree: 2%
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`敏感度`*[, *`敏感度`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`x敏感度`*[, *`y敏感性`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 敏感度</span>[， <span class="varname"> 敏感度</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 控制使用滑鼠拖曳或撥動執行的水平與垂直迴轉的敏感度。 </p> <p> <span class="codeph"> 敏感度</span> 設定當使用者從檢視的一側水準拖曳滑鼠到另一側時，產品會進行幾次完全水準旋轉。 例如，三個表示使用者看到一個完整拖曳手勢的三個完整旋轉。 </p> <p>同樣地， <span class="codeph"> 敏感度</span> 控制垂直迴轉的敏感度。 值1表示一次垂直拖曳或撥動會將檢視角度從最上方的旋轉平面變更為最下方（反之亦然）。 </p> <p>設定負值 <span class="codeph"> 敏感度</span> 反轉垂直迴轉的方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> x敏感度</span>[， <span class="varname"> y敏感性</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 控制通过鼠标拖动或轻扫执行的水平和垂直旋转灵敏度。 </p> <p> <span class="codeph"> x敏感度</span> 设置当用户将鼠标从视图的一侧水平拖动到另一侧时，产品进行完全水平旋转的次数。 例如，三个表示用户看到一个完全拖动手势的三个完全旋转。 </p> <p>同样， <span class="codeph"> y敏感性</span> 控制垂直旋转的敏感性。 值为1表示一次完全垂直拖动或轻扫会将视角从最上方的旋转平面更改为最下方（或相反）。 </p> <p>设置负值 <span class="codeph"> y敏感性</span> 反转垂直旋转的方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

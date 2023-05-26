@@ -1,7 +1,7 @@
 ---
-description: 影像目錄會向伺服器提供有關影像和支援資料（例如字型和ICC設定檔）的資訊。
+description: 图像目录向服务器提供有关图像和支持数据（如字体和ICC配置文件）的信息。
 solution: Experience Manager
-title: 影像目錄參考
+title: 图像目录引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# 影像目錄參考{#image-catalog-reference}
+# 图像目录引用{#image-catalog-reference}
 
-影像目錄會向伺服器提供有關影像和支援資料（例如字型和ICC設定檔）的資訊。
+图像目录向服务器提供有关图像和支持数据（如字体和ICC配置文件）的信息。
 
 * [概述](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
-* [更新影像目錄](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
-* [預設目錄](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
-* [目錄屬性](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)
+* [更新图像目录](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
+* [默认目录](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
+* [目录属性](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)

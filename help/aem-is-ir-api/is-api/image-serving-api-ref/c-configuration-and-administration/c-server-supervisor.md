@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」元件是由「伺服器監督員」所管理，它是Linux精靈或Windows服務(S7Supervisor.exe，列為「服務控制面板」中的「Dynamic Media影像伺服」)。
+description: 映像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Dynamic Media映像服务”)。
 solution: Experience Manager
-title: 伺服器監督員
+title: 服务器主管
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# 伺服器監督員{#server-supervisor}
+# 服务器主管{#server-supervisor}
 
-「影像伺服」元件是由「伺服器監督員」所管理，它是Linux精靈或Windows服務(S7Supervisor.exe，列為「服務控制面板」中的「Dynamic Media影像伺服」)。
+映像服务组件由服务器监控器管理，服务器监控器是Linux守护程序或Windows服务(S7Supervisor.exe，在服务控制面板中列为“Dynamic Media映像服务”)。
 
-除了啟動和停止其他「影像伺服」元件外，伺服器監督員還負責確保這些其他元件的健康狀態。 如果元件當機，則會自動重新啟動，以將任何服務中斷降至最低。
+除了启动和停止其他图像服务组件之外，服务器管理员还负责确保这些其他组件的运行状况。 如果组件崩溃，则会自动重新启动，以将任何服务中断降至最低。
 
-## 啟動和停止 {#section-061d28d74e034a30adc39ea3e2031cd0}
+## 启动和停止 {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-伺服器監督員會使用「影像伺服」公用程式指令碼啟動、停止和重新啟動。 請參閱 [公用程式檔案](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) 以取得詳細資訊。
+使用图像服务实用程序脚本启动、停止和重新启动服务器监控器。 请参阅 [实用程序文档](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) 了解更多信息。
 
-啟動和停止Server Supervisor會自動啟動和停止所有其他的「影像伺服」元件。
+启动和停止服务器监控器会自动启动和停止所有其他图像服务组件。
 
 [SupervisorRegistry.xml](../../../is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md#reference-b55f37a7a7a044d19c1722f5130906c6)

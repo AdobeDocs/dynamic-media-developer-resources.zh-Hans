@@ -1,5 +1,5 @@
 ---
-description: 發佈標籤為準備發佈到伺服器目錄的所有影像、範本和迴轉集。
+description: 发布标记为准备发布到服务器目录的所有图像、模板和旋转集。
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL ServerDirectoryPublishJob]{#serverdirectorypublishjob}
 
-發佈標籤為準備發佈到伺服器目錄的所有影像、範本和迴轉集。
+发布标记为准备发布到服务器目录的所有图像、模板和旋转集。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 9%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 電子郵件設定 | `xsd:string` | 選擇電子郵件設定。 |
-| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
+| 电子邮件设置 | `xsd:string` | 电子邮件设置的选择。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |

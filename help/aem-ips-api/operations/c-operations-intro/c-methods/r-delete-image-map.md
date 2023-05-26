@@ -1,5 +1,5 @@
 ---
-description: 刪除影像地圖。
+description: 删除图像映射。
 solution: Experience Manager
 title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # deleteImageMap{#deleteimagemap}
 
-刪除影像地圖。
+删除图像映射。
 
 语法
 
-## 授權的使用者型別 {#section-41fd188af16a40d4b07923165bcf15d8}
+## 授权用户类型 {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,24 +29,24 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用户必须具有对资源的读写访问权限。
 
 ## 参数 {#section-28de12bab79045a5977c68855e37ae3d}
 
-**輸入(deleteImageMapParam)**
+**输入(deleteImageMapParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要刪除之影像地圖之公司的控制代碼。 |
-| imageMapHandle | `xsd:string` | 是 | 要刪除之影像地圖的控點。 |
+| companyHandle | `xsd:string` | 是 | 包含要删除的图像映射的公司的句柄。 |
+| imageMapHandle | `xsd:string` | 是 | 要删除的图像映射的句柄。 |
 
-**輸出(deleteImageMapParam)**
+**输出(deleteImageMapParam)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-此程式碼範例會從公司刪除影像地圖。 您必須從其他作業取得影像地圖控制代碼。
+此代码示例从公司中删除图像映射。 必须从另一个操作获取图像映射句柄。
 
 **请求**
 

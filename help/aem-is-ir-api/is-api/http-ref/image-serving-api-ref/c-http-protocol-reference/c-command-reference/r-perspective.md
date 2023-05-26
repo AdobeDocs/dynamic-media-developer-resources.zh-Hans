@@ -1,7 +1,7 @@
 ---
-description: 透視轉換。 將透視變形套用至圖層來源影像，以使用四邊形來填滿指定的區域。 圖層的其他區域仍保持透明。
+description: 透视变换。 对图层源图像应用透视变换，以使用四边形填充指定的区域。 图层的其它区域保持透明。
 solution: Experience Manager
-title: 透視
+title: 透视
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# 透視{#perspective}
+# 透视{#perspective}
 
-透視轉換。 將透視變形套用至圖層來源影像，以使用四邊形來填滿指定的區域。 圖層的其他區域仍保持透明。
+透视变换。 对图层源图像应用透视变换，以使用四边形填充指定的区域。 图层的其它区域保持透明。
 
 `perspective= *`perspQuad`*[, *`resOptions`*]`
 
@@ -23,39 +23,39 @@ ht-degree: 1%
 <table id="simpletable_4BD38BBF53964F7D97B9E58914C97B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuad</span> </p></td> 
-  <td class="stentry"> <p>透視四邊形畫素座標（8個實數，以逗號分隔）。 </p></td> 
+  <td class="stentry"> <p>透视四边形像素坐标（8个实数，以逗号分隔）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuadN</span> </p></td> 
-  <td class="stentry"> <p>透視四邊形標準化座標（8個實數，以逗號分隔）。 </p></td> 
+  <td class="stentry"> <p>透视四边形归一化坐标（8个实数，以逗号分隔）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> resOptions</span> </p></td> 
-  <td class="stentry"> <p>重新取樣選項（請參閱下文）。 </p></td> 
+  <td class="stentry"> <p>重新取样选项（见下文）。 </p></td> 
  </tr> 
 </table>
 
-*`perspQuad`* 由複合（或圖層0）座標空間中的四個畫素座標值組成，這些值源自複合影像的左上角。
+*`perspQuad`* 由复合（或图层0）坐标空间中的四个像素坐标值组成，这些值源自复合图像的左上角。
 
-`perspQuadN` 由四個標準化座標值組成，其中 `0.0,0.0` 對應至複合/圖層0影像的左上角，並且 `1.0,1.0` 至右下角。
+`perspQuadN` 由四个规范化的坐标值组成，其中 `0.0,0.0` 对应于复合/图层0图像的左上角，并且 `1.0,1.0` 右下角。
 
-轉換輸入影像，使輸入影像的左上角對應至的第一個座標值 `perspQuad[N]`，右上角至第二個座標，右下角至第三個座標，左下角至第四個座標。
+变换输入图像，使得输入图像的左上角映射到的第一坐标值 `perspQuad[N]`，右上角到第二个坐标，右下角到第三个坐标，左下角到第四个坐标。
 
 >[!NOTE]
 >
->`pos=` 可用來進一步定位複合影像中的轉換圖層。
+>`pos=` 可用于进一步定位复合图像中的变换层。
 
-透視四邊形座標可能位於複合影像的外部。
+透视四边形坐标可以位于复合图像之外。
 
-如果四邊形不適用於透視轉換（例如，如果兩個或更多頂點重合、三個或所有頂點位於同一條線上，或者四邊形是自交或凹的），則行為是未定義的。
+如果四边形不适用于透视变换（例如，如果两个或更多顶点重合、三个或所有顶点位于同一行上，或者四边形是自相交或凹的），则行为是未定义的。
 
-## 品質考量 {#section-7cc9056afa614300a9b8844d39739fc3}
+## 质量注意事项 {#section-7cc9056afa614300a9b8844d39739fc3}
 
-雖然預設實施會在品質和效能之間產生合理的折中，但有時可能需要提高來源影像的解析度來改善銳利度，或減少它以減少鋸齒狀不自然感。
+虽然默认实施会在质量和性能之间产生合理的折衷，但有时可能需要提高源图像的分辨率以提高清晰度或降低它以减少锯齿伪像。
 
-如果來源是影像，請使用 `scale=` 以選擇不同的解析度（相對於影像的完整解析度）。 指定的 `scale=` 值會四捨五入至下一個較高的PTIF解析度等級。 如果是巢狀請求來源，可以調整巢狀請求產生的影像大小，以獲得所需的銳利度。 對於文字圖層，透過選取較大的size=值，同時增加指定的解析度，來調整輸入影像（演算後的文字）的解析度 `textAttr=`.
+如果源是图像，请使用 `scale=` 选择不同的分辨率（相对于图像的完整分辨率）。 指定的 `scale=` 值会四舍五入到下一个更高的PTIF分辨率级别。 在嵌套请求源的情况下，可以调整由嵌套请求产生的图像的大小以获得所需的清晰度。 对于文本图层，通过选择较大的size=值并结合提高指定的分辨率来调整输入图像（渲染的文本）的分辨率 `textAttr=`.
 
-*`resOptions`* 允許選取替代的重新取樣演演算法。 支援下列值（區分大小寫）：
+*`resOptions`* 允许选择替代的重新取样算法。 支持以下值（区分大小写）：
 
 <table id="table_0F20007986324E228096888ED37219C0"> 
  <thead> 
@@ -67,32 +67,32 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> R1</span> </p> </td> 
-   <td> <p> 最近鄰居。 </p> </td> 
+   <td> <p> 最近邻居。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R2</span> </p> </td> 
-   <td> <p> 雙線性式。 </p> </td> 
+   <td> <p> 双线性。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R3</span> </p> </td> 
-   <td> <p> 標準超取樣（預設）。 </p> </td> 
+   <td> <p> 标准超采样（默认）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">R3T<span class="varname"> n</span></span> </p> </td> 
-   <td> <p> 具有可調整抖動的超取樣(<span class="varname"> n</span> 必須是介於0到200之間的整數值)。 </p> </td> 
+   <td> <p> 具有可调抖动的超采样(<span class="varname"> n</span> 必须是介于0和200之间的整数值)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-818e57df0a1b4449888543bc6af77751}
+## 属性 {#section-818e57df0a1b4449888543bc6af77751}
 
-圖層指令。 套用至目前的圖層，或套用至圖層0，如果 `layer=comp`. 被效果圖層忽略。
+“图层”命令。 应用到当前图层或图层0，如果 `layer=comp`. 被效果层忽略。
 
-`res=` 當透視出現在相同圖層時，一律會被忽略。 `size=` 指定影像圖層時會略過。 `size=` 和 `res=` 在圖層中 `perspective=` 保留供日後使用。
+`res=` 当透视位于同一图层内时，将始终被忽略。 `size=` 为图像图层指定时，将被忽略。 `size=` 和 `res=` 在图层中 `perspective=` 保留供将来使用。
 
 ## 默认 {#section-e35683395d514d4eb6b32924e1bf8f2f}
 
-`None`，表示無透視轉換。
+`None`，表示无透视变换。
 
 ## 另请参阅 {#section-e5b71ac4a0724df6bf678dd354cfa51a}
 

@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.maxloadradius
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # InteractiveSwatches.maxloadradius{#interactiveswatches-maxloadradius}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]maxloadradius=-1|0| *`preloadnbr`*`
 
@@ -22,12 +22,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 初始化元件或變更資產時，所有色票都會同時載入。 </p> <p>當設定為 <span class="codeph"> 0</span> 僅載入可見的色票。 </p> <p>設定為 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義可見區域周圍預先載入多少不可見的列/欄。 </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>当设置为 <span class="codeph"> -1</span> 初始化组件或更改资源时，将同时加载所有样本。 </p> <p>当设置为 <span class="codeph"> 0</span> 仅加载可见样本。 </p> <p>设置为 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定义可见区域周围预载多少不可见的行/列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

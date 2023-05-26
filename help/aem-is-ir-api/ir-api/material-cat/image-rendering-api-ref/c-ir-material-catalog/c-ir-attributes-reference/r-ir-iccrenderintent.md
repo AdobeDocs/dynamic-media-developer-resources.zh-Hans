@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: 色彩轉換演算色彩比對方式。 當未以icc=指定色彩演算比對方式時，提供預設色彩演算比對方式。
+description: 颜色转换调色。 如果未使用icc=指定渲染方法，则为颜色转换提供默认的渲染方法。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 3%
 
 # IccRenderIntent{#iccrenderintent}
 
-色彩轉換演算色彩比對方式。 提供預設色彩演算比對方式，以便在未指定色彩演算比對方式時進行色彩轉換。 `icc=`.
+颜色转换调色。 为未指定渲染方法时的颜色转换提供默认渲染方法 `icc=`.
 
-## 屬性 {#section-0a38c60e1525426185616c42824aee2c}
+## 属性 {#section-0a38c60e1525426185616c42824aee2c}
 
-列舉。 設為0代表可感知、1代表相對比色、2代表飽和度、3代表絕對比色。 請保持空白或設定為任何其他值，以使用顏色設定檔中定義的預設色彩演算比對方式。
+枚举。 设置为0表示感知，设置为1表示相对比色，设置为2表示饱和，设置为3表示绝对比色。 保持空或设置为任何其他值以使用颜色配置文件中定义的默认渲染方法。
 
 ## 默认 {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-繼承自 `default::IccRenderIntent`若未定義。 如果為空，則套用「相對比色」。
+继承自 `default::IccRenderIntent`如果未定义。 如果为空，则应用“相对比色”。
 
 ## 另请参阅 {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
-[attribute：：IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) ， [屬性：：IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0)， [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)
+[attribute：：IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) ， [属性：：IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0)， [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)

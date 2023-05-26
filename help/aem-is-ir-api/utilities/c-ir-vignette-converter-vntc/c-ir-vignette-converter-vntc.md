@@ -1,7 +1,7 @@
 ---
-description: 暈映轉換器(vntc)
+description: 晕影转换器(vntc)
 solution: Experience Manager
-title: 暈映轉換器(vntc)
+title: 晕影转换器(vntc)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfcd031b-cbaa-4377-af9e-569c1017d592
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# 暈映轉換器(vntc){#vignette-converter-vntc}
+# 晕影转换器(vntc){#vignette-converter-vntc}
 
-* [暈映轉換工具](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
-* [暈映縮放](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
+* [晕影转换器](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
+* [晕影缩放](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
 * [使用](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-usage.md)
-* [常用選項](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
-* [暈映選項](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-vignettes.md)
-* [封包樣式檔案的選項](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
-* [傳回](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
-* [輸出](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+* [常用选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
+* [晕影选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-vignettes.md)
+* [CAB样式文件的选项](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
+* [返回](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
+* [输出](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)

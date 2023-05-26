@@ -1,6 +1,6 @@
 ---
-title: 互動視訊
-description: 互動式視訊檢視器是一種視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。
+title: 交互式视频
+description: 交互式视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# 互動視訊{#interactive-video}
+# 交互式视频{#interactive-video}
 
-互動式視訊檢視器是一種視訊播放器，可播放以H.264格式編碼的串流和漸進式視訊。
+交互式视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。
 
-檢視器也會在視訊內容旁顯示互動式產品色票。 同時支援單一視訊和自我調整視訊集。 專為支援HTML5視訊的桌上型與行動網頁瀏覽器所設計。 檢視器支援在視訊內容、視訊章節導覽和社交分享工具上方顯示的選擇性隱藏式字幕。 此檢視器的用途是協助您實作「可購視訊」體驗。 也就是說，使用者可以選取與特定視訊時區相關聯的色票，並重新導向至客戶網站上的快速檢視或產品詳細資料頁面。
+查看器还会在视频内容旁边显示交互式产品样本。 支持单个视频和自适应视频集。 它设计为可在支持HTML5视频的桌面和移动Web浏览器上工作。 查看器支持在视频内容、视频章节导航和社交共享工具顶部显示的可选隐藏字幕。 此查看器旨在帮助您实施“可购物视频”体验。 也就是说，用户可以选择与特定视频时间区域关联的色板，并重新定向到客户网站上的概览或产品详细信息页面。
 
-檢視器型別為510。
+查看器类型为510。
 
-## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
@@ -30,72 +30,72 @@ ht-degree: 0%
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
-另請參閱 [系統需求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+参见 [系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## 使用互動式視訊檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用交互式视频查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-互動式視訊檢視器代表主要JavaScript檔案和一組由檢視器在執行階段下載的helper檔案。 單一JavaScript包含在此特定檢視器、資產和CSS使用的所有Viewer SDK元件中。
+交互式视频查看器表示一个主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 此特定查看器、资源和CSS使用的所有Viewer SDK组件都包含单个JavaScript。
 
-互動式視訊檢視器可使用透過「影像伺服檢視器」提供的生產就緒HTML頁面，以快顯視窗模式使用。 它也可用於內嵌模式，在此模式下會使用檔案說明的API將其整合到目標網頁中。
+交互式视频查看器可在弹出模式下使用，方法是使用随图像服务查看器提供的生产就绪HTML页面。 它还可以在嵌入式模式下使用，在该模式下，使用文档记录的API将其集成到目标网页中。
 
-設定和外觀設定類似於本指南中說明的其他檢視器。 所有外觀設定都是透過自訂(CSS)階層式樣式表來達成。
+配置和外观设计类似于本指南中介绍的其他查看器。 所有外观设计都是通过自定义(CSS)层叠样式表实现的。
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+参见 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與互動式視訊檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 与交互式视频查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Interactive Video Viewer提供一組標準的使用者介面控制項來播放視訊，例如「播放/暫停」按鈕、視訊清除程式、視訊時間泡泡、播放時間/總時間指標、音量控制、全熒幕按鈕和隱藏式字幕切換。 所有這些控制項都會分組到直接位於主檢視下的控制項列中。
+交互式视频查看器为视频播放提供一组标准的用户界面控件，如播放/暂停按钮、视频清理器、视频时间气泡、播放时间/总时间指示器、音量控件、全屏按钮和隐藏式字幕切换开关。 所有这些控件都分组到直接位于主视图下的控件栏中。
 
-在觸控裝置上，音量控制會隱藏在使用者介面中，因為只能使用裝置的硬體按鈕來控制音量。
+在触控设备上，音量控制从用户界面中隐藏，因为只能使用设备的硬件按钮来控制音量。
 
-當檢視器在快顯視窗模式下操作時，全熒幕按鈕在使用者介面中不可用。
+当查看器以弹出模式运行时，全屏按钮在用户界面中不可用。
 
-檢視器會在視訊檢視區域的右側，顯示含有互動式色票的面板。 色票清單會在視訊播放時自動前進，以便顯示與目前視訊區域對應的色票。 在製作期間，按一下或點選色票會觸發與此色票相關聯的動作。 根據您的設定方式，觸發器可能會重新導向至網站上的不同頁面。 或者，它可能會將產品資訊傳回網頁邏輯，進而觸發顯示相關產品內容的Quickview開啟。
+查看器会在视频查看区域的右侧显示一个带有交互式样本的面板。 样本列表会在视频播放时自动前进，以便显示对应于当前视频区域的样本。 单击或点按样本会触发在创作期间与此类样本关联的操作。 根据您的设置方式，触发器可能会重定向到网站上的其他页面。 或者，它可能会将产品信息传递回网页逻辑，从而触发显示相关产品内容的概览打开。
 
-當視訊章節啟動時，您可以快速導覽視訊內容。 視訊章節在視訊筆畫壓感追蹤中會顯示為標籤，並在滑鼠指向效果時顯示章節標題和說明（或在觸控系統上點一下滑鼠指向效果時）。 客戶可以按一下章節標籤或點選章節說明泡泡圖，以「搜尋」特定章節。
+可以在激活视频章节时快速浏览视频内容。 视频章节在视频洗刷跟踪中作为标记显示，并在变换时（或在点按触摸系统时）显示章节标题和描述。 客户可以通过单击章节标记或点按章节描述气泡来“搜寻”特定章节。
 
-檢視器也支援各種社群媒體分享工具。 它們可作為使用者介面中的單一按鈕使用，當使用者按一下或點選共用工具列時，該按鈕會展開為共用工具列。 共用工具列包含每個支援的共用管道型別圖示，例如Facebook、Twitter、電子郵件共用、內嵌程式碼共用和連結共用。 啟動電子郵件共用、內嵌共用或連結共用工具時，檢視器會顯示包含對應資料輸入表單的強制回應對話方塊。 呼叫Facebook或Twitter時，檢視器會將使用者從社群媒體服務重新導向至標準共用對話方塊。 此外，當共用工具啟動時，影片播放會自動暫停。 由於網頁瀏覽器安全限制，共用工具無法用於全熒幕模式。
+查看器还支持各种社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。 共享工具栏中包含每个受支持共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具被激活时，视频播放会自动暂停。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
-檢視器可使用完整的鍵盤。 另請參閱 [鍵盤協助工具與導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+查看器完全可使用键盘。 参见 [键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## 內嵌互動式視訊檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入交互式视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-互動式視訊檢視器內嵌於託管頁面。 這類網頁可能具有靜態版面，也可能是「回應式」的，且在不同裝置或不同瀏覽器視窗大小中顯示的方式不同。
+交互式视频查看器将嵌入到托管页面中。 这样的网页可以具有静态布局，或者它可以“响应”并且在不同设备或不同浏览器窗口大小上以不同的方式显示。
 
-為因應這些需求，檢視器支援兩種主要操作模式：固定大小內嵌和回應式內嵌。
+为了满足这些需求，查看器支持两种主要操作模式：固定大小嵌入和响应式嵌入。
 
-**關於固定大小內嵌模式和回應式設計內嵌模式**
+**关于固定大小嵌入模式和响应式设计嵌入模式**
 
-在內嵌模式中，檢視器會新增至現有網頁，該網頁可能已有某些與檢視器無關的客戶內容。 檢視器通常只會佔用網頁的一部分空間。
+在嵌入式模式下，查看器将添加到现有网页，该网页可能已有某些与查看器无关的客户内容。 查看者通常只占用网页的一部分空间。
 
-主要使用案例是針對桌上型電腦或平板電腦裝置的網頁，以及可依裝置型別自動調整版面的回應式設計頁面。
+主要用例是面向台式机或平板电脑设备的网页，以及根据设备类型自动调整布局的响应式设计页面。
 
-當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 此功能是擁有靜態版面之網頁的最佳選擇。
+当查看器在初始加载后未更改其大小时，使用固定大小嵌入。 此功能是拥有静态布局的网页的最佳选择。
 
-回應式設計內嵌假設檢視器在執行階段需要調整大小來回應其容器的大小變更 `DIV`. 最常見的使用案例是將檢視器新增至使用彈性頁面配置的網頁。
+响应式设计嵌入假定查看器需要在运行时调整大小以响应其容器的大小更改 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，只要其高度不受限制，檢視器就會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視要求，而不需在兩側加上任何邊框間距。 此使用案例最常用於使用回應式網頁設計版面架構(例如Bootstrap和Foundation)的網頁。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页确定其容器大小的方式 `DIV`. 如果网页仅设置容器的宽度 `DIV`如果不限制高度，查看器会根据所用资源的纵横比自动选择高度。 此功能可确保资源完全适合视图，而不用填充边距。 此用例最常用于使用响应式Web设计布局框架(如Bootstrap和Foundation)的网页。
 
-否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器只會填滿該區域，並遵循網頁版面提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小調整大小。
+否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
-**固定大小內嵌**
+**固定大小嵌入**
 
-您可以執行下列動作，將檢視器新增至網頁：
+通过执行以下操作将查看器添加到网页：
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器 `DIV`.
-1. 設定檢視器大小。
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器 `DIV`.
+1. 设置查看器大小。
+1. 创建和初始化查看器。
 
-1. 將檢視器JavaScript檔案新增至網頁。
+1. 将查看器JavaScript文件添加到网页。
 
-   建立檢視器需要您在HTML標頭中新增指令碼標籤。 在使用檢視器API之前，請務必先包含 [!DNL InterativeVideoViewer.js]. 此 [!DNL InteractiveVideoViewer.js] 檔案位於 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括 [!DNL InterativeVideoViewer.js]. 此 [!DNL InteractiveVideoViewer.js] 文件位于 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-如果檢視器部署在某個Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，則可以使用相對路徑。 否則，您需要指定已安裝IS-Viewers的其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
+如果查看器部署在一台Adobe Dynamic Media Classic服务器上，并且来自同一域，则可以使用相对路径。 否则，请指定已安装IS-Viewers的某个Adobe Dynamic Media Classic服务器的完整路径。
 
-相對路徑如下所示：
+相对路径如下所示：
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
@@ -103,34 +103,34 @@ Interactive Video Viewer提供一組標準的使用者介面控制項來播放�
 
 >[!NOTE]
 >
->僅參照主要檢視器JavaScript `include` 檔案時。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由檢視器的邏輯在執行階段下載）。 尤其請勿直接參照HTML5 SDK `Utils.js` 檢視器從載入的程式庫 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因在於 `Utils.js` 或類似的執行階段檢視器程式庫完全由檢視器的邏輯管理，且位置會在檢視器版本之間變更。 Adobe不會保留次要檢視器的舊版本 `includes` 在伺服器上。
+>仅引用主查看器JavaScript `include` 文件。 请勿在网页代码中引用任何可能由查看器的逻辑在运行时下载的其他JavaScript文件。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
 >
 >
->因此，直接參照任何次要JavaScript `include` 當日後部署新產品版本時，頁面上檢視器使用的檢視器功能會中斷檢視器。
+>因此，直接引用任何辅助JavaScript `include` 将来部署新产品版本时，页面上查看器使用的功能会中断查看器。
 
-1. 定義容器 `DIV`.
+1. 定义容器 `DIV`.
 
-   新增空白 `DIV` 元素至您要顯示檢視器的頁面。 此 `DIV` 元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定的。
+   添加空 `DIV` 元素到您希望查看器显示的页面。 此 `DIV` 元素必须定义其ID，因为此ID稍后会被传递到查看器API。 DIV的大小通过CSS指定。
 
-   預留位置 `DIV` 是定位元素，這表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
+   占位符 `DIV` 是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
 
-   若要讓全熒幕功能在Internet Explorer中正常運作，請確定DOM中沒有其他元素的棧疊順序高於預留位置 `DIV`.
+   要使全屏功能在Internet Explorer中正常工作，请确保DOM中没有其他元素的栈栈顺序高于占位符 `DIV`.
 
-   以下是已定義預留位置的範例 `DIV` 元素：
+   以下是定义的占位符示例 `DIV` 元素：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
-1. 設定檢視器大小
+1. 设置查看器大小
 
-   您可以宣告檢視器的靜態大小，將它設為 `.s7interactivevideoviewer` 以絕對單位表示的頂層CSS類別，或是使用 `stagesize` 修飾元。
+   通过声明查看器的静态大小，可以将其设置为 `.s7interactivevideoviewer` 以绝对单位表示的顶级CSS类，或者使用 `stagesize` 修饰符。
 
-   您可以直接在HTML頁面上放入CSS的大小調整。 或者，您也可以將其放在自訂檢視器CSS檔案中，稍後再將該檔案指派給Adobe Experience Manager Assets中的檢視器預設集記錄（隨選），或明確使用以下專案傳遞： `style` 命令。
+   您可以直接在“HTML”页面上设置CSS大小。 或者，您可以将其放入自定义查看器CSS文件中，稍后将该文件分配给Adobe Experience Manager Assets中的查看器预设记录（按需），或者使用进行明确传递 `style` 命令。
 
-   另請參閱 [自訂互動式視訊檢視器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS設定檢視器樣式的詳細資訊。
+   参见 [自定义交互式视频查看器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 有关使用CSS为查看器设置样式的更多信息。
 
-   以下是在「HTML」頁面中定義靜態檢視器大小的範例：
+   以下是在“HTML”页中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7interactivevideoviewer { 
@@ -139,33 +139,33 @@ Interactive Video Viewer提供一組標準的使用者介面控制項來播放�
    }
    ```
 
-   您可以設定 `stagesize` Experience Manager Assets檢視器預設集記錄中的修飾元 — 隨選。 或者，您可以使用檢視器初始化程式碼明確傳遞 `params` 集合，或作為API呼叫，如命令參考區段中所述，如下所示：
+   您可以设置 `stagesize` Experience Manager Assets中的查看器预设记录中的修饰符 — 按需。 或者，您可以使用查看器初始化代码显式传递它 `params` 收藏集，或作为API调用，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    interactivevideoviewer.setParam("stagesize", "640,640");
    ```
 
-   建議使用以CSS為基礎的方法，並用於此範例。
+   建议使用基于CSS的方法，并用于此示例。
 
-1. 建立和初始化檢視器。
+1. 创建和初始化查看器。
 
-   完成上述步驟後，您會建立 `s7viewers.InteractiveVideoViewer` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 檢視器例項的方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 具有檢視器支援之設定引數的JSON物件。
+   完成上述步骤后，您将创建一个实例 `s7viewers.InteractiveVideoViewer` 类，将所有配置信息传递到其构造函数，并调用 `init()` 方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有 `containerId` 保存查看器容器ID名称并嵌套的字段 `params` 具有查看器支持的配置参数的JSON对象。
 
-   在此案例中， `params` 物件至少必須將影像伺服URL傳遞為 `serverUrl` 屬性，並將初始資產設為 `asset` 引數。 JSON型初始化API可讓您透過以下傳遞的一行程式碼、視訊伺服器URL建立及啟動檢視器： `videoserverurl` 屬性，初始資產為 `asset` 引數，以及互動式資料作為 `interactivedata` 屬性。 JSON型初始化API可讓您使用單行程式碼建立及啟動檢視器。
+   在本例中， `params` 对象必须至少将图像服务URL传递为 `serverUrl` 资产，而初始资产为 `asset` 参数。 基于JSON的初始化API允许您通过作为传递的一行代码（视频服务器URL）创建和启动查看器。 `videoserverurl` 资产，初始资产为 `asset` 参数，交互式数据为 `interactivedata` 属性。 基于JSON的初始化API允许您使用一行代码创建和启动查看器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾。 如需最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤或內文 `onload()` 事件。
+   务必要将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标签上，或正文上 `onload()` 事件。
 
-   同時，容器元素未必是網頁版面配置的一部分。 例如，它可能會使用以下專案隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 之後，檢視器會自動繼續載入。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可使用以下方式隐藏该内容： `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 之后，查看器加载会自动继续。
 
-   以下範例說明如何建立檢視器例項、將最低必要的設定選項傳遞至建構函式，並呼叫 `init()` 方法。 此範例假設以下情況：
+   以下示例介绍了如何创建查看器实例，将所需的最少配置选项传递给构造函数并调用 `init()` 方法。 此示例假定以下各项：
 
-   * 檢視器例項為 `interactiveVideoViewer`.
-   * 預留位置名稱 `DIV` 是 `s7viewer`.
-   * 影像伺服URL為 `https://aodmarketingna.assetsadobe.com/is/image/`.
-   * 視訊伺服器URL為 `https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`.
-   * 內容URL `https://aodmarketingna.assetsadobe.com/`.
-   * 資產是 `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
-   * 互動式資料為 `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
+   * 查看器实例为 `interactiveVideoViewer`.
+   * 占位符的名称 `DIV` 是 `s7viewer`.
+   * 图像服务URL是 `https://aodmarketingna.assetsadobe.com/is/image/`.
+   * 视频服务器URL为 `https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`.
+   * 内容URL `https://aodmarketingna.assetsadobe.com/`.
+   * 资产是 `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
+   * 交互式数据是 `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -183,7 +183,7 @@ Interactive Video Viewer提供一組標準的使用者介面控制項來播放�
    </script>
    ```
 
-   下列程式碼為將互動式視訊檢視器嵌入固定大小的簡單網頁的完整範例：
+   以下代码是一个简单网页的完整示例，该网页以固定大小嵌入交互式视频查看器：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -216,9 +216,9 @@ Interactive Video Viewer提供一組標準的使用者介面控制項來播放�
    </html>
    ```
 
-**高度不受限制的回應式設計內嵌**
+**高度不受限制的响应式设计嵌入**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 對於以下範例，假設網頁允許檢視器的容器 `DIV` 以取得網頁瀏覽器視窗大小的40%，其高度不受限制。 網頁HTML程式碼如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器的运行时大小 `DIV`. 对于以下示例，假设网页允许查看器的容器 `DIV` 将网页浏览器窗口大小的40%保留为无限制高度。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -236,13 +236,13 @@ Interactive Video Viewer提供一組標準的使用者介面控制項來播放�
 </html>
 ```
 
-將檢視器新增至這類頁面，類似於固定大小內嵌的步驟。 唯一的區別是您不需要明確定義檢視器大小。
+将查看器添加到此类页面与固定大小嵌入的步骤类似。 唯一的区别是，您不需要显式定义查看器大小。
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器DIV。
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器DIV。
+1. 创建和初始化查看器。
 
-上述所有步驟與固定大小內嵌的步驟相同。 將容器DIV新增至現有 `"holder"` DIV. 下列程式碼為完整範例。 請注意瀏覽器調整大小時檢視器大小的變化，以及檢視器外觀比例與資產相符的方式。
+上述所有步骤与固定大小的嵌入步骤相同。 将容器DIV添加到现有 `"holder"` DIV。 以下代码是一个完整的示例。 请注意浏览器调整大小时查看器大小的变化情况，以及查看器长宽比与资源的匹配情况。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -276,15 +276,15 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 </html>
 ```
 
-以下範例頁面說明高度不受限制的回應式設計內嵌在實際應用中的更多情況：
+以下示例页面说明了高度不受限制的响应式设计嵌入的更多实际用途：
 
-[即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**定義寬度和高度的回應式內嵌**
+**定义宽度和高度的响应式嵌入**
 
-如果有已定義寬度和高度的回應式內嵌，則網頁樣式會不同。 它提供兩種大小給 `"holder"` 在瀏覽器視窗中進行DIV和置中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%。
+如果有定义了宽度和高度的响应式嵌入，则网页样式会不同。 它将两种大小提供给 `"holder"` 在浏览器窗口中进行DIV和居中对齐。 此外，该网页还设置 `HTML` 和 `BODY` 元素为100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -310,7 +310,7 @@ height: 60%;
 </html>
 ```
 
-其餘的內嵌步驟與高度不受限制的回應式內嵌所使用的步驟相同。 產生的範例如下：
+其余嵌入步骤与用于高度不受限制的响应式嵌入的步骤相同。 产生的示例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -352,11 +352,11 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 </html>
 ```
 
-**使用Setter型API內嵌**
+**使用基于Setter的API进行嵌入**
 
-您可以使用setter型API和no-args建構函式，而不使用JSON型初始化。 使用此API建構函式不接受任何引數，而且設定引數是透過以下方式指定的： `setContainerId()`， `setParam()`、和 `setAsset()` 具有個別JavaScript呼叫的API方法。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不接受任何参数，并且配置参数是使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法具有单独的JavaScript调用。
 
-下列範例說明如何將固定大小內嵌與setter型API搭配使用：
+以下示例说明了如何将固定大小嵌入与基于setter的API结合使用：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

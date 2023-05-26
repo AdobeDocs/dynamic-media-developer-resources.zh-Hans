@@ -1,7 +1,7 @@
 ---
-description: 遮色部分影像。 遮色片一律與影像相關聯。 從ImageInfo取得遮色片。
+description: 蒙版图像的一部分。 蒙版始终与图像相关联。 从ImageInfo获取蒙版。
 solution: Experience Manager
-title: 遮色片
+title: 蒙版
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Mask]{#mask}
 
-遮色部分影像。 遮色片一律與影像相關聯。 從ImageInfo取得遮色片。
+蒙版图像的一部分。 蒙版始终与图像相关联。 从ImageInfo获取蒙版。
 
 语法
 
@@ -22,8 +22,8 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 遮色片控點 | `xsd:string` | 遮色片控點。 |
-| 名称 | `xsd:string` | 遮色片名稱。 |
-| 遮色片路徑 | `xsd:string` | 遮色片的相對路徑。 |
-| 遮色片檔案 | `xsd:string` | 遮色片檔案。 |
-| lastModified | `types:dateTime` | 上次修改遮罩的日期、時間和時區。 |
+| maskHandle | `xsd:string` | 蒙版句柄。 |
+| 名称 | `xsd:string` | 蒙版名称。 |
+| 蒙版路径 | `xsd:string` | 蒙版的相对路径。 |
+| 蒙版文件 | `xsd:string` | 蒙版文件。 |
+| lastModified | `types:dateTime` | 上次修改蒙版的日期、时间和时区。 |

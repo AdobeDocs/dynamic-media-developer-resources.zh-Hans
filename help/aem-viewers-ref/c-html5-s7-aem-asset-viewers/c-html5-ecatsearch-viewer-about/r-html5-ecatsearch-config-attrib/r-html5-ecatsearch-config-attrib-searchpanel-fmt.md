@@ -20,12 +20,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 指定元件從影像伺服器載入影像時所用的影像格式。 它可以是Image Server和使用者端瀏覽器支援的任何格式。 </p> <p>如果指定的格式結尾為 <span class="codeph"> -alpha</span>，元件會將影像呈現為透明內容。 對於所有其他影像格式，元件會將影像視為不透明。 </p> </td> 
+   <td colname="col2"> <p> 指定组件从图像服务器加载图像时使用的图像格式。 它可以是Image Server和客户端浏览器支持的任何格式。 </p> <p>如果指定的格式结尾为 <span class="codeph"> -alph</span>，组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-12a6fb2fcbc1476b95bd53ce880dc185}
+## 属性 {#section-12a6fb2fcbc1476b95bd53ce880dc185}
 
 可选.
 

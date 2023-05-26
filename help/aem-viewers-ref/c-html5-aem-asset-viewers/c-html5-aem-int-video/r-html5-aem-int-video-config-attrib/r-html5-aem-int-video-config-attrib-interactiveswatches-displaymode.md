@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.displaymode
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 7%
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 連續|區段</span> </p> </td> 
-   <td colname="col2"> <p> 不論區段邊界為何，都會以縮圖連續填入互動色票，或允許空白空間記下區段邊界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 连续|区段</span> </p> </td> 
+   <td colname="col2"> <p> 使用缩略图连续填充交互式样本，而不考虑区段边界，或者允许空白空间记录区段边界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

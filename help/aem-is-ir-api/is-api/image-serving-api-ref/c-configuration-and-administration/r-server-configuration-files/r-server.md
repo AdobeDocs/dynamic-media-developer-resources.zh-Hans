@@ -1,5 +1,5 @@
 ---
-description: 包含平台伺服器設定。
+description: 包含平台服务器设置。
 solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # server.xml{#server-xml}
 
-包含平台伺服器設定。
+包含平台服务器设置。
 
-修改此XML檔案時，必須注意維護有效的XML語法，否則 [!DNL Platform Server] 可能無法啟動。
+修改此XML文件时，必须注意保持有效的XML语法，否则 [!DNL Platform Server] 可能无法启动。
 
-若要讓變更生效， [!DNL Platform Server] 編輯此檔案後必須重新啟動。
+要使更改生效， [!DNL Platform Server] 编辑此文件后必须重新启动。
 
-下圖說明哪些設定可以在此檔案中變更。 如需這些設定的說明，請參閱本檔案前面對應的章節。 請注意，此圖表並不完全代表 [!DNL server.xml].
+下图说明了哪些设置可以在此文件中更改。 有关这些设置的说明，请参阅本文档前面对应的章节。 请注意，此图表不是完整的表示形式 [!DNL server.xml].
 
 ```
 <Server>

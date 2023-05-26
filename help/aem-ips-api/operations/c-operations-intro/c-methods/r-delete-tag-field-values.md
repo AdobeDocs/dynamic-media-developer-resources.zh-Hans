@@ -1,5 +1,5 @@
 ---
-description: 從標籤欄位的字典中移除標籤欄位值。
+description: 从标记字段的词典中删除标记字段值。
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 13%
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-從標籤欄位的字典中移除標籤欄位值。
+从标记字段的词典中删除标记字段值。
 
-## 授權的使用者型別 {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## 授权用户类型 {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -24,17 +24,17 @@ ht-degree: 13%
 
 ## 参数 {#section-5db64a6ae238426395bc760b83587260}
 
-**輸入(deleteTagFieldValuesParam)**
+**输入(deleteTagFieldValuesParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| fieldHandle | `xsd:string` | 是 | 要修改之標籤欄位的控點。 |
-| valueArray | `types:StringArray` | 是 | 要從欄位字典中刪除的標籤值陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| fieldHandle | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
+| valueArray | `types:StringArray` | 是 | 要从字段词典中删除的标记值数组。 |
 
-**輸出(deleteTagFieldValuesParam)**
+**输出(deleteTagFieldValuesParam)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-92f9e575a6da491caa09e264b4d6ee55}
 

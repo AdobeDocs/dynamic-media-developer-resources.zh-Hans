@@ -1,5 +1,5 @@
 ---
-description: 取得與特定公司相關聯的資產和資產數目。
+description: 获取与特定公司关联的资源和资源数。
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,12 +14,12 @@ ht-degree: 10%
 
 # getAssetCounts{#getassetcounts}
 
-取得與特定公司相關聯的資產和資產數目。
+获取与特定公司关联的资源和资源数。
 
-此 `countArray` 傳回的由以下陣列組成： `assetTypes` (資料型別 `xsd:string`)，每個都有自己的計數欄位（資料型別） `xsd:int`)，可呈現陣列中每個元素的多重資產型別。
+此 `countArray` 返回由以下数组组成 `assetTypes` (数据类型 `xsd:string`)，每个字段都有自己的计数字段(数据类型 `xsd:int`)，允许表示数组中每个元素的多个资产类型。
 语法
 
-## 授權的使用者型別 {#section-6234754722184e828352f10eb18fbce9}
+## 授权用户类型 {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,21 +33,21 @@ ht-degree: 10%
 
 ## 参数 {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**輸入(getAssetCountsParam)**
+**输入(getAssetCountsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 擁有您要計算之資產的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含要计数的资产的公司的句柄。 |
 
-**輸出(getAssetCountsReturn)**
+**输出(getAssetCountsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| countArray | `types:AssetCountArray` | 否 | 一個資產型別陣列，每個資產型別都有自己的計數欄位，可讓陣列中每個元素呈現多個資產型別。 |
+| countArray | `types:AssetCountArray` | 否 | 资源类型数组，每个资源类型都有自己的计数字段，允许表示数组中每个元素的多个资源类型。 |
 
 ## 示例 {#section-6052a503eb3843f6adb99e200fdba280}
 
-此程式碼範例使用公司的控制代碼作為 `getAssetCountsParam` 傳送至IPS Web服務伺服器，以取得資產計數。
+此代码示例使用公司的句柄作为 `getAssetCountsParam` 发送到IPS Web服务服务器，以获取资源计数。
 
 **请求**
 

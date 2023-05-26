@@ -1,7 +1,7 @@
 ---
-description: 僅適用於Scene 7開發人員。 請參閱影像演算材質目錄參照目錄屬性區段。
+description: 仅适用于Scene 7开发人员。 请参阅图像渲染材质目录Reference-Catalog属性一节。
 solution: Experience Manager
-title: setimageservingPublishSettings
+title: setImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 75ba94b3-41d2-4c09-b444-42b3e83614b4
@@ -12,9 +12,9 @@ ht-degree: 18%
 
 ---
 
-# setimageservingPublishSettings{#setimageservingpublishsettings}
+# setImageServingPublishSettings{#setimageservingpublishsettings}
 
-僅適用於Scene 7開發人員。 請參閱影像演算材質目錄參照目錄屬性區段。
+仅适用于Scene 7开发人员。 请参阅图像渲染材质目录Reference-Catalog属性一节。
 
 语法
 
@@ -24,6 +24,6 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | 是 | 公司控點。 |
-| publishSettingsArray | `types:ConfigSettingArray` | 是 | 僅適用於Scene 7開發人員。 |
-| contextHandle | `xsd:string` | 否 | 處理發佈內容的動作。 |
+| CompanyHandle | `xsd:string` | 是 | 公司处理。 |
+| publishSettingsArray | `types:ConfigSettingArray` | 是 | 仅适用于Scene 7开发人员。 |
+| contextHandle | `xsd:string` | 否 | 处理发布上下文。 |

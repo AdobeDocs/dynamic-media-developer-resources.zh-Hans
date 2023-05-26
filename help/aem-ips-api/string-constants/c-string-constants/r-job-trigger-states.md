@@ -1,7 +1,7 @@
 ---
 description: 由ScheduledJob/triggerState使用。
 solution: Experience Manager
-title: 工作觸發程式狀態
+title: 作业触发器状态
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 86f99fe5-fd0d-4c38-8952-9ad230ccde38
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# 工作觸發程式狀態{#job-trigger-states}
+# 作业触发器状态{#job-trigger-states}
 
 由ScheduledJob/triggerState使用。
 

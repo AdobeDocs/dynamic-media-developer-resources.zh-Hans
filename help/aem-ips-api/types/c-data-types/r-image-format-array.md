@@ -1,5 +1,5 @@
 ---
-description: 影像格式陣列。
+description: 图像格式的数组。
 solution: Experience Manager
 title: ImageFormatArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL ImageFormatArray]{#imageformatarray}
 
-影像格式陣列。
+图像格式的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ImageFormat` | 影像格式陣列。 |
+| 项目 | `types:ImageFormat` | 图像格式的数组。 |

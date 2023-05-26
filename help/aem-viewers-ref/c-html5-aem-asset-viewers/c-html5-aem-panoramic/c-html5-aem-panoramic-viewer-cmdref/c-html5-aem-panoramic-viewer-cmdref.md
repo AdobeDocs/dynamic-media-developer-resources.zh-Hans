@@ -1,6 +1,6 @@
 ---
-title: 命令參考 — 組態屬性
-description: 全景檢視器的設定屬性檔案。
+title: 命令引用 — 配置属性
+description: 全景查看器的配置属性文档。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# 命令參考 — 組態屬性{#command-reference-configuration-attributes}
+# 命令引用 — 配置属性{#command-reference-configuration-attributes}
 
-全景檢視器的設定屬性檔案。
+全景查看器的配置属性文档。
 
-任何設定命令都可以在URL中設定或使用 `setParam()` 和/或 `setParams()` api方法。 任何設定屬性也可以在伺服器端設定記錄中指定。
+任何配置命令都可以在URL中设置或使用 `setParam()` 和/或 `setParams()` api方法。 任何配置属性也可以在服务器端配置记录中指定。
 
-某些設定命令可能會加上對應HTML5 SDK元件的類別名稱或執行個體名稱當作前置詞。 元件的例項名稱是動態的，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` api方法。 檔案會包含這類命令的選用首碼。 例如， `vrrender` 命令記錄如下：
+某些配置命令可能会带有相应HTML5 SDK组件的类名称或实例名称前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` api方法。 文档将包括此类命令的可选前缀。 例如， `vrrender` 命令记录如下：
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender
 ```
 
-這表示此指令的使用方式如下：
+这意味着此命令按以下方式使用：
 
-* `vrrender` （簡短語法）
-* `PanoramicView.vrrender` （以元件類別名稱限定）
-* `cont_panoramicView.vrrender` （以元件ID限定，假設cont是容器元素的ID）
+* `vrrender` （简短语法）
+* `PanoramicView.vrrender` （用组件类名限定）
+* `cont_panoramicView.vrrender` （使用组件ID进行限定，假设cont是容器元素的ID）
 
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+参见 [所有查看器通用的命令引用 — 配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
 
-另請參閱 [所有檢視器通用的命令參考 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+参见 [所有查看器通用的命令引用 — URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)

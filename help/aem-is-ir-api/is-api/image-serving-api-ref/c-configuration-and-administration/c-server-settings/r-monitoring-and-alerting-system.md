@@ -1,7 +1,7 @@
 ---
-description: 使用這些伺服器設定來設定監視和警示系統。
+description: 使用这些服务器设置配置监视和警报系统。
 solution: Experience Manager
-title: 監視和警示系統
+title: 监视和警报系统
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# 監視和警示系統{#monitoring-and-alerting-system}
+# 监视和警报系统{#monitoring-and-alerting-system}
 
-使用這些伺服器設定來設定監視和警示系統。
+使用这些服务器设置配置监视和警报系统。
 
-## AS：：monitorAlertGenerator.enableGlobalAlerting — 警示系統啟用 {#section-612f8ea61794426ab205e22e5f665fa9}
+## AS：：monitorAlertGenerator.enableGlobalAlerting — 警报系统启用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-將設為「true」並設定電子郵件通知設定，以啟用電子郵件通知。 設定為 `false` 關閉所有電子郵件警示 — 這在讓伺服器離線進行維護時很有用。 布尔值.
+通过将设置为“true”并配置电子邮件通知设置来启用电子邮件通知。 将设置为 `false` 关闭所有电子邮件警报 — 这在使服务器离线进行维护时可能很有用。 布尔值.
 
-## AS：：mailSender.host - SMTP主機 {#section-151df07e7b44446581339bb7abeeba7a}
+## AS：：mailSender.host - SMTP主机 {#section-151df07e7b44446581339bb7abeeba7a}
 
-SMTP電子郵件伺服器的IP位址。
+SMTP电子邮件服务器的IP地址。
 
-## AS：：mailSender.port- SMTP連線埠 {#section-4b25efca8fd84d5c92dafacd0555e99d}
+## AS：：mailSender.port- SMTP端口 {#section-4b25efca8fd84d5c92dafacd0555e99d}
 
-SMTP電子郵件伺服器的接聽連線埠。
+SMTP电子邮件服务器的侦听端口。
 
-## AS：：monitorAlertGenerator.messageTo — 訊息收件者 {#section-0017bbaa15434117a70900c3f1163960}
+## AS：：monitorAlertGenerator.messageTo — 消息收件人 {#section-0017bbaa15434117a70900c3f1163960}
 
-應傳送警示的一或多個電子郵件地址。 使用分號做為分隔符號。
+应将警报发送到的一个或多个电子邮件地址。 使用分号作为分隔符。
 
-## AS：：monitorAlertGenerator.messageFrom — 訊息寄件者 {#section-db320cba4ac2438ca1cfe6abce4aed87}
+## AS：：monitorAlertGenerator.messageFrom — 消息发送方 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-此電子郵件應使用於 **[!UICONTROL 從]** 電子郵件欄位。
+应在以下位置使用的电子邮件地址： **[!UICONTROL 起始日期]** 电子邮件字段。
 
-## AS：：monitorAlertGenerator.alertInterval — 監督間隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
+## AS：：monitorAlertGenerator.alertInterval — 监视时间间隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-監督系統會在警示間隔期間累積警示條件，並在每個間隔結束時傳送包含所有累積警示的警示電子郵件。 毫秒、整數值60000或更大。 通常設定為5或10分鐘。
+监控系统将在警报间隔内累积警报条件，并在每个间隔结束时发送包含所有累积警报的警报电子邮件。 毫秒、整数值、60000或更大。 通常设置为5或10分钟。
 
-## AS：：monitorAlertGenerator.heapSpaceResetInterval — 棧積空間警示間隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
+## AS：：monitorAlertGenerator.heapSpaceResetInterval — 栈空间警报间隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-棧積空間警示之後發出另一個棧積空間警示之前的最短時間。 間隔時間（毫秒）。 整數值（0或更大）。
+在发出另一个栈空间警报之前发出栈空间警报后的最短时间。 间隔时间（毫秒）。 整数值，0或更大。
 
-## AS：：monitorAlertGenerator.minTrafficForAlerts — 啟用警示的最小流量 {#section-8b4db2d6f96642309ca35c49eb3ab230}
+## AS：：monitorAlertGenerator.minTrafficForAlerts — 启用警报的最小流量 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-每秒要求數。 如果流量低於此臨界值，則不會發出任何回應時間和錯誤警示。 設為0可傳送回應時間和錯誤警示，無論流量為何。 大於或等於0的實數值。
+每秒请求数。 如果流量低于此阈值，则不会发出响应时间和错误警报。 设置为0可发送响应时间和错误警报，而不考虑通信量。 大于或等于0的实值。

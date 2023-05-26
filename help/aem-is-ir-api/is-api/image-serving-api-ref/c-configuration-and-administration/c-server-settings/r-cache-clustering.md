@@ -1,7 +1,7 @@
 ---
-description: 使用這些伺服器設定進行快取叢集。
+description: 使用这些服务器设置进行缓存群集。
 solution: Experience Manager
-title: 快取叢集
+title: 缓存聚类
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# 快取叢集{#cache-clustering}
+# 缓存聚类{#cache-clustering}
 
-使用這些伺服器設定進行快取叢集。
+使用这些服务器设置进行缓存群集。
 
-## PS：：cacheCluster.hosts — 主機 {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
+## PS：：cacheCluster.hosts — 主机 {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-IP位址清單，以分號分隔。 包含此主機應從中取得快取資料的所有對等伺服器的IP位址。 為方便起見，可能會包含本機主機的IP位址；如此可讓叢集中所有伺服器的組態設定相同。
+IP地址列表，以分号分隔。 包括此主机应从中获取缓存数据的所有对等服务器的IP地址。 为了方便起见，可以包含本地主机的IP地址；这样允许群集中的所有服务器具有相同的配置设置。
 
-## PS：：cacheCluster.updateLocalCache — 更新本機快取 {#section-154c2c0af4544200a3499232bb130dde}
+## PS：：cacheCluster.updateLocalCache — 更新本地缓存 {#section-154c2c0af4544200a3499232bb130dde}
 
-若對等伺服器提供的快取專案應複製到本機回應快取，則設為「是」。
+如果将对等服务器提供的缓存条目复制到本地响应缓存，则设置为“是”。
 
-## ps：：cacheCluster.queryTimeout — 查詢逾時 {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## PS：：cacheCluster.queryTimeout — 查询超时 {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-從對等伺服器請求快取專案時，伺服器會等到有一部伺服器回應它有此特定資料專案，或等到所有對等伺服器回應它們沒有資料專案，或直到使用此設定指定的時間（以毫秒為單位）過期。
+当从对等服务器请求缓存项时，服务器将等待一个服务器响应它有此特定数据项，或者所有对等服务器响应它们没有该数据项，或者等待使用此设置指定的时间（以毫秒为单位）过期。
 
-## PS：：cacheCluster.fetchTimeout — 擷取逾時 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
+## PS：：cacheCluster.fetchTimeout — 提取超时 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-指定伺服器等待從對等伺服器傳送實際快取資料的最大毫秒數。 如果逾時到期前尚未傳送完整資料，則伺服器會假設對等節點已無法使用。 然後本機產生快取專案。
+指定服务器等待从对等服务器传送实际缓存数据的最大毫秒数。 如果在超时过期之前未提交完整数据，则服务器会假定对等节点已变为不可用。 然后，在本地生成缓存条目。

@@ -1,5 +1,5 @@
 ---
-description: 刪除暈映發佈格式。
+description: 删除晕影发布格式。
 solution: Experience Manager
 title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 14%
 
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-刪除暈映發佈格式。
+删除晕影发布格式。
 
-## 授權的使用者型別 {#section-a127680d6b53462daaf2579d6f6fe5a8}
+## 授权用户类型 {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,20 +25,20 @@ ht-degree: 14%
 
 ## 参数 {#section-789625ba29df4b5f880914d4c64f77ce}
 
-**輸入(deleteVignettePublishFormatParam)**
+**输入(deleteVignettePublishFormatParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 暈映所屬公司的控制代碼。 |
-| vignetteFormatHandle | `xsd:string` | 是 | 要刪除的暈映發佈格式的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 晕影所属公司的句柄。 |
+| vignetteFormatHandle | `xsd:string` | 是 | 要删除的晕影发布格式的句柄。 |
 
-**輸出(deleteVignettePublishFormatParam)**
+**输出(deleteVignettePublishFormatParam)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-此程式碼範例會刪除由其控制代碼指定的暈映發佈格式。
+此代码示例删除由其句柄指定的晕影发布格式。
 
 **请求**
 

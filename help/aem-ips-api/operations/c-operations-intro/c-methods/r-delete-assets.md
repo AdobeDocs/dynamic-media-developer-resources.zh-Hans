@@ -1,5 +1,5 @@
 ---
-description: 刪除多個資產。
+description: 删除多个资源。
 solution: Experience Manager
 title: deleteAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # deleteAssets{#deleteassets}
 
-刪除多個資產。
+删除多个资源。
 
 语法
 
-## 授權的使用者型別 {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 授权用户类型 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 参数 {#section-4dc888e77d974ac794b553616dd11e86}
 
-**輸入(deleteAssetsParam)**
+**输入(deleteAssetsParam)**
 
 <table id="table_AAA6845769DB4B129C8A660D0CBA348A"> 
  <thead> 
@@ -45,18 +45,18 @@ ht-degree: 16%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>資產所屬公司的控制代碼。 </p> </td> 
+   <td colname="col4"> <p>资产所属公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>要刪除的資產陣列。 </p> </td> 
+   <td colname="col4"> <p>要删除的资源数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**輸出(deleteAssetsParam)**
+**输出(deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -72,38 +72,38 @@ ht-degree: 16%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>已成功刪除的資產數目。 </p> </td> 
+   <td colname="col4"> <p>成功删除的资产数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>在作業嘗試刪除資產時產生警告的資產。 </p> </td> 
+   <td colname="col4"> <p>在操作尝试删除资产时生成警告的资产。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errororcount</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 错误计数</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>作業嘗試刪除資產時產生錯誤的資產。 </p> </td> 
+   <td colname="col4"> <p>在操作尝试删除资产时生成错误的资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與資產關聯的詳細資訊陣列，在作業嘗試刪除資產時產生警告。 </p> </td> 
+   <td colname="col4"> <p>与资产关联的详细信息数组，在操作尝试删除资产时这些资产会生成警告。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 型別：AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>與資產關聯的詳細資訊陣列，在操作嘗試刪除資產時產生錯誤。 </p> </td> 
+   <td colname="col4"> <p>与资源关联的详细信息数组，在操作尝试删除资源时这些资源会生成错误。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-此程式碼範例會將控制代碼傳送至公司，並在中設定一系列資產控制代碼 `deleteAssetsParam` 要求網頁服務伺服器。 `deleteAssetsReturn` 傳回2的成功計數，表示兩個資產均已刪除。
+此代码示例将一个句柄发送到公司，并在中发送一系列资产句柄 `deleteAssetsParam` 向Web服务服务器发出的请求。 `deleteAssetsReturn` 返回成功计数2，表示两个资源均已删除。
 
 **请求**
 

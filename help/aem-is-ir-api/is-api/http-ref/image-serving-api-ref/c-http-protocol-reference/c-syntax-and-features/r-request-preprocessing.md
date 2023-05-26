@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」會根據規則運算式相符和替代規則，提供簡單的要求前置處理器。
+description: 图像服务根据正则表达式匹配和替换规则提供一个简单的请求预处理器。
 solution: Experience Manager
-title: 要求預先處理
+title: 请求预处理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# 要求預先處理{#request-preprocessing}
+# 请求预处理{#request-preprocessing}
 
-「影像伺服」會根據規則運算式相符和替代規則，提供簡單的要求前置處理器。
+图像服务根据正则表达式匹配和替换规则提供一个简单的请求预处理器。
 
-可以將規則集合（規則集）附加到每個影像目錄，包括預設目錄。 規則是以XML格式檔案指定的。
+可以将规则集合（规则集）附加到每个图像目录，包括默认目录。 使用XML格式的文件指定规则。
 
-請求前置處理規則可在請求處理前，先修改請求的路徑和查詢部分 [!DNL Platform Server]的剖析器，包括操控路徑、新增命令、變更命令值，以及套用範本或巨集。 規則也可用來設定和覆寫某些安全性功能，這些功能通常僅由目錄屬性控制，例如請求模糊化、標籤水印，以及將HTTP服務限製為特定使用者端IP位址。
+请求预处理规则可以在处理请求之前修改请求的路径和查询部分 [!DNL Platform Server]的解析器，包括处理路径、添加命令、更改命令值以及应用模板或宏。 规则还可用于配置和覆盖某些安全功能，这些功能通常仅由目录属性控制，例如请求模糊处理、水标记，以及将HTTP服务限制到特定客户端IP地址。
 
-要求預先處理規則適用於多種應用程式，其中某些應用程式如下：
+请求预处理规则适用于多种应用程序，其中一些应用程序如下所示：
 
-* 實作 *虛擬路徑* 機制，允許將請求路徑重新對應到檔案、FTP和HTTP路徑。
-* 選擇性地強制實施安全性功能，例如依影像名稱或路徑篩選的水印。
-* 從特定IP位址存取伺服器時，省略浮水印或其他安全性功能。
-* 強制應用命令，例如 `defaultImage=`，以傳送至在URL路徑或查詢字串中顯示特定模式的所有請求或請求。
-* 不允許使用CPU密集命令來防止伺服器濫用。
-* 允許來源影像位於HTTP或FTP伺服器上，同時仍在請求路徑上指定它們，而不是使用 `src=`.
-* 根據請求路徑或影像名稱控制影像品質設定(例如JPEG品質或銳利化)。
+* 实施 *虚拟路径* 机制，允许将请求路径重新映射到文件、FTP和HTTP路径。
+* 有选择地强制实施按图像名称或路径过滤的安全功能，例如水印。
+* 从特定IP地址访问服务器时省略水印或其他安全功能。
+* 强制应用命令，例如 `defaultImage=`，适用于在URL路径或查询字符串中显示特定模式的所有请求或请求。
+* 不允许使用占用大量CPU的命令来防止服务器滥用。
+* 允许源图像位于HTTP或FTP服务器上，同时仍在请求路径上指定它们，而不是使用 `src=`.
+* 根据请求路径或图像名称控制图像质量设置(例如JPEG质量或锐化)。
 
-有關建立、使用和管理規則集的詳細資訊，請參閱 [規則集參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
+有关创建、使用和管理规则集的详细信息，请参阅 [规则集参考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e).
 
 ## 另请参阅 {#see-also}
 
-[規則集參考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)， [attribute：：RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)
+[规则集参考](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)， [attribute：：RuleSetFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md#reference-3e54cb5f4d74411a84889fed056ac093)

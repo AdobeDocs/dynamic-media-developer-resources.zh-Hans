@@ -20,12 +20,12 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定何時顯示資訊面板。 </p> <p>若設為 <span class="codeph"> 1</span>時，當滑鼠進入影像地圖區域時會顯示資訊面板(如果影像地圖非空白， <span class="codeph"> rollover_key</span> 屬性)。 </p> <p>若設為 <span class="codeph"> 0</span> 選取影像地圖時會觸發資訊面板（如果影像地圖為非空白） <span class="codeph"> rollover_key</span> 和空白 <span class="codeph"> href</span> 屬性)。 </p> <p> 在觸控裝置（包括觸控式桌上型系統）上忽略，並自動設為 <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>指定何时显示信息面板。 </p> <p>如果设置为 <span class="codeph"> 1</span>时，鼠标进入图像映射区域时会显示信息面板(如果图像映射为非空， <span class="codeph"> rollover_key</span> 属性)。 </p> <p>如果设置为 <span class="codeph"> 0</span> 选择图像映射时会触发信息面板（如果图像映射为非空） <span class="codeph"> rollover_key</span> 和空 <span class="codeph"> href</span> 属性)。 </p> <p> 在触控设备（包括触控式桌面系统）上忽略，并自动设置为 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-ccfedc2da28f412a86d03f390db92b4b}
+## 属性 {#section-ccfedc2da28f412a86d03f390db92b4b}
 
 可选.
 

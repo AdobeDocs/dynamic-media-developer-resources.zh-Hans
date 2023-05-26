@@ -1,7 +1,7 @@
 ---
 description: 由SystemFieldCondition/op和MetadataCondition/op使用。
 solution: Experience Manager
-title: 字串比較運運算元
+title: 字符串比较运算符
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# 字串比較運運算元{#string-comparison-operators}
+# 字符串比较运算符{#string-comparison-operators}
 
 由SystemFieldCondition/op和MetadataCondition/op使用。
 

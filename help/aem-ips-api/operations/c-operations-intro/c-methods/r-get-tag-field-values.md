@@ -1,5 +1,5 @@
 ---
-description: 取得為一個或多個標籤欄位定義的所有標籤字典值。
+description: 获取为一个或多个标记字段定义的所有标记字典值。
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getTagFieldValues{#gettagfieldvalues}
 
-取得為一個或多個標籤欄位定義的所有標籤字典值。
+获取为一个或多个标记字段定义的所有标记字典值。
 
 语法
 
-## 授權的使用者型別 {#section-cc36a437394c491594e704a08a161c87}
+## 授权用户类型 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,18 +32,18 @@ ht-degree: 18%
 
 ## 参数 {#section-9ad806e7736e4d51ae42cad185050cf9}
 
-**輸入(getTagFieldValuesReturn)**
+**输入(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含標籤欄位之公司的控制代碼。 |
-| fieldHandleArray | `types:HandleArray` | 是 | 標籤要傳回之值的欄位控制代碼陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| fieldHandleArray | `types:HandleArray` | 是 | 用于标记要返回值的字段句柄数组。 |
 
-**輸出(getTagFieldValuesReturn)**
+**输出(getTagFieldValuesReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| fieldArray | `types:TagFieldValuesArray` | 是 | 字典中每個請求欄位的標籤值陣列。 |
+| fieldArray | `types:TagFieldValuesArray` | 是 | 字典中每个请求字段的标记值数组。 |
 
 ## 示例 {#section-4492742614e44bb191a7d397dc1a1407}
 

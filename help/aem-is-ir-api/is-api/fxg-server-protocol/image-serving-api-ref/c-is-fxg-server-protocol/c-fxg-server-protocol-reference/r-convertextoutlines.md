@@ -1,5 +1,5 @@
 ---
-description: 將PDF檔案中的文字轉換為外框。
+description: 将PDF文件中的文本转换为外框。
 solution: Experience Manager
 title: convertTextToOutline
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # convertTextToOutline{#converttexttooutlines}
 
-將PDF檔案中的文字轉換為外框。
+将PDF文件中的文本转换为外框。
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
@@ -23,6 +23,6 @@ ht-degree: 1%
  </tr> 
 </table>
 
-使用URL命令 `convertTextToOutlines=1` 將PDF檔案中的所有文字變更為輪廓化路徑。
+使用URL命令 `convertTextToOutlines=1` 将PDF文件中的所有文本更改为轮廓化路径。
 
-將任何效果套用至PDF檔案中的文字時（例如將文字轉換為外框），最終演算後的影像會縮小或「平面化」大小。
+当对PDF文件中的文本应用任何效果时（例如将文本转换为轮廓），最终渲染的图像将缩小或“拼合”大小。

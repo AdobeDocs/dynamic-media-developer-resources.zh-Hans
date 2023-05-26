@@ -1,6 +1,6 @@
 ---
 title: 导航
-description: Video Viewer的URL命令。
+description: 视频查看器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 13%
 
 # 导航{#navigation}
 
-Video Viewer的URL命令。
+视频查看器的URL命令。
 
 ` navigation= *`文件`*`
 
-檢視器支援透過託管的WebVTT檔案進行視訊章節導覽。 不支援提示定位運運算元。
+查看器支持通过托管的WebVTT文件导航视频章节。 不支持提示定位运算符。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 檔案</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定URL或WebVTT導覽內容的路徑。 「影像伺服」應託管WebVTT檔案。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 文件</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT导航内容的URL或路径。 图像服务应托管WebVTT文件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

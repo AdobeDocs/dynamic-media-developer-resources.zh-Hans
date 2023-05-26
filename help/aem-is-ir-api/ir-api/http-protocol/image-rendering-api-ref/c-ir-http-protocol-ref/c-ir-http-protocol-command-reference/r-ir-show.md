@@ -1,6 +1,6 @@
 ---
 title: 顯示
-description: 顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋框架物件）都可見。
+description: 显示重叠对象。 使当前选区中所有先前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # 顯示{#show}
 
-顯示重疊物件。 使目前選取範圍中所有先前隱藏的重疊物件（包括視窗覆蓋框架物件）都可見。
+显示重叠对象。 使当前选区中所有先前隐藏的重叠对象（包括窗口覆盖框架对象）都可见。
 
 `Show[= *`val`*]`
 
@@ -25,13 +25,13 @@ ht-degree: 8%
  </tr> 
 </table>
 
-## 屬性 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
+## 属性 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-如果目前選取範圍不包含任何重疊物件，或是沒有隱藏的重疊物件，則忽略。
+如果当前选定范围不包括任何重叠对象，或者没有隐藏重叠对象，则忽略。
 
 ## 默认 {#section-04972797d24d4b9f93790a31dfaa4743}
 
-「無」，表示物件可見度沒有變更。
+无，表示对象可见性没有变化。
 
 ## 另请参阅 {#section-2a1a37a35dfb41758897164e14f0105f}
 

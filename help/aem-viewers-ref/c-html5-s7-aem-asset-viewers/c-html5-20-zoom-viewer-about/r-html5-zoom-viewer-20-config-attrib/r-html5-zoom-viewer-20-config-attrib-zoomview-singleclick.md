@@ -20,18 +20,18 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> 設定按一下/點選以縮放動作的對應。 設定為 <span class="codeph"> 無 </span> 停用按一下/點選縮放。 若設為 <span class="codeph"> 縮放 </span> 按一下影像可放大一個步階單位；按住CTRL鍵並按一下滑鼠可縮小一個步階單位。 設定為 <span class="codeph"> 重設 </span> 使得按一下影像即可將縮放重設為初始縮放等級。 對象 <span class="codeph"> zoomReset </span>，若目前縮放因數位於或超出指定限制會套用reset，否則會套用zoom。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按以缩放操作的映射。 将设置为 <span class="codeph"> 无 </span> 禁用单击/点按缩放。 如果设置为 <span class="codeph"> 缩放 </span> 单击图像可放大一个缩放步长；按住CTRL键并单击可缩小一个缩放步长。 将设置为 <span class="codeph"> 重置 </span> 单击图像可将缩放重置为初始缩放级别。 对象 <span class="codeph"> zoomReset </span>，如果当前缩放因子达到或超过指定限制，则会应用重置，否则应用缩放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 
 ## 默认 {#section-71fb773f814649b2885aefee68073641}
 
-`zoomReset`  — 桌上型電腦； `none` 在觸控裝置上。
+`zoomReset`  — 台式计算机； `none` 在触控设备上。
 
 ## 示例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
 

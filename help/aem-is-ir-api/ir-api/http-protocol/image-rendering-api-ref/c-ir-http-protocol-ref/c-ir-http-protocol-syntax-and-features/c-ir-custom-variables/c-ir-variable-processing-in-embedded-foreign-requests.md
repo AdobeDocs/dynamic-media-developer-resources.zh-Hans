@@ -1,6 +1,6 @@
 ---
-title: 內嵌外部請求中的變數處理
-description: 內嵌外部請求大括弧內任何位置出現的$var$參考會被相符的變數定義值取代。
+title: 嵌入的外来请求中的变量处理
+description: 在嵌入的外来请求的大括号内的任何位置出现的$var$引用将被匹配的变量定义值替换。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 內嵌外部請求中的變數處理{#variable-processing-in-embedded-foreign-requests}
+# 嵌入的外来请求中的变量处理{#variable-processing-in-embedded-foreign-requests}
 
-任何 `$var$` 內嵌外部請求大括弧內任何位置發生的參考，會以相符的變數定義值取代。
+任意 `$var$` 在嵌入的外来请求的大括号内的任何位置发生的引用将被匹配的变量定义值替换。
 
-允許將內嵌的外部請求放置在影像目錄的範本中。
+允许将嵌入的外部请求放入图像目录的模板中。
 
-要取代成外部請求的變數值通常必須經過雙重編碼，因為在伺服器嘗試傳輸最終的外部URL之前，不會套用重新編碼。
+要替换成外请求的变量值通常必须双重编码，因为在服务器尝试传输最终的外部URL之前不会应用重新编码。

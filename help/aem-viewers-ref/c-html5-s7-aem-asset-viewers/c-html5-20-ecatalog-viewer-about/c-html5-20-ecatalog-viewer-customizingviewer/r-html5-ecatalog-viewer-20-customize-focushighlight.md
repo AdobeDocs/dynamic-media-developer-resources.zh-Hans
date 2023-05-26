@@ -1,6 +1,6 @@
 ---
-title: 焦點反白顯示
-description: 焦點檢視器使用者介面元素周圍顯示的輸入焦點反白顯示。
+title: 焦点高亮
+description: 焦点查看器用户界面元素周围显示的输入焦点高亮。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,30 +12,30 @@ ht-degree: 0%
 
 ---
 
-# 焦點反白顯示{#focus-highlight}
+# 焦点高亮{#focus-highlight}
 
-焦點檢視器使用者介面元素周圍顯示的輸入焦點反白顯示。
+焦点查看器用户界面元素周围显示的输入焦点高亮。
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-焦點反白顯示的外觀是由下列CSS類別選取器所控制：
+焦点高亮显示的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogviewer *:focus
 ```
 
-**焦點反白顯示的CSS屬性**
+**焦点突出显示的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大綱 </span> </p> </td> 
-   <td colname="col2"> <p> 焦點反白顯示樣式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 大纲 </span> </p> </td> 
+   <td colname="col2"> <p> 焦点高亮样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 若要停用所有檢視器使用者介面元素的預設瀏覽器焦點反白顯示，請將下列CSS選取器新增至檢視器的樣式表：
+示例 — 要禁用所有查看器用户界面元素的默认浏览器焦点高亮显示，请将以下CSS选择器添加到查看器的样式表中：
 
 ```
 .s7ecatalogviewer *:focus { 

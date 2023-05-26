@@ -1,5 +1,5 @@
 ---
-description: 使用者端訊息。 提供使用者端將短文字訊息插入伺服器記錄的機制。
+description: 客户端消息。 为客户端提供一种机制，以便将短文本消息插入到服务器日志中。
 solution: Experience Manager
 title: 消息
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 7%
 
 # 消息{#message}
 
-使用者端訊息。 提供使用者端將短文字訊息插入伺服器記錄的機制。
+客户端消息。 为客户端提供一种机制，以便将短文本消息插入到服务器日志中。
 
 `req=message&message= *`字串`*`
 
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 字串</span> </p> </td> 
-  <td class="stentry"> <p>訊息字串。 </p></td> 
+  <td class="stentry"> <p>消息字符串。 </p></td> 
  </tr> 
 </table>
 
-無法快取HTTP回應。 以MIME型別傳回空白回應 `text/plain`.
+无法缓存HTTP响应。 返回了MIME类型的空响应 `text/plain`.

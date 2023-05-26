@@ -1,7 +1,7 @@
 ---
-description: 影像演算會將記錄訊息傳送至影像伺服記錄機制。
+description: 图像渲染将日志消息发送到图像服务日志机制。
 solution: Experience Manager
-title: 伺服器記錄
+title: 服务器日志记录
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 83114821-4799-4d7f-93e8-5748a3707931
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 伺服器記錄{#server-logging}
+# 服务器日志记录{#server-logging}
 
-影像演算會將記錄訊息傳送至影像伺服記錄機制。
+图像渲染将日志消息发送到图像服务日志机制。
 
-如需記錄系統組態和功能的說明，請參閱影像伺服檔案。
+有关日志记录系统配置和功能的说明，请参阅图像服务文档。

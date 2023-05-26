@@ -1,5 +1,5 @@
 ---
-description: 將檔案發佈至影像伺服器。
+description: 将文件发布到图像服务器。
 solution: Experience Manager
 title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageServingPublishJob]{#imageservingpublishjob}
 
-將檔案發佈至影像伺服器。
+将文件发布到图像服务器。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| publishType | `xsd:string` | 其中一個可用的發佈型別。 |
-| emailSetting | `xsd:string` | 選擇電子郵件設定。 |
-| httpCompletionUrl | `xsd:string` | 用於傳送完成通知的URL。 |
+| publishtype | `xsd:string` | 可用的发布类型之一。 |
+| 电子邮件设置 | `xsd:string` | 电子邮件设置的选择。 |
+| httpCompletionUrl | `xsd:string` | 用于发送完成通知的URL。 |

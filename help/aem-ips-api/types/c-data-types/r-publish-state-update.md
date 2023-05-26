@@ -1,5 +1,5 @@
 ---
-description: 用於更新資產發佈狀態的引數。
+description: 用于更新资源的发布状态的参数。
 solution: Experience Manager
 title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PublishStateUpdate]{#publishstateupdate}
 
-用於更新資產發佈狀態的引數。
+用于更新资源的发布状态的参数。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 資產控點。 |
-| publishState | `xsd:string` | 新發佈狀態。 |
+| assetHandle | `xsd:string` | 资源句柄。 |
+| publishState | `xsd:string` | 新建发布状态。 |

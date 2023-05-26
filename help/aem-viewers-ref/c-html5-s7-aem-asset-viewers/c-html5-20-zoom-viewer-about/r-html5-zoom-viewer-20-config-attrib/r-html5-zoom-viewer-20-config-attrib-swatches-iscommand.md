@@ -20,12 +20,12 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 套用至所有色票的「影像伺服」命令字串。 若在URL中指定，請確定您對所有出現的專案進行HTTP編碼 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作為 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>（分別）。 </p> <p> <p>注意：不支援影像大小調整操控命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 应用于所有样本的图像服务命令字符串。 如果在URL中指定，请确保对所有匹配项进行HTTP编码 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 
@@ -35,10 +35,10 @@ ht-degree: 6%
 
 ## 示例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-在檢視器URL中指定時。
+在查看器URL中指定时。
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-在設定資料中指定時。
+在配置数据中指定时。
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

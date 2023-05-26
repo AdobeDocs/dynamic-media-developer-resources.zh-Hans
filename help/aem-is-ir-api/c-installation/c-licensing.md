@@ -1,6 +1,6 @@
 ---
-title: 授權
-description: 若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須在要使用「影像伺服」的每個系統上安裝。
+title: 许可
+description: 要使用图像服务，需要Dynamic Media图像服务许可证密钥，并且必须在要使用图像服务的每个系统上安装。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 授權{#licensing}
+# 许可{#licensing}
 
-若要使用「影像伺服」，需要Dynamic Media影像伺服授權金鑰，且必須在要使用「影像伺服」的每個系統上安裝。
+要使用图像服务，需要Dynamic Media图像服务许可证密钥，并且必须在要使用图像服务的每个系统上安装。
 
-同樣地，若要使用影像演算，需要Dynamic Media影像演算授權金鑰。 影像演算可在沒有「影像伺服」授權的情況下使用，反之亦然。
+同样，要使用图像渲染，需要Dynamic Media图像渲染许可证密钥。 可以在没有图像服务许可证的情况下使用图像渲染，反之亦然。
 
-安裝程式包括取得和安裝必要授權金鑰的步驟。
+安装过程包括获取和安装必要的许可证密钥的步骤。

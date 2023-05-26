@@ -1,7 +1,7 @@
 ---
-description: 預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
+description: 默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译目的的区域设置ID。
 solution: Experience Manager
-title: DefaultLocale
+title: 默认区域设置
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a7f40099-c89c-4653-aa50-f0475257a82b
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# DefaultLocale{#defaultlocale}
+# 默认区域设置{#defaultlocale}
 
-預設地區ID。 請求中未指定locale=時，地區ID可用於本地化/翻譯目的。
+默认区域设置ID。 未在请求中指定locale=时用于本地化/翻译目的的区域设置ID。
 
-## 屬性 {#section-a101e9658d304e9caf032a99ecb80386}
+## 属性 {#section-a101e9658d304e9caf032a99ecb80386}
 
-文字字串。 忽略條件 `attribute::LocaleMap` 和 `attribute::LocaleStrMap` 空白，或當 `locale=` 已指定且非空白。
+文本字符串。 忽略条件 `attribute::LocaleMap` 和 `attribute::LocaleStrMap` 为空，或当 `locale=` 指定且非空。
 
 ## 另请参阅 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 

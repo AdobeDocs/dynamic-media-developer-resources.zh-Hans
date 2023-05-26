@@ -1,5 +1,5 @@
 ---
-description: 取得屬於特定公司和群組的使用者。
+description: 获取属于特定公司和组的用户。
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getGroupMembers{#getgroupmembers}
 
-取得屬於特定公司和群組的使用者。
+获取属于特定公司和组的用户。
 
 语法
 
-## 授權的使用者型別 {#section-08a73460d122480292205bb8f2df9220}
+## 授权用户类型 {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,22 +26,22 @@ ht-degree: 18%
 
 ## 参数 {#section-b798b06354c946abbb90fa72cc9c67fd}
 
-**輸入(getGroupMembersParam)**
+**输入(getGroupMembersParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
-| groupHandle | `xsd:string` |  | 群組的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| groupHandle | `xsd:string` |  | 组的句柄。 |
 
-**輸出(getGroupMembersReturn)**
+**输出(getGroupMembersReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandleArray | `type:HandleArray` | 是 | 使用者控制代碼陣列。 |
+| userHandleArray | `type:HandleArray` | 是 | 用户句柄数组。 |
 
 ## 示例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-此程式碼範例會傳回包含屬於特定群組之所有使用者的使用者控制代碼陣列。
+此代码示例返回一个用户句柄数组，其中包含属于特定组的所有用户。
 
 **请求**
 

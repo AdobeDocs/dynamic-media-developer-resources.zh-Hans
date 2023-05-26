@@ -1,6 +1,6 @@
 ---
 title: RootUrl
-description: 相對影像URL的根URL。 指定相對影像URL的根URL。
+description: 相对图像URL的根URL。 指定相对图像URL的根URL。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # RootUrl{#rooturl}
 
-相對影像URL的根URL。 指定相對影像URL的根URL。 此`attribute::RootUrl` 已使用，而不是 `attribute::RootPath` 當 `src=` 值由{ curly braces }括住。
+相对图像URL的根URL。 指定相对图像URL的根URL。 此`attribute::RootUrl` 被使用，而不是 `attribute::RootPath` 当 `src=` 值由{ curly braces }括起来。
 
-## 屬性 {#section-69cd0f71ea614770a8778c745d23197a}
+## 属性 {#section-69cd0f71ea614770a8778c745d23197a}
 
-文字字串值。 絕對URL根路徑，包括前導通訊協定識別碼。 支援下列通訊協定：HTTP、HTTPS和FTP。
+文本字符串值。 绝对URL根路径，包括前导协议标识符。 支持以下协议：HTTP、HTTPS和FTP。
 
 ## 默认 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-繼承自 `default::RootUrl` 若未定義。 如果已定義但空白，此材質目錄不支援相對URL。
+继承自 `default::RootUrl` 如果未定义。 如果已定义但为空，则此材质目录不支持相对URL。
 
 ## 另请参阅 {#section-e33bbe7034b24367b68f9142718a8be1}
 

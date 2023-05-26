@@ -1,7 +1,7 @@
 ---
-description: getPhotoshopPath作業傳回的影像位置座標。
+description: getPhotoshopPath操作返回的图像位置坐标。
 solution: Experience Manager
-title: 四軸透視
+title: 透视四色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # [!DNL PerspectiveQuad]{#perspectivequad}
 
-getPhotoshopPath作業傳回的影像位置座標。
+getPhotoshopPath操作返回的图像位置坐标。
 
 语法
 
@@ -22,18 +22,18 @@ getPhotoshopPath作業傳回的影像位置座標。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| x0 | `xsd:double` | 左上x軸座標。 |
-| y0 | `xsd:double` | 左上y軸座標。 |
-| x1 | `xsd:double` | 右上x軸座標。 |
-| y1 | `xsd:double` | 右上y軸座標。 |
-| x2 | `xsd:double` | 右下x軸座標。 |
-| y2 | `xsd:double` | 右下y軸座標。 |
-| x3 | `xsd:double` | 左下x軸座標。 |
-| y3 | `xsd:double` | 左下y軸座標。 |
+| x0 | `xsd:double` | 左上x轴坐标。 |
+| y0 | `xsd:double` | 左上y轴坐标。 |
+| x1 | `xsd:double` | 右上x轴坐标。 |
+| y1 | `xsd:double` | 右上y轴坐标。 |
+| x2 | `xsd:double` | 右下x轴坐标。 |
+| y2 | `xsd:double` | 右下y轴坐标。 |
+| x3 | `xsd:double` | 左下x轴坐标。 |
+| y3 | `xsd:double` | 左下y轴坐标。 |
 
 ## 示例 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-此 `PerspectiveQuad` type會依照以下順序傳回資料：
+此 `PerspectiveQuad` type按以下顺序返回数据：
 
 ```
 <complexType name="PerspectiveQuad">

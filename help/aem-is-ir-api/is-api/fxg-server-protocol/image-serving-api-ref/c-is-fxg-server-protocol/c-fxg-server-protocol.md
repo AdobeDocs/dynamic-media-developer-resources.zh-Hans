@@ -1,5 +1,5 @@
 ---
-title: FXG伺服器通訊協定
+title: FXG服务器协议
 description: 要处理图形，您可以使用参考点（类似于罗经点）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,18 +12,18 @@ ht-degree: 69%
 
 ---
 
-# FXG伺服器通訊協定{#fxg-server-protocol}
+# FXG服务器协议{#fxg-server-protocol}
 
 要处理图形，您可以使用参考点（类似于罗经点）。
 
-使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。參照點為 `northWest`， `north`， `northEast`， `west`， `center`， `east`， `southWest`， `south`、和 `southeast`. 例如，使用中心參照點可將圖形中心旋轉45度。 下圖顯示參考點所在的位置、圖形，以及圖形自其旋轉20° `northWest` 參考點，且圖形會從其旋轉20度 `east` 參考點。
+使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点包括 `northWest`， `north`， `northEast`， `west`， `center`， `east`， `southWest`， `south`、和 `southeast`. 例如，通过使用中心参照点，可以将图形的中心旋转45°。 下图显示参考点所在的位置、图形，图形从其旋转20° `northWest` 参考点，图形从其旋转20° `east` 参考点。
 
-![參考點影像](assets/wp_ref_points.png)
+![参考点图像](assets/wp_ref_points.png)
 
-* A.參考點位置
-* B.圖形
-* C.圖形旋轉20度 `northWest` 參考點
-* D.圖形旋轉了20° `east` 參考點
+* A.参考点位置
+* B.图表
+* C.图形旋转20° `northWest` 参考点
+* D.图形旋转了20° `east` 参考点
 
 语法如下：
 

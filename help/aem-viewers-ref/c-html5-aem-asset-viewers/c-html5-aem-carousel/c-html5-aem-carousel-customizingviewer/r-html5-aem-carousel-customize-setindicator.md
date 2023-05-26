@@ -1,6 +1,6 @@
 ---
-title: 設定指標
-description: 設定指標是呈現在檢視器底部的一系列點。 它會顯示集合中的目前位置。
+title: 设置指示器
+description: 设置指示器是显示在查看器底部的一系列点。 它显示集合中的当前位置。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 設定指標{#set-indicator}
+# 设置指示器{#set-indicator}
 
-設定指標是呈現在檢視器底部的一系列點。 它會顯示集合中的目前位置。
+设置指示器是显示在查看器底部的一系列点。 它显示集合中的当前位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**設定指標的CSS屬性**
+**设置指示器的CSS属性**
 
-設定指示器容器的外觀是由下列CSS類別選取器所控制：
+使用以下CSS类选择器控制设置指示器容器的外观：
 
 ```
 .s7carouselviewer .s7setindicator
@@ -29,23 +29,23 @@ ht-degree: 1%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>設定指示器的十六進位格式的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>设置指示器的十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->設定指標支援模式屬性選取器，可用來將不同的樣式套用至點狀和數值運算模式。 尤其是， `mode="numeric"` 與數值運算模式相對應； `mode="dotted"` 對應至預設點狀態。
+>设置指示符支持模式属性选择器，您可以使用它来为点状和数字操作模式应用不同的样式。 特别是， `mode="numeric"` 对应于数值运算模式； `mode="dotted"` 对应于缺省点状态。
 
-例如，假設您要設定具有白色背景的設定指標：
+例如，假设您要设置一个具有白色背景的设置指示器：
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -53,78 +53,78 @@ ht-degree: 1%
 }
 ```
 
-個別設定指標點的外觀是由CSS類別選取器所控制。 它適用於點狀和數值運算模式的專案。
+单个设置指示符点的外观由CSS类选择器控制。 它适用于点状和数字运算模式下的项目。
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>設定指標點的寬度。 </p> </td> 
+   <td colname="col2"> <p>设置指示器点的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>設定指標點的高度。 </p> </td> 
+   <td colname="col2"> <p>设置指示点的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左邊界 </span> </p> </td> 
-   <td colname="col2"> <p>以畫素為單位的左側邊界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col2"> <p>左边距（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 頂端邊界 </span> </p> </td> 
-   <td colname="col2"> <p>上邊界（畫素）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col2"> <p>上边距（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右邊界 </span> </p> </td> 
-   <td colname="col2"> <p>以畫素為單位的右邊界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 右边距 </span> </p> </td> 
+   <td colname="col2"> <p>以像素为单位的右边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下方邊界 </span> </p> </td> 
-   <td colname="col2"> <p>下方邊界（畫素）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 下边距 </span> </p> </td> 
+   <td colname="col2"> <p>下边距（像素）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>邊框半徑（畫素）。 </p> </td> 
+   <td colname="col2"> <p>边框半径（像素）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>以十六進位格式表示的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>字型名稱。 </p> </td> 
+   <td colname="col2"> <p>字体的名称。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>字型大小。 </p> </td> 
+   <td colname="col2"> <p>字体大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>字型色彩。 </p> </td> 
+   <td colname="col2"> <p>字体的颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>橫幅索引的垂直對齊方式。 </p> </td> 
+   <td colname="col2"> <p>横幅索引的垂直对齐方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
-   <td colname="col2"> <p>橫幅索引的文字高度。 </p> </td> 
+   <td colname="col2"> <p>横幅索引的文本高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->設定指標專案支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 與集合中的目前元素相對應； `state="unselected"` 對應至預設專案狀態。
+>设置指标项支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于集合中的当前元素； `state="unselected"` 对应于缺省项目状态。
 
-例如，假設您想要為桌上型電腦系統以點狀模式設定設定指標。 您希望它位於距離檢視器底部20畫素的位置。 而且，您想要未選取的點為黑色，透明度為50%，15 x 15畫素為7畫素圓角。 選取的點為黑色，透明度為90%，18 x 18畫素為9畫素圓角。 點之間的間距是五個畫素。
+例如，假设您要为桌面系统以点状模式设置一个设置指示器。 您希望将其放在距离查看器底部20像素的位置。 并且，您希望未选取的点为黑色，透明度为50%，像素为15 x 15，圆角为7像素。 所选点为黑色，透明度为90%，像素为18 x 18，圆角为9像素。 点之间的间距为5像素。
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

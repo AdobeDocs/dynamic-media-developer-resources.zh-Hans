@@ -1,6 +1,6 @@
 ---
-title: 選取
-description: 依畫素位置選取物件。
+title: sel
+description: 按像素位置选择对象。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 2%
 
 ---
 
-# 選取{#sel}
+# sel{#sel}
 
-依畫素位置選取物件。
+按像素位置选择对象。
 
 ` sel= *`x`*, *`y`*[, *`level`*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> x，y </span> </p> </td> 
-  <td class="stentry"> <p>挑選以畫素(int、int)為單位的位置座標。 </p> </td> 
+  <td class="stentry"> <p>选取以像素(int， int)为单位的位置坐标。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 级别 </span> </p> </td> 
-  <td class="stentry"> <p>群組層級(int)。 </p> </td> 
+  <td class="stentry"> <p>组级别(int)。 </p> </td> 
  </tr> 
 </table>
 
-在指定的畫素座標處選取群組或物件 *`x, y`* 並開始新的MSS。 如果撿料位置沒有可選取的物件，或者撿料位置無效，則指定的動作為 `attribute::OnFailSel` 已採用。
+在指定的像素坐标处选择组或对象 *`x, y`* 开始新的移动卫星系统。 如果拾取位置没有可选对象，或者拾取位置无效，则指定的操作将由 `attribute::OnFailSel` 已获取。
 
-*`level`* 指定是選取最外層的群組，還是向下展開至巢狀群組或物件。 若 *`level`* 未指定，則會選取最外層的群組。 設為1可選取最外層群組下方的一個群組層級。 設定為大數（例如99）可選取最內側的選取物件或群組。
+*`level`* 指定是选择最外部的组，还是向下钻取到嵌套组或对象。 如果 *`level`* 未指定，则选择最外部的组。 设置为1可选择最外层组下方的一个组级别。 设置为一个较大的数字（如99）以选择最内层的可选对象或组。
 
-## 屬性 {#section-8f27e84d88734a62a5e398e0c9972bdc}
+## 属性 {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-選取範圍指令；MSS分隔符號。 物件選取項會持續存在，直到選取其他物件為止，或是使用 `obj=` 或 `sel=`.
+选择命令；MSS分隔符。 对象选择将一直持续到选择其他对象为止，可使用以下任一选项进行选择 `obj=` 或 `sel=`.
 
-*`x, y`* 必須介於0， 0 （影像的左上角）到 *`wid`*-1， *`hei`*-1 （影像的右下角），其中 *`wid`* 和 *`hei`* 是未縮放暈映檢視的大小。
+*`x, y`* 必须介于0、0（图像的左上角）到之间 *`wid`*-1， *`hei`*-1（图像的右下角），其中 *`wid`* 和 *`hei`* 是未缩放晕影视图的大小。
 
-若指定， *`level`* 必須為0或更大。
+如果指定， *`level`* 必须为0或更大。
 
 ## 默认 {#section-e13c705a3e76468894b4ec190ed8a893}
 
-無對象 *`x, y`*. *`level`* 預設為0。
+无对象 *`x, y`*. *`level`* 默认为0。
 
 ## 另请参阅 {#section-486842570b4e4bf895f6ccc172ebd8b2}
 

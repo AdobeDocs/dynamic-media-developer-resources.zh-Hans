@@ -20,12 +20,12 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>指定元件預先載入行為。 </p> <p>當設定為 <span class="codeph"> -1</span> 當處於閒置狀態時，元件會預先載入所有目錄影格。 </p> <p> 當設定為 <span class="codeph"> 0</span> 元件僅載入目前可見的影格、上一個和下一個影格。 </p> <p>設定 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定義在閒置狀態中預先載入目前顯示影格周圍的不可見影格數。 </p> </td> 
+   <td colname="col2"> <p>指定组件预载行为。 </p> <p>当设置为 <span class="codeph"> -1</span> 组件在空闲状态下预加载所有目录帧。 </p> <p> 当设置为 <span class="codeph"> 0</span> 组件仅加载当前可见的帧、上一帧和下一帧。 </p> <p>设置 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定义在空闲状态下预载当前显示帧周围的多少不可见帧。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-4b7952997f9240e581d21bcdb173f9af}
+## 属性 {#section-4b7952997f9240e581d21bcdb173f9af}
 
 可选.
 

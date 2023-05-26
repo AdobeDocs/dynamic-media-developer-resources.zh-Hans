@@ -1,5 +1,5 @@
 ---
-description: Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
+description: Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单位）。
 solution: Experience Manager
 title: jpegSize
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # jpegSize{#jpegsize}
 
-Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單位）。
+Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单位）。
 
 `jpegSize= *`大小`*`
 
@@ -25,15 +25,15 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單�
  </tr> 
 </table>
 
-如果將此值設為正值，而且具有指定JPEG品質的JPEG回應未超過此值，則會傳回該影像作為回應。 否則，JPEG品質會降低，直到產生符合指定大小的影像或確定它無法符合為止。 在後一種情況下，要求會失敗並出現錯誤。
+如果将此值设置为正值，并且具有指定JPEG质量的JPEG响应未超过此值，则该图像将作为响应返回。 否则，JPEG质量会下降，直到生成符合指定大小的图像，或直到确定它无法适合。 在后一种情况下，请求失败并出现错误。
 
-0值表示回應不受大小限制。
+值为0表示响应不受大小限制。
 
-不允許負值。
+不允许使用负值。
 
-## 屬性 {#section-19e544e77d35478b98fe8666f27d6968}
+## 属性 {#section-19e544e77d35478b98fe8666f27d6968}
 
-要求屬性。 無論目前的圖層設定為何，均適用。 如果輸出影像格式不是JPEG，則忽略。
+请求属性。 无论当前图层设置如何，均适用。 如果输出图像格式不JPEG，则忽略。
 
 ## 默认 {#section-198b798ed187453197e0969c641d6fb5}
 
@@ -41,7 +41,7 @@ Jpeg大小（以KB為單位）。 指定JPEG回應的最大大小（以KB為單�
 
 ## 示例 {#section-46bf806fd3ef4875b7726df32b6f834d}
 
-保證大小不會太大，無法傳遞至記憶體有限的裝置：
+对于内存有限的设备，保证的大小不会太大：
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300&jpegSize=10`
 

@@ -1,6 +1,6 @@
 ---
 title: setvideo
-description: Video360檢視器的JavaScript API參考
+description: 适用于Video360查看器的JavaScript API参考
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # setvideo{#setvideo}
 
-Video360檢視器的JavaScript API參考
+适用于Video360查看器的JavaScript API参考
 
 `setVideo(videoUrl)`
 
-設定新的外部視訊。 可以隨時呼叫，無論是在之前還是之後 `init()`. 若在之後呼叫 `init()`，檢視器會在執行階段交換視訊。
+设置新的外部视频。 可以随时调用，无论是在之前还是之后 `init()`. 如果在之后调用 `init()`时，查看器会在运行时交换视频。
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
 ## 参数 {#section-b6affc90b3a84584b684641c86862e01}
 
@@ -28,12 +28,12 @@ Video360檢視器的JavaScript API參考
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 字串</span>}新視訊的絕對URL。 </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 字符串</span>}新视频的绝对URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

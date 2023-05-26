@@ -1,5 +1,5 @@
 ---
-description: 發佈歷程記錄的陣列。
+description: 发布历史记录的数组。
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-發佈歷程記錄的陣列。
+发布历史记录的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:PublishHistory` | 發佈歷程記錄陣列。 |
+| 项目 | `types:PublishHistory` | 发布历史记录数组。 |

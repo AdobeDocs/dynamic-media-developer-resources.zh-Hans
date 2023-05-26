@@ -1,6 +1,6 @@
 ---
-title: 使用Responsive影像資料庫
-description: 若要將Responsive影像庫新增至網頁，並使用庫管理現有影像，請完成下列步驟。
+title: 使用Responsive图像库
+description: 要将响应式图像库添加到网页并使用库管理现有图像，请完成以下步骤。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 ---
 
-# 使用Responsive影像資料庫{#using-responsive-image-library}
+# 使用Responsive图像库{#using-responsive-image-library}
 
-若要將Responsive影像庫新增至網頁，並使用庫管理現有影像，請完成下列步驟。
+要将响应式图像库添加到网页并使用库管理现有图像，请完成以下步骤。
 
-**若要使用Responsive影像資料庫**
+**使用响应图像库**
 
-1. 在Dynamic Media Classic中， [建立影像預設集](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 以防您計畫搭配預設集使用回應式影像資料庫。
+1. 在Dynamic Media Classic中， [创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 以防您计划将Responsive Image库与预设一起使用。
 
-   定義與Responsive影像資料庫一起使用的影像預設集時，請勿使用任何會影響影像大小的設定，例如 `wid=`， `hei=`，或 `scl=`. 請勿在影像預設集中指定任何大小欄位。 請改為保留為空白值。
-1. 將資料庫JavaScript檔案新增至您的網頁。
+   定义与响应式图像库一起使用的图像预设时，请勿使用任何影响图像大小的设置，例如 `wid=`， `hei=`，或 `scl=`. 请勿在图像预设中指定任何大小字段。 相反，请将其保留为空白值。
+1. 将库JavaScript文件添加到您的网页。
 
-   使用程式庫API之前，請務必先包含 `responsive_image.js`. 此JavaScript檔案位於 `libs/` 標準IS-Viewers部署的子資料夾：
+   在使用库API之前，请确保包含 `responsive_image.js`. 此JavaScript文件位于 `libs/` 标准IS-Viewers部署的子文件夹：
 
    `<s7viewers_root>/libs/responsive_image.js`
-1. 設定現有影像。
+1. 设置现有图像。
 
-   程式庫會從正在使用的影像執行個體讀取某些設定屬性。 在之前定義屬性 `s7responsiveImage` 這類影像會呼叫API函式。
+   库会从其正在处理的图像实例中读取某些配置属性。 在之前定义属性 `s7responsiveImage` 此类图像将调用API函数。
 
-   也建議您將現有的影像URL放入 `data-src` 屬性。 然後，設定現有的 `src` 屬性，將1x1GIF影像編碼為資料URI。 如此一來，可減少網頁在載入時傳送的HTTP要求數目。 不過請注意，如果需要SEO （搜尋引擎最佳化），最好設定 `title` 屬性。
+   还建议您将现有图像URL放入 `data-src` 属性。 然后，设置现有 `src` 属性，将1x1GIF图像编码为数据URI。 这样，可以减少网页在加载时发送的HTTP请求数。 但请注意，如果需要使用SEO（搜索引擎优化），最好设置 `title` 属性。
 
-   以下範例為定義 `data-breakpoints` 屬性，並使用編碼為資料URI的1x1GIF：
+   以下示例用于定义 `data-breakpoints` 属性，并使用编码为数据URI的1x1GIF：
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. 呼叫 `s7responsiveImage` 適用於資料庫管理的每個影像例項的API函式。
+1. 调用 `s7responsiveImage` 库管理的每个图像实例的API函数。
 
-   呼叫 `s7responsiveImage` 適用於資料庫管理的每個影像例項的API函式。 進行這類呼叫後，資料庫會根據的執行階段大小，以從「影像伺服」下載的影像取代原始影像。 `IMG` 元素以及裝置熒幕的密度。
+   调用 `s7responsiveImage` 库管理的每个图像实例的API函数。 进行此类调用后，库会根据的运行时大小，使用从图像服务下载的图像替换原始图像 `IMG` 元素和设备屏幕的密度。
 
-   下列程式碼是呼叫的範例 `s7responsiveImage` 影像上的API函式，假設 `responsiveImage` 是該影像的ID：
+   以下代码是调用的示例 `s7responsiveImage` 图像上的API函数，假定 `responsiveImage` 是该图像的ID：
 
    ```
    <script type="text/javascript"> 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 ## 示例 {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-資料庫支援同時使用網頁上的許多影像執行個體。 因此，請針對您想要資料庫管理的每個影像，重複上述步驟1和2。
+库支持同时处理网页上的多个图像实例。 因此，请对您希望库管理的每个图像重复上述步骤1和2。
 
-網頁應負責設定影像元素的樣式，使其大小可彈性調整。 Responsive影像資料庫本身不會區分固定大小和「流動」影像。 如果套用至固定大小的影像，則只會載入新影像一次。
+网页负责设计图像元素的样式，使其尺寸灵活。 Responsive图像库本身不区分固定大小图像和“流畅”图像。 如果应用于固定大小的图像，则仅加载新图像一次。
 
-下列程式碼為簡單網頁的完整範例，該網頁具有由Responsive Image資料庫管理的單一Fluid影像。 此範例包含額外的CSS樣式，可讓影像「回應」網頁瀏覽器視窗大小：
+以下代码是一个普通网页的完整示例，该网页具有由Responsive Image库管理的单个流体图像。 该示例包含额外的CSS样式，以使图像对Web浏览器窗口大小具有“响应性”：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -83,14 +83,14 @@ ht-degree: 0%
 </html>
 ```
 
-**使用智慧型裁切**
+**使用智能裁切**
 
-AEM 6.4和Dynamic Media Viewers 5.9提供兩種智慧型裁切模式：
+AEM 6.4和Dynamic Media Viewer 5.9中有两种智能裁切模式可用：
 
-* **手動**  — 使用者定義的中斷點和對應的影像服務命令會在影像元素的屬性內定義。
-* **智慧型裁切**  — 系統會自動從傳遞伺服器擷取運算智慧型裁切轉譯。 最佳轉譯是使用影像元素的執行階段大小來選取。
+* **手动**  — 用户定义的断点和相应的图像服务命令在图像元素的属性中定义。
+* **智能裁剪**  — 自动从投放服务器检索计算智能裁剪演绎版。 使用图像元素的运行时大小选择最佳演绎版。
 
-若要使用智慧型裁切模式，請設定 `data-mode` 屬性至 `smart crop`. 例如：
+要使用智能裁剪模式，请设置 `data-mode` 属性至 `smart crop`. 例如：
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-關聯的影像元素會傳送 `s7responsiveViewer` 執行階段中斷點變更時的事件。
+关联的图像元素调度 `s7responsiveViewer` 运行时断点更改时的事件。
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

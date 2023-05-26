@@ -1,6 +1,6 @@
 ---
 title: 粗加工
-description: 材料表面粗糙度。 指定材料曲面的相對粗糙度。
+description: 材料表面粗糙度。 指定材料曲面的相对粗糙度。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,31 +14,31 @@ ht-degree: 1%
 
 # 粗加工{#rough}
 
-材料表面粗糙度。 指定材料曲面的相對粗糙度。
+材料表面粗糙度。 指定材料曲面的相对粗糙度。
 
 ` rough= *`val`*`
 
 <table id="simpletable_432E33EC87144AC7A2A8D9406F862708"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>表面粗糙度(0...100%)或–1以選取預設粗糙度。 </p> </td> 
+  <td class="stentry"> <p>表面粗糙度(0...100%)或–1，以选择缺省粗糙度。 </p> </td> 
  </tr> 
 </table>
 
-用來控制3D反射演算效果。 較低的粗糙度值通常會產生更平滑的反射效果；較高的值會導致反射影像的隨機化和散射。
+用于控制3D反射渲染效果。 粗糙度值越低，反射效果越平滑；粗糙度值越高，反射图像越随机，散射越明显。
 
-每種材料型別( `type=`)會根據粗糙度定義最小和最大反射演算效果。 對於某些材料型別（例如牆紙）， `rough=` 對於反射外觀的影響很小，而對於其他材料型別（例如石頭或陶瓷），效果則明顯更明顯。
+每种材质类型( `type=`)根据粗糙度定义最小和最大反射渲染效果。 对于某些材料类型（例如，墙纸）， `rough=` 对反射外观的任何影响最小，而对于其他材料类型（例如石材或陶瓷），效果则要明显得多。
 
-`rough=-1` 將粗糙度設定為伺服器內部的預設值（一般材料型別的40%）。
+`rough=-1` 将粗糙度设置为服务器内部的默认值（典型材料类型为40%）。
 
-## 屬性 {#section-515375758b254c80af576271bdb61bb8}
+## 属性 {#section-515375758b254c80af576271bdb61bb8}
 
-材質屬性。 如果暈映沒有3D反射功能、目標物件沒有關聯的3D幾何，或目標物件未反射場景中的任何其他物件，則忽略此項。
+材质属性。 如果晕影没有3D反射功能、目标对象没有与其关联的3D几何，或者目标对象未反射场景中的任何其他对象，则忽略该项。
 
 ## 默认 {#section-11861a5e6e8649ee988267d2707fd7cc}
 
-`catalog::Roughness` 如果材料是以目錄專案為基礎，否則大約為40%。
+`catalog::Roughness` 如果材料基于目录条目，则约占40%。
 
 ## 另请参阅 {#section-d232fff7237443cc95c4bb50cb3d32bb}
 
-[type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35) ， [光澤=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)
+[type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35) ， [光泽=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca)

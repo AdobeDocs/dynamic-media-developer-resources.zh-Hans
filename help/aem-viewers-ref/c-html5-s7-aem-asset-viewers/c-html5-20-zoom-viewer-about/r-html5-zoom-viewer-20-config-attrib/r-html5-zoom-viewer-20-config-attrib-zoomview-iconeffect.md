@@ -14,30 +14,30 @@ ht-degree: 4%
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`淡化`*][, *`autoHide`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`渐隐`*][, *`自动隐藏`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用 <span class="codeph"> iconeffect</span> 當影像處於重設狀態時顯示在影像上方，這表示有可與影像互動的動作。 </p> </td> 
+   <td colname="col2"> <p> 启用 <span class="codeph"> iconeffect</span> 在图像处于重置状态时显示在图像顶部，这表示有可与图像交互的操作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定 <span class="codeph"> iconeffect</span> 即會出現，並重新出現。 值 <span class="codeph"> -1</span> 表示圖示永遠無限期地重新出現。 </p> </td> 
+   <td colname="col2"> <p> 指定 <span class="codeph"> iconeffect</span> 出现并重新出现。 值 <span class="codeph"> -1</span> 指示图标始终无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 淡化</span></span> </p> </td> 
-   <td colname="col2"> <p>指定顯示或隱藏動畫的持續時間（秒）。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 渐隐</span></span> </p> </td> 
+   <td colname="col2"> <p>指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>設定「 」的秒數 <span class="codeph"> iconeffect</span> 在自動隱藏之前保持完全可見。 亦即，淡入動畫完成之後、淡出動畫開始之前的時間。 設定 <span class="codeph"> 0</span> 停用自動隱藏行為。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 自动隐藏</span></span> </p> </td> 
+   <td colname="col2"> <p>设置 <span class="codeph"> iconeffect</span> 在自动隐藏之前保持完全可见。 即，淡入动画完成之后、淡出动画开始之前的时间。 设置 <span class="codeph"> 0</span> 禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

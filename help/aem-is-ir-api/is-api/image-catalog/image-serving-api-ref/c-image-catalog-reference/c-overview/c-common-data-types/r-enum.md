@@ -1,7 +1,7 @@
 ---
-description: 列舉資料型別。
+description: 枚举数据类型。
 solution: Experience Manager
-title: 列舉
+title: 枚举
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: df7170f5-652c-422a-9f2a-3cb02aa1eaa0
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 列舉{#enum}
+# 枚举{#enum}
 
-列舉資料型別。
+枚举数据类型。
 
-列舉值是整數，通常為正數、連續數，且從0或1開始。
+枚举值是整数，通常为正数、连续数且从0或1开始。

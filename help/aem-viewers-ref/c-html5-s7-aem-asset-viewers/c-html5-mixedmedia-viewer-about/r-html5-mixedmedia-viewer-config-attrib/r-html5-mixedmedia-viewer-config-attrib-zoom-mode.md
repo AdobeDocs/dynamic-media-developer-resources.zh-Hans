@@ -1,6 +1,6 @@
 ---
-title: 縮放模式
-description: 設定縮放互動的型別。
+title: 缩放模式
+description: 设置缩放交互的类型。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# 縮放模式{#zoommode}
+# 缩放模式{#zoommode}
 
-設定縮放互動的型別。
+设置缩放交互的类型。
 
 `zoomMode=continuous|inline|auto`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 連續 </span> 啟用傳統縮放，也就是當您在主檢視中按一下、點兩下或捏出時，影像會逐漸放大。 若要回到初始檢視，請縮小或重設縮放狀態。 類別 </p> <p> <span class="codeph"> 內嵌 </span> 啟用即時縮放，也就是當您將滑鼠懸停在桌上型電腦的主檢視上，或是觸控並按住觸控裝置時，會立即顯示縮放後的影像。 當您從檢視移動滑鼠或放開手指後，影像會自動回覆為初始狀態。 在 <span class="codeph"> 內嵌 </span> 模式，巢狀影像集會平面化並顯示為個別縮圖。 類別 <span class="codeph"> 自動 </span> 在桌上型電腦上啟用內嵌模式，在觸控裝置上啟用連續模式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 连续|内联|自动 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 连续 </span> 启用经典缩放，其中图像在主视图中单击、双击或捏合时逐渐放大。 要返回到初始视图，请缩小或重置缩放状态。 类 </p> <p> <span class="codeph"> 内联 </span> 启用即时缩放，当您将鼠标悬停在桌面上的主视图或者触摸并按住触摸设备时，缩放的图像会立即显示。 从视图移动鼠标或松开手指后，图像会自动恢复到初始状态。 In <span class="codeph"> 内联 </span> 模式，嵌套图像集将被拼合并显示为单独的缩略图。 类 <span class="codeph"> 自动 </span> 在桌面上激活内联模式，在触控设备上激活连续模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

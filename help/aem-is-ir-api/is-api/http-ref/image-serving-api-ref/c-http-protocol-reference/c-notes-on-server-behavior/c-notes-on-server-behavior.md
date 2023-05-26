@@ -1,7 +1,7 @@
 ---
-description: 有幾個伺服器行為問題需要考量。
+description: 需要考虑几个服务器行为问题。
 solution: Experience Manager
-title: 伺服器行為注意事項
+title: 有关服务器行为的注释
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# 伺服器行為注意事項{#notes-on-server-behavior}
+# 有关服务器行为的注释{#notes-on-server-behavior}
 
-有幾個伺服器行為問題需要考量。
+需要考虑几个服务器行为问题。
 
-* [合成畫布](r-the-compositing-canvas.md)
-* [圖層轉換](r-layer-transforms.md)
-* [縮圖縮放](r-thumbnail-scaling.md)
-* [縮圖規則](r-thumbnail-rules.md)
-* [圖層位置](r-layer-placement.md)
-* [影像的檢視轉換](r-view-transform-for-images.md)
-* [縮圖的檢視轉換](r-view-transform-for-thumbnails.md)
+* [合成画布](r-the-compositing-canvas.md)
+* [图层转换](r-layer-transforms.md)
+* [缩略图缩放](r-thumbnail-scaling.md)
+* [缩略图规则](r-thumbnail-rules.md)
+* [图层放置](r-layer-placement.md)
+* [图像的视图转换](r-view-transform-for-images.md)
+* [缩略图的视图转换](r-view-transform-for-thumbnails.md)

@@ -20,4 +20,4 @@ ht-degree: 42%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ZoomTargetDefinition` | 縮放目標定義的陣列。 |
+| 项目 | `types:ZoomTargetDefinition` | 缩放目标定义的数组。 |

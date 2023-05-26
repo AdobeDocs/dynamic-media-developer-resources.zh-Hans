@@ -1,5 +1,5 @@
 ---
-description: 使用者端快取存留時間。 到期前的小時數。 用於管理使用者端和Proxy伺服器快取。
+description: 客户端缓存生存时间。 到期前的小时数。 用于管理客户端和代理服务器缓存。
 solution: Experience Manager
 title: 過期
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # 過期{#expiration}
 
-使用者端快取存留時間。 到期前的小時數。 用於管理使用者端和Proxy伺服器快取。
+客户端缓存生存时间。 到期前的小时数。 用于管理客户端和代理服务器缓存。
 
-另請參閱 [catalog：：到期](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md) 以取得詳細資訊。
+参见 [catalog：：到期](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md) 了解详细信息。
 
-## 屬性 {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
+## 属性 {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-實數、-2、-1、0或更大。 從產生回應影像到到期為止的小時數。 設為0可一律使回應影像立即過期，以有效停用使用者端快取。 設為–1以標籤為 `never expire`；在此情況下，伺服器一律會傳回403狀態來回應條件 `GET` 會要求但不檢查檔案是否已實際變更。 設定為–2會使用所提供的預設值 `attribute::Expiration`.
+实数、-2、-1、0或更大。 自生成响应图像以来到到期为止的小时数。 设置为0可始终使响应图像立即过期，这可以有效地禁用客户端缓存。 设置为–1以标记为 `never expire`；在这种情况下，服务器始终返回403状态以响应条件响应 `GET` 请求而不检查文件是否实际发生了更改。 设置为–2以使用提供的默认值 `attribute::Expiration`.
 
 ## 默认 {#section-fb8ea80975034b49af7510764758f123}
 
-`attribute::Expiration` 如果欄位不存在、值是–2或欄位為空，則會使用。
+`attribute::Expiration` 如果字段不存在、值为–2或字段为空，则使用。
 
 ## 另请参阅 {#section-a0d3dab0f6db49b58f1f935d3bdea2fd}
 

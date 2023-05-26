@@ -1,5 +1,5 @@
 ---
-description: 檔案屬性InDesign。
+description: 文件属性InDesign。
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-檔案屬性InDesign。
+文件属性InDesign。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 文件路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

@@ -1,7 +1,7 @@
 ---
-description: 覆寫要求的屬性ApplyEffectMask的值。
+description: 覆盖请求的属性ApplyEffectMask的值。
 solution: Experience Manager
-title: effectMask
+title: 效果蒙版
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0a3aea53-e795-4965-a147-68e4b5bd3bbf
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# effectMask{#effectmask}
+# 效果蒙版{#effectmask}
 
-覆寫要求的attribute：：ApplyEffectMask值。
+覆盖请求的attribute：：ApplyEffectMask的值。
 
-effectMask是全域修飾元。 它會套用至要求中的所有效果層。
+effectMask是全局修饰符。 它将应用于请求中的所有效果层。
 
-有效值為0和1。 0表示沒有套用效果遮色片。 1表示套用效果遮色片。 預設值為1。
+有效值为0和1。 0表示不应用效果蒙版。 1表示应用效果蒙版。 默认值为1。

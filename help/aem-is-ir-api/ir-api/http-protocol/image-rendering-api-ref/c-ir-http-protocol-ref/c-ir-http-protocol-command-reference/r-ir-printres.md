@@ -1,6 +1,6 @@
 ---
 title: printRes
-description: 列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
+description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,25 +14,25 @@ ht-degree: 1%
 
 # printRes{#printres}
 
-列印解析度。 覆寫內嵌在回應影像中的列印解析度值。
+打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
 
 `printRes= *`val`*`
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>列印解析度(dpi)。 </p></td> 
+  <td class="stentry"> <p>打印分辨率(dpi)。 </p></td> 
  </tr> 
 </table>
 
-列印解析度通常由暈映中內嵌的列印解析度值定義。
+打印分辨率通常由晕影中嵌入的打印分辨率值定义。
 
-設定列印解析度不會變更回覆影像的畫素大小。
+设置打印分辨率不会更改回复图像的像素大小。
 
-## 屬性 {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
+## 属性 {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 
-可以在請求中的任意位置指定。
+可以在请求中的任意位置指定。
 
 ## 默认 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-暈映中內嵌的列印解析度。
+晕影中嵌入的打印分辨率。

@@ -1,6 +1,6 @@
 ---
 title: TrustedDomains
-description: Flash應用程式網域。 AdobeFlash應用程式可能需要存取swf格式影像的屬性。 swf必須登入信任的應用程式網域名稱，才能明確授與存取權。
+description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域名称来明确授予访问权限。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # TrustedDomains{#trusteddomains}
 
-Flash應用程式網域。 AdobeFlash應用程式可能需要存取swf格式影像的屬性。 swf必須登入信任的應用程式網域名稱，才能明確授與存取權。
+Flash应用程序Web域。 AdobeFlash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域名称来明确授予访问权限。
 
-## 屬性 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
+## 属性 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-包含以逗號分隔的網路網域名稱清單的字串。 如果為空，則必須從與影像演算相同的網域提供應用程式，才能存取中影像的屬性 [!DNL swf] — 格式化回應。
+包含以逗号分隔的Web域名列表的字符串。 如果为空，则必须从与图像渲染相同的域提供应用程序，才能访问中图像的属性 [!DNL swf] — 格式化响应。
 
 ## 默认 {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-繼承自 `default::TrustedDomains` 如果不存在。
+继承自 `default::TrustedDomains` 如果不存在。
 
 ## 另请参阅 {#section-2f829671c385411d8e1a7525def5529f}
 

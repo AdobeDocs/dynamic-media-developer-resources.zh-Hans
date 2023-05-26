@@ -16,18 +16,18 @@ ht-degree: 36%
 
 语法
 
-## 錯誤型別 {#section-425697675cac4b2ab5c48bd463956401}
+## 故障类型 {#section-425697675cac4b2ab5c48bd463956401}
 
-| ID | 錯誤 |
+| ID | 故障 |
 |---|---|
 | 30000 | `IPS_API_FAULT_CODE_EXCEPTION` |
 | 30001 | `IPS_API_FAULT_CODE_INVALID_PARAMETER` |
 | 30002 | `IPS_API_FAULT_CODE_MISSING_PARAMETER` |
 | 30003 | `IPS_API_FAULT_CODE_INVALID_REQUEST_XML` |
 
-## 錯誤欄位 {#section-37fe1aef1d5f4ca480071ca933aba826}
+## 错误字段 {#section-37fe1aef1d5f4ca480071ca933aba826}
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `code` | `xsd:int` | 錯誤ID |
-| `reason` | `xsd:string` | 說明錯誤的資訊性訊息。 |
+| `code` | `xsd:int` | 错误ID |
+| `reason` | `xsd:string` | 描述故障的信息性消息。 |

@@ -1,5 +1,5 @@
 ---
-description: 粗體標誌。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+description: 粗体旗帜。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
 solution: Experience Manager
 title: 粗体
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # 粗体{#bold}
 
-粗體標誌。 指定當RTF粗體指令(\b)要求時，是否應使用此字型對應記錄所參考的字型檔案。
+粗体旗帜。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
 
-## 屬性 {#section-f2727dd66f7c41ee9602872a104d25b1}
+## 属性 {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-标记. 字型對應的選擇性次要索引鍵。
+标记. 字体映射的可选辅助索引键。
 
 ## 默认 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

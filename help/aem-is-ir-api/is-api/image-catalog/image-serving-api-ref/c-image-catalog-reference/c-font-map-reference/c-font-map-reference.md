@@ -1,7 +1,7 @@
 ---
-description: 如果影像目錄需要字型對映，則必須在屬性FontMapFile中指定字型對映檔案的相對或絕對路徑。
+description: 如果图像目录需要字体映射，则必须在属性FontMapFile中指定字体映射文件的相对路径或绝对路径。
 solution: Experience Manager
-title: 字型地圖參考
+title: 字体映射引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
@@ -12,19 +12,19 @@ ht-degree: 2%
 
 ---
 
-# 字型地圖參考{#font-map-reference}
+# 字体映射引用{#font-map-reference}
 
-如果影像目錄需要字型對映，則必須在attribute：：FontMapFile中指定字型對映檔案的相對或絕對路徑。
+如果图像目录需要字体映射，则必须在attribute：：FontMapFile中指定字体映射文件的相对路径或绝对路径。
 
-特定影像目錄的字型對應中的專案將會覆寫預設目錄的字型對應中的專案。
+特定图像目录的字体映射中的条目将覆盖默认目录的字体映射中的条目。
 
-「影像伺服」支援Adobe Type1、OpenType和TrueType字型。
+图像服务支持Adobe Type1、OpenType和TrueType字体。
 
-`textPs=` 也支援CID、ATC和點陣字型。
+`textPs=` 还支持CID、ATC和位图字体。
 
 * [粗体](r-bold-font.md)
-* [字型路徑](r-fontpath-font.md)
+* [字体路径](r-fontpath-font.md)
 * [斜体](r-italic-font.md)
-* [量度路徑](r-metricspath-font.md)
+* [量度路径](r-metricspath-font.md)
 * [名称](r-name-font.md)
 * [PsName](r-psname-font.md)

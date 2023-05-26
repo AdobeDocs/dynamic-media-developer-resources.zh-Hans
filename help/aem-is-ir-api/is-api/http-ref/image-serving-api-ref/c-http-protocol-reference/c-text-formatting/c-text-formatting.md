@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」提供多種呈現文字的替代方式，可透過text=和textPs=命令存取。
+description: 图像服务提供了几种呈现文本的替代方法，可通过text=和textPs=命令访问。
 solution: Experience Manager
-title: 文字格式設定
+title: 文本格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
@@ -12,19 +12,19 @@ ht-degree: 7%
 
 ---
 
-# 文字格式設定{#text-formatting}
+# 文本格式{#text-formatting}
 
-「影像伺服」提供多種呈現文字的替代方式，可透過text=和textPs=命令存取。
+图像服务提供了几种呈现文本的替代方法，可通过text=和textPs=命令访问。
 
-`textPs=` 透過Adobe Photoshop和Illustrator呈現的文字，提供高水準的相似性。 `text=` 與使用Windows Wordpad演算的文字相當相容。
+`textPs=` 提供了与使用Adobe Photoshop和Illustrator呈现的文本的高度相似性。 `text=` 与使用Windows写字板呈现的文本合理兼容。
 
 >[!NOTE]
 >
->除了其他章節列出的差異外， `text=` 在演算的文字中會產生細微差異，例如 `textPs=`. 例如，底線的粗細和位置不同，合成斜體會以稍微不同的角度呈現。 如果文字不符合可用空間， `text=` 可能會部分裁切最後一行，而 `textPs=` 只會呈現完整的行。
+>除其他章节列出的差异外， `text=` 在渲染的文本中生成细微的差异，与 `textPs=`. 例如，下划线的厚度和位置不同，合成斜体以稍有不同的角度呈现。 如果文本不能适应可用空间， `text=` 可能会部分裁切最后一行，而 `textPs=` 将仅渲染完整的行。
 
-所有文字指令都接受基於RTF （RTF格式）規格子集的格式化文字。 每個文字圖層可指定不同的文字指令。
+所有文本命令都接受基于RTF（富文本格式）规范子集的格式化文本。 每个文本图层可以指定不同的文本命令。
 
-下表列出每個文字指令可用的主要功能：
+下表列出了每个文本命令可用的主要功能：
 
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
@@ -37,109 +37,109 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> 與Adobe Photoshop相容 </p> </td> 
+   <td> <p> 与Adobe Photoshop兼容 </p> </td> 
    <td> <p> 无 </p> </td> 
    <td> <p> 有限 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>將文字排成任意形狀 </p> </td> 
+   <td> <p>将文本排成任意形状 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>textFlowPath=， textFlowXPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>沿著任意路徑排文 </p> </td> 
+   <td> <p>沿任意路径排列文本 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>複製彎管頭 </p> </td> 
+   <td> <p>复制管接头 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> 複製彎管頭 <p>, <pre>\組排文字</pre>, <pre>\複製管線</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> 复制管接头 <p>, <pre>\组排文字</pre>, <pre>\复制管线</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>文字方塊邊界 </p> </td> 
+   <td> <p>文本框边距 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>完整的段落對齊 </p> </td> 
+   <td> <p>完整的段落对齐 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>最後一行對齊 </p> </td> 
+   <td> <p>最后一行对齐 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\lastql， \lastqr， \lastqc， \lastqj </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>段落縮排 </p> </td> 
+   <td> <p>段落缩进 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\fi， \li， \ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>全部大寫字與小型大寫字文字 </p> </td> 
+   <td> <p>全部大写字母和小型大写字母文本 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\caps， \scaps </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>影像伺服色彩 </p> </td> 
+   <td> <p>图像服务颜色 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>多重消除鋸齒模式 </p> </td> 
+   <td> <p>多种消除锯齿模式 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>由上到下/由右到左文字排文 </p> </td> 
+   <td> <p>自上而下/右至左文本排 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\stextFlow </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Photofont®支援 </p> </td> 
+   <td> <p>Photofont®支持 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> 字型處理 </td> 
+   <td> 字体处理 </td> 
   </tr> 
   <tr> 
-   <td> <p>自動調整圖層大小以符合文字 </p> </td> 
+   <td> <p>自动调整图层大小以适合文本 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>text=， textId=， size= </p> </td> 
+   <td> <p>text=，textId=，size= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>CMYK支援 </p> </td> 
+   <td> <p>CMYK支持 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\cmykcolortbl， \*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>由右至左字元流程 </p> </td> 
+   <td> <p>从右至左字符流 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>\rtlch </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>停用自動換行 </p> </td> 
+   <td> <p>禁用自动换行 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>自動縮放文字以符合圖層（透過改變解析度） </p> </td> 
+   <td> <p>自动缩放文本以适合图层（通过改变分辨率） </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -147,23 +147,23 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-可以手動組裝RTF相容字串，或透過在能儲存RTF檔案的文字編輯器或文書處理器中格式化所需的文字來組裝。 然後可以使用純文字編輯器開啟RTF檔案，並將檔案的相關原始RTF內容複製到請求URL。
+可以手动装配RTF兼容字符串，也可以通过在能够保存RTF文件的文本编辑器或文字处理器中格式化所需的文本来装配。 然后，可以使用纯文本编辑器打开RTF文件，并将文件的相关原始RTF内容复制到请求URL。
 
-有些文書處理器會產生相當大型的檔案，其中包括Dynamic Media Image Serving未使用的大量前置詞。 建議先從字串中移除未使用的RTF元素，然後再將字串傳遞至文字命令。
+某些文字处理器会生成相当大的文件，其中包括Dynamic Media图像服务未使用的实质性前导码。 建议在将字符串传递到文本命令之前，从字符串中删除未使用的RTF元素。
 
-RTF字串支援以UTF-8和ISO標準為基礎的語言編碼，作為標準RTF字元編碼機制的替代方案。 這可讓應用程式傳送非英文文字至伺服器，而不需要瞭解RTF編碼。
+RTF字符串支持基于UTF-8和ISO标准的语言编码，作为标准RTF字符编码机制的替代。 这允许应用程序在不了解RTF编码的情况下向服务器发送非英语文本。
 
-如果要透過http傳輸字串，所有非HTTP相容的字元都必須正確逸出。 如果將字串併入，則只需要逸出&#39;=&#39;、&#39;&amp;&#39;和&#39;%&#39; `catalog::Modifiers` 影像目錄記錄的欄位。 控制字元，包括 `<CR>`， `<LF>`、和 `<TAB>` 應一律移除。
+如果要通过http传输字符串，则必须对所有非HTTP兼容字符进行正确转义。 如果将字符串合并到 `catalog::Modifiers` 图像目录记录的字段。 控制字符，包括 `<CR>`， `<LF>`、和 `<TAB>` 应始终删除。
 
-「影像伺服」文字引擎會解譯由RTF規格（1.6版）定義的命令子集。此子集著重於字型/字元格式、簡單的段落格式，以及支援國際字型和字元集。 目前不支援更進階的格式建構，例如樣式表和表格。
+图像服务文本引擎解释由富文本格式(RTF)规范版本1.6定义的命令子集。该子集侧重于字体/字符格式、简单的段落格式以及对国际字体和字符集的支持。 目前不支持更高级的格式结构，例如样式表和表。
 
-嘗試手動建構RTF編碼的文字字串時，需要熟悉Microsoft所發佈的RTF格式(RTF)規格。
+尝试手动构建RTF编码的文本字符串时，需要熟悉由Microsoft发布的富文本格式(RTF)规范。
 
-* [字型處理](r-font-handling.md)
-* [色彩處理](r-color-handling.md)
-* [複製彎管頭](r-copy-fitting.md)
-* [文字圖層](r-text-layers.md)
-* [文字定位](r-text-positioning.md)
-* [保留字元](r-reserved-characters.md)
-* [支援的RTF命令和關鍵字](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
-* [RTF編碼範例](r-rtf-encoding-examples.md)
+* [字体处理](r-font-handling.md)
+* [颜色处理](r-color-handling.md)
+* [复制管接头](r-copy-fitting.md)
+* [文本图层](r-text-layers.md)
+* [文本定位](r-text-positioning.md)
+* [保留的字符](r-reserved-characters.md)
+* [支持的RTF命令和关键字](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
+* [RTF编码示例](r-rtf-encoding-examples.md)

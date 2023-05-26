@@ -1,6 +1,6 @@
 ---
-title: 註解
-description: 智慧型裁切視訊檢視器的URL命令。
+title: 题注
+description: 用于智能裁剪视频查看器的URL命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 8%
 
 ---
 
-# 註解{#caption}
+# 题注{#caption}
 
-智慧型裁切視訊檢視器的URL命令。
+用于智能裁剪视频查看器的URL命令。
 
 ` caption= *`文件`*[,0|1]`
 
-檢視器透過託管的WebVTT檔案支援隱藏式字幕。 不支援重疊的提示和區域。 支援的提示定位運運算元包括：
+查看器支持通过托管的WebVTT文件使用隐藏式字幕。 不支持重叠提示和区域。 支持的提示定位运算符包括：
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -32,47 +32,47 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
-   <td colname="col2"> <p>文字對齊 </p> </td> 
+   <td colname="col2"> <p>文本对齐 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> 控制文字對齊方式。 </p> <p>預設為 <span class="codeph"> 中間</span>. </p> </td> 
+   <td colname="col4"> <p> 控制文本对齐方式。 </p> <p>默认为 <span class="codeph"> 中间</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
-   <td colname="col2"> <p>文字位置 </p> </td> 
+   <td colname="col2"> <p>文本位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 註解文字開頭內嵌至VideoPlayer元件的百分比。 </p> <p>預設值為0%。 </p> </td> 
+   <td colname="col4"> <p> 注解文本开头插入VideoPlayer组件的百分比。 </p> <p>默认值为0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>行大小 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 用於註解的視訊寬度百分比。 </p> <p>預設為100%。 </p> </td> 
+   <td colname="col4"> <p> 用于字幕的视频宽度的百分比。 </p> <p>默认值为100%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
-   <td colname="col3"> <p> 0%-100%|整數 </p> </td> 
-   <td colname="col4"> <p> 決定頁面上的行位置。 </p> <p>如果以整數表示（無百分比符號），則為文字顯示位置上方的行數。 </p> <p>如果它是百分比（百分比符號是最後一個字元），則註解文字會在顯示區域顯示這個百分比值。 </p> <p>預設為100%。 </p> </td> 
+   <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
+   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果以整数形式表示（无百分比符号），则表示文本从顶部显示的行数。 </p> <p>如果它是一个百分比（百分比符号是最后一个字符），则题注文本在显示区域以该百分比显示。 </p> <p>默认值为100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-不支援WebVTT檔案中存在的其他WebVTT功能，但不應中斷字幕。
+不支持WebVTT文件中存在的其他WebVTT功能，但不应中断字幕。
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 文件</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定WebVTT標題內容的URL或路徑。 透過ImageServing提供WebVTT檔案。 </p> </td> 
+   <td colname="col2"> <p> 指定WebVTT描述内容的URL或路径。 通过ImageServing提供WebVTT文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定預設註解狀態(啟用為 <span class="codeph"> 1</span>)。 </p> </td> 
+   <td colname="col2"> <p> 指定默认字幕状态(启用为 <span class="codeph"> 1</span>)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

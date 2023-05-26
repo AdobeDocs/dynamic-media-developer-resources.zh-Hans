@@ -1,7 +1,7 @@
 ---
-description: 黑場補償。 指定在沒有icc=明確選取時，是否應將黑點補償套用至色彩轉換。
+description: 黑场补偿。 指定在通过icc=未做出明确选择时，是否应将黑场补偿应用于颜色转换。
 solution: Experience Manager
-title: IccBlackPointCompensation
+title: IccBlackPoint补偿
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9cf6a415-cc82-40e9-a8b9-a687ca95560e
@@ -12,17 +12,17 @@ ht-degree: 5%
 
 ---
 
-# IccBlackPointCompensation{#iccblackpointcompensation}
+# IccBlackPoint补偿{#iccblackpointcompensation}
 
-黑場補償。 指定在沒有icc=明確選取時，是否應將黑點補償套用至色彩轉換。
+黑场补偿。 指定在通过icc=未做出明确选择时，是否应将黑场补偿应用于颜色转换。
 
-## 屬性 {#section-ea27b8089b89468bbc38e9e7154ea413}
+## 属性 {#section-ea27b8089b89468bbc38e9e7154ea413}
 
-标记. 設為0可停用或設為1可啟用黑點補償。
+标记. 设置为0表示禁用，设置为1表示启用黑场补偿。
 
 ## 默认 {#section-0d79b203be4c434f927b7c03c7a0062d}
 
-繼承自 `default::IccBlackPointCompensation` 如果未定義或為空。
+继承自 `default::IccBlackPointCompensation` 如果未定义或为空。
 
 ## 另请参阅 {#section-c6ae25de4b5b45dcb068340acfee91be}
 

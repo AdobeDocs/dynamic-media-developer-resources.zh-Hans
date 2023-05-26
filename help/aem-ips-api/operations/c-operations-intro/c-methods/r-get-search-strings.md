@@ -1,5 +1,5 @@
 ---
-description: 取得搜尋字串、關鍵字和資產的其他相關資訊。 回應包含有關資產的其他資訊。
+description: 获取有关资源的搜索字符串、关键字和其他信息。 响应包含有关资产的其他信息。
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # getSearchStrings{#getsearchstrings}
 
-取得搜尋字串、關鍵字和資產的其他相關資訊。 回應包含有關資產的其他資訊。
+获取有关资源的搜索字符串、关键字和其他信息。 响应包含有关资产的其他信息。
 
 语法
 
-## 授權的使用者型別 {#section-b09c817a59f949a28e1c029e431f5698}
+## 授权用户类型 {#section-b09c817a59f949a28e1c029e431f5698}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,22 +27,22 @@ ht-degree: 17%
 
 ## 参数 {#section-c1efda4bb15349a68b276bafee8c18fd}
 
-**輸入(getSearchStringsParam)**
+**输入(getSearchStringsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| assetHandle | `xsd:string` | 是 | 處理資產。 |
+| companyHandle | `xsd:string` | 是 | 处理公司。 |
+| assetHandle | `xsd:string` | 是 | 处理资源。 |
 
-**輸出(getSearchStringsReturn)**
+**输出(getSearchStringsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| searchStringArray | `types:SearchStrings` | 是 | 資產搜尋字串的陣列。 |
+| searchStringArray | `types:SearchStrings` | 是 | 资源搜索字符串的数组。 |
 
 ## 示例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-此程式碼範例會傳回資產特定的搜尋字串。 回應會傳回空白陣列。
+此代码示例返回特定于资产的搜索字符串。 响应返回空数组。
 
 **请求**
 

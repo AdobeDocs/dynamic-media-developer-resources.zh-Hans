@@ -1,5 +1,5 @@
 ---
-description: Jpeg品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變檔案大小（回覆資料量），並間接改變結果影像的視覺品質。
+description: Jpeg品质。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
@@ -14,28 +14,28 @@ ht-degree: 15%
 
 # qlt{#qlt}
 
-Jpeg品質。 指定JPEG編碼屬性來控制壓縮等級。 這進而會改變檔案大小（回覆資料量），並間接改變結果影像的視覺品質。
+Jpeg品质。 指定JPEG编码属性以控制压缩级别。 这进而会改变文件大小（回复数据的数量），并间接改变生成图像的视觉质量。
 
-` qlt= *`品質`*[, *`色度`*]`
+` qlt= *`品质`*[, *`色度`*]`
 
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 品質 </span> </span> </p> </td> 
-  <td class="stentry"> <p>編碼品質JPEG(1...100 int)。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 品质 </span> </span> </p> </td> 
+  <td class="stentry"> <p>编码质量JPEG(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 色度 </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG色度縮減取樣（0=一般，1=停用）；選擇性，預設為0。 </p> </td> 
+  <td class="stentry"> <p>JPEG色度缩减像素采样（0=正常，1=禁用）；可选，默认值为0。 </p> </td> 
  </tr> 
 </table>
 
-僅在以下情況下使用： `fmt=jpg`. 已忽略，否則
+仅在以下情况下使用 `fmt=jpg`. 已忽略，否则
 
 高品质值可增大文件并提升品质，低品质值可减小文件并降低可感知的图像品质。如果值大于 90，所产生的图像往往与未解压缩图像几乎没有区别。
 
-設定 `chroma` 此旗標可停用典型RGB編碼器所採用的JPEG色度縮減取樣。 當邊緣是由色相變化而不是亮度所定義時，這可能會增加影像中邊緣的感知銳利度。 設定此旗標可能會導致檔案大小稍微增加。 如果文字看起來有點模糊，請嘗試使用此設定。
+设置 `chroma` 用于禁用典型JPEG编码器采用的RGB色度缩减采样的标志。 当边缘由色相变化而不是亮度变化定义时，这可以提高图像中边缘的感知锐度。 设置此标志可能会导致文件大小略有增加。 如果文本看起来稍微模糊，请尝试使用此设置。
 
-`chroma` 如果輸出畫素型別為CMYK或灰色，則會被忽略。
+`chroma` 如果输出像素类型为CMYK或灰度，则会被忽略。
 
 ## 示例 {#section-a6c263f15c29424a86ef267c96a6630a}
 

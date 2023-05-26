@@ -20,12 +20,12 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 指定當色票為部分可見時（捲動未對齊），元件是否允許停止捲動。 建議值為 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> 指定组件是否允许在任何样本部分可见时停止滚动（滚动不对齐）。 推荐值为 <span class="codeph"> false</span> 或 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

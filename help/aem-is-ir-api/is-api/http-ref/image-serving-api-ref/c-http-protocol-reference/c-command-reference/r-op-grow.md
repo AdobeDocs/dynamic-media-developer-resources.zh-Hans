@@ -1,5 +1,5 @@
 ---
-description: 膨脹/侵蝕影像。 對影像資料套用形態學膨脹（半徑> 0）或侵蝕（半徑< 0）。
+description: 膨胀/腐蚀图像。 对图像数据应用形态学膨胀（半径> 0）或腐蚀（半径< 0）。
 solution: Experience Manager
 title: op_grow
 feature: Dynamic Media Classic,SDK/API
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # op_grow{#op-grow}
 
-膨脹/侵蝕影像。 對影像資料套用形態學膨脹（半徑> 0）或侵蝕（半徑&lt; 0）。
+膨胀/腐蚀图像。 对图像数据应用形态学膨胀（半径> 0）或腐蚀（半径&lt; 0）。
 
-`op_grow= *`半徑`*`
+`op_grow= *`半径`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半徑</span></span> </p> </td> 
-  <td class="stentry"> <p>膨脹/侵蝕半徑，以畫素為單位(int -100..100)。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径</span></span> </p> </td> 
+  <td class="stentry"> <p>扩张/侵蚀半径，以像素为单位(int -100..100)。 </p></td> 
  </tr> 
 </table>
 
-`*`半徑`*` 是以相對於複合影像的畫素為單位。 如果影像為顏色，則會獨立處理每個元件。
+`*`半径`*` 以相对于复合图像的像素为单位。 如果图像是彩色的，则每个组件单独进行处理。
 
-主要用於修改圖層效果的大小。 在文字圖層或含遮色片的純色圖層上取得特殊效果也很有用。
+主要用于修改图层效果的大小。 在文本图层或带有蒙版的纯色图层上实现特殊效果也很有用。
 
-## 屬性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
+## 属性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-圖層屬性。 套用至目前圖層或複合影像，如果 `layer=comp`.
+层属性。 应用于当前图层或复合图像，如果 `layer=comp`.
 
 ## 默认 {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_grow=0`，表示無變更。
+`op_grow=0`，表示无更改。
 
 ## 另请参阅 {#section-ad3e5cecfc3448a38ea06093e015c88a}
 
-[圖層效果](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md#reference-82a6b5311b3d4471ad2799adb3b2201c)
+[图层效果](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md#reference-82a6b5311b3d4471ad2799adb3b2201c)

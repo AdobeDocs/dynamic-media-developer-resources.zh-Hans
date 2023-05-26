@@ -1,7 +1,7 @@
 ---
-description: 更新資產集。
+description: 更新资源集。
 solution: Experience Manager
-title: 更新資產集
+title: updateAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
@@ -12,24 +12,24 @@ ht-degree: 22%
 
 ---
 
-# 更新資產集{#updateassetset}
+# updateAsset{#updateassetset}
 
-更新資產集。
+更新资源集。
 
 语法
 
 ## 参数 {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**輸入(updateAssetSetparam)**
+**输入(updateAssetSetparam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含您要修改之影像集的公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 您要修改之影像集的操作框。 |
-| setDefinition | `xsd:string` | 否 | 重設影像整合員。 |
-| thumbAssetHandle | `xsd:string` | 否 | 資產的控制代碼，可作為影像集的縮圖。 |
+| companyHandle | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 要修改的图像集的句柄。 |
+| setDefinition | `xsd:string` | 否 | 重置图像集成员。 |
+| thumbAssetHandle | `xsd:string` | 否 | 充当图像集缩略图的资源的句柄。 |
 
-**輸出(updateAssetSetReturn)**
+**输出(updateAssetSetReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|

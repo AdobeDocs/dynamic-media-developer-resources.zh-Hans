@@ -1,6 +1,6 @@
 ---
-title: 材質目錄
-description: 材料目錄提供幾個特徵。
+title: 材料目录
+description: 材料目录提供了几个功能。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# 材質目錄 {#material-catalogs}
+# 材料目录 {#material-catalogs}
 
-材料目錄提供幾個特徵。
+材料目录提供了几个功能。
 
-* 允許持續定義材料，包括所有材料屬性。
+* 允许持久定义材料，包括所有材料属性。
 
-   在材料目錄中定義的材料可以使用簡單ID來參照，而不是使用一組材料屬性。
-* 為特定請求屬性提供預設值，例如JPEG品質或預設回覆影像大小。
-* 管理暈映、ICC設定檔和請求範本。
+   可以使用简单ID引用材料目录中定义的材料，而不是使用一组材料属性。
+* 提供某些请求属性的默认值，例如JPEG质量或默认回复图像大小。
+* 管理晕影、ICC配置文件和请求模板。
 
-即使未定義特定的材料目錄，也可透過預設目錄( [!DNL default.ini])。
+即使未定义特定的材料目录，材料目录的所有特征也可通过缺省目录( [!DNL default.ini])。
 
-雖然呈現材質可在使用材質屬性的請求中明確指定，但通常更希望使用材質目錄來隱藏網站的材質細節。 src=指令接受目錄參照，而不是明確的檔案路徑。 目錄專案包含 ` [ *[!DNL catId]*/] *[!DNL itemId]*`，其中 ` *[!DNL catId]*` 會識別材質目錄和 ` *[!DNL itemId]*` 會識別目錄中的記錄。 若 ` *[!DNL catId]*` 未指定，則會使用工作階段目錄（請參閱下文）。
+虽然渲染材料可以在使用材料属性的请求中显式指定，但通常更希望通过使用材料目录从网站中隐藏材料的详细信息。 src=命令接受目录引用而不是显式文件路径。 目录条目包括 ` [ *[!DNL catId]*/] *[!DNL itemId]*`，其中 ` *[!DNL catId]*` 标识材质目录和 ` *[!DNL itemId]*` 标识目录中的记录。 如果 ` *[!DNL catId]*` 未指定，将使用会话目录（请参阅下文）。
 
-若(a)，目錄記錄已成功比對 ` *[!DNL catId]*` 符合 `attribute::RootId` 材質目錄值和(b) ` *[!DNL recId]*` 和相同目錄中的catalog：：Id值相符。 如果有成功的相符專案，則材料的屬性(包括 `src=`)設為目錄記錄中的資料。 如果MSS包含src=以外的其他材質屬性，則會覆寫目錄記錄中的值。
+如果(a)符合以下条件，则已成功匹配目录记录 ` *[!DNL catId]*` 匹配 `attribute::RootId` 材料目录价值和(b) ` *[!DNL recId]*` 匹配同一目录中的catalog：：Id值。 如果成功匹配，则材料属性(包括 `src=`)设置为目录记录中的数据。 如果MSS在src=之外还包含此材料的其他属性，则会覆盖目录记录中的值。
 
-若 ` *[!DNL recId]*` 無法比對至目錄專案，則 ` *[!DNL catId]*` 已取代為 `attribute::RootPath` 之後，會將來自目錄和產生的路徑假定為簡單的檔案路徑。 其他預設屬性(例如， `attribute::Resolution`)也可以繼承自材質目錄。
+如果 ` *[!DNL recId]*` 无法与目录条目匹配，则 ` *[!DNL catId]*` 替换为 `attribute::RootPath` 之后，将目录和生成的路径假定为简单文件路径。 其他默认属性(例如， `attribute::Resolution`)也可以从材料目录中继承。
 
-暈映和ICC輪廓可以在與材料本身類似的材料目錄中逐項列出，並指定屬性。 此外，暈映對應也提供範本的容器。
+晕影和ICC轮廓可以在与材料本身类似的材料目录中逐项列出，并且给定属性。 此外，晕影映射还为模板提供了容器。
 
 **另请参阅**
 
-材料目錄參考， [ `src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)， `attribute::RootId`， `attribute::RootPath`， `attribute::VignettePath`
+材料目录参考， [ `src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)， `attribute::RootId`， `attribute::RootPath`， `attribute::VignettePath`

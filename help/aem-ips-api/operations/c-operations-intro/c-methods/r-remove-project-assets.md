@@ -1,5 +1,5 @@
 ---
-description: 從專案移除資產。 不會破壞資產。
+description: 从项目中删除资产。 不会破坏资产。
 solution: Experience Manager
 title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # removeProjectAssets{#removeprojectassets}
 
-從專案移除資產。 不會破壞資產。
+从项目中删除资产。 不会破坏资产。
 
 语法
 
-## 授權的使用者型別 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## 授权用户类型 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
@@ -28,27 +28,27 @@ ht-degree: 11%
 
 ## 参数 {#section-169d8e317417415b87df86242f65710e}
 
-**輸入(removeProjectAssetsParam)**
+**输入(removeProjectAssetsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 擁有您要移動之資產的公司的控制代碼。 |
-| projectHandle | `xsd:string` | 是 | 您要移動之專案資產的控點。 |
-| assetHandleArray | `types:HandleArray` | 是 | 您要移動之資產的控點陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含要移动的资产的公司的句柄。 |
+| projectHandle | `xsd:string` | 是 | 要移动的项目资产的句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要移动的资源的句柄数组。 |
 
-**輸出(removeProjectAssetsReturn)**
+**输出(removeProjectAssetsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 已成功移除資產計數。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試從專案移除資產時產生的錯誤數。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從專案移除資產時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從專案中移除資產時產生錯誤。 |
+| successCount | `xsd:int` | 是 | 已成功删除资源计数。 |
+| warningCount | `xsd:int` | 是 | 当操作尝试从项目中删除资产时生成的警告数。 |
+| 错误计数 | `xsd:int` | 是 | 操作尝试从项目中删除资产时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从项目中删除资产时，这些资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试从项目中删除资产时，这些资产会生成错误。 |
 
 ## 示例 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-此程式碼範例會從專案中移除2個資產（由專案控制代碼指定）。
+此代码示例从项目中删除2个资产（由项目句柄指定）。
 
 **请求**
 

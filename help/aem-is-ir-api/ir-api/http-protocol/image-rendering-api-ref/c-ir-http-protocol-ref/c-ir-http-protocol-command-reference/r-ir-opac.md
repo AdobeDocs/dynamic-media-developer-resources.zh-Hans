@@ -1,6 +1,6 @@
 ---
 title: opac
-description: 不透明度. 指定材質不透明度。
+description: 不透明度. 指定材质不透明度。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 # opac{#opac}
 
-不透明度. 指定材質不透明度。
+不透明度. 指定材质不透明度。
 
 ` opac= *`val`*`
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>材質不透明度（百分比）；0到100 </p> </td> 
+  <td class="stentry"> <p>材质不透明度（百分比）；0...100 </p> </td> 
  </tr> 
 </table>
 
-下列材質/物件組合支援可變不透明度：
+以下材质/对象组合支持可变不透明度：
 
-* 套用至紋理重疊物件的純色和可重複紋理。
-* 套用至視窗覆蓋物件之視窗覆蓋物材料。
-* 貼花套用到紋理物件或牆物件。
+* 应用于纹理重叠对象的纯色和可重复纹理。
+* 应用于窗饰框架对象的窗饰材料。
+* 应用于纹理对象或墙壁对象的贴花。
 
-如果材質包含具有Alpha色版的影像， `opac=` 可用來讓影像更透明，但不是更不透明。
+如果材料包括带有Alpha通道的图像， `opac=` 可用于使图像更透明，但并非更不透明。
 
-## 屬性 {#section-352f7b82ede54159b6afb90ae4b559ec}
+## 属性 {#section-352f7b82ede54159b6afb90ae4b559ec}
 
-材質屬性。 如果目前物件選取範圍或材料不支援不透明度，則忽略。
+材质属性。 如果当前对象选择或材料不支持不透明度，则忽略。
 
 ## 默认 {#section-bd45105b1e614f96ad5d521e3ef65736}
 
-`opac=100`，適用於完全不透明的材質（如果影像不包含Alpha色版）。
+`opac=100`，表示完全不透明的材料（如果图像不包含Alpha通道）。

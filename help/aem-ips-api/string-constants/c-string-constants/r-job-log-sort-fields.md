@@ -1,7 +1,7 @@
 ---
 description: 由getJobLogsParam/sortBy使用
 solution: Experience Manager
-title: 工作記錄排序欄位
+title: 作业日志排序字段
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# 工作記錄排序欄位{#job-log-sort-fields}
+# 作业日志排序字段{#job-log-sort-fields}
 
 由getJobLogsParam/sortBy使用
 

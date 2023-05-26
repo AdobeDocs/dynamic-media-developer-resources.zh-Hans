@@ -1,6 +1,6 @@
 ---
 title: SocialShare.bearing
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 1%
 
 # SocialShare.bearing{#socialshare-bearing}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[SocialShare.|<containerId>_socialShare.]bearing=up|down|left|right|fit-vertical|fit-lateral`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 向上|向下|向左|向右|垂直適合|橫向適合</span> </p> </td> 
-   <td colname="col2"> <p> 指定按鈕容器的幻燈片動畫方向。 當設定為 <span class="codeph"> 向上</span>， <span class="codeph"> 向下</span>， <span class="codeph"> left</span>，或 <span class="codeph"> 右側</span>，面板會以指定方向轉出，而不會進行任何其他邊界檢查，這可能會導致面板被外部容器裁剪。 </p> <p>當設定為 <span class="codeph"> 垂直符合</span>，元件會先將基礎面板位置移至SocialShare的底部。 然後，它會嘗試從這樣的基本位置以下列方向之一轉出面板：下、右、左。 每次嘗試時，元件都會檢查面板是否被外部容器裁剪。 如果所有嘗試都失敗，元件會嘗試將基礎面板位置移至頂部，並從頂部、右側和左側重複轉出嘗試。 </p> <p>當設定為 <span class="codeph"> 適合 — 橫向</span>，元件會使用類似的邏輯，但會先將基底向右移動、往右、往下和往上轉出方向。 然後，它會將基底向左移動，嘗試向左、向下和向上轉出方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|适合 — 垂直|适合 — 横向</span> </p> </td> 
+   <td colname="col2"> <p> 指定按钮容器的幻灯片动画方向。 当设置为 <span class="codeph"> 向上</span>， <span class="codeph"> 下</span>， <span class="codeph"> left</span>，或 <span class="codeph"> 右</span>，则面板会以指定方向滚出，而不会进行任何额外的边界检查，这可能会导致面板被外部容器剪切。 </p> <p>当设置为 <span class="codeph"> 垂直适合</span>，组件会先将基础面板位置移到SocialShare的底部。 然后，它会尝试从此类基本位置以下列方向之一转出面板：底部、右侧、左侧。 在每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基础面板位置移至顶部，并从顶部、右侧和左侧重复转出尝试。 </p> <p>当设置为 <span class="codeph"> 拟合横向</span>，组件使用类似的逻辑，但会先将基面移动到右侧，然后尝试右、下和上转出方向。 然后，它将底部向左移动，尝试向左、向下和向上转出方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

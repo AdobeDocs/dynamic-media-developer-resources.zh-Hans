@@ -1,7 +1,7 @@
 ---
-description: 所有轉譯器伺服器設定都位於install_root/ImageServing/conf/PlatformServer.conf。 設定變數的名稱會以括弧顯示。
+description: 所有渲染服务器设置都位于install_root/ImageServing/conf/PlatformServer.conf中。 配置变量的名称显示在括号中。
 solution: Experience Manager
-title: 組態設定參考
+title: 配置设置参考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 72bbe296-8098-4d2c-9bff-3569dbad1217
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 組態設定參考{#configuration-settings-reference}
+# 配置设置参考{#configuration-settings-reference}
 
-所有轉譯器伺服器設定都位於install_root/ImageServing/conf/PlatformServer.conf。 設定變數的名稱會以括弧顯示。
+所有渲染服务器设置都位于install_root/ImageServing/conf/PlatformServer.conf中。 配置变量的名称显示在括号中。

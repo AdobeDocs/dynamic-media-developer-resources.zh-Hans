@@ -1,5 +1,5 @@
 ---
-description: 縮放目標的陣列。
+description: 缩放目标的数组。
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-縮放目標的陣列。
+缩放目标的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ZoomTarget` | 縮放目標陣列。 |
+| 项目 | `types:ZoomTarget` | 缩放目标的数组。 |

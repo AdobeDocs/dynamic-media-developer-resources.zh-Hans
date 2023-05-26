@@ -1,7 +1,7 @@
 ---
-description: 暈映資產的屬性。
+description: 晕影资产的属性。
 solution: Experience Manager
-title: 暈映資訊
+title: 晕影信息
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL VignetteInfo]{#vignetteinfo}
 
-暈映資產的屬性。
+晕影资产的属性。
 
 语法
 
@@ -22,10 +22,10 @@ ht-degree: 16%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案的路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
-| imagePath | `xsd:string` | 影像的路徑。 |
+| 原始路径 | `xsd:string` | 文件的路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |
+| imagePath | `xsd:string` | 图像的路径。 |
 | imageFile | `xsd:string` |  |
-| optimizedPath | `xsd:string` | 最佳化的檔案路徑。 |
-| optimizedFile | `xsd:string` | 最佳化的檔案名稱。 |
+| 优化路径 | `xsd:string` | 优化的文件路径。 |
+| 优化文件 | `xsd:string` | 优化的文件名。 |

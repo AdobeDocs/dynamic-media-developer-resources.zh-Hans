@@ -1,5 +1,5 @@
 ---
-description: 判斷一批資產是否已準備好發佈。
+description: 确定是否已准备好发布一批资产。
 solution: Experience Manager
 title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # setAssetsPublishState{#setassetspublishstate}
 
-判斷一批資產是否已準備好發佈。
+确定是否已准备好发布一批资产。
 
-這是的批次版本 [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+这是的批次版本 [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
-## 授權的使用者型別 {#section-0804726f683944dbbe9acfc3d35ccf25}
+## 授权用户类型 {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,30 +29,30 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取和寫入存取權。
+>用户必须具有对资源的读写访问权限。
 
 ## 参数 {#section-3e49d7859f8647b990d75373cc8dbc24}
 
-**輸入(setAssetsPublishStateParam)**
+**输入(setAssetsPublishStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司控點。 |
-| publishStateUpdateArray | `types:PublishStateUpdateArray` | 是 | 資產的發佈狀態值陣列。 |
+| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | 是 | 资源的发布状态值数组。 |
 
-**輸出(setAssetsPublishStateParam)**
+**输出(setAssetsPublishStateParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功更新的資產數目。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試更新時產生警告的資產數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試刪除時產生錯誤的資產數目。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與產生警告的資產更新相關聯的詳細資料。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與產生錯誤的資產更新相關聯的詳細資料。 |
+| successCount | `xsd:int` | 是 | 已成功更新的资源数。 |
+| warningCount | `xsd:int` | 是 | 操作尝试更新时生成警告的资源数。 |
+| 错误计数 | `xsd:int` | 是 | 操作尝试删除时生成错误的资源数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与生成警告的资源更新关联的详细信息。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与生成错误的资源更新关联的详细信息。 |
 
 ## 示例 {#section-38cfdd3436214a06a1bae16875501d51}
 
-此程式碼範例會設定資產的發佈狀態。
+此代码示例设置资源的发布状态。
 
 **请求**
 

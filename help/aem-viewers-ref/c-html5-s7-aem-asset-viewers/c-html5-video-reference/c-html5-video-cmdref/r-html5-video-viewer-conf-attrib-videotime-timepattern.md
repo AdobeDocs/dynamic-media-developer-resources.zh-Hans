@@ -1,6 +1,6 @@
 ---
 title: VideoTime.timepattern
-description: 視訊檢視器的設定屬性。
+description: Video Viewer的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # VideoTime.timepattern{#videotime-timepattern}
 
-視訊檢視器的設定屬性。
+Video Viewer的配置属性。
 
 `[VideoTime.|<containerId>_videoTime.]timepattern=[h:]m|mm:s|ss`
 
@@ -22,12 +22,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 設定控制列中顯示的時間模式，其中 <span class="codeph"> h</span> 是小時， <span class="codeph"> m</span> 為分鐘，且 <span class="codeph"> s</span> 是秒。 </p> <p>用於每個時間單位的字母數目決定該單位要顯示的位數。 如果數字不符合指定的位數，則會在後續單位中顯示對等值。 </p> <p>例如，如果目前的影片時間為67分5秒，則時間模式 <span class="codeph"> m：ss</span> 顯示為67:05。 相同時間顯示為1:07:5如果給定的時間模式為 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> 设置控制栏中显示的时间模式，其中 <span class="codeph"> h</span> 是小时， <span class="codeph"> m</span> 为分钟，并且 <span class="codeph"> s</span> 为秒。 </p> <p>用于每个时间单位的字母数决定了时间单位要显示的位数。 如果数字不符合指定的位数，则会在后续单位中显示对等值。 </p> <p>例如，如果当前的电影时间是67分5秒，则时间模式 <span class="codeph"> m：ss</span> 显示为67:05。 相同时间显示为1:07:5，如果给定的时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

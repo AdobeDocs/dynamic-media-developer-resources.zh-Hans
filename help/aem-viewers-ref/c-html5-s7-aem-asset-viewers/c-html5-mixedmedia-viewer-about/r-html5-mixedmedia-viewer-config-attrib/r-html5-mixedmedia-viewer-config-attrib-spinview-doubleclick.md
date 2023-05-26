@@ -20,18 +20,18 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> 設定按兩下/點選以迴轉動作的對應。 設定為 <span class="codeph"> 無 </span> 停用按兩下/點選迴轉。 若設為 <span class="codeph"> 縮放 </span>，按一下影像會旋轉一個旋轉步驟；按住Ctrl鍵並按一下滑鼠可旋轉一個旋轉步驟。 設定為 <span class="codeph"> 重設 </span> 使得按一下影像即可將迴轉重設為初始迴轉等級。 對象 <span class="codeph"> zoomReset </span>，若目前迴轉因數達到或超過指定限制，則會套用重設，否則會套用迴轉。 </p> </td> 
+   <td colname="col2"> <p> 配置双击/点按到旋转操作的映射。 将设置为 <span class="codeph"> 无 </span> 禁用双击/点按旋转。 如果设置为 <span class="codeph"> 缩放 </span>中，单击图像以在一个旋转步骤中旋转；按住CTRL键并单击以旋转一个旋转步骤。 将设置为 <span class="codeph"> 重置 </span> 单击图像可将旋转重置为初始旋转级别。 对象 <span class="codeph"> zoomReset </span>，如果当前旋转因子达到或超过指定限制，则会应用重置，否则应用旋转。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 
 ## 默认 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` 在桌上型電腦上； `zoomReset` 在觸控裝置上。
+`reset` 在台式计算机上； `zoomReset` 在触控设备上。
 
 ## 示例 {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

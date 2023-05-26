@@ -1,5 +1,5 @@
 ---
-description: Microsoft Excel檔案的屬性。
+description: Microsoft Excel文件的属性。
 solution: Experience Manager
 title: ExcelInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ExcelInfo]{#excelinfo}
 
-Microsoft Excel檔案的屬性。
+Microsoft Excel文件的属性。
 
 语法
 
@@ -22,6 +22,6 @@ Microsoft Excel檔案的屬性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案的路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 文件的路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

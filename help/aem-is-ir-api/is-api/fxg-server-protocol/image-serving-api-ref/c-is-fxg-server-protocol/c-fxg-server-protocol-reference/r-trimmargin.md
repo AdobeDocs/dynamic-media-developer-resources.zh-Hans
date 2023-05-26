@@ -1,5 +1,5 @@
 ---
-description: 設定裁剪邊界。 設定PDF檔案中設定的裁剪邊界。
+description: 设置修剪边距。 设置PDF文件中设置的修剪边距。
 solution: Experience Manager
 title: trimMargin
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # trimMargin{#trimmargin}
 
-設定裁剪邊界。 設定PDF檔案中設定的裁剪邊界。
+设置修剪边距。 设置PDF文件中设置的修剪边距。
 
-` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 點數
+` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 点数
 
-根據預設 `trimMargin` 設為所定義檔案的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值會預設為 *[!DNL top]* 值（若未指定）。
+默认情况下， `trimMargin` 设置为由定义的文档的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值默认为 *[!DNL top]* 值（如果未指定）。

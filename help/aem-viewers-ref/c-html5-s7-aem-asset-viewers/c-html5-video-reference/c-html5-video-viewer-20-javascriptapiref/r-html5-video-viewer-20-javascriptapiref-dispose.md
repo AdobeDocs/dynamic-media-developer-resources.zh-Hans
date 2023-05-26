@@ -1,6 +1,6 @@
 ---
-title: 處置
-description: Video Viewer的JavaScript API參考。
+title: 处置
+description: 视频查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 3%
 
 ---
 
-# 處置{#dispose}
+# 处置{#dispose}
 
-Video Viewer的JavaScript API參考。
+视频查看器的JavaScript API参考。
 
 `dispose()`
 
-釋放檢視器邏輯使用的所有資源，並在執行階段刪除檢視器建立的所有內部物件和元件，以處置此檢視器執行個體。
+通过释放查看器逻辑使用的所有资源并在运行时删除查看器创建的所有内部对象和组件来处置此查看器实例。
 
-網頁程式碼也應刪除檢視器例項變數，並從網頁瀏覽器記憶體中完全移除檢視器。
+网页代码还应删除查看器实例变量，并从Web浏览器内存中完全删除查看器。
 
-如果網頁程式碼已直接在檢視器使用的Viewer SDK元件上註冊事件接聽程式（或已儲存對這些元件的外部參考），您必須透過網頁程式碼明確取消註冊這類接聽程式。 而且，您必須先刪除這類外部元件參照，才能呼叫 `dispose()`.
+如果网页代码已直接在查看器使用的Viewer SDK组件上注册了事件侦听器（或已存储对这些组件的外部引用），则必须通过网页代码明确取消注册此类侦听器。 而且，必须在调用之前删除此类外部组件引用 `dispose()`.
 
-之後不再存取檢視器API `dispose()` 稱為。
+之后不再访问查看器API `dispose()` 称为。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 无。
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

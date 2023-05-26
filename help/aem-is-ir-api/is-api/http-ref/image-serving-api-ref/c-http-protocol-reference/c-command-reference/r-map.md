@@ -1,5 +1,5 @@
 ---
-description: 影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的目錄地圖中的所有資料。
+description: 图像映射数据。 提供此图层的图像映射数据。 覆盖此图层的目录映射中的所有数据。
 solution: Experience Manager
 title: 地图
 feature: Dynamic Media Classic,SDK/API
@@ -14,45 +14,45 @@ ht-degree: 2%
 
 # 地图{#map}
 
-影像地圖資料。 提供此圖層的影像地圖資料。 覆寫此圖層的catalog：：Map中的所有資料。
+图像映射数据。 提供此图层的图像映射数据。 覆盖此图层的catalog：：Map中的所有数据。
 
-`map=[ *`字串`*]mapA=[ *`stringA`*]`
+`map=[ *`字符串`*]mapA=[ *`stringA`*]`
 
 <table id="simpletable_2E32B25D5F6246A18A8AF817903877ED"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 字串</span></span> </p></td> 
-  <td class="stentry"> <p>圖層座標中此圖層的影像地圖資料。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 字符串</span></span> </p></td> 
+  <td class="stentry"> <p>图层坐标中此图层的图像映射数据。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> stringA</span></span> </p></td> 
-  <td class="stentry"> <p>以來源影像座標表示此圖層的影像地圖資料。 </p></td> 
+  <td class="stentry"> <p>此图层的图像映射数据（以源图像坐标表示）。 </p></td> 
  </tr> 
 </table>
 
-空白字串表示此圖層不應提供影像地圖。 該字串必須正確進行HTTP編碼，以避免剖析問題。
+空字符串表示此图层不应提供图像映射。 该字符串必须经过正确的HTTP编码，以避免出现解析问题。
 
-中出現的所有與號(&amp;)字元 *`string`* 必須為http編碼。
+中出现的所有与号(&amp;)字符 *`string`* 必须为http编码。
 
-當 `mapA=` 和 `catalog::Map` 以來源影像座標指定地圖資料， `map=` 相對於圖層矩形的左上角，假定圖層座標(在 `rotate=` 和 `extend=` （已套用）。
+While `mapA=` 和 `catalog::Map` 以源图像坐标指定映射数据， `map=` 假定图层坐标相对于图层矩形的左上角(在 `rotate=` 和 `extend=` （已应用）。
 
-輸出影像地圖一律會裁剪至圖層矩形。 如果 `shape` 屬性被省略或設為 `default`，則整個圖層矩形會作為影像地圖區域使用。
+输出图像映射始终被剪切到图层矩形。 如果 `shape` 属性被忽略或设置为 `default`，则整个图层矩形用作图像映射区域。
 
-## 屬性 {#section-a18d9ea95c71414a905a68b8839c0843}
+## 属性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-圖層屬性。 套用至 `layer=comp`，則指定的地圖資料會圖層式地置於所有其他影像地圖之後。 已忽略，除非 `req=map`. 被效果圖層忽略。 `mapA=` 被忽略，如果 `map=` 也會指定。
+层属性。 应用到 `layer=comp`，则指定的映射数据将分层放置在所有其他图像映射的后面。 已忽略，除非 `req=map`. 被效果层忽略。 `mapA=` 被忽略，如果 `map=` 也会指定。
 
 ## 默认 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-`catalog::Map` 使用時機 `map=` 未指定。
+`catalog::Map` 在以下情况下使用 `map=` 未指定。
 
 ## 示例 {#section-cd7691c94f984222845c86dcb0051ce8}
 
-為簡單文字圖層定義矩形影像地圖：
+为简单文本图层定义矩形图像映射：
 
 `…&layer=1&text=Scene7&map=<area%20alt=Scene7%20href=www.scene7.com>&…`
 
-一個 `AREA` 具有（通常）預設屬性的元素可用來插入整個圖層矩形的對映區域。
+An `AREA` 具有（通常）默认属性的元素用于插入整个图层矩形的映射区域。
 
 ## 另请参阅 {#section-bc1d946fdf4b47bf9742a986800aa9b5}
 
-[影像地圖](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)， [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[图像映射](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)， [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

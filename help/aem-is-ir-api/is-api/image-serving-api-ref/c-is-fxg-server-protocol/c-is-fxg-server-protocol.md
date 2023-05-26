@@ -1,7 +1,7 @@
 ---
-description: 本檔案提供有關FXG伺服器通訊協定及其語法的資訊。
+description: 本文档提供有关FXG服务器协议及其语法的信息。
 solution: Experience Manager
-title: FXG伺服器通訊協定參考
+title: FXG服务器协议引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3a0490a-2f98-42d7-a37f-ff9f2377ecee
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# FXG伺服器通訊協定參考{#fxg-server-protocol-reference}
+# FXG服务器协议引用{#fxg-server-protocol-reference}
 
-本檔案提供有關FXG伺服器通訊協定及其語法的資訊。
+本文档提供有关FXG服务器协议及其语法的信息。

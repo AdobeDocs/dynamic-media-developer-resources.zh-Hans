@@ -1,7 +1,7 @@
 ---
-description: 定義公司的發佈目標。
+description: 为公司定义发布目标。
 solution: Experience Manager
-title: PublishContext
+title: Publishcontext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
@@ -14,13 +14,13 @@ ht-degree: 17%
 
 # [!DNL PublishContext]{#publishcontext}
 
-定義公司的發佈目標。
+为公司定义发布目标。
 
 语法
 
 ## 参数 {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-資產會為各個發佈狀態和內容維護個別的標籤。 設定發佈狀態 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+资产会为每个发布状态和上下文维护一个单独的标记。 设置发布状态 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -34,22 +34,22 @@ ht-degree: 17%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> 處理發佈內容的動作。 </td>
+   <td colname="col3"> 处理发布上下文。 </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3"> 發佈內容的名稱。 </td>
+   <td colname="col3"> 发布上下文的名称。 </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">發佈內容的型別。 包括： 
+   <td colname="col3">发布上下文的类型。 包括： 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
-     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServe</span></li>
-     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> 影像演算</span></li>
+     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> Imageserving</span></li>
+     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> 图像渲染</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> 视频</span></li>
-     <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> 伺服器目錄</span></li>
+     <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> 服务器目录</span></li>
     </ul></td>
   </tr>
  </tbody>
@@ -57,5 +57,5 @@ ht-degree: 17%
 
 >[!MORELIKETHIS]
 >
->* [發佈內容](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [发布上下文](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
 

@@ -20,12 +20,12 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 當設定為 <span class="codeph"> 1</span> 元件會使用所有頁面的元素來填入下拉式面板，包括未定義標籤的那些頁面。 </p> <p>當設定為 <span class="codeph"> 0</span> 下拉式面板中只會顯示具有明確標籤的專案。 </p> </td> 
+   <td> <p> 当设置为 <span class="codeph"> 1</span> 组件将在下拉面板中填充所有页面的元素，即使那些没有定义标签的页面也是如此。 </p> <p>当设置为 <span class="codeph"> 0</span> 下拉面板中仅显示具有显式标签的项目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-89a21bad65674a948db84412eb3e46d7}
+## 属性 {#section-89a21bad65674a948db84412eb3e46d7}
 
 可选.
 

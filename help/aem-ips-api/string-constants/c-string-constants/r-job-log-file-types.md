@@ -1,7 +1,7 @@
 ---
 description: 由JobLogDetial/assetType使用。
 solution: Experience Manager
-title: 工作記錄檔型別
+title: 作业日志文件类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# 工作記錄檔型別{#job-log-file-types}
+# 作业日志文件类型{#job-log-file-types}
 
 由JobLogDetial/assetType使用。
 

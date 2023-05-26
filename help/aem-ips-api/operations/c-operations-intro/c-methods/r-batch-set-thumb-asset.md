@@ -1,7 +1,7 @@
 ---
-description: 設定一或多個資產的縮圖影像。
+description: 设置一个或多个资源的缩略图图像。
 solution: Experience Manager
-title: batchsetthumbasset
+title: batchSetThumbAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
@@ -12,23 +12,23 @@ ht-degree: 12%
 
 ---
 
-# batchsetthumbasset{#batchsetthumbasset}
+# batchSetThumbAsset{#batchsetthumbasset}
 
-設定一或多個資產的縮圖影像。
+设置一个或多个资源的缩略图图像。
 
 语法
 
-## 縮圖資產型別 {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## 缩略图资源类型 {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-允許的縮圖資產型別包含下列專案：
+允许的缩略图资源类型包含以下内容：
 
 * 图像
-* AdjustedView
-* 遮色片
+* 调整后的视图
+* 蒙版
 * 模板
-* Psd範本
+* Psd模板
 
-## 授權的使用者型別 {#section-5fc988e3d6384968b86fd9fe363658c0}
+## 授权用户类型 {#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,26 +39,26 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->使用者必須擁有目標資產的讀取/寫入存取權，以及縮圖資產的讀取存取權。
+>用户必须拥有目标资产的读/写权限以及缩略图资产的读权限。
 
 ## 参数 {#section-9c6efa000b384b3db6c013def20cf40b}
 
-**輸入(batchSetThumbAssetParam)**
+**输入(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含資產的公司的控制代碼。 |
-| updatearray | `types:ThumbAssetUpdateArray` | 是 | 更新的陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含资产的公司的句柄。 |
+| updateArray | `types:ThumbAssetUpdateArray` | 是 | 更新的数组。 |
 
-**輸出(batchSetThumbAssetParam)**
+**输出(batchSetThumbAssetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 成功設定的縮圖數目。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 作業嘗試設定縮圖時產生的錯誤數目。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試套用更新時產生錯誤。 |
+| successCount | `xsd:int` | 是 | 成功设置的缩略图数。 |
+| warningCount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
+| 错误计数 | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试应用更新时这些资源会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成错误。 |
 
 ## 示例 {#section-6de69a8680c24c1486c5f01488393381}
 

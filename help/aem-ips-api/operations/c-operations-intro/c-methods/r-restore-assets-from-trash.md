@@ -1,5 +1,5 @@
 ---
-description: 從垃圾桶還原資產。
+description: 从垃圾桶中恢复资源。
 solution: Experience Manager
 title: restoreAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 12%
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-從垃圾桶還原資產。
+从垃圾桶中恢复资源。
 
 语法
 
-## 授權的使用者型別 {#section-15e887782c7d4ace897ff02c6ad5baa0}
+## 授权用户类型 {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,26 +29,26 @@ ht-degree: 12%
 
 ## 参数 {#section-200a61d040c94e489a85241b29cd499a}
 
-**輸入(restoreAssetsFromTrashParam)**
+**输入(restoreAssetsFromTrashParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 擁有您要還原之資產的公司的控制代碼。 |
-| assetHandleArray | `types:HandleArray` | 是 | 您要還原之資產的控點陣列。 |
+| companyHandle | `xsd:string` | 是 | 包含要还原的资产的公司的句柄。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要还原的资源的句柄数组。 |
 
-**輸出(restoreAssetsFromTrashReturn)**
+**输出(restoreAssetsFromTrashReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 已成功從垃圾桶移除的資產數量。 |
-| warningCount | `xsd:int` | 是 | 作業嘗試從垃圾桶還原資產時產生的警告數目。 |
-| errororcount | `xsd:int` | 是 | 嘗試從垃圾桶還原資產時產生的錯誤數。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在作業嘗試從垃圾桶還原資產時產生警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 與資產關聯的詳細資訊陣列，在操作嘗試從垃圾桶還原資產時產生錯誤。 |
+| successCount | `xsd:int` | 是 | 已成功从垃圾桶中删除的资源数。 |
+| warningCount | `xsd:int` | 是 | 操作尝试从垃圾桶中还原资源时生成的警告数。 |
+| 错误计数 | `xsd:int` | 是 | 尝试从垃圾桶中还原资源时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试从垃圾桶中还原资源时这些资源会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，当操作尝试从垃圾桶中还原资源时，这些资源会生成错误。 |
 
 ## 示例 {#section-98fe0394b0634ca397c395f14f8a9358}
 
-此程式碼範例會從垃圾桶還原資產。 回應指出作業已順利完成。
+此代码示例从垃圾桶中还原资源。 响应指示操作已成功完成。
 
 **请求**
 

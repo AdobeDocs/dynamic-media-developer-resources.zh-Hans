@@ -20,12 +20,12 @@ ht-degree: 23%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 啟用或停用卷軸。 </p> </td> 
+   <td> <p> 启用或禁用滚动条的使用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f102ce7d6a514133b552c6a8466317cf}
+## 属性 {#section-f102ce7d6a514133b552c6a8466317cf}
 
 可选.
 

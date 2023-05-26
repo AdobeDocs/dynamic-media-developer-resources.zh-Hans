@@ -1,5 +1,5 @@
 ---
-description: 用於透過URL上傳資產。
+description: 用于通过URL上传资产。
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-用於透過URL上傳資產。
+用于通过URL上传资产。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| sourceUrl | `xsd:string` | 資產上傳來源的URL。 |
-| destPath | `xsd:string` | IPS檔案路徑和您要上傳的檔案名稱。 |
+| sourceUrl | `xsd:string` | 从中上传资产的源URL。 |
+| destPath | `xsd:string` | 要上载到的IPS文件路径和文件名。 |

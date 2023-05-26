@@ -1,6 +1,6 @@
 ---
-title: 命令參考 — 組態屬性
-description: 彈出式檢視器的設定屬性檔案
+title: 命令引用 — 配置属性
+description: 弹出查看器的配置属性文档
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# 命令參考 — 組態屬性{#command-reference-configuration-attributes}
+# 命令引用 — 配置属性{#command-reference-configuration-attributes}
 
-彈出式檢視器的設定屬性檔案
+弹出查看器的配置属性文档
 
-您可以在URL中設定任何組態命令。 或者，您可以使用 `setParam()`， `setParams()`，或兩者API方法。 您也可以在伺服器端組態記錄中指定任何組態屬性。
+您可以在URL中设置任何配置命令。 或者，您可以使用 `setParam()`， `setParams()`或这两种API方法。 您还可以在服务器端配置记录中指定任何配置属性。
 
-某些設定命令會加上相對應之Viewer SDK元件的類別名稱或執行個體名稱當作前置詞。 元件的例項名稱是動態的，且取決於傳遞至的檢視器容器DOM元素的ID `setContainerId()` api方法。 檔案包含這類命令的選用首碼。 例如， `zoomfactor` 命令記錄如下：
+某些配置命令带有相应Viewer SDK组件的类名称或实例名称前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` api方法。 文档包含此类命令的可选前缀。 例如， `zoomfactor` 命令记录如下：
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 
-命令的使用方式如下：
+该命令的使用方式如下：
 
-* `zoomfactor` （簡短語法）
-* `FlyoutZoomView.zoomfactor` （以元件類別名稱限定）
-* `cont_flyout.zoomfactor` (以元件ID限定，假設 `cont` 是容器元素的ID)
+* `zoomfactor` （简短语法）
+* `FlyoutZoomView.zoomfactor` （使用组件类名进行限定）
+* `cont_flyout.zoomfactor` (使用组件ID进行限定，假设 `cont` 是容器元素的ID)
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+另请参阅 [所有查看器通用的命令引用 — 配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

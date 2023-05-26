@@ -1,5 +1,5 @@
 ---
-description: 縮放影像。 相對於完整解析度影像，以係數縮放圖層來源影像。
+description: 缩放图像。 相对于全分辨率图像，按比例缩放图层源图像。
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
@@ -14,26 +14,26 @@ ht-degree: 4%
 
 # scale{#scale}
 
-縮放影像。 相對於完整解析度影像，以係數縮放圖層來源影像。
+缩放图像。 相对于全分辨率图像，按比例缩放图层源图像。
 
-`scale= *`因數`*`
+`scale= *`因子`*`
 
 <table id="simpletable_AC596A87494A4213A7D1C76612E8F2FD"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 因數</span> </p> </td> 
-  <td class="stentry"> <p>縮放因數（實數，大於0.0）。 </p></td> 
+  <td class="stentry"> <p><span class="varname"> 因子</span> </p> </td> 
+  <td class="stentry"> <p>缩放因子（实数，大于0.0）。 </p></td> 
  </tr> 
 </table>
 
-以下情況時不會套用縮放： `scale=1`. *`factor`* 小於1.0會縮小比例但大於1.0會放大來源影像。
+以下情况下不应用缩放 `scale=1`. *`factor`* 小于1.0的缩放，大于1.0的缩放，会放大源图像。
 
-## 屬性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
+## 属性 {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-來源影像/遮色片屬性。 忽略條件 `size=` 亦會為目前圖層指定。 覆寫 `res=`. 若指定為，則套用至圖層0 `layer=comp`. 如果圖層未與影像或遮色片相關聯，則忽略。
+源图像/蒙版属性。 忽略条件 `size=` 也会为当前层指定。 覆盖 `res=`. 应用于层0（如果已指定） `layer=comp`. 如果图层未与图像或蒙版关联，则忽略。
 
 ## 默认 {#section-26e64904362342a5a62c5f6598f330c4}
 
-若未指定， `res=` 已使用。 若 `res=` 未指定，不使用縮放來使用影像。
+如果未指定， `res=` 已使用。 如果 `res=` 未指定，不使用缩放使用图像。
 
 ## 另请参阅 {#section-61a11f30d37341d58c10df759bfff951}
 

@@ -1,6 +1,6 @@
 ---
 title: 页面查看
-description: 主檢視由目錄影像組成。 它可以輕掃以進入另一個頁面或縮放。
+description: 主视图由目录图像组成。 它可以滑动以转到其他页面或缩放。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # 页面查看{#page-view}
 
-主檢視由目錄影像組成。 它可以輕掃以進入另一個頁面或縮放。
+主视图由目录图像组成。 它可以滑动以转到其他页面或缩放。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主要檢視器區域的CSS屬性**
+**主查看器区域的CSS属性**
 
-檢視區域的外觀是由下列CSS類別選取器所控制：
+查看区域的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7pageview
@@ -29,23 +29,23 @@ ht-degree: 4%
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 主檢視的背景顏色（以十六進位格式）。 </p> </td> 
+   <td colname="col2"> <p> 主视图的背景颜色（以十六进制格式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 游標 </span> </p> </td> 
-   <td colname="col2"> <p>顯示在主檢視上的游標。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
+   <td colname="col2"> <p>显示在主视图上的光标。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 讓主檢視透明。
+示例 — 使主视图透明。
 
 ```
 .s7ecatalogsearchviewer .s7pageview { 
@@ -53,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在桌上型電腦系統上，元件支援 `cursortype` 可套用到的屬性選擇器 `.s7pageview` 類別並根據元件狀態和使用者動作控制游標型別。 下列專案 `cursortype` 支援的值：
+在桌面系统上，该组件支持 `cursortype` 可应用的属性选择器 `.s7pageview` 类并根据组件状态和用户操作控制游标类型。 以下各项 `cursortype` 值受支持：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -65,51 +65,51 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>因影像解析度小、元件設定或兩者而不可縮放時顯示。 </p> </td> 
+   <td colname="col2"> <p>由于图像分辨率低、组件设置或两者兼而有之而无法缩放图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 縮放 </span> </p> </td> 
-   <td colname="col2"> <p>影像可放大時顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col2"> <p>在可以放大图像时显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
-   <td colname="col2"> <p>當影像處於最大縮放等級時顯示，並可重設為初始狀態。 </p> </td> 
+   <td colname="col2"> <p>在图像处于最大缩放级别时显示，并且可以重置为初始状态。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>當使用者平移處於已縮放狀態的影像時顯示。 </p> </td> 
+   <td colname="col2"> <p>当用户平移处于缩放状态的图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
-   <td colname="col2"> <p>當使用者執行水準撥動或輕觸來執行影像交換時顯示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
+   <td colname="col2"> <p>用户通过执行水平轻扫或轻扫执行图像交换时显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-視覺上分隔目錄跨頁左右頁面的頁面分隔線，由下列CSS類別選取器控制：
+使用以下CSS类选择器可控制用于视觉上分隔目录跨页的左右页面的页面分隔符：
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
 <table id="table_77EBC9A77BF14CF4974F8F43C709A207"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 頁面分隔線的寬度。 設定為 <span class="codeph"> 0 </span> px以完全隱藏分隔線。 </p> </td> 
+   <td colname="col2"> <p> 页分隔符的宽度。 设置为 <span class="codeph"> 0 </span> px可完全隐藏分隔线。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>您要用作頁面分隔線的影像。 </p> </td> 
+   <td colname="col2"> <p>要用作页面分隔符的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 具有40畫素的寬分頁器，含半透明影像。
+示例 — 具有40像素宽分页器和半透明图像。
 
 ```
 .s7ecatalogsearchviewer .s7pageview .s7pagedivider { 
@@ -120,42 +120,42 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->當 `frametransition` 修飾元設為 `turn` 或 `auto` （在桌上型電腦系統上），分頁器的外觀是由 `pageturnstyle` 修飾元與 `.s7pagedivider` 已忽略CSS類別。
+>当 `frametransition` 修饰符设置为 `turn` 或 `auto` （在桌面系统上），分页器的外观由 `pageturnstyle` 修饰符和 `.s7pagedivider` CSS类被忽略。
 
-您可在主要檢視器區域上設定自訂滑鼠游標顯示。 此功能由套用到的其他屬性選擇器控制 `.s7ecatalogsearchviewer .s7pageview` CSS類別：
+可以在主查看器区域上配置自定义鼠标光标的显示。 此功能可通过应用到的其他属性选择器来控制 `.s7ecatalogsearchviewer .s7pageview` CSS类：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> CSS屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p> CSS属性 </p> </th> 
    <th colname="col2" class="entry"> <p>说明 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p> 通常為箭頭，會顯示不可縮放的影像。 </p> </td> 
+   <td colname="col2"> <p> 通常，为不可缩放的图像显示箭头。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 縮放 </span> </p> </td> 
-   <td colname="col2"> <p> 顯示何時可以放大影像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col2"> <p> 显示何时可以放大图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
-   <td colname="col2"> <p>顯示影像何時達到最大縮放並可重設。 </p> </td> 
+   <td colname="col2"> <p>显示图像何时处于最大缩放并可重置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>顯示使用者何時對已縮放的影像執行拖曳操作 </p> </td> 
+   <td colname="col2"> <p>显示用户何时对已缩放的图像执行拖动操作 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻燈片 </span> </p> </td> 
-   <td colname="col2"> <p>顯示使用者使用投影片手勢執行影像交換的時間 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
+   <td colname="col2"> <p>显示用户何时使用幻灯片手势执行图像交换 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-範例 — 每種元件狀態的滑鼠游標型別不同。
+示例 — 每种类型的组件状态都有不同的鼠标光标。
 
 ```
 .s7ecatalogsearchviewer .s7pageview[cursortype="default"] { 

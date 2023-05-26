@@ -1,6 +1,6 @@
 ---
-title: 互動式影像
-description: 互動式影像檢視器是一種檢視器，可顯示單一不可縮放影像，其中包含可點按的熱點。 此檢視器的目的是實作「可購物橫幅」體驗。 也就是說，使用者可以在橫幅影像上選取熱點，並重新導向至您網站上的快速檢視或產品詳細資料頁面。 專為桌上型電腦和行動裝置所設計。
+title: 交互式图像
+description: 交互式图像查看器是一种查看器，它显示单个不可缩放的图像，其中包含可单击的热点。 此查看器旨在实施“可购物横幅”体验。 也就是说，用户可以在横幅图像上选择一个热点，并重新定向到您网站上的概览或产品详细信息页面。 它设计为可在台式机和移动设备上工作。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,80 +12,80 @@ ht-degree: 0%
 
 ---
 
-# 互動式影像{#interactive-image}
+# 交互式图像{#interactive-image}
 
-互動式影像檢視器是一種檢視器，可顯示單一不可縮放影像，其中包含可點按的熱點。 此檢視器的目的是實作「可購物橫幅」體驗。 也就是說，使用者可以在橫幅影像上選取熱點，並重新導向至您網站上的快速檢視或產品詳細資料頁面。 專為桌上型電腦和行動裝置所設計。
+交互式图像查看器是一种查看器，它显示单个不可缩放的图像，其中包含可单击的热点。 此查看器旨在实施“可购物横幅”体验。 也就是说，用户可以在横幅图像上选择一个热点，并重新定向到您网站上的概览或产品详细信息页面。 它设计为可在台式机和移动设备上工作。
 
 >[!NOTE]
 >
->此檢視器不支援使用IR （影像演算）或UGC （使用者產生的內容）的影像。
+>此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。
 
-檢視器型別為508。
+查看器类型为508。
 
-## 示範URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
-另請參閱 [系統需求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+参见 [系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## 使用互動式影像檢視器 {#section-e6c68406ecdc4de781df182bbd8088b4}
+## 使用交互式图像查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-互動式影像檢視器代表一個主要JavaScript檔案和一組協助程式檔案（單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產、CSS），這些檔案由檢視器在執行階段下載。
+交互式图像查看器表示一个主JavaScript文件和一组帮助文件（单个JavaScript包含由此特定查看器使用的所有Viewer SDK组件、资产、CSS），这些文件由查看器在运行时下载。
 
-互動式影像檢視器僅可用於內嵌模式，即透過檔案說明的API整合至目標網頁。
+交互式图像查看器只能在嵌入式模式下使用，在该模式下，它使用文档记录的API集成到目标网页中。
 
-設定和外觀設定類似於本說明中說明的其他檢視器。 所有外觀設定都是透過自訂CSS來達成。
+配置和外观设计类似于本帮助中描述的其他查看器。 所有外观设计都是通过自定义CSS实现的。
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+参见 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與互動式影像檢視器互動 {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## 与交互式图像查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-視訊影像檢視器支援的互動是案頭系統上的熱點啟用。 此啟動會在點選和點一下觸控裝置上進行。
+视频图像查看器支持的交互是桌面系统上的热点激活。 此激活发生在点击和点按触控设备上。
 
-檢視器可使用完整的鍵盤。
+查看器完全可使用键盘。
 
-另請參閱 [鍵盤協助工具與導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+参见 [键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## 內嵌互動式影像檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入交互式图像查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-互動式影像檢視器內嵌於託管頁面中。 這類網頁可能具有靜態版面，也可能是「回應式」的，且在不同裝置或不同瀏覽器視窗大小中顯示的方式不同。
+交互式图像查看器将嵌入到托管页面中。 这样的网页可以具有静态布局，或者它可以“响应”并且在不同设备或不同浏览器窗口大小上以不同的方式显示。
 
-為因應這些需求，檢視器支援兩種主要操作模式：固定大小內嵌和回應式內嵌。
+为了满足这些需求，查看器支持两种主要操作模式：固定大小嵌入和响应式嵌入。
 
-**關於固定大小內嵌模式和回應式設計內嵌模式**
+**关于固定大小嵌入模式和响应式设计嵌入模式**
 
-在內嵌模式中，檢視器會新增至現有網頁。 此網頁可能已有某些與檢視器無關的客戶內容。 檢視器通常只會佔用網頁的一部分空間。
+在嵌入式模式下，查看器将添加到现有网页中。 此网页可能已经包含一些与查看器无关的客户内容。 查看者通常只占用网页的一部分空间。
 
-主要使用案例是針對桌上型電腦或平板電腦裝置的網頁，以及可根據裝置型別自動調整版面的回應式設計頁面。
+主要用例是面向台式机或平板电脑设备的网页，以及根据设备类型自动调整布局的响应式设计页面。
 
-當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 此方法適用於具有靜態配置的網頁。
+当查看器在初始加载后未更改其大小时，使用固定大小嵌入。 对于具有静态布局的网页，此方法为最佳选择。
 
-回應式設計內嵌假設檢視器必須在執行階段調整大小來回應其容器的大小變更 `DIV`. 最常見的使用案例是將檢視器新增至使用彈性頁面配置的網頁。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器的大小更改 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，只要其高度不受限制，檢視器就會根據所使用資產的外觀比例，自動選擇其高度。 此功能可確保資產完全符合檢視要求，而不需在兩側加上任何邊框間距。 此使用案例最常用於使用回應式網頁設計版面架構(例如Bootstrap和Foundation)的網頁。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页确定其容器大小的方式 `DIV`. 如果网页仅设置容器的宽度 `DIV`如果不限制高度，查看器会根据所用资源的纵横比自动选择高度。 此功能可确保资源完全适合视图，而不用填充边距。 此用例最常用于使用响应式Web设计布局框架(如Bootstrap和Foundation)的网页。
 
-否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器會填滿該區域。 它也遵循網頁版面配置提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗大小調整大小。
+否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器会填充该区域。 它还遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
-**固定大小內嵌**
+**固定大小嵌入**
 
-您可以執行下列動作，將檢視器新增至網頁：
+通过执行以下操作将查看器添加到网页：
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器 `DIV`.
-1. 設定檢視器大小。
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器 `DIV`.
+1. 设置查看器大小。
+1. 创建和初始化查看器。
 
-1. 將檢視器JavaScript檔案新增至網頁。
+1. 将查看器JavaScript文件添加到网页。
 
-   建立檢視器需要您在HTML標頭中新增指令碼標籤。 在使用檢視器API之前，請務必先包含 [!DNL InterativeImage.js]. 此 [!DNL InteractiveImage.js] 檔案位於 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括 [!DNL InterativeImage.js]. 此 [!DNL InteractiveImage.js] 文件位于 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js]
 
-如果檢視器部署在某個Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，則可以使用相對路徑。 否則，您需要指定已安裝IS-Viewers的其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
+如果查看器部署在一台Adobe Dynamic Media Classic服务器上，并且来自同一域，则可以使用相对路径。 否则，请指定已安装IS-Viewers的某个Adobe Dynamic Media Classic服务器的完整路径。
 
-相對路徑如下所示：
+相对路径如下所示：
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js"></script>
@@ -93,32 +93,32 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅參照主要檢視器JavaScript `include` 檔案時。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由檢視器的邏輯在執行階段下載）。 尤其請勿直接參照HTML5 SDK `Utils.js` 檢視器從載入的程式庫 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因在於 `Utils.js` 或類似的執行階段檢視器程式庫完全由檢視器的邏輯管理，且位置會在檢視器版本之間變更。 Adobe不會保留次要檢視器的舊版本 `includes` 在伺服器上。
+>仅引用主查看器JavaScript `include` 文件。 请勿在网页代码中引用任何可能由查看器的逻辑在运行时下载的其他JavaScript文件。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
 >
 >
->因此，直接參照任何次要JavaScript `include` 當日後部署新產品版本時，頁面上檢視器使用的檢視器功能會中斷檢視器。
+>因此，直接引用任何辅助JavaScript `include` 将来部署新产品版本时，页面上查看器使用的功能会中断查看器。
 
-1. 定義容器 `DIV`.
+1. 定义容器 `DIV`.
 
-   新增空白 `DIV` 元素至您要顯示檢視器的頁面。 此 `DIV` 元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定的。
+   添加空 `DIV` 元素到您希望查看器显示的页面。 此 `DIV` 元素必须定义其ID，因为此ID稍后会被传递到查看器API。 DIV的大小通过CSS指定。
 
-   預留位置 `DIV` 是定位元素，這表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
+   占位符 `DIV` 是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
 
-   以下是已定義預留位置的範例 `DIV` 元素：
+   以下是定义的占位符示例 `DIV` 元素：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
-1. 設定檢視器大小
+1. 设置查看器大小
 
-   您可以宣告檢視器的靜態大小，將它設為 `.s7interactiveimage` 以絕對單位表示的頂層CSS類別，或是使用 `stagesize` 修飾元。
+   通过声明查看器的静态大小，可以将其设置为 `.s7interactiveimage` 以绝对单位表示的顶级CSS类，或者使用 `stagesize` 修饰符。
 
-   您可以直接在HTML頁面上放入CSS的大小調整。 或者，您可以將大小調整放入自訂檢視器CSS檔案中，稍後再將該檔案指派給Adobe Experience Manager Assets中的檢視器預設集記錄（隨選），或明確透過以下方式傳遞： `style` 命令。
+   您可以直接在“HTML”页面上设置CSS大小。 或者，您可以将大小调整放入自定义查看器CSS文件中，该文件随后将分配给Adobe Experience Manager Assets中的查看器预设记录（按需），或者使用进行明确传递 `style` 命令。
 
-   另請參閱 [視訊](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 以取得有關使用CSS設定檢視器樣式的詳細資訊。
+   参见 [视频](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 有关使用CSS为查看器设置样式的更多信息。
 
-   以下是在「HTML」頁面中定義靜態檢視器大小的範例：
+   以下是在“HTML”页中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7interactiveimage { 
@@ -127,23 +127,23 @@ ht-degree: 0%
    }
    ```
 
-   您可以明確傳遞 `stagesize` 含有檢視器初始化程式碼的修飾元 `params` 集合或作為API呼叫，如命令參考一節中所述，如下所示：
+   您可以明确地传递 `stagesize` 修饰符，查看器初始化代码为 `params` 收藏集或作为API调用，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    interactiveImage.setParam("stagesize", "1174,500");
    ```
 
-   建議使用以CSS為基礎的方法，並用於此範例。
+   建议使用基于CSS的方法，并用于此示例。
 
-1. 建立和初始化檢視器。
+1. 创建和初始化查看器。
 
-   完成上述步驟後，您會建立 `s7viewers.InteractiveImage` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 檢視器例項的方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 具有檢視器支援之設定引數的JSON物件。 在此案例中， `params` 物件至少必須將影像伺服URL傳遞為 `serverUrl` 屬性，並將初始資產設為 `asset` 引數。 JSON型初始化API可讓您使用一行程式碼建立及啟動檢視器。
+   完成上述步骤后，您将创建一个实例 `s7viewers.InteractiveImage` 类，将所有配置信息传递到其构造函数，并调用 `init()` 方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有 `containerId` 保存查看器容器ID名称并嵌套的字段 `params` 具有查看器支持的配置参数的JSON对象。 在本例中， `params` 对象必须至少将图像服务URL传递为 `serverUrl` 资产，而初始资产为 `asset` 参数。 基于JSON的初始化API允许您使用一行代码创建和启动查看器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾。 如需最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤或內文 `onload()` 事件。
+   务必要将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标签上，或正文上 `onload()` 事件。
 
-   同時，容器元素不一定會成為網頁版面的一部分。 例如，它可能會使用以下專案隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 發生此事件時，檢視器會自動繼續載入。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可使用以下方式隐藏该内容： `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 发生此事件时，查看器加载会自动恢复。
 
-   以下範例說明如何建立檢視器例項、將最低必要的設定選項傳遞至建構函式，以及呼叫 `init()` 方法。 範例假設 `interactiveImage` 是檢視器例項； `s7viewer` 是預留位置的名稱 `DIV`； `http://aodmarketingna.assetsadobe.com/is/image` 是「影像伺服」URL，以及 `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` 為資產：
+   以下示例介绍了如何创建查看器实例，将最低必要的配置选项传递给构造函数并调用 `init()` 方法。 此示例假定 `interactiveImage` 是查看器实例； `s7viewer` 是占位符的名称 `DIV`； `http://aodmarketingna.assetsadobe.com/is/image` 是图像服务URL，并且 `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` 是资产：
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -157,7 +157,7 @@ ht-degree: 0%
    </script> 
    ```
 
-   下列程式碼為將Video Image Viewer嵌入固定大小的簡單網頁的完整範例：
+   以下代码是一个简单网页的完整示例，该网页以固定大小嵌入视频图像查看器：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -186,9 +186,9 @@ ht-degree: 0%
    </html> 
    ```
 
-**高度不受限制的回應式設計內嵌**
+**高度不受限制的响应式设计嵌入**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 對於以下範例，假設網頁允許檢視器的容器 `DIV` 以取得網頁瀏覽器視窗大小的40%。 而且，其高度不受限制。 網頁HTML程式碼如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器的运行时大小 `DIV`. 对于以下示例，假设网页允许查看器的容器 `DIV` 以获得Web浏览器窗口大小的40%。 而且高度不受限制。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -206,13 +206,13 @@ ht-degree: 0%
 </html> 
 ```
 
-將檢視器新增至這類頁面，類似於固定大小內嵌的步驟。 唯一的區別是您不需要明確定義檢視器大小。
+将查看器添加到此类页面与固定大小嵌入的步骤类似。 唯一的区别是，您不需要显式定义查看器大小。
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器 `DIV`.
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器 `DIV`.
+1. 创建和初始化查看器。
 
-上述所有步驟與固定大小內嵌的步驟相同。 新增容器 `DIV` 至現有 `"holder"` `DIV`. 下列程式碼為完整範例。 請注意瀏覽器調整大小時檢視器大小的變化，以及檢視器外觀比例與資產相符的方式。
+上述所有步骤与固定大小的嵌入步骤相同。 添加容器 `DIV` 到现有 `"holder"` `DIV`. 以下代码是一个完整的示例。 请注意浏览器调整大小时查看器大小的变化情况，以及查看器长宽比与资源的匹配情况。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -242,13 +242,13 @@ var interactiveImage = new s7viewers.InteractiveImage({
 </html> 
 ```
 
-以下範例頁面說明高度不受限制的回應式設計內嵌在實際應用中的更多情況：
+以下示例页面说明了高度不受限制的响应式设计嵌入的更多实际用途：
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
-**定義寬度和高度的彈性大小內嵌**
+**定义宽度和高度的灵活大小嵌入**
 
-如果有定義寬度和高度的彈性大小內嵌，則網頁樣式會不同。 它提供兩種大小給 `"holder"` 在瀏覽器視窗中進行DIV和置中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%。
+如果定义了宽度和高度的灵活大小嵌入，则网页的样式会不同。 它将两种大小提供给 `"holder"` 在浏览器窗口中进行DIV和居中对齐。 此外，该网页还设置 `HTML` 和 `BODY` 元素为100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -274,7 +274,7 @@ height: 60%;
 </html> 
 ```
 
-其餘的內嵌步驟與高度不受限制的回應式內嵌所使用的步驟相同。 產生的範例如下：
+其余嵌入步骤与用于高度不受限制的响应式嵌入的步骤相同。 产生的示例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -312,11 +312,11 @@ var interactiveImage = new s7viewers.InteractiveImage({
 </html> 
 ```
 
-**使用Setter型API內嵌**
+**使用基于Setter的API进行嵌入**
 
-您可以使用setter型API和no-args建構函式，而不使用JSON型初始化。 使用此API建構函式不接受任何引數，而且設定引數是透過以下方式指定的： `setContainerId()`， `setParam()`、和 `setAsset()` 具有個別JavaScript呼叫的API方法。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不接受任何参数，并且配置参数是使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法具有单独的JavaScript调用。
 
-下列範例說明如何將固定大小內嵌與setter型API搭配使用：
+以下示例说明了如何将固定大小嵌入与基于setter的API结合使用：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

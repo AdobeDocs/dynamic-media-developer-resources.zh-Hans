@@ -19,17 +19,17 @@ ht-degree: 6%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 一律|永不|限制</span> </p> </td> 
-   <td colname="col2"> <p> 啟用、限制或停用裝置的最佳化，其中 <span class="codeph"> devicePixelRatio</span> 大於 <span class="codeph"> 1</span>. 會影響使用高密度顯示器的裝置(例如iPhone4和類似裝置)。 如果啟用，元件會限制IS影像請求的大小，彷彿裝置的畫素比是 <span class="codeph"> 1</span>，減少頻寬。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 始终|从不|限制</span> </p> </td> 
+   <td colname="col2"> <p> 启用、限制或禁用设备优化，其中 <span class="codeph"> devicePixelRatio</span> 大于 <span class="codeph"> 1</span>. 影响具有高密度显示的设备，如iPhone4和类似设备。 如果激活，则组件将限制IS图像请求的大小，就像该设备的像素比是 <span class="codeph"> 1</span>，减少了带宽。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 数字</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果使用limit設定，元件僅會啟用指定上限的高畫素密度。 </p> </td> 
+   <td colname="col2"> <p> 如果使用limit设置，则组件启用高像素密度，但最多只能到指定的限制值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

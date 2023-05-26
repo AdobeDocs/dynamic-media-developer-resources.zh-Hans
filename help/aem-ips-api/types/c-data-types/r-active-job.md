@@ -1,6 +1,6 @@
 ---
-title: 作用中工作
-description: 在伺服器上執行的工作。 此外，它也是排程工作的執行個體。
+title: 活动作业
+description: 在服务器上运行的作业。 此外，它还是计划作业的一个实例。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,15 +14,15 @@ ht-degree: 8%
 
 # [!DNL ActiveJob]{#activejob}
 
-在伺服器上執行的工作。 此外，它也是排程工作的執行個體。
+在服务器上运行的作业。 此外，它还是计划作业的一个实例。
 
-工作分為三種狀態：
+作业存在三种状态：
 
-* 已排定執行。
-* 目前正在執行。
-* 已完成執行（且已將資訊寫入工作記錄檔）。
+* 已计划运行。
+* 当前正在运行。
+* 已完成运行（并且已将信息写入作业日志）。
 
-若要傳回工作型別，請指定工作型別值。 您可以傳回下列工作：
+要返回作业类型，请指定作业类型值。 您可以返回以下作业：
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -45,132 +45,132 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 處理公司。 </td> 
+   <td colname="col3"> 处理公司。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 處理工作。 </td> 
+   <td colname="col3"> 处理作业。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 名稱</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 工作的唯一名稱。 </td> 
+   <td colname="col3"> 作业的唯一名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 原始名稱</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 原始名称</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">的原始名稱 <span class="codeph"> 作用中工作</span> 與工作一起提交的型別。 </td> 
+   <td colname="col3">的原始名称 <span class="codeph"> 活动作业</span> 随作业一起提交的类型。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 系統傳回的工作型別選擇。 </td> 
+   <td colname="col3"> 系统返回的作业类型选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 系統傳回的使用中工作狀態選擇。 </td> 
+   <td colname="col3"> 系统返回的活动作业状态选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 排程工作之使用者的電子郵件地址。 </td> 
+   <td colname="col3"> 计划作业的用户电子邮件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">工作記錄檔詳細資料和電子郵件本地化的地區設定。 <p>指定地區設定為 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中語言程式碼為ISO-639所指定的小寫雙字母程式碼，而選用國家/地區程式碼為ISO-3166所指定的大寫雙字母程式碼。 例如，英文（美國）的地區設定字串將是： <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。 例如， English (United States)的区域设置字符串将是： <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 說明</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">原本指定的工作說明 <span class="codeph"> submitjob</span>. </td> 
+   <td colname="col3">最初指定的作业描述 <span class="codeph"> 提交作业</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 執行工作的伺服器名稱。 </td> 
+   <td colname="col3"> 运行作业的服务器的名称。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
-   <td colname="col3"> 作用中工作的日期、時間和時區。 </td> 
+   <td colname="col3"> 活动作业的日期、时间和时区。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 作用中工作的總大小。 </td> 
+   <td colname="col3"> 活动作业的总大小。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 進度</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 工作進度（即工作接近完成的程度）。 </td> 
+   <td colname="col3"> 作业进度（即作业接近完成的程度）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 說明工作進度的文字訊息。 </td> 
+   <td colname="col3"> 描述作业进度的文本消息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
-   <td colname="col3"> 上次進度更新的日期、時間和時區。 </td> 
+   <td colname="col3"> 上次进度更新的日期、时间和时区。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：TaskProgressArray</span> </td> 
-   <td colname="col3"> 非同步工作進度資訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：TaskProgressArray</span> </td> 
+   <td colname="col3"> 异步任务进度信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 影像伺服發佈工作的工作詳細資訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：图像服务发布作业</span> </td> 
+   <td colname="col3"> 图像服务发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ImageServingRenderJob</span> </td> 
-   <td colname="col3"> 影像演算發佈工作的工作詳細資訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingRenderJob</span> </td> 
+   <td colname="col3"> 图像渲染发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videopublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：VideoPublishJob</span> </td> 
-   <td colname="col3"> 視訊發佈工作的工作詳細資訊。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：VideoPublishJob</span> </td> 
+   <td colname="col3"> 视频发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 伺服器目錄發佈工作的工作詳細資訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：图像服务发布作业</span> </td> 
+   <td colname="col3"> 服务器目录发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：UploadUrlsJob</span> </td> 
-   <td colname="col3"> 上傳URL工作的工作詳細資訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：UploadUrlsJob</span> </td> 
+   <td colname="col3"> 上载URL作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：RipPdfJob</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdf作业</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：RipPdfJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：OptimizeImagesJob</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImageJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：优化图像作业</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：重新處理資產工作</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ReprocessassetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：UploadPostJob</span> </td> 
-   <td colname="col3"> 工作詳細資料，追蹤案頭上傳。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadpostjob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：UploadPostJob</span> </td> 
+   <td colname="col3"> 作业详细信息，跟踪桌面上载。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ExportJob</span> </td> 
-   <td colname="col3">允許授權匯出先前上傳的檔案。 另請參閱 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 匯出工作</a>. </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ExportJob</span> </td> 
+   <td colname="col3">允许授权导出以前上载的文件。 参见 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 將XML設為s7 elementID。
+description: 将XML设置为s7 elementID。
 solution: Experience Manager
 title: setElement
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # setElement{#setelement}
 
-將XML設為s7：elementID。
+将XML设置为s7：elementID。
 
 `setElement.elementID=<XML>`
 
-如果FXG節點元素具有 `s7:elementID` 已定義， `<XML>` 值會取代為子元素。 此 `<XML>` 必須編碼。
+如果FXG节点元素具有 `s7:elementID` 已定义， `<XML>` 值将被替换为一个子元素。 此 `<XML>` 必须经过编码。
 
 ## 示例 {#section-f23a998b18994dd3b5d4e1965718db9f}
 
-假設 `s7:elementID="group2"` 屬性已為 `Group` 節點，則以下內容有效：
+假设 `s7:elementID="group2"` 属性是为 `Group` 节点，则以下内容有效：
 
 `&setElement.group2=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500"><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 
-此範例會移除 `group2`節點並以新節點取代 `TextGraphic` 子節點。
+此示例从 `group2`节点并将其替换为新的 `TextGraphic` 子节点。

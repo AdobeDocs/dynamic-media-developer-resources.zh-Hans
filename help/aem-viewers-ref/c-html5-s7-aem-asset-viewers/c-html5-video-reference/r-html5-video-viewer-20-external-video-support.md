@@ -1,6 +1,6 @@
 ---
-title: 外部視訊支援
-description: 檢視器支援播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media外部託管的視訊。
+title: 外部视频支持
+description: 查看器支持播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media之外托管的视频。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 外部視訊支援{#external-video-support}
+# 外部视频支持{#external-video-support}
 
-檢視器支援播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media外部託管的視訊。
+查看器支持播放在Dynamic Media Classic或Adobe Experience Manager - Dynamic Media之外托管的视频。
 
-支援的外部視訊格式為H.264格式的MP4或HLS資料流的M3U8資訊清單。
+外部视频支持的格式为H.264格式的MP4或HLS流的M3U8清单。
 
-檢視器可搭配Dynamic Media Classic或Experience Manager - Dynamic Media影片或外部影片使用。 如果檢視器從Dynamic Media Classic/Dynamic Media影片開始，並搭配此類資產型別使用，則無法使用將外部影片載入此檢視器 [ `setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c) 方法。 反過來：如果檢視器最初是透過外部視訊載入，則應僅繼續使用外部視訊。
+查看器可以处理Dynamic Media Classic或Experience Manager - Dynamic Media视频或外部视频。 如果查看者首先查看Dynamic Media Classic/Dynamic Media视频，然后将其与此类资源类型一起使用，则无法使用将外部视频加载到此查看者中 [ `setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c) 方法。 反之：如果查看器最初加载了外部视频，则它应该只处理外部视频。
 
-使用外部視訊時，檢視器會忽略playback修飾元的值，並從外部視訊擴充功能中偵測播放型別。 如果外部視訊URL結尾為 `.m3u8` 檢視器使用HLS播放，否則使用漸進式播放。
+处理外部视频时，查看器会忽略playback修饰符的值，并从外部视频扩展中检测播放类型。 如果外部视频URL的结尾为 `.m3u8` 查看器正在使用HLS播放，否则使用渐进式播放。

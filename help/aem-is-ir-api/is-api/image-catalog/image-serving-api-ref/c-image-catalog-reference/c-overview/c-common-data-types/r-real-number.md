@@ -1,7 +1,7 @@
 ---
-description: 實數資料型別。
+description: 实数数据类型。
 solution: Experience Manager
-title: 實數
+title: 实数
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 04534c0f-12b7-4560-974b-918b081164ce
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 實數{#real-number}
+# 实数{#real-number}
 
-實數資料型別。
+实数数据类型。
 
-有符號浮點值（例如0、12.5、245、-2.34e4）。 0或負值可能有特殊意義。
+带符号的浮点值（例如0、12.5、245、-2.34e4）。 0或负值可能具有特殊含义。

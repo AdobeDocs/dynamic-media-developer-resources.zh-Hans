@@ -1,7 +1,7 @@
 ---
 description: 由searchAssetsParam/sortDirection和getJobLogsParam/sortDirection使用。
 solution: Experience Manager
-title: 排序方向
+title: 方向排序
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# 排序方向{#sort-directions}
+# 方向排序{#sort-directions}
 
 由searchAssetsParam/sortDirection和getJobLogsParam/sortDirection使用。
 

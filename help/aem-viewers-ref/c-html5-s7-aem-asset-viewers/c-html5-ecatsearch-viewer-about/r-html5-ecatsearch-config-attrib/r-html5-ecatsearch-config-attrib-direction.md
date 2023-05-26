@@ -19,13 +19,13 @@ ht-degree: 3%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>指定頁面在主檢視和縮圖中的顯示方式。 它也會指定使用者與檢視器使用者介面的互動方式，以便在目錄框架之間變更。 </p> <p>時間 <span class="codeph"> left </span> 使用「 」時，它會設定初始頁面的靠右對齊方式，以及最後一頁的靠左對齊方式。 它會依由左至右的轉譯順序來拼接個別頁面子影像。 它也會將主檢視設定為使用從右至左的投影片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，縮圖會設定為由左至右的填入順序。 </p> <p>同樣地，當 <span class="codeph"> 右側 </span> 使用「 」時，它會設定初始頁面的左對齊方式，以及最後一頁的右對齊方式。 它會依由右至左的轉譯順序來拼接個別頁面子影像。 它也會設定主檢視，以使用由左至右的投影片動畫來推進目錄(如果是 <span class="codeph"> PageView.frametransition </span> 設為滑動)。 最後，它會反轉縮圖順序，讓縮圖檢視以由右至左、由上至下的方向填入。 </p> <p>時間 <span class="codeph"> 自動 </span> 設定，則套用檢視器 <span class="codeph"> 右側 </span> locale設定為時的模式 <span class="codeph"> ja； </span>否則，它會使用 <span class="codeph"> left </span> 模式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自动|左|右 </span> </p> </td> 
+   <td colname="col2"> <p>指定页面在主视图和缩略图中的显示方式。 它还指定用户与查看器用户界面的交互方式，以便在目录框架之间更改。 </p> <p>时间 <span class="codeph"> left </span> 使用，它会为初始页面设置右对齐方式，为最后一页设置左对齐方式。 它会按照从左到右的渲染顺序拼接单个页面子图像。 它还会设置主视图，以使用从右至左的幻灯片动画来推进目录(如果是 <span class="codeph"> PageView.frametransition </span> 设置为幻灯片)。 最后，缩略图设置为从左至右的填充顺序。 </p> <p>同样，当 <span class="codeph"> 右 </span> 使用，它会为初始页面设置左对齐方式，为最后一页设置右对齐方式。 它会按照从右到左的渲染顺序拼接各个页面子图像。 它还会设置主视图，以使用从左至右的幻灯片动画来推进目录(如果是 <span class="codeph"> PageView.frametransition </span> 设置为幻灯片)。 最后，它会反转缩略图顺序，以便按从右至左、从上至下的方向填充缩略图视图。 </p> <p>时间 <span class="codeph"> 自动 </span> 设置，则查看器适用 <span class="codeph"> 右 </span> locale设置为时的模式 <span class="codeph"> ja； </span>否则，它使用 <span class="codeph"> left </span> 模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-a66ce10d6c0b449883f654e7e0657e2c}
+## 属性 {#section-a66ce10d6c0b449883f654e7e0657e2c}
 
 可选.
 

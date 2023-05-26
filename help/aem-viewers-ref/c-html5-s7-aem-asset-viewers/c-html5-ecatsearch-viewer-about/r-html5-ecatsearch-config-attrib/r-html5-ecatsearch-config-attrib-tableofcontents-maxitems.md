@@ -14,18 +14,18 @@ ht-degree: 5%
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
-[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`Maxitems`*`]
+[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`公理`*`]
 
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> Maxitems</span></span> </p> </td> 
-   <td> <p>下拉式目錄中的專案最大數量。 </p> <p>此外，您可以減少下拉式清單中的可見專案數量，以防其被外部容器裁切。 </p> <p>當設定為 <span class="codeph"> 0</span> 該元件會以其新增至的容器顯示儘可能多的專案。 </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> 公理</span></span> </p> </td> 
+   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，您可以减少下拉列表中可见项目的数量，以防外部容器裁切该项目。 </p> <p>当设置为 <span class="codeph"> 0</span> 该组件会根据它被添加到的容器，显示尽可能多的项目。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-850a060bf471467f9a640116f8368851}
+## 属性 {#section-850a060bf471467f9a640116f8368851}
 
 可选.
 

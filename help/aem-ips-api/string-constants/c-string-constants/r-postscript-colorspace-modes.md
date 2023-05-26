@@ -1,7 +1,7 @@
 ---
-description: 由PostScriptOptions/色域使用。
+description: 由PostScriptOptions/色彩空间使用。
 solution: Experience Manager
-title: PostScript色彩空間模式
+title: PostScript色彩空间模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# PostScript色彩空間模式{#postscript-colorspace-modes}
+# PostScript色彩空间模式{#postscript-colorspace-modes}
 
-由PostScriptOptions/色域使用。
+由PostScriptOptions/色彩空间使用。
 
 语法
 

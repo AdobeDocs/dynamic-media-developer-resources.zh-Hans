@@ -1,5 +1,5 @@
 ---
-description: 目錄記錄識別碼
+description: 目录记录标识符
 solution: Experience Manager
 title: Id
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # Id {#id}
 
-影像資料檔案中用於查閱記錄的索引鍵值 [!DNL Platform Server].
+用于查找图像数据文件中的记录的索引键值 [!DNL Platform Server].
 
-如果一個SKU有多個影像，通常是一個簡短且唯一的影像識別碼，例如SKU編號，可能帶有某種影像尾碼。 也可能是更複雜的字串，看起來更像檔案路徑，以支援透過影像伺服輕鬆調整網站。
+通常，如果一个SKU具有多个图像，则使用简短且唯一的图像标识符（如SKU编号），并可能包含某种类型的图像后缀。 也可能是更复杂的字符串，看起来更像文件路径，以支持通过图像服务轻松地对网站进行追溯。
 
-## 屬性 {#id-properties}
+## 属性 {#id-properties}
 
-文字字串。 必需. 影像資料表的主要索引鍵。 每個目錄：：Id值在表格中必須是唯一的。
+文本字符串。 必需. 图像数据表的主索引键。 每个目录：：Id值在表中必须是唯一的。
 
 ## 默认 {#id-default}
 

@@ -1,5 +1,5 @@
 ---
-description: RGB預設輸入色彩設定檔。 指定用於未內嵌色彩設定檔的RGB來源影像，以及用各種「影像伺服」命令（例如color=）指定的某些RGB色彩值的ICC色彩設定檔名稱。
+description: RGB默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的RGB源图像的ICC颜色配置文件的名称，以及用于通过各种“图像提供”命令（例如color=）指定的某些RGB颜色值的名称。
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-RGB預設輸入色彩設定檔。 指定用於未內嵌色彩設定檔的RGB來源影像，以及用各種「影像伺服」命令（例如color=）指定的某些RGB色彩值的ICC色彩設定檔名稱。
+RGB默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的RGB源图像的ICC颜色配置文件的名称，以及用于通过各种“图像提供”命令（例如color=）指定的某些RGB颜色值的名称。
 
-## 屬性 {#section-3cd753196959462e9e674dab0b033d08}
+## 属性 {#section-3cd753196959462e9e674dab0b033d08}
 
-文字字串。 若指定，則必須為有效 `icc::Name` 值來自此影像目錄或預設目錄的ICC設定檔對映，或是相對於的檔案路徑 `attribute::RootPath`. 參考的ICC設定檔必須是RGB設定檔。
+文本字符串。 如果指定，则必须为有效 `icc::Name` 值，该值来自此图像目录或默认目录的ICC配置文件映射，或相对于该图像目录的文件路径 `attribute::RootPath`. 引用的ICC配置文件必须是RGB配置文件。
 
 ## 默认 {#section-2c3cb2d9c9bf4aa7896e51b5d444ddee}
 
-繼承自 `default::IccProfileSrcRgb` 如果未定義或為空。 若 `attribute::IccProfileSrcRgb` 無法解析為有效的設定檔， `attribute::IccProfileRgb` 會改用。
+继承自 `default::IccProfileSrcRgb` 如果未定义或为空。 如果 `attribute::IccProfileSrcRgb` 无法解析为有效的配置文件， `attribute::IccProfileRgb` 而使用。
 
 ## 另请参阅 {#section-d6e5c6eeaea4445ba7fb5737cd193a48}
 

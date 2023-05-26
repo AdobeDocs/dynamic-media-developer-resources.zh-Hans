@@ -1,7 +1,7 @@
 ---
 description: 由PropertySetType使用
 solution: Experience Manager
-title: 屬性集型別
+title: 属性集类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 48c6a6fa-9d30-4318-bc7a-339a3f895006
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# 屬性集型別{#property-set-types}
+# 属性集类型{#property-set-types}
 
 由PropertySetType使用
 

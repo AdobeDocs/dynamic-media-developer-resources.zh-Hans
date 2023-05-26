@@ -16,20 +16,20 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->此屬性適用於「縮放檢視器」、「視訊檢視器」、「迴轉檢視器」、「互動式影像檢視器」、「互動式視訊檢視器」和「轉盤檢視器」。
+>此属性适用于缩放查看器、视频查看器、旋转查看器、交互式图像查看器、交互式视频查看器和轮盘式查看器。
 
-`stageSize= *`寬度`*, *`高度`*`
+`stageSize= *`宽度`*, *`高度`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 寬度</span>，<span class="varname"> 高度</span></span> </p> </td> 
-   <td colname="col2"> <p> 檢視器的整體寬度和高度。 的值 <span class="codeph"> 0,0</span> 表示檢視器的大小會根據CSS規則和網頁版面配置而定。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 宽度</span>，<span class="varname"> 高度</span></span> </p> </td> 
+   <td colname="col2"> <p> 查看器的整体宽度和高度。 的值 <span class="codeph"> 0,0</span> 表示根据CSS规则和网页布局调整查看器大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
+## 属性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
 可选.
 

@@ -1,7 +1,7 @@
 ---
 description: 由ViewerPresetInfo使用。
 solution: Experience Manager
-title: 檢視器型別
+title: 查看器类型
 feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 35a11828-d188-4025-8133-154437ba2466
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 ---
 
-# 檢視器型別{#viewer-type}
+# 查看器类型{#viewer-type}
 
 由ViewerPresetInfo使用。
 

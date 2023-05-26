@@ -19,13 +19,13 @@ ht-degree: 4%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 數值|虛線</span> </p> </td> 
-   <td colname="col2"> <p> 設定設定指示的演算樣式。 </p> <p>當設定為 <span class="codeph"> 點狀 </span>時，元件會為所有頁面轉譯相同的指標。 </p> <p>當設定為 <span class="codeph"> 數值</span> 它會在每個指標元素內放置一個以1為基礎的頁碼。 </p> <p>此 <span class="codeph"> 數值</span> 具有觸控式輸入的裝置不支援操作模式。 相反地，元件使用 <span class="codeph"> 點狀</span> 在此類裝置上。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 数值|点线</span> </p> </td> 
+   <td colname="col2"> <p> 配置设置指示器的渲染样式。 </p> <p>当设置为 <span class="codeph"> 虚线 </span>时，组件呈现所有页面的相同指示器。 </p> <p>当设置为 <span class="codeph"> 数值</span> 它在每个指标元素内放置一个从1开始的页码。 </p> <p>此 <span class="codeph"> 数值</span> 具有触摸输入的设备不支持操作模式。 相反，组件使用 <span class="codeph"> 虚线</span> 在此类设备上。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

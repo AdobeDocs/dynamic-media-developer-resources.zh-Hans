@@ -14,22 +14,22 @@ ht-degree: 3%
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`寬度`*[; *`寬度`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`宽度`*[; *`宽度`*]]`
 
 <table id="table_42CA0074AD7C4F0D9FC81E9FCB0591C0"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定在調整大小期間，元件如何擷取主檢視和彈出式檢視的新影像。 </p> <p>當設定為 <span class="codeph"> 0 </span>時，元件不會在調整大小期間載入新影像；彈出式檢視中的影像解析度不會變更。 </p> <p>設定為 <span class="codeph"> 1 </span> 可讓您為載入至主檢視的影像指定一或多個寬度中斷點。 </p> </td> 
+   <td colname="col2"> <p> 配置组件如何在调整大小期间为主视图和弹出视图获取新图像。 </p> <p>当设置为 <span class="codeph"> 0 </span>时，组件不会在调整大小期间加载新图像；弹出视图中的图像分辨率不会更改。 </p> <p>将设置为 <span class="codeph"> 1 </span> 用于为加载到主视图中的图像指定一个或多个宽度断点。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 中斷點， <span class="varname"> 寬度 </span>[； <span class="varname"> 寬度 </span>] </span> </p> </td> 
-   <td colname="col2"> <p> 載入主檢視之影像的寬度中斷點。 元件一律會使用最佳配合大小來初始載入。 調整大小後，可確保下載主檢視中的影像時，寬度始終等於最接近的大型中斷點，並在使用者端上縮小比例。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 断点， <span class="varname"> 宽度 </span>[； <span class="varname"> 宽度 </span>] </span> </p> </td> 
+   <td colname="col2"> <p> 加载到主视图中的图像的宽度断点。 组件始终使用初始载荷的最佳配合尺寸。 在调整大小后，它可确保下载主视图中的图像时宽度始终等于最近的大型断点，并在客户端上缩小尺寸。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

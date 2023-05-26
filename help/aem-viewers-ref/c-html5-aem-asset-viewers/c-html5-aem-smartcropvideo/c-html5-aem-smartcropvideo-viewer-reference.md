@@ -1,7 +1,7 @@
 ---
-title: 智慧型裁切視訊檢視器
-description: 智慧型裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並額外支援智慧型裁切。 它是從Dynamic Media Classic或Adobe Experience Manager透過Dynamic Media提供。
-keywords: 回應式
+title: 智能裁剪视频查看器
+description: 智能裁剪视频查看器可播放以H.264格式编码的流和渐进式视频，并增加了智能裁剪支持。 它通过Dynamic Media从Dynamic Media Classic或Adobe Experience Manager提供。
+keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -13,121 +13,121 @@ ht-degree: 0%
 
 ---
 
-# 智慧型裁切視訊{#smart-crop-video}
+# 智能裁剪视频{#smart-crop-video}
 
-智慧型裁切視訊檢視器可播放以H.264格式編碼的串流及漸進式視訊，並額外支援智慧型裁切。 它是從Dynamic Media Classic或使用Dynamic Media的Experience Manager提供。
+智能裁剪视频查看器可播放以H.264格式编码的流和渐进式视频，并增加了智能裁剪支持。 它通过Dynamic Media Classic或通过Dynamic MediaExperience Manager提供。
 
-另請參閱 [系統需求和先決條件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+参见 [系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-同時支援單一視訊和自我調整視訊集。 此外，檢視器支援使用託管於外部位置的漸進式視訊和HLS資料流。 專為支援HTML5視訊的桌上型與行動網頁瀏覽器所設計。 此檢視器也支援在視訊內容、視訊章節導覽和社群媒體分享工具上方顯示的選擇性隱藏式字幕。
+支持单个视频和自适应视频集。 此外，查看器支持使用托管在外部位置的渐进式视频和HLS流。 它设计为可在支持HTML5视频的桌面和移动Web浏览器上工作。 此查看器还支持在视频内容、视频章节导航和社交媒体共享工具顶部显示的可选隐藏式字幕。
 
-只要基礎系統支援，「智慧型裁切視訊檢視器」就會在其預設設定中使用HLS格式的HTML5串流視訊播放。 在不支援HTML5串流的系統上，檢視器會回到HTML5漸進式視訊傳送。
+只要基础系统支持，智能裁剪视频查看器就会在其默认配置中使用HLS格式的HTML5流视频播放。 在不支持HTML5流传输的系统上，查看器回退到HTML5渐进式视频交付。
 
-檢視器型別518。
+查看器类型518。
 
-## 示範URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS](https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS)
 
-## 使用智慧型裁切視訊檢視器 {#section-f21ac23d3f6449ad9765588d69584772}
+## 使用智能裁剪视频查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-智慧型裁切視訊檢視器代表主要JavaScript檔案和一組協助程式檔案。單一JavaScript包含此特定檢視器使用的所有Viewer SDK元件、資產，以及檢視器在執行階段下載的CSS。
+智能裁剪视频查看器表示一个主JavaScript文件和一组帮助文件 — 单个JavaScript包含此特定查看器使用的所有Viewer SDK组件、资源以及查看器运行时下载的CSS。
 
-您可以使用透過IS-Viewers提供的生產就緒HTML頁面，在快顯視窗模式中使用智慧型裁切視訊檢視器。 或者，您也可以在內嵌模式下使用檢視器，也就是使用記錄的API將其整合到目標網頁中。
+您可以使用随IS-Viewers一起提供的生产就绪HTML页，在弹出模式下使用智能裁切视频查看器。 或者，您可以在嵌入式模式下使用查看器，其中使用文档记录的API将其集成到目标网页中。
 
-設定檢視器及設定檢視器外觀的任務與其他檢視器類似。 所有外觀設定都是透過自訂CSS來達成。
+配置查看器和为查看器设置外观的任务与其他查看器类似。 所有外观设计都是通过自定义CSS实现的。
 
-另請參閱 [所有檢視器通用的命令參考 — 設定屬性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有檢視器通用的命令參考 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+参见 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## 與智慧型裁切視訊檢視器互動 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## 与智能裁剪视频查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-智慧型裁切視訊檢視器提供一組用於視訊播放的標準使用者介面控制項，例如：
+智能裁剪视频查看器为视频播放提供一组标准用户界面控件，例如：
 
-* 播放/暫停按鈕。
-* 視訊筆畫壓感視訊時間泡泡。
-* 播放時間/總時間指標。
+* 播放/暂停按钮。
+* 视频洗刷视频时间气泡。
+* 已播放时间/总时间指示器。
 * 音量控制。
-* 全熒幕按鈕。
-* 隱藏式字幕切換。
+* 全屏按钮。
+* 隐藏式字幕切换。
 
-所有這些控制項都會分組到檢視器使用者介面底部的控制項列中。
+所有这些控件都分组到查看器用户界面底部的控件栏中。
 
-在觸控裝置上，音量控制會隱藏在使用者介面中，因為只能使用硬體按鈕來控制音量。
+在触控设备上，音量控制从用户界面中隐藏，因为只能使用硬件按钮控制音量。
 
-當檢視器在快顯視窗模式下操作時，全熒幕按鈕在使用者介面中不可用。
+当查看器以弹出模式运行时，全屏按钮在用户界面中不可用。
 
-當視訊章節啟動時，您可以快速導覽視訊內容。 視訊章節會在視訊筆畫壓感追蹤中顯示為標籤，並在滑鼠滑鼠指向效果上或點一下觸控系統時，顯示章節標題和相關說明。 使用者可以選取章節標籤或選取章節說明泡泡來搜尋特定章節。
+可以在激活视频章节时快速导航视频内容。 视频章节在视频洗刷跟踪中显示为标记，并在鼠标滚动或点按触摸系统时显示章节标题和相关描述。 用户可以通过选择章节标记或选择章节描述气泡来搜索特定章节。
 
-檢視器支援觸控式輸入和滑鼠輸入，適用於Windows裝置上的觸控式熒幕和滑鼠。 不過，這項支援僅限Chrome、Internet Explorer 11和Edge網頁瀏覽器。
+该查看器支持在带有触摸屏和鼠标的Windows设备上输入触摸和鼠标。 但是，此支持仅适用于Chrome、Internet Explorer 11和Edge Web浏览器。
 
-此檢視器可使用完整的鍵盤。
+此查看器可使用键盘完全访问。
 
-另請參閱 [鍵盤協助工具與導覽](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+参见 [键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## 使用智慧型裁切視訊檢視器的社群媒體分享工具 {#section-907d316fe1da4b87abb9775f02464704}
+## 使用智能裁剪视频查看器的社交媒体共享工具 {#section-907d316fe1da4b87abb9775f02464704}
 
-智慧型裁切視訊檢視器支援社群媒體分享工具。 它們可作為使用者介面中的單一按鈕使用，當使用者按一下或點選共用工具列時，該按鈕會展開為共用工具列。
+智能裁剪视频查看器支持社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。
 
-共用工具列包含每個支援共用管道型別的圖示，例如Facebook、Twitter、電子郵件共用、內嵌程式碼共用和連結共用。 啟動電子郵件共用、內嵌共用或連結共用工具時，檢視器會顯示包含對應資料輸入表單的強制回應對話方塊。 呼叫Facebook或Twitter時，檢視器會將使用者從社群媒體服務重新導向至標準共用對話方塊。 當共用工具啟動時，也會自動暫停視訊播放。
+共享工具栏中包含支持的每种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具被激活时，视频播放也会自动暂停。
 
-由於網頁瀏覽器安全限制，共用工具無法用於全熒幕模式。
+由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
-## 內嵌智慧型裁切視訊檢視器 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## 嵌入智能裁剪视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的網頁對檢視器行為有不同的需求。 有時，網頁會提供連結，在選取時會在個別瀏覽器視窗中開啟檢視器。 在其他情況下，必須直接將檢視器內嵌在託管頁面上。 在後一種情況下，網頁可能具有靜態頁面佈局，或使用回應式設計，在不同裝置或不同瀏覽器視窗大小上顯示不同。 為了滿足這些需求，檢視器支援三種主要操作模式：快顯視窗、固定大小內嵌和回應式設計內嵌。
+不同的网页对查看者的行为有不同的需求。 有时，网页会提供一个链接，在选中时，该链接会在单独的浏览器窗口中打开查看器。 在其他情况下，需要直接将查看器嵌入到托管页面上。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同的设备上或对于不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
-平板電腦和行動裝置支援在同一頁面上內嵌多個影片。 通常一次只能播放一個視訊。 當使用者開始播放一個影片，然後嘗試播放另一個影片時，會自動暫停第一個影片。 已自動暫停的視訊會記住其目前的播放時間，因此使用者可以隨時返回視訊並繼續播放。 此規則的唯一例外是Android™ 4.x裝置上的Chrome瀏覽器，該瀏覽器可同時播放視訊。
+平板电脑和移动设备支持在同一页面上嵌入多个视频。 通常，一次只能播放一个视频。 当用户开始播放一个视频，然后尝试播放另一个视频时，第一个视频自动暂停。 已自动暂停的视频会记住其当前播放时间，因此用户始终可以返回到其中并继续播放。 此规则唯一的例外是在Android™ 4.x设备上的Chrome浏览器中，该设备可以并行播放视频。
 
-**關於彈出式模式**
+**关于弹出模式**
 
-在快顯視窗模式中，檢視器會在個別的網頁瀏覽器視窗或標籤中開啟。 它會取用整個瀏覽器視窗區域，並在瀏覽器調整大小或裝置方向變更時進行調整。
+在弹出模式下，查看器将在单独的Web浏览器窗口或选项卡中打开。 它会取用整个浏览器窗口区域，并在浏览器调整大小或设备方向更改时进行调整。
 
-此模式最常用於行動裝置。 網頁會使用載入檢視器 `window.open()` JavaScript呼叫，已正確設定 `A` HTML元素或任何其他合適的方法。
+此模式最适用于移动设备。 网页使用以下方式加载查看器 `window.open()` JavaScript调用，正确配置 `A` HTML元素或任何其他合适的方法。
 
-建議您使用現成的HTML頁面作為快顯視窗操作模式。 其名稱為 [!DNL SmartCropVideoViewer.html] 而且它位於 [!DNL html5/] 標準IS-Viewers部署的子資料夾：
+建议您将现成的HTML页用于弹出窗口操作模式。 它称为 [!DNL SmartCropVideoViewer.html] 它位于 [!DNL html5/] 标准IS-Viewers部署的子文件夹：
 
 [!DNL <s7viewers_root>/html5/SmartCropVideoViewer.html]
 
-您可以套用自訂CSS來實現視覺化自訂。
+您可以通过应用自定义CSS来实现可视化自定义。
 
-以下是在新視窗中開啟檢視器的HTML程式碼範例：
+以下是在新窗口中打开查看器的HTML代码示例：
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS" target="_blank">Open popup viewer</a>
 ```
 
-**關於固定大小嵌入模式和回應式嵌入模式**
+**关于固定大小嵌入模式和响应式嵌入模式**
 
-在內嵌模式中，檢視器會新增至現有網頁，該網頁可能已有某些與檢視器無關的客戶內容。 檢視器通常只會佔用網頁的一部分空間。
+在嵌入式模式下，查看器将添加到现有网页，该网页可能已有某些与查看器无关的客户内容。 查看者通常只占用网页的一部分空间。
 
-主要使用案例是針對桌上型電腦或平板電腦裝置的網頁，以及可依裝置型別自動調整版面的回應式設計頁面。
+主要用例是面向台式机或平板电脑设备的网页，以及根据设备类型自动调整布局的响应式设计页面。
 
-當檢視器在初始載入後未變更其大小時，會使用固定大小內嵌。 此選項最適合使用具有靜態頁面配置的網頁。
+当查看器在初始加载后未更改其大小时，使用固定大小嵌入。 此选项最适合具有静态页面布局的网页。
 
-回應式設計內嵌假設檢視器必須在執行階段調整大小來回應其容器的大小變更 `DIV`. 最常見的使用案例是將檢視器新增至使用彈性頁面配置的網頁。
+响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器的大小更改 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在回應式設計內嵌模式中，檢視器的行為會因網頁大小其容器的方式而異 `DIV`. 如果網頁僅設定容器的寬度 `DIV`，只要其高度不受限制，檢視器就會根據所使用資產的外觀比例，自動選擇其高度。 此方法可確保資產完全符合檢視，而不會在兩側加上任何邊框間距。 此使用案例最常用於使用回應式設計版面架構(例如Bootstrap或Foundation)的網頁。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页确定其容器大小的方式 `DIV`. 如果网页仅设置容器的宽度 `DIV`如果不限制高度，查看器会根据所用资源的纵横比自动选择高度。 此方法可确保资源完全适合视图，而不会在侧面有任何填充。 此用例最常用于使用响应式设计布局框架(如Bootstrap或基础)的网页。
 
-否則，如果網頁同時設定檢視器容器的寬度和高度 `DIV`，檢視器會填滿該區域，並遵循網頁版面配置所提供的大小。 一個好的範例是內嵌檢視器至強制回應覆蓋圖，其中覆蓋圖會根據網頁瀏覽器視窗的大小而調整大小。
+否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模态叠加图，其中叠加图根据Web浏览器窗口的大小调整大小。
 
-**固定大小內嵌**
+**固定大小嵌入**
 
-您可以執行下列動作，將檢視器新增至網頁：
+通过执行以下操作将查看器添加到网页：
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器 `DIV`.
-1. 設定檢視器大小。
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器 `DIV`.
+1. 设置查看器大小。
+1. 创建和初始化查看器。
 
-1. 將檢視器JavaScript檔案新增至網頁。
+1. 将查看器JavaScript文件添加到网页。
 
-   建立檢視器需要您在HTML標頭中新增指令碼標籤。 在使用檢視器API之前，請務必先包含 [!DNL SmartCropVideoViewer.js]. 此 [!DNL SmartCropVideoViewer.js] 檔案位於 [!DNL html5/js/] 標準IS-Viewers部署的子資料夾：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括 [!DNL SmartCropVideoViewer.js]. 此 [!DNL SmartCropVideoViewer.js] 文件位于 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
-如果檢視器部署在某個Adobe Dynamic Media Classic伺服器上，且從相同網域提供服務，則可以使用相對路徑。 否則，您需要指定已安裝IS-Viewers的其中一個Adobe Dynamic Media Classic伺服器的完整路徑。
+如果查看器部署在一台Adobe Dynamic Media Classic服务器上，并且来自同一域，则可以使用相对路径。 否则，请指定已安装IS-Viewers的某个Adobe Dynamic Media Classic服务器的完整路径。
 
-相對路徑如下所示：
+相对路径如下所示：
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SmartCropVideoViewer.js"></script>
@@ -135,34 +135,34 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->僅參照主要檢視器JavaScript `include` 檔案時。 請勿在網頁程式碼中參考任何其他JavaScript檔案（這些檔案可能由檢視器的邏輯在執行階段下載）。 尤其請勿直接參照HTML5 SDK `Utils.js` 檢視器從載入的程式庫 `/s7viewers` 內容路徑（所謂的整合SDK） `include`)。 原因在於 `Utils.js` 或類似的執行階段檢視器程式庫完全由檢視器的邏輯管理，且位置會在檢視器版本之間變更。 Adobe不會保留次要檢視器的舊版本 `includes` 在伺服器上。
+>仅引用主查看器JavaScript `include` 文件。 请勿在网页代码中引用任何可能由查看器的逻辑在运行时下载的其他JavaScript文件。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
 >
 >
->因此，直接參照任何次要JavaScript `include` 當日後部署新產品版本時，頁面上檢視器使用的檢視器功能會中斷檢視器。
+>因此，直接引用任何辅助JavaScript `include` 将来部署新产品版本时，页面上查看器使用的功能会中断查看器。
 
-1. 定義容器DIV。
+1. 定义容器DIV。
 
-   新增空的DIV元素至您要檢視器出現的頁面。 DIV元素必須定義其ID，因為此ID稍後會傳遞至檢視器API。 DIV的大小是透過CSS指定的。
+   向要显示查看器的页面中添加一个空DIV元素。 DIV元素必须定义其ID，因为此ID稍后会被传递到查看器API。 DIV的大小通过CSS指定。
 
-   預留位置DIV是定位元素，這表示 `position` CSS屬性已設定為 `relative` 或 `absolute`.
+   占位符DIV是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
 
-   請確定Internet Explorer中的全熒幕功能正常運作。 確認DOM中沒有其他元素的棧疊順序高於預留位置DIV。
+   确保全屏功能在Internet Explorer中正常工作。 检查以确保DOM中没有其他元素的栈叠顺序高于占位符DIV。
 
-   以下是已定義預留位置DIV元素的範例：
+   以下是定义的占位符DIV元素的示例：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
-1. 設定檢視器大小
+1. 设置查看器大小
 
-   您可以宣告檢視器的靜態大小，將它設為 `.s7videoviewer` 以絕對單位或修飾元表示的頂層CSS類別 `stagesize`.
+   通过声明查看器的静态大小，可以将其设置为 `.s7videoviewer` 以绝对单位表示的顶级CSS类，或者使用修饰符进行标识 `stagesize`.
 
-   您可以在HTML頁面或自訂檢視器CSS檔案中置入CSS大小。 它稍後會指派給Dynamic Media Classic中的檢視器預設集記錄，或是使用樣式命令明確傳遞。
+   您可以在“HTML”页面或自定义查看器CSS文件中直接在CSS中调整大小。 之后，会将该预设分配给Dynamic Media Classic中的查看器预设记录，或者使用样式命令显式传递该预设记录。
 
-   另請參閱 [自訂智慧型裁切視訊檢視器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) 以取得使用CSS設定檢視器樣式的詳細資訊。
+   参见 [自定义智能裁剪视频查看器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) 有关使用CSS设置查看器样式的更多信息。
 
-   以下是在HTML頁面中定義靜態檢視器大小的範例：
+   以下是在HTML页中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
@@ -171,23 +171,23 @@ ht-degree: 0%
    }
    ```
 
-   您可以設定 `stagesize` 修飾元(在Dynamic Media Classic的檢視器預設集記錄中)，或透過檢視器初始化程式碼明確傳遞 `params` 集合。 或者，如命令參考一節中所述，以API呼叫形式執行，如下所示：
+   您可以设置 `stagesize` 修饰符，可在Dynamic Media Classic中的查看器预设记录中使用，或通过查看器初始化代码显式传递它。 `params` 收藏集。 或者，作为API调用，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    smartCropVideoViewer.setParam("stagesize", "640,480");
    ```
 
-   建議使用以CSS為基礎的方法，並用於此範例。
+   建议使用基于CSS的方法，并用于此示例。
 
-1. 建立和初始化檢視器。
+1. 创建和初始化查看器。
 
-   完成上述步驟後，您會建立 `s7viewers.SmartCropVideoViewer` 類別，將所有設定資訊傳遞至其建構函式，並呼叫 `init()` 檢視器例項的方法。 設定資訊會以JSON物件的形式傳遞至建構函式。 此物件至少應具有 `containerId` 包含檢視器容器ID名稱且以巢狀顯示的欄位 `params` 具有檢視器支援之設定引數的JSON物件。 在這種情況下， `params` 物件至少必須將影像伺服URL傳遞為 `serverUrl` 屬性，視訊伺服器URL傳遞為 `videoserverurl` 屬性，並將初始資產設為 `asset` 引數。 JSON型初始化API可讓您使用一行程式碼建立及啟動檢視器。
+   完成上述步骤后，您将创建一个实例 `s7viewers.SmartCropVideoViewer` 类，将所有配置信息传递到其构造函数，并调用 `init()` 方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有 `containerId` 保存查看器容器ID名称并嵌套的字段 `params` 具有查看器支持的配置参数的JSON对象。 在这个案例中， `params` 对象必须至少将图像服务URL传递为 `serverUrl` 属性，视频服务器URL传递为 `videoserverurl` 资产，而初始资产为 `asset` 参数。 基于JSON的初始化API允许您使用一行代码创建和启动查看器。
 
-   請務必將檢視器容器新增至DOM，讓檢視器程式碼可依其ID找到容器元素。 有些瀏覽器會延遲建立DOM，直到網頁結尾。 如需最大相容性，請呼叫 `init()` 方法（在結尾之前） `BODY` 標籤或內文 `onload()` 事件。
+   务必要将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标签上，或正文上 `onload()` 事件。
 
-   同時，容器元素不一定會成為網頁版面的一部分。 例如，它可能會使用以下專案隱藏： `display:none` 樣式已指派給它。 在此情況下，檢視器會延遲其初始化程式，直到網頁將容器元素帶回版面配置為止。 當此動作發生時，檢視器載入會自動繼續。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可使用以下方式隐藏该内容： `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载会自动恢复。
 
-   以下範例說明如何建立檢視器例項、將最低必要的設定選項傳遞至建構函式，以及呼叫 `init()` 方法。 此範例假設 `smartCropVideoViewer` 是檢視器例項， `s7viewer` 是預留位置的名稱 `DIV`， [!DNL http://s7d1.scene7.com/is/image/] 是影像伺服URL， [!DNL http://s7d1.scene7.com/is/content/] 是視訊伺服器URL，以及 [!DNL html5automation/frisbee-AVS] 是資產。
+   以下示例介绍了如何创建查看器实例、将所需的最少配置选项传递给构造函数，以及调用 `init()` 方法。 此示例假定 `smartCropVideoViewer` 是查看器实例， `s7viewer` 是占位符的名称 `DIV`， [!DNL http://s7d1.scene7.com/is/image/] 是图像服务URL， [!DNL http://s7d1.scene7.com/is/content/] 是视频服务器URL，并且 [!DNL html5automation/frisbee-AVS] 是资产。
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -202,7 +202,7 @@ ht-degree: 0%
    </script> 
    ```
 
-   下列程式碼是嵌入固定大小智慧型裁切視訊檢視器的簡單網頁的完整範例：
+   以下代码是一个简单网页的完整示例，该网页以固定大小嵌入了智能裁剪视频查看器：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -232,9 +232,9 @@ ht-degree: 0%
    </html> 
    ```
 
-**高度不受限制的回應式設計內嵌**
+**高度不受限制的响应式设计嵌入**
 
-透過回應式設計內嵌，網頁通常會有某種彈性的版面配置，可指定檢視器容器的執行階段大小 `DIV`. 在此範例中，假設網頁允許檢視器的容器 `DIV` 以取得網頁瀏覽器視窗大小的40%，其高度不受限制。 網頁HTML程式碼如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器的运行时大小 `DIV`. 在本例中，假设网页允许查看者的容器 `DIV` 将网页浏览器窗口大小的40%保留为无限制高度。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -252,13 +252,13 @@ ht-degree: 0%
 </html> 
 ```
 
-將檢視器新增至這類頁面類似於內嵌固定大小；唯一的差異是您不需要明確定義檢視器大小。
+将查看器添加到此类页面与嵌入固定大小类似；唯一的区别是无需明确定义查看器大小。
 
-1. 將檢視器JavaScript檔案新增至網頁。
-1. 定義容器DIV。
-1. 建立和初始化檢視器。
+1. 将查看器JavaScript文件添加到网页。
+1. 定义容器DIV。
+1. 创建和初始化查看器。
 
-上述所有步驟與固定大小內嵌的步驟相同。 新增容器 `DIV` 至現有的「持有者」 `DIV`. 下列程式碼為完整範例。 您可以檢視瀏覽器調整大小時檢視器大小的變化情況，以及檢視器外觀比例與資產相符的方式。
+上述所有步骤与固定大小的嵌入步骤相同。 添加容器 `DIV` 到现有“持有人” `DIV`. 以下代码是一个完整的示例。 您可以查看浏览器调整大小时查看器大小的变化情况以及查看器长宽比与资源的匹配情况。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -289,15 +289,15 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 </html> 
 ```
 
-以下範例頁面說明高度不受限制的回應式設計嵌入在現實生活中的更多用法：
+以下示例页面说明了高度不受限制的响应式设计嵌入在现实生活中的更多用途：
 
-[即時示範](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+[实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[替代示範位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**定義寬度和高度的回應式設計內嵌**
+**定义宽度和高度的响应式设计嵌入**
 
-如果有定義寬度和高度的回應式設計內嵌，則網頁樣式會不同；它會同時提供兩種大小給「托架」 `DIV` 並將其置中於瀏覽器視窗中。 此外，網頁會設定 `HTML` 和 `BODY` 元素至100%：
+如果有定义了宽度和高度的响应式设计嵌入，则网页样式会有所不同；它会为“支架”提供两种大小 `DIV` 并将其居中对齐。 此外，该网页还设置 `HTML` 和 `BODY` 元素至100%：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -323,7 +323,7 @@ height: 60%;
 </html> 
 ```
 
-其餘的內嵌步驟與高度不受限制的回應式設計內嵌相同。 產生的範例如下：
+其余嵌入步骤与高度不受限制的响应式设计嵌入相同。 产生的示例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -362,11 +362,11 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 </html> 
 ```
 
-**使用Setter型API內嵌**
+**使用基于Setter的API进行嵌入**
 
-您可以使用setter型API和no-args建構函式，而不使用JSON型初始化。 使用該API，建構函式不會接受任何引數，而且會使用下列專案指定設定引數： `setContainerId()`， `setParam()`、和 `setAsset()` 具有個別JavaScript呼叫的API方法。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用该API，构造函数不接受任何参数，并且配置参数使用以下对象指定： `setContainerId()`， `setParam()`、和 `setAsset()` API方法具有单独的JavaScript调用。
 
-以下範例說明使用setter型API嵌入固定大小內容：
+以下示例说明了使用基于setter的API进行固定大小嵌入：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

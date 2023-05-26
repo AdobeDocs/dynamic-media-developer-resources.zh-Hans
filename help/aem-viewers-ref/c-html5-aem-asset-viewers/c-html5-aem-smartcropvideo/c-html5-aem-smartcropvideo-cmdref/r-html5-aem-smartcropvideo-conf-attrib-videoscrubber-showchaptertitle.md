@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: 智慧型裁切視訊檢視器的設定屬性。
+description: 智能裁剪视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-智慧型裁切視訊檢視器的設定屬性。
+智能裁剪视频查看器的配置属性。
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 停用或啟用視訊章節標籤的標題列。 停用標題列時，不會顯示章節開始時間。 </p> </td> 
+   <td colname="col2"> <p> 禁用或启用视频章节标签的标题栏。 禁用标题栏时，不显示章节开始时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

@@ -1,7 +1,7 @@
 ---
-description: 包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理之資產相關聯的其他詳細資訊。
+description: 包含与主作业日志消息(JobDetail)关联的补充消息。 包含与当前处理的资源关联的警告和其他详细信息。
 solution: Experience Manager
-title: 工作記錄詳細資訊
+title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 789736c5-d74d-4970-9665-b43e316aca69
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-包含與主要工作記錄檔訊息(JobDetail)相關聯的補充訊息。 包含警告和與目前處理之資產相關聯的其他詳細資訊。
+包含与主作业日志消息(JobDetail)关联的补充消息。 包含与当前处理的资源关联的警告和其他详细信息。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| logMessage | `xsd:string` | 輔助訊息。 |
-| logType | `xsd:string` | 記錄型別： `IPSJobLog.gcUploadWarning` 或 `IPSJobLog.gcUploadError`. |
-| dateCreate | `xsd:dateTime` | 輔助工作記錄檔建立日期。 |
+| logMessage | `xsd:string` | 辅助消息。 |
+| logType | `xsd:string` | 日志类型： `IPSJobLog.gcUploadWarning` 或 `IPSJobLog.gcUploadError`. |
+| 创建日期 | `xsd:dateTime` | 辅助作业日志创建日期。 |

@@ -1,7 +1,7 @@
 ---
-description: 目錄比對選項。
+description: 目录匹配选项。
 solution: Experience Manager
-title: Fullmatch
+title: 完全匹配
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1a267c48-a8eb-426a-a70a-bdb9f5f20efb
@@ -12,23 +12,23 @@ ht-degree: 2%
 
 ---
 
-# Fullmatch{#fullmatch}
+# 完全匹配{#fullmatch}
 
-目錄比對選項。
+目录匹配选项。
 
-目錄專案被指定為 `*`rootId`*/ *`imageId`*` HTTP要求中的配對。 剖析時，如果符合下列條件，則會選取目錄 `*`rootId`*` 符合 `attribute::RootId` 目錄的值，而目錄記錄是以相符專案來識別 `*`imageId`*` 搭配 `catalog::Id` 值。 如果找到目錄，但沒有相符的目錄專案 `*`imageId`*`，伺服器可執行下列兩項操作之一：
+将目录条目指定为 `*`rootId`*/ *`imageId`*` HTTP请求中的对。 解析时，如果满足以下条件，则选择目录 `*`rootId`*` 匹配 `attribute::RootId` 值，并通过匹配来标识目录记录 `*`imageId`*` 带有 `catalog::Id` 值。 如果找到目录，但没有匹配的目录条目 `*`imageId`*`，则服务器可以执行以下两项操作之一：
 
-若 `attribute::FullMatch` 未設定，則伺服器會使用相符目錄的屬性。 在這種情況下， `*`rootId`*` 取代為 `attribute::RootPath` (或 `default::RootPath`，若未在此目錄中指定)。
+如果 `attribute::FullMatch` 未设置，服务器将使用匹配目录的属性。 在这个案例中， `*`rootId`*` 替换为 `attribute::RootPath` (或 `default::RootPath`（如果未在此目录中指定）。
 
-若 `attribute::FullMatch` 設定時，伺服器會完全忽略目錄（就像沒有相符的目錄一樣），然後繼續使用預設的目錄屬性。 在這種情況下， `*`rootId`*` 保留為路徑的一部分(在前面加上 `default::RootPath`)。
+如果 `attribute::FullMatch` 设置，服务器将完全忽略目录（就像没有匹配的目录一样），然后继续使用默认目录属性。 在这个案例中， `*`rootId`*` 保留路径的一部分(在前面加上 `default::RootPath`)。
 
-## 屬性 {#section-25e021dbe6574d00aadd08a7fa0b6e81}
+## 属性 {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
-标记. 將預設行為設定為0，或將設定為1以啟用完全相符行為。
+标记. 设置为0表示默认行为，设置为1表示启用完全匹配行为。
 
 ## 默认 {#section-01c9ea1f1f1d4fd3b5f92799ec8383ff}
 
-繼承自 `default::FullMatch` 如果未定義或為空。
+继承自 `default::FullMatch` 如果未定义或为空。
 
 ## 另请参阅 {#section-42da0ba53e0b4c089c62108785faf5a9}
 

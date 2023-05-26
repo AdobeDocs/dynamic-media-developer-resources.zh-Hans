@@ -1,7 +1,7 @@
 ---
-description: 目錄系統快取的根資料夾。
+description: 目录系统缓存的根文件夹。
 solution: Experience Manager
-title: 目錄快取資料夾(ir.catalogCacheRoot)
+title: 目录缓存文件夹(ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 目錄快取資料夾(ir.catalogCacheRoot){#catalog-cache-folder-ir-catalogcacheroot}
+# 目录缓存文件夹(ir.catalogCacheRoot){#catalog-cache-folder-ir-catalogcacheroot}
 
-目錄系統快取的根資料夾。
+目录系统缓存的根文件夹。
 
-可以是絕對路徑或相對於[！DNL]的路徑 *[!DNL install_folder]*]。 預設值為 [!DNL ./cache]，對應至[！DNL *[!DNL install_folder]*/cache]。
+可以是绝对路径或相对于[！DNL的路径 *[!DNL install_folder]*]。 默认为 [!DNL ./cache]，对应于[！DNL *[!DNL install_folder]*/cache]。

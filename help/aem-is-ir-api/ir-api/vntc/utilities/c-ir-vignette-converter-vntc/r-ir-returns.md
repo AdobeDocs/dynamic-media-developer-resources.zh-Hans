@@ -1,7 +1,7 @@
 ---
-description: vntc會根據處理期間是否遇到錯誤而傳回下列值。
+description: vntc会根据处理期间是否遇到错误返回以下值。
 solution: Experience Manager
-title: 傳回
+title: 返回
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 822707f5-62aa-4006-bee9-12a8d12f9633
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 傳回{#returns}
+# 返回{#returns}
 
-vntc會根據處理期間是否遇到錯誤而傳回下列值。
+vntc会根据处理期间是否遇到错误返回以下值。
 
-* 如果未遇到任何錯誤，則為0。
-* 如果發生任何錯誤（嚴重或非嚴重），則為1。
+* 如果未遇到错误，则为0。
+* 如果遇到任何错误（致命或非致命），则为1。

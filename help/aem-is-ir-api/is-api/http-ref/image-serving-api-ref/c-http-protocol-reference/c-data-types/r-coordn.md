@@ -1,5 +1,5 @@
 ---
-description: 標準化座標。 用於指定影像內的相對位置，例如影像位移或裁切引數，會標準化為影像的大小。
+description: 规范化坐标。 用于指定图像内的相对位置（如图像偏移量或裁切参数），这些参数已规范化为图像的大小。
 solution: Experience Manager
 title: coordN
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # coordN{#coordn}
 
-標準化座標。 用於指定影像內的相對位置，例如影像位移或裁切引數，會標準化為影像的大小。
+规范化坐标。 用于指定图像内的相对位置（如图像偏移量或裁切参数），这些参数已规范化为图像的大小。
 
 <table id="simpletable_EFA3111DC4B94BAF94715500DB4DD8FB"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>， <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>， <span class="codeph"><span class="varname"> 纽约</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>， <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>標準化為影像大小的座標位移（實數、實數） </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>， <span class="codeph"><span class="varname"> 纽约</span></span> </p></td> 
+  <td class="stentry"> <p>标准化为图像大小的坐标偏移（实数、实数） </p></td> 
  </tr> 
 </table>
 
-正值會向右下方移動。
+正值向右下角移动。
 
-在許多情況下，參照位置是影像的中心。 在這種情況下，0,0會對應影像的中心，-0.5，-0.5對應至左上角，而0.5,0.5對應至右下角。
+在许多情况下，参考位置是图像的中心。 在这种情况下，0,0对应于图像的中心，-0.5，-0.5对应于左上角，0.5,0.5对应于右下角。
 
-也可用來指定相對於圖層0大小的影像大小或矩形大小。 在此情況下，值必須大於0。 0可能表示應使用特定的預設值。 1,1指定等於圖層0的大小。
+还用于指定图像大小或相对于图层0大小的矩形大小。 在这种情况下，值必须大于0。 0可能表示应使用特定的默认值。 1,1指定等于图层0的大小。

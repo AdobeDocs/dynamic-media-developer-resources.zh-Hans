@@ -1,6 +1,6 @@
 ---
-title: initialframe
-description: 所有檢視器通用的引數。
+title: 初始帧
+description: 所有查看者通用的参数。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# initialframe{#initialframe}
+# 初始帧{#initialframe}
 
-所有檢視器通用的引數。
+所有查看者通用的参数。
 
 >[!NOTE]
 >
->這個命令不適用於Video Image Viewer。
+>此命令不适用于视频图像查看器。
 
 ` initialFrame= *`frameIdx`*[ *`，pageIdx`*]`
 
@@ -26,22 +26,22 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定檢視器在載入時顯示的從零開始的影格索引。 </p> </td> 
+   <td colname="col2"> <p> 指定查看器在加载时显示的从零开始的帧索引。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>當裝置為縱向方向時，跨頁中的頁面索引（從零開始）。 若為「由左至右」的環境， <span class="codeph"> 0</span> 表示「左側頁面」和 <span class="codeph"> 1</span> 表示「正確頁面」。 若是「由右至左」的環境，情況則相反： <span class="codeph"> 0</span> 表示「正確頁面」和 <span class="codeph"> 1</span> 表示「左側頁面」。 </p> <p>若未指定， <span class="codeph"> 0</span> 預設為使用。 當裝置為橫向時忽略。 </p> </td> 
+   <td colname="col2"> <p>设备纵向时，跨页中的页面索引（从零开始）。 对于“从左至右”的环境， <span class="codeph"> 0</span> 表示“左页”和 <span class="codeph"> 1</span> 意思是“正确的页面”。 对于“从右至左”的环境，情况正好相反： <span class="codeph"> 0</span> 表示“正确页面”，并且 <span class="codeph"> 1</span> 表示“左页”。 </p> <p>如果未指定， <span class="codeph"> 0</span> 缺省情况下为假定值。 当设备处于横向时忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-10ee45d637134e0fbcd943c62578cb78}
+## 属性 {#section-10ee45d637134e0fbcd943c62578cb78}
 
 可选.
 
 ## 默认 {#section-d411e450028c460392cb8508f8ccc5d9}
 
-無預設值。
+无默认值。
 
 ## 示例 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 

@@ -1,5 +1,5 @@
 ---
-description: 材料型別。 材料的曲面型別。 與目錄「光澤度」和目錄「粗糙度」搭配使用以控制3D反射彩現效果。
+description: 材质类型。 材料的表面类型。 与目录“光泽”和目录“粗糙度”一起使用可控制3D反射渲染效果。
 solution: Experience Manager
 title: 类型
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 19%
 
 # 类型{#type}
 
-材料型別。 材料的曲面型別。 搭配catalog：：Gloss和catalog：：Roughtness使用，可控制3D反射彩現效果。
+材质类型。 材料的表面类型。 与catalog：：Gloss和catalog：：Roughtness一起使用可控制3D反射渲染效果。
 
-## 屬性 {#section-86e8bc194f764c848e0ee55630a5ac1b}
+## 属性 {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-列舉。 所有材料均可選用。 如果暈映沒有3D反射演算功能，則忽略。
+枚举。 对于所有材料而言，它是可选项。 如果晕影没有3D反射渲染功能，则忽略。
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>未知，伺服器使用預設值。 </p> </td> 
+  <td class="stentry"> <p>未知，服务器使用默认值。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -35,15 +35,15 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>拋光金屬。 </p> </td> 
+  <td class="stentry"> <p>抛光的金属。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>拉絲金屬。 </p> </td> 
+  <td class="stentry"> <p>拉丝金属。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>過時的金屬。 </p> </td> 
+  <td class="stentry"> <p>古旧金属。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -51,23 +51,23 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>琺瑯/漆器。 </p> </td> 
+  <td class="stentry"> <p>珐琅/漆器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>桌布。 </p> </td> 
+  <td class="stentry"> <p>壁纸。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>塑膠。 </p> </td> 
+  <td class="stentry"> <p>塑料。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>實體曲面。 </p> </td> 
+  <td class="stentry"> <p>实体曲面。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>層壓板。 </p> </td> 
+  <td class="stentry"> <p>层压板。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
@@ -79,7 +79,7 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>天然石頭。 </p> </td> 
+  <td class="stentry"> <p>天然石头。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
@@ -87,15 +87,15 @@ ht-degree: 19%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>映象。 </p> </td> 
+  <td class="stentry"> <p>镜子。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>光纖。 </p> </td> 
+  <td class="stentry"> <p>织物。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>透明織物。 </p> </td> 
+  <td class="stentry"> <p>薄纱。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
@@ -105,7 +105,7 @@ ht-degree: 19%
 
 ## 默认 {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0；伺服器會根據其他材質屬性來決定合適的預設值。
+0；服务器将根据其他材质属性确定合适的缺省值。
 
 ## 另请参阅 {#section-a51850093b7140e683a0f8b07845843c}
 

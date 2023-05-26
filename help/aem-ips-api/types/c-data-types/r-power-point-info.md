@@ -1,5 +1,5 @@
 ---
-description: PowerPoint檔案選項。
+description: PowerPoint文件选项。
 solution: Experience Manager
 title: PowerPointInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PowerPointInfo]{#powerpointinfo}
 
-PowerPoint檔案選項。
+PowerPoint文件选项。
 
 语法
 
@@ -22,6 +22,6 @@ PowerPoint檔案選項。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 文件路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

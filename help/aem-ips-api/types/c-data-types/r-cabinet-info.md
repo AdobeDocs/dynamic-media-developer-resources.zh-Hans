@@ -1,7 +1,7 @@
 ---
-description: 封包資產的屬性。
+description: 文件柜资源的属性。
 solution: Experience Manager
-title: 封包資訊
+title: CabinetInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 78ec00cd-c410-412c-970f-96226563a45a
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL CabinetInfo]{#cabinetinfo}
 
-封包資產的屬性。
+文件柜资源的属性。
 
 语法
 
@@ -22,10 +22,10 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 原始封包的相對路徑。 |
-| 原始檔案 | `xsd:string` | 封包名稱。 |
-| fileSize | `xsd:int` | 封包大小。 |
-| imagePath | `xsd:string` | 與暈映關聯的封包相對路徑。 |
-| imageFile | `xsd:string` | 與暈映關聯的封包檔案名稱。 |
-| optimizedPath | `xsd:string` | IPS最佳化封包的路徑。 |
-| optimizedFile | `xsd:string` | IPS最佳化的封包檔。 |
+| 原始路径 | `xsd:string` | 原始文件柜的相对路径。 |
+| 原始文件 | `xsd:string` | 文件柜名称。 |
+| fileSize | `xsd:int` | 机柜大小。 |
+| imagePath | `xsd:string` | 与晕影关联的文件柜的相对路径。 |
+| imageFile | `xsd:string` | 与晕影关联的CAB的文件名。 |
+| 优化路径 | `xsd:string` | IPS优化机柜的路径。 |
+| 优化文件 | `xsd:string` | IPS优化的cab文件。 |

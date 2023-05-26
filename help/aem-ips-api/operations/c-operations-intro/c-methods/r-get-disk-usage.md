@@ -1,5 +1,5 @@
 ---
-description: 傳回有關公司結構的資訊（檔案數等）。
+description: 返回有关公司结构（文件数等）的信息。
 solution: Experience Manager
 title: getdiskusage
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 14%
 
 # getdiskusage{#getdiskusage}
 
-傳回有關公司結構的資訊（檔案數等）。
+返回有关公司结构（文件数等）的信息。
 
-## 授權的使用者型別 {#authorized-user-types}
+## 授权用户类型 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,21 +25,21 @@ ht-degree: 14%
 
 ## 参数 {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**輸入(getDiskUsageParam)**
+**输入(getDiskUsageParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 您要取得其磁碟使用量的公司的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 要获取其磁盘使用情况的公司的句柄。 |
 
-**輸出(getDiskUsageReturn)**
+**输出(getDiskUsageReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | 是 | 公司磁碟使用的陣列。 |
+| diskUsageArray | `types:DiskUsageArray` | 是 | 公司磁盘使用数组。 |
 
 ## 示例 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-此請求的名稱會誤導人。 它不會只傳回反映公司使用磁碟空間的純量值，而是會取得有關公司結構的其他資訊。
+此请求的名称具有误导性。 它不会只返回一个标量值来反映一家公司正在使用的磁盘空间大小，而是会获得有关公司结构的其他信息。
 
 **请求**
 

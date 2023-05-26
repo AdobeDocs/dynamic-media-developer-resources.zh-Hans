@@ -1,7 +1,7 @@
 ---
 description: 由PhotoshopOptions/layerNaming使用。
 solution: Experience Manager
-title: Photoshop圖層命名模式
+title: Photoshop图层命名模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# Photoshop圖層命名模式{#photoshop-layer-naming-modes}
+# Photoshop图层命名模式{#photoshop-layer-naming-modes}
 
 由PhotoshopOptions/layerNaming使用。
 

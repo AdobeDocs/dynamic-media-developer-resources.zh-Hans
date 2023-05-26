@@ -1,6 +1,6 @@
 ---
-title: 規則集檔案
-description: 規則集定義檔案路徑。 為此材質目錄指定包含規則集定義的檔案。
+title: 规则集文件
+description: 规则集定义文件路径。 指定包含此材质目录的规则集定义的文件。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 ---
 
-# 規則集檔案{#rulesetfile}
+# 规则集文件{#rulesetfile}
 
-規則集定義檔案路徑。 為此材質目錄指定包含規則集定義的檔案。
+规则集定义文件路径。 指定包含此材质目录的规则集定义的文件。
 
-## 屬性 {#section-e805898763824caba24abb6af1706f5c}
+## 属性 {#section-e805898763824caba24abb6af1706f5c}
 
-文字字串值。 相對於目錄資料夾的絕對檔案路徑。
+文本字符串值。 相对于目录文件夹的绝对文件路径。
 
 ## 默认 {#section-69b1f865aa8d476bb087dc862e903ab1}
 
-空白，表示此素材目錄沒有私人請求前置處理規則。
+为空，这表示此材质目录没有专用请求预处理规则。
 
 ## 另请参阅 {#section-84ba472b7ba0457f9f607a21ab44da16}
 
-[規則集參考](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md#concept-2369f884d9724727aaf436b5b0261dbe)
+[规则集参考](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/c-ir-rule-set-reference.md#concept-2369f884d9724727aaf436b5b0261dbe)

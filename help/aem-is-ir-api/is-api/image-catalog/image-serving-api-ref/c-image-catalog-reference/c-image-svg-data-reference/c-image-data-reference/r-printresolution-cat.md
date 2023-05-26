@@ -1,7 +1,7 @@
 ---
-description: 列印解析度。 全尺寸影像的列印解析度。
+description: 打印分辨率。 全尺寸图像的打印分辨率。
 solution: Experience Manager
-title: PrintResolution
+title: 打印分辨率
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
@@ -12,19 +12,19 @@ ht-degree: 6%
 
 ---
 
-# PrintResolution{#printresolution}
+# 打印分辨率{#printresolution}
 
-列印解析度。 全尺寸影像的列印解析度。
+打印分辨率。 全尺寸图像的打印分辨率。
 
-此值內嵌於回覆影像標題中，除非覆寫為 `printRes=`.
+此值嵌入在回复图像标题中，除非被覆盖 `printRes=`.
 
-## 屬性 {#section-de3c1f73da7b43208beeec841c1778c1}
+## 属性 {#section-de3c1f73da7b43208beeec841c1778c1}
 
-大於0的整數。 以每英吋點數表示。 可选.
+大于0的整数。 以每英寸点数表示。 可选.
 
 ## 默认 {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` 如果欄位不存在、值是0或欄位為空，則會使用。
+`attribute::PrintResolution` 如果字段不存在、值为0或字段为空，则使用。
 
 ## 另请参阅 {#section-0593faefffe341c5ab8a4aa5da589a04}
 

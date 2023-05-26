@@ -1,6 +1,6 @@
 ---
-title: 影像演算HTTP通訊協定命令概觀
-description: 「影像演算」支援的命令列於下方，依類別分組。
+title: 图像渲染HTTP协议命令概述
+description: 下面列出了图像渲染支持的命令，按类别分组。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 影像演算HTTP通訊協定命令概觀{#image-rendering-http-protocol-command-overview}
+# 图像渲染HTTP协议命令概述{#image-rendering-http-protocol-command-overview}
 
-「影像演算」支援的命令列於下方，依類別分組。
+下面列出了图像渲染支持的命令，按类别分组。
 
-* [檢視屬性](r-ir-view-attributes.md)
-* [選取範圍指令](r-ir-selection-commands.md)
-* [材質屬性](r-ir-material-attributes.md)
+* [查看属性](r-ir-view-attributes.md)
+* [选择命令](r-ir-selection-commands.md)
+* [材质属性](r-ir-material-attributes.md)
 * [其他命令](r-ir-miscellaneous-commands.md)

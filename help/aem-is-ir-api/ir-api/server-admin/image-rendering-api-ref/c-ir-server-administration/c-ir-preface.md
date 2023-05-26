@@ -1,7 +1,7 @@
 ---
-description: 本檔案說明伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
+description: 本文档讨论了服务器管理问题，并介绍了Dynamic Media图像渲染的配置设置。
 solution: Experience Manager
-title: 伺服器管理前言
+title: 服务器管理前言
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
@@ -12,41 +12,41 @@ ht-degree: 0%
 
 ---
 
-# 伺服器管理前言{#server-administration-preface}
+# 服务器管理前言{#server-administration-preface}
 
-本檔案說明伺服器管理問題，並說明Dynamic Media影像演算的組態設定。
+本文档讨论了服务器管理问题，并介绍了Dynamic Media图像渲染的配置设置。
 
-**目標對象**
+**目标受众**
 
-本檔案適用於需要安裝、設定和管理Dynamic Media影像演算的系統管理員和網頁管理員。
+本文档面向需要安装、配置和管理Dynamic Media图像渲染的系统管理员和Web管理员。
 
-**檔案慣例**
+**文档惯例**
 
-本檔案中描述的專案通常以下列專案型別為前置詞：
+本文档中描述的项目通常以下列项目类型为前缀：
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>attribute：：Item </p></td> 
-  <td class="stentry"> <p>前置詞為'attribute：：'的名稱是指影像目錄屬性。 </p></td> 
+  <td class="stentry"> <p>以“attribute：：”为前缀的名称是指图像目录属性。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>目錄：：專案 </p></td> 
-  <td class="stentry"> <p>前置詞為「catalog：：」的名稱是指材質目錄資料欄位。 </p></td> 
+  <td class="stentry"> <p>目录：：项目 </p></td> 
+  <td class="stentry"> <p>以“catalog：：”为前缀的名称是指材质目录数据字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>icc：：Item </p></td> 
-  <td class="stentry"> <p>前置詞為「icc：：」的名稱是指ICC色彩設定檔地圖中的欄位。 </p></td> 
+  <td class="stentry"> <p>以“icc：：”为前缀的名称是指ICC颜色配置文件映射中的字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>macro：：Item </p></td> 
-  <td class="stentry"> <p>以「macro：：」為前置詞的名稱是指巨集定義表格中的欄位。 </p></td> 
+  <td class="stentry"> <p>以“macro：：”为前缀的名称是指宏定义表中的字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>規則集：：Item </p></td> 
-  <td class="stentry"> <p>前置詞為「ruleset：：」的名稱是指URL預先處理規則集中的元素。 </p></td> 
+  <td class="stentry"> <p>规则集：：Item </p></td> 
+  <td class="stentry"> <p>以“ruleset：：”为前缀的名称是指URL预处理规则集中的元素。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>default：：Item </p></td> 
-  <td class="stentry"> <p>前置詞為「default：：」的名稱是指預設影像目錄的屬性。 </p></td> 
+  <td class="stentry"> <p>以“default：：”为前缀的名称是指默认图像目录的属性。 </p></td> 
  </tr> 
 </table>

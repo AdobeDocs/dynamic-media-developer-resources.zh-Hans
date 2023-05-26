@@ -1,5 +1,5 @@
 ---
-description: 預設使用者端快取存留時間。 提供預設到期間隔，以防止特定目錄記錄未包含有效的目錄Expiration值。
+description: 默认客户端缓存生存时间。 提供特定目录记录中不包含有效目录Expiration值时的默认过期时间间隔。
 solution: Experience Manager
 title: 過期
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # 過期{#expiration}
 
-預設使用者端快取存留時間。 提供預設到期時間間隔，以防止特定目錄記錄未包含有效的目錄：：Expiration值。
+默认客户端缓存生存时间。 提供特定目录记录中不包含有效目录：：Expiration值时的默认过期时间间隔。
 
-## 屬性 {#section-063be3b2f13a48a3a5ab8080718e9812}
+## 属性 {#section-063be3b2f13a48a3a5ab8080718e9812}
 
-實數，0或更大。 自回覆資料產生至到期為止的小時數。 設為0可一律使回覆影像立即過期，以有效停用使用者端快取。 設為–1以標籤為 `never expire`.
+实数，0或更大。 自生成回复数据后到到期为止的小时数。 设置为0可始终使回复图像立即过期，从而有效地禁用客户端缓存。 设置为–1以标记为 `never expire`.
 
 ## 默认 {#section-f55308b195c04083996f6717c8537634}
 
-繼承自 `default::Expiration` 如果未定義或為空。
+继承自 `default::Expiration` 如果未定义或为空。
 
-TTL （存留時間）是快取過期前的持續時間。 預設TTL為10小時。
+TTL （存留期）是缓存过期前的持续时间。 默认TTL为10小时。
 
 ## 另请参阅 {#section-b2411d99ddb14115ad475d506efd8967}
 

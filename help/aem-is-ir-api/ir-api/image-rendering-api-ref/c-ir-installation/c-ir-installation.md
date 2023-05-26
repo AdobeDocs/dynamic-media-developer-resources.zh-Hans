@@ -1,6 +1,6 @@
 ---
 title: 配置
-description: 您必須先設定影像演算，才能使用。
+description: 必须先配置图像渲染，然后才能使用它。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # 配置{#configuration}
 
-您必須先設定影像演算，才能使用。
+必须先配置图像渲染，然后才能使用它。

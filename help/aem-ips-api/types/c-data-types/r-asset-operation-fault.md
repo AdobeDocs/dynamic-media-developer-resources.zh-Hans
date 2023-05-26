@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFault
-description: 包含有關批次資產作業期間產生的警告或錯誤條件的資訊。 程式碼和原因欄位會對應到對等的非批次作業所引發的錯誤訊息欄位。
+description: 包含有关在批处理资源操作期间生成的警告或错误条件的信息。 代码和原因字段对应于因等效的非批处理操作而引发的错误消息字段。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AssetOperationFault]{#assetoperationfault}
 
-包含有關批次資產作業期間產生的警告或錯誤條件的資訊。 程式碼和原因欄位會對應到對等的非批次作業所引發的錯誤訊息欄位。
+包含有关在批处理资源操作期间生成的警告或错误条件的信息。 代码和原因字段对应于因等效的非批处理操作而引发的错误消息字段。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 失敗操作的資產控制代碼。 |
-| 代码 | `xsd:int` | 作業錯誤碼。 |
-| 原因 | `xsd:string` | 錯誤說明或原因。 |
+| assetHandle | `xsd:string` | 失败操作的资产句柄。 |
+| 代码 | `xsd:int` | 操作错误代码。 |
+| 原因 | `xsd:string` | 错误描述或原因。 |

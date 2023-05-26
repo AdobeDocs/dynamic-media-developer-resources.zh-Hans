@@ -1,7 +1,7 @@
 ---
-description: 不論sourceFile的型別為何，皆可套用下列選項。
+description: 不论sourceFile的类型如何，都可以应用以下选项。
 solution: Experience Manager
-title: 常用選項
+title: 常用选项
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
@@ -12,65 +12,65 @@ ht-degree: 0%
 
 ---
 
-# 常用選項{#common-options}
+# 常用选项{#common-options}
 
-不論sourceFile的型別為何，皆可套用下列選項。
+不论sourceFile的类型如何，都可以应用以下选项。
 
 <table id="simpletable_3BFC3737C891411D84405CEEF6B19542"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> 字串 </span> </span> </p> </td> 
-  <td class="stentry"> <p>要放置輸出檔案的資料夾(包括記錄檔案，如果 <span class="codeph"> -log </span> （已指定）。 可以是絕對路徑或相對於目前工作目錄的相對路徑。 如果資料夾階層不存在，則會建立該資料夾階層。 不適用於指定的檔案 <span class="codeph"> -log </span>. 如果未指定，則會將輸出檔案寫入至的資料夾 <span class="varname"> 來源檔案 </span> 「 」的位置。 若 <span class="varname"> destFile </span> 指定時，此資料會一律寫入該位置，且 <span class="codeph"> -destpath </span> 僅適用於次要輸出檔案。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> 字符串 </span> </span> </p> </td> 
+  <td class="stentry"> <p>要放置输出文件的文件夹(包括日志文件，如果 <span class="codeph"> -log </span> 指定了)。 可以是绝对路径或相对于当前工作目录的相对路径。 如果文件夹层次结构不存在，则会创建该层次结构。 不适用于指定的文件 <span class="codeph"> -log </span>. 如果未指定，则输出文件将写入到 <span class="varname"> 源文件 </span> 位置。 如果 <span class="varname"> destFile </span> 指定时，将始终写入该位置，并且 <span class="codeph"> -destpath </span> 仅适用于辅助输出文件。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -图像 </span> </p> </td> 
-  <td class="stentry"> <p>如果已指定，則會從暈映、封包樣式的適用面板影像或視窗遮蓋樣式的第一個照明影像中擷取（第一個）檢視影像。 擷取的影像會儲存為完整解析度的TIFF檔案。 </p> </td> 
+  <td class="stentry"> <p>如果指定，则从晕影、从橱柜样式的合适面板图像或者窗口覆盖样式的第一照明图像提取（第一）视图图像。 提取的图像将另存为全分辨率TIFF文件。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -info </span> </p> </td> 
-  <td class="stentry"> <p>防止產生目標檔案。 有助於快速從擷取屬性 <span class="varname"> 來源檔案 </span>. 僅限選用的縮圖( <span class="codeph"> -thumbwidth </span>)，影像( <span class="codeph"> -image </span>)和記錄檔( <span class="codeph"> -log </span>)產生。 </p> </td> 
+  <td class="stentry"> <p>阻止生成目标文件。 可用于快速从提取属性 <span class="varname"> 源文件 </span>. 仅可选缩略图( <span class="codeph">  — 缩略图 </span>)，图像( <span class="codeph"> -image </span>)和日志文件( <span class="codeph"> -log </span>)生成。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>選取有損的JPEG編碼，以用於內嵌在輸出檔案中的RGB和灰階影像資料，而不是無損PNG。 含Alpha (RGBA)的影像一律使用PNG編碼儲存。 <span class="varname"> ival </span> 指定JPEG品質(1...100)；建議使用85或更高。 預設為 <span class="codeph"> -jpegquality 0 </span>，會選取PNG編碼。 </p> </td> 
+  <td class="stentry"> <p>为嵌入到输出文件中的RGB和灰度图像数据选择有损JPEG编码，而不是无损PNG。 带有Alpha (RGBA)的图像始终使用PNG编码进行保存。 <span class="varname"> ival </span> 指定JPEG质量(1...100)；建议使用85或更高版本。 默认为 <span class="codeph"> -jpegquality 0 </span>，选择PNG编码。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> 路徑 </span> </span> </p> </td> 
-  <td class="stentry"> <p>以指定的路徑/名稱建立記錄檔寫入目的地資料夾的所有輸出檔案的完整路徑會寫入記錄檔，以及一些其他設定，例如版本資訊和遇到的任何警告或錯誤(請參閱 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> 輸出 </a> 以取得詳細資訊)。 如果符合下列條件，則不會建立任何記錄檔 <span class="codeph"> -log </span> 未指定；在這種情況下，所有文字輸出都會寫入 <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> 路径 </span> </span> </p> </td> 
+  <td class="stentry"> <p>使用指定的路径/名称创建日志文件写入目标文件夹的所有输出文件的完整路径以及某些其他设置（如版本信息和遇到的任何警告或错误）会写入日志文件(请参阅 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> 输出 </a> 了解详细信息)。 如果符合以下条件，则不会创建日志文件 <span class="codeph"> -log </span> 未指定；在这种情况下，所有文本输出将写入 <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>降低的優先順序 <span class="filepath"> vntc </span> 程式。 這可用來 <span class="filepath"> vntc </span> 不會在處理暈映時接管整個CPU。 它讓作業系統有更多時間處理其他更重要的程式。 <span class="varname"> ival </span> 指定較低的優先順序百分比(0..100)。 預設為 <span class="codeph"> -lowerpriority 0 </span>，不會降低 <span class="filepath"> vntc </span> 程式。 </p> </td> 
+  <td class="stentry"> <p>降低 <span class="filepath"> vntc </span> 进程。 此函数可以用于 <span class="filepath"> vntc </span> 不会接管整个CPU来处理晕影。 它让操作系统有更多时间用于其他更重要的进程。 <span class="varname"> ival </span> 指定较低的优先级百分比(0..100)。 默认为 <span class="codeph"> -lowerpriority 0 </span>，不会降低的优先级 <span class="filepath"> vntc </span> 进程。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>指定記憶體的最大數量 <span class="filepath"> vntc </span> 允許使用位元組。 時間 <span class="filepath"> vntc </span> 達到最大記憶體限制，就會停止處理並產生錯誤。 <span class="varname"> ival </span> 指定最大記憶體限制（位元組） (0.. 3,758,096,384 (3.5GB)。 時間 <span class="varname"> ival </span> 為0，會關閉最大記憶體限制。 預設為 <span class="codeph"> -maxmem 3221225472 </span>，表示最大記憶體限製為3 GB。 </p> </td> 
+  <td class="stentry"> <p>指定最大内存量 <span class="filepath"> vntc </span> 允许以字节为单位。 时间 <span class="filepath"> vntc </span> 达到最大内存限制，它将停止处理并产生错误。 <span class="varname"> ival </span> 指定最大内存限制(以字节为单位，0.. 3,758,096,384 (3.5GB)。 时间 <span class="varname"> ival </span> 为0，将关闭最大内存限制。 默认为 <span class="codeph"> -maxmem 3221225472 </span>，这意味着最大内存限制为3 GB。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -separator » <span class="varname"> 字串 </span>" </span> </p> </td> 
-  <td class="stentry"> <p>為自動產生的輸出檔案名稱指定置於檔案名稱與大小/解析度尾碼之間的分隔符號。 若未指定，則預設為「 — 」。 忽略條件 <span class="varname"> destFile </span> 或 <span class="codeph"> -info </span> 已指定。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -separator " <span class="varname"> 字符串 </span>” </span> </p> </td> 
+  <td class="stentry"> <p>为自动生成的输出文件名指定置于文件名与大小/分辨率后缀之间的分隔符。 如果未指定，则默认为“ — ”。 忽略条件 <span class="varname"> destFile </span> 或 <span class="codeph"> -info </span> 已指定。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph">  — 銳利化 <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>在處理期間啟用重新取樣（縮放）影像的銳利化。 僅適用於封包樣式檔案中的縮圖銳利化。 </p> <p>指定0可停用銳利化（預設），指定1可啟用一般銳利化，指定2可僅針對亮度啟用遮色片銳利化調整，或指定3可針對每個色彩元件啟用遮色片銳利化調整。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">  — 锐化 <span class="varname"> ival </span> </span> </p> </td> 
+  <td class="stentry"> <p>在处理期间启用重新取样（缩放）图像的锐化。 仅适用于压缩样式文件的缩略图锐化。 </p> <p>指定0可禁用锐化（默认值），指定1可启用普通锐化，指定2可仅针对亮度启用钝化蒙版，指定3可针对每个颜色组件启用钝化蒙版。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -tracelevel </span> </p> </td> 
-  <td class="stentry"> <p>設定記錄層級。 預設值為1，這會輸出所有資訊、警告和錯誤訊息。 設為0可停用所有訊息，但錯誤訊息除外。 </p> </td> 
+  <td class="stentry"> <p>设置日志级别。 默认值为1，这将输出所有信息性消息、警告消息和错误消息。 设置为0可禁用除错误消息之外的所有其他消息。 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> 金額 </span> <span class="varname"> 半徑 </span> <span class="varname"> 臨界值 </span> </span> </p> </td> 
-  <td class="stentry"> <p>設定遮色片銳利化調整引數。 忽略條件 <span class="codeph">  — 銳利化 </span> 設為0或1；若為，則為必要 <span class="codeph">  — 銳利化 </span> 設為2或3。 <span class="varname"> 金額 </span> 是介於0.0...500.0之間的實數值， <span class="varname"> 半徑 </span> 是介於0.0...10.0之間的實數值，且 <span class="varname"> 臨界值 </span> 是介於0和255之間的整數。 請參閱 <span class="codeph"> op_usm= </span> 如需詳細資訊，請參閱影像伺服通訊協定參考檔案。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> 数量 </span> <span class="varname"> 半径 </span> <span class="varname"> 阈值 </span> </span> </p> </td> 
+  <td class="stentry"> <p>设置钝化蒙版参数。 忽略条件 <span class="codeph">  — 锐化 </span> 设置为0或1；在以下情况下需要 <span class="codeph">  — 锐化 </span> 设置为2或3。 <span class="varname"> 数量 </span> 是一个介于0.0...500.0之间的实值， <span class="varname"> 半径 </span> 是一个介于0.0...10.0之间的实值，并且 <span class="varname"> 阈值 </span> 是一个介于0和255之间的整数。 请参阅 <span class="codeph"> op_usm= </span> 有关更多信息，请参阅图像服务协议参考。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>驗證指定的暈映是否為適當的生產暈映。 <span class="varname"> ival </span> 代表暈映的最小檔案版本。 </p> </td> 
+  <td class="stentry"> <p>验证给定的晕影是否为正确的生产晕影。 <span class="varname"> ival </span> 表示晕影的最小文件版本。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -version <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>輸出檔案的檔案版本。 如果已指定，則必須為0或有效的暈映檔案版本（不超過預設檔案版本）。 如果設定為0或未指定，則使用最新檔案版本建立輸出檔案。 忽略條件 <span class="codeph"> -info </span> 已指定。 </p> </td> 
+  <td class="stentry"> <p>输出文件的文件版本。 如果指定，则必须为0或有效的晕影文件版本（不得大于默认文件版本）。 如果设置为0或未指定，则使用最新文件版本创建输出文件。 忽略条件 <span class="codeph"> -info </span> 已指定。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -versioninfo </span> </p> </td> 
-  <td class="stentry"> <p>傳回此公用程式的版本資訊。 指定時不含檔案名稱和其他選項。 </p> </td> 
+  <td class="stentry"> <p>返回此实用程序的版本信息。 指定而不使用文件名和其他选项。 </p> </td> 
  </tr> 
 </table>

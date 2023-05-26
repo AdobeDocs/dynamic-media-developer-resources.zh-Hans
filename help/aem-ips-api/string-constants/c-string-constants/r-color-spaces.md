@@ -1,7 +1,7 @@
 ---
 description: 由IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType使用。
 solution: Experience Manager
-title: 色域
+title: 色彩空间
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f2989963-e0d4-42b8-9807-a63d43728540
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# 色域{#color-spaces}
+# 色彩空间{#color-spaces}
 
 由IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType使用。
 

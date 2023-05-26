@@ -1,5 +1,5 @@
 ---
-description: 批次工作的工作資料。
+description: 批处理作业的作业数据。
 solution: Experience Manager
 title: jobdata
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # jobdata{#jobdata}
 
-批次工作的工作資料。
+批处理作业的作业数据。
 
-用於批次工作請求，在送出工作以進行處理時完整說明工作。 值是URL編碼的XML程式碼片段。
+用于批处理作业请求，在提交作业以进行处理时完整描述作业。 该值是一个URL编码的XML代码片段。

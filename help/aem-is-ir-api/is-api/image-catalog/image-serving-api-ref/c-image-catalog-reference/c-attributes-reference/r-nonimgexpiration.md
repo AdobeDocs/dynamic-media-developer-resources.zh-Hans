@@ -1,7 +1,7 @@
 ---
-description: 非影像回應的使用者端快取TTL。 提供某些非影像回應的到期時間間隔。
+description: 非图像响应的客户端缓存TTL。 提供某些非图像响应的过期时间间隔。
 solution: Experience Manager
-title: NonImgExpiration
+title: 非图像过期
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c61e2781-dfaa-4f3d-958d-5ffa755a3e4d
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# NonImgExpiration{#nonimgexpiration}
+# 非图像过期{#nonimgexpiration}
 
-非影像回應的使用者端快取TTL。 提供某些非影像回應的到期時間間隔。
+非图像响应的客户端缓存TTL。 提供某些非图像响应的过期时间间隔。
 
-提供特定非影像回應（包括回應下列命令所傳送的回應）的到期時間間隔：
+为某些非图像响应（包括响应以下命令发送的响应）提供过期时间间隔：
 
 * `req=imageset`
 * `req=catalogprops`
@@ -24,15 +24,15 @@ ht-degree: 2%
 * `req=imageprops`
 * `req=props`
 
-## 屬性 {#section-d37e3113f4b1468b86b5a14e80d94c83}
+## 属性 {#section-d37e3113f4b1468b86b5a14e80d94c83}
 
-實數，0或更大。 自回覆資料產生至到期為止的小時數。 設為0可一律使回覆影像立即過期，這會有效停用預設影像回應的使用者端快取。 設為–1以標籤為 *永不過期*.
+实数，0或更大。 自生成回复数据后到到期为止的小时数。 设置为0可始终使回复图像立即过期，这样可以有效禁用默认图像响应的客户端缓存。 设置为–1以标记为 *永不过期*.
 
 ## 默认 {#section-96981360c0234b7f824d2ff7c25a7954}
 
-繼承自 `default::NonImgExpiration` 如果未定義或為空。
+继承自 `default::NonImgExpiration` 如果未定义或为空。
 
-TTL （存留時間）是快取過期前的持續時間。 預設TTL為6分鐘。
+TTL （存留期）是缓存过期前的持续时间。 默认TTL为6分钟。
 
 ## 另请参阅 {#section-4549c5594a5547beb8b129ec8d0e6aa6}
 

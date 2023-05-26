@@ -1,6 +1,6 @@
 ---
 title: EmbedShare.embedsizes
-description: 視訊檢視器的設定屬性。
+description: Video Viewer的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,30 +14,30 @@ ht-degree: 10%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-視訊檢視器的設定屬性。
+Video Viewer的配置属性。
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`寬度`*, *`高度`*[,0|1][; *`寬度`*, *`高度`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽度`*, *`高度`*[,0|1][; *`宽度`*, *`高度`*[,0|1]]`
 
-指定內嵌共用模式對話方塊中大小下拉式方塊的內嵌大小清單。
+在“嵌入共享模式”对话框中指定大小组合框的嵌入大小列表。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 內嵌寬度。 </p> </td> 
+   <td colname="col2"> <p> 嵌入宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>內嵌高度。 </p> </td> 
+   <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否一開始應在下拉式方塊中預先選取此清單專案。 </p> </td> 
+   <td colname="col2"> <p> 指定是否最初应在组合框中预先选择此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

@@ -20,12 +20,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 當影格（影像）變更時，重設檢視連線埠。 若設為 <span class="codeph"> 0</span>，會以可能的最適大小保留目前檢視連線埠，同時保留新設定影像的外觀比例。 </p> </td> 
+   <td colname="col2"> <p> 在帧（图像）更改时重置视图端口。 如果设置为 <span class="codeph"> 0</span>，它以可能的最适大小保留当前视图端口，同时保留新设置图像的纵横比。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

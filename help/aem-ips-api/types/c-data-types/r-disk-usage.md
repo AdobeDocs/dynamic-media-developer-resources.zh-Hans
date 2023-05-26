@@ -1,7 +1,7 @@
 ---
-description: 資產或資料夾的磁碟空間統計資料。
+description: 资源或文件夹的磁盘空间统计信息。
 solution: Experience Manager
-title: 磁碟使用量
+title: 磁盘使用情况
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL DiskUsage]{#diskusage}
 
-資產或資料夾的磁碟空間統計資料。
+资源或文件夹的磁盘空间统计信息。
 
 语法
 
@@ -22,8 +22,8 @@ ht-degree: 14%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| companyHandle | `xsd:string` | 公司控點。 |
+| companyHandle | `xsd:string` | 公司处理。 |
 | companyName | `xsd:string` | 公司名称. |
-| imageCount | `xsd:int` | 儲存的影像數目。 |
-| diskSpaceUse | `xsd:long` | 檔案端總計（以KB為單位）。 |
-| lastModified | `xsd:dateTime` | 日期、時間和時區 `DiskUsage` 上次修改型別。 |
+| imageCount | `xsd:int` | 存储的图像数。 |
+| 磁盘空间使用情况 | `xsd:long` | 文件端总数（以KB为单位）。 |
+| lastModified | `xsd:dateTime` | 日期、时间和时区 `DiskUsage` 类型上次修改时间。 |

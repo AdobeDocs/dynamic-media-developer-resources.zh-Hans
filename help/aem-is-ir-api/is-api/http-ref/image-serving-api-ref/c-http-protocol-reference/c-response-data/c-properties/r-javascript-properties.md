@@ -1,7 +1,7 @@
 ---
-description: 如果將JavaScript™指定為回應格式，則會將回覆資料格式化並剖析為JavaScript™包含檔案。
+description: 如果将JavaScript™指定为响应格式，则回复数据的格式将解析为JavaScript™包含文件。
 solution: Experience Manager
-title: JavaScript™屬性
+title: JavaScript™属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# JavaScript™屬性{#javascript-properties}
+# JavaScript™属性{#javascript-properties}
 
-如果將JavaScript™指定為回應格式，則會將回覆資料格式化並剖析為JavaScript™包含檔案。
+如果将JavaScript™指定为响应格式，则回复数据的格式将解析为JavaScript™包含文件。
 
-典型的JavaScript™屬性回應具有此一般結構：
+典型的JavaScript™属性响应具有以下常规结构：
 
 ```
            
@@ -29,9 +29,9 @@ ht-degree: 0%
 ...
 ```
 
-*`propertyValue`* 可為空白。 每行開頭和結尾以及=分隔符號之前和之後的空白字元為選用。 所有值都以單引號括住。 字串中的單引號會以兩個連續的單引號逸出。
+*`propertyValue`* 可以为空。 每行开头和结尾以及=分隔符之前和之后的空格是可选的。 所有值都用单引号括起来。 字符串中的单引号使用两个连续的单引号进行转义。
 
-若要剖析JavaScript™屬性回應，必須在載入屬性檔案之前建立回應中參考的任何物件。 以下是使用的範例 `req=props` 若要以JavaScript™取得回應影像大小：
+要分析JavaScript™属性响应，必须在加载属性文件之前创建响应中引用的任何对象。 以下是使用的示例 `req=props` 要在JavaScript中获取响应图像大小，请执行以下操作™
 
 ```
 <script> image = new Object; </script> 

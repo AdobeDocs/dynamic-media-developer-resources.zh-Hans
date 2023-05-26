@@ -1,7 +1,7 @@
 ---
-description: 屬性的陣列。
+description: 属性的数组。
 solution: Experience Manager
-title: 屬性陣列
+title: 属性数组
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65a72938-dffe-4448-93f6-166dd0dfdb90
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PropertyArray]{#propertyarray}
 
-屬性的陣列。
+属性的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Property` | 屬性陣列。 |
+| 项目 | `types:Property` | 属性数组。 |

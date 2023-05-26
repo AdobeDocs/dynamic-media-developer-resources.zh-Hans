@@ -1,5 +1,5 @@
 ---
-description: 更新SWF檢視器組態設定。
+description: 更新SWF查看器配置设置。
 solution: Experience Manager
 title: updateViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-更新SWF檢視器組態設定。
+更新SWF查看器配置设置。
 
 语法
 
-## 授權的使用者型別 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## 授权用户类型 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,14 +27,14 @@ ht-degree: 15%
 
 ## 参数 {#section-29790d933fb24aa392d0cb2d52d1310f}
 
-**輸入(updateViewerConfigSettingsParam)**
+**输入(updateViewerConfigSettingsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 處理公司。 |
-| assetHandle | `xsd:string` | 是 | 資產控點。 |
-| configSettingArray | `types:ConfigSettingArray` | 是 | 您要套用至檢視器的組態設定陣列。 |
+| companyHandle | `xsd:string` | 是 | 处理公司。 |
+| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| configSettingArray | `types:ConfigSettingArray` | 是 | 要应用于查看器的配置设置数组。 |
 
-**輸出(updateViewerConfigSettingsReturn)**
+**输出(updateViewerConfigSettingsReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。

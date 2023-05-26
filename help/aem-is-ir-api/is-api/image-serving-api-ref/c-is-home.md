@@ -1,7 +1,7 @@
 ---
-description: 影像伺服API指南包含設定和使用影像伺服API的相關資訊。
+description: 图像服务API指南包含有关设置和使用图像服务API的信息。
 solution: Experience Manager
-title: 影像伺服API
+title: 图像服务API
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2bc6728-e8c4-43f6-a3e7-33c9336774b2
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 影像伺服API{#image-serving-api}
+# 图像服务API{#image-serving-api}
 
-影像伺服API指南包含設定和使用影像伺服API的相關資訊。
+图像服务API指南包含有关设置和使用图像服务API的信息。
 
-* [目標對象](c-intended-audience.md)
-* [影像伺服元件](r-components.md)
-* [設定和管理](c-configuration-and-administration/c-configuration-and-administration.md)
+* [目标受众](c-intended-audience.md)
+* [图像服务组件](r-components.md)
+* [配置和管理](c-configuration-and-administration/c-configuration-and-administration.md)

@@ -1,7 +1,7 @@
 ---
-description: 由IccProfileFieldUpdate/類別使用。
+description: 由IccProfileFieldUpdate/类使用。
 solution: Experience Manager
-title: 設定檔類別
+title: 配置文件类
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# 設定檔類別{#profile-classes}
+# 配置文件类{#profile-classes}
 
-由IccProfileFieldUpdate/類別使用。
+由IccProfileFieldUpdate/类使用。
 
 语法
 

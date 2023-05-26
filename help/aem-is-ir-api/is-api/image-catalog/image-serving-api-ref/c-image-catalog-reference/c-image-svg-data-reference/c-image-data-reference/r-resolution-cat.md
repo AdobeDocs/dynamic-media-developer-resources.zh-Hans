@@ -1,5 +1,5 @@
 ---
-description: 物件解析度。 完整大小影像的物件解析度。
+description: 对象分辨率。 全尺寸图像的对象分辨率。
 solution: Experience Manager
 title: 分辨率
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 8%
 
 # 分辨率{#resolution}
 
-物件解析度。 完整大小影像的物件解析度。
+对象分辨率。 全尺寸图像的对象分辨率。
 
-用於解析度調整，使用 `res=` 命令。
+用于基于分辨率的缩放，使用 `res=` 命令。
 
-## 屬性 {#section-861a86da50364e2181d62778338359ea}
+## 属性 {#section-861a86da50364e2181d62778338359ea}
 
-大於0的實數。 通常以畫素/英吋表示，但也可能是其他單位，例如每米的畫素。 可选.
+实数，大于0。 通常以每英寸像素数表示，但也可能以其他单位表示，例如每米像素数。 可选.
 
 ## 默认 {#section-5b3a83d6410b43efa1fa3add396196f9}
 
-`attribute::Resolution` 如果欄位不存在、值是0或欄位為空，則會使用。
+`attribute::Resolution` 如果字段不存在、值为0或字段为空，则使用。
 
 ## 另请参阅 {#section-100aded64efe434db5b523ed50defbb3}
 

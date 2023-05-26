@@ -1,7 +1,7 @@
 ---
-description: 延伸圖層。 新增邊界至圖層或裁切圖層矩形。
+description: 扩展图层。 向图层添加边距或裁切图层矩形。
 solution: Experience Manager
-title: 延伸
+title: 扩展
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
@@ -12,48 +12,48 @@ ht-degree: 1%
 
 ---
 
-# 延伸{#extend}
+# 扩展{#extend}
 
-延伸圖層。 新增邊界至圖層或裁切圖層矩形。
+扩展图层。 向图层添加边距或裁切图层矩形。
 
-`extend= *`left`*, *`top`*, *`右側`*, *`bottom`*`
+`extend= *`left`*, *`top`*, *`右`*, *`bottom`*`
 
 `extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> left，top，bottom，right</span></span> </p></td> 
-  <td class="stentry"> <p>要增加至（或移除自）圖層矩形(int、int、int、int、int)的左邊緣、上邊緣、右邊緣和底邊緣的畫素數（如果值為負值）。 </p></td> 
+  <td class="stentry"> <p>要添加到图层矩形(int、int、int、int、int)的左边缘、上边缘、右边缘和下边缘（如果值为负）或从其中移除的像素数。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN，topN，bottomN，rightN</span></span> </p></td> 
-  <td class="stentry"> <p>要增加（或移除，如果值為負值）圖層矩形的左邊緣、上邊緣、右邊緣和下邊緣的空間量，以相對於原始圖層矩的大小（實數、實數、實數、實數）的標準化量表示。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN、topN、bottomN、rightN</span></span> </p></td> 
+  <td class="stentry"> <p>要向图层矩形的左边缘、上边缘、右边缘和下边缘添加（或从中删除，如果该值为负）的空间量，以相对于原始图层矩的大小（实数、实数、实数、实数）的规范化数量表示。 </p></td> 
  </tr> 
 </table>
 
-`extend=` 套用至圖層 *晚於* 影像已裁切( `crop=`)及所有圖層轉換，包括 `rotate=`，已套用。
+`extend=` 应用于图层 *之后* 图像已裁剪( `crop=`)和所有图层转换，包括 `rotate=`，已应用。
 
-擴充區域已填滿 `bgColor=`、或（如果未指定）會保持透明。
+扩展区域填充了 `bgColor=`、或者，如果未指定，则保持透明。
 
-的引數值 `extendN=` 會根據圖層轉換後的圖層矩形大小進行標準化，包括 `rotate=` 已套用。
+参数值 `extendN=` 在图层转换之后，相对于图层矩形的大小进行标准化，包括 `rotate=` 已应用。
 
-## 屬性 {#section-8fc94de871f841f3bf5e1df135972ca9}
+## 属性 {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-圖層屬性。 套用至圖層0，如果 `layer=comp`. 被效果圖層忽略。
+层属性。 如果符合以下条件，则应用于图层0 `layer=comp`. 被效果层忽略。
 
 ## 默认 {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`，不會變更圖層矩形。
+`extend=0,0,0,0`，表示图层矩形不变。
 
 ## 示例 {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 
-**裁切影像，然後新增5畫素寬的紅色邊框：**
+**裁切图像，然后添加5像素宽的红色边框：**
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 
-**將影像縮放至200畫素寬度，並將標題文字新增至影像上方的30畫素邊界。**
+**将图像缩放到200像素宽度，并将标题文本添加到图像上方的30像素边距。**
 
-請注意，複合影像的高度會依影像的外觀比例而有所不同。
+请注意，复合图像的高度会因图像的纵横比而异。
 
 `http://server/myRootId/myImageId?size=200,0&extend=0,30,0,0&origin=0,0 layer=1&text=title-text&origin=0,0`
 

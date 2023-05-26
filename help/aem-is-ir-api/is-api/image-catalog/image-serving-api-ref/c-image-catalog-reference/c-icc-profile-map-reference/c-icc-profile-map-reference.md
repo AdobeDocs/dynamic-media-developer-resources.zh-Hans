@@ -1,7 +1,7 @@
 ---
-description: 如果影像目錄需要ICC設定檔對映，則必須在屬性IccProfileMapFile中指定設定檔對映檔案的相對或絕對路徑。
+description: 如果图像目录需要ICC配置文件映射，则必须在属性IccProfileMapFile中指定配置文件映射文件的相对路径或绝对路径。
 solution: Experience Manager
-title: ICC設定檔對應參考
+title: ICC配置文件映射引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f6b75a15-55b4-44e7-a409-2eaed4e752c5
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# ICC設定檔對應參考{#icc-profile-map-reference}
+# ICC配置文件映射引用{#icc-profile-map-reference}
 
-如果影像目錄需要ICC設定檔對映，則必須在屬性：：IccProfileMapFile中指定設定檔對映檔案的相對或絕對路徑。
+如果图像目录需要ICC配置文件映射，则必须在attribute：：IccProfileMapFile中指定配置文件映射文件的相对路径或绝对路径。
 
-特定影像目錄的ICC設定檔對應中的專案，會覆寫預設目錄的ICC設定檔對應中的專案。
+特定图像目录的ICC配置文件映射中的条目会覆盖默认目录的ICC配置文件映射中的条目。
 
-「影像伺服」支援符合ICC規格的色彩設定檔。
+图像服务支持满足ICC规范的颜色配置文件。

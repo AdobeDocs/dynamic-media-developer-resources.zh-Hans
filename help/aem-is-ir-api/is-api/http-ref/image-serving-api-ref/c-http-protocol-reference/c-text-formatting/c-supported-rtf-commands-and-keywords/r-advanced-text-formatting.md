@@ -1,7 +1,7 @@
 ---
-description: 使用下列命令設定進階文字格式。
+description: 使用下列命令设置高级文本格式。
 solution: Experience Manager
-title: 進階文字格式
+title: 高级文本格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# 進階文字格式{#advanced-text-formatting}
+# 高级文本格式{#advanced-text-formatting}
 
-使用下列命令設定進階文字格式。
+使用下列命令设置高级文本格式。
 
 <table id="table_43B2EB887C0F471BB60C23B570E7D3D2"> 
  <thead> 
@@ -27,78 +27,78 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \dn <span class="varname"> N </span> </span> </td> 
-   <td> <p>下標而不變更字型大小。 </p> </td> 
-   <td> <p>位置為半點；預設為6。 </p> </td> 
+   <td> <p>下标而不更改字体大小。 </p> </td> 
+   <td> <p>位置为半点；默认值为6。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \up <span class="varname"> N </span> </span> </td> 
-   <td> <p>不變更字型大小的上標。 </p> </td> 
-   <td> <p>位置為半點；預設為6。 </p> </td> 
+   <td> <p>上标而不更改字体大小。 </p> </td> 
+   <td> <p>位置为半点；默认值为6。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \字距微調 <span class="varname"> N </span> </span> </td> 
-   <td> <p>以指定的字型大小停用/啟用。 </p> </td> 
-   <td> <p>字型大小為半點，超過此點可套用字距微調；0表示停用字距微調；預設為1，表示所有字型大小都超過1/2點。 </p> </td> 
+   <td> <span class="codeph"> \字距微调 <span class="varname"> N </span> </span> </td> 
+   <td> <p>禁用/启用指定字体大小。 </p> </td> 
+   <td> <p>字体大小（以半点为单位），超过该点将应用字距微调；0表示禁用字距微调；默认值为1，表示对超过1/2点的所有字体大小进行字距微调。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningoptical </span> </td> 
-   <td> <p>選取視覺字距微調。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 僅限。 </p> </td> 
+   <td> <p>选择光学字距微调。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅此而已。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric </span> </td> 
-   <td> <p>選取量度字距微調。 </p> </td> 
+   <td> <p>选择量度字距微调。 </p> </td> 
    <td> <p>默认. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \expnd <span class="varname"> N </span> </span> </td> 
-   <td> <p>修改字元間距。 </p> </td> 
-   <td> <p>正或負的四分之一點；預設為0。 </p> </td> 
+   <td> <p>修改字符间距。 </p> </td> 
+   <td> <p>正或负的四分之一点；默认值为0。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \expndtw <span class="varname"> N </span> </span> </td> 
-   <td> <p>修改字元間距。 </p> </td> 
-   <td> <p>正或負兩週。 </p> </td> 
+   <td> <p>修改字符间距。 </p> </td> 
+   <td> <p>正的或负的twips。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \charscalex <span class="varname"> N </span> </span> </td> 
-   <td> <p>水準字元縮放。 </p> </td> 
-   <td> <p>正或負百分比；預設為100。 </p> </td> 
+   <td> <p>水平字符缩放。 </p> </td> 
+   <td> <p>正或负百分比；默认值为100。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
-   <td> <p>垂直字元縮放。 </p> </td> 
-   <td> <p>正或負百分比；預設為100；Dynamic Media擴充功能。 </p> <p> <span class="codeph"> \charscaley </span> 也會在套用時縮放行距 <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> 無論垂直字元縮放多少，一律保留行距。 </p> </td> 
+   <td> <p>垂直字符缩放。 </p> </td> 
+   <td> <p>正或负百分比；默认值为100；Dynamic Media扩展。 </p> <p> <span class="codeph"> \charscaley </span> 应用时还可以缩放行距 <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> 无论垂直字符缩放量如何，始终保留行距。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
-   <td> <p>選取由左至右的字元流程。 </p> </td> 
+   <td> <p>选择从左至右的字符流。 </p> </td> 
    <td> <p>默认. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \rtlch </span> </td> 
-   <td> <p>選取由右至左的字元流程。 </p> </td> 
-   <td> <p> <span class="codeph"> text= </span> 僅限。 </p> </td> 
+   <td> <p>选择从右至左的字符流。 </p> </td> 
+   <td> <p> <span class="codeph"> text= </span> 仅此而已。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \組排文字 <span class="varname"> N </span> </span> </td> 
-   <td> <p>啟用複製彎管頭並設定允許的最大字型大小。 </p> </td> 
-   <td> <p>以半點為單位的字型大小； <span class="codeph"> textPs= </span> 僅限；Dynamic Media擴充功能。 </p> </td> 
+   <td> <span class="codeph"> \组排文字 <span class="varname"> N </span> </span> </td> 
+   <td> <p>启用复制管接头并设置允许的最大字体大小。 </p> </td> 
+   <td> <p>以半点为单位的字体大小； <span class="codeph"> textPs= </span> 仅限；Dynamic Media扩展。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \複製管線 <span class="varname"> N </span> </span> </td> 
-   <td> <p>最大複製配合線（軟限制）。 </p> </td> 
-   <td> <p>0表示無行限制； <span class="codeph"> textPs= </span> 僅限；Dynamic Media擴充功能。 </p> </td> 
+   <td> <span class="codeph"> \复制管线 <span class="varname"> N </span> </span> </td> 
+   <td> <p>最大复制配合线（软限制）。 </p> </td> 
+   <td> <p>0表示无行限制； <span class="codeph"> textPs= </span> 仅限；Dynamic Media扩展。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
-   <td> <p>最大複製符合行數（截斷）。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 僅限；Dynamic Media擴充功能。 </p> </td> 
+   <td> <p>最大复制适应行数（截断）。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅限；Dynamic Media扩展。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 
-   <td> <p>字元方向。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 僅限；非Roman字型會略過；在下列情況下會略過 <span class="codeph"> \stextflow1 </span> 未生效。 </p> <p>0垂直（預設）。 </p> <p>1順時針旋轉90度。 </p> </td> 
+   <td> <p>字符方向。 </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 仅限；对于非罗马字体，忽略；当 <span class="codeph"> \stextflow1 </span> 并未生效。 </p> <p>0垂直（默认）。 </p> <p>1顺时针旋转90度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

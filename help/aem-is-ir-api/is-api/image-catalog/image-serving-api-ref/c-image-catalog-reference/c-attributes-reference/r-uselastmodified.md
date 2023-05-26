@@ -1,5 +1,5 @@
 ---
-description: 啟用上次修改的回應標頭。 啟用或停用在「影像伺服」發出的可快取HTTP回應中納入Last-Modified標頭。
+description: 启用上次修改的响应标头。 启用或禁用在图像服务发出的可缓存HTTP响应中包含Last-Modified标头。
 solution: Experience Manager
 title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
@@ -14,31 +14,31 @@ ht-degree: 1%
 
 # UseLastModified{#uselastmodified}
 
-啟用上次修改的回應標頭。 啟用或停用在「影像伺服」發出的可快取HTTP回應中納入Last-Modified標頭。
+启用上次修改的响应标头。 启用或禁用在图像服务发出的可缓存HTTP响应中包含Last-Modified标头。
 
-伺服器使用最近的 `catalog::TimeStamp` 回應中涉及的所有目錄/目錄記錄的值，作為Last-Modified標頭值。
+服务器使用最新的 `catalog::TimeStamp` 响应中涉及的所有目录/目录记录的值，作为Last-Modified标头值。
 
-只有在使用的分散式快取網路或其他快取系統不支援etag標頭時，才應該啟用。
+仅当使用的分布式缓存网络或其他缓存系统不支持etag标头时，才应启用。
 
 >[!NOTE]
 >
->在涉及多個影像伺服主機的負載平衡環境中使用Last-Modified標頭時，務必謹慎。 如果伺服器出於某些原因對相同的目錄專案具有不同的時間戳記，可能會挫敗使用者端快取，並增加伺服器負載。 這種情況可能會發生，如下所示：
+>在涉及多个图像服务主机的负载平衡环境中使用Last-Modified标头时，必须谨慎。 如果由于某种原因，服务器对相同的目录条目具有不同的时间戳，则可能会阻止客户端缓存，并增加服务器负载。 这种情况可能发生在以下方面：
 >
->* 兩者皆非 `catalog::TimeStamp` 也不 `attribute::TimeStamp`，如此一來， [!DNL catalog.ini] 檔案為的預設值 `catalog::TimeStamp`.
+>* 两者都不是 `catalog::TimeStamp` 也不 `attribute::TimeStamp`，以便 [!DNL catalog.ini] 文件用作的默认值 `catalog::TimeStamp`.
 >
->* 每個伺服器在本機檔案系統上都有其自己的目錄檔案執行個體，而不是透過網路掛載來共用影像目錄檔案。
->* 兩個或多個相同的執行個體 [!DNL catalog.ini] 檔案的修改日期不同，可能是因為檔案複製不當所造成。
+>* 每个服务器在本地文件系统上具有自己的目录文件实例，而不是通过网络装载共享映像目录文件。
+>* 同一实例的两个或多个实例 [!DNL catalog.ini] 文件具有不同的文件修改日期，这可能是由于文件复制不当所致。
 >
 
 
-## 屬性 {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
+## 属性 {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 
-标记. 0代表停用，1代表啟用Last-Modified HTTP標題。
+标记. 0表示禁用，1表示启用上次修改的HTTP标头。
 
 ## 默认 {#section-4eb47aadab8b41609bef296a4115f9f4}
 
-繼承自 `default::UseLastModified` 如果未定義或為空。
+继承自 `default::UseLastModified` 如果未定义或为空。
 
 ## 另请参阅 {#section-4211a78f8a5b45629c62fed5ae82f1cb}
 
-[catalog：：TimeStamp](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded)
+[catalog：：时间戳](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded)

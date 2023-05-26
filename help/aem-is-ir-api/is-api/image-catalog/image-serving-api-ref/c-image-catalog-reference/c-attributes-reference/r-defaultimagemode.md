@@ -1,7 +1,7 @@
 ---
-description: 預設影像模式。 選取當找不到請求中指定的影像時如何套用預設影像。
+description: 默认图像模式。 选择当在请求中指定的图像未找到时如何应用默认图像。
 solution: Experience Manager
-title: 預設影像模式
+title: 默认图像模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# 預設影像模式{#defaultimagemode}
+# 默认图像模式{#defaultimagemode}
 
-預設影像模式。 選取當找不到請求中指定的影像時如何套用預設影像。
+默认图像模式。 选择当在请求中指定的图像未找到时如何应用默认图像。
 
-## 屬性 {#section-7fa8acb63540490d9f5186231b5e77c3}
+## 属性 {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-列舉。 「0」會取代整個複合影像，即使遺失的影像隻是數個圖層中的一個圖層亦然；「1」會以預設影像取代每個遺失的圖層來源影像，並照常傳回複合影像。
+枚举。 “0”表示替换整个复合图像，即使缺少的图像只是多个图层之一也是如此；“1”表示使用默认图像替换每个缺少的图层源图像并照常返回复合图像。
 
 ## 限制 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-影像伺服恢復為 `DefaultImageMode=0` 巢狀影像演算、FXG或 `req=set` 要求失敗。
+图像服务恢复为 `DefaultImageMode=0` 嵌套图像渲染、FXG或 `req=set` 请求失败。
 
 ## 默认 {#section-9e318524a2a5496386901286748c7ee7}
 
-繼承自 `default::DefaultImage` 如果未定義或為空。
+继承自 `default::DefaultImage` 如果未定义或为空。
 
 ## 另请参阅 {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 
-[預設影像=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433) ， [attribute：：DefaultImage](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)
+[默认图像=](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433) ， [attribute：：DefaultImage](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)

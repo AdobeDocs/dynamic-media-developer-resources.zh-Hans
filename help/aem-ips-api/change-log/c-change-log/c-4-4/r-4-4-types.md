@@ -1,7 +1,7 @@
 ---
-description: 說明IPS API 4.4版的新資料和變更資料型別。
+description: 介绍IPS API版本4.4的新数据类型和更改的数据类型。
 solution: Experience Manager
-title: 新增和修改的資料型別
+title: 新数据类型和修改的数据类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# 資料型別：新增和修改{#data-types-new-and-modified}
+# 数据类型：新增和已修改{#data-types-new-and-modified}
 
-說明IPS API 4.4版的新資料和變更資料型別。
+介绍IPS API版本4.4的新数据类型和更改的数据类型。
 
 语法
 
-## 新型別 {#section-b910343aff304ec9b4d74045a2596a74}
+## 新类型 {#section-b910343aff304ec9b4d74045a2596a74}
 
 * `AssetMetadataFields`
 * `AssetMetadataFieldsArray`
@@ -31,18 +31,18 @@ ht-degree: 2%
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## 修改型別 {#section-dfd062062ad444b0876bbc951fb1560c}
+## 已修改类型 {#section-dfd062062ad444b0876bbc951fb1560c}
 
-**資產**
+**资产**
 
-引數已新增：
+添加的参数：
 
 * `subtype`
 * `assetSetInfo`
 
-**工作記錄檔**
+**作业日志**
 
-引數已新增：
+添加的参数：
 
 * `transferSuccessCount`
 * `transferErrorCount`
@@ -50,6 +50,6 @@ ht-degree: 2%
 
 **PDFInfo**
 
-引數已新增：
+添加的参数：
 
 * `extractLinks`

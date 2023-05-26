@@ -1,7 +1,7 @@
 ---
-description: IS提供簡化HTML影像地圖使用的機制。 IS中的JAVA和Flash型檢視器也包含對影像地圖的有限支援。
+description: IS提供了简化HTML图像映射使用的机制。 IS中基于JAVA和基于Flash的查看器还包括对图像映射的有限支持。
 solution: Experience Manager
-title: 影像地圖
+title: 图像映射
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# 影像地圖{#image-maps}
+# 图像映射{#image-maps}
 
-IS提供簡化HTML影像地圖使用的機制。 IS中的JAVA和Flash型檢視器也包含對影像地圖的有限支援。
+IS提供了简化HTML图像映射使用的机制。 IS中基于JAVA和基于Flash的查看器还包括对图像映射的有限支持。
 
-來源影像地圖會透過以下方式提供給IS： `catalog::Map` 或使用 `map=` 命令和已處理的地圖會使用 `req=map` 命令。
+源图像映射可通过以下方式提供给IS `catalog::Map` 或使用 `map=` 命令和已处理的映射使用 `req=map` 命令。
 
-影像地圖由一或多個HTMLAREA元素組成，並以&#39;&lt;&#39;和&#39;>&#39;正確分隔。 如果透過catalog：：Map提供，則所有畫素座標值都會假設為使用原始影像解析度，並且相對於（未修改的）來源影像的左上角。 若透過 `map=` 指令，座標值會假設為圖層座標，相對於圖層的左上角(在 `rotate=` 和 `extend=`)。
+图像映射由一个或多个HTMLAREA元素组成，使用“&lt;”和“>”正确分隔。 如果通过catalog：：Map提供，则所有像素坐标值都假定为采用原始图像分辨率，并相对于（未修改的）源图像的左上角。 当通过 `map=` 命令，假定坐标值是图层坐标，相对于图层的左上角（在坐标值之后） `rotate=` 和 `extend=`)。
 
 >[!NOTE]
 >
->%座標目前不允許使用，且處理方式可能不正確。
+>此时不允许使用%坐标，处理方式可能不正确。
 
-IS會透過將空間轉換（例如縮放和旋轉）套用至地圖座標，然後以適當的z順序（從前到後）組裝處理過的圖層地圖，從每個組成圖層的來源影像地圖產生複合影像地圖。
+IS通过将空间变换（例如缩放和旋转）应用于地图坐标，然后以适当的z顺序（从前到后）并结合适当的位置，从每个组成层的源图像映射生成复合图像映射。
 
-提供下列指令時，會考慮搭配使用於影像地圖處理 `req=map` (直接在請求中、透過目錄範本或在 `catalog::Modifier` 字串)：
+当与一起提供时，将考虑使用以下命令进行图像映射处理 `req=map` （直接在请求中、通过目录模板或在中） `catalog::Modifier` 字符串)：
 
 * `align=`
 * `wid=`
@@ -45,14 +45,14 @@ IS會透過將空間轉換（例如縮放和旋轉）套用至地圖座標，然
 * `src=`
 * `map=`
 
-所有其他指令都會被有效忽略。
+所有其他命令将被有效忽略。
 
-此 `SHAPE` 和 `COORDS` 屬性 `AREA` 在處理期間可能修改 `req=map` 請求，的所有其他屬性 `AREA` 傳遞元素時不會進行修改。 在大多數情況下，這涉及到變更 `SHAPE` 值自 `DEFAULT` 至 `RECT` (這也會新增 `COORDS` 屬性)，或變更 `COORDS` 值。
+此 `SHAPE` 和 `COORDS` 属性 `AREA` 在处理期间可以修改 `req=map` 请求，的所有其他属性 `AREA` 元素无需修改即可传递。 在大多数情况下，这涉及到更改 `SHAPE` 值自 `DEFAULT` 到 `RECT` (这也会添加 `COORDS` 属性)，或更改 `COORDS` 值。
 
-任何 `AREA` 處理期間變為空白的元素會完全移除。 如果地圖與 `layer=comp` 它位於所有其他地圖之後。 資料會以文字形式傳回一個或多個HTML `AREA` 元素。 空白的回覆字串表示指定的物件沒有影像對應。
+任意 `AREA` 处理期间变为空的元素将被完全删除。 如果映射与 `layer=comp` 它位于所有其他地图之后。 数据以文本形式作为或多个HTML返回 `AREA` 元素。 空回复字符串表示指定的对象不存在图像映射。
 
-處理地圖時不考慮圖層透明度。 完全透明的圖層仍然可以有相關聯的影像地圖。 部分透明圖層的對映將不會裁剪至透明區域。
+处理映射时不考虑图层透明度。 完全透明的图层仍可以具有与其关联的图像映射。 部分透明层的映射将不会裁剪到透明区域。
 
 ## 另请参阅 {#see-also}
 
-[對應=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) ， [catalog：：Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)， [HTML4.01規格](https://www.w3.org/TR/html401/)
+[映射=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) ， [catalog：：Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md)， [HTML4.01规范](https://www.w3.org/TR/html401/)

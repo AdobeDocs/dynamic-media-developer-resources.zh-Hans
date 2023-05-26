@@ -1,7 +1,7 @@
 ---
-description: 本節中的設定適用於由req=set修飾元取得的媒體集回應。
+description: 此部分中的设置适用于通过req=set修饰符获得的媒体集响应。
 solution: Experience Manager
-title: 媒體集回應
+title: 媒体集响应
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e3833726-d345-4741-8096-d74f299ac9fc
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 媒體集回應{#media-set-responses}
+# 媒体集响应{#media-set-responses}
 
-本節中的設定適用於由req=set修飾元取得的媒體集回應。
+此部分中的设置适用于通过req=set修饰符获得的媒体集响应。
 
-## PS：：fvctx.useCatalogRecordValidation — 快取原則 {#section-9accb087d16548a988993bb30395a6f6}
+## PS：：fvctx.useCatalogRecordValidation — 缓存策略 {#section-9accb087d16548a988993bb30395a6f6}
 
-此屬性在決定是否需要重新產生從快取擷取的設定回應時，控制快取原則。 如果屬性停用，則時間戳記會 [!DNL catalog.ini] 檔案用於驗證。 如果已啟用屬性，最新的 `catalog::LastModified` 所有參考記錄中的時間戳記都會用於驗證。
+此属性在确定是否需要重新生成从缓存检索的响应时，控制缓存策略。 如果属性被禁用，则时间戳 [!DNL catalog.ini] 文件用于验证。 如果启用了属性，则最新的 `catalog::LastModified` 使用来自所有引用记录的时间戳进行验证。
 
-## PS：：fvctx.nestingLimit — 巢狀限制 {#section-280210341f1647fea02590e7069934d2}
+## PS：：fvctx.nestingLimit — 嵌套限制 {#section-280210341f1647fea02590e7069934d2}
 
-任何專案的最大巢狀深度 `req=set` 回應。 如果超過此深度，則會傳回錯誤。
+任何项目的最大嵌套深度 `req=set` 响应。 如果超过此深度，则会返回错误。
 
-## PS：：fvctx.brochureLimit — 手冊上限 {#section-fe36e47db49244cea7f07e9dd3639440}
+## PS：：fvctx.brochureLimit — 手册限制 {#section-fe36e47db49244cea7f07e9dd3639440}
 
-中的電子目錄手冊數量上限 `req=set` 包含所有關聯中繼資料的回應。 一旦超過此限制，就會隱藏與手冊專案相關聯的任何私人地圖和使用者資料。
+中电子目录手册的最大数量 `req=set` 包含所有关联元数据的响应。 一旦超过此限制，将禁止与宣传册项目关联的任何专用映射和用户数据。

@@ -1,6 +1,6 @@
 ---
 title: 默认
-description: 沒有預設值。
+description: 没有默认值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 6%
 
 # 默认{#default}
 
-沒有預設值。
+没有默认值。
 
-伺服器只會取代已定義的變數。 任何出現次數 `$ *[!DNL name]*$` 不符合任何已定義自訂變數的仍維持常值。
+只有定义的变量会被服务器替换。 任何出现次数 `$ *[!DNL name]*$` 不匹配任何定义的自定义变量的变量仍保持为文本。

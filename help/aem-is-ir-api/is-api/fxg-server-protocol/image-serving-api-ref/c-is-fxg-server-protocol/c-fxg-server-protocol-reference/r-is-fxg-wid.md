@@ -1,5 +1,5 @@
 ---
-description: 檢視寬度。 指定回覆影像（檢視影像）的寬度。
+description: 视图宽度。 指定回复图像（视图图像）的宽度。
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
@@ -14,30 +14,30 @@ ht-degree: 2%
 
 # wid{#wid}
 
-檢視寬度。 指定回覆影像（檢視影像）的寬度。
+视图宽度。 指定回复图像（视图图像）的宽度。
 
 `wid= *`val`*`
 
 <table id="simpletable_8229FEFB366F4A799C206FD3E3C601BA"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>影像寬度，以畫素為單位（整數大於0）， </p></td> 
+  <td class="stentry"> <p>图像宽度（以像素为单位，int大于0）， </p></td> 
  </tr> 
 </table>
 
 ## 默认 {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-如果兩者都不 `wid=`， `hei=`，也不 `scale=` 指定，回覆影像為FXG檔案中指定的預設檢視大小。
+如果两者都不 `wid=`， `hei=`，也不 `scale=` 指定时，回复图像是FXG文件中指定的默认视图大小。
 
-點陣化格式會使用「預設檢視大小」（或DefaultPix設定）呈現。 按一下 **[!UICONTROL 應用程式設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**，然後輸入您的「寬度」和「高度」值。 尺寸越小，效能越高。 您必須儲存設定並執行影像伺服發佈才能套用變更。
+栅格格式使用“默认视图大小”（或DefaultPix设置）渲染。 单击 **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**，然后输入宽度和高度值。 尺寸越小，性能越好。 您必须保存设置并执行图像服务发布以应用更改。
 
-如果您套用 `scale=1` 指令，點陣格式要求會以FXG中指定的大小呈現。
+如果您应用 `scale=1` 命令，栅格格式请求将以FXG中指定的大小呈现。
 
 ## 示例 {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
 [!DNL http://server/is/agm/myRootId/myImageId?wid=200]
 
-除非指定格式，否則影像會呈現為SWF檔案。 在這種情況下，高度和寬度沒有意義，因為SWF通常會展開到瀏覽器視窗的大小。 因此，hei和wid僅適用於點陣或PDF格式。 點陣格式包括：
+除非指定格式，否则图像将渲染为SWF文件。 在这种情况下，高度和宽度没有意义，因为SWF通常会扩展至浏览器窗口的大小。 因此，hei和wid仅适用于光栅或PDF格式。 栅格格式包括：
 
 * GIF
 * TIF
@@ -45,5 +45,5 @@ ht-degree: 2%
 * JPG
 * JPEG
 * GIFalpha
-* TIF-alpha
-* PNG-alpha
+* tif-alpha
+* png-alpha

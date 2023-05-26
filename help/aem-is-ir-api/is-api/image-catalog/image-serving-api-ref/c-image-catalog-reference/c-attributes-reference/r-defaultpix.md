@@ -1,7 +1,7 @@
 ---
-description: 預設檢視大小。
+description: 默认视图大小。
 solution: Experience Manager
-title: 預設畫素
+title: Defaultpix
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
@@ -12,21 +12,21 @@ ht-degree: 3%
 
 ---
 
-# 預設畫素{#defaultpix}
+# Defaultpix{#defaultpix}
 
-預設檢視大小。
+默认视图大小。
 
-如果要求未明確使用指定檢視大小，伺服器會將回覆影像限製為不得大於此寬度與高度。 `wid=`， `hei=`，或 `scl=`.
+如果请求未明确使用指定视图大小，服务器将限制回复图像不超过此宽度和高度 `wid=`， `hei=`，或 `scl=`.
 
-## 屬性 {#section-c3e658cf82c540d986b118f74f0fe1b2}
+## 属性 {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-0或更大的兩個整數，以逗號分隔。 寬度和高度（畫素）。 可將任一或兩個值都設定為0，以保持其不受限制。
+0或更大的两个整数，以逗号分隔。 宽度和高度（像素）。 可以将任一值或两个值都设置为0以保持其不受约束。
 
-不適用於巢狀/內嵌請求。
+不适用于嵌套/嵌入的请求。
 
 ## 默认 {#section-b7338b2bf5114fff83b0714a57b20639}
 
-繼承自 `default::DefaultPix` 如果未定義或為空。
+继承自 `default::DefaultPix` 如果未定义或为空。
 
 ## 另请参阅 {#section-59088cd41da940e8ac0e74e2b049c6e9}
 

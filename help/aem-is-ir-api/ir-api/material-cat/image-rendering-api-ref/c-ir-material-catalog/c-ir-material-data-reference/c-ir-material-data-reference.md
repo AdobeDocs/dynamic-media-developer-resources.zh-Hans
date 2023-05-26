@@ -1,7 +1,7 @@
 ---
-description: 如果材料目錄需要材料資料，則必須在屬性「目錄」「檔案」中指定材料資料檔案的相對或絕對路徑。
+description: 如果材料目录需要材料数据，则必须在属性“目录”“文件”中指定材料数据文件的相对路径或绝对路径。
 solution: Experience Manager
-title: 材質資料參考
+title: 材质数据引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef0bb687-065b-4efe-b8ca-77945bb2f54e
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 材質資料參考{#material-data-reference}
+# 材质数据引用{#material-data-reference}
 
-如果材料目錄需要材料資料，則必須在attribute：：CatalogFile中指定材料資料檔案的相對或絕對路徑。
+如果材料目录需要材料数据，则必须在attribute：：CatalogFile中指定材料数据文件的相对路径或绝对路径。
 
-特定材料目錄之材料資料檔案的專案會修訂預設目錄之材料資料檔案中的專案。
+特定材料目录的材料数据文件中的条目会改写缺省目录的材料数据文件中的条目。

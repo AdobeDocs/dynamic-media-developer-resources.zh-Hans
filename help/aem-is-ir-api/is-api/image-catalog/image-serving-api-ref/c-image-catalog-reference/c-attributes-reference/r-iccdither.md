@@ -1,5 +1,5 @@
 ---
-description: 色彩轉換抖動。 指定在沒有icc=的明確選取項時，是否應使用遞色來改善色彩轉換的感應品質。
+description: 颜色转换抖动。 指定在通过icc=未做出明确选择时，是否应使用仿色来提高颜色转换的感知质量。
 solution: Experience Manager
 title: IccDither
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 5%
 
 # IccDither{#iccdither}
 
-色彩轉換抖動。 指定在沒有icc=的明確選取項時，是否應使用遞色來改善色彩轉換的感應品質。
+颜色转换抖动。 指定在通过icc=未做出明确选择时，是否应使用仿色来提高颜色转换的感知质量。
 
-## 屬性 {#section-b7ba44d2d5de43f5a0841fe4cac29d35}
+## 属性 {#section-b7ba44d2d5de43f5a0841fe4cac29d35}
 
-标记. 設為0會停用或設為1會啟用遞色。
+标记. 设置为0可禁用抖动，设置为1可启用抖动。
 
 ## 默认 {#section-86c4230a16454464880f64d4ab5ad533}
 
-繼承自 `default::IccDither` 如果未定義或為空。
+继承自 `default::IccDither` 如果未定义或为空。
 
 ## 另请参阅 {#section-fe119006eb414a618b6ec9edbed8fe94}
 

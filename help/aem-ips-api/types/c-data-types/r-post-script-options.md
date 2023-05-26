@@ -1,5 +1,5 @@
 ---
-description: PostScript檔案選項。
+description: PostScript文件选项。
 solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL PostScriptOptions]{#postscriptoptions}
 
-PostScript檔案選項。
+PostScript文件选项。
 
 语法
 
@@ -22,8 +22,8 @@ PostScript檔案選項。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 进度 | `xsd:string` | PostScript程式選擇。 |
-| 解析度 | `xsd:double` | 檔案解析度。 |
-| 色域 | `xsd:string` | PostScript色彩空間模式。 |
-| alpha | `xsd:boolean` | 是否將檔案點陣化成影像。 如果是這樣，如果以這種方式定義原始檔案，則會建立透明背景。 通常用於建立重疊圖志。 |
-| extractSearchWords | `xsd:boolean` | 是否要從PostScript檔案擷取搜尋字詞。 |
+| 进度 | `xsd:string` | PostScript进程选择。 |
+| 解析度 | `xsd:double` | 文件解析。 |
+| 颜色空间 | `xsd:string` | PostScript色彩空间模式。 |
+| alpha | `xsd:boolean` | 是否将文件栅格化为图像。 如果是这样，如果以这种方式定义原始文件，则它将创建一个透明背景。 通常用于创建叠加徽标。 |
+| extractSearchWords | `xsd:boolean` | 是否从PostScript文件中提取搜索词。 |

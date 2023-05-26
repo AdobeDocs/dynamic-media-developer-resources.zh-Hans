@@ -1,5 +1,5 @@
 ---
-description: 設定資產的中繼資料值。 使用一系列中繼資料更新，以設定批次中的值。
+description: 设置资源的元数据值。 使用一系列元数据更新来设置批次中的值。
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # setAssetMetadata{#setassetmetadata}
 
-設定資產的中繼資料值。 使用一系列中繼資料更新，以設定批次中的值。
+设置资源的元数据值。 使用一系列元数据更新来设置批次中的值。
 
 语法
 
-## 授權的使用者型別 {#section-9dcacb0c924044648f8324bfed183dca}
+## 授权用户类型 {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,25 +29,25 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->使用者必須擁有資產的讀取存取權。
+>用户必须具有资产的读取权限。
 
 ## 参数 {#section-bcdcff30905e444388811e897b2824bd}
 
-**輸入(setAssetMetadataParam)**
+**输入(setAssetMetadataParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有您要更新之資產的公司的控制代碼。 |
-| assetHandle | `xsd:string` | 是 | 資產的控點。 |
-| updatearray | `types:MetadataUpdateArray` | 是 | 中繼資料更新陣列中的更新。 |
+| companyHandle | `xsd:string` | 是 | 包含要更新的资产的公司的句柄。 |
+| assetHandle | `xsd:string` | 是 | 资源的句柄。 |
+| updateArray | `types:MetadataUpdateArray` | 是 | 元数据更新数组中的更新。 |
 
-**輸出(setAssetMetadataReturn)**
+**输出(setAssetMetadataReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-此程式碼範例使用一系列中繼資料更新來設定指定資產的中繼資料。
+此代码示例使用元数据更新数组来设置指定资源的元数据。
 
 **请求**
 

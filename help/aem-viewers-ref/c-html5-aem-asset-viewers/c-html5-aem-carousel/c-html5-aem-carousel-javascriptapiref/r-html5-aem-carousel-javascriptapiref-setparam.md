@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: 轉盤檢視器的JavaScript API參考。
+description: 轮播查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,32 +14,32 @@ ht-degree: 3%
 
 # setParam{#setparam}
 
-轉盤檢視器的JavaScript API參考。
+轮播查看器的JavaScript API参考。
 
-` setParam( *`名稱，值`*)`
+` setParam( *`名称，值`*)`
 
-將檢視器引數設定為指定的值。 引數是檢視器特定的組態選項或軟體開發套件修飾元。 此引數是在以下時間之前呼叫： `init()`.
+将查看器参数设置为指定的值。 参数是查看器特定的配置选项或软件开发工具包修饰符。 此参数是在之前调用的 `init()`.
 
-如果檢視器組態資訊是透過以下方式傳遞，則此方法為選用： `config` 建構函式的JSON物件。
+如果通过以下方式传递查看器配置信息，则可以选择此方法 `config` 构造函数的JSON对象。
 
-另請參閱 [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md).
+另请参阅 [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md).
 
 ## 参数 {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 名稱 </span> </span> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數名稱。 </p> </td>
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数名称。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 引數值。 值不得以百分比編碼。 </p> </td>
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。 该值不能采用百分比编码。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

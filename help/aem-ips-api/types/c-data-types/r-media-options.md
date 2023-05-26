@@ -1,7 +1,7 @@
 ---
-description: 為您的視訊產生縮圖影像。
+description: 为您的视频生成缩略图图像。
 solution: Experience Manager
-title: MediaOptions
+title: 媒体选项
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL MediaOptions]{#mediaoptions}
 
-為您的視訊產生縮圖影像。
+为您的视频生成缩略图图像。
 
 语法
 
@@ -31,18 +31,18 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：HandleArray</span> </td> 
-   <td colname="col3">陣列 <span class="codeph"> 屬性集</span> 處理參考視訊編碼預設集以轉碼視訊。 </td> 
+   <td colname="col2"> <span class="codeph"> 类型：HandleArray</span> </td> 
+   <td colname="col3">一个数组 <span class="codeph"> 属性集</span> 处理引用视频编码预设以转码视频。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 為true時，會擷取視訊的第一個影格，並當做縮圖影像使用。 </td> 
+   <td colname="col3"> 如果为true，则提取视频的第一帧，并将其用作缩略图。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailoptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ThumbnailOptions</span> </td> 
-   <td colname="col3">可选. 可讓您選擇特定的視訊影格做為縮圖影像。 <p>若要指定縮圖影像，請為您要使用的影格傳入時間（從視訊開始算起的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果您不正確指定時間， <span class="codeph"> generateThumbnail</span> 預設為true。 </p></p><p>另請參閱 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 縮圖選項</a>. </p></td> 
+   <td colname="col2"> <span class="codeph"> 类型：缩略图选项</span> </td> 
+   <td colname="col3">可选. 允许您选择特定的视频帧作为缩略图图像。 <p>要指定缩略图图像，请为要使用的帧传递时间（从视频开始起算的毫秒数）。 值范围从0到视频的结尾。 <p>注意：如果指定的时间不正确， <span class="codeph"> generateThumbnail</span> 默认为true。 </p></p><p>参见 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 缩略图选项</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,8 +61,8 @@ ht-degree: 7%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-此 `mediaOptions` 型別使用者：
+此 `mediaOptions` 类型由以下人员使用：
 
-* [UploadDirectory作業](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadpostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [上载目录作业](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadPost作业](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

@@ -1,6 +1,6 @@
 ---
-title: facebook共用
-description: facebook共用工具包含新增至「社交共用」面板的按鈕。 選取按鈕後，使用者會重新導向至社交服務提供的「共用」對話方塊。 按鈕的位置可完全由社交分享工具管理。
+title: facebook共享
+description: facebook共享工具包含一个添加到“社交共享”面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,50 +12,50 @@ ht-degree: 0%
 
 ---
 
-# facebook共用{#facebook-share}
+# facebook共享{#facebook-share}
 
-facebook共用工具包含新增至「社交共用」面板的按鈕。 選取按鈕後，使用者會重新導向至社交服務提供的「共用」對話方塊。 按鈕的位置可完全由社交分享工具管理。
+facebook共享工具包含一个添加到“社交共享”面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-facebook共用按鈕的外觀由下列CSS類別選擇器控制：
+facebook共享按钮的外观由以下CSS类选择器控制：
 
 ```
 .s7ecatalogviewer .s7facebookshare
 ```
 
-**facebook共用工具的CSS屬性**
+**facebook共享工具的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕高度。 </p> </td> 
+   <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選擇器，可將不同的外觀元素套用至不同的按鈕狀態。
+>此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-您可以透過設定從「社交分享」面板移除按鈕 `display:none` CSS屬性的CSS類別。
+可以通过设置从Social共享面板中删除按钮 `display:none` CSS属性的CSS类。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
 
-範例 — 設定28 x 28畫素的Facebook共用按鈕，並為四種不同按鈕狀態分別顯示不同影像：
+示例 — 设置一个28 x 28像素的Facebook共享按钮，并为四种不同的按钮状态分别显示不同的图像：
 
 ```
 .s7ecatalogviewer .s7facebookshare { 

@@ -16,22 +16,22 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定元件區域中色票容器的內部對齊（錨點）。 在「色票」中，會調整內部縮圖容器的大小，以只顯示整數的色票。 因此，內部容器和外部元件邊界間會有一段邊距。 此命令會指定如何將內部色票容器放置在元件內。
+指定样本容器在组件区域中的内部对齐（定位）。 在样本中，规定了内部缩略图容器的大小，因而只显示样本的总量。 因此，内部容器和外部组件边界之间存在一些边距。 此命令指定如何在组件内放置内部样本容器。
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> 設定水準色票對齊方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 左|中|右</span> </p> </td> 
+   <td colname="col2"> <p> 设置水平样本对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> 設定垂直色票對齊方式。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 顶部|居中|底部</span> </p> </td> 
+   <td colname="col2"> <p> 设置垂直样本对齐方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+## 属性 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
 可选.
 

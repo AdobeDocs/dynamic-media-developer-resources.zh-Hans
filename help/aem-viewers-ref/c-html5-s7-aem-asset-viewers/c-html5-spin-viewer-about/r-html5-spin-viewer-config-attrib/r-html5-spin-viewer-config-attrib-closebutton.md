@@ -1,6 +1,6 @@
 ---
-title: 關閉按鈕
-description: 關閉按鈕
+title: 关闭按钮
+description: 关闭按钮
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# 關閉按鈕{#closebutton}
+# 关闭按钮{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,12 +20,12 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> 設定為 <span class="codeph"> 1</span> 以啟用關閉按鈕顯示，或設為 <span class="codeph"> 0</span> 以隱藏關閉按鈕。 </p> </td> 
+   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> 启用关闭按钮显示，或设置为 <span class="codeph"> 0</span> 以隐藏关闭按钮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-924163cb2f6542499f49894becef7fb5}
+## 属性 {#section-924163cb2f6542499f49894becef7fb5}
 
 可选.
 

@@ -1,7 +1,7 @@
 ---
-description: 將這些伺服器設定用於內容資料夾。
+description: 对内容数据文件夹使用这些服务器设置。
 solution: Experience Manager
-title: 內容資料夾
+title: 内容数据文件夹
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# 內容資料夾{#content-data-folders}
+# 内容数据文件夹{#content-data-folders}
 
-將這些伺服器設定用於內容資料夾。
+对内容数据文件夹使用这些服务器设置。
 
-## IS：：RootPath — 影像資料根資料夾 {#section-5c57569514bb4d00b19de31d2e137e3b}
+## IS：：RootPath — 图像数据根文件夹 {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-所有來源資料（包括影像、字型和ICC設定檔）的位置。 這可以是一或多個絕對的檔案路徑或相對於 *[!DNL install_folder]*，以分號分隔。 如果為空， *[!DNL install_folder]* 是預設根目錄。 可以指定多個值，以跨多個檔案系統分發影像資料。 Image Server會依指定的順序嘗試根路徑，直到找到要求的檔案為止。
+所有源数据（包括图像、字体和ICC配置文件）的位置。 这可以是相对于的一个或多个绝对文件路径或路径 *[!DNL install_folder]*，以分号分隔。 如果为空， *[!DNL install_folder]* 是默认根。 可以指定多个值以跨多个文件系统分发图像数据。 图像服务器将按指定的顺序尝试根路径，直到找到所请求的文件为止。
 
-## PS：：staticContent.rootPath — 靜態內容資料根資料夾 {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
+## ps：：staticContent.rootPath — 静态内容数据根文件夹 {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-打算透過傳遞的靜態內容來源資料的位置 [!DNL /is/static] 內容。 可以是一個或多個絕對的檔案路徑或相對於 *[!DNL install_folder]*，以分號分隔。 如果為空， *[!DNL install_folder]* 是預設根目錄。
+打算通过交付的静态内容源数据的位置 [!DNL /is/static] 上下文。 可以是相对于的一个或多个绝对文件路径 *[!DNL install_folder]*，以分号分隔。 如果为空， *[!DNL install_folder]* 是默认根。
 
-您可以指定多個值（以分號分隔），將靜態內容分散到多個檔案系統中。 通常會設定為與相同的值 `IS::RootPath`.
+可以指定多个值（用分号分隔），以跨多个文件系统分发静态内容。 通常设置为与相同的值 `IS::RootPath`.
 
-此 [!DNL Platform Server] 會以指定的順序嘗試根路徑，直到找到要求的檔案為止。
+此 [!DNL Platform Server] 按指定的顺序尝试根路径，直到找到请求的文件为止。
 
 >[!NOTE]
 >
->依預設，此欄位會刻意設定為不存在的位置( [！DNL *[!DNL install_folder]*/static])，有效停用靜態內容服務。
+>默认情况下，此字段有意设置为不存在的位置([！DNL *[!DNL install_folder]*/static])，有效禁用静态内容服务。
 
-## IS：：SaveDirectory — 檔案儲存根資料夾 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
+## IS：：SaveDirectory — 文件保存根文件夹 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-的根路徑 `attribute::SavePath` (使用者： `req=saveToFile`)。 影像伺服器必須對將要建立影像檔案的子資料夾具有建立存取許可權。
+的根路径 `attribute::SavePath` (使用者 `req=saveToFile`)。 图像服务器必须对要在其中创建图像文件的子文件夹具有创建访问权限。

@@ -1,7 +1,7 @@
 ---
-description: 目錄屬性檔案可識別這些常見的縮圖屬性。
+description: 目录属性文件可识别这些常见的缩略图属性。
 solution: Experience Manager
-title: 通用縮圖屬性
+title: 通用缩略图属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1289f251-61f0-4355-9dd2-f9b0690e355c
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# 通用縮圖屬性{#common-thumbnail-attributes}
+# 通用缩略图属性{#common-thumbnail-attributes}
 
-目錄屬性檔案可識別這些常見的縮圖屬性。
+目录属性文件可识别这些常见的缩略图属性。
 
 <table id="simpletable_D10CFB19EA674FE4808D384C9498170F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbbkgcolor.md#reference-8e38088e79a54446a9106d0b93c9b31e" type="reference" format="dita" scope="local"> ThumbBkgColor</a></span> </p></td> 
-  <td class="stentry"> <p>縮圖的背景顏色。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbbkgcolor.md#reference-8e38088e79a54446a9106d0b93c9b31e" type="reference" format="dita" scope="local"> ThumbbkgColor</a></span> </p></td> 
+  <td class="stentry"> <p>缩略图的背景颜色。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbhorizalign.md#reference-0ae8b88669df4769a9053b22aca33691" type="reference" format="dita" scope="local"> ThumbHorizAlign</a></span> </p></td> 
-  <td class="stentry"> <p>縮圖的水準對齊方式。 </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbhorizalign.md#reference-0ae8b88669df4769a9053b22aca33691" type="reference" format="dita" scope="local"> 缩略图</a></span> </p></td> 
+  <td class="stentry"> <p>缩略图的水平对齐方式。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-thumbvertalign.md#reference-d47c6b34588c4855b04ad134e472f04f" type="reference" format="dita" scope="local"> ThumbVertAlign</a></span> </p></td> 
-  <td class="stentry"> <p>縮圖的垂直對齊方式。 </p></td> 
+  <td class="stentry"> <p>缩略图的垂直对齐方式。 </p></td> 
  </tr> 
 </table>

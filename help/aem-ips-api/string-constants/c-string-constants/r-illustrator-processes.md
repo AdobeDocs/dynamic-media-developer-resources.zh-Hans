@@ -1,7 +1,7 @@
 ---
-description: 由Illustrator/流程使用。
+description: 由Illustrator/进程使用。
 solution: Experience Manager
-title: Illustrator程式
+title: Illustrator进程
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 42520442-07cc-4a26-9e93-a22337cbcb4b
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# Illustrator程式{#illustrator-processes}
+# Illustrator进程{#illustrator-processes}
 
-由Illustrator/流程使用。
+由Illustrator/进程使用。
 
 语法
 

@@ -1,7 +1,7 @@
 ---
-description: 預設影像回應的使用者端快取TTL。 提供預設影像回應（傳回以defaultImage=或屬性DefaultImage指定的預設影像的回應）的到期間隔。
+description: 默认图像响应的客户端缓存TTL。 提供默认图像响应（返回使用defaultImage=或属性DefaultImage指定的默认图像的响应）的过期时间间隔。
 solution: Experience Manager
-title: 預設過期時間
+title: 默认过期
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99103681-c00c-4648-8dee-2314e7e614af
@@ -12,21 +12,21 @@ ht-degree: 1%
 
 ---
 
-# 預設過期時間{#defaultexpiration}
+# 默认过期{#defaultexpiration}
 
-預設影像回應的使用者端快取TTL。 提供預設影像回應（傳回以defaultImage=或attribute：：DefaultImage指定的預設影像的回應）的到期間隔。
+默认图像响应的客户端缓存TTL。 提供默认图像响应（返回使用defaultImage=或attribute：：DefaultImage指定的默认图像的响应）的过期时间间隔。
 
-僅當預設影像未與目錄記錄關聯或預設影像目錄記錄未提供特定時套用 `catalog::Expiration` 值。
+仅当默认图像未与目录记录关联或默认图像目录记录未提供特定内容时应用 `catalog::Expiration` 值。
 
-## 屬性 {#section-e564512476604fd7b964f9f2903d6d33}
+## 属性 {#section-e564512476604fd7b964f9f2903d6d33}
 
-實數，0或更大。 自回覆資料產生至到期為止的小時數。 設為0可一律使回覆影像立即過期，這會有效停用預設影像回應的使用者端快取。 設定為 `-1` 若要標籤為 `never expire`.
+实数，0或更大。 自生成回复数据后到到期为止的小时数。 设置为0可始终使回复图像立即过期，这样可以有效禁用默认图像响应的客户端缓存。 设置为 `-1` 标记为 `never expire`.
 
 ## 默认 {#section-131cd32c2e214391857dba5af321f8cd}
 
-繼承自 `default::DefaultExpiration` 如果未定義或為空。
+继承自 `default::DefaultExpiration` 如果未定义或为空。
 
-TTL （存留時間）是快取過期前的持續時間。 預設TTL為1小時。
+TTL （存留期）是缓存过期前的持续时间。 默认TTL为1小时。
 
 ## 另请参阅 {#section-d8642c22e3d947129367dd76366963d6}
 

@@ -1,7 +1,7 @@
 ---
-description: 說明IPS API 4.4版的新增和變更的作業方法。
+description: 介绍IPS API版本4.4的新操作和更改的操作方法。
 solution: Experience Manager
-title: 新作業和修改作業
+title: 新操作和修改后的操作
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# 作業：新增與修改{#operations-new-and-modified}
+# 操作：新建和已修改{#operations-new-and-modified}
 
-說明IPS API 4.4版的新增和變更的作業方法。
+介绍IPS API版本4.4的新操作和更改的操作方法。
 
 语法
 
-## 新作業 {#section-cd4edc0c57214c7bbeb2da8d3ae01333}
+## 新操作 {#section-cd4edc0c57214c7bbeb2da8d3ae01333}
 
 * `batchSetFontFields`
 * `batchSetIccProfileFields`
@@ -26,11 +26,11 @@ ht-degree: 2%
 * `getAssetMetadataFields`
 * `getAssetSetDefinitions`
 
-## 已修改的作業 {#section-d231591fb5ca473e846de29174dcdc39}
+## 已修改的操作 {#section-d231591fb5ca473e846de29174dcdc39}
 
-**SearchAssets**
+**搜索资产**
 
-引數已新增：
+添加的参数：
 
 * `assetSubtypeArray`
 * `excludeByproductArray`

@@ -1,7 +1,7 @@
 ---
-description: 整數資料型別。
+description: 整数数据类型。
 solution: Experience Manager
-title: 整數
+title: 整数
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5a4e0acc-bbc5-4cbe-9210-391ea957965e
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 整數{#integer-number}
+# 整数{#integer-number}
 
-整數資料型別。
+整数数据类型。
 
-帶正負號的整數值（例如0、-12、34）。 0或負值可能有特殊意義。
+带符号的整数值（例如0、-12、34）。 0或负值可能具有特殊含义。

@@ -1,5 +1,5 @@
 ---
-description: 內容狀態更新的陣列。
+description: 上下文状态更新的数组。
 solution: Experience Manager
 title: ContextStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL ContextStateUpdateArray]{#contextstateupdatearray}
 
-內容狀態更新的陣列。
+上下文状态更新的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| ContextStateUpdateArray | `types:ContextStateUpdate` | 內容狀態更新的陣列。 |
+| ContextStateUpdateArray | `types:ContextStateUpdate` | 上下文状态更新的数组。 |

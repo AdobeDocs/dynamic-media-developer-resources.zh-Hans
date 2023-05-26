@@ -1,5 +1,5 @@
 ---
-description: 無法驗證使用者時擲回。
+description: 当用户无法进行身份验证时引发。
 solution: Experience Manager
 title: authenticationFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 21%
 
 # authenticationFault{#authenticationfault}
 
-無法驗證使用者時擲回。
+当用户无法进行身份验证时引发。
 
 语法
 
-## 錯誤型別 {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
+## 故障类型 {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
 
-| ID | 錯誤 |
+| ID | 故障 |
 |---|---|
 | 10000 | `AUTHENTICATION_FAULT_CODE_NO_CREDENTIALS` |
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
 | 10002 | `AUTHENTICATION_FAULT_CODE_INVALID_USER` |
 
-## 錯誤欄位 {#section-1fe84846a7154b03ab49552810ee9ac3}
+## 错误字段 {#section-1fe84846a7154b03ab49552810ee9ac3}
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| `code` | `xsd:int` | 錯誤ID |
-| `reason` | `xsd:string` | 說明錯誤的資訊性訊息。 |
+| `code` | `xsd:int` | 错误ID |
+| `reason` | `xsd:string` | 描述故障的信息性消息。 |

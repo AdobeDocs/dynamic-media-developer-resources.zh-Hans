@@ -1,5 +1,5 @@
 ---
-description: 屬性集型別陣列。
+description: 属性集类型数组。
 solution: Experience Manager
 title: PropertySetTypeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetTypeArray]{#propertysettypearray}
 
-屬性集型別陣列。
+属性集类型数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:PropertySetType` | 屬性集型別陣列。 |
+| 项目 | `types:PropertySetType` | 属性集类型数组。 |

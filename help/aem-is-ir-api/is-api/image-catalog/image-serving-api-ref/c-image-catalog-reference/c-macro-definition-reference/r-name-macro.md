@@ -1,5 +1,5 @@
 ---
-description: 巨集名稱。
+description: 宏名称。
 solution: Experience Manager
 title: 名称
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 12%
 
 # 名称{#name}
 
-巨集名稱。
+宏名称。
 
-巨集名稱可包含ASCII字母、數字、&#39;-&#39;、&#39;_&#39;和&#39;.&#39;的任意組合。
+宏名称可以由ASCII字母、数字、“ — ”、“_”和“。”的任意组合组成。
 
-## 屬性 {#section-3952a070c21646ab914cc76f289ed8ce}
+## 属性 {#section-3952a070c21646ab914cc76f289ed8ce}
 
-文字字串。 必需. 每個巨集：：Name值在表格中必須是唯一的。 巨集名稱不區分大小寫。
+文本字符串。 必需. 每个宏：：Name值在表中必须是唯一的。 宏名称不区分大小写。
 
 ## 默认 {#section-031d1931a7694da88c3f7d623eabcb78}
 

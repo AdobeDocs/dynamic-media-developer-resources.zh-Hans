@@ -1,6 +1,6 @@
 ---
 title: FlyoutZoomView.fmt
-description: 指定元件從影像伺服器載入影像時所用的影像格式。
+description: 指定组件从图像服务器加载图像时使用的图像格式。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-指定元件從影像伺服器載入影像時所用的影像格式。
+指定组件从图像服务器加载图像时使用的图像格式。
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -22,12 +22,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 如果指定的格式結尾為 <span class="codeph"> -alpha</span>，元件會將影像呈現為透明內容。 至於所有其他影像格式，元件會將影像視為不透明。 </p> <p>元件預設為白色背景。 因此，若要使其透明，請設定 <span class="codeph"> background-color</span> CSS屬性至 <span class="codeph"> 透明</span>. </p> </td> 
+   <td colname="col2"> <p> 如果指定的格式结尾为 <span class="codeph"> -alph</span>，组件会将图像渲染为透明内容。 对于所有其他图像格式，组件会将图像视为不透明。 </p> <p>默认情况下，该组件具有白色背景。 因此，若要使其透明，请将 <span class="codeph"> background-color</span> CSS属性至 <span class="codeph"> 透明</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

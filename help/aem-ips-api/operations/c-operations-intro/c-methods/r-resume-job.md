@@ -1,7 +1,7 @@
 ---
-description: 重新啟動暫停的工作。
+description: 重新启动暂停的作业。
 solution: Experience Manager
-title: resumejob
+title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
@@ -12,13 +12,13 @@ ht-degree: 17%
 
 ---
 
-# resumejob{#resumejob}
+# resumeJob{#resumejob}
 
-重新啟動暫停的工作。
+重新启动暂停的作业。
 
 语法
 
-## 授權的使用者型別 {#section-eab49f4b6d1041179000326a10fee889}
+## 授权用户类型 {#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,20 +31,20 @@ ht-degree: 17%
 
 ## 参数 {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**輸入(resumeJobParam)**
+**输入(resumeJobParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 含有您要重新啟動之工作的公司的控制代碼。 |
-| jobHandle | `xsd:string` | 是 | 暫停工作的控制代碼。 |
+| companyHandle | `xsd:string` | 是 | 包含您要重新启动的作业的公司句柄。 |
+| jobHandle | `xsd:string` | 是 | 暂停的作业的句柄。 |
 
-**輸出(resumeJobReturn)**
+**输出(resumeJobReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-d0524e031f1f43d89430eade19526162}
 
-此程式碼範例會重新啟動暫停的工作。
+此代码示例可重新启动暂停的作业。
 
 **请求**
 

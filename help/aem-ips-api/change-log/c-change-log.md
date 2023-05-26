@@ -1,7 +1,7 @@
 ---
-description: 變更記錄
+description: 更改日志
 solution: Experience Manager
-title: 變更記錄
+title: 更改日志
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 15228b48-90a8-4d45-ade3-d5c6962549eb
@@ -12,7 +12,7 @@ ht-degree: 53%
 
 ---
 
-# 變更記錄{#change-log}
+# 更改日志{#change-log}
 
 * [6.0 版](c-change-log/c-6/c-6.md)
 * [4.5 版](c-change-log/c-4-5/c-4-5.md)

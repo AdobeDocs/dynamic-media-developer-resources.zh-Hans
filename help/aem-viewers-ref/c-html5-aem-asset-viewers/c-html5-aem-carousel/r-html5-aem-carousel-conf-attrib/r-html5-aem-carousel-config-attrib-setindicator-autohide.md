@@ -20,16 +20,16 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[，<span class="varname"> 限制</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 根據頁數和執行階段元件大小設定自動隱藏行為。 </p> <p> <span class="codeph"> 0</span> 關閉自動隱藏。 </p> <p> <span class="codeph"> 1</span> 啟用自動隱藏。 如果下列條件中至少有一個變成true，元件會隱藏其點： </p> <p> 
+   <td colname="col2"> <p> 根据页数和运行时组件大小配置自动隐藏行为。 </p> <p> <span class="codeph"> 0</span> 关闭自动隐藏。 </p> <p> <span class="codeph"> 1</span> 启用自动隐藏。 如果以下至少一个条件为true，则组件会隐藏其圆点： </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
-      <li id="li_39332158806445DF874C5A52F1331B8B">有點的列會變得比執行階段元件寬度更寬，或 </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">為此元件設定的頁數超過設定的限制 <span class="codeph"><span class="varname"> 限制</span></span> 引數。 </li> 
-     </ul> </p> <p> 設定 <span class="codeph"><span class="varname"> 限制</span></span> 至 <span class="codeph"> -1</span> 停用第二個自動隱藏條件。 </p> </td> 
+      <li id="li_39332158806445DF874C5A52F1331B8B">带点的行变得比运行时组件宽度更宽，或者 </li> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">为此组件设置的页数超过了 <span class="codeph"><span class="varname"> 限制</span></span> 参数。 </li> 
+     </ul> </p> <p> 设置 <span class="codeph"><span class="varname"> 限制</span></span> 到 <span class="codeph"> -1</span> 禁用第二个自动隐藏条件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

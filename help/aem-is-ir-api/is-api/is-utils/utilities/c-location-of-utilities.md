@@ -1,7 +1,7 @@
 ---
-description: 「影像伺服」包含三個公用程式。
+description: 图像服务包括三个实用程序。
 solution: Experience Manager
-title: 公用程式的位置
+title: 实用程序的位置
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 014a17b9-f12e-4179-8b44-4b0090769743
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 公用程式的位置{#location-of-utilities}
+# 实用程序的位置{#location-of-utilities}
 
-「影像伺服」包含三個公用程式。
+图像服务包括三个实用程序。
 
-64位元版本位於 [!DNL *`install_folder`*/bin64/].
+64位版本位于 [!DNL *`install_folder`*/bin64/].

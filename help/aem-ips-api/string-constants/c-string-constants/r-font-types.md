@@ -1,7 +1,7 @@
 ---
-description: 由FontFieldUpdate/type使用。
+description: FontFieldUpdate/type使用。
 solution: Experience Manager
-title: 字型型別
+title: 字体类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3a127244-89b9-45ed-bf25-23395a89d20e
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# 字型型別{#font-types}
+# 字体类型{#font-types}
 
-由FontFieldUpdate/type使用。
+FontFieldUpdate/type使用。
 
 语法
 

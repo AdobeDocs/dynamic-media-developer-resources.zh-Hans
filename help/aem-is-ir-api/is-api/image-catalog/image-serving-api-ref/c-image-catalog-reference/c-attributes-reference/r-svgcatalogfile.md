@@ -1,5 +1,5 @@
 ---
-description: SVG資料檔案路徑。 指定包含此目錄SVG資料的檔案。
+description: 数据文件路径SVG。 指定包含此目录的SVG数据的文件。
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 3%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-SVG資料檔案路徑。 指定包含此目錄SVG資料的檔案。
+数据文件路径SVG。 指定包含此目录的SVG数据的文件。
 
-SVG資料檔案會依指定的確切順序載入到所有影像資料檔案之後。 若相同 `catalog::Id` 值發生於多個記錄中(相同或不同的影像或SVG目錄檔案中)，最後的執行個體優先。
+SVG数据文件将按照指定的确切顺序加载到所有图像数据文件之后。 如果相同 `catalog::Id` 值出现在多个记录中(位于同一或不同的图像或SVG目录文件中)，最后实例优先。
 
-## 屬性 {#section-fc2d549f76474792837b2b92ec2087ea}
+## 属性 {#section-fc2d549f76474792837b2b92ec2087ea}
 
-一或多個文字字串值，以逗號分隔。 可选. 每個值都必須是絕對檔案路徑或相對於目錄資料夾的路徑。
+一个或多个文本字符串值，以逗号分隔。 可选. 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
 
 ## 默认 {#section-a4e58951f3c249599665b823566433c9}
 
-空白，表示此影像目錄不包含任何SVG資料。
+为空，表示此图像目录不包含任何SVG数据。
 
 ## 另请参阅 {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 
-[目錄資料](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)， [目錄檔案](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)
+[目录数据](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29)， [目录文件](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)

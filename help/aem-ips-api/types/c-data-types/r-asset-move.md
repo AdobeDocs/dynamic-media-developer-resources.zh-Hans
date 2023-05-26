@@ -1,6 +1,6 @@
 ---
-title: AssetMove
-description: 資產的控點以及資產移動到的控點。
+title: 资产移动
+description: 资源的句柄和将资源移动到的句柄。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMove]{#assetmove}
 
-資產的控點以及資產移動到的控點。
+资源的句柄和将资源移动到的句柄。
 
 语法
 
@@ -22,5 +22,5 @@ ht-degree: 10%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 您要移動之資產的控點。 |
-| folderHandle | `xsd:string` | 目的地資料夾的控制代碼。 |
+| assetHandle | `xsd:string` | 要移动的资源的句柄。 |
+| folderHandle | `xsd:string` | 目标文件夹的句柄。 |

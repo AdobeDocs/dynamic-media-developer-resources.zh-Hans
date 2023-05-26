@@ -1,5 +1,5 @@
 ---
-description: 要求規則元素。 一或多個為選用專案，位於 <ruleset> 元素。
+description: 请求规则元素。 中的一个或多个是可选的 <ruleset> 元素。
 solution: Experience Manager
 title: 规则
 feature: Dynamic Media Classic,SDK/API
@@ -14,30 +14,30 @@ ht-degree: 5%
 
 # 规则{#rule}
 
-要求規則元素。 一或多個為選用專案，位於 `<ruleset>` 元素。
+请求规则元素。 中的一个或多个是可选的 `<ruleset>` 元素。
 
 ## 属性 {#section-aa23349645434db99d46957a96f2e1e1}
 
-`OnMatch="break"|"continue"|"error"` 可选. 預設值為「break」。
+`OnMatch="break"|"continue"|"error"` 可选. 默认值为“break”。
 
-` Name=" *`文字`*"` 選填。 用於識別 `<rule>` 偵錯記錄檔和錯誤訊息中的元素。
+` Name=" *`text`*"` 可选。 用于识别 `<rule>` 调试日志和错误消息中的元素。
 
-此外， `<rule>` 元素可以任意組合來定義下列任何屬性。 如果已指定，且規則已成功比對，則會覆寫此請求的對應目錄屬性。
+此外， `<rule>` 元素可以任意组合定义以下任何属性。 如果指定并且规则已成功匹配，则它们将覆盖此请求对应的目录属性。
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>&lt;rule&gt; 屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>對應的影像目錄屬性 </p> </th> 
+   <th colname="col1" class="entry"> <p>&lt;rule&gt; 属性 </p> </th> 
+   <th colname="col2" class="entry"> <p>对应的图像目录属性 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 預設畫素 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Defaultpix </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute：：DefautPix </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ErrorImage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 错误图像 </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute：：ErrorImage </a> </p> </td> 
   </tr> 
   <tr> 
@@ -55,9 +55,9 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱對應影像目錄屬性的說明。
+有关详细信息，请参阅相应图像目录属性的描述。
 
-Expiration屬性只會覆寫預設屬性值；若為特定的 `catalog::Expiration` 值會套用至要求。
+Expiration属性仅覆盖默认属性值；如果特定属性 `catalog::Expiration` 值将应用于请求。
 
 ## 数据 {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -78,10 +78,10 @@ Expiration屬性只會覆寫預設屬性值；若為特定的 `catalog::Expirati
 
 ## 说明 {#section-a27b91f9a03047c0bb7edc0967fb4216}
 
-若兩者皆有 `<expression>` 和 `<substitution>` 中指定的子字串，且不會使用擷取的子字串，則第一個相符的子字串會取代為 `<substitution>`.
+如果两者都有 `<expression>` 和 `<substitution>` 指定而不使用捕获的子字符串，则第一个匹配的子字符串将被替换为 `<substitution>`.
 
-若 `<expression>` 未指定，任何路徑都將符合和 `<substitution>` 會附加至路徑的結尾。
+如果 `<expression>` 未指定，任何路径都将匹配和 `<substitution>` 会附加到路径的末尾。
 
-若 `<substitution>` 未指定，則會移除相符的子字串。
+如果 `<substitution>` 未指定，将删除匹配的子字符串。
 
-此 `<addressfilter>` 只會在符合發生時套用，並在套用查詢規則之前套用。
+此 `<addressfilter>` 仅在发生匹配时以及在应用查询规则之前应用。

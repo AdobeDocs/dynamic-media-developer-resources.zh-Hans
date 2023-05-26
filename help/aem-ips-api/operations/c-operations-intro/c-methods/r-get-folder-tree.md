@@ -1,5 +1,5 @@
 ---
-description: 傳回階層樹狀結構中的資料夾和子資料夾。 getFolderTree回應最多只能有100,000個資料夾
+description: 返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多可包含100,000个文件夹
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # getFolderTree{#getfoldertree}
 
-傳回階層樹狀結構中的資料夾和子資料夾。 getFolderTree回應最多只能有100,000個資料夾
+返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多可包含100,000个文件夹
 
 语法
 
-## 授權的使用者型別 {#section-66ef19149f4d4123a3a99004b5a2743e}
+## 授权用户类型 {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,33 +30,33 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->使用者必須擁有資料夾的讀取存取權才能傳回其上的資料。
+>用户必须具有对文件夹的读取权限才能返回文件夹中的数据。
 
 ## 参数 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**輸入(getFolderTreeParam)**
+**输入(getFolderTreeParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司的控制代碼。 |
-| accessUserHandle | `xsd:string` | 否 | 僅供管理員用來模擬特定使用者。 |
-| accessGroupHandle | `xsd:string` | 否 | 用於依特定群組篩選，包括公司所屬的任何群組。 |
-| 資料夾路徑 | `xsd:string` | 否 | 根資料夾，可擷取葉層級的資料夾和所有子資料夾。 如果排除，則使用公司根目錄。 |
-| 深度 | `xsd:int` | 是 | 值為零會取得頂層資料夾。 任何其他值都會指定下降到樹狀結構中的深度。 |
-| assetTypeArray | `types:StringArray` | 否 | 傳回僅包含指定資產型別的資料夾。 |
-| responseFieldArray | `types:StringArray` | 否 | 包含您要包含在回應中的欄位清單。 |
-| excludeFieldArray | `types:StringArray` | 否 | 包含您要在回應中排除的欄位清單。 |
+| companyHandle | `xsd:string` | 是 | 公司的把手。 |
+| accessUserHandle | `xsd:string` | 否 | 仅供管理员用于模拟特定用户。 |
+| accessGroupHandle | `xsd:string` | 否 | 用于按特定组进行筛选，包括公司所属的任何组。 |
+| 文件夹路径 | `xsd:string` | 否 | 根文件夹，用于在叶级别检索文件夹和所有子文件夹。 如果排除，则使用公司根目录。 |
+| 深度 | `xsd:int` | 是 | 如果值为0，则获取顶级文件夹。 任何其他值都指定下降到树中的深度。 |
+| assetTypeArray | `types:StringArray` | 否 | 返回仅包含指定资源类型的文件夹。 |
+| responseFieldArray | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
+| excludeFieldArray | `types:StringArray` | 否 | 包含要在响应中排除的字段列表。 |
 
-**輸出(getFolderTreeReturn)**
+**输出(getFolderTreeReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| 文件夹 | `types:folders` | 否 | 樹狀結構中的資料夾階層。 回應最多可包含100,000個資料夾。 |
+| 文件夹 | `types:folders` | 否 | 树结构中的文件夹层次结构。 响应最多可包含100,000个文件夹。 |
 | permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此程式碼範例使用公司控制代碼和深度引數來決定回應應傳回的深度等級。 回應包含具有相關性的資料夾和子資料夾陣列。 將深度值設為較小的數字，以便在資料夾樹狀結構中更深入地進行搜尋。
+此代码示例使用公司句柄和深度参数来确定响应应返回的深度级别。 响应包含相关文件夹和子文件夹数组。 将深度值设置为较小的数字，以便在文件夹树中更深入地搜索。
 
 **请求**
 

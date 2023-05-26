@@ -1,7 +1,7 @@
 ---
-description: 屬性集的型別和值。
+description: 属性集的类型和值。
 solution: Experience Manager
-title: 屬性集
+title: 属性集
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL PropertySet]{#propertyset}
 
-屬性集的型別和值。
+属性集的类型和值。
 
 语法
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| setHandle | `xsd:string` | 屬性集控制代碼。 |
-| typeHandle | `xsd:string` | 屬性集型別的控制代碼。 |
-| propertyArray | `types:PropertyArray` | 名稱 — 值組。 可以包含零個專案。 |
+| setHandle | `xsd:string` | 属性集句柄。 |
+| typeHandle | `xsd:string` | 属性集类型的句柄。 |
+| propertyArray | `types:PropertyArray` | 名称 — 值对。 可以包含零个项目。 |

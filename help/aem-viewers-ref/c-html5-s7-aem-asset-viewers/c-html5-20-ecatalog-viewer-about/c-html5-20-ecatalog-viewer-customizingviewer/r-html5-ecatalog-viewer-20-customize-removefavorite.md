@@ -1,6 +1,6 @@
 ---
-title: 移除我的最愛按鈕
-description: 「移除我的最愛」按鈕的位置會由「我的最愛」功能表完全管理。
+title: “删除收藏夹”按钮
+description: “删除收藏夹”按钮的位置完全由“收藏夹”菜单管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,48 +12,48 @@ ht-degree: 1%
 
 ---
 
-# 移除我的最愛按鈕{#remove-favorite-button}
+# “删除收藏夹”按钮{#remove-favorite-button}
 
-「移除我的最愛」按鈕的位置會由「我的最愛」功能表完全管理。
+“删除收藏夹”按钮的位置完全由“收藏夹”菜单管理。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-「移除我的最愛」按鈕的外觀是由下列CSS類別選取器所控制：
+使用以下CSS类选择器可控制“删除收藏夹”按钮的外观：
 
 ```
 .s7ecatalogviewer .s7removefavoritebutton
 ```
 
-**「移除我的最愛」按鈕的CSS屬性**
+**“删除收藏夹”按钮的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的寬度。 </p> </td> 
+   <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>按鈕的高度。 </p> </td> 
+   <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕同時支援 `state` 和 `selected` 屬性選取器，可將不同的外觀元素套用至不同的按鈕狀態。 尤其是， `selected='true'` 對應於使用者可以按一下或點選來新增最愛圖示時的狀態。 屬性 `selected='false'` 對應於使用者可以縮放、平移和交換頁面時的正常操作模式。
+>此按钮同时支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于用户通过单击或点按可添加新的“收藏”图标的状态。 属性 `selected='false'` 对应于用户可以缩放、平移和交换页面的正常操作模式。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
 
-範例 — 設定28 x 28畫素的「移除我的最愛」按鈕，並在選取或未選取時，針對四種不同按鈕狀態顯示不同的影像。
+示例 — 设置一个28 x 28像素的“删除收藏夹”按钮，并在选中或未选中时，为四种不同的按钮状态中的每种状态显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7removefavoritebutton { 

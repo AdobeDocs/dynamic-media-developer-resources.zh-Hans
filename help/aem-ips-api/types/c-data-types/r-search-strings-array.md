@@ -1,5 +1,5 @@
 ---
-description: 搜尋字串的陣列。
+description: 搜索字符串的数组。
 solution: Experience Manager
 title: SearchStringsArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL SearchStringsArray]{#searchstringsarray}
 
-搜尋字串的陣列。
+搜索字符串的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:SearchStrings` | 搜尋字串的陣列。 |
+| 项目 | `types:SearchStrings` | 搜索字符串的数组。 |

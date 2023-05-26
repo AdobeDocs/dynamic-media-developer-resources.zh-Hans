@@ -14,22 +14,22 @@ ht-degree: 6%
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *`步驟`*[, *`限制`*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`步骤`*[, *`限制`*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 步骤</span></span> </p> </td> 
-   <td colname="col2"> <p> 設定以2的係數增加或減少解析度所需的放大和縮小動作數目。 每個縮放動作的解析度變化是每步階2^1。 設定為 <span class="codeph"> 0</span> 以使用單一縮放動作縮放至完整解析度。 </p> </td> 
+   <td colname="col2"> <p> 配置将分辨率增大或减小2倍所需的放大和缩小操作的数量。 每次缩放操作的分辨率变更为2^1/step。 设置为 <span class="codeph"> 0</span> 通过一次缩放操作即可缩放到完全分辨率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 限制</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定相對於完整解析度影像的最大縮放解析度。 預設值為 <span class="codeph"> 1.0</span>，這不會允許縮放超過完整解析度。 </p> </td> 
+   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认为 <span class="codeph"> 1.0</span>，这不允许缩放超过完全分辨率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

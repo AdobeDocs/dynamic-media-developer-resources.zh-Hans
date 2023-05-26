@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: 轉盤檢視器的JavaScript API參考。
+description: 轮播查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # setContainerId{#setcontainerid}
 
-轉盤檢視器的JavaScript API參考。
+轮播查看器的JavaScript API参考。
 
 ` setContainerId( *`containerId`*)`
 
-設定DOM容器的ID (通常是 `DIV`)，檢視器會插入其中。 不需要在呼叫此方法時建立容器元素。 不過，容器必須存在於 `init()` 執行前填入。 必須在之前呼叫它 `init()`.
+设置DOM容器的ID(通常 `DIV`)，查看器将插入到其中。 无需在调用此方法时创建容器元素。 但是，在以下情况下必须存在容器： `init()` 运行。 必须在之前调用它 `init()`.
 
-如果檢視器組態資訊是透過以下方式傳遞，則此方法為選用 `config` 建構函式的JSON物件。
+如果通过以下方式传递查看器配置信息，则可以选择此方法 `config` 构造函数的JSON对象。
 
 ## 参数 {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -33,7 +33,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

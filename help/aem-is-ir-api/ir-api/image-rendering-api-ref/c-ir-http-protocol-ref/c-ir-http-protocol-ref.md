@@ -1,7 +1,7 @@
 ---
-description: 本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+description: 本文档介绍了用于Dynamic Media图像渲染的HTTP协议。
 solution: Experience Manager
-title: HTTP通訊協定參考
+title: HTTP协议引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a04287f7-941e-4ac6-b9da-695c5b8c9e7d
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# HTTP通訊協定參考{#http-protocol-reference}
+# HTTP协议引用{#http-protocol-reference}
 
-本檔案說明Dynamic Media影像演算的HTTP通訊協定。
+本文档介绍了用于Dynamic Media图像渲染的HTTP协议。

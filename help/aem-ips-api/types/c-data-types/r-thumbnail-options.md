@@ -1,7 +1,7 @@
 ---
-description: 選擇性型別，可讓您選擇特定視訊影格做為縮圖影像。
+description: 一种可选类型，允许您选择特定的视频帧作为缩略图图像。
 solution: Experience Manager
-title: 縮圖選項
+title: 缩略图选项
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL ThumbnailOptions]{#thumbnailoptions}
 
-選擇性型別，可讓您選擇特定視訊影格做為縮圖影像。
+一种可选类型，允许您选择特定的视频帧作为缩略图图像。
 
 语法
 
@@ -30,9 +30,9 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailtime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：long</span> </td> 
-   <td colname="col3"> <p>設定您要用於視訊縮圖的影格時間（從視訊開始起算的毫秒）。 值範圍從0到視訊結尾。 <p>注意：如果您不正確指定時間，系統會將視訊的第一個影格用於縮圖。 另請參閱 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>为要用于视频缩略图的帧设置时间（从视频开始起算的毫秒）。 值范围从0到视频的结尾。 <p>注意：如果指定时间不正确，系统会将视频的第一帧用于缩略图。 参见 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 媒体选项</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

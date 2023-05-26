@@ -1,6 +1,6 @@
 ---
-title: 熱點支援
-description: 熱點支援
+title: 热点支持
+description: 热点支持
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 熱點支援{#hotspot-support}
+# 热点支持{#hotspot-support}
 
-檢視器支援在主檢視上方呈現熱點圖示。 熱點圖示的外觀會透過CSS控制，如熱點區段中所述。
+查看器支持在主视图上方呈现热点图标。 热点图标的外观通过CSS进行控制，如热点部分中所述。
 
-另請參閱 [熱點](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+参见 [热点](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-連結區可以觸發JavaScript回呼，藉此在託管網頁上啟用「快速檢視」功能，或將使用者重新導向至外部網頁。
+热点可以通过触发JavaScript回调在托管网页上激活概览功能，也可以将用户重定向到外部网页。
 
-## 快速檢視熱點 {#section-cda48fc9730142d0bb3326bac7df3271}
+## 概览热点 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-這些型別的熱點應使用Dynamic Media中的「快速檢視」動作型別(即Adobe Experience Manager Assets — 隨選)來編寫。 當使用者啟動此類熱點時，檢視器會執行 `quickViewActivate` JavaScript回呼並將熱點資料傳遞給它。 內嵌網頁應會監聽此回呼。 觸發頁面時，會開啟自己的快速檢視實施。
+此类热点应使用Dynamic Media中的“快速查看”操作类型(即Adobe Experience Manager Assets - On-demand)进行创作。 当用户激活此类热点时，查看器运行 `quickViewActivate` JavaScript回调并将热点数据传递给它。 嵌入网页应侦听此回调。 在触发页面时，它会打开自己的概览实施。
 
-## 重新導向至外部網頁 {#section-ef820c71251e4215800bb99c0c9ebe16}
+## 重定向到外部网页 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Experience Manager Assets的Dynamic Media中為「快速檢視」動作型別製作的熱點 — 隨選將使用者重新導向至外部URL。 根據編寫期間所做的設定，URL會在新的瀏覽器標籤中、同一視窗中或在指定的瀏覽器視窗中開啟。
+在Experience Manager Assets的Dynamic Media中为操作类型“快速视图”创作的热点 — 按需将用户重定向到外部URL。 根据创作期间所做的设置，URL将在新的浏览器选项卡、同一窗口或指定的浏览器窗口中打开。

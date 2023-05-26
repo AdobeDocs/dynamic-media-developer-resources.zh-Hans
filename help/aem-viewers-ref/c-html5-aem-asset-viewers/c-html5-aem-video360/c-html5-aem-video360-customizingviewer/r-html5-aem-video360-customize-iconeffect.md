@@ -1,6 +1,6 @@
 ---
-title: 圖示效果
-description: 播放圖示覆蓋在主檢視區域上。 它會在視訊暫停或到達視訊結尾時顯示，也會取決於iconeffect引數。
+title: 图标效果
+description: 播放图标覆盖在主视图区域上。 它会在视频暂停或到达视频结尾时显示，并且还取决于iconeffect参数。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,44 +12,44 @@ ht-degree: 1%
 
 ---
 
-# 圖示效果{#icon-effect}
+# 图标效果{#icon-effect}
 
-播放圖示覆蓋在主檢視區域上。 它會在視訊暫停或到達視訊結尾時顯示，也會取決於iconeffect引數。
+播放图标覆盖在主视图区域上。 它会在视频暂停或到达视频结尾时显示，并且还取决于iconeffect参数。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-播放圖示的外觀由下列CSS類別選取器控制：
+播放图标的外观由以下CSS类选择器控制：
 
 ```
 .s7video360viewer . s7video360player .s7iconeffect
 ```
 
-**播放圖示的CSS屬性**
+**播放图标的CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 播放圖示顯示的影像。 </p> </td> 
+   <td colname="col2"> <p> 播放图标显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 若使用CSS sprite，則定位在圖稿sprite內。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 播放圖示的寬度。 </p> </td> 
+   <td colname="col2"> <p> 播放图标的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>播放圖示的高度。 </p> </td> 
+   <td colname="col2"> <p>播放图标的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-圖示效果支援 `state` 屬性選擇器。 屬性選擇器 `state="play"` 在播放期間暫停視訊時使用，並且 `state="replay"` 當播放點位於資料流結尾時使用。
+图标效果支持 `state` 属性选择器。 属性选择器 `state="play"` 在播放过程中暂停视频时使用，并且 `state="replay"` 当播放头位于流结尾时使用。
 
-**範例**  — 設定100 x 100畫素播放圖示。
+**示例**  — 设置100 x 100像素播放图标。
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

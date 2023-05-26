@@ -1,7 +1,7 @@
 ---
-description: 磁碟使用量的陣列。
+description: 磁盘使用情况的阵列。
 solution: Experience Manager
-title: DiskUseArray
+title: 磁盘使用量阵列
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL DiskUsageArray]{#diskusagearray}
 
-磁碟使用量的陣列。
+磁盘使用情况的阵列。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:DiskUsage` | 磁碟使用量的陣列。 |
+| 项目 | `types:DiskUsage` | 磁盘使用量阵列。 |

@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertime
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertime=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用/停用章節標籤標題列中的章節時間。 </p> </td> 
+   <td colname="col2"> <p> 启用/禁用章节标签标题栏中的章节时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

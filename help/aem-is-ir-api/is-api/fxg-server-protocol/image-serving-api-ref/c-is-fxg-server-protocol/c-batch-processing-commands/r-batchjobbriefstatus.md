@@ -1,6 +1,6 @@
 ---
 title: batchjobbriefstatus
-description: 擷取已提交工作的摘要狀態。
+description: 检索已提交作业的汇总状态。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 2%
 
 # batchjobbriefstatus{#batchjobbriefstatus}
 
-擷取已提交工作的摘要狀態。
+检索已提交作业的汇总状态。
 
-此引數：
+此参数：
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>提交時取得的作業ID。 </p> </td> 
+  <td class="stentry"> <p>提交时获得的作业ID。 </p> </td> 
  </tr> 
 </table>
 
-傳回：
+返回：
 
-XML格式工作的簡短狀態；如果工作ID無效或工作已刪除，則會發生錯誤。
+XML格式作业的简短状态；如果作业ID无效或作业已被删除，则会出错。
 
 ## 示例 {#section-806460949bb043438ad4dd4e7ab74145}
 

@@ -1,7 +1,7 @@
 ---
-description: layer=指令允許為圖層指定名稱，並在稍後以名稱（而非圖層編號）參照相同的圖層。
+description: layer=命令允许为层指定名称，然后按名称而不是层号引用同一层。
 solution: Experience Manager
-title: 已命名的圖層
+title: 命名图层
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 23eab9c7-7a16-4902-920e-6ee3e78daa18
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# 已命名的圖層{#named-layers}
+# 命名图层{#named-layers}
 
-layer=指令允許為圖層指定名稱，並在稍後以名稱（而非圖層編號）參照相同的圖層。
+layer=命令允许为层指定名称，然后按名称而不是层号引用同一层。
 
-這可讓範本定義已命名的圖層，然後可以從請求URL參照，而無需使用變數。
+这允许模板定义命名层，然后可以从请求URL引用这些命名层，而无需使用变量。

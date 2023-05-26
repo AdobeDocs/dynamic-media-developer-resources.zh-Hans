@@ -1,5 +1,5 @@
 ---
-description: 分辨率. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
+description: 分辨率. “真实世界”的图像分辨率，通常以像素/英寸表示，但也可能以其他单位表示，如像素/米。
 solution: Experience Manager
 title: 分辨率
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 7%
 
 # 分辨率{#resolution}
 
-分辨率. 「真實世界」的影像解析度，通常以每英吋畫素表示，但也可能以其他單位表示，例如每米的畫素。
+分辨率. “真实世界”的图像分辨率，通常以像素/英寸表示，但也可能以其他单位表示，如像素/米。
 
-## 屬性 {#section-985ca2ad858c4e9c9cbb303f55447553}
+## 属性 {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-大於0的實數。 除非影像解析度與attribute：：Resolution相同，否則紋理和貼花材質必須使用。 被純色和機櫃材料忽略。
+实数，大于0。 纹理和贴花材质所需，除非图像分辨率与attribute：：Resolution相同。 已被纯色和机箱材料忽略。
 
 ## 默认 {#section-b1d044e211194242a900aaef4a8c8e6f}
 
-`attribute::Resolution` 如果欄位不存在、值是0或負數，或欄位為空，則會使用。
+`attribute::Resolution` 如果字段不存在、值为零或负数，或者字段为空，则使用。
 
 ## 另请参阅 {#section-2d04df523d7345f6929178cbc637da78}
 

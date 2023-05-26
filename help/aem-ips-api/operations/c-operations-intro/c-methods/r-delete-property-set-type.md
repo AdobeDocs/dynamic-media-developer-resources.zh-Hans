@@ -1,5 +1,5 @@
 ---
-description: 刪除屬性集型別及其關聯的屬性集和屬性。
+description: 删除属性集类型及其关联的属性集和属性。
 solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # deletePropertySetType{#deletepropertysettype}
 
-刪除屬性集型別及其關聯的屬性集和屬性。
+删除属性集类型及其关联的属性集和属性。
 
 语法
 
-## 授權的使用者型別 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## 授权用户类型 {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,19 +27,19 @@ ht-degree: 11%
 
 ## 参数 {#section-1c8973f5d35f44b4a6a483a41609e455}
 
-**輸入(deletePropertySetTypeParam)**
+**输入(deletePropertySetTypeParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | 是 | 要刪除的屬性集型別的控制代碼。 |
+| typeHandle | `xsd:string` | 是 | 要删除的属性集类型的句柄。 |
 
-**輸出(deletePropertySetTypeParam)**
+**输出(deletePropertySetTypeParam)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-此程式碼範例使用型別的控制代碼做為 `deletePropertySetTypeParam` 傳送至IPS Web服務伺服器，以便刪除屬性集型別。
+此代码示例使用类型的句柄作为 `deletePropertySetTypeParam` 发送到IPS Web服务服务器，以便删除属性集类型。
 
 **请求**
 

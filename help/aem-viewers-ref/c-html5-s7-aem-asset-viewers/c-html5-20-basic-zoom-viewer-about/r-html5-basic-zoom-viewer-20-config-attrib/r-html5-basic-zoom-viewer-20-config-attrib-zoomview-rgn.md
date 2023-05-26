@@ -20,12 +20,12 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x，y，w，h</span> </p> </td> 
-   <td colname="col2"> <p> 以畫素座標表示的初始興趣區域。 如果未指定這些值，會在初始檢視區中填入整個影像。 </p> </td> 
+   <td colname="col2"> <p> 以像素坐标表示的初始关注区域。 如果未指定这些值，则会在初始视区中填充整个图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-50bcd15223174bb79ce08b31ea03d682}
+## 属性 {#section-50bcd15223174bb79ce08b31ea03d682}
 
 可选.
 

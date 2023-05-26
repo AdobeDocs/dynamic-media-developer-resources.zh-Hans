@@ -1,6 +1,6 @@
 ---
-title: 互動色票
-description: 如果在設定中將互動式資料傳遞給檢視器，互動式色票面板會顯示在視訊內容旁邊。 它由頂端的橫幅組成，可轉譯「按一下即可檢視」等文字、一欄中的一或多個互動色票和兩個捲動按鈕（僅適用於案頭系統）。
+title: 交互式样本
+description: 如果在配置中将交互式数据传递给查看器，则交互式样本面板将显示在视频内容旁边。 它由顶部的横幅组成，该横幅可渲染“单击查看”等文本、包含一个或多个交互式样本的列以及两个滚动按钮（仅在桌面系统上可用）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,61 +12,61 @@ ht-degree: 2%
 
 ---
 
-# 互動色票{#interactive-swatches}
+# 交互式样本{#interactive-swatches}
 
-如果在設定中將互動式資料傳遞給檢視器，互動式色票面板會顯示在視訊內容旁邊。 它由頂端的橫幅組成，可轉譯「按一下即可檢視」等文字、一欄中的一或多個互動色票和兩個捲動按鈕（僅適用於案頭系統）。
+如果在配置中将交互式数据传递给查看器，则交互式样本面板将显示在视频内容旁边。 它由顶部的横幅组成，该横幅可渲染“单击查看”等文本、包含一个或多个交互式样本的列以及两个滚动按钮（仅在桌面系统上可用）。
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
-在桌上型電腦系統和觸控裝置上，互動式色票會以橫向呈現，並垂直呈現在視訊內容的右側。 在觸控裝置上，會以直向方式顯示在檢視器底部，形成水準排的色票。
+在桌面系统和触控设备上，交互样本将以横向方式垂直渲染到视频内容的右侧。 在纵向的触控设备上，它们以水平一排样本的形式显示在查看器底部。
 
-下列CSS類別選取器可控制互動式色票面板的位置和方向：
+以下CSS类选择器控制交互式样本面板的位置和方向：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches
 ```
 
-## 互動色票的CSS屬性 {#css-properties-of-the-interactive-swatches}
+## 交互式样本的CSS属性 {#css-properties-of-the-interactive-swatches}
 
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的寬度 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的宽度 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的高度。 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的頂端位置。 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的顶部位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的底部位置。 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的底部位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的左側位置。 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的左侧位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>互動式色票面板的右方位置。 </p> </td> 
+   <td colname="col2"> <p>交互式样本面板的右位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-互動式色票面板的執行階段位置和方向是由上述CSS屬性的組合所定義，如下所示：
+交互式样本面板的运行时位置和方向由上述CSS属性的组合定义，如下所示：
 
-* 若要在檢視器底部水準彩現互動色票，請將高度設定為絕對畫素值；將左右設定為0px；將寬度、右上設定為auto。
-* 若要在視訊內容右方垂直彩現互動色票，請將寬度設定為絕對畫素；將右上角設定為0px；將高度設定為auto，將左下角設定為auto。
+* 要在查看器底部水平渲染交互式样本，请将高度设置为绝对像素值；将左和底部设置为0像素；将宽度、右侧和顶部设置为自动。
+* 要垂直渲染交互式样本到视频内容的右侧，请将宽度设置为绝对像素；将右和上设置为0像素；将高度设置为左和下设置为auto。
 
-可以搭配此樣式使用CSS標籤，以最適化地放置互動式色票面板。
+可以将CSS标记与此样式一起使用，以实现交互式样本面板的自适应放置。
 
 ## 示例 {#example}
 
-若要設定互動式色票面板，在橫向觸控裝置上，在檢視器底部水準彩現。 此外，若要在所有其他情況下垂直顯示在視訊內容的右側，請執行下列動作：
+要设置交互式样本面板，以便在横向的触控设备上在查看器底部水平渲染。 此外，在所有其他情况下，要垂直显示在视频内容的右侧，请执行以下操作：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -90,54 +90,54 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-橫幅的大小和位置由互動式色票元件根據其他套用CSS的樣式來管理，且無法明確設定。
+横幅的大小和位置由交互式样本组件根据使用CSS应用的其他样式进行管理，并且无法显式设置。
 
-下列CSS類別選擇器會控制橫幅面板的外觀：
+以下CSS类选择器控制横幅面板的外观：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner
 ```
 
-## 橫幅面板的CSS屬性 {#css-properties-of-the-banner-panel}
+## 横幅面板的CSS属性 {#css-properties-of-the-banner-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>横幅面板的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板內的文字顏色。 </p> </td> 
+   <td colname="col2"> <p>横幅面板中的文本颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板周圍的邊框。 </p> </td> 
+   <td colname="col2"> <p>横幅面板周围的边框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板內文字使用的字型粗細。 </p> </td> 
+   <td colname="col2"> <p>用于横幅面板内文本的字体粗细。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板內文字使用的字型大小。 </p> </td> 
+   <td colname="col2"> <p>用于横幅面板中文本的字体大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板內文字所使用的字型系列。 </p> </td> 
+   <td colname="col2"> <p>用于横幅面板内文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
-   <td colname="col2"> <p>橫幅面板內文字使用的字型對齊方式。 </p> </td> 
+   <td colname="col2"> <p>用于横幅面板内文本的字体对齐方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-橫幅工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+可以本地化横幅工具提示。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-若要設定具有深灰色背景、淺灰色雙畫素邊框和白色文字水準置中的橫幅：
+要设置具有深灰色背景、浅灰色双像素边框和白色文本水平居中的横幅，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner { 
@@ -148,26 +148,26 @@ ht-degree: 2%
 }
 ```
 
-下列CSS類別選取器會控制色票的外觀：
+以下CSS类选择器控制样本的外观：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches
 ```
 
-## 色票區域的CSS屬性 {#css-properties-of-the-swatches-area}
+## 样本区域的CSS属性 {#css-properties-of-the-swatches-area}
 
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>色票區域的背景顏色。 </p> </td> 
+   <td colname="col2"> <p>样本区域的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-9cadd62a09fd44a280f55ff42437e416}
 
-若要設定具有深灰色背景的色票區域：
+要设置具有深灰色背景的样本区域，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches { 
@@ -175,24 +175,24 @@ ht-degree: 2%
 }
 ```
 
-下列CSS類別選取器會控制色票縮圖之間的間距：
+以下CSS类选择器控制样本缩略图之间的间距：
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## 色票縮圖間距的CSS屬性 {#css-properties-of-the-swatches-thumbnail-spacing}
+## 样本缩略图间距的CSS属性 {#css-properties-of-the-swatches-thumbnail-spacing}
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每個縮圖周圍水平與垂直邊界的大小。 實際縮圖間距等於為設定的左右邊界總和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-若要將垂直間距設定為10畫素：
+要将垂直间距设置为十像素，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -200,36 +200,36 @@ ht-degree: 2%
 }
 ```
 
-下列CSS類別選取器可控制個別縮圖的外觀：
+以下CSS类选择器控制各个缩略图的外观：
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
-## 個別縮圖外觀的CSS屬性 {#css-properties-of-the-appearance-of-individual-thumbnails}
+## 单个缩略图外观的CSS属性 {#css-properties-of-the-appearance-of-individual-thumbnails}
 
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>縮圖的寬度。 </p> </td> 
+   <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>縮圖的高度。 </p> </td> 
+   <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>縮圖的邊框。 </p> </td> 
+   <td colname="col2"> <p>缩略图的边框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->縮圖支援 `state` 屬性選取器，可用來將不同的外觀元素套用至不同的縮圖狀態。 尤其是， `state="selected"` 對應於目前所選影像的縮圖； `state="default"` 對應至其餘的縮圖； `state="over"` 用於滑鼠游標暫留時。
+>缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前选定图像的缩略图； `state="default"` 与其余缩略图相对应； `state="over"` 用于鼠标悬停。
 
 ## 示例 {#section-69fec189ffaa440b97b6b846c320b75b}
 
-若要設定100 x 75畫素的縮圖：
+要设置100 x 75像素的缩略图，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb { 
@@ -238,36 +238,36 @@ ht-degree: 2%
 }
 ```
 
-下列CSS類別選取器會控制縮圖示籤的外觀：
+以下CSS类选择器控制缩略图标签的外观：
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label`
 
-## 縮圖示籤外觀的CSS屬性 {#css-properties-of-the-appearance-of-the-thumbnail-label}
+## 缩略图标签外观的CSS属性 {#css-properties-of-the-appearance-of-the-thumbnail-label}
 
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>文字色彩。 </p> </td> 
+   <td colname="col2"> <p>文本颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p>標籤邊框。 </p> </td> 
+   <td colname="col2"> <p>标签边框。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
-   <td colname="col2"> <p>水準文字對齊方式。 </p> </td> 
+   <td colname="col2"> <p>水平文本对齐方式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>字型名稱。 </p> </td> 
+   <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-eb141eb6c1154183baa69796edb90536}
 
-若要設定標籤以使用左對齊、白色、12畫素、Helvetica®字型和底部框線：
+要设置标签以使用左对齐、白色、12像素、Helvetica®字体和下边框，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 
@@ -279,46 +279,46 @@ font-size: 12px;
 }
 ```
 
-下列CSS類別選取器可控制向上和向下捲動按鈕的外觀：
+以下CSS类选择器控制向上和向下滚动按钮的外观：
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton`
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-無法使用CSS來定位捲動按鈕 `top`， `left`， `bottom`、和 `right` 屬性；相反地，檢視器邏輯會自動將其定位。
+无法使用CSS定位滚动按钮 `top`， `left`， `bottom`、和 `right` 属性；相反，查看器逻辑会自动定位它们。
 
-## 上下捲動按鈕外觀的CSS屬性 {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
+## 上下滚动按钮外观的CSS属性 {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>捲動按鈕的寬度。 </p> </td> 
+   <td colname="col2"> <p>滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>捲動按鈕的高度。 </p> </td> 
+   <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>針對指定按鈕狀態顯示的影像。 </p> </td> 
+   <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>圖稿sprite內的位置（如果使用CSSsprite）。 </p> <p>另請參閱 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS精靈 </a>. </p> </td> 
+   <td colname="col2"> <p>如果使用CSS sprite，则为图稿sprite内的位置。 </p> <p>另请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按鈕支援 `state` 屬性選取器，可用來將不同的外觀元素套用至按鈕狀態： 」 `up`「， 」 `down`「， 」 `over`「和」 `disabled`「。
+>此按钮支持 `state` 属性选择器，可用于将不同的外观应用于按钮状态：&#39;&#39; `up`“， ” `down`“， ” `over`“”和“” `disabled`“。
 
-按鈕工具提示可以本地化。 另請參閱 [使用者介面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以取得詳細資訊。
+可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
 
 ## 示例 {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-若要設定向上捲動按鈕（60 x 36畫素），請針對每個狀態使用不同的圖稿，並從元件的Sprite影像中取得該圖稿：
+要设置一个60 x 36像素的向上滚动按钮，请为每个状态使用不同的图稿，并从组件的sprite图像中获得该图稿：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 

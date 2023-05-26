@@ -1,5 +1,5 @@
 ---
-description: CuePoint檔案資產的屬性。
+description: CuePoint文件资源的属性。
 solution: Experience Manager
 title: CuePointInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL CuePointInfo]{#cuepointinfo}
 
-CuePoint檔案資產的屬性。
+CuePoint文件资源的属性。
 
 语法
 
@@ -22,6 +22,6 @@ CuePoint檔案資產的屬性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | CuePoint檔案路徑。 |
-| 原始檔案 | `xsd:string` | CuePoint檔案名稱。 |
-| fileSize | `xsd:int` | CuePoint檔案大小。 |
+| 原始路径 | `xsd:string` | 提示点文件路径。 |
+| 原始文件 | `xsd:string` | CuePoint文件名。 |
+| fileSize | `xsd:int` | CuePoint文件大小。 |

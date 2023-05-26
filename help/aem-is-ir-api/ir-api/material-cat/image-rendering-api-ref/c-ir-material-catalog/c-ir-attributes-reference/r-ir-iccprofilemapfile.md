@@ -1,6 +1,6 @@
 ---
 title: IccProfileMapFile
-description: ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
+description: ICC配置文件映射文件路径。 指定包含此图像目录的ICC配置文件映射的文件。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # IccProfileMapFile{#iccprofilemapfile}
 
-ICC設定檔對應檔案路徑。 指定包含此影像目錄的ICC設定檔對應的檔案。
+ICC配置文件映射文件路径。 指定包含此图像目录的ICC配置文件映射的文件。
 
-## 屬性 {#section-33d55b55e192441bb30ca5eaaf07d12a}
+## 属性 {#section-33d55b55e192441bb30ca5eaaf07d12a}
 
-文字字串值。 相對於目錄資料夾的絕對檔案路徑。
+文本字符串值。 相对于目录文件夹的绝对文件路径。
 
 ## 默认 {#section-191de4cf304544f0a4198ebd3b8ddfc2}
 
-空白，表示此材質目錄不包含私人ICC設定檔。
+空，表示此材质目录不包括专用ICC配置文件。
 
 ## 另请参阅 {#section-972aa8d0fba74ee8b999ee3458320d4d}
 
-[ICC設定檔對應](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md#concept-8c2a7d205b8544ccaa159f5b66710012)
+[ICC配置文件映射](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md#concept-8c2a7d205b8544ccaa159f5b66710012)

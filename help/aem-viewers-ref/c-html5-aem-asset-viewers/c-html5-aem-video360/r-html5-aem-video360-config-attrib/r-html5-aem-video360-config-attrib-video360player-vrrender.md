@@ -1,6 +1,6 @@
 ---
 title: Video360Player.vrrender
-description: Video360 Viewer的設定屬性。
+description: Video360 Viewer的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Video360 Viewer的設定屬性。
+Video360 Viewer的配置属性。
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
@@ -22,12 +22,12 @@ Video360 Viewer的設定屬性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>指定是否啟用虛擬實境呈現模式。 已忽略VR頭戴式耳機。 </p> </td> 
+   <td colname="col2"> <p>指定是否启用虚拟现实渲染模式。 已忽略VR头戴式耳机。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-65be9301796240e38f31818229da7acc}
+## 属性 {#section-65be9301796240e38f31818229da7acc}
 
 可选.
 

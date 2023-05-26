@@ -1,7 +1,7 @@
 ---
 description: 由PermissionsUpdate/permissionType、Permission/permissionType使用。
 solution: Experience Manager
-title: 許可權型別
+title: 权限类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f58d2606-d794-4d4f-9566-02dfda5e0654
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# 許可權型別{#permission-types}
+# 权限类型{#permission-types}
 
 由PermissionsUpdate/permissionType、Permission/permissionType使用。
 

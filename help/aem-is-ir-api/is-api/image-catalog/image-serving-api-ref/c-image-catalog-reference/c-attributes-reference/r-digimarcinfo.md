@@ -1,5 +1,5 @@
 ---
-description: 預設Digimarc影像資訊。 提供目錄DigimarcInfo的預設值。
+description: 默认Digimarc图像信息。 为目录DigimarcInfo提供默认值。
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 5%
 
 # DigimarcInfo{#digimarcinfo}
 
-預設Digimarc影像資訊。 提供catalog：：DigimarcInfo的預設值。
+默认Digimarc图像信息。 提供catalog：：DigimarcInfo的默认值。
 
-## 屬性 {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
+## 属性 {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
-四個以逗號分隔的整數。
+四个逗号分隔的整数。
 
-另請參閱 [catalog：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) 以取得詳細資訊。
+参见 [catalog：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) 了解详细信息。
 
 ## 默认 {#section-c77d2620f90148d5ad9041131180d611}
 
-繼承自 `default::DigimarcInfo` 如果欄位未指定或空白。
+继承自 `default::DigimarcInfo` 如果未指定该字段或该字段为空。
 
 ## 另请参阅 {#section-543464e27f0a43249860a883b1ebfa15}
 

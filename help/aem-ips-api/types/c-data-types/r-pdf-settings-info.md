@@ -1,7 +1,7 @@
 ---
-description: PDF設定檔案資產的屬性。
+description: PDF设置文件资源的属性。
 solution: Experience Manager
-title: Pdf設定資訊
+title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
-PDF設定檔案資產的屬性。
+PDF设置文件资源的属性。
 
 语法
 
@@ -22,6 +22,6 @@ PDF設定檔案資產的屬性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | 檔案路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | 文件路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

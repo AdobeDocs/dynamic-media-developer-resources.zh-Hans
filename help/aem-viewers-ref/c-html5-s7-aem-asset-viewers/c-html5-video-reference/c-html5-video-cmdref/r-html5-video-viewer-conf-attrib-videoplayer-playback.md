@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.playback
-description: 視訊檢視器的設定屬性。
+description: Video Viewer的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # VideoPlayer.playback{#videoplayer-playback}
 
-視訊檢視器的設定屬性。
+Video Viewer的配置属性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]playback=auto|progressive`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> 設定檢視器使用的播放型別。 時間 <span class="codeph"> 自動</span> 已設定，在大多數案頭瀏覽器和所有iOS裝置上，檢視器會使用HLS格式的HTML5串流視訊。 它會退回至某些系統(例如舊版Internet Explorer和Android™)上的漸進式HTML5播放。 </p> <p>若 <span class="codeph"> progressive</span> 已指定，則檢視器僅會依瀏覽器原生支援的方式使用HTML5播放，並在所有系統上以漸進方式播放視訊。 </p> <p>如需自動和漸進模式中播放選取的詳細資訊，請參閱Viewer SDK使用手冊。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 自动|渐进式</span> </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 时间 <span class="codeph"> 自动</span> 已设置，在大多数桌面浏览器和所有iOS设备上，查看器使用HLS格式的HTML5流视频。 它回退到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>如果 <span class="codeph"> 渐进式</span> 指定时，查看器仅依赖浏览器本机支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关自动和渐进模式下的播放选择的更多信息，请参阅Viewer SDK用户指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 
-當檢視器搭配外部視訊使用時忽略。 另請參閱 [外部視訊支援](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+查看器处理外部视频时忽略。 参见 [外部视频支持](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

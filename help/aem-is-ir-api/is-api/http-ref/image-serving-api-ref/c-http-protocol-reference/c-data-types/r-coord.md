@@ -1,6 +1,6 @@
 ---
-title: 座標
-description: 畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些通常用於影像位移或裁切引數中。
+title: 坐标
+description: 像素坐标。 用于指定相对于图像或图层矩形左上角的像素偏移形式的图像坐标。 它们通常用于图像偏移或裁切参数中。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# 座標{#coord}
+# 坐标{#coord}
 
-畫素座標。 用於指定相對於影像或圖層矩形左上角的畫素位移形式的影像座標。 這些通常用於影像位移或裁切引數中。
+像素坐标。 用于指定相对于图像或图层矩形左上角的像素偏移形式的图像坐标。 它们通常用于图像偏移或裁切参数中。
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 座標</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 畫素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 坐标</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 像素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 畫素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>， <span class="varname"> y</span> 以畫素為單位的值（整數） </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 像素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>， <span class="varname"> y</span> 以像素(int)为单位的值 </p></td> 
  </tr> 
 </table>
 
-座標 `0,0` 是指影像或矩形的左上角。 增加值會向右下方移動。
+坐标 `0,0` 指图像或矩形的左上角。 增加值会向右下角移动。

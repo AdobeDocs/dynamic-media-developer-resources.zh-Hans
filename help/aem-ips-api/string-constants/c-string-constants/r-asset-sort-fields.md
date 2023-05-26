@@ -1,7 +1,7 @@
 ---
 description: 由searchAssetsParam/sortBy使用。
 solution: Experience Manager
-title: 資產排序欄位
+title: 资源排序字段
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6652fe0e-4042-40b0-b5ec-e8533ee42aa2
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# 資產排序欄位{#asset-sort-fields}
+# 资源排序字段{#asset-sort-fields}
 
 由searchAssetsParam/sortBy使用。
 

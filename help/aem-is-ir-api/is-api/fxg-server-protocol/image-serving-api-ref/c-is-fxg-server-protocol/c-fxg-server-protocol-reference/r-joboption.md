@@ -1,7 +1,7 @@
 ---
-description: 套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或是InDesignPDF預設集。
+description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中生成的文件或InDesign中的PDF预设。
 solution: Experience Manager
-title: 工作選項
+title: 作业选项
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
@@ -12,22 +12,22 @@ ht-degree: 47%
 
 ---
 
-# 工作選項{#joboption}
+# 作业选项{#joboption}
 
-套用PDF工作選項。 工作選項檔案或PDF預設集是Illustrator在「另存為PDF選項」對話方塊中產生的檔案，或是InDesignPDF預設集。
+应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中生成的文件或InDesign中的PDF预设。
 
 ` joboption= *`值`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span></span> </p> </td> 
-  <td class="stentry"> <p>工作選項檔案的IPSID。 </p></td> 
+  <td class="stentry"> <p>作业选项文件的IPSID。 </p></td> 
  </tr> 
 </table>
 
-工作選項檔案可由IPS/Dynamic Media Classic上傳和發佈。 產生PDF時會使用工作選項檔案中包含的PDF選項。
+作业选项文件可由IPS/Dynamic Media Classic上传和发布。 在生成PDF时，将使用作业选项文件中包含的PDF选项。
 
-目前支援的選項如下：
+当前支持以下选项：
 
 <table id="simpletable_7E0AE8A06AE54A02AF0107FBEDF73D61"> 
  <tr class="strow"> 
@@ -36,11 +36,11 @@ ht-degree: 47%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>图像 </p></td> 
-  <td class="stentry"> <p> 缩减像素取样、解析度、臨界值和壓縮（顏色、灰色和單色） </p> </td> 
+  <td class="stentry"> <p> 缩减像素取样、分辨率、阈值和压缩（颜色、灰色和单色） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字体 </p></td> 
-  <td class="stentry"> <p> 嵌入所有字型 </p> <p> 嵌入 OpenType 字体 </p> <p> 子集化嵌入的字体，若被使用的字符百分比低于: </p> <p> 始终嵌入列表 </p> <p> 永不嵌入列表 </p> </td> 
+  <td class="stentry"> <p> 嵌入所有字体 </p> <p> 嵌入 OpenType 字体 </p> <p> 子集化嵌入的字体，若被使用的字符百分比低于: </p> <p> 始终嵌入列表 </p> <p> 永不嵌入列表 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>颜色 </p></td> 
@@ -77,6 +77,6 @@ ht-degree: 47%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>标准 </p></td> 
-  <td class="stentry"> <p>合規性標準。 </p></td> 
+  <td class="stentry"> <p>合规性标准。 </p></td> 
  </tr> 
 </table>

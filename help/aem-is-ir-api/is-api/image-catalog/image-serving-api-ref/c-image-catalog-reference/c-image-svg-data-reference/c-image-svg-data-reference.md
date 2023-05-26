@@ -1,7 +1,7 @@
 ---
-description: 即使影像和SVG資料非常類似，它們仍會儲存在影像目錄的不同表格中。
+description: 即使图像数据和SVG数据非常相似，它们仍会保存在图像目录中的单独表中。
 solution: Experience Manager
-title: 影像/SVG資料參考
+title: 图像/SVG数据引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d43bf938-efed-4e9f-ab47-6581f8c587c9
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 影像/SVG資料參考{#image-svg-data-reference}
+# 图像/SVG数据引用{#image-svg-data-reference}
 
-即使影像和SVG資料非常類似，它們仍會儲存在影像目錄的不同表格中。
+即使图像数据和SVG数据非常相似，它们仍会保存在图像目录中的单独表中。
 
-如果需要影像資料，必須在中指定分項影像之影像資料檔案的相對或絕對路徑。 `attribute::CatalogFile`. 如果需要SVG資料，則必須在中指定SVG資料檔案的相對或絕對路徑 `attribute::SvgCatalogFile`.
+如果需要图像数据，必须在中指定用于逐项列出图像的图像数据文件的相对路径或绝对路径 `attribute::CatalogFile`. 如果需要SVG数据，则必须在中指定SVG数据文件的相对或绝对路径 `attribute::SvgCatalogFile`.
 
-* [影像資料參考](c-image-data-reference/c-image-data-reference.md)
-* [SVG資料參考](c-svg-data-reference/c-svg-data-reference.md)
+* [图像数据引用](c-image-data-reference/c-image-data-reference.md)
+* [SVG数据引用](c-svg-data-reference/c-svg-data-reference.md)

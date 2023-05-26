@@ -1,5 +1,5 @@
 ---
-description: JavaScript檔案資產的屬性。
+description: JavaScript文件资源的属性。
 solution: Experience Manager
 title: JavascriptInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL JavascriptInfo]{#javascriptinfo}
 
-JavaScript檔案資產的屬性。
+JavaScript文件资源的属性。
 
 语法
 
@@ -22,6 +22,6 @@ JavaScript檔案資產的屬性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路徑 | `xsd:string` | JavaScript檔案的路徑。 |
-| 原始檔案 | `xsd:string` | 文件名. |
-| fileSize | `xsd:int` | 檔案大小。 |
+| 原始路径 | `xsd:string` | JavaScript文件的路径。 |
+| 原始文件 | `xsd:string` | 文件名. |
+| fileSize | `xsd:int` | 文件大小。 |

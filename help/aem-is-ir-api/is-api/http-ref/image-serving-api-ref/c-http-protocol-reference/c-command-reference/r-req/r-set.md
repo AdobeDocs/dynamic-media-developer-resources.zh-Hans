@@ -1,5 +1,5 @@
 ---
-description: 媒體集資訊。
+description: 媒体集信息。
 solution: Experience Manager
 title: 设置
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # 设置{#set}
 
-媒體集資訊。
+媒体集信息。
 
 req=set[，xml[， *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
@@ -25,20 +25,20 @@ req=set[，xml[， *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>唯一請求識別碼 </p></td> 
+  <td class="stentry"> <p>唯一请求标识符 </p></td> 
  </tr> 
 </table>
 
-針對URL路徑中指定的影像目錄專案，傳回與目錄：：ImageSet相關聯的影像、影片、色票和各種中繼資料的相關資訊。 此回應為階層式結構，由提供的集合型別決定。 要求&#39;xml&#39;或&#39;json&#39;格式時，會套用適當的格式設定。
+返回有关图像、视频、样本以及与URL路径中指定的图像目录项的catalog：：ImageSet关联的各种元数据的信息。 此响应是由所提供的集合类型确定的层次结构。 在请求“xml”或“json”格式时，将应用相应的格式。
 
 HTTP 响应是可缓存的，且 TTL 基于 `catalog::NonImgExpiration`.
 
 >[!NOTE]
 >
->req=set要求中不允許使用冒號字元。
+>req=set请求中不允许使用冒号字符。
 
-支援JSON回應格式的請求可讓您使用擴充語法來指定JS回呼處理常式的名稱。 `req=` 引數：
+支持JSON响应格式的请求允许您使用扩展语法指定JS回调处理程序的名称 `req=` 参数：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP回應中呈現的JS處理常式名稱。 僅允許a-z、A-Z和0-9字元。 可选. 默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.

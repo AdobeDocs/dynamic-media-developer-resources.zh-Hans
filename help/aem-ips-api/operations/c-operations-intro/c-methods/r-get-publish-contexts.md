@@ -16,7 +16,7 @@ ht-degree: 24%
 
 语法
 
-## 授權的使用者型別 {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 授权用户类型 {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,14 +30,14 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->* 使用者必須擁有讀取存取權才能傳回資產。
->* 所有使用者都可存取共用公司。
+>* 用户必须具有读取权限才能返回资产。
+>* 所有用户都有权访问共享公司。
 >
 
 
 ## 参数 {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**輸入(getPublishContextsParam)**
+**输入(getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -53,28 +53,28 @@ ht-degree: 24%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 處理公司。 </td> 
+   <td colname="col4"> 处理公司。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4">您要傳回的發佈內容型別。 包括： 
+   <td colname="col4">要返回的发布上下文的类型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServe</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 影像演算</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> Imageserving</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 图像渲染</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 视频</span></li>
-     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> 伺服器目錄</span></li>
+     <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> 服务器目录</span></li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-**輸出(getPublishContextsReturn)**
+**输出(getPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| publishContextArray | 型別：PublishContextArray | 是 | 公司的發佈內容陣列，依內容型別篩選（如有需要）。 |
+| publishContextArray | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据需要按上下文类型进行筛选。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

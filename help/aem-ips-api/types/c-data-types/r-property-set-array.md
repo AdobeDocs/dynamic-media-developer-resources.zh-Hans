@@ -1,7 +1,7 @@
 ---
-description: 屬性集的陣列。
+description: 属性集的数组。
 solution: Experience Manager
-title: PropertySetarray
+title: 属性集数组
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-屬性集的陣列。
+属性集的数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:PropertySet` | 屬性集陣列。 |
+| 项目 | `types:PropertySet` | 属性集数组。 |

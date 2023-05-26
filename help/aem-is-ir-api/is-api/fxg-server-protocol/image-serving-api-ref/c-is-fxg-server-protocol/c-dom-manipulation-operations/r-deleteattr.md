@@ -1,5 +1,5 @@
 ---
-description: 刪除指定s7 elementID的任何屬性。
+description: 删除给定s7 elementID的任何属性。
 solution: Experience Manager
 title: deleteAttr
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # deleteAttr{#deleteattr}
 
-刪除指定s7：elementID的任何屬性。
+删除给定s7：elementID的任何属性。
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-如果FXG節點元素具有 `s7:elementID` 定義，可使用此命令刪除該節點的屬性。
+如果FXG节点元素具有 `s7:elementID` 定义时，可以使用此命令删除该节点的属性。
 
 ## 示例 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +28,4 @@ ht-degree: 2%
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-此範例會移除屬性 *[!DNL x]*， *[!DNL y]*、和 *[!DNL visible]* 來自原始FXG節點。
+此示例删除属性 *[!DNL x]*， *[!DNL y]*、和 *[!DNL visible]* 来自原始FXG节点。

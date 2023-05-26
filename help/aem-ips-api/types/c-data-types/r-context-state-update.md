@@ -1,5 +1,5 @@
 ---
-description: 更新資產的發佈內容狀態。
+description: 更新资源的发布上下文状态。
 solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 16%
 
 # [!DNL ContextStateUpdate]{#contextstateupdate}
 
-更新資產的發佈內容狀態。
+更新资源的发布上下文状态。
 
 语法
 
 ## 参数 {#section-9f747df071854c6896fdbb95684ad947}
 
-設定資產的發佈內容狀態，使用 `setAssetsContextState`.
+使用设置资源的发布上下文状态 `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -34,14 +34,14 @@ ht-degree: 16%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> 處理發佈內容的動作。 </td>
+   <td colname="col3"> 处理发布上下文。 </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">指定發佈內容的資產更新發佈狀態。 包括： 
+   <td colname="col3">指定发布上下文的资源已更新发布状态。 包括： 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
-     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> 已標籤為發佈</span></li>
+     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> 已标记为发布</span></li>
      <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
      <li id="li_5145CFA39F5249C48DBD0A37543AF055"><span class="codeph"></span></li>
     </ul></td>
@@ -51,5 +51,5 @@ ht-degree: 16%
 
 >[!MORELIKETHIS]
 >
->* [發佈狀態](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [发布状态](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
 

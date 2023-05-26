@@ -1,6 +1,6 @@
 ---
-title: 顯示重疊物件
-description: 顯示重疊物件。 指定重疊物件最初應該顯示還是隱藏。
+title: 显示重叠对象
+description: 显示重叠对象。 指定重叠对象最初应显示还是隐藏。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 5%
 
 ---
 
-# 顯示重疊物件{#showoverlapobjs}
+# 显示重叠对象{#showoverlapobjs}
 
-顯示重疊物件。 指定重疊物件最初應該顯示還是隱藏。
+显示重叠对象。 指定重叠对象最初应显示还是隐藏。
 
-## 屬性 {#section-3e82e9b98d7a46f884d8b9798cec35c2}
+## 属性 {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 
 标记.
 
 ## 默认 {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-繼承自 `default::ShowOverlapObjs` 如果未定義或為空。
+继承自 `default::ShowOverlapObjs` 如果未定义或为空。

@@ -1,6 +1,6 @@
 ---
-title: 內嵌縮放檢視器的JavaScript API參考
-description: 內嵌縮放檢視器的主要類別是FlyoutViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
+title: 内联缩放查看器的JavaScript API参考
+description: 内联缩放查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# 內嵌縮放檢視器的JavaScript API參考{#javascript-api-reference-for-inline-zoom-viewer}
+# 内联缩放查看器的JavaScript API参考{#javascript-api-reference-for-inline-zoom-viewer}
 
-內嵌縮放檢視器的主要類別是FlyoutViewer。 會在s7viewers名稱空間中宣告。 此JavaScript API涵蓋此特定類別的建構函式、方法和回呼。
+内联缩放查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
-在下列所有範例中， `<instance>` 代表從具現化的JavaScript檢視器物件的實際名稱。 `s7viewers.FlyoutViewer` 類別。
+在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.FlyoutViewer` 类。
 
-* [處置](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
-* [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
+* [处置](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
+* [弹出查看器](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
 * [getComponent](r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
 * [init](r-html5-inlinezoom-viewer-javascriptapiref-init.md)
 * [setAsset](r-html5-inlinezoom-viewer-javascriptapiref-setasset.md)

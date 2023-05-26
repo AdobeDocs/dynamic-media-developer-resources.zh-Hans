@@ -1,7 +1,7 @@
 ---
-description: 設定與影像集相關聯的資產清單。
+description: 设置与图像集关联的资源列表。
 solution: Experience Manager
-title: setImageSetMember
+title: setimageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
@@ -12,13 +12,13 @@ ht-degree: 12%
 
 ---
 
-# setImageSetMember{#setimagesetmembers}
+# setimageSetMembers{#setimagesetmembers}
 
-設定與影像集相關聯的資產清單。
+设置与图像集关联的资源列表。
 
-此操作會忽略 `pageReset` 的引數 `ImageSets` 和 `SpinSets` 和會強制將值設為true。
+此操作忽略 `pageReset` 参数 `ImageSets` 和 `SpinSets` 和会强制将该值设置为true。
 
-## 授權的使用者型別 {#section-8968d6a39a344cfc8521020d92ae8916}
+## 授权用户类型 {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->使用者必須擁有影像集資產的讀取和寫入存取權，以及每個成員資產的讀取存取權。
+>用户必须对图像集资源具有读写访问权限，并对每个成员资源具有读访问权限。
 
 ## 参数 {#section-2f46efcd24c648aeacba738509426e46}
 
-**輸入(setImageSetMembersParam)**
+**输入(setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -49,30 +49,30 @@ ht-degree: 12%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>公司控點。 </p> </td> 
+   <td colname="col4"> <p>公司处理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 影像集控制代碼。 </td> 
+   <td colname="col4"> 图像集句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 型別：ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 屬於影像集的資產成員陣列。 </td> 
+   <td colname="col4"> 属于图像集的资源成员数组。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-**輸出(setImageSetMembersReturn)**
+**输出(setImageSetMembersReturn)**
 
-IPS API未傳回此作業的回應。
+IPS API未返回此操作的响应。
 
 ## 示例 {#section-7b87219034464aa98524178ccee27738}
 
-此程式碼範例使用成員陣列來設定影像集的成員。
+此代码示例使用成员数组来设置图像集的成员。
 
 **请求**
 

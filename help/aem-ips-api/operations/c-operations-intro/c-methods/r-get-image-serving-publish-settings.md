@@ -1,7 +1,7 @@
 ---
-description: 僅供內部使用。 使用者應該參考影像伺服影像目錄參考 — 屬性參考區段。
+description: 仅供内部使用。 用户应该参阅图像服务图像目录引用 — 属性引用一节。
 solution: Experience Manager
-title: getimageservingPublishSettings
+title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
@@ -12,13 +12,13 @@ ht-degree: 16%
 
 ---
 
-# getimageservingPublishSettings{#getimageservingpublishsettings}
+# getImageServingPublishSettings{#getimageservingpublishsettings}
 
-僅供內部使用。 使用者應該參考影像伺服影像目錄參考 — 屬性參考區段。
+仅供内部使用。 用户应该参阅图像服务图像目录引用 — 属性引用一节。
 
 语法
 
-## 授權的使用者型別 {#section-49b7b277ba1748499121a0e90996458c}
+## 授权用户类型 {#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,15 +27,15 @@ ht-degree: 16%
 
 ## 参数 {#section-79f0d54acd604ad2a5c96679334f2424}
 
-**輸入(getImageServingPublishSettingsParam)**
+**输入(getImageServingPublishSettingsParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有影像伺服發佈設定的公司控制代碼。 |
-| contextHandle | `xsd:string` | 是 | 處理發佈內容的動作。 |
+| companyHandle | `xsd:string` | 是 | 具有图像服务发布设置的公司的句柄。 |
+| contextHandle | `xsd:string` | 是 | 处理发布上下文。 |
 
-**輸出**
+**输出**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| publishSettingArray | `xsd:string` | 是 | 影像伺服器發佈設定的陣列。 |
+| publishSettingArray | `xsd:string` | 是 | 图像服务器发布设置的数组。 |

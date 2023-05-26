@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: 混合媒體檢視器的JavaScript API參考。
+description: 适用于混合媒体查看器的JavaScript API引用。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-混合媒體檢視器的JavaScript API參考。
+适用于混合媒体查看器的JavaScript API引用。
 
 ` setLocalizedTexts( *`localizationInfo`*)`
 
@@ -22,16 +22,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> 物件</span>} JSON物件包含本地化資料。 </p> <p>另請參閱 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> 使用者介面元素的本地化</a> 以取得詳細資訊。 </p> <p>另請參閱 <i>檢視器SDK使用手冊</i> 和範例，以取得物件內容的詳細資訊。 </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> 对象</span>} JSON对象和本地化数据。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> 用户界面元素的本地化</a> 了解更多信息。 </p> <p>另请参阅 <i>Viewer SDK用户指南</i> 和示例，以了解有关对象内容的更多信息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-設定一或多個地區設定的本地化SYMBOL值。 必須在之前呼叫此引數 `init()`.
+设置一个或多个区域设置的本地化SYMBOL值。 必须在之前调用此参数 `init()`.
 
-另請參閱 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
+另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
-## 傳回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 无。
 

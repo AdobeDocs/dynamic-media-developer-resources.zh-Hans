@@ -1,6 +1,6 @@
 ---
-title: 屬性
-description: 屬性資料會傳回以回應下列req=型別imageprop和prop。
+title: 属性
+description: 响应以下req=类型imageprop和prop返回属性数据。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# 屬性{#properties}
+# 属性{#properties}
 
-屬性資料會傳回以回應下列req=型別： imageprops和props。
+响应以下req=类型返回属性数据： imageprops和props。
 
-回覆資料的格式會設定為Java™屬性以供讀取。 典型的文字屬性回應具有此一般結構：
+回复数据的格式可读为Java™属性。 典型的文本属性响应具有以下常规结构：
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ ht-degree: 2%
 
 ...
 
-` *[!DNL propertyValue]*` 可為空白。 每行開頭和結尾以及&#39;=&#39;分隔符號之前和之後的空白字元為選用。 可以使用單引號或雙引號來括住字串值，但並非必要。
+` *[!DNL propertyValue]*` 可以为空。 在每行的开始和结束位置以及“=”分隔符之前和之后，可选使用空格。 可以使用单引号或双引号来括住字符串值，但不是必需的。
 
-字串值可包含JAVA樣式的逸出字元，例如 `\n`， `\t`， `\:`，或 `\\`.
+字符串值可以包含JAVA样式转义字符，例如 `\n`， `\t`， `\:`，或 `\\`.
 
 **另请参阅**
 

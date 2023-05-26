@@ -1,5 +1,5 @@
 ---
-description: 回覆影像大小限制。 可傳回給使用者端的最大回覆影像寬度和高度。
+description: 回复图像大小限制。 可返回到客户端的最大回复图像宽度和高度。
 solution: Experience Manager
 title: MaxPix
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # MaxPix{#maxpix}
 
-回覆影像大小限制。 可傳回給使用者端的最大回覆影像寬度和高度。
+回复图像大小限制。 可返回到客户端的最大回复图像宽度和高度。
 
-如果要求會導致回覆影像的寬度或高度大於，則伺服器會傳回錯誤 `attribute::MaxPix`.
+如果请求会导致回复图像的宽度或高度大于 `attribute::MaxPix`.
 
-## 屬性 {#section-b175425b9e9f48e0b1a71640f6a9e936}
+## 属性 {#section-b175425b9e9f48e0b1a71640f6a9e936}
 
-兩個大於0的整數，以逗號分隔。 寬度和高度（畫素）。 也可以設定為 `0,0` 以允許任何回覆影像大小不受限制。
+两个大于0的整数，以逗号分隔。 宽度和高度（像素）。 也可以设置为 `0,0` 允许任意回复图像大小而没有任何限制。
 
 ## 默认 {#section-1003537434da432fb2af100ecdbf9d72}
 
-繼承自 `default::MaxPix` 如果未定義或為空。
+继承自 `default::MaxPix` 如果未定义或为空。
 
 ## 另请参阅 {#section-7385697a1b86482bba19db894f7af95b}
 

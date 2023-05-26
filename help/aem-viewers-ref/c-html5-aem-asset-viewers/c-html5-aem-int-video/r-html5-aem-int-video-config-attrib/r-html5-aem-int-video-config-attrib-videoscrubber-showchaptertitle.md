@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: 互動式視訊檢視器的設定屬性。
+description: 交互式视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-互動式視訊檢視器的設定屬性。
+交互式视频查看器的配置属性。
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -22,12 +22,12 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 啟用/停用章節標籤的標題列。 停用標題列時，不會顯示章節開始時間。 </p> </td> 
+   <td colname="col2"> <p> 启用/禁用章节标签的标题栏。 禁用标题栏时，不显示章节开始时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-1e637b22e8a44d759d588e47576891e6}
+## 属性 {#section-1e637b22e8a44d759d588e47576891e6}
 
 可选.
 

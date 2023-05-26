@@ -1,6 +1,6 @@
 ---
 title: scl
-description: 縮放檢視。 相對於完整解析度暈映，以指定的縮放係數縮放演算後的影像。
+description: 缩放视图。 相对于全分辨率晕影，按指定的缩放因子缩放渲染的图像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 2%
 
 # scl{#scl}
 
-縮放檢視。 相對於完整解析度暈映，以指定的縮放係數縮放演算後的影像。
+缩放视图。 相对于全分辨率晕影，按指定的缩放因子缩放渲染的图像。
 
 `scl= *`invFactor`*`
 
 <table id="simpletable_EFE352FA8EF14197B6934783A2883451"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> invFactor</span> </span> </p></td> 
-  <td class="stentry"> <p>反比例因子（實數、1.0或更高）。 </p></td> 
+  <td class="stentry"> <p>反比例缩放因子（实数，1.0或更高）。 </p></td> 
  </tr> 
 </table>
 
-若 `scl=` 晚於 `wid=` 或 `hei=` 在URL中，它會取消這些命令並 `scl=` 定義伺服器傳回的影像大小。
+如果 `scl=` 之后 `wid=` 或 `hei=` 在URL中，它会取消这些命令并 `scl=` 定义服务器返回的图像的大小。
 
-但是，如果 `wid=` 或 `hei=` 晚於 `scl=` 在URL中，他們會取消 `scl=` 和 `wid=`/ `hei=` 定義伺服器傳回的影像大小。
+但是，如果 `wid=` 或 `hei=` 之后 `scl=` 在URL中，他们会取消 `scl=` 和 `wid=`/ `hei=` 定义服务器返回的图像的大小。
 
 >[!NOTE]
 >
->如果計算的或預設的回覆影像大小大於 `attribute::MaxPix`.
+>如果计算的或默认的回复图像大小大于 `attribute::MaxPix`.
 
-## 屬性 {#section-170458cbd6984bd59a3434431258b20f}
+## 属性 {#section-170458cbd6984bd59a3434431258b20f}
 
-可能發生在請求中的任何位置。 忽略條件 `wid=` 或 `hei=` 發生於 `scl=` 在指令序列中。
+可能出现在请求中的任意位置。 忽略条件 `wid=` 或 `hei=` 发生于 `scl=` 在命令序列中。
 
-調整影像大小 `scl=` 不會變更內嵌在回應影像中的列印解析度值。
+调整图像大小 `scl=` 不会更改响应图像中嵌入的打印分辨率值。
 
 ## 默认 {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-若 `wid=`， `hei=`，或 `scl=` 未指定，回覆影像會縮放以符合所定義的大小 `attribute::DefaultPix`. 若 `attribute::DefaultPix` 空白，則回覆影像的大小會與暈映的檢視影像相同。
+如果 `wid=`， `hei=`，或 `scl=` 未指定，回复图像将进行缩放以适合由定义的大小 `attribute::DefaultPix`. 如果 `attribute::DefaultPix` 为空，则回复图像的大小与晕影的视图图像相同。
 
 ## 另请参阅 {#section-cc5002a1d49340bbb5c7a5864c297621}
 

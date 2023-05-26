@@ -1,6 +1,6 @@
 ---
-title: 貼花
-description: 貼花材質選取器。 為不可重複貼花材料啟動材料規格區段(MSS)。
+title: 贴花
+description: 贴花材质选择器。 为不可重复贴花材料启动材料规格段(MSS)。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 9%
 
 ---
 
-# 貼花 {#decal}
+# 贴花 {#decal}
 
-貼花材質選取器。 為不可重複貼花材料啟動材料規格區段(MSS)。
+贴花材质选择器。 为不可重复贴花材料启动材料规格段(MSS)。
 
 ` decal[= *`val`*]`
 
@@ -25,9 +25,9 @@ ht-degree: 9%
  </tr> 
 </table>
 
-## 屬性 {#section-4f975f78869e4c829c30cf3ca7646539}
+## 属性 {#section-4f975f78869e4c829c30cf3ca7646539}
 
-選取範圍指令；MSS分隔符號。
+选择命令；MSS分隔符。
 
 ## 默认 {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

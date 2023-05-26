@@ -1,7 +1,7 @@
 ---
-description: 本節包含協助您設定及管理影像演算伺服器的資訊。
+description: 此部分包含的信息可帮助您设置和管理图像渲染服务器。
 solution: Experience Manager
-title: 設定和管理伺服器
+title: 配置和管理服务器
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# 設定和管理伺服器{#configuring-and-managing-the-server}
+# 配置和管理服务器{#configuring-and-managing-the-server}
 
-本節包含協助您設定及管理影像演算伺服器的資訊。
+此部分包含的信息可帮助您设置和管理图像渲染服务器。
 
 >[!NOTE]
 >
->「影像伺服」必須正確設定且功能正常，才能正確執行影像轉譯。
+>图像服务必须正确配置并正常运行，才能正确运行图像渲染。
 
-如需詳細資訊，請參閱材質目錄參考、HTTP通訊協定參考、發行說明、影像伺服檔案
+有关更多信息，请参阅材质目录参考、HTTP协议参考、发行说明和图像服务文档

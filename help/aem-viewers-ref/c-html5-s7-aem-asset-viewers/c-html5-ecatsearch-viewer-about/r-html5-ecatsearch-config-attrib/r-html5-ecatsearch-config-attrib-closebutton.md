@@ -1,7 +1,7 @@
 ---
-description: 關閉按鈕
+description: 关闭按钮
 solution: Experience Manager
-title: 關閉按鈕
+title: 关闭按钮
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# 關閉按鈕{#closebutton}
+# 关闭按钮{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
@@ -20,12 +20,12 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>設定為 <span class="codeph"> 1 </span> 以啟用關閉按鈕的顯示。 或者，設定為 <span class="codeph"> 0 </span> 以隱藏關閉按鈕。 </p> <p>僅觸控裝置支援「關閉」按鈕，案頭系統無法顯示。 </p> </td> 
+   <td colname="col2"> <p>设置为 <span class="codeph"> 1 </span> 以启用关闭按钮的显示。 或者，设置为 <span class="codeph"> 0 </span> 以隐藏关闭按钮。 </p> <p>仅触控设备支持“关闭”按钮；桌面系统上无法显示“关闭”按钮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 屬性 {#section-f42369774e2740dcb399626a0e4e930e}
+## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
 可选.
 

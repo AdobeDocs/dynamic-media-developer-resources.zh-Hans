@@ -1,7 +1,7 @@
 ---
-description: 預設字型名稱。 指定text=要求未提供任何字型時應使用的字型。
+description: 默认字体名称。 指定text=请求未提供字体时应使用的字体。
 solution: Experience Manager
-title: 預設字型
+title: 默认字体
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6ca7f540-a01a-483d-99b7-50e2915861cf
@@ -12,17 +12,17 @@ ht-degree: 3%
 
 ---
 
-# 預設字型{#defaultfont}
+# 默认字体{#defaultfont}
 
-預設字型名稱。 指定text=要求未提供任何字型時應使用的字型。
+默认字体名称。 指定text=请求未提供字体时应使用的字体。
 
-## 屬性 {#section-b71618fec3c443a392d67eff480f0e5d}
+## 属性 {#section-b71618fec3c443a392d67eff480f0e5d}
 
-文字字串。 如果已指定，則必須為此影像目錄的字型對映或預設目錄的字型對映中的有效font：：Name值。
+文本字符串。 如果指定，则必须是此图像目录的字体映射或默认目录的字体映射中的有效font：：Name值。
 
 ## 默认 {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-繼承自 `default::DefaultFont` 如果未定義或為空。
+继承自 `default::DefaultFont` 如果未定义或为空。
 
 ## 另请参阅 {#section-b012591f90a2428a8062afe4f3b6ce33}
 

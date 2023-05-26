@@ -1,6 +1,6 @@
 ---
-title: 我的最愛功能
-description: 我的最愛功能
+title: 收藏夹功能
+description: 收藏夹功能
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 我的最愛功能{#favorites-feature}
+# 收藏夹功能{#favorites-feature}
 
-一般使用者可以使用「我的最愛」功能，直接在e-catalog中標籤感興趣的產品，方法是將「心」圖示新增至e-catalog影像。 檢視器會將所有我的最愛儲存在使用者端系統上，並在同一使用者再次造訪電子目錄時再次顯示。
+最终用户可以使用收藏夹功能，通过在e-catalog图像上添加“心”图标来直接在e-catalog中标记感兴趣的产品。 查看器会将所有收藏夹存储在客户端系统中，并在同一用户再次访问e-catalog时再次显示它们。
 
-此外，檢視器可讓您檢閱以縮圖影像格點形式新增至e-catalog的所有我的最愛。
+此外，查看器还允许您查看以缩略图图像网格形式添加到e-catalog的所有收藏夹。
 
-所有「我的最愛」工具都會分組在控制列中的一個下拉式清單下。
+所有“收藏夹”工具都分组在控制栏中的一个下拉列表中。

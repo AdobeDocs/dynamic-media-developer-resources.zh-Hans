@@ -1,5 +1,5 @@
 ---
-description: 擷取頁面。 擷取多頁FXG中的特定頁面。
+description: 检索页面。 检索多页FXG中的特定页面。
 solution: Experience Manager
 title: 页面
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 6%
 
 # 页面{#page}
 
-擷取頁面。 擷取多頁FXG中的特定頁面。
+检索页面。 检索多页FXG中的特定页面。
 
 `page= *`val`*`
 
 <table id="simpletable_E92560F812B64A36A3D108CA7DEED5AC"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>頁碼（第一頁為1）。 </p></td> 
+  <td class="stentry"> <p>页码（第一页为1）。 </p></td> 
  </tr> 
 </table>
 
 ## 默认 {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-若 `page` 未指定，則會傳回第一頁以供點陣化輸出，並傳回所有頁面供PDF輸出。
+如果 `page` 如果未指定，则会返回第一页作为光栅输出，返回所有页作为PDF输出。

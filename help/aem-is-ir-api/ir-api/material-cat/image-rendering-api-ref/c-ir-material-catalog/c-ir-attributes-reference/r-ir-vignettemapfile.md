@@ -1,6 +1,6 @@
 ---
-title: VignettemapFile
-description: 暈映對應資料檔案路徑。 指定包含此影像目錄暈映對映的檔案。
+title: 晕影映射文件
+description: 晕影映射数据文件路径。 指定包含此图像目录的晕影映射的文件。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 ---
 
-# VignettemapFile{#vignettemapfile}
+# 晕影映射文件{#vignettemapfile}
 
-暈映對應資料檔案路徑。 指定包含此影像目錄暈映對映的檔案。
+晕影映射数据文件路径。 指定包含此图像目录的晕影映射的文件。
 
-## 屬性 {#section-8f624cb8e49b44258a961fb7e464ce0a}
+## 属性 {#section-8f624cb8e49b44258a961fb7e464ce0a}
 
-文字字串值。 相對於目錄資料夾的絕對檔案路徑。
+文本字符串值。 相对于目录文件夹的绝对文件路径。
 
 ## 默认 {#section-cc5c2e0ba54a4e5890a7330ee038fac8}
 
-空白，表示此材質目錄不包含暈映對映。
+空，表示此材质目录不包含晕影映射。
 
 ## 另请参阅 {#section-e77e22ed4aaa4b99919f07afc5ecc404}
 
-[暈映地圖參考](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md#concept-f9486269f2b04d4cb6750f3af7bf0eb7)
+[晕影映射引用](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md#concept-f9486269f2b04d4cb6750f3af7bf0eb7)
