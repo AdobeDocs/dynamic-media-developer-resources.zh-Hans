@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 允许持久定义材料，包括所有材料属性。
 
-   可以使用简单ID引用材料目录中定义的材料，而不是使用一组材料属性。
+  可以使用简单ID引用材料目录中定义的材料，而不是使用一组材料属性。
 * 提供某些请求属性的默认值，例如JPEG质量或默认回复图像大小。
 * 管理晕影、ICC配置文件和请求模板。
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 **另请参阅**
 
-材料目录参考， [ `src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)， `attribute::RootId`， `attribute::RootPath`， `attribute::VignettePath`
+材料目录参考， [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)， `attribute::RootId`， `attribute::RootPath`， `attribute::VignettePath`
