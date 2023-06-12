@@ -52,7 +52,7 @@ ht-degree: 4%
 
 * 已添加 `optmizedPath` 和 `optimizedFile` 到 `PsdInfo`.
 
-* 已添加 `contextHandle` 至：
+* 已添加 `contextHandle` 到：
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`

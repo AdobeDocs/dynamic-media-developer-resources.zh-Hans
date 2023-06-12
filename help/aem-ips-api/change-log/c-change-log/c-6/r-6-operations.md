@@ -49,7 +49,7 @@ ht-degree: 6%
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   已添加 `contextHandle` 至：
+   已添加 `contextHandle` 到：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
