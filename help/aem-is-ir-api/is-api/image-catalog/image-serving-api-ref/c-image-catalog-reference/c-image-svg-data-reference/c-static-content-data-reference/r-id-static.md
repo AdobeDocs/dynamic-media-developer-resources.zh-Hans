@@ -1,14 +1,14 @@
 ---
-description: Id
-solution: Experience Manager
 title: Id
+description: 通常，是简短且唯一的标识符，例如SKU编号，可能带有某种类型的后缀，例如SKU具有多个图像或具有特定于区域设置的变体。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 818649dd-bcb7-4ff5-9308-6b5dc06f66e1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 

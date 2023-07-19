@@ -1,14 +1,14 @@
 ---
-description: 過期
-solution: Experience Manager
 title: 過期
+description: 用于管理客户端和代理服务器缓存。 服务器通过将此值与传输时间/日期相加来计算HTTP响应数据的过期时间/日期。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 
