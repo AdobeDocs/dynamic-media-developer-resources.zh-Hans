@@ -2,8 +2,10 @@
 description: AdobeDynamic Media图像服务和图像渲染API主页
 solution: Experience Manager
 title: AdobeDynamic Media图像服务和图像渲染API主页
+feature: Dynamic Media Classic,SDK/API
+role: Developer,User
 exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+source-git-commit: 4e585ee4d53e42dccb078e894d363d1df625ba73
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
