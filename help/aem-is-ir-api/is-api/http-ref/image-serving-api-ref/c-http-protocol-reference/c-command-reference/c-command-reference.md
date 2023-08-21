@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 >[!TIP]
 >
->尝试使用Dynamic Media并探索Dynamic Media图像修饰符和智能成像的好处 [_快照_](https://snapshot.scene7.com/).
+>尝试使用Dynamic Media并探索Dynamic Media图像修饰符和智能成像的优势 [_快照_](https://snapshot.scene7.com/).
 >
-> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并对以下内容进行智能图像优化：
->* 文件大小（通过WebP和AVIF投放）
+> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并优化以下各项的智能成像：
+>* 文件大小（使用WebP和AVIF交付）
 >* 网络带宽
 >* DPR（设备像素比率）
 >
 >要了解使用快照有多容易，请播放 [快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
 
 
-**仅适用于Adobe Experience Manager中的Dynamic Media**  — 除了用户界面中可用的基本图像设置之外， [!DNL Dynamic Media] 在AEM中( [!DNL Adobe Experience Manager])支持可在 **图像修饰符** 字段。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
+**仅适用于Adobe Experience Manager中的Dynamic Media**  — 除了用户界面中可用的基本图像设置外， [!DNL Dynamic Media] 在AEM中( [!DNL Adobe Experience Manager])支持可在 **图像修饰符** 字段。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
 
 * 颜色校正命令： `icc=` 和 `iccEmbed=`.
 * 基本模板和文本渲染命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 和 `textPs=`.
@@ -51,32 +51,34 @@ ht-degree: 6%
 * [bgColor](r-bgcolor.md)
 * [blendMode](r-blendmode.md)
 * [缓存](r-is-http-cache.md)
-* [clipPath](r-clippath.md)
+* [clip路径](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [颜色](r-color-commandref.md)
 * [裁切](r-crop.md)
 * [裁切路径E](r-croppath.md)
 * [defaultimage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [效果](r-effect.md)
 * [效果蒙版](r-effectmask.md)
 * [扩展](r-extend.md)
 * [适合](r-fit.md)
 * [翻转](r-flip.md)
-* [fmt](r-is-http-fmt.md)
+* [格式](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [隐藏](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [id](r-id.md)
-* [imageSet](r-imageset.md)
+* [图像集](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
 * [图层](r-layer.md)
 * [区域设置](r-locale.md)
 * [地图](r-map.md)
 * [蒙版](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [网络](r-network.md)
 * [op_blur](r-op-blur.md)
-* [op_brightness](r-op-brightness.md)
+* [op_亮度](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
 * [op_colorize](r-op-colorize.md)
 * [op_contrast](r-op-contrast.md)
@@ -85,7 +87,7 @@ ht-degree: 6%
 * [op_growMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_噪声](r-op-noise.md)
+* [op噪声](r-op-noise.md)
 * [op_saturation](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
