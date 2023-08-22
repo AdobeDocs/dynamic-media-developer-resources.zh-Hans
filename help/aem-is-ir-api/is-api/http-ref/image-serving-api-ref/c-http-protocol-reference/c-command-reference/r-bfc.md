@@ -1,11 +1,11 @@
 ---
+title: BFC
 description: 浏览器格式转换。 指定是打开还是关闭浏览器格式转换功能。
 solution: Experience Manager
-title: BFC
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 开|关 </span> </p> </td> 
-  <td class="stentry"> <p>指定浏览器格式转换功能 — 将JPEG或PNG图像转换为较小的浏览器特定文件格式 — 是否为true ( <span class="codeph"> 日期 </span>)或false ( <span class="codeph"> 关闭 </span> （表示无特定于浏览器的格式转换）。 </p> </td> 
+  <td class="stentry"> <p>指定浏览器格式转换功能(将JPEG或PNG图像转换为较小的浏览器特定文件格式)是否为true ( <span class="codeph"> 日期 </span>)或false ( <span class="codeph"> 关 </span> （无浏览器特定的格式转换）。 </p> </td> 
  </tr> 
 </table>
 

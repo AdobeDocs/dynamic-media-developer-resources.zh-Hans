@@ -1,11 +1,11 @@
 ---
-description: 钝化蒙版。 如果图层为comp，则在全部缩放后，对图层或最终视图图像进行USM锐化。
-solution: Experience Manager
 title: op_usmR
+description: 钝化蒙版。 如果图层=comp，则在所有缩放后对图层或最终视图图像进行钝化蒙版。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 51a779be-568b-40e5-99d9-e875023a2b2c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%
@@ -14,16 +14,16 @@ ht-degree: 3%
 
 # op_usmR{#op-usmr}
 
-钝化蒙版。 如果图层为comp，则在全部缩放后，对图层或最终视图图像进行USM锐化。
+钝化蒙版。 如果图层=comp，则在所有缩放后对图层或最终视图图像进行钝化蒙版。
 
-参数按原样应用，而不管是否发生降采样。
+这些参数按原样应用，而不管是否已进行降采样。
 
 `op_usmR= *`数量`*[, *`半径R`*[, *`阈值`*[, *`单色`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 数量</span></span> </p></td> 
-  <td class="stentry"> <p>滤镜强度因子（实数0...5）。 </p></td> 
+  <td class="stentry"> <p>滤镜强度系数（实际0...5）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> 半径R</span></span> </p></td> 
@@ -39,11 +39,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-该图层掩模或复合掩模也被锐化。
+图层蒙版或复合蒙版也被锐化。
 
 ## 属性 {#section-fb5311b34d164946b74dadb32359518a}
 
-层属性或视图属性。 应用于当前图层或最终视图图像，如果 `layer=comp`. 效果图层会忽略它。
+图层属性或视图属性。 应用到当前图层或最终视图图像，如果 `layer=comp`. 效果图层忽略它。
 
 ## 默认 {#section-2bedc99866ff473e90e5ea36596d8362}
 

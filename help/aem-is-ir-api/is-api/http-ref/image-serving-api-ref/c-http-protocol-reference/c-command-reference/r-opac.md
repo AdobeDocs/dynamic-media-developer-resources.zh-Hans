@@ -1,11 +1,11 @@
 ---
+title: opac
 description: 调整图像不透明度。 允许降低图像、文本、纯色或效果图层的前景不透明度。
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 <table id="simpletable_DA4B5D86C496480886FADB284AD6047F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 不透明度</span> </p> </td> 
-  <td class="stentry"> <p>主要不透明度（0至100位整数）。 </p></td> 
+  <td class="stentry"> <p>主不透明度(0...100 int)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 填充不透明度</span> </p></td> 
@@ -29,17 +29,17 @@ ht-degree: 1%
  </tr> 
 </table>
 
-图像图层的前景不透明度由图层蒙版或图像的Alpha通道确定，或者如果两者都不存在，则是100%。 文本图层的前景不透明度为100%，而纯色图层的前景不透明度由设置 `color=`.
+图像图层的前景不透明度由图像的图层蒙版或Alpha通道决定，如果两者都不存在，则是100%。 文本图层的前景不透明度为100%，而纯色图层的前景不透明度由设置 `color=`.
 
-`opac=` 从不修改填充了的区域的不透明度 `color=` 或 `bgColor=`，但纯色和效果图层的前景区域除外(设置为 `color=`)。
+`opac=` 从不修改填充了的区域的不透明度 `color=` 或 `bgColor=`，实色和效果图层的前景区域除外(设置为 `color=`)。
 
-在图像、文本或纯色图层中指定的时， *`opacity`* 应用整个图层，包括所有关联的效果图层，同时 *`fillOpacity`* 仅适用于主图层内容。 在效果层中指定时， *`opacity`* 应用于效果图层，而 *`fillOpacity`* 将被忽略。
+当在图像、文本或纯色图层中指定时， *`opacity`* 应用整个图层，包括所有关联的效果图层，同时 *`fillOpacity`* 仅适用于主图层内容。 在效果层中指定时， *`opacity`* 应用于效果图层，而 *`fillOpacity`* 将被忽略。
 
-主层内容的有效不透明度为( *`opacity`* &#42; *`fillOpacity`* / 100)。 有效不透明度为(main *`opacity`* &#42; 效果 *`opacity`* / 100)。
+主层内容的有效不透明度为( *`opacity`* &#42; *`fillOpacity`* / 100)。 效果层的有效不透明度为（主要） *`opacity`* &#42; 效果 *`opacity`* / 100)。
 
 ## 属性 {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
-层属性。 应用于当前图层或复合图像，如果 `layer=comp`.
+层属性。 应用到当前图层或复合图像，如果 `layer=comp`.
 
 ## 默认 {#section-abba67ed028049048ae43405ea69b164}
 

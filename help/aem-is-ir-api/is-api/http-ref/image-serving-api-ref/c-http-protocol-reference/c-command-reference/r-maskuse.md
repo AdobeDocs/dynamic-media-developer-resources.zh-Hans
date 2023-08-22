@@ -1,11 +1,11 @@
 ---
-description: 图像蒙版使用情况。 指定如何使用图像的蒙版或Alpha通道对图像进行操作（例如，colorize=）。 当在效果图层中进行指定时，它允许将效果应用于父图层的背景区域或整个父图层矩形。
-solution: Experience Manager
 title: maskUse
+description: 图像蒙版使用情况。 指定如何使用图像的蒙版或Alpha通道对图像进行操作（例如，colorize=）。 在效果图层中指定时，允许将效果应用于父图层的背景区域或整个父图层矩形。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # maskUse{#maskuse}
 
-图像蒙版使用情况。 指定如何使用图像的蒙版或Alpha通道对图像进行操作（例如，colorize=）。 当在效果图层中进行指定时，它允许将效果应用于父图层的背景区域或整个父图层矩形。
+图像蒙版使用情况。 指定如何使用图像的蒙版或Alpha通道对图像进行操作（例如，colorize=）。 在效果图层中指定时，允许将效果应用于父图层的背景区域或整个父图层矩形。
 
 `maskUse=norm|invert|off`
 
@@ -26,7 +26,7 @@ ht-degree: 2%
    <th class="entry"> <b> 值</b> </th> 
    <th class="entry"> <b> 无蒙版</b> </th> 
    <th class="entry"> <b> 未关联的Alpha（或单独的蒙版图像）</b> </th> 
-   <th class="entry"> <b> 相关（预乘）Alpha</b> </th> 
+   <th class="entry"> <b> 关联的（预乘）Alpha</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -46,16 +46,16 @@ ht-degree: 2%
    <td> <p> <span class="codeph"> 反转 </span> </p> </td> 
    <td> <p> 隐藏图层 </p> </td> 
    <td> <p> 图像的背景区域 </p> </td> 
-   <td> <p> 用纯黑色填充的图像或图层的背景区域 </p> </td> 
+   <td> <p> 图像或纯黑填充图层的背景区域 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 属性 {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-图像或图层属性。 如果符合以下条件，则应用于图层0 `layer=comp`. 如果在效果层中指定，该命令将修改从父层继承的蒙版。
+图像或图层属性。 应用到图层0，如果 `layer=comp`. 如果在效果层中指定，该命令将修改从父层继承的蒙版。
 
-的行为 `maskUse=` 未定义，当没有适用的图像蒙版时，通过文本或纯色图层指定时，不受支持(通过 `mask=` 或 `catalog::Mask`)。
+的行为 `maskUse=` 未定义，在指定文本或纯色图层时不受支持，因为没有适用的图像蒙版(通过 `mask=` 或 `catalog::Mask`)。
 
 ## 默认 {#section-982dd8174641437786dcb3729ace6428}
 

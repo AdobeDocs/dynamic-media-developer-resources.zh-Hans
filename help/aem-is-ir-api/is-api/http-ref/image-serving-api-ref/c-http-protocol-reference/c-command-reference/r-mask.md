@@ -1,11 +1,11 @@
 ---
+title: 蒙版
 description: 图像蒙版。 指定要用作未关联蒙版的单独蒙版图像。
 solution: Experience Manager
-title: 蒙版
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 1%
@@ -25,23 +25,23 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 嵌套请求</span> </p></td> 
-  <td class="stentry"> <p>嵌套的图像提供、图像渲染或外部请求。 </p></td> 
+  <td class="stentry"> <p>嵌套图像服务、图像渲染或外部请求。 </p></td> 
  </tr> 
 </table>
 
-*`object`* 可以是目录条目或图像/SVG文件。 可以为图像图层和纯色图层指定。
+*`object`* 可以是目录条目或图像/SVG文件。 可以为图像层和纯色层指定。
 
 如果 *`object`* 解析为图像目录条目， `catalog::MaskPath` 已使用，或者 `catalog::MaskPath` 未定义，则 `catalog::Path` 已使用。 如果 *`object`* 不会解析为目录条目，然后会将其解释为文件路径。
 
-在所有情况下，如果源图像具有Alpha通道，则使用它。 否则，在将该图像用作图层蒙版之前，如有必要，会将图像转换为灰度。
+在所有情况下，如果源图像具有Alpha通道，则使用此通道。 否则，在将该图像用作图层蒙版之前，如有必要，会将该图像转换为灰度。
 
-如果将蒙版附加到纯色图层，则可以使用与图像图层中的图像相同的规则来裁切和缩放蒙版。 `size=`， `scale=`，或 `res=` 可用于缩放蒙版。
+如果将蒙版附加到纯色图层，则可以使用与图像图层中的图像相同的规则来裁剪和缩放蒙版。 `size=`， `scale=`，或 `res=` 可用于缩放蒙版。
 
-图层蒙版也可以以下列形式指定 *`nestedRequest`*. 嵌套或嵌入的请求由大括号括起来。 为嵌入的图像服务请求添加前缀 `is` 和嵌入的图像渲染请求 `ir`. 如果未指定前缀，则假定对外服务器的请求为。 请参阅 [请求嵌套和嵌入](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) 了解详细信息。
+也可以以下列形式指定图层蒙版 *`nestedRequest`*. 嵌套或嵌入的请求由大括号括起来。 为嵌入的图像服务请求添加前缀 `is` 和嵌入的图像渲染请求 `ir`. 如果未指定前缀，则假定对外服务器的请求为。 请参阅 [请求嵌套和嵌入](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) 以了解详细信息。
 
 ## 属性 {#section-a093043dc249423b8ae322cefb0d545d}
 
-图像或图层属性。 如果符合以下条件，则应用于图层0 `layer=comp`. 被效果层忽略。
+图像或图层属性。 应用到图层0，如果 `layer=comp`. 被效果层忽略。
 
 *`object`* 不得解析为包含 `src=` 或 `mask=` 中的命令 `catalog::Modifier`.
 
@@ -49,11 +49,11 @@ ht-degree: 1%
 
 ## 默认 {#section-10cf793c665f49deb1b248faa3b618a9}
 
-如果 `mask=` 未显式指定，并且如果图层图像与目录条目相关联，则 `catalog::MaskPath` 已使用。 否则，将使用图层图像的Alpha通道（如果存在）。 如果没有Alpha通道，则图层没有蒙版，并且图层矩形呈现为完全不透明。
+如果 `mask=` 未显式指定，并且如果图层图像与目录条目关联，则 `catalog::MaskPath` 已使用。 否则，将使用图层图像的Alpha通道（如果存在）。 如果没有Alpha通道，则图层没有蒙版，并且图层矩形呈现为完全不透明。
 
 ## 示例 {#section-1bbe623f7c744bdf97b596458d8e7ea3}
 
-使用多个单独的蒙版为图像的不同区域着色。 着色、被遮罩的区域层叠在原始、未修改的图像之上：
+使用多个单独的蒙版为图像的不同区域着色。 着色的、被蒙版的区域被叠加在原始的、未修改的图像的顶部：
 
 `http://server/myRootId/myImageId?wid=500& layer=1&src=myImageId&mask=myMask1&op_colorize=200,0,0& layer=2&src=myImageId&mask=myMask2&op_colorize=0,200,0& layer=3&src=myImageId&mask=myMask3&op_colorize=0,0,200`
 

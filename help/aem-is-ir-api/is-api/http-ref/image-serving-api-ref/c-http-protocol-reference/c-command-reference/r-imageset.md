@@ -1,20 +1,20 @@
 ---
-description: 图像集. 指定在生成req=set响应时使用的图像集值。
+title: 图像集
+description: 图像集. 指定生成req=set响应时使用的图像集值。
 solution: Experience Manager
-title: imageSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 8%
 
 ---
 
-# imageSet{#imageset}
+# 图像集{#imageset}
 
-图像集. 指定在生成req=set响应时使用的图像集值。
+图像集. 指定生成req=set响应时使用的图像集值。
 
 `imageSet=val`
 
@@ -25,7 +25,7 @@ ht-degree: 8%
  </tr> 
 </table>
 
-要对值进行转义并确保包含的任何修饰符都不会被解释为URL查询字符串的一部分，应将整个值括在大括号中。 如果在Net路径中指定了目录记录，则此修饰符值将覆盖 `catalog::ImageSet` 从主录象中。 有关有效图像集语法的说明，请参阅 `catalog::ImageSet` 文档。
+要对值进行转义并确保包含的任何修饰符都不会解释为URL查询字符串的一部分，应将整个值括在大括号中。 如果在网络路径中指定了目录记录，则此修饰符值将覆盖 `catalog::ImageSet` 从主记录。 有关有效图像集语法的说明，请参阅 `catalog::ImageSet` 文档。
 
 ## 属性 {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 

@@ -1,11 +1,11 @@
 ---
+title: op_blur
 description: 模糊图像。 将模糊滤镜应用于图像数据。
 solution: Experience Manager
-title: op_blur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 属性 {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-“图层”命令。 应用于当前图层或复合图像，如果 `layer=comp`.
+图层命令。 应用到当前图层或复合图像，如果 `layer=comp`.
 
 ## 默认 {#section-a976cb86620d489085a8fc9bae2626c0}
 

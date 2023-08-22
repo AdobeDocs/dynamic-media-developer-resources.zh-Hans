@@ -1,11 +1,11 @@
 ---
-description: Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单位）。
-solution: Experience Manager
 title: jpegSize
+description: Jpeg大小（千字节）。 指定JPEG响应的最大大小（以KB为单位）。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # jpegSize{#jpegsize}
 
-Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单位）。
+Jpeg大小（千字节）。 指定JPEG响应的最大大小（以KB为单位）。
 
 `jpegSize= *`大小`*`
 
@@ -25,11 +25,11 @@ Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单�
  </tr> 
 </table>
 
-如果将此值设置为正值，并且具有指定JPEG质量的JPEG响应未超过此值，则该图像将作为响应返回。 否则，JPEG质量会下降，直到生成符合指定大小的图像，或直到确定它无法适合。 在后一种情况下，请求失败并出现错误。
+如果将此值设置为正值，并且指定JPEG质量的JPEG响应未超过此值，则该图像将作为响应返回。 否则，JPEG质量会降低，直到生成符合指定大小的图像，或直到确定它无法适合。 在后一种情况下，请求会失败并出现错误。
 
 值为0表示响应不受大小限制。
 
-不允许使用负值。
+不允许负值。
 
 ## 属性 {#section-19e544e77d35478b98fe8666f27d6968}
 
@@ -41,7 +41,7 @@ Jpeg大小（以KB为单位）。 指定JPEG响应的最大大小（以KB为单�
 
 ## 示例 {#section-46bf806fd3ef4875b7726df32b6f834d}
 
-对于内存有限的设备，保证的大小不会太大：
+保证的大小不会太大，无法传送到内存有限的设备：
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300&jpegSize=10`
 

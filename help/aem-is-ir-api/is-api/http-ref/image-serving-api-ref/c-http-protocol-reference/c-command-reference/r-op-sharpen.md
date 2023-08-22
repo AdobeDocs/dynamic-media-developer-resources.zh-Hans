@@ -1,11 +1,11 @@
 ---
-description: 锐化图像。 如果在所有缩放操作之后，图层=comp，则将基本锐化滤镜应用于图层或最终视图图像。
-solution: Experience Manager
 title: op_sharpen
+description: 锐化图像。 如果图层=comp，则在全部缩放后将基本锐化滤镜应用于图层或最终视图图像。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 6%
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # op_sharpen{#op-sharpen}
 
-锐化图像。 如果在所有缩放操作之后，图层=comp，则将基本锐化滤镜应用于图层或最终视图图像。
+锐化图像。 如果图层=comp，则在全部缩放后将基本锐化滤镜应用于图层或最终视图图像。
 
 `op_sharpen=0|1`
 
-该图层掩模或复合掩模也被锐化。
+图层蒙版或复合蒙版也被锐化。
 
 ## 属性 {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-层属性或视图属性。 应用于当前图层或最终视图图像，如果 `layer=comp`. 被效果层忽略。
+图层属性或视图属性。 应用到当前图层或最终视图图像，如果 `layer=comp`. 被效果层忽略。
 
 ## 默认 {#section-665709700fff458e9dbbf8a78e8ecf71}
 

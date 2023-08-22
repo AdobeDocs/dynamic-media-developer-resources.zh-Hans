@@ -1,20 +1,20 @@
 ---
-description: 添加噪音。 将随机噪声添加到前景图像数据，或添加到效果图层的前景。
+title: op噪声
+description: 添加噪音。 将随机噪声添加到前景图像数据，或添加到效果图层的前景中。
 solution: Experience Manager
-title: op_噪声
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
-# op_噪声{#op-noise}
+# op噪声{#op-noise}
 
-添加噪音。 将随机噪声添加到前景图像数据，或添加到效果图层的前景。
+添加噪音。 将随机噪声添加到前景图像数据，或添加到效果图层的前景中。
 
 `op_noise= *`val`*[,uniform|gaussian[, *`单色`*]]`
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 属性 {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-“图层”命令。 应用于当前图层或复合图像，如果 `layer=comp`.
+图层命令。 应用到当前图层或复合图像，如果 `layer=comp`.
 
 ## 默认 {#section-d548868fa4b64a60bcb481cad1f8113e}
 

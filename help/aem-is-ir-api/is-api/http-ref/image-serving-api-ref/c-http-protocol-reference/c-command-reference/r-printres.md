@@ -1,11 +1,11 @@
 ---
+title: printRes
 description: 打印分辨率。 覆盖响应图像中嵌入的打印分辨率值。
 solution: Experience Manager
-title: printRes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-打印分辨率通常由定义 `catalog::PrintResolution` 如果是目录条目，则按源图像中嵌入的打印分辨率值。 对于模板或图层复合图像，响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
+打印分辨率通常由定义 `catalog::PrintResolution` 如果为目录条目，则按源图像中嵌入的打印分辨率值指定。 对于模板或分层复合图像，响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
 
 设置打印分辨率不会更改回复图像的像素大小。
 

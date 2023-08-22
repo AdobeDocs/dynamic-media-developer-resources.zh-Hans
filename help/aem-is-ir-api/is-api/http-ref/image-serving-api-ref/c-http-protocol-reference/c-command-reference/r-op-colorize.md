@@ -1,11 +1,11 @@
 ---
+title: op_colorize
 description: 为图像着色。 为图像数据着色，同时保留阴影和高光。
 solution: Experience Manager
-title: op_colorize
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 4%
@@ -33,23 +33,23 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 对比 </span> </p> </td> 
-  <td class="stentry"> <p>对比度范围（实数0..100）；设置为0可保留输入对比度。 </p> </td> 
+  <td class="stentry"> <p>对比度范围（实际0..100）；设置为0以保留输入对比度。 </p> </td> 
  </tr> 
 </table>
 
 第二个参数指定在着色之前是否应调整源图像的亮度。 指定 `off` 禁用自动亮度补偿或 `norm` 自动调整亮度，使中间值达到50%强度。
 
-设置 *`contrast`* 值为0以保留输入图像的对比度范围，或使用大于0的值指定所需的对比度范围。 值 100 将使对比度最大化。典型值可能介于30和70之间。
+设置 *`contrast`* 值为0表示保留输入图像的对比度范围，或者使用大于0的值指定所需的对比度范围。 值 100 将使对比度最大化。典型值可能介于30和70之间。
 
 除了内置的亮度和对比度调整外， `op_brightness=` 和 `op_contrast=` 可用于进一步微调着色效果。
 
 >[!NOTE]
 >
->彩色化算法只使用图像数据的亮度信息。 这种灰度转换非常简单，而且不受颜色管理。 `op_colorize` 始终输出RGB数据，即使输入是灰度或CMYK也是如此。
+>彩色化算法仅使用图像数据中的亮度信息。 这种灰度转换非常简单，而且不受颜色管理。 `op_colorize` 始终输出RGB数据，即使输入是灰度或CMYK也是如此。
 
 ## 属性 {#section-c0f8bd424b864153a1108f384939f55b}
 
-“图层”命令。 应用于当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
+图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
 
 *`color`* 必须为RGB值；灰色或CMYK *`color`* 不支持该值。
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 ## 默认 {#section-0c3ea13efbac432c8970862d223e39b3}
 
-`None`，表示无着色。 第二个和第三个参数默认为 `norm,0`，可进行自动亮度补偿，且对比度不会发生更改。
+`None`，表示无着色。 第二个和第三个参数默认为 `norm,0`，可进行自动亮度补偿且对比度不会更改。
 
 ## 示例 {#section-4c418d7b5e97409d9a448b8f08a1eab3}
 

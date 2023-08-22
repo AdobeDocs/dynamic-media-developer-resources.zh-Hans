@@ -1,11 +1,11 @@
 ---
+title: op_grow
 description: 膨胀/腐蚀图像。 对图像数据应用形态学膨胀（半径> 0）或腐蚀（半径< 0）。
 solution: Experience Manager
-title: op_grow
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 2%
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 `*`半径`*` 以相对于复合图像的像素为单位。 如果图像是彩色的，则每个组件单独进行处理。
 
-主要用于修改图层效果的大小。 在文本图层或带有蒙版的纯色图层上实现特殊效果也很有用。
+主要用于修改图层效果的大小。 在文本图层或带蒙版的纯色图层上实现特殊效果也很有用。
 
 ## 属性 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-层属性。 应用于当前图层或复合图像，如果 `layer=comp`.
+层属性。 应用到当前图层或复合图像，如果 `layer=comp`.
 
 ## 默认 {#section-14c908bb87cb42acbea709effea2f964}
 

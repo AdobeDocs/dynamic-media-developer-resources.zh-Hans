@@ -1,11 +1,11 @@
 ---
-description: 图像锚点。 定义图像、纯色或文本边界框矩形的锚点，然后应用转换(crop=、scale=、rotate=、flip=)。 也用作rotate=的旋转中心。
-solution: Experience Manager
 title: 锚记
+description: 图像锚点。 定义在应用转换(crop=、scale=、rotate=、flip=)之前，图像、纯色或文本边框矩形的锚点。 也用作rotate=的旋转中心。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 锚记{#anchor}
 
-图像锚点。 定义图像、纯色或文本边界框矩形的锚点，然后应用转换(crop=、scale=、rotate=、flip=)。 也用作rotate=的旋转中心。
+图像锚点。 定义在应用转换(crop=、scale=、rotate=、flip=)之前，图像、纯色或文本边框矩形的锚点。 也用作rotate=的旋转中心。
 
 `anchor= *`坐标`*`
 
@@ -27,23 +27,23 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 
-  <td class="stentry"> <p>距源图像中心的归一化偏移（实数、实数） </p></td> 
+  <td class="stentry"> <p>距源图像中心的规范化偏移（实数、实数） </p></td> 
  </tr> 
 </table>
 
-锚点将随图像一起变换，并成为图层原点(除非 `origin=` 指定了，在这种情况下 `anchor=` 仅用作旋转中心 `rotate=`)。
+锚点将随图像一起转换，并成为图层原点(除非 `origin=` 指定了，在这种情况下 `anchor=` 仅用作旋转中心 `rotate=`)。
 
-`anchorN=0,0` 将图像锚点放在源图像的中心。 `anchorN=-0.5,-0.5` 或 `anchor=0,0` 位于左上角，并且 `anchorN=0.5,0.5` 位于源图像的右下角。
+`anchorN=0,0` 将图像锚点放置在源图像的中心。 `anchorN=-0.5,-0.5` 或 `anchor=0,0` 位于左上角，并且 `anchorN=0.5,0.5` 位于源图像的右下角。
 
 ## 属性 {#section-f08942bc6aae46a8b5d341faaff80640}
 
-源图像属性。 应用到当前图层或图层0，如果 `layer=comp`.
+源图像属性。 应用到当前图层，或应用到图层0，如果 `layer=comp`.
 
 ## 默认 {#section-35d369fab1254f1a9b91684a6e169ad1}
 
-如果 `anchor=` 未指定，使用了catalog：：Anchor。 如果 `catalog::Anchor` 未定义，则使用图像矩形的中心(与指定 `anchorN=0,0`)。
+如果 `anchor=` 未指定，使用catalog：：Anchor。 如果 `catalog::Anchor` 未定义，则使用图像矩形的中心(与指定 `anchorN=0,0`)。
 
-涉及以下内容的文本图层 `textPs=` 和涉及以下内容的层： `clipPath=` 可能有不同的默认锚点。
+涉及以下内容的文本图层 `textPs=` 和涉及以下内容的层 `clipPath=` 可能具有不同的默认锚点。
 
 ## 示例 {#section-cc127e6b1ea94524900b5c0dd8b4c7ec}
 

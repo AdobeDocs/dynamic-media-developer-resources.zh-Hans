@@ -1,11 +1,11 @@
 ---
-description: 反向图层。 在应用crop=和rotate=和extend=之前水平、垂直或同时翻转图层。
-solution: Experience Manager
 title: 翻转
+description: 翻转图层。 在应用crop=和rotate=和extend=之前水平、垂直或同时翻转图层。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -14,14 +14,14 @@ ht-degree: 2%
 
 # 翻转{#flip}
 
-反向图层。 在应用crop=和rotate=和extend=之前水平、垂直或同时翻转图层。
+翻转图层。 在应用crop=和rotate=和extend=之前水平、垂直或同时翻转图层。
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>水平翻转图层（左右翻转）。 </p> </td> 
+  <td class="stentry"> <p>水平翻转图层（从左到右）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 也可以应用于文本图层。
 
-一些命令，包括 `extend=`时，隐式应用于图层0而不是复合图层 `layer=comp` 已选中。 在此类情况下，自动分配到层0的所有命令都会在应用于的命令之前应用 `layer=comp`. 因此，当 `layer=comp`， `extend=` 之前应用 `flip=`.
+一些命令，包括 `extend=`，在以下情况下隐式应用于图层0而非复合图层： `layer=comp` 已选中。 在此类情况下，自动指定给层0的所有命令都会在应用于的命令之前应用 `layer=comp`. 因此，当 `layer=comp`， `extend=` 之前应用 `flip=`.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 属性 {#section-294da2af7be746b5adfc35e29ee68217}
 
-“图层”命令。 应用于当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
+图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
 
 ## 默认 {#section-502044f81a89492198d5f12a738459ea}
 

@@ -1,11 +1,11 @@
 ---
+title: op_saturation
 description: 调整饱和度。 更改图层或复合图像的每个可见像素的饱和度。
 solution: Experience Manager
-title: op_saturation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%
@@ -16,24 +16,24 @@ ht-degree: 2%
 
 调整饱和度。 更改图层或复合图像的每个可见像素的饱和度。
 
-`op_saturation= *`adj`*`
+`op_saturation= *`调整`*`
 
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 调整</span> </p> </td> 
   <td class="stentry"> <p>饱和度调整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` 使图像完全去饱和。
+`op_saturation=-100` 完全消除图像的饱和度。
 
 ## 属性 {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-“图层”命令。 应用于当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
+图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
 
 ## 默认 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`，表示饱和度没有变化。 在应用操作之前，CMYK图像或图层会转换为RGB。
+`op_saturation=0`，饱和度不变。 在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 示例 {#section-033b272f1b7e4efeb94e841fd8095357}
 

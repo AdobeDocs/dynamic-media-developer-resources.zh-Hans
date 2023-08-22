@@ -1,11 +1,11 @@
 ---
+title: 模板
 description: 合成模板。 允许指定位于主目录以外的目录中的合成模板。
 solution: Experience Manager
-title: 模板
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # 模板{#template}
 
-合成模板。 允许您在主目录以外的目录中指定复合模板。
+合成模板。 允许您在主目录以外的目录中指定合成模板。
 
 `template= *`模板`*`
 
@@ -27,11 +27,11 @@ ht-degree: 6%
 
 *`template`* 必须是包含模板主体的图像目录条目 `catalog::Modifier`.
 
-时间 `template=` 存在，则请求路径中指定的对象不会应用为第0层的源。 但是，它可以作为 `src=` 或 `mask=` 使用预定义的path变量在模板中的任何位置 `$object$` as a `src=` 值。 `catalog::Modifier` 请求路径中指定的对象的ID的值仅适用于 `$object$` 在模板中，而 `catalog::PostModifier` 始终应用。
+时间 `template=` 存在，则请求路径中指定的对象不会应用为第0层的源。 但是，它可以被引用为 `src=` 或 `mask=` 使用预定义的path变量在模板中的任何位置 `$object$` as a `src=` 值。 `catalog::Modifier` 请求路径中指定的对象的ID只能使用 `$object$` 在模板中，而 `catalog::PostModifier` 始终应用。
 
-层0在模板正文中定义，可以是图像、纯色、文本、嵌套或嵌入的请求层。
+层0在模板主体中定义，可以是图像、纯色、文本、嵌套或嵌入的请求层。
 
-`catalog:PostModifier` 之 *`object`* 在以下情况下被忽略 *`object`* 用于 `template=`.
+`catalog:PostModifier` 之 *`object`* 被忽略的时间 *`object`* 用于 `template=`.
 
 ## 默认 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 ## 示例 {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-请参阅中的示例 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+请参阅中的示例。 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## 另请参阅 {#section-067587444f774469931ecafd5a39834c}
 

@@ -1,11 +1,11 @@
 ---
+title: 缓存
 description: 缓存控制。 允许有选择地禁用客户端缓存（浏览器、代理服务器、网络缓存系统）和内部缓存 [!DNL Platform Server] 缓存。
 solution: Experience Manager
-title: 缓存
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -41,11 +41,11 @@ ht-degree: 1%
 
 此 `update` 关键字可用于强制更新服务器端缓存条目。 在更改了缓存验证机制不直接跟踪的资源后（例如，修改字体文件而不更改其文件名或关联的字体ID时），此功能非常有用。
 
-如果在嵌套请求中指定， `cache=on` 对嵌套请求生成的图像启用持久性服务器端缓存。 仅当应使用完全相同的参数重复调用相同的嵌套请求时，才应小心为嵌套请求启用缓存。
+如果在嵌套请求中指定， `cache=on` 启用嵌套请求生成的图像的服务器端持久缓存。 只有当同一嵌套请求应使用完全相同的参数重复调用时，才应当注意为嵌套请求启用缓存。
 
 ## 属性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 *`clientControl`*被忽略(如果 `catalog::Expiration` 具有负值)。
+请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 *`clientControl`*在图像目录禁用客户端缓存时忽略(如果 `catalog::Expiration` 具有负值)。
 
 客户端缓存控制( `on` 和 `off` 仅适用于)也可用于静态内容请求 [!DNL /is/content/].
 
@@ -55,4 +55,4 @@ ht-degree: 1%
 
 ## 另请参阅 {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
-[catalog：：到期](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ， [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[catalog：：过期时间](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ， [需要=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
