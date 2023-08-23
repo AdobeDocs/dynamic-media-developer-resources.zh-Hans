@@ -4,10 +4,10 @@ description: 设备像素比率(DPR)&mdash；也称为CSS像素比率&mdash；�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 3%
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+DPR值基于捆绑的CDN中检测到的客户端值。 这些值有时不准确。 例如，iPhone5与 `dpr=2`和dpr=3的iPhone12，都会显示 `dpr=2`. 但是，对于高分辨率设备，发送 `dpr=2` 比发送好 `dpr=1`. 但是，克服这种不准确性的最佳方法是使用客户端DPR为您提供100%准确的值。 它适用于任何设备，无论是Apple还是任何其他已启动的设备。 请参阅 [使用具有客户端设备像素比的智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## 属性
 
 
@@ -60,4 +62,4 @@ ht-degree: 3%
 
 ## 另请参阅
 
-[网络](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)， [智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[BFC](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)， [网络](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)， [智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

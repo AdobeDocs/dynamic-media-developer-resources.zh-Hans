@@ -4,10 +4,10 @@ description: 了解如何使用网络带宽优化来根据实际网络带宽调�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '145'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-DPR和网络带宽值基于捆绑的CDN所检测到的客户端值。 这些值有时不准确。 例如，iPhone5与 `dpr=2`和iPhone12和 `dpr=3`，都显示 `dpr=2`. 但是，对于高分辨率设备，发送 `dpr=2` 比发送dpr=1要好。 但是，克服这种不准确性的最佳方法是使用客户端DPR为您提供100%准确的值。 它适用于任何设备，无论是Apple还是任何其他已启动的设备。 请参阅 [使用具有客户端设备像素比的智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+网络带宽值基于捆绑的CDN的检测到的客户端值。
 
 ## 属性
 
@@ -42,4 +42,4 @@ DPR和网络带宽值基于捆绑的CDN所检测到的客户端值。 这些值�
 
 ## 另请参阅
 
-[drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)， [智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[BFC](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)， [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)， [智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
