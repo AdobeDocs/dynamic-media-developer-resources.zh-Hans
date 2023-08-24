@@ -4,9 +4,9 @@ description: 设备像素比率(DPR)&mdash；也称为CSS像素比率&mdash；�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ DPR值基于捆绑的CDN中检测到的客户端值。 这些值有时不准确�
 
 ## 属性
 
-
+请求属性。 在以下情况下它没有效果： `dpr` 关闭或 `dprValue=1`.
 
 ## 默认
 
