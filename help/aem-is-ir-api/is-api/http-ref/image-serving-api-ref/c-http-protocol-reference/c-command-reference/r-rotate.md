@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-正角度顺时针旋转。 图层锚点( `anchor=` 或 `catalog::Anchor`)用作旋转中心。 该图层矩形被放大并且根据需要围绕旋转的数据进行嵌合，以避免裁切。 在填充图层的背景区域后应用旋转 `color=`. `bgColor=` 可用于在旋转后为边框矩形添加背景颜色。
+正角度顺时针旋转。 图层锚点( `anchor=` 或 `catalog::Anchor`)用作旋转中心。 该图层矩形被放大并且根据需要围绕旋转的数据进行嵌合，以避免裁切。 在填充图层的背景区域后应用旋转 `color=`. 修饰符 `bgColor=` 可用于在旋转后为边框矩形添加背景颜色。
 
 ## 属性 {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ ht-degree: 2%
 
 ## 示例 {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-在图像目录中的图像的左上角附近放置“待售”标签。 标签图像已针对300x300视图正确调整大小，应该向左旋转30度。 使用白色、半不透明的颜色填充文本框以增强标签。
+在图像目录中的图像的左上角附近放置“待售”标签。 标签图像的大小已适用于300x300视图，应该向左旋转30°。 要增强标签，请使用白色、半不透明的颜色填充文本框。
 
 `http:// *`伺服器`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-我们申请 `size=` 到图层0以设置视图大小，而不是使用 `wid=` 和 `hei=`. 这允许 `myImageId` 以调整大小，同时不更改 `labelImage`. 我们还需要指定 `scl=1`，否则，复合图像可能会缩放到 `attribute::DefaultPix` （除非设置为0,0）。 `color=` 在旋转之前将半不透明的背景颜色添加到文本框。
+应用 `size=` 到图层0以设置视图大小，而不是使用 `wid=` 和 `hei=`. 此方法允许 `myImageId` 以调整大小，同时不更改 `labelImage`. 此外，指定 `scl=1`，否则，复合图像可能会缩放到 `attribute::DefaultPix` （除非设置为0,0）。 修饰符 `color=` 在旋转之前将半不透明的背景颜色添加到文本框。
 
-两个层的原点都设置为左上角，以实现所需的对齐。 请注意，图层1的原点适用于 `labelImage`在它旋转之后。
+两个图层的原点都设置为左上角，以实现所需的对齐。 图层1的原点适用于 `labelImage`在旋转之后。
 
 请参阅 [示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) 在 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) 有关旋转文本的示例。
 

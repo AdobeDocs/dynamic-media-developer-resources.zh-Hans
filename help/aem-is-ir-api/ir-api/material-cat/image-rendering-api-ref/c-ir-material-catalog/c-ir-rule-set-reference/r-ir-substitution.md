@@ -1,11 +1,11 @@
 ---
-description: 替换字符串元素。 可选，位于 <rule> 元素。
-solution: Experience Manager
 title: 替换
+description: 替换字符串元素。 中的可选 <rule> 元素。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 替换{#substitution}
 
-替换字符串元素。 可选，位于 `<rule>` 元素。
+替换字符串元素。 中的可选 `<rule>` 元素。
 
 ## 属性 {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -26,11 +26,11 @@ ht-degree: 3%
 
 ## 说明 {#section-b6ab78ca5b0b4d508c71e553566cc9f3}
 
-为路径或查询中的匹配字符串或子字符串定义替换字符串。
+为路径或查询中匹配的字符串或子字符串定义替换字符串。
 
 如果模式表达式包含子表达式（用括号分隔），则第一个匹配的子字符串将被替换为替换字符串。 如果模式表达式不包含子表达式，则将替换整个匹配的字符串。
 
-如果 `<expression>` 为空或不存在，则替代字符串将附加到路径或查询中。
+如果 `<expression>` 为空或不存在，替换字符串将被附加到路径或查询中。
 
 如果 `<substitution>` 为空，则会删除匹配的字符串或子字符串。 如果 `<substitution>` 未指定，不会修改路径或查询字符串。
 

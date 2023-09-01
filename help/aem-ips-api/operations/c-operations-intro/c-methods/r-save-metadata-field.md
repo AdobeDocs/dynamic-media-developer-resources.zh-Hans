@@ -1,20 +1,20 @@
 ---
-description: 创建或编辑元数据字段。 省略可选字段句柄可创建新的元数据字段。
-solution: Experience Manager
 title: saveMetadataField
+description: 创建或编辑元数据字段。 省略可选字段句柄以创建元数据字段。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 16%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-创建或编辑元数据字段。 省略可选字段句柄可创建新的元数据字段。
+创建或编辑元数据字段。 省略可选字段句柄以创建元数据字段。
 
 >[!NOTE]
 >
@@ -75,19 +75,19 @@ ht-degree: 16%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 所有资产的字段的默认值。 </td> 
+   <td colname="col4"> 所有资源的字段默认值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或显示IPS系统特定的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isForced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在中设置非法值，则会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在中设置非法值时会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ ht-degree: 16%
 
 ## 示例 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-此代码示例创建一个受资源类型和元数据字段类型字符串常量约束的新元数据字段。 如果 `fieldHandle` 元素具有有效的字段句柄值，它会更改元数据值，并获取您在请求中指定的相同字段句柄。
+此代码示例创建一个受资源类型和元数据字段类型字符串常量约束的元数据字段。 如果 `fieldHandle` 元素具有有效的字段句柄值，它会更改元数据值，并获取您在请求中指定的相同字段句柄。
 
 **请求**
 

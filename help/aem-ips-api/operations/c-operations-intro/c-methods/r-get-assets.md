@@ -1,20 +1,20 @@
 ---
-description: 从IPS返回资产。
-solution: Experience Manager
 title: getAssets
+description: 从图像制作系统(IPS)返回资产。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 21%
+source-wordcount: '131'
+ht-degree: 19%
 
 ---
 
 # getAssets{#getassets}
 
-从IPS返回资产。
+从图像制作系统(IPS)返回资产。
 
 语法
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->仅返回用户有权访问的资产。
+>仅返回用户有权访问的那些资源。
 
 ## 参数 {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
@@ -70,7 +70,7 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：HandleArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>根文件夹，用于在叶级别检索文件夹和所有子文件夹。 如果排除，则使用公司根目录。 </p> </td> 
+   <td colname="col4"> <p>用于检索叶级别的文件夹和所有子文件夹的根文件夹。 如果排除，则使用公司根目录。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -87,7 +87,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**输出(getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -103,7 +103,7 @@ ht-degree: 21%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：AssetArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>符合筛选条件的资源数组。 </p> </td> 
+   <td colname="col4"> <p>与筛选条件匹配的资源数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

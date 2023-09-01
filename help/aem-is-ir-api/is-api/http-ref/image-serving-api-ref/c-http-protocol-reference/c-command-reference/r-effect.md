@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 3%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 3%
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>效果层编号（int不等于0）。 </p></td> 
+  <td class="stentry"> <p>效果图层编号（int不等于0）。 </p></td> 
  </tr> 
 </table>
 
-新段中的所有命令都应用于指定的效果层。 效果层段由下一个终止 `layer=` 或 `effect=` 命令或请求结尾处发送。
+新段中的所有命令都应用于指定的效果层。 效果层段由下一段终止 `layer=` 或 `effect=` 命令或请求结尾处发送。
 
-*`n`* 对于外层效果（即父层后的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。 效果图层编号不必连续。
+值 *`n`* 对于外层效果（即父层后面的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。 效果图层编号不必是连续的。
 
 如果同一父层有多个效果层，则效果层编号指定z顺序。 编号较高的图层位于编号较低的图层之上。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 属性 {#section-e11f795deff345779ce280a82cf221ca}
 
-“效果层”命令。 *`n`* 不得为0。
+效果层命令。 值 *`n`* 不得为0。
 
 ## 默认 {#section-84bbe1cfe7a94040827c994323ac59d4}
 
@@ -47,4 +47,4 @@ ht-degree: 3%
 
 ## 另请参阅 {#section-573273e9e0e64103a5764075f5e50180}
 
-[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)
+[图层=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

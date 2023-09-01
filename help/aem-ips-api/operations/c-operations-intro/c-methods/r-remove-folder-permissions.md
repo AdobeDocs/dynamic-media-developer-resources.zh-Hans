@@ -1,14 +1,14 @@
 ---
+title: removeFolderPermissions
 description: 删除文件夹权限。
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 17%
+source-wordcount: '105'
+ht-degree: 18%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 17%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司处理，其中包含您要删除的具有权限的文件夹。 </td> 
+   <td colname="col4"> 公司的句柄，该公司具有您要删除的权限文件夹。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 处理文件夹。 </td> 
+   <td colname="col4"> 文件夹句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChilds</span> </span> </td> 
@@ -67,11 +67,11 @@ ht-degree: 17%
 
 **输出(removeFolderPermissionsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-此代码示例从文件夹及其子文件夹中删除权限。 设置 `updateChildren` 到 `false` 如果您只需要从父文件夹中删除权限。
+此代码示例从文件夹及其子文件夹中删除权限。 设置 `updateChildren` 到 `false` 仅从父文件夹中删除权限。
 
 **请求**
 

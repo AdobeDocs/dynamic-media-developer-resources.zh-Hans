@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 3%
 
 ---
@@ -37,15 +37,15 @@ ht-degree: 3%
  </tr> 
 </table>
 
-*`object`* 如果不同于工作配置文件，则指定图像应转换到的输出色彩空间配置文件。 *`profile`* 必须为有效的 `icc::Name` 在图像目录或默认目录的ICC配置文件映射中定义，或配置文件文件的相对路径(通常使用 [!DNL .icc] 或 [!DNL .icm] 后缀)。 请参阅 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) 以了解其他信息。
+值 *`object`* 如果不同于工作配置文件，则指定图像应转换到的输出色彩空间配置文件。 值 *`profile`* 必须为有效的 `icc::Name` 在图像目录或默认目录的ICC配置文件映射中定义，或配置文件文件的相对路径(通常使用 [!DNL .icc] 或 [!DNL .icm] 后缀)。 请参阅 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) 以了解其他信息。
 
 >[!NOTE]
 >
->*`object`* 不能包含“，”字符，即使使用HTTP编码也是如此。
+>值 *`object`* 不能包含“，”字符，即使使用HTTP编码也是如此。
 
-*`renderIntent`* 允许覆盖默认的调色。
+值 *`renderIntent`* 允许覆盖默认的调色。
 
-*`blackpointComp`* 如果输出配置文件支持此功能，则启用黑场补偿。
+值 *`blackpointComp`* 如果输出配置文件支持此功能，则启用黑场补偿。
 
 >[!NOTE]
 >
@@ -53,17 +53,17 @@ ht-degree: 3%
 
 注意
 
-*`dither`* 启用仿色（实际上是误差扩散），可避免或减少色带伪像。
+修饰符 *`dither`* 启用仿色（实际上是误差扩散），可避免或减少色带伪像。
 
 ## 属性 {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-请求属性。 如果使用指定映像类型，服务器将返回错误 `fmt=` 不匹配 *`profile`*.
+请求属性。 如果使用指定映像类型，则服务器返回错误 `fmt=` 不匹配 *`profile`*.
 
-*`renderIntent`* 和 *`blackpointComp`* 与指定的ICC配置文件不兼容将被忽略。 CMYK输出设备配置文件更有可能支持不同的渲染意图。
+修饰符 *`renderIntent`* 和 *`blackpointComp`* 与指定的ICC配置文件不兼容将被忽略。 CMYK输出设备配置文件更有可能支持不同的渲染意图。
 
 ## 默认 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-如果启用了颜色管理并且 `icc=` 未指定，服务器将交付转换为输出配置文件的图像( `attribute::IccProfile*`)匹配指定的图像类型 `fmt=`.
+如果启用了颜色管理并且 `icc=` 未指定，服务器将图像转换为输出配置文件( `attribute::IccProfile*`)匹配指定的图像类型 `fmt=`.
 
 如果未指定， *`renderIntent`* 继承自 `attribute::IccRenderIntent`， *`blackpointComp`* 继承自 `attribute::IccBlackPointCompensation`、和 *`dither`* 继承自 `attribute::IccDither`.
 

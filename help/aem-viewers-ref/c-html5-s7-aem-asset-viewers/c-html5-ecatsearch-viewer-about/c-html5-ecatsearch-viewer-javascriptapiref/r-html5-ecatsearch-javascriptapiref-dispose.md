@@ -1,13 +1,13 @@
 ---
+title: 处置
 description: eCatalog查看器的JavaScript API参考。
 solution: Experience Manager
-title: 处置
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fda6d50f-0e1b-436c-af2e-1ccc9cd51c39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ eCatalog查看器的JavaScript API参考。
 
 网页代码还应删除查看器实例变量，并从Web浏览器内存中完全删除查看器。
 
-如果网页代码已直接在查看器使用的Viewer SDK组件上注册了事件侦听器，或已存储对这些组件的外部引用，则必须由网页代码显式取消注册此类侦听器，并且必须在调用之前删除此类外部组件引用 [!DNL `dispose()`].
+如果网页代码已直接在查看器使用的Viewer SDK组件上注册了事件侦听器（或已存储对这些组件的外部引用），则此类侦听器必须由网页代码明确取消注册。 而且，在调用之前必须删除此类外部组件引用 [!DNL `dispose()`].
 
 之后不再访问查看器API [!DNL `dispose()`] 称为。
 

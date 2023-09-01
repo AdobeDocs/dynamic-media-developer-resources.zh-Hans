@@ -1,13 +1,13 @@
 ---
+title: getPublishContext
 description: getPublishContext
 solution: Experience Manager
-title: getPublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '86'
 ht-degree: 24%
 
 ---
@@ -33,7 +33,6 @@ ht-degree: 24%
 >* 用户必须具有读取权限才能返回资产。
 >* 所有用户都有权访问共享公司。
 >
-
 
 ## 参数 {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
@@ -62,7 +61,7 @@ ht-degree: 24%
    <td colname="col4">要返回的发布上下文的类型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> Imageserving</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 图像渲染</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 视频</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> 服务器目录</span></li>
     </ul></td> 
@@ -74,7 +73,7 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| publishContextArray | 类型：PublishContextArray | 是 | 公司的发布上下文数组，根据需要按上下文类型进行筛选。 |
+| publishContextArray | 类型：PublishContextArray | 是 | 公司的发布上下文数组，如有必要，按上下文类型进行筛选。 |
 
 ## 示例 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

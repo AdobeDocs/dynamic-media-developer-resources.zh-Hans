@@ -1,24 +1,24 @@
 ---
 title: illum
-description: 照明地图选择器。 指定此材质首选渲染的照明映射。
+description: 照明地图选择器。 指定此材质希望呈现的照明映射。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 3%
 
 ---
 
 # illum{#illum}
 
-照明地图选择器。 指定此材质首选渲染的照明映射。
+照明地图选择器。 指定此材质希望呈现的照明映射。
 
 `illum=-1|0|1|2`
 
-如果指定的照明地图在目标晕影中不可用，则改用最近的可用地图。
+如果指定的照明映射在目标晕影中不可用，则改用最近的可用映射。
 
 `illum=-1` 指定根据以下条件自动选择照明地图 `gloss=` 值。
 

@@ -1,62 +1,61 @@
 ---
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '535'
-ht-degree: 2%
+source-wordcount: '511'
+ht-degree: 0%
 
 ---
-# 为AdobeDynamic Media开发人员资源提供帮助文档
+# 为AdobeDynamic Media开发人员资源文档贡献内容
 
-感谢您选择为AdobeDynamic Media开发人员资源文档作贡献！ 我们欢迎来自整个读者社区以及Adobe同事的内容贡献。
+感谢您选择为AdobeDynamic Media开发人员资源文档贡献内容！ 我们欢迎来自整个读者群体和Adobe员工的内容贡献。
 
-本文描述了您如何做贡献，并指出了您做出贡献时应遵循的准则。
+本文件介绍了如何贡献内容，并指出了在贡献内容时应遵循的准则。
 
-## Adobe开放源代码行为准则
+## Adobe开源项目行为准则
 
-本项目已通过[Adobe开放源代码行为准则](code-of-conduct.md)。 在提供文档时，即表示您同意遵守本行为准则。 请向[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com)报告不可接受的行为。
+该项目已采用 [Adobe开源项目行为准则](code-of-conduct.md). 您通过向文档投稿，同意遵守本行为准则。 向报告不可接受的行为 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## 贡献指南
+## 内容贡献准则
 
-虽然我们欢迎为改进文档所做的任何贡献，但我们确实要求尽可能遵守某些准则和标准。 请查阅[AdobeDynamic Media经典文档指南](guidelines.md)以了解更多信息。
+虽然我们欢迎任何有助于改进文档的投稿，但我们确实要求投稿尽可能遵守某些准则和标准。 查看 [Adobe Dynamic Media Classic文档内容贡献准则](guidelines.md) 以了解更多信息。
 
-## 如何提供Contribute
+## 如何投稿
 
-我们希望尽可能轻松地提交您的贡献。 您可以通过两种方式进行贡献：
+我们希望为您提供尽可能简单的投稿。 您可以通过两种方式贡献内容：
 
-* [创建期刊](#create-an-issue)
+* [创建问题](#create-an-issue)
 * [创建拉取请求](#create-a-pull-request)
 
-您选择的方法取决于您自己在GitHub中编辑文档时的舒适度。
+至于选择哪种方法，取决于您自行在GitHub中编辑文档的意愿如何。
 
 >[!NOTE]
 >
->您提交的稿件由[Adobe使用条款所涵盖。](https://www.adobe.com/legal/terms.html)
+>您提交的内容将受 [Adobe使用条款。](https://www.adobe.com/legal/terms.html)
 
-### 创建问题{#create-an-issue}
+### 创建问题 {#create-an-issue}
 
-您是否有建议、对当前文档的观察或对某些内容的描述提出疑问？ 然后请创建期刊。 如果您有一些内容可供参考，但您不喜欢编辑文档或自行提出拉式请求，问题也会很出色。
+您是否对当前的文档有建议或观察发现，或者对描述内容的方式存有疑问？ 如果是这样的话，请创建一个问题。 如果您希望贡献内容，但却不喜欢编辑文档或创建拉取请求，则创建问题也是很不错的选择。
 
-问题允许您轻松描述对文档进行改进的想法，文档团队成员可以查看它。 只需单击任何页面上右侧导航面板顶部的&#x200B;**记录问题**&#x200B;链接，即可创建问题。
+问题让您可以轻松地描述您对文档的改进想法，并且文档团队成员可以对其进行审核。 要创建问题，请选择 **记录问题** 任意页面右侧导航面板顶部的链接。
 
-### 创建Pull Request {#create-a-pull-request}
+### 创建拉取请求 {#create-a-pull-request}
 
-如果您发现问题并且确切了解如何解决它，请考虑创建拉入请求。 拉入请求允许您对文档进行自己的编辑，文档随后会经过文档团队成员的审阅以包含这些内容。 只需单击任何页面上右侧导航面板顶部的&#x200B;**编辑此页面**&#x200B;链接，即可进行建议的更改并创建拉入请求。
+如果您发现了问题并且确切知道如何解决该问题，请考虑创建拉取请求。 通过拉取请求，您可以自行对文档进行编辑，然后由文档团队成员进行审阅并包含。 要进行建议的更改并创建拉取请求，请选择 **编辑此页面** ，此区域位于任意页面的右侧导航面板的顶部。
 
-所有拉入请求都必须附有已签署的[参与者许可协议或CLA。](https://opensource.adobe.com/cla.html)这将允许 Adobe 在项目中再次分发您的贡献。只需提交一次AdobeCLA，如果您之前已提交过CLA，您就可以了！
+所有拉取请求都必须附有已签名的 [参与者许可协议(CLA)](https://opensource.adobe.com/cla.html. 此过程允许Adobe在项目中再次分发您贡献的内容。 只提交AdobeCLA一次。 如果您之前已提交了一份，则无需重新提交！
 
-### 快速视频简介
+### 快速视频介绍
 
-观看以下视频，快速了解如何创建问题和拉取请求。
+请观看以下视频，快速了解如何创建问题和拉取请求。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
-### 来自Adobe雇员的供款
+### Adobe雇员供款
 
-如果您是Adobe员工并且有缴费，请使用公司git中的`AdobeDocs`组织。
+如果您是Adobe员工并且有投稿，请使用 `AdobeDocs` 企业git中的组织。
 
-我们当然乐意收到任何贡献，如果您的贡献是在公共存储库中提供的，我们将审查您的贡献，但是，从Adobe员工那里提取的请求更易于处理，并且可以在公司回购协议中更快地获得批准。 请确保只在公司回购协议中讨论任何专有信息。
+我们很乐意收到任何内容并在公共存储库中对其进行审核。 但是，来自Adobe员工的拉取请求更易于处理，并且在公司存储库中的批准速度更快。 确保仅在公司存储库中讨论任何专有信息。
 
 ## 更多信息
 
-有关如何使用GitHub创作平台的更多详细信息，请参阅[Adobe文档贡献者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe文档参与者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 有关如何使用GitHub创作平台的更多详细信息。

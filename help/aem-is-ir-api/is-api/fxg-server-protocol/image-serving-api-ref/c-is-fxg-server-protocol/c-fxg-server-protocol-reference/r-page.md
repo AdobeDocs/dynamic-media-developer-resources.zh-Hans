@@ -1,11 +1,11 @@
 ---
-description: 检索页面。 检索多页FXG中的特定页面。
-solution: Experience Manager
 title: 页面
+description: 检索页面。 在多页FXG中检索特定页面。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # 页面{#page}
 
-检索页面。 检索多页FXG中的特定页面。
+检索页面。 在多页FXG中检索特定页面。
 
 `page= *`val`*`
 
@@ -27,4 +27,4 @@ ht-degree: 6%
 
 ## 默认 {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-如果 `page` 如果未指定，则会返回第一页作为光栅输出，返回所有页作为PDF输出。
+如果 `page` 如果未指定，则为光栅输出返回第一页，为PDF输出返回所有页。

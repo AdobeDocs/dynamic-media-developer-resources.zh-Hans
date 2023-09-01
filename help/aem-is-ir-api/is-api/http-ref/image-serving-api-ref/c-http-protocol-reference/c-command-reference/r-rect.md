@@ -1,20 +1,20 @@
 ---
 title: 矩形
-description: 最终视图矩形。 允许将最终视图图像拆分为若干条或拼贴，这些条或拼贴可以单独交付并由客户端无缝重组，边缘没有伪像。
+description: 最终视图矩形。 它允许将最终视图图像拆分为若干条或拼贴，这些条或拼贴可以单独交付并由客户端无缝重组，边缘没有伪像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # 矩形{#rect}
 
-最终视图矩形。 允许将最终视图图像拆分为若干条或拼贴，这些条或拼贴可以单独交付并由客户端无缝重组，边缘没有伪像。
+最终视图矩形。 它允许将最终视图图像拆分为若干条或拼贴，这些条或拼贴可以单独交付并由客户端无缝重组，边缘没有伪像。
 
 `rect= *`坐标`*, *`大小`*[, *`缩放`*]`
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->为获得使用JPEG压缩时的最佳结果，条带或拼贴大小应为JPEG编码拼贴大小（16x16像素）的倍数。
+>为获得最佳结果，当使用JPEG压缩时，条带或拼贴大小应为JPEG编码拼贴大小（16x16像素）的倍数。
 
 ## 示例 {#section-932fcfcb41d74a29bc929e4430c49601}
 
-将可打印的CMYK图像分成几个全分辨率条带以减小下载文件的大小。 如果我们请求一个连续的图像：
+将可打印的CMYK图像分成几个全分辨率条带以减小下载文件的大小。 如果您请求了连续的图像：
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ ht-degree: 1%
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-基于这些信息，我们决定想要四条600x2000像素的条纹图。 此 `rect=` 命令用于描述条带的大小和位置。
+根据此信息，需要四条600x2000像素的条带。 此 `rect=` 命令用于描述条带的大小和位置。
 
-由于此图像经常更改，因此我们将包含 `id=` 用于最大程度地降低我们最终从可能已缓存到CDN或代理服务器的旧版本图像中获得一个或多个条带的机会。 的值 `image.version` 属性用于此目的。
+由于此图像经常更改，因此 `id=` 命令包括在内。 这样做可以最大限度地减少旧版本中可能已缓存到CDN或代理服务器中的一个或多个图像条出现的机会。 的值 `image.version` 属性用于此目的。
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## 属性 {#section-aae223cee13e46d38b74680c048d945b}
 
-查看属性。 无论当前图层设置如何，均适用。
+查看属性。 无论当前图层设置如何，它都适用。
 
 在视图图像之外扩展的ROI的任何区域都填充了 `bgc=`.
 

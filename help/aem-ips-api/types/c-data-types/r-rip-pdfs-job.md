@@ -1,20 +1,20 @@
 ---
-description: 重新释放现有PDF资源的进程。
-solution: Experience Manager
 title: RipPdf作业
+description: 表示现有PDF资源的进程。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 5%
 
 ---
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-重新释放现有PDF资源的进程。
+表示现有PDF资源的进程。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：颜色管理选项</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：ColorManagementOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -89,11 +89,11 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>文件上传到的URL。 </p> </td> 
+   <td colname="col3"> <p>文件上载到的URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：图像服务发布作业</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：ImageServingPublishJob</span> </p> </td> 
    <td colname="col3"> <p>上载完成后要运行的图像服务发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 5%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 类型：VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>要在上载完成后运行的视频发布作业的作业详细信息。 </p> </td> 
+   <td colname="col3"> <p>上传完成后要运行的视频发布作业的作业详细信息。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
@@ -113,8 +113,8 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 挖空背景</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：去底色背景选项</span> </p> </td> 
-   <td colname="col3"> <p>蒙版所选图像的背景。 这样，您就可以使用主题图像以外的透明度，将其叠加到其他图层中。 </p> <p>可选. </p> <p>参见<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 去底色背景选项</a> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 类型：挖空背景选项</span> </p> </td> 
+   <td colname="col3"> <p>蒙版所选图像的背景。 此功能允许您将其叠加到其他图层中，并使其在主题图像之外透明。 </p> <p>可选. </p> <p>请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 挖空背景选项</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

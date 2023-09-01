@@ -1,20 +1,20 @@
 ---
-description: 允许管理员创建新的元数据字段以协调内容管理系统或模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
-solution: Experience Manager
 title: createMetadataField
+description: 它允许管理员创建元数据字段以协调内容管理系统或模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 13%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-允许管理员创建新的元数据字段以协调内容管理系统或模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
+它允许管理员创建元数据字段以协调内容管理系统或模板操作。 创建的元数据字段的示例包括关键字、有关图像作者的信息或版权持有人信息。
 
 语法
 
@@ -67,22 +67,22 @@ ht-degree: 13%
    <td colname="col4"> <p>要创建的元数据字段的默认值(例如， <span class="codeph"> 场景7</span>)。 </p> <p>标记字段类型不支持默认值，必须省略。 如果为标记字段类型指定了非空默认值，则会返回错误。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或显示IPS系统特定的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isForced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在中设置非法值，则会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在中设置非法值时会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTag值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可以指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 通过此选项可创建一组选定的标记可指向的共享特定值。 </td> 
   </tr> 
  </tbody> 
 </table>

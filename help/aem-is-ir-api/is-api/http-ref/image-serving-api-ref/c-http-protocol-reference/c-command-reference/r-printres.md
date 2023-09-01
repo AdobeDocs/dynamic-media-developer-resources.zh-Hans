@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-打印分辨率通常由定义 `catalog::PrintResolution` 如果为目录条目，则按源图像中嵌入的打印分辨率值指定。 对于模板或分层复合图像，响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
+打印分辨率通常由定义 `catalog::PrintResolution` 如果它是目录条目，否则按源图像中嵌入的打印分辨率值指定。 如果存在模板或分层复合图像，则响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
 
 设置打印分辨率不会更改回复图像的像素大小。
 
 ## 属性 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-请求属性。 无论当前图层设置如何，均适用。
+请求属性。 无论当前图层设置如何，它都适用。
 
 ## 默认 {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` 或嵌入到源图像中的打印分辨率。
+`catalog::PrintResolution`
+或嵌入源图像中的打印分辨率。
 
 ## 另请参阅 {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 
