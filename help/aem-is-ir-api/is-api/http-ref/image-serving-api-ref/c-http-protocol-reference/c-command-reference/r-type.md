@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-服务器会将值与的值进行比较 `catalog::Type` 所请求的静态内容项的ID。 如果值匹配（区分大小写），则会将该项目返回到客户端，否则会返回错误。
+服务器比较 `val` 值为 `catalog::Type` 所请求的静态内容项的ID。 如果值匹配（区分大小写），则会将该项目返回到客户端，否则会返回错误。
 
 ## 属性 {#section-529b088434a44a9f86a64ef548d2925b}
 

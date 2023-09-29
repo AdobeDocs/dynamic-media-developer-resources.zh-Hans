@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-以下情况下不应用缩放 `scl=1`. *`invFactor`* 大于1.0的缩放，小于1.0的缩放，会放大复合图像。
+以下情况下不应用缩放 `scl=1`. An *`invFactor`* 大于1.0的值会放大复合图像，而小于1.0的值则会放大复合图像。
 
 如果 `scl=` 已指定，并且 `wid=` 和/或 `hei=` 同时存在，则图像将裁剪为 `wid=` 和/或 `hei=` 缩放之后。
 
@@ -35,11 +35,11 @@ ht-degree: 4%
 
 ## 属性 {#section-60af012719db477db4a4703e9a6da5f5}
 
-查看属性。 无论当前图层设置如何，均适用。
+查看属性。 无论当前图层设置如何，它都适用。
 
 ## 默认 {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-如果两者均不 `wid=`， `hei=`，也不 `scl=` 指定，则回复图像将具有复合图像的大小或 `attribute::DefaultPix`，以较小者为准。
+如果两者均不 `wid=`， `hei=`，也不 `scl=` 指定，则回复图像具有复合图像的大小或 `attribute::DefaultPix`，以较小者为准。
 
 ## 示例 {#section-a33f6239476a4b438d939656ad99aa76}
 

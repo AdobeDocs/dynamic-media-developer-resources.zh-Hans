@@ -1,13 +1,13 @@
 ---
+title: 字符编码
 description: 使用以下命令对字符进行编码。
 solution: Experience Manager
-title: 字符编码
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>单个Unicode字符。 </p> </td> 
-   <td> <p><span class="varname"> N</span> 是有符号2字节的整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
+   <td> <p><span class="varname"> N</span> 是一个有符号的2字节整数，因此大于32767的Unicode值必须表示为负数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
@@ -42,17 +42,17 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>下面是低ANSI区域的字符。 </p> </td> 
+   <td> <p>字符来自低ANSI区域。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich </span> </td> 
-   <td> <p>后面是高ANSI区域的字符。 </p> </td> 
+   <td> <p>字符来自高ANSI区域。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch </span> </td> 
-   <td> <p>后跟双字节字符。 </p> </td> 
+   <td> <p>后面是双字节字符。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 

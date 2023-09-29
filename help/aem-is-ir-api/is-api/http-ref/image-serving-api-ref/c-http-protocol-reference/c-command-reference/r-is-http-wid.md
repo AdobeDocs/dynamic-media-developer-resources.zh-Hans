@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 视图宽度。 指定请求中不存在fit=时响应图像（查看图像）的宽度。
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,21 +35,21 @@ ht-degree: 2%
 
 ## 默认 {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-如果两者均不 `wid=`， `hei=`，也不 `scl=` 指定，则回复图像将具有复合图像的大小或 `attribute::DefaultPix`，以较小者为准。
+如果两者均不 `wid=`， `hei=`，也不 `scl=` 指定，则回复图像具有复合图像的大小或 `attribute::DefaultPix`，以较小者为准。
 
 ## 属性 {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-查看属性。 无论当前图层设置如何，均适用。
+查看属性。 无论当前图层设置如何，它都适用。
 
 ## 示例 {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-请求图像以适合200x200矩形；如果图像非正方形，则右上角对齐图像。 任何背景区域都填充 `attribute::BkgColor`.
+请求图像以使其可放入200x200矩形中；如果图像非正方形，则右上角对齐图像。 任何背景区域都填充 `attribute::BkgColor`.
 
-` http:// *`伺服器`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`服务器`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-相同的图像，以200像素的固定宽度投放，但具有可变高度以保持图像的宽高比。 在这种情况下，返回的图像从不包含任何背景填充区域。 请注意，在这种情况下，align=将没有任何效果。
+相同的图像，以200像素的固定宽度投放，但具有可变高度以保持图像的宽高比。 在这种情况下，返回的图像从不包含任何背景填充区域。 在本例中， `align=` 完全没有效果。
 
-` http:// *`伺服器`*/myRootId/myImageId?wid=200`
+` http:// *`服务器`*/myRootId/myImageId?wid=200`
 
 ## 另请参阅 {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

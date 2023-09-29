@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>提供缩放文本图层而不更改字体大小的方法。 分辨率值越高，呈现的文本相对于画布大小大小越大；值越小，文本大小越小。 文本分辨率，以每英寸点数（整数大于0）为单位。 </p> </td> 
+  <td class="stentry"> <p>它提供了一种缩放文本图层而不更改字体大小的方法。 分辨率值越高，呈现的文本相对于画布大小大小越大；值越小，文本大小越小。 文本分辨率，以每英寸点数（整数大于0）为单位。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 消除锯齿 </span> </span> </p> </td> 
@@ -55,17 +55,17 @@ ht-degree: 1%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedres </span> </p> </td> 
-      <td class="stentry"> <p>使用指定的分辨率。 </p> <p>如果要以相对于合成画布的确切大小呈现文本，请使用。 如果文本框太小，可以将文本裁剪为图层大小（如果已指定）。 这是唯一 <span class="varname"> 解析模式 </span> 支持的选项 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>使用指定的分辨率。 </p> <p>如果文本要以相对于合成画布的确切大小呈现，则使用。 如果文本框太小，可以将文本裁剪为图层大小（如果已指定）。 这是唯一 <span class="varname"> 解析模式 </span> 支持的选项 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>自动调整分辨率以用文本最好地填充图层矩形。 </p> <p>使用可自动调整文本大小，以便尽可能多地填充文本框，而不会截断风险。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 <span class="varname"> res </span> 忽略以下情况 <span class="codeph"> autoRes </span> 已选中。 不支持 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>自动调整分辨率以用文本最好地填充图层矩形。 </p> <p>使用可自动调整文本大小，以便尽可能多地填充文本框，而不会截断风险。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 此 <span class="varname"> res </span> 忽略以下情况 <span class="codeph"> autoRes </span> 已选中。 不支持 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>使用指定的分辨率；如有必要，请减小该分辨率，以防止文本被截断到图层矩形。 </p> <p>使用以完全指定的分辨率呈现文本，只要不进行剪切即可。 在剪切时，分辨率会自动降低，以确保所有文本都完全包含在文本框中。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 不支持 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>使用指定的分辨率；如有必要，请减小该分辨率，以防止文本被截断到图层矩形。 </p> <p>使用以指定的分辨率呈现文本，只要不进行剪切即可。 如果进行了剪切，则分辨率会自动降低，以确保所有文本都完全包含在文本框中。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 不支持 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>如果未使用size=或仅指定宽度来指定文本图层大小，则将忽略“autoRes”和“maxRes”设置，并使用指定的分辨率来渲染文本。 </p> </td> 
+    </table> </p> <p>如果未使用size=或仅指定宽度来指定文本图层大小，则会忽略“autoRes”和“maxRes”设置。 在这种情况下，使用指定的分辨率来呈现文本。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 自动换行 </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ ht-degree: 1%
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 换行 </span> </p> </td> 
-      <td class="stentry"> <p>启用标准自动换行。 </p> <p>如有必要，请换长词。 <span class="codeph"> textPs= </span> 仅支持 <span class="codeph"> 换行 </span>. </p> </td> 
+      <td class="stentry"> <p>启用标准自动换行。 </p> <p>如果必要的话，它会断掉长语。 <span class="codeph"> textPs= </span> 仅支持 <span class="codeph"> 换行 </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>启用不间断自动换行。 </p> <p>从不断字，即使它在结尾被截断。 通常与 <span class="codeph"> autoRes </span> 或 <span class="codeph"> maxRes </span> 确保长字不间断。 </p> </td> 
+      <td class="stentry"> <p>启用不间断自动换行。 </p> <p>从不断字，即使它在结尾被截断。 通常用于 <span class="codeph"> autoRes </span> 或 <span class="codeph"> maxRes </span> 确保长字不间断。 </p> </td> 
      </tr> 
     </table> </p> <p>两者 <span class="codeph"> 换行 </span> 和 <span class="codeph"> nbwrap </span> 在单词边界和连字符上自动换行。 </p> </td> 
  </tr> 

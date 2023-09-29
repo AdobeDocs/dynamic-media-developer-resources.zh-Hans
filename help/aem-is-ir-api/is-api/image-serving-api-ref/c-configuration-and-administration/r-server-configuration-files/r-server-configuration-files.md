@@ -1,24 +1,24 @@
 ---
-description: 所有配置文件都位于install_folder/conf中，并且可以用大多数文本编辑器进行编辑。 可能需要重新启动服务器以使更改生效。
-solution: Experience Manager
 title: 服务器配置文件
+description: 所有配置文件都位于install_folder/conf中，并且可以用大多数文本编辑器进行编辑。 重新启动服务器以使更改生效。
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # 服务器配置文件{#server-configuration-files}
 
-所有配置文件都位于install_folder/conf中，并且可以用大多数文本编辑器进行编辑。 可能需要重新启动服务器以使更改生效。
+所有配置文件都位于 `install_folder/conf` 和对于大多数文本编辑器都是可编辑的。 重新启动服务器以使更改生效。
 
 >[!NOTE]
 >
->大多数服务器配置文件包含本文档未介绍的其他属性和值。 此类属性供内部服务器使用，除非Dynamic Media技术支持人员特别说明，否则不得修改。
+>大多数服务器配置文件包含本文档未描述的其他属性和值。 此类属性供内部服务器使用，除非Dynamic Media技术支持人员另有指示，否则不得对其进行修改。
 
 本文档讨论以下配置文件的设置：
 
@@ -32,7 +32,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>服务器监控器配置。 </p> </td> 
+   <td> <p>服务器主管配置。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 

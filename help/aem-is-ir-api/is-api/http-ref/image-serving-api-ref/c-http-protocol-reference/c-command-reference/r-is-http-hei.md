@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 如果两者 `wid=` 和 `scl=` 指定时，复合图像可根据 `align=`属性。 时间 `fit=` 存在， `hei=` 指定精确、最小或最大响应图像高度；请参阅 [适合=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) 以了解详细信息。
 
-如果 `scl=` 未指定，将缩放复合图像以适合。 如果两者 `wid=` 和 `hei=` 已指定，并且 `scl=` 如果未指定，则缩放图像以完全适合wid/hei矩形，从而尽可能减少暴露的背景区域；在这种情况下，将图像根据 `align=` 属性。 背景区域填充了 `bgc=`、或(如果未使用 `attribute::BkgColor`.
+如果 `scl=` 未指定，将缩放复合图像以适合。 如果两者 `wid=` 和 `hei=` 已指定，并且 `scl=` 如果未指定，则缩放图像以完全适合wid/hei矩形，从而尽可能减少暴露的背景区域。 在此情况下，图像将根据 `align=` 属性。 背景区域填充了 `bgc=`、或(如果未使用 `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 属性 {#section-534923644a1e464496eeba83dedcbd3c}
 
-查看属性。 无论当前图层设置如何，均适用。
+查看属性。 无论当前图层设置如何，它都适用。
 
 ## 默认 {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -43,11 +43,11 @@ ht-degree: 2%
 
 ## 示例 {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-请求图像以适合200x200矩形；如果图像非正方形，则左上角对齐图像。 任何背景区域都填充 `attribute::BkgColor`.
+请求图像以使其可放入200x200矩形中；如果图像非正方形，则左上角对齐图像。 任何背景区域都填充 `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-相同的图像，以200像素的固定高度交付，但具有匹配图像宽高比的可变宽度。 在这种情况下，返回的图像从不包含任何背景填充区域。 请注意，在此示例中 `align=` 完全没有效果。
+相同的图像，以200像素的固定高度交付，但具有匹配图像宽高比的可变宽度。 在这种情况下，返回的图像从不包含任何背景填充区域。 而且，在这个案例中， `align=` 完全没有效果。
 
 `http://server/myRootId/myImageId?hei=200`
 

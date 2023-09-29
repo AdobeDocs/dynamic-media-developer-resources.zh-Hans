@@ -1,13 +1,13 @@
 ---
+title: 系统要求和先决条件
 description: 在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
 solution: Experience Manager
-title: 系统要求和先决条件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -22,33 +22,33 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->处理器采用AMD64和英特尔® EM64T的系统通常配置为NUMA（非统一内存架构）平台。 这意味着内核在引导时构建多个内存节点，而不是构建单个内存节点。 该多节点结构可导致一个或多个节点上的内存耗尽，而其它节点则被耗尽。 当内存耗尽时，内核可以决定终止进程(例如，图像服务器或 [!DNL Platform Server])，即使存在可用内存。 因此，Adobe Systems建议，如果运行此类系统，请关闭NUMA。 使用 `numa=off` 启动选项，以避免内核停止这些进程。
+>处理器采用AMD64和英特尔® EM64T的系统通常配置为NUMA（非统一内存体系结构）平台。 这意味着内核在启动时构建多个内存节点，而不是构建单个内存节点。 该多节点结构可导致一个或多个节点上的存储器耗尽，而其它节点则被耗尽。 当内存耗尽时，内核可以决定终止进程(例如，图像服务器或 [!DNL Platform Server])尽管存在可用内存。 因此，Adobe建议，如果运行此类系统，请关闭NUMA。 使用 `numa=off` 启动选项，以避免内核停止这些进程。
 
 **Windows**
 
-* 英特尔至强®或AMD®皓龙CPU，至少配备4个内核。
-* 最低16 GB内存。
+* 英特尔至强®或AMD®皓龙CPU，至少具有四个内核。
+* 最少1 GB RAM。
 * 交换空间至少相当于物理内存(RAM)容量的两倍。
-* 2 GB的可用硬盘空间，用于安装和基本操作，但源映像、日志、数据缓存和清单文件需要额外的磁盘空间。
+* 2 GB的可用硬盘空间用于安装和基本操作，但源映像、日志、数据缓存和清单文件需要额外的磁盘空间。
 * 快速以太网网卡。
 
-**Linux**
+**Linux®**
 
-* 英特尔至强®或AMD®皓龙CPU，至少配备4个内核。
-* 最低16 GB内存。
+* 英特尔至强®或AMD®皓龙CPU，至少具有四个内核。
+* 最少16 GB RAM。
 * 已禁用交换（推荐）。
-* 2 GB的可用硬盘空间，用于安装和基本操作，但源映像、日志、数据缓存和清单文件需要额外的磁盘空间。
+* 2 GB的可用硬盘空间用于安装和基本操作，但源映像、日志、数据缓存和清单文件需要额外的磁盘空间。
 * 快速以太网网卡。
 
-**注意(Linux)：** 打开SELinux时，图像服务不起作用。 此选项默认处于启用状态。 要禁用SELinux，请编辑 [!DNL /etc/selinux/config] 文件并将SELinux值从以下位置更改：
+**注意(Linux®)：** 打开SELinux时，图像服务不起作用。 此选项默认处于启用状态。 要禁用SELinux，请编辑 [!DNL /etc/selinux/config] 文件并将SELinux值从以下位置更改：
 
 `SELINUX=enforcing`
 
-至
+收件人
 
 `SELINUX=disabled`
 
-**注意(Linux)：** 确保服务器的主机名可解析为IP地址。 如果无法执行此操作，请将完全限定的主机名和IP地址添加到 [!DNL /etc/hosts] 如以下示例所示。
+**注意(Linux®)：** 确保服务器的主机名可解析为IP地址。 如果无法执行此操作，请将完全限定的主机名和IP地址添加到 [!DNL /etc/hosts] 如以下示例所示。
 
 `<ip address> <fully qualified hostname>`
 
@@ -58,12 +58,12 @@ Dynamic Media图像服务需要以下服务器软件。
 
 **Windows**
 
-* Microsoft® Windows 2008 Server。
-* 64位操作系统。
+* Microsoft® Windows Server 2008。
+* 64位操作系统
 
-**Linux**
+**Linux®**
 
-* Red Hat® Enterprise 5或CentOS 5.5及更高版本，带有最新的修复修补程序。
-* 64位操作系统。
+* Red Hat® Enterprise 5或CentOS 5.5及更高版本，带有最新的修补程序包。
+* 64位操作系统
 
-**注意：** 要在Windows上使用图像服务，您必须安装Microsoft Visual Studio 2010可再发行版本。
+**注意：** 要在Windows上使用图像提供，必须安装Microsoft® Visual Studio 2010。

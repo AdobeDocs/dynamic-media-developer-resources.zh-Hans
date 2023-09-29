@@ -1,13 +1,13 @@
 ---
+title: SearchPanel.textpos
 description: SearchPanel.textpos
 solution: Experience Manager
-title: SearchPanel.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5422763c-68cd-4662-b2aa-9f45275ced6a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。 即，标签在相对于缩略图的指定位置正中。 </p> <p>时间 <span class="codeph"> 工具提示</span> 指定时，标签文本将作为浮动工具提示显示在缩略图图像上。 </p> <p>当设置为 <span class="codeph"> 无</span>，则会关闭标签显示。 </p> </td> 
+   <td colname="col2"> <p> 指定相对于缩略图图像绘制标签的位置。 即，标签在相对于缩略图的指定位置正中。 </p> <p>当 <span class="codeph"> 工具提示</span> 指定时，标签文本将作为浮动工具提示显示在缩略图图像上。 </p> <p>当设置为 <span class="codeph"> 无</span>，则将显示标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
