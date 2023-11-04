@@ -1,28 +1,28 @@
 ---
-description: 图像映射数据。 没有或更完整的HTML <area> 元素按从前到后的顺序排列。
+description: 图像映射数据。 没有或更完整的HTML <area> 元素，从前到后排序。
 solution: Experience Manager
 title: 地图
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 4%
 
 ---
 
 # 地图{#map}
 
-图像映射数据。 没有或更完整的HTML `<AREA>` 元素按从前到后的顺序排列。
+图像映射数据。 没有或更完整的HTML `<AREA>` 元素，从前到后排序。
 
-服务器将解释SHAPE和COORDS属性，并可能更改这些属性。 （此版本不支持SHAPE=CIRCLE。） 所有其他属性 `<AREA>` 未经修改即传递。 使用COORDS属性指定的坐标值必须是未修改源图像左上角的像素偏移。 (`%` 此版本不支持坐标，可能无法正确处理坐标。)
+服务器将解释并可能更改SHAPE和COORDS属性（此版本不支持SHAPE=CIRCLE）。 所有其他属性 `<AREA>` 传递而不进行修改。 使用COORDS属性指定的坐标值必须是未修改源图像左上角的像素偏移。 (`%` 此版本不支持坐标，可能无法正确处理。)
 
 ## 属性 {#section-f52d89fd399b4356ac05277e6c12f956}
 
 文本字符串值。 如果已指定，则必须是一个或多个完整的HTML `<AREA>` 元素。
 
-此字段参与文本字符串本地化。 请参阅 [文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 在 *HTTP协议参考* 了解详细信息。
+此字段参与文本字符串本地化。 请参阅 [文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) 在 *HTTP协议参考* 以了解详细信息。
 
 ## 默认 {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

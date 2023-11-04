@@ -5,10 +5,10 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 创建可以具有多个文本和图像图层的图层图像。
 
-此 `urlModifier` parameter指定存储在图像服务器目录中的图像服务器协议命令，这些命令在URL上用户提供的任何命令之前应用。 此 `urlPostApplyModifier` 参数指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。
+此 `urlModifier` 参数指定在URL上用户提供的任何命令之前应用的图像服务器目录中存储的图像服务器协议命令。 此 `urlPostApplyModifier` parameter指定在任何URL命令之后应用的协议命令，这会覆盖任何冲突的用户提供的设置。
 
 ## 授权用户类型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 | 名称 | `xsd:string` | 是 | 模板名称。 |
 | 类型 | `xsd:string` | 是 | 模板类型。 |
 | urlModifier | `xsd:string` | 是 | 指定存储在IS目录中的图像服务器命令，这些命令在URL上用户提供的任何命令之前应用。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这将覆盖任何冲突的用户提供的设置。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 指定在任何URL命令之后应用的协议命令，这会覆盖任何冲突的用户提供的设置。 |
 
 **输出(createTemplateParam)**
 
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代码示例在句柄指定的文件夹中创建一个名为 `APIcreateTemplate`， a `urlModifier`，和 `urlPostApplyModifier`. 响应会将句柄返回到新创建的模板。
+此代码示例在句柄指定的文件夹中创建名为 `APIcreateTemplate`， a `urlModifier`，和 `urlPostApplyModifier`. 响应会将句柄返回到新创建的模板。
 
 **请求**
 

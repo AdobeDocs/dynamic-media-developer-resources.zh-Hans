@@ -1,26 +1,26 @@
 ---
 title: 用户界面元素的本地化
-description: 旋转查看器显示的某些内容必须进行本地化，包括缩放按钮和全屏按钮。
+description: 旋转查看器显示的某些内容需要进行本地化，包括缩放按钮和全屏按钮。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-旋转查看器显示的某些内容必须进行本地化，包括缩放按钮和全屏按钮。
+旋转查看器显示的某些内容需要进行本地化，包括缩放按钮和全屏按钮。
 
-查看器中所有可以本地化的文本内容都由一个名为SYMBOL的特殊Viewer SDK标识符表示。 任何SYMBOL都有英语区域设置( `"en"`)。 此外，还可以根据需要为任意数量的区域设置用户定义的值。
+查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)。 它还可以根据需要为任意数量的区域设置用户定义的值。
 
-当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会返回到现成的默认文本。
+当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
-用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置的列表、每个区域设置的SYMBOL文本值和缺省区域设置。
+用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
 
 以下是此类本地化对象的示例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
 
-网页代码应将本地化对象作为值，传递给查看器构造函数 `localizedTexts` 配置对象的字段。 替代选项是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将本地化对象传递给查看器构造函数，其值为 `localizedTexts` 配置对象的字段。 另一种选择是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
 
 支持以下SYMBOL：
 
@@ -85,12 +85,12 @@ defaultLocale:"en"
    <td colname="col2"> <p>全屏按钮处于正常状态。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECT </span> </p> </td> 
-   <td colname="col2"> <p>全屏按钮处于全屏状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>全屏按钮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>向左旋转按钮。 </p> </td> 
+   <td colname="col2"> <p>旋转左侧按钮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP </span> </p> </td> 

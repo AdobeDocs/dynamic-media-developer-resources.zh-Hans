@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 图像服务包括版本控制机制，可帮助减少应用程序使用过时的缓存条目的机会。 此机制涉及使用 `req=props` 获取图像数据和元数据（如图像映射或缩放目标数据）的版本标识符字符串。 随后，版本标识符字符串将添加到可缓存的图像服务请求中 `id=` 命令。
 
-当源图像或元数据更改时，相应的版本ID值也将更改。 将最新的版本ID值包含在 `id=` 命令确保不再访问旧的缓存项。
+当源图像或元数据更改时，相应的版本ID值也会更改。 将最新的版本ID值包含在 `id=` 命令可确保不再访问旧的缓存条目。
 
 下表列出了用于每个版本的版本标识符字符串 `req=` 类型：
 

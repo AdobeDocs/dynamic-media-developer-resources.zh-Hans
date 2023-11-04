@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 8%
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->用户必须具有对文件夹的读取权限才能返回文件夹中的数据。
+>用户必须具有文件夹的读取权限才能返回文件夹上的数据。
 
 ## 参数 {#section-0c1976503eaa418a9226b51667901176}
 
@@ -46,7 +46,7 @@ ht-degree: 8%
 | companyHandle | `xsd:string` | 是 | 公司的把手。 |
 | accessUserHandle | `xsd:string` | 否 | 管理员用于模拟特定用户。 |
 | accessGroupHandle | `xsd:string` | 否 | 按特定组筛选。 |
-| 文件夹路径 | `xsd:string` | 否 | 根文件夹，用于在叶级别检索文件夹和所有子文件夹。 如果排除，则使用公司根目录。 |
+| 文件夹路径 | `xsd:string` | 否 | 用于检索叶级别的文件夹和所有子文件夹的根文件夹。 如果排除，则使用公司根目录。 |
 | assetTypeArray | `types:StringArray` | 否 | 返回仅包含指定资源类型的文件夹。 |
 | responseFieldArray | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
 | excludeFieldArray | `types:StringArray` | 否 | 包含要从响应中排除的字段列表。 |
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| folderArray | `types:FolderArray` | 否 | 符合筛选条件的文件夹数组。 响应最多可包含100,000个文件夹。 |
+| folderarray | `types:FolderArray` | 否 | 符合筛选条件的文件夹数组。 响应最多可包含100,000个文件夹。 |
 | permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## 示例 {#section-b5cb06e9fb9945ad898dbdc3692b754e}

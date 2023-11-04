@@ -1,26 +1,26 @@
 ---
 title: 用户界面元素的本地化
-description: 轮播查看器显示的某些内容必须进行本地化。 此内容包括幻灯片导航按钮。
+description: 轮播查看器显示的某些内容需要进行本地化。 此内容包括幻灯片导航按钮。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-轮播查看器显示的某些内容必须进行本地化。 此内容包括幻灯片导航按钮。
+轮播查看器显示的某些内容需要进行本地化。 此内容包括幻灯片导航按钮。
 
-查看器中所有可以本地化的文本内容都使用名为SYMBOL的特殊Viewer SDK标识符表示。 任何SYMBOL都有英语区域设置的默认关联文本值( `"en"`)，并且还可以根据需要为多种区域设置设置用户定义的值。
+查看器中的每个可本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)，并且还可以根据需要为多种区域设置设置用户定义的值。
 
-当查看器启动时，它会检查当前区域设置，查看此类区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会返回到现成的默认文本。
+当查看器启动时，它会检查当前区域设置，查看此类区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
-用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值和默认区域设置。
+用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
 
 以下是此类本地化对象的示例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
 
-网页代码应将本地化对象作为值，传递给查看器构造函数 `localizedTexts` 配置对象的字段。 替代选项是通过调用传递本地化对象 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将本地化对象传递给查看器构造函数，其值为 `localizedTexts` 配置对象的字段。 另一种选择是通过调用传递本地化对象。 `setLocalizedTexts(localizationInfo)` 方法。
 
 支持以下SYMBOL：
 
@@ -54,7 +54,7 @@ defaultLocale:"en"
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>选定的播放暂停按钮状态。 </p> </td> 
+   <td colname="col2"> <p>已选择播放暂停按钮状态。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 

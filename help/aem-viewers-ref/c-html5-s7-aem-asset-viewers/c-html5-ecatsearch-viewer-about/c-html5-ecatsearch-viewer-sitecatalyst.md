@@ -5,7 +5,7 @@ title: 支持Adobe Analytics跟踪
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -64,7 +64,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在查看器中使用交换资产 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col2"> <p>在查看器中交换资产时，使用 <span class="codeph"> setAsset() </span> API。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 缩放 </span> </p> </td> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -75,12 +75,12 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 计划作业的用户电子邮件地址。 </td> 
+   <td colname="col3"> 安排作业的用户的电子邮件地址。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写双字母代码，而可选国家/地区代码是ISO-3166指定的大写双字母代码。 例如， English (United States)的区域设置字符串将是： <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写形式的双字母代码，而可选国家/地区代码是ISO-3166指定的大写形式的双字母代码。 例如， English (United States)的区域设置字符串将是： <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
@@ -105,7 +105,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 作业进度（即作业接近完成的程度）。 </td> 
+   <td colname="col3"> 任务进度（即任务距离完成的距离）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -124,7 +124,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：图像服务发布作业</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 图像服务发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：图像服务发布作业</span> </td> 
+   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 服务器目录发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
@@ -148,7 +148,7 @@ ht-degree: 8%
    <td colname="col3"> 上载URL作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdf作业</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：RipPdfJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
@@ -158,7 +158,7 @@ ht-degree: 8%
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssets作业</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：ReprocessassetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
@@ -170,7 +170,7 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 类型：ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上载的文件。 参见 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>. </td> 
+   <td colname="col3">允许授权导出以前上载的文件。 请参阅 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>. </td> 
   </tr> 
  </tbody> 
 </table>

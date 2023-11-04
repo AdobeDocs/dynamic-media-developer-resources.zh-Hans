@@ -1,26 +1,26 @@
 ---
-description: 图像服务提供了几种呈现文本的替代方法，可通过text=和textPs=命令访问。
+description: 图像服务提供了几种呈现文本的替代方法，使用text=和textPs=命令可访问这些方法。
 solution: Experience Manager
 title: 文本格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 7%
 
 ---
 
 # 文本格式{#text-formatting}
 
-图像服务提供了几种呈现文本的替代方法，可通过text=和textPs=命令访问。
+图像服务提供了几种呈现文本的替代方法，使用text=和textPs=命令可访问这些方法。
 
 `textPs=` 提供了与使用Adobe Photoshop和Illustrator呈现的文本的高度相似性。 `text=` 与使用Windows写字板呈现的文本合理兼容。
 
 >[!NOTE]
 >
->除其他章节列出的差异外， `text=` 在渲染的文本中生成细微的差异，与 `textPs=`. 例如，下划线的厚度和位置不同，合成斜体以稍有不同的角度呈现。 如果文本不能适应可用空间， `text=` 可能会部分裁切最后一行，而 `textPs=` 将仅渲染完整的行。
+>除其他章节列出的差异外， `text=` 在呈现的文本中生成与以下内容相比的细微差异 `textPs=`. 例如，下划线的厚度和位置不同，合成斜体以稍有不同的角度呈现。 如果文本不适合可用空间， `text=` 可能会部分裁切最后一行，而 `textPs=` 仅渲染完整的行。
 
 所有文本命令都接受基于RTF（富文本格式）规范子集的格式化文本。 每个文本图层可以指定不同的文本命令。
 
@@ -52,7 +52,7 @@ ht-degree: 7%
    <td> <p>沿任意路径排列文本 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>textPath= </p> </td> 
+   <td> <p>文本路径= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>复制管接头 </p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 7%
    <td> <p>最后一行对齐 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>\lastql， \lastqr， \lastqc， \lastqj </p> </td> 
+   <td> <p>\lastql 、 \lastqr 、 \lastqc 、 \lastqj </p> </td> 
   </tr> 
   <tr> 
    <td> <p>段落缩进 </p> </td> 
@@ -103,7 +103,7 @@ ht-degree: 7%
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>自上而下/右至左文本排 </p> </td> 
+   <td> <p>上下/右左文本流 </p> </td> 
    <td> <p>无 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>\stextFlow </p> </td> 
@@ -118,7 +118,7 @@ ht-degree: 7%
    <td> <p>自动调整图层大小以适合文本 </p> </td> 
    <td> <p>是 </p> </td> 
    <td> <p>是 </p> </td> 
-   <td> <p>text=，textId=，size= </p> </td> 
+   <td> <p>text=， textId=， size= </p> </td> 
   </tr> 
   <tr> 
    <td> <p>CMYK支持 </p> </td> 
@@ -147,15 +147,15 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-可以手动装配RTF兼容字符串，也可以通过在能够保存RTF文件的文本编辑器或文字处理器中格式化所需的文本来装配。 然后，可以使用纯文本编辑器打开RTF文件，并将文件的相关原始RTF内容复制到请求URL。
+可以手动装配RTF兼容字符串，也可以通过在能够保存RTF文件的文本编辑器或文字处理器中格式化所需的文本来装配RTF兼容字符串。 然后，可以使用纯文本编辑器打开RTF文件，并将文件的相关原始RTF内容复制到请求URL。
 
-某些文字处理器会生成相当大的文件，其中包括Dynamic Media图像服务未使用的实质性前导码。 建议在将字符串传递到文本命令之前，从字符串中删除未使用的RTF元素。
+某些文字处理器会生成相当大的文件，其中包括Dynamic Media图像服务不使用的实质性前导码。 建议在将字符串传递到文本命令之前，从字符串中删除未使用的RTF元素。
 
 RTF字符串支持基于UTF-8和ISO标准的语言编码，作为标准RTF字符编码机制的替代。 这允许应用程序在不了解RTF编码的情况下向服务器发送非英语文本。
 
-如果要通过http传输字符串，则必须对所有非HTTP兼容字符进行正确转义。 如果将字符串合并到 `catalog::Modifiers` 图像目录记录的字段。 控制字符，包括 `<CR>`， `<LF>`、和 `<TAB>` 应始终删除。
+如果要通过http传输字符串，则必须对所有非HTTP兼容字符进行正确转义。 如果将字符串合并到 `catalog::Modifiers` 图像目录记录的字段。 控制字符，包括 `<CR>`， `<LF>`、和 `<TAB>` 应始终被删除。
 
-图像服务文本引擎解释由富文本格式(RTF)规范版本1.6定义的命令子集。该子集侧重于字体/字符格式、简单的段落格式以及对国际字体和字符集的支持。 目前不支持更高级的格式结构，例如样式表和表。
+图像服务文本引擎解释由富文本格式(RTF)规范版本1.6定义的命令子集。该子集侧重于字体/字符格式、简单的段落格式以及对国际字体和字符集的支持。 目前不支持更高级的格式结构，如样式表和表格。
 
 尝试手动构建RTF编码的文本字符串时，需要熟悉由Microsoft发布的富文本格式(RTF)规范。
 

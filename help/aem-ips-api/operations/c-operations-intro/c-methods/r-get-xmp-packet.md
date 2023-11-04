@@ -1,20 +1,20 @@
 ---
-description: 检索指定资源的XMP元数据数据包。
+description: 检索指定资源的XMP元数据包。
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
 # getXMPPacket{#getxmppacket}
 
-检索指定资源的XMP元数据数据包。
+检索指定资源的XMP元数据包。
 
 语法
 

@@ -5,9 +5,9 @@ title: 用户数据*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '63'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 用户数据。 服务器会将此字段的内容返回给客户端，以响应req=userdata。
 
-新行可以使用“??”进行转义。 服务器会将“??”替换为 `<cr><lf>` 返回此字段的内容之前。
+新行可以使用“??”进行转义。 服务器将“??”替换为 `<cr><lf>` 返回此字段的内容之前。
 
 ## 属性 {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

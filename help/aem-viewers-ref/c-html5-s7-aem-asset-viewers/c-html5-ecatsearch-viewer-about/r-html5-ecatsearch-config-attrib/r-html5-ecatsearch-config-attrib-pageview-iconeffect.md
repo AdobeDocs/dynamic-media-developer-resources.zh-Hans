@@ -5,9 +5,9 @@ title: PageView.iconEffect
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eb2196cb-b771-4828-8390-cd9e3fe6c57e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 启用 <span class="codeph"> iconeffect</span> 在图像处于重置状态时显示在图像顶部，这表示有可与图像交互的操作。 </p> </td> 
+   <td colname="col2"> <p> 启用 <span class="codeph"> iconeffect</span> 在图像处于重置状态时显示在图像顶部，这表示有可与图像交互的可用操作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定 <span class="codeph"> iconeffect</span> 出现并重新出现。 值 <span class="codeph"> -1</span> 指示图标始终无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定 <span class="codeph"> iconeffect</span> 出现并再次出现。 值 <span class="codeph"> -1</span> 表示图标将始终无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 渐隐</span></span> </p> </td> 

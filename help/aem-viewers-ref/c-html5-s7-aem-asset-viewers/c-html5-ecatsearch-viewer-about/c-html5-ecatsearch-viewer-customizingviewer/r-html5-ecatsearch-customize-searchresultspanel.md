@@ -1,11 +1,11 @@
 ---
 title: 搜索结果面板
-description: 搜索结果面板由顶部的搜索输入框和显示信息性消息或搜索结果的主要区域组成。
+description: 搜索结果面板由顶部的搜索输入框和显示信息性消息或搜索结果的主区域组成。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # 搜索结果面板{#search-results-panel}
 
-搜索结果面板由顶部的搜索输入框和显示信息性消息或搜索结果的主要区域组成。
+搜索结果面板由顶部的搜索输入框和显示信息性消息或搜索结果的主区域组成。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **主查看器区域的CSS属性**
 
-当面板处于活动状态时，查看器用户界面被半透明填充覆盖。 此填充的颜色和不透明度由以下CSS类选择器控制：
+当面板处于活动状态时，查看器用户界面被半透明填充覆盖。 此填充的颜色和不透明度可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -62,7 +62,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-示例 — 要在大中型断点上设置250像素宽的搜索结果面板，并在小型断点上使用全尺寸面板，请执行以下操作：
+示例 — 要在大中型断点上设置250像素范围的搜索结果面板，并在小型断点上使用全尺寸面板，请执行以下操作：
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -79,7 +79,7 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
 ```
 
-**搜索输入容器的CSS**
+**搜索输入容器的CSS属性**
 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
@@ -105,7 +105,7 @@ ht-degree: 1%
    <td colname="col2"> <p>搜索输入字段的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左侧填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 左内边距 </span> </p> </td> 
    <td colname="col2"> <p> 输入字段边界和输入文本之间的内边距。 </p> </td> 
   </tr> 
   <tr> 
@@ -153,11 +153,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>“镜子”图标图像的URL。 </p> </td> 
+   <td colname="col2"> <p>“玻璃”图标图像的URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
-   <td colname="col2"> <p>“外观玻璃”图标的大小。 </p> </td> 
+   <td colname="col2"> <p>“镜子”图标的大小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
@@ -170,7 +170,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-示例 — 要设置具有26 x 26像素“玻璃外观”图标的搜索按钮；大小为30像素，边框为1像素，请执行以下操作：
+示例 — 要设置一个搜索按钮，其中包含26 x 26像素的“玻璃外观”图标；30像素大小的1像素边框：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ ht-degree: 1%
 }
 ```
 
-首次调用该功能时，搜索结果面板可能会显示文本提示。 此外，它还会在用户的搜索未返回任何结果时显示一条消息。 在所有情况下，文本都会显示在搜索结果面板的主要部分，并受以下CSS类选择器的控制：
+首次调用该功能时，搜索结果面板可能会显示文本提示。 此外，它还会在用户的搜索未返回任何结果时显示一条消息。 在所有情况下，文本都会显示在搜索结果面板的主要部分，并且受以下CSS类选择器的控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -198,7 +198,7 @@ ht-degree: 1%
    <td colname="col2"> <p> 文本的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -214,11 +214,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此文本面板支持 `state` 属性选择器，可以将不同的样式应用于不同的文本消息。 特别是， `state='prompt'` 对应于首次调用面板时显示的文本提示。 此 `state='results'` 与文本相对应，其中包含有关搜索点击的信息。 最后， `state='no_results'` 对应于搜索查询未返回任何结果时显示的文本。
+>此文本面板支持 `state` 属性选择器，可用于将不同的样式应用于不同的文本消息。 特别是， `state='prompt'` 对应于首次调用面板时显示的文本提示。 此 `state='results'` 对应于包含有关搜索点击信息的文本。 最后， `state='no_results'` 对应于搜索查询未返回任何结果时显示的文本。
 
-可以对消息文本进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+可以对消息文本进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 要设置使用灰色18像素字体的文本面板：
+示例 — 设置使用灰色18像素字体的文本面板：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -227,7 +227,7 @@ ht-degree: 1%
 }
 ```
 
-搜索结果将以包含搜索点击的页面的单列或单行缩略图形式呈现。 搜索结果缩略图之间的间距由以下CSS类选择器控制：
+对于具有搜索点击的页面，搜索结果呈现为一列或一行缩略图。 搜索结果缩略图之间的间距由以下CSS类选择器控制：
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
@@ -239,12 +239,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于为设置的顶边距和底边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的垂直边距大小。 实际缩略图间距等于为设置的顶边距和底边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 要设置十个像素间距，请执行以下操作：
+示例 — 要设置十个像素间距：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -277,7 +277,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-示例 — 要设置像素为215 x 129、具有浅灰色默认边框和深灰色选定边框的缩略图：
+示例 — 要设置215 x 129像素、浅灰色默认边框和深灰色选定边框的缩略图：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -286,7 +286,7 @@ ht-degree: 1%
 }
 ```
 
-缩略图标签的外观由以下CSS类选择器控制：
+缩略图标签的外观可通过以下CSS类选择器进行控制：
 
 ```
  .s7ecatalogsearchviewer 
@@ -302,7 +302,7 @@ ht-degree: 1%
    <td colname="col2"> <p> 文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -322,7 +322,7 @@ ht-degree: 1%
 }
 ```
 
-在使用鼠标输入的系统上，搜索结果面板底部会显示两个滚动按钮，用户可以在其中滚动搜索结果。 使用以下CSS类选择器控制向上和向下滚动按钮的外观：
+在使用鼠标输入的系统上，搜索结果面板底部会显示两个滚动按钮，用户可滚动浏览搜索结果。 上下滚动按钮的外观可通过以下CSS类选择器来控制：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
@@ -349,7 +349,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -358,9 +358,9 @@ ht-degree: 1%
 >
 >此按钮支持 `state` 属性选择器，可用于将不同的外观应用于 `"up"`， `"down"`， `"over"`、和 `"disabled"` 按钮状态。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 要设置一个125 x 35像素的向上滚动按钮，并且每个状态具有不同的图稿，请执行以下操作：
+示例 — 要设置一个125 x 35像素的向上滚动按钮，该按钮对于每种状态具有不同的图稿：
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

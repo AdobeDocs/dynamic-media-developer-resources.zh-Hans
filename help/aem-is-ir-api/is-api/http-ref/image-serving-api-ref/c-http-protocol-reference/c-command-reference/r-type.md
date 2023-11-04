@@ -1,20 +1,20 @@
 ---
 title: 类型
-description: 静态内容类型过滤器。 为通过/is/content交付的静态内容指定过滤器字符串。
+description: 静态内容类型过滤器。 为通过/is/content提供的静态内容指定过滤器字符串。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
 
 # 类型{#type}
 
-静态内容类型过滤器。 为通过/is/content交付的静态内容指定过滤器字符串。
+静态内容类型过滤器。 为通过/is/content提供的静态内容指定过滤器字符串。
 
 `type= *`val`*`
 

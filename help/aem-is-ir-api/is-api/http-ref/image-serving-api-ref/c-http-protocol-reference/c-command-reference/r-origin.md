@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >
 >层矩形始终包括以下内容的任何修改： `extend=`.
 
-定义图层矩形的对齐点，用于相对于图层0通过定位图层矩形 `pos=`. `originN=0,0` 将图层原点定位在图层矩形的中心。 `originN=-0.5,-0.5` 和 `origin=0,0` 是左上角，并且 `originN=0.5,0.5` 是图层矩形的右下角。
+定义图层矩形的对齐点，用于相对于图层0定位图层矩形，方式为 `pos=`. `originN=0,0` 将图层原点定位在图层矩形的中心。 `originN=-0.5,-0.5` 和 `origin=0,0` 是左上角，并且 `originN=0.5,0.5` 是图层矩形的右下角。
 
 ## 属性 {#section-60f639e36ada43d1abc6bfc100afc925}
 

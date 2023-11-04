@@ -1,22 +1,22 @@
 ---
-description: 如果请求无法成功完成，服务器将返回错误图像或200以外的HTTP响应状态并返回错误消息。
+description: 如果请求无法成功完成，则服务器会返回错误图像或200以外的HTTP响应状态以及错误消息。
 solution: Experience Manager
 title: 错误
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 2%
 
 ---
 
 # 错误{#errors}
 
-如果请求无法成功完成，服务器将返回错误图像或200以外的HTTP响应状态并返回错误消息。
+如果请求无法成功完成，则服务器会返回错误图像或200以外的HTTP响应状态以及错误消息。
 
-响应状态值取决于错误的类型；对于大多数常见错误，值为“403”。 非图像请求类型的错误响应符合指定的格式 `req=`. （目前可能无法始终如一地执行。）
+响应状态值取决于错误类型；对于大多数常见错误，值为“403”。 非图像请求类型的错误响应符合指定的格式 `req=`. （当前可能无法始终如一地执行。）
 
 错误消息中包含的详细信息量可通过进行配置 `attribute::ErrorDetail`.
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 图像服务可以配置为返回渲染到图像中的错误消息。
 
-参见 [attribute：：ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) 详细信息，请参阅图像目录引用。
+请参阅 [attribute：：ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) 详细信息，请参阅图像目录引用。
 
 如果成功生成错误图像，则HTTP响应状态为200。 如果在处理错误图像时出错，则将标准HTTP错误响应和文本消息返回到客户端。
 

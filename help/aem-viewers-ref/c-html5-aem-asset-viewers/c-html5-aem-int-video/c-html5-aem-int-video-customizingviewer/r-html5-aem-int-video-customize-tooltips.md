@@ -1,11 +1,11 @@
 ---
 title: 工具提示
-description: 在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+description: 在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 工具提示{#tooltips}
 
-在桌面系统上，某些用户界面元素（如按钮）具有在鼠标悬停时显示的工具提示。
+在桌面系统上，某些用户界面元素（如按钮）具有鼠标悬停时显示的工具提示。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -51,7 +51,7 @@ ht-degree: 3%
    <td colname="col2"> <p>文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字体名称。 </p> </td> 
   </tr> 
   <tr> 

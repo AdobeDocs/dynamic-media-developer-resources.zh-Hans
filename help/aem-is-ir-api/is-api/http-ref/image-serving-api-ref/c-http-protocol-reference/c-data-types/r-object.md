@@ -5,9 +5,9 @@ title: 对象
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 源对象说明符。 可以将图像、SVG和ICC配置文件对象指定为图像目录条目或相对文件路径
 
-`*`对象`*[/]{[ *`rootId`*/] *`objId`*}| *`路径`*`
+`*`对象`*[/]{[ *`rootId`*/] *`对象ID`*}| *`路径`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -33,13 +33,13 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 对象 </span> </span> </p> </td> 
-  <td class="stentry"> <p>可能出现在主URL路径中，也可能出现在 <span class="codeph"> src= </span>， <span class="codeph"> 蒙版= </span>，或 <span class="codeph"> icc= </span> 命令 </p> </td> 
+  <td class="stentry"> <p>可能出现在主URL路径中或 <span class="codeph"> src= </span>， <span class="codeph"> 蒙版= </span>，或 <span class="codeph"> icc= </span> 命令 </p> </td> 
  </tr> 
 </table>
 
 *`rootId`* 标识图像目录。 (请参阅 [图像目录](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) 了解详细信息。) 如果 *`rootId`* 在URL路径中指定，则该目录将变为 *主目录* 请求的。 否则，将默认目录用作主目录。 同一请求中可以使用多个不同的图像目录。
 
-服务器最初假设 *`rootId`* 中省略 `src=`， `mask=`、和 `icc=` 命令，并将尝试在主目录中找到目录条目。 实际上，服务器尝试使用整个 *`object`* 字符串为 *`objId.`*
+服务器最初假设 *`rootId`* 在中省略 `src=`， `mask=`、和 `icc=` 命令并尝试在主目录中查找目录条目。 实际上，服务器尝试使用整个 *`object`* 字符串为 *`objId.`*
 
 如果找到目录条目，则使用该条目；否则，服务器下一步将尝试匹配 *`rootId`* 图像目录的。 如果标识了目录，则搜索该目录 *`objId`*. 如果找到和条目，则使用它。
 
@@ -47,9 +47,9 @@ ht-degree: 1%
 
 两者 *`rootId`* 和 *`objId`* 区分大小写。 *`path`* 仅在UNIX上区分大小写。
 
-如果行距 `/` 指定时，将搜索默认目录而不是主目录。 当显式路径需要 `default::RootPath` 而不是主目录的 `attribute::RootPath`，也可用于获取对默认目录中条目的访问权限，否则这些条目将被主目录中的条目覆盖。
+如果行距 `/` 指定，将搜索默认目录而不是主目录。 当显式路径需要 `default::RootPath` 而不是主目录的 `attribute::RootPath`，也可用于获取对默认目录中条目的访问权限，这些条目在其他情况下将由主目录中的条目覆盖。
 
-请参阅 *管理内容* 在 *服务器配置指南* 了解关于如何操作的详细信息 *`path`* 将转换为物理文件路径。
+请参阅 *管理内容* 在 *服务器配置指南* 了解关于如何 *`path`* 将转换为物理文件路径。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 有关支持的文件格式的完整列表，请参阅IC（图像转换器）实用程序的说明。
 
-当使用Dynamic Media金字塔TIFF(PTIF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序将获得最佳性能。 IC实用程序用于从任何支持的图像格式创建PTIF图像。
+当使用Dynamic Media金字塔TIFF(PTIF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 IC实用程序用于从任何支持的图像格式创建PTIF图像。
 
 ## 示例 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
@@ -69,13 +69,13 @@ ht-degree: 1%
 
 ` http:// *`伺服器`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
-使用具有分层的单个图像目录
+将单个图像目录与分层结合使用
 
-**构建包含三个层的简单复合图像，所有层均检索自“ [!DNL myCatalog]&#39;：**
+**构建包含三个层的简单复合图像，所有层均检索自&#39; [!DNL myCatalog]&#39;：**
 
 ` http:// *`伺服器`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
-**直接访问图像文件，同时仍使用目录来提供属性**
+**直接访问图像文件，同时仍使用目录提供属性**
 
 访问 [!DNL my/image/path/myImage.tif]，使用在中配置的默认jpg属性 `myImageCatalog`：
 
@@ -83,4 +83,4 @@ ht-degree: 1%
 
 ## 另请参阅 {#section-b6eccefad63f441d922699c4aba58fc9}
 
-[IC实用程序](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b)， [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)， [蒙版=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)， [attribute：：FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
+[集成电路实用程序](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b)， [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)， [蒙版=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)， [attribute：：FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)

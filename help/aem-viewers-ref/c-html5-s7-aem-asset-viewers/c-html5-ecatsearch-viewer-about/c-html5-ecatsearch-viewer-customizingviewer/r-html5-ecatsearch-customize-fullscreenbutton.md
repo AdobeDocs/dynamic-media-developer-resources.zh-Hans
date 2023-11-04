@@ -1,20 +1,20 @@
 ---
 title: 全屏按钮
-description: 当用户选择时，使查看器进入或退出全屏模式。 此按钮显示在主控制栏中。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。 您可以通过CSS调整按钮的大小、外观和位置。
+description: 当用户选择时，使查看器进入或退出全屏模式。 此按钮显示在主控制栏中。 如果查看器在弹出模式下工作且系统不支持本机全屏，则不会显示此按钮。 您可以通过CSS调整按钮的大小、外观和位置。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
 
 # 全屏按钮{#full-screen-button}
 
-当用户选择时，使查看器进入或退出全屏模式。 此按钮显示在主控制栏中。 如果查看器在弹出模式下工作，并且系统不支持本机全屏，则不会显示此按钮。 您可以通过CSS调整按钮的大小、外观和位置。
+当用户选择时，使查看器进入或退出全屏模式。 此按钮显示在主控制栏中。 如果查看器在弹出模式下工作且系统不支持本机全屏，则不会显示此按钮。 您可以通过CSS调整按钮的大小、外观和位置。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -34,19 +34,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏的顶部边框位置，包括内边距。 </p> </td> 
+   <td colname="col2"> <p>从主控件栏的顶部边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏的右边框（包括内边距）定位。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏的右边框定位，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏的左边框（包括内边距）定位。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏的左边框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从主控制栏的底部边框定位，包括内边距。 </p> </td> 
+   <td colname="col2"> <p>从主控制栏的底部边框定位，包括填充。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,9 +71,9 @@ ht-degree: 2%
 >
 >此按钮同时支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `selected='true'` 对应于“全屏”状态和 `selected='false'` 对应于“正常”状态。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 设置一个全屏按钮，该按钮为28 x 28像素，并且位于主控制栏的底部4像素和右边缘5像素的位置。 最后，在选中或未选中时，为四个不同的按钮状态中的每一个显示不同的图像。
+示例 — 设置一个全屏按钮，其大小为28 x 28像素，并从底部放置4像素，从主控制栏的右边缘放置5像素。 最后，在选中或未选中时，为四种不同的按钮状态中的每种状态显示不同的图像。
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

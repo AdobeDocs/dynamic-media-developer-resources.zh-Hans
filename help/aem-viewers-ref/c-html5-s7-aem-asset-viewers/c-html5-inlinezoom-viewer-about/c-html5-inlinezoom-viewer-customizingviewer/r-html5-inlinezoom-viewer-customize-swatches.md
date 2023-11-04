@@ -1,11 +1,11 @@
 ---
 title: 調色板
-description: 样本由一行缩略图图像组成，其左侧和右侧带有可选滚动按钮。
+description: 色板由一行缩略图图像组成，其左右两侧均带有可选的滚动按钮。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 3%
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # 調色板{#swatches}
 
-样本由一行缩略图图像组成，其左侧和右侧带有可选滚动按钮。
+色板由一行缩略图图像组成，其左右两侧均带有可选的滚动按钮。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-仅当所有缩略图都不适合容器的宽度时，滚动按钮才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
+仅当所有缩略图都不适合容器的宽度时，才能在桌面上显示滚动按钮。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
 
 **样本的CSS属性**
 
@@ -124,9 +124,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 用于鼠标悬停。
+>缩略图支持 `state` 属性选择器，用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 鼠标悬停时使用。
 
-示例 — 要设置56 x 56像素的缩略图，请使用浅灰色默认边框和深灰色选定边框：
+示例 — 要设置56 x 56像素、浅灰色默认边框和深灰色选定边框的缩略图：
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -143,7 +143,7 @@ ht-degree: 3%
 
 **左右滚动按钮的CSS属性**
 
-左右滚动按钮的外观由以下CSS类选择器控制：
+使用以下CSS类选择器来控制左右滚动按钮的外观：
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
@@ -174,7 +174,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -183,7 +183,7 @@ ht-degree: 3%
 >
 >此按钮支持 `state` 属性选择器，用于将不同的外观应用于按钮状态 `up`， `down`， `over`、和 `disabled`.
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 了解更多信息。
+可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 以了解更多信息。
 
 示例 — 设置像素为56 x 56且每种状态有不同图稿的滚动按钮：
 

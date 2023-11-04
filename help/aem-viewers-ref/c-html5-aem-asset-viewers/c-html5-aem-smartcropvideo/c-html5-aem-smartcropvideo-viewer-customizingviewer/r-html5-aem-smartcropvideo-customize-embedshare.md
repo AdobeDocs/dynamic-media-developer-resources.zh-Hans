@@ -1,11 +1,11 @@
 ---
 title: 嵌入共享
-description: 嵌入共享工具包含一个添加到“社交”共享面板的按钮，以及一个在激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
+description: 嵌入共享工具由添加到“社交”共享面板的按钮以及激活该工具时显示的模式对话框组成。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 2%
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # 嵌入共享{#embed-share}
 
-嵌入共享工具包含一个添加到“社交”共享面板的按钮，以及一个在激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
+嵌入共享工具由添加到“社交”共享面板的按钮以及激活该工具时显示的模式对话框组成。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-嵌入共享按钮的外观由以下CSS类选择器控制：
+嵌入共享按钮的外观可通过以下CSS类选择器来控制：
 
 ```
 .s7smartcropvideoviewer .s7embedshare
@@ -42,7 +42,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 可以通过设置从Social共享面板中删除按钮 `display:none` CSS属性的CSS类。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置一个28 x 28像素的嵌入共享按钮，并为四种不同的按钮状态中的每种状态显示不同的图像：
+示例 — 要设置一个28 x 28像素的嵌入共享按钮，并为四种不同的按钮状态分别显示不同的图像：
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器来控制对话框处于活动状态时覆盖网页的背景叠加：
+使用以下CSS类选择器可控制对话框处于活动状态时覆盖网页的背景叠加：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7backoverlay
@@ -106,7 +106,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-默认情况下，模式对话框会以桌面系统屏幕的中心位置显示，并在触控设备上显示整个网页区域。 在所有情况下，对话框的位置和大小都由组件管理。 该对话框由以下CSS类选择器控制：
+默认情况下，模式对话框会以桌面系统屏幕的中心位置显示，并在触控设备上显示整个网页区域。 在所有情况下，对话框的位置和大小都由组件管理。 使用以下CSS类选择器控制该对话框：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialog
@@ -135,7 +135,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
  </tbody> 
 </table>
 
-示例 — 设置对话框以使用整个浏览器窗口，并在触控设备上使用白色背景：
+示例 — 设置对话框以使用整个浏览器窗口并在触控设备上使用白色背景：
 
 ```
 .s7smartcropvideoviewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -145,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框标题由图标、标题文本和关闭按钮组成。 标头容器的控制方式
+对话框标题由图标、标题文本和关闭按钮组成。 标题容器的控制方式
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader
@@ -157,12 +157,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标头内容的内部填充。 </p> </td> 
+   <td colname="col2"> <p> 标题内容的内部边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-图标和标题文本将封装在一个由控制的额外容器中
+图标和标题文本将封装在一个额外的容器中，由控制
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -179,7 +179,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-标头图标由以下CSS类选择器控制
+标题图标由以下CSS类选择器控制
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadericon
@@ -203,12 +203,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标头标题由以下CSS类选择器控制：
+标题标题由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadertext
@@ -227,17 +227,17 @@ background-color: #ffffff;
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部文本填充。 </p> </td> 
+   <td colname="col2"> <p>内部文本边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-“关闭”按钮由以下CSS类选择器控制：
+使用以下CSS类选择器控制“关闭”按钮：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7closebutton
@@ -273,7 +273,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,9 +282,9 @@ background-color: #ffffff;
 >
 >此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-可以本地化“关闭”按钮工具提示和对话框标题。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化“关闭”按钮工具提示和对话框标题。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置带有内边距的对话框标题，请添加24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮。 最后，将其定位为从顶部开始的两个像素，以及从对话框容器右侧开始的两个像素：
+示例 — 要设置带有内边距的对话框标题，请设置24 x 14像素图标、粗体16点标题和28 x 28像素关闭按钮。 最后，将其从顶部放置两个像素，从对话框容器右侧放置两个像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -324,7 +324,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框页脚包含“取消”按钮。 页脚容器由以下CSS类选择器控制：
+对话框页脚包含“取消”按钮。 使用以下CSS类选择器控制页脚容器：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter
@@ -341,7 +341,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-页脚具有保持按钮的内容器。 它通过以下CSS类选择器进行控制：
+页脚具有用于保存按钮的内部容器。 可使用以下CSS类选择器来控制分类：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbuttoncontainer
@@ -358,7 +358,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-“全选”按钮由以下CSS类选择器控制：
+全选按钮由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogactionbutton
@@ -393,7 +393,7 @@ background-color: #ffffff;
 >
 >全选按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-“取消”按钮由以下CSS类选择器控制：
+使用以下CSS类选择器可控制“取消”按钮：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcancelbutton
@@ -445,7 +445,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,7 +453,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 盒阴影 </span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
@@ -463,9 +463,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置一个对话框页脚，其中具有64 x 34 Cancel按钮，并且每个按钮状态的文本颜色和背景颜色不同：
+示例 — 使用64 x 34 Cancel按钮设置对话框页脚，每种按钮状态的文本颜色和背景颜色不同：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter { 
@@ -525,7 +525,7 @@ background-color: #ffffff;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）右侧包含可滚动的对话框内容和滚动面板。 在所有情况下，组件都会管理此区域的宽度，因此无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
+主对话框区域（在页眉和页脚之间）右侧包含可滚动的对话框内容和滚动面板。 在所有情况下，此区域的宽度均由组件管理，因此无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogviewarea
@@ -566,7 +566,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody
 ```
 
-如果此容器的高度看起来大于主对话框区域，则组件会自动启用垂直滚动。
+如果此容器的高度看起来比主对话框区域大，则组件会自动启用垂直滚动。
 
 对话框正文的**CSS属性**
 
@@ -579,7 +579,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要将表单内容设置为具有十像素填充：
+示例 — 要将表单内容设置为具有十个像素的填充：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -608,7 +608,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -618,9 +618,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-可以本地化对话框标签工具提示。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化对话框标签工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要将所有标签设置为灰色、粗体加九像素字体：
+示例 — 将所有标签设置为灰色，粗体带九像素字体：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoglabel { 
@@ -651,7 +651,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将文本副本的宽度设置为430像素，并在底部使用10像素填充：
+示例 — 将文本副本的宽度设置为430像素，并在底部填充10像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide { 
@@ -660,7 +660,7 @@ background-color: #ffffff;
 }
 ```
 
-嵌入代码将封装在容器中，并受以下CSS类选择器的控制：
+嵌入代码将封装在容器中，并使用以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer
@@ -685,7 +685,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要在嵌入代码文本周围设置一个像素的灰色边框，请使其宽度为430像素，并具有十像素填充：
+示例 — 要在嵌入代码文本周围设置1像素灰色边框，请使其宽度为430像素，并具有10像素填充：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -712,7 +712,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 设置要使用的嵌入代码 `break-word` 自动换行：
+示例 — 设置要使用的嵌入代码 `break-word` 文字换行：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -737,7 +737,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要将嵌入大小面板设置为具有十个像素的内边距：
+示例 — 将嵌入大小面板设置为具有十个填充像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持 `expanded` 属性选择器，可能的值为 `true` 和 `false`. 此 `true` 当组合框显示预定义的嵌入大小之一时使用value，因此应采用所有可用宽度。 此 `false` 在组合框中选择了“自定义大小”选项时，会使用值，因此应将其收缩以便为自定义宽度和高度输入字段留出空间。
+>组合框支持 `expanded` 属性选择器，可能的值为 `true` 和 `false`. 此 `true` 当组合框显示某个预定义的嵌入大小时使用value，因此应采用所有可用宽度。 此 `false` 当在组合框中选择了“自定义大小”选项时，将使用该值，因此应将其收缩以便为自定义宽度和高度输入字段留出空间。
 
 示例 — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 
@@ -807,7 +807,7 @@ background-color: #ffffff;
 }
 ```
 
-组合框文本的高度由特殊内部元素定义，并使用以下CSS类选择器控制：
+组合框文本的高度由特殊内部元素定义，并使用以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxtext
@@ -832,7 +832,7 @@ background-color: #ffffff;
 }
 ```
 
-组合框的右侧有一个“下拉”按钮，它通过以下CSS类选择器控制：
+组合框的右侧有一个“下拉”按钮，它通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton
@@ -844,11 +844,11 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>组合框中的垂直按钮位置。 </p> </td> 
+   <td colname="col2"> <p>组合框内的垂直按钮位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>组合框中的水平按钮位置。 </p> </td> 
+   <td colname="col2"> <p>水平按钮在组合框中的位置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -864,14 +864,14 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-示例 — 将“下拉”按钮设置为28 x 28像素，并为每种状态使用单独的图像：
+示例 — 将“下拉”按钮设置为28 x 28像素，并为每种状态提供单独的图像：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -892,13 +892,13 @@ background-color: #ffffff;
 }
 ```
 
-在打开组合框时显示嵌入大小列表的面板由以下CSS类选择器控制：
+使用以下CSS类选择器来控制在打开组合框时显示嵌入大小列表的面板：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
 ```
 
-面板的大小和位置由组件控制。 无法通过CSS更改它。
+面板的大小和位置由组件控制。 无法通过CSS更改此设置。
 
 **组合框下拉列表的CSS属性**
 
@@ -919,7 +919,7 @@ background-color: #ffffff;
 }
 ```
 
-下拉面板中的单个项目，使用以下CSS类选择器控制：
+下拉面板中由以下CSS类选择器控制的单个项目：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor
@@ -936,7 +936,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将组合框面板项目设置为使用白色背景：
+示例 — 将组合框面板项目设置为具有白色背景：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dropdownitemanchor { 
@@ -944,7 +944,7 @@ background-color: #ffffff;
 }
 ```
 
-组合框面板中选定项目左侧显示的复选标记，由以下CSS类选择器控制：
+组合框面板中选定项目的左侧显示的复选标记，它受以下CSS类选择器的控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7checkmark
@@ -968,7 +968,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -983,7 +983,7 @@ background-color: #ffffff;
 }
 ```
 
-在嵌入大小组合框中选择“自定义大小”选项后，对话框的右侧会显示两个额外的输入字段，以允许用户输入自定义嵌入大小。 这些字段封装在一个容器中，该容器由以下CSS类选择器控制：
+在嵌入大小组合框中选择“自定义大小”选项后，对话框在右侧显示两个额外的输入字段，以允许用户输入自定义嵌入大小。 这些字段将封装在容器中，该容器由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
@@ -1000,7 +1000,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要将自定义大小输入字段面板设置为组合框右侧20像素：
+示例 — 将自定义大小输入字段面板设置为组合框右侧20像素：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1008,7 +1008,7 @@ background-color: #ffffff;
 }
 ```
 
-每个自定义大小输入字段都包装在一个容器中，该容器可渲染边框并设置字段之间的边距。 它通过以下CSS类选择器进行控制：
+每个自定义大小输入字段都包装在一个容器中，该容器可呈现边框并设置字段之间的边距。 可使用以下CSS类选择器来控制分类：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize
@@ -1032,7 +1032,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 输入字段填充。 </p> </td> 
+   <td colname="col2"> <p> 输入字段边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1049,7 +1049,7 @@ background-color: #ffffff;
 }
 ```
 
-如果需要垂直滚动，滚动条将在对话框右边缘附近的面板中呈现，该面板由以下CSS类选择器控制：
+如果需要垂直滚动，则滚动条将在对话框右边缘附近的面板中呈现，该面板由以下CSS类选择器控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel
@@ -1066,7 +1066,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将滚动面板设置为44像素宽
+示例 — 将滚动面板的宽度设置为44像素
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1074,7 +1074,7 @@ background-color: #ffffff;
 }
 ```
 
-滚动条区域的外观由以下CSS类选择器控制：
+使用以下CSS类选择器控制滚动条区域的外观：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar
@@ -1094,7 +1094,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 垂直滚动条从滚动面板的底部偏移。 </p> </td> 
+   <td colname="col2"> <p> 垂直滚动条从滚动面板底部偏移。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
@@ -1103,7 +1103,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 设置一个宽度为28像素的滚动条，该滚动条在滚动面板的顶部、右侧和底部各有8个像素的边距：
+示例 — 设置一个宽度为28像素的滚动条，该滚动条在滚动面板的顶部、右侧和底部具有8像素边距：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar { 
@@ -1135,7 +1135,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要设置宽度为28像素且背景为灰色的滚动条轨道：
+示例 — 设置宽度为28像素且背景为灰色的滚动条轨道：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1144,7 +1144,7 @@ background-color: #B2B2B2;
 }
 ```
 
-滚动条缩略图在滚动轨道区域中垂直移动。 其垂直位置完全由组件逻辑控制。 但是，缩略图高度不会因内容量而动态变化。 可以使用以下CSS类选择器配置缩略图高度和其他方面：
+滚动条缩略图在滚动轨道区域内垂直移动。 其垂直位置完全由组件逻辑控制。 但是，缩略图高度不会因内容量而动态变化。 可以使用以下CSS类选择器配置缩略图高度和其他方面：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb
@@ -1181,7 +1181,7 @@ background-color: #B2B2B2;
 >
 >缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态： `up`， `down`， `over`、和 `disabled`.
 
-示例 — 设置一个滚动条缩略图，其大小为28 x 45像素，上下各有10个像素的边距，并且每种状态的图稿都不同：
+示例 — 设置一个滚动条缩览图，其大小为28 x 45像素，顶部和底部有10像素边距，并且每种状态具有不同的图稿：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1204,7 +1204,7 @@ background-color: #B2B2B2;
 }
 ```
 
-顶部和底部滚动按钮的外观由以下CSS类选择器控制：
+顶部和底部滚动按钮的外观可通过以下CSS类选择器进行控制：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton 
@@ -1230,11 +1230,11 @@ background-color: #B2B2B2;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 为给定的按钮状态显示的图像。 </p> </td> 
+   <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1243,9 +1243,9 @@ background-color: #B2B2B2;
 >
 >这些按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态： `up`， `down`， `over`、和 `disabled`.
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 设置像素为28 x 32的滚动按钮，并为每种状态设置不同的图稿：
+示例 — 设置具有28 x 32像素且每种状态有不同图稿的滚动按钮：
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

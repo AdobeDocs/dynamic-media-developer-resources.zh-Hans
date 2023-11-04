@@ -1,24 +1,24 @@
 ---
-description: 目录标识符。 HTTP路径元素，用于在请求的图像对象说明符中标识此目录。
+description: 目录标识符。 用于标识请求图像对象说明符中此目录的HTTP路径元素。
 solution: Experience Manager
 title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '68'
 ht-degree: 5%
 
 ---
 
 # RootId{#rootid}
 
-目录标识符。 HTTP路径元素，用于在请求的图像对象说明符中标识此目录。
+目录标识符。 用于标识请求图像对象说明符中此目录的HTTP路径元素。
 
 ## 属性 {#section-9a49da71de634378a06d2347790898a0}
 
-文本字符串值。 只能包含HTTP路径中有效的字符。
+文本字符串值。 只能包含在HTTP路径中有效的字符。
 
 ## 默认 {#section-c5296f4e52394984bf1c0d265ecde940}
 

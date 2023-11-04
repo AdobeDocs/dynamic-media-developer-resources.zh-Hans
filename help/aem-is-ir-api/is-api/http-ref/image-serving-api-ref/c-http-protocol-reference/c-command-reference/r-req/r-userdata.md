@@ -5,9 +5,9 @@ title: 用户数据
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '183'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
  </tr> 
 </table>
 
-的内容 `catalog::UserData` 会返回。 当指定&#39;text&#39;格式时，所有实例 `??` 在 `catalog::UserData`用行终结器替换，并在末端附加一个单行终结器(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应仅由单行终止符组成。 在请求“xml”或“json”格式时，将应用相应的格式。
+的内容 `catalog::UserData` 会返回。 当指定&#39;text&#39;格式时，所有实例 `??` 在 `catalog::UserData`被线终结器替换，并且单线终结器(CR/LF)被附加到末端。 如果URL路径未解析为有效的目录条目，则响应仅由单行终止符组成。 在请求“xml”或“json”格式时应用相应的格式。
 
 请求字符串中的其他命令将被忽略。
 
@@ -39,4 +39,4 @@ HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.
+`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.

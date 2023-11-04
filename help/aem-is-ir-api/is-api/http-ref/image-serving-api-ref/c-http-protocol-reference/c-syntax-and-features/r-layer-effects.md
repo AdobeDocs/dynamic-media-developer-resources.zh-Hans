@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果�
 
 ## 内部和外部效果 {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*内部效果* 在父图层的顶部渲染，并且仅在父图层的不透明区域中可见。 *外部效果* 渲染到父图层之后（因此它们永远不会在父图层的不透明区域中可见），并且可以放置在合成画布中的任意位置。 内效应或外效应的选择是通过将正效应层或负效应层编号赋予 `effect=` 命令。 此 `effect=` 该命令还控制连接到同一父层的多个效果层之间的z排序。
+*内部效果* 在父图层顶部渲染，并且仅在父图层的不透明区域中可见。 *外部效果* 渲染到父图层之后（因此它们永远在父图层的不透明区域中不可见），并可在合成画布中的任意位置放置。 通过指定正或负效果层数来选择内部或外部效果 `effect=` 命令。 此 `effect=` 该命令还控制连接到同一父层的多个效果层之间的z排序。
 
 ## 与父层的关系 {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-效果层会自动调整大小并定位为与父层一致(即，效果层会继承 `size=` 和 `origin=` 值)。 `pos=` 可用于将效果图层从父图层移开，这通常是投影和内阴影效果所必需的。 对于标准图层，则为 `pos=` 指定此图层的起点与图层0之间的偏移，用于效果图层 `pos=` 指定效果图层的原点与父图层之间的偏移。
+效果层会自动调整大小并定位为与父层一致(即，效果层会继承 `size=` 和 `origin=` 值)。 `pos=` 可用于将效果图层从父图层移开，这通常是投影和内阴影效果所必需的。 对于标准图层，为 `pos=` 指定此图层的起点与图层0之间的偏移，用于效果图层 `pos=` 指定效果图层原点和父图层之间的偏移。
 
 ## 支持的命令和属性 {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -46,7 +46,7 @@ Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果�
 
 ## 默认效果宏 {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-为便于使用图层效果， IS提供了两个带有缺省图像目录的宏， `$shadow$` 和 `$glow$`，提供与Photoshop图层效果类似的效果图层属性的默认值。 下表列出应使用哪个效果命令和宏来实施默认图层效果。 当然，可以在URL中修改宏中指定的任何属性，也可以创建其他宏以实现自定义图层效果。
+为便于使用图层效果， IS提供了两个带有默认图像目录的宏， `$shadow$` 和 `$glow$`，提供与Photoshop图层效果类似的效果图层属性的默认值。 下表列出了实施默认图层效果时应使用的效果命令和宏。 当然，可以在URL中修改宏中指定的任何属性，也可以创建其他宏以实现自定义图层效果。
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -58,11 +58,11 @@ Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果�
  <tbody> 
   <tr> 
    <td> <p> 投影 </p> </td> 
-   <td> <p> <span class="codeph"> effect=-1&amp;$shadow$</span> </p> </td> 
+   <td> <p> <span class="codeph"> 效果=-1&amp;$shadow$</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 内阴影 </p> </td> 
-   <td> <p> <span class="codeph"> effect=1&amp;$shadow$</span> </p> </td> 
+   <td> <p> <span class="codeph"> 效果=1&amp;$shadow$</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 外发光 </p> </td> 
@@ -70,25 +70,25 @@ Photoshop样式的图层阴影和辉光效果是使用特殊子图层（效果�
   </tr> 
   <tr> 
    <td> <p> 内发光 </p> </td> 
-   <td> <p> <span class="codeph"> effect=1&amp;$glow$</span> </p> </td> 
+   <td> <p> <span class="codeph"> 效果=1&amp;$发光$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-4c449fdf707b43858917fb271fa1fe96}
 
-向图层添加一个具有50%不透明度的3像素宽、红色边框：
+向图层添加一个具有50%不透明度的3像素宽红色边框：
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-边框将遵循图像的Alpha通道或蒙版的轮廓。 设置 `effect=1` 将边框放在内边缘上。
+边框遵循图像的Alpha通道或蒙版的轮廓。 设置 `effect=1` 将边框放在内边上。
 
-使用默认效果设置（颜色除外），为图像添加蓝色投影：
+使用默认效果设置（颜色除外）为图像添加蓝色投影：
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` 在图像的右下边缘添加一小段边距，可防止投影裁剪到图像边界上。
+`extend=` 在图像的右下边缘添加少量边距，可防止投影裁剪到图像边界上。
 
 ## 另请参阅 {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135)， [命令宏%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[效果=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135)， [命令宏%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

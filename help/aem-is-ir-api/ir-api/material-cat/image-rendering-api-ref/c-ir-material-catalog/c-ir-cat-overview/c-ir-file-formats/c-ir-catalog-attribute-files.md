@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 目录属性文件可以具有任何名称，但必须具有 `.ini` 文件后缀。 可以使用任何文本编辑器轻松维护它们。
 
-目录属性文件由一组文本记录组成，用单个文件分隔 `<CR>` （ASCII代码0xD），单个 `<LF>` （ASCII代码0xA）或 `<CR><LF>` 配对。 每个记录都由一个属性名称和一个或多个以逗号分隔的属性值组成：
+目录属性文件由一组文本记录组成，用单个文件分隔 `<CR>` （ASCII代码0xD），单个 `<LF>` （ASCII代码0xA）或 `<CR><LF>` 配对。 每个记录由一个属性名称和一个或多个以逗号分隔的属性值组成：
 
 `*`name`*= *`值`*&#42;[, *`值`*]{<CR>|<LF>|<CR><LF>}`
 
@@ -27,12 +27,12 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-  <td class="stentry"> <p>属性值；不得包含 <span class="codeph"> &lt;cr&gt; </span>，或 <span class="codeph"> &lt;lf&gt; </span> 字符，除非在新行字符之前用单个反斜杠转义。 </p> </td> 
+  <td class="stentry"> <p>属性值；不得包含 <span class="codeph"> &lt;cr&gt; </span>，或 <span class="codeph"> &lt;lf&gt; </span> 字符，除非在换行符之前用单个反斜杠转义。 </p> </td> 
  </tr> 
 </table>
 
 * 令牌之间的空格是可选的。
 * 具有未知属性名称的记录将被忽略 [!DNL Platform Server].
-* 属性名称可以由ASCII字母、数字以及“ — ”、“_”和“。”的任意组合组成。
-* 如果同一属性文件中出现同一属性名称多次，则最后一个出现的属性名称优先。
+* 属性名称可以由ASCII字母、数字和“ — ”、“_”和“。”的任意组合组成。
+* 如果同一属性文件中多次出现相同的属性名称，则最后一个出现的属性名称优先。
 * 使用“#”作为第一个字符，将任何记录标记为分析器忽略的注释。

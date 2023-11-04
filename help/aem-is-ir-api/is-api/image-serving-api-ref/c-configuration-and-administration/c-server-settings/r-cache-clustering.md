@@ -5,9 +5,9 @@ title: 缓存聚类
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ IP地址列表，以分号分隔。 包括此主机应从中获取缓存数据�
 
 ## PS：：cacheCluster.updateLocalCache — 更新本地缓存 {#section-154c2c0af4544200a3499232bb130dde}
 
-如果将对等服务器提供的缓存条目复制到本地响应缓存，则设置为“是”。
+如果将对等服务器提供的缓存项复制到本地响应缓存，则设置为“是”。
 
 ## PS：：cacheCluster.queryTimeout — 查询超时 {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-当从对等服务器请求缓存项时，服务器将等待一个服务器响应它有此特定数据项，或者所有对等服务器响应它们没有该数据项，或者等待使用此设置指定的时间（以毫秒为单位）过期。
+当从对等服务器请求缓存项时，服务器将等待一个服务器响应它有此特定数据项，或等待所有对等服务器响应它们没有此数据项，或等待使用此设置指定的时间（以毫秒为单位）过期。
 
-## PS：：cacheCluster.fetchTimeout — 提取超时 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
+## PS：：cacheCluster.fetchTimeout — 获取超时 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-指定服务器等待从对等服务器传送实际缓存数据的最大毫秒数。 如果在超时过期之前未提交完整数据，则服务器会假定对等节点已变为不可用。 然后，在本地生成缓存条目。
+指定服务器等待从对等服务器传送实际缓存数据的最大毫秒数。 如果在超时过期之前未提交完整数据，则服务器会假定对等节点已变为不可用。 然后，在本地生成缓存项。

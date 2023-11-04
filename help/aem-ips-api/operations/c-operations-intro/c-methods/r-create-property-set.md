@@ -1,20 +1,20 @@
 ---
-description: 属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经有一个相同类型的关联集，则新集将替换现有集。
+description: 属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经具有同一类型的关联集，则新集将替换现有集。
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经有一个相同类型的关联集，则新集将替换现有集。
+属性集是特定于应用程序的名称值对集，可根据属性集类型附加到各种IPS对象。 如果属性集类型不允许将多个集附加到对象(PropertySetType/allowMultipleisfalse)，并且对象已经具有同一类型的关联集，则新集将替换现有集。
 
 语法
 

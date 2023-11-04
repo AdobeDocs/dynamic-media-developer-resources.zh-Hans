@@ -5,9 +5,9 @@ title: 规则
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 5%
 
 `OnMatch="break"|"continue"|"error"` 可选. 默认值为“break”。
 
-` Name=" *`text`*"` 可选。 用于识别 `<rule>` 调试日志和错误消息中的元素。
+` Name=" *`文本`*"` 可选。 用于识别 `<rule>` 调试日志和错误消息中的元素。
 
-此外， `<rule>` 元素可以任意组合定义以下任何属性。 如果指定并且规则已成功匹配，则它们将覆盖此请求对应的目录属性。
+另外， `<rule>` 元素可以任意组合定义以下任何属性。 如果指定并且规则匹配成功，则它们将覆盖此请求对应的目录属性。
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
@@ -33,7 +33,7 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Defaultpix </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 默认像素 </span> </p> </td> 
    <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute：：DefautPix </a> </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 有关详细信息，请参阅相应图像目录属性的描述。
 
-Expiration属性仅覆盖默认属性值；如果特定属性 `catalog::Expiration` 值将应用于请求。
+Expiration属性仅覆盖默认属性值；如果特定的 `catalog::Expiration` 值适用于请求。
 
 ## 数据 {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -78,10 +78,10 @@ Expiration属性仅覆盖默认属性值；如果特定属性 `catalog::Expirati
 
 ## 说明 {#section-a27b91f9a03047c0bb7edc0967fb4216}
 
-如果两者都有 `<expression>` 和 `<substitution>` 指定而不使用捕获的子字符串，则第一个匹配的子字符串将被替换为 `<substitution>`.
+如果两者 `<expression>` 和 `<substitution>` 指定而不使用捕获的子字符串，则将第一个匹配的子字符串替换为 `<substitution>`.
 
-如果 `<expression>` 未指定，任何路径都将匹配和 `<substitution>` 会附加到路径的末尾。
+如果 `<expression>` 未指定，任何路径都匹配和 `<substitution>` 会附加到路径的末尾。
 
 如果 `<substitution>` 未指定，将删除匹配的子字符串。
 
-此 `<addressfilter>` 仅在发生匹配时以及在应用查询规则之前应用。
+此 `<addressfilter>` 仅在发生匹配时以及应用查询规则之前应用。

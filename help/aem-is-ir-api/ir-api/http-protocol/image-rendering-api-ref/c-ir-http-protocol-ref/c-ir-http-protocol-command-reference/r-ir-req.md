@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 用户数据 </span> </p> </td> 
-  <td class="stentry"> <p>返回以下内容： <span class="codeph"> 晕影：：UserData </span>. </p> </td> 
+  <td class="stentry"> <p>返回以下内容 <span class="codeph"> 晕影：：UserData </span>. </p> </td> 
  </tr> 
 </table>
 
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 `debug`
 
-执行指定的命令并返回渲染的图像。 如果发生错误，则会返回错误和调试信息，而不是错误图像( `attribute::ErrorImagePath`)。
+执行指定的命令并返回渲染的图像。 如果发生错误，将返回错误和调试信息而不是错误图像( `attribute::ErrorImagePath`)。
 
 `contents`
 
@@ -65,11 +65,11 @@ ht-degree: 4%
 
 `img`
 
-执行指定的命令并返回渲染的图像。 回复数据格式和响应类型由以下确定 `fmt=`.
+执行指定的命令并返回渲染的图像。 回复数据格式和响应类型由 `fmt=`.
 
 `imageprops`
 
-返回在URL路径中指定的晕影文件或目录条目的选定属性。 参见 [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 有关回复语法和响应MIME类型的说明。 请求中的其他命令将被忽略。 返回以下属性：
+返回在URL路径中指定的晕影文件或目录条目的所选属性。 请参阅 [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 有关回复语法和响应MIME类型的说明。 请求中的其他命令将被忽略。 将返回以下属性：
 
 <table id="table_A30296D29B5D43F1B5383A887252C6B4"> 
  <thead> 
@@ -82,7 +82,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.expiration </span> </p> </td> 
-   <td colname="col2"> <p>双精度 </p> </td> 
+   <td colname="col2"> <p>多次 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> attribute：：Expiration </span> 或默认生存时间。 </p> </td> 
   </tr> 
   <tr> 
@@ -113,12 +113,12 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td colname="col2"> <p>枚举 </p> </td> 
-   <td colname="col3"> <p>响应图像的像素类型；可以是“CMYK”、“RGB”或“BW”（用于灰度图像）。 </p> </td> 
+   <td colname="col3"> <p>响应图像的像素类型；可以是“CMYK”、“RGB”或“BW”（适用于灰度图像）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
    <td colname="col2"> <p>实数 </p> </td> 
-   <td colname="col3"> <p>默认打印分辨率(dpi)。 </p> </td> 
+   <td colname="col3"> <p>默认打印分辨率（以dpi为单位）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.timeStamp </span> </p> </td> 
@@ -143,7 +143,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> vignette.res.avg </span> </p> </td> 
    <td colname="col2"> <p>实数 </p> </td> 
-   <td colname="col3"> <p>中的平均对象分辨率 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材质分辨率 </a> 单位(通常为pixels/inc <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材质分辨率 </a>h)。 </p> </td> 
+   <td colname="col3"> <p>中的平均对象分辨率 <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材质分辨率 </a> 单位（通常为像素/inc） <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> 材质分辨率 </a>h)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 晕影.res.min </span> </p> </td> 
@@ -160,7 +160,7 @@ ht-degree: 4%
 
 `map`
 
-返回晕影中包含的图像映射数据。 默认情况下，将返回所有最外层组的映射数据。 可以使用获取所有最内层的组的映射数据
+返回晕影中包含的图像映射数据。 默认情况下，将返回所有最外部组的映射数据。 可以使用获取所有最内层的组的映射数据
 
 `req=map&groupLevel=-1`
 
@@ -168,19 +168,19 @@ ht-degree: 4%
 
 响应数据包含 `<map>` 元素包含一组 `<area>` 元素，类似于HTML `<AREA>` 标记之前。
 
-每个 `<area>` 元素包括标准 `type=` 和 `coord=` 属性，以及 `name=` 属性，指定晕影组名称或名称路径。 多个 `<area>` 如果相应对象组的掩码具有不连续区域，则存在同名元素。
+每个 `<area>` 元素包括标准 `type=` 和 `coord=` 属性，和 `name=` 属性，指定晕影组名称或名称路径。 多个 `<area>` 如果相应对象组的掩码具有不连续的区域，则存在同名元素。
 
-除了默认属性之外，如果创作，晕影还可以定义其他属性。 此类自定义属性被定义为对象组属性。 自定义属性的名称必须以开头 `map` 将包含在 `<area>` 元素。 例如，如果组属性包括 `map.href=http://www.scene7.com`，相应的 `<area>` 元素包括 `href="http://www.scene7.com"`.
+除了默认属性之外，如果已经创作，晕影还可以定义其他属性。 此类自定义属性被定义为对象组属性。 自定义属性的名称必须以开头 `map` 将包含在 `<area>` 元素。 例如，如果组属性包括 `map.href=http://www.scene7.com`，相应的 `<area>` 元素包括 `href="http://www.scene7.com"`.
 
 带空的XML文档 `<map>` 如果晕影不包含映射数据，则返回元素。
 
 `object`
 
-执行指定的命令并返回由剩余对象选择（用最后一个对象选择的组或对象）遮罩的渲染图像 `sel=` 或 `obj=` 命令)。 通常与支持Alpha的图像格式一起使用(请参阅 [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c))。 如果使用不支持Alpha的图像格式，则蒙版外的区域为黑色。
+执行指定的命令并返回由剩余对象选择（用最后一个对象选择的组或对象）遮罩的渲染图像 `sel=` 或 `obj=` 命令)。 通常与支持Alpha的图像格式一起使用(请参阅 [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c))。 如果使用的图像格式不支持alpha，则蒙版外部的区域为黑色。
 
 `props`
 
-执行指定的命令并返回晕影属性和组或对象属性，而不是渲染的图像。 参见 [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 有关回复语法和响应MIME类型的说明。 除非出现以下情况，否则将应用默认选择 `obj=` 或 `sel=` 也指定(请参阅 [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a))。
+执行指定的命令并返回晕影属性和组或对象属性，而不是渲染的图像。 请参阅 [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 有关回复语法和响应MIME类型的说明。 除非出现以下情况，否则将应用默认选择 `obj=` 或 `sel=` 也指定(请参阅 [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a))。
 
 响应中可能包含以下属性：
 
@@ -206,7 +206,7 @@ ht-degree: 4%
   <tr> 
    <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
    <td> <p> 布尔值 </p> </td> 
-   <td> <p>如果ICC配置文件嵌入回复图像中，则为true(请参阅 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>)。 </p> </td> 
+   <td> <p>如果ICC配置文件嵌入到回复图像中，则为True(请参阅 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
@@ -236,7 +236,7 @@ ht-degree: 4%
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>整数，布尔值 </p> </td> 
-   <td> <p> JPEG质量和色度标记(请参阅 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> JPEG质量和色度标志(请参阅 <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 
@@ -249,12 +249,12 @@ ht-degree: 4%
    <td> <p> 回复图像宽度（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.properties </span> </p> </td> 
+   <td> <p> <span class="codeph"> 选择属性 </span> </p> </td> 
    <td> <p> 字符串型 </p> </td> 
-   <td> <p> 当前选定内容的属性字符串。 </p> </td> 
+   <td> <p> 当前选择的属性字符串。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.count </span> </p> </td> 
+   <td> <p> <span class="codeph"> 选择计数 </span> </p> </td> 
    <td> <p> 整型 </p> </td> 
    <td> <p> 当前选定内容中的对象数。 </p> </td> 
   </tr> 
@@ -264,24 +264,24 @@ ht-degree: 4%
    <td> <p> 当前选定内容的缩进值。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 选择 <span class="codeph"> selection.properties </span>ion.name </span> </p> </td> 
+   <td> <p> <span class="codeph"> 选择 <span class="codeph"> 选择属性 </span>ion.name </span> </p> </td> 
    <td> <p> 字符串型 </p> </td> 
    <td> <p> 当前对象选择的全名路径。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selection.overlaying </span> </p> </td> 
+   <td> <p> <span class="codeph"> selection.overling </span> </p> </td> 
    <td> <p> 整型 </p> </td> 
-   <td> <p> 当前选区中的重叠对象数。 </p> </td> 
+   <td> <p> 当前选定内容中的重叠对象数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.renderable </span> </p> </td> 
    <td> <p> 整型 </p> </td> 
-   <td> <p>当前选区中可渲染对象的数量。 </p> </td> 
+   <td> <p>当前选区中可呈现对象的数量。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.texturable </span> </p> </td> 
    <td> <p> 整型 </p> </td> 
-   <td> <p> 当前选区中可纹理对象的数量。 </p> </td> 
+   <td> <p> 当前选定内容中的可纹理对象数。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> selection.visible </span> </p> </td> 
@@ -291,26 +291,26 @@ ht-degree: 4%
   <tr> 
    <td> <p> <span class="codeph"> selection.zorder </span> </p> </td> 
    <td> <p> 整型 </p> </td> 
-   <td> <p> 当前选区中第一个重叠对象的Z顺序值。 </p> </td> 
+   <td> <p> 当前选择中第一个重叠对象的Z顺序值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 `userdata`
 
-返回以下内容： `vignette::UserData`. 服务器将替换所有出现的 `'??'` 在 `vignette::UserData` 带有行终止符( `<cr><lf>`)。 回复的格式为文本数据，响应MIME类型设置为 &lt;text plain=&quot;&quot;>.
+返回以下内容 `vignette::UserData`. 服务器将替换所有出现的 `'??'` 在 `vignette::UserData` 带有行终止符( `<cr><lf>`)。 将回复格式化为响应MIME类型设置为的文本数据 &lt;text plain=&quot;&quot;>.
 
-如果URL路径中指定的对象未解析为有效的晕影映射条目，或者 `vignette::UserData` 为空，则回复将仅包含行终止符( `CR/LF`)。
+如果URL路径中指定的对象未解析为有效的晕影映射条目，或者 `vignette::UserData` 为空，则回复仅包含行结束符( `CR/LF`)。
 
 请求字符串中的任何其他命令都将被忽略。
 
 ## 属性 {#section-e44092e190ff4f6380583e8ed6ea5b0b}
 
-请求命令。 可能出现在请求字符串中的任意位置。
+请求命令。 可能出现在请求字符串中的任何位置。
 
 ## 默认 {#section-00c593cbf1af4364b6b78812e6b93c64}
 
-如果URL不包含图像路径或修改量，则：
+如果URL不包含图像路径或修改符，则：
 
 ```
 #S7Z OK 
@@ -322,4 +322,4 @@ copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserve
 
 ## 另请参阅 {#section-f7a955525fb44ef2ae7cd7ede25a96c3}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) ， [attribute：：ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)， [晕影：：UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85)， [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) ， [属性：：ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)， [晕影：：UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85)， [属性](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)

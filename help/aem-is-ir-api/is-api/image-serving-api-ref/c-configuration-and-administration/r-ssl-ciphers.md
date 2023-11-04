@@ -5,9 +5,9 @@ title: 定义SSL密码
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 server.xml中的Connector标记支持密码属性，以限制可以为SSL连接选择的密码。
 
-默认情况下，所有密码都可用。 该列表以逗号分隔，可以包含以下任意值：
+默认情况下，所有密码均可用。 该列表以逗号分隔，可以包含以下任一值：
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 

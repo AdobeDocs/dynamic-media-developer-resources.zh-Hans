@@ -1,22 +1,22 @@
 ---
-description: 图像验证实用程序。 此命令行实用程序验证图像文件，以确保它们有效，并且图像服务可以轻松读取。
+description: 映像验证实用程序。 此命令行实用程序验证图像文件以确保它们有效，并且图像服务可以轻松读取。
 solution: Experience Manager
 title: 确认
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
 # 确认{#validate}
 
-图像验证实用程序。 此命令行实用程序验证图像文件，以确保它们有效，并且图像服务可以轻松读取。
+映像验证实用程序。 此命令行实用程序验证图像文件以确保它们有效，并且图像服务可以轻松读取。
 
-所有非PTIFF图像文件都必须通过验证，然后该文件才可用于图像服务作为源图像。 PTIFF映像应在复制操作可能不可靠后进行验证。
+所有非PTIFF图像文件都必须通过验证，然后该文件才可供图像服务作为源图像使用。 PTIFF映像应在执行可能不可靠的复制操作后进行验证。
 
 ## 使用 {#usage}
 
@@ -33,13 +33,13 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 源文件 </span> </span> </p> </td> 
-  <td class="stentry"> <p> 图像文件。 全部或更多，以空格分隔。 </p> </td> 
+  <td class="stentry"> <p> 图像文件。 全部或更多，用空格分隔。 </p> </td> 
  </tr> 
 </table>
 
 ## 返回 {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-如果成功，则为0。 如果发生错误，则会返回非零值并将错误详细信息发送到 `stderr`.
+如果成功，则为0。 如果发生错误，将返回非零值并将错误详细信息发送到 `stderr`.
 
 ## 选项 {#section-9df8334b46cb4e90901505af59e4600e}
 
@@ -54,11 +54,11 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>验证嵌入的颜色配置文件的有效性。 默认情况下，不选中配置文件主体。 </p> </td> 
+  <td class="stentry"> <p>验证嵌入的颜色配置文件的有效性。 默认情况下，不选中配置文件正文。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
-  <td class="stentry"> <p> 拒绝每个图像组件16位的图像。 在验证远程源图像时，图像服务器始终指定此值。 </p> </td> 
+  <td class="stentry"> <p> 拒绝每个图像组件为16位的图像。 在验证远程源映像时始终由映像服务器指定。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -verbose </span> </p> </td> 

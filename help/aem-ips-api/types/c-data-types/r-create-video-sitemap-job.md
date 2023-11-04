@@ -5,9 +5,9 @@ title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 14%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">设置为时生成网站地图 <span class="codeph"> true</span>. <p><p>注意：如果Sitemap生成配置设置为手动，并且 <span class="codeph"> forceUpdate</span> 未设置，将不会生成站点地图。 </p></p></td> 
+   <td colname="col3">设置为时生成网站地图 <span class="codeph"> true</span>. <p><p>注意：如果Sitemap生成配置设置为手动和 <span class="codeph"> forceUpdate</span> 未设置，则不会生成站点地图。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '259'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 派生资源指定用于修改所有者图像表示法的图像服务器协议命令。 此 `AdjustedView` 派生类型有助于将简单的修改应用于单个图像（例如，通过指定裁切矩形），而 `LayerView` 帮助创建可能包含文本或其他图像的多层视图。
 
-与图像副本不同(请参阅 [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0))，则派生图像将链接到其所有者图像。 更改所有者图像会修改关联的派生资源。 删除所有者图像将删除任何关联的派生图像。
+与图像副本不同(请参阅 [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0))，则派生图像将链接到其所有者图像。 更改所有者图像会修改关联的派生资源。 删除所有者映像将删除任何关联的派生映像。
 
 ## 授权用户类型 {#authorized-user-types}
 
@@ -39,13 +39,13 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含新资产的公司的句柄，您将从该资产派生新资产。 |
+| companyHandle | `xsd:string` | 是 | 包含新资产的公司的句柄，从该资产衍生新资产。 |
 | ownerHandle | `xsd:string` | 是 | 从中派生新图像的主图像资源的句柄。 |
-| folderHandle | `xsd:string` | 是 | 创建新派生资源的文件夹的句柄。 |
+| folderHandle | `xsd:string` | 是 | 在其中创建新派生资源的文件夹的句柄。 |
 | 名称 | `xsd:string` | 是 | 派生资源的名称。 |
-| 类型 | `xsd:string` | 是 | 新派生资产的资产类型： `AdjustedView` 或 `LayerView`. |
-| urlModifier | `xsd:string` | 否 | 应用图像提供或图像渲染协议命令 *早于* 请求或 `urlPostApplyModifier` 命令。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 应用图像提供或图像渲染协议命令 *之后* 请求或 `urlPostApplyModifier` 命令。 |
+| 类型 | `xsd:string` | 是 | 新派生资源的资源类型： `AdjustedView` 或 `LayerView`. |
+| urlModifier | `xsd:string` | 否 | 应用的图像服务或图像渲染协议命令 *早于* 请求或 `urlPostApplyModifier` 命令。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 应用的图像服务或图像渲染协议命令 *之后* 请求或 `urlPostApplyModifier` 命令。 |
 
 **输出(createDerivedAssetParam)**
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 ## 示例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-示例代码创建一个派生资产，该资产具有调整后的视图，并且 `urlModifier` 和 `urlPostApplyModifier` ，则不会显示任何值。 响应会将句柄返回给新派生的资产。
+示例代码创建一个派生资产，该资产具有经过调整的视图，并且 `urlModifier` 和 `urlPostApplyModifier` 具有任意值。 响应会将句柄返回到新派生的资产。
 
 **请求**
 

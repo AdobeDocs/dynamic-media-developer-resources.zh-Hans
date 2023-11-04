@@ -1,11 +1,11 @@
 ---
 title: 色板
-description: 颜色样本由一行缩略图图像组成，其左侧和右侧带有可选滚动按钮。 仅当所有缩略图都不适合容器的宽度时，颜色样本才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
+description: 颜色样本由一行缩略图图像组成，在左侧和右侧具有可选的滚动按钮。 仅当所有缩略图都不适合容器的宽度时，颜色样本才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 色板{#color-swatches}
 
-颜色样本由一行缩略图图像组成，其左侧和右侧带有可选滚动按钮。 仅当所有缩略图都不适合容器的宽度时，颜色样本才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
+颜色样本由一行缩略图图像组成，在左侧和右侧具有可选的滚动按钮。 仅当所有缩略图都不适合容器的宽度时，颜色样本才在桌面上可见。 在移动设备上，或者如果缩略图可以适合容器宽度，则不会显示滚动按钮。
 
 样本容器的外观由CSS类选择器控制：
 
@@ -65,7 +65,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围水平和垂直边距的大小。 实际缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 用于鼠标悬停。
+>缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 鼠标悬停时使用。
 
 示例 — 设置56 x 56像素的缩略图，其中具有浅灰色默认边框和深灰色选定边框。
 
@@ -126,7 +126,7 @@ ht-degree: 3%
 }
 ```
 
-左右滚动按钮的外观由以下CSS类选择器控制：
+通过以下CSS类选择器来控制左右滚动按钮的外观：
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton`
 
@@ -156,7 +156,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -165,7 +165,7 @@ ht-degree: 3%
 >
 >此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态： `up`， `down`， `over`、和 `disabled`.
 
-示例 — 设置56 x 56像素的滚动按钮，并为每种状态设置不同的图稿。
+示例 — 设置具有56 x 56像素且每种状态都有不同图稿的滚动按钮。
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton { 

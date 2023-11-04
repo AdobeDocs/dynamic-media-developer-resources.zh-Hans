@@ -5,9 +5,9 @@ title: 发布信息
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 32bd12cf-f149-489f-ae74-f1da051d0730
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
 
-该字段的内容返回自 `req=catalogprops`. 此属性不在其他情况下使用。
+该字段的内容返回于 `req=catalogprops`. 否则，不会使用此属性。
 
 ## 属性 {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 

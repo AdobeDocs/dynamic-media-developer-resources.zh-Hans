@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 `Replace = "first" | "all"`: 可选. 默认值为“first”。
 
-`RequestType` = *”`types`”*：可选。 指定应用规则的输入上下文。 *`types`* 是以逗号分隔的列表，可能包括下表中列出的一个或多个令牌。 如果 `RequestType` 未指定，则规则适用于在所有支持的上下文中收到的请求。
+`RequestType` = *&quot;`types`&quot;*：可选。 指定规则应用于的输入上下文。 *`types`* 是以逗号分隔的列表，其中可能包含下表中列出的一个或多个令牌。 如果 `RequestType` 未指定，则规则适用于在所有支持的上下文中收到的请求。
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -53,7 +53,7 @@ ht-degree: 6%
 
 **`Name = "text"`**: 可选. 用于识别 `<rule>` 调试日志和错误消息中的元素。
 
-`  *`属性`* ="value"`：可选。 `<rule>` 元素可以任意组合定义以下任何属性。 如果指定，并且规则已成功匹配，则将覆盖此请求对应的目录属性。 默认值为 `RequestType="is"`.
+`  *`属性`* ="value"`：可选。 `<rule>` 元素可以任意组合定义以下任何属性。 如果指定并且规则匹配成功，则它们将覆盖此请求对应的目录属性。 默认值为 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -65,7 +65,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 默认图像模式</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> 属性：：DefaultImageMode</a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> attribute：：DefaultImageMode</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 错误图像</span> </p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 6%
    <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> attribute：：MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Requestlock</span> </p> </td> 
+   <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> attribute：：RequestLock</a> </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 保存路径</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> attribute：：SavePath</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> 属性：：SavePath</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 水印</span> </p> </td> 
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 有关详细信息，请参阅相应图像目录属性的描述。
 
-过期属性只会覆盖默认属性值。 如果特定的 `catalog::Expiration` 值将应用于请求。
+过期属性仅覆盖默认属性值。 如果特定的 `catalog::Expiration` 值适用于请求。
 
 ## 数据 {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ ht-degree: 6%
 
 ## 说明 {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-如果两者都有 `<expression>` 和 `<substitution>` 指定而不使用捕获的子字符串，则第一个匹配的子字符串将被替换为 `<substitution>`.
+如果两者 `<expression>` 和 `<substitution>` 指定而不使用捕获的子字符串，则将第一个匹配的子字符串替换为 `<substitution>`.
 
 如果 `<expression>` 未指定，任何路径都匹配和 `<substitution>` 会附加到路径的末尾。
 
 如果 `<substitution>` 未指定，不会发生路径或查询转换，但会覆盖任何指定的目录属性。 如果 `<substitution>` 为空，则会删除匹配的子字符串。
 
-此 `<addressfilter>` 仅在发生匹配时以及在应用查询规则之前应用。
+此 `<addressfilter>` 仅在发生匹配时以及应用查询规则之前应用。

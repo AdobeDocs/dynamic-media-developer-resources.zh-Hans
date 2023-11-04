@@ -1,18 +1,18 @@
 ---
-title: ErrorDetail
+title: 错误详细信息
 description: 错误消息详细信息。 将通过HTTP返回的错误消息的详细级别指定为error.message值。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
 
-# ErrorDetail{#errordetail}
+# 错误详细信息{#errordetail}
 
 错误消息详细信息。 将通过HTTP返回的错误消息的详细级别指定为error.message值。
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 <table id="simpletable_7904444FF9F14D678F05094CA9E45664"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>仅标题。 返回错误的简短常规描述。 </p></td> 
+  <td class="stentry"> <p>仅限标题。 返回错误的简短常规描述。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -35,12 +35,12 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java™栈栈跟踪。 错误图像从不包含栈栈跟踪，而是返回级别2信息 <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java™栈栈跟踪。 错误图像从不包含栈栈跟踪，而是在中返回级别2信息 <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
-* 建议级别0用于可公开访问的实时服务器。
-* 建议将级别2用于暂存、质量保证和应用程序开发服务器。
+* 对于可以公开访问的实时服务器，建议使用0级。
+* 建议将第2级用于暂存、质量保证和应用程序开发服务器。
 * 向Dynamic Media技术支持报告问题时，级别3信息可能会很有用。
 
 ## 属性 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}

@@ -5,10 +5,10 @@ title: 字体映射引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 如果图像目录需要字体映射，则必须在attribute：：FontMapFile中指定字体映射文件的相对路径或绝对路径。
 
-特定图像目录的字体映射中的条目将覆盖默认目录的字体映射中的条目。
+特定图像目录的字体映射中的条目会覆盖默认目录的字体映射中的条目。
 
 图像服务支持Adobe Type1、OpenType和TrueType字体。
 

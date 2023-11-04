@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 轮播查看器的配置属性文档。
 
-任何配置命令都可以在URL中设置或使用 `setParam()`，或 `setParams()`或API方法二者。 任何配置属性也可以在服务器端配置记录中指定。
+任何配置命令都可以在URL中设置或使用 `setParam()`，或 `setParams()`或API方法。 任何配置属性也可以在服务器端配置记录中指定。
 
-某些配置命令可能会带有相应Viewer SDK组件的类名称或实例名称前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` api方法。 文档包含此类命令的可选前缀。 例如， `zoomstep` 命令记录如下：
+某些配置命令可能会带有相应Viewer SDK组件的类名称或实例名称前缀。 组件的实例名称是动态的，具体取决于传递给的查看器容器DOM元素的ID `setContainerId()` API方法。 文档包含此类命令的可选前缀。 例如， `zoomstep` 命令记录如下：
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 * `fmt` （简短语法）
 * `CarouselView.fmt` （用组件类名限定）
-* `cont_carouselView.fmt` (用组件ID限定，假定 `cont` 是容器元素的ID)
+* `cont_carouselView.fmt` (使用组件ID限定，假定 `cont` 是容器元素的ID)
 
 另请参阅 [所有查看器通用的命令引用 — 配置属性](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

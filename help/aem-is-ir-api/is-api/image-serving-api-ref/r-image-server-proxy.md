@@ -5,9 +5,9 @@ title: 图像服务器代理
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>指定要将响应大小限制到的设备的内存限制嵌入式媒体属性的百分比。 这仅适用于jpg响应。 图像质量会降低，直到响应大小在指定的百分比内。 </p></td> 
+  <td class="stentry"> <p>指定要将响应大小限制到的设备内存限制嵌入式媒体属性的百分比。 这仅适用于jpg响应。 图像质量会降低，直到响应大小在指定的百分比内。 </p></td> 
  </tr> 
 </table>
 
-## 嵌入式图像内存限制 {#section-52f7c69ed8a341ceabf92ceee19b0f36}
+## 嵌入式映像内存限制 {#section-52f7c69ed8a341ceabf92ceee19b0f36}
 
-如果设备对可以嵌入到网页上的图像大小有限制，则只要响应格式为jpg，图像大小就仅限于该大小。 如果设备没有任何限制，代理将响应限制为500MB。
+如果设备对可以嵌入到网页上的图像大小有限制，则只要响应格式为jpg，图像大小就限制为该尺寸。 如果设备没有任何限制，代理将响应限制为500MB。
 
 ## 后端处理 {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
 

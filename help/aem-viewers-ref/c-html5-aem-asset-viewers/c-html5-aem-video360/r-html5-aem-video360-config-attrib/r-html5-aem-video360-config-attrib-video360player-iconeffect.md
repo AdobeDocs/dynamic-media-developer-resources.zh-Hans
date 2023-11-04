@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 7%
 
 ---
@@ -22,11 +22,11 @@ Video360 Viewer的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 当视频处于暂停状态时，在视频的顶部显示IconEffect。 在某些设备上，使用本机控件。 在这种情况下， <span class="codeph">iconeffect</span> 修饰符将被忽略。 </p> </td> 
+   <td colname="col2"> <p> 当视频处于暂停状态时，在视频顶部显示IconEffect。 在某些设备上，使用本机控件。 在这种情况下， <span class="codeph">iconeffect</span> 修饰符将被忽略。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 计数</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定IconEffect出现和重新出现的最大次数。 值 <span class="codeph"> -1</span> 表示图标会无限期地重新显示。 </p> </td> 
+   <td colname="col2"> <p> 指定IconEffect出现和重新出现的最大次数。 值 <span class="codeph"> -1</span> 指示图标将无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 渐隐</span></span> </p> </td> 

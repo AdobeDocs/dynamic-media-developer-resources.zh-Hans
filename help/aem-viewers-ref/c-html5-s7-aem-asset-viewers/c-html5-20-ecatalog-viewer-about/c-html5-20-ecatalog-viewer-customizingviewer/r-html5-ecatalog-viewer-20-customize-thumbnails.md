@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 缩略图由缩略图图像的网格组成，其右侧有一个可选滚动条，以允许垂直滚动。
 
-单击主控件栏中的缩略图按钮可切换缩略图。 当缩略图处于活动状态时，它们以覆盖在查看器用户界面上方的模式模式模式显示。 查看器逻辑会自动将缩略图容器大小调整到整个查看器区域。
+单击主控件栏中的缩略图按钮可切换缩略图。 当缩略图处于活动状态时，它们以模式模式模式显示在查看器用户界面的顶部。 查看器逻辑会自动将缩略图容器大小调整到整个查看器区域。
 
 缩略图容器的外观由以下CSS类选择器控制：
 
@@ -57,7 +57,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 将缩略图设置为距顶部32像素偏移，左右边距5像素，底部边距8像素，其中 `0xDDDDDD` 背景。
+示例 — 设置缩略图从顶部偏移32像素，左右边距5像素，底部边距8像素，使用 `0xDDDDDD` 背景。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -83,7 +83,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际水平缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. 垂直缩略图间距等于上边距和下边距之和。 </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际水平缩略图间距等于设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. 垂直缩略图间距等于上边距和下边距之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,13 +127,13 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-在触控设备上，当旋转到纵向模式时，如果查看器决定将目录跨页拆分为单个页面，则查看器可以将缩略图的大小调整为所配置内容的一半。
+在触摸设备上，当旋转到纵向模式时，如果查看器决定将目录拆分到单独的页面中，则查看器可以将缩略图的大小调整为所配置内容的一半。
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 用于鼠标悬停。
+>缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 鼠标悬停时使用。
 
-示例 — 设置120 x 85像素的缩略图，具有白色背景、浅灰色标准边框和深灰色选定边框。
+示例 — 设置120 x 85像素、白色背景、浅灰色标准边框和深灰色选定边框的缩略图。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
@@ -147,7 +147,7 @@ ht-degree: 2%
 }
 ```
 
-缩略图标签的外观由以下CSS类选择器控制：
+缩略图标签的外观可通过以下CSS类选择器进行控制：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7label`
 
@@ -160,7 +160,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ ht-degree: 2%
 }
 ```
 
-如果缩略图的数量超过垂直方向所能容纳的数量，则缩略图会在右侧呈现垂直滚动条。 滚动条区域的外观由以下CSS类选择器控制：
+如果缩略图多于可以垂直放入视图中的缩略图，则缩略图会在右侧呈现垂直滚动条。 使用以下CSS类选择器控制滚动条区域的外观：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -253,7 +253,7 @@ ht-degree: 2%
 }
 ```
 
-滚动条缩略图在滚动轨道区域内垂直移动。 其垂直位置完全由组件逻辑控制，但是，缩略图高度不会根据内容量动态变化。 缩略图高度和其他方面可通过以下CSS类选择器进行控制：
+滚动条缩略图在滚动轨道区域内垂直移动。 其垂直位置完全由组件逻辑控制，但是，缩略图高度不会因内容量而动态变化。 可通过以下CSS类选择器控制缩略图高度和其他方面：
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -283,11 +283,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>在给定缩略图状态中显示的图像。 </p> </td> 
+   <td colname="col2"> <p>为给定缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,7 +296,7 @@ ht-degree: 2%
 >
 >缩略图支持 `state` 属性选择器，可用于将不同的外观应用于缩略图状态 `up`， `down`， `over`、和 `disabled`.
 
-示例 — 设置一个滚动条缩略图，其大小为28 x 45像素，顶部和底部有10像素边距，并且每个状态的图稿都不同。
+示例 — 设置一个滚动条缩览图，其大小为28 x 45像素，顶部和底部有10像素边距，并且每个状态具有不同的图稿。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -347,11 +347,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>在给定缩略图状态中显示的图像。 </p> </td> 
+   <td colname="col2"> <p>为给定缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -360,9 +360,9 @@ ht-degree: 2%
 >
 >这些按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态 `up`， `down`， `over`、和 `disabled`.
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
 
-示例 — 设置滚动按钮，这些按钮为28 x 32像素，并且每个状态的图稿各不相同。
+示例 — 设置滚动按钮，这些按钮为28 x 32像素，并且每种状态的图稿各不相同。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 

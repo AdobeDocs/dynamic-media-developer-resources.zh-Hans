@@ -1,26 +1,26 @@
 ---
 title: 用户界面元素的本地化
-description: 智能裁剪视频查看器显示的某些内容必须进行本地化。 此内容包括用户界面元素工具提示和一条错误消息，当视频无法播放时将会显示。
+description: 智能裁剪视频查看器显示的某些内容需要进行本地化。 此内容包括用户界面元素工具提示和一条错误消息，当视频无法播放时将会显示。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # 用户界面元素的本地化{#localization-of-user-interface-elements}
 
-智能裁剪视频查看器显示的某些内容必须进行本地化。 此内容包括用户界面元素工具提示和一条错误消息，当视频无法播放时将会显示。
+智能裁剪视频查看器显示的某些内容需要进行本地化。 此内容包括用户界面元素工具提示和一条错误消息，当视频无法播放时将会显示。
 
-查看器中所有可以本地化的文本内容都由一个名为SYMBOL的特殊Viewer SDK标识符表示。 任何SYMBOL都有英语区域设置( `"en"`)。 此外，还可以根据需要为任意数量的区域设置用户定义的值。
+查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)。 它还可以根据需要为任意数量的区域设置用户定义的值。
 
-当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会返回到现成的默认文本。
+当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
-用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值和默认区域设置。
+用户定义的本地化数据可以作为本地化JSON对象传递给查看器。 此类对象包含支持的区域设置列表、每个区域设置的SYMBOL文本值以及默认区域设置。
 
 以下是此类本地化对象的示例：
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
 
-网页代码应将此类本地化对象作为的值传递给查看器构造函数 `localizedTexts` 配置对象的字段。 替代选项是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将此类本地化对象作为的值传递给查看器构造函数 `localizedTexts` 配置对象的字段。 另一种选择是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
 
 支持以下SYMBOL：
 
@@ -62,7 +62,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>取消选择播放暂停按钮状态的工具提示。 </p> </td> 
+   <td colname="col2"> <p>取消选择的播放暂停按钮状态的工具提示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
@@ -93,7 +93,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>所选全屏按钮状态的工具提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>取消选择全屏按钮状态的工具提示。 </p> </td> 
   </tr> 
   <tr> 
@@ -145,15 +145,15 @@ defaultLocale:"en"
    <td colname="col2"> <p>“消息”输入字段的标签。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示删除 </span> </p> </td> 
    <td colname="col2"> <p>“删除电子邮件地址”按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>“取消”按钮的题注。 </p> </td> 
+   <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示取消 </span> </p> </td> 
    <td colname="col2"> <p>“取消”按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
@@ -161,8 +161,8 @@ defaultLocale:"en"
    <td colname="col2"> <p>表单提交后对话框底部显示的关闭按钮的题注。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>表单提交后对话框底部显示关闭按钮的工具提示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示关闭 </span> </p> </td> 
+   <td colname="col2"> <p>表单提交后对话框底部显示的关闭按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ACTION </span> </p> </td> 
@@ -202,15 +202,15 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>“取消”按钮的题注。 </p> </td> 
+   <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOL提示取消 </span> </p> </td> 
    <td colname="col2"> <p>“取消”按钮的工具提示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>“全选”按钮的题注。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Embedshare.ACTION </span> </p> </td> 
+   <td colname="col2"> <p>“全选”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP操作 </span> </p> </td> 
@@ -238,7 +238,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>“取消”按钮的题注。 </p> </td> 
+   <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -246,7 +246,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>“全选”按钮的题注。 </p> </td> 
+   <td colname="col2"> <p>“全选”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP操作 </span> </p> </td> 
@@ -262,7 +262,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 
-   <td colname="col2"> <p>适用于在无法播放视频时显示的错误消息的工具提示。 </p> </td> 
+   <td colname="col2"> <p>无法播放视频时出现错误消息的工具提示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

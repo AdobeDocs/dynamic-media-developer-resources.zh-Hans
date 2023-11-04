@@ -1,20 +1,20 @@
 ---
-description: 这是主要日志，用于跟踪向 [!DNL Platform Server]. 图像渲染（如果已启用）将其访问日志数据写入同一文件。
+description: 这是主日志，用于跟踪向发出的所有HTTP请求 [!DNL Platform Server]. 图像渲染（如果启用）将其访问日志数据写入同一文件。
 solution: Experience Manager
 title: 访问日志
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # 访问日志{#access-log}
 
-这是主要日志，用于跟踪向 [!DNL Platform Server]. 图像渲染（如果已启用）将其访问日志数据写入同一文件。
+这是主日志，用于跟踪向发出的所有HTTP请求 [!DNL Platform Server]. 图像渲染（如果启用）将其访问日志数据写入同一文件。
 
 在server.xml中配置访问日志。
 

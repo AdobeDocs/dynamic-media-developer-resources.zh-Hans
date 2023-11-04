@@ -1,20 +1,20 @@
 ---
-description: 设置用户属性（例如，名称、电子邮件、角色等）
+description: 设置用户属性（例如，名称、电子邮件、角色等）。
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 17%
+source-wordcount: '113'
+ht-degree: 16%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-设置用户属性（例如，名称、电子邮件、角色等）
+设置用户属性（例如，名称、电子邮件、角色等）。
 
 语法
 
@@ -35,14 +35,14 @@ ht-degree: 17%
 | 名字 | `xsd:string` | 是 | 名字。 |
 | 姓氏 | `xsd:string` | 是 | 姓氏。 |
 | 电子邮件 | `xsd:string` | 是 | 用户电子邮件。 |
-| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意 `IpsAdmin` 角色将覆盖其他按公司列出的设置。 |
+| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意 `IpsAdmin` 角色将覆盖其他按公司划分的设置。 |
 | passwordExpires | `xsd:dateTime` | 否 | 设置的密码过期日期。 |
 | isValid | `xsd:boolean` | 是 | 确定用户是否为有效的IPS用户。 |
 | membershipArray | `types:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |
 
 **输出(setUserInfoReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-272c103076fb4de0a53729e2f6bfb895}
 

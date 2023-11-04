@@ -5,9 +5,9 @@ title: 访问日志记录
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 4%
 
 ## TC：：prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
-将访问日志数据写入到的文件的名称前缀。 日期和文件后缀( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])，以附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为 &quot; `access-`&quot;.
+将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])，以附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为 &quot; `access-`&quot;.
 
 ## TC：：pattern — 访问日志模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
 指定数据模式 [!DNL Platform Server] 访问日志记录。 模式字符串指定用相应值替换的变量。 模式字符串中的所有其他字符按字面顺序传输到日志记录。
 
-要使用高速缓存预热实用程序，必须将空格用作字段分隔符。 此 [!DNL Platform Server] 将字段值中的所有空格和“%”字符替换为 `%20` 和 `%25`，则不会显示任何内容。
+要使用缓存预热实用程序，必须将空格用作字段分隔符。 此 [!DNL Platform Server] 将字段值中的所有空格和“%”字符替换为 `%20` 和 `%25`、ID名称和ID名称等。
 
 支持以下模式变量：
 
@@ -68,7 +68,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %D </span> </p> </td> 
-   <td> <p>请求处理时间（毫秒）。 </p> </td> 
+   <td> <p>请求处理时间（以毫秒为单位） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %I </span> </p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和时间，格式为 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 毫米 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 为毫秒， <span class="varname"> offset </span> 是GMT时间偏移)；在将响应发送到客户端时捕获时间值。 </p> </td> 
+   <td> <p>日期和时间，格式为 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> 毫米 </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 毫米 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 是毫秒， <span class="varname"> offset </span> 是GMT时间偏移)；在将响应发送到客户端时捕获时间值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>与 <span class="codeph"> %r </span>，但对URI应用有限的HTTP编码，以避免日志解析问题。 </p> </td> 
+   <td> <p>与 <span class="codeph"> %r </span>，但对URI应用有限的HTTP编码以避免日志解析问题。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -108,7 +108,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %S </span> </p> </td> 
-   <td> <p>用户会话ID。 </p> </td> 
+   <td> <p>用户会话ID </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %t </span> </p> </td> 
@@ -116,7 +116,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %u </span> </p> </td> 
-   <td> <p>已通过身份验证（如果有）的远程用户，否则''。 </p> </td> 
+   <td> <p>已进行身份验证的远程用户（如果有），否则''。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %U </span> </p> </td> 
@@ -160,15 +160,15 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
-   <td> <p>请求解析和图像目录查找所用的时间。 </p> </td> 
+   <td> <p>请求解析和图像目录查找所花费的时间。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
-   <td> <p>指示此请求是否尝试了目录系统之外的任何基于路径的访问。 </p> </td> 
+   <td> <p>指示此请求是否尝试在目录系统之外进行任何基于路径的访问。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>缓存群集中交付缓存条目的对等服务器的IP地址，如果是，则为“ — ” <span class="codeph"> 缓存使用 </span> 两者都不是 <span class="codeph"> REMOTE_CREATED </span> 也不 <span class="codeph"> REMOTE_UPDATES </span>. </p> </td> 
+   <td> <p>缓存群集中传送缓存条目的对等服务器的IP地址，或者“ — ”(如果 <span class="codeph"> 缓存使用 </span> 两者都不是 <span class="codeph"> REMOTE_CREATED </span> 也不 <span class="codeph"> 远程更新 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>的大小写值 <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p>的上小写值 <span class="codeph"> 需要= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,7 +191,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>所需的时间 [!DNL Platform Server] 以在将数据写入输出流后发送响应。 </p> </td> 
+   <td> <p>所需的时间 [!DNL Platform Server] 在将数据写入输出流后发送响应。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 

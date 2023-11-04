@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 设置宽度为100像素且背景为半透明的收藏夹视图。
+示例 — 设置宽度为100像素、具有半透明灰色背景的“收藏夹”视图。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -62,7 +62,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围垂直边距的大小。 实际缩略图间距等于设置的上下边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的垂直边距大小。 实际缩略图间距等于设置的上下边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于用户最近选择的缩略图。 While `state="default"` 对应于缩略图的其余部分。 和 `state="over"` 用于鼠标悬停。
+>缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于用户最近选择的缩略图。 同时 `state="default"` 对应于其余的缩略图。 和 `state="over"` 鼠标悬停时使用。
 
 示例 — 要设置75 x 75像素的缩略图，请使用浅灰色默认边框和深灰色选定边框。
 
@@ -119,7 +119,7 @@ ht-degree: 2%
 }
 ```
 
-缩略图标签的外观由以下CSS类选择器控制：
+缩略图标签的外观可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
@@ -140,7 +140,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-示例 — 使用14像素Helvetica®字体设置标签。
+示例 — 设置具有14像素Helvetica®字体的标签。
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label { 

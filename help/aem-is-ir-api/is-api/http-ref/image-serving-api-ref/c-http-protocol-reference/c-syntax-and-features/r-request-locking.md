@@ -5,9 +5,9 @@ title: 请求锁定
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 为了减少篡改请求的机会，提供了一种简单的锁定装置。
 
-如果设置了attribute：：RequestLock，则必须将锁定值附加到请求中，其形式为 `&xxxx`，其中xxxx是四位数的十六进制值。 此十六进制值是使用应用于 *修饰符* 部分（在“？”之后） 用于将URL路径与 *修饰符*)。 必须在请求完全经过http编码之后，但在（可选）进行模糊处理之前执行此操作。 在取消混淆请求后，服务器将对修饰符字符串使用相同的哈希算法（不包括最后5个字符，其中包含锁值）。 如果生成的密钥与锁定不匹配，则拒绝该请求。
+如果设置了attribute：：RequestLock，则必须将锁定值附加到请求，其形式为 `&xxxx`，其中xxxx是四位十六进制值。 此十六进制值是使用应用于 *修饰符* 部分（在“？”之后） 用于将URL路径与 *修饰符*)。 必须在请求完全进行http编码之后，但在对其进行模糊处理（可选）之前执行此操作。 在取消混淆请求后，服务器对修饰符字符串使用相同的哈希算法（不包括最后5个字符，这些字符包含锁值）。 如果生成的键与锁定不匹配，则拒绝请求。
 
 >[!IMPORTANT]
 >
->如果启用此功能，请注意，其使用存在某些限制，包括：<br>-Dynamic Media用户界面可能不会显示针对的正确详细信息 **[!UICONTROL 上次发布时间]** 字段。 但是，此影响不会影响发布。<br> — 目前，HLS视频流在以下情况下不起作用： **[!UICONTROL 请求模糊处理]** 和 **[!UICONTROL 请求锁定]** 已启用。<br> — 目前，某些Dynamic Media查看器在以下情况下不起作用： **[!UICONTROL 请求模糊处理]** 和 **[!UICONTROL 请求锁定]** 已启用。
+>如果启用此功能，请注意，其使用存在某些限制，包括：<br>-Dynamic Media用户界面可能不会显示针对的正确详细信息 **[!UICONTROL 上次发布时间]** 字段。 但是，此项影响不会影响发布。<br> — 目前，HLS视频流在以下情况下不起作用： **[!UICONTROL 请求模糊处理]** 和 **[!UICONTROL 请求锁定]** 已启用。<br> — 目前，有些Dynamic Media Viewers在以下情况下无法正常工作： **[!UICONTROL 请求模糊处理]** 和 **[!UICONTROL 请求锁定]** 已启用。
 
 用于生成请求锁定值的C++示例代码：
 

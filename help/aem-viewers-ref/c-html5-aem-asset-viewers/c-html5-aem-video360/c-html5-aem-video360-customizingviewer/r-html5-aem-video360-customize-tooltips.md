@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
    <td colname="col2"> <p>文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>文本字体名称。 </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ ht-degree: 2%
 >
 >如果从嵌入网页中自定义工具提示样式，则所有属性都必须包含 `!IMPORTANT` 规则。 如果在查看器的CSS文件中自定义了工具提示，则无需使用此规则。
 
-示例 — 要设置具有灰色边框的工具提示，该边框具有三个像素的圆角半径、黑色背景和Arial®中的白色文本（11像素）：
+示例 — 要设置具有灰色边框的工具提示，该边框具有三个像素圆角半径、黑色背景和Arial®中的白色文本（11像素）：
 
 ```
 .s7tooltip { 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>材质目录ID(匹配于 <span class="codeph"> attribute：：RootId</span>)。 </p></td> 
+  <td class="stentry"> <p>材料目录ID(匹配 <span class="codeph"> attribute：：RootId</span>)。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 ## 属性 {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
-可能出现在请求中的任意位置。 覆盖使用请求URL路径指定的晕影。
+可能出现在请求中的任何位置。 覆盖使用请求URL路径指定的晕影。
 
 ## 默认 {#section-db0618d48bc84dc8abcc989550349ccc}
 

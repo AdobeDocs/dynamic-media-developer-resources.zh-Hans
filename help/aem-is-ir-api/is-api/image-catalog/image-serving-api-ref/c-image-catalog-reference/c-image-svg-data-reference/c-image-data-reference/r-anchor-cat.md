@@ -5,9 +5,9 @@ title: 锚点
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ## 默认 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-如果此字段不存在或为空，并且这是有效的图像记录(即 `catalog::Path` 有效)。
+如果该字段不存在或为空，并且这是有效的图像记录(即 `catalog::Path` 有效)。
 
 ## 另请参阅 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

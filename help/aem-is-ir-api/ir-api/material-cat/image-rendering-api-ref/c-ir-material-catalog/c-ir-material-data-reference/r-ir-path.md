@@ -5,9 +5,9 @@ title: 路径 *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 2%
 
 图像渲染支持与Dynamic Media图像服务相同的源图像格式。
 
-当使用Dynamic Media金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序将获得最佳性能。 图像服务包括从任何支持的格式创建PTIFF图像的图像转换器(IC)实用程序。
+当使用Dynamic Media金字塔TIFF(PTIFF)多分辨率格式时，需要多个不同分辨率的图像数据的应用程序性能最佳。 图像服务包括从任何支持的格式创建PTIFF图像的图像转换器(IC)实用程序。
 
-有关支持的文件格式的完整列表，请参阅“图像服务”文档中的IC实用程序说明。
+有关支持的文件格式的完整列表，请参阅图像服务文档中的IC实用程序描述。
 
 ## 默认 {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [attribute：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[集成电路实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [属性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

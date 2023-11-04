@@ -1,11 +1,11 @@
 ---
 title: 链接共享
-description: 链接共享工具包含一个添加到“社交”共享面板的按钮，以及激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
+description: 链接共享工具由添加到“社交”共享面板的按钮以及激活该工具时显示的模式对话框组成。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 链接共享{#link-share}
 
-链接共享工具包含一个添加到“社交”共享面板的按钮，以及激活该工具时显示的模式对话框。 按钮的位置完全由社交共享工具管理。
+链接共享工具由添加到“社交”共享面板的按钮以及激活该工具时显示的模式对话框组成。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -42,7 +42,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 可以通过设置从Social共享面板中删除按钮 `display:none` CSS属性的CSS类。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 设置一个28 x 28像素的链接共享按钮，并为四种不同的按钮状态中的每种状态显示不同的图像：
+示例 — 设置一个28 x 28像素的链接共享按钮，并针对四种不同的按钮状态分别显示不同的图像：
 
 ```
 .s7videoviewer .s7linkshare { 
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-使用以下CSS类选择器来控制对话框处于活动状态时覆盖网页的背景叠加：
+使用以下CSS类选择器可控制对话框处于活动状态时覆盖网页的背景叠加：
 
 ```
 .s7videoviewer .s7linkdialog .s7backoverlay
@@ -106,7 +106,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-默认情况下，模式对话框会以桌面系统屏幕的中心位置显示，并在触控设备上显示整个网页区域。 在所有情况下，对话框的位置和大小都由组件管理。 该对话框由以下CSS类选择器控制：
+默认情况下，模式对话框会以桌面系统屏幕的中心位置显示，并在触控设备上显示整个网页区域。 在所有情况下，对话框的位置和大小都由组件管理。 使用以下CSS类选择器控制该对话框：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialog
@@ -135,7 +135,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
  </tbody> 
 </table>
 
-示例 — 设置对话框以使用整个浏览器窗口，并在触控设备上使用白色背景：
+示例 — 设置对话框以使用整个浏览器窗口并在触控设备上使用白色背景：
 
 ```
 .s7videoviewer .s7touchinput .s7linkdialog .s7dialog { 
@@ -145,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框标题由图标、标题文本和关闭按钮组成。 标头容器的控制方式
+对话框标题由图标、标题文本和关闭按钮组成。 标题容器的控制方式
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheader
@@ -157,12 +157,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p> 标头内容的内部填充。 </p> </td> 
+   <td colname="col2"> <p> 标题内容的内部边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-图标和标题文本将封装在一个由控制的额外容器中
+图标和标题文本将封装在一个额外的容器中，由控制
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -179,7 +179,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-标头图标由以下CSS类选择器控制
+标题图标由以下CSS类选择器控制
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheadericon
@@ -203,12 +203,12 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-标头标题由以下CSS类选择器控制：
+标题标题由以下CSS类选择器控制：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheadertext
@@ -227,17 +227,17 @@ background-color: #ffffff;
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
-   <td colname="col2"> <p>内部文本填充。 </p> </td> 
+   <td colname="col2"> <p>内部文本边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-“关闭”按钮由以下CSS类选择器控制：
+使用以下CSS类选择器控制“关闭”按钮：
 
 ```
 .s7videoviewer .s7linkdialog .s7closebutton
@@ -273,7 +273,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,9 +282,9 @@ background-color: #ffffff;
 >
 >此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-可以本地化“关闭”按钮工具提示和对话框标题。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化“关闭”按钮工具提示和对话框标题。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置带有内边距的对话框标题，请添加22 x 12像素图标和粗体16点标题。 最后，一个28 x 28像素的“关闭”按钮，它位于对话框容器顶部的2个像素和右侧的2个像素的位置：
+示例 — 要设置带有内边距的对话框标题，请设置22 x 12像素图标和粗体16点标题。 最后，一个28 x 28像素的“关闭”按钮，它位于对话框容器顶部两个像素和右侧两个像素的位置：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogheader { 
@@ -324,7 +324,7 @@ background-color: #ffffff;
 }
 ```
 
-对话框页脚包含“取消”按钮。 页脚容器由以下CSS类选择器控制：
+对话框页脚包含“取消”按钮。 使用以下CSS类选择器控制页脚容器：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogfooter
@@ -341,7 +341,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-页脚具有保持按钮的内容器。 它通过以下CSS类选择器进行控制：
+页脚具有用于保存按钮的内部容器。 可使用以下CSS类选择器来控制分类：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogbuttoncontainer
@@ -358,7 +358,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-“全选”按钮由以下CSS类选择器控制：
+全选按钮由以下CSS类选择器控制：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogactionbutton
@@ -393,7 +393,7 @@ background-color: #ffffff;
 >
 >全选按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-“取消”按钮由以下CSS类选择器控制：
+使用以下CSS类选择器可控制“取消”按钮：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogcancelbutton
@@ -445,7 +445,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,7 +453,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 盒阴影 </span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
@@ -463,9 +463,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要设置一个对话框页脚，其中具有64 x 34 Cancel按钮，并且每个按钮状态的文本颜色和背景颜色不同：
+示例 — 使用64 x 34 Cancel按钮设置对话框页脚，每种按钮状态的文本颜色和背景颜色不同：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogfooter { 
@@ -525,7 +525,7 @@ background-color: #ffffff;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，组件都会管理此区域的宽度 — 无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
+主对话框区域（在页眉和页脚之间）包含对话框内容。 在任何情况下，组件都管理此区域的宽度 — 无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialogviewarea
@@ -606,7 +606,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
@@ -616,9 +616,9 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-可以本地化对话框标签。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+可以本地化对话框标签。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 以了解更多信息。
 
-示例 — 要将所有标签设置为灰色、粗体加九像素字体：
+示例 — 将所有标签设置为灰色，粗体带九像素字体：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialoglabel { 
@@ -628,7 +628,7 @@ background-color: #ffffff;
 }
 ```
 
-链接顶部显示的文本副本的大小由以下CSS类选择器控制：
+显示在链接顶部的文本副本的大小可通过以下CSS类选择器进行控制：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialoginputwide
@@ -649,7 +649,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 将文本副本的宽度设置为430像素，并在底部使用10像素填充：
+示例 — 将文本副本的宽度设置为430像素，并在底部填充10像素：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialoginputwide { 
@@ -679,7 +679,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-示例 — 要在嵌入代码文本周围设置一个像素的灰色边框，并且边框间距为9像素，请执行以下操作：
+示例 — 要在嵌入代码文本周围设置一个像素灰色边框，并且边框间距为9像素：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialoginputcontainer { 
@@ -688,7 +688,7 @@ background-color: #ffffff;
 }
 ```
 
-共享链接本身由以下CSS类选择器控制：
+共享链接本身可通过以下CSS类选择器进行控制：
 
 ```
 .s7videoviewer .s7linkdialog .s7dialoglink

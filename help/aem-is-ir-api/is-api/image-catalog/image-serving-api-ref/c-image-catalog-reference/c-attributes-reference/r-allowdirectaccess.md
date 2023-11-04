@@ -5,9 +5,9 @@ title: AllowDirectaccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 允许直接访问基于路径的资源。
 
-定义此属性后，将允许或限制指定对象类型基于路径的访问，具体取决于 `include` 或 `exclude` 关键字。
+定义此属性后，将允许或限制指定对象类型基于路径的访问，具体取决于 `include` 或 `exclude` 使用关键字。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 0%
 * `include` 允许访问指定的对象类型并限制其他所有对象的访问。
 * `exclude` 限制指定对象类型的访问，并允许所有其他类型的访问。
 
-如果两者都不 `include` 也不 `exclude` 已指定， `include` 是假定的。
+如果两者均不 `include` 也不 `exclude` 已指定， `include` 是假定的。
 
 可以控制以下类型：
 
@@ -41,24 +41,24 @@ ht-degree: 0%
 
 * 仅允许直接访问 `IS` 和 `STATIC` 对象类型
 
-   `AllowDirectAccess=include:IS,STATIC`
+  `AllowDirectAccess=include:IS,STATIC`
 
 * 允许直接访问所有对象类型，但 `IS` 和 `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* 允许直接访问 *否* 对象类型（即不包含任何对象）
+* 允许直接访问 *否* 对象类型（即不包括）
 
-   `AllowDirectAccess=include:`
+  `AllowDirectAccess=include:`
 
 * 允许直接访问 *所有* 对象类型（即不排除任何对象）
 
-   `AllowDirectAccess=exclude:`
+  `AllowDirectAccess=exclude:`
 
 * 相当于 `include:IS,STATIC` (如果 `include`/ `exclude` 不存在， `include` 假设为)
 
-   `AllowDirectAccess=IS,STATIC`
+  `AllowDirectAccess=IS,STATIC`
 
-   请注意，是默认值，如果 `AllowDirectAccess` 没有为此公司指定属性。
+  请注意，是默认值，如果 `AllowDirectAccess` 没有为此公司指定属性。
 
 * 不包含任何内容，等同于 `include:` (如果 `include`/ `exclude` 不存在， `include` 假设为)
 
-   `AllowDirectAccess=`
+  `AllowDirectAccess=`

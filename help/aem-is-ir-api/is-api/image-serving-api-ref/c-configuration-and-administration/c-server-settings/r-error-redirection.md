@@ -5,9 +5,9 @@ title: 错误重定向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 ## PS：：errorRedirect.connectTimeout — 重定向连接超时 {#section-3971be8f720d4b32a2cc7860b4085971}
 
-在将错误返回到客户端之前，服务器将等待与辅助服务器建立连接的最长时间（以毫秒为单位）。
+在将错误返回到客户端之前，服务器等待与辅助服务器建立连接的最长时间（以毫秒为单位）。
 
 ## PS：：errorRedirect.socketTimeout — 重定向响应超时 {#section-69d8579f748d4044bca99dfb64dd523c}
 
-在放弃重定向请求并向客户端返回错误之前，服务器等待辅助服务器返回数据的最长时间（以毫秒为单位）。
+服务器在放弃重定向请求并向客户端返回错误之前等待辅助服务器返回数据的最长时间（以毫秒为单位）。
