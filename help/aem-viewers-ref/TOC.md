@@ -3,10 +3,10 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义Dynamic Media查看器，以在桌面设备和触摸屏设备上使用。 包括交互式图像和视频、轮盘、旋转集等。
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 3%
+source-wordcount: '2066'
+ht-degree: 1%
 
 ---
 
@@ -340,11 +340,11 @@ ht-degree: 3%
       + 适用于弹出查看器的JavaScript API参考 {#jsapi-flyout}
          + [适用于弹出查看器的JavaScript API参考](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [处置](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
-         + [弹出查看器](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
+         + [弹出查看器](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md)
          + [setAsset](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setasset.md)
-         + [setContainerId](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.setcontainerid.md)
+         + [setContainerId](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-sethandlers.md)
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparam.md)
@@ -389,7 +389,7 @@ ht-degree: 3%
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-init.md)
          + [setAsset](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setasset.md)
-         + [setContainerId](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-.setcontainerid.md)
+         + [setContainerId](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-sethandlers.md)
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
@@ -636,7 +636,7 @@ ht-degree: 3%
       + [外部视频支持](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md)
       + [Viewer SDK命名空间](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + 缩放 {#zoom}
-      + [Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
+      + [缩放](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
       + 命令引用 — 配置属性 {#command-reference-configuration-attributes-zoom}
          + [命令引用 — 配置属性](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib.md)
          + [关闭按钮](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-closebutton.md)
@@ -695,7 +695,7 @@ ht-degree: 3%
       + [Viewer SDK命名空间](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
 + 仅适用于AEM Assets的查看器 {#viewers-for-aem-assets-only}
    + [仅适用于AEM Assets的查看器](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
-   + 轮盘式 {#carousel}
+   + 轮播 {#carousel}
       + [轮盘式](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
       + 命令引用 — 配置属性 {#command-reference-configuration-attributes-carousel}
          + [命令引用 — 配置属性](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-conf-attrib.md)

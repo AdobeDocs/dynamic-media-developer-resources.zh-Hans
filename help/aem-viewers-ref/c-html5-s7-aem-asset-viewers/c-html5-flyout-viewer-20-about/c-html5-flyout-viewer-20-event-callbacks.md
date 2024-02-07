@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e6cffe77-f653-4e8e-bdec-2661051fe8cf
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 查看器支持网页用于跟踪查看器初始化过程或运行时行为的JavaScript事件回调。
 
-通过传递事件名称和相应的处理程序函数来分配回调处理程序。 `handlers` 属性至 `config` 查看器的构造函数中的JSON对象。 或者，也可以使用 `setHandlers()` api方法。
+回调处理程序的分配方式是，将事件名称和相应的处理程序函数与 `handlers` 属性至 `config` 查看器的构造函数中的JSON对象。 或者，也可以使用 `setHandlers()` API方法。
 
 支持的查看器事件包括：
 
@@ -30,4 +30,4 @@ ht-degree: 0%
    * `timeStamp {Number}` 事件时间戳。
    * `eventInfo {String}` 事件有效负载。
 
-另请参阅 [弹出查看器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md#reference-b99bb25606444f46b27529ff3e960b1e) 和 [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-sethandlers.md#reference-74e9acb1cd0047d5bd60eea5fa5c8692).
+另请参阅 [弹出查看器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md#reference-b99bb25606444f46b27529ff3e960b1e) 和 [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-sethandlers.md#reference-74e9acb1cd0047d5bd60eea5fa5c8692).
