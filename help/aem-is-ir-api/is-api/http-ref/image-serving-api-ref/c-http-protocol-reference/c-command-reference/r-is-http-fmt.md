@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 响应图像格式。
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
+`fmt=format[,` `[`*`pixelType`*`]`，`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alph | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | 说明 |
 |---|---|
@@ -28,6 +28,7 @@ ht-degree: 4%
 | `f4m` | Streaming Server清单格式Flash。 |
 | `gif-alpha` | 2到255色GIF加上键色透明度。 |
 | `gif` | GIF为2到256色。 |
+| `heic` | 无损HEIC。 如果不支持此格式，则默认从浏览器下载。 |
 | `jpeg` | JPEG有损。 |
 | `jpeg2000-alpha` | 具有Alpha通道的有损和无损JPEG2000。 |
 | `jpeg2000` | 有损和无损JPEG2000。 |
@@ -50,14 +51,14 @@ ht-degree: 4%
 | `webp-alpha` | 带有Alpha通道的有损无损WebP。 |
 | `webp` | 有损无损WebP。 |
 
-| *`pixelType`* – rgb | 灰色 | cmyk |
+| *`pixelType`* - rgb | 灰色 | cmyk |
 | *`pixelType`* | 说明 |
 |---|---|
 | `cmyk` | 返回CMYK图像数据。 |
 | `gray` | 返回灰度图像数据。 |
 | `rgb` | 返回RGB图像数据。 |
 
-| *`compression`* – none | lzw | zip | jpeg | 有损 | 无损 |
+| *`compression`* - jpeg | 有损 | 无损 | lzw | 无 | zip |
 | *`compression`* | 说明 |
 |---|---|
 | `jpeg` | JPEG压缩（有损）。 |
@@ -192,43 +193,43 @@ ht-degree: 4%
 
 **请求JPEG格式的低质量小型预览图像（默认）：**
 
-` http:// *`伺服器`*/myRootId/myImageId?qlt=60&wid=200`
+` http:// *`服务器`*/myRootId/myImageId?qlt=60&wid=200`
 
 **请求将相同的图像转换为灰度：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
+` http:// *`服务器`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
 **请以Alpha通道的无损失格式和高分辨率请求相同的图像：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=png-alpha&wid=300`
+` http:// *`服务器`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
 **请求将同一图像作为灰度TIFF图像的Alpha通道：**
 
-` http:// *`伺服器`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
+` http:// *`服务器`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
 **使用默认ICC配置文件将同一图像转换为cmyk：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
+` http:// *`服务器`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
 **使用其他ICC配置文件将同一图像转换为cmyk，并将配置文件嵌入到TIFF图像中：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
+` http:// *`服务器`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
 **将此图像作为TIF文件传递，无需转换像素类型即可进行JPEG压缩：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
+` http:// *`服务器`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
 **将图像转换为具有键色透明度的双调GIF，并强制将颜色转换为黑白色：**
 
-` http:// *`伺服器`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+` http:// *`服务器`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 **质量设置为80时为有损：**
 
-` http:// *`伺服器`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
+` http:// *`服务器`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
 **带有Alpha的无损：**
 
-` http:// *`伺服器`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
+` http:// *`服务器`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
 **质量设置为80时为有损：**
 
