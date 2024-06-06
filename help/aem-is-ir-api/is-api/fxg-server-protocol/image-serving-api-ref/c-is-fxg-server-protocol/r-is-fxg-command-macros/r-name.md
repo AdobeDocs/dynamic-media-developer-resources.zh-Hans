@@ -1,14 +1,14 @@
 ---
+title: 名称
 description: 命令宏的名称。
 solution: Experience Manager
-title: 名称
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 命令宏的名称。
 
-`&$ *`名称`*$`
+`&$ *`name`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
@@ -25,4 +25,4 @@ ht-degree: 14%
  </tr> 
 </table>
 
-*`name`* 不区分大小写，并且可由字母、数字、“ — ”、“_”和“。”的任意组合组成。 字符.
+命令 *`name`* 不区分大小写，并可由字母、数字、 `-` （连字符）， `_` （下划线），和 `.` （句点）字符。

@@ -5,9 +5,9 @@ title: 监视和警报系统
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS：：monitorAlertGenerator.enableGlobalAlerting — 警报系统启用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-通过将设置为“true”并配置电子邮件通知设置来启用电子邮件通知。 将设置为 `false` 关闭所有电子邮件警报 — 这在使服务器离线以进行维护时可能很有用。 布尔值.
+通过将设置为“true”并配置电子邮件通知设置来启用电子邮件通知。 将设置为 `false` 关闭所有电子邮件警报 — 这在使服务器离线以进行维护时可能很有用。 布尔型。
 
 ## AS：：mailSender.host - SMTP主机 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -42,7 +42,7 @@ SMTP电子邮件服务器的侦听端口。
 
 ## AS：：monitorAlertGenerator.heapSpaceResetInterval — 栈空间警报时间间隔 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-在发出另一个栈空间警报之前发出栈空间警报的最短时间。 间隔时间（毫秒）。 整数值，0或更大。
+在发出另一个栈空间警报之前发出栈空间警报后的最短时间。 间隔时间（毫秒）。 整数值，0或更大。
 
 ## AS：：monitorAlertGenerator.minTrafficForAlerts — 启用警报的最小流量 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

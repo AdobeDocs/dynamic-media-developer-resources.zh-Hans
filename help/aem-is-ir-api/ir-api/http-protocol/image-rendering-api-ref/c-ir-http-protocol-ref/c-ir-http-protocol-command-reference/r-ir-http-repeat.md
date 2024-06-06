@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 16%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>四分之一滴的壁纸挂着。 </p> </td> 
+  <td class="stentry"> <p>挂上四分之一滴的壁纸。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -53,11 +53,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>倒转壁纸挂起。 </p> </td> 
+  <td class="stentry"> <p>倒挂墙纸。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>随机挂壁纸。 </p> </td> 
+  <td class="stentry"> <p>随意挂壁纸。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -69,15 +69,15 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>一半对面。 </p> </td> 
+  <td class="stentry"> <p>半对半对。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>镜像（图书匹配）。 </p> </td> 
+  <td class="stentry"> <p>镜像（书籍匹配）。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>标准随机化。 </p> </td> 
+  <td class="stentry"> <p>标准随机化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
@@ -85,11 +85,11 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>低频随机化。 </p> </td> 
+  <td class="stentry"> <p>低频随机化器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>水平随机化。 </p> </td> 
+  <td class="stentry"> <p>水平随机器。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Edge随机化。 </p> </td> 
+  <td class="stentry"> <p>边缘随机器。 </p> </td> 
  </tr> 
 </table>
 

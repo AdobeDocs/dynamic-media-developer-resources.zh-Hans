@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25057e72-f079-4221-91c2-760d99d30633
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 2%
+source-wordcount: '1488'
+ht-degree: 0%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 与左侧的下一个按钮的距离，如果这是一行中的第一个按钮，则为控制栏左侧的距离。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ background-color: #dddddd;
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p> 标题内容的内部边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -171,7 +171,7 @@ background-color: #dddddd;
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p> 标题图标和标题的内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -188,11 +188,11 @@ background-color: #dddddd;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>内部文本边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +246,7 @@ background-color: #dddddd;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> 相对于标题容器的垂直按钮位置。 </p> </td> 
   </tr> 
   <tr> 
@@ -254,15 +254,15 @@ background-color: #dddddd;
    <td colname="col2"> <p> 相对于标题容器的水平按钮位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>按钮的内边距。 </p> </td> 
   </tr> 
   <tr> 
@@ -333,7 +333,7 @@ background-color: #dddddd;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框 </span> </p> </td> 
    <td colname="col2"> <p> 可用于在视觉上分隔页脚和对话框其余部分的边框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +350,7 @@ background-color: #dddddd;
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p> 页脚和按钮之间的内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -367,15 +367,15 @@ background-color: #dddddd;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -400,15 +400,15 @@ background-color: #dddddd;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
@@ -521,7 +521,7 @@ background-color: #dddddd;
 }
 ```
 
-主对话框区域（在页眉和页脚之间）包含对话框内容。 在所有情况下，此区域的宽度均由组件管理，因此无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
+主对话框区域位于页眉和页脚之间，包含对话框内容。 在所有情况下，此区域的宽度均由组件管理，因此无法在CSS中设置此区域。 主对话框区域由以下CSS类选择器控制：
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
@@ -532,7 +532,7 @@ background-color: #dddddd;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
    <td colname="col2"> <p> 主对话框区域的高度。 </p> </td> 
   </tr> 
   <tr> 
@@ -540,7 +540,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -567,7 +567,7 @@ background-color: #dddddd;
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -592,7 +592,7 @@ background-color: #dddddd;
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -617,11 +617,11 @@ background-color: #dddddd;
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>块宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -661,7 +661,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
    <td colname="col2"> <p>标签文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -715,11 +715,11 @@ background-color: #dddddd;
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p> 带有标题的单选按钮的总宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
    <td colname="col2"> <p>题注文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -753,11 +753,11 @@ background-color: #dddddd;
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p> 数字选取器的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p> 数字选取器周围的间距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -792,19 +792,19 @@ background-color: #dddddd;
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边框 </span> </p> </td> 
    <td colname="col2"> <p> 分隔线周围的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
    <td colname="col2"> <p>分隔线宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
    <td colname="col2"> <p>外边距 </p> </td> 
   </tr> 
  </tbody> 

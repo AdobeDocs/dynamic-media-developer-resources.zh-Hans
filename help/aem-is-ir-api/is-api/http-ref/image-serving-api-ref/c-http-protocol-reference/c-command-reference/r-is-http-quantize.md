@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定调色板类型。 </p> <p>设置为 <span class="codeph"> 自适应 </span> 用于计算图像的最佳调色板。 </p> <p>设置为 <span class="codeph"> Web </span> 或 <span class="codeph"> mac </span> 以选择预定义的调色板。 </p> <p> <p>注意： <span class="codeph"> mac </span> 仅GIF和PNG8格式支持托盘类型，而GIFAlpha和PNG8 Alpha格式则不支持。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定调色板类型。 </p> <p>设置为 <span class="codeph"> 自适应 </span> 用于计算图像的最佳调色板。 </p> <p>设置为 <span class="codeph"> Web </span> 或 <span class="codeph"> mac </span> 以选择预定义的调色板。 </p> <p> <p>注意： <span class="codeph"> mac </span> 仅GIF和PNG8格式支持托盘类型，GIFAlpha和PNG8Alpha格式则不支持。</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 抖动 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {distribute|off} </span> </p> <p>指定仿色选项。 </p> <p>设置为 <span class="codeph"> 扩散 </span> Floyd-Steinberg误差扩散 </p> <p>设置为 <span class="codeph"> 关 </span> 禁用仿色。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {distribute|off} </span> </p> <p>指定仿色选项。 </p> <p>设置为 <span class="codeph"> 扩散 </span> Floyd-Steinberg误差扩散 </p> <p>设置为 <span class="codeph"> 关 </span> 禁用仿色。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>输出颜色的数量(2-256) </p> <p>指定包含多少颜色 <span class="codeph"> 自适应 </span> 调色板。 </p> </td> 
+   <td colname="col2"> <p>输出颜色的数量(2-256) </p> <p>指定包含多少颜色 <span class="codeph"> 自适应 </span> 调色板。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 颜色列表 </span> </span> </p> </td> 
-   <td colname="col2"> <p>以逗号分隔的强制十六进制RGB颜色列表 </p> <p>允许您指定要包括在 <span class="codeph"> 自适应 </span> 调色板。 如果指定的颜色数小于 <span class="codeph"> <span class="varname"> numColors </span> </span>，根据图像内容计算其他颜色。 </p> </td> 
+   <td colname="col2"> <p>以逗号分隔的强制十六进制RGB颜色列表 </p> <p>允许您指定要包括在 <span class="codeph"> 自适应 </span> 调色板。 如果指定的颜色数小于 <span class="codeph"> <span class="varname"> numColors </span> </span>，根据图像内容计算其他颜色。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 `http:// *`*服务器*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-将图像转换为具有关键色透明度的双调GIF，并强制将颜色转换为黑白：
+将图像转换为具有键色透明度的双调GIF。 而且，强制颜色变为黑白：
 
 `http:// *`*服务器*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

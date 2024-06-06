@@ -1,13 +1,13 @@
 ---
-description: 映像验证实用程序。 此命令行实用程序验证图像文件以确保它们有效，并且图像服务可以轻松读取。
+description: 映像验证实用程序。 此命令行实用程序验证图像文件以确保它们有效，并且图像服务可以轻松读取它们。
 solution: Experience Manager
 title: 确认
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 映像验证实用程序。 此命令行实用程序验证图像文件以确保它们有效，并且图像服务可以轻松读取。
 
-所有非PTIFF图像文件都必须通过验证，然后该文件才可供图像服务作为源图像使用。 PTIFF映像应在执行可能不可靠的复制操作后进行验证。
+所有非PTIFF图像文件都必须通过验证，然后该文件才可供图像服务用作源图像。 PTIFF映像应在执行可能不可靠的复制操作后进行验证。
 
 ## 使用 {#usage}
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>验证嵌入的颜色配置文件的有效性。 默认情况下，不选中配置文件正文。 </p> </td> 
+  <td class="stentry"> <p>验证嵌入的颜色配置文件的有效性。 默认情况下，不选中正文配置文件。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 
@@ -73,7 +73,7 @@ ht-degree: 1%
   <td class="stentry"> <p>在文件验证失败时终止处理，即使尚未验证其他文件。 默认情况下，发生验证错误时将继续进行处理 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -版本 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
   <td class="stentry"> <p>返回此实用程序的版本信息。 指定而不使用其他选项。 </p> </td> 
  </tr> 
 </table>

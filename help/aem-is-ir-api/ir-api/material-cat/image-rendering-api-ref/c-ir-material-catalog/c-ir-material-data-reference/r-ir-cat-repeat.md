@@ -1,20 +1,20 @@
 ---
-description: 纹理重复模式。 指定如何平铺纹理图像以填充目标曲面。
+description: 纹理重复模式。 指定纹理图像如何平铺以填充目标表面。
 solution: Experience Manager
 title: 重复
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 18%
+source-wordcount: '128'
+ht-degree: 17%
 
 ---
 
 # 重复{#repeat}
 
-纹理重复模式。 指定如何平铺纹理图像以填充目标曲面。
+纹理重复模式。 指定纹理图像如何平铺以填充目标表面。
 
 ## 属性 {#section-cef4109cddf54ce095c3293d85bc412d}
 
@@ -41,7 +41,7 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>四分之一滴的壁纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>挂上四分之一滴的壁纸。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
@@ -57,11 +57,11 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>倒车壁纸挂着。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>倒转墙纸挂着。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>随机挂壁纸。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>随意挂壁纸。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
@@ -73,7 +73,7 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
-  <td class="- topic/stentry stentry"> <p>一半对面。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>半对半对。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
@@ -81,7 +81,7 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>标准随机化。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>标准随机化器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
@@ -89,11 +89,11 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>低频随机化。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>低频随机化器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>水平随机化。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>水平随机器。 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
@@ -101,7 +101,7 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Edge随机化。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>边缘随机器。 </p></td> 
  </tr> 
 </table>
 
