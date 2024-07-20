@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 2%
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
@@ -31,33 +31,33 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p> 缩略图容器从查看器顶部的垂直偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上边距</span> </p> </td> 
    <td colname="col2"> <p>上边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左边距</span> </p> </td> 
    <td colname="col2"> <p>左边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右边距</span> </p> </td> 
    <td colname="col2"> <p>右边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下边距</span> </p> </td> 
    <td colname="col2"> <p>下边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>缩略图区域的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置缩略图从顶部偏移32像素，左右边距5像素，底部边距8像素，使用 `0xDDDDDD` 背景。
+示例 — 设置缩略图从顶部偏移了32像素，左右边距为5像素，底部边距为8像素，背景为`0xDDDDDD`。
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -82,8 +82,8 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际水平缩略图间距等于设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. 垂直缩略图间距等于上边距和下边距之和。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际水平缩略图间距等于为<span class="codeph"> .s7缩略图</span>设置的左右边距之和。 垂直缩略图间距等于上边距和下边距之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,19 +109,19 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>缩略图的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>缩略图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前在主视图中显示的图像的缩略图， `state="default"` 与其余缩略图相对应，并且 `state="over"` 鼠标悬停时使用。
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的缩略图状态。 特别是，`state="selected"`对应于当前在主视图中显示的图像的缩略图，`state="default"`对应于缩略图的其余部分，`state="over"`用于鼠标悬停的情况。
 
 示例 — 设置120 x 85像素、白色背景、浅灰色标准边框和深灰色选定边框的缩略图。
 
@@ -160,12 +160,12 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>字体大小. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
+   <td colname="col2"> <p>字体大小。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,19 +192,19 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动条的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p> 垂直滚动条从缩略图区域顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
    <td colname="col2"> <p>垂直滚动条从缩略图区域的底部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p> 水平滚动条从缩略图区域的右边缘偏移。 </p> </td> 
   </tr> 
  </tbody> 
@@ -234,11 +234,11 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动条轨道的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 滚动条轨道的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -266,35 +266,35 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动条缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>滚动条缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上内边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充顶端</span> </p> </td> 
    <td colname="col2"> <p>滚动条轨道顶部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充底部</span> </p> </td> 
    <td colname="col2"> <p>滚动条轨道底部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>为给定缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于缩略图状态 `up`， `down`， `over`、和 `disabled`.
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于缩略图状态`up`、`down`、`over`和`disabled`。
 
 示例 — 设置一个滚动条缩览图，其大小为28 x 45像素，顶部和底部有10像素边距，并且每个状态具有不同的图稿。
 
@@ -327,7 +327,7 @@ ht-degree: 2%
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-无法使用CSS定位滚动按钮 `top`， `left`， `bottom`、和 `right` 属性。 相反，查看器逻辑会自动定位它们。
+无法使用CSS `top`、`left`、`bottom`和`right`属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,29 +338,29 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>为给定缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->这些按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态 `up`， `down`， `over`、和 `disabled`.
+>这些按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态`up`、`down`、`over`和`disabled`。
 
-按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 设置滚动按钮，这些按钮为28 x 32像素，并且每种状态的图稿各不相同。
 

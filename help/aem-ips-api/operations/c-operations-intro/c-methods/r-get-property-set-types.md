@@ -1,18 +1,18 @@
 ---
 description: 获取与指定公司关联的属性集类型，如果未指定任何公司，则获取全局属性集类型。
 solution: Experience Manager
-title: getPropertySetTypes
+title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
-# getPropertySetTypes{#getpropertysettypes}
+# getPropertySetType{#getpropertysettypes}
 
 获取与指定公司关联的属性集类型，如果未指定任何公司，则获取全局属性集类型。
 
@@ -46,7 +46,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">与属性集类型关联的公司的句柄。 <p>如果要返回全局属性集类型，请省略。 </p> </td> 
   </tr> 

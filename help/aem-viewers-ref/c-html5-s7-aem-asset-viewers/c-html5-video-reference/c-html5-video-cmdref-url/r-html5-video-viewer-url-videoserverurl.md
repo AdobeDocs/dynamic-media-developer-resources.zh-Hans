@@ -8,7 +8,7 @@ exl-id: 945c32e0-a67b-4c27-b661-26510615d757
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选. 标准SaaS使用不需要。
+可选。 对于标准SaaS使用不需要。
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,20 +1,20 @@
 ---
-description: 介绍IPS API版本3.7的新数据类型和更改的数据类型。
+description: 介绍IPS API版本3.7中新增和更改的数据类型。
 solution: Experience Manager
-title: 新数据类型和修改的数据类型
+title: 新增和修改的数据类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
 # 数据类型：新增和已修改{#data-types-new-and-modified}
 
-介绍IPS API版本3.7的新数据类型和更改的数据类型。
+介绍IPS API版本3.7中新增和更改的数据类型。
 
 语法
 
@@ -30,6 +30,6 @@ ht-degree: 5%
 
 ## 已修改类型 {#section-f2d4635d912545c5964820b8cd1e62ad}
 
-**资产**
+**资源**
 
-* 增加了 `ZipInfo`.
+* 已添加`ZipInfo`。

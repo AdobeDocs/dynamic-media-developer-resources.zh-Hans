@@ -16,7 +16,7 @@ ht-degree: 4%
 
 图像文件路径。
 
-与此目录记录关联的源图像文件的相对或绝对路径和名称。 服务器使用管理源数据中描述的路径解析规则来查找数据文件。
+与此目录记录关联的源图像文件的相对或绝对路径和名称。 服务器使用管理Source数据中所述的路径解析规则来查找数据文件。
 
 ## 属性 {#path-properties}
 
@@ -34,6 +34,6 @@ ht-degree: 4%
 
 ## 另请参阅 {#path-seealso}
 
-[集成电路实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [属性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [属性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [属性：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ， [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

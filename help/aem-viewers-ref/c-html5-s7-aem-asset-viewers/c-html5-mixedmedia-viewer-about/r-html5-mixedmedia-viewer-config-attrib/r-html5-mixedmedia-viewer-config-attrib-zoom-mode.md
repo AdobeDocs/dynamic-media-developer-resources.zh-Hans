@@ -21,8 +21,8 @@ ht-degree: 2%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 连续|内联|自动 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 连续 </span> 启用经典缩放，其中图像在主视图中单击、双击或捏合时逐渐放大。 要返回到初始视图，请缩小或重置缩放状态。 类 </p> <p> <span class="codeph"> 内联 </span> 启用即时缩放，当您将鼠标悬停在桌面上的主视图或者触摸并按住触摸设备时，缩放的图像会立即显示。 从视图移动鼠标或松开手指后，图像会自动恢复到初始状态。 In <span class="codeph"> 内联 </span> 模式，嵌套图像集将被拼合并显示为单独的缩略图。 类 <span class="codeph"> 自动 </span> 在桌面上激活内联模式，在触控设备上激活连续模式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">连续|内联|自动</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> continuous </span>启用经典缩放，即当您在主视图中单击、双击或捏出图像时，图像将逐渐放大。 要返回到初始视图，请缩小或重置缩放状态。 类 </p> <p> <span class="codeph">内联</span>启用即时缩放，当您将主视图悬停在桌面上或触摸并按住触摸设备时，缩放的图像会立即显示。 从视图中移动鼠标或松开手指后，图像会自动恢复到初始状态。 在<span class="codeph">内联</span>模式下，嵌套图像集将被扁平化并显示为单个缩略图。 类<span class="codeph">自动</span>在桌面上激活内联模式，在触控设备上激活连续模式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

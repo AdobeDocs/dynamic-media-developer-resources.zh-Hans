@@ -8,7 +8,7 @@ exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 21%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | groupHandle | `xsd:string` | 组句柄。 |
-| companyHandle | `xsd:string` | 公司处理。 |
-| [!DNL name] | `xsd:string` | 群组名称. |
+| companyHandle | `xsd:string` | 公司句柄。 |
+| [!DNL name] | `xsd:string` | 组名称。 |
 | [!DNL is SystemDefined] | `xsd:string` | 组是否由系统定义。 |

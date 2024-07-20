@@ -8,7 +8,7 @@ exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | assetHandle | `xsd:string` | 是 | 具有要设置的缩放目标的资源。 |
 | zoomTargetArray | `types:ZoomTargetDefinitionArray` | 是 | 缩放目标定义的数组。 |
 
@@ -45,7 +45,7 @@ ht-degree: 14%
 
 ## 示例 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-此代码示例按名称、位置（x轴和y轴）、宽度、高度定义缩放目标的数组，并将数组分配给资源。 响应包含新创建的缩放目标的句柄。
+此代码示例按名称、位置（x轴和y轴）、宽度、高度定义缩放目标的数组，并将该数组分配给资源。 响应包含新创建的缩放目标的句柄。
 
 **请求**
 

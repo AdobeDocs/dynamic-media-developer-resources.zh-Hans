@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>提交时获得的作业ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">工作ID </span> </p> </td> 
+  <td class="stentry"> <p>提交时获取的作业ID。 </p> </td> 
  </tr> 
 </table>
 
 返回：
 
-XML格式作业的详细状态；出现以下情况时出错 `jobid` 无效或作业已被删除。
+XML格式作业的详细状态；如果`jobid`无效或作业已删除，则出现错误。
 
 ## 示例 {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

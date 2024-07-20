@@ -23,5 +23,5 @@ ht-degree: 23%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | url | `xsd:string` | 表示模板的图像服务器URL。 |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

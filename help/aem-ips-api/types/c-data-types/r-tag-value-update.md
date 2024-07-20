@@ -23,4 +23,4 @@ ht-degree: 16%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | oldValue | `xsd:string` | 原始标记字段值。 |
-| newValue | `xsd:string` | 新标记字段值。 |
+| 新值 | `xsd:string` | 新标记字段值。 |

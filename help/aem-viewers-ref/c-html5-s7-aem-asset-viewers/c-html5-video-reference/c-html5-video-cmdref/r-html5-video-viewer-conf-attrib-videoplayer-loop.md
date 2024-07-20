@@ -1,28 +1,28 @@
 ---
 title: VideoPlayer.loop
-description: Video Viewer的配置属性。
+description: 视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 92d22f5d-0ba8-4ea2-bba6-2275efdd1fe0
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '29'
+ht-degree: 10%
 
 ---
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Video Viewer的配置属性。
+视频查看器的配置属性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指示是否在视频播放完成后再次播放视频。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

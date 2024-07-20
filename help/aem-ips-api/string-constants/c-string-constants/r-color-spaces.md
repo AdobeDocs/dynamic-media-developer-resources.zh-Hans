@@ -1,5 +1,5 @@
 ---
-description: 由IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType使用。
+description: 用于IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType。
 solution: Experience Manager
 title: 色彩空间
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 色彩空间{#color-spaces}
 
-由IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType使用。
+用于IccProfileFieldUpdate/colorSpace和IccProfileFieldUpdate/pcsType。
 
 语法
 

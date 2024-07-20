@@ -1,5 +1,5 @@
 ---
-description: 包含图像服务器配置设置。
+description: 包含映像服务器配置设置。
 solution: Experience Manager
 title: ImageServerRegistry.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-包含图像服务器配置设置。
+包含映像服务器配置设置。
 
 修改此XML文件时，必须注意保持有效的XML语法，否则图像服务器可能无法启动。
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->不要更改的结构 `<imageserverregistry>`，包括元素的顺序。 编辑此文件时请务必小心，否则图像服务器可能会无法启动。
+>请勿更改`<imageserverregistry>`的结构，包括元素的顺序。 在编辑此文件时请务必小心，否则图像服务器可能会无法启动。
 
-下面说明了哪些元素可以更改。 存在不能更改的其他元素。 以下元素的顺序并不能反映它们在文件中必须存在的顺序。
+下面说明了哪些元素可以更改。 存在不可更改的其他元素。 以下元素的顺序并不反映它们必须出现在文件中的顺序。
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 说明 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-多个 `<RootPath>` 元素可能存在（每个源数据文件文件夹一个）。 图像服务器按指定的顺序搜索根路径，以查找特定的源文件。
+可能存在多个`<RootPath>`元素（每个源数据文件文件夹一个）。 图像服务器按指定的顺序搜索根路径，以查找特定的源文件。

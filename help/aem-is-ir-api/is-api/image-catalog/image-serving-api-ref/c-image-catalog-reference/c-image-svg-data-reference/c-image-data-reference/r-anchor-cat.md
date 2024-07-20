@@ -22,12 +22,12 @@ ht-degree: 4%
 
 用逗号分隔的两个整数。 相对于全分辨率图像左上角的像素偏移。
 
-覆盖者 `anchor=`(这又可以覆盖 `origin=`)。
+已由`anchor=`覆盖（这又可以由`origin=`覆盖）。
 
 ## 默认 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-如果该字段不存在或为空，并且这是有效的图像记录(即 `catalog::Path` 有效)。
+如果此字段不存在或为空，并且这是有效的图像记录（即，`catalog::Path`是否有效），则使用图像的中心点。
 
 ## 另请参阅 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 
-[锚点=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ， [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+[anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md) ， [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)

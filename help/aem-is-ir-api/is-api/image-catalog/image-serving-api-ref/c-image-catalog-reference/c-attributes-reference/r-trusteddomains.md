@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3提供的图像的属性。
 
-swf必须通过注册它信任的应用程序域名称来明确授予访问权限。
+swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
 
 ## 属性 {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
@@ -24,7 +24,7 @@ swf必须通过注册它信任的应用程序域名称来明确授予访问权�
 
 ## 默认 {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-继承自 `default::TrustedDomains` 如果不存在。
+从`default::TrustedDomains`继承（如果不存在）。
 
 ## 另请参阅 {#section-65d0846e41674882a4d0d56a8f6d524b}
 

@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 21%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | 是 | 众多公司。 |
+| companyArray | `types:CompanyArray` | 是 | 公司数量之多。 |
 
 ## 示例 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-此代码示例返回数组中IPS中的所有公司。 注意，为简短起见，示例响应将被截断。
+此代码示例返回数组中IPS中的所有公司。 请注意，为简短起见，示例响应将被截断。
 
 **请求**
 

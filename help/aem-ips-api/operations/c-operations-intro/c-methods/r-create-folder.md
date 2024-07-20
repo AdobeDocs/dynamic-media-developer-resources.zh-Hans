@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 19%
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->新文件夹与图像文件夹下属，即使您指定了 `/` 以指示公司的根目录。
+>新文件夹从属于Images文件夹，即使您指定了`/`以指示公司的根目录也是如此。
 
 语法
 

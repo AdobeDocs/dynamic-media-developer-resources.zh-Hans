@@ -1,26 +1,26 @@
 ---
-description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中生成的文件或InDesign中的PDF预设。
+description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中或InDesign中的PDF预设生成的文件。
 solution: Experience Manager
-title: 作业选项
+title: joboption
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 47%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
-# 作业选项{#joboption}
+# joboption{#joboption}
 
-应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中生成的文件或InDesign中的PDF预设。
+应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中或InDesign中的PDF预设生成的文件。
 
 ` joboption= *`值`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 值</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">值</span></span> </p> </td> 
   <td class="stentry"> <p>作业选项文件的IPSID。 </p></td> 
  </tr> 
 </table>
@@ -36,7 +36,7 @@ ht-degree: 47%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>图像 </p></td> 
-  <td class="stentry"> <p> 缩减像素取样、分辨率、阈值和压缩（颜色、灰色和单色） </p> </td> 
+  <td class="stentry"> <p> 缩减像素采样、分辨率、阈值和压缩（颜色、灰色和单色） </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>字体 </p></td> 
@@ -44,7 +44,7 @@ ht-degree: 47%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>颜色 </p></td> 
-  <td class="stentry"> <p> 颜色策略（仅标记图像被视为标记所有内容） </p> <p> 文档渲染方法 </p> <p> 4.2.5 仅支持下列工作空间。 </p> <p> 
+  <td class="stentry"> <p> 颜色策略（仅标记图像被视为标记所有内容） </p> <p> 文档渲染方法 </p> <p> 4.2.5仅支持以下工作空间。 </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ ht-degree: 47%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>高级 </p></td> 
-  <td class="stentry"> <p>保留 OPI 注释始终处于打开状态。 </p></td> 
+  <td class="stentry"> <p>保留OPI注释始终处于打开状态。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>标准 </p></td> 

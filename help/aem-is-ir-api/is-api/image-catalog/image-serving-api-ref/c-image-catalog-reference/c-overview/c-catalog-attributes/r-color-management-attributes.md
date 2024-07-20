@@ -22,12 +22,12 @@ ht-degree: 0%
   <td class="stentry"> <p>默认CMYK输出颜色配置文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> Icc配置文件灰色</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> IccProfileGray</a> </span> </p></td> 
   <td class="stentry"> <p>默认灰度输出颜色配置文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df" type="reference" format="dita" scope="local"> IccProfileRgb</a> </span> </p></td> 
-  <td class="stentry"> <p>默认RGB输出颜色配置文件。 </p></td> 
+  <td class="stentry"> <p>默认RGB输出色彩配置文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728" type="reference" format="dita" scope="local"> IccProfileSrcCmyk</a> </span> </p></td> 
@@ -43,7 +43,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent</a> </span> </p> </td> 
-  <td class="stentry"> <p>默认渲染方法。 </p></td> 
+  <td class="stentry"> <p>默认调色。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPoint补偿</a> </span> </p></td> 

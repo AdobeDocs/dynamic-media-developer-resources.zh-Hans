@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 以下是Scene 7图像服务文本引擎支持的关键字和命令列表。
 
-请参阅已发布的 [RTF 1.6规范](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) 以了解有关每个关键字或命令的详细信息。
+有关每个关键字或命令的详细信息，请参阅已发布的[RTF 1.6规范](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)。
 
-解析器会忽略下面未列出的RTF命令。
+解析器将忽略下面未列出的RTF命令。
 
 * [文档（文本框）属性](r-document-text-box-properties.md)
 * [段落格式](r-paragraph-formatting.md)

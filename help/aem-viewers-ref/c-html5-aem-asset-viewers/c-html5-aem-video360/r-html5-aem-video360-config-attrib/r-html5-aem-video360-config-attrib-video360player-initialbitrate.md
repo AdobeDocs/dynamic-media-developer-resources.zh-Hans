@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 6%
+source-wordcount: '111'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +21,8 @@ Video360 Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 设置用于在桌面上首次播放视频的视频比特率（以千位/秒或kbps为单位）。 </p> <p>如果此比特率值在自适应视频集中不存在，则视频播放器将开始播放具有下一个较低比特率的视频。 </p> <p>如果设置为 <span class="codeph"> 0</span>，视频播放器将从可能的最低比特率开始播放。 </p> <p>仅适用于对HTML5 HLS视频没有本机支持的系统（例如Windows 10上的Firefox、Chrome和Internet Explorer 11浏览器），以及播放模式设置为auto的情况。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">值</span> </p> </td> 
+   <td colname="col2"> <p> 设置用于在桌面上初始播放视频的视频比特率（以千位/秒或kbps为单位）。 </p> <p>如果自适应视频集中不存在此比特率值，则视频播放器将开始播放具有下一较低比特率的视频。 </p> <p>如果设置为<span class="codeph"> 0</span>，则视频播放器将从可能的最低比特率开始。 </p> <p>仅适用于对HTML5 HLS视频没有本机支持的系统(例如Windows 10上的Firefox、Chrome和Internet Explorer 11浏览器)，以及播放模式设置为auto的情况。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

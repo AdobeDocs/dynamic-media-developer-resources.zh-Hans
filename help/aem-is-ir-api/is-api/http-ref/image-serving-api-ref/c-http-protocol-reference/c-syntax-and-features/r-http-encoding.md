@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 23%
+source-wordcount: '227'
+ht-degree: 16%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 23%
 
 命令值必须使用%xx转义序列进行http编码，以便值字符串不包含保留字符“=”、“&amp;”和“%”。
 
-否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符(如 `<return>` 和 `<tab>`. 字符的URL编码由“%”符号组成，后跟字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点包括：
+否则，将应用标准HTTP编码规则。 HTTP规范要求对不安全字符以及任何控制字符（如`<return>`和`<tab>`）进行编码。 字符的URL编码由“%”符号组成，后跟字符的ISO-Latin代码点的两位十六进制表示形式（不区分大小写）。 不安全的字符和代码点包括：
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 不安全的字符 </th> 
    <th colname="col2" class="entry"> 代码点（十六进制） </th> 
-   <th colname="col3" class="entry"> 代码点（十二月） </th> 
+   <th colname="col3" class="entry"> 代码点(dec) </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -58,12 +58,12 @@ ht-degree: 23%
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>大括号(&amp;L)； </p> </td> 
+   <td colname="col1"> <p>&amp;amp；大括号； </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>大括号(&amp;R)； </p> </td> 
+   <td colname="col1"> <p>&amp;amp；rbrace； </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +88,17 @@ ht-degree: 23%
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>分段(&amp;L)； </p> </td> 
+   <td colname="col1"> <p>&amp;amp；lbrack； </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrack； </p> </td> 
+   <td colname="col1"> <p>&amp;amp；rbrack； </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>抑音符(&amp;G)； </p> </td> 
+   <td colname="col1"> <p>&amp;amp；抑音符； </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ ht-degree: 23%
   <tr> 
    <th colname="col1" class="entry"> 保留字符 </th> 
    <th colname="col2" class="entry"> 代码点（十六进制） </th> 
-   <th colname="col3" class="entry"> 代码点（12月） </th> 
+   <th colname="col3" class="entry"> 代码点(Dec) </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -122,7 +122,7 @@ ht-degree: 23%
    <td colname="col3"> <p>36 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp; </p> </td> 
+   <td colname="col1"> <p>和 </p> </td> 
    <td colname="col2"> <p>26 </p> </td> 
    <td colname="col3"> <p>38 </p> </td> 
   </tr> 
@@ -142,12 +142,12 @@ ht-degree: 23%
    <td colname="col3"> <p>47 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>: </p> </td> 
+   <td colname="col1"> <p>： </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>; </p> </td> 
+   <td colname="col1"> <p>； </p> </td> 
    <td colname="col2"> <p>3B </p> </td> 
    <td colname="col3"> <p>59 </p> </td> 
   </tr> 
@@ -183,4 +183,4 @@ ht-degree: 23%
 
 ## 另请参阅 {#section-295476ec34c74973962d07dfa9eb2180}
 
-[请求模糊处理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)， [HTTP/1.1规范(RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[请求模糊处理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)，[HTTP/1.1规范(RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

@@ -1,6 +1,6 @@
 ---
 title: rs
-description: 高级渲染设置。 指定渲染当前选定内容时要应用的高级渲染设置。
+description: 高级渲染设置。 指定在渲染当前选定内容时要应用的高级渲染设置。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # rs{#rs}
 
-高级渲染设置。 指定渲染当前选定内容时要应用的高级渲染设置。
+高级渲染设置。 指定在渲染当前选定内容时要应用的高级渲染设置。
 
 `rs= *`val`*`
 
 <table id="simpletable_4B028996E5824FC18B9749D1A6A3C2E3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>渲染设置字符串。 </p></td> 
  </tr> 
 </table>
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 示例 {#section-47e4811882574441a4d517e42a35f352}
 
-在图像创作方面进行了一些实验之后，确定了USM为给定的应用和材料提供了正确的锐化量。 配置USM的渲染设置字符串将会复制到 `rs=` 要与此材料一起使用的命令：
+在图像创作方面进行了一些试验之后，确定了USM为给定的应用和材料提供了正确的锐化量。 将配置USM的渲染设置字符串复制到`rs=`命令以与以下材料一起使用：
 
 `…&rs=U2V20W50X2&…`
 

@@ -1,24 +1,24 @@
 ---
-title: 交互式样本
-description: 如果在配置中将交互式数据传递给查看器，则交互式样本面板将显示在视频内容旁边。 它由顶部的横幅组成，该横幅可渲染“单击查看”等文本、包含一个或多个交互式样本的列以及两个滚动按钮（仅在桌面系统上可用）。
+title: 交互式色板
+description: 如果在配置中将交互式数据传递给查看器，则交互式样本面板会显示在视频内容旁边。 它由顶部的横幅组成，用于呈现“单击查看”等文本、由一个或多个交互式样本组成的列和两个滚动按钮（仅在桌面系统上可用）。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
-# 交互式样本{#interactive-swatches}
+# 交互式色板{#interactive-swatches}
 
-如果在配置中将交互式数据传递给查看器，则交互式样本面板将显示在视频内容旁边。 它由顶部的横幅组成，该横幅可渲染“单击查看”等文本、包含一个或多个交互式样本的列以及两个滚动按钮（仅在桌面系统上可用）。
+如果在配置中将交互式数据传递给查看器，则交互式样本面板会显示在视频内容旁边。 它由顶部的横幅组成，用于呈现“单击查看”等文本、由一个或多个交互式样本组成的列和两个滚动按钮（仅在桌面系统上可用）。
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
-在桌面系统和触控设备上，交互样本将以横向方式垂直渲染到视频内容的右侧。 在纵向的触控设备上，它们以水平一排样本的形式显示在查看器底部。
+在桌面系统和触控设备上，交互色板以横向方向在视频内容的右侧垂直呈现。 在纵向的触控设备上，它们以水平样本行的形式显示在查看器底部。
 
 以下CSS类选择器控制交互式样本面板的位置和方向：
 
@@ -31,42 +31,42 @@ ht-degree: 2%
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的宽度 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的顶部位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的底部位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左侧 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">已离开</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的左侧位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p>交互式样本面板的右位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-交互式样本面板的运行时位置和方向由上述CSS属性的组合定义，如下所示：
+交互式样本面板的运行时位置和方向由上述CSS属性组合定义，如下所示：
 
-* 要在查看器底部水平渲染交互式样本，请将高度设置为绝对像素值；将左和底部设置为0像素；将宽度、右侧和顶部设置为自动。
-* 要垂直渲染交互式样本到视频内容的右侧，请将宽度设置为绝对像素；将右和上设置为0像素；将高度设置为左和下设置为auto。
+* 要在查看器底部水平呈现交互式色板，请将高度设置为绝对像素值；将左右方向设置为0像素；将宽度方向设置为width方向，将右方向设置为top方向设置为auto方向。
+* 要垂直渲染交互式样本到视频内容的右侧，请将宽度设置为绝对像素；将右和上设置为0像素；将高度设置为“左”，将下设置为“自动”。
 
-可以将CSS标记与此样式一起使用，以实现交互式样本面板的自适应放置。
+可以使用此样式的CSS标记来实现交互式样本面板的自适应放置。
 
 ## 示例 {#example}
 
-要设置交互式样本面板，以便在横向的触控设备上在查看器底部水平渲染。 此外，在所有其他情况下，要垂直显示在视频内容的右侧，请执行以下操作：
+将交互式样本面板设置为在触控设备上以横向在查看器底部水平渲染。 此外，在所有其他情况下，要垂直显示在视频内容的右侧，请执行以下操作：
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -103,41 +103,41 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>横幅面板的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>横幅面板中的文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>横幅面板周围的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体粗细</span> </p> </td> 
    <td colname="col2"> <p>用于横幅面板内文本的字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>用于横幅面板中文本的字体大小。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
+   <td colname="col2"> <p>用于横幅面板内文本的字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>用于横幅面板内文本的字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体对齐</span> </p> </td> 
    <td colname="col2"> <p>用于横幅面板内文本的字体对齐方式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化横幅工具提示。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+可以对横幅工具提示进行本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 示例 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-要设置具有深灰色背景、浅灰色双像素边框和白色文本水平居中的横幅，请执行以下操作：
+要设置具有深灰色背景、浅灰色两个像素边框和白色文本水平居中的横幅，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner { 
@@ -159,7 +159,7 @@ ht-degree: 2%
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>样本区域的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -167,7 +167,7 @@ ht-degree: 2%
 
 ## 示例 {#section-9cadd62a09fd44a280f55ff42437e416}
 
-要设置具有深灰色背景的样本区域，请执行以下操作：
+要设置具有深灰色背景的色板区域：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches { 
@@ -184,15 +184,15 @@ ht-degree: 2%
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 实际缩略图间距等于为<span class="codeph"> .s7缩略图单元格</span>设置的左右边距之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-要将垂直间距设置为十像素，请执行以下操作：
+要将垂直间距设置为10像素，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -209,15 +209,15 @@ ht-degree: 2%
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>缩略图的边框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +225,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 对应于当前选定图像的缩略图； `state="default"` 与其余缩略图相对应； `state="over"` 用于鼠标悬停。
+>缩略图支持`state`属性选择器，您可以使用它来将不同的外观应用于不同的缩略图状态。 特别是，`state="selected"`对应于当前所选图像的缩略图；`state="default"`对应于其余缩略图；`state="over"`用于鼠标悬停操作。
 
 ## 示例 {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,19 +247,19 @@ ht-degree: 2%
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>标签边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">文本对齐</span> </p> </td> 
    <td colname="col2"> <p>水平文本对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
  </tbody> 
@@ -279,46 +279,46 @@ font-size: 12px;
 }
 ```
 
-以下CSS类选择器控制向上和向下滚动按钮的外观：
+以下CSS类选择器控制上下滚动按钮的外观：
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton`
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-无法使用CSS定位滚动按钮 `top`， `left`， `bottom`、和 `right` 属性；相反，查看器逻辑会自动定位它们。
+无法使用CSS `top`、`left`、`bottom`和`right`属性来定位滚动按钮；相反，查看器逻辑会自动定位它们。
 
 ## 上下滚动按钮外观的CSS属性 {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS sprite，则为图稿sprite内的位置。 </p> <p>另请参阅 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p>图稿拼贴内的位置（如果使用CSS拼贴）。 </p> <p>另请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于按钮状态：&#39;&#39; `up`“， ” `down`“， ” `over`“”和“” `disabled`“。
+>此按钮支持`state`属性选择器，您可以使用它来将不同的外观应用于按钮状态：“`up`”、“`down`”、“`over`”和“`disabled`”。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 了解更多信息。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 示例 {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-要设置一个60 x 36像素的向上滚动按钮，请为每个状态使用不同的图稿，并从组件的sprite图像中获得该图稿：
+要设置60 x 36像素的向上滚动按钮，请针对每种状态使用不同的图稿，并从组件的Sprite图像中获得该图稿：
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 

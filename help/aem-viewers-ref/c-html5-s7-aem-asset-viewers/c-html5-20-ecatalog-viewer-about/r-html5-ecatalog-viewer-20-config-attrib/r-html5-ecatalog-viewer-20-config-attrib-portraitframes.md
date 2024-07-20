@@ -1,6 +1,6 @@
 ---
-title: 纵向帧
-description: 纵向帧
+title: portraitFrame
+description: portraitFrame
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 6%
 
 ---
 
-# 纵向帧{#portraitframes}
+# portraitFrame{#portraitframes}
 
 `portraitFrames=split|solid`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>设置为 <span class="codeph"> split</span> 在移动设备上纵向使用时，允许查看器将双页跨页显示为单独的页面。 设置为 <span class="codeph"> 实心</span> 以始终将双页跨页显示为实心图像，而不考虑设备方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">拆分|实线</span> </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> split</span>，以允许查看器在移动设备上纵向使用时将双页跨页显示为单独的页面。 设置为<span class="codeph">纯色</span>可始终将双页跨页显示为纯色图像，与设备方向无关。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

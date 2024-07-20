@@ -1,5 +1,5 @@
 ---
-description: 关键字的数组。
+description: 关键字数组。
 solution: Experience Manager
 title: KeywordsArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL KeywordsArray]{#keywordsarray}
 
-关键字的数组。
+关键字数组。
 
 语法
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:Keywords` | 关键字的数组。 |
+| 项目 | `types:Keywords` | 关键字数组。 |

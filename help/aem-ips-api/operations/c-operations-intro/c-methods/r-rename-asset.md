@@ -8,7 +8,7 @@ exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此 `renameFiles` 参数在以前的版本中已弃用，已从 `renameAsset`. 虚拟文件路径将更改以匹配新的资源名称（保留文件扩展名），而物理文件路径不受影响。 在更新到新的API版本时，API客户端需要移除对此参数的引用。
+>`renameFiles`参数在以前的版本中已弃用，已从`renameAsset`中删除。 虚拟文件路径将更改以匹配新的资源名称（保留文件扩展名），而物理文件路径不受影响。 在更新到新的API版本时，API客户端需要移除对此参数的引用。
 
 ## 授权用户类型 {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->用户必须具有对资源的读写访问权限。
+>用户必须具有资产的读写访问权限。
 
 ## 参数 {#section-ef95a994106841e0ab346dd4cf672258}
 
@@ -42,11 +42,11 @@ ht-degree: 7%
 | companyHandle | `xsd:string` | 是 | 资产所属公司的句柄。 |
 | assetHandle | `xsd:string` | 是 | 要重命名的资源的句柄。 |
 | newName | `xsd:string` | 是 | 资产的新名称。 |
-| validateName | `xsd:boolean` | 是 | 如果 `validateName` 是 `true` 资源类型需要唯一的IPS ID，则会检查新名称是否具有全局唯一性，并且 `renameAsset` 如果错误不是唯一的，则会引发错误。 |
+| validateName | `xsd:boolean` | 是 | 如果`validateName`为`true`，并且资产类型需要唯一的IPS ID，则会检查新名称是否具有全局唯一性，如果`renameAsset`不是唯一名称，则会引发错误。 |
 
 **输出(renameAssetReturn)**
 
-IPS API未返回此操作的响应。 请参阅 `<ns1:validateName>` 元素，以了解关于此元素的注意事项。
+IPS API不返回此操作的响应。 有关此元素的注意事项，请参阅`<ns1:validateName>`元素的描述。
 
 ## 示例 {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

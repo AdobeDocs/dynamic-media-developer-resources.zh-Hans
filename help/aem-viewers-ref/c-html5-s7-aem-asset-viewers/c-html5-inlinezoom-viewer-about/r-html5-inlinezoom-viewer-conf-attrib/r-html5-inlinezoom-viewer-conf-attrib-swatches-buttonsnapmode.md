@@ -19,15 +19,15 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname">管理单元</span> </span> </p> </td> 
    <td> <p>使按钮与样本对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname">快照</span> </span> </p> </td> 
    <td> <p>使按钮与组件边框对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 叠加</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname">覆盖</span> </span> </p> </td> 
    <td> <p>使按钮在样本上方渲染。 </p> </td> 
   </tr> 
  </tbody> 

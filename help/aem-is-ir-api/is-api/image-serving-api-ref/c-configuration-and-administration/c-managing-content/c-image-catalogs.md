@@ -18,4 +18,4 @@ ht-degree: 0%
 
 它们将请求中使用的图像和静态内容ID映射到实际文件路径，存储各种图像元数据（如图像映射），并为模板和图像集提供容器。
 
-图像目录只能由以下用户访问： [!DNL Platform Server]，而不是图像服务器。 目录属性文件必须具有.ini后缀，并置于 [!DNL Platform Server]的目录文件夹( `PS::CatalogFolder`)。 至少需要默认图像目录，并且必须填充所有属性才能正确运行 [!DNL Platform Server].
+图像目录仅由[!DNL Platform Server]访问，而不由图像服务器访问。 目录属性文件必须具有.ini后缀，并置于[!DNL Platform Server]的目录文件夹( `PS::CatalogFolder`)中。 至少需要默认图像目录，并且必须用所有属性填充，以使[!DNL Platform Server]正常工作。

@@ -1,6 +1,6 @@
 ---
 title: 所有查看器通用的命令引用 — 配置属性
-description: 所有查看器通用的配置属性。
+description: 所有查看者通用的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 所有查看器通用的命令引用 — 配置属性{#command-reference-common-to-all-viewers-configuration-attributes}
 
-所有查看器通用的配置属性。
+所有查看者通用的配置属性。

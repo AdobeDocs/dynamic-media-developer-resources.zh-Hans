@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-的默认值 `<IPS_webapp>` 是 `scene7`.
+`<IPS_webapp>`的默认值为`scene7`。
 
 **服务位置**
 
@@ -133,17 +133,17 @@ IPS API Web服务仅支持SOAP绑定。
 
 IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP请求。
 
-**SOAP操作标题**
+**SOAP操作标头**
 
 要处理请求，请将SOAPAction HTTP标头设置为所请求操作的名称。 WSDL绑定部分中的操作名称属性指定了名称。
 
 **消息格式**
 
-文档/文本样式用于所有输入和输出消息，其类型基于XML架构定义语言( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))，并在WSDL文件中指定。 所有类型都需要使用WSDL文件中指定的目标命名空间值来限定名称。
+文档/文字样式用于所有输入和输出消息，这些消息的类型基于XML架构定义语言([https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))并在WSDL文件中指定。 所有类型都需要使用WSDL文件中指定的目标命名空间值来限定名称。
 
 **请求身份验证**
 
-在API请求中传递身份验证凭据的首选方法是使用 `authHeader` 元素，如IPS API WSDL中所定义。
+在API请求中传递身份验证凭据的首选方法是使用IPS API WSDL中定义的`authHeader`元素。
 
 ```
 <element name="authHeader"> 
@@ -172,16 +172,16 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 用户 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">用户</span> </p> </td> 
    <td colname="col2"> <p> 有效的IPS用户电子邮件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 密码 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">密码</span> </p> </td> 
    <td colname="col2"> <p>用户帐户的密码。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> 请求的可选区域设置。 请参阅 <b>区域设置</b> 以了解详细信息。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">区域设置</span> </p> </td> 
+   <td colname="col2"> <p> 请求的可选区域设置。 有关详细信息，请参阅<b>区域设置</b>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
@@ -202,9 +202,9 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
  </tbody> 
 </table>
 
-此 `authHeader` 元素始终在命名空间中定义 `http://www.scene7.com/IpsApi/xsd`，而不考虑API版本。
+`authHeader`元素始终在命名空间`http://www.scene7.com/IpsApi/xsd`中定义，无论API版本如何。
 
-以下是使用 `authHeader` 请求SOAP标头中的元素：
+以下是在请求SOAP标头中使用`authHeader`元素的示例：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 **其他请求身份验证方法**
 
-如果由于某种原因您的客户端应用程序无法传递 `authHeader` SOAP标头、API请求还可以使用HTTP基本身份验证（如RFC 2617中所指定）指定凭据。
+如果由于某种原因您的客户端应用程序无法传递`authHeader` SOAP标头，则API请求还可以使用HTTP基本身份验证（如RFC 2617中所指定）指定凭据。
 
-对于HTTP Basic身份验证，每个SOAPPOST请求的HTTP标头部分必须包含格式的标头：
+对于HTTP Basic身份验证，每个SOAPPOST请求的HTTP标头部分必须包含表单的标头：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-位置 `base64()` 应用标准Base64编码， `<IPS_user_email>` 是有效IPS用户的电子邮件地址，并且 `<password>` 是用户的密码。
+其中`base64()`应用标准Base64编码，`<IPS_user_email>`是有效IPS用户的电子邮件地址，`<password>`是用户的密码。
 
-使用初始请求抢先发送授权标头。 如果请求中未包含身份验证凭据， `IpsApiService` 未以状态代码响应 `401 (Unauthorized)`. 相反，状态代码为 `500 (Internal Server Error)` 返回一个SOAP错误正文，说明无法对请求进行身份验证。
+使用初始请求抢先发送授权标头。 如果请求中未包含任何身份验证凭据，`IpsApiService`将不会以状态代码`401 (Unauthorized)`做出响应。 相反，返回的状态代码为`500 (Internal Server Error)`，其中包含SOAP错误正文，说明无法对请求进行身份验证。
 
-在IPS 3.8之前，通过SOAP标头的身份验证是使用 `AuthUser` 和 `AuthPassword` 命名空间中的元素 `http://www.scene7.com/IpsApi`. 例如：
+在IPS 3.8之前，通过SOAP标头的身份验证是使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实现的。 例如：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 </soap:Header>
 ```
 
-此样式仍支持向后兼容，但已弃用，取而代之的是 `authHeader` 元素。
+此样式仍支持向后兼容，但已弃用，推荐使用`authHeader`元素。
 
 **请求授权**
 
 在呼叫者的凭据经过身份验证之后，将检查请求以确保呼叫者有权执行请求的操作。 授权基于呼叫者的用户角色，并且可能还需要检查目标公司、目标用户和其他操作参数。 此外，图像门户用户必须属于具有执行特定文件夹和资产操作所需权限的组。 操作引用部分详细说明了每个操作的授权要求。
 
-**SOAP请求和响应示例**
+**示例SOAP请求和响应**
 
-以下示例显示完整的 `addCompany` 操作，包括HTTP标头：
+以下示例显示完整的`addCompany`操作，包括HTTP标头：
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP错误**
 
-当操作遇到异常情况时，SOAP错误将作为SOAP消息的主体返回，以代替正常响应。 例如，如果非管理员用户尝试发送以前的 `addCompany` 请求，将返回以下响应：
+当操作遇到异常情况时，SOAP故障将作为SOAP消息正文返回，而不是作为正常响应返回。 例如，如果非管理员用户尝试发送前`addCompany`个请求，则会返回以下响应：
 
 ```
 HTTP/1.1 500 Internal Server Error 

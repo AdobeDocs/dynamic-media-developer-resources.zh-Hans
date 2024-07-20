@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 0%
 
 ---
 
@@ -31,25 +31,25 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>位于查看器顶部。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
    <td colname="col2"> <p>位于查看器底部。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>主控件栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**示例**  — 设置一个高度为36像素且位于查看器容器顶部的灰色主控件栏。
+**示例** — 设置一个高度为36像素且位于查看器容器顶部的灰色主控件栏。
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -74,8 +74,8 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 位置 </span> </p> </td> 
-   <td colname="col2"> <p>当设置为 <span class="codeph"> 静态 </span> 已禁用滚动功能。 </p> <p>将此属性设置为 <span class="codeph"> 绝对 </span> 以启用滚动功能。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">位置</span> </p> </td> 
+   <td colname="col2"> <p>当设置为<span class="codeph">静态</span>时，将禁用滚动功能。 </p> <p>将此属性设置为<span class="codeph">绝对</span>以启用滚动功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,11 +95,11 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>通常应等于或大于滚动按钮本身的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>容器背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -120,31 +120,31 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 和 `selected` 属性选择器，可用于将不同的外观应用于不同的按钮状态。 特别是， `state="selected"` 当可以将控件栏内容向左滚动时，对应于初始滚动按钮状态。 此 `state="default"` 对应于当内容一直向左滚动时的状态，滚动按钮建议将其恢复到初始状态。
+>此按钮支持`state`和`selected`属性选择器，它们可用于将不同的外观应用于不同的按钮状态。 特别是，`state="selected"`对应于初始滚动按钮状态（当可以将控件栏内容向左滚动时）。 `state="default"`对应于内容一直向左滚动时的状态，滚动按钮建议将其恢复到初始状态。
 
-按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-**示例**  — 在移动电话的主控件栏中启用滚动功能。 并且，设置一个64 x 64像素的滚动按钮，当选中或未选中时，该按钮会为4种不同的按钮状态中的每种状态显示不同的图像：
+**示例** — 在移动电话的主控件栏中启用滚动功能。 并且，设置一个64 x 64像素的滚动按钮，当选中或未选中时，该按钮会为4种不同的按钮状态中的每种状态显示不同的图像：
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

@@ -8,7 +8,7 @@ exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>可以 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 为必填项。 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>可以 <span class="codeph"> <span class="varname"> companyHandle</span> </span> 或 <span class="codeph"> <span class="varname"> companyName</span> </span> 为必填项。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司名称</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
+   <td colname="col3"> <p>需要<span class="codeph"> <span class="varname"> companyHandle</span> </span>或<span class="codeph"> <span class="varname"> companyName</span> </span>。 </p> </td> 
    <td colname="col4"> <p>要获取其信息的公司的名称。 </p> </td> 
   </tr> 
  </tbody> 
@@ -71,8 +71,8 @@ ht-degree: 10%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：公司</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司信息</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：公司</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>处理公司和其他描述性信息。 </p> </td> 
   </tr> 

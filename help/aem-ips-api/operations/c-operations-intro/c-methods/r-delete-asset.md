@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有对资源的读取和删除权限。
+>用户必须具有资产的读取和删除权限。
 
 ## 参数 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -42,11 +42,11 @@ ht-degree: 13%
 
 **输出(deleteAssetParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-d5657289f5234bb0a613dcf691507958}
 
-此示例代码从特定公司中删除任何类型的资产。 它需要资源句柄，您必须从其他操作中获取该句柄。
+此示例代码会从特定公司删除任何类型的资产。 它需要资源句柄，您必须从其他操作获取该句柄。
 
 **请求**
 

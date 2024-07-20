@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 3%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 步骤</span> </span> </p> </td> 
-   <td colname="col2"> <p> 配置将分辨率增大或减小2倍所需的放大和缩小操作的数量。 每次缩放操作的分辨率变更为2^1/step。 设置为 <span class="codeph"> 0</span> 通过一次缩放操作即可缩放到完全分辨率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">步骤</span> </span> </p> </td> 
+   <td colname="col2"> <p> 配置要将分辨率增大或减小2倍所需的放大和缩小操作的次数。 每步缩放操作的分辨率变更为2^1。 设置为<span class="codeph"> 0</span>可通过单个缩放操作缩放到完全分辨率。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 限制</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认为 <span class="codeph"> 1.0</span>，这不允许缩放超过完全分辨率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">限制</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定相对于全分辨率图像的最大缩放分辨率。 默认值为<span class="codeph"> 1.0</span>，不允许缩放超过完全分辨率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

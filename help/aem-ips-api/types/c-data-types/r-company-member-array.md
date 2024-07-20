@@ -20,4 +20,4 @@ ht-degree: 75%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:CompanyMember` |  |
+| 项目 | `types:CompanyMember` | |

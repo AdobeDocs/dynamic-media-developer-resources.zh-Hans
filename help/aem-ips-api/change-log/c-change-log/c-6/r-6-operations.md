@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 1%
 
 ---
 
@@ -29,61 +29,59 @@ ht-degree: 6%
 
 ## 已修改的操作 {#section-f4e8755527444266ae806e3f4c851ae6}
 
-**增加了**
+**已添加**
 
-* 已添加 `isHidden` 和 `initialTagValue` 至：
+* 已将`isHidden`和`initialTagValue`添加到：
 
    * `saveMetadataField`
-   * ` `updateMetadataField
+   * ` `updateMetadataField”
    * `createMetadataField`
 
-* 已添加 `thumbAssetHandle` 至：
+* 已将`thumbAssetHandle`添加到：
 
    * `createImageSet`
    * `createAssetSet`
 
-   已添加 `companyHandle` 至：
+  已将`companyHandle`添加到：
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   已添加 `contextHandle` 到：
+  已将`contextHandle`添加到：
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
 * 已将includeInactive添加到：
 
    * `getUsers`.
    * `getUserChars`.
 
-* 已添加 `permissionArray` 到 `createPropertySet`.
+* 已将`permissionArray`添加到`createPropertySet`。
 
-* 已添加 `exportJob` 到 `submitJob`.
+* 已将`exportJob`添加到`submitJob`。
 
-**將**
+**已更改**
 
-* In `addUser` 和 `setUser`，已更改 `role` 到 `defaultRole`.
+* 在`addUser`和`setUser`中，将`role`更改为`defaultRole`。
 
-* In `getCompanyMembers`，已更改 `userArray` 到 `memberArray`.
+* 在`getCompanyMembers`中，将`userArray`更改为`memberArray`。
 
-* In `getCompanyMembership`，已更改 `companyArray` 到 `membershipArray`.
+* 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
 
-* In `addUser`， `setCompanyMembership`、和 `addCompanyMembership`，已更改 `membershipArray` 到 `companyHandleArray`.
+* 在`addUser`、`setCompanyMembership`和`addCompanyMembership`中，将`membershipArray`更改为`companyHandleArray`。
 
-* In `getCompanyMembership`，已更改 `companyArray` 到 `membershipArray`.
+* 在`getCompanyMembership`中，将`companyArray`更改为`membershipArray`。
 
-* In `getUserChars`， `includeInvalid` 现在是可选的。
+* 在`getUserChars`中，`includeInvalid`现在为可选。
 
 **已删除**
 
-* 已删除 `renameFiles` 起始日期 `renameAsset`.
+* 已从`renameAsset`中移除`renameFiles`。
 
-* 已删除 `getXMPPanelViewDefinition`.
-* 已删除 `searchAssetsByFulltext` 和 `searchAssetsBySimilarity`.
+* 已删除`getXMPPanelViewDefinition`。
+* 已删除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。

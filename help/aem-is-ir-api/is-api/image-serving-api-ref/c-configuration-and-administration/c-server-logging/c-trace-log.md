@@ -1,5 +1,5 @@
 ---
-description: 此 [!DNL Platform Server] 将记录写入此日志文件以记录警告和错误，记录启动、关闭和目录加载事件。
+description: ' [!DNL Platform Server] 将记录写入此日志文件，以记录警告和错误，并记录启动、关闭和目录加载事件。'
 solution: Experience Manager
 title: 跟踪日志
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 跟踪日志{#trace-log}
 
-此 [!DNL Platform Server] 将记录写入此日志文件以记录警告和错误，记录启动、关闭和目录加载事件。
+[!DNL Platform Server]将记录写入此日志文件，以记录警告和错误，并记录启动、关闭和目录加载事件。

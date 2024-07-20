@@ -16,7 +16,7 @@ ht-degree: 2%
 
 静态内容数据根路径。 此图像目录的静态内容数据的根文件夹的绝对路径或相对路径区段。
 
-请参阅 [管理源数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) 有关服务器根路径的其他信息。
+有关服务器根路径的其他信息，请参阅[管理Source数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)。
 
 ## 属性 {#section-f8e3986096294b36948d43aafdc3e795}
 
@@ -24,8 +24,8 @@ ht-degree: 2%
 
 ## 默认 {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-继承自 `default::StaticContentsRootPath` 如果未定义。 如果已定义但为空，则它不会参与源文件根路径。
+如果未定义，则从`default::StaticContentsRootPath`继承。 如果已定义但为空，则它不会参与源文件根路径。
 
 ## 另请参阅 {#section-9af8846d20d242789df67877f84ed8a7}
 
-[PS：：staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) ，  [管理源数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)
+[PS：：staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) ，[管理Source数据](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)

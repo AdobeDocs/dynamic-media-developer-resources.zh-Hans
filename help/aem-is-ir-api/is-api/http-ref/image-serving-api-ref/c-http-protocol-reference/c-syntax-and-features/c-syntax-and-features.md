@@ -17,9 +17,9 @@ ht-degree: 0%
 本节中的主题介绍HTTP协议的语法和功能。
 
 * [图像服务HTTP协议基本语法](r-basic-syntax.md)
-* [图像服务HTTP协议命令概述](c-command-overview/c-command-overview.md)
+* [图像服务HTTP协议命令   概述](c-command-overview/c-command-overview.md)
 * [分层概述](c-layering-overview/c-layering-overview.md)
-* [层操作](c-layering-overview/c-layer-operations.md)
+* [图层操作](c-layering-overview/c-layer-operations.md)
 * [图层效果](r-layer-effects.md)
 * [请求嵌套和嵌入](r-request-nesting-and-embedding.md)
 * [替代变量](r-is-http-substitution-variables.md)
@@ -30,7 +30,7 @@ ht-degree: 0%
 * [SVG支持](r-svg-support.md)
 * [请求预处理](r-request-preprocessing.md)
 * [图像映射](r-image-maps.md)
-* [图像服务颜色管理](r-color-management.md)
+* [图像服务色彩管理](r-color-management.md)
 * [图像服务HTTP编码](r-http-encoding.md)
 * [请求锁定](r-request-locking.md)
 * [请求模糊处理](r-request-obfuscation.md)

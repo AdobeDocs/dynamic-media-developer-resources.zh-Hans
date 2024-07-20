@@ -1,6 +1,6 @@
 ---
 title: 替换
-description: 替换字符串元素。 中的可选 <rule> 元素。
+description: 替换字符串元素。 <rule>元素中的可选。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 替换{#substitution}
 
-替换字符串元素。 中的可选 `<rule>` 元素。
+替换字符串元素。 `<rule>`元素中的可选。
 
 ## 属性 {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -30,12 +30,12 @@ ht-degree: 3%
 
 如果模式表达式包含子表达式（用括号分隔），则第一个匹配的子字符串将被替换为替换字符串。 如果模式表达式不包含子表达式，则将替换整个匹配的字符串。
 
-如果 `<expression>` 为空或不存在，替换字符串将被附加到路径或查询中。
+如果`<expression>`为空或不存在，则替代字符串将附加到路径或查询中。
 
-如果 `<substitution>` 为空，则会删除匹配的字符串或子字符串。 如果 `<substitution>` 未指定，不会修改路径或查询字符串。
+如果`<substitution>`为空，则将删除匹配的字符串或子字符串。 如果未指定`<substitution>`，则不会修改路径或查询字符串。
 
 ## 注意 {#section-90fe89bb17a04804b7ff3c93df082892}
 
-替换字符串不得包含文字&lt;和&amp;字符。 这些保留字符可使用进行编码 `&` 和 `<`，或者整个字符串可以包含在XML中 `CDATA` 部分：
+替换字符串不得包含文字&lt;和&amp;字符。 这些保留字符可以分别使用`&`和`<`进行编码，或者整个字符串可以包含在XML `CDATA`部分中：
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

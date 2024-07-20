@@ -8,7 +8,7 @@ exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 24%
 
 ## 示例 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-此代码示例返回与特定公司关联的两种晕影发布格式。 信息在数组中返回，为简短起见，该数组会被截断。
+此代码示例返回与特定公司关联的两种晕影发布格式。 信息在数组中返回，为简短起见，该数会被截断。
 
 **请求**
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 工具提示的外观由以下CSS类选择器控制：
 
@@ -35,27 +35,27 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框半径</span> </p> </td> 
    <td colname="col2"> <p> 背景边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框颜色</span> </p> </td> 
    <td colname="col2"> <p> 背景边框颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 背景颜色. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>文本字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>文本字体大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果从嵌入网页内自定义工具提示样式，则所有属性都必须包含 `!IMPORTANT` 规则。 如果在查看器的CSS文件中自定义了工具提示，则无需使用此规则。
+>如果工具提示样式是从嵌入网页中自定义的，则所有属性都必须包含`!IMPORTANT`规则。 如果在查看器的CSS文件中自定义了工具提示，则无需使用此规则。
 
 示例 — 要设置具有3像素圆角半径的灰色边框、黑色背景和使用Arial® 11像素大小编写的白文本的工具提示：
 

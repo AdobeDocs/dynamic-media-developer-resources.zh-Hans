@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 如果在URL中指定，则 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 必须为HTTP编码 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> </td> 
+   <td colname="col2"> <p> 如果在URL中指定，则<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项必须通过HTTP编码分别表示为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

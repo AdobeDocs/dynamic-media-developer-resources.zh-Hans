@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # 属性{#properties}
 
-属性数据是作为对以下内容的响应而返回的 `req=` 类型：
+返回属性数据以响应以下`req=`类型：
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 仅当满足以下条件时，才会将响应格式化为属性： `catalog::UserData` 遵循属性格式。
+仅当`catalog::UserData`的内容遵循属性格式时，`userdata`响应才会格式化为属性。
 
 * [文本(Java)属性](r-text-java-properties.md)
-* [JavaScript属性](r-javascript-properties.md)
+* [JavaScript资产](r-javascript-properties.md)
 * [XML属性](r-xml-properties.md)
 * [JSONP属性](r-json-properties.md)
 

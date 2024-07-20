@@ -18,12 +18,12 @@ ht-degree: 1%
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-如果FXG节点元素具有 `s7:elementID` 定义，可以处理该节点的属性。 您可以根据需要设置任意数量的属性/值对。 属性不需要在FXG中定义，但是它必须对节点元素有效。 介于以下范围中的所有值： `{}` 必须转义。
+如果FXG节点元素定义了`s7:elementID`，则可以处理该节点的属性。 您可以根据需要设置任意数量的属性/值对。 属性不需要在FXG中定义，但是它必须对节点元素有效。 `{}`之间的所有值都必须进行转义。
 
 ## 示例 {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-假设 `s7:elementID="Group1"` 属性是为 `BitmapGraphic` 节点，则以下内容有效：
+假定为`BitmapGraphic`节点定义了`s7:elementID="Group1"`特性，则以下内容有效：
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-此示例设置 *[!DNL x]*， *[!DNL y]*， *[!DNL rotation]*， *[!DNL scaleX]*、和 *[!DNL scaleY]* 对于 `BitmapGraphic` 和会覆盖任何现有值。
+此示例为`BitmapGraphic`设置&#x200B;*[!DNL x]*、*[!DNL y]*、*[!DNL rotation]*、*[!DNL scaleX]*&#x200B;和&#x200B;*[!DNL scaleY]*&#x200B;并覆盖任何现有值。

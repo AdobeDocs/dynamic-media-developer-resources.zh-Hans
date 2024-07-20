@@ -31,14 +31,14 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>目录：：项目 </p></td> 
-  <td class="stentry"> <p>以“catalog：：”为前缀的名称是指材质目录数据字段。 </p></td> 
+  <td class="stentry"> <p>带有“catalog：：”前缀的名称是指材料目录数据字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>icc：：Item </p></td> 
   <td class="stentry"> <p>以“icc：：”为前缀的名称是指ICC颜色配置文件映射中的字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>macro：：Item </p></td> 
+  <td class="stentry"> <p>宏：：项目 </p></td> 
   <td class="stentry"> <p>以“macro：：”为前缀的名称是指宏定义表中的字段。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -46,7 +46,7 @@ ht-degree: 0%
   <td class="stentry"> <p>以“ruleset：：”为前缀的名称是指URL预处理规则集中的元素。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>default：：Item </p></td> 
+  <td class="stentry"> <p>默认：：项目 </p></td> 
   <td class="stentry"> <p>以“default：：”为前缀的名称是指默认图像目录的属性。 </p></td> 
  </tr> 
 </table>

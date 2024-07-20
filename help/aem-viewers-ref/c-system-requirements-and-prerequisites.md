@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,8 @@ Dynamic Media HTML5查看器的系统要求。
 
 * AdobeDynamic Media图像服务6.7.1或更高版本。
 * HTML5查看器需要SDK JavaScript服务器端库3.11.5或更高版本。
-* *向朋友发送电子邮件* 社交功能需要s7ondemand 5.0.9或更高版本。
-* eCatalog查看器 —  [信息面板弹出窗口](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 支持需要信息服务器2.1.8或更高版本。
+* *向Friend发送电子邮件*&#x200B;社交功能需要s7ondemand 5.0.9或更高版本。
+* eCatalog查看器 — [信息面板弹出窗口](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)支持需要信息服务器2.1.8或更高版本。
 * 搜索功能组件需要s7search 2.3.0或更高版本。
 
 ## 查看器系统要求 {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -39,33 +39,33 @@ Dynamic Media HTML5查看器的系统要求。
    * Microsoft® Windows® 7
    * macOS X 10.12
 * 在以下浏览器/平台版本或更高版本上受支持：
-   * Android™ OS 4.x
+   * Android™操作系统4.x
    * 本机浏览器上的BlackBerry® 10。 仅支持视频播放。
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
-   * iPad 2（仅限Safari和Chrome浏览器）
+   * IOS6
+   * iPad 2(仅限Safari和Chrome浏览器)
    * iPhone 3GS
    * Safari 11
 * 不支持移动设备上的Internet Explorer。
-* *Panoramicviewer* 在以下浏览器/平台版本或更高版本上受支持：
-   * Android™ 4.4（仅限手机设备）
+* 以下浏览器/平台版本或更高版本支持&#x200B;*PanoramicViewer*：
+   * Android™ 4.4（仅限电话设备）
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* 和 *DimensionViewer* 在以下浏览器/平台版本或更高版本上受支持：
-   * Android™ 5（仅限手机设备）
+* 以下浏览器/平台版本或更高版本支持&#x200B;*Video360Viewer*&#x200B;和&#x200B;*DimensionalViewer*：
+   * Android™ 5（仅限电话设备）
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* 在以下浏览器/平台版本或更高版本上受支持：
+* 以下浏览器/平台版本或更高版本支持&#x200B;*ZoomVerticalViewer*：
    * Android™ 4.x
    * Chrome 82
    * Edge

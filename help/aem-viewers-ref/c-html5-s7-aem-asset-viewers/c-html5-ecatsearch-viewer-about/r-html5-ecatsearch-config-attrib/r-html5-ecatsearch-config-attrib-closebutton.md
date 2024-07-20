@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>设置为 <span class="codeph"> 1 </span> 以启用关闭按钮的显示。 或者，设置为 <span class="codeph"> 0 </span> 以隐藏关闭按钮。 </p> <p>仅触控设备支持“关闭”按钮；桌面系统上无法显示“关闭”按钮。 </p> </td> 
+   <td colname="col2"> <p>设置为<span class="codeph"> 1 </span>以启用关闭按钮的显示。 或者，设置为<span class="codeph"> 0 </span>以隐藏关闭按钮。 </p> <p>仅触控设备支持“关闭”按钮；桌面系统上无法显示“关闭”按钮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

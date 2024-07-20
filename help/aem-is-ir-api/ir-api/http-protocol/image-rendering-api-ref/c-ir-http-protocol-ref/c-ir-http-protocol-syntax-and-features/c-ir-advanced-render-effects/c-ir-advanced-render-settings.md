@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 25%
 >
 >渲染设置是图像渲染和图像创作的一项高级功能。 请联系Adobe技术支持或您的Adobe咨询代表，获取有关使用渲染设置的培训、咨询或两者。
 
-这些设置在“图像创作”中以交互方式控制。 可以使用在图像渲染中应用相同的设置 `rs=` 命令(或使用 `catalog::RenderSettings` 值)。 此机制用于为每个材料选择不同的锐化选项，并修改光照渲染算法的行为，如改变高光的饱和度或阴影中的对比度。
+这些设置在“图像创作”中以交互方式控制。 可以使用`rs=`命令（或使用`catalog::RenderSettings`值）在图像渲染中应用相同的设置。 此机制用于为每个材料选择不同的锐化选项，并修改光照渲染算法的行为，如改变高光的饱和度或阴影中的对比度。
 
 ## 高级渲染设置(rs=)值 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -37,7 +37,7 @@ ht-degree: 25%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col2"> <p>渲染效果/备用着色器会覆盖晕影中的设置。 </p> </td> 
+   <td colname="col2"> <p>“渲染效果/备用着色器”会覆盖晕影中的设置。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>A0=渲染效果 </p> <p>A1=备用着色器 </p> </td> 
@@ -65,7 +65,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td colname="col1"> <p>X </p> </td> 
-   <td colname="col2"> <p>USM阈值（级别）。 </p> </td> 
+   <td colname="col2"> <p>usm阈值（级别）。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 25%
       <li id="li_E7711C3678ED4DE09E710F7C430CEF42">最近邻居 </li> 
       <li id="li_CAE975B91C604DA0AA493F700AEBE199">双线性 </li> 
       <li id="li_24E5A40B8A3F4C808A68686C27647CD5">双三次 </li> 
-      <li id="li_42ACFCE65B4843ACAFA6A52255364642">超取样（默认值） </li> 
+      <li id="li_42ACFCE65B4843ACAFA6A52255364642">超采样（默认值） </li> 
       <li id="li_34EC85C4D15145DF80F7D3DB7B6244D3">Lanczos窗口 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -94,9 +94,9 @@ ht-degree: 25%
       <li id="li_F08AD1D093D74059B60302374B472B52">默认 </li> 
       <li id="li_FD4C859D975B44399475D4D93D6B05AB">最近邻居 </li> 
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">双线性 </li> 
-      <li id="li_D334ACF969E749A89A464B21C96CE8A6">超取样 </li> 
+      <li id="li_D334ACF969E749A89A464B21C96CE8A6">超采样 </li> 
       <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">自适应 </li> 
-      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">泊松采样器 </li> 
+      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">普瓦森·Sampler </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -129,7 +129,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
-   <td colname="col2"> <p>泊松：样本/像素。 </p> </td> 
+   <td colname="col2"> <p>Poisson：样本/像素。 </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>默认值为 1。 </p> </td> 
@@ -255,14 +255,14 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
-   <td colname="col2"> <p>形状. </p> </td> 
+   <td colname="col2"> <p>形状。 </p> </td> 
    <td colname="col3"> <p>-100 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p>请参阅上述值中的“xx”。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> <p>照明调节。 </p> </td> 
+   <td colname="col2"> <p>照明调整。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>格式不同：k64.138.175.60.xx.133.242 </p> </td> 
@@ -279,7 +279,7 @@ ht-degree: 25%
    <td colname="col2"> <p>突出显示色相偏移。 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>格式不同： v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8。 </p> </td> 
+   <td colname="col5"> <p>格式不同：v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>w </p> </td> 
@@ -315,7 +315,7 @@ ht-degree: 25%
       <li> USM1
       <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 =明亮材料的阴影(50-100)。 </li> 
       <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 =高亮(0-100)。 </li> 
-      <li id="li_376C275FDB3548958C09BD266C77318F">J10 =高亮饱和度(0-50)。 </li> 
+      <li id="li_376C275FDB3548958C09BD266C77318F">J10 =高亮显示饱和度(0-50)。 </li> 
       <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 =阴影饱和度(0-400)。 </li> 
       <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 =基于光泽的外推强度(100-600)。 </li> 
       <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM（钝化蒙版）(0-2)。 </li> 
@@ -353,7 +353,7 @@ ht-degree: 25%
    <td colname="col2"> <p> 
      <ul id="ul_7C374842312E4AD0B62692BBCE6743A8"> 
       <li id="li_CC730580B54741FBBBFF507DE0FE1F15">H80 = USM金额 </li> 
-      <li id="li_C2801B2C093444AC9401793BC571EC27">I70 =亮点 </li> 
+      <li id="li_C2801B2C093444AC9401793BC571EC27">I70 =高亮 </li> 
       <li id="li_518C6A690EC34614B0806A0C6BC535FF">J40 =高亮显示饱和度 </li> 
       <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 =基于光泽的外推强度 </li> 
       <li id="li_3F589F109AC94280911BD535C49E42E4">U1 = USM </li> 
@@ -368,7 +368,7 @@ ht-degree: 25%
      <ul id="ul_93AD53BB37EA47F6A3CEE424D3AAE18C"> 
       <li id="li_9EF1DF4167164721882E4842C2E0B20C">USM1 </li> 
       <li id="li_7B5D8B7BB5544E7FA4AD702EE281086B">USM金额(120) </li> 
-      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">USM半径(0.6) </li> 
+      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">超声马达半径(0.6) </li> 
       <li id="li_793DAB145CE7469ABC1182BCBD324657">USM阈值(5) </li> 
       <li id="li_B1954FEBE2084726828D64E8165DA4DA">调整大小(Lanczos) </li> 
       <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">重新取样（超取样，随机=一半，速率=一半） </li> 

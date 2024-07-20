@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 14%
  </tr> 
 </table>
 
-参见 [对象ID转换](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+请参阅[对象ID转换](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414)。
 
 例如：
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-HTTP 响应是可缓存的，且 TTL 基于 `catalog::Expiration`.
+可使用基于`catalog::Expiration`的TTL来缓存HTTP响应。
 
-支持JSONP响应格式的请求允许您使用扩展语法指定JS回调处理程序的名称 `req=` 参数：
+支持JSONP响应格式的请求允许您使用`req=`参数的扩展语法指定JS回调处理程序的名称：
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 是JSONP响应中存在的JS处理程序的名称。 仅允许a-z、A-Z和0-9字符。 可选. 默认值为 `s7jsonResponse`.
+`<reqHandler>`是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选。 默认值为`s7jsonResponse`。

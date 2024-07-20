@@ -34,7 +34,7 @@ ht-degree: 22%
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
 | assetHandle | `xsd:string` | 是 | 处理资源。 |
 
-**输出(getViewerConfigSettingsReturn)**
+**输出(getViewerCoinfigSettingsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|

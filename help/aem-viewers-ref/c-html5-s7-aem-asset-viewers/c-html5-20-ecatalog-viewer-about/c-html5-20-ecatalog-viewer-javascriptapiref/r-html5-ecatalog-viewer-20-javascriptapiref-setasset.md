@@ -8,7 +8,7 @@ exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 2%
 
 视频查看器的JavaScript API参考。
 
-` setAsset( *`asset`*)`
+` setAsset( *`资源`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 资产 </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> 字符串 </span>}个新资产ID或显式图像集，可选图像服务修饰符附加在之后 <span class="codeph"> ？ </span>. </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">资源</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph">字符串</span>}新资产ID或在<span class="codeph">后附加可选图像服务修饰符的显式图像集？</span>。 </p> <p> 此查看器不支持使用IR（图像渲染）或UGC（用户生成的内容）的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置新资源。 您可以随时在之前或之后调用此参数 `init()`. 如果在之后调用 `init()`时，查看器会在运行时交换资源。
+设置新资源。 您可以随时在`init()`之前或之后调用此参数。 如果在`init()`之后调用，则查看器会在运行时交换资源。
 
-另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
@@ -49,13 +49,13 @@ ht-degree: 2%
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-显式图像集，包含单个页面图像：
+明确的图像集，包含各个页面图像：
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")
 ```
 
-锐化修饰符已添加到集中的所有图像：
+向集中的所有图像添加了锐化修饰符：
 
 ```
  <instance>.setAsset("Viewers/Pluralist?op_sharpen=1")

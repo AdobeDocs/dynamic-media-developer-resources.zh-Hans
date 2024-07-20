@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 17%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
-| assetHandle | `xsd:string` | 是 | 处理要移动的资产。 |
+| assetHandle | `xsd:string` | 是 | 处理要移动的资源。 |
 | folderHandle | `xsd:string` | 是 | 目标文件夹的句柄。 |
 
 **输出(moveAssetReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-此代码示例将资产移动到文件夹。
+此代码示例将资产移至文件夹。
 
 **请求**
 

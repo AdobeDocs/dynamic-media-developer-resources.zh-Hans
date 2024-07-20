@@ -1,5 +1,5 @@
 ---
-description: 由getGenerationInfo/引擎使用。
+description: 由getGenerationInfo/engine使用。
 solution: Experience Manager
 title: 生成信息
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # 生成信息{#generation-info}
 
-由getGenerationInfo/引擎使用。
+由getGenerationInfo/engine使用。
 
 语法
 

@@ -15,6 +15,6 @@ ht-degree: 0%
 # 键盘辅助功能和导航{#keyboard-accessibility-and-navigation}
 
 查看器用户界面中公开的所有功能均可使用键盘。
-最终用户可以使用 `Left`， `Right`， `UP`、和 `DOWN` 按键平移图像。
-此 `Esc` 可使用击键重置图像。
+最终用户可以使用`Left`、`Right`、`UP`和`DOWN`按键平移图像。
+可以使用`Esc`键重置图像。
 

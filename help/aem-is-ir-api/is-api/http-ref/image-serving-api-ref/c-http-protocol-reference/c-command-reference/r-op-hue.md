@@ -20,7 +20,7 @@ ht-degree: 1%
 
 <table id="simpletable_7DC7ABA384664BDDAA65B8DEEF7859A8"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 调整</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">调整</span> </p> </td> 
   <td class="stentry"> <p>色相调整，以度为单位(-180...+180int)。 </p></td> 
  </tr> 
 </table>
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 属性 {#section-55779644700b4c808a624cdf5a04447e}
 
-图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
+图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 默认 {#section-7314580251f5456fa1f381ec9e99e0bb}
 

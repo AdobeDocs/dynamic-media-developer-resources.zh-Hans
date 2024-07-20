@@ -8,7 +8,7 @@ exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 ## 属性 {#section-49d39cc6ec2b46c7a14e464dbe352f6a}
 
-文本字符串。 必需. 字体映射的主索引键。 相同的字体：：Name值在相同的字体映射文件中最多可以出现四次，但每个记录必须具有不同的组合 `font::Bold` 和 `font::Italic` 值。
+文本字符串。 必需。 字体映射的主索引键。 相同的字体：：Name值在相同的字体映射文件中最多可能出现四次，但每个记录必须具有`font::Bold`和`font::Italic`值的不同组合。
 
 ## 默认 {#section-2bcf8ad7a7934956ad2cd42fd0d401f8}
 

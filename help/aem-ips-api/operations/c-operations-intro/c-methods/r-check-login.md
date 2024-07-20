@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->如果省略了公司句柄，此方法将检查默认用户的登录。
+>如果省略公司句柄，此方法将检查默认用户的登录名。
 
 ## 授权用户类型 {#section-df8b26b550854f899948276adaca083a}
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ## 示例 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录IPS。 如果用户 *可以* 登录，此方法将返回字符串， `ValidLogin`. 如果用户 *无法* 登录，此方法将返回字符串， `InvalidLogin`.
+此示例代码使用公司句柄参数、电子邮件地址和密码来确定用户是否可以登录IPS。 如果用户&#x200B;*可以*&#x200B;登录，此方法将返回字符串`ValidLogin`。 如果用户&#x200B;*无法*&#x200B;登录，此方法将返回字符串`InvalidLogin`。
 
 **请求**
 

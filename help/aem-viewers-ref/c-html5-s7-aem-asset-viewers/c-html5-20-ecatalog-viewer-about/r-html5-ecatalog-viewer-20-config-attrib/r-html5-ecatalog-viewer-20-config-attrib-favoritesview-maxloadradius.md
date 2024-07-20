@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '58'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>当设置为 <span class="codeph"> -1</span>，则在初始化组件或更改资产时，将同时加载所有缩略图。 </p> <p>当设置为 <span class="codeph"> 0</span>，则仅加载可见的缩略图。 </p> <p> 当设置为 <span class="codeph"><span class="varname"> preloadnbr</span></span>中，您可以指定预载可视区域周围多少不可见行。 </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>如果设置为<span class="codeph"> -1</span>，则在初始化组件或更改资产时，将同时加载所有缩略图。 </p> <p>当设置为<span class="codeph"> 0</span>时，将只加载可见的缩略图。 </p> <p> 当设置为<span class="codeph"><span class="varname"> preloadnbr</span></span>时，您可以指定预加载可见区域周围多少不可见的行。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

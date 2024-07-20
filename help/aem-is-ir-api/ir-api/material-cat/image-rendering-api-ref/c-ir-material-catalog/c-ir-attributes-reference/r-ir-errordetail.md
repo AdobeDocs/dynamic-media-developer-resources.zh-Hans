@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '175'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java™栈栈跟踪。 错误图像从不包含栈栈跟踪，而是在中返回级别2信息 <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java™栈栈跟踪。 错误图像从不包含栈栈跟踪，而是在<span class="codeph"> $error.message</span>中返回级别2信息。 </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 
 ## 默认 {#section-5e78d550050840cc9a1de811c581b94f}
 
-继承自 `default::ErrorDetail` 如果未指定或为空。
+如果未指定或为空，则从`default::ErrorDetail`继承。
 
 ## 另请参阅 {#section-474e71922d194c7ca06f2aad3b30e025}
 

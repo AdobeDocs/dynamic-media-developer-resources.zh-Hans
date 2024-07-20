@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:JobLogDetailAux` | 辅助作业日志详细信息类型数组。 |
+| 项目 | `types:JobLogDetailAux` | 辅助作业日志详细信息类型的数组。 |

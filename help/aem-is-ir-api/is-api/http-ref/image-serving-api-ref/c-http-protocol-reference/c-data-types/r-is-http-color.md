@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
 source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 13%
+source-wordcount: '452'
+ht-degree: 3%
 
 ---
 
@@ -18,39 +18,39 @@ ht-degree: 13%
 
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 颜色</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&amp;lcub；&amp;lcub；<span class="varname"> 灰色</span>[，<span class="varname"> alpha</span>][g]&amp;rcub；|</span> </p> <p> <span class="codeph"> {<span class="varname"> 红色</span>，<span class="varname"> 绿色</span>，<span class="varname"> 蓝色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> 青色</span>， <span class="varname"> 洋红色</span>， <span class="varname"> 黄色</span>， <span class="varname"> black</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> 十六进制6</span>|<span class="varname"> 十六进制8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> 十六进制8</span>|<span class="varname"> 十六进制</span>}k}&amp;rcub；[s]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">颜色</span> </span> </p></td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;amp；lcub；&amp;amp；lcub；<span class="varname"> gray</span>[，<span class="varname"> alpha</span>][g]&amp;amp；rcub；|</span> </p> <p> <span class="codeph"> {<span class="varname">红色</span>，<span class="varname">绿色</span>，<span class="varname">蓝色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname">青色</span>，<span class="varname">洋红色</span>，<span class="varname">黄色</span>，<span class="varname">黑色</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname">十六进制6</span>|<span class="varname">十六进制8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname">十六进制8</span>|<span class="varname">十六进制10</span>}k}&amp;amp；rcub；[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 红色</span>， <span class="varname"> 绿色</span>， <span class="varname"> 蓝色</span>， <span class="varname"> rgbAlpha</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">红色</span>，<span class="varname">绿色</span>，<span class="varname">蓝色</span>，<span class="varname"> rgbAlpha</span></span> </p> </td> 
   <td class="stentry"> <p>颜色组件值（0到255，十进制整数） </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 青色</span>， <span class="varname"> 洋红色</span>， <span class="varname"> 黄色</span>， <span class="varname"> black</span>， <span class="varname"> alpha</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">青色</span>，<span class="varname">洋红色</span>，<span class="varname">黄色</span>，<span class="varname">黑色</span>，<span class="varname">阿尔法</span></span> </p></td> 
   <td class="stentry"> <p>CMYK颜色组件值（0..100 %，十进制整数） </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 灰色</span>， <span class="varname"> alpha</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">灰色</span>，<span class="varname"> alpha</span></span> </p> </td> 
   <td class="stentry"> <p>灰度分量值（0至100%，十进制整数） </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制2</span> </span> </p></td> 
   <td class="stentry"> <p>压缩的两位十六进制灰色颜色值(GG) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制4</span> </span> </p> </td> 
   <td class="stentry"> <p>用Alpha颜色值填充四位十六进制灰度(GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制6</span> </span> </p> </td> 
   <td class="stentry"> <p>打包的6位十六进制RGB色值(RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制8</span> </span> </p> </td> 
   <td class="stentry"> <p>打包了八位十六进制RGBA (RRGGBBAA)或CMYK (CCMMYKK)颜色值（如果以“k”后缀指定） </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制10</span> </span> </p></td> 
   <td class="stentry"> <p>带alpha值的十位十六进制CMYK (CCYYMMKKAA) </p> </td> 
  </tr> 
 </table>
@@ -65,7 +65,7 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
 
 十六进制灰度值需要前缀“0x”。
 
-“s”后缀指定颜色值与对应于颜色值的像素类型的输入（源）色彩空间相关联(定义有 `attribute::IccProfileSrc*`)。 如果此后缀不存在，则颜色值与输出（目标）颜色空间(定义为 `icc=` 或 `attribute::IccProfile*`)。
+“s”后缀指定颜色值与对应于颜色值的像素类型（使用`attribute::IccProfileSrc*`定义）的输入（源）色彩空间相关联。 如果此后缀不存在，则颜色值与输出（目标）颜色空间（使用`icc=`或`attribute::IccProfile*`定义）关联。
 
 ## 默认 {#section-737082a7da544acca8092a48d88480e7}
 
@@ -82,7 +82,7 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
    <th class="entry"> <b>像素类型</b> </th> 
    <th class="entry"> <b>颜色值</b> </th> 
    <th class="entry"> <b>Alpha值</b> </th> 
-   <th class="entry"> <b>默认颜色空间 </b> </th> 
+   <th class="entry"> <b>默认色彩空间</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -101,9 +101,9 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0x010203S </p> </td> 
+   <td> <p>0x010203秒 </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>1,2,3 </p> </td> 
+   <td> <p>1,2，3 </p> </td> 
    <td> <p>255 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
@@ -115,14 +115,14 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>100S </p> </td> 
+   <td> <p>100秒 </p> </td> 
    <td> <p>灰色 </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>50,75g </p> </td> 
+   <td> <p>50,75克 </p> </td> 
    <td> <p>灰色 </p> </td> 
    <td> <p>50% </p> </td> 
    <td> <p>75% </p> </td> 
@@ -136,7 +136,7 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
    <td> <p> <span class="codeph"> IccProfileGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0xddeegs </p> </td> 
+   <td> <p>0xddegs </p> </td> 
    <td> <p>灰色 </p> </td> 
    <td> <p>87% </p> </td> 
    <td> <p>93% </p> </td> 
@@ -173,4 +173,4 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指�
  </tbody> 
 </table>
 
-指定的输出颜色空间 `icc=` 在输出颜色的像素类型对应于输出图像的像素类型时应用，而不是默认的颜色空间。
+当输出颜色的像素类型对应于输出图像的像素类型时，将应用通过`icc=`指定的输出颜色空间而不是默认颜色空间。

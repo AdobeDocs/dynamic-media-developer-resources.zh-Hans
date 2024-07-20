@@ -22,8 +22,8 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| maskHandle | `xsd:string` | 蒙版句柄。 |
+| maskHandle | `xsd:string` | 蒙版手柄。 |
 | 名称 | `xsd:string` | 蒙版名称。 |
 | 蒙版路径 | `xsd:string` | 蒙版的相对路径。 |
 | 蒙版文件 | `xsd:string` | 蒙版文件。 |
-| lastModified | `types:dateTime` | 上次修改蒙版的日期、时间和时区。 |
+| lastModified | `types:dateTime` | 上次修改掩码的日期、时间和时区。 |

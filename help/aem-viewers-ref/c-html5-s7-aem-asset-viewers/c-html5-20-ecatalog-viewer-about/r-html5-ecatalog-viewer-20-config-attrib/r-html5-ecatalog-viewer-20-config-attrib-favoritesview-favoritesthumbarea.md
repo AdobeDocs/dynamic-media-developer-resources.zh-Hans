@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '61'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 8%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 区域</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定收藏夹缩略图的裁切区域。 以相对于总帧大小的值表示，范围介于 <span class="codeph"> 0</span> 到 <span class="codeph"> 1.0</span>. </p> <p>值 <span class="codeph"> 1</span> 表示整个帧图像用于缩略图。 </p> <p>值 <span class="codeph"> 0.1</span> 表示仅使用帧大小的10%。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">区域</span></span> </p> </td> 
+   <td colname="col2"> <p> 指定收藏夹缩略图的裁切区域。 表示为总帧大小的相对值，范围从<span class="codeph"> 0</span>到<span class="codeph"> 1.0</span>。 </p> <p>值为<span class="codeph"> 1</span>表示整个帧图像用于缩略图。 </p> <p>值为<span class="codeph"> 0.1</span>表示仅使用帧大小的10%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

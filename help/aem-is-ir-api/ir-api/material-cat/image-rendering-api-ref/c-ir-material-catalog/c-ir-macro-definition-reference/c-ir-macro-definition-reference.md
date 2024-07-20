@@ -1,5 +1,5 @@
 ---
-description: 定义宏时，指定名称和定义。
+description: 定义宏时，请指定名称和定义。
 solution: Experience Manager
 title: 宏定义引用
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 宏定义引用{#macro-definition-reference}
 
-定义宏时，指定名称和定义。
+定义宏时，请指定名称和定义。

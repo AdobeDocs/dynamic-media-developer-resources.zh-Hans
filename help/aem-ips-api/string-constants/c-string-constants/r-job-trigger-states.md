@@ -1,5 +1,5 @@
 ---
-description: 由ScheduledJob/triggerState使用。
+description: 用于ScheduledJob/triggerState。
 solution: Experience Manager
 title: 作业触发器状态
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # 作业触发器状态{#job-trigger-states}
 
-由ScheduledJob/triggerState使用。
+用于ScheduledJob/triggerState。
 
 语法
 

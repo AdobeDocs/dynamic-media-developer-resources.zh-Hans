@@ -8,7 +8,7 @@ exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果 `companyHandle` 未传递，且调用方为 `IpsAdmin`，则会创建全局属性集类型。 |
+| companyHandle | `xsd:string` | 否 | 拥有属性集类型的公司的句柄。 如果未传递`companyHandle`，并且调用方是`IpsAdmin`，则会创建全局属性集类型。 |
 | 名称 | `xsd:string` | 是 | 属性集类型的名称。 |
 | propertyType | `xsd:string` | 是 | 属性集类型的选择。 |
-| allowMulti | `xsd:boolean` | 是 | 确定您的程序是否可以拥有多个属性集。 |
+| allowmultiple | `xsd:boolean` | 是 | 确定您的程序是否可以拥有多个属性集。 |
 
 **输出(createPropertySetTypeReturn)**
 
@@ -44,7 +44,7 @@ ht-degree: 12%
 
 ## 示例 {#section-13396c9639a6475190e622eae3cdb534}
 
-此代码示例创建一个属性集，该属性集的名称和类型由 `PropertySet Types` 常量。 拥有属性集类型的公司的句柄。 如果未传递companyHandle，并且调用方是IpsAdmin，则会创建全局属性集类型。
+此代码示例创建一个属性集，该属性集的名称和类型由`PropertySet Types`常量指定。 拥有属性集类型的公司的句柄。 如果未传递companyHandle，并且调用方是IpsAdmin，则会创建全局属性集类型。
 
 **请求**
 

@@ -8,7 +8,7 @@ exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 处理公司。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4">要返回的发布上下文的类型。 包括： 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">

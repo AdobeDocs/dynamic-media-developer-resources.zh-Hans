@@ -1,5 +1,5 @@
 ---
-description: 此部分介绍了用于指定数据类型的变量。
+description: 本节介绍用于指定数据类型的变量。
 solution: Experience Manager
 title: 数据类型
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 数据类型{#data-types}
 
-此部分介绍了用于指定数据类型的变量。
+本节介绍用于指定数据类型的变量。
 
 * [颜色](r-is-http-color.md)
 * [坐标](r-coord.md)

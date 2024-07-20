@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> 应用于横幅图像的图像服务命令字符串。 如果在URL中指定，则所有匹配项 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 必须为HTTP编码 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> </td> 
+   <td colname="col2"> <p> 应用于横幅图像的图像服务命令字符串。 如果在URL中指定，则<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项必须通过HTTP编码分别表示为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

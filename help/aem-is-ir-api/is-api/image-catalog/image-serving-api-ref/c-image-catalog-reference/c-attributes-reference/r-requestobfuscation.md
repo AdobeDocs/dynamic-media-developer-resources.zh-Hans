@@ -1,5 +1,5 @@
 ---
-description: 请求模糊处理模式。 指定必须应用于有效请求的模糊处理类型。
+description: 请求模糊处理模式。 指定必须应用于有效请求的混淆类型。
 solution: Experience Manager
 title: 请求模糊处理
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c330c8de-9539-442f-a52a-786f882873cf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 1%
 
 ---
 
 # 请求模糊处理{#requestobfuscation}
 
-请求模糊处理模式。 指定必须应用于有效请求的模糊处理类型。
+请求模糊处理模式。 指定必须应用于有效请求的混淆类型。
 
 ## 属性 {#section-0819432615324e259f24717e16835427}
 
@@ -22,4 +22,4 @@ ht-degree: 1%
 
 ## 默认 {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-继承自 `default::RequestObfuscation` 如果未定义或为空。
+如果未定义或为空，则从`default::RequestObfuscation`继承。

@@ -16,13 +16,13 @@ ht-degree: 6%
 
 命令宏的名称。
 
-`&$ *`name`*$`
+`&$ *`名称`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">名称</span></span> </p> </td> 
   <td class="stentry"> <p>宏名称。 </p></td> 
  </tr> 
 </table>
 
-命令 *`name`* 不区分大小写，并可由字母、数字、 `-` （连字符）， `_` （下划线），和 `.` （句点）字符。
+命令&#x200B;*`name`*&#x200B;不区分大小写，并且可以包含字母、数字、`-` （连字符）、`_` （下划线）和`.` （句点）字符的任意组合。

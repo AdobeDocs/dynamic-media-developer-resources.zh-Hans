@@ -1,22 +1,22 @@
 ---
 title: 辅助控制栏
-description: 辅助控制栏是包含“第一页”和“最后一页”按钮以及在CSS中可用的页面指示器的矩形区域。
+description: 辅助控制栏是包含“第一页”和“最后一页”按钮以及在CSS中可用时的“页面指示器”的矩形区域。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 2%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
 # 辅助控制栏{#secondary-control-bar}
 
-辅助控制栏是包含“第一页”和“最后一页”按钮以及在CSS中可用的页面指示器的矩形区域。
+辅助控制栏是包含“第一页”和“最后一页”按钮以及在CSS中可用时的“页面指示器”的矩形区域。
 
-默认情况下，它仅在手机上显示在查看器底部。 它始终采用所有可用的查看器宽度。 可以通过CSS更改其相对于查看器容器的颜色、高度和垂直位置。
+默认情况下，该屏幕仅在手机上显示，位于查看器底部。 它始终占用整个可用查看器宽度。 可以通过CSS更改其相对于查看器容器的颜色、高度和垂直位置。
 
 辅助控件栏的外观由以下CSS类选择器控制：
 
@@ -31,25 +31,25 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器顶部开始定位。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
+   <td colname="col2"> <p>位于查看器顶部。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p>从查看器底部开始定位。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
+   <td colname="col2"> <p>位于查看器底部。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>主控制栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>辅助控制栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置一个高度为72像素且位于查看器容器底部的灰色辅助控制栏。
+示例 — 设置一个高度为72像素且位于查看器容器底部的灰色辅助控件栏。
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  

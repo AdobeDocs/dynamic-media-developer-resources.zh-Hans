@@ -8,7 +8,7 @@ exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 ## 示例 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-此代码示例替换图像并应用 `urlModifier` 使用指定图像服务器不执行替换操作的命令。
+此代码示例替换图像并使用命令应用`urlModifier`，该命令指定图像服务器不对替换执行任何操作。
 
 **请求**
 

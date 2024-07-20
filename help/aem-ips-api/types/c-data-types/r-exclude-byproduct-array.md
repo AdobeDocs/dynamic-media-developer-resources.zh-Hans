@@ -1,5 +1,5 @@
 ---
-description: 支持searchAssets操作中的副产品筛选。
+description: 支持在searchAssets操作中进行副产品筛选。
 solution: Experience Manager
 title: ExcludeByproductArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
-支持searchAssets操作中的副产品筛选。
+支持在searchAssets操作中进行副产品筛选。
 
 语法
 

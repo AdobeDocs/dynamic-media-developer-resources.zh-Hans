@@ -14,20 +14,20 @@ ht-degree: 5%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`本地化信息`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> 对象 </span>} JSON对象和本地化数据。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK命名空间 </a> 了解更多信息。 </p> <p>请参阅 <i>Viewer SDK用户指南</i> 和示例，以了解有关对象内容的更多信息。 可选. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">本地化信息</span> </span> </p> </td> 
+   <td colname="col2"> <p> 包含本地化数据的{<span class="codeph">对象</span>} JSON对象。 </p> <p>有关详细信息，请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Viewer SDK命名空间</a>。 </p> <p>有关对象内容的更多信息，请参阅<i>Viewer SDK用户指南</i>和示例。 可选. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-设置一个或多个区域设置的本地化SYMBOL值。 必须在之前调用此参数 `init()`.
+设置一个或多个区域设置的本地化SYMBOL值。 必须在`init()`之前调用此参数。
 
-另请参阅 [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+另请参阅[init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

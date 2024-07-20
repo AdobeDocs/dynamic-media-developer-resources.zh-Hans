@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> 指定相对于缩略图图像绘制标签的位置。 即，标签在相对于缩略图的指定位置正中。 </p> <p>时间 <span class="codeph"> 工具提示</span> 指定，标签文本将作为浮动工具提示显示在缩略图图像上。 设置为 <span class="codeph"> 无</span> 关闭标签。 </p> </td> 
+   <td> <p> 指定相对于缩略图图像绘制标签的位置。 即，标签在相对于缩略图的指定位置正中。 </p> <p>当指定<span class="codeph">工具提示</span>时，标签文本将作为浮动工具提示显示在缩略图图像上。 设置为<span class="codeph"> none</span>可关闭标签。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

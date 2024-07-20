@@ -1,38 +1,38 @@
 ---
 title: 颜色处理
-description: RTF规范允许使用&bsol；colortbl指定的RGB颜色值。 每个组件分别提供了&bsol；red、&bsol；green和&bsol；blue命令。
+description: RTF规范允许使用&amp；bsol；colortbl指定的RGB颜色值。 每个组件分别提供了&amp；bsol；红色、&amp；bsol；绿色和&amp；bsol；蓝色命令。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # 颜色处理{#color-handling}
 
-RTF规范允许使用指定的RGB颜色值 `\colortbl`. 每个组件分别设置 `\red`， `\green`、和 `\blue` 命令。
+RTF规范允许使用`\colortbl`指定的RGB颜色值。 每个组件分别提供了`\red`、`\green`和`\blue`命令。
 
-专有RTF扩展命令 `\cmykcolortbl` 允许指定CMYK颜色，每个颜色组件都随 `\cyan`， `\magenta`， `\yellow`、和 `\black` 命令。
+专用RTF扩展命令`\cmykcolortbl`允许指定CMYK颜色，每个颜色组件都随`\cyan`、`\magenta`、`\yellow`和`\black`命令提供。
 
-颜色组件值 `\colortbl` 在0到255之间。 的组件值 `\cmykcolortbl` 在0到100之间。
+`\colortbl`的颜色组件值在0-255范围内。 `\cmykcolortbl`的组件值在0-100范围内。
 
-RTF扩展命令 `\*\iscolortbl`，由支持 `textPs=`，提供了一种通过标准图像服务颜色值指定色表的方法，该方法支持全RGB、灰度、CMYK和Alpha。 它具有以下语法：
+`textPs=`支持的RTF扩展命令`\*\iscolortbl`提供了一种方法，用于指定具有标准图像服务颜色值的颜色表，该颜色表支持完整RGB、灰度、CMYK和Alpha。 它具有以下语法：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
-*[!DNL colors]* 一个或多个IS颜色值，以“；”分隔
+*[!DNL colors]*&#x200B;一个或多个IS颜色值，以“；”分隔
 
-可以在同一颜色表中指定多种类型的颜色表 `text=` 或 `textPs=` rtf字符串。 每个颜色表可以有不同的条目数。 图像服务尝试按以下顺序查找颜色： `\iscolortbl` 早于 `\cmykcolortbl` （仅当文本图层的像素类型为CMYK时）之前 `\colortbl`. 对象 `textPs=` 仅在需要时才能在CMYK和RGB之间精确转换(例如，当指定了RGB但需要CMYK输出时)。 如果找不到特定索引值的颜色，则使用默认颜色（黑色）。
+可以在同一`text=`或`textPs=` RTF字符串中指定多种类型的颜色表。 每个颜色表可以有不同的条目数。 图像服务尝试在`\colortbl`之前按以下顺序查找颜色： `\iscolortbl`在`\cmykcolortbl`之前（仅当文本图层的像素类型为CMYK时）。 仅对于`textPs=`，如果需要(例如，指定了RGB颜色但需要CMYK输出)，可在CMYK和RGB之间准确地转换颜色。 如果找不到特定索引值的颜色，则使用默认颜色（黑色）。
 
-请参阅 [颜色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) 有关IS颜色值的语法的说明。
+有关IS颜色值的语法的说明，请参阅[颜色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 
 ## 限制 {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-修饰符 `text=` 不支持 `\*\iscolortbl`. 修饰符 `textPs=` 不支持 `\cmykcolortbl`.
+修饰符`text=`不支持`\*\iscolortbl`。 修饰符`textPs=`不支持`\cmykcolortbl`。
 
 渲染Photofonts时将忽略颜色选择。
 

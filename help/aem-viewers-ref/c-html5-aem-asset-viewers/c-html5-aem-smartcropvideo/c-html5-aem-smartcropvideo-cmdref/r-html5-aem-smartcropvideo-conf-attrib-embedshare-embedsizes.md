@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c638d9fd-39bb-4baa-9b3a-99d9bc0307b5
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 9%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">宽度</span> </span> </p> </td> 
    <td colname="col2"> <p> 嵌入宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">高度</span> </span> </p> </td> 
    <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否最初应在组合框中预先选择此列表项。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指定是否应在组合框中预先选择此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Postscript字体的名称。
 
 ## 属性 {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-文本字符串。 可选. 字体映射的辅助索引键。 相同 `font::PsName` 值只能在相同的字体映射文件中出现一次。
+文本字符串。 可选。 字体映射的辅助索引键。 相同的`font::PsName`值只能在相同的字体映射文件中出现一次。
 
 ## 默认 {#section-c5903d5340e740b69ec0150d2303a893}
 

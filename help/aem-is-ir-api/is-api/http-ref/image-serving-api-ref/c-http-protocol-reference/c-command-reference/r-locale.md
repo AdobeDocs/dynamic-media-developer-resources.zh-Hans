@@ -25,15 +25,15 @@ ht-degree: 4%
  </tr> 
 </table>
 
-使用此ID和指定的规则 `attribute::LocaleMap` 和 `attribute::LocaleStrMap`，图像服务应用可选的目录ID翻译和字符串本地化。
+通过使用此ID以及通过`attribute::LocaleMap`和`attribute::LocaleStrMap`指定的规则，图像服务应用可选的目录ID翻译和字符串本地化。
 
 ## 属性 {#section-1854a9902b884d9b8e8e713b6635723f}
 
-请求命令。 适用于整个请求，包括嵌套/嵌入请求，无论在何处指定。 `locId` 只能包含可打印的ASCII字符。 如果未在此请求的主目录中定义本地化映射，则忽略。 如果为空或无效，则返回错误 `locId` 已指定，并且未在中定义默认规则 `attribute::DefaultLocale`.
+请求命令。 适用于整个请求，包括嵌套/嵌入请求，无论在何处指定。 `locId`必须只包含可打印的ASCII字符。 如果未在此请求的主目录中定义本地化映射，则忽略。 如果指定了空或无效的`locId`并且在`attribute::DefaultLocale`中未定义默认规则，则返回错误。
 
 ## 默认 {#section-9699fbc26de6453e9029e0003c79a7ef}
 
-`attribute::DefaultLocale` 当未指定locale=时使用。
+未指定locale=时使用`attribute::DefaultLocale`。
 
 ## 另请参阅 {#section-28a586d43ac4429d98e318a580c92af4}
 

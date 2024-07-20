@@ -1,18 +1,18 @@
 ---
 description: 获取公司资产的原始文件路径。
 solution: Experience Manager
-title: getOriginalFilePath
+title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
-# getOriginalFilePath{#getoriginalfilepaths}
+# getOriginalFilePaths{#getoriginalfilepaths}
 
 获取公司资产的原始文件路径。
 
@@ -49,7 +49,7 @@ ht-degree: 16%
 
 ## 示例 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-此代码示例返回在资产句柄数组中通过唯一资产句柄指定的资产的文件路径。
+此代码示例返回在资产句柄数组中使用唯一资产句柄指定的资产的文件路径。
 
 **请求**
 

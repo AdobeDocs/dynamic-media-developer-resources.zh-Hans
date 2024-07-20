@@ -8,7 +8,7 @@ exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 14%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">用户句柄</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>处理要添加组成员资格的用户。 </p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 14%
 
 **输出(addGroupMembershipParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 

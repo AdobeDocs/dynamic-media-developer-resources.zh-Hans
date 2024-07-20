@@ -1,20 +1,20 @@
 ---
 title: 内容
-description: 安装后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
+description: 安装之后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
 # 内容{#contents}
 
-安装后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
+安装之后，install_root中的文件夹层次结构包括下面列出的文件和文件夹。
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 2%
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>安装根目录 </p> </th> 
+   <th colname="col1" class="entry"> <p>安装根 </p> </th> 
    <th colname="col2" class="entry"> <p> </p> </th> 
    <th colname="col3" class="entry"> <p> </p> </th> 
    <th colname="col4" class="entry"> <p>说明 </p> </th> 
@@ -31,7 +31,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> 许可证 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath">许可证</span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Linux®的License files文件夹。 </p> </td> 
@@ -44,13 +44,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 备份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">备份/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>图像服务配置文件备份以前安装。 </p> </td> 
+   <td colname="col4"> <p>图像服务配置文件以前安装的备份。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 纸盒/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> bin/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -58,7 +58,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh (.bat) </span> </p> </td> 
-   <td colname="col4"> <p>用于启动和停止图像服务的脚本。 </p> </td> 
+   <td colname="col4"> <p>用于启动和停止图像提供的脚本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -69,7 +69,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">集成电路(.exe) </span> </p> </td> 
    <td colname="col4"> <p>图像服务图像转换器实用程序。 </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 验证(.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">验证(.exe) </span> </p> </td> 
    <td colname="col4"> <p>图像服务图像验证实用程序。 </p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 缓存/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">缓存/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>数据缓存文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
@@ -100,13 +100,13 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>PS将编译后的目录数据保存在此处。 </p> </td> 
+   <td colname="col4"> <p>PS将编译的目录数据保存在此处。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ir-catalog-bin/ </span> </p> </td> 
-   <td colname="col4"> <p>图像渲染在此处保存编译的目录数据。 </p> </td> 
+   <td colname="col4"> <p>图像渲染将编译的目录数据保存在此处。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -116,7 +116,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目录/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">目录/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>IS图像目录文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
@@ -130,11 +130,11 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是服务器正常工作所必需的。 </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span>是服务器正常工作所必需的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> conf/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">会议/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>服务器配置文件位于此处。 </p> </td> 
   </tr> 
@@ -142,19 +142,19 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-service.conf </span> </p> <p> <span class="filepath"> ImageServerRegistry.xml </span> </p> <p> <span class="filepath"> PlatformServer.conf </span> </p> <p> <span class="filepath"> server.xml </span> </p> <p> <span class="filepath"> SupervisorRegistry.xml </span> </p> </td> 
-   <td colname="col4"> <p>有关更多信息，请参阅文档。 </p> </td> 
+   <td colname="col4"> <p>有关详细信息，请参阅文档。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">默认字体/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>包含默认字体。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">默认配置文件/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>包含图像服务的默认配置文件。 </p> </td> 
+   <td colname="col4"> <p>包含用于图像服务的默认配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -164,55 +164,55 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 图像/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">图像/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>图像服务源数据文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 日志/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">日志/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>所有PS和IS日志数据都将写入此文件夹；请手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> access-*.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">访问 — *.log </span> </p> </td> 
    <td colname="col4"> <p>HTTP访问日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 图像服务器 — *.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> ImageServer-*.log </span> </p> </td> 
    <td colname="col4"> <p>图像服务调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 主管 — *.log </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath">主管 — *.log </span> </p> </td> 
    <td colname="col4"> <p>主管调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> trace-*.log </span> </p> </td> 
-   <td colname="col4"> <p>PS调试/错误日志。 </p> </td> 
+   <td colname="col4"> <p>ps调试/错误日志。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 自述.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> ReadMe.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">静态内容/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>静态内容数据源文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 工具/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">工具/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -229,20 +229,20 @@ ht-degree: 2%
    <td colname="col4"> <p>在此处部署Java™ Web应用程序（包括is-docs、ir-docs和is-viewer）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> 图像渲染/ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath">图像渲染/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>图像渲染安装根文件夹。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 备份/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">备份/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>以前安装的配置文件备份。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 目录/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">目录/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>图像渲染目录文件夹；可在安装时或通过手动编辑配置文件进行配置。 </p> </td> 
   </tr> 
@@ -262,17 +262,17 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 是服务器正常工作所必需的。 </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span>是服务器正常工作所必需的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">默认配置文件/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>包含图像渲染的默认配置文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 资源/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">资源/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>图像渲染源数据文件夹；手动编辑配置文件。 </p> </td> 
   </tr> 

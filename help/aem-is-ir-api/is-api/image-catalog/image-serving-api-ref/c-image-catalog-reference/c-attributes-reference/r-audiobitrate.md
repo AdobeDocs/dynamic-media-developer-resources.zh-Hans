@@ -1,5 +1,5 @@
 ---
-description: 音频比特率. 长值，表示视频资源的音频比特率。
+description: 音频比特率。 长值，表示视频资产的音频比特率。
 solution: Experience Manager
 title: 音频比特率
 feature: Dynamic Media Classic,SDK/API
@@ -8,15 +8,15 @@ exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 15%
+ht-degree: 6%
 
 ---
 
 # 音频比特率{#audiobitrate}
 
-音频比特率. 长值，表示视频资源的音频比特率。
+音频比特率。 长值，表示视频资产的音频比特率。
 
-使用者 `req=set` 和 `req=mbrSet`请求导出比特率数据。
+`req=set`和`req=mbrSet`请求用于导出比特率数据。
 
 仅适用于静态内容目录。
 

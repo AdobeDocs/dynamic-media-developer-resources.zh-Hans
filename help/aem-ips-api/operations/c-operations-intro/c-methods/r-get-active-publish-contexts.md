@@ -42,4 +42,4 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | 是 | 活动发布上下文的数组，其中可能包括发布上下文中的零个或多个值。 |
+| contextArray | `types:StringArray` | 是 | 活动发布上下文的数组，其中可能包括Publish上下文中的零个或多个值。 |

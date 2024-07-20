@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| PermissionsetHandle | `xsd:string` | 处理权限集。 |
-| permissionArray | `types:PermissionArray` | 一系列权限。 |
+| PermissionSetHandle | `xsd:string` | 处理权限集。 |
+| permissionArray | `types:PermissionArray` | 权限数组。 |

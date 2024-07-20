@@ -8,7 +8,7 @@ exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->用户必须具有对资源的读写访问权限。
+>用户必须具有资产的读写访问权限。
 
 ## 参数 {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
@@ -38,7 +38,7 @@ ht-degree: 22%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理包含要重命名的文件夹的公司。 |
-| folderHandle | `xsd:string` | 是 | 处理文件夹。 |
+| folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
 | 文件夹名称 | `xsd:string` | 是 | 新文件夹名称。 |
 
 **输出(renameFolderReturn)**
@@ -49,7 +49,7 @@ ht-degree: 22%
 
 ## 示例 {#section-98bdd2f88d164f488676e90aba1dc864}
 
-此代码示例将重命名文件夹。
+此代码示例可重命名文件夹。
 
 **请求**
 

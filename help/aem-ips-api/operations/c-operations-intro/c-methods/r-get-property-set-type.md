@@ -1,20 +1,20 @@
 ---
-description: 使用公司的句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有对该类型的句柄以及属性类型。
+description: 使用公司的句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型句柄以及属性类型。
 solution: Experience Manager
-title: getPropertySetType
+title: getPropertySettype
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
-# getPropertySetType{#getpropertysettype}
+# getPropertySettype{#getpropertysettype}
 
-使用公司的句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有对该类型的句柄以及属性类型。
+使用公司的句柄和属性集类型的名称获取属性集类型。 它获取一个类型结构，该结构具有类型句柄以及属性类型。
 
 语法
 
@@ -52,8 +52,8 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：属性集类型</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">类型</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：PropertySetType</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">包含下列项的类型结构： 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 

@@ -1,20 +1,20 @@
 ---
-description: 分配或更新项目中的资产。
+description: 分配或更新项目中的资源。
 solution: Experience Manager
-title: setprojectAssets
+title: setprojectassets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
-# setprojectAssets{#setprojectassets}
+# setprojectassets{#setprojectassets}
 
-分配或更新项目中的资产。
+分配或更新项目中的资源。
 
 语法
 
@@ -33,9 +33,9 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyName | `xsd:string` | 是 | 公司处理。 |
+| companyName | `xsd:string` | 是 | 公司句柄。 |
 | projectHandle | `xsd:string` | 是 | 项目句柄。 |
-| assetHandleArray | `types:HandleArray` | 是 | 要与项目关联的资源句柄数组。 |
+| assetHandleArray | `types:HandleArray` | 是 | 要与项目关联的资产句柄数组。 |
 
 **输出(setProjectAssetsReturn)**
 
@@ -45,7 +45,7 @@ ht-degree: 20%
 
 ## 示例 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-此代码示例将资产分配给项目。 该请求返回成功计数1。
+此代码示例可将资产分配给项目。 该请求返回成功计数1。
 
 **请求**
 

@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 其元数据设置失败的资源。 |
+| assetHandle | `xsd:string` | 未能成功设置其元数据的资源。 |
 | fieldHandle | `xsd:string` | 设置值失败的元数据字段的句柄。 |
 | 代码 | `xsd:int` | 错误代码。 |
 | 原因 | `xsd:string` | 错误描述（纯文本）。 |

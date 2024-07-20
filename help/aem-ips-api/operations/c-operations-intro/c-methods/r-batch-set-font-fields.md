@@ -1,18 +1,18 @@
 ---
 description: 设置字体元数据字段。
 solution: Experience Manager
-title: batchsetFontFields
+title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
-# batchsetFontFields{#batchsetfontfields}
+# batchSetFontFields{#batchsetfontfields}
 
 设置字体元数据字段。
 
@@ -38,10 +38,10 @@ ht-degree: 15%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 成功设置的字体字段数。 |
-| warningCount | `xsd:int` | 是 | 操作尝试设置字体字段时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 操作尝试设置字体字段时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试应用更新时这些资源会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成错误。 |
+| warningcount | `xsd:int` | 是 | 操作尝试设置字体字段时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试设置字体字段时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时这些资产会生成错误。 |
 
 ## 示例 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

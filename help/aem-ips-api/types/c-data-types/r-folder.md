@@ -27,5 +27,5 @@ ht-degree: 8%
 | lastModified | `xsd:dateTime` | 上次修改日期。 |
 | childLastModified | `xsd:dateTime` | 子文件夹和文件夹子资产的上次修改日期。 |
 | permissionsSetHandle | `xsd:string` | 文件夹权限句柄。 |
-| hasSubfolder | `types:Boolean` | 确定文件夹是否具有子文件夹。 |
+| hasSubfolder | `types:Boolean` | 确定文件夹是否包含子文件夹。 |
 | subfolderarray | `types:FolderArray` | 文件夹中的子文件夹数组。 |

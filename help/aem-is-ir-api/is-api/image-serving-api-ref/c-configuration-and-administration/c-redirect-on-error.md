@@ -29,9 +29,9 @@ ht-degree: 0%
 
 在其他任何情况下都不会发生错误重定向。
 
-启用并在处理请求期间发生此类错误时，主服务器将请求发送到辅助服务器进行处理。 无论响应指示成功还是失败，该响应随后都直接转发到客户端。 主服务器使用缓存标记此类转发请求的日志条目 `REMOTE`. 主服务器不会将响应数据缓存在本地。
+启用并在处理请求期间发生此类错误时，主服务器将请求发送到辅助服务器进行处理。 无论响应指示成功还是失败，该响应随后都直接转发到客户端。 主服务器使用缓存使用`REMOTE`标记此类转发请求的日志条目。 主服务器不会将响应数据缓存在本地。
 
-错误重定向通过设置启用 `PS::errorRedirect.rootUrl` 到从属服务器的HTTP域名和端口号。 此外，连接超时配置为 `PS::errorRedirect.connectTimeout` 在主服务器向客户端返回错误之前，等待从属服务器响应的最长时间，配置为 `PS::errorRedirect.socketTimeout`.
+通过将`PS::errorRedirect.rootUrl`设置为从属服务器的HTTP域名和端口号，启用错误重定向。 此外，连接超时配置为`PS::errorRedirect.connectTimeout`，而主服务器在向客户端返回错误之前等待辅助服务器响应的最长时间，配置为`PS::errorRedirect.socketTimeout`。
 
 >[!NOTE]
 >

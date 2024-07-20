@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 6%
 
 ---
 
@@ -37,50 +37,50 @@ ht-degree: 13%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">公司名称</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 元数据字段所属公司的名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 资产类型</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">资产类型</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 资源类型. </td> 
+   <td colname="col4"> 资源类型。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名称</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 正在创建的元数据字段的名称。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">元数据字段类型。 <p>元数据字段类型常量定义可用的类型。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>要创建的元数据字段的默认值(例如， <span class="codeph"> 场景7</span>)。 </p> <p>标记字段类型不支持默认值，必须省略。 如果为标记字段类型指定了非空默认值，则会返回错误。 </p> </td> 
+   <td colname="col4"> <p>要创建的元数据字段的默认值（例如，<span class="codeph">场景7</span>）。 </p> <p>标记字段类型不支持默认值，必须省略。 如果为标记字段类型指定了非空默认值，则会返回错误。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isForced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">是强制的</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则在中设置非法值时会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置非法值，则会引发错误。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTag值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 通过此选项可创建一组选定的标记可指向的共享特定值。 </td> 
   </tr> 
@@ -95,7 +95,7 @@ ht-degree: 13%
 
 ## 示例 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-此代码示例创建一个名为的字符串类型元数据字段 `createMetadataField`. 响应将返回新元数据字段的句柄。
+此代码示例创建一个名为`createMetadataField`的字符串类型元数据字段。 响应将返回新元数据字段的句柄。
 
 **请求**
 

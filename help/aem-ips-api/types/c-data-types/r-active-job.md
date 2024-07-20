@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -44,52 +44,52 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 处理公司。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">作业句柄</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 处理作业。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名称</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 作业的唯一名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 原始名称</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">的原始名称 <span class="codeph"> 活动作业</span> 随作业一起提交的类型。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">原始名称</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3">随作业提交的<span class="codeph"> ActiveJob</span>类型的原始名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">类型</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 系统返回的作业类型选择。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">状态</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 系统返回的活动作业状态选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 安排作业的用户的电子邮件地址。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>指定区域设置为 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是ISO-639指定的小写形式的双字母代码，而可选国家/地区代码是ISO-3166指定的大写形式的双字母代码。 例如， English (United States)的区域设置字符串将是： <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">区域设置</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3">作业日志详细信息和电子邮件本地化的区域设置。 <p>将区域设置指定为<span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>，其中语言代码是由ISO-639指定的小写形式的双字母代码，而可选的国家/地区代码是由ISO-3166指定的大写形式的双字母代码。 例如，英语（美国）的区域设置字符串应为： <span class="codeph"> en-US</span>。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 描述</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">最初指定的作业描述 <span class="codeph"> 提交作业</span>. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">描述</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3">最初在<span class="codeph"> submitJob</span>中指定的作业描述。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 运行作业的服务器的名称。 </td> 
   </tr> 
   <tr> 
@@ -99,17 +99,17 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 活动作业的总大小。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 进度</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">进度</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int</span> </td> 
    <td colname="col3"> 任务进度（即任务距离完成的距离）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int</span> </td> 
    <td colname="col3"> 描述作业进度的文本消息。 </td> 
   </tr> 
   <tr> 
@@ -119,58 +119,58 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：TaskProgressArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：TaskProgressArray</span> </td> 
    <td colname="col3"> 异步任务进度信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 图像服务发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ImageServingRenderJob</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：ImageServingRenderJob</span> </td> 
    <td colname="col3"> 图像渲染发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：VideoPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：VideoPublishJob</span> </td> 
    <td colname="col3"> 视频发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：ImageServingPublishJob</span> </td> 
    <td colname="col3"> 服务器目录发布作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：UploadUrlsJob</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：UploadUrlsJob</span> </td> 
    <td colname="col3"> 上载URL作业的作业详细信息。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：RipPdfJob</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdf作业</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：RipPdfJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImageJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：优化图像作业</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：OptimizeImagesJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssets作业</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ReprocessassetsJob</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：ReprocessAssetsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadpostjob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：UploadPostJob</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：UploadPostJob</span> </td> 
    <td colname="col3"> 作业详细信息，跟踪桌面上载。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上载的文件。 请参阅 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 导出作业</a>. </td> 
+   <td colname="col2"> <span class="codeph">类型：ExportJob</span> </td> 
+   <td colname="col3">允许授权导出以前上载的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">导出作业</a>。 </td> 
   </tr> 
  </tbody> 
 </table>

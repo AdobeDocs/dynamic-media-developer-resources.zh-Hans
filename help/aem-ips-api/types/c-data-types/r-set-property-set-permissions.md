@@ -21,4 +21,4 @@ ht-degree: 27%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | setHandle | `xsd:string` | 属性集的句柄。 |
-| permissionsArray | `types:PermissionUpdateArray` | 一系列权限。 |
+| permissionsArray | `types:PermissionUpdateArray` | 权限数组。 |

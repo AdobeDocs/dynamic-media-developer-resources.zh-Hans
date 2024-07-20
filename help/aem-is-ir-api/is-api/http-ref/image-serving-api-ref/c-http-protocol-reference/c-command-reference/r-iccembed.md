@@ -24,9 +24,9 @@ ht-degree: 3%
 
 ## 默认 {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`，以便在输出图像中不会嵌入ICC配置文件。 如果输出图像格式不支持嵌入ICC配置文件，则忽略。
+`iccEmbed=0`，用于在输出图像中不嵌入ICC配置文件。 如果输出图像格式不支持嵌入ICC配置文件，则忽略。
 
-请参阅 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) 以了解详细信息。
+有关详细信息，请参阅[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)。
 
 ## 另请参阅 {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

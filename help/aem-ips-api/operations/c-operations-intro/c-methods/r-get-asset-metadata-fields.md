@@ -1,18 +1,18 @@
 ---
 description: 返回按资源类型分组的所有元数据字段。
 solution: Experience Manager
-title: getassetmetadataFields
+title: getAssetMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
-# getassetmetadataFields{#getassetmetadatafields}
+# getAssetMetadataField{#getassetmetadatafields}
 
 返回按资源类型分组的所有元数据字段。
 

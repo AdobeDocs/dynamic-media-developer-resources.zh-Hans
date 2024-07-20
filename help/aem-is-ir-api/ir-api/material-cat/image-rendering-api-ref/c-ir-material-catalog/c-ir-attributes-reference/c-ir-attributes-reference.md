@@ -1,6 +1,6 @@
 ---
-title: 属性参考
-description: 除了目录RootId之外，所有目录属性都是可选的。 缺省目录属性文件(default.ini)中的所有属性都是必需的。
+title: 属性引用
+description: 除目录RootId之外，所有目录属性都是可选的。 缺省目录属性文件(default.ini)中的所有属性都是必需的。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# 属性参考{#attributes-reference}
+# 属性引用{#attributes-reference}
 
 除catalog：：RootId之外，所有目录属性都是可选的。 缺省目录属性文件(default.ini)中的所有属性都是必需的。

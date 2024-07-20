@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
-   <td> <p> 指定缩略图容器在组件区域中的内部水平对齐（定位）。 在ThumbnailGridView中，规定了内部缩略图容器的大小，因而只显示整数的缩略图。 因此，内部容器和外部组件边界之间存在一些边距。 此修饰符指定如何在组件内水平放置内部缩略图容器。 </p> </td> 
+   <td> <p> <span class="codeph">左|中|右</span> </p> </td> 
+   <td> <p> 指定缩略图容器在组件区域中内部水平对齐（定位）。 在ThumbnailGridView中，规定了内部缩略图容器的大小，因而只显示缩略图的总量。 因此，内部容器和外部组件边界之间存在一些边距。 此修饰符指定如何在组件内水平放置内部缩略图容器。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

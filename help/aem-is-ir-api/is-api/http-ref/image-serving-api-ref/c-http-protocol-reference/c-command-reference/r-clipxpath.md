@@ -31,11 +31,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-请参阅 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 以了解其他信息，包括 `*`pathName`*` 和 `*`pathDefinition`*`.
+请参阅[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)以获取其他信息，包括`*`pathName`*`和`*`pathDefinition`*`的说明。
 
 ## 属性 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-层属性。 应用到当前图层或复合图像，如果 `layer=comp`. 忽略条件 `clipPath=` 未指定。 被效果层忽略。
+层属性。 应用于当前图层或复合图像（如果`layer=comp`）。 如果未指定`clipPath=`，则忽略。 被效果层忽略。
 
 ## 默认 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

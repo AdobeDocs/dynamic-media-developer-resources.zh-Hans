@@ -1,5 +1,5 @@
 ---
-title: resMode
+title: 解析模式
 description: 重新取样模式。 选择重新取样和/或插值算法，用于将渲染的图像缩放到以wid=、hei=或scl=指定的大小。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-# resMode{#resmode}
+# 解析模式{#resmode}
 
-重新取样模式。 选择重新取样和/或插值算法，用于将渲染的图像缩放到指定的大小 `wid=`， `hei=`，或 `scl=`.
+重新取样模式。 选择重新取样和/或插值算法，以将渲染的图像缩放到通过`wid=`、`hei=`或`scl=`指定的大小。
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -22,26 +22,26 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>选择标准双线性插值。 最快的重新取样方法；某些锯齿伪影会相当明显。 </p> </td> 
+   <td colname="col2"> <p>选择标准的双线性插值。 最快的重新取样方法；某些锯齿伪影会相当明显。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>选择双三次插值。 比双线性插值占用更多CPU资源，但生成更锐利的图像，出现的锯齿伪像较少。 </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 比双线性插值占用更多的CPU资源，但生成更锐利的图像，出现的锯齿伪像较少。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 可能会产生比双三次方更锐利的结果，但CPU成本会更高。 </p> <p> <span class="codeph"> 锐化 </span> 已替换为 <span class="codeph"> sharp2 </span>（也称为Moiré）的锯齿伪像（锯齿伪像）产生的可能性较小。 </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph">锐化2 </span> </p> </td> 
+   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 可能会产生比双三次方更锐利的结果，但CPU成本会更高。 </p> <p> <span class="codeph"> sharp </span>已由<span class="codeph"> sharp2 </span>替换，该替换导致锯齿伪像（也称为Moiré）的可能性较小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 两次锐化 </span> </p> </td> 
-   <td colname="col2"> <p>选择 <span class="keyword"> Adobe Photoshop </span> 用于减小图像大小的默认重新取样器，在中称为“双三次锐化” <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">两次锐化</span> </p> </td> 
+   <td colname="col2"> <p>选择<span class="keyword">Adobe Photoshop </span>用于减小图像大小的默认重新取样器，在<span class="keyword"> Adobe Photoshop </span>中称为“双立方更锐化”。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 属性 {#section-ea7029f37e094d9cb85646b85fbac0ce}
 
-可能出现在请求中的任意位置。 如果未应用最终图像缩放，则忽略。
+可能出现在请求中的任何位置。 如果未应用最终图像缩放，则忽略。
 
 ## 默认 {#section-900872fb93dc41efb3e8ad5b62aadc38}
 

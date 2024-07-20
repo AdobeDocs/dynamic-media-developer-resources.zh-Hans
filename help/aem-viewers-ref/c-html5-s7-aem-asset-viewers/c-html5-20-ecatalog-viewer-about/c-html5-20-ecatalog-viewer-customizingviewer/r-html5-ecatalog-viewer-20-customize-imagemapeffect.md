@@ -1,24 +1,24 @@
 ---
 title: 图像映射效果
-description: 根据mode参数的值，查看器会在地图最初在Dynamic Media Classic中创作的位置的主视图上显示图像地图图标。 或者，它渲染与原始图像映射形状匹配的精确区域。
+description: 根据mode参数的值，查看器会在映射最初在Dynamic Media Classic中创作的位置的主视图上显示图像映射图标。 或者，它呈现与原始图像映射形状匹配的精确区域。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
 # 图像映射效果{#image-map-effect}
 
-根据mode参数的值，查看器会在地图最初在Dynamic Media Classic中创作的位置的主视图上显示图像地图图标。 或者，它渲染与原始图像映射形状匹配的精确区域。
+根据mode参数的值，查看器会在映射最初在Dynamic Media Classic中创作的位置的主视图上显示图像映射图标。 或者，它呈现与原始图像映射形状匹配的精确区域。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 图像映射图标的外观由以下CSS类选择器控制：
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此 `s7mapoverlay` 以前用于样式化图像映射图标的CSS类现已弃用；请使用 `s7icon` 而是。
+>以前用于设置图像映射图标样式的`s7mapoverlay` CSS类现已弃用；请改用`s7icon`。
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,19 +39,19 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>图像映射图标图稿。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>图像映射图标宽度（像素）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>图像映射图标高度（以像素为单位）。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,9 +59,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->图像映射图标支持 `state` 属性选择器，可用于将不同的外观应用到的 `default` 和 `active`.
+>图像映射图标支持`state`属性选择器，您可以使用它对`default`和`active`的图标状态应用不同的外观。
 
-示例 — 设置一个28 x 28像素的图像映射图标，该图标会为两种不同的图标状态分别显示不同的图像。
+示例 — 设置一个28 x 28像素的图像映射图标，该图标为两种不同的图标状态分别显示不同的图像。
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7icon { 
@@ -77,7 +77,7 @@ opacity: 1;
 }
 ```
 
-另请参阅 [图像映射支持](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+另请参阅[图像映射支持](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a)。
 
 图像映射区域的外观由以下CSS类选择器控制：
 
@@ -94,21 +94,21 @@ opacity: 1;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 背景 </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R、G、B)或RGBA(R、G、B、A)格式指定。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
+   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R，G，B)或RGBA(R，G，B，A)格式指定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R、G、B)或RGBA(R、G、B、A)格式指定。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 图像映射区域填充颜色。 </p> <p>以#RRGGBB、RGB(R，G，B)或RGBA(R，G，B，A)格式指定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为 <span class="codeph"> <span class="varname"> 宽度 </span> 实心 <span class="varname"> 颜色 </span> </span>，其中 <span class="codeph"> <span class="varname"> 宽度 </span> </span> 以像素表示，并且 <span class="codeph"> <span class="varname"> 颜色 </span> </span> #RRGGBB RGB(R，G，B)或RGBA(R，G，B，A)。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
+   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为<span class="codeph"> <span class="varname">宽度</span>纯色<span class="varname">颜色</span> </span>，其中<span class="codeph"> <span class="varname">宽度</span> </span>以像素表示，<span class="codeph"> <span class="varname">颜色</span> </span>设置为#RRGGBB，RGB(R，G，B)或RGBA(R，G，B，A)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 使用设置透明图像映射区域 `1` 像素黑边框：
+示例 — 设置具有`1`像素黑色边框的透明图像映射区域：
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 

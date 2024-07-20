@@ -1,5 +1,5 @@
 ---
-description: 非结构化命名的一组图像输出设置。
+description: 图像输出设置的非结构化命名集。
 solution: Experience Manager
 title: 图像格式
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageFormat]{#imageformat}
 
-非结构化命名的一组图像输出设置。
+图像输出设置的非结构化命名集。
 
 不是资源类型。
 

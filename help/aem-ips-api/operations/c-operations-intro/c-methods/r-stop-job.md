@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | jobHandle | `xsd:string` | 是 | 处理要停止的作业。 |
 
 **输出(stopJobReturn0**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-f7e07fa09ae24dc89685533f20ab3b81}
 

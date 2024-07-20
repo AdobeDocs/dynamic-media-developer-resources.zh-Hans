@@ -8,19 +8,19 @@ exl-id: 22fcbeb7-2377-4933-864f-ee434ec69ad0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
 # FavoritesEffect.expiration{#favoriteseffect-expiration}
 
-[!DNL ` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`天数`*`]
+[!DNL ` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`天`*`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 天数</span></span> </p> </td> 
-   <td colname="col2"> <p> 收藏夹集合在客户端系统上保留多少天后过期。 每次用户访问目录并对收藏夹进行更改（例如添加或删除）时，过期计时器都会重置。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">天</span></span> </p> </td> 
+   <td colname="col2"> <p> 收藏夹集合在过期前保留在客户端系统上的天数。 每次用户访问目录并对收藏夹进行更改（例如添加或删除）时，过期计时器都会重置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

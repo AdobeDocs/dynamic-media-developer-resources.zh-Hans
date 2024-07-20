@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 86f0802c-a53e-426d-9f64-21d8002b8b69
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ eCatalog查看器的JavaScript API参考
 
 `getComponent(componentId)`
 
-返回对查看器使用的查看器SDK组件的引用。 网页可以使用此方法来扩展或自定义开箱即用查看器的行为。 仅在以下情况下调用此方法： `initComplete` 查看器回调已运行，否则查看器逻辑可能尚未创建组件。
+返回对查看器使用的查看器SDK组件的引用。 网页可以使用此方法来扩展或自定义开箱即用查看器的行为。 仅在运行`initComplete`查看器回调后调用此方法，否则查看器逻辑可能尚未创建组件。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` 查看器使用的查看器SDK组件的ID。 此查看器支持以下组件ID：
+`*`componentID`*` - `{String}`查看器使用的查看器SDK组件的ID。 此查看器支持以下组件ID：
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,15 +33,15 @@ eCatalog查看器的JavaScript API参考
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 参数管理器 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 容器 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">容器</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">媒体集</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
@@ -53,15 +53,15 @@ eCatalog查看器的JavaScript API参考
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryControls </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">辅助控件</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 网格视图 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gridView </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.ThumbnailGridView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 目录 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">目录</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContents </span> </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ eCatalog查看器的JavaScript API参考
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetbutton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ eCatalog查看器的JavaScript API参考
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> thumbnailpagebutton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> thumbnailPageButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ThumbnailPageButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -129,11 +129,11 @@ eCatalog查看器的JavaScript API参考
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closebutton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">社交共享</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
@@ -149,31 +149,31 @@ eCatalog查看器的JavaScript API参考
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> emailShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">电子邮件共享</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> embedShare </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">嵌入共享</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 打印 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">打印</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下载 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下载</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 收藏夹效果 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">收藏夹效果</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesEffect </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 收藏夹视图 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">收藏夹视图</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 收藏夹菜单 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">收藏夹菜单</span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu </span> </p> </td> 
   </tr> 
   <tr> 
@@ -191,13 +191,13 @@ eCatalog查看器的JavaScript API参考
  </tbody> 
 </table>
 
-在使用SDK API时，请务必使用正确的完全限定的SDK命名空间，如中所述 [Viewer SDK命名空间](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+在使用SDK API时，请务必按照[Viewer SDK命名空间](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05)中的说明使用正确的完全限定的SDK命名空间。
 
-请参阅 *Viewer SDK API* 文档，以了解有关特定组件的更多信息。
+有关特定组件的更多信息，请参阅&#x200B;*Viewer SDK API*&#x200B;文档。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 对查看器SDK组件的引用。 方法返回 `null` 如果 `componentId` 不是支持的查看器组件，或者该组件尚未由查看器逻辑创建。
+`{Object}`对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`null`。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

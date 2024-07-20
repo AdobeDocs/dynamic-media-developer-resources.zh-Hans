@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandleArray | `type:HandleArray` | 是 | 用户句柄数组。 |
+| userHandleArray | `type:HandleArray` | 是 | 用户句柄的数组。 |
 
 ## 示例 {#section-aaa340dba6b64cce9bcd8303cf999166}
 

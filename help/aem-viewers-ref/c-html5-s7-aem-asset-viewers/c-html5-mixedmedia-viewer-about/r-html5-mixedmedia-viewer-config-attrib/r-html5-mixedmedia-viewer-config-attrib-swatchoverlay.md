@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>指定触屏设备上的查看器布局。 当参数设置为 <span class="codeph"> 1 </span>，查看器会在桌面上的主视图下方显示样本；在启用了触屏的设备上，样本会叠加在主视图上方。 </p> <p>当参数设置为 <span class="codeph"> 0 </span>，色板在所有设备类型上的主视图下呈现。 </p> </td> 
+   <td colname="col2"> <p>指定触屏设备上的查看器布局。 当参数设置为<span class="codeph"> 1 </span>时，查看器会在桌面上的主视图下方显示样本；在启用了触屏的设备上，样本会叠加在主视图上方。 </p> <p>当参数设置为<span class="codeph"> 0 </span>时，样本在所有设备类型上的主视图下呈现。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

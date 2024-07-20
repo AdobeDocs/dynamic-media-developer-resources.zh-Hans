@@ -1,18 +1,18 @@
 ---
 description: 设置ICC配置文件元数据字段。
 solution: Experience Manager
-title: batchsetIccProfileFields
+title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
-# batchsetIccProfileFields{#batchseticcprofilefields}
+# batchSetIccProfileFields{#batchseticcprofilefields}
 
 设置ICC配置文件元数据字段。
 
@@ -33,18 +33,18 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含ICC配置文件的公司的句柄。 |
-| 更新数组 | `xsd:string` | 是 | ICC配置文件更新的数组。 |
+| companyHandle | `xsd:string` | 是 | 对包含ICC配置文件的公司的处理。 |
+| 更新数组 | `xsd:string` | 是 | ICC配置文件更新数组。 |
 
 **输出(batchSetIccProfileFields)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 成功设置的ICC配置文件字段数。 |
-| warningCount | `xsd:int` | 是 | 当操作尝试设置ICC配置文件字段时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 操作尝试设置ICC配置文件字段时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试应用更新时这些资源会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成错误。 |
+| warningcount | `xsd:int` | 是 | 当操作尝试设置ICC配置文件字段时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试设置ICC配置文件字段时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时这些资产会生成错误。 |
 
 ## 示例 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

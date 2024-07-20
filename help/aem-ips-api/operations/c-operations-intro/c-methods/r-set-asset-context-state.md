@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -46,13 +46,13 @@ ht-degree: 11%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 已成功更改资源数。 |
-| warningCount | `xsd:int` | 是 | 操作尝试修改资源时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 操作尝试修改资源时生成的错误数。 |
+| warningcount | `xsd:int` | 是 | 操作尝试修改资源时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试修改资源时生成的错误数。 |
 | warningDetailArray | `types:AssetOperationFaultArray` | 否 | 操作尝试修改资源时资源生成的错误数组。 |
 
 ## 示例 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-此代码示例使用以下方式设置资源的发布状态 `NotMarkedForPublish`.
+此代码示例使用`NotMarkedForPublish`设置资源的发布状态。
 
 **请求**
 

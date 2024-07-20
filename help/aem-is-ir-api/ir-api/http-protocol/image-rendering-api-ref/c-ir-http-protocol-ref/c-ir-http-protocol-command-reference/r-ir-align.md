@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '186'
 ht-degree: 3%
 
 ---
@@ -33,17 +33,17 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3..6 </p></td> 
-  <td class="stentry"> <p>用户定义的来源。 </p></td> 
+  <td class="stentry"> <p>用户定义的源。 </p></td> 
  </tr> 
 </table>
 
-渲染器将纹理应用于对象，以便纹理锚点( `anchor=`)与指定的原点重合。
+渲染器将纹理应用于对象，以便纹理锚点(`anchor=`)与指定的原点重合。
 
-每个对象最多可定义六个原点(0、1、3、4、5、6)。 如果 `align` 指定了value，但晕影对象未定义对应的原点，将使用默认(center-match)原点。
+每个对象最多可定义六个原点(0、1、3、4、5、6)。 如果指定了`align`值，但晕影对象未定义对应的原点，则使用默认（中心匹配）原点。
 
-`align=2` 指定随机纹理对齐，在这种情况下 `anchor=` 实际上被忽略了。
+`align=2`指定随机纹理对齐，在这种情况下`anchor=`将被有效忽略。
 
-主要用于装饰材料，可能用于服装织物，以管理相邻物体之间的纹理对齐。
+主要用于装饰材料，可能用于服装织物，以管理相邻对象之间的纹理对齐。
 
 ## 属性 {#section-350fadc87dcf4812a8a02d1c3d6697a0}
 
@@ -51,8 +51,8 @@ ht-degree: 3%
 
 ## 默认 {#section-3231c2854bae4477836b626ac208dd34}
 
-`catalog::Alignment`，如果材料基于目录条目，则值为0（居中匹配）。
+如果材料基于目录条目，则为`catalog::Alignment`，否则为0（居中对齐）。
 
 ## 另请参阅 {#section-945d1ce275df487d9d564d4043156c79}
 
-[catalog：：Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ， [锚点=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[目录：：Alignment](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ， [锚点=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

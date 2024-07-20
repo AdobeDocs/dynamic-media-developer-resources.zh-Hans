@@ -8,7 +8,7 @@ exl-id: 30762700-6d69-4299-9492-57893232abe1
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 3%
 
 旋转查看器支持开箱即用的Adobe Analytics跟踪。
 
-要启用跟踪，请将相应的公司预设名称传递为 `config2` 参数。
+要启用跟踪，请将适当的公司预设名称作为`config2`参数传递。
 
 查看器还会向配置的图像服务器发送一个跟踪HTTP请求，其中包含查看器类型和版本信息。
 
 ## 自定义跟踪 {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-要与第三方分析系统集成，必须监听 `trackEvent` 查看器回调并处理 `eventInfo` 回调函数的参数（如有必要）。 以下代码是此类处理程序函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的示例：
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +61,23 @@ var spinViewer = new s7viewers.SpinViewer({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">加载</span> </p> </td> 
    <td colname="col2"> <p>首先加载查看器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>在查看器中使用交换资产 <span class="codeph"> setAsset() </span> API。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">交换</span> </p> </td> 
+   <td colname="col2"> <p>在查看器中使用<span class="codeph"> setAsset() </span> API交换资源。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 缩放 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">缩放</span> </p> </td> 
    <td colname="col2"> <p> 缩放图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 平移 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">平移</span> </p> </td> 
    <td colname="col2"> <p>图像被平移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 旋转 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">旋转</span> </p> </td> 
    <td colname="col2"> <p> 执行旋转。 </p> </td> 
   </tr> 
  </tbody> 

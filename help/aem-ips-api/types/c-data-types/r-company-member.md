@@ -8,7 +8,7 @@ exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 17%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 用户 | `types:User` | 使用者名稱. |
+| 用户 | `types:User` | 用户名。 |
 | 角色 | `xsd:string` | 用户对其所属的每个公司具有的角色。 |
 | isActive | `xsd:boolean` | 设置用户所属每个公司的状态。 |

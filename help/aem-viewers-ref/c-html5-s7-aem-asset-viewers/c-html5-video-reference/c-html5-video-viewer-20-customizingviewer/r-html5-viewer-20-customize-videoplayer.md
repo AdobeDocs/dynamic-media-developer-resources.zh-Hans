@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -26,18 +26,18 @@ ht-degree: 1%
 .s7videoviewer .s7videoplayer
 ```
 
-**视频播放器的CSS属性**
+视频播放器的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如果系统无法播放视频，则显示的错误消息可能会被本地化。 参见 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 了解更多信息。
+如果系统无法播放视频，则显示的错误消息可能会被本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)。
 
 示例 — 将视频播放器大小设置为512 x 288像素的视频查看器。
 
@@ -47,32 +47,32 @@ background-color: transparent;
 }
 ```
 
-隐藏式字幕被放入视频播放器内的内部容器中。 该容器的位置由支持的WebVTT定位运算符控制。 题注文本本身位于该容器内，其样式由以下CSS类选择器控制：
+隐藏式字幕被放入视频播放器内的内部容器中。 该容器的位置由支持的WebVTT定位运算符控制。 标题文本本身位于该容器中，其样式由以下CSS类选择器控制：
 
 `. s7videoviewer .s7 videoplayer .s7caption`
 
-**隐藏式字幕的CSS属性**
+隐藏式字幕的&#x200B;**CSS属性**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>隐藏式字幕文本背景。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>隐藏式字幕文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体粗细</span> </p> </td> 
    <td colname="col2"> <p> 隐藏式字幕字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p> 隐藏式字幕字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>隐藏式字幕字体。 </p> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ background-color: transparent;
 .s7videoviewer .s7videoplayer .s7waiticon
 ```
 
-**等待图标的CSS属性**
+等待图标的&#x200B;**CSS属性**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -107,24 +107,24 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 动画图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 动画图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左边距</span> </p> </td> 
    <td colname="col2"> <p> 动画图标左边距，通常减去图标宽度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上边距</span> </p> </td> 
    <td colname="col2"> <p> 动画图标上边距，通常减去图标高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 旋钮图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
+   <td colname="col2"> <p> 旋钮艺术品。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

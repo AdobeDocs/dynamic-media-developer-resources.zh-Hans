@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，必须监听 `trackEvent` 查看器回调和处理 `eventInfo` 回调函数的参数（如有必要）。 以下代码是此类处理程序函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的示例：
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -48,12 +48,12 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK用户事件 </p> </th> 
-   <th colname="col2" class="entry"> <p>已发送... </p> </th> 
+   <th colname="col2" class="entry"> <p>已发送…… </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">加载</span> </p> </td> 
    <td colname="col2"> <p>首次加载查看器时。 </p> </td> 
   </tr> 
  </tbody> 

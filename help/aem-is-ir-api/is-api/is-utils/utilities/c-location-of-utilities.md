@@ -16,4 +16,4 @@ ht-degree: 0%
 
 图像服务包括三个实用程序。
 
-64位版本位于 [!DNL *`install_folder`*/bin64/].
+64位版本位于&#x200B;[!DNL *`install_folder`*/bin64/]中。

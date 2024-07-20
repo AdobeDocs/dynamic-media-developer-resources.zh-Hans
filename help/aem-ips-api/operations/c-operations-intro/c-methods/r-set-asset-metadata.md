@@ -8,7 +8,7 @@ exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 10%
 
 **输出(setAssetMetadataReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-此代码示例使用元数据更新数组来设置指定资源的元数据。
+此代码示例使用一系列元数据更新来设置指定资源的元数据。
 
 **请求**
 

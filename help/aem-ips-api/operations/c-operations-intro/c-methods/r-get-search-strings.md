@@ -8,7 +8,7 @@ exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 ## 示例 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-此代码示例返回特定于资产的搜索字符串。 响应返回空数组。
+此代码示例可返回特定于资产的搜索字符串。 响应返回空数组。
 
 **请求**
 

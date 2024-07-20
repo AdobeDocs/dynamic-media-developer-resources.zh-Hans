@@ -24,7 +24,7 @@ ht-degree: 8%
 |---|---|---|
 | logMessage | `xsd:string` | 作业日志中的消息。 |
 | logType | `xsd:string` | 作业日志文件类型。 |
-| assetName | `xsd:string` | 作业日志中的资源名称（可选）。 |
+| 资产名称 | `xsd:string` | 作业日志中的资源名称（可选）。 |
 | 资产类型 | `xsd:string` | 资源类型的选择。 |
-| assetHandle | `xsd:string` | 作业日志中引用的资源句柄。 |
+| assetHandle | `xsd:string` | 作业日志中引用的资产句柄。 |
 | 辅助阵列 | `types:JobLogDetailAuxArray` | 提供上述五种作业日志类型以外的其他详细作业日志信息。 |

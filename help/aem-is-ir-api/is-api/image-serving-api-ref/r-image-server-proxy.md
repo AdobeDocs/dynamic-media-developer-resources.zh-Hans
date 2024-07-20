@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## URL 格式 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS修饰符都会传递到图像服务器。 有关IS修饰符的信息，请参阅 [HTTP协议参考](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS修饰符都会传递到图像服务器。 您可以在[HTTP协议引用](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)中找到有关IS修饰符的信息。
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ IS代理的URL格式与常规IS请求非常相似。 传递给代理的任何IS�
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;数字&gt;</span> </p></td> 
   <td class="stentry"> <p>指定要用作图像宽度的设备可用宽度的百分比。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 海百分比= &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;数字&gt;</span> </p></td> 
   <td class="stentry"> <p>指定要用作图像高度的设备可用高度的百分比。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;数字&gt;</span> </p></td> 
   <td class="stentry"> <p>指定要将响应大小限制到的设备内存限制嵌入式媒体属性的百分比。 这仅适用于jpg响应。 图像质量会降低，直到响应大小在指定的百分比内。 </p></td> 
  </tr> 
 </table>

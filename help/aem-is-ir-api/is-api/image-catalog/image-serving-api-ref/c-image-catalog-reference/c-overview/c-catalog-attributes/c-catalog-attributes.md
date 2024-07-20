@@ -20,6 +20,6 @@ ht-degree: 0%
 * [请求属性](r-request-attributes.md)
 * [默认请求属性](r-default-request-attributes.md)
 * [颜色管理属性](r-color-management-attributes.md)
-* [通用缩略图属性](r-common-thumbnail-attributes.md)
+* [常用缩略图属性](r-common-thumbnail-attributes.md)
 * [目录字段的默认值](r-defaults-for-catalog-fields.md)
 * [视频属性](r-video-attributes.md)

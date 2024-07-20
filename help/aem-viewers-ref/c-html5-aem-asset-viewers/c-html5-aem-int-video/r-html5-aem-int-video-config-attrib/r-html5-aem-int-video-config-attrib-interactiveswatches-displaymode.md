@@ -21,8 +21,8 @@ ht-degree: 7%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 连续|区段</span> </p> </td> 
-   <td colname="col2"> <p> 使用缩略图连续填充交互式样本，而不考虑区段边界，或者允许空白空间记录区段边界。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">连续|区段</span> </p> </td> 
+   <td colname="col2"> <p> 使用缩略图连续填充交互式色板，而不考虑区段边界，或者允许空白空间记录区段边界。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 22%
+ht-degree: 11%
 
 ---
 
@@ -40,45 +40,45 @@ ht-degree: 22%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司处理。 </td> 
+   <td colname="col4"> 公司句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 元数据字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">名称</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 元数据字段名称。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultvalue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 元数据字段值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ishidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 隐藏或显示IPS系统特定的元数据。 </td> 
+   <td colname="col4"> 隐藏或公开IPS系统特定的元数据。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">是强制的</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在中设置非法值，则会引发错误 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>布尔标记，指示在设置值时是否强制（验证）元数据字段。 </p> <p>如果设置为true，则如果在<span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>中设置非法值，则会引发错误。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTag值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许您创建选定标记可以指向的一组共享枚举值。 </td> 
+   <td colname="col4"> 允许您创建选定标记可指向的一组共享枚举值。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ ht-degree: 22%
 
 ## 示例 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-此代码示例更新将新名称和默认值分配给元数据字段。 响应将返回更新字段的句柄。
+此代码示例更新将新名称和默认值分配给元数据字段。 响应会向更新的字段返回一个句柄。
 
 **请求**
 

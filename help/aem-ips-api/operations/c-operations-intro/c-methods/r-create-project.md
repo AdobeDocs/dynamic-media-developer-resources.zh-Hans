@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 ## 示例 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-此代码示例创建一个名为的项目 `ApiTestProject` 在由其句柄指定的公司中。 响应会将句柄返回到项目。
+此代码示例在由其句柄指定的公司中创建名为`ApiTestProject`的项目。 响应会将句柄返回到项目。
 
 **请求**
 

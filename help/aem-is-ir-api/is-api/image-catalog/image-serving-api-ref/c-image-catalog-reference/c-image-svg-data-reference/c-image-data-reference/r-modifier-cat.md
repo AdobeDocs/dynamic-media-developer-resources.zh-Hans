@@ -1,5 +1,5 @@
 ---
-description: 前缀请求修饰符字符串。 没有或多个图像服务命令以“&”字符分隔。
+description: 前缀请求修饰符字符串。 没有或更多以“&”字符分隔的图像服务命令。
 solution: Experience Manager
 title: 修饰符
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # 修饰符{#modifier}
 
-前缀请求修饰符字符串。 没有或多个图像服务命令以“&amp;”字符分隔。
+前缀请求修饰符字符串。 没有或更多以“&amp;”字符分隔的图像服务命令。
 
-用于持久修改图像和存储模板正文。
+用于持久修改图像并存储模板正文。
 
-此字段中的命令被引用此记录的请求或模板中的相同命令覆盖，并被中的命令覆盖 `catalog::PostModifier`
+此字段中的命令被引用此记录的请求或模板中的相同命令以及`catalog::PostModifier`中的命令覆盖
 
-中允许使用宏 `catalog::Modifier`，只要它们是在同一目录或默认目录中定义的。 也可以使用自定义变量。
+`catalog::Modifier`中允许使用宏，只要这些宏是在同一目录或默认目录中定义的。 也可以使用自定义变量。
 
 ## 属性 {#section-6674388f77d644469371a17e8809c45f}
 

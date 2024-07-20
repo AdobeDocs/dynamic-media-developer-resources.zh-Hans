@@ -20,12 +20,12 @@ ht-degree: 2%
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>打印分辨率(dpi)。 </p></td> 
  </tr> 
 </table>
 
-打印分辨率通常由定义 `catalog::PrintResolution` 如果它是目录条目，否则按源图像中嵌入的打印分辨率值指定。 如果存在模板或分层复合图像，则响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
+如果打印分辨率是目录条目，则它通常由`catalog::PrintResolution`定义，否则由源图像中嵌入的打印分辨率值定义。 如果存在模板或分层复合图像，则响应文件中嵌入的默认打印分辨率是图层编号最低的图层图像的打印分辨率。
 
 设置打印分辨率不会更改回复图像的像素大小。
 

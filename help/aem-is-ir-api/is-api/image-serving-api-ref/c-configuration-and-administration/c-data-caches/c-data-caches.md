@@ -23,4 +23,4 @@ ht-degree: 6%
 
 ## 另请参阅 {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[服务器缓存](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)， [缓存集群](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[服务器缓存](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e)，[缓存群集](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)

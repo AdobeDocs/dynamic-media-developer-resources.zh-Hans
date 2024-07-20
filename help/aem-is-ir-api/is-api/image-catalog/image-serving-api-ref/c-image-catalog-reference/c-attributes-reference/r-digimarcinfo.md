@@ -14,17 +14,17 @@ ht-degree: 5%
 
 # DigimarcInfo{#digimarcinfo}
 
-默认Digimarc图像信息。 提供catalog：：DigimarcInfo的默认值。
+默认Digimarc图像信息。 为catalog：：DigimarcInfo提供默认值。
 
 ## 属性 {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 
 四个逗号分隔的整数。
 
-参见 [catalog：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) 了解详细信息。
+有关详细信息，请参阅[目录：：DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)。
 
 ## 默认 {#section-c77d2620f90148d5ad9041131180d611}
 
-继承自 `default::DigimarcInfo` 如果未指定该字段或该字段为空。
+如果未指定字段或字段为空，则从`default::DigimarcInfo`继承。
 
 ## 另请参阅 {#section-543464e27f0a43249860a883b1ebfa15}
 

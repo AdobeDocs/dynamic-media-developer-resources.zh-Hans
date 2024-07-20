@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 1%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 1%
 
 ## 属性 {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。 在应用操作之前，CMYK图像和图层将转换为RGB。
+图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。 在应用操作之前，CMYK图像和图层将转换为RGB。
 
 ## 默认 {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` 不会改变颜色。
+`op_colorbalance=0,0,0`表示颜色没有变化。
 
 ## 示例 {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
 将颜色平衡推向红色：
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '205'
+ht-degree: 5%
 
 ---
 
@@ -33,14 +33,14 @@ ht-degree: 8%
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>文本对齐 </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> 控制文本对齐方式。 </p> <p>默认为 <span class="codeph"> 中间</span>. </p> </td> 
+   <td colname="col3"> <p><span class="codeph">左|右|中|开始|结束</span> </p> </td> 
+   <td colname="col4"> <p> 控制文本对齐方式。 </p> <p>默认值为<span class="codeph">中间</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>文本位置 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 注解文本开头插入VideoPlayer组件的百分比。 </p> <p>默认值为0%。 </p> </td> 
+   <td colname="col4"> <p> 注解文本开头插入VideoPlayer组件中的百分比。 </p> <p>默认值为0%。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
@@ -52,7 +52,7 @@ ht-degree: 8%
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>行位置 </p> </td> 
    <td colname="col3"> <p> 0%-100%|整数 </p> </td> 
-   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果以整数形式表示（无百分比符号），则表示文本从顶部显示的行数。 </p> <p>如果它是一个百分比（百分比符号是最后一个字符），则题注文本在显示区域以该百分比显示。 </p> <p>默认值为100%。 </p> </td> 
+   <td colname="col4"> <p> 确定页面上的行位置。 </p> <p>如果以整数形式表示（无百分比符号），则它是文本显示位置上方的行数。 </p> <p>如果它是一个百分比（百分比符号是最后一个字符），则说明文本在显示区域以百分比向下显示。 </p> <p>默认值为100%。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +62,12 @@ ht-degree: 8%
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 文件</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">文件</span></span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT描述内容的URL或路径。 通过ImageServing提供WebVTT文件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 指定默认字幕状态(启用为 <span class="codeph"> 1</span>)。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> 指定默认字幕状态（启用为<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,18 +1,18 @@
 ---
 description: 删除缩放目标。
 solution: Experience Manager
-title: deleteZoomTarget
+title: Deletzoomtarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
-# deleteZoomTarget{#deletezoomtarget}
+# Deletzoomtarget{#deletezoomtarget}
 
 删除缩放目标。
 
@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有对资源的读写访问权限。
+>用户必须具有资产的读写访问权限。
 
 ## 参数 {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -40,11 +40,11 @@ ht-degree: 13%
 
 **输出(deleteZoomTargetParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-此代码示例从公司中删除缩放目标。
+此代码示例从公司删除缩放目标。
 
 **请求**
 

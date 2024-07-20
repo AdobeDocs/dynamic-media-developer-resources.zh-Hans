@@ -1,7 +1,7 @@
 ---
 description: 需要考虑几个服务器行为问题。
 solution: Experience Manager
-title: 有关服务器行为的注释
+title: 有关服务器行为的说明
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88bc0ff2-604d-4065-9a53-0884457f0e14
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 有关服务器行为的注释{#notes-on-server-behavior}
+# 有关服务器行为的说明{#notes-on-server-behavior}
 
 需要考虑几个服务器行为问题。
 

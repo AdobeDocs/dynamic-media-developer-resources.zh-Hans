@@ -22,5 +22,5 @@ CompanyMetadataInfo元素的数组。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 代码短语 | `Code Phrase` |  |
-| 代码短语 | `Code Phrase` |  |
+| 代码短语 | `Code Phrase` | |
+| 代码短语 | `Code Phrase` | |

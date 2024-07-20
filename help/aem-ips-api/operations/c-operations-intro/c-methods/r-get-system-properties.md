@@ -8,7 +8,7 @@ exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 ## 示例 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-此代码示例返回系统属性的数组。 响应因简短而被截断。
+此代码示例返回系统属性的数组。 为简短起见，响应被截断。
 
 **请求**
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -21,15 +21,15 @@ Video360 Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 无|渐隐</span> </p> </td> 
-   <td colname="col2"> <p> 指定用于显示或隐藏控件栏及其内容的效果类型。 </p> <p>使用 <span class="codeph"> 无</span> 立即显示和隐藏。 使用 <span class="codeph"> 渐隐</span> 提供逐渐淡入和淡出效果。 </p> <p>Internet Explorer 8不支持渐隐。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">无|渐隐</span> </p> </td> 
+   <td colname="col2"> <p> 指定用于显示或隐藏控件栏及其内容的效果类型。 </p> <p>使用<span class="codeph"> none</span>进行即时显示和隐藏。 使用<span class="codeph"> fade</span>提供逐渐淡入和淡出效果。 </p> <p>Internet Explorer 8不支持渐隐。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>指定从上次注册控制栏到隐藏时间控制栏之间的时间（以秒为单位）。 </p> <p> 如果设置为 <span class="codeph"> -1</span>时，组件永远不会触发其自动隐藏效果，并始终在屏幕上可见。 </p> </td> 
+   <td colname="col2"> <p>指定从上次注册控制栏到隐藏时间控制栏之间的时间（以秒为单位）。 </p> <p> 如果设置为<span class="codeph"> -1</span>，则组件永远不会触发其自动隐藏效果，并始终在屏幕上可见。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 持续时间</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">持续时间</span> </span> </p> </td> 
    <td colname="col2"> <p>设置淡入和淡出动画的持续时间（秒）。 </p> </td> 
   </tr> 
  </tbody> 

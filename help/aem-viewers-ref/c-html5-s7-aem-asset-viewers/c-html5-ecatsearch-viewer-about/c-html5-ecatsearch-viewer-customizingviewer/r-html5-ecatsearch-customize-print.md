@@ -24,42 +24,42 @@ ht-degree: 0%
 .s7ecatalogsearchviewer .s7print
 ```
 
-**打印按钮的CSS属性**
+打印按钮的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上边距</span> </p> </td> 
    <td colname="col2"> <p> 从控件栏顶部的偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左边距</span> </p> </td> 
    <td colname="col2"> <p> 与左侧的下一个按钮或控制栏左侧的距离（如果该按钮是行中的第一个按钮）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-按钮工具提示可以本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 设置一个28 x 28像素的打印按钮，并针对四种不同的按钮状态分别显示不同的图像。
 
@@ -90,16 +90,16 @@ background-image:url(images/v2/Print_dark_disabled.png);
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
 ```
 
-**背面叠加的CSS属性**
+背面叠加的&#x200B;**CSS属性**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p> 背景叠加不透明度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>背景叠加颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -125,11 +125,11 @@ background-image:url(images/v2/Print_dark_disabled.png);
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框半径</span> </p> </td> 
    <td colname="col2"> <p> 对话框边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 对话框背景颜色； </p> </td> 
   </tr> 
  </tbody> 
@@ -149,12 +149,12 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
 ```
 
-**对话框标题的CSS属性**
+对话框标头的&#x200B;**CSS属性**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p> 标题内容的内部边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -171,7 +171,7 @@ background-color: #dddddd;
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p> 标题图标和标题的内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -188,20 +188,20 @@ background-color: #dddddd;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>图标图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,19 +217,19 @@ background-color: #dddddd;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体粗细</span> </p> </td> 
    <td colname="col2"> <p>字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>字体高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>内部文本边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -246,41 +246,41 @@ background-color: #dddddd;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p> 相对于标题容器的垂直按钮位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p> 相对于标题容器的水平按钮位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>按钮的内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>每个状态的按钮图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
-可以本地化“关闭”按钮工具提示和对话框标题。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+可以本地化“关闭”按钮工具提示和对话框标题。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 要设置带内边距的对话框标题，请设置22 x 22像素图标和粗体16点标题。 最后，一个28 x 28像素的“关闭”按钮将对话框容器顶部的2个像素和右侧的2个像素放置在一起：
 
@@ -333,7 +333,7 @@ background-color: #dddddd;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p> 可用于在视觉上分隔页脚和对话框其余部分的边框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +350,7 @@ background-color: #dddddd;
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p> 页脚和按钮之间的内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -362,24 +362,24 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**对话框取消按钮的CSS属性**
+对话框取消按钮的&#x200B;**CSS属性**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
 使用以下CSS类选择器控制“发送到打印”按钮：
 
@@ -395,24 +395,24 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogactionbutton
 ```
 
-**对话框操作按钮的CSS属性**
+对话框操作按钮的&#x200B;**CSS属性**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 每个状态的按钮背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
 此外，这两个按钮共享公用的CSS类，该类可以包含与其他对话框按钮相同的CSS设置：
 
@@ -428,38 +428,38 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
 ```
 
-**按钮的CSS属性**
+按钮的&#x200B;**CSS属性**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体粗细</span> </p> </td> 
    <td colname="col2"> <p>按钮字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>按钮字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>按钮字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">行高</span> </p> </td> 
    <td colname="col2"> <p> 按钮内的文本高度。 影响垂直对齐。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 盒阴影 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">盒阴影</span> </p> </td> 
    <td colname="col2"> <p>投影。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右边距</span> </p> </td> 
    <td colname="col2"> <p>右按钮边距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 要设置一个对话框页脚，其中具有64 x 34 “取消”按钮和96 x 34 “发送到打印”按钮，并且每个按钮状态的文本颜色和背景颜色不同：
 
@@ -532,15 +532,15 @@ background-color: #dddddd;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 高度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 主对话框区域的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>主对话框区域的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
    <td colname="col2"> <p>外边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -567,7 +567,7 @@ background-color: #dddddd;
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -587,12 +587,12 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**对话框行的CSS属性**
+对话框行&#x200B;**的** CSS属性
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -612,16 +612,16 @@ background-color: #dddddd;
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
 ```
 
-**对话框输入宽度的CSS属性**
+对话框输入宽度的&#x200B;**CSS属性**
 
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>块宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -649,25 +649,25 @@ background-color: #dddddd;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体粗细</span> </p> </td> 
    <td colname="col2"> <p>标签字体粗细。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>标签字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>标签字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>标签文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-可以本地化对话框标签。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+可以本地化对话框标签。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 要将所有标签设置为灰色、粗体、九像素字体：
 
@@ -685,12 +685,12 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**对话框输入容器的CSS属性**
+对话框输入容器的&#x200B;**CSS属性**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左内边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左内边距</span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -710,16 +710,16 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption
 ```
 
-**对话框选项的CSS属性**
+对话框选项的&#x200B;**CSS属性**
 
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 带有标题的单选按钮的总宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 颜色 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p>题注文本颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -731,12 +731,12 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
 ```
 
-**对话框选项输入的CSS属性**
+对话框选项输入的&#x200B;**CSS属性**
 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右边距</span> </p> </td> 
    <td colname="col2"> <p> 单选按钮及其标题之间的间距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -748,16 +748,16 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**对话框打印范围的CSS属性**
+对话框打印范围的&#x200B;**CSS属性**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 数字选取器的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
    <td colname="col2"> <p> 数字选取器周围的间距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -787,24 +787,24 @@ background-color: #dddddd;
 .s7printdialog .s7horizontaldivider
 ```
 
-**水平分隔线的CSS属性**
+水平分隔线的&#x200B;**CSS属性**
 
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边框 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p> 分隔线周围的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p>内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 宽度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>分隔线宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
    <td colname="col2"> <p>外边距 </p> </td> 
   </tr> 
  </tbody> 

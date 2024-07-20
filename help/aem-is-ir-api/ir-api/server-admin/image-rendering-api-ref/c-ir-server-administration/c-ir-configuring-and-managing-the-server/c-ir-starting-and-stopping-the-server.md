@@ -1,5 +1,5 @@
 ---
-description: 图像渲染嵌入到图像服务的图像服务器和 [!DNL Platform Server] 组件。
+description: 图像渲染嵌入到图像服务的图像服务器和 [!DNL Platform Server] 组件中。
 solution: Experience Manager
 title: 启动和停止服务器
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 启动和停止服务器{#starting-and-stopping-the-server}
 
-图像渲染嵌入到图像服务的图像服务器和 [!DNL Platform Server] 组件。
+图像渲染已嵌入到图像服务的图像服务器和[!DNL Platform Server]组件中。
 
 有关更多信息，请参阅图像服务文档。

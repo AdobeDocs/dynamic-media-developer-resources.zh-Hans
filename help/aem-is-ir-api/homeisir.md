@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # AdobeDynamic Media图像服务和图像渲染API主页{#adobe-scene-image-serving-and-image-rendering-api-home}
 
-本文档包含有关图像服务和图像渲染API以及相关技术的信息。 如果您使用Dynamic Media Classic与AEM的集成，则应该参阅此API的图像服务部分。
+本文档包含有关图像服务和图像渲染API以及相关技术的信息。 如果您处理Dynamic Media Classic与AEM的集成，则应该参考此API的图像服务部分。

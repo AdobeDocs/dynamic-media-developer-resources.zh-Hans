@@ -20,9 +20,9 @@ ht-degree: 8%
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-派生资源指定用于修改所有者图像表示法的图像服务器协议命令。 此 `AdjustedView` 派生类型有助于将简单的修改应用于单个图像（例如，通过指定裁切矩形），而 `LayerView` 帮助创建可能包含文本或其他图像的多层视图。
+派生资源指定用于修改所有者图像表示法的图像服务器协议命令。 `AdjustedView`派生类型有助于将简单的修改应用于单个图像（例如，通过指定裁切矩形），而`LayerView`可帮助创建可能包含文本或其他图像的多层视图。
 
-与图像副本不同(请参阅 [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0))，则派生图像将链接到其所有者图像。 更改所有者图像会修改关联的派生资源。 删除所有者映像将删除任何关联的派生映像。
+与图像副本（请参阅[copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)）不同，派生图像已链接到其所有者图像。 更改所有者图像会修改关联的派生资源。 删除所有者映像将删除任何关联的派生映像。
 
 ## 授权用户类型 {#authorized-user-types}
 
@@ -43,9 +43,9 @@ ht-degree: 8%
 | ownerHandle | `xsd:string` | 是 | 从中派生新图像的主图像资源的句柄。 |
 | folderHandle | `xsd:string` | 是 | 在其中创建新派生资源的文件夹的句柄。 |
 | 名称 | `xsd:string` | 是 | 派生资源的名称。 |
-| 类型 | `xsd:string` | 是 | 新派生资源的资源类型： `AdjustedView` 或 `LayerView`. |
-| urlModifier | `xsd:string` | 否 | 应用的图像服务或图像渲染协议命令 *早于* 请求或 `urlPostApplyModifier` 命令。 |
-| urlPostApplyModifier | `xsd:string` | 否 | 应用的图像服务或图像渲染协议命令 *之后* 请求或 `urlPostApplyModifier` 命令。 |
+| 类型 | `xsd:string` | 是 | 新派生资源的资源类型： `AdjustedView`或`LayerView`。 |
+| urlModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*请求或`urlPostApplyModifier`命令之前应用了*&#x200B;个。 |
+| urlPostApplyModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*之后*&#x200B;应用于请求或`urlPostApplyModifier`命令。 |
 
 **输出(createDerivedAssetParam)**
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 ## 示例 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-示例代码创建一个派生资产，该资产具有经过调整的视图，并且 `urlModifier` 和 `urlPostApplyModifier` 具有任意值。 响应会将句柄返回到新派生的资产。
+示例代码创建一个派生资源，该资源具有已调整的视图以及具有任意值的`urlModifier`和`urlPostApplyModifier`。 响应会将句柄返回到新派生的资产。
 
 **请求**
 

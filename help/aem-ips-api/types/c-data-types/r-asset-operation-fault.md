@@ -1,5 +1,5 @@
 ---
-title: AssetOperationFault
+title: 资产操作出错
 description: 包含有关在批处理资源操作期间生成的警告或错误条件的信息。 代码和原因字段对应于因等效的非批处理操作而引发的错误消息字段。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 失败操作的资产句柄。 |
+| assetHandle | `xsd:string` | 失败的操作的资产句柄。 |
 | 代码 | `xsd:int` | 操作错误代码。 |
 | 原因 | `xsd:string` | 错误描述或原因。 |

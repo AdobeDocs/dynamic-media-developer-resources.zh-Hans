@@ -18,7 +18,7 @@ ht-degree: 21%
 
 语法
 
-## 故障类型 {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
+## 错误类型 {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
 
 | ID | 故障 |
 |---|---|

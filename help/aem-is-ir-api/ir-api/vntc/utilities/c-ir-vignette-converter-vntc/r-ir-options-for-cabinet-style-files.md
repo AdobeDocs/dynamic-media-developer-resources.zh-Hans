@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> — 分辨率<span class="varname"> val</span></span> </p> </td> 
   <td class="stentry"> <p>指定CAB样式文件的目标分辨率。 以像素/英寸为单位的真实值。 如果未指定，则生产文件柜样式文件与源文件具有相同的分辨率。 </p></td> 
  </tr> 
 </table>

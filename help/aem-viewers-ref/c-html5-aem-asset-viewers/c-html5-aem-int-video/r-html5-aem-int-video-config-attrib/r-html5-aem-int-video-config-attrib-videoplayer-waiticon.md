@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0495aaa5-7c5e-4f56-a96c-80ebc5de3aec
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 14%
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 启用或禁用缓冲动画（等待图标）显示。 </p> </td> 
   </tr> 
  </tbody> 

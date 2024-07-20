@@ -8,7 +8,7 @@ exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 13%
 
 斜体标志。
 
-指定在RTF斜体请求时是否应使用此字体映射记录引用的字体文件( `\i`)命令。
+指定在RTF斜体(`\i`)命令请求时是否应使用此字体映射记录引用的字体文件。
 
 ## 属性 {#section-607e76490e87418496d1c6763018a14f}
 
-标记. 字体映射的可选第三索引键。
+标志。 字体映射的可选第三索引键。
 
 ## 默认 {#section-0b88057d00ce4160929c23fbf138b309}
 

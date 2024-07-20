@@ -18,20 +18,20 @@ ht-degree: 0%
 
 ## IS：：RootPath — 图像数据根文件夹 {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-所有源数据（包括图像、字体和ICC配置文件）的位置。 这可以是相对于的一个或多个绝对文件路径或路径 *[!DNL install_folder]*，以分号分隔。 如果为空， *[!DNL install_folder]* 是默认根。 可以指定多个值以跨多个文件系统分发图像数据。 图像服务器将按指定的顺序尝试根路径，直到找到所请求的文件为止。
+所有源数据（包括图像、字体和ICC配置文件）的位置。 这可以是相对于&#x200B;*[!DNL install_folder]*&#x200B;的一个或多个绝对文件路径或路径，用分号分隔。 如果为空，*[!DNL install_folder]*&#x200B;为默认根。 可以指定多个值以跨多个文件系统分发图像数据。 图像服务器将按指定的顺序尝试根路径，直到找到所请求的文件为止。
 
 ## ps：：staticContent.rootPath — 静态内容数据根文件夹 {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-拟通过 [!DNL /is/static] 上下文。 可以是相对于的一个或多个绝对文件路径或路径 *[!DNL install_folder]*，以分号分隔。 如果为空， *[!DNL install_folder]* 是默认根。
+要通过[!DNL /is/static]上下文传递的静态内容源数据的位置。 可以是相对于&#x200B;*[!DNL install_folder]*&#x200B;的一个或多个绝对文件路径或路径，用分号分隔。 如果为空，*[!DNL install_folder]*&#x200B;为默认根。
 
-可以指定多个值（用分号分隔），以跨多个文件系统分发静态内容。 通常设置为与相同的值 `IS::RootPath`.
+可以指定多个值（用分号分隔），以跨多个文件系统分发静态内容。 通常设置为与`IS::RootPath`相同的值。
 
-此 [!DNL Platform Server] 按指定的顺序尝试根路径，直到找到请求的文件为止。
+[!DNL Platform Server]将按指定的顺序尝试根路径，直到找到所请求的文件为止。
 
 >[!NOTE]
 >
->默认情况下，此字段有意设置为不存在的位置([！DNL) *[!DNL install_folder]*/static])，有效地禁用静态内容服务。
+>默认情况下，此字段有意设置为不存在的位置([！DNL *[!DNL install_folder]*/static])，从而有效地禁用静态内容服务。
 
 ## IS：：SaveDirectory — 文件保存根文件夹 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-的根路径 `attribute::SavePath` (使用者 `req=saveToFile`)。 图像服务器必须对其创建图像文件的子文件夹具有创建访问权限。
+`attribute::SavePath`的根路径（由`req=saveToFile`使用）。 图像服务器必须对其创建图像文件的子文件夹具有创建访问权限。

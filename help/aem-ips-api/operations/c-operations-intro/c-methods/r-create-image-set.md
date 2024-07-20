@@ -1,18 +1,18 @@
 ---
 description: 创建图像集。
 solution: Experience Manager
-title: createImageSet
+title: createImageset
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
-# createImageSet{#createimageset}
+# createImageset{#createimageset}
 
 创建图像集。
 
@@ -41,7 +41,7 @@ ht-degree: 15%
 | folderHandle | `xsd:string` | 是 | 文件夹的句柄。 |
 | 名称 | `xsd:string` | 是 | 图像集名称。 |
 | 类型 | `xsd:string` | 是 | 图像集类型。 |
-| thumbAssetHandle | `xsd:string` | 否 | 充当新图像集缩略图的资源的句柄。 如果未指定，则IPS会尝试使用集合引用的第一个图像资产。 |
+| thumbAssetHandle | `xsd:string` | 否 | 充当新图像集缩略图的资产句柄。 如果未指定，则IPS会尝试使用集合引用的第一个图像资产。 |
 
 **输出**
 

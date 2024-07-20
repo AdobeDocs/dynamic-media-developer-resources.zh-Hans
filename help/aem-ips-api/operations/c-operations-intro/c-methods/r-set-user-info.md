@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 | 名字 | `xsd:string` | 是 | 名字。 |
 | 姓氏 | `xsd:string` | 是 | 姓氏。 |
 | 电子邮件 | `xsd:string` | 是 | 用户电子邮件。 |
-| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意 `IpsAdmin` 角色将覆盖其他按公司划分的设置。 |
+| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但请注意，`IpsAdmin`角色将覆盖其他按公司划分的设置。 |
 | passwordExpires | `xsd:dateTime` | 否 | 设置的密码过期日期。 |
 | isValid | `xsd:boolean` | 是 | 确定用户是否为有效的IPS用户。 |
 | membershipArray | `types:CompanyMembershipUpdateArray` | 是 | 公司句柄数组。 |

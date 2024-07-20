@@ -1,5 +1,5 @@
 ---
-description: 使用本节中的信息配置和管理图像服务器。
+description: 使用此部分中的信息配置和管理图像服务器。
 solution: Experience Manager
 title: 配置和管理
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 配置和管理{#configuration-and-administration}
 
-使用本节中的信息配置和管理图像服务器。
+使用此部分中的信息配置和管理图像服务器。
 
 * [服务器配置文件](r-server-configuration-files/r-server-configuration-files.md)
 * [数据缓存](c-data-caches/c-data-caches.md)

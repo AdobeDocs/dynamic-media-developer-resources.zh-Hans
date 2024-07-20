@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 查看区域的外观由以下CSS类选择器控制：
 
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 主视图的十六进制格式的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

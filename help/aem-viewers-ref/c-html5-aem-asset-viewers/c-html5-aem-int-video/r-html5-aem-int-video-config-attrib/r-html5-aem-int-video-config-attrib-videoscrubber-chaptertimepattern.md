@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93c1d38c-1f45-4794-8084-f520f9caf257
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 为章节标签的标题栏中显示的时间设置模式，其中 <span class="codeph"> h</span> 表示小时， <span class="codeph"> m</span> 表示分钟，并且 <span class="codeph"> s</span> 一秒钟。 </p> <p>用于每个时间单位的字母数决定了时间单位要显示的位数。 如果数字不符合指定的位数，则会在后续单位中显示对等值。 </p> <p>例如，如果当前的电影时间是67分5秒，则时间模式为 <span class="codeph"> m：ss</span> 显示为67:05。 相同时间显示为1:07:5(如果时间模式为 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> 为章节标签的标题栏中显示的时间设置模式，其中<span class="codeph"> h</span>表示小时，<span class="codeph"> m</span>表示分钟，<span class="codeph"> s</span>表示秒。 </p> <p>用于每个时间单位的字母数决定了时间单位显示的位数。 如果数字不符合指定的位数，则会在后续单元中显示对等值。 </p> <p>例如，如果当前的电影时间为67分5秒，则时间模式<span class="codeph"> m：ss</span>显示为67:05。 如果时间模式为<span class="codeph"> h:mm:s</span>，则相同的时间显示为1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

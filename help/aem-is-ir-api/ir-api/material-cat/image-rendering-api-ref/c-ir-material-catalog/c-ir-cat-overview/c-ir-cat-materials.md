@@ -16,4 +16,4 @@ ht-degree: 0%
 
 有关图像渲染使用的材质的信息，请参阅HTTP协议参考中的材质。
 
-参见 [材料](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).
+请参阅[材料](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f)。

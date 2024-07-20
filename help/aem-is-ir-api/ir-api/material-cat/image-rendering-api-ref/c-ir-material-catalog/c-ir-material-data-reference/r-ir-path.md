@@ -1,22 +1,22 @@
 ---
 description: 图像文件路径。 纹理或贴花图像文件的相对路径和名称。
 solution: Experience Manager
-title: 路径 *
+title: 路径*
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# 路径 *{#path}
+# 路径*{#path}
 
 图像文件路径。 纹理或贴花图像文件的相对路径和名称。
 
-服务器将此值与 `attribute::RootPath` 以构建实际图像文件路径。 也可以是绝对路径。
+服务器将此值与`attribute::RootPath`合并以生成实际的图像文件路径。 也可以是绝对路径。
 
 用于指定纹理、橱柜和窗口覆盖材料的纹理图像文件，以及贴花和墙壁边界材料的RGB或RGBA图像文件。 并非所有的机柜和窗户覆盖材料都需要单独的可重复纹理图像。
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[集成电路实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ， [属性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)， [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC实用程序](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ，[属性：：RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md)，[src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

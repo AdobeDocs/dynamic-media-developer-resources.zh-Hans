@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 # 服务器配置文件{#server-configuration-files}
 
-所有配置文件都位于 `install_folder/conf` 和对于大多数文本编辑器都是可编辑的。 重新启动服务器以使更改生效。
+所有配置文件都位于`install_folder/conf`中，并且可以用大多数文本编辑器进行编辑。 重新启动服务器以使更改生效。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th class="entry"> <b>配置文件</b> </th> 
-   <th class="entry"> <b>说明</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 配置. </p> </td> 
+   <td> <p>[!DNL Platform Server] 配置。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 

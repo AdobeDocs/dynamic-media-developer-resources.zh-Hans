@@ -16,16 +16,16 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-指定样本容器在组件区域中的内部对齐方式（定位）。 在样本中，规定了内部缩略图容器的大小，因而只显示样本的总量。 因此，内部容器和外部组件边界之间存在一些边距。 此命令指定如何在组件内放置内部样本容器。
+指定样本容器在组件区域中的内部对齐（定位）。 在样本中，规定了内部缩略图容器的大小，因而只显示样本的总量。 因此，内部容器与外部组件边界之间存在一些边距。 此命令指定如何在组件内放置内部样本容器。
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
+   <td> <p> <span class="codeph">左|中|右</span> </p> </td> 
    <td> <p> 设置水平样本的对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> 顶部|居中|底部</span> </p> </td> 
+   <td> <p><span class="codeph">顶部|居中|底部</span> </p> </td> 
    <td> <p> 设置垂直样本的对齐方式。 </p> </td> 
   </tr> 
  </tbody> 

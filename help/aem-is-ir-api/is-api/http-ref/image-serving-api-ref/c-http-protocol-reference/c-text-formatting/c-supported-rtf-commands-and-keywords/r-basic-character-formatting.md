@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \纯 </span> </td> 
+   <td> <span class="codeph"> \plain </span> </td> 
    <td> <p>将字符格式重置为默认设置。 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅此而已。 </p> </td> 
+   <td> <p> 仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
    <td> <p>字体。 </p> </td> 
-   <td> <p> <span class="codeph"> \fonttbl </span> 索引。 </p> </td> 
+   <td> <p> <span class="codeph"> \fonttbl </span>索引。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs <span class="varname"> N </span> </span> </td> 
-   <td> <p>字体大小. </p> </td> 
+   <td> <p>字体大小。 </p> </td> 
    <td> <p>半分；默认值为24。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf <span class="varname"> N </span> </span> </td> 
-   <td> <p>字体颜色. </p> </td> 
+   <td> <p>字体颜色。 </p> </td> 
    <td> <p>颜色表中从0开始的索引。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ ht-degree: 7%
   </tr> 
   <tr valign="top"> 
    <td> <span class="codeph"> \ul </span> </td> 
-   <td> <p>加下划线。 </p> </td> 
+   <td> <p>下划线。 </p> </td> 
    <td> <p>图像服务还识别以下RTF下划线命令： </p> <p> 
      <ul id="ul_EF2077DD51F94E2E94D8F1FA661F95DE"> 
       <li id="li_F9382148CCCC4A6AB373DD96D28B71EE"> <span class="codeph"> \uld </span> </li> 
@@ -78,7 +78,7 @@ ht-degree: 7%
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave </span> </li> 
-     </ul> </p> <p>这些功能目前作为标准实施 <span class="codeph"> \ul </span> 下划线。 忽略所有其他RTF下划线命令。 </p> </td> 
+     </ul> </p> <p>这些内容目前以标准<span class="codeph"> \ul </span>下划线形式实施。 忽略所有其他RTF下划线命令。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone </span> </td> 
@@ -93,12 +93,12 @@ ht-degree: 7%
   <tr> 
    <td> <span class="codeph"> \caps </span> </td> 
    <td> <p>大写字母 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅此而已。 </p> </td> 
+   <td> <p> 仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps </span> </td> 
-   <td> <p>小写（“小型大写字”） </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 仅此而已。 </p> </td> 
+   <td> <p>小写（“小型大写字母”） </p> </td> 
+   <td> <p> 仅<span class="codeph"> textPs= </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

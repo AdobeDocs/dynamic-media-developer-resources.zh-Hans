@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 13%
 
 **输出**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-此代码示例删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从另一个操作中获取该句柄。
+此代码示例删除正在运行或计划在IPS中运行的作业。 它需要一个作业句柄，您必须从另一个操作获取该句柄。
 
 **请求**
 

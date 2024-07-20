@@ -1,5 +1,5 @@
 ---
-description: layer=命令允许为层指定名称，然后按名称而不是层号引用同一层。
+description: layer=命令允许为图层指定名称，以后则按名称（而非图层编号）引用同一图层。
 solution: Experience Manager
 title: 命名图层
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 命名图层{#named-layers}
 
-layer=命令允许为层指定名称，然后按名称而不是层号引用同一层。
+layer=命令允许为图层指定名称，以后则按名称（而非图层编号）引用同一图层。
 
-这允许模板定义命名层，然后可以从请求URL引用这些命名层，而无需使用变量。
+这允许模板定义命名层，然后可以从请求URL引用这些层，而无需使用变量。

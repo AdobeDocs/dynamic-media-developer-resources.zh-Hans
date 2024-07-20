@@ -8,7 +8,7 @@ exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 45%
+ht-degree: 36%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 45%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 名称 | `xsd:string` | 屬性 名稱. |
+| 名称 | `xsd:string` | 属性名称。 |
 | 价值 | `xsd:string` | 属性值。 |

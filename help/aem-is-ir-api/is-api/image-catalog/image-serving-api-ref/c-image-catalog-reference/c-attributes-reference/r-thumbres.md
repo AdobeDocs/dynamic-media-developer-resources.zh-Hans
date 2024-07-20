@@ -16,15 +16,15 @@ ht-degree: 3%
 
 默认缩略图分辨率。 提供特定目录记录中不包含有效catalog：：ThumbRes值时的缩略图对象分辨率默认值。
 
-仅用于缩略图请求( `req=tmb`)和时间 `catalog::ThumbType=3`.
+仅用于缩略图请求(`req=tmb`)和`catalog::ThumbType=3`时。
 
 ## 属性 {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
-实数，大于0。通常以每英寸像素数表示，但也可能以其他单位表示，如每米像素数。
+实数，大于0。通常以每英寸像素数表示，但也可能以其他单位表示，例如每米像素数。
 
 ## 默认 {#section-86588899ec9b4276a98b03d7faf64003}
 
-继承自 `default::ThumbRes` 如果未定义或为空。
+如果未定义或为空，则从`default::ThumbRes`继承。
 
 ## 另请参阅 {#section-a6d2cce2e404441a996dba98a95c8e16}
 

@@ -1,7 +1,7 @@
 ---
 description: 计划作业的数组。
 solution: Experience Manager
-title: SchedulejobArray
+title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2bc145ca-3cee-4832-908c-e45e124a2b6f
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ScheduledJobs` | 计划作业数组。 |
+| 项目 | `types:ScheduledJobs` | 计划的作业数组。 |

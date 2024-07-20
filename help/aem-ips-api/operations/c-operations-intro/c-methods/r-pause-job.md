@@ -8,7 +8,7 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 19%
 
 **输出(PauseJobReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-此代码示例暂停活动的作业。
+此代码示例暂停活动作业。
 
 **请求**
 

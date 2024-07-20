@@ -1,5 +1,5 @@
 ---
-description: 获取资源的作业日志。 数组中返回的项目包含有关该资源的作业日志中每个项目的详细信息。 logMessage响应字段已根据authHeader字段进行了本地化。
+description: 获取资产的作业日志。 数组中返回的项目包含有关该资产的作业日志中每个条目的详细信息。 logMessage响应字段已根据authHeader字段本地化。
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
 # getAssetJobLogs{#getassetjoblogs}
 
-获取资源的作业日志。 数组中返回的项目包含有关该资源的作业日志中每个项目的详细信息。 logMessage响应字段已根据authHeader字段进行了本地化。
+获取资产的作业日志。 数组中返回的项目包含有关该资产的作业日志中每个条目的详细信息。 logMessage响应字段已根据authHeader字段本地化。
 
 语法
 

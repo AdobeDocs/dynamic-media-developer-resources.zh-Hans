@@ -1,18 +1,18 @@
 ---
 description: 获取与资源关联的用户定义元数据字段。
 solution: Experience Manager
-title: getMetadataFields
+title: getMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
-# getMetadataFields{#getmetadatafields}
+# getMetadataField{#getmetadatafields}
 
 获取与资源关联的用户定义元数据字段。
 

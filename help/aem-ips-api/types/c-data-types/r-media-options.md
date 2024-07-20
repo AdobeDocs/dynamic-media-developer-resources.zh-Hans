@@ -1,14 +1,14 @@
 ---
 description: 为您的视频生成缩略图图像。
 solution: Experience Manager
-title: 媒体选项
+title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：HandleArray</span> </td> 
-   <td colname="col3">一个数组 <span class="codeph"> 属性集</span> 处理引用视频编码预设以转码视频。 </td> 
+   <td colname="col2"> <span class="codeph">类型：HandleArray</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span>的数组处理引用视频编码预设以转码视频。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 如果为true，则提取视频的第一帧，并将其用作缩略图。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
+   <td colname="col3"> 如果为true，则提取视频的第一帧，并将其用作缩略图像。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailoptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：缩略图选项</span> </td> 
-   <td colname="col3">可选. 允许您选择特定的视频帧作为缩略图图像。 <p>要指定缩略图图像，请为要使用的帧传递时间（从视频开始起算的毫秒数）。 值范围从0到视频的结尾。 <p>注意：如果指定的时间不正确， <span class="codeph"> generateThumbnail</span> 默认为true。 </p></p><p>参见 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 缩略图选项</a>. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：ThumbnailOptions</span> </td> 
+   <td colname="col3">可选。 允许您选择特定的视频帧作为缩略图像。 <p>要指定缩略图图像，请为要使用的帧传入时间（以从视频开始到现在的毫秒为单位）。 值的范围从0到视频的结尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,8 +61,8 @@ ht-degree: 7%
 
 ## 使用者 {#section-87cb83407198432c95eaa2db9f12f9db}
 
-此 `mediaOptions` 类型由以下人员使用：
+`mediaOptions`类型由以下用户使用：
 
 * [上载目录作业](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadPost作业](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

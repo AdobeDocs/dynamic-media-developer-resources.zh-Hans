@@ -1,7 +1,7 @@
 ---
 description: 资源的发布历史记录。
 solution: Experience Manager
-title: 发布历史记录
+title: Publishhistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -23,6 +23,6 @@ ht-degree: 11%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | serverName | `xsd:string` | 拥有发布历史记录的服务器的名称。 |
-| contextName | `xsd:string` | 发布历史记录上下文名称。 |
-| publishformat | `xsd:string` | 发布格式。 |
+| contextName | `xsd:string` | Publish历史记录上下文名称。 |
+| publishformat | `xsd:string` | Publish格式。 |
 | lastPublished | `xsd:dateTime` | 上次发布资源的日期和时间。 |

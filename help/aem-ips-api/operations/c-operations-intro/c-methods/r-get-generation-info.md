@@ -1,5 +1,5 @@
 ---
-description: 根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资源生成的资源的信息。 generateHandle返回有关用于生成指定资源或文件的步骤的信息。
+description: 根据传入的参数，返回2种不同类型的信息。 originatorHandle返回有关从指定资源生成的资源的信息。 generateHandle返回有关用于生成指定资源或文件的步骤的信息。
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 10%
+source-wordcount: '198'
+ht-degree: 9%
 
 ---
 
 # getGenerationInfo{#getgenerationinfo}
 
-根据传入的参数返回2种不同类型的信息。 originatorHandle返回有关从指定资源生成的资源的信息。 generateHandle返回有关用于生成指定资源或文件的步骤的信息。
+根据传入的参数，返回2种不同类型的信息。 originatorHandle返回有关从指定资源生成的资源的信息。 generateHandle返回有关用于生成指定资源或文件的步骤的信息。
 
 语法
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 |---|---|---|---|
 | 代码短语 | `xsd:string` | 是 | 公司的把手。 |
 | 代码短语 | `xsd:string` | 否 | 生成时使用的引擎。 请参阅字体样式。 |
-| 代码短语 | `xsd:string` | 否 | 要查询生成的资产的资产的资产句柄。 |
+| 代码短语 | `xsd:string` | 否 | 要查询已生成资源的资源的资源句柄。 |
 | 代码短语 | `xsd:string` | 否 | 要查询其生成中使用的资源和引擎的资源句柄。 |
 | 代码短语 | `xsd:StringArray` | 否 | 操作中包含的属性。 |
 | 代码短语 | `xsd:StringArray` | 否 | 从操作中排除的属性。 |
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| generationArray | `types:GenerationInfoArray` | 是 | 层代信息数组。 |
+| generationArray | `types:GenerationInfoArray` | 是 | 层代信息的数组。 |
 
 ## 示例 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

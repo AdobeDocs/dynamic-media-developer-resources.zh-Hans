@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
-请参阅 [系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+请参阅[系统要求](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
 ## 使用交互式视频查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-交互式视频查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 此特定查看器、资产和CSS使用的所有查看器SDK组件均包含单个JavaScript。
+交互式视频查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 单个JavaScript包含在此特定查看器、资源和CSS使用的所有查看器SDK组件中。
 
 交互式视频查看器可在弹出模式下使用，方法是使用随图像服务查看器提供的生产就绪型HTML页面。 它还可以在嵌入模式下使用，在该模式下，使用文档记录的API将其集成到目标网页中。
 
 配置和外观设计类似于本指南中描述的其他查看器的配置和外观。 所有外观设计都是通过自定义(CSS)层叠样式表实现的。
 
-请参阅 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+查看所有查看者通用的[命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有查看者通用的[命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 与交互式视频查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 查看器还支持各种社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。 共享工具栏中包含有关支持的每种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具激活时，视频播放会自动暂停。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
-查看器完全可使用键盘。 请参阅 [键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+查看器完全可使用键盘。 请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
 ## 嵌入交互式视频查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -72,24 +72,24 @@ ht-degree: 0%
 
 当查看器在初始加载后未更改其大小时，使用固定大小嵌入。 此功能是拥有静态布局的网页的最佳选择。
 
-响应式设计嵌入假设查看器需要在运行时调整大小以响应容器大小更改 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入假定查看器需要在运行时调整大小以响应其容器`DIV`的大小更改。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页确定其容器大小的方式 `DIV`. 如果网页仅设置容器的宽度 `DIV`如果不限制高度，查看器将根据所用资源的纵横比自动选择高度。 此功能可确保资产完全适合视图，不会出现任何边距。 此用例最常用于使用响应式Web设计布局框架(如Bootstrap和Foundation)的网页。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页调整其容器`DIV`大小的方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 此功能可确保资产完全适合视图，不会出现任何边距。 此用例最常用于使用响应式Web设计布局框架(如Bootstrap和Foundation)的网页。
 
-否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
+否则，如果网页同时设置了查看器容器`DIV`的宽度和高度，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
 **固定大小嵌入**
 
 通过执行以下操作将查看器添加到网页：
 
-1. 将查看器JavaScript文件添加到网页。
-1. 定义容器 `DIV`.
+1. 正在将查看器JavaScript文件添加到您的网页。
+1. 正在定义容器`DIV`。
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
-1. 将查看器JavaScript文件添加到网页。
+1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包含 [!DNL InterativeVideoViewer.js]. 此 [!DNL InteractiveVideoViewer.js] 文件位于 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL InterativeVideoViewer.js]。 [!DNL InteractiveVideoViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
@@ -103,20 +103,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用主查看器JavaScript `include` 文件上传到您的页面上。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或者类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
->因此，将直接引用放置到任何辅助JavaScript `include` 将来在部署新产品版本时，页面上查看器使用的功能会中断查看器。
+>因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
 
-1. 定义容器 `DIV`.
+1. 正在定义容器`DIV`。
 
-   添加空 `DIV` 元素到您希望查看器显示的页面。 此 `DIV` 元素必须定义其ID，因为此ID稍后传递给查看器API。 DIV的大小通过CSS指定。
+   向您希望查看器显示的页面添加一个空`DIV`元素。 `DIV`元素必须定义其ID，因为此ID稍后将传递到查看器API。 DIV的大小通过CSS指定。
 
-   占位符 `DIV` 是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
+   占位符`DIV`是定位元素，这意味着`position` CSS属性设置为`relative`或`absolute`。
 
-   要使全屏功能在Internet Explorer中正常运行，请确保DOM中没有其他元素的栈叠顺序高于占位符 `DIV`.
+   要使全屏功能在Internet Explorer中正常运行，请确保DOM中没有其他元素的栈叠顺序高于占位符`DIV`。
 
-   以下是定义的占位符示例 `DIV` 元素：
+   以下是定义的占位符`DIV`元素的示例：
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
@@ -124,11 +124,11 @@ ht-degree: 0%
 
 1. 设置查看器大小
 
-   您可以通过声明查看器的静态大小来为其设置静态大小。 `.s7interactivevideoviewer` 顶级CSS类（以绝对单位表示），或者使用 `stagesize` 修饰符。
+   您可以通过声明查看器为`.s7interactivevideoviewer`顶级CSS类（以绝对单位表示）或使用`stagesize`修饰符来设置查看器的静态大小。
 
-   您可以在“HTML”页面上直接放置在CSS中的大小。 或者，您可以将其放入自定义查看器CSS文件中，稍后将该文件分配给Adobe Experience Manager Assets中的查看器预设记录 — 按需，或者使用进行明确传递 `style` 命令。
+   您可以在“HTML”页面上直接放置在CSS中的大小。 或者，您可以将其放入自定义查看器CSS文件中，稍后将该文件分配给Adobe Experience Manager Assets中的查看器预设记录（按需），或使用`style`命令显式传递。
 
-   请参阅 [自定义交互式视频查看器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 有关使用CSS为查看器设置样式的更多信息。
+   有关使用CSS设置查看器样式的详细信息，请参阅[自定义交互式视频查看器](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
    以下是在“HTML”页中定义静态查看器大小的示例：
 
@@ -139,7 +139,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以设置 `stagesize` Experience Manager Assets中的查看器预设记录中的修饰符 — 按需。 或者，您可以使用查看器初始化代码显式传递它 `params` 收藏集，或作为API调用，如命令引用部分中所述，如下所示：
+   您可以在Experience Manager Assets的查看器预设记录中设置`stagesize`修饰符 — 按需。 或者，您也可以使用`params`集合的查看器初始化代码显式传递它，或作为API调用传递，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -149,23 +149,23 @@ ht-degree: 0%
 
 1. 创建和初始化查看器。
 
-   完成上述步骤后，您将创建一个实例 `s7viewers.InteractiveVideoViewer` 类，将所有配置信息传递到其构造函数，并调用 `init()` 方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有 `containerId` 保存查看器容器ID名称并嵌套的字段 `params` 包含查看器支持的配置参数的JSON对象。
+   完成上述步骤后，创建`s7viewers.InteractiveVideoViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段保存查看器容器ID的名称，并使用查看器支持的配置参数嵌套`params` JSON对象。
 
-   在本例中， `params` 对象必须至少将图像服务URL传递为 `serverUrl` 资产，而初始资产为 `asset` 参数。 基于JSON的初始化API允许您创建并启动查看器，只需一行代码，视频服务器URL作为 `videoserverurl` 资产，初始资产为 `asset` 参数，交互式数据为 `interactivedata` 属性。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
+   在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您使用一行代码、作为`videoserverurl`属性传递的视频服务器URL、作为`asset`参数的初始资产以及作为`interactivedata`属性的交互式数据来创建和启动查看器。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标记上，或主体上 `onload()` 事件。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用隐藏该内容 `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 之后，查看器加载会自动继续。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 之后，查看器加载会自动继续。
 
-   以下示例用于创建查看器实例，将所需的最少配置选项传递给构造函数并调用 `init()` 方法。 此示例假设以下内容：
+   以下示例用于创建查看器实例，将所需的最少配置选项传递给构造函数并调用`init()`方法。 此示例假设以下内容：
 
-   * 查看器实例为 `interactiveVideoViewer`.
-   * 占位符的名称 `DIV` 是 `s7viewer`.
-   * 图像服务URL为 `https://aodmarketingna.assetsadobe.com/is/image/`.
-   * 视频服务器URL为 `https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`.
-   * 内容URL为 `https://aodmarketingna.assetsadobe.com/`.
-   * 资产是 `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
-   * 交互式数据为 `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
+   * 查看器实例为`interactiveVideoViewer`。
+   * 占位符`DIV`的名称为`s7viewer`。
+   * 图像服务URL为`https://aodmarketingna.assetsadobe.com/is/image/`。
+   * 视频服务器URL为`https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`。
+   * 内容URL为`https://aodmarketingna.assetsadobe.com/`。
+   * 资产为`/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`。
+   * 交互式数据为`is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`。
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 **高度不受限制的响应式设计嵌入**
 
-通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器的运行时大小 `DIV`. 对于以下示例，假设网页允许查看器的容器 `DIV` 占用Web浏览器窗口大小的40%，高度不受限制。 网页HTML代码如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器`DIV`的运行时大小。 对于以下示例，假设网页允许查看者的容器`DIV`占用Web浏览器窗口大小的40%，并且其高度不受限制。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -238,11 +238,11 @@ ht-degree: 0%
 
 将查看器添加到此类页面与嵌入固定大小的步骤类似。 唯一的区别是，您不需要显式定义查看器大小。
 
-1. 将查看器JavaScript文件添加到网页。
+1. 正在将查看器JavaScript文件添加到您的网页。
 1. 定义容器DIV。
 1. 创建和初始化查看器。
 
-上述所有步骤与嵌入固定大小相同。 将容器DIV添加到现有 `"holder"` 目录 以下代码是一个完整的示例。 请注意当浏览器调整大小时查看器大小如何变化，以及查看器长宽比如何与资源匹配。
+上述所有步骤与嵌入固定大小相同。 将容器DIV添加到现有`"holder"` DIV。 以下代码是一个完整的示例。 请注意当浏览器调整大小时查看器大小如何变化，以及查看器长宽比如何与资源匹配。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -282,9 +282,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 [备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**定义宽度和高度的响应式嵌入**
+定义宽度和高度的&#x200B;**响应式嵌入**
 
-如果有定义了宽度和高度的响应式嵌入，则网页样式会不同。 它提供两种大小到 `"holder"` 在浏览器窗口中进行DIV和居中。 此外，该网页还设置 `HTML` 和 `BODY` 元素为100%。
+如果有定义了宽度和高度的响应式嵌入，则网页样式会不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -352,9 +352,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 </html>
 ```
 
-**使用基于Setter的API进行嵌入**
+**使用基于Setter的API嵌入**
 
-可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不接受任何参数，并且配置参数是使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法具有单独的JavaScript调用。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会接受任何参数，配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
 
 以下示例说明了如何将固定大小嵌入与基于setter的API一起使用：
 

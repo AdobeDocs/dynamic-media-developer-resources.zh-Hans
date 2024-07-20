@@ -25,8 +25,8 @@ ht-degree: 2%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自动|开启</span> </p> </td> 
-   <td colname="col2"> <p> 控制视频是通过安全SSL连接(HTTPS)还是不安全连接(HTTP)传送的。 </p> <p>当设置为 <span class="codeph"> 自动</span> 视频投放协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也通过HTTPS传输，反之亦然。 如果网页位于HTTP上，则视频将通过HTTP传送。 </p> <p>当设置为 <span class="codeph"> 日期</span>，无论网页协议如何，视频投放始终通过安全连接进行。 </p> <p>仅影响已发布的视频交付，在创作模式下预览视频时，将忽略该影响。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自动|于</span> </p> </td> 
+   <td colname="col2"> <p> 控制是通过安全SSL连接(HTTPS)还是不安全连接(HTTP)来交付视频。 </p> <p>当设置为<span class="codeph"> auto</span>时，视频交付协议继承自嵌入网页的协议。 如果网页是通过HTTPS加载的，则视频也通过HTTPS传输，反之亦然。 如果网页位于HTTP上，则视频将通过HTTP投放。 </p> <p>在</span>上设置为<span class="codeph">时，无论网页协议如何，视频交付始终通过安全连接进行。 </p> <p>仅影响已发布的视频交付，在创作模式下预览视频时，将忽略该项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-另请参阅 [安全视频交付](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).
+另请参阅[安全视频交付](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27)。

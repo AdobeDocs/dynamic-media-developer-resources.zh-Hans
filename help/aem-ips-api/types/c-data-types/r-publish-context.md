@@ -20,7 +20,7 @@ ht-degree: 17%
 
 ## 参数 {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-资产会为每个发布状态和上下文维护一个单独的标记。 设置发布状态 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Assets为每个发布状态和上下文维护一个单独的标记。 使用[setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)设置发布状态。
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -47,7 +47,7 @@ ht-degree: 17%
    <td colname="col3">发布上下文的类型。 包括： 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
      <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> Imageserving</span></li>
-     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> 图像渲染</span></li>
+     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> 视频</span></li>
      <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> 服务器目录</span></li>
     </ul></td>
@@ -57,5 +57,4 @@ ht-degree: 17%
 
 >[!MORELIKETHIS]
 >
->* [发布上下文](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
-
+>* [Publish上下文](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

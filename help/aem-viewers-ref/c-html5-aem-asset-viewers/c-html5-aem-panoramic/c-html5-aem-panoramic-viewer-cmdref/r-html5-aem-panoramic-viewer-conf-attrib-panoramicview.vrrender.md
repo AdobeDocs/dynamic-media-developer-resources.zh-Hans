@@ -21,7 +21,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> 指定是否启用虚拟现实渲染模式。</p> </td> 
+   <td colname="col2"> <p> 指定是否启用虚拟现实呈现模式。</p> </td> 
   </tr> 
  </tbody> 
 </table>

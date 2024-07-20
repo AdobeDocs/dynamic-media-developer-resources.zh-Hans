@@ -23,5 +23,5 @@ ht-degree: 11%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 色彩管理 | `xsd:string` | 颜色管理模式选择。 |
-| sourceProfileHandle | `xsd:string` | 源配置文件句柄。 |
+| sourceProfileHandle | `xsd:string` | Source配置文件句柄。 |
 | outputProfileHandle | `xsd:string` | 输出配置文件句柄。 |

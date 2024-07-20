@@ -16,13 +16,13 @@ ht-degree: 4%
 
 智能裁剪视频查看器的配置属性。
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`无|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 配置单击/点按到切换播放/暂停的映射。 将设置为 <span class="codeph"> 无</span> 禁用单击/点按以播放/暂停。 如果设置为 <span class="codeph"> playPause</span>，单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下， <span class="codeph"> singleclick</span> 行为已禁用。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按到切换播放/暂停的映射。 设置为<span class="codeph"> none</span>可禁用通过单击/点按进行播放/暂停的功能。 如果设置为<span class="codeph"> playPause</span>，则单击视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，<span class="codeph"> singleclick</span>行为已禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

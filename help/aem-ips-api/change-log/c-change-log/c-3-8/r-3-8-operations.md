@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 1%
 
 ## 已修改的操作 {#section-25eee732b69c49d0a27b1f3290f8654a}
 
-**searchAssets**
+**搜索资产**
 
-* 可选 `publishState` 参数允许您搜索 `MarkedForPublish/NotMarkedForPublish` 资产状态。
+* 可选的`publishState`参数允许您搜索`MarkedForPublish/NotMarkedForPublish`资源状态。
 
 **getJobLogs**
 
-* 可选 `userHandle` 参数允许您检索由特定用户提交的作业日志。
+* 可选的`userHandle`参数允许您检索特定用户提交的作业日志。

@@ -8,7 +8,7 @@ exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 17%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 公司预设</span> </span> </p> </td> 
-   <td colname="col2"> <p> 的名称 <span class="keyword"> Adobe Analytics</span> 配置预设。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">公司预设</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span>配置预设的名称。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

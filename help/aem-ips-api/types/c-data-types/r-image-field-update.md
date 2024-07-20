@@ -1,5 +1,5 @@
 ---
-description: 更新与图像资源关联的图像字段。
+description: 更新与图像资产关联的图像字段。
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ImageFieldUpdate]{#imagefieldupdate}
 
-更新与图像资源关联的图像字段。
+更新与图像资产关联的图像字段。
 
 语法
 
@@ -22,8 +22,8 @@ ht-degree: 8%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 资源句柄。 |
+| assetHandle | `xsd:string` | 资产句柄。 |
 | [!DNL resolution] | `xsd:double` | 图像分辨率（像素/英寸）。 |
 | [!DNL anchorX] | `xsd:int` | X轴图像锚点。 |
 | [!DNL anchorY] | `xsd:int` | Y轴图像锚点。 |
-| [!DNL userData] | `xsd:string` | 值 `userData` 元数据字段，已发布到图像服务用户数据目录字段。 |
+| [!DNL userData] | `xsd:string` | `userData`元数据字段的值，该字段已发布到图像服务用户数据目录字段。 |

@@ -21,8 +21,8 @@ ht-degree: 3%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自动|左|右 </span> </p> </td> 
-   <td colname="col2"> <p> 指定缩略图在视图中填充的方式。 </p> <p>设置为 <span class="codeph"> left </span> 设置从左至右的填充顺序。 </p> <p>设置为 <span class="codeph"> 右 </span> 反转顺序，以便视图按从右至左、从上至下的方向填充。 </p> <p>设置为 <span class="codeph"> 自动 </span> 区域设置设置为时，使组件应用正确的模式 <span class="codeph"> "ja" </span>；否则， <span class="codeph"> left </span> 已使用。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自动|左|右</span> </p> </td> 
+   <td colname="col2"> <p> 指定缩略图在视图中填充的方式。 </p> <p>设置为左</span>的<span class="codeph">以设置从左至右的填充顺序。 </p> <p>设置为<span class="codeph">右</span>将颠倒顺序，以便视图按从右至左、从上至下的方向填充。 </p> <p>设置为<span class="codeph">自动</span>可在区域设置设置为<span class="codeph">“ja”</span>时使组件应用右模式；否则，将使用<span class="codeph">左</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

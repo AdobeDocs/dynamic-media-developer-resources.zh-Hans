@@ -22,5 +22,5 @@ ht-degree: 16%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL Code Phrase] | `Code Phrase` |  |
+| [!DNL Code Phrase] | `Code Phrase` | |
 

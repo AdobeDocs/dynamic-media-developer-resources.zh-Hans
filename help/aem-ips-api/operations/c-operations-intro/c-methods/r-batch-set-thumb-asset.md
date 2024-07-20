@@ -1,18 +1,18 @@
 ---
 description: 设置一个或多个资源的缩略图图像。
 solution: Experience Manager
-title: batchSetThumbAsset
+title: Batchsetthumbasset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
-# batchSetThumbAsset{#batchsetthumbasset}
+# Batchsetthumbasset{#batchsetthumbasset}
 
 设置一个或多个资源的缩略图图像。
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 允许的缩略图资源类型包含以下内容：
 
 * 图像
-* 调整后的视图
+* AdjustedView
 * 蒙版
 * 模板
 * Psd模板
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->用户必须拥有目标资产的读/写权限以及缩略图资产的读权限。
+>用户必须具有目标资产的读/写访问权限，以及缩略图资产的读访问权限。
 
 ## 参数 {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -55,10 +55,10 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 成功设置的缩略图数。 |
-| warningCount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试应用更新时这些资源会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成错误。 |
+| warningcount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试设置缩略图时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试应用更新时这些资产会生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资产关联的详细信息数组，当操作尝试应用更新时这些资产会生成错误。 |
 
 ## 示例 {#section-6de69a8680c24c1486c5f01488393381}
 

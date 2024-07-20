@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Video Viewer显示的某些内容需要进行本地化，包括缩放按钮和全屏按钮。
 
-查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)。 它还可以根据需要为任意数量的区域设置用户定义的值。
+查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为任意数量的区域设置用户定义的值。
 
 当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供了本地化。
 
-网页代码应将此类本地化对象作为的值传递给查看器构造函数 `localizedTexts` 配置对象的字段。 另一种选择是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将此类本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 另一种选择是通过调用`setLocalizedTexts(localizationInfo)`方法来传递本地化对象。
 
 支持以下SYMBOL：
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 13b11e9c-00c5-4c1d-b1af-90afaabc389e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 13%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指示是否在视频播放完成后再次播放视频。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

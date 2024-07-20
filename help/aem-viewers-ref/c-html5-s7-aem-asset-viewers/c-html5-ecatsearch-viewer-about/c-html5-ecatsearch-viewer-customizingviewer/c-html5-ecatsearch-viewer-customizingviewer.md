@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 eCatalog搜索查看器的所有可视化自定义和大多数行为自定义均通过创建自定义CSS来完成。
 
-建议的工作流程是获取相应查看器的默认CSS文件，将其复制到其他位置，对其进行自定义，然后在 `style=` 命令。
+建议的工作流是获取相应查看器的默认CSS文件，将其复制到其他位置，对其进行自定义，然后在`style=`命令中指定自定义文件的位置。
 
 可以在以下位置找到默认CSS文件：
 
@@ -27,7 +27,7 @@ eCatalog搜索查看器的所有可视化自定义和大多数行为自定义均
 
 提供自定义CSS规则的替代方法是直接在网页或其中一个链接的外部CSS规则中使用嵌入样式。
 
-创建自定义CSS时，请牢记查看器分配的 `.s7ecatalogsearchviewer` 类到其容器DOM元素。 如果您使用的是随一起传递的外部CSS文件 `style=` 命令，使用 `.s7ecatalogsearchviewer` 类作为CSS规则的后代选择器中的父类。 如果您在网页上执行嵌入样式，则还应该使用容器DOM元素的ID限定此选择器，如下所示：
+创建自定义CSS时，请记住，查看器将`.s7ecatalogsearchviewer`类分配给其容器DOM元素。 如果您使用通过`style=`命令传递的外部CSS文件，请将`.s7ecatalogsearchviewer`类用作CSS规则的后代选择器中的父类。 如果您在网页上执行嵌入样式，则还应该使用容器DOM元素的ID限定此选择器，如下所示：
 
 `#<containerId>.s7ecatalogsearchviewer`
 
@@ -41,9 +41,9 @@ eCatalog搜索查看器的所有可视化自定义和大多数行为自定义均
 
 要创建响应式设计CSS，查看器支持CSS标记，这些特殊的CSS类根据运行时查看器大小和当前设备上的输入类型动态分配给顶级查看器容器元素。
 
-第一组CSS标记包括 `.s7size_large`， `.s7size_medium`、和 `.s7size_small` 类。 它们根据查看器容器的运行时区域应用。 即，如果查看器区域等于或大于普通台式机显示器的大小 `.s7size_large` 如果该区域与普通平板电脑设备比较接近，则使用 `.s7size_medium` 已分配。 适用于与手机屏幕类似的区域。 标记 `.s7size_small` 设置。 这些CSS标记的主要用途是为不同的屏幕和查看器大小创建不同的用户界面布局。
+第一组CSS标记包括`.s7size_large`、`.s7size_medium`和`.s7size_small`类。 它们根据查看器容器的运行时区域应用。 即，如果查看器区域等于或大于使用普通桌面监视器`.s7size_large`的大小；如果该区域的大小接近普通平板电脑设备`.s7size_medium`，则分配该区域。 适用于与手机屏幕类似的区域。 已设置标记`.s7size_small`。 这些CSS标记的主要用途是为不同的屏幕和查看器大小创建不同的用户界面布局。
 
-第二组CSS标记包括 `.s7mouseinput` 和 `.s7touchinput`. 标记 `.s7touchinput` 如果当前设备具有触摸输入功能，则进行设置；否则， `.s7mouseinput` 已使用。 这些标记旨在为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要更大的元素。 如果设备同时具有鼠标输入和触摸功能， `.s7touchinput` 已设置，且查看器呈现触控友好的用户界面。
+第二组CSS标记包括`.s7mouseinput`和`.s7touchinput`。 如果当前设备具有触摸输入功能，则设置标记`.s7touchinput`；否则，使用`.s7mouseinput`。 这些标记旨在为不同的输入类型创建具有不同屏幕大小的用户界面输入元素，因为通常触摸输入需要更大的元素。 如果设备同时具有鼠标输入和触摸功能，则设置`.s7touchinput`，并且查看器呈现触摸友好的用户界面。
 
 以下示例CSS将放大按钮大小设置为在输入鼠标的系统上为28 x 28像素，在触摸设备上为56 x 56像素。 此外，如果查看器大小变得太小，则会完全隐藏按钮：
 
@@ -145,7 +145,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 
 此方法的一个缺点是最终用户在首次与元素交互时体验到用户界面响应闪烁或延迟。 发生此操作是因为尚未下载新元素状态的图像图稿。 此外，由于对服务器的HTTP调用数量增加，此方法可能会对性能产生轻微的负面影响。
 
-CSS sprite是一种不同的方法，所有元素状态的图像图稿都合并到称为“sprite”的单个PNG文件中。 此类“sprite”具有给定元素的所有视觉状态，它们彼此相邻。 使用拼写设置用户界面元素的样式时，同一个sprite图像将针对CSS中的所有不同状态引用。 此外， `background-position` 属性用于每个状态，以指定使用“sprite”图像的哪个部分。 您可以以任何适当的方式构建“Sprite”图像。 查看器通常将其垂直栈叠。 下面是基于“sprite”的示例，用于从上面为同一放大按钮设置样式：
+CSS sprite是一种不同的方法，所有元素状态的图像图稿都合并到称为“sprite”的单个PNG文件中。 此类“sprite”具有给定元素的所有视觉状态，它们彼此相邻。 使用拼写设置用户界面元素的样式时，同一个sprite图像将针对CSS中的所有不同状态引用。 此外，`background-position`属性用于每个状态，以指定使用“sprite”图像的哪个部分。 您可以以任何适当的方式构建“Sprite”图像。 查看器通常将其垂直栈叠。 下面是基于“sprite”的示例，用于从上面为同一放大按钮设置样式：
 
 ```
 .s7ecatalogsearchviewer .s7zoominbutton[state]  { 
@@ -167,14 +167,14 @@ background-position: -0px -560px;
 
 ## 常规样式注释和建议 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* 使用CSS自定义查看器用户界面时，使用 `!IMPORTANT` 不支持规则来设置查看器元素的样式。 特别是， `!IMPORTANT` 规则不应用于覆盖查看器或查看器SDK提供的任何默认样式或运行时样式。 原因是它可能会影响正确组件的行为。 您应该使用具有适当特定性的CSS选择器来设置本参考指南中记录的CSS属性。
+* 使用CSS自定义查看器用户界面时，样式查看器元素不支持使用`!IMPORTANT`规则。 特别是，`!IMPORTANT`规则不应用于覆盖查看器或查看器SDK提供的任何默认样式或运行时样式。 原因是它可能会影响正确组件的行为。 您应该使用具有适当特定性的CSS选择器来设置本参考指南中记录的CSS属性。
 * 指向CSS内外部资产的所有路径都是针对CSS位置解析的，而不是针对查看器HTML页面位置解析的。 将默认CSS复制到其他位置时，请注意此规则。 复制默认资产或更新自定义CSS中的路径。
 * 位图图稿的首选格式为PNG。
-* 位图图稿使用分配给用户界面元素 `background-image` 属性。
-* 此 `width` 和 `height` 用户界面元素的属性定义其逻辑大小。 传递到的位图的大小 `background-image` 不会影响逻辑大小。
-* 若要使用高分辨率屏幕（如Retina）的高像素密度，请指定两倍于逻辑用户界面元素大小的位图图案。 然后，应用 `-webkit-background-size:contain` 属性，用于将背景缩小到逻辑用户界面元素的大小。
-* 要从用户界面删除按钮，请添加 `display:none` 添加到其CSS类中。
-* 您可以对CSS支持的颜色值使用各种格式。 如果需要透明度，请使用格式 `rgba(R,G,B,A)`. 否则，可以使用格式 `#RRGGBB`.
+* 使用`background-image`属性将位图图稿分配给用户界面元素。
+* 用户界面元素的`width`和`height`属性定义其逻辑大小。 传递到`background-image`的位图的大小不会影响逻辑大小。
+* 若要使用高分辨率屏幕（如Retina）的高像素密度，请指定两倍于逻辑用户界面元素大小的位图图案。 然后，应用`-webkit-background-size:contain`属性将后台缩小到逻辑用户界面元素大小。
+* 要从用户界面中删除按钮，请将`display:none`添加到其CSS类。
+* 您可以对CSS支持的颜色值使用各种格式。 如果需要透明度，请使用格式`rgba(R,G,B,A)`。 否则，您可以使用格式`#RRGGBB`。
 
 ## 常见用户界面元素 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

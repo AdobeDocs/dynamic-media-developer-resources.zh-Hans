@@ -8,7 +8,7 @@ exl-id: 72429030-200d-4e13-a537-10a728998a26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 13%
 
 **输出(deletePropertySetParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-此代码示例使用集的句柄作为 `deletePropertySetParam` 发送到IPS Web服务服务器，以便删除属性集。
+此代码示例将该集的句柄用作发送到IPS Web服务服务器的`deletePropertySetParam`中的字段以删除属性集。
 
 **请求**
 

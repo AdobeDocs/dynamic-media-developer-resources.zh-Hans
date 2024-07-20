@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 7%
+source-wordcount: '94'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ Video360 Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 值</span> </p> </td> 
-   <td colname="col2"> <p> 指定当前系统不支持自适应视频播放时，从自适应视频集播放视频所需的视频比特率（以千位/秒或kbps为单位）。 </p> <p>组件将选取比特率最接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流都具有高于指定值的品质，则逻辑会选择品质最低的比特率。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">值</span> </p> </td> 
+   <td colname="col2"> <p> 指定当前系统不支持自适应视频播放时，在自适应视频集中播放视频所需的视频比特率（以千位/秒或kbps为单位）。 </p> <p>组件将选取比特率最接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流都具有高于指定值的质量，则逻辑会选择具有最低质量的比特率。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

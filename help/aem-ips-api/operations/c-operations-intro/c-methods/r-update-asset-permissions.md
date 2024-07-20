@@ -8,7 +8,7 @@ exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 24%
+ht-degree: 20%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 24%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
-| assetHandle | `xsd:string` | 是 | 资源句柄。 |
-| updateArray | `types:PermissionUpdateArray` | 是 | 要应用于资源的权限。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
+| updateArray | `types:PermissionUpdateArray` | 是 | 您希望应用于资源的权限。 |
 
 **输出(updateAssetPermissionsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

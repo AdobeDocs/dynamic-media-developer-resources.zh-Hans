@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 映像服务安装文件夹(install_folder)是install_root/ImageServing。
 
-*[!DNL install_root]* 默认为 `C:\Program Files\Scene7` 在Windows上(其他 *[!DNL install_root]* 可以在安装期间选择文件夹)。 在Linux®上， *[!DNL install_root]* 必须始终为 [!DNL /usr/local/scene7] （可以使用符号链接）。
+在Windows上，*[!DNL install_root]*&#x200B;默认为`C:\Program Files\Scene7`（安装期间可以选择其他&#x200B;*[!DNL install_root]*&#x200B;文件夹）。 在Linux®上，*[!DNL install_root]*&#x200B;必须始终为[!DNL /usr/local/scene7]（可以使用符号链接）。
 
-在本文档中， *[!DNL install_folder]* 可能表示为&#39; [!DNL ./]&#39;.
+在此文档中，*[!DNL install_folder]*&#x200B;可以由“[!DNL ./]”表示。
 
-所有文件路径在UNIX上区分大小写®在Windows上不区分大小写。
+所有文件路径在UNIX上均区分大小写®在Windows上均不区分大小写。

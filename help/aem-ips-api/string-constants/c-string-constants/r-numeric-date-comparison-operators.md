@@ -1,5 +1,5 @@
 ---
-description: 由SystemFieldCondition/op使用。
+description: 用于SystemFieldCondition/op。
 solution: Experience Manager
 title: 数字/日期比较运算符
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # 数字/日期比较运算符{#numeric-date-comparison-operators}
 
-由SystemFieldCondition/op使用。
+用于SystemFieldCondition/op。
 
 语法
 

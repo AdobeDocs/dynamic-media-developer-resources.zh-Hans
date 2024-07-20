@@ -22,7 +22,7 @@ ht-degree: 2%
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]：特殊情况 [!DNL `SingleFixedTag`] 使用初始化为值的不可修改词典 [!DNL `True`] 和 [!DNL `False`].
+* [!DNL `BooleanTag`]：特殊情况[!DNL `SingleFixedTag`]，具有初始化为值[!DNL `True`]和[!DNL `False`]的不可修改字典。
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -32,7 +32,7 @@ ht-degree: 2%
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]：来自已关闭字典的零个或多个字符串值。 只有管理员用户可以修改字典。
 * [!DNL `MultiTag`]：零个或多个字符串值。
-* [!DNL `SingleFixedTag`]：来自已关闭词典的单个字符串值。 如果 `setAssetMetadata` 或 `batchSetAssetMetadata` 用不在字典中的值调用，将返回错误。 只有管理员用户可以修改字典。
+* [!DNL `SingleFixedTag`]：来自已关闭字典的单个字符串值。 如果使用不在字典中的值调用`setAssetMetadata`或`batchSetAssetMetadata`，则会返回错误。 只有管理员用户可以修改字典。
 
 * [!DNL `SingleTag`]：任意单个字符串值。
 * [!DNL `String`]

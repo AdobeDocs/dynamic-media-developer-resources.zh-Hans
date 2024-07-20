@@ -101,7 +101,7 @@ ht-degree: 17%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>边缘随机器。 </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edge随机化者。 </p></td> 
  </tr> 
 </table>
 

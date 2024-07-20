@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 混合媒体查看器显示的某些内容需要进行本地化。 此准则包括缩放按钮、旋转按钮、视频控件、关闭按钮、全屏按钮和样本滚动按钮。
 
-查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)。 它还可以根据需要为任意数量的区域设置用户定义的值。
+查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为任意数量的区域设置用户定义的值。
 
 当查看器启动时，它会检查当前区域设置，查看区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供了本地化。
 
-网页代码应将本地化对象作为的值，传递给查看器构造函数 `localizedTexts` 配置对象的字段。 另一种选择是通过调用 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 另一种选择是通过调用`setLocalizedTexts(localizationInfo)`方法来传递本地化对象。
 
 支持以下SYMBOL：
 
@@ -98,11 +98,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>中的台式机系统 <span class="codeph"> 内嵌 </span> 缩放模式。 </p> </td> 
+   <td colname="col2"> <p>桌面系统处于<span class="codeph">内联</span>缩放模式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>中的触控设备 <span class="codeph"> 内嵌 </span> 缩放模式。 </p> </td> 
+   <td colname="col2"> <p>触控设备处于<span class="codeph">内联</span>缩放模式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -174,10 +174,10 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>通过ARIA公开的音量滑块旋钮标签 <span class="codeph"> aria-valuetext </span> 属性。 </p> </td> 
+   <td colname="col2"> <p>通过ARIA <span class="codeph"> aria-valuetext </span>属性公开的卷滑块旋钮标签。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.错误</span> </p> </td> 
    <td colname="col2"> <p>无法播放视频时显示的错误消息。 </p> </td> 
   </tr> 
  </tbody> 

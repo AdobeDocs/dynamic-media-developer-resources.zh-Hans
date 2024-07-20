@@ -8,7 +8,7 @@ exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 24%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 要为其获取数据的公司的句柄。 |
-| 元数据键 | `xsd:string` | 是 | 用点表示法表示的元数据键。 |
+| metadatakey | `xsd:string` | 是 | 用点表示法表示的元数据键。 |
 
 **输出(getDistinctMetadataValuesReturn)**
 

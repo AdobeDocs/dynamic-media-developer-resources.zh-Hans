@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 4%
+source-wordcount: '384'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 查看区域的外观由以下CSS类选择器控制：
 
@@ -35,11 +35,11 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 主视图的背景颜色（以十六进制格式）。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p> 主视图的背景颜色（十六进制格式）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 光标 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">游标</span> </p> </td> 
    <td colname="col2"> <p>显示在主视图上的光标。 </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 4%
 }
 ```
 
-在桌面系统上，该组件支持 `cursortype` 可应用的属性选择器 `.s7pageview` 类并根据组件状态和用户操作控制游标类型。 以下各项 `cursortype` 值受支持：
+在桌面系统上，组件支持可应用于`.s7pageview`类的`cursortype`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,29 +64,29 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p>由于图像分辨率低、组件设置或两者兼而有之而无法缩放图像时显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">默认</span> </p> </td> 
+   <td colname="col2"> <p>由于图像分辨率低、组件设置或两者同时存在而导致图像无法缩放时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">放大</span> </p> </td> 
    <td colname="col2"> <p>在可以放大图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
-   <td colname="col2"> <p>在图像处于最大缩放级别时显示，并且可以重置为初始状态。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">重置</span> </p> </td> 
+   <td colname="col2"> <p>当图像处于最大缩放级别时显示，并且可以重置为初始状态。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">拖动</span> </p> </td> 
    <td colname="col2"> <p>当用户平移处于缩放状态的图像时显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
-   <td colname="col2"> <p>用户通过执行水平轻扫或轻扫执行图像交换时显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">张幻灯片</span> </p> </td> 
+   <td colname="col2"> <p>当用户通过执行水平轻扫或轻扫执行图像交换时显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-使用以下CSS类选择器可控制用于视觉上分隔目录跨页的左右页面的页面分隔符：
+可通过以下CSS类选择器控制用于视觉上分隔目录跨页左页和右页的页面分隔符：
 
 `.s7ecatalogviewer .s7pageview .s7pagedivider`
 
@@ -99,17 +99,17 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 页分隔符的宽度。 设置为 <span class="codeph"> 0 </span> px可完全隐藏分隔线。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
+   <td colname="col2"> <p> 页面分隔符的宽度。 设置为<span class="codeph"> 0 </span>像素，以完全隐藏分隔符。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>要用作页面分隔符的图像。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 具有40像素的宽分页符，带有半透明图像。
+示例 — 具有40像素宽分页符和半透明图像。
 
 ```
 .s7ecatalogviewer .s7pageview .s7pagedivider { 
@@ -120,9 +120,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->当 `frametransition` 修饰符设置为 `turn` 或 `auto` （在桌面系统上），分页器的外观由 `pageturnstyle` 修饰符和 `.s7pagedivider` CSS类被忽略。
+>当`frametransition`修饰符设置为`turn`或`auto`（在桌面系统上）时，通过`pageturnstyle`修饰符控制页面分隔符的外观，并忽略`.s7pagedivider` CSS类。
 
-可以在主查看器区域上配置自定义鼠标光标的显示。 此功能通过应用到的其他属性选择器来控制 `.s7ecatalogviewer .s7pageview` CSS类：
+可以在主查看器区域上配置自定义鼠标游标的显示。 此功能通过应用于`.s7ecatalogviewer .s7pageview` CSS类的其他属性选择器进行控制：
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,29 +133,29 @@ ht-degree: 4%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 默认 </span> </p> </td> 
-   <td colname="col2"> <p> 通常，为不可缩放的图像显示箭头。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">默认</span> </p> </td> 
+   <td colname="col2"> <p> 通常为箭头，对于不可缩放的图像显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">放大</span> </p> </td> 
    <td colname="col2"> <p> 显示何时可以放大图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重置 </span> </p> </td> 
-   <td colname="col2"> <p>显示图像何时处于最大缩放并可重置。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">重置</span> </p> </td> 
+   <td colname="col2"> <p>显示图像何时达到最大缩放并可重置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 拖动 </span> </p> </td> 
-   <td colname="col2"> <p>显示用户何时对已缩放的图像执行拖动操作 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">拖动</span> </p> </td> 
+   <td colname="col2"> <p>显示用户何时对放大图像执行拖动操作 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 幻灯片 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">张幻灯片</span> </p> </td> 
    <td colname="col2"> <p>显示用户何时使用幻灯片手势执行图像交换 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 每种类型的组件状态都有不同的鼠标光标。
+示例 — 每种类型的组件状态都有不同的鼠标游标。
 
 ```
 .s7ecatalogviewer .s7pageview[cursortype="default"] { 

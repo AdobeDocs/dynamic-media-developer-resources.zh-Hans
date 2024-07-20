@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 2%
 
 <table id="simpletable_627E67D201744588815325F3C55F76A5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">值</span></span> </p> </td> 
   <td class="stentry"> <p>图像高度，以像素为单位（int大于0）。 </p></td> 
  </tr> 
 </table>
 
-栅格格式使用“默认视图大小”（或DefaultPix设置）渲染。 选择 **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**，然后输入宽度和高度值。 尺寸越小，性能越高。 保存设置并执行图像服务发布以应用更改。
+栅格格式使用“默认视图大小”（或DefaultPix设置）渲染。 选择&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL Publish设置]** > **[!UICONTROL 图像服务器]**，然后输入宽度和高度值。 尺寸越小，性能越高。 保存您的设置并执行图像服务Publish以应用更改。
 
-如果您应用 `scale=1` 命令，栅格格式请求将以FXG中指定的大小呈现。
+如果应用`scale=1`命令，则栅格格式请求将以FXG中指定的大小呈现。
 
 ## 默认 {#section-76ee3daa77cb468ab310821357cc9404}
 
-如果 `wid=`， `hei=`，或 `scale=` 未指定，回复图像是FXG文件中指定的默认视图大小。
+如果未指定`wid=`、`hei=`或`scale=`，则回复图像是FXG文件中指定的默认视图大小。
 
 ## 示例 {#section-a91c14d31e71481ba054412d9f642885}
 

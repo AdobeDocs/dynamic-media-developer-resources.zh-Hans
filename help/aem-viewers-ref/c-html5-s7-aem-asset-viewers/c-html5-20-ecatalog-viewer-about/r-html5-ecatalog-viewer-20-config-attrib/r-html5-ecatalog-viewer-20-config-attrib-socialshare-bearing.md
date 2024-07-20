@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上|下|左|右|适合 — 垂直|适合 — 横向 </span> </p> </td> 
-   <td colname="col2"> <p> 指定按钮容器的幻灯片动画方向。 </p> <p> 当设置为 <span class="codeph"> 向上 </span>， <span class="codeph"> 下 </span>， <span class="codeph"> left </span>，或 <span class="codeph"> 右 </span>时，面板会以指定方向转出，而不会进行额外的边界检查。 此行为可能导致面板被外部容器剪切。 </p> <p>当设置为 <span class="codeph"> 垂直适合 </span>，组件首先将基础面板位置移到SocialShare的底部，然后尝试从此类基础位置从底部、右侧或左侧转出面板。 在每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基础面板位置移至顶部，并重复从顶部、右侧和左侧尝试转出的操作。 </p> <p>当设置为 <span class="codeph"> 拟合横向 </span>，组件使用与fit-vertical类似的逻辑。 但是，它会将基面移动到右侧，首先尝试向右、向下和向上转出方向，然后将基面移动到左侧，尝试向左、向下和向上转出方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">向上|向下|向左|向右|适合 — 垂直|适合 — 横向</span> </p> </td> 
+   <td colname="col2"> <p> 指定按钮容器的幻灯片动画方向。 </p> <p> 当设置为<span class="codeph">，上移至</span>，<span class="codeph">下移至</span>，<span class="codeph">左移至</span>，或<span class="codeph">右移至</span>时，面板将按指定方向转出，而无需额外的边界检查。 此行为可能导致面板被外部容器剪切。 </p> <p>当设置为<span class="codeph"> fit-vertical </span>时，组件首先将基础面板位置移到SocialShare的底部，然后尝试从此类基础位置从底部、右侧或左侧推出面板。 在每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基础面板位置移至顶部并重复从顶部、右侧和左侧尝试转出。 </p> <p>当设置为<span class="codeph">拟合横向</span>时，组件使用与拟合垂直方向类似的逻辑。 但是，它首先向右移动基座，然后向右、向下、向上转出方向，然后将基座向左移动，尝试向左、向下、向上转出方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

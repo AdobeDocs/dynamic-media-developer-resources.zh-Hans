@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '63'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 应用于图像的图像服务命令字符串。  如果在URL中指定，请确保对所有匹配项进行HTTP编码 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> </td> 
+   <td colname="col2"> <p> 应用于图像的图像服务命令字符串。  如果在URL中指定，请确保对<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项进行HTTP编码，分别表示<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

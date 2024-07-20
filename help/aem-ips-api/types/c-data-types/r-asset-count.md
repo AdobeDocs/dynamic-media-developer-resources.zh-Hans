@@ -16,9 +16,9 @@ ht-degree: 10%
 
 公司的资产类型和计数。
 
-资源类型包括 [!DNL ViewerSWf]， [!DNL PDF]， [!DNL Cabinet]和其他。
+资源类型包括[!DNL ViewerSWf]、[!DNL PDF]、[!DNL Cabinet]等。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 资产类型 | `xsd:string` | 与计数关联的资源类型。 |
-| 计数 | `sd:int` | 数量 `assetType` 公司中的资产。 |
+| 计数 | `sd:int` | 公司中`assetType`资源的数量。 |

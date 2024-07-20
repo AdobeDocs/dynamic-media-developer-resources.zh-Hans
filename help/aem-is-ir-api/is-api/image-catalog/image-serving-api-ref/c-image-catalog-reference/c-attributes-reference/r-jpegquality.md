@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '82'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 默认 {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
-继承自 `default::JpegQuality` 如果未定义或为空。
+如果未定义或为空，则从`default::JpegQuality`继承。
 
 ## 另请参阅 {#section-aa994afc02ea4f799655233ea32d36c9}
 

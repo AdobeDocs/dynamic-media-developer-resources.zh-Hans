@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 12%
+source-wordcount: '125'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | assetHandle | `xsd:string` | 资产句柄。 |
-| 类型 | `xsd:string` | 资源类型. “资产类型”常量定义可能的值。 可选. |
+| 类型 | `xsd:string` | 资源类型。 “资产类型”常量定义可能的值。 可选. |
 | 名称 | `xsd:string` | 资源名称。 可选. |
 | 文件夹 | `xsd:string` | 包含资产的文件夹。 |
 | 文件名 | `xsd:string` | 资源的文件名。 |

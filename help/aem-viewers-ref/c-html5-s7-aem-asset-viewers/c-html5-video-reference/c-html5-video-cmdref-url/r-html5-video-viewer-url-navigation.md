@@ -8,7 +8,7 @@ exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 13%
 
 ` navigation= *`文件`*`
 
-查看器支持通过托管的WebVTT文件导航视频章节。 不支持提示定位运算符。
+查看器支持通过托管的WebVTT文件进行视频章节导航。 不支持提示定位运算符。
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 文件</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">文件</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定WebVTT导航内容的URL或路径。 图像服务应托管WebVTT文件。 </p> </td> 
   </tr> 
  </tbody> 

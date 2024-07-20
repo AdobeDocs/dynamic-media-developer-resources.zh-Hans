@@ -8,7 +8,7 @@ exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Video360查看器的URL命令。
 
 ## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选. 标准SaaS使用不需要。
+可选。 对于标准SaaS使用不需要。
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

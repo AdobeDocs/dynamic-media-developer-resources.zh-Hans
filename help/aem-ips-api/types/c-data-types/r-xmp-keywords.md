@@ -8,7 +8,7 @@ exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 21%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 个项目</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>以逗号分隔的要合并到的关键字列表 <span class="codeph"> dc：subject=</span> XMP属性节点。 如果逗号出现在任何单个值中，则需要使用反斜杠(\)字符进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">项</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3"> <p>合并到<span class="codeph"> dc：subject=</span> XMP属性节点的逗号分隔关键字列表。 如果逗号出现在任何单个值中，则需要使用反斜杠(\)字符对其进行转义。 反斜杠字母为常见的双反斜杠 (\\)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

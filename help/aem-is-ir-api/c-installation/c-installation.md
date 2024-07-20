@@ -8,7 +8,7 @@ exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 4%
 
 安装图像服务包括两个主要的服务器组件：
 
-* 图像服务器. 独立的本机代码可执行文件。
-* [!DNL Platform Server]. 独立的Java™ Web应用程序和应用程序服务器。
+* 图像服务器。 独立的原生代码可执行文件。
+* [!DNL Platform Server]。 独立的Java™ Web应用程序和应用程序服务器。
 
-图像渲染是这两个服务器组件的一部分。
+“图像渲染”是这两个服务器组件的一部分。
 
-在后续的说明中， `install_root` 是指安装了图像服务和图像渲染的根文件夹。 和 `server:port` 是指配置为的主侦听端口的主机名或IP地址和端口号。 [!DNL Platform Server].
+在后续说明中，`install_root`引用安装了图像提供和图像渲染的根文件夹。 且`server:port`引用配置为[!DNL Platform Server]的主侦听端口的主机名或IP地址和端口号。
 
 * [许可](c-licensing.md)
 * [内容](c-contents.md)

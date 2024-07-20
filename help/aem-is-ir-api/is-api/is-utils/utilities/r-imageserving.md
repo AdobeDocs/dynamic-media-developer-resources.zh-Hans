@@ -8,7 +8,7 @@ exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -31,24 +31,24 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 启动 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">开始</span> </p> </td> 
    <td colname="col2"> <p> 启动“服务器监控器”和所有其他图像服务组件。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 停止 </span> </p> </td> 
-   <td colname="col2"> <p> 停止所有图像服务组件，包括服务器监控程序。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">停止</span> </p> </td> 
+   <td colname="col2"> <p> 停止所有图像服务组件，包括服务器主管。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重新启动 </span> </p> </td> 
-   <td colname="col2"> <p>重新启动所有图像服务组件，包括服务器监控程序。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">重新启动</span> </p> </td> 
+   <td colname="col2"> <p>重新启动所有图像服务组件，包括服务器主管。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 重新启动{ ps |是 | svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">重新启动{ ps | 是 | svg } </span> </p> </td> 
    <td colname="col2"> <p> 重新启动Tomcat/[!DNL Platform Server]、图像服务器或SVG。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 状态[ ps |是 | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>返回图像服务器Tomcat/的正常运行时间和当前内存使用信息[!DNL Platform Server]和SVGserver，或仅指定服务器的状态；如果服务器监控器未运行，则返回信息性消息。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">状态[ ps | 是 | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>返回图像服务器、Tomcat/[!DNL Platform Server]和SVGserver的正常运行时间和当前内存使用情况信息，或仅返回指定服务器的状态；如果服务器主管未运行，则返回信息性消息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

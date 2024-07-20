@@ -1,5 +1,5 @@
 ---
-description: 删除选定资产的权限。
+description: 从所选资源中删除权限。
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
 # removeAssetPermissions{#removeassetpermissions}
 
-删除选定资产的权限。
+从所选资源中删除权限。
 
 语法
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 
 **输出(removeAssetPermissionsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 

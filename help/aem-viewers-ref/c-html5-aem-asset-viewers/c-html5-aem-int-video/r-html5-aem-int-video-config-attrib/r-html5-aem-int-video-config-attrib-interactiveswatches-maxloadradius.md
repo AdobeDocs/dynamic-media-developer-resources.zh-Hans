@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>当设置为 <span class="codeph"> -1</span> 初始化组件或更改资源时，将同时加载所有样本。 </p> <p>当设置为 <span class="codeph"> 0</span> 仅加载可见样本。 </p> <p>设置为 <span class="codeph"><span class="varname"> preloadnbr</span></span> 定义可见区域周围预载多少不可见的行/列。 </p> </td> 
+   <td colname="col2"> <p> 指定组件预载行为。 </p> <p>当设置为<span class="codeph"> -1</span>时，在初始化组件或更改资产时，将同时加载所有样本。 </p> <p>当设置为<span class="codeph"> 0</span>时，将只加载可见的样本。 </p> <p>设置为<span class="codeph"><span class="varname"> preloadnbr</span></span>以定义可见区域周围预载多少不可见的行/列。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

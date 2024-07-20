@@ -22,6 +22,6 @@ CuePoint文件资源的属性。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 原始路径 | `xsd:string` | 提示点文件路径。 |
+| 原始路径 | `xsd:string` | CuePoint文件路径。 |
 | 原始文件 | `xsd:string` | CuePoint文件名。 |
 | fileSize | `xsd:int` | CuePoint文件大小。 |

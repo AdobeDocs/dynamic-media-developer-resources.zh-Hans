@@ -18,17 +18,17 @@ ht-degree: 2%
 
 允许将单独的蒙版附加到图像。
 
-服务器使用中所述的路径解析规则 [管理源数据](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) 以查找数据文件。
+服务器使用[管理Source数据](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)中描述的路径解析规则来查找数据文件。
 
 ## 属性 {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-文本字符串值。 可选. 如果已指定，则必须是有效的相对或绝对图像服务器文件路径。 `attribute::DefaultExt` 如果不存在文件后缀，则会附加。
+文本字符串值。 可选。 如果已指定，则必须是有效的相对或绝对图像服务器文件路径。 如果没有文件后缀，则会附加`attribute::DefaultExt`。
 
-如果两个主图像( `catalog::Path`)和蒙版图像( `catalog::MaskPath`)定义在目录记录中，两者必须具有完全相同的像素大小。 蒙版图像必须为8位灰度。
+如果在目录记录中定义了主图像(`catalog::Path`)和蒙版图像(`catalog::MaskPath`)，则两者必须具有完全相同的像素大小。 蒙版图像必须为8位灰度。
 
-`mask=` 在请求中覆盖 `catalog::MaskPath`.
+请求中的`mask=`覆盖`catalog::MaskPath`。
 
-`catalog::MaskPath` 覆盖主图像中的alpha通道( `catalog::Path`)，如果存在，并且未关联Alpha通道（即，不进行预乘）。 如果图像Alpha被预乘， `catalog::MaskPath` 将忽略，并始终使用Alpha通道。
+`catalog::MaskPath`覆盖主图像(`catalog::Path`)中的Alpha通道（如果存在），并且未关联Alpha通道（即未预乘）。 如果对图像alpha进行预乘，则忽略`catalog::MaskPath`并始终使用alpha通道。
 
 ## 默认 {#section-78533e35bfec469ba087cb68a35bb81b}
 
@@ -36,4 +36,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-68d262f5949c4959b8723ba44611d1dc}
 
-[属性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md)， [catalog：：Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c)， [蒙版=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)， [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)
+[attribute：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ， [attribute：：DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md)， [catalog：：Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c)， [mask=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)， [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)

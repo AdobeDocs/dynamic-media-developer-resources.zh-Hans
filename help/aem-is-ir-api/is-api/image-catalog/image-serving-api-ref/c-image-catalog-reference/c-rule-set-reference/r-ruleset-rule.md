@@ -1,5 +1,5 @@
 ---
-description: 规则容器元素。 有效的规则集文件包含一个 <ruleset> 元素。
+description: 规则容器元素。 有效的规则集文件包含一个<ruleset>元素。
 solution: Experience Manager
 title: 规则集
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # 规则集{#ruleset}
 
-规则容器元素。 有效的规则集文件包含一个 `<ruleset>` 元素。
+规则容器元素。 有效的规则集文件包含一个`<ruleset>`元素。
 
 ## 属性 {#section-70de3018c1254f6f978dc5ccfb4f8d01}
 
@@ -22,4 +22,4 @@ ht-degree: 9%
 
 ## 数据 {#section-e189386b60754fa29dd4db5709525c25}
 
-无或更多 `<rule>` 元素。
+没有或超过`<rule>`个元素。

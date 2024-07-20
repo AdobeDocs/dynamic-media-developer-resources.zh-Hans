@@ -22,5 +22,5 @@ ht-degree: 15%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 资源句柄。 |
+| assetHandle | `xsd:string` | 资产句柄。 |
 | publishState | `xsd:string` | 新建发布状态。 |

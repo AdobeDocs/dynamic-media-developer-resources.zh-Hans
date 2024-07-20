@@ -1,5 +1,5 @@
 ---
-description: 删除资源的元数据值。 使用元数据删除数组来设置批次中的值。
+description: 删除资源的元数据值。 使用元数据删除数组设置批次中的值。
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -8,13 +8,13 @@ exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-删除资源的元数据值。 使用元数据删除数组来设置批次中的值。
+删除资源的元数据值。 使用元数据删除数组设置批次中的值。
 
 语法
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->用户必须具有对资源的读取和删除权限。
+>用户必须具有资产的读取和删除权限。
 
 ## 参数 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -47,25 +47,25 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>companyHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>文件夹所属公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要删除的资源的句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要从资源中删除的元数据。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要从资源中删除的元数据数组。 </p> </td> 
   </tr> 
@@ -74,7 +74,7 @@ ht-degree: 13%
 
 **输出(deleteAssetMetadataParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-d5657289f5234bb0a613dcf691507958}
 

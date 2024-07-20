@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,34 +19,34 @@ ht-degree: 0%
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>描述/默认位置/设置</b> </th> 
+   <th class="entry"> <b>描述/默认位置/设置方式</b> </th> 
    <th class="entry"> <b>计算/推荐</b> </th> 
-   <th class="entry"> <b>注释</b> </th> 
+   <th class="entry"> <b>个评论</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><b>源图像、字体、ICC配置文件</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS：：RootPaths </span> </p> </td> 
+   <td> <p><b>Source图像、字体、ICC配置文件</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/映像</span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS：：RootPaths </span> </p> </td> 
    <td> <p>各不相同；请参阅下面的注释。 </p> </td> 
    <td> <p>只能供图像服务器访问；服务器从不修改数据。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>HTTP响应数据缓存</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS：：ResponseCacheFolders </span> </p> </td> 
-   <td> <p> <span class="codeph"> PlatformServer：：cache.maxSize </span> x 2；建议至少2 GB。 </p> </td> 
+   <td> <p> <span class="codeph"> PlatformServer：：cache.maxSize </span> x 2；建议至少为2 GB。 </p> </td> 
    <td> <p>此缓存还存储嵌套/嵌入的数据和外部源图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>图像目录数据缓存</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/catalog </span> </p> <p> <span class="codeph"> CS：：CatalogCacheFolder </span> </p> </td> 
+   <td> <p><b>图像目录数据缓存</b> </p> <p> <span class="filepath"> <span class="varname">安装文件夹</span>/缓存/目录</span> </p> <p> <span class="codeph"> CS：：CatalogCacheFolder </span> </p> </td> 
    <td> <p>允许目录文件夹使用空间的1.5倍。 </p> </td> 
    <td> <p>最初加载目录时填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>记录数据</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS：：LogFolder </span> </p> <p> <span class="codeph"> IS：：LogFile </span> </p> <p> <span class="codeph"> SV：：LogFile </span> </p> </td> 
+   <td> <p><b>记录数据</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/日志</span> </p> <p> <span class="codeph"> PS：：LogFolder </span> </p> <p> <span class="codeph"> IS：：LogFile </span> </p> <p> <span class="codeph"> SV：：LogFile </span> </p> </td> 
    <td> <p>100 MB或更多。 </p> </td> 
    <td> <p>该值因日志记录配置和服务器使用而异。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>图像服务器临时文件</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS：：TempDirectory </span> </p> <p> <span class="codeph"> SV：：TempDirectory </span> </p> </td> 
+   <td> <p><b>映像服务器临时文件</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS：：TempDirectory </span> </p> <p> <span class="codeph"> SV：：TempDirectory </span> </p> </td> 
    <td> <p>100 MB足以满足大多数使用要求。 </p> </td> 
    <td> <p>短期数据；对于PTIFF以外的源图像和某些响应图像格式可能需要。 </p> </td> 
   </tr> 
@@ -59,11 +59,11 @@ Adobe建议使用图像转换器命令行工具(IC)将所有源图像转换为�
 
 使用PTIFF文件时，以下经验规则可帮助您确定空间要求。
 
-*`total_space`* （字节）= *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
+*`total_space`* （字节） = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
-* *`avg_pixel_count`* 所有原始源图像的平均像素大小（宽度x高度）。 例如，如果原始图像通常在2,000像素×2,000像素左右，则为4,000,000像素。
-* *`avg_num_components`* 取决于图像的类型。 对于大多数RGB图像，其值为3；对于大多数CMYK或RGBA图像，其值为4。 如果一半图像RGB，另一半是RGBA，请使用3.5。
-* *`p_factor`* 取决于使用IC转换图像时设置的压缩类型和质量。
+* *`avg_pixel_count`*&#x200B;所有原始源图像的平均像素大小（宽度x高度）。 例如，如果原始图像通常在2,000像素×2,000像素左右，则为4,000,000像素。
+* *`avg_num_components`*&#x200B;取决于图像的类型。 对于大多数RGB图像，其值为3；对于大多数CMYK或RGBA图像，其值为4。 如果一半图像RGB，另一半是RGBA，请使用3.5。
+* *`p_factor`*&#x200B;取决于使用IC转换图像时设置的压缩类型和质量。
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
  <thead> 
@@ -98,4 +98,4 @@ Adobe建议使用图像转换器命令行工具(IC)将所有源图像转换为�
 
 *`total_space`* = 30,000 × (2k + 0.5k × 0.5k × 3 × 0.1) + 3 × 10,000 × (2k + 4k × 6k × 4 × 0.1) = 2.2 G + 268 GB =约270 GB
 
-为了保证最佳质量，可以采用zip等压缩。 假设 *`p_factor`* 如果为0.4，则所需总磁盘空间大约是四倍。 在本例中，略多于1 TB。
+为了保证最佳质量，可以采用zip等压缩。 假设&#x200B;*`p_factor`*&#x200B;为0.4，则所需总磁盘空间量大约是四倍。 在本例中，略多于1 TB。

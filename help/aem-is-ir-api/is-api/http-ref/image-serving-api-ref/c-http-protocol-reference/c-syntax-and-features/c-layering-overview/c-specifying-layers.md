@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 图层定义序列中的所有命令都与图层相关联。
 
-此 `layer=` command指定图层编号，它必须是大于或等于0的整数。 图层定义序列中具有相同图层编号的所有命令都应用于同一图层。 如果同一命令多次出现，则最后一个实例将占上风。
+`layer=`命令指定了层号，该层号必须是大于或等于0的整数。 图层定义序列中具有相同图层编号的所有命令都应用于同一图层。 如果同一命令多次出现，则最后一个实例将占上风。

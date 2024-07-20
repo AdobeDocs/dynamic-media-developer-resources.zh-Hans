@@ -8,7 +8,7 @@ exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 19%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
 | updateChilds | `xsd:boolean` | 是 | 确定是否使用为顶级文件夹设置的权限更新子级。 |
 | updateArray | `types:PermissionUpdateArray` | 是 | 要应用于文件夹的权限更新数组。 |
 
 **输出(updateFolderPermissionsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-c3fe4d4388674870a3856c35ef66b631}
 

@@ -1,6 +1,6 @@
 ---
 title: 弹出
-description: 弹出查看器是一个图像查看器。 它显示一个静态图像，该图像带有用户激活的弹出视图中所显示的缩放版本。 此查看器可处理图像集，并且使用样本完成导航。 它设计为可在台式机和移动设备上工作。
+description: 弹出查看器是图像查看器。 它会显示一个静态图像，该图像带有用户激活的弹出视图中显示的缩放版本。 此查看器适用于图像集，并且使用样本完成导航。 它设计为可在台式机和移动设备上工作。
 keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
@@ -8,14 +8,14 @@ role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
 
 # 弹出{#flyout}
 
-弹出查看器是一个图像查看器。 它显示一个静态图像，该图像带有用户激活的弹出视图中所显示的缩放版本。 此查看器可处理图像集，并且使用样本完成导航。 它设计为可在台式机和移动设备上工作。
+弹出查看器是图像查看器。 它会显示一个静态图像，该图像带有用户激活的弹出视图中显示的缩放版本。 此查看器适用于图像集，并且使用样本完成导航。 它设计为可在台式机和移动设备上工作。
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 查看器类型为504。
 
-参见 [系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+请参阅[系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
 ## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 使用弹出查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-弹出查看器表示一个主JavaScript文件和一组帮助文件（单个JavaScript包含由此特定查看器使用的所有Viewer SDK组件、资产、CSS），这些文件由查看器在运行时下载
+弹出查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有Viewer SDK组件、资源、CSS)，这些文件由查看器在运行时下载
 
-弹出查看器仅用于嵌入式用途，这意味着它使用文档记录的API集成到网页中。 没有可用于弹出查看器的生产就绪网页。
+弹出查看器仅用于嵌入用途，这意味着它使用文档记录的API集成到网页中。 没有可用于弹出查看器的生产就绪网页。
 
 其配置和外观设计与其他查看器的配置和外观设计类似。 您可以使用自定义CSS来应用外观设置。
 
-参见 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+查看所有查看者通用的[命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有查看者通用的[命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 与弹出查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -53,15 +53,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>单点按 </p> </td> 
-   <td colname="col2"> <p> 激活弹出视图或在主要缩放级别和次要缩放级别之间更改。 </p> </td> 
+   <td colname="col2"> <p> 激活弹出视图或在主缩放级别和次缩放级别之间进行更改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>水平轻扫或轻扫 </p> </td> 
-   <td colname="col2"> <p> 在色板栏中滚动浏览色板列表。 </p> </td> 
+   <td colname="col2"> <p> 在样本栏中滚动样本列表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>垂直轻扫 </p> </td> 
-   <td colname="col2"> <p>如果笔势在样本区域中完成，它将执行本机页面滚动。 </p> </td> 
+   <td colname="col2"> <p>如果该手势在样本区域内完成，则会执行本机页面滚动。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,38 +70,38 @@ ht-degree: 0%
 
 此查看器可使用键盘完全访问。
 
-参见 [键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+请参阅[键盘辅助功能和导航](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)。
 
 ## 嵌入弹出查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-不同的网页对查看者的行为有不同的需求。 网页可能具有静态页面布局，或者使用响应式设计，该设计在不同的设备上显示不同，或者用于不同的浏览器窗口大小。 为了满足这些需求，查看器支持两种主要操作模式：固定大小嵌入和响应式设计嵌入。
+不同的网页对查看者的行为具有不同的需求。 该网页可能具有静态页面布局，或者使用在不同设备上显示不同或者用于不同浏览器窗口大小的响应式设计。 为了满足这些需求，查看器支持两种主要操作模式：固定大小嵌入和响应式设计嵌入。
 
 当查看器在初始加载后未更改其大小时，使用固定大小嵌入模式。 此选项最适合具有静态页面布局的网页。
 
-响应式设计嵌入模式假定查看器必须在运行时调整大小以响应其容器的大小更改 `DIV`. 最常见的用例是将查看器添加到使用灵活页面布局的网页。
+响应式设计嵌入模式假定查看器必须在运行时调整大小以响应其容器`DIV`的大小更改。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在弹出查看器中使用响应式设计嵌入模式时，请确保使用 `imagereload` 参数。 理想情况下，将断点与网页CSS指令的查看器宽度断点相匹配。
+在弹出查看器中使用响应式设计嵌入模式时，请确保使用`imagereload`参数为主视图图像指定显式断点。 理想情况下，将断点与网页CSS指令的查看器宽度断点相匹配。
 
-在响应式设计嵌入模式下，查看器的行为方式因网页容器的方式而异 `DIV` 大小。 如果网页仅设置容器的宽度 `DIV`，并保持其高度不受限制，则查看器会根据所用资源的纵横比自动选择其高度。 这项功能意味着资源可以完美地融入视图，而不需要两侧任何边距。 此特定用例最常见于使用响应式设计布局框架(如Bootstrap和Foundation)的网页。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页容器`DIV`的大小方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 这项功能意味着资产可以完美地融入视图中，而不会有任何边距。 此特定用例最常见于使用响应式设计布局框架(如Bootstrap和Foundation)的网页。
 
-否则，如果网页同时设置了查看器容器的宽度和高度 `DIV`，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的用例示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
+否则，如果网页同时设置了查看器容器`DIV`的宽度和高度，则查看器将仅填充该区域，并遵循网页布局提供的大小。 一个良好的用例示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
 **固定大小嵌入**
 
 通过执行以下操作将查看器添加到网页：
 
-1. 将查看器JavaScript文件添加到网页。
-1. 定义容器 `DIV`.
+1. 正在将查看器JavaScript文件添加到您的网页。
+1. 正在定义容器`DIV`。
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
-1. 将查看器JavaScript文件添加到网页。
+1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括 `FlyoutViewer.js`. `FlyoutViewer.js` 如下所示 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括`FlyoutViewer.js`。 `FlyoutViewer.js`在标准IS-Viewers部署的以下[!DNL html5/js/]子文件夹中：
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，请指定已安装IS-Viewers的某个AdobeDynamic Media服务器的完整路径。
+如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您可以指定已安装IS-Viewers的某个AdobeDynamic Media服务器的完整路径。
 
 相对路径如下所示：
 
@@ -111,18 +111,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用主查看器JavaScript `include` 文件。 请勿在网页代码中引用任何可能由查看器的逻辑在运行时下载的其他JavaScript文件。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
->因此，直接引用任何辅助JavaScript `include` 将来部署新产品版本时，页面上查看器使用的功能会中断查看器。
+>因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
 
 1. 定义容器DIV。
 
-   向要显示查看器的页面中添加一个空DIV元素。 DIV元素必须定义其ID，因为此ID稍后会被传递到查看器API。
+   向要显示查看器的页面添加一个空DIV元素。 DIV元素必须定义其ID，因为此ID稍后将传递到查看器API。
 
-   占位符DIV是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
+   占位符DIV是定位元素，这意味着`position` CSS属性设置为`relative`或`absolute`。
 
-   网页有责任指定 `z-index` 占位符DIV元素的位置。 这样做可确保查看器的弹出部分显示在其他网页元素的上方。
+   网页负责为占位符DIV元素指定适当的`z-index`。 这样做可确保查看器的弹出部分显示在其他网页元素的上方。
 
    以下是定义的占位符DIV元素的示例：
 
@@ -132,11 +132,11 @@ ht-degree: 0%
 
 1. 设置查看器大小。
 
-   此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩略图放在主视图下方。 同时，查看器允许在运行时使用交换主资源 `setAsset()` API。 作为开发人员，当新资产只有一个项目时，您可以控制查看器管理底部区域中缩略图区域的方式。 可以保持外部查看器大小不变，并让主视图增加其高度并占据缩略图区域。 或者，您可以保持主视图大小为静态并折叠外部查看器区域，让网页内容向上移动，然后使用缩略图上剩余的自由页面空间。
+   此查看器在处理多项目集时显示缩略图。 在桌面系统上，缩览图位于主视图的下方。 同时，查看器允许在运行时使用`setAsset()` API交换主资源。 作为开发人员，当新资产只有一个项目时，您可以控制查看器管理底部区域中缩略图区域的方式。 可以保持外部查看器大小不变，并允许主视图增加其高度并占据缩略图区域。 或者，您可以保持主视图大小为静态并折叠外部查看器区域，让网页内容向上移动，然后使用缩略图中的剩余自由页面区域。
 
-   要保持外部查看器边界不变，请定义 `.s7flyoutviewer` 以绝对单位表示的顶级CSS类。 CSS大小调整可以直接放在“HTML”页面或自定义查看器CSS文件中，稍后可将其分配给Dynamic Media Classic中的查看器预设记录，也可以使用style命令显式传递。
+   要保持外部查看器边界不变，请定义`.s7flyoutviewer`顶级CSS类的大小（以绝对单位表示）。 CSS的大小调整可以直接放在HTML页面或自定义查看器CSS文件中，稍后可将其分配给Dynamic Media Classic中的查看器预设记录，或者使用style命令显式传递。
 
-   参见 [自定义弹出查看器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) 有关使用CSS为查看器设置样式的更多信息。
+   有关使用CSS设置查看器样式的详细信息，请参阅[自定义弹出查看器](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)。
 
    以下是在HTML页中定义静态外部查看器大小的示例：
 
@@ -147,13 +147,13 @@ ht-degree: 0%
    }
    ```
 
-   您可以在下面的示例页面上看到带有固定外部查看器区域的行为。 请注意，在集之间切换时，外部查看器大小不会更改：
+   您可以在下面的示例页面上看到带有固定外部查看器区域的行为。 请注意，在组之间切换时，外部查看器大小不会更改：
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   要使主视图尺寸为静态尺寸，请以绝对单位为内部视图定义查看器大小 `Container` 使用的SDK组件 `.s7flyoutviewer .s7container` css选择器。 此外，您应该覆盖为定义的固定大小 `.s7flyoutviewer` 默认查看器CSS中的顶级CSS类，方法是将其设置为 `auto`.
+   要使主视图维度为静态维度，请使用`.s7flyoutviewer .s7container` CSS选择器为内部`Container` SDK组件定义查看器大小（以绝对单位表示）。 此外，您应将默认查看器CSS设置为`auto`，以覆盖为`.s7flyoutviewer`顶级CSS类定义的固定大小。
 
-   以下是定义内部视图的查看器大小的示例 `Container` SDK组件，以便在切换资源时主视图区域不会更改其大小：
+   下面是定义内部`Container` SDK组件的查看器大小的示例，以便主视图区域在切换资产时不会更改其大小：
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -166,21 +166,21 @@ ht-degree: 0%
    }
    ```
 
-   以下示例页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态，网页内容将垂直移动：
+   以下示例页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态状态，网页内容将垂直移动：
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
-   此外，默认查看器CSS为其外部区域提供固定大小的现成可用大小。
+   此外，默认查看器CSS为开箱即用的外部区域提供固定大小。
 
 1. 创建和初始化查看器。
 
-   完成上述步骤后，您将创建一个实例 `s7viewers.FlyoutViewer` 类，将所有配置信息传递到其构造函数，并调用 `init()` 方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有 `containerId` 保存查看器容器ID名称并嵌套的字段 `params` 包含查看器支持的配置参数的JSON对象。 在本例中， `params` 对象必须至少将图像服务URL传递为 `serverUrl` 资产，而初始资产为 `asset` 参数。 基于JSON的初始化API允许您使用一行代码创建和启动查看器。
+   完成上述步骤后，创建`s7viewers.FlyoutViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段包含查看器容器ID的名称，并嵌套`params` JSON对象以及查看器支持的配置参数。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   将查看器容器添加到DOM很重要，这样查看器代码就可以按其ID找到容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标签上，或正文上 `onload()` 事件。
+   将查看器容器添加到DOM很重要，这样查看器代码就可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素还不一定是网页布局的一部分。 例如，可使用以下方式隐藏该内容： `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载会自动恢复。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 进行此操作后，查看器加载会自动恢复。
 
-   以下示例介绍了如何创建查看器实例，将所需的最少配置选项传递给构造函数并调用 `init()` 方法。 此示例假定 `flyoutViewer` 是查看器实例； `s7viewer` 是占位符的名称 `DIV`； `http://s7d1.scene7.com/is/image/` 是图像服务URL；以及 `Scene7SharedAssets/ImageSet-Views-Sample` 是资产：
+   以下示例用于创建查看器实例，将所需的最少配置选项传递给构造函数并调用`init()`方法。 该示例假设`flyoutViewer`是查看器实例；`s7viewer`是占位符`DIV`的名称；`http://s7d1.scene7.com/is/image/`是图像服务URL；`Scene7SharedAssets/ImageSet-Views-Sample`是资源：
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 ## 高度不受限制的响应式设计嵌入 {#section-056cb574713c4d07be6d07cf3c598839}
 
-通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器的运行时大小 `DIV`. 对于以下示例，假设网页允许查看器的容器 `DIV` 将网页浏览器窗口大小的40%保留为无限制高度。 网页HTML代码如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器`DIV`的运行时大小。 对于以下示例，假设网页允许查看者的容器`DIV`占用Web浏览器窗口大小的40%，并且其高度不受限制。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -243,18 +243,18 @@ ht-degree: 0%
 </html>
 ```
 
-将查看器添加到此类页面与固定大小嵌入的步骤类似。 唯一的区别是，必须使用以相对单位设置的大小覆盖默认查看器CSS的固定大小。
+将查看器添加到此类页面与嵌入固定大小的步骤类似。 唯一的区别是，必须使用以相对单位设置的大小覆盖默认查看器CSS的固定大小。
 
-1. 将查看器JavaScript文件添加到网页。
-1. 定义容器 `DIV`.
+1. 正在将查看器JavaScript文件添加到您的网页。
+1. 正在定义容器`DIV`。
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
-上述所有步骤与固定大小嵌入的步骤相同，但有以下三个例外：
+上述所有步骤与嵌入固定大小相同，但以下三个例外：
 
-* 添加容器 `DIV` 至现有“持有人” `DIV`；
-* 已添加 `imagereload` 带显式断点的参数；
-* 与使用绝对单位设置固定的查看器大小不同，请使用CSS将查看器宽度和高度设置为100%，如下所示：
+* 将容器`DIV`添加到现有“持有者”`DIV`；
+* 添加了具有显式断点的`imagereload`参数；
+* CSS将查看器宽度和高度设置为100%，而不是使用绝对单位设置固定的查看器大小，如下所述：
 
 ```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
@@ -263,7 +263,7 @@ ht-degree: 0%
 }
 ```
 
-以下代码是一个完整的示例。 请注意浏览器调整大小时查看器大小的变化情况，以及查看器长宽比与资源的匹配情况。
+以下代码是一个完整的示例。 请注意当浏览器调整大小时查看器大小如何变化，以及查看器纵横比如何与资源匹配。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -306,7 +306,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 ## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 
-如果定义了宽度和高度的灵活大小嵌入，则网页的样式会不同。 它将两种大小提供给 `"holder"` DIV并将其置于浏览器窗口中居中。 此外，该网页还设置 `HTML` 和 `BODY` 元素为100%。
+如果定义了宽度和高度的灵活大小嵌入，则网页样式会不同。 它为`"holder"` DIV提供两种大小，并将其放在浏览器窗口中居中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%。
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -332,7 +332,7 @@ height: 60%;
 </html>
 ```
 
-其余嵌入步骤与用于高度不受限制的响应式设计嵌入的步骤相同。 产生的示例如下：
+其余嵌入步骤与用于高度不受限制的响应式设计嵌入的步骤相同。 生成的示例如下：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -377,9 +377,9 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 ## 使用基于Setter的API进行嵌入 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不接受任何参数，并且配置参数是使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法，具有单独的JavaScript调用。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会接受任何参数，配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
 
-以下示例说明了如何将固定大小嵌入与基于setter的API结合使用：
+以下示例说明了如何将固定大小嵌入与基于setter的API一起使用：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

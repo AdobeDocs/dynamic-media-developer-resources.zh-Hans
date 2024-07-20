@@ -1,5 +1,5 @@
 ---
-description: 粗体旗帜。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
+description: 粗体旗帜。 指定在RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
 solution: Experience Manager
 title: 粗体
 feature: Dynamic Media Classic,SDK/API
@@ -8,17 +8,17 @@ exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # 粗体{#bold}
 
-粗体旗帜。 指定当RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
+粗体旗帜。 指定在RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
 
 ## 属性 {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-标记. 字体映射的可选辅助索引键。
+标志。 字体映射的可选辅助索引键。
 
 ## 默认 {#section-ee7e72f864c5463b963b4b2b513bfad7}
 

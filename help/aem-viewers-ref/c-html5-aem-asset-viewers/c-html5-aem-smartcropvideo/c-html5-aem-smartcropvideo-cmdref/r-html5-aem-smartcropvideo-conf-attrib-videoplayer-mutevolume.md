@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在首次加载时将视频播放设置为静音模式。 如果设置为 <span class="codeph"> 1 </span> 音量已静音；否则，视频将播放声音。 在某些设备上，加载时将视频播放静音还允许视频自动播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 在初始加载时为视频播放设置静音模式。 如果设置为<span class="codeph"> 1 </span>，则音量将静音；否则，视频将播放声音。 在某些设备上，加载时将视频播放静音还允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

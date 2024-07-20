@@ -1,7 +1,7 @@
 ---
-description: 除了目录RootId之外，所有目录属性都是可选的。
+description: 除目录RootId之外，所有目录属性都是可选的。
 solution: Experience Manager
-title: 属性参考
+title: 属性引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# 属性参考{#attributes-reference}
+# 属性引用{#attributes-reference}
 
 除catalog：：RootId之外，所有目录属性都是可选的。
 
-默认目录属性文件中需要所有属性( [!DNL default.ini])。
+默认目录属性文件([!DNL default.ini])中的所有属性都是必需的。
 
 * [AllowDirectaccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
@@ -27,27 +27,27 @@ ht-degree: 2%
 * [CacheValidationPolicy](r-cachevalidationpolicy.md)
 * [Clientaddresfilter](r-clientaddressfilter.md)
 * [目录文件](r-catalogfile.md)
-* [默认过期](r-defaultexpiration.md)
-* [默认分机](r-defaultext.md)
+* [DefaultExpiration](r-defaultexpiration.md)
+* [DefaultExt](r-defaultext.md)
 * [默认字体](r-defaultfont.md)
 * [默认图像](r-is-cat-defaultimage.md)
 * [默认图像模式](r-defaultimagemode.md)
 * [默认区域设置](r-defaultlocale.md)
-* [Defaultpix](r-defaultpix.md)
+* [默认像素](r-defaultpix.md)
 * [DefaultThumbPix](r-defaultthumbpix.md)
 * [DigimarcId](r-digimarcid.md)
 * [DigimarcInfo](r-digimarcinfo.md)
 * [错误图像](r-errorimage.md)
-* [ErrorDetail](r-errordetail.md)
+* [错误详细信息](r-errordetail.md)
 * [過期](r-expiration.md)
 * [字体映射文件](r-fontmapfile.md)
 * [完全匹配](r-fullmatch.md)
 * [HttpAppleStreamingContext](r-httpapplestreamingcontext.md)
 * [HttpFlashStreamingContext](r-httpflashstreamingcontext.md)
 * [IccBlackPoint补偿](r-iccblackpointcompensation.md)
-* [IccDither](r-iccdither.md)
+* [Icc仿色](r-iccdither.md)
 * [IccProfileCmyk](r-iccprofilecmyk.md)
-* [Icc配置文件灰色](r-iccprofilegray.md)
+* [IccProfileGray](r-iccprofilegray.md)
 * [IccProfileMapFile](r-iccprofilemapfile.md)
 * [IccProfileRgb](r-iccprofilergb.md)
 * [IccProfileSrcCmyk](r-iccprofilesrccmyk.md)
@@ -59,10 +59,10 @@ ht-degree: 2%
 * [区域设置字符串映射](r-localestrmap.md)
 * [宏文件](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
-* [非图像过期](r-nonimgexpiration.md)
+* [NonImgExpiration](r-nonimgexpiration.md)
 * [发布信息](r-publishinfo.md)
 * [打印分辨率](r-printresolution.md)
-* [Requestlock](r-requestlock.md)
+* [RequestLock](r-requestlock.md)
 * [请求模糊处理](r-requestobfuscation.md)
 * [解析模式](r-is-cat-resmode.md)
 * [分辨率](r-resolution.md)
@@ -72,11 +72,11 @@ ht-degree: 2%
 * [规则集文件](r-rulesetfile.md)
 * [保存路径](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
-* [StaticContentRootPath](r-staticcontentrootpath.md)
+* [StaticContentRoot路径](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [合成字体样式](r-synthesizefontstyles.md)
+* [SynthesizeFontStyles](r-synthesizefontstyles.md)
 * [ThumbbkgColor](r-thumbbkgcolor.md)
-* [缩略图](r-thumbhorizalign.md)
+* [缩略图对齐](r-thumbhorizalign.md)
 * [缩略图](r-thumbres.md)
 * [缩略图类型](r-thumbtype.md)
 * [ThumbVertAlign](r-thumbvertalign.md)
@@ -85,5 +85,5 @@ ht-degree: 2%
 * [TrustedDomains](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [视频比特率](r-videobitrate-cat.md)
-* [Videosize](r-videosize-cat.md)
+* [VideoSize](r-videosize-cat.md)
 * [水印](r-watermark.md)

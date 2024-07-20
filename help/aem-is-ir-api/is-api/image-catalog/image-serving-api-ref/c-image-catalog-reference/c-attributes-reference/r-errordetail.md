@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java栈栈跟踪。 错误图像从不包含栈栈跟踪，而是在中返回级别2信息 <span class="codeph"> $error.message</span>. 在向Dynamic Media技术支持报告问题时，此信息可能会很有用。 </p></td> 
+  <td class="stentry"> <p>完整的调试信息。 在适用的情况下添加Java栈栈跟踪。 错误图像从不包含栈栈跟踪，而是在<span class="codeph"> $error.message</span>中返回级别2信息。 在向Dynamic Media技术支持报告问题时，此信息可能会很有用。 </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 默认 {#section-8f27098e509945a18676aca0675c8f41}
 
-继承自 `default::ErrorDetail` 如果未指定或为空。
+如果未指定或为空，则从`default::ErrorDetail`继承。
 
 ## 另请参阅 {#section-5451b0525ed74121950bfc34726c3970}
 

@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->仅返回用户具有读取权限的资产。
+>仅返回用户具有读取权限的资源。
 
 ## 参数 {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -49,61 +49,61 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的把手。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 提供作为另一个用户的访问权限。 仅供管理员使用。 </td> 
+   <td colname="col4"> 提供作为其他用户的访问权限。 仅供管理员使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 用于按特定组进行筛选。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 要检索的资源名称数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 对于检索到的资源，允许资源类型数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 为检索的资源排除的资源类型数组。 </td> 
+   <td colname="col4"> 为检索到的资源排除的资源类型数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 允许用于检索的资源的资源子类型数组。 </td> 
+   <td colname="col4"> 对于检索到的资源，允许资源子类型数组。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>如果 <span class="codeph"> true</span> 和 <span class="codeph"> assetSubTypeArray</span> 不为空，则仅其子类型位于以下位置的资产： <span class="codeph"> assetSubTypeArray</span> 会返回。 </p> <p>如果 <span class="codeph"> false</span>，则包含未定义子类型的资产。 </p> <p>默认值为 <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>如果<span class="codeph"> true</span>和<span class="codeph"> assetSubTypeArray</span>不为空，则只返回子类型位于<span class="codeph"> assetSubTypeArray</span>中的资产。 </p> <p>如果<span class="codeph"> false</span>，则包含未定义子类型的资源。 </p> <p>默认值为<span class="codeph"> false</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 包含响应中包含的字段和子字段的列表。 </td> 
+   <td colname="col4"> 包含响应中包含的字段和子字段列表。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 否 </td> 
    <td colname="col4"> 包含从响应中排除的字段和子字段的列表。 </td> 
   </tr> 
@@ -114,7 +114,7 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| assetArray | `types:AssetArray` | 否 | 符合筛选条件的资源数组。 |
+| assetArray | `types:AssetArray` | 否 | 与筛选条件匹配的资源数组。 |
 
 ## 示例 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

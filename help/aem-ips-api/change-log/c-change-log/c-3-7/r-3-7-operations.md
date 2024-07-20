@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 6%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
@@ -38,16 +38,16 @@ ht-degree: 6%
 
 ## 已修改的操作 {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
-**searchAsset**
+**搜索资产**
 
-* 已删除 `name` 参数。
-* 增加了 `excludeFieldArray`.
+* 删除了`name`参数。
+* 已添加`excludeFieldArray`。
 
 **getFolders**
 
-* 增加了 `excludeFieldArray`.
+* 已添加`excludeFieldArray`。
 
 **getFolderTree**
 
-* 已添加 `excludeFieldArray` 和 `getUniqueMetadataValues`.
-* 已制作 `fieldHandle` 一个必需的参数。
+* 已添加`excludeFieldArray`和`getUniqueMetadataValues`。
+* 将`fieldHandle`设为必需参数。

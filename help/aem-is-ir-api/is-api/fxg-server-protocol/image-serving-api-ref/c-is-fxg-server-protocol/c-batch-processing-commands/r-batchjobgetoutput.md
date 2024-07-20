@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>提交时获得的作业ID。 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">工作ID </span> </p> </td> 
+  <td class="stentry"> <p>提交时获取的作业ID。 </p> </td> 
  </tr> 
 </table>
 
 返回：
 
-响应时将流式传输作业的PDF输出；出现以下错误时 `jobid` 无效或作业已被删除。
+为响应而流式处理作业的PDF输出；如果`jobid`无效或作业已被删除，则会出错。
 
 ## 示例 {#section-0319e615fa254132a9dab59351b4c252}
 

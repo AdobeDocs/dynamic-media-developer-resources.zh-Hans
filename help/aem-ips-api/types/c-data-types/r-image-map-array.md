@@ -1,5 +1,5 @@
 ---
-description: 图像映射数组。
+description: 图像映射的数组。
 solution: Experience Manager
 title: ImageMapArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ImageMapArray]{#imagemaparray}
 
-图像映射数组。
+图像映射的数组。
 
 语法
 

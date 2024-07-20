@@ -16,15 +16,15 @@ ht-degree: 0%
 
 查看器由许多Viewer SDK组件构建。 通常，网页不需要直接与SDK组件API交互；查看器API本身涵盖了所有常见需求。
 
-但是，一些高级用例要求网页使用引用内部SDK组件 `getComponent()` 查看器API，然后使用SDK本身API的所有灵活性。
+但是，一些高级用例要求网页使用`getComponent()`查看器API引用内部SDK组件，然后使用SDK本身API的所有灵活性。
 
-查看器用于加载和初始化SDK组件的命名空间取决于查看器运行的环境。 如果查看器在Adobe Experience Manager中运行，查看器会将SDK组件加载到 `s7viewers.s7sdk` 命名空间。 Dynamic Media Classic提供的查看器会将SDK加载到 `s7classic.s7sdk`.
+查看器用于加载和初始化SDK组件的命名空间取决于查看器运行的环境。 如果查看器在Adobe Experience Manager中运行，查看器会将SDK组件加载到`s7viewers.s7sdk`命名空间中。 Dynamic Media Classic提供的查看器会将SDK加载到`s7classic.s7sdk`中。
 
-在任一情况下，查看器中的SDK使用的命名空间具有 `s7viewers` 或 `s7classic` 作为前缀。 而且这和普通人不一样 `s7sdk` SDK用户指南或SDK API文档中使用的命名空间。
+在任一情况下，查看器中的SDK使用的命名空间都将`s7viewers`或`s7classic`作为前缀。 此外，它与SDK用户指南或SDK API文档中使用的纯`s7sdk`命名空间不同。
 
 因此，在编写与内部查看器组件通信的自定义应用程序代码时，必须使用完全限定的SDK命名空间。
 
-例如，如果您计划侦听 `StatusEvent.NOTF_VIEW_READY` 事件且查看器来自Dynamic Media Classic，完全限定的事件类型为 `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，则事件侦听器代码类似于以下内容：
+例如，如果您计划侦听`StatusEvent.NOTF_VIEW_READY`事件，并且查看器来自Dynamic Media Classic，则完全限定的事件类型为`s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`，事件侦听器代码将类似于以下内容：
 
 ```javascript {.line-numbers}
 <instance>.setHandlers({ 

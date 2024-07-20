@@ -8,7 +8,7 @@ exl-id: e5bb2188-d262-4324-9f71-68634b6af654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 要移动资产的公司的句柄。 |
-| assetMoveArray | `types:AssetMoveArray` | 是 | 资源移动数组。 它包含一个资源和一个资源目标文件夹。 |
+| assetMoveArray | `types:AssetMoveArray` | 是 | 资产移动数组。 它包含一个资源和一个资源目标文件夹。 |
 
 **输出(moveAssetsReturn)**
 
@@ -50,40 +50,40 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 已成功移动资源计数。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 在操作尝试移动资产时生成警告的资产计数。 </td> 
+   <td colname="col4"> 操作尝试移动时生成警告的资源计数。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 错误计数</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：int</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 在操作尝试移动资产时生成错误的资产计数。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>包含以下内容的： 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>包含： 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">发出警告的资源。 </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">发出警告的Assets。 </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">警告代码。 </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">警告的原因。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>包含以下内容的： 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>包含： 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">抛出错误的资源。 </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">引发错误的Assets。 </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">错误代码。 </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">错误原因。 </li> 
     </ul> </td> 
@@ -93,7 +93,7 @@ ht-degree: 12%
 
 ## 示例 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-此代码示例将资产移动到由指定的特定位置。 `assetMoveArray`. 该数组包括资产句柄及其文件夹句柄。 响应指示已成功移动资源。
+此代码示例将资产移动到`assetMoveArray`指定的特定位置。 该数组包括资产句柄及其文件夹句柄。 响应指示已成功移动资源。
 
 **请求**
 

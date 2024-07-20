@@ -1,18 +1,18 @@
 ---
 description: 获取图像集中的成员数组。
 solution: Experience Manager
-title: getImageSetMember
+title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
-# getImageSetMember{#getimagesetmembers}
+# getImageSetMembers{#getimagesetmembers}
 
 获取图像集中的成员数组。
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->需要对图像和成员集资源的读取权限。
+>需要拥有对图像和成员集资源的读取权限。
 
 ## 参数 {#section-a67ba98095574533980997c83ceaa316}
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| memberArray | `types:ImageSetMemberArray` | 否 | 图像集成员数组。 |
+| memberArray | `types:ImageSetMemberArray` | 否 | 图像集成员的数组。 |
 
 ## 示例 {#section-888a9a78033346f39b171229de93dfa0}
 

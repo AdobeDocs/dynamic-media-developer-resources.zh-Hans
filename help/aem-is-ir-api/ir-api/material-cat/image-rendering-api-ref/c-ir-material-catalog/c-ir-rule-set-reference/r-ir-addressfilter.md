@@ -1,5 +1,5 @@
 ---
-description: 地址筛选器元素。 可选，位于 <rule> 元素。 应用规则时覆盖属性ClientAddressFilter。
+description: 地址筛选器元素。 <rule>元素中的可选。 应用规则时覆盖属性ClientAddressFilter。
 solution: Experience Manager
 title: 地址过滤器
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 地址过滤器{#addressfilter}
 
-地址筛选器元素。 可选，位于 `<rule>` 元素。 应用规则时覆盖attribute：：ClientAddressFilter。
+地址筛选器元素。 `<rule>`元素中的可选。 应用规则时覆盖attribute：：ClientAddressFilter。
 
 ## 属性 {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
@@ -22,17 +22,17 @@ ht-degree: 2%
 
 ## 数据 {#section-eb138f192516418a9ef2ab9a38c9ee9e}
 
-IP地址的逗号分隔列表。 每个单独的地址可以包括一个可选的网络掩码后缀，以允许指定IP地址范围。 参见 [attribute：：ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md) 了解详细信息。
+IP地址的逗号分隔列表。 每个单独的地址可以包括一个可选的网络掩码后缀，以允许指定IP地址范围。 有关详细信息，请参阅[attribute：：ClientAddressFilter](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md)。
 
 ## 说明 {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-可以通过在中指定一个或多个特定IP地址来限制对此图像目录的访问 `<addressfilter>` 元素。 如果客户端IP地址不匹配，则向客户端返回“请求被拒绝”错误。
+通过在`<addressfilter>`元素中指定此图像目录，可以将访问限制为一个或多个特定的IP地址。 如果客户端IP地址不匹配，则向客户端返回“请求被拒绝”错误。
 
-访问不受限制，如果 `<addressfilter>` 为空或未指定。
+如果`<addressfilter>`为空或未指定，则访问不受限制。
 
-如果 `<expression>` 在 `<rule>` 元素不存在或为空， `<addressfilter>` 应用于所有请求。
+如果`<rule>`元素中的`<expression>`不存在或为空，则会将`<addressfilter>`应用于所有请求。
 
-`localhost` 始终隐式是 `ClientAddressFilter` 定义（即使未明确指定）。 请求源自 `localhost` 不会被拒绝，无论 `ClientAddressFilter` 规范。
+`localhost`始终是`ClientAddressFilter`定义的隐式部分，即使未显式指定。 无论是否遵循`ClientAddressFilter`规范，源自`localhost`的请求都不会被拒绝。
 
 ## 另请参阅 {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

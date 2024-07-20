@@ -1,5 +1,5 @@
 ---
-description: 模板资源的属性。
+description: 模板资产的属性。
 solution: Experience Manager
 title: 模板信息
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL TemplateInfo]{#templateinfo}
 
-模板资源的属性。
+模板资产的属性。
 
 模板是构造分层图像的参数化图层定义。
 
@@ -23,5 +23,5 @@ ht-degree: 13%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | url | `xsd:string` | 表示模板的图像服务器URL。 |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 7b0fe5d2-2779-417f-a5fe-577def2e0158
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '58'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 16%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | publishSettingsArray | `types:ConfigSettingArray` | 是 | 仅适用于Scene 7开发人员。 |
 | contextHandle | `xsd:string` | 否 | 处理发布上下文。 |

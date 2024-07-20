@@ -19,7 +19,7 @@ ht-degree: 3%
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 值</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">值</span></span> </p> </td> 
    <td colname="col2"> <p> 指定当前系统不支持自适应视频播放时，在自适应视频集中播放视频所需的视频比特率（以千位/秒或kbps为单位）。 </p> <p>组件将选取比特率最接近（但不超过）指定值的视频流。 如果自适应视频集中的所有视频流都具有高于指定值的品质，则逻辑会选择品质最低的比特率。 </p> </td> 
   </tr> 
  </tbody> 

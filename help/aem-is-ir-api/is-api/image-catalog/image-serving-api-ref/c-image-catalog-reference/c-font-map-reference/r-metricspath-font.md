@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 属性 {#section-955268c581574875b05253d9e14544f3}
 
-文本字符串。 对于Adobe Type1文件，它是可选项。 必须为空或有效的图像服务器文件路径，可以是绝对路径或相对路径 `attribute::RootPath`.
+文本字符串。 对于Adobe Type1文件，它是可选项。 必须为空或有效的图像服务器文件路径，可以是绝对路径或相对于`attribute::RootPath`的路径。
 
 ## 默认 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

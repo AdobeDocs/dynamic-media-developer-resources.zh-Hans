@@ -1,20 +1,20 @@
 ---
 title: 主查看器区域
-description: 主视图区域由视频占用。 当未指定大小时，它通常设置为适合可用的设备屏幕。
+description: 主视图区域由视频占用。 它通常设置为在没有指定大小时适应可用的设备屏幕。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
 # 主查看器区域{#main-viewer-area}
 
-主视图区域由视频占用。 当未指定大小时，它通常设置为适合可用的设备屏幕。
+主视图区域由视频占用。 它通常设置为在没有指定大小时适应可用的设备屏幕。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,15 +29,15 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>查看器宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>查看器高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 

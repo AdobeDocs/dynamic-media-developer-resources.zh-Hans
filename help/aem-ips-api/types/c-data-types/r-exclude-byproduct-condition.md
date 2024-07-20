@@ -23,4 +23,4 @@ ht-degree: 8%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | [!DNL engine] | `xsd:string` | 创建要排除的资源的生成引擎。 有关值，请参阅生成信息。 |
-| generatedAssetType | `xsd:string` | 排除的资源类型。 有关值，请参阅资产类型。 |
+| generatedassetype | `xsd:string` | 排除的资源类型。 有关值，请参阅资产类型。 |

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f86816a9-ba0e-4b75-a4b1-246eabf5049e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 23%
+source-wordcount: '18'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 <table id="table_70E6FDB62C2C4DBBB26BEBAD37A181AD"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td> <p> 启用或禁用滚动条的使用。 </p> </td> 
   </tr> 
  </tbody> 

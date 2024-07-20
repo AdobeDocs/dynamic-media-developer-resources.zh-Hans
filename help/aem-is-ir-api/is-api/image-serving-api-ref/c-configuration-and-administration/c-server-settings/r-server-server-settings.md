@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Windows不支持64位模式。 仅 `ImageServer32` 可以指定。 否则，图像服务不会启动。
+>Windows不支持64位模式。 只能指定`ImageServer32`。 否则，图像服务不会启动。
 
-## SV：：PsHeapSize - [!DNL Platform Server] 栈大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV：：PsHeapSize - [!DNL Platform Server]栈大小 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-的Java栈大小 [!DNL Platform Server]. 默认为&quot; `512m`“(512 MB)。
+[!DNL Platform Server]的Java栈大小。 默认为“`512m`”(512 MB)。
 
 ## IS：：TcpPort， PS：：isConnection.port — 图像服务器侦听端口 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-指定用于在 [!DNL Platform Server] 和图像服务器。 请确保指定一个端口号，否则该端口不会用于主机系统。
+指定用于[!DNL Platform Server]和图像服务器之间通信的端口。 请确保指定一个端口号，否则该端口不会用于主机系统。
 
 >[!NOTE]
 >
->要使图像服务正常工作，必须为设置相同的值 `IS::TcpPort` 和 `PS::isConnection.port`.
+>要使图像服务正常工作，必须为`IS::TcpPort`和`PS::isConnection.port`设置相同的值。
 
 ## IS：：PhysicalMemory — 映像服务器内存限制 {#section-85e37aa2ac6e456eb698da716dd3247d}
 

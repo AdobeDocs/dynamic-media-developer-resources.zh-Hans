@@ -1,5 +1,5 @@
 ---
-description: 元数据数组。
+description: 元数据的数组。
 solution: Experience Manager
 title: 元数据数组
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL MetadataArray]{#metadataarray}
 
-元数据数组。
+元数据的数组。
 
 语法
 
@@ -30,9 +30,9 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 个项目</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：元数据</span> </p> </td> 
-   <td colname="col3"> <p>元数据数组。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">项</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：元数据</span> </p> </td> 
+   <td colname="col3"> <p>元数据的数组。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

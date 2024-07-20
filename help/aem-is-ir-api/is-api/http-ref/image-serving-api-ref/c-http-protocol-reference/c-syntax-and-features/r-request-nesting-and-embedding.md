@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 ## 嵌套图像服务请求 {#section-6954202119e0466f8ff27c79f4f039c8}
 
-通过在以下位置指定整个图像服务请求，可以将其用作图层源 `src=` (或 `mask=`)命令，语法如下：
+通过使用以下语法在`src=`（或`mask=`）命令中指定整个图像服务请求，可以将其用作图层源：
 
 `…&src=is( nestedRequest)&…`
 
-此 `is` 令牌区分大小写。
+`is`令牌区分大小写。
 
-嵌套请求不得包含服务器根路径(通常 ` http:// *[!DNL server]*/is/image/'`)。
+嵌套请求不得包含服务器根路径（通常为` http:// *[!DNL server]*/is/image/'`）。
 
 >[!NOTE]
 >
->嵌套的请求分隔符字符( `'(',')'`)和命令分隔符字符( `'?'`， `'&'`， `'='`)不可进行HTTP编码。 实际上，嵌套请求的编码方式必须与外部（嵌套）请求相同。
+>嵌套请求分隔符字符(`'(',')'`)和嵌套请求中的命令分隔符字符(`'?'`、`'&'`、`'='`)不能进行HTTP编码。 实际上，嵌套请求的编码方式必须与外部（嵌套）请求相同。
 
 预处理规则应用于嵌套请求。
 
-在嵌套请求(在请求URL中或在 `catalog::Modifier` 或 `catalog::PostModifier`)：
+在嵌套请求（在请求URL中或者在`catalog::Modifier`或`catalog::PostModifier`中）中指定时，将忽略以下命令：
 
 * `fmt=`
 * `qlt=`
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 如果嵌套请求的结果图像包括蒙版(alpha)数据，则将其作为图层蒙版传递到嵌入层。
 
-忽略的还有 `attribute::MaxPix`和 `attribute::DefaultPix` 应用于嵌套请求的图像目录的ID。
+另外忽略的是应用于嵌套请求的图像目录的`attribute::MaxPix`和`attribute::DefaultPix`。
 
-可以选择性地通过包含来缓存嵌套IS请求的图像结果 `cache=on`. 默认情况下，将禁用中间数据的缓存。 仅当预期中间图像应在合理时段内在不同的请求中重用时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式进行缓存。
+通过包含`cache=on`，可以选择缓存嵌套IS请求的图像结果。 默认情况下，将禁用中间数据的缓存。 仅当预期中间图像应在合理时段内在不同的请求中重用时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式进行缓存。
 
 ## 嵌入式图像渲染请求 {#section-69c5548db930412b9b90d9b2951a6969}
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-此 `ir` 令牌区分大小写。
+`ir`令牌区分大小写。
 
-*[!DNL renderRequest]* 是通用的图像渲染请求，不包括HTTP根路径 ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]*&#x200B;是常用的图像渲染请求，不包括HTTP根路径` http:// *[!DNL server]*/ir/render/`。
 
 >[!NOTE]
 >
->嵌套的请求分隔符字符( `'(',')'`)和命令分隔符字符( `'?'`， `'&'`， `'='`)不可进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
+>嵌套请求分隔符字符(`'(',')'`)和嵌套请求中的命令分隔符字符(`'?'`、`'&'`、`'='`)不能进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
 
 在嵌套请求中指定时，将忽略以下图像渲染命令：
 
@@ -75,27 +75,27 @@ ht-degree: 0%
 * `printRes=`
 * `req=`
 
-忽略的还有 `attribute::MaxPix` 和 `attribute::DefaultPix` 应用于嵌套渲染请求的材质目录的ID。
+同样被忽略的是应用于嵌套渲染请求的材质目录的`attribute::MaxPix`和`attribute::DefaultPix`。
 
-可以选择性地缓存嵌套IR请求的图像结果，方法是 `cache=on`. 默认情况下，将禁用中间数据的缓存。 仅当预期中间图像应在合理时段内在不同的请求中重用时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式进行缓存。
+通过包含`cache=on`，可以选择缓存嵌套IR请求的图像结果。 默认情况下，将禁用中间数据的缓存。 仅当预期中间图像应在合理时段内在不同的请求中重用时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式进行缓存。
 
 ## 嵌入的FXG渲染请求 {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-当FXG图形渲染器(又称 [!DNL AGMServer])安装并启用了图像服务，可通过在中指定FXG请求来将其用作图层源 `src=` (或 `mask=`)命令。 使用以下语法：
+安装并启用带有图像服务的FXG图形渲染器（又称[!DNL AGMServer]）后，可通过在`src=`（或`mask=`）命令中指定FXG请求来将其用作图层源。 使用以下语法：
 
 `…&src=fxg( renderRequest)&…`
 
-此 `fxg` 令牌区分大小写。
+`fxg`令牌区分大小写。
 
 >[!NOTE]
 >
 >FXG图形渲染仅在Dynamic Media托管环境中可用，并且可能需要额外的许可。 有关更多信息，请联系Dynamic Media技术支持。
 
-*[!DNL renderRequest]* 是常用的FXG渲染请求，不包括HTTP根路径 ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]*&#x200B;是常用的FXG渲染请求，不包括HTTP根路径` http:// *[!DNL server]*/agm/render/`。
 
 >[!NOTE]
 >
->分隔符字符( `'(',')'`)和命令分隔符字符( `'?'`， `'&'`， `'='`)不可进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
+>嵌套请求中的分隔符字符(`'(',')'`)和命令分隔符字符(`'?'`、`'&'`、`'='`)不能进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
 
 在嵌套请求中指定时，将忽略以下FXG命令：
 
@@ -113,17 +113,17 @@ ht-degree: 0%
 >
 >远程URL仅支持HTTP协议。
 
-要为指定外部URL `src=` 或 `mask=` 命令，请使用括号分隔外部URL或URL片段：
+要为`src=`或`mask=`命令指定外部URL，请使用括号分隔外部URL或URL片段：
 
 `…&src=( foreignUrl)&…`
 
-重要信息：分隔符字符( `'(',')'`)和命令分隔符字符( `'?'`， `'&'`， `'='`)不可进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
+重要信息：嵌套请求中的分隔符字符(`'(',')'`)和命令分隔符字符(`'?'`、`'&'`、`'='`)不能进行HTTP编码。 实际上，嵌入请求的编码必须与外部（嵌入）请求的编码相同。
 
-完全绝对URL(如果 `attribute::AllowDirectUrls` 设置)，以及URL相对于 `attribute::RootUrl` 是允许的。 如果嵌入了绝对URL并且属性为： `AllowDirectUrls` 为0，或者如果指定了相对URL并且 `attribute::RootUrl` 为空。
+允许使用完全绝对URL（如果已设置`attribute::AllowDirectUrls`）和相对`attribute::RootUrl`的URL。 如果嵌入了绝对URL并且属性： `AllowDirectUrls`为0，或者如果指定了相对URL并且`attribute::RootUrl`为空，则会发生错误。
 
 虽然不能直接在请求URL的路径组件中指定外部URL，但可以设置预处理规则以允许将相对路径转换为绝对URL（请参阅下面的示例）。
 
-服务器根据HTTP响应中包含的缓存标头来缓存外来图像。 如果两者 `ETag` 不存在Last-Modified HTTP响应标头，也不会缓存响应。 这可能会导致对同一外来图像的重复访问性能降低，因为图像服务在每次访问时都需要重新获取和重新验证图像。
+服务器根据HTTP响应中包含的缓存标头来缓存外来图像。 如果`ETag`和Last-Modified HTTP响应标头都不存在，则不会缓存该响应。 这可能会导致对同一外来图像的重复访问性能降低，因为图像服务在每次访问时都需要重新获取和重新验证图像。
 
 此机制支持与图像转换(IC)实用程序支持的图像文件格式相同的图像文件格式，但每个组件具有16位的源图像除外。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ## 示例 {#section-d800cfc31abe46d2a964f8e7929231f1}
 
-**带缓存的分层模板：**
+**缓存的分层模板：**
 
 使用嵌套将缓存添加到分层模板。 有限数量的背景图像由高度可变的文本覆盖。 初始模板字符串可能如下所示：
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 **Dynamic Media图像渲染的嵌入请求**
 
-使用存储在中的模板 [!DNL myCatalog/myTemplate]；使用Dynamic Media图像渲染为模板的layer2生成图像：
+使用存储在[!DNL myCatalog/myTemplate]中的模板；使用Dynamic Media图像渲染为模板的layer2生成图像：
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ ht-degree: 0%
 
 ## 另请参阅 {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ， [蒙版=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)， [请求预处理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3)、图像渲染引用、 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)， [图像服务实用程序](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1)，[mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)，[请求预处理](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3)，图像渲染引用，[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)，[图像服务实用程序](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

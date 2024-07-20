@@ -1,7 +1,7 @@
 ---
 description: 属性集类型数组。
 solution: Experience Manager
-title: PropertySetTypeArray
+title: PropertySettypeArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d

@@ -21,7 +21,7 @@ ht-degree: 25%
 * [DigimarcInfo](r-digimarcinfo-cat.md)
 * [過期](r-expiration-cat.md)
 * [Id](r-id-cat.md)
-* [ImageSet](r-imageset-cat.md)
+* [图像集](r-imageset-cat.md)
 * [地图](r-map-cat.md)
 * [蒙版路径](r-maskpath-cat.md)
 * [修饰符](r-modifier-cat.md)

@@ -1,7 +1,7 @@
 ---
 description: 文件柜资源的属性。
 solution: Experience Manager
-title: CabinetInfo
+title: 文件柜信息
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 78ec00cd-c410-412c-970f-96226563a45a
@@ -24,8 +24,8 @@ ht-degree: 8%
 |---|---|---|
 | 原始路径 | `xsd:string` | 原始文件柜的相对路径。 |
 | 原始文件 | `xsd:string` | 文件柜名称。 |
-| fileSize | `xsd:int` | 机柜大小。 |
-| imagePath | `xsd:string` | 与晕影关联的文件柜的相对路径。 |
+| fileSize | `xsd:int` | 文件柜大小。 |
+| 图像路径 | `xsd:string` | 与晕影关联的文件柜的相对路径。 |
 | imageFile | `xsd:string` | 与晕影关联的CAB的文件名。 |
 | 优化路径 | `xsd:string` | IPS优化机柜的路径。 |
-| 优化文件 | `xsd:string` | IPS优化的cab文件。 |
+| 优化文件 | `xsd:string` | IPS优化的CAB文件。 |

@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 5%
 
 ---
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
-[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`公理`*`]
+[!DNL `[TableOfContents.|<containerId>_tableOfContents.]maxitems= *`最大`*`]
 
 <table id="table_F9BC656721B04870AC628ACBC47E7200"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> 公理</span></span> </p> </td> 
-   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，您可以减少下拉列表中可见项目的数量，以防外部容器裁切该项目。 </p> <p>当设置为 <span class="codeph"> 0</span> 该组件会根据它被添加到的容器显示尽可能多的项目。 </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname">个公理</span></span> </p> </td> 
+   <td> <p>下拉目录中的最大项目数。 </p> <p>此外，您可以减少下拉列表中可见项目的数量，以防外部容器裁切该项目。 </p> <p>当设置为<span class="codeph"> 0</span>时，该组件会根据它被添加到的容器，显示尽可能多的项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

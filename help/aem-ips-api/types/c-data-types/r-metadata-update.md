@@ -1,5 +1,5 @@
 ---
-description: 为与setAssetMetadata一起使用的特定资源设置元数据值。 描述要对元数据进行的更改。
+description: 为用于setAssetMetadata的特定资源设置元数据值。 描述要对元数据进行的更改。
 solution: Experience Manager
 title: 元数据更新
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
 # [!DNL MetadataUpdate]{#metadataupdate}
 
-为与setAssetMetadata一起使用的特定资源设置元数据值。 描述要对元数据进行的更改。
+为用于setAssetMetadata的特定资源设置元数据值。 描述要对元数据进行的更改。
 
 >[!NOTE]
 >
@@ -33,18 +33,18 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 元数据字段句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">值</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 元数据更新值。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 布尔值</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 布尔元数据值（仅适用于布尔型字段）。 </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
+   <td colname="col3"> 布尔元数据值（仅适用于布尔类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
@@ -52,18 +52,18 @@ ht-degree: 4%
    <td colname="col3"> 长元数据值（仅适用于int类型的字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 双精度值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
-   <td colname="col3"> 双精度元数据值（仅适用于浮点型字段）。 </td> 
+   <td colname="col3"> 双精度元数据值（仅适用于浮点类型字段）。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 日期值</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">日期值</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：dateTime</span> </td> 
    <td colname="col3"> 日期元数据值（仅适用于日期类型字段）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> <p>将添加到资产的现有标记值列表。 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">单值标记字段仅存储最后一个值。 </li> 
@@ -72,7 +72,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3">替换资产的现有标记值列表。 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">单值标记字段仅存储最后一个值。 </li> 
@@ -81,7 +81,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：StringArray</span> </td> 
    <td colname="col3"> 从资产的标记值列表中删除指定的值（如果存在）。 </td> 
   </tr> 
  </tbody> 

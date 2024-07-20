@@ -8,7 +8,7 @@ exl-id: 10830980-d504-4610-96c9-730937453256
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 18%
+ht-degree: 10%
 
 ---
 
@@ -40,24 +40,24 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 公司的句柄，该公司具有您要删除的权限文件夹。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 文件夹句柄。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChilds</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> <p>时间 <span class="codeph"> true</span>： 
+   <td colname="col4"> <p>当<span class="codeph"> true</span>时： 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">权限删除会传播到所有文件夹权限操作。 </li> 
-     </ul> </p> <p>时间 <span class="codeph"> false</span>： 
+     </ul> </p> <p>当<span class="codeph"> false</span>时： 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">该操作仅影响指定的文件夹。 </li> 
      </ul> </p> </td> 
@@ -71,7 +71,7 @@ IPS API不返回此操作的响应。
 
 ## 示例 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-此代码示例从文件夹及其子文件夹中删除权限。 设置 `updateChildren` 到 `false` 仅从父文件夹中删除权限。
+此代码示例从文件夹及其子文件夹中删除权限。 将`updateChildren`设置为`false`将仅从父文件夹中删除权限。
 
 **请求**
 

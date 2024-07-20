@@ -22,5 +22,5 @@ ht-degree: 26%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandle | `xsd:string` | 资源句柄。 |
+| assetHandle | `xsd:string` | 资产句柄。 |
 | thumbAssetHandle | `xsd:string` | 缩略图资源句柄。 |

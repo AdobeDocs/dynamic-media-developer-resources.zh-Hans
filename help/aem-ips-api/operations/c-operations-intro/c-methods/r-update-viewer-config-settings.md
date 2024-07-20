@@ -32,9 +32,9 @@ ht-degree: 15%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
-| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
 | configSettingArray | `types:ConfigSettingArray` | 是 | 要应用于查看器的配置设置数组。 |
 
 **输出(updateViewerConfigSettingsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。

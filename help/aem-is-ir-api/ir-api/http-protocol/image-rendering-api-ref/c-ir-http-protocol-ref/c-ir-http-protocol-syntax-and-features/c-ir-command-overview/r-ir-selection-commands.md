@@ -16,11 +16,11 @@ ht-degree: 0%
 
 这些命令用于选择晕影组、对象、组或对象的子区域。
 
-此命令或材料（或两者）是在此选择命令之后并在下一个选择命令（或请求的结尾）应用于选定项目之前指定的。 “选取”(Selection)命令可划分材料规格段(MSS)。
+此命令或材料（或两者）在此选择命令之后且在下一个选择命令（或请求的结尾）应用于选定项目之前指定。 “选取”(Selection)命令用于分隔材料规格段(MSS)。
 
 <table id="simpletable_028957E516644FE8A7B1BC056A32FCD1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a" type="reference" format="dita" scope="local"> 对象</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a" type="reference" format="dita" scope="local">对象</a> </span> </p></td> 
   <td class="stentry"> <p>按名称选择晕影组或对象。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -28,7 +28,7 @@ ht-degree: 0%
   <td class="stentry"> <p>按像素位置选择晕影组或对象。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> 贴花</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local">贴花</a></span> </p></td> 
   <td class="stentry"> <p>选择所选对象的贴花区域。 </p></td> 
  </tr> 
  <tr class="strow"> 

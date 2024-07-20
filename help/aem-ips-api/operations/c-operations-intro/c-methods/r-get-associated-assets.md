@@ -8,7 +8,7 @@ exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -46,25 +46,25 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>处理拥有该资产的公司。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>资源句柄。 </p> </td> 
+   <td colname="col4"> <p>资产句柄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>所需的响应字段数组。 请参阅简介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>排除的响应字段的数组。 请参阅简介中的response- FieldArray/excludeFieldArray 。 </p> </td> 
   </tr> 
@@ -85,60 +85,60 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>包含指定资产的集和模板资产的数组。 </p> </td> 
+   <td colname="col4"> <p>包含指定资源的集和模板资源的数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>指定集或模板资源所包含的资源数组。 </p> </td> 
+   <td colname="col4"> <p>指定集或模板资源包含的资源数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>在层或模板URL中引用的资源数组。 </p> </td> 
+   <td colname="col4"> <p>在图层或模板URL中引用的资源数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>拥有指定资源的资源数组。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：AssetArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>用于生成指定资源的资源数组。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorarray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph">类型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> generatorarray</span> 列出了创建此资源的方式。 例如，如果 <span class="codeph"> assetHandler</span> 是PDF的图像页面，这将包含PDF处理器工具并引用PdfFile资源。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列出了创建此资源的方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页，则会包含PDF处理器工具并引用PdfFile资源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：GenerationInfoArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>此 <span class="codeph"> generatedArray</span> 反转创建此资源的方式。 例如， <span class="codeph"> generatedArray</span> 可以包含由此生成的图像列表 <span class="codeph"> assetHandler</span> 如果这是Pdf文件资源。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span>将反转此资源的创建方式。 例如，如果这是Pdf文件资源，则<span class="codeph"> generatedArray</span>可能包含从此<span class="codeph"> assetHandler</span>生成的图像列表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：资源</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：资产</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>与请求资源关联的缩略图资源信息。 如果未分配缩略图资源，则响应中将忽略该字段。 </p> </td> 
+   <td colname="col4"> <p>与请求资源关联的缩略图资源信息。 如果未分配缩略图资源，则响应中会忽略该字段。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以使用参数 `responseFieldArray` 或 `excludeFieldArray` 以限制响应大小。 特别是 `GenerationInfo` 返回的项目 `generatorArray` 或 `generatedArray` 默认包括创建者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过添加 `generatedArray/items/originator` 到 `excludeFieldArray`. 或者，您可以指定要包含的响应字段的明确列表 `responseFieldArray`.
+您可以使用参数`responseFieldArray`或`excludeFieldArray`来限制响应大小。 特别是，`generatorArray`或`generatedArray`中返回的`GenerationInfo`项默认包含发起者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
 
 ## 示例 {#section-8946ea4b9cb94912a8408249c897f192}
 
-以下基本示例是对从PDF中提取的图像生成器的句柄的请求。 它包括 `containerArray` 长度为1，其中项包含 `assetHandle` PDF的。
+以下基本示例是对从PDF中提取的图像生成器的句柄的请求。 它包含一个长度为`containerArray`的项，其中项包含PDF的`assetHandle`。
 
 **请求**
 
@@ -172,7 +172,7 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-上述示例的反面内容如下：
+上述示例的反义词如下：
 
 **请求**
 
@@ -253,7 +253,7 @@ ht-degree: 8%
 </soapenv:Envelope>
 ```
 
-在下个示例中，组被添加到具有以下功能的公司： `groupHandleArray`. 此示例仅使用一个组。
+在下个示例中，一个组被添加到具有`groupHandleArray`的公司。 此示例仅使用一个组。
 
 **请求**
 

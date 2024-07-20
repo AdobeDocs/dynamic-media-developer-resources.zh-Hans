@@ -1,5 +1,5 @@
 ---
-description: searchAssets返回的元数据字段。
+description: 由searchAssets返回的元数据字段。
 solution: Experience Manager
 title: 元数据
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL Metadata]{#metadata}
 
-searchAssets返回的元数据字段。
+由searchAssets返回的元数据字段。
 
 语法
 
@@ -24,7 +24,7 @@ searchAssets返回的元数据字段。
 |---|---|---|
 | 名称 | `xsd:string` | 元数据名称。 |
 | 价值 | `xsd:string` | 元数据值。 |
-| 布尔值 | `xsd:boolean` | 布尔元数据值（仅适用于布尔型字段）。 |
+| boolVal | `xsd:boolean` | 布尔元数据值（仅适用于布尔类型字段）。 |
 | longVal | `xsd:long` | 长元数据值（仅适用于int类型的字段）。 |
-| 双精度值 | `xsd:double` | 双精度元数据值（仅适用于浮点型字段）。 |
+| doubleVal | `xsd:double` | 双精度元数据值（仅适用于浮点类型字段）。 |
 | 日期值 | `xsd:dateTime` | 日期元数据值（仅适用于日期类型字段）。 |

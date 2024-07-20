@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| url | `xsd:string` | 表示模板的图像服务器URL。 组合 `urlModifier` 和 `urlPostAp- plyModifier` 字段。 |
-| urlModifier | `xsd:string` | 在请求之前应用的图像服务协议命令或 `urlPostApplyModifier` 命令。 |
-| urlPostApplyModifier | `xsd:string` | 之后要应用的图像服务协议命令 `urlModifier` 和请求命令。 |
+| url | `xsd:string` | 表示模板的图像服务器URL。 组合`urlModifier`和`urlPostAp- plyModifier`字段。 |
+| urlModifier | `xsd:string` | 在请求或`urlPostApplyModifier`命令之前应用的图像服务协议命令。 |
+| urlPostApplyModifier | `xsd:string` | 在`urlModifier`之后应用的图像服务协议命令和请求命令。 |

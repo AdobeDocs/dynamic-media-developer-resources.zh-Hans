@@ -8,7 +8,7 @@ exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理您要返回的数据包(例如， `c|656`)。 |
+| companyHandle | `xsd:string` | 是 | 包含要返回的数据包的公司句柄（例如，`c|656`）。 |
 | assetHandle | `xsd:string` | 是 | 应为其检索XMP数据包的资源。 |
 
 **输出(getXMPPacketReturn)**

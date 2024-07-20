@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 使用权限资源设置单个资源的权限。
 
-默认情况下，资产会继承其父文件夹的权限。 设置资源的权限后，除非调用，否则它不再继承其父级的权限 `removeAssetPermissions`.
+默认情况下，Assets将继承其父文件夹的权限。 在设置资源的权限后，除非调用`removeAssetPermissions`，否则它不再继承其父级的权限。
 
 ## 授权用户类型 {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 **输出(setAssetPermissonsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-38955bc330bb4909b6b06027ef2b143e}
 

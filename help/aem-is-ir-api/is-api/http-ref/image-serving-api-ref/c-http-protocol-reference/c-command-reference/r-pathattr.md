@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> 方向 </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> 范数 </span> | <span class="codeph"> 反向 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname">方向</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">标准</span> | <span class="codeph">反向</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos </span> </p> </td> 
@@ -33,15 +33,15 @@ ht-degree: 2%
  </tr> 
 </table>
 
-指定 `norm` 绘制从第一个路径顶点附近开始，且 `reverse` 以反向绘制文本，从最后一个顶点附近开始。
+指定`norm`以绘制从第一个路径顶点附近的文本，指定`reverse`以相反方向绘制文本，从最后一个顶点附近开始。
 
-*`startPos`* 和 *`endPos`* 允许调整文本绘制路径上的位置。 0.0对应于路径中的第一个顶点，1.0对应于最后一个顶点；中间值表示沿着路径在第一个和最后一个顶点之间的距离。
+*`startPos`*&#x200B;和&#x200B;*`endPos`*&#x200B;允许调整文本绘制路径的位置。 0.0对应于路径中的第一个顶点，1.0对应于最后一个顶点；中间值表示沿着路径在第一个和最后一个顶点之间的距离。
 
 ## 属性 {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-层属性。 如果图层不包含，则忽略 `textPs=` 和 `textPath=` 命令。
+层属性。 如果该层不包含`textPs=`和`textPath=`命令，则忽略。
 
-*`startPos`* 必须大于或等于0且小于1.0。 *`endPos`* 必须大于 *`startPos`* 并且小于或等于1.0（当应用于开放路径时），或者小于或等于( *`startPos`* + 1.0)。
+*`startPos`*&#x200B;必须大于或等于0且小于1.0。*`endPos`*&#x200B;在应用于开放路径时必须大于&#x200B;*`startPos`*&#x200B;且小于或等于1.0，或者在应用于封闭路径时小于或等于(*`startPos`* + 1.0)。
 
 ## 默认 {#section-3e757970885c45e7b6100e78dc08626f}
 
@@ -49,4 +49,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-b869745de1da4ef996dfda4af39ed14d}
 
-[文本路径=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd) ， [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd) ， [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)

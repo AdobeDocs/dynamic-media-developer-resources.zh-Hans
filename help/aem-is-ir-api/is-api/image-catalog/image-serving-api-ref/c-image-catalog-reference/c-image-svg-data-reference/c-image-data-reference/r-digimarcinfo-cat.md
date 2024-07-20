@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 14%
+source-wordcount: '243'
+ht-degree: 7%
 
 ---
 
@@ -18,16 +18,16 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
 
 ## 属性 {#section-62af219e8bac422b8541841221c9ce4f}
 
-四个整数值，以逗号分隔。
+四个整数值，用逗号分隔。
 
-`*`type`*, *`标志`*, *`val1`*, *`val2`*`
+`*`类型`*, *`标志`*, *`val1`*, *`val2`*`
 
-`*`type`*` 启用Digimarc嵌入并指定水印类型：
+`*`type`*`启用Digimarc嵌入并指定水印类型：
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname">类型</span> </span> </p> </th> 
    <th class="entry"> <p><b>水印类型</b> </p> </th> 
   </tr> 
  </thead>
@@ -38,15 +38,15 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>基本. </p> </td> 
+   <td> <p>基本。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>图像 ID. </p> </td> 
+   <td> <p>图像ID。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
-   <td> <p>交易 ID. </p> </td> 
+   <td> <p>交易ID。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
@@ -55,13 +55,13 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
  </tbody> 
 </table>
 
-`*`标志`*` 是一个包含三个值的位字段。 设置位0表示受复制保护的内容，位1表示受限制的内容，位2表示成人内容：
+`*`flags`*`是一个具有三个值的位字段。 设置位0表示受复制保护的内容，设置位1表示受限制的内容，设置位2表示成人内容：
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> 标志</span> </span> </p> </th> 
-   <th class="entry"> <p><b>说明</b> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname">标志</span> </span> </p> </th> 
+   <th class="entry"> <p><b>描述</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -71,7 +71,7 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>有版权保护。 </p> </td> 
+   <td> <p>有复制保护。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
@@ -87,25 +87,25 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
   </tr> 
   <tr> 
    <td> <p><b>5</b> </p> </td> 
-   <td> <p>有版权保护的成人内容。 </p> </td> 
+   <td> <p>受拷贝保护的成人内容。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>受限的成人内容。 </p> </td> 
+   <td> <p>受限内容，成人内容。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
-   <td> <p>受复制保护、受限制、成熟的内容。 </p> </td> 
+   <td> <p>受复制保护、受限制且成熟的内容。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-对的解释 `*`val1`*` 和 `*`val2`*` 依赖于 `*`type`*`：
+`*`val1`*`和`*`val2`*`的解释依赖于`*`类型`*`：
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname">类型</span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
@@ -123,12 +123,12 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>图像 ID. </p> </td> 
+   <td> <p>图像ID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
-   <td> <p>交易 ID. </p> </td> 
+   <td> <p>交易ID。 </p> </td> 
    <td> <p>未使用。 </p> </td> 
   </tr> 
   <tr> 
@@ -141,17 +141,17 @@ Digimarc图像信息。 启用Digimarc嵌入并指定水印类型和任何相关
 
 ## 默认 {#section-4bb97e5f79074be89cc691e73449eb43}
 
-从属性：：DigimarcInfo继承（如果字段不存在或为空）。
+如果字段不存在或为空，则从属性：：DigimarcInfo继承。
 
 ## 示例 {#section-0f14727a0a2a408781c9df71fed7f42d}
 
-“0,0，0,0”禁用此图像的Digimarc水印。
+“0,0，0,0”将禁用此图像的Digimarc水印。
 
-“1,5，0,0”指定设置了成人内容和受复制保护内容标志的基本水印。
+“1,5，0,0”指定设置了受成人保护和复制保护的内容标志的基本水印。
 
-“2,0，4567,0”指定带有图像ID的水印。
+“2,0，4567,0”指定具有图像ID的水印。
 
-“3,2，56483，0”指定带有交易ID和受限内容标志设置的水印。
+“3,2，56483，0”指定包含交易ID和已设置的受限内容标志的水印。
 
 “4,0，1998,2001”指定带有版权年份的水印。
 

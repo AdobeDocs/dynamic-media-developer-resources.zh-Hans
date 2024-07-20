@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -40,19 +40,19 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
-   <td colname="col4"> 公司处理。 </td> 
+   <td colname="col4"> 公司句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4"> 标记字段句柄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：TagValueUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：TagValueUpdateArray</span> </td> 
    <td colname="col3"> 是 </td> 
    <td colname="col4">要更新的标记字段值的数组。 <p>注意：仅更新标记字符串值。 不会影响资源关联。 </p> </td> 
   </tr> 
@@ -63,10 +63,10 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | `xsd:int` | 是 | 已成功更新的标记字段数。 |
-| warningCount | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
-| warningDetailArray | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试更新标记字段时这些资产会生成警告。 |
+| successCount | `xsd:int` | 是 | 成功更新的标记字段数。 |
+| warningcount | `xsd:int` | 是 | 操作尝试更新标记字段时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 操作尝试更新标记字段时生成的错误数。 |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | 否 | 与资源关联的详细信息数组，这些资源在操作尝试更新标记字段时生成警告。 |
 | errorDetailArray | `types:TagValueUpdateFaultArray` | 否 | 与资产关联的详细信息数组，在操作尝试更新标记字段时这些资产会生成错误。 |
 
 ## 示例 {#section-bb4dcf97044c4675974c9b8d27674001}

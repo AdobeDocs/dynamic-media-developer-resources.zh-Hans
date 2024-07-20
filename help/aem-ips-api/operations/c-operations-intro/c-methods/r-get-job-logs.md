@@ -8,7 +8,7 @@ exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 11%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 否 | 公司处理。 |
-| userHandle | `xsd:string` | 否 | 获取由特定用户提交的作业的日志。 |
-| sortby | `xsd:string` | 否 | 允许您选择排序字段。 |
+| userHandle | `xsd:string` | 否 | 获取特定用户提交的作业的日志。 |
+| sortBy | `xsd:string` | 否 | 允许您选择排序字段。 |
 | sortDirection | `xsd:string` | 否 | 排序顺序（升序或降序）。 |
-| startDate | `xsd:dateTime` | 否 | 作业日志的开始日期和时间。 为此字段提供请求时区。 |
-| endDate | `xsd:dateTime` | 否 | 作业日志结束的日期和时间。 为此字段提供请求时区。 |
+| startDate | `xsd:dateTime` | 否 | 作业日志的开始日期和时间。 为此字段提供请求的时区。 |
+| endDate | `xsd:dateTime` | 否 | 作业日志结束的日期和时间。 为此字段提供请求的时区。 |
 | numRows | `xsd:int` | 否 | 要返回的最大行数。 |
 
 **输出(getJobLogsReturn)**

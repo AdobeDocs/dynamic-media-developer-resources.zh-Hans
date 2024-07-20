@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:MetadataUpdate` | 元数据更新的数组。 |
+| 项目 | `types:MetadataUpdate` | 元数据更新数组。 |

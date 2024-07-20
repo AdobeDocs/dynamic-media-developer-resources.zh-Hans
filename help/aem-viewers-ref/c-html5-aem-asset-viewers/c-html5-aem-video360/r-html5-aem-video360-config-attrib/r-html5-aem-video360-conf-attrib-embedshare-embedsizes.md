@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -23,16 +23,16 @@ Video360 Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">宽度</span> </span> </p> </td> 
    <td colname="col2"> <p> 嵌入宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">高度</span> </span> </p> </td> 
    <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否最初应在组合框中预先选择此列表项。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指定是否应在组合框中预先选择此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

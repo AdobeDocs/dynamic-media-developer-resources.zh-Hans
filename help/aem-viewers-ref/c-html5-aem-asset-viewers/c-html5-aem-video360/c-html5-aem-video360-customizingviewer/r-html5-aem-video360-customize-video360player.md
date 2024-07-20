@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 1%
 .s7video360viewer .s7video360player
 ```
 
-**视频播放器的CSS属性**
+视频播放器的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>主视图的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-您可以将系统无法播放视频时显示的错误消息本地化。
+您可以本地化系统无法播放视频时显示的错误消息。
 
-参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)。
 
 示例 — 将视频播放器大小设置为512 x 288像素的视频查看器。
 
@@ -57,7 +57,7 @@ background-color: transparent;
 .s7video360viewer .s7video360player .s7waiticon
 ```
 
-**等待图标的CSS属性**
+等待图标的&#x200B;**CSS属性**
 
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
@@ -68,24 +68,24 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 动画图标宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 动画图标高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左边距</span> </p> </td> 
    <td colname="col2"> <p> 动画图标左边距，通常减去图标宽度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">上边距</span> </p> </td> 
    <td colname="col2"> <p> 动画图标上边距，通常减去图标高度的一半。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 旋钮图稿。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
+   <td colname="col2"> <p> 旋钮艺术品。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

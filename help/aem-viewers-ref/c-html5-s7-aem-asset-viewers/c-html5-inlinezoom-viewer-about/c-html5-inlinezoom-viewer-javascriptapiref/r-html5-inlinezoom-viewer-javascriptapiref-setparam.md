@@ -18,19 +18,19 @@ ht-degree: 2%
 
 ` setParam( *`名称，值`*)`
 
-将查看器参数设置为指定的值。 参数是查看器特定的配置选项或软件开发工具包修饰符。 此参数是在之前调用的 `init()`. 如果通过以下方式传递查看器配置信息，则可以选择此方法 `config` 构造函数的JSON对象。
+将查看器参数设置为指定的值。 参数是特定于查看器的配置选项或软件开发工具包修饰符。 此参数在`init()`之前调用。 如果将查看器配置信息与`config` JSON对象一起传递给构造函数，则此方法是可选的。
 
-另请参阅 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463)。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数名称。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">名称</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span>参数名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 值 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 参数值。 该值不能采用百分比编码。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">值</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span>参数值。 值不能采用百分比编码。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

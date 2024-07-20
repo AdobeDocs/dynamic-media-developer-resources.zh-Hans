@@ -24,12 +24,12 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>垂直步长。 </p> </td> 
+   <td> <p>垂直台阶。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-指定每次单击或点按相应的滚动按钮时滚动的样本数。
+指定每次单击或点按相应的滚动按钮时要滚动的样本数。
 
 ## 属性 {#section-65be9301796240e38f31818229da7acc}
 

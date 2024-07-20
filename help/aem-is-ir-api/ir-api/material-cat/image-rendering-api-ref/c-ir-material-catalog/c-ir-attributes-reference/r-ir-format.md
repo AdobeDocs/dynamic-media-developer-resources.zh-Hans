@@ -18,13 +18,13 @@ ht-degree: 10%
 
 ## 属性 {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-文本字符串。 必须是支持的格式令牌之一 `fmt=` 命令：
+文本字符串。 必须是`fmt=`命令支持的格式令牌之一：
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## 默认 {#section-256b0f8afdd846eaac68ec2019258708}
 
-继承自 `default::Format` 如果未定义或为空。
+如果未定义或为空，则从`default::Format`继承。
 
 ## 另请参阅 {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 安装后，将服务设置为在其他用户帐户下运行。
 
-1. 通过选择访问Windows本地安全策略设置 **[!UICONTROL “开始”菜单]** > **[!UICONTROL 设置]** > **[!UICONTROL 控制面板]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 本地安全策略]**.
-1. 选择 **[!UICONTROL 安全设置]** > **[!UICONTROL 本地策略]** > **[!UICONTROL 用户权限分配]**.
-1. 双击 **[!UICONTROL 作为服务登录]** 策略。
-1. 选择 **[!UICONTROL 添加……]** 并选择用户或组，然后选择 **[!UICONTROL 确定]** 以确认。
+1. 通过选择&#x200B;**[!UICONTROL 开始菜单]** > **[!UICONTROL 设置]** > **[!UICONTROL 控制面板]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 本地安全策略]**，访问Windows本地安全策略设置。
+1. 选择&#x200B;**[!UICONTROL 安全设置]** > **[!UICONTROL 本地策略]** > **[!UICONTROL 用户权限分配]**。
+1. 双击&#x200B;**[!UICONTROL 作为服务登录]**&#x200B;策略。
+1. 选择&#x200B;**[!UICONTROL 添加……]**&#x200B;并选择用户或组，然后选择&#x200B;**[!UICONTROL 确定]**&#x200B;进行确认。

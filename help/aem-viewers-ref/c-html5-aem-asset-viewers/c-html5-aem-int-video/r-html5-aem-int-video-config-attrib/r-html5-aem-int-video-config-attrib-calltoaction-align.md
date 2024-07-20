@@ -21,8 +21,8 @@ ht-degree: 3%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左|中|右</span> </p> </td> 
-   <td colname="col2"> <p> 指定缩略图容器在组件区域中的内部水平对齐（或定位）。 </p> <p>在行动号召中，规定了内部缩略图容器的大小，因而只显示缩略图的总量。 因此，内部容器和外部组件边界之间存在一些边距。 </p> <p>此修饰符指定如何在组件内水平放置内部缩略图容器。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左|中|右</span> </p> </td> 
+   <td colname="col2"> <p> 指定缩略图容器在组件区域中内部水平对齐（或定位）。 </p> <p>在行动号召中，规定了内部缩略图容器的大小，因而只显示缩略图的总量。 因此，内部容器和外部组件边界之间存在一些边距。 </p> <p>此修饰符指定如何在组件内水平放置内部缩略图容器。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

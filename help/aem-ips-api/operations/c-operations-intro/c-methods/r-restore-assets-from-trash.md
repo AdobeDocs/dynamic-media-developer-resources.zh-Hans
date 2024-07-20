@@ -8,7 +8,7 @@ exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含要还原的资产的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含要恢复的资产的公司的句柄。 |
 | assetHandleArray | `types:HandleArray` | 是 | 要还原的资源的句柄数组。 |
 
 **输出(restoreAssetsFromTrashReturn)**
@@ -41,10 +41,10 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | successCount | `xsd:int` | 是 | 已成功从垃圾桶中删除的资源数。 |
-| warningCount | `xsd:int` | 是 | 操作尝试从垃圾桶中还原资源时生成的警告数。 |
-| 错误计数 | `xsd:int` | 是 | 尝试从垃圾桶中还原资源时生成的错误数。 |
-| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，在操作尝试从垃圾桶中还原资源时这些资源会生成警告。 |
-| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的详细信息数组，当操作尝试从垃圾桶中还原资源时，这些资源会生成错误。 |
+| warningcount | `xsd:int` | 是 | 操作尝试从垃圾桶中还原资源时生成的警告数。 |
+| errorCount | `xsd:int` | 是 | 尝试从垃圾桶中还原资源时生成的错误数。 |
+| warningDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的一系列详细信息，这些资源在操作尝试从垃圾桶中还原资源时生成警告。 |
+| errorDetailArray | `types:AssetOperationFaultArray` | 否 | 与资源关联的一系列详细信息，这些资源在操作尝试从垃圾桶中还原资源时生成错误。 |
 
 ## 示例 {#section-98fe0394b0634ca397c395f14f8a9358}
 

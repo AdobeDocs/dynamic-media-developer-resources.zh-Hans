@@ -18,11 +18,11 @@ ht-degree: 1%
 
 IR变量用于标识晕影、徽标图像和自定义文本。
 
-此 `vignette::Modifier` 记录中命名的字段 *模板* 在材质目录的晕影图中 `myCat` 包含以下内容：
+材质目录`myCat`的晕影映射中名为&#x200B;*template*&#x200B;的记录中的`vignette::Modifier`字段包含以下内容：
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-所有使用的晕影都列在材质目录的晕影映射中 `myCat`.
+材质目录`myCat`的晕影映射中列出了所有使用的晕影。
 
 客户端现在可以发出以下请求以检索默认图像（使用在模板开头定义的变量）：
 
@@ -32,4 +32,4 @@ IR变量用于标识晕影、徽标图像和自定义文本。
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-有关图像服务的详细信息，请参阅图像服务文档 `text=` 命令。
+有关图像服务`text=`命令的详细信息，请参阅图像服务文档。

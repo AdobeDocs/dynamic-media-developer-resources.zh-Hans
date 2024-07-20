@@ -1,5 +1,5 @@
 ---
-description: 更新现有资产集的集定义。
+description: 更新现有资源集的集定义。
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-更新现有资产集的集定义。
+更新现有资源集的集定义。
 
 语法
 
@@ -33,28 +33,28 @@ ht-degree: 6%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 资产集所在的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 资产集所在公司的句柄。 |
 | assetHandle | `xsd:string` | 是 | 资源集句柄 |
 | setDefinition | `xsd:string` | 是 | 定义字符串。 请参阅下文。 |
 
 **输出(setAssetSetDefinitionReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## setDefinition参数：关于 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition函数**
 
-指定 `setDefinition` 替换函数内联。 这些问题会在目录查找期间或在发布时解决。 替换字符串的格式为 `${<substitution_func>}`，并包括以下各项：
+指定`setDefinition`内嵌替换函数。 这些将在目录查找期间或发布时解决。 替换字符串的格式为`${<substitution_func>}`，并且包括以下内容：
 
 >[!NOTE]
 >
->参数列表中的句柄文字必须用括号括起来 `([])`. 在解析期间，替换字符串外部的文本将被复制到输出字符串。
+>参数列表中的句柄文字必须用括号`([])`括起来。 在解析期间，替代字符串外部的文本将被复制到输出字符串。
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 替代函数 </th> 
+   <th colname="col1" class="entry"> 替换函数 </th> 
    <th colname="col2" class="entry"> 返回资产的 </th> 
   </tr> 
  </thead>

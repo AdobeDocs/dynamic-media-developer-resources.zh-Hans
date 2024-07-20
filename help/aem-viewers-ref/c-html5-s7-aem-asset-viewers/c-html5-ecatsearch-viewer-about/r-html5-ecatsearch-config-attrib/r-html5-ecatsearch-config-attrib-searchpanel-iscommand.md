@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4e843866-75a5-4543-a275-e134b3aee75a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 应用于所有缩略图的图像服务命令字符串。 如果在URL中指定，则所有匹配项 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 必须为HTTP编码 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> </td> 
+   <td colname="col2"> <p> 应用于所有缩略图的图像服务命令字符串。 如果在URL中指定，则<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项必须通过HTTP编码分别表示为<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 坐标</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 像素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">顺序</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">像素</span> </span>，<span class="codeph"><span class="varname">像素</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 像素</span> </span>， <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>， <span class="varname"> y</span> 以像素为单位的值（整数） </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">像素</span> </span>，<span class="codeph"><span class="varname">像素</span></span> </p></td> 
+  <td class="stentry"> <p>以像素(int)为单位的<span class="varname"> x</span>、<span class="varname"> y</span>值 </p></td> 
  </tr> 
 </table>
 
-坐标 `0,0` 指图像或矩形的左上角。 增加值会向右下角移动。
+坐标`0,0`是指图像或矩形的左上角。 增加值会向右下角移动。

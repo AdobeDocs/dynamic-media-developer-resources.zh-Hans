@@ -1,6 +1,6 @@
 ---
 title: 在Linux®上启动或停止
-description: 在Linux®上启动或停止图像服务有两个选项。
+description: 在Linux®上启动或停止图像服务有两种选项。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 在Linux®上启动或停止 {#starting-or-stopping-on-linux}
 
-在Linux®上启动或停止图像服务有两个选项。
+在Linux®上启动或停止图像服务有两种选项。
 
-* 可在中找到用于验证图像服务状态或启动和停止图像服务的脚本 [!DNL ImageServing/bin] 文件夹：
+* 在[!DNL ImageServing/bin]文件夹中找到用于验证图像服务状态或启动和停止图像服务的脚本：
 
-   `ImageServing.sh {start|stop|restart|status}`
+  `ImageServing.sh {start|stop|restart|status}`
 * 系统管理员应该熟悉以下替代方法：
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

@@ -1,6 +1,6 @@
 ---
-title: 卸载图像渲染
-description: 如有必要，您可以卸载图像渲染。
+title: 正在卸载图像渲染
+description: 如果必要，可以卸载图像渲染。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# 卸载图像渲染{#uninstalling-image-rendering}
+# 正在卸载图像渲染{#uninstalling-image-rendering}
 
-如有必要，您可以卸载图像渲染。
+如果必要，可以卸载图像渲染。
 
-卸载可能会删除安装文件夹中的某些用户文档。 在卸载之前，请备份要保留的所有文件。
+卸载可能会删除安装文件夹中的某些用户文档。 请在卸载之前备份所有要保留的文件。
 
 在卸载之前，请使用管理员或root权限登录到服务器主机。

@@ -1,5 +1,5 @@
 ---
-description: 由SystemFieldCondition/op和MetadataCondition/op使用。
+description: 用于SystemFieldCondition/op和MetadataCondition/op。
 solution: Experience Manager
 title: 字符串比较运算符
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # 字符串比较运算符{#string-comparison-operators}
 
-由SystemFieldCondition/op和MetadataCondition/op使用。
+用于SystemFieldCondition/op和MetadataCondition/op。
 
 语法
 

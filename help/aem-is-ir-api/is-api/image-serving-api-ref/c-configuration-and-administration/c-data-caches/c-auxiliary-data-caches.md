@@ -1,5 +1,5 @@
 ---
-description: 通过在嵌套/嵌入请求中指定cache=on，可以缓存嵌套/嵌入图像服务和图像渲染请求生成的中间图像数据。 此数据以专有格式存储在响应数据缓存中。
+description: 通过在嵌套/嵌入请求中指定cache=on，可以缓存嵌套/嵌入图像服务和图像渲染请求生成的中间图像数据。 该数据以专有格式存储在响应数据缓存中。
 solution: Experience Manager
 title: 辅助数据缓存
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # 辅助数据缓存{#auxiliary-data-caches}
 
-通过在嵌套/嵌入请求中指定cache=on，可以缓存嵌套/嵌入图像服务和图像渲染请求生成的中间图像数据。 此数据以专有格式存储在响应数据缓存中。
+通过在嵌套/嵌入请求中指定cache=on，可以缓存嵌套/嵌入图像服务和图像渲染请求生成的中间图像数据。 该数据以专有格式存储在响应数据缓存中。
 
-从外部HTTP服务器获得的图像也存储在响应数据缓存中。 在生成缓存条目之前，使用验证实用程序自动验证此类图像。
+从外部HTTP服务器获得的图像也存储在响应数据缓存中。 在生成缓存条目之前，会使用验证实用程序自动验证此类图像。
 
-此 [!DNL Platform Server] 编译图像目录数据以实现高效访问。 此数据存储在 `CS::CatalogCacheFolder`.
+[!DNL Platform Server]编译图像目录数据以便有效访问。 此数据存储在`CS::CatalogCacheFolder`中。

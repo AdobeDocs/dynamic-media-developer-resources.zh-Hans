@@ -1,6 +1,6 @@
 ---
 title: 许可
-description: 需要Dynamic Media图像渲染许可证密钥，并且必须在安装了图像渲染的每个系统上安装。
+description: 需要Dynamic Media图像渲染许可证密钥，并且必须在安装图像渲染的每个系统上安装。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 许可{#licensing}
 
-需要Dynamic Media图像渲染许可证密钥，并且必须在安装了图像渲染的每个系统上安装。
+需要Dynamic Media图像渲染许可证密钥，并且必须在安装图像渲染的每个系统上安装。
 
-如果没有有效的许可证，图像渲染将不会运行。 安装过程包括获取和安装许可证密钥的步骤。
+如果没有有效的许可证，将无法运行图像渲染。 安装过程包括获取和安装许可证密钥的步骤。

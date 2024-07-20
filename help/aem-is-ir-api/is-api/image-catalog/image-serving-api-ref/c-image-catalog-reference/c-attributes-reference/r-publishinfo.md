@@ -16,7 +16,7 @@ ht-degree: 4%
 
 目录注释字符串。 可用于标识目录版本、发布日期等的文本字符串。
 
-该字段的内容返回于 `req=catalogprops`. 否则，不会使用此属性。
+此字段的内容随`req=catalogprops`一起返回。 否则，不会使用此属性。
 
 ## 属性 {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 ## 默认 {#section-82e5a885e142414f996c609efbb962b1}
 
-继承自 `default::PublishInfo` 如果未定义或为空。
+如果未定义或为空，则从`default::PublishInfo`继承。
 
 ## 另请参阅 {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

@@ -28,6 +28,6 @@ ht-degree: 12%
 | y位置 | `xsd:int` | 缩放目标的Y位置。 |
 | 宽度 | `xsd:int` | 缩放目标宽度。 |
 | 高度 | `xsd:int` | 缩放目标高度。 |
-| userData | `xsd:string` | 与缩放目标关联的用户数据。 |
+| 用户数据 | `xsd:string` | 与缩放目标关联的用户数据。 |
 | 位置 | `xsd:int` | 允许根据位置对与资源关联的缩放目标排序 |
 | lastModified | `xsd:dateTime` | 上次修改的日期。 |

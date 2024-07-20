@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 创建可以具有多个文本和图像图层的图层图像。
 
-此 `urlModifier` 参数指定在URL上用户提供的任何命令之前应用的图像服务器目录中存储的图像服务器协议命令。 此 `urlPostApplyModifier` parameter指定在任何URL命令之后应用的协议命令，这会覆盖任何冲突的用户提供的设置。
+`urlModifier`参数指定在URL上任何用户提供的命令之前应用的图像服务器目录中存储的图像服务器协议命令。 `urlPostApplyModifier`参数指定在任何URL命令之后应用的协议命令，这会覆盖任何冲突的用户提供的设置。
 
 ## 授权用户类型 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +47,7 @@ ht-degree: 11%
 
 ## 示例 {#section-09adb4d2f0c944af875c4463a461f55d}
 
-此代码示例在句柄指定的文件夹中创建名为 `APIcreateTemplate`， a `urlModifier`，和 `urlPostApplyModifier`. 响应会将句柄返回到新创建的模板。
+此代码示例在句柄指定的文件夹中创建名为`APIcreateTemplate`、`urlModifier`和`urlPostApplyModifier`的模板。 响应会将句柄返回到新创建的模板。
 
 **请求**
 

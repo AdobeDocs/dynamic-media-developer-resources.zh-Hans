@@ -1,5 +1,5 @@
 ---
-title: 控制栏
+title: 控件栏
 description: 控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有UI控件后面，如播放/暂停按钮和音量控件。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
-# 控制栏{#control-bar}
+# 控件栏{#control-bar}
 
 控制栏是一个矩形区域，其中包含并位于视频查看器可用的所有UI控件后面，如播放/暂停按钮和音量控件。
 
@@ -31,20 +31,20 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>上边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
-   <td colname="col2"> <p> 从下边框定位，包括内边距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
+   <td colname="col2"> <p> 下边框的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>控制栏的高度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
+   <td colname="col2"> <p>控件栏的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>控制栏的背景颜色。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
+   <td colname="col2"> <p>控件栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

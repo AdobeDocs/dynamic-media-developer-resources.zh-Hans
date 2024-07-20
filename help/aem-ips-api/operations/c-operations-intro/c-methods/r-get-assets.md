@@ -8,7 +8,7 @@ exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 19%
+ht-degree: 12%
 
 ---
 
@@ -50,21 +50,21 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>公司处理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>模拟特定用户。 仅供管理员使用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>按组过滤. </p> </td> 
+   <td colname="col4"> <p>按组筛选。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -74,13 +74,13 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：StringArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>响应中包含的字段和子字段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>从响应中排除的字段和子字段。 </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 类型：AssetArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">类型：AssetArray</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
    <td colname="col4"> <p>与筛选条件匹配的资源数组。 </p> </td> 
   </tr> 

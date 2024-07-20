@@ -1,5 +1,5 @@
 ---
-description: 获取用户在公司阵列中的成员资格。
+description: 获取公司数组中的用户成员资格。
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
 # getCompanyMembership{#getcompanymembership}
 
-获取用户在公司阵列中的成员资格。
+获取公司数组中的用户成员资格。
 
 语法
 

@@ -18,12 +18,12 @@ ht-degree: 0%
 
 这些在特殊请求格式中指定为： `?req=<command>`
 
-这些命令的示例使用虚构的 `PlatformServer` URL » [!DNL scene7.adobe.com:8080]”和一个名为AcmeCorp的虚构公司。 作业ID也是虚构的。
+为这些命令显示的示例使用虚构的`PlatformServer` URL“[!DNL scene7.adobe.com:8080]”和名为AcmeCorp的虚构公司。 作业ID也是虚构的。
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
 * [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
 * [batchjobgetoutput](r-batchjobgetoutput.md)
-* [batchjobsub](r-batchjobsubmit.md)
+* [批处理作业提交](r-batchjobsubmit.md)
 * [jobdata](r-jobdata.md)
-* [jobid](r-jobid.md)
+* [作业ID](r-jobid.md)

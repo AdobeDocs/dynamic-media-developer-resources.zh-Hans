@@ -8,7 +8,7 @@ exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 22%
 
 ## 参数 {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**输入(updateAssetSetparam)**
+**输入(updateAssetSetParam)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 包含要修改的图像集的公司的句柄。 |
 | assetHandle | `xsd:string` | 是 | 要修改的图像集的句柄。 |
 | setDefinition | `xsd:string` | 否 | 重置图像集成员。 |
-| thumbAssetHandle | `xsd:string` | 否 | 充当图像集缩略图的资源的句柄。 |
+| thumbAssetHandle | `xsd:string` | 否 | 充当图像集缩略图的资产句柄。 |
 
 **输出(updateAssetSetReturn)**
 

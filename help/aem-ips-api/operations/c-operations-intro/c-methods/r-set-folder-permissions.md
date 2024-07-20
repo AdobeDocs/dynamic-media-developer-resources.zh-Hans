@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -30,18 +30,18 @@ ht-degree: 15%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | folderHandle | `xsd:string` | 是 | 文件夹句柄。 |
 | setchildren | `xsd:boolean` | 是 | 设置属于该文件夹的子项的权限。 |
 | permissionArray | `types:PermissionUpdateArray` | 是 | 权限数组。 |
 
 **输出(setFolderPermissionsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-01730da4be874553ab44e3241cdf6357}
 
-此代码示例指定公司句柄、文件夹句柄和权限数组，其中包含有关文件夹的详细信息。 它会为父文件夹的子文件夹应用相同的权限。
+此代码示例指定公司句柄、文件夹句柄和权限数组，其中包含有关文件夹的详细信息。 它会将相同的权限应用于父文件夹的子文件夹。
 
 **请求**
 

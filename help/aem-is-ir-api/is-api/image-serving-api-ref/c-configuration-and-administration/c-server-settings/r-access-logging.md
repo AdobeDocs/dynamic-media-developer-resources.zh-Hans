@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## TC：：directory — 日志文件文件夹 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-要将 [!DNL Platform Server] 写入日志文件。 这可以是绝对路径或相对路径 *`install_folder`*. 默认为 [!DNL  *`install_folder`*/logs].
+[!DNL Platform Server]写入日志文件的文件夹。 这可以是绝对路径或相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL  *`install_folder`*/日志]。
 
 >[!NOTE]
 >
@@ -32,21 +32,21 @@ ht-degree: 4%
 
 ## TC：：prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
-将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])，以附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为 &quot; `access-`&quot;.
+将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为“`access-`”。
 
 ## TC：：pattern — 访问日志模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-指定数据模式 [!DNL Platform Server] 访问日志记录。 模式字符串指定用相应值替换的变量。 模式字符串中的所有其他字符按字面顺序传输到日志记录。
+指定[!DNL Platform Server]访问日志记录的数据模式。 模式字符串指定用相应值替换的变量。 模式字符串中的所有其他字符按字面顺序传输到日志记录。
 
-要使用缓存预热实用程序，必须将空格用作字段分隔符。 此 [!DNL Platform Server] 将字段值中的所有空格和“%”字符替换为 `%20` 和 `%25`、ID名称和ID名称等。
+要使用缓存预热实用程序，必须将空格用作字段分隔符。 [!DNL Platform Server]将字段值中的所有空格和“%”字符分别替换为`%20`和`%25`。
 
 支持以下模式变量：
 
 <table id="table_7A07AFF34B5040A5B30F5735CFE9428F"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>图案</b> </th> 
-   <th class="entry"> <b>说明</b> </th> 
+   <th class="entry"> <b>模式</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -76,11 +76,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和时间，格式为 <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> 毫米 </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> 毫米 </span>： <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 是毫秒， <span class="varname"> offset </span> 是GMT时间偏移)；在将响应发送到客户端时捕获时间值。 </p> </td> 
+   <td> <p>日期和时间，格式为<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> mm </span>： <span class="varname"> ss </span>。 <span class="varname"> SSS </span>偏移</span> </p> <p> （<span class="varname"> SSS </span>为毫秒，<span class="varname">偏移量</span>为GMT时间偏移量）；在将响应发送到客户端时捕获时间值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>请求方法( <span class="codeph"> GET </span>， <span class="codeph"> POST </span>，等等)。 </p> </td> 
+   <td> <p>请求方法(<span class="codeph">GET</span>、<span class="codeph">POST</span>等)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>与 <span class="codeph"> %r </span>，但对URI应用有限的HTTP编码以避免日志解析问题。 </p> </td> 
+   <td> <p>与<span class="codeph"> %r </span>相同，但对URI应用有限的HTTP编码以避免日志分析问题。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -136,7 +136,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 缓存管理关键词： <span class="codeph"> { REUSED |已创建 |已更新 |远程 |远程创建 |远程更新 |远程缓存 |已验证 |已忽略 |未定义} </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] 缓存管理关键字： <span class="codeph"> {已重用 | 已创建 | 已更新 | 远程 | REMOTE_CREATED | 远程更新 | 远程缓存 | 已验证 | 已忽略 | 未定义} </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,11 +148,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>此 <span class="codeph"> etag </span> 响应标头值（响应数据的MD5签名）。 </p> </td> 
+   <td> <p><span class="codeph"> etag </span>响应标头值（响应数据的MD5签名）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
-   <td> <p>错误消息. </p> </td> 
+   <td> <p>错误消息。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>缓存群集中传送缓存条目的对等服务器的IP地址，或者“ — ”(如果 <span class="codeph"> 缓存使用 </span> 两者都不是 <span class="codeph"> REMOTE_CREATED </span> 也不 <span class="codeph"> 远程更新 </span>. </p> </td> 
+   <td> <p>缓存群集中传递缓存项目的对等服务器的IP地址；如果<span class="codeph"> CacheUse </span>既不是<span class="codeph"> REMOTE_CREATED </span>也不是<span class="codeph"> REMOTE_UPDATED </span>，则为“ — ”。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>的上小写值 <span class="codeph"> 需要= </span>. </p> </td> 
+   <td> <p><span class="codeph">请求的上限大小写值= </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,11 +191,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>所需的时间 [!DNL Platform Server] 在将数据写入输出流后发送响应。 </p> </td> 
+   <td> <p>将数据写入输出流后，[!DNL Platform Server]发送响应所需的时间。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>点赞 <span class="codeph"> %B </span>，但包含304（未修改）响应的值。 </p> </td> 
+   <td> <p>与<span class="codeph"> %B </span>类似，但包含304（未修改）响应的值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
@@ -212,4 +212,4 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-默认值为 `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`
+默认值为`"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`

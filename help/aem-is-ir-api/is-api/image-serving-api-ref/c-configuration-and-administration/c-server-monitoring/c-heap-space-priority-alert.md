@@ -16,4 +16,4 @@ ht-degree: 0%
 
 当可用Java栈空间在紧接Java垃圾收集循环之后低于指定的阈值时，将发送优先级警报。
 
-应通过增加Java栈空间来解决重复的警报。 后续发生此情况时，直到指定的延迟时段之前，不会导致电子邮件警报。 `AS::monitorAlertGenerator.heapSpaceResetInterval` 已过期。
+应通过增加Java栈空间来解决重复的警报。 在通过`AS::monitorAlertGenerator.heapSpaceResetInterval`指定的延迟时段到期之前，此情况的后续发生不会导致电子邮件警报。

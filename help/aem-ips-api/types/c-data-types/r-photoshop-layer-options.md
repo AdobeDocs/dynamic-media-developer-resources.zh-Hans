@@ -22,8 +22,8 @@ Photoshop图像图层选项。
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 图层命名 | `xsd:string` | 选择Photoshop图层命名模式。 |
-| 锚记 | `xsd:string` | 选择Photoshop锚点模式。 |
+| layernaming | `xsd:string` | 选择Photoshop图层命名模式。 |
+| 锚记 | `xsd:string` | Photoshop锚点模式的选择。 |
 | createTemplate | `xsd:boolean` | 是否从Photoshop图层创建模板。 |
-| extractText | `xsd:boolean` | 是否提取文本作为文本图层。 |
-| extendLayers | `xsd:boolean` | 是否将图层扩展至背景的全尺寸。 |
+| extractText | `xsd:boolean` | 是否将文本提取为文本图层。 |
+| extendLayers | `xsd:boolean` | 是否将图层扩展到背景的全尺寸。 |

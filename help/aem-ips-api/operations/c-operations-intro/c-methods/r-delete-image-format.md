@@ -8,7 +8,7 @@ exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 **输出(deleteImageFormatParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 

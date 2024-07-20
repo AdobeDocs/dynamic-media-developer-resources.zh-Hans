@@ -8,7 +8,7 @@ exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 13%
 
 **输出(deleteGroupParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-此示例代码从公司中删除组。 它需要一个组句柄，您必须从另一个操作中获取该句柄。
+此示例代码从公司中删除组。 它需要一个组句柄，您必须从另一个操作获取该句柄。
 
 **请求**
 

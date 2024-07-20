@@ -1,7 +1,7 @@
 ---
 description: 批处理作业的作业ID。
 solution: Experience Manager
-title: jobid
+title: 作业ID
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c00b7191-f162-4c51-bcfb-fe27f9253ca8
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# jobid{#jobid}
+# 作业ID{#jobid}
 
 批处理作业的作业ID。
 

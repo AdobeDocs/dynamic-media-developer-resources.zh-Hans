@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Experience Cloud中Adobe Scene7 2016年秋季版本Adobe Experience Manage
 
 ## Scene7 2016年秋季版本 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-的最新发行说明 [!DNL Adobe Scene7] 2016年秋季版 —  [!DNL Adobe Experience Manager] 中的解决方案 [!DNL Adobe Experience Cloud].
+[!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Scene7] 2016年秋季发行版的最新发行说明。
 
 * [常规](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [场景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -32,18 +32,18 @@ Adobe Experience Cloud中Adobe Scene7 2016年秋季版本Adobe Experience Manage
 
 Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
-请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新增功能、增强功能和错误修复**
 
-* 已从删除视频剪辑功能 [!DNL Adobe Scene7 Publishing System] 用户界面。
+* 已从[!DNL Adobe Scene7 Publishing System]用户界面中删除视频剪辑功能。
 * 在必要和可能的情况下，向所有Scene7 Servlet添加了身份验证
 * 修复了垃圾桶中列表视图的错误。
-* 已删除 **创建Dynamic Media Classic (Scene7)管理员** 出于安全考虑，用户管理中的用户功能。
+* 出于安全考虑，已从“用户管理”中删除&#x200B;**创建Dynamic Media Classic (Scene7)管理员**&#x200B;用户功能。
 * FTP WebAdmin现在支持OKTA身份验证。
 * 删除了为新Media Portal用户创建的默认密码的功能。
 * 修复了在添加新用户时生成的临时密码的错误。 密码不符合必需的密码要求。
@@ -58,9 +58,9 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
-**图像服务5.5.3的错误修复**
+**针对图像服务5.5.3的错误修复**
 
 * 与RequireJS和DOJO库兼容。
 
@@ -68,16 +68,16 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
-**图像服务5.5.2的错误修复**
+**针对图像服务5.5.2的错误修复**
 
 * 在Windows 7上的Internet Explorer 11中播放视频失败。
-* `initialframe` 未影响HTML5 eCatalog移动设备上的纵向模式。
+* `initialframe`不会影响HTML5 eCatalog在移动设备上的纵向模式。
 
 ## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参阅 [查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **图像服务5.5.1的新增功能、增强功能和错误修复**
 
@@ -85,9 +85,9 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 * 添加了HLS流视频播放作为大多数桌面系统的默认视频交付方法。 基于Flash的HDS视频流仍可用作替代播放选项。
 * 为运行Chrome浏览器的同时具有鼠标和触摸输入的设备添加了支持。
 * 为Analytics集成添加了Experience Cloud组织ID支持。
-* 将AppMeasurementJavaScript库更新到版本1.6.1。
+* 将AppMeasurementJavaScript库更新至版本1.6.1。
 * 在eCatalog查看器中增加了从右至左方向的支持。
-* 修复了以下问题 `tip=0,-1,0` 导致出现超出范围的错误。
+* 修复了`tip=0,-1,0`导致超出范围错误的问题。
 
 **兼容性说明**
 
@@ -127,7 +127,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 * HTML5视频
 
    * Internet Explorer 9：不显示自定义海报图像。
-   * `IntialBitRate` 仅软件HLS和FlashHDS播放支持修饰符。 使用本机播放器播放时，此选项不起作用。
+   * 仅软件HLS和FlashHDS播放支持`IntialBitRate`修饰符。 使用本机播放器播放时，此选项不起作用。
    * 当前不支持OGG和WebM渐进式播放。
    * 浏览器缩放可能会导致视频播放器的显示大小不正确（包括Windows操作系统控制面板的“显示”设置）。
    * 在Safari上使用HLS流播放的视频搜寻可能不一致。
@@ -151,26 +151,26 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 **已知问题和限制**
 
-* 图像服务修饰符来自 `iscommands` 未添加到 `req=set` 设计要求。 仅影响图像显示的修饰符工作正常。 必须在复杂资源中使用影响大小的修饰符。 例如︰
+* 来自`iscommands`的图像服务修饰符未按设计添加到`req=set`请求中。 仅影响图像显示的修饰符工作正常。 必须在复杂资源中使用影响大小的修饰符。 例如︰
 
   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [弹出] 鼠标关闭后，IE9有时会保留在屏幕上。
+* 鼠标关闭后，[弹出] IE9有时仍保留在屏幕上。
 * 浏览器缩放会导致调整大小错误。
 * iPad 2：大型eCatalog资源在iOS上崩溃Safari。
 * 所有查看器
 
    * 不支持水印、模糊处理和锁定。
    * 不支持图像预设。
-   * 使用以下方式在DOM中添加或删除查看器 `display:none` 当前不支持CSS或将其从父节点动态分离。
+   * 当前不支持使用`display:none` CSS从DOM添加或删除查看器，也不支持通过将其从父节点动态分离来添加或删除查看器。
 
 * HTML5所有查看器
 
    * 将查看器嵌入表中可能会导致在非本机全屏模式下查看器大小或放置位置不正确。 建议改用DIV。
-   * 代码中具有显式实例名称的参数需要在URL中覆盖实例名称(例如， `zoomView.iconfeffect=0`)。
+   * 代码中具有显式实例名称的参数要求URL中的实例名称也被覆盖（例如，`zoomView.iconfeffect=0`）。
    * 当前不支持图像服务命令裁切。
    * 仅当在子窗口中打开查看器时，“关闭”按钮才有效。
-   * 此 `iscommands` 修饰符不支持影响图像大小的“图像提供”修饰符。
+   * `iscommands`修饰符不支持影响图像大小的图像服务修饰符。
 
 * HTML5 eCatalog
 
@@ -186,18 +186,18 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 * HTML5社交
 
-   * 要在传出电子邮件中正确呈现缩略图，请 `serverurl` 修饰符必须具有绝对URL。
+   * 要在传出电子邮件中正确呈现缩略图，`serverurl`修饰符必须具有绝对URL。
 
 * HTML5视频
 
-   * 海报图像可能遇到“最大大小”错误。 公司必须增加图像服务发布的限制设置。
+   * 海报图像可能遇到“最大大小”错误。 公司必须增加图像服务Publish的限制。
    * 如果从外部服务器(而不是Scene7服务器)提供托管HTML页面，则视频字幕需要公司规则集。 请联系Adobe支持部门以获取帮助。
    * Analytics跟踪可能会由于缓冲而报告不正确的播放百分比
    * iPad或Android™设备上可能会显示黑色帧而不是海报图像。
    * 在iPad或Android™设备上加载查看器时，屏幕上可能会闪烁“黑框”。
    * 当iPad设备上的背景设置为白色/透明时，VideoPlayer组件的一侧会显示黑色边框。
    * 在使用iOS 7的iPad上，视频的最后一帧可能会失真。
-   * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式中，视频搜寻期间可能会发生偶尔的宏阻止。
+   * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式下搜索视频时，可能会出现偶尔的宏阻止。
       * 首次来访的访客可能无法在Microsoft® Edge浏览器中显示海报图像。
       * 当使用渐进式播放时，在Internet Explorer 9中加载视频后，海报图像可能会隐藏。
 
@@ -205,10 +205,10 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 该用户指南位于客户端安装的AdobeHTML5查看器SDK文件夹中。 组件API文档可在客户端安装的文档子文件夹中找到。
 
-**3.0.2的错误修复**
+针对3.0.2 **的**&#x200B;错误修复
 
 * VideoPlayer — 在Windows 7上的Internet Explorer 11中播放视频失败。
-* 目录 —   `initialframe` 未影响HTML5 eCatalog查看器的移动设备上的纵向模式。
+* 目录 — `initialframe`未影响HTML5 eCatalog查看器的移动设备上的纵向模式。
 
 **3.0.1的新增功能、增强功能和错误修复**
 
@@ -216,7 +216,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
    * 添加了HLS流视频播放作为大多数桌面系统的默认视频交付方法。 基于Flash的HDS视频流仍可用作替代播放选项。
    * 添加了SearchManager、SearchPanel、SearchEffect和SearchButton组件，以支持eCatalog查看器中的新“搜索”功能。
-   * 添加了对在Chrome浏览器上同时运行鼠标和触摸输入的设备的支持。
+   * 添加了对在Chrome浏览器上运行鼠标和触摸输入的设备的支持。
    * 重构了Android™版本检测，以支持操作系统的未来版本。
    * 在特定于eCatalog的SDK组件中添加对从右到左方向的支持。
 
@@ -226,7 +226,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 * FlyoutzoomView
 
-   * 修复了以下情况 `tip=0,-1,0` 导致出现超出范围的错误。
+   * 修复了`tip=0,-1,0`导致超出范围错误的情况。
 
 **兼容性说明**
 
@@ -240,7 +240,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
    * 在更改AVS集中的比特率流时，视频播放可能会停止。
 
-* 铬黄
+* Chrome
 
    * 由于Chrome的内部缓存，任何强制组件重建的API调用都可能被忽略。
 
@@ -259,7 +259,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
    * iPad 3的原始分辨率为2048x1536。 如果公司的IS发布、图像大小限制设置得较低，此分辨率可能会导致显示问题。
 
-* iPhone4
+* IPHONE4
 
    * 滚动页面后，Iconeffect重播图标已替换为播放图标。
 
@@ -291,9 +291,9 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 * 所有组件
 
-   * 在版本2.7.2及更早版本中，一些组件是使用添加到DOM的 `insertBefore()` API。 因此，无论组件实例是相对于其他组件创建的，此类组件都将处于栈叠顺序的底部。 在2.8.1版本中，所有组件都使用 `appendChild()` API的顺序即日起，这意味着组件栈叠顺序将与实例创建顺序匹配。
+   * 在版本2.7.2及更早版本中，某些组件是使用`insertBefore()` API添加到DOM中的。 因此，无论组件实例是相对于其他组件创建的，此类组件都将处于栈叠顺序的底部。 在2.8.1版本中，所有组件现在都使用`appendChild()` API，这意味着组件栈叠顺序将与实例创建顺序匹配。
 
-   * 使用 `iscommand` 不支持用于设置图像Alpha通道格式的修饰符。 使用组件 `FMT` 参数替换。
+   * 不支持使用`iscommand`修饰符设置图像Alpha通道格式。 请改用组件`FMT`参数。
    * 当前不支持CSS转换属性。
 
 * 触控设备
@@ -311,7 +311,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 * IconEffect组件
 
-   * 在以下情况下，IconEffect会在Internet Explorer上生成脚本错误 `autohide` 已禁用(设置为 `0`)。
+   * 如果`autohide`被禁用（设置为`0`），则IconEffect会在Internet Explorer上生成脚本错误。
 
 * ImageMapEffect组件
 
@@ -327,7 +327,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 * PageScrubber组件
 
-   * 在iPhone 5上，当PageScrubber气泡设置为文本时，它会在沿轨道滑动按钮时显示构件。 使用 `-webkit-background-clip: content;` 使用样式可解决此问题。
+   * 在iPhone 5上，当PageScrubber气泡设置为文本时，它会在沿轨道滑动按钮时显示构件。 在样式中使用`-webkit-background-clip: content;`可以解决此问题。
 
 * 旋转视图组件
 
@@ -336,7 +336,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 * 样本组件
 
    * 选择越界样本时，将显示两个高亮显示。
-   * 自动滚动 `selectSwatch()` 方法工作不正确。
+   * 使用`selectSwatch()`方法的自动滚动工作不正确。
 
 * videoplayer
 
@@ -347,5 +347,5 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## Dynamic Media图像服务6.3.2和图像渲染6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* 集成电路实用程序 —  `downsample2x2` 标记不再受支持。 此标记是一个质量较差的2x2降采样器，IPS不再使用它。
-* CORS标头 — 当前，CORS标头配置用于 `/is/content/` 请求。
+* 不再支持IC实用程序 — `downsample2x2`标志。 此标记是一个质量较差的2x2降采样器，IPS不再使用它。
+* CORS标头 — 当前，已为`/is/content/`请求配置CORS标头。

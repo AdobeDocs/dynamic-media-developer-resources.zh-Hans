@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '476'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 5%
 
 **确认电子邮件**
 
-Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创建者或其他5个电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认。 只调用一次 `cdnCacheInvalidation` 如果提供的URL数量超过Dynamic Media在单个通知中可向CDN合作伙伴提供的数量，则可以发送多封电子邮件。 目前，这表示请求将超过100个URL，但可能会根据CDN合作伙伴的请求而发生更改。
+Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创建者或其他5个电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认。 如果提供的URL数量超过Dynamic Media在单个通知中可向CDN合作伙伴提供的数量，则对`cdnCacheInvalidation`的单次调用可以发送多个电子邮件。 目前，这表示请求将超过100个URL，但可能会根据CDN合作伙伴的请求而发生更改。
 
-**自以下时间以来支持**
+**自**&#x200B;起便受支持
 
 6.0
 
@@ -44,52 +44,52 @@ Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 名称</b> </th> 
-   <th class="entry"> <b> 类型</b> </th> 
-   <th class="entry"> <b> 必需</b> </th> 
-   <th class="entry"> <b> 说明</b> </th> 
+   <th class="entry"> <b>名称</b> </th> 
+   <th class="entry"> <b>类型</b> </th> 
+   <th class="entry"> <b>必填</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd：string</span> </p> </td> 
    <td> <p> 是 </p> </td> 
    <td> <p> 与要失效的URL关联的公司的句柄。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> 类型：UrlArray</span> </p> </td> 
+   <td> <p> <span class="codeph">类型：UrlArray</span> </p> </td> 
    <td> <p> 是 </p> </td> 
    <td> <p> 从CDN缓存中失效的URL列表，最多1000个。 所有URL都必须包含要失效的Dynamic Media公司根ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**输出**( `cdnCacheInvalidationReturn`)
+**输出**(`cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 名称</b> </th> 
-   <th class="entry"> <b> 类型</b> </th> 
-   <th class="entry"> <b> 必需</b> </th> 
-   <th class="entry"> <b> 说明</b> </th> 
+   <th class="entry"> <b>名称</b> </th> 
+   <th class="entry"> <b>类型</b> </th> 
+   <th class="entry"> <b>必填</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
-   <td colname="col4"> <p>引用清除请求的句柄。 </p> <p>此 <span class="codeph"> cdnCacheInvalidation</span> API现在几乎立即使缓存失效（约5秒）。 因此，通常不再需要轮询失效状态。 </p> 
+   <td colname="col4"> <p>引用清除请求的句柄。 </p> <p><span class="codeph"> cdnCacheInvalidation</span> API现在几乎立即使缓存失效（~5秒）。 因此，通常不再需要轮询失效状态。 </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> estimatedSeconds</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：int</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>预计完成清除请求的秒数。 客户端应等待此时间，然后再轮询状态。 </p> </td> 
   </tr> 
@@ -100,7 +100,7 @@ Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创
 
 此示例请求在CDN缓存中使4个URL失效。 响应包含操作成功的摘要计数和直接从CDN提供的错误详细信息列表，以协助客户端使用此功能。
 
-`getCdnCacheInvalidationStatus` 操作.
+`getCdnCacheInvalidationStatus`操作。
 
 **请求**
 

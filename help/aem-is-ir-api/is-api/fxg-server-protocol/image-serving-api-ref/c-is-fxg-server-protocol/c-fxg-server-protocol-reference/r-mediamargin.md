@@ -16,6 +16,6 @@ ht-degree: 0%
 
 设置媒体边距。 设置PDF文件中设置的介质边距。
 
-` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 点数
+` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]`分
 
-默认情况下， `mediaMargin` 设置为由定义的文档的完整大小 `viewWidth` 和 `viewHeight`. 此 *[!DNL left]*， *[!DNL bottom]*、和 *[!DNL right]* 值默认为 *[!DNL top]* 值（如果未指定）。
+默认情况下，`mediaMargin`设置为由`viewWidth`和`viewHeight`定义的文档的完整大小。 如果未指定，*[!DNL left]*、*[!DNL bottom]*&#x200B;和&#x200B;*[!DNL right]*&#x200B;值将默认为&#x200B;*[!DNL top]*&#x200B;值。

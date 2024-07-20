@@ -8,7 +8,7 @@ exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 15%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | userHandle | `xsd:sting` | 否 | 用户句柄。 |
-| membershipArray | `types:CompanyMembershipUpdateArray` | 是 | 许多公司。 |
+| membershipArray | `types:CompanyMembershipUpdateArray` | 是 | 众多公司。 |
 
 **输出(setCompanyMembershipParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-862c0cc32ce0407ab248028e690a8386}
 
-此代码示例将一个用户添加到公司。 如果需要，在公司句柄数组中指定多个公司。
+此代码示例将一个用户添加到公司。 如果需要，在公司句柄阵列中指定多个公司。
 
 **请求**
 

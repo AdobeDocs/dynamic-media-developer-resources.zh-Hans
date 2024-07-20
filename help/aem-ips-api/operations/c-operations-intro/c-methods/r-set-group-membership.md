@@ -1,5 +1,5 @@
 ---
-description: 为用户设置组成员资格。
+description: 设置用户的组成员资格。
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
 # setGroupMembership{#setgroupmembership}
 
-为用户设置组成员资格。
+设置用户的组成员资格。
 
 语法
 
@@ -31,12 +31,12 @@ ht-degree: 13%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | userHandle | `xsd:string` | 否 | 要设置其组成员资格的用户的句柄。 |
-| companyHandle | `xsd:string` | 否 | 公司处理。 |
+| companyHandle | `xsd:string` | 否 | 公司句柄。 |
 | groupHandleArray | `types:HandleArray` | 是 | 用户所属的组的句柄数组。 |
 
 **输出(setGroupMembershipReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-67b86d259df24938896fe19061845811}
 

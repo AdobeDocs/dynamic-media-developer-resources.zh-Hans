@@ -21,8 +21,8 @@ ht-degree: 2%
 <table id="table_27B4B2DDD44D4D1CB46DD1906A92B2FD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 自动|渐进式</span> </p> </td> 
-   <td colname="col2"> <p> 设置查看器使用的播放类型。 时间 <span class="codeph"> 自动</span> 已设置，在大多数桌面浏览器和所有iOS设备上，查看器使用HLS格式的HTML5流视频。 它回退到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>如果 <span class="codeph"> 渐进式</span> 指定时，查看器仅依赖浏览器本机支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关自动和渐进模式下的播放选择的更多信息，请参阅Viewer SDK用户指南。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">自动|渐进式</span> </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 如果设置了<span class="codeph"> auto</span>，则在大多数桌面浏览器和所有iOS设备上，查看器会使用HLS格式的HTML5流视频。 它回退到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>如果指定了<span class="codeph"> progressive</span>，则查看器仅依赖浏览器本机支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关自动和渐进模式下的播放选择的更多信息，请参阅查看器SDK用户指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

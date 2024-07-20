@@ -1,18 +1,18 @@
 ---
 description: 获取与类型句柄关联的属性集。
 solution: Experience Manager
-title: getPropertySets
+title: getPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
-# getPropertySets{#getpropertysets}
+# getPropertySet{#getpropertysets}
 
 获取与类型句柄关联的属性集。
 
@@ -48,7 +48,7 @@ ht-degree: 18%
 
 ## 示例 {#section-1358af974eab4259864910337a6f0bd2}
 
-此代码示例返回其主要所有者的属性集，由类型句柄指定。
+此代码示例返回其主所有者的属性集，这些属性集由类型句柄指定。
 
 **请求**
 

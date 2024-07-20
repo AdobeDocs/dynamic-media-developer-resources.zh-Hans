@@ -1,5 +1,5 @@
 ---
-description: 介绍IPS API版本3.7的新增和已更改的字符串常量。
+description: 描述IPS API版本3.7的新字符串常量和更改后的字符串常量。
 solution: Experience Manager
 title: 字符串常量（新增和修改）
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 2%
 
 ---
 
 # 字符串常量：新增和已修改{#string-constants-new-and-modified}
 
-介绍IPS API版本3.7的新增和已更改的字符串常量。
+描述IPS API版本3.7的新字符串常量和更改后的字符串常量。
 
 语法
 
@@ -38,4 +38,4 @@ ht-degree: 10%
 
 **资源类型**
 
-* 增加了 `Zip`.
+* 已添加`Zip`。

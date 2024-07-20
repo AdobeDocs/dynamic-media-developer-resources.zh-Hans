@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userInfo | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效以及用户密码何时过期。 |
+| userInfo | `types:User` | 是 | 用户的名字、姓氏、电子邮件地址和角色，以及用户是否有效及密码过期时间。 |
 
 ## 示例 {#section-98d77a2e360a438dbe240099bea26a65}
 

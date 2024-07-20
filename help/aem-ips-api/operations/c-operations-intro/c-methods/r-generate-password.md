@@ -8,7 +8,7 @@ exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 20%
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 
 ## 示例 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-此代码示例生成一个密码。 此请求不常见，因为请求只是一个参数，没有任何包含的元素或值。 IPS返回强密码。
+此代码示例生成一个密码。 该请求不常见，因为请求只是一个参数，不包含任何包含的元素或值。 IPS返回强密码。
 
 **请求**
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>设备纵向时，跨页中的页面索引（从零开始）。 对于“从左至右”的环境， <span class="codeph"> 0</span> 表示“左页”和 <span class="codeph"> 1</span> 意思是“正确的页面”。 对于“从右至左”的环境，情况正好相反： <span class="codeph"> 0</span> 表示“正确页面”，并且 <span class="codeph"> 1</span> 表示“左页”。 </p> <p>如果未指定， <span class="codeph"> 0</span> 缺省情况下为假定值。 当设备处于横向时忽略。 </p> </td> 
+   <td colname="col2"> <p>当设备纵向时，跨页中页面的索引（从零开始）。 对于“从左至右”的环境，<span class="codeph"> 0</span>表示“左页”，<span class="codeph"> 1</span>表示“右页”。 对于“从右至左”的环境，则相反： <span class="codeph"> 0</span>表示“右页”，<span class="codeph"> 1</span>表示“左页”。 </p> <p>如果未指定，则默认情况下假定为<span class="codeph"> 0</span>。 当设备处于横向时忽略。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

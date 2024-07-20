@@ -1,28 +1,28 @@
 ---
 title: VideoPlayer.mutevolume
-description: Video Viewer的配置属性。
+description: 视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Video Viewer的配置属性。
+视频查看器的配置属性。
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 在首次加载时将视频播放设置为静音模式。 如果设置为 <span class="codeph"> 1 </span> 音量已静音；否则，视频将播放声音。 在某些设备上，加载时将视频播放静音还允许视频自动播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 在初始加载时为视频播放设置静音模式。 如果设置为<span class="codeph"> 1 </span>，则音量将静音；否则，视频将播放声音。 在某些设备上，加载时将视频播放静音还允许视频自动播放。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

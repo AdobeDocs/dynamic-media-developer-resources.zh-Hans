@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 eCatalog Viewer显示的某些内容需要进行本地化，这些内容包括缩放按钮、页面更改按钮、缩略图按钮、全屏按钮、关闭按钮和滚动条按钮。
 
-查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有英语语言环境( `"en"`)，并且可以根据需要为多种区域设置设置用户定义的值。
+查看器中的每个可本地化的文本内容都由一个名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随开箱即用查看器提供的英文区域设置(`"en"`)的默认关联文本值，并且还可以根据需要为多个区域设置设置用户定义的值。
 
 当查看器启动时，它会检查当前区域设置，查看区域设置中每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-在上述示例中，本地化对象定义了两个区域设置( `"en"` 和 `"fr"`)，并为每个区域设置中的两个用户界面元素提供本地化。
+在上述示例中，本地化对象定义了两个区域设置（`"en"`和`"fr"`），并为每个区域设置中的两个用户界面元素提供了本地化。
 
-网页代码应将此类本地化对象作为的值传递给查看器构造函数 `localizedTexts` 配置对象的字段。 另一种选择是通过调用传递本地化对象。 `setLocalizedTexts(localizationInfo)` 方法。
+网页代码应将此类本地化对象作为配置对象的`localizedTexts`字段的值传递给查看器构造函数。 另一种选择是通过调用`setLocalizedTexts(localizationInfo)`方法来传递本地化对象。
 
 支持以下SYMBOL（假设containerId是查看器容器的ID）：
 
@@ -97,35 +97,35 @@ defaultLocale:"en"
    <td colname="col2"> <p>向下滚动按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>大大的下一页按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>上一页按钮很大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>“最后一页”按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>“最后一页”按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>“第一页”按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>“第一页”按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>下一页按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>上一页按钮。 </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>添加另一个电子邮件地址按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">电子邮件共享来自</span> </p> </td> 
    <td colname="col2"> <p>来自输入字段。 </p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +185,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>消息输入字段。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示删除 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
    <td colname="col2"> <p>删除电子邮件地址按钮。 </p> </td> 
   </tr> 
   <tr> 
@@ -193,11 +193,11 @@ defaultLocale:"en"
    <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示取消 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p>取消按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Embedshare.ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
    <td colname="col2"> <p>“全选”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
@@ -209,7 +209,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>表单提交后对话框底部显示的关闭按钮的题注。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOL提示关闭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
    <td colname="col2"> <p>表单提交后对话框底部显示的关闭按钮。 </p> </td> 
   </tr> 
   <tr> 
@@ -253,7 +253,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOL提示取消 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p>取消按钮。 </p> </td> 
   </tr> 
   <tr> 
@@ -345,15 +345,15 @@ defaultLocale:"en"
    <td colname="col2"> <p>“每张2页”单选按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 打印。取消 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">打印。取消</span> </p> </td> 
    <td colname="col2"> <p>“取消”按钮的标题。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 打印。工具提示_取消 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p> 取消按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Print.ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">打印。操作</span> </p> </td> 
    <td colname="col2"> <p>“发送以打印”按钮的标题 </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ defaultLocale:"en"
    <td colname="col2"> <p> 发送以打印按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Favoritesenu.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>收藏夹菜单按钮。 </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>查看器在加载时生成的页面标签。 </p> <p>该符号的名称是一个模板，其中 <span class="codeph"> XX </span> 是横向的从零开始的跨页索引，可选 <span class="codeph"> YY </span> 是跨页中的从零开始的页面索引，定位者： <span class="codeph"> XX </span>. </p> <p>仅适用于最初加载的资产；如果使用更改资产，则忽略 <span class="codeph"> setAsset() </span> API调用。 </p> </td> 
+   <td colname="col2"> <p>查看器在加载时生成的页面标签。 </p> <p>该符号的名称是一个模板，其中<span class="codeph"> XX </span>是横向的从零开始的跨页索引，可选<span class="codeph"> YY </span>是跨页内的从零开始的页索引，以<span class="codeph"> XX </span>为目标。 </p> <p>仅适用于最初加载的资产；如果使用<span class="codeph"> setAsset() </span> API调用更改资产，则会忽略该资产。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -409,7 +409,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>主控件栏向右滚动按钮。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 搜索面板.PLACEHOLDER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.PLACEHOLDER </span> </p> </td> 
    <td colname="col2"> <p>在用户开始输入搜索文本之前，搜索输入框中显示了本地化的提示。 </p> </td> 
   </tr> 
   <tr> 
@@ -418,28 +418,28 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS </span> </p> </td> 
-   <td colname="col2"> <p>搜索未返回任何结果时显示的本地化消息。 </p> <p>此符号支持以下运行时替换令牌： <span class="codeph"> $SEARCH_TEXT$ </span>. 组件会将其替换为用户输入的搜索文本。 </p> </td> 
+   <td colname="col2"> <p>搜索未返回任何结果时显示的本地化消息。 </p> <p>此符号支持以下运行时替换令牌： <span class="codeph"> $SEARCH_TEXT$ </span>。 组件会将其替换为用户输入的搜索文本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
    <td colname="col2"> <p>搜索成功完成并返回至少一个结果时显示的本地化消息。 </p> <p>此符号支持以下运行时替换令牌： </p> <p> 
      <ul id="ul_30B76EAB921848069BE843A5F91F697A"> 
-      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span>  — 用户输入的搜索文本。 </li> 
-      <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span>  — 找到的搜索点击总数。 </li> 
-      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span>  — 至少包含一次搜索点击的目录页数。 </li> 
+      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> — 用户输入的搜索文本。 </li> 
+      <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span> — 找到的搜索点击总数。 </li> 
+      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> — 至少包含一个搜索点击的目录页数。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.THUMBNAIL_LABEL </span> </p> </td> 
    <td colname="col2"> <p>搜索面板的结果缩略图的本地化标签。 </p> <p>此符号支持以下运行时替换令牌： </p> <p> 
      <ul id="ul_7620C59FA56544CD9CE9E49B1871BCC1"> 
-      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span>  — 页码。 </li> 
-      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span>  — 在页面上找到的搜索结果数。 </li> 
+      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> — 页码。 </li> 
+      <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> — 在页面上找到的搜索结果数。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>定义 <span class="codeph"> aria-label </span> 整个搜索面板的ARIA属性。 </p> </td> 
+   <td colname="col2"> <p>为整个搜索面板定义<span class="codeph"> aria-label </span> ARIA属性的值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

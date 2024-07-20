@@ -8,7 +8,7 @@ exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 20%
 
 ## 示例 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-此代码示例返回一个组的所有成员。 由于公司和用户句柄是可选的，因此该操作可以返回所有组的所有成员。
+此代码示例返回组的所有成员。 由于公司和用户句柄是可选的，因此该操作可以返回所有组的所有成员。
 
 **请求**
 

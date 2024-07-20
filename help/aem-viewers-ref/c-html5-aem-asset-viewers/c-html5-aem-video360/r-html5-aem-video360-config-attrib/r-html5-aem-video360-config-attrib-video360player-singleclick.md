@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Video360 Viewer的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> 配置单击/点按到切换播放/暂停的映射。 将设置为 <span class="codeph"> 无</span> 禁用单击/点按以播放/暂停。 如果设置为 <span class="codeph"> playPause</span>，然后选择视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在本例中， <span class="codeph"> singleclick</span> 行为已禁用。 </p> </td> 
+   <td colname="col2"> <p> 配置单击/点按到切换播放/暂停的映射。 设置为<span class="codeph"> none</span>可禁用通过单击/点按进行播放/暂停的功能。 如果设置为<span class="codeph"> playPause</span>，则选择视频可在播放和暂停视频之间切换。 在某些设备上，您可以使用本机控件。 在这种情况下，<span class="codeph"> singleclick</span>行为被禁用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -22,4 +22,4 @@ ht-degree: 26%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:JobLogDetail` | 作业日志详细信息数组。 |
+| 项目 | `types:JobLogDetail` | 作业日志详细信息的数组。 |

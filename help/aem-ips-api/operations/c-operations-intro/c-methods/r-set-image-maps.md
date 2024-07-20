@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 设置资源的图像映射。
 
-您必须已创建图像映射。 应用图像映射，以便从阵列中检索。 这表示第二图像映射覆盖第一图像映射，第三图像映射覆盖第二图像映射，依此类推。
+您必须已创建图像映射。 图像映射按从阵列中检索的顺序应用。 这意味着第二图像映射叠加第一图像映射，第三图像映射叠加第二图像映射，依此类推。
 
 ## 授权用户类型 {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -33,8 +33,8 @@ ht-degree: 11%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
-| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
 | imageMapArray | `types:ImageMapDefinitionArray` | 是 | 预定义图像映射的数组。 |
 
 **输出(setImageMapsReturn)**

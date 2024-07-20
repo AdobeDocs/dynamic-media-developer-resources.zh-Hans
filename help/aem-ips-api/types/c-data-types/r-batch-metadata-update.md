@@ -22,5 +22,5 @@ ht-degree: 18%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| assetHandleArray | `types:HandleArray` | 资源句柄数组。 |
+| assetHandleArray | `types:HandleArray` | 资源句柄的数组。 |
 | updateArray | `types:MetadataUpdateArray` | 元数据更新句柄数组。 |

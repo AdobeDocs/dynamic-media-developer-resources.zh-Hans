@@ -8,7 +8,7 @@ exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 17%
 
 ## 参数 {#section-a05cbee4cb4f44198c414a6b14e69156}
 
-**輸入**
+**输入**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
 | fieldHandle | `xsd:string` | 是 | 标记字段句柄。 |
 | valueArray | `types:StringArray` | 是 | 一个标记值数组，用于替换字段的现有字典。 当新值与现有值匹配时，将维护资产关联。 |
 
 **输出(setTagFieldValuesReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-b11cafd9bed54ab5836c737cc075c918}
 

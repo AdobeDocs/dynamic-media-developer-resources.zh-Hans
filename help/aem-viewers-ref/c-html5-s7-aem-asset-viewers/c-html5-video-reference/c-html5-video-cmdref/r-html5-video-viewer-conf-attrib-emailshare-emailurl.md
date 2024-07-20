@@ -1,6 +1,6 @@
 ---
 title: EmailShare.emailurl
-description: Video Viewer的配置属性。
+description: 视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-Video Viewer的配置属性。
+视频查看器的配置属性。
 
 ` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 

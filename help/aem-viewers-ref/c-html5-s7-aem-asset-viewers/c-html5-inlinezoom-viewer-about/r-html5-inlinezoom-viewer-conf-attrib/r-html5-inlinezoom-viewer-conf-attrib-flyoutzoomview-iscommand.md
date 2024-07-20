@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2ae17dc8-2728-4ee5-ba88-45d78a0f4d9a
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大视图的图像服务命令字符串。 如果在URL中指定，请确保对所有匹配项进行HTTP编码 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>应用于FlyoutZoomView主图像和放大视图的图像服务命令字符串。 如果在URL中指定，请确保对<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项进行HTTP编码，分别表示<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

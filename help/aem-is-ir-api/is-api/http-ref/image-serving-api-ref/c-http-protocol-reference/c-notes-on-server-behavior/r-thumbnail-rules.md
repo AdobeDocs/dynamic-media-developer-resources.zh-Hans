@@ -16,6 +16,6 @@ ht-degree: 0%
 
 请注意这些缩略图规则。
 
-1. 如果 `catalog::ThumbType=Crop`，然后将（裁切）图像缩放到可能的最小尺寸，同时仍覆盖整个目标矩形。 如果 `catalog::ThumbType=Fit`，然后将（裁切）图像缩放到可能的最大大小，同时仍然将整个图像拟合到目标矩形中。 如果 `catalog::ThumbType=Texture`，则（裁剪的）图像将缩放为以下比例： `catalog::ThumbRes` 到 `catalog::Resolution`.
-1. 将缩放图像与目标矩形对齐，基于 `attribute::ThumbHorizAlign` 和 `attribute::ThumbVertAlign`.
+1. 如果为`catalog::ThumbType=Crop`，则（裁剪的）图像将缩放到可能的最小尺寸，同时仍覆盖整个目标矩形。 如果为`catalog::ThumbType=Fit`，则在将整个图像拟合到目标矩形的同时将（裁切）图像缩放到最大尺寸。 如果`catalog::ThumbType=Texture`，（裁剪的）图像将缩放为`catalog::ThumbRes`与`catalog::Resolution`的比率。
+1. 根据`attribute::ThumbHorizAlign`和`attribute::ThumbVertAlign`将缩放的图像与目标矩形对齐。
 1. 将结果裁切到目标矩形。

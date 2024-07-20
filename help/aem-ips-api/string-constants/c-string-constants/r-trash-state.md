@@ -1,5 +1,5 @@
 ---
-description: 由searchAssetReturn/trashState使用。
+description: 用于searchAssetReturn/trashState。
 solution: Experience Manager
 title: 垃圾桶状态
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # 垃圾桶状态{#trash-state}
 
-由searchAssetReturn/trashState使用。
+用于searchAssetReturn/trashState。
 
 语法
 

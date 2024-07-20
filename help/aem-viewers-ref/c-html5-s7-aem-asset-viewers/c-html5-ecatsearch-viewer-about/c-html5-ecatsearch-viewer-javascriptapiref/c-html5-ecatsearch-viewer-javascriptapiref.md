@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
 source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 eCatalog搜索查看器的主类是eCatalogSearchViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
-在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.eCatalogSearchViewer` 类。
+在以下所有示例中，`<instance>`表示从`s7viewers.eCatalogSearchViewer`类实例化的JavaScript查看器对象的实际名称。
 
 * [处置](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)

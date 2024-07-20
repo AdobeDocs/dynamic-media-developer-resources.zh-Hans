@@ -8,7 +8,7 @@ exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 
 ## 示例 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-此代码示例返回项目数组中的所有项目句柄。
+此代码示例返回项目数组中的全部项目句柄。
 
 **请求**
 

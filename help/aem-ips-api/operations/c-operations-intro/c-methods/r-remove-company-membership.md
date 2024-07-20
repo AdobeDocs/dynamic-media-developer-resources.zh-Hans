@@ -1,18 +1,18 @@
 ---
 description: 从一个或多个公司中删除用户。
 solution: Experience Manager
-title: removeCompanyMembership
+title: removeCompanyMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
-# removeCompanyMembership{#removecompanymembership}
+# removeCompanyMember{#removecompanymembership}
 
 从一个或多个公司中删除用户。
 
@@ -31,16 +31,16 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 否 | 具有要删除的成员资格的用户的句柄。 |
-| companyHandleArray | `types:HandleArray` | 是 | 要从中删除用户的公司的句柄。 |
+| userHandle | `xsd:string` | 否 | 要移除的成员资格用户的句柄。 |
+| companyHandleArray | `types:HandleArray` | 是 | 要从中移除用户的公司的句柄。 |
 
 **输出(removeCompanyMembershipReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-此代码示例从公司中删除用户。 省略可选的用户句柄可从公司句柄数组中指定的公司中删除所有用户。
+此代码示例从一个公司中删除一个用户。 省略可选的用户句柄可从公司句柄数组中指定的公司中删除所有用户。
 
 **请求**
 

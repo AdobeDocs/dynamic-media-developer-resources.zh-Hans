@@ -1,7 +1,7 @@
 ---
 description: 磁盘使用情况的阵列。
 solution: Experience Manager
-title: 磁盘使用量阵列
+title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704

@@ -8,7 +8,7 @@ exl-id: f9ab0c0e-989c-42ce-b9dd-4ca2f6b382d2
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 9%
 
 允许绝对源URL。
 
-设置为 `1` 以允许绝对HTTP URL(以&quot; `http://`“) in `src=` 命令。 设置为 `0` 不允许使用绝对URL。
+设置为`1`以允许在`src=`命令中使用绝对HTTP URL（以“`http://`”开头）。 设置为`0`不允许绝对URL。
 
 ## 属性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
-标记.
+标志。
 
 ## 默认 {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-继承自 `default::AllowDirectUrls` 如果未定义或为空。
+如果未定义或为空，则从`default::AllowDirectUrls`继承。
 
 ## 另请参阅 {#section-66e0c597a8b04155b40538385312b389}
 

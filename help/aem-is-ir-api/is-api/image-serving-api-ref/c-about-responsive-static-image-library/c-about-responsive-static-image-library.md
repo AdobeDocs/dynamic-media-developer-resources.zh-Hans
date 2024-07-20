@@ -1,5 +1,5 @@
 ---
-description: 响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入到响应式网页中的图像质量。 此外，它还在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应地呈现来自智能裁切和智能色板的结果。
+description: 响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入响应式网页中的图像质量。 此外，它还在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应地呈现来自智能裁切和智能色板的结果。
 solution: Experience Manager
 title: 关于响应图像库
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # 关于响应图像库{#about-responsive-image-library}
 
-响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入到响应式网页中的图像质量。 此外，它还在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应地呈现来自智能裁切和智能色板的结果。
+响应式图像库是一个JavaScript模块，可动态调整从Dynamic Media提供并嵌入响应式网页中的图像质量。 此外，它还在具有高密度屏幕的设备上提供改进的图像质量。 库还可以响应地呈现来自智能裁切和智能色板的结果。
 
 ## 演示URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>您还可以结合使用图像服务命令和图像服务模板来根据图像大小控制某些模板参数。 在下例中，使用图像服务模板，其中使用参数化文本叠加的字体大小 <span class="codeph"> $fontsize </span> 参数。 响应式图像配置为对较小的图像使用较大的字体大小，以确保文本始终可读： </p> </td> 
+   <td colname="col2"> <p>您还可以结合使用图像服务命令和图像服务模板来根据图像大小控制某些模板参数。 在下个示例中，使用了图像服务模板，其中文本叠加的字体大小是使用<span class="codeph"> $fontsize </span>参数参数化的。 响应式图像配置为对较小的图像使用较大的字体大小，以确保文本始终可读： </p> </td> 
   </tr> 
  </tbody> 
 </table>

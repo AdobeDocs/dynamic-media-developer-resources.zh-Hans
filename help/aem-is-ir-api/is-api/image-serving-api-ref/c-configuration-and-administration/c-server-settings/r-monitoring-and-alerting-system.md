@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS：：monitorAlertGenerator.enableGlobalAlerting — 警报系统启用 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-通过将设置为“true”并配置电子邮件通知设置来启用电子邮件通知。 将设置为 `false` 关闭所有电子邮件警报 — 这在使服务器离线以进行维护时可能很有用。 布尔型。
+通过将设置为“true”并配置电子邮件通知设置来启用电子邮件通知。 将设置为`false`可关闭所有电子邮件警报 — 在使服务器离线以进行维护时，此功能非常有用。 布尔型。
 
 ## AS：：mailSender.host - SMTP主机 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP电子邮件服务器的侦听端口。
 
 ## AS：：monitorAlertGenerator.messageFrom — 消息发送方 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-应在以下位置使用的电子邮件地址： **[!UICONTROL 从]** 电子邮件字段。
+应在&#x200B;**[!UICONTROL 发件人]**&#x200B;电子邮件字段中使用的电子邮件地址。
 
 ## AS：：monitorAlertGenerator.alertInterval — 监视时间间隔 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

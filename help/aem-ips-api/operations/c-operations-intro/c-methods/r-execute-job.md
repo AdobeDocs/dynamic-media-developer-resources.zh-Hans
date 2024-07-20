@@ -1,18 +1,18 @@
 ---
 description: 运行特定作业。
 solution: Experience Manager
-title: executeJob
+title: executjob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 21%
+ht-degree: 13%
 
 ---
 
-# executeJob{#executejob}
+# executjob{#executejob}
 
 运行特定作业。
 
@@ -45,13 +45,13 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>作业所属公司的句柄。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">作业句柄</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要运行的作业的句柄。 </p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 **输出(executeJobReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-96f71aa58a954293b9a98ff96d86f232}
 

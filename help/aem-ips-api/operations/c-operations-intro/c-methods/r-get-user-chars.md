@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | charField | `xsd:string` | 是 | 确定要搜索的垃圾桶状态。 |
-| includeInactive | `xsd:boolean` | 是 | 包括或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活跃成员，才能获得授权进行任何API调用。 如果用户没有有效的公司成员资格，则会返回授权错误。 |
+| includeInactive | `xsd:boolean` | 是 | 包含或排除不活动的用户。 非IPS管理员用户必须是至少一个公司的活跃成员，才能获得发出任何API调用的授权。 如果用户没有活动的公司成员资格，则会返回授权错误。 |
 | includInvalid | `xsd:boolean` | 否 | 包含或排除无效用户。 |
 | companyHandleArray | `types:HandleArray` | 否 | 根据公司筛选结果。 |
 | groupHandleArray | `types:HandleArray` | 否 | 根据组筛选结果。 |

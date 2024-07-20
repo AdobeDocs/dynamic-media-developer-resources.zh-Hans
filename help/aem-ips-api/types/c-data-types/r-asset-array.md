@@ -1,5 +1,5 @@
 ---
-title: AssetArray
+title: 资产数组
 description: 资源数组。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management

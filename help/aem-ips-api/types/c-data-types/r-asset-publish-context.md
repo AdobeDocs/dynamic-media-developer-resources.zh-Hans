@@ -1,5 +1,5 @@
 ---
-description: 将资源映射到将资源标记为发布的PublishContexts。
+description: 将资源映射到其中将资源标记为发布的PublishContexts。
 solution: Experience Manager
 title: AssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-将资源映射到将资源标记为发布的PublishContexts。
+将资源映射到其中将资源标记为发布的PublishContexts。
 
 语法
 

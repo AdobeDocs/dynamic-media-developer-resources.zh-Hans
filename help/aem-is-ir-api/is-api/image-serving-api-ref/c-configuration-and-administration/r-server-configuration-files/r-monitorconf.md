@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 09c30680-dd9f-4744-b5ec-105721058883
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 包含监控/警报系统的设置。
 
-此文件是一个JAVA属性文件。 必须注意遵守适当的惯例；否则， [!DNL Platform Server] 可能无法启动。 请特别注意，在Windows文件路径中必须使用双反斜杠“\\”或单正斜杠“/”，而不是反斜杠“\”，因为反斜杠在此类型的文件中用作转义字符。
+此文件是一个JAVA属性文件。 必须注意遵循适当的惯例；否则[!DNL Platform Server]可能无法启动。 请特别注意，在Windows文件路径中，必须使用双反斜杠“\\”或单正斜杠“/”，而不是反斜杠“\”，因为反斜杠在此类型的文件中用作转义字符。
 
-对此文件的更改将在保存文件后不久生效。
+对此文件所做的更改将在保存文件后不久生效。
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 

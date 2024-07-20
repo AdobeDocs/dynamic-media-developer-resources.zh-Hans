@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> 以启用预加载缩放的图像。 </p> <p>设置为 <span class="codeph"> 0</span> 以根据需要增量加载缩放图像。 </p> <p> <p>如果启用此选项，则可能会导致更高的带宽使用率，因为必须完整加载缩放的图像，即使用户未执行缩放操作也是如此。 </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>以启用预加载缩放的图像。 </p> <p>设置为<span class="codeph"> 0</span>以根据需要增量加载缩放图像。 </p> <p> <p>如果启用此选项，则可能会导致更高的带宽使用率，因为必须完整加载缩放的图像，即使用户没有执行缩放操作也是如此。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,15 +18,15 @@ eCatalog查看器的JavaScript API参考。
 
 ` setContainerId( *`containerId`*)`
 
-设置的ID `DOM` 容器(通常为 `DIV`)，查看器将插入到其中。 无需在调用此方法时创建容器元素。 但是，在以下情况下必须存在容器： `init()` 运行。 必须在之前调用它 `init()`.
+设置查看器插入到其中的`DOM`容器（通常为`DIV`）的ID。 在调用此方法时，无需创建容器元素。 但是，运行`init()`时容器必须存在。 必须在`init()`之前调用它。
 
-如果通过以下方式传递查看器配置信息，则可以选择此方法 `config` 构造函数的JSON对象。
+如果将查看器配置信息与`config` JSON对象一起传递给构造函数，则此方法是可选的。
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 容器的ID。 </p> </td> 
+   <td colname="col2"> <p> 容器的<span class="codeph"> {string} </span> ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

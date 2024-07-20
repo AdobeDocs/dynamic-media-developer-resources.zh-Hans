@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4963ab9f-0605-4b1d-9a9d-19bdc968e8fd
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 8%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 禁用或启用视频章节标签的标题栏。 禁用标题栏时，不显示章节开始时间。 </p> </td> 
   </tr> 
  </tbody> 

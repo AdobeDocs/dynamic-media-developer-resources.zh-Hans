@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 83abaecb-cc85-4918-98ed-2770b4ca407b
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>信息服务器URL模板用于获取信息面板内容模板中变量替换的键/值对。 指定的模板通常包含宏占位符，这些占位符在请求发送到服务器之前被替换为实际数据。 </p> <p><span class="codeph"> $1$</span> 替换为触发的变换值 <span class="codeph"> InfoPanelPopup</span> 激活。 </p> <p><span class="codeph"> $2$</span> 替换为图像集中当前帧的序列号。 </p> <p><span class="codeph"> $3$</span> 替换为当前项目的父集名称中指定的第一个路径元素。 它通常对应于目录ID。 </p> <p><span class="codeph"> $4$</span> 替换为路径中的以下元素，并与资产id相对应。 实际的信息服务器请求语法取决于信息服务器，并且因服务器而异。 例如，以下是典型的Dynamic Media info server请求模板： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>信息服务器URL模板用于在信息面板内容模板中为变量替换获取键/值对。 指定的模板通常包含宏占位符，在请求发送到服务器之前，这些占位符会替换为实际数据。 </p> <p><span class="codeph"> $1$</span>被替换为触发<span class="codeph"> InfoPanelPopup</span>激活的变换值。 </p> <p><span class="codeph"> $2$</span>被替换为图像集中当前帧的序列号。 </p> <p><span class="codeph"> $3$</span>被替换为当前项的父集名称中指定的第一个路径元素。 它通常对应于目录ID。 </p> <p><span class="codeph"> $4$</span>在路径中被替换为以下元素，并与资产ID相对应。 实际的信息服务器请求语法依赖于信息服务器，并且它因服务器而异。 例如，以下是典型的Dynamic Media信息服务器请求模板： </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

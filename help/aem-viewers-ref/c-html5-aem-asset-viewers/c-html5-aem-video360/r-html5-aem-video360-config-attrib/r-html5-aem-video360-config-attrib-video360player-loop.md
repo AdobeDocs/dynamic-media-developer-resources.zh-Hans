@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c91f33bd-92d5-4b00-8910-572f08255f8c
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 26%
+source-wordcount: '29'
+ht-degree: 10%
 
 ---
 
@@ -21,8 +21,8 @@ Video360 Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指示视频在播放完成后是否应再次播放。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指示是否在视频播放完成后再次播放视频。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

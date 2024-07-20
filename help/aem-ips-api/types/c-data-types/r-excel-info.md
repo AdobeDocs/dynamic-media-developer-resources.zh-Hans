@@ -8,7 +8,7 @@ exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -23,5 +23,5 @@ Microsoft Excel文件的属性。
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 原始路径 | `xsd:string` | 文件的路径。 |
-| 原始文件 | `xsd:string` | 文件名. |
+| 原始文件 | `xsd:string` | 文件名。 |
 | fileSize | `xsd:int` | 文件大小。 |

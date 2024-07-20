@@ -8,7 +8,7 @@ exl-id: b3a65c0c-b2c9-48da-9233-5fbcdd55d986
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 23%
+ht-degree: 16%
 
 ---
 
@@ -23,5 +23,5 @@ CSS文件资源的属性。
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 原始路径 | `xsd:string` | css文件的路径。 |
-| 原始文件 | `xsd:string` | 文件名. |
+| 原始文件 | `xsd:string` | 文件名。 |
 | fileSize | `xsd:int` | 文件大小。 |

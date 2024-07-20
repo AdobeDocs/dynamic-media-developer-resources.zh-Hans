@@ -20,12 +20,12 @@ ht-degree: 1%
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">值</span> </p> </td> 
   <td class="stentry"> <p>打印分辨率(dpi)。 </p></td> 
  </tr> 
 </table>
 
-打印分辨率通常由晕影中嵌入的打印分辨率值定义。
+打印分辨率通常由嵌入在晕影中的打印分辨率值定义。
 
 设置打印分辨率不会更改回复图像的像素大小。
 
@@ -35,4 +35,4 @@ ht-degree: 1%
 
 ## 默认 {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-晕影中嵌入的打印分辨率。
+在晕影中嵌入的打印分辨率。

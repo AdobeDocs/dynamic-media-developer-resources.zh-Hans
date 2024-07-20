@@ -8,7 +8,7 @@ exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 16%
 >* 所有用户都有权访问共享公司。
 >
 
-
 ## 参数 {#section-1742fcb196224545b270eb8241f757a8}
 
 **输入(batchGetAssetPublishContextsParam)**
@@ -44,13 +43,13 @@ ht-degree: 16%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
-| assetHandleArray | ` `类型：HandleArray&quot; | 是 | 要查询活动（标记为发布）上下文的资源列表。 |
+| assetHandleArray | ` `类型：HandleArray” | 是 | 要查询活动（标记为发布）上下文的资源列表。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | 是 | 一个发布上下文数组，其中每个资源都标记为发布。 |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | 是 | 一个发布上下文数组，其中每个资源均标记为发布。 |
 
 ## 示例 {#section-457f6809ccfa425b9a0976313d613f4e}
 

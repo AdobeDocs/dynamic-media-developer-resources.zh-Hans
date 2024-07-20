@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 4%
 
 ## 属性 {#section-8f3cffb0f3f3406b81bc967366b241d6}
 
-大于0的整数。 以每英寸点数表示。
+大于0的整数。 以点/英寸表示。
 
 ## 默认 {#section-b5d70865fe8d40229d8d91404fdf3244}
 
-继承自 `default::Resolution` 如果未定义或为空。
+如果未定义或为空，则从`default::Resolution`继承。
 
 ## 另请参阅 {#section-54f8797a2b694d91a316f0d7414fac32}
 

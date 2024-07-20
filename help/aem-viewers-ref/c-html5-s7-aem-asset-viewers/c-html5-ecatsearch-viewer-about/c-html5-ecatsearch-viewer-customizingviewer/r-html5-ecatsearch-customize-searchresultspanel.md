@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 当面板处于活动状态时，查看器用户界面被半透明填充覆盖。 此填充的颜色和不透明度可通过以下CSS类选择器进行控制：
 
@@ -35,11 +35,11 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>叠加的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 不透明度 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">不透明度</span> </p> </td> 
    <td colname="col2"> <p>颜色的不透明度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,12 +51,12 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
 ```
 
-**搜索结果空间的CSS属性**
+搜索结果空间的&#x200B;**CSS属性**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 搜索结果空间的宽度。 </p> </td> 
   </tr> 
  </tbody> 
@@ -79,12 +79,12 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
 ```
 
-**搜索输入容器的CSS属性**
+搜索输入容器的&#x200B;**CSS属性**
 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充</span> </p> </td> 
    <td colname="col2"> <p> 在输入框周围填充。 </p> </td> 
   </tr> 
  </tbody> 
@@ -96,28 +96,28 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
 ```
 
-**搜索输入字段的CSS属性**
+搜索输入字段的&#x200B;**CSS属性**
 
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>搜索输入字段的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左内边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左内边距</span> </p> </td> 
    <td colname="col2"> <p> 输入字段边界和输入文本之间的内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>搜索输入字段的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
    <td colname="col2"> <p>搜索输入字段的边距 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>文本字体大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -139,32 +139,32 @@ ht-degree: 1%
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
 ```
 
-**搜索输入按钮的CSS属性**
+搜索输入按钮的&#x200B;**CSS属性**
 
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>“玻璃”图标图像的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景大小</span> </p> </td> 
    <td colname="col2"> <p>“镜子”图标的大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的边框。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
    <td colname="col2"> <p>搜索输入按钮的边距。 </p> </td> 
   </tr> 
  </tbody> 
@@ -189,24 +189,24 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
 ```
 
-**搜索信息的CSS属性**
+搜索信息的&#x200B;**CSS属性**
 
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 文本的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体对齐</span> </p> </td> 
    <td colname="col2"> <p>水平文本对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>字体文本的大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +214,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此文本面板支持 `state` 属性选择器，可用于将不同的样式应用于不同的文本消息。 特别是， `state='prompt'` 对应于首次调用面板时显示的文本提示。 此 `state='results'` 对应于包含有关搜索点击信息的文本。 最后， `state='no_results'` 对应于搜索查询未返回任何结果时显示的文本。
+>此文本面板支持`state`属性选择器，该选择器可用于将不同的样式应用于不同的文本消息。 特别是，`state='prompt'`对应于首次调用面板时显示的文本提示。 `state='results'`对应于包含有关搜索点击信息的文本。 最后，`state='no_results'`对应于搜索查询未返回任何结果时显示的文本。
 
-可以对消息文本进行本地化。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+可以对消息文本进行本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 设置使用灰色18像素字体的文本面板：
 
@@ -233,13 +233,13 @@ ht-degree: 1%
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**缩略图单元格的CSS属性**
+缩略图单元格的&#x200B;**CSS属性**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的垂直边距大小。 实际缩略图间距等于为设置的顶边距和底边距之和 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的垂直边距大小。 实际缩略图间距等于为<span class="codeph"> .s7缩略图单元格</span>设置的顶边距和底边距之和。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -258,20 +258,20 @@ ht-degree: 1%
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb
 ```
 
-**缩略图的CSS属性**
+缩略图的&#x200B;**CSS属性**
 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>缩略图的边框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -293,20 +293,20 @@ ht-degree: 1%
 .s7searchpanel .s7swatches .s7label
 ```
 
-**标签的CSS属性**
+标签的&#x200B;**CSS属性**
 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 字体系列 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>文本字体的名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>文本字体大小。 </p> </td> 
   </tr> 
  </tbody> 
@@ -331,34 +331,34 @@ ht-degree: 1%
 
 无法使用CSS top、left、bottom和right属性定位滚动按钮。 相反，查看器逻辑会自动定位它们。
 
-**上下滚动按钮的CSS属性**
+上下滚动按钮的&#x200B;**CSS属性**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>滚动按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p> 针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于 `"up"`， `"down"`， `"over"`、和 `"disabled"` 按钮状态。
+>此按钮支持`state`属性选择器，该选择器可用于将不同的外观应用于`"up"`、`"down"`、`"over"`和`"disabled"`按钮状态。
 
-可以本地化按钮工具提示。 请参阅 [用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 以了解更多信息。
+可以本地化按钮工具提示。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 示例 — 要设置一个125 x 35像素的向上滚动按钮，该按钮对于每种状态具有不同的图稿：
 

@@ -16,4 +16,4 @@ ht-degree: 0%
 
 按照以下说明在Windows系统上卸载“Image Rendering（图像渲染）”。
 
-1. 通过运行来启动卸载程序 ` *[!DNL install_folder]*\_uninst\uninstaller.exe`，或者从“开始”菜单中选择 **[!UICONTROL 程序]** > **[!UICONTROL Scene7]** > **[!UICONTROL 图像渲染]** > **[!UICONTROL 卸载]**.
+1. 通过运行` *[!DNL install_folder]*\_uninst\uninstaller.exe`启动卸载程序，或从“开始”菜单中选择&#x200B;**[!UICONTROL 程序]** > **[!UICONTROL Scene7]** > **[!UICONTROL 图像渲染]** > **[!UICONTROL 卸载]**。

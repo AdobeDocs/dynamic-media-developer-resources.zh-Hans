@@ -1,5 +1,5 @@
 ---
-description: 创建一个用户帐户，并将该帐户添加到一个或多个公司。
+description: 创建用户帐户并将该帐户添加到一个或多个公司。
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
@@ -8,15 +8,15 @@ exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
 # addUser{#adduser}
 
-创建一个用户帐户，并将该帐户添加到一个或多个公司。
+创建用户帐户并将该帐户添加到一个或多个公司。
 
-将用户添加到多个公司时，请通过其公司句柄指定这些公司 `companyHandleArray`. 此操作会将句柄返回给刚刚添加的用户。
+将用户添加到多个公司时，请通过`companyHandleArray`中的公司句柄指定这些公司。 此操作会将句柄返回给刚刚添加的用户。
 
 ## 授权用户类型 {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,7 +34,7 @@ ht-degree: 13%
 | 名字 | `xsd:string` | 是 | 用户的名字。 |
 | 姓氏 | `xsd:string` | 是 | 用户的姓氏。 |
 | 电子邮件 | `xsd:string` | 是 | 用户的电子邮件地址。 |
-| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但是，请注意 `IpsAdmin` 角色将覆盖其他按公司列出的设置。 |
+| defaultrole | `xsd:string` | 是 | 设置用户在其所属的每个公司中的角色。 但请注意，`IpsAdmin`角色将覆盖其他按公司划分的设置。 |
 | 密码 | `xsd:string` | 是 | 设置用户的密码 |
 | passwordExpires | `xsd:dateTime` | 否 | 设置密码过期期限。 在传入请求时提供时区。 时区将调整为中部时间。 |
 | isValid | `xsd:boolean` | 是 | 确定用户是否有效。 |

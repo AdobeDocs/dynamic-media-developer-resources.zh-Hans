@@ -8,7 +8,7 @@ exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 17%
 
 **输出(resumeJobReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-d0524e031f1f43d89430eade19526162}
 

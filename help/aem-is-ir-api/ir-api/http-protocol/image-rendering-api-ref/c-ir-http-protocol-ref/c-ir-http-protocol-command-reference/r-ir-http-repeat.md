@@ -97,7 +97,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>边缘随机器。 </p> </td> 
+  <td class="stentry"> <p>Edge随机化者。 </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 默认 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`，如果材料基于目录条目，否则 `0` （直接重复）。
+`catalog::Repeat`，如果材料基于目录条目，否则`0`（直接重复）。
 
 ## 另请参阅 {#section-ac99113b64654d75a3a86e41db546269}
 

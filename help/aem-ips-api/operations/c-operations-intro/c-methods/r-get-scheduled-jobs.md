@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的把手。 |
 | jobHandle | `xsd:string` | 否 | 作业句柄。 |
-| 原始名称 | `xsd:string` | 否 | 指定的名称 `submitJob`. |
+| 原始名称 | `xsd:string` | 否 | `submitJob`指定的名称。 |
 
 **输出(getScheduledJobsReturn)**
 
@@ -47,7 +47,7 @@ ht-degree: 22%
 
 ## 示例 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-此代码示例返回作业数组中的所有计划作业。 数组本身包含有关作业的详细信息。
+此代码示例返回作业数组中的全部计划作业。 阵列本身包含有关作业的详细信息。
 
 **请求**
 

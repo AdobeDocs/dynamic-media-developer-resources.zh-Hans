@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 6%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 6%
 
 <table id="simpletable_DEC6F4EB460D453B8F272C98C9C8B7E5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> object</span> </p> </td> 
-  <td class="stentry"> <p>模板. </p></td> 
+  <td class="stentry"> <p><span class="varname">对象</span> </p> </td> 
+  <td class="stentry"> <p>模板。 </p></td> 
  </tr> 
 </table>
 
-*`template`* 必须是包含模板主体的图像目录条目 `catalog::Modifier`.
+*`template`*&#x200B;必须是模板正文包含在`catalog::Modifier`中的图像目录条目。
 
-时间 `template=` 存在，则请求路径中指定的对象不会应用为第0层的源。 但是，它可以被引用为 `src=` 或 `mask=` 使用预定义的path变量在模板中的任何位置 `$object$` as a `src=` 值。 `catalog::Modifier` 请求路径中指定的对象的ID只能使用 `$object$` 在模板中，而 `catalog::PostModifier` 始终应用。
+当存在`template=`时，请求路径中指定的对象不会应用为层0的源。 但是，通过使用预定义的路径变量`$object$`作为`src=`值，可以将它作为`src=`或`mask=`引用到模板中的任何位置。 在请求路径中指定的对象的`catalog::Modifier`仅在模板中应用`$object$`的替换，而始终应用`catalog::PostModifier`。
 
 层0在模板主体中定义，可以是图像、纯色、文本、嵌套或嵌入的请求层。
 
-`catalog:PostModifier` 之 *`object`* 被忽略的时间 *`object`* 用于 `template=`.
+将&#x200B;*`object`*&#x200B;与`template=`一起使用时，已忽略&#x200B;*`object`*&#x200B;的`catalog:PostModifier`。
 
 ## 默认 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -43,8 +43,8 @@ ht-degree: 6%
 
 ## 示例 {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-请参阅中的示例。 [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+查看[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的示例。
 
 ## 另请参阅 {#section-067587444f774469931ecafd5a39834c}
 
-[对象](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)， [模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)， [预定义的路径变量](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[对象](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)，[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)，[预定义的路径变量](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

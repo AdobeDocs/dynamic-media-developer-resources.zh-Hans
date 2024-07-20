@@ -22,13 +22,13 @@ ht-degree: 0%
 
 可使用键盘访问基本缩放、eCatalog、eCatalog搜索、弹出、内联缩放、混合媒体、旋转、视频、缩放、轮播、维度(3D)、交互式图像、交互式视频和Video360查看器界面中公开的所有功能。
 
-最终用户可以使用以下工具在查看器用户界面元素之间导航 **[!UICONTROL 选项卡]** 和 **[!UICONTROL Shift+Tab键]** 击键。 使用 **[!UICONTROL 选项卡]** 按Tab键顺序将输入焦点前进到下一个用户界面元素；使用 **[!UICONTROL Shift+Tab键]** 将输入焦点带回上一个用户界面元素。 焦点遍历会遵循屏幕上的自然用户界面元素位置，并以从左到右、从上到下的顺序移动。
+最终用户可以使用&#x200B;**[!UICONTROL Tab]**&#x200B;和&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;击键在查看器用户界面元素之间导航。 使用&#x200B;**[!UICONTROL Tab]**&#x200B;将输入焦点推进到Tab键顺序中的下一个用户界面元素；使用&#x200B;**[!UICONTROL Shift+Tab]**&#x200B;将输入焦点移回上一个用户界面元素。 焦点遍历将遵循屏幕上的自然用户界面元素位置，并以从左到右、从上到下的顺序移动。
 
-根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素接收视觉焦点指示。 例如，可视指示器可以是围绕用户界面元素呈现的细边框。
+根据操作系统和Web浏览器设置，具有输入焦点的用户界面元素接收可视焦点指示。 例如，可视指示器可以是围绕用户界面元素呈现的细边框。
 
-可以在查看器CSS中禁用或自定义此类焦点高亮。 在此帮助系统的目录下，以特定的查看器名称（例如，基本缩放或交互式视频）单击 **自定义 *查看器名称*** >**&#x200B;焦点高亮&#x200B;**.
+可以在查看器CSS中禁用或自定义此类焦点高亮。 在此帮助系统的目录中，在特定的查看器名称（例如，基本缩放或交互式视频）下，单击&#x200B;**自定义查看器的&#x200B;*名称*** >**&#x200B;焦点高亮&#x200B;**。
 
-大多数情况下，单个查看器用户界面元素支持的击键是显而易见的，易于发现。
+单个查看器用户界面元素支持的击键在大多数情况下是显而易见的，易于发现。
 
 <table id="table_8C49100412224324BF1DBF7FDFDCCBF8"> 
  <thead> 
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>放大或缩小 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> 或 <span class="uicontrol"> - </span>，则不会显示任何内容。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span>或<span class="uicontrol"> - </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>缩放重置 </p> </td> 
@@ -56,7 +56,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>旋转360度图像 </p> </td> 
-   <td colname="col2"> <p>当图像处于重置状态时，使用箭头键。 </p> <p>使用多维旋转集时，请使用向上键或向下键。 </p> </td> 
+   <td colname="col2"> <p>当图像处于重置状态时，使用箭头键。 </p> <p>使用多维旋转集时使用向上或向下箭头键。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>产品样本选择 </p> </td> 
@@ -68,14 +68,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>视频和交互式视频，逐步倒带 </p> </td> 
-   <td colname="col2"> <p>向左键或向上键。 </p> </td> 
+   <td colname="col2"> <p>向左或向上箭头键。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>视频和交互式视频，快进 </p> </td> 
    <td colname="col2"> <p>向右键或向下键。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>视频和交互式视频，转到开头或结尾 </p> </td> 
+   <td colname="col1"> <p>视频和交互式视频，转到开始或结束 </p> </td> 
    <td colname="col2"> <p>Home键或End键。 </p> </td> 
   </tr> 
   <tr> 
@@ -84,10 +84,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>视频和交互式视频，音量可变 </p> </td> 
-   <td colname="col2"> <p>“箭头”、“主页”和“结束”键，用于在焦点位于其滑块部分时控制音量。 </p> </td> 
+   <td colname="col2"> <p>“箭头”、“主页”和“结束”键，用于在焦点位于滑块部分时控制音量。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>视频，当显示模式对话框时，焦点遍历将变为仅受对话框控件的限制。 </p> </td> 
+   <td colname="col1"> <p>视频，当显示模式对话框时，焦点遍历将变为仅对对话框控件有效。 </p> </td> 
    <td colname="col2"> <p>按Esc键关闭对话框。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ ht-degree: 0%
    <td colname="col2"> <p>热点选择：向上、向下、向左或向右箭头键 </p> <p>热点激活：空格键或Enter键。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，在主视图中更改页面图像 </p> </td> 
+   <td colname="col1"> <p>eCatalog，更改主视图中的页面图像 </p> </td> 
    <td colname="col2"> <p> 向左或向右箭头键。 </p> </td> 
   </tr> 
   <tr> 
@@ -120,14 +120,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog，激活下拉组件 </p> </td> 
-   <td colname="col2"> <p> 向下箭头键、空格键或Enter键。 </p> </td> 
+   <td colname="col2"> <p> 向下键、空格键或Enter键。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog，当焦点位于下拉面板中时 </p> </td> 
-   <td colname="col2"> <p>在激活之前，使用箭头键在面板中选择特定项目。 </p> </td> 
+   <td colname="col1"> <p>eCatalog，当焦点位于下拉面板时 </p> </td> 
+   <td colname="col2"> <p>在激活面板之前，使用箭头键选择该面板中的特定项目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eCatalog在显示模态对话框时，焦点遍历将变为仅对对话框控件有效。 </p> </td> 
+   <td colname="col1"> <p>eCatalog在显示模态对话框时，焦点遍历将仅限制为对话框控件。 </p> </td> 
    <td colname="col2"> <p>按Esc键关闭对话框。 </p> </td> 
   </tr> 
  </tbody> 

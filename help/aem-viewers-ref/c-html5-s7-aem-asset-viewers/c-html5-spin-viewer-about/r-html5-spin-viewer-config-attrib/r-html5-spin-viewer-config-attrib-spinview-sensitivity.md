@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 256cffae-d284-4f46-a2dc-4618ea7eda57
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 2%
 
 ---
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`x敏感度`*[, *`y敏感性`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *`x敏感度`*[, *`y敏感度`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> x敏感度</span>[， <span class="varname"> y敏感性</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 控制通过鼠标拖动或轻扫执行的水平和垂直旋转灵敏度。 </p> <p> <span class="codeph"> x敏感度</span> 设置当用户将鼠标从视图的一侧水平拖动到另一侧时，产品进行完全水平旋转的次数。 例如，三个表示用户看到一个完全拖动手势的三个完全旋转。 </p> <p>同样， <span class="codeph"> y敏感性</span> 控制垂直旋转的敏感性。 值为1表示一次完全垂直拖动或轻扫会将视角从最上方的旋转平面更改为最下方（或相反）。 </p> <p>设置负值 <span class="codeph"> y敏感性</span> 反转垂直旋转的方向。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[， <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 控制通过鼠标拖动或轻扫执行的水平和垂直旋转灵敏度。 </p> <p> <span class="codeph"> xSensitivity</span>设置用户将鼠标从视图的一侧水平拖动到另一侧时产品完全水平旋转的次数。 例如，三个表示用户看到一个全拖动手势的三个完整旋转。 </p> <p>同样，<span class="codeph"> ySensitivity</span>控制垂直旋转的敏感度。 值为1表示一次完全垂直拖动或轻扫会将视角从最上旋转平面更改为最下旋转平面（或相反）。 </p> <p>为<span class="codeph"> ySensitivity</span>设置负值将反转垂直旋转方向。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

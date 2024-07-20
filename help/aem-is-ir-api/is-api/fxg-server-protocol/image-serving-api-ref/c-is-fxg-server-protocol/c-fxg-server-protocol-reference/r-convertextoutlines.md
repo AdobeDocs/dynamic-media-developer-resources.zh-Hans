@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 1%
  </tr> 
 </table>
 
-使用URL命令 `convertTextToOutlines=1` 将PDF文件中的所有文本更改为轮廓化路径。
+使用URL命令`convertTextToOutlines=1`将PDF文件中的所有文本更改为概述的路径。
 
-当对PDF文件中的文本应用任何效果时（例如将文本转换为轮廓），最终渲染的图像将缩小或“拼合”大小。
+将任何效果应用于PDF文件中的文本时（例如将文本转换为轮廓），最终渲染的图像将缩小或“拼合”大小。

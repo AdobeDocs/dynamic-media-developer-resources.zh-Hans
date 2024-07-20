@@ -1,5 +1,5 @@
 ---
-description: saveToFile=. 将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+description: saveToFile=的根路径 应将req=saveToFile生成的图像写入的根文件夹的相对路径。
 solution: Experience Manager
 title: 保存路径
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # 保存路径{#savepath}
 
-saveToFile=. 将使用req=saveToFile生成的图像写入到的根文件夹的相对路径。
+saveToFile=的根路径 应将req=saveToFile生成的图像写入的根文件夹的相对路径。
 
-`SavePath` 是文本字符串值。
+`SavePath`是文本字符串值。
 
 ## 属性 {#section-343d1371e966491c92854a8df14c3c50}
 
-文本字符串。 必须为空或有效的相对文件夹路径。 始终与配置的绝对根路径组合 `ImageServer::SaveDirectory`.
+文本字符串。 必须为空或有效的相对文件夹路径。 始终与使用`ImageServer::SaveDirectory`配置的绝对根路径组合。
 
 ## 默认 {#section-ae751eea97654f399c6aaee3f3252cbb}
 
-继承自 `default::SavePath` 如果未定义。 如果解析的值为空，则将禁用保存到文件。
+如果未定义，则从`default::SavePath`继承。 如果解析的值为空，将禁用保存到文件。
 
 ## 另请参阅 {#section-b38b045bbf084ca5a4b24ea12c4877ae}
 

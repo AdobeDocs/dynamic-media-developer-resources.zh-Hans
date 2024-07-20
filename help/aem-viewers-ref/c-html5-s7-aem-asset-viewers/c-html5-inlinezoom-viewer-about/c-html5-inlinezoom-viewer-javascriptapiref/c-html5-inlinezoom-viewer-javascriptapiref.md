@@ -16,7 +16,7 @@ ht-degree: 0%
 
 内联缩放查看器的主类是FlyoutViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
-在以下所有示例中， `<instance>` 表示从实例化的JavaScript查看器对象的实际名称 `s7viewers.FlyoutViewer` 类。
+在以下所有示例中，`<instance>`表示从`s7viewers.FlyoutViewer`类实例化的JavaScript查看器对象的实际名称。
 
 * [处置](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [弹出查看器](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

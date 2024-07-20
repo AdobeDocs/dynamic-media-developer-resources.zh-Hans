@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 3%
  </tr> 
 </table>
 
-新段中的所有命令都应用于指定的效果层。 效果层段由下一段终止 `layer=` 或 `effect=` 命令或请求结尾处发送。
+新段中的所有命令都应用于指定的效果层。 下一个`layer=`或`effect=`命令或请求结束时终止效果层区段。
 
-值 *`n`* 对于外层效果（即父层后面的效果），必须小于0；对于内层效果（即父层内的效果），必须大于0。 效果图层编号不必是连续的。
+对于外层效果（即父层后的效果），值&#x200B;*`n`*&#x200B;必须小于0；对于内层效果（即父层内的效果），值必须大于0。 效果图层编号不必是连续的。
 
 如果同一父层有多个效果层，则效果层编号指定z顺序。 编号较高的图层位于编号较低的图层之上。
 
-效果层可以附加到 `layer=comp`.
+效果层可以附加到`layer=comp`。
 
 ## 属性 {#section-e11f795deff345779ce280a82cf221ca}
 
-效果层命令。 值 *`n`* 不得为0。
+效果层命令。 值&#x200B;*`n`*&#x200B;不能为0。
 
 ## 默认 {#section-84bbe1cfe7a94040827c994323ac59d4}
 

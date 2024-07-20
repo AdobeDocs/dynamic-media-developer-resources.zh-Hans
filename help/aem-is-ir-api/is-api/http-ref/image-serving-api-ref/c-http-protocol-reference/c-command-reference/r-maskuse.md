@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
@@ -18,32 +18,32 @@ ht-degree: 2%
 
 `maskUse=norm|invert|off`
 
-下表说明了 `maskUse=` 取决于与图层图像关联的蒙版（alpha通道）的可用性和类型。
+下表说明了`maskUse=`的效果，具体取决于与图层图像关联的蒙版（Alpha通道）的可用性和类型。
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 值</b> </th> 
-   <th class="entry"> <b> 无蒙版</b> </th> 
-   <th class="entry"> <b> 未关联的Alpha（或单独的蒙版图像）</b> </th> 
-   <th class="entry"> <b> 关联的（预乘）Alpha</b> </th> 
+   <th class="entry"> <b>值</b> </th> 
+   <th class="entry"> <b>无掩码</b> </th> 
+   <th class="entry"> <b>未关联的Alpha（或单独的蒙版图像）</b> </th> 
+   <th class="entry"> <b>个关联的（预乘）alpha</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 關閉 </span> </p> </td> 
+   <td> <p> <span class="codeph">折扣</span> </p> </td> 
    <td> <p> 不透明图像矩形 </p> </td> 
    <td> <p> 不透明图像矩形 </p> </td> 
    <td> <p> 填充了实心黑色的矩形上的图像前景区域 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 范数 </span> </p> </td> 
+   <td> <p> <span class="codeph">标准</span> </p> </td> 
    <td> <p> 不透明图像矩形 </p> </td> 
    <td> <p> 图像的前景区域 </p> </td> 
    <td> <p> 图像或图层的前景区域 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 反转 </span> </p> </td> 
+   <td> <p> <span class="codeph">反转</span> </p> </td> 
    <td> <p> 隐藏图层 </p> </td> 
    <td> <p> 图像的背景区域 </p> </td> 
    <td> <p> 图像或纯黑填充图层的背景区域 </p> </td> 
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 ## 属性 {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-图像或图层属性。 应用到图层0，如果 `layer=comp`. 如果在效果层中指定，该命令将修改从父层继承的蒙版。
+图像或图层属性。 应用于图层0（如果`layer=comp`）。 如果在效果层中指定，该命令将修改从父层继承的蒙版。
 
-的行为 `maskUse=` 未定义，在指定文本或纯色图层时不受支持，因为没有适用的图像蒙版(通过 `mask=` 或 `catalog::Mask`)。
+当没有适用的图像蒙版时（通过`mask=`或`catalog::Mask`指定），通过文本或纯色图层指定时，`maskUse=`的行为未定义且不受支持。
 
 ## 默认 {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +69,4 @@ ht-degree: 2%
 
 ## 另请参阅 {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ， [蒙版=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ， [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)

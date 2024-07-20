@@ -1,5 +1,5 @@
 ---
-description: 视频资源属性。
+description: 视频资产属性。
 solution: Experience Manager
 title: 视频信息
 feature: Dynamic Media Classic,SDK/API,Video
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL VideoInfo]{#videoinfo}
 
-视频资源属性。
+视频资产属性。
 
 语法
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 | 原始路径 | `xsd:string` | 上传视频的相对路径。 |
 | 原始文件 | `xsd:string` | 原始视频文件的名称。 |
 | fileSize | `xsd:int` | 文件大小。 |
-| imagePath | `xsd:string` | 视频文件的相对路径。 |
+| 图像路径 | `xsd:string` | 视频文件的相对路径。 |
 | imageFile | `xsd:string` | 视频文件的文件名。 |
-| 优化路径 | `xsd:string` | IPS优化视频文件的路径。 |
+| 优化路径 | `xsd:string` | ips优化视频文件的路径。 |
 | 优化文件 | `xsd:string` | IPS优化视频文件的文件名。 |

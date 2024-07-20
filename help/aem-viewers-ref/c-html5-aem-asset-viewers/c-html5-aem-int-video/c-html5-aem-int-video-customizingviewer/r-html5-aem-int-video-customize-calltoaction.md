@@ -1,30 +1,30 @@
 ---
 title: 行动动员
-description: “行动号召”面板在视频结束时显示，并显示与特定视频相关的所有交互式样本。
+description: 视频结束时，会显示行动号召面板，并显示与特定视频关联的所有交互式色板。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 3%
+source-wordcount: '1299'
+ht-degree: 1%
 
 ---
 
 # 行动动员{#call-to-action}
 
-“行动号召”面板在视频结束时显示，并显示与特定视频相关的所有交互式样本。
+视频结束时，会显示行动号召面板，并显示与特定视频关联的所有交互式色板。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-该面板由显示视频标题的标题区域、右上角的重播按钮以及显示为可滚动网格的实际交互式样本组成。 您可以使用禁用面板 [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) 配置属性。
+该面板由显示视频标题的标题区域、右上角的重播按钮以及显示为可滚动网格的实际交互式样本组成。 您可以使用[callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)配置属性禁用面板。
 
-“行动号召”面板始终采用整个可用查看器区域。
+行动号召面板始终采用整个可用查看器区域。
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-以下CSS类选择器控制动作调用面板中背景颜色的外观：
+以下CSS类选择器控制行动号召面板中背景颜色的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction
@@ -35,7 +35,7 @@ ht-degree: 3%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 行动号召面板的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -64,23 +64,23 @@ ht-degree: 3%
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>标题的背景颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>页眉的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 下边框 </span> </p> </td> 
-   <td colname="col2"> <p>标头的下边框。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">下边框</span> </p> </td> 
+   <td colname="col2"> <p>页眉的下边框。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#example-1}
 
-要设置一个高度为70像素的标题，该标题具有深灰色背景，底部具有略浅灰色的两个像素边框：
+要设置一个高度为70像素的标题，该标题具有深灰色背景，底部有两个像素边框略浅灰色：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header { 
@@ -103,31 +103,31 @@ ht-degree: 3%
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 横幅中的文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>字体大小. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
+   <td colname="col2"> <p>字体大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">行高</span> </p> </td> 
    <td colname="col2"> <p>行高。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p> 字体系列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">文本对齐</span> </p> </td> 
    <td colname="col2"> <p>横幅中文本的对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 左侧填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">左内边距</span> </p> </td> 
    <td colname="col2"> <p>左侧填充。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右侧填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充右侧</span> </p> </td> 
    <td colname="col2"> <p> 右内边距，为“重放”按钮留出空间。 </p> </td> 
   </tr> 
  </tbody> 
@@ -148,7 +148,7 @@ ht-degree: 3%
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-以下CSS类选择器可控制动作调用面板中关闭按钮的外观：
+以下CSS类选择器控制“行动号召”面板中关闭按钮的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
@@ -159,39 +159,39 @@ ht-degree: 3%
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
-   <td colname="col2"> <p>从标题顶部开始放置，包括填充。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
+   <td colname="col2"> <p>标题顶部的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
-   <td colname="col2"> <p>从标题右侧的位置，包括填充。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
+   <td colname="col2"> <p>标题右侧的位置，包括内边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>按钮宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p> 按钮高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p>如果使用CSS拼写，则位于图稿拼写内。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->此按钮支持 `state` 属性选择器，可用于将不同的外观应用于不同的按钮状态。
+>此按钮支持`state`属性选择器，可用于将不同的外观应用于不同的按钮状态。
 
 ## 示例 {#example-3}
 
-要设置28 x 28像素的重播按钮，请执行以下操作： 按钮的位置必须从标题的顶部和右边缘起20像素。 而且，它必须为四种不同的按钮状态中的每种状态显示不同的图像；从组件的sprite图像中提取图稿：
+设置28 x 28像素的重播按钮。 按钮的位置必须从页眉的顶部和右边缘开始20像素。 而且，它必须为四种不同的按钮状态分别显示不同的图像；从组件的Sprite图像中提取图稿：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -231,7 +231,7 @@ ht-degree: 3%
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>缩略图区域的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -239,7 +239,7 @@ ht-degree: 3%
 
 ## 示例 {#example-4}
 
-要设置具有深灰色背景的缩略图区域，请执行以下操作：
+要设置具有深灰色背景的缩略图区域：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview { 
@@ -249,7 +249,7 @@ ht-degree: 3%
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-以下CSS类选择器可控制行动号召面板中缩略图单元格的外观：
+以下CSS类选择器控制行动号召面板中缩略图单元格的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
@@ -260,8 +260,8 @@ ht-degree: 3%
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 </p> <p>实际水平缩略图间距等于为设置的左右边距之和 <span class="codeph"> .s7thumbcell </span>. 同样的规则也适用于垂直间距。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边距</span> </p> </td> 
+   <td colname="col2"> <p> 每个缩略图周围的水平和垂直边距的大小。 </p> <p>实际水平缩略图间距等于为<span class="codeph"> .s7缩略图</span>设置的左右边距总和。 同样的规则也适用于垂直间距。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -281,7 +281,7 @@ ht-degree: 3%
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-以下CSS类选择器可控制“行动号召”面板中缩略图的外观：
+以下CSS类选择器控制行动号召面板中缩略图的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
@@ -292,15 +292,15 @@ ht-degree: 3%
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>缩略图的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 边界 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
    <td colname="col2"> <p>缩略图的边框。 </p> </td> 
   </tr> 
  </tbody> 
@@ -308,7 +308,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于不同的缩略图状态。 特别是， `state="selected"` 与当前选定图像的缩略图相对应； `state="default"` 与其余缩略图相对应； `state="over"` 用于鼠标悬停。
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于不同的缩略图状态。 特别是，`state="selected"`对应于当前所选图像的缩略图；`state="default"`对应于其余缩略图；`state="over"`用于鼠标悬停操作。
 
 ## 示例 {#example-6}
 
@@ -334,19 +334,19 @@ ht-degree: 3%
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">颜色</span> </p> </td> 
    <td colname="col2"> <p> 标签的文本颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">文本对齐</span> </p> </td> 
    <td colname="col2"> <p>标签水平对齐方式。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体系列</span> </p> </td> 
    <td colname="col2"> <p>字体名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">字体大小</span> </p> </td> 
    <td colname="col2"> <p>字体系列。 </p> </td> 
   </tr> 
  </tbody> 
@@ -354,7 +354,7 @@ ht-degree: 3%
 
 ## 示例 {#example-7}
 
-要设置使用白色的标签，请居中对齐15像素，并使用Arial®字体：
+要设置使用白色的标签，请居中对齐15像素，然后使用Arial®字体：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 
@@ -367,9 +367,9 @@ ht-degree: 3%
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-如果缩略图的数量超过垂直显示的数量，则缩略图会在右侧呈现垂直滚动条。 默认情况下，“行动号召”面板渲染一个没有拇指和滚动按钮的小垂直条。 但是，可以通过更改查看器CSS来自定义栏。
+如果缩略图多于垂直放入视图的数量，则缩略图会在右侧呈现垂直滚动条。 默认情况下，“行动号召”面板呈现一个没有拇指和滚动按钮的小垂直条。 但是，可以通过更改查看器CSS来自定义栏。
 
-以下CSS类选择器控制行动号召面板中滚动条区域的外观：
+以下CSS类选择器控制“行动号召”面板中滚动条区域的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
@@ -380,19 +380,19 @@ ht-degree: 3%
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 滚动条宽度。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
+   <td colname="col2"> <p> 滚动条的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 顶端 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">前</span> </p> </td> 
    <td colname="col2"> <p>垂直滚动条从缩略图区域顶部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">后</span> </p> </td> 
    <td colname="col2"> <p>垂直滚动条从缩略图区域底部偏移。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 右 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">右</span> </p> </td> 
    <td colname="col2"> <p> 水平滚动条从缩略图区域的右边缘偏移。 </p> </td> 
   </tr> 
  </tbody> 
@@ -415,22 +415,22 @@ ht-degree: 3%
 
 滚动条轨道是上下滚动条按钮之间的区域。 组件会自动设置轨道的位置和高度。
 
-以下CSS类选择器控制行动号召面板中滚动条轨道的外观：
+以下CSS类选择器控制“行动号召”面板中滚动条轨道的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
 ```
 
-## 滚动条的CSS属性 {#css-properties-of-the-scroll-track-bar}
+## 滚动轨道条的CSS属性 {#css-properties-of-the-scroll-track-bar}
 
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>滚动条宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>轨道栏的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -462,47 +462,47 @@ ht-degree: 3%
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>缩略图宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>缩略图高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 上内边距 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充顶端</span> </p> </td> 
    <td colname="col2"> <p>轨道顶部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 底部填充 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">填充底部</span> </p> </td> 
    <td colname="col2"> <p>轨道底部之间的垂直边距。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">边框半径</span> </p> </td> 
    <td colname="col2"> <p>边框半径。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p>缩略图的颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 在给定缩略图状态下显示的图像。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
+   <td colname="col2"> <p> 为给定的缩略图状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->缩略图支持 `state` 属性选择器，可用于将不同的外观应用于以下不同的缩略图状态： `"up"`， `"down"`， `"over"`、和 `"disabled"`.
+>缩略图支持`state`属性选择器，该选择器可用于将不同的外观应用于以下不同的缩略图状态： `"up"`、`"down"`、`"over"`和`"disabled"`。
 
 ## 示例 {#example-10}
 
-要设置一个6 x 167像素的滚动条缩略图，它具有三个像素圆角和灰色：
+要设置一个像素为6 x 167的滚动条缩略图，它具有三个像素圆角，颜色为灰色，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb[state] { 
@@ -531,29 +531,29 @@ ht-degree: 3%
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p> 按钮的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>按钮的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p>针对给定按钮状态显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>参见 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->这些按钮支持 `state` 属性选择器，可用于将不同的外观应用于以下不同的缩略图状态： `"up"`， `"down"`， `"over"`、和 `"disabled"`.
+>这些按钮支持`state`属性选择器，可用于将不同的外观应用于以下不同的缩略图状态： `"up"`、`"down"`、`"over"`和`"disabled"`。
 
-可对按钮工具提示进行本地化。 参见 [用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+可以本地化按钮工具提示。 请参阅[用户界面元素的本地化](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
 ## 示例 {#example-11}
 

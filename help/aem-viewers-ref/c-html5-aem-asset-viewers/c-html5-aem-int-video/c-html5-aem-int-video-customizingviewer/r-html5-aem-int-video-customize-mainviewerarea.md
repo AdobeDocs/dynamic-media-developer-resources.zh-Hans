@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**主查看器区域的CSS属性**
+主查看器区域的&#x200B;**CSS属性**
 
 查看区域的外观由以下CSS类选择器控制：
 
@@ -35,15 +35,15 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>查看器的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>查看器的高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
    <td colname="col2"> <p> 以十六进制格式表示的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 ## 示例 {#section-ee18025b182a42dc98052de5f133ddfe}
 
-要设置具有白色背景的查看器( `#FFFFFF`)并将其大小设置为512 x 288像素。
+设置具有白色背景(`#FFFFFF`)的查看器，并使其大小为512 x 288像素。
 
 ```
 .s7interactivevideoviewer { 

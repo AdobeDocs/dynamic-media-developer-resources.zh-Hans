@@ -1,5 +1,5 @@
 ---
-description: 返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多可包含100,000个文件夹
+description: 以分层树结构返回文件夹和子文件夹。 getFolderTree响应限制为最多100,000个文件夹
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 9%
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 # getFolderTree{#getfoldertree}
 
-返回分层树结构中的文件夹和子文件夹。 getFolderTree响应最多可包含100,000个文件夹
+以分层树结构返回文件夹和子文件夹。 getFolderTree响应限制为最多100,000个文件夹
 
 语法
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->用户必须具有对文件夹的读取权限才能返回文件夹中的数据。
+>用户必须具有文件夹的读取权限才能返回文件夹上的数据。
 
 ## 参数 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -41,8 +41,8 @@ ht-degree: 9%
 | companyHandle | `xsd:string` | 是 | 公司的把手。 |
 | accessUserHandle | `xsd:string` | 否 | 仅供管理员用于模拟特定用户。 |
 | accessGroupHandle | `xsd:string` | 否 | 用于按特定组进行筛选，包括公司所属的任何组。 |
-| 文件夹路径 | `xsd:string` | 否 | 根文件夹，用于在叶级别检索文件夹和所有子文件夹。 如果排除，则使用公司根目录。 |
-| 深度 | `xsd:int` | 是 | 如果值为0，则获取顶级文件夹。 任何其他值都指定下降到树中的深度。 |
+| 文件夹路径 | `xsd:string` | 否 | 用于检索叶级别的文件夹和所有子文件夹的根文件夹。 如果排除，则使用公司根目录。 |
+| 深度 | `xsd:int` | 是 | 如果值为0，则获取顶级文件夹。 任何其他值均指定下降到树中的深度。 |
 | assetTypeArray | `types:StringArray` | 否 | 返回仅包含指定资源类型的文件夹。 |
 | responseFieldArray | `types:StringArray` | 否 | 包含要包含在响应中的字段列表。 |
 | excludeFieldArray | `types:StringArray` | 否 | 包含要在响应中排除的字段列表。 |
@@ -56,7 +56,7 @@ ht-degree: 9%
 
 ## 示例 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-此代码示例使用公司句柄和深度参数来确定响应应返回的深度级别。 响应包含相关文件夹和子文件夹数组。 将深度值设置为较小的数字，以便在文件夹树中更深入地搜索。
+此代码示例使用公司句柄和深度参数来确定响应应返回的深度级别。 响应包含具有相关内容的文件夹和子文件夹数组。 将深度值设置为较小的数字，以便在文件夹树中更深入地搜索。
 
 **请求**
 

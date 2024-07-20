@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 数值|点线</span> </p> </td> 
-   <td colname="col2"> <p> 配置设置指示器的渲染样式。 </p> <p>当设置为 <span class="codeph"> 虚线 </span>时，组件呈现所有页面的相同指示器。 </p> <p>当设置为 <span class="codeph"> 数值</span> 它在每个指标元素内放置一个从1开始的页码。 </p> <p>此 <span class="codeph"> 数值</span> 具有触摸输入的设备不支持操作模式。 相反，组件使用 <span class="codeph"> 虚线</span> 在此类设备上。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">数字|点线</span> </p> </td> 
+   <td colname="col2"> <p> 配置设置指示器的渲染样式。 </p> <p>当设置为<span class="codeph">虚线</span>时，组件为所有页面呈现相同的指示器。 </p> <p>当设置为<span class="codeph">数值</span>时，它会在每个指标元素内放置一个从1开始的页码。 </p> <p>具有触摸输入的设备不支持<span class="codeph">数值</span>操作模式。 相反，组件在这些设备上使用<span class="codeph">点状</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

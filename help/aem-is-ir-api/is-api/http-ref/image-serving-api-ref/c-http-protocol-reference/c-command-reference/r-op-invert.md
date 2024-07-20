@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1bcee775-32cb-4aa8-9f33-2f075e589940
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 2%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 ## 属性 {#section-2e7a7b340dd147db9bd68ff3bfb6f4c1}
 
-图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
+图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。
 
 ## 默认 {#section-8040bc4e2a684c629a28b155aa0ba289}
 
-`op_invert=0`，表示无颜色反转。
+`op_invert=0`，用于无颜色反转。

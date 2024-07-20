@@ -20,6 +20,6 @@ ht-degree: 27%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL company] | `types:Company` |  |
-| [!DNL role] | `xsd:string` |  |
+| [!DNL company] | `types:Company` | |
+| [!DNL role] | `xsd:string` | |
 | isActive | `xsd:boolean` | 设置用户所属每个公司的状态。 |

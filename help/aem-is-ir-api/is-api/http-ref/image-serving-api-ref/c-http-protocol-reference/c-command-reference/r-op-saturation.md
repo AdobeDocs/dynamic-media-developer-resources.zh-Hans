@@ -20,20 +20,20 @@ ht-degree: 2%
 
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 调整</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">调整</span> </p> </td> 
   <td class="stentry"> <p>饱和度调整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` 完全消除图像的饱和度。
+`op_saturation=-100`完全去除图像饱和度。
 
 ## 属性 {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。
+图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。
 
 ## 默认 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`，饱和度不变。 在应用操作之前，CMYK图像或图层将转换为RGB。
+`op_saturation=0`，饱和度没有变化。 在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 示例 {#section-033b272f1b7e4efeb94e841fd8095357}
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <table id="simpletable_4E563E4C797E45F390340258170BDCE4"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> 蒙版</a> </p> </td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local">掩码</a> </p> </td> 
   <td class="stentry"> <p>指定可选的图层蒙版。 </p></td> 
  </tr> 
 </table>

@@ -1,20 +1,20 @@
 ---
 title: EmbedShare.embedsizes
-description: Video Viewer的配置属性。
+description: 视频查看器的配置属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Video Viewer的配置属性。
+视频查看器的配置属性。
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`宽度`*, *`高度`*[,0|1][; *`宽度`*, *`高度`*[,0|1]]`
 
@@ -23,16 +23,16 @@ Video Viewer的配置属性。
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">宽度</span> </span> </p> </td> 
    <td colname="col2"> <p> 嵌入宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">高度</span> </span> </p> </td> 
    <td colname="col2"> <p>嵌入高度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 指定是否最初应在组合框中预先选择此列表项。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 指定是否应在组合框中预先选择此列表项。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,12 +19,12 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 适合 — 横向|适合 — 垂直</span> </p> </td> 
-   <td> <p> 控制下拉面板外观的方向。 </p> <p>当设置为 <span class="codeph"> 垂直适合</span>时，组件会先将基础面板位置移动到其按钮的底部，然后尝试从基础位置向右或向左滚动面板。 在每次尝试时，组件都会检查面板是否被外部容器剪切。 如果所有尝试都失败，则组件会尝试将基础面板位置移至顶部，并在右侧和左侧重复转出尝试。 </p> <p>当设置为 <span class="codeph"> 拟合横向</span>，组件使用类似的逻辑，但会先将基面移动到右侧，然后尝试向下和向上转出方向。 然后，它将底部向左移动，尝试向下和向上转出方向。 </p> </td> 
+   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
+   <td> <p> 控制下拉面板外观的方向。 </p> <p>当设置为<span class="codeph"> fit-vertical</span>时，组件首先将基础面板位置移动到其按钮的底部，并尝试从基础位置向右或向左转出面板。 每次尝试时，组件都会检查面板是否被外部容器裁剪。 如果所有尝试都失败，则组件会尝试将基础面板位置移至顶部，并在右侧和左侧重复转出尝试。 </p> <p>当设置为<span class="codeph"> fit-lateral</span>时，该组件使用类似的逻辑，但首先将基数向右移动，然后尝试向下和向上转出方向。 然后，它将底部向左移动，尝试向下和向上转出方向。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> 设置下拉自动隐藏计时器的延迟（以秒为单位），当用户空闲时，该计时器会隐藏面板。 </p> </td> 
+   <td> <p> 设置下拉自动隐藏计时器的延迟（以秒为单位），该计时器会在用户空闲时隐藏面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -31,27 +31,27 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：HandleArray</span> </td> 
+   <td colname="col2"> <span class="codeph">类型：HandleArray</span> </td> 
    <td colname="col3">用于创建资源集的资源句柄数组。 <p>默认情况下，1000是您可以在数组中拥有的最大资源数。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 要保存集合的文件夹的路径。 默认情况下保存到公司根文件夹。 </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
+   <td colname="col3"> 要保存集合的文件夹的路径。 默认保存到公司根文件夹。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 设置标志以指示是否应发布资产。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 类型：AutoSetCreationOptions</span> </td> 
-   <td colname="col3">您可以在上传文件上运行的一组生成脚本。 参见 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col2"> <span class="codeph">类型：AutoSetCreationOptions</span> </td> 
+   <td colname="col3">您可以在上传文件上运行的一组生成脚本。 查看<a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> <p>为作业设置自动电子邮件通知。 </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 **电子邮件设置选项**
 
-此 `emailSetting` 参数包含以下选项：
+`emailSetting`参数包含以下选项：
 
 | 选项 | 返回 |
 |---|---|

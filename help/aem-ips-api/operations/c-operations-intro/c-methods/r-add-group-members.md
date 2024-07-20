@@ -1,5 +1,5 @@
 ---
-description: 将用户从特定公司添加到特定组。
+description: 将来自特定公司的用户添加到特定组。
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
 # addGroupMembers{#addgroupmembers}
 
-将用户从特定公司添加到特定组。
+将来自特定公司的用户添加到特定组。
 
 语法
 
@@ -32,15 +32,15 @@ ht-degree: 12%
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司的把手。 |
 | groupHandle | `xsd:string` | 是 | 组句柄。 |
-| userHandleArray | `types:HandleArray` | 是 | 要添加到组的用户的句柄数组。 |
+| userHandleArray | `types:HandleArray` | 是 | 要添加到组中的用户的句柄数组。 |
 
 **输出(addGroupMembersParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-此示例使用addGroupMembersParam将用户添加到单个公司。 IPS API未返回此操作的响应。
+此示例使用addGroupMembersParam将用户添加到单个公司。 IPS API不返回此操作的响应。
 
 **请求**
 

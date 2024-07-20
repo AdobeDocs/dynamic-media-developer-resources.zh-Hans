@@ -7,42 +7,42 @@ role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *`分隔线宽度`*, *`分隔线颜色`*, *`分隔线不透明度`*, *`borderOnOff`*, *`borderColor`*, *`填充颜色`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-控制组件外观，当 `PageView.frametransition` 设置为 `turn` 或 `auto` 在桌面系统上。
+控制桌面系统上的`PageView.frametransition`设置为`turn`或`auto`时的组件外观。
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 分隔线宽度</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
    <td colname="col2"> <p> 跨页中分隔左右页面的页面分隔线阴影的宽度（以像素为单位）。 它还控制车削页面旁边显示的运行阴影的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 分隔线不透明度</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
    <td colname="col2"> <p> RRGGBB格式的阴影颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 分隔线不透明度</span></span> </p> </td> 
-   <td colname="col2"> <p>范围内的阴影不透明度 <span class="codeph"> 0</span> 到 <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
+   <td colname="col2"> <p>在<span class="codeph"> 0</span>到<span class="codeph"> 1</span>范围内的阴影不透明度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> 标志(或 <span class="codeph"> 0</span> 或 <span class="codeph"> 1</span>)来打开和关闭打开页面周围的边框。 </p> </td> 
+   <td colname="col2"> <p> 用于打开和关闭打开页面的边框的标志（<span class="codeph"> 0</span>或<span class="codeph"> 1</span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
    <td colname="col2"> <p> RRGGBB格式的边框颜色。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 填充颜色</span></span> </p> </td> 
-   <td colname="col2"> <p> 翻页动画期间使用的组件区域的纯色填充颜色（RRGGBB格式）。 </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
+   <td colname="col2"> <p> 翻页动画期间使用的组件区域的纯色填充颜色，以RRGGBB格式表示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

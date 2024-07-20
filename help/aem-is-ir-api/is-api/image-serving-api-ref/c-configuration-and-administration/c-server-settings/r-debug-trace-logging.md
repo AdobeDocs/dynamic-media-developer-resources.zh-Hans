@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe建议将所有日志文件配置为写入与相同的文件夹 `TC::directory`. 这样做可确保所有图像服务日志文件都参与配置了的自动日志文件轮换。 `TC::maxDays`，可防止因磁盘空间不足而导致的潜在服务器不稳定。
+>Adobe建议您将所有日志文件配置为写入与`TC::directory`相同的文件夹。 这样做可确保所有图像服务日志文件都参与使用`TC::maxDays`配置的自动日志文件旋转，从而防止因磁盘空间不足而导致的服务器不稳定。
 
 ## SV：：log — 服务器主管跟踪日志文件路径 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Server Supervisor日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对路径 *[!DNL install_folder]*. 服务器管理员会附加一个连字符和当前日期( *[!DNL -yyyy-mm-dd]*)到文件名（在文件后缀之前，如果有）。 Adobe建议将所有日志文件发送到与相同的文件夹 [!DNL Platform Server] 日志文件( `PS::LogFolder`)，以使用由实现的日志文件管理 [!DNL Platform Server] (`PS::LogDays`)。 默认值为 [!DNL logs/Supervisor.log].
+Server Supervisor日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 服务器主管将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议将所有日志文件发送到与[!DNL Platform Server]日志文件(`PS::LogFolder`)相同的文件夹，以使用[!DNL Platform Server] (`PS::LogDays`)实现的日志文件管理。 默认值为[!DNL logs/Supervisor.log]。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Server Supervisor日志文件的文件夹和基本文件名。 路径可以是�
 
 ## IS：：Log — 映像服务器调试日志文件路径 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-映像服务器跟踪日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对路径 *[!DNL install_folder]*. ImageServer会附加一个连字符和当前日期( *[!DNL -yyyy-mm-dd]*)到文件名（在文件后缀之前，如果有）。 Adobe建议您将图像服务器日志文件发送到与相同的文件夹 [!DNL Platform Server] 日志文件( `PS::LogFolder`)，以使用由实现的日志文件管理 [!DNL Platform Server] (请参阅 `PS::LogDays`)。
+映像服务器跟踪日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 ImageServer将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议您将图像服务器日志文件发送到与[!DNL Platform Server]日志文件(`PS::LogFolder`)相同的文件夹，以使用[!DNL Platform Server]实现的日志文件管理（请参阅`PS::LogDays`）。
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Server Supervisor日志文件的文件夹和基本文件名。 路径可以是�
 
 日志级别可以是1、2、3或4（默认值为2）
 
-第1级记录与启动、关闭和关闭相关的事件 [!DNL Platform Server] 连接。
+级别1记录与启动、关闭和[!DNL Platform Server]连接相关的事件。
 
 级别2还记录与源映像的连接和断开连接。
 
-第3级添加了对像素数据的请求日志记录并将其提交到 [!DNL Platform Server].
+级别3添加对像素数据的请求日志记录并将其投放到[!DNL Platform Server]。
 
-第4级记录从 [!DNL Platform Server].
+级别4记录从[!DNL Platform Server]接收的所有消息。
 
 级别3和级别4应仅用于调试目的，因为日志文件可能会变得很大。
 

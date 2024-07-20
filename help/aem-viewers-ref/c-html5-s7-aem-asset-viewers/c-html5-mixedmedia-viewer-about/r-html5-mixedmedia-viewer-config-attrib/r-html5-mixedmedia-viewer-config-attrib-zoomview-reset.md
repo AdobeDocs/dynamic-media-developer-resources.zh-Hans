@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 95bf90d1-071e-467a-87aa-122911125233
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 在帧（图像）更改时重置视图端口。 如果设置为 <span class="codeph"> 0</span>，它以可能的最适大小保留当前视图端口，同时保留新设置图像的纵横比。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> 在帧（图像）更改时重置视图端口。 如果设置为<span class="codeph"> 0</span>，它将以最适合的填充大小保留当前视图端口，同时保留新设置图像的宽高比。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

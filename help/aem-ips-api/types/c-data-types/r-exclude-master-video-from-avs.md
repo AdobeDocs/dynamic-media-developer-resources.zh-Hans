@@ -7,7 +7,7 @@ exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
 source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Adobe即将结束对 `ExcludeMasterVideoFromAVS` 参数： 2022年9月1日。 另请参阅 [已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe将于2022年9月1日终止支持`ExcludeMasterVideoFromAVS`参数。 另请参阅[已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md)。
 
 从自适应视频集中排除主视频。
 
@@ -35,8 +35,8 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 真|假</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col1"> <span class="codeph"> true|false</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> <p>从自适应视频集中排除主视频文件。 </p> <p>默认为true。 </p> </td> 
   </tr> 
  </tbody> 

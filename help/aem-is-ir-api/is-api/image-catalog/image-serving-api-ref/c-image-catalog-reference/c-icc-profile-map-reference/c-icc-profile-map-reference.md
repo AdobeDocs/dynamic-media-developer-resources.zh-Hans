@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ICC配置文件映射引用{#icc-profile-map-reference}
 
-如果图像目录需要ICC配置文件映射，则必须在attribute：：IccProfileMapFile中指定配置文件映射文件的相对路径或绝对路径。
+如果图像目录需要ICC配置文件映射，则必须在属性：：IccProfileMapFile中指定配置文件映射文件的相对路径或绝对路径。
 
 特定图像目录的ICC配置文件映射中的条目会覆盖默认目录的ICC配置文件映射中的条目。
 

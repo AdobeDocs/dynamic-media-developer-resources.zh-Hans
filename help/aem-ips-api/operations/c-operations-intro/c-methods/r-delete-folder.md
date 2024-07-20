@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 11%
 
 **输出(deleteFolderParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-9d4617b322e8442d80e59be0f8714841}
 

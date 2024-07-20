@@ -1,5 +1,5 @@
 ---
-description: 将查看器配置设置附加到资产。 这些可以是查看器预设或查看器的源资产。
+description: 将查看器配置设置附加到资源。 这些可以是查看器预设或查看器的源资产。
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-将查看器配置设置附加到资产。 这些可以是查看器预设或查看器的源资产。
+将查看器配置设置附加到资源。 这些可以是查看器预设或查看器的源资产。
 
 语法
 
@@ -32,11 +32,11 @@ ht-degree: 12%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
-| assetHandle | `xsd:string` | 是 | 资源句柄。 |
+| assetHandle | `xsd:string` | 是 | 资产句柄。 |
 | 名称 | `xsd:string` | 是 | 资源名称。 |
 | 类型 | `xsd:string` | 是 | 要将查看器配置应用于的资源类型。 |
-| configSettingArray | `types:ConfigSettingArray` | 是 | 数组 `ConfigSettings` 应用于资产…… |
+| configSettingArray | `types:ConfigSettingArray` | 是 | `ConfigSettings`的数组已应用于资源。 |
 
 **输出(setViewerConfigSettingsParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。

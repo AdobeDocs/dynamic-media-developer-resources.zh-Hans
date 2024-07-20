@@ -8,7 +8,7 @@ exl-id: 251ded53-47db-4855-a40b-7078dfc24d87
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## 属性 {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-文本字符串。 必需. 必须为有效的图像服务器文件路径，可以是绝对路径，也可以是相对路径 `attribute::RootPath`.
+文本字符串。 必需。 必须为有效的图像服务器文件路径，绝对路径或相对于`attribute::RootPath`的路径。
 
 ## 默认 {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 
@@ -26,4 +26,4 @@ ht-degree: 9%
 
 ## 另请参阅 {#section-35bcdd8dcba745929e9cee8207609d88}
 
-[attribute：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)
+[属性：：RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)

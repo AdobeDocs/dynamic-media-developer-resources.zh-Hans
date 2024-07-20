@@ -8,7 +8,7 @@ exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 33%
 |---|---|---|
 | 原始路径 | `xsd:string` | 字体路径。 |
 | 原始文件 | `xsd:string` | 字体名称。 |
-| fileSize | `xsd:int` | 字体大小. |
+| fileSize | `xsd:int` | 字体大小。 |

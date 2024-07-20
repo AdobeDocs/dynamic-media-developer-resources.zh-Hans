@@ -7,32 +7,32 @@ role: Developer,User
 exl-id: 8371cb69-4cd9-457b-bd8c-e4167fc67600
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '111'
+ht-degree: 2%
 
 ---
 
 # VideoPlayer.iconeffect{#videoplayer-iconeffect}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`渐隐`*][, *`自动隐藏`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`计数`*][, *`渐隐`*][, *`自动隐藏`*]`
 
 <table id="table_38995A95977645AD8716203987DD9909"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 在视频暂停时，启用IconEffect以在视频的顶部显示。 在某些设备上，使用本机控件。 在此情况下， <span class="codeph"> iconeffect</span> 修饰符将被忽略。 </p> </td> 
+   <td colname="col2"> <p> 启用IconEffect以在视频暂停时在视频顶部显示。 在某些设备上，使用本机控件。 在这种情况下，将忽略<span class="codeph"> iconeffect</span>修饰符。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指定IconEffect出现和重新出现的最大次数。 值 <span class="codeph"> -1</span> 表示图标会无限期地重新显示。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">计数</span> </span> </p> </td> 
+   <td colname="col2"> <p> 指定IconEffect出现和重新出现的最大次数。 值为<span class="codeph"> -1</span>表示该图标将无限期地重新显示。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 渐隐</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">淡化</span> </span> </p> </td> 
    <td colname="col2"> <p> 指定显示或隐藏动画的持续时间（以秒为单位）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 自动隐藏</span> </span> </p> </td> 
-   <td colname="col2"> <p> 设置IconEffect在自动隐藏之前保持可见状态的秒数。 即，淡入动画完成之后和淡出动画开始之前的时间。 设置 <span class="codeph"> 0</span> 禁用自动隐藏行为。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname">自动隐藏</span> </span> </p> </td> 
+   <td colname="col2"> <p> 设置IconEffect在自动隐藏之前保持可见状态的秒数。 即，淡入动画完成之后和淡出动画开始之前的时间。 设置为<span class="codeph"> 0</span>可禁用自动隐藏行为。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

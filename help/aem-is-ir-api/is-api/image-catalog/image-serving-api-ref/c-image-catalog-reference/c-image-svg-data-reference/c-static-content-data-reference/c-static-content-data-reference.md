@@ -1,5 +1,5 @@
 ---
-description: 此部分介绍静态内容数据属性。
+description: 本节介绍静态内容数据属性。
 solution: Experience Manager
 title: 静态内容数据引用
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 静态内容数据引用{#static-content-data-reference}
 
-此部分介绍静态内容数据属性。
+本节介绍静态内容数据属性。
 
 * [過期](r-expiration-static.md)
 * [Id](r-id-static.md)

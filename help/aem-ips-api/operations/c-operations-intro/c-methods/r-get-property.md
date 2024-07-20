@@ -8,7 +8,7 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 12%
 
 支持的系统属性包括：
 
-* `IpsVersion`：IPS版本号。
-* `IpsImageServerUrl`：IPS图像服务器的完整外部URL前缀。
+* `IpsVersion`： IPS版本号。
+* `IpsImageServerUrl`： IPS图像服务器的完整外部URL前缀。
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`：用于渲染SVG资源的URL前缀。
-* `SvgRenderEnabled`：如果SVG资源可以由渲染，则为True `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`：用于呈现SVG资源的URL前缀。
+* `SvgRenderEnabled`：如果SVG资源可由`SvgRenderRootUrl`渲染，则为True。
 
-* `UploadPostMaxFileSize`：上传中允许的文件数据的最大大小（以字节为单位） [!DNL POST]. 系统拒绝大于最大限制的文件。
+* `UploadPostMaxFileSize`：上传[!DNL POST]中允许的文件数据大小上限（以字节为单位）。 系统会拒绝大于最大限制的文件。
 
 ## 授权用户类型 {#section-2cd36bbd46ed414b8753569d5895530e}
 

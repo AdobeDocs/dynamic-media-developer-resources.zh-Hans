@@ -1,5 +1,5 @@
 ---
-description: 返回资源的发布历史记录。
+description: 返回资产的发布历史记录。
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
-返回资源的发布历史记录。
+返回资产的发布历史记录。
 
 语法
 
@@ -47,7 +47,7 @@ ht-degree: 17%
 
 ## 示例 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-此代码示例返回资源的发布历史记录。 如果服务器返回空数组，则从未发布资产。
+此代码示例返回资源的发布历史记录。 如果服务器返回空数组，则表示从未发布资产。
 
 **请求**
 

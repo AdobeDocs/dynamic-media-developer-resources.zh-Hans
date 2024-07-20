@@ -8,7 +8,7 @@ exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 14%
 
 **输出(addCompanyMembershipReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-5469f88bac7047cca131faa6b021e437}
 

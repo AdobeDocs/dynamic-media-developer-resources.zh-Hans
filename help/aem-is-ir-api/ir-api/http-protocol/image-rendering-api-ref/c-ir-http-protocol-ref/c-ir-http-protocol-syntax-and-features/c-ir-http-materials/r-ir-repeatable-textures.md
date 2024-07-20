@@ -1,26 +1,26 @@
 ---
 title: 可重复纹理
-description: 可重复纹理包括内部和外部材料，例如织物（服装和家居装饰材料）、从墙到墙的地板覆盖物、墙壁纸、台面材料、木纹纹理、屋顶和侧边材料以及任何其他通用纹理。
+description: 可重复纹理包括内部和外部材料，例如织物（服装和室内装饰）、从墙到墙的地板覆盖物、墙纸、台面材料、木纹纹纹理、屋顶和侧边材料以及任何其他通用纹理。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 3%
 
 ---
 
 # 可重复纹理{#repeatable-textures}
 
-可重复纹理包括内部和外部材料，例如织物（服装和家居装饰材料）、从墙到墙的地板覆盖物、墙壁纸、台面材料、木纹纹理、屋顶和侧边材料以及任何其他通用纹理。
+可重复纹理包括内部和外部材料，例如织物（服装和室内装饰）、从墙到墙的地板覆盖物、墙纸、台面材料、木纹纹纹理、屋顶和侧边材料以及任何其他通用纹理。
 
-可重复纹理可应用于平面、流线、草图、平面、壁和机箱对象。 当应用于不可纹理的对象时，该对象将以下列方式绘制 `color=` (或 `bgc=` 如果 `color=` 未指定)。
+可重复纹理可应用于平面、流线、草图、平面、壁和机箱对象。 应用于不可纹理的对象时，该对象将使用`color=`绘制（如果未指定`color=`，则使用`bgc=`）。
 
-如果材料包含一个，则将其视为一种材质 `src=` 指定图像的属性，如果图像出现在MSS中而不是贴花或墙边框。
+如果材质包含用于指定图像的`src=`属性，并且材质出现在除贴花或墙边框之外的MSS中，则该材质将被视为纹理。
 
-渲染时，纹理通过匹配 `anchor=` 具有对象纹理原点的纹理材料的点（在晕影中创作）。
+渲染时，通过使纹理材料的`anchor=`点与对象的纹理原点匹配（在晕影中创作），纹理与对象对齐。
 
 <table id="table_992A6E93E4274B598A236F8F728F017A"> 
  <thead> 
@@ -37,17 +37,17 @@ ht-degree: 3%
    <td colname="col3"> <p>无。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph">资源= </span> </a> </p> </td> 
    <td colname="col2"> <p>纹理分辨率 </p> </td> 
-   <td colname="col3"> <span class="codeph"> attribute：：Resolution </span> </td> 
+   <td colname="col3"> <span class="codeph">属性：：分辨率</span> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> 锚点= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph">锚点= </span> </a> </p> </td> 
    <td colname="col2"> <p>纹理对齐点 </p> </td> 
    <td colname="col3"> <p>左上角。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph">重复= </span> </a> </p> </td> 
    <td colname="col2"> <p>重复模式 </p> </td> 
    <td colname="col3"> <p>0（直接重复）。 </p> </td> 
   </tr> 
@@ -71,17 +71,17 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> 格劳特= </span> </a> </p> </td> 
-   <td colname="col2"> <p>灌浆颜色和厚度；适用于陶瓷/石瓦材料 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph">分组= </span> </a> </p> </td> 
+   <td colname="col2"> <p>灌浆颜色和厚度；适用于陶瓷/石材瓦材料 </p> </td> 
    <td colname="col3"> <p>图像中已存在分组 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> align= </span> </a> </p> </td> 
-   <td colname="col2"> <p>对齐模式（对象之间）；用于装饰应用程序 </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph">对齐= </span> </a> </p> </td> 
+   <td colname="col2"> <p>对齐模式（对象之间）；用于室内装饰应用程序 </p> </td> 
    <td colname="col3"> <p>居中对齐 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph">旋转= </span> </a> </p> </td> 
    <td colname="col2"> <p>纹理旋转角度；壁对象不支持 </p> </td> 
    <td colname="col3"> <p>0（无轮换） </p> </td> 
   </tr> 

@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ SVG渲染器的Java栈大小。 默认为“200m”(200 MB)。
 
 ## PS：：svgProvider.rootPaths -SVG数据根文件夹 {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-SVG源数据文件的位置。 它可以是相对于的一个或多个绝对文件路径或路径 *[!DNL install_folder]*，以分号分隔。 通常设置为与相同的值 `IS::RootPath`.
+SVG源数据文件的位置。 它可以是相对于&#x200B;*[!DNL install_folder]*&#x200B;的一个或多个绝对文件路径或路径，用分号分隔。 通常设置为与`IS::RootPath`相同的值。
 
 ## PS：：svgProvider.SVGFileSizeLimit — 最大SVG文件大小 {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -32,15 +32,15 @@ SVG源数据文件的位置。 它可以是相对于的一个或多个绝对文�
 
 它限制了SVGRender可以生成的图像的大小。 大于0的整数值（百万像素）。 如果渲染操作超出大小限制，则返回错误。 默认值为 4。
 
-## PS：：svgProvider.port - [!DNL Platform Server] 侦听端口 {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS：：svgProvider.port - [!DNL Platform Server]侦听端口 {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-用于SvgRender从获取图像的端口 [!DNL Platform Server] 嵌入到SVG渲染中。
+用于SvgRender从[!DNL Platform Server]获取要嵌入到SVG渲染中的图像的端口。
 
-重要信息：要使SVGRender组件正常工作，必须将此配置选项设置为与相同的值 `TC::PsPort`.
+重要信息：要使SVGRender组件正常工作，必须将此配置选项设置为与`TC::PsPort`相同的值。
 
 ## PS：：svgProvider.fontRoot — 字体文件SVG文件夹 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender在何处查找渲染SVG文本所需的字体文件；通常为中指定的路径之一 `IS::RootPaths`. 默认值为[！DNL  *[!DNL install_folder]*/images]。
+指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[！DNL *[!DNL install_folder]*/images]。
 
 ## SVG：：SVGRender.port， IS：：SVGTcpPort -SVG通信端口 {#section-608687123aa644b7b58fe42385d71b79}
 
@@ -48,4 +48,4 @@ SVG源数据文件的位置。 它可以是相对于的一个或多个绝对文�
 
 >[!NOTE]
 >
->要使SVGRender组件正常工作，必须为指定相同的端口号 `SVG::SVGRender.port` 和 `IS::SVGTcpPort`.
+>要使SVGRender组件正常工作，必须为`SVG::SVGRender.port`和`IS::SVGTcpPort`指定相同的端口号。

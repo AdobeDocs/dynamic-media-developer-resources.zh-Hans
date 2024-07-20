@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 049aca51-64ae-4244-be2b-78fb1cf84ebb
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 在iOS设备和较旧的Internet Explorer浏览器上，查看器使用“模拟”全屏模式。 在此模式下，查看器只需调整大小即可完整地显示Web浏览器窗口。 此外，Web浏览器用户界面和其他窗口仍显示在屏幕上。
 
-最终用户通过按查看器用户界面中的全屏按钮进入和离开全屏模式。 在桌面上使用“本机”全屏模式时，也可以通过按退出 **Esc**.
+最终用户通过按查看器用户界面中的全屏按钮进入和离开全屏模式。 在桌面上使用“本机”全屏模式时，也可以按&#x200B;**Esc**&#x200B;退出该模式。

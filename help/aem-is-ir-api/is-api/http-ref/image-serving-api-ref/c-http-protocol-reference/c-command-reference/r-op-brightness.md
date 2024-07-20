@@ -20,18 +20,18 @@ ht-degree: 2%
 
 <table id="simpletable_2B5DB95B1FF044C8BD226D4F8311E806"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 调整</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname">调整</span> </p> </td> 
   <td class="stentry"> <p>亮度调整(-100...+100 int)。 </p></td> 
  </tr> 
 </table>
 
 ## 属性 {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-图层命令。 应用到当前图层或复合图像，如果 `layer=comp`. 被效果层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
+图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。 在应用操作之前，CMYK图像或图层将转换为RGB。
 
 ## 默认 {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`，因此亮度不会发生更改。
+`op_brightness=0`，表示亮度不变。
 
 ## 示例 {#section-c25f952f1b77409abb9ccf885862d75c}
 

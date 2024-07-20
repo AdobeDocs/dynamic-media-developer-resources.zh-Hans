@@ -29,7 +29,7 @@ ht-degree: 7%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>选择壁的下半部。 </p> </td> 
+  <td class="stentry"> <p>选取壁的下半部。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -41,13 +41,13 @@ ht-degree: 7%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>选择下壁边框区域。 </p> </td> 
+  <td class="stentry"> <p>选择底壁边框区域。 </p> </td> 
  </tr> 
 </table>
 
-当前仅支持墙对象。 终止先前的MSS并为要应用于指定子选区的材料启动新的MSS。
+当前仅支持墙对象。 终止先前的MSS并启动要应用于指定子选区的材料的新MSS。
 
-为上壁或下壁指定的材料应用于整个壁，除非为另一半壁指定了不同的材料。
+为上壁或下壁指定的材料将应用于整个壁，除非也为另一半壁指定了不同的材料。
 
 ## 属性 {#section-b202139d6d0847cc8d520a154104ab9d}
 
@@ -59,4 +59,4 @@ ht-degree: 7%
 
 ## 另请参阅 {#section-1a993ee24f144d4fb8baef0cc431b53b}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)
+[对象=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)

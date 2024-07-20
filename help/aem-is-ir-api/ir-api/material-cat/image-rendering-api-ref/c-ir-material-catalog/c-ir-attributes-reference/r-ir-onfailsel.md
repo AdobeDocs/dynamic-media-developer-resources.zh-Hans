@@ -1,6 +1,6 @@
 ---
 title: OnFailSel
-description: 挑选选区错误处理。 指定sel=命令因指定的像素位置不在可选对象的蒙版区域中而失败时应采取的操作。
+description: 选取选区错误处理。 指定sel=命令因指定的像素位置不在可选对象的蒙版区域中而失败时应采取的操作。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-挑选选区错误处理。 指定在执行以下操作时要执行的操作： `sel=` 命令失败，因为指定的像素位置不在可选对象的蒙版区域内。
+选取选区错误处理。 指定由于指定的像素位置不在可选对象的蒙版区域中而导致`sel=`命令失败时应采取的操作。
 
 ## 属性 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>继承自 <span class="codeph"> default：：OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>继承自<span class="codeph">默认值：：OnFailSel </span>。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -31,7 +31,7 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>取消选择；应用材料或显示/隐藏对象的任何尝试都将被忽略。 </p> </td> 
+  <td class="stentry"> <p>取消选择；忽略任何应用材料或显示/隐藏对象的尝试。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 ## 默认 {#section-c25f458f9f8f4236963a95779529e664}
 
-继承自 `default::OnFailSel` 如果未定义。
+如果未定义，则从`default::OnFailSel`继承。
 
 ## 另请参阅 {#section-f8b15dd64c674c5484d190dd9e3016af}
 

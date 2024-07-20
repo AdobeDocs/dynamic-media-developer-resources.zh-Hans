@@ -7,26 +7,26 @@ role: Developer,User
 exl-id: c1413da0-a68d-4345-928f-b532991966a8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 2%
 
 ---
 
 # DefaultThumbPix{#defaultthumbpix}
 
-默认缩略图大小。 用于缩略图请求(req=tmb)，而不是attribute：：DefaultPix。
+默认缩略图大小。 用于替代缩略图请求(req=tmb)的attribute：：DefaultPix。
 
-如果缩略图请求( `req=tmb`)不会明确指定大小，也不会明确使用以下选项指定视图大小： `wid=`， `hei=`，或 `scl=`.
+如果缩略图请求(`req=tmb`)未使用`wid=`、`hei=`或`scl=`明确指定视图大小，服务器将限制回复图像不超过此宽度和高度。
 
 ## 属性 {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-0或更大的两个整数，以逗号分隔。 宽度和高度（像素）。 可以将任一值或两个值都设置为0以保持其不受约束。
+0或更大的两个整数，用逗号分隔。 宽度和高度（像素）。 可以将任一值或两个值都设置为0以使其不受约束。
 
 不适用于嵌套/嵌入的请求。
 
 ## 默认 {#section-2c4a4f14540449638822913513170ff1}
 
-继承自 `default::DefaultThumbPix` 如果未定义或为空。
+如果未定义或为空，则从`default::DefaultThumbPix`继承。
 
 ## 另请参阅 {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 

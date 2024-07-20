@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '259'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 清空IPS垃圾桶中的资源。
 
-资源一直存在于垃圾桶中，直到手动清空它们或它们从垃圾桶中超时。 如果手动清空，则它们会一直留在垃圾桶中，直到最终从系统中清除它们时进行下一个清理作业（通常在夜间）。 如果它们从垃圾桶中超时，则在同一清理活动中清理资产。 超时是可配置的（默认值为7天）。
+Assets一直存放在垃圾桶中，直到手动清空它们或将它们从垃圾桶中取出。 如果手动清空，则它们会留在垃圾桶中，直到下次清理作业（通常在夜间）最终从系统中清除时为止。 如果资源在垃圾桶中超时，则在同一清理活动中会清理这些资源。 超时可配置（默认值为7天）。
 
 ## 授权用户类型 {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -40,11 +40,11 @@ ht-degree: 8%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| successCount | xsd：Int | 是 | 已成功从垃圾桶中清空的资源数。 |
-| warningCount | xsd：Int | 是 | 当操作尝试从垃圾桶中清空资源时生成的警告数。 |
-| 错误计数 | xsd：Int | 是 | 操作尝试从垃圾桶清空资源时生成的错误数。 |
+| successCount | xsd：Int | 是 | 成功从垃圾桶中清空的资源数。 |
+| warningcount | xsd：Int | 是 | 操作尝试从垃圾桶中清空资源时生成的警告数。 |
+| errorCount | xsd：Int | 是 | 操作尝试从垃圾桶清空资源时生成的错误数。 |
 | warningDetailArray | 类型：AssetOperationFaultArray | 否 | 与资源关联的详细信息数组，在操作尝试从垃圾桶清空资源时这些资源会生成警告。 |
-| errorDetailArray | 类型：AssetOperationFaultArray | 否 | 与资源关联的详细信息数组，当操作尝试从垃圾桶中清空这些资源时，这些资源会生成错误。 |
+| errorDetailArray | 类型：AssetOperationFaultArray | 否 | 与资源关联的详细信息数组，在操作尝试从垃圾桶清空资源时这些资源会生成错误。 |
 
 ## 示例 {#section-6154a873b6c342bf92e2036280cafdcf}
 

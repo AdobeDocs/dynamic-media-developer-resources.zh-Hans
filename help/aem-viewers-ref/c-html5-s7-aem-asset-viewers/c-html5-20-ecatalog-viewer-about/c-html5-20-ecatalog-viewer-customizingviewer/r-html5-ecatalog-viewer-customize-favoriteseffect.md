@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 1%
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -18,36 +18,36 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-收藏夹图标的外观由以下CSS类选择器控制：
+收藏夹图标的外观可通过以下CSS类选择器来控制：
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon
 ```
 
-**收藏夹图标的CSS属性**
+收藏夹图标的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景图像</span> </p> </td> 
    <td colname="col2"> <p> 为图标显示的图像。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite内。 </p> <p>另请参阅 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS脚本 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">背景位置</span> </p> </td> 
+   <td colname="col2"> <p> 如果使用CSS sprite，则定位在图稿sprite中。 </p> <p>另请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">宽度</span> </p> </td> 
    <td colname="col2"> <p>图标的宽度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">高度</span> </p> </td> 
    <td colname="col2"> <p>图标的高度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 设置一个36 x 36像素的收藏夹图标。
+示例 — 设置一个36 x 36像素的“收藏夹”图标。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon { 
@@ -57,7 +57,7 @@ ht-degree: 1%
 }
 ```
 
-在桌面系统上，该组件支持 `cursortype` 属性选择器，可应用于 `.s7favoriteseffect` 类并根据选定的用户操作控制光标的类型。 以下各项 `cursortype` 值受支持：
+在桌面系统上，该组件支持可应用于`.s7favoriteseffect`类的`cursortype`属性选择器，并根据所选的用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -67,16 +67,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>显示的用户正在删除现有的“收藏”图标。 </p> </td> 
+   <td colname="col2"> <p>显示的用户正在删除现有的“收藏夹”图标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>当“收藏夹”编辑处于非活动状态时，以正常操作模式显示。 </p> </td> 
+   <td colname="col2"> <p>在“收藏夹”编辑处于非活动状态时以正常操作模式显示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-示例 — 为每种类型的组件状态使用不同的鼠标光标。
+示例 — 对于每种类型的组件状态，使用不同的鼠标游标。
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

@@ -1,5 +1,5 @@
 ---
-description: 目录属性文件识别这些目录管理属性。
+description: 目录属性文件可识别这些目录管理属性。
 solution: Experience Manager
 title: 目录管理
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 目录管理{#catalog-management}
 
-目录属性文件识别这些目录管理属性。
+目录属性文件可识别这些目录管理属性。
 
 <table id="simpletable_010A9494BFEB45F0A46FE9709E0404CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> 目录文件</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local">目录文件</a> </span> </p></td> 
   <td class="stentry"> <p>关联图像数据文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -30,11 +30,11 @@ ht-degree: 0%
   <td class="stentry"> <p>关联的静态内容数据文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76" type="reference" format="dita" scope="local"> 字体映射文件</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fontmapfile.md#reference-22e077d4595b45b6a6e549b8499ecb76" type="reference" format="dita" scope="local"> FontMapFile</a> </span> </p></td> 
   <td class="stentry"> <p>关联的字体映射文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local"> 宏文件</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2" type="reference" format="dita" scope="local">宏文件</a> </span> </p></td> 
   <td class="stentry"> <p>关联的宏定义文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +42,7 @@ ht-degree: 0%
   <td class="stentry"> <p>关联的ICC配置文件映射文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> 规则集文件</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
   <td class="stentry"> <p>定义URL预处理程序规则的关联文件的名称。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -50,7 +50,7 @@ ht-degree: 0%
   <td class="stentry"> <p>目录标识符。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local"> 根路径</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494" type="reference" format="dita" scope="local">根路径</a> </span> </p></td> 
   <td class="stentry"> <p>非静态源数据文件（图像、配置文件、字体）的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -58,11 +58,11 @@ ht-degree: 0%
   <td class="stentry"> <p>静态内容源数据文件的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> 保存路径</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local">保存路径</a> </span> </p></td> 
   <td class="stentry"> <p>写入服务器上文件的映像的根路径。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> 完全匹配</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
   <td class="stentry"> <p>目录匹配选项。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -70,7 +70,7 @@ ht-degree: 0%
   <td class="stentry"> <p>Digimarc用户信息。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> 发布信息</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md#reference-3d772f2c98274a37ae7e35706e2db62d" type="reference" format="dita" scope="local"> PublishInfo</a> </span> </p></td> 
   <td class="stentry"> <p>目录注释字符串。 </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -82,7 +82,7 @@ ht-degree: 0%
   <td class="stentry"> <p>启用上次修改的HTTP响应标头。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> 合成字体样式</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
   <td class="stentry"> <p>启用合成粗体/斜体样式。 </p></td> 
  </tr> 
 </table>

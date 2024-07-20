@@ -27,6 +27,6 @@ ht-degree: 9%
 | postscriptName | `xsd:string` | PostScript字体名称。 |
 | rtfName | `xsd:string` | 富文本字体名称。 |
 | [!DNL fontFamily] | `xsd:string` | 字体系列名称。 |
-| [!DNL style] | `xsd:string` | 字体样式（有关值，请参阅字体样式）。 |
+| [!DNL style] | `xsd:string` | 字体样式（请参阅值的字体样式）。 |
 | typeName | `xsd:string` | 字体类型名称。 |
-| [!DNL type] | `xsd:string` | 字体类型（有关值，请参阅字体类型）。 |
+| [!DNL type] | `xsd:string` | 字体类型（请参阅值的字体类型）。 |

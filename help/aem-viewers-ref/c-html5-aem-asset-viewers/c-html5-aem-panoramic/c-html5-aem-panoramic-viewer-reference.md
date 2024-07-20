@@ -7,7 +7,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 HTML5全景查看器是显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
 
-请参阅 [系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+请参阅[系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
 
 查看器类型514。
@@ -31,7 +31,7 @@ HTML5全景查看器表示主JavaScript文件以及查看器在运行时下载�
 HTML5全景查看器既可以在弹出模式下使用(使用随IS-Viewers提供的生产就绪HTML页)，也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
 配置和外观设计与其他HTML5查看器的配置和外观设计类似。 所有外观设计均可通过自定义CSS获得。
 
-请参阅 [所有查看器通用的命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 和 [所有查看器通用的命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+查看所有查看者通用的[命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有查看者通用的[命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 与HTML5全景查看器交互 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -57,7 +57,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
  </tbody> 
 </table>
 
-该查看器支持在带有触摸屏和鼠标的Windows设备上输入触摸和鼠标，但仅支持Chrome、Internet Explorer 11和Edge Web浏览器。
+该查看器支持在带有触摸屏和鼠标的Windows设备上输入触摸和鼠标，但是这项支持仅限于Chrome、Internet Explorer 11和Edge Web浏览器。
 全景查看器可以通过指定vrrender修饰符在虚拟现实(VR)模式下渲染全景图像。 启用vrrender后，全景图像会显示在分屏屏幕中。 一种常见的使用案例是在安装在虚拟现实头戴式耳机中的移动电话中提供图像，为每个眼睛提供单独的图像。 观看者响应头部的陀螺仪移动并浏览图像。
 
 ## 嵌入HTML5全景查看器 {#section-6bb5d3c502544ad18a58eafe12a13435}
@@ -68,9 +68,9 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 在弹出模式下，查看器将在单独的Web浏览器窗口或选项卡中打开。 它占据整个浏览器窗口区域，并在浏览器大小调整或设备方向更改时进行调整。
 
-此模式最适用于移动设备。 网页使用以下方式加载查看器 `window.open()` JavaScript调用、正确配置的HTML元素或任何其他合适的方式。
+此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的HTML元素或任何其他合适的方式加载查看器。
 
-建议您为弹出操作模式使用现成的HTML页面。 此函数名为 [!DNL PanoramicViewer.html] 它位于 [!DNL html5/] 标准IS-Viewers部署的子文件夹：
+建议您为弹出操作模式使用现成的HTML页面。 它名为[!DNL PanoramicViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
@@ -100,14 +100,14 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 通过执行以下操作将查看器添加到网页：
 
-1. 将查看器JavaScript文件添加到网页。
-1. 定义容器 `DIV`.
+1. 正在将查看器JavaScript文件添加到您的网页。
+1. 正在定义容器`DIV`。
 1. 设置查看器大小。
 1. 创建和初始化查看器。
 
-1. 将查看器JavaScript文件添加到网页。
+1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包含 [!DNL PanoramicViewer.js]. 此 [!DNL PanoramicViewer.js] 文件位于 [!DNL html5/js/] 标准IS-Viewers部署的子文件夹：
+   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL PanoramicViewer.js]。 [!DNL PanoramicViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,16 +121,16 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 >[!NOTE]
 >
->仅引用主查看器JavaScript `include` 文件上传到您的页面上。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能会在运行时由查看器的逻辑下载。 特别是，请勿直接引用HTML5 SDK `Utils.js` 由查看器加载的库，从 `/s7viewers` 上下文路径（所谓的整合SDK） `include`)。 原因在于 `Utils.js` 或者类似的运行时查看器库完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不保留辅助查看器的旧版本 `includes` 在服务器上。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
->因此，将直接引用放置到任何辅助JavaScript `include` 将来在部署新产品版本时，页面上查看器使用的功能会中断查看器。
+>因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
 
 1. 定义容器DIV。
 
    向要显示查看器的页面添加一个空DIV元素。 DIV元素必须定义其ID，因为此ID稍后将传递到查看器API。 DIV的大小通过CSS指定。
 
-   占位符DIV是一个定位元素，这意味着 `position` CSS属性设置为 `relative` 或 `absolute`.
+   占位符DIV是定位元素，这意味着`position` CSS属性设置为`relative`或`absolute`。
 
 
    以下是定义的占位符DIV元素的示例：
@@ -141,7 +141,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 1. 设置查看器大小
 
-   您可以通过声明查看器的静态大小来为其设置静态大小。 `.s7panoramicviewer` 顶级CSS类（以绝对单位表示），或者使用修饰符 `stagesize`.
+   可以通过以绝对单位为`.s7panoramicviewer`顶级CSS类声明查看器静态大小，也可以使用修饰符`stagesize`来设置查看器的静态大小。
 
    CSS的大小调整可直接放置在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给AOD中的查看器预设记录或者使用样式命令显式传递。 有关使用CSS设置查看器样式的更多信息，请参阅自定义查看器一节。 下面是在“HTML”页中定义静态查看器大小的示例：
 
@@ -152,7 +152,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
    }
    ```
 
-   `stagesize` 修饰符可以通过查看器初始化代码和params集合明确传递，也可以作为API调用传递，如命令参考部分中所述，如下所示：
+   可以使用查看器初始化代码通过params集合或作为API调用显式传递`stagesize`修饰符，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
@@ -162,13 +162,13 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 1. 创建和初始化查看器。
 
-   完成上述步骤后，您将创建一个实例 `s7viewers.PanoramicViewer` 类，将所有配置信息传递到其构造函数，并调用 `init(`)方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有containerId字段，该字段保存查看器容器ID的名称，以及包含查看器支持的配置参数的嵌套参数JSON对象。 在这种情况下，参数对象必须至少将图像服务URL传递为 `serverUrl` 属性和初始资产作为资产参数。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
+   完成上述步骤后，创建`s7viewers.PanoramicViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init(`)方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有containerId字段，该字段保存查看器容器ID的名称，以及包含查看器支持的配置参数的嵌套参数JSON对象。 在这种情况下，params对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为资产参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大的兼容性，请调用 `init()` 紧靠结束位置之前的方法 `BODY` 标记上，或主体上 `onload()` 事件。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
 
-   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用隐藏该内容 `display:none` 为其分配的样式。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载将自动继续。
+   同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载将自动继续。
 
-   以下示例用于创建查看器实例，将最低必要的配置选项传递给构造函数，并调用 `init()` 方法。 此示例假定 `panoramicViewer` 是查看器实例， `s7viewer` 是占位符的名称 `DIV`， [!DNL http://s7d1.scene7.com/is/image/] 是图像服务URL，并且 [!DNL Scene7SharedAssets/PanoramicImage-Sample] 是资产。
+   以下示例用于创建查看器实例、将最低必要的配置选项传递给构造函数以及调用`init()`方法。 此示例假定`panoramicViewer`是查看器实例，`s7viewer`是占位符`DIV`的名称，[!DNL http://s7d1.scene7.com/is/image/]是图像服务URL，[!DNL Scene7SharedAssets/PanoramicImage-Sample]是资源。
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -233,7 +233,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 将查看器添加到此类页面与嵌入固定大小类似，唯一的区别是无需显式定义查看器大小：
 
-1. 将查看器JavaScript文件添加到网页。
+1. 正在将查看器JavaScript文件添加到您的网页。
 1. 定义容器DIV。
 1. 创建和初始化查看器。
 
@@ -273,9 +273,9 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**定义宽度和高度的响应式设计嵌入**
+**定义了宽度和高度的响应式设计嵌入**
 
-如果有定义了宽度和高度的响应式设计嵌入，则网页样式将不同；它将两种大小都提供给“支架” `DIV` 并将其居中在浏览器窗口中。 此外，该网页还设置 `HTML` 和 `BODY` 元素至100%：
+如果有定义了宽度和高度的响应式设计嵌入，则网页样式将不同；它为“所有者” `DIV`提供大小，并将其居中在浏览器窗口中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,7 +341,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 **使用基于Setter的API进行嵌入**
 
-可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 在该API中，构造函数不接受任何参数，并且配置参数使用 `setContainerId()`， `setParam()`、和 `setAsset()` API方法具有单独的JavaScript调用。
+可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 在该API中，构造函数不接受任何参数，并且配置参数是使用具有单独的JavaScript调用的`setContainerId()`、`setParam()`和`setAsset()` API方法指定的。
 
 以下示例说明了使用基于setter的API嵌入固定大小：
 

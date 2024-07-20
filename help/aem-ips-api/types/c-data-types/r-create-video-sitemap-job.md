@@ -8,7 +8,7 @@ exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">设置为时生成网站地图 <span class="codeph"> true</span>. <p><p>注意：如果Sitemap生成配置设置为手动和 <span class="codeph"> forceUpdate</span> 未设置，则不会生成站点地图。 </p></p></td> 
+   <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
+   <td colname="col3">当设置为<span class="codeph"> true</span>时生成站点地图。 <p><p>注意：如果站点地图生成配置设置为手动，但未设置<span class="codeph"> forceUpdate</span>，则不会生成站点地图。 </p></p></td> 
   </tr> 
  </tbody> 
 </table>

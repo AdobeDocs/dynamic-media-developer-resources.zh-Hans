@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此 `urlModifier` 字段值必须包含有效的XML。 例如，更改 `&` 到 `&`. 获取 `urlModfier` IPS用户界面中的值。
+>`urlModifier`字段值必须包含有效的XML。 例如，将`&`更改为`&`。 从IPS用户界面获取`urlModfier`值。
 
 ## 授权用户类型 {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有您要使用的图像格式的公司句柄。 |
+| companyHandle | `xsd:string` | 是 | 带有您要使用的图像格式的公司句柄。 |
 | imageFormatHandle | `xsd:string` | 否 | 要保存的图像格式句柄。 |
 | 名称 | `xsd:string` | 是 | 图像格式名称。 |
 | urlModifier | `xsd:string` | 是 | 这可以是任何IPS协议查询字符串。 生成URL修饰符的最简单方法是使用IPS用户界面创建一个修饰符，然后剪切并粘贴查询字符串。 |
@@ -46,7 +46,7 @@ ht-degree: 12%
 
 ## 示例 {#section-c7bd733212ef494297a97093f3af193f}
 
-此代码示例创建一个图像格式。 在此示例中， `urlModifier` 取决于IPS用户界面中带有效HTML格式的值。
+此代码示例创建一个图像格式。 在此示例中，`urlModifier`由它在具有有效HTML格式的IPS用户界面中的值决定。
 
 **请求**
 

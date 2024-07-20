@@ -8,7 +8,7 @@ exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -31,19 +31,19 @@ ht-degree: 12%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 公司处理。 |
-| overwriteMode | `xsd:string` | 否 | 资源覆盖模式。 |
-| retainPublishState | `xsd:boolean` | 否 | 设置为 `true` 在重新上传资产时保留发布状态。 |
-| defaultSourceProfileHandle | `xsd:string` | 否 | 用作默认源颜色配置文件的IccProfile资产。 |
+| companyHandle | `xsd:string` | 是 | 公司句柄。 |
+| overwritemode | `xsd:string` | 否 | 资源覆盖模式。 |
+| retainPublishState | `xsd:boolean` | 否 | 设置为`true`可在重新上传资产时保留发布状态。 |
+| defaultSourceProfileHandle | `xsd:string` | 否 | 要用作默认源颜色配置文件的IccProfile资产。 |
 | defaultDisplayProfileHandle | `xsd:string` | 否 | 要用作默认显示颜色配置文件的IccProfile资产。 |
-| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资源。 |
+| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资产。 |
 | xmpMappingXsltHandle | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资源。 |
-| diskSpaceWarningMin | `xsd:int` | 否 | 发送警告消息之前可用的最小磁盘空间（以KB为单位）。 |
-| emailTrashCleanupWarning | `xsd:boolean` | 否 | 设置为 `true` 用于在每次从垃圾桶中清空资产时向公司管理员发送通知。 |
+| diskSpaceWarningMin | `xsd:int` | 否 | 发送警告消息之前可用的最小可用磁盘空间（以KB为单位）。 |
+| emailTrashCleanupWarning | `xsd:boolean` | 否 | 设置为`true`可在从垃圾桶中清空资产时向公司管理员发送通知。 |
 
 **输出(setCompanySettingsReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 

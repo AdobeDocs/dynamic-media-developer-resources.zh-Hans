@@ -1,5 +1,5 @@
 ---
-description: 标记值数组更新错误。
+description: 标记值更新错误的数组。
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
-标记值数组更新错误。
+标记值更新错误的数组。
 
 语法
 

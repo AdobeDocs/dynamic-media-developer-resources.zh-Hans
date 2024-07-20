@@ -1,5 +1,5 @@
 ---
-description: 从公司中删除项目。 资产和项目之间的链接已断开，但资产不会从IPS中删除。
+description: 从公司中删除项目。 资源和项目之间的链接已断开，但资源不会从IPS中删除。
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
 # deleteProject{#deleteproject}
 
-从公司中删除项目。 资产和项目之间的链接已断开，但资产不会从IPS中删除。
+从公司中删除项目。 资源和项目之间的链接已断开，但资源不会从IPS中删除。
 
 语法
 
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 **输出(deleteProjectReturn)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-e38507f1f7ec41b9a625f47390490254}
 

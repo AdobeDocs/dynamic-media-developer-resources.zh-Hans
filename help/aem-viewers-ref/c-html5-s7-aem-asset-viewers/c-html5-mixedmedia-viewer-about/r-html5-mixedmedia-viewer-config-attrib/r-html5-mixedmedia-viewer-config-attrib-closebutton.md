@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> 设置为 <span class="codeph"> 1</span> 以启用“关闭”按钮显示，或设置为 <span class="codeph"> 0</span> 以隐藏“关闭”按钮。 </p> </td> 
+   <td colname="col2"> <p> 设置为<span class="codeph"> 1</span>以启用“关闭”按钮显示，或设置为<span class="codeph"> 0</span>以隐藏“关闭”按钮。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

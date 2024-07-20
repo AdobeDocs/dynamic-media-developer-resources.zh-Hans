@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '62'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 应用于所有样本的图像服务命令字符串。 如果在URL中指定，请确保对所有匹配项进行HTTP编码 <span class="codeph"> 和</span> 和 <span class="codeph"> =</span> 作为 <span class="codeph"> %26</span> 和 <span class="codeph"> %3D</span>，则不会显示任何内容。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
+   <td colname="col2"> <p> 应用于所有样本的图像服务命令字符串。 如果在URL中指定，请确保对<span class="codeph"> &amp;</span>和<span class="codeph"> =</span>的所有匹配项进行HTTP编码，分别表示<span class="codeph"> %26</span>和<span class="codeph"> %3D</span>。 </p> <p> <p>注意：不支持图像大小调整操作命令。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

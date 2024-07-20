@@ -1,5 +1,5 @@
 ---
-description: 蒙版文件属性。
+description: 遮罩文件属性。
 solution: Experience Manager
 title: 蒙版信息
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-蒙版文件属性。
+遮罩文件属性。
 
 语法
 

@@ -18,12 +18,12 @@ ht-degree: 2%
 
 ## 属性 {#section-b4c8fe595efc4838ac598659bc820607}
 
-文本字符串。 对于所有材料而言，它是可选项。 如果指定，则必须是有效的渲染设置字符串，如晕影创作工具(Dynamic Media图像创作包的一部分)所定义。
+文本字符串。 对于所有材料而言，它是可选的。 如果指定，则必须为有效的渲染设置字符串，如使用晕影创作工具(Dynamic Media图像创作包的一部分)定义的那样。
 
 ## 默认 {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
-`attribute::RenderSettings` 如果未指定或为空。
+如果未指定或为空，则为`attribute::RenderSettings`。
 
 ## 另请参阅 {#section-52679fc35c36439490564b4d1c515dd0}
 
-[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) ， [catalog：：锐化](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0)， [属性：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) ，[目录：：Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0)，[属性：：RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

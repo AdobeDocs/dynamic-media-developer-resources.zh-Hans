@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1f01f2fe-7f04-4923-be75-e9dd97ab3e21
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 11%
 
 智能裁剪视频查看器的配置属性。
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0|1`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 某些系统（如某些移动设备）不支持自动播放。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在加载时开始播放视频。 某些系统（如某些移动设备）不支持AutoPlay。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

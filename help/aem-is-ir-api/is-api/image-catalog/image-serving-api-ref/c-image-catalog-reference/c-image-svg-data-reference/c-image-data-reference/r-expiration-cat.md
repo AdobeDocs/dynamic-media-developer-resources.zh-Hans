@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -26,16 +26,16 @@ ht-degree: 1%
 * `req=userdata`
 * `req=map`
 
-某些类型的响应（例如，错误响应）始终标记为立即过期（或标记为不可缓存），而其他响应（例如，属性或默认图像响应）则使用特殊的过期设置( `attribute::NonImgExpiration` 和 `attribute::DefaultExpiration`)。
+某些类型的响应（例如，错误响应）始终标记为立即过期（或标记为不可缓存），而其他响应（例如，属性或默认图像响应）使用特殊过期设置（`attribute::NonImgExpiration`和`attribute::DefaultExpiration`）。
 
 ## 属性 {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-实数、-2、-1或0或更大。 自生成响应图像以来到到期为止的小时数。 设置为0将始终使回复图像立即过期，这样可以有效禁用客户端缓存。 设置为–1以标记为 *`never expire`*. 在这种情况下，服务器始终返回304状态（未修改）以响应条件GET请求，而不检查文件是否实际发生了更改。 设置为–2以使用提供的默认值 `attribute::Expiration`.
+实数、-2、-1或0或更大。 自生成响应图像以来到到期为止的小时数。 设置为0将始终使回复图像立即过期，这样可以有效禁用客户端缓存。 设置为–1以标记为&#x200B;*`never expire`*。 在这种情况下，服务器始终返回304状态（未修改）以响应条件GET请求，而不检查文件是否实际发生了更改。 设置为–2以使用`attribute::Expiration`提供的默认值。
 
 ## 默认 {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
-`attribute::Expiration` 如果字段不存在、值为–2或字段为空，则使用。
+如果字段不存在、值为–2或字段为空，则使用`attribute::Expiration`。
 
 ## 另请参阅 {#section-0e5e8595aad641c689726828712a8902}
 
-[attribute：：Expiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7)， [attribute：：DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf)， [attribute：：NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)， [需要=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[attribute：：Expiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7)，[attribute：：DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf)，[attribute：：NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)，[req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

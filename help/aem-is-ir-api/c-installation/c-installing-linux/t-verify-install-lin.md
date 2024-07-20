@@ -1,6 +1,6 @@
 ---
 title: 验证安装
-description: 在Linux®上安装映像服务后，请验证安装。
+description: 在Linux®上安装映像服务后，请验证是否已安装。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 验证安装{#verifying-the-installation}
 
-在Linux®上安装映像服务后，请验证安装。
+在Linux®上安装映像服务后，请验证是否已安装。
 
-映像服务器安装为Linux®守护程序。
+Image Server作为Linux®守护程序安装。
 
 **验证安装**
 
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-在响应中，检查是否存在以开头的项目 `imageServer`，这表示 [!DNL Platform Server] 无法成功与图像服务器通信。
+在响应中，检查是否存在以`imageServer`开头的项，这表示[!DNL Platform Server]可以成功与图像服务器通信。
 
->可以使用文档和演示软件包的示例页面（如果已安装）执行其他验证。
+>如果安装了，则可以使用文档和演示软件包的示例页面执行其他验证。

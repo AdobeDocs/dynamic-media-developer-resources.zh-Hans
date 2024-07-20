@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 33%
+source-wordcount: '130'
+ht-degree: 18%
 
 ---
 
@@ -24,27 +24,27 @@ ht-degree: 33%
 
 <table id="simpletable_C84560940CAC46D8BE9D0EFEE5EBF323"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>trim marks= </p></td> 
+  <td class="stentry"> <p>修剪标记= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>bleed marks= </p></td> 
+  <td class="stentry"> <p>流血痕迹= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>registration marks= </p></td> 
+  <td class="stentry"> <p>注册标记= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>color bars= </p></td> 
+  <td class="stentry"> <p>颜色条= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 0。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>page information= </p></td> 
+  <td class="stentry"> <p>页面信息= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 0。 </p></td> 
  </tr> 
@@ -55,11 +55,11 @@ ht-degree: 33%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>线条粗细= </p></td> 
-  <td class="stentry"> <p>0.125 - 2.0之间的任何值，包括这两个值。 </p></td> 
+  <td class="stentry"> <p>0.125 - 2.0范围内的任何值，包括这两个值。 </p></td> 
   <td class="stentry"> <p>默认值为 0.25。 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>layer embed= </p></td> 
+  <td class="stentry"> <p>图层嵌入= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>默认值为 1。 </p></td> 
  </tr> 

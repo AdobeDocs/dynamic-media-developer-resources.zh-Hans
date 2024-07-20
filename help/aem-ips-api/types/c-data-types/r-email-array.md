@@ -1,5 +1,5 @@
 ---
-description: 一个数组，用于指定接收确认通知的发件人或最多5个电子邮件地址的列表。
+description: 一个数组，用于指定发送者或最多5个电子邮件地址的列表来接收确认通知。
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
 # [!DNL EmailArray]{#emailarray}
 
-一个数组，用于指定接收确认通知的发件人或最多5个电子邮件地址的列表。
+一个数组，用于指定发送者或最多5个电子邮件地址的列表来接收确认通知。
 
 语法
 

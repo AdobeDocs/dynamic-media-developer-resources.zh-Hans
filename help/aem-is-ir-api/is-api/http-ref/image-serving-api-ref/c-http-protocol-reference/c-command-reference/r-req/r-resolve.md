@@ -18,6 +18,6 @@ ht-degree: 2%
 
 `req=resolve`
 
-返回的是MIME类型的最终请求字符串，而不是结果图像 `text/plain`.
+返回的是MIME类型为`text/plain`的最终请求字符串，而不是结果图像。
 
 无法缓存HTTP响应。

@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 11%
 
 向系统中添加公司。
 
-发送要添加到系统的公司名称，并（可选）发送公司是否过期。
+发送要添加到系统中的公司名称，并（可选）发送公司是否过期。
 
-调用此操作时，系统会获取一个包含公司句柄和描述性字段的companyInfo类型。 如果系统中已存在请求的公司名称，则会抛出 `ipsApiFault`.
+调用此操作时，系统会获取一个包含公司句柄和描述性字段的companyInfo类型。 如果系统中已存在请求的公司名称，则会抛出`ipsApiFault`。
 
 ## 授权用户类型 {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,16 +41,16 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司名称</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>要添加的公司名称。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">过期</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：dateTime</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>公司的到期日期。 为此字段提供请求时区。 时区将调整为中部时间。 </p> </td> 
+   <td colname="col4"> <p>公司的到期日期。 为此字段提供请求的时区。 时区将调整为中部时间。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,8 +68,8 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">公司信息</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd：string</span> </p> </td> 
    <td colname="col3"> <p>是 </p> </td> 
    <td colname="col4"> <p>新公司的句柄和名称、根路径、过期日期和时间。 </p> </td> 
   </tr> 
@@ -78,7 +78,7 @@ ht-degree: 11%
 
 ## 示例 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-此示例演示了向IPS系统添加公司的请求和响应，其中详细说明执行其他操作所需的有关所添加公司的信息。
+此示例演示了向IPS系统添加公司的请求和响应，其中详细说明了执行其他操作所需添加公司的相关信息。
 
 **请求**
 

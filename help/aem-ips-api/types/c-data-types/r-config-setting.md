@@ -1,7 +1,7 @@
 ---
 description: 仅供Dynamic Media开发人员使用。
 solution: Experience Manager
-title: ConfigSetting
+title: 配置设置
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
@@ -24,4 +24,4 @@ ht-degree: 18%
 |---|---|---|
 | [!DNL name] | `xsd:string` | 配置名称。 |
 | [!DNL value] | `xsd:string` | 配置值。 |
-| [!DNL handle] | `xsd:string` | 处理存储的配置。 |
+| [!DNL handle] | `xsd:string` | 存储配置的句柄。 |

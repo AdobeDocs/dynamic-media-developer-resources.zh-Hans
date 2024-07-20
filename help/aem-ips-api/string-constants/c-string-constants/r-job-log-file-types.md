@@ -1,5 +1,5 @@
 ---
-description: 由JobLogDetial/assetType使用。
+description: 用于JobLogDetial/assetType。
 solution: Experience Manager
 title: 作业日志文件类型
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # 作业日志文件类型{#job-log-file-types}
 
-由JobLogDetial/assetType使用。
+用于JobLogDetial/assetType。
 
 语法
 

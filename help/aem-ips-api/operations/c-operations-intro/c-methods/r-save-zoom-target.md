@@ -8,7 +8,7 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 20%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 具有要保存的缩放目标的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含要保存的缩放目标的公司的句柄。 |
 | assetHandle | `xsd:string` | 是 | 缩放目标的手柄。 |
 | zoomTargetHandle | `xsd:string` | 否 | 编辑或创建缩放目标。 |
 | 名称 | `xsd:string` | 是 | 缩放目标名称。 |
 | xPosition | `xsd:int` | 是 | 左侧像素位置。 |
-| y位置 | `xsd:int` | 是 | 顶部像素位置。 |
+| y位置 | `xsd:int` | 是 | 上像素位置。 |
 | 宽度 | `xsd:int` | 是 | 缩放目标宽度。 |
 | 高度 | `xsd:int` | 是 | 缩放目标高度。 |
-| userData | `xsd:string` | 是 | 有关客户特定的信息。 可以包含任何类型的数据。 |
+| 用户数据 | `xsd:string` | 是 | 有关客户特定的信息。 可以包含任何类型的数据。 |
 
 **输出(saveZoomTargetReturn)**
 

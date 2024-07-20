@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 请求语法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-针对设置的响应 `catalog::ImageSet` 可以通过以下方式检索： `req=set` 修饰符并在网络路径中引用目录记录ID。 或者，可以使用直接在URL中指定图像集 `imageset=` 修饰符。 如果 `imageset=` 修饰符用于指定图像集，整个值应括在大括号中，以便转义图像集值并确保包含的任何修饰符不会解释为URL查询字符串的一部分。
+可以使用`req=set`修饰符并引用Net路径中的目录记录ID来检索`catalog::ImageSet`的设置响应。 或者，可以使用`imageset=`修饰符直接在URL中指定图像集。 如果使用`imageset=`修饰符指定图像集，则应将整个值括在大括号中，以便对图像集值进行转义，并确保所包含的任何修饰符均不会解释为URL查询字符串的一部分。
 
 ## 集合响应的类型 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>简单图像 </p></td> 
-  <td class="stentry"> <p>图像记录，不包含 <span class="codeph"> catalog：：图像集</span> 已定义。 </p></td> 
+  <td class="stentry"> <p>定义了没有<span class="codeph">目录：：ImageSet</span>的图像记录。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>简单视频 </p></td> 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 ## 外集类型检测 {#section-3dd6e453528d46898e559d31458a59ba}
 
-当 `req=set` 接收到请求时，要生成的响应类型由的值确定 `catalog::AssetType`. 如果 `catalog::AssetType` 未定义，则响应类型由以下规则确定：
+收到`req=set`请求时，要生成的响应类型由`catalog::AssetType`的值决定。 如果未定义`catalog::AssetType`，则响应类型由以下规则确定：
 
-* 如果在图像目录中找到记录，并且 `catalog::ImageSet` 已定义
+* 如果在图像目录中找到记录并且定义了`catalog::ImageSet`
 
    * 如果记录图像集字段中至少有一个条目包含冒号，则假定已设置e目录
    * 如果记录“图像集”字段中至少有一个条目包含两个分号，则假定媒体集。
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ## 内集型检测 {#section-8f46490e467247e69ce284704def06f3}
 
-当检测到外部集为类型媒体集时，响应包含一组与中的每个媒体集条目对应的媒体集项目 `catalog::ImageSet`. 如果为特定媒体集条目指定了可选的类型参数，则会根据下表将其映射到输出类型：
+当检测到外部集为类型媒体集时，响应包含一组与`catalog::ImageSet`中的每个媒体集条目对应的媒体集项目。 如果为特定媒体集条目指定了可选的类型参数，则会根据下表将其映射到输出类型：
 
 | 输入类型 | 输出类型 |
 |---|---|
@@ -126,22 +126,22 @@ ht-degree: 0%
 
 ## 标签键 {#section-bf565de6f7294cf89620343c9071f415}
 
-此 `labelkey=` 修饰符与 `catalog::UserData`用于生成图像和样本标签的字段。 此 `catalog:UserData` 字段解析为一组键/值对，并且其中的标签键索引用于检索给定键的值。 此值随后返回到 *`l`* 属性 *`s`* 和 *`i`*.
+`labelkey=`修饰符与`catalog::UserData`字段一起使用，以生成图像和样本的标签。 `catalog:UserData`字段被解析为一组键/值对，该组中的标签键索引用于检索给定键的值。 此值随后在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;特性中返回。
 
 ## 强制限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-为了限制响应大小并防止出现自引用问题，最大嵌套深度由服务器属性控制 `PS::fvctx.nestingLimit`. 如果超过此限制，则会返回错误。
+为了限制响应大小并防止出现自引用问题，最大嵌套深度由服务器属性`PS::fvctx.nestingLimit`控制。 如果超过此限制，则会返回错误。
 
-为了限制大型e-catalog集的xml响应的大小，根据服务器属性禁止小册子集项目的私有元数据 `PS::fvctx.brochureLimit`. 与宣传册关联的所有私有元数据都将导出，直到达到宣传册限制为止。 超过限制后，将禁止专用映射和用户数据，并设置相应标志以指示禁止的数据类型。
+为了限制大型e-catalog集的xml响应大小，根据服务器属性`PS::fvctx.brochureLimit`，禁止小册子集项目的私有元数据。 与宣传册关联的所有私有元数据都将导出，直到达到宣传册限制为止。 超过限制后，将禁止专用映射和用户数据，并设置相应标志以指示禁止的数据类型。
 
 不支持嵌套媒体集。 嵌套媒体集被定义为包含媒体集类型的媒体集项目的媒体集。 如果检测到此情况，则会返回错误。
 
 ## 示例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-对于的示例XML响应 `req=set` 请求，请参阅HTML示例标题下的属性页面。
+有关`req=set`请求的示例XML响应，请参阅HTML示例标题下的“属性”页。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## 另请参阅 {#section-625ec466c948476e800dc0c52a4532d3}
 
-[需要=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [图像集=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)， [catalog：：图像集](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)， [图像目录引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ，[图像集=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3)，[目录：：图像集](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md)，[图像目录引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

@@ -20,8 +20,8 @@ ht-degree: 0%
 
 此外，当操作中不包含特定的图像目录时，默认目录将提供所有属性和数据记录（宏、字体、ICC配置文件、请求预处理规则）。
 
-为了正确运行 [!DNL Platform Server] 必须命名默认目录的目录属性文件 [!DNL default.ini]，必须始终存在于目录文件夹中，并且必须用所有必需的属性（不包括）完全填充 `attribute::RootId` 和对各种目录数据文件的引用，所有这些都是可选的。
+为了使[!DNL Platform Server]正确运行，默认目录的目录属性文件必须命名为[!DNL default.ini]，必须始终存在于目录文件夹中，并且必须使用所有必需的属性完全填充，不包括`attribute::RootId`和对各种目录数据文件的引用，所有这些都是可选的。
 
 >[!NOTE]
 >
->所有目录属性文件除外 [!DNL default.ini] 必须包含唯一的 `attribute::RootId` 值。 `attribute::RootId` 在 [!DNL default.ini] 必须为空。
+>除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 [!DNL default.ini]中的`attribute::RootId`必须为空。

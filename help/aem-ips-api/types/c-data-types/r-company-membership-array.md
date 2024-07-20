@@ -20,4 +20,4 @@ ht-degree: 71%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| [!DNL items] | `types:CompanyMembership` |  |
+| [!DNL items] | `types:CompanyMembership` | |

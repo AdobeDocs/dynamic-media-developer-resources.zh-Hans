@@ -8,7 +8,7 @@ exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
   <tr> 
    <th class="entry"> <b>警报类型</b> </th> 
    <th class="entry"> <b>标题ID</b> </th> 
-   <th class="entry"> <b>说明</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -35,7 +35,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>高并发性 </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> 当同时处理的请求数( <i>重叠</i>)超出指定的阈值。 可指示服务器过载情况。 </td> 
+   <td> 当并发处理的请求数（<i>重叠</i>）超过指定的阈值时发出。 可指示服务器过载情况。 </td> 
   </tr> 
   <tr> 
    <td> <p>最小流量 </p> </td> 

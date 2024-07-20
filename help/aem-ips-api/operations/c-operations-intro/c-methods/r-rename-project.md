@@ -8,7 +8,7 @@ exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 ## 示例 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-此代码示例将重命名项目并返回项目句柄。
+此代码示例将重命名一个项目并返回项目句柄。
 
 **请求**
 

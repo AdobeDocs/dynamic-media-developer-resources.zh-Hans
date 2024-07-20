@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-焦点高亮显示的外观由以下CSS类选择器控制：
+焦点高亮显示的外观可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogviewer *:focus
 ```
 
-**焦点突出显示的CSS属性**
+焦点突出显示的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 大纲 </span> </p> </td> 
-   <td colname="col2"> <p> 焦点高亮样式。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">大纲</span> </p> </td> 
+   <td colname="col2"> <p> 焦点突出显示样式。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

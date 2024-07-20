@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 名称 | 类型 | 说明 |
 |---|---|---|
-| 项目 | `types:ImageSetMemberUpdate` | 图像集成员更新数组。 |
+| 项目 | `types:ImageSetMemberUpdate` | 图像集成员更新的数组。 |

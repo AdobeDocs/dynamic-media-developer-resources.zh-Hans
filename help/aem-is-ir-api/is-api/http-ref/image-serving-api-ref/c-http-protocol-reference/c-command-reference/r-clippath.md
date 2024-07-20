@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -31,34 +31,34 @@ ht-degree: 0%
  </tr> 
 </table>
 
-图层中位于由定义的区域之外的任何部分 `clipPath=` 将渲染为透明。
+图层中位于`clipPath=`所定义区域之外的任何部分都呈现为透明。
 
-`*`pathName`*` 是嵌入到图层源图像中的路径的名称。 路径被自动变换以保持与图像内容的相对对齐。 如果有多个 `*`pathName`*` 指定后，服务器将图像裁剪到这些路径的交点。 任何 `*`pathName`*` 在源映像中未找到将忽略。
-
->[!NOTE]
->
->仅支持ASCII字符串 `*`pathName`*`.
-
-`*`pathDefinition`*` 允许以图层像素坐标指定显式路径数据。
-
-如果 `size=` 指定而非0,0，则会使层保持原样。 在这种情况下，路径坐标相对于图层矩形的左上角，并且图层定位基于 `origin=` 或其默认值。 图层矩形之外的路径的任何区域都保持透明。
-
-如果 `size=` 未指定纯色或文本图层，该图层会被视为自调整大小，路径范围将决定其大小。 如果 `origin=` 未指定，则默认为路径坐标空间的(0,0)。 此工作流流程有效地允许指定相对于第0层原点的路径坐标。
+`*`pathName`*`是嵌入到图层源图像中的路径的名称。 路径被自动变换以保持与图像内容的相对对齐。 如果指定了多个`*`pathName`*`，服务器会将图像剪辑到这些路径的交集。 在源映像中未找到任何`*`pathName`*`将被忽略。
 
 >[!NOTE]
 >
->`scale=`， `rotate=`、和 `anchor=` 不允许对纯色图层进行自调整大小命令。
+>`*`pathName`*`仅支持ASCII字符串。
 
-`*`pathDefinition`*` 接受一个字符串，它与 `d=` SVG的属性 `<path>` 元素，只不过使用逗号而不是空格来分隔值。 `*`pathDefinition`*` 可以包括一个或多个闭环子路径。
+`*`pathDefinition`*`允许以图层像素坐标指定显式路径数据。
 
-中支持以下路径命令 `*`pathDefinition`*`：
+如果指定了`size=`而不是0,0，则会保留该层。 在这种情况下，路径坐标相对于图层矩形的左上角，图层将基于`origin=`或其默认值进行定位。 图层矩形之外的路径的任何区域都保持透明。
+
+如果没有为纯色或文本图层指定`size=`，则图层会被视为自调整大小，路径范围将决定其大小。 如果未指定`origin=`，则默认为路径坐标空间的(0,0)。 此工作流流程有效地允许指定相对于第0层原点的路径坐标。
+
+>[!NOTE]
+>
+>不允许对自调整大小的纯色图层使用`scale=`、`rotate=`和`anchor=`命令。
+
+`*`pathDefinition`*`接受与SVG`<path>`元素的`d=`属性的值类似的字符串，只不过使用逗号而不是空格来分隔值。 `*`pathDefinition`*`可以包含一个或多个闭环子路径。
+
+`*`pathDefinition`*`支持以下路径命令：
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> 命令</b> </th> 
-   <th class="entry"> <b> 名称</b> </th> 
-   <th class="entry"> <b> 说明</b> </th> 
+   <th class="entry"> <b>命令</b> </th> 
+   <th class="entry"> <b>名称</b> </th> 
+   <th class="entry"> <b>描述</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -109,9 +109,9 @@ ht-degree: 0%
 
 ## 属性 {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-层属性。 应用到当前图层或复合图像，如果 `layer=comp`. 效果图层忽略它。
+层属性。 应用于当前图层或复合图像（如果`layer=comp`）。 效果图层忽略它。
 
-修饰符 `clipPathE=` 如果在图层源映像中未找到具有指定名称的路径，或者图层源不是映像，则忽略该路径。
+如果在图层源映像中未找到具有指定名称的路径，或者图层源不是映像，则忽略修饰符`clipPathE=`。
 
 ## 默认 {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
@@ -119,4 +119,4 @@ ht-degree: 0%
 
 ## 另请参阅 {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ， [文本流路径=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ， [扩展=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ， [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ， [扩展=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

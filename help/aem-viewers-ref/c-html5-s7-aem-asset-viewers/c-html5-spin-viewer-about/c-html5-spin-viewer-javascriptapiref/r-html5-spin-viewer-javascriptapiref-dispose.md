@@ -1,6 +1,6 @@
 ---
 title: 处置
-description: 适用于旋转查看器的JavaScript API参考。
+description: 旋转查看器的JavaScript API参考。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 处置{#dispose}
 
-适用于旋转查看器的JavaScript API参考。
+旋转查看器的JavaScript API参考。
 
 `dispose()`
 
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 网页代码还应删除查看器实例变量，并从Web浏览器内存中完全删除查看器。
 
-如果网页代码已直接在查看器使用的Viewer SDK组件上注册了事件侦听器（或已存储对这些组件的外部引用），则此类侦听器必须由网页代码明确取消注册。 而且，必须在调用之前删除此类外部组件引用 `dispose()`.
+如果网页代码直接在查看器使用的Viewer SDK组件上注册了事件侦听器，或者存储了对这些组件的外部引用，则此类侦听器必须由网页代码明确取消注册。 而且，在调用`dispose()`之前，必须删除此类外部组件引用。
 
-之后不再访问查看器API `dispose()` 称为。
+调用`dispose()`后，不再访问查看器API。
 
 ## 参数 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

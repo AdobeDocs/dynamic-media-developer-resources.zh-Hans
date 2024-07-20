@@ -1,18 +1,18 @@
 ---
 description: 将新标记值添加到现有标记字段的词典。
 solution: Experience Manager
-title: addTagFieldValues
+title: addTagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
-# addTagFieldValues{#addtagfieldvalues}
+# addTagFieldValue{#addtagfieldvalues}
 
 将新标记值添加到现有标记字段的词典。
 
@@ -30,13 +30,13 @@ ht-degree: 14%
 
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 是 | 包含标记字段的公司的句柄。 |
+| companyHandle | `xsd:string` | 是 | 包含标记字段的公司句柄。 |
 | fieldHandle | `xsd:string` | 是 | 要修改的标记字段的句柄。 |
 | valueArray | `xsd:string` | 是 | 要添加到字段现有字典的标记值数组。 |
 
 **输出(addTagFieldValuesParam)**
 
-IPS API未返回此操作的响应。
+IPS API不返回此操作的响应。
 
 ## 示例 {#section-c4049392f1c548f883b8b1f8f167bada}
 
