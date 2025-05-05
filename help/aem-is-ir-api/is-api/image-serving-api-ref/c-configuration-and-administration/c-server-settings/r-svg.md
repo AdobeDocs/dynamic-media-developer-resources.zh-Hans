@@ -40,7 +40,7 @@ SVG源数据文件的位置。 它可以是相对于&#x200B;*[!DNL install_folde
 
 ## PS：：svgProvider.fontRoot — 字体文件SVG文件夹 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[！DNL *[!DNL install_folder]*/images]。
+指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[!DNL *[!DNL install_folder]*/images]。
 
 ## SVG：：SVGRender.port， IS：：SVGTcpPort -SVG通信端口 {#section-608687123aa644b7b58fe42385d71b79}
 

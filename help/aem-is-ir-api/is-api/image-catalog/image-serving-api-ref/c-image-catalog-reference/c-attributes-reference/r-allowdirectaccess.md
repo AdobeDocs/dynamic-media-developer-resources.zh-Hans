@@ -43,7 +43,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* 允许直接访问除`IS`和`STATIC``AllowDirectAccess=exclude:IS,STATIC`之外的所有对象类型
+* 允许直接访问除`IS`和`STATIC` `AllowDirectAccess=exclude:IS,STATIC`之外的所有对象类型
 
 * 允许直接访问&#x200B;*no*&#x200B;对象类型（即，不包括）
 

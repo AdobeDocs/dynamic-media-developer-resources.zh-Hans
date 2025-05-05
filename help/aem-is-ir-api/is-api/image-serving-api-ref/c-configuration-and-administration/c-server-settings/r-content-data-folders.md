@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->默认情况下，此字段有意设置为不存在的位置([！DNL *[!DNL install_folder]*/static])，从而有效地禁用静态内容服务。
+>默认情况下，此字段有意设置为不存在的位置([!DNL *[!DNL install_folder]*/static])，从而有效地禁用静态内容服务。
 
 ## IS：：SaveDirectory — 文件保存根文件夹 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 

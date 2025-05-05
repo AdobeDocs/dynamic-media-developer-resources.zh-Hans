@@ -16,4 +16,4 @@ ht-degree: 0%
 
 目录系统缓存的根文件夹。
 
-可以是绝对路径或相对于[！DNL *[!DNL install_folder]*]的路径。 默认值为[!DNL ./cache]，它对应于[！DNL *[!DNL install_folder]*/cache]。
+可以是绝对路径或相对于[!DNL *[!DNL install_folder]*]的路径。 默认值为[!DNL ./cache]，它对应于[!DNL *[!DNL install_folder]*/cache]。

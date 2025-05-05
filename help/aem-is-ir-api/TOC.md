@@ -26,13 +26,13 @@ ht-degree: 7%
    + [许可](c-installation/c-licensing.md)
    + [内容](c-installation/c-contents.md)
    + [安装文件夹](c-installation/c-install-folder.md)
-   + 正在Windows {#windows-install}上安装
+   + 正在Windows上安装 {#windows-install}
       + [在Windows上安装](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [首次安装](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [在管理员以外的其他用户帐户下安装](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [从IS 4.7.4或更高版本更新](c-installation/t-installing-on-windows/t-update-win.md)
       + [验证安装](c-installation/t-installing-on-windows/t-verify-win.md)
-   + 在Linux {#linux-install}上安装
+   + 在Linux上安装 {#linux-install}
       + [在Linux上安装](c-installation/c-installing-linux/c-installing-linux.md)
       + [首次安装](c-installation/c-installing-linux/t-first-install-lin.md)
       + [从IS 4.7.4或更高版本更新](c-installation/c-installing-linux/t-update-lin.md)
