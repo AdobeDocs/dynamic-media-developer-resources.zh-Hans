@@ -32,11 +32,11 @@ Adobe Experience Cloud中Adobe Scene7 2016年秋季版本Adobe Experience Manage
 
 Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
-请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
+请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hans#dynamic)。
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans)
 
 **新增功能、增强功能和错误修复**
 
@@ -58,7 +58,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
 
 **针对图像服务5.5.3的错误修复**
 
@@ -68,7 +68,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
 
 **针对图像服务5.5.2的错误修复**
 
@@ -77,7 +77,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，并全面提升性能。
 
 ## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
 
 **图像服务5.5.1的新增功能、增强功能和错误修复**
 

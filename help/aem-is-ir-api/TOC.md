@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Dynamic Media图像服务和渲染API {#image-serving-api}
 
-+ [Dynamic Media图像服务和图像渲染API主页](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Dynamic Media图像服务和图像渲染API主页](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hans) -->
 + [关于此版本](r-about-this-release.md)
 + [系统要求和先决条件](r-requirements-and-prerequisites.md)
 + [磁盘空间要求和建议](r-disk-space-reqs.md)

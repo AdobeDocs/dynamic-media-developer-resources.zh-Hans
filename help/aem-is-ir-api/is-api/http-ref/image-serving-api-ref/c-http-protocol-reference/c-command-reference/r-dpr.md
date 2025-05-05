@@ -45,7 +45,7 @@ ht-degree: 9%
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
-DPR值基于捆绑的CDN中检测到的客户端值。 这些值有时不准确。 例如，具有`dpr=2`的iPhone5和dpr=3的iPhone12均显示`dpr=2`。 但是，对于高分辨率设备，发送`dpr=2`比发送`dpr=1`好。 但是，克服这种不准确性的最佳方法是使用客户端DPR为您提供100%准确的值。 它适用于任何设备，无论是Apple还是任何其他已启动的设备。 请参阅[使用客户端设备像素比](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en)的智能成像。
+DPR值基于捆绑的CDN中检测到的客户端值。 这些值有时不准确。 例如，具有`dpr=2`的iPhone5和dpr=3的iPhone12均显示`dpr=2`。 但是，对于高分辨率设备，发送`dpr=2`比发送`dpr=1`好。 但是，克服这种不准确性的最佳方法是使用客户端DPR为您提供100%准确的值。 它适用于任何设备，无论是Apple还是任何其他已启动的设备。 请参阅[使用客户端设备像素比](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=zh-Hans)的智能成像。
 
 ## 属性
 
@@ -63,4 +63,4 @@ DPR值基于捆绑的CDN中检测到的客户端值。 这些值有时不准确�
 
 ## 另请参阅
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)，[网络](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)，[智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)，[网络](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)，[智能成像](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=zh-Hans)

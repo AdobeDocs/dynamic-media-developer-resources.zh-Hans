@@ -36,14 +36,14 @@ ht-degree: 4%
 | triggerState | `xsd:int` | 作业触发器状态的选择。 |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 图像服务发布作业的作业详细信息。 |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 图像渲染作业的作业详细信息。 |
-| videoPublishJob | `types:VideoPublishJob` | 视频发布作业的作业详细信息。 查看[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| videoPublishJob | `types:VideoPublishJob` | 视频发布作业的作业详细信息。 查看[VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hans)。 |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | 服务器目录发布作业的作业详细信息。 |
 | 上载目录作业 | `types:UploadDirectoryJob` | 上载目录作业的作业详细信息。 |
 | uploadUrlsJob | `types:UploadUrlsJob` | 上载URL作业的作业详细信息。 |
 | optimizeImageJob | `types:OptimizeImagesJob` | |
 | ripPdfJob | `types:RipPdfsJob` | |
 | reprocessAssets作业 | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 允许授权导出以前上载的文件。 请参阅[导出作业](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)。 |
+| exportJob | `types:ExportJob` | 允许授权导出以前上载的文件。 请参阅[导出作业](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=zh-Hans)。 |
 
 ## 说明 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
