@@ -28,7 +28,7 @@ ht-degree: 0%
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
   ```
 
-  另请参阅[(将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)。
+  另请参阅[(将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)。
 
 * 如果您使用嵌入代码发布Dynamic Media视频，则在嵌入代码片段中将`VideoPlayer.ssl`添加到其他查看器配置参数列表中。 例如，要强制HTTPS视频交付，您可以附加`&VideoPlayer.ssl=on`，如以下示例所示：
 
@@ -56,4 +56,4 @@ ht-degree: 0%
   </script>
   ```
 
-  另请参阅[(在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。
+  另请参阅[(在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)。

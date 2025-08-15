@@ -25,7 +25,7 @@ ht-degree: 4%
 >* 网络带宽
 >* DPR（设备像素比率）
 >
->要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)（3分17秒）。
+>要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=zh-Hans)（3分17秒）。
 
 
 **仅适用于Adobe Experience Manager中的Dynamic Media** — 除了用户界面中可用的基本图像设置之外，AEM中的[!DNL Dynamic Media] ([!DNL Adobe Experience Manager])还支持您可以在&#x200B;**图像修饰符**&#x200B;字段中指定的大量高级图像修改。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另请参阅AEM 6.5文档中的Dynamic Media [图像预设选项](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
+另请参阅AEM 6.5文档中的Dynamic Media [图像预设选项](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=zh-Hans#dynamic)。
 
 * [对齐](r-align.md)
 * [锚记](r-anchor.md)
