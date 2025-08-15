@@ -18,7 +18,7 @@ ht-degree: 1%
 
 IR变量用于标识晕影、徽标图像和自定义文本。
 
-材质目录`myCat`的晕影映射中名为&#x200B;*template*&#x200B;的记录中的`vignette::Modifier`字段包含以下内容：
+材质目录`vignette::Modifier`的晕影映射中名为&#x200B;*template*&#x200B;的记录中的`myCat`字段包含以下内容：
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 

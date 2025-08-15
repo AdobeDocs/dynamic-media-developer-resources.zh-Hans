@@ -26,11 +26,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>选择双三次插值。 CPU占用率高于双线性插值，但生成更锐利的图像，出现的锯齿伪像更少。 </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 CPU比双线性插值更加密集，但生成的图像更锐利，出现的锯齿伪像更少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">锐化2 </span> </p> </td> 
-   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 可以生成比双立方稍微锐利的结果，但CPU成本较高。 <span class="codeph"> sharp </span>已由<span class="codeph"> sharp2 </span>替换，这可能导致锯齿状工件(Moiré)的可能性较小。 </p> </td> 
+   <td colname="col2"> <p>选择修改的Lanczos窗口函数作为插值算法。 能够以更高的CPU成本产生比双立方体更锐利的结果。 <span class="codeph"> sharp </span>已由<span class="codeph"> sharp2 </span>替换，这可能导致锯齿状工件(Moiré)的可能性较小。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">两次锐化</span> </p> </td> 

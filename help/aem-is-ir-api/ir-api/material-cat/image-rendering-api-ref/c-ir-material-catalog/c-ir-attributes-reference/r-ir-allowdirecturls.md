@@ -16,7 +16,7 @@ ht-degree: 6%
 
 允许绝对源URL。
 
-设置为`1`以允许在`src=`命令中使用绝对HTTP URL（以“`http://`”开头）。 设置为`0`不允许绝对URL。
+设置为`1`以允许在`http://`命令中使用绝对HTTP URL（以“`src=`”开头）。 设置为`0`不允许绝对URL。
 
 ## 属性 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 

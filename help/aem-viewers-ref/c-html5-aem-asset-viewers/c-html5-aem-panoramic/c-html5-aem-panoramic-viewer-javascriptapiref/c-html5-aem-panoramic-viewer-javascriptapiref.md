@@ -1,6 +1,6 @@
 ---
 title: 全景查看器的JavaScript API参考
-description: HTML5全景查看器的主类是PanoramicViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
+description: HTML5全景查看器的主类为PanoramicViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,6 +13,6 @@ ht-degree: 0%
 
 # 全景查看器的JavaScript API参考{#javascript-api-reference-for-panoramic-viewer}
 
-HTML5全景查看器的主类是PanoramicViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
+HTML5全景查看器的主类为PanoramicViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
 在以下所有示例中，`<instance>`表示从`s7viewers.PanoramicViewer`类实例化的JavaScript查看器对象的实际名称。

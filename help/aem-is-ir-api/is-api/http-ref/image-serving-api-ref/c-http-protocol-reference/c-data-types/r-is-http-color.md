@@ -43,7 +43,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制6</span> </span> </p> </td> 
-  <td class="stentry"> <p>打包的6位十六进制RGB色值(RRGGBB) </p></td> 
+  <td class="stentry"> <p>打包的6位十六进制RGB颜色值(RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">十六进制8</span> </span> </p> </td> 
@@ -55,13 +55,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-RGB的小数组分值在0到255的范围内。 CMYK和灰度的小数组件值在0..100%范围内。 所有十六进制组件值在0到0之间的范围内。
+RGB颜色的小数组件值在0至255之间。 CMYK和灰度的小数组件值在0..100%范围内。 所有十六进制组件值在0到0之间的范围内。
 
 假定颜色分量值与alpha值无关（不是预乘）。
 
 所有颜色值、前缀和后缀均不区分大小写。
 
-CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色的值指定类型后缀。
+CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色值指定类型后缀。
 
 十六进制灰度值需要前缀“0x”。
 

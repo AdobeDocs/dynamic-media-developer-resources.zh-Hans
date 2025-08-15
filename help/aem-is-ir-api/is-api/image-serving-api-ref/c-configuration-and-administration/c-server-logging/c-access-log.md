@@ -20,6 +20,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->除了用于图像服务([!DNL /is/image/*])和图像渲染([!DNL /ir/render/*])的客户端流量之外，访问日志可能还包含某些内部流量：对[!DNL Platform Server]目录系统([!DNL /is-catalog/*])的访问、缓存共享和错误重定向请求([!DNL /is/cache/*])、对部署到[!DNL Platform Server]的其他包的访问，如Dynamic Media查看器([!DNL /is-viewers/*])、由[!DNL Platform Server]服务的静态流量和静态内容请求（如[!DNL /is-docs/*]）。
+>除了图像服务([!DNL /is/image/*])和图像渲染([!DNL /ir/render/*])的客户端流量之外，访问日志可能还包含某些内部流量：对[!DNL Platform Server]目录系统([!DNL /is-catalog/*])的访问、缓存共享和错误重定向请求([!DNL /is/cache/*])、对部署到[!DNL Platform Server]的其他包的访问(例如Dynamic Media查看器([!DNL /is-viewers/*])、由[!DNL Platform Server]服务的静态流量和静态内容请求（例如[!DNL /is-docs/*]）。
 
 应始终从任何客户端流量分析中排除具有[!DNL /is-catalog]和[!DNL /is/cache]根路径的请求。

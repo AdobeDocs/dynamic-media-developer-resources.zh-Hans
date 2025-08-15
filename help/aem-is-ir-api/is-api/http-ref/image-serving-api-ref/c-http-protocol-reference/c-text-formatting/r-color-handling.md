@@ -20,13 +20,13 @@ RTF规范允许使用`\colortbl`指定的RGB颜色值。 每个组件分别提�
 
 `\colortbl`的颜色组件值在0-255范围内。 `\cmykcolortbl`的组件值在0-100范围内。
 
-`textPs=`支持的RTF扩展命令`\*\iscolortbl`提供了一种方法，用于指定具有标准图像服务颜色值的颜色表，该颜色表支持完整RGB、灰度、CMYK和Alpha。 它具有以下语法：
+`\*\iscolortbl`支持的RTF扩展命令`textPs=`提供了一种方法，用于指定具有标准图像服务颜色值的颜色表，该颜色表支持完整的RGB、灰度、CMYK和Alpha。 它具有以下语法：
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]*&#x200B;一个或多个IS颜色值，以“；”分隔
 
-可以在同一`text=`或`textPs=` RTF字符串中指定多种类型的颜色表。 每个颜色表可以有不同的条目数。 图像服务尝试在`\colortbl`之前按以下顺序查找颜色： `\iscolortbl`在`\cmykcolortbl`之前（仅当文本图层的像素类型为CMYK时）。 仅对于`textPs=`，如果需要(例如，指定了RGB颜色但需要CMYK输出)，可在CMYK和RGB之间准确地转换颜色。 如果找不到特定索引值的颜色，则使用默认颜色（黑色）。
+可以在同一`text=`或`textPs=` RTF字符串中指定多种类型的颜色表。 每个颜色表可以有不同的条目数。 图像服务尝试在`\iscolortbl`之前按以下顺序查找颜色： `\cmykcolortbl`在`\colortbl`之前（仅当文本图层的像素类型为CMYK时）。 仅对于`textPs=`，如果需要(例如，当指定了RGB颜色但需要CMYK输出时)，可在CMYK和RGB之间准确地转换颜色。 如果找不到特定索引值的颜色，则使用默认颜色（黑色）。
 
 有关IS颜色值的语法的说明，请参阅[颜色](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)。
 

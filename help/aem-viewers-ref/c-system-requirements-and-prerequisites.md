@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Dynamic Media HTML5查看器系统要求{#system-requirements}
+# Dynamic Media HTML5 Viewers系统要求{#system-requirements}
 
 Dynamic Media HTML5查看器的系统要求。
 
@@ -25,7 +25,7 @@ Dynamic Media HTML5查看器的系统要求。
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* AdobeDynamic Media图像服务6.7.1或更高版本。
+* Adobe Dynamic Media图像服务6.7.1或更高版本。
 * HTML5查看器需要SDK JavaScript服务器端库3.11.5或更高版本。
 * *向Friend发送电子邮件*&#x200B;社交功能需要s7ondemand 5.0.9或更高版本。
 * eCatalog查看器 — [信息面板弹出窗口](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md)支持需要信息服务器2.1.8或更高版本。
@@ -78,7 +78,7 @@ Dynamic Media HTML5查看器的系统要求。
 
 <!-- CQDOC-19433 -->
 
-自2022年9月30日起，AdobeDynamic Media查看器已停止支持以下内容：
+自2022年9月30日起，Adobe Dynamic Media查看器已终止对以下内容的支持：
 
 * TLS（传输层安全性） 1.0和1.1
 * TLS 1.2中的以下弱加密：
@@ -101,7 +101,7 @@ Dynamic Media HTML5查看器的系统要求。
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media查看器不支持以下Web浏览器和操作系统的组合：
+Adobe Dynamic Media查看器不支持以下Web浏览器和操作系统的组合：
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

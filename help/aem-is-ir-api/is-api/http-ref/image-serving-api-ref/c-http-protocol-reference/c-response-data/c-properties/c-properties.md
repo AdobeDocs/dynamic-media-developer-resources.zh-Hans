@@ -21,7 +21,7 @@ ht-degree: 4%
 * `props`
 * `userdata`
 
-仅当`catalog::UserData`的内容遵循属性格式时，`userdata`响应才会格式化为属性。
+仅当`userdata`的内容遵循属性格式时，`catalog::UserData`响应才会格式化为属性。
 
 * [文本(Java)属性](r-text-java-properties.md)
 * [JavaScript资产](r-javascript-properties.md)

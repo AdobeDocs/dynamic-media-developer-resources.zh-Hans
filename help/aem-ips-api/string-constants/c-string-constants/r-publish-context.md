@@ -1,7 +1,7 @@
 ---
 description: 由getActivePublishContextsReturn/publishContext使用。
 solution: Experience Manager
-title: Publish上下文
+title: 发布上下文
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Publish上下文{#publish-context}
+# 发布上下文{#publish-context}
 
 由getActivePublishContextsReturn/publishContext使用。
 

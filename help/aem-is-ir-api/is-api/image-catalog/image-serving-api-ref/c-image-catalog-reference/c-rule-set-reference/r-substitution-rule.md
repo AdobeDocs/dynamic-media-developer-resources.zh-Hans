@@ -36,7 +36,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->在此`<substitution>`元素所属的`<rule>`，元素中指定了`replace="all"`时，输入字符串中的所有匹配项都会被替换。 默认情况下，只有第一个匹配项会被替换为替换字符串。
+>在此`replace="all"`元素所属的`<rule>`，元素中指定了`<substitution>`时，输入字符串中的所有匹配项都会被替换。 默认情况下，只有第一个匹配项会被替换为替换字符串。
 
 ## 注意 {#section-cedf2adabaaf441c9f598fb0ea180246}
 

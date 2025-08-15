@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-栅格格式使用“默认视图大小”（或DefaultPix设置）渲染。 选择&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL Publish设置]** > **[!UICONTROL 图像服务器]**，然后输入宽度和高度值。 尺寸越小，性能越高。 保存您的设置并执行图像服务Publish以应用更改。
+栅格格式使用“默认视图大小”（或DefaultPix设置）渲染。 选择&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**，然后输入宽度和高度值。 尺寸越小，性能越高。 保存设置并执行图像服务发布以应用更改。
 
 如果应用`scale=1`命令，则栅格格式请求将以FXG中指定的大小呈现。
 
@@ -44,6 +44,6 @@ ht-degree: 1%
 * PNG
 * JPG
 * JPEG
-* GIF-alpha
+* GIF-alph
 * tif-alpha
 * png-alpha

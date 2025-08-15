@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->如果启用此功能，请注意，其使用存在某些限制，包括：<br>- Dynamic Media用户界面可能无法显示&#x200B;**[!UICONTROL 上次发布]**&#x200B;字段的正确详细信息。 但是，此项影响不会影响发布。<br> — 当前，启用&#x200B;**[!UICONTROL 请求模糊处理]**&#x200B;和&#x200B;**[!UICONTROL 请求锁定]**&#x200B;时，HLS视频流不起作用。<br> — 当前，在启用&#x200B;**[!UICONTROL 请求模糊处理]**&#x200B;和&#x200B;**[!UICONTROL 请求锁定]**&#x200B;的情况下，某些Dynamic Media查看器无法工作。
+>如果启用此功能，请注意，其使用存在某些限制，包括：<br>- Dynamic Media用户界面可能无法显示&#x200B;**[!UICONTROL 上次发布时间]**&#x200B;字段的正确详细信息。 但是，此项影响不会影响发布。<br> — 当前，启用&#x200B;**[!UICONTROL 请求模糊处理]**&#x200B;和&#x200B;**[!UICONTROL 请求锁定]**&#x200B;后，HLS视频流无法正常工作。<br> — 当前，在启用&#x200B;**[!UICONTROL 请求模糊处理]**&#x200B;和&#x200B;**[!UICONTROL 请求锁定]**&#x200B;的情况下，某些Dynamic Media查看器无法工作。
 
 ## 示例 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

@@ -29,7 +29,7 @@ ht-degree: 0%
    * `timeStamp {Number}`事件时间戳。
    * `eventInfo {String}`事件有效负载。
 
-* `quickViewActivate` — 用户在交互式样本组件内的交互式样本上或在视频播放结束时显示的“行动要求”屏幕中单击或点按时，将触发。 回调处理程序采用唯一参数，该参数为包含以下字段的JSON对象：
+* `quickViewActivate` — 用户在交互式样本组件内或在视频播放结束时显示的“call to action”屏幕中单击或点按交互式样本时，将触发。 回调处理程序采用唯一参数，该参数为包含以下字段的JSON对象：
 
    * `sku` { `String`}与交互式样本关联的SKU值。
    * `<additionalVariable>` { `String`}与交互式样本关联的零个或多个其他变量。

@@ -1,6 +1,6 @@
 ---
 title: 预加载图像
-description: 预加载图像是一个静态资源预览图像，在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预加载图像的目的在于直观地改善查看者的加载时间并向用户快速展示内容。
+description: 预加载图像是一种静态资源预览图像，在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预加载图像的目的在于直观地改善查看者的加载时间并向用户快速展示内容。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 预加载图像{#preload-image}
 
-预加载图像是一个静态资源预览图像，在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预加载图像的目的在于直观地改善查看者的加载时间并向用户快速展示内容。
+预加载图像是一种静态资源预览图像，在调用init()方法后立即加载，并在下载查看器SDK库、资源和预设信息时显示。 预加载图像的目的在于直观地改善查看者的加载时间并向用户快速展示内容。
 
 预加载图像适用于最常见的查看器嵌入方法，即不受高度限制的响应式嵌入。 查看标题[具有不受限制高度的响应式设计嵌入](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435)。
 

@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [!DNL Platform Server]和映像服务器创建下面描述的三种类型的日志文件。
 
-其他图像服务组件和某些其他Dynamic Media包(如Dynamic Media查看器)也可能会在同一文件夹中创建日志文件。 这些日志文件供Dynamic Media内部使用，Dynamic Media技术支持可能会请求这些文件以进行故障排除。
+其他图像服务组件和某些其他Dynamic Media包（如Dynamic Media查看器）也可能会在同一文件夹中创建日志文件。 这些日志文件供Dynamic Media内部使用，Dynamic Media技术支持可能会请求这些文件以进行故障排除。
 
 * [访问日志](c-access-log.md)
 * [跟踪日志](c-trace-log.md)

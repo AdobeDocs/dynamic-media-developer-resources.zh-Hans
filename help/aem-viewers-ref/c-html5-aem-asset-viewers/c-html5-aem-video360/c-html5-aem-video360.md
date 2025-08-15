@@ -1,28 +1,28 @@
 ---
 title: Video360
-description: HTML5 Video360 Viewer是一款360度视频播放器，可播放从Dynamic Media Classic或Adobe Experience Manager、Dynamic Media交付的H.264格式的流视频和渐进式360视频。
+description: HTML5 Video360 Viewer是一款360度视频播放器，可播放从Dynamic Media Classic或Adobe Experience Manager Dynamic Media交付的H.264格式的流视频和渐进式360视频。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2562'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-HTML5 Video360 Viewer是一款360度视频播放器，可播放从Dynamic Media Classic或Adobe Experience Manager、Dynamic Media交付的H.264格式的流视频和渐进式360视频。
+HTML5 Video360 Viewer是一款360度视频播放器，可播放从Dynamic Media Classic或Adobe Experience Manager Dynamic Media交付的H.264格式的流视频和渐进式360视频。
 
 360度视频，也称为沉浸式视频或球形视频，是同时录制每个方向的视图的视频录像，使用全方位相机或相机集合拍摄。 支持单个视频和自适应视频集。 查看器还支持使用托管在外部位置的渐进式视频流和HLS流。
 
 360视频的推荐长宽比为2:1。 不支持空间声音。 查看器仅适用于360视频；尝试播放非360视频会导致视频播放失真。
 
-查看器可在支持HTML5视频的桌面和移动Web浏览器上使用。 查看器支持可选的社交共享工具。
+查看器可在支持HTML5视频的桌面和移动Web浏览器上工作。 查看器支持可选的社交共享工具。
 
-只要基础系统支持，Video360查看器就会在其默认配置中使用HLS格式的HTML5流视频播放。 在不支持HTML5流式传输的系统上，查看器回退到HTML5渐进式视频交付。
+只要底层系统支持，Video360 Viewer就会在其默认配置中使用HLS格式的HTML5流视频播放。 在不支持HTML5流传输的系统上，查看器回退到HTML5渐进式视频交付。
 
 查看器类型为517。
 
@@ -36,9 +36,9 @@ HTML5 Video360 Viewer是一款360度视频播放器，可播放从Dynamic Media 
 
 ## 使用Video360查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-HTML5 Video360查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此查看器使用的所有HTML5 Viewer SDK组件、资源、CSS)，这些文件由查看器在运行时下载。
+HTML5 Video360 Viewer表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此查看器使用的所有HTML5 Viewer SDK组件、资源、CSS)，这些文件由查看器在运行时下载。
 
-HTML5 Video360查看器既可以使用随IS-Viewers提供的生产就绪HTML页的弹出模式，也可以使用嵌入模式（使用文档记录的API将其集成到目标网页中）。
+HTML5 Video360 Viewer既可以在弹出模式下使用(使用随IS-Viewers提供的生产就绪型HTML页面)，也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
 
 配置和外观设计类似于本指南中描述的其他查看器的配置和外观。 所有外观设计都是通过自定义(CSS)层叠样式表实现的。
 
@@ -54,13 +54,13 @@ HTML5 Video360查看器既可以使用随IS-Viewers提供的生产就绪HTML页�
 
 ## 与Video360查看器交互 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件，如播放/暂停按钮、视频洗刷视频时间气泡、播放时间/总时间指示器、音量控件和全屏按钮。 所有这些控件都分组到查看器用户界面底部的控件栏中。
+HTML5 Video360 Viewer提供一组用于视频播放的标准用户界面控件，如播放/暂停按钮、视频洗刷视频时间气泡、播放时间/总时间指示器、音量控件和全屏按钮。 所有这些控件都分组到查看器用户界面底部的控件栏中。
 
 在触控设备上，音量控制对用户界面是隐藏的，因为只能使用设备的硬件按钮来控制音量。
 
 当查看器以弹出模式运行时，全屏按钮在用户界面中不可用。
 
-查看器还支持各种社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。 共享工具栏中包含有关支持的每种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具激活时，视频播放会自动暂停。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
+查看器还支持各种社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。 共享工具栏中包含有关支持的每种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 在调用Facebook或Twitter时，查看者会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具激活时，视频播放会自动暂停。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
 查看器支持以下内容的360视频播放：
 
@@ -90,9 +90,9 @@ HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件
 
 在弹出模式下，查看器将在单独的Web浏览器窗口或选项卡中打开。 它采用整个浏览器窗口区域，并在浏览器大小调整或设备方向更改时进行调整。
 
-此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的`A`HTML元素或任何其他合适的方法加载查看器。
+此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的`A` HTML元素或任何其他合适的方法加载查看器。
 
-建议您为弹出操作模式使用现成的HTML页面。 它名为[!DNL Video360Viewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
+建议您为弹出窗口操作模式使用现成的HTML页面。 它名为[!DNL Video360Viewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
@@ -129,7 +129,7 @@ HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件
 
 1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL Video360Viewer.js]。 [!DNL Video360Viewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
+   创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL Video360Viewer.js]。 [!DNL Video360Viewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,7 +143,7 @@ HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -170,7 +170,7 @@ HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义Video360查看器](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
-   以下是在“HTML”页中定义静态查看器大小的示例：
+   以下是在HTML页面中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
@@ -193,7 +193,7 @@ HTML5 Video360查看器提供一组用于视频播放的标准用户界面控件
 
    在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您使用一行代码、作为`videoserverurl`属性传递的视频服务器URL、作为`asset`参数的初始资产以及作为`interactivedata`属性的交互式数据来创建和启动查看器。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 发生这种情况时，查看器加载会自动恢复。
 

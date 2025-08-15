@@ -36,7 +36,7 @@ ht-degree: 11%
 | retainPublishState | `xsd:boolean` | 否 | 设置为`true`可在重新上传资产时保留发布状态。 |
 | defaultSourceProfileHandle | `xsd:string` | 否 | 要用作默认源颜色配置文件的IccProfile资产。 |
 | defaultDisplayProfileHandle | `xsd:string` | 否 | 要用作默认显示颜色配置文件的IccProfile资产。 |
-| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资产。 |
+| iptcExifMappingXsltHandle | `xsd:string` | 否 | 用于将IPTC和EXIF元数据映射到IPS元数据字段的XSL资源。 |
 | xmpMappingXsltHandle | `xsd:string` | 否 | 用于将XMP元数据映射到IPS元数据字段的XSL资源。 |
 | diskSpaceWarningMin | `xsd:int` | 否 | 发送警告消息之前可用的最小可用磁盘空间（以KB为单位）。 |
 | emailTrashCleanupWarning | `xsd:boolean` | 否 | 设置为`true`可在从垃圾桶中清空资产时向公司管理员发送通知。 |

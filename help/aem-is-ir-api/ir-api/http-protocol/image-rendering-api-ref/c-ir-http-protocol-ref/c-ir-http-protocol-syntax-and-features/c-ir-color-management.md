@@ -46,7 +46,7 @@ CAB样式文件(.vnc)和窗口覆盖样式文件([!DNL .vnw])不是色彩管理�
 
 ## 显式颜色值 {#section-31727bf1b23e477ca92572fbbf422d2f}
 
-与`color=`、`bgc=`、`catalog::BgColor`和`catalog::Color`一起指定的RGB颜色值假定存在于当前工作色彩空间中。
+使用`color=`、`bgc=`、`catalog::BgColor`和`catalog::Color`指定的RGB颜色值假定存在于当前工作色彩空间中。
 
 ## 材质数据文件 {#section-33f7a170a6664c02b8479fb89cc0aea3}
 

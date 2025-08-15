@@ -117,7 +117,7 @@ ht-degree: 5%
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列出了创建此资源的方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页，则会包含PDF处理器工具并引用PdfFile资源。 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>列出了创建此资源的方式。 例如，如果<span class="codeph"> assetHandler</span>是PDF的图像页面，则会包含PDF处理器工具并引用PdfFile资源。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
@@ -134,7 +134,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-您可以使用参数`responseFieldArray`或`excludeFieldArray`来限制响应大小。 特别是，`generatorArray`或`generatedArray`中返回的`GenerationInfo`项默认包含发起者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
+您可以使用参数`responseFieldArray`或`excludeFieldArray`来限制响应大小。 特别是，`GenerationInfo`或`generatorArray`中返回的`generatedArray`项默认包含发起者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
 
 ## 示例 {#section-8946ea4b9cb94912a8408249c897f192}
 

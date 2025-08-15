@@ -18,7 +18,7 @@ ht-degree: 2%
 
 特定图像目录的字体映射中的条目会覆盖默认目录的字体映射中的条目。
 
-图像服务支持Adobe Type1、OpenType和TrueType字体。
+图像服务支持Adobe Type 1、OpenType和TrueType字体。
 
 `textPs=`还支持CID、ATC和位图字体。
 

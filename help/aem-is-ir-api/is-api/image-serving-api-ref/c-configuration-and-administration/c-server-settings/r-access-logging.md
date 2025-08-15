@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## TC：：directory — 日志文件文件夹 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-[!DNL Platform Server]写入日志文件的文件夹。 这可以是绝对路径或相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL &#x200B; *`install_folder`*/日志]。
+[!DNL Platform Server]写入日志文件的文件夹。 这可以是绝对路径或相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL  *`install_folder`*/日志]。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## TC：：prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
-将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀([!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为“`access-`”。
+将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为“`access-`”。
 
 ## TC：：pattern — 访问日志模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>请求方法(<span class="codeph">GET</span>、<span class="codeph">POST</span>等)。 </p> </td> 
+   <td> <p>请求方法(<span class="codeph"> GET </span>、<span class="codeph"> POST </span>等)。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 

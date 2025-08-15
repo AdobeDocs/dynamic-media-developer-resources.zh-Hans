@@ -1,6 +1,6 @@
 ---
 title: 动画GifInfo
-description: 动画GIF文件资源的属性。
+description: GIF动画文件资源的属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-动画GIF文件资源的属性。
+GIF动画文件资源的属性。
 
 语法
 

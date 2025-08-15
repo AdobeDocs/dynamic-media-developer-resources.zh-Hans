@@ -1,6 +1,6 @@
 ---
 title: TrustedDomains
-description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
+description: Flash应用程序Web域。 Adobe Flash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # TrustedDomains{#trusteddomains}
 
-Flash应用程序Web域。 AdobeFlash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
+Flash应用程序Web域。 Adobe Flash应用程序可能需要访问以swf格式提供的图像的属性。 swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
 
 ## 属性 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

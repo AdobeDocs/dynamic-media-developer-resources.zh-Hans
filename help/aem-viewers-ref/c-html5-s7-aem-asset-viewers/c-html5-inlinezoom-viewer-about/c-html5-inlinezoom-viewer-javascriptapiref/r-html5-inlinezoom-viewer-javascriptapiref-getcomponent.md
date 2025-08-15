@@ -55,13 +55,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-在使用SDK API时，请务必正确使用[查看器SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80)中所述的完全限定的SDK命名空间。
+使用SDK API时，请务必正确使用[查看器SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md#concept-5af3b472b320496d87735ea612edda80)中所述的完全限定的SDK命名空间。
 
 有关特定组件的更多信息，请参阅查看器SDK文档。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`null`。
+`{Object}`对查看器SDK组件的引用。 如果`null`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`componentId`。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

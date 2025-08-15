@@ -37,7 +37,7 @@ RTF命令`\ql`、`\qc`、`\qr`、`\li`和`\ri`可用于沿路径定位渲染的�
 
 ## 属性 {#section-068137df436c46b9b55d271eb60e7285}
 
-文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=comp`指定，则应用于`layer=0`。 如果`textPs=`存在，则忽略。
+文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=0`指定，则应用于`layer=comp`。 如果`textPs=`存在，则忽略。
 
 如果层同时包括`textPath=`和`textFlowPath=`，则返回错误。
 

@@ -27,11 +27,11 @@ ht-degree: 2%
 
 请参阅[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)以获取其他信息，包括&#x200B;*`pathDefinition`*&#x200B;的说明。
 
-存在`textFlowPath=`时，将忽略RTF边距命令`\margl`、`\margr`、`\margt`和`\margb`。 如果未指定路径定义，则忽略`textFlowPath=`。
+存在`\margl`时，将忽略RTF边距命令`\margr`、`\margt`、`\margb`和`textFlowPath=`。 如果未指定路径定义，则忽略`textFlowPath=`。
 
 ## 属性 {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=comp`指定，则应用于`layer=0`。
+文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=0`指定，则应用于`layer=comp`。
 
 ## 默认 {#section-68c4559b9e8242059b82e5a39a455dfc}
 

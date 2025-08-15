@@ -55,11 +55,11 @@ ht-degree: 0%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>使用指定的分辨率。 </p> <p>如果文本要以相对于合成画布的确切大小呈现，则使用。 如果文本框太小，可以将文本裁剪为图层大小（如果已指定）。 这是<span class="codeph"> textPs= </span>唯一支持的<span class="varname"> resMode </span>选项。 </p> </td> 
+      <td class="stentry"> <p>使用指定的分辨率。 </p> <p>如果文本要以相对于合成画布的确切大小呈现，则使用。 如果文本框太小，可以将文本裁剪为图层大小（如果已指定）。 这是<span class="varname"> textPs= </span>唯一支持的<span class="codeph"> resMode </span>选项。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph">自动确定</span> </p> </td> 
-      <td class="stentry"> <p>自动调整分辨率以用文本最好地填充图层矩形。 </p> <p>使用可自动调整文本大小，以便尽可能多地填充文本框，而不会截断风险。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 如果选择<span class="codeph">自动确定</span>，则会忽略<span class="varname">确定</span>。 <span class="codeph"> textPs= </span>不支持。 </p> </td> 
+      <td class="stentry"> <p>自动调整分辨率以用文本最好地填充图层矩形。 </p> <p>使用可自动调整文本大小，以便尽可能多地填充文本框，而不会截断风险。 如果启用了自动换行，则文本可能会以最终分辨率重新换行。 如果选择<span class="varname">自动确定</span>，则会忽略<span class="codeph">确定</span>。 <span class="codeph"> textPs= </span>不支持。 </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 属性 {#section-114ca0b8585b403c873e2251478ad1d5}
 
-文本图层属性。 被图像、纯色和效果图层忽略。 如果为`layer=comp`指定，则应用于`layer=0`。
+文本图层属性。 被图像、纯色和效果图层忽略。 如果为`layer=0`指定，则应用于`layer=comp`。
 
 ## 默认 {#section-855230f5330b4afc8a933f00a1ed4612}
 

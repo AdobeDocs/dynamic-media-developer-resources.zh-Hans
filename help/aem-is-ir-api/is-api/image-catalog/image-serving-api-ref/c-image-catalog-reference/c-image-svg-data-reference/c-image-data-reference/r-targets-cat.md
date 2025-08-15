@@ -16,7 +16,7 @@ ht-degree: 1%
 
 缩放目标数据。 没有或多个缩放目标属性，这些属性可以与缩放查看器客户端结合使用。
 
-服务器在替换“`??`”记录终止符令牌后返回此字段的内容，以响应`req=targets`。
+服务器在替换“`req=targets`”记录终止符令牌后返回此字段的内容，以响应`??`。
 
 每个缩放目标最多可以关联四个属性：
 
@@ -57,11 +57,11 @@ ht-degree: 1%
 
 目标。 每个缩放目标都需要&#x200B;*`num`*.rect，并且必须在图像内完全指定一个矩形。 所有其他属性都是可选的。
 
-*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;参与文本字符串本地化。 有关详细信息，请参阅&#x200B;*HTTP协议引用*&#x200B;中的[文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;参与文本字符串本地化。 有关详细信息，请参阅[HTTP协议引用](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文本字符串本地化*。
 
 对于涉及旋转和小册子查看器客户端的应用程序，必须在定义图像集的同一目录记录中定义缩放目标。 查看器将忽略图像集成员的目录记录中的任何缩放目标定义。
 
-Dynamic Media查看器期望全分辨率图像坐标中的缩放目标已由`catalog::Modifier`命令调整。
+Dynamic Media查看器期望已由`catalog::Modifier`命令调整的全分辨率图像坐标中的缩放目标。
 
 ## 属性 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

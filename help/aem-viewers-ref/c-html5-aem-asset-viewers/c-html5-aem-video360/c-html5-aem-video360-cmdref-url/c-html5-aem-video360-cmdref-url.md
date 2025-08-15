@@ -18,7 +18,7 @@ Video360 Viewer的命令参考文档。
 
 您可以在URL中设置任何配置命令。 或者，您可以使用API方法`setParam()`和/或`setParams()`来设置任何配置命令。 您还可以在服务器端配置记录中指定任何配置属性。
 
-您可以使用相应实例名称或HTML5查看器SDK组件的类名称或实例名称为某些配置命令添加前缀。 组件的实例名称是动态的，取决于传递给`setContainerId()` API方法的查看器容器DOM元素的ID。 文档包含此类命令的可选前缀。 例如，`playback`记录如下：
+您可以使用对应于HTML5 Viewer SDK组件的类名或实例名为某些配置命令添加前缀。 组件的实例名称是动态的，取决于传递给`setContainerId()` API方法的查看器容器DOM元素的ID。 文档包含此类命令的可选前缀。 例如，`playback`记录如下：
 
 ```
 [Video360Player.|<containerId>_video360Player].playback

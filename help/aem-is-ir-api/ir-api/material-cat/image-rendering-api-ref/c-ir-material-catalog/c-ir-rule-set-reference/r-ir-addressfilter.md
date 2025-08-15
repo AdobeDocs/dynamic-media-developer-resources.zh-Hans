@@ -30,9 +30,9 @@ IP地址的逗号分隔列表。 每个单独的地址可以包括一个可选�
 
 如果`<addressfilter>`为空或未指定，则访问不受限制。
 
-如果`<rule>`元素中的`<expression>`不存在或为空，则会将`<addressfilter>`应用于所有请求。
+如果`<expression>`元素中的`<rule>`不存在或为空，则会将`<addressfilter>`应用于所有请求。
 
-`localhost`始终是`ClientAddressFilter`定义的隐式部分，即使未显式指定。 无论是否遵循`ClientAddressFilter`规范，源自`localhost`的请求都不会被拒绝。
+`localhost`始终是`ClientAddressFilter`定义的隐式部分，即使未显式指定。 无论是否遵循`localhost`规范，源自`ClientAddressFilter`的请求都不会被拒绝。
 
 ## 另请参阅 {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

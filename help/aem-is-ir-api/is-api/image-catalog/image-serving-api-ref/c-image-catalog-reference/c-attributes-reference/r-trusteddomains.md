@@ -1,5 +1,5 @@
 ---
-description: Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3提供的图像的属性。
+description: Flash应用程序Web域。 Adobe Flash应用程序可能需要访问通过fmt=swf或fmt=swf3提供的图像的属性。
 solution: Experience Manager
 title: TrustedDomains
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # TrustedDomains{#trusteddomains}
 
-Flash应用程序Web域。 AdobeFlash应用程序可能需要访问使用fmt=swf或fmt=swf3提供的图像的属性。
+Flash应用程序Web域。 Adobe Flash应用程序可能需要访问通过fmt=swf或fmt=swf3提供的图像的属性。
 
 swf必须通过注册它信任的应用程序域的名称来明确授予访问权限。
 

@@ -70,7 +70,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">属性：：TiffEncoding</span> </p> </td> 
-   <td> <p> 用于TIFF图像输出的压缩类型 </p> </td> 
+   <td> <p> TIFF图像输出的压缩类型 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">属性：：锐化</span> </p> </td> 

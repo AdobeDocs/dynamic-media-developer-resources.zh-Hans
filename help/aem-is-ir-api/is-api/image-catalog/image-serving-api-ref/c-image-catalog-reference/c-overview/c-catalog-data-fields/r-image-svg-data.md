@@ -1,7 +1,7 @@
 ---
-description: 可在图像和SVG数据文件中识别以下字段。
+description: 以下字段可在图像和SVG数据文件中识别。
 solution: Experience Manager
-title: 图像SVG数据
+title: Image_SVG数据
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# 图像SVG数据{#image-svg-data}
+# Image_SVG数据{#image-svg-data}
 
-可在图像和SVG数据文件中识别以下字段。
+以下字段可在图像和SVG数据文件中识别。
 
 ## 目录管理 {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 

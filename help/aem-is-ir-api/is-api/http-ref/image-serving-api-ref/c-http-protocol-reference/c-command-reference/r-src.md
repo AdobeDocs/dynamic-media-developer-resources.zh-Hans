@@ -45,7 +45,7 @@ ht-degree: 2%
 
 层属性。 应用于`layer=0`（如果`layer=comp`）。 与同一图层中的`text=`和`textPs=`互斥；最后出现的`text=`、`textPs=`或`src=`占上风，并确定这是图像图层还是文本图层。 被效果层忽略。
 
-*`object`*无法解析为其`catalog::Modifier`中包含`src=`或`mask=`命令的另一个目录记录。 （使用请求嵌套可实现类似效果。）
+*`object`*无法解析为其`src=`中包含`mask=`或`catalog::Modifier`命令的另一个目录记录。 （使用请求嵌套可实现类似效果。）
 
 `is`、`ir`和`fxg`前缀区分大小写。
 

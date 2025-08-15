@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## 属性 {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-文本图层属性（仅限`textPs=`）。 已被其他层忽略或指定时未使用`textFlowPath=`。 如果为`layer=comp`指定，则应用于`layer=0`。
+文本图层属性（仅限`textPs=`）。 已被其他层忽略或指定时未使用`textFlowPath=`。 如果为`layer=0`指定，则应用于`layer=comp`。
 
 ## 默认 {#section-9405cda904684d829ed12a9e40a4dc46}
 

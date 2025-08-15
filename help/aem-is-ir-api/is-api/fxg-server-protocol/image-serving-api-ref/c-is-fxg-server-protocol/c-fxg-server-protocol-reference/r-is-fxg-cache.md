@@ -37,6 +37,6 @@ ht-degree: 0%
 
 如果只指定一个&#x200B;*`cacheControl`*&#x200B;值，则它同时应用于客户端和服务器缓存。
 
-请求属性。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`catalog::Expiration`具有负值），将忽略&#x200B;*`clientControl`*。
+请求属性。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果&#x200B;*`clientControl`*&#x200B;具有负值），将忽略`catalog::Expiration`。
 
 默认为`cache=on,on`。

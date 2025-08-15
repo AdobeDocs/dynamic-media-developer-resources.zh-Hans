@@ -20,7 +20,7 @@ ht-degree: 0%
 
 模板作为记录存储在图像目录中，模板正文位于`catalog::Modifier`字段中，`catalog::Path`字段为空，或者指定了无法动态更改的静态背景图像。
 
-模板是通过`template=`命令或在请求URL的路径组件中指定的。 对于大多数应用程序，建议使用`template=`命令指定模板。 `template=`命令不能出现在`catalog::PostModifier`字段中，而且只能出现在嵌套IS请求（即`src=is{...}`构造）的`catalog::Modifier`字段中。 `src=`或`mask=`命令中可能未引用模板记录。
+模板是通过`template=`命令或在请求URL的路径组件中指定的。 对于大多数应用程序，建议使用`template=`命令指定模板。 `template=`命令不能出现在`catalog::PostModifier`字段中，而且只能出现在嵌套IS请求（即`catalog::Modifier`构造）的`src=is{...}`字段中。 `src=`或`mask=`命令中可能未引用模板记录。
 
 模板中嵌入的任何`src=`或`mask=`命令都可以解析为请求的主目录或不同的图像目录。 如果未显式指定`rootId`，则假定为主目录。 使用`template=`指定的模板也可能位于主目录或其他图像目录中。
 

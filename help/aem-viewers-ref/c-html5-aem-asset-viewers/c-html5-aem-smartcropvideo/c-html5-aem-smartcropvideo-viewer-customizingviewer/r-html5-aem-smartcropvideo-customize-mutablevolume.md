@@ -242,4 +242,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-在上述代码示例中，`mutableVolume`组件上的卷级别设置为`0`。 然后，同一组件被停用，因此最终用户无法使用该组件。
+在上述代码示例中，`0`组件上的卷级别设置为`mutableVolume`。 然后，同一组件被停用，因此最终用户无法使用该组件。

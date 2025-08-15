@@ -16,7 +16,7 @@ ht-degree: 2%
 
 客户端IP地址过滤器。 允许指定一个或多个IP地址或地址范围。
 
-指定后，将拒绝从未列出的IP地址上的客户端发出的对此图像目录的请求。 `localhost`始终是`ClientAddressFilter`定义的隐式部分，即使未显式指定。 无论是否遵循`ClientAddressFilter`规范，源自`localhost`的请求都不会被拒绝。
+指定后，将拒绝从未列出的IP地址上的客户端发出的对此图像目录的请求。 `localhost`始终是`ClientAddressFilter`定义的隐式部分，即使未显式指定。 无论是否遵循`localhost`规范，源自`ClientAddressFilter`的请求都不会被拒绝。
 
 ## 属性 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ddd.ddd.ddd.ddd]*&#x200B;格式的&#x200B;*[!DNL ipAddress]* IP地址
+* *[!DNL ipAddress]*&#x200B;格式的&#x200B;*[!DNL ddd.ddd.ddd.ddd]* IP地址
 
 * *[!DNL netmask]*&#x200B;网络掩码（0至32）
 

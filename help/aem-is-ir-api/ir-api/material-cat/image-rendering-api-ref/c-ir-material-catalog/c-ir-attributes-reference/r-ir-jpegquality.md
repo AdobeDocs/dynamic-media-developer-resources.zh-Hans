@@ -1,6 +1,6 @@
 ---
 title: Jpeg品质
-description: 默认JPEG编码质量。 指定JPEG编码的回复图像的默认质量设置。
+description: 默认的JPEG编码质量。 指定JPEG编码的回复图像的默认质量设置。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Jpeg品质{#jpegquality}
 
-默认JPEG编码质量。 指定JPEG编码的回复图像的默认质量设置。
+默认的JPEG编码质量。 指定JPEG编码的回复图像的默认质量设置。
 
 ## 属性 {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 

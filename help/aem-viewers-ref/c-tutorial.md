@@ -1,6 +1,6 @@
 ---
 title: 查看器SDK教程
-description: Viewer SDK为自定义查看器开发提供一组基于JavaScript的组件。 查看器是基于Web的应用程序，允许将Adobe Dynamic Media提供的富媒体内容嵌入到网页中。
+description: 查看器SDK为自定义查看器开发提供了一组基于JavaScript的组件。 查看器是基于Web的应用程序，允许将Adobe Dynamic Media提供的富媒体内容嵌入到网页中。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 查看器SDK教程{#viewer-sdk-tutorial}
 
-Viewer SDK为自定义查看器开发提供一组基于JavaScript的组件。 查看器是基于Web的应用程序，允许将Adobe Dynamic Media提供的富媒体内容嵌入到网页中。
+查看器SDK为自定义查看器开发提供了一组基于JavaScript的组件。 查看器是基于Web的应用程序，允许将Adobe Dynamic Media提供的富媒体内容嵌入到网页中。
 
-例如，SDK提供交互式缩放和平移。 此外，对于通过名为Dynamic Media Classic的后端应用程序上传到AdobeDynamic Media的资源，它还提供了360度视图和视频播放。
+例如，SDK提供交互式缩放和平移。 此外，对于通过名为Dynamic Media Classic的后端应用程序上传到Adobe Dynamic Media的资源，它还提供了360度视图和视频播放。
 
 即使组件依赖于HTML5功能，但它们设计为可在Android™和Apple iOS设备以及台式机（包括Internet Explorer及更高版本）上运行。 这种体验意味着您能够为所有受支持的平台提供单个工作流。
 
@@ -44,7 +44,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
 
 1. 首先，设置一个新页面来开发您要创建的基本缩放查看器。
 
-   请考虑此新页面，其中包含了用于设置空SDK应用程序的Bootstrap（或加载器）代码。 打开您喜爱的文本编辑器，并在其中粘贴以下HTML标记：
+   考虑使用此新页面，使用该Bootstrap（或加载器）代码设置空的SDK应用程序。 打开您喜爱的文本编辑器，并将以下HTML标记粘贴到其中：
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -148,7 +148,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
 
 1. 通过包含组件`Container`和`ZoomView`创建实际查看器。
 
-   在加载[!DNL Utils.js]脚本后，将以下`include`语句插入到`<head>`元素的底部：
+   在加载`include`脚本后，将以下`<head>`语句插入到[!DNL Utils.js]元素的底部：
 
    ```javascript {.line-numbers}
    <!-- 
@@ -161,7 +161,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
    </script>
    ```
 
-1. 现在，创建变量以引用各种SDK组件。
+1. 现在，可创建变量以引用各种SDK组件。
 
    将以下变量添加到位于`s7sdk.Util.init()`上方的主匿名函数的顶部：
 
@@ -215,7 +215,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
 
 1. 若要使用户能够从图像集中选择图像，您可以添加组件`MediaSet`和`Swatches`。
 
-   添加以下SDK includes：
+   添加以下SDK包含：
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
@@ -228,9 +228,9 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. 在`initViewer`函数中实例化`MediaSet`和`Swatches`组件。
+1. 在`MediaSet`函数中实例化`Swatches`和`initViewer`组件。
 
-   请确保在`ZoomView`和`Container`组件之后实例化`Swatches`实例，否则栈叠顺序将隐藏`Swatches`：
+   请确保在`Swatches`和`ZoomView`组件之后实例化`Container`实例，否则栈叠顺序将隐藏`Swatches`：
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -372,7 +372,7 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. 在`ZoomViewer.css`中编辑以下`s7swatches`规则：
+1. 在`s7swatches`中编辑以下`ZoomViewer.css`规则：
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -389,4 +389,4 @@ SDK由构成查看器内容的UI组件组成。 您可以通过CSS以及具有�
 
    基本缩放查看器现已完成。
 
-   此查看器教程介绍了Dynamic Media Viewer SDK提供的功能的基础知识。 在使用SDK时，您可以使用各种标准组件轻松地为目标受众构建和设置丰富的查看体验。
+   本查看器教程介绍了Dynamic Media查看器SDK提供的功能的基础知识。 在使用SDK时，您可以使用各种标准组件轻松地为目标受众构建和设置丰富的观看体验。

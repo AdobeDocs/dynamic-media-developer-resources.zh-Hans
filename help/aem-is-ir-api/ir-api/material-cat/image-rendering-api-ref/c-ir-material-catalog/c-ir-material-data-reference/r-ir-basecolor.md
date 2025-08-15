@@ -16,7 +16,7 @@ ht-degree: 3%
 
 主图像颜色。 减色颜色，用于纹理上色。 应为纹理图像中的平均主色。
 
-如果将没有`catalog::Color`的纹理材质应用于不可纹理的晕影对象，则还可以使用`BaseColor`作为填充颜色。
+如果将没有`BaseColor`的纹理材质应用于不可纹理的晕影对象，则还可以使用`catalog::Color`作为填充颜色。
 
 ## 属性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

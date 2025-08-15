@@ -1,6 +1,6 @@
 ---
 title: 行动动员
-description: 视频结束时，会显示行动号召面板，并显示与特定视频关联的所有交互式色板。
+description: 当视频结束时，将显示Call to action面板，并显示与特定视频关联的所有交互式色板。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,36 +14,36 @@ ht-degree: 1%
 
 # 行动动员{#call-to-action}
 
-视频结束时，会显示行动号召面板，并显示与特定视频关联的所有交互式色板。
+当视频结束时，将显示Call to action面板，并显示与特定视频关联的所有交互式色板。
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 该面板由显示视频标题的标题区域、右上角的重播按钮以及显示为可滚动网格的实际交互式样本组成。 您可以使用[callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6)配置属性禁用面板。
 
-行动号召面板始终采用整个可用查看器区域。
+call to action面板始终占据整个可用查看器区域。
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-以下CSS类选择器控制行动号召面板中背景颜色的外观：
+以下CSS类选择器控制call to action面板中背景颜色的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## 行动号召面板的背景颜色的CSS属性 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## call to action面板的背景颜色的CSS属性 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
-   <td colname="col2"> <p> 行动号召面板的背景颜色。 </p> </td> 
+   <td colname="col2"> <p> call to action面板的背景颜色。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 示例 {#example}
 
-要设置具有深灰色背景的行动号召面板，请执行以下操作：
+要设置具有深灰色背景的call to action面板，请执行以下操作：
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ ht-degree: 1%
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-以下CSS类选择器控制行动号召面板中标头的外观：
+以下CSS类选择器控制call to action面板中标题的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## 行动号召面板标题的CSS属性 {#css-properties-of-the-call-to-action-panel-header}
+## call to action面板标题的CSS属性 {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ ht-degree: 1%
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-以下CSS类选择器控制行动号召面板中标题标题的外观：
+以下CSS类选择器控制call to action面板中标题标题的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## 行动号召面板中标题标题的CSS属性：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## call to action面板中标题标题的CSS属性：  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ ht-degree: 1%
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-以下CSS类选择器控制“行动号召”面板中关闭按钮的外观：
+以下CSS类选择器控制call to action面板中“关闭”按钮的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## 行动号召面板中关闭按钮的CSS属性： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## call to action面板中“关闭”按钮的CSS属性： {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ ht-degree: 1%
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-以下CSS类选择器控制“行动号召”面板中缩略图网格视图的外观：
+以下CSS类选择器控制call to action面板中缩略图网格视图的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## 行动号召面板中缩略图网格视图的CSS属性：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## call to action面板中缩略图网格视图的CSS属性：  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ ht-degree: 1%
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-以下CSS类选择器控制行动号召面板中缩略图单元格的外观：
+以下CSS类选择器控制call to action面板中缩略图单元格的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 行动号召面板中缩略图单元格的CSS属性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## call to action面板中缩略图单元格的CSS属性： {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ ht-degree: 1%
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-以下CSS类选择器控制行动号召面板中缩略图的外观：
+以下CSS类选择器控制call to action面板中缩略图的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## 行动号召面板中缩略图的CSS属性： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## call to action面板中缩略图的CSS属性： {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ ht-degree: 1%
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-以下CSS类选择器控制“行动号召”面板中缩略图标签的外观：
+以下CSS类选择器控制call to action面板中缩略图标签的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## 行动号召面板中缩略图标签的CSS属性： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## call to action面板中缩略图标签的CSS属性： {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ ht-degree: 1%
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-如果缩略图多于垂直放入视图的数量，则缩略图会在右侧呈现垂直滚动条。 默认情况下，“行动号召”面板呈现一个没有拇指和滚动按钮的小垂直条。 但是，可以通过更改查看器CSS来自定义栏。
+如果缩略图多于垂直放入视图的数量，则缩略图会在右侧呈现垂直滚动条。 默认情况下，call to action面板会呈现一个没有拇指和滚动按钮的小垂直条。 但是，可以通过更改查看器CSS来自定义栏。
 
-以下CSS类选择器控制“行动号召”面板中滚动条区域的外观：
+以下CSS类选择器控制call to action面板中滚动条区域的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## 行动号召面板中滚动条区域的CSS属性： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## call to action面板中滚动条区域的CSS属性： {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ ht-degree: 1%
 
 滚动条轨道是上下滚动条按钮之间的区域。 组件会自动设置轨道的位置和高度。
 
-以下CSS类选择器控制“行动号召”面板中滚动条轨道的外观：
+以下CSS类选择器控制call to action面板中滚动条轨道的外观：
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## 行动号召面板中缩略图高度的CSS属性： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## call to action面板中缩略图高度的CSS属性： {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-无法使用CSS top、left、bottom或right属性定位滚动按钮；查看器逻辑会自动定位它们。 交互式视频查看器中的“行动号召”面板不使用滚动条中的这些按钮，因此其大小在默认CSS中设置为0像素。
+无法使用CSS top、left、bottom或right属性定位滚动按钮；查看器逻辑会自动定位它们。 交互式视频查看器中的call to action面板不会在滚动条中使用这些按钮，因此在默认CSS中，其大小设置为0像素。
 
-## 行动号召面板中顶部和底部滚动按钮的CSS属性：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## call to action面板中顶部和底部滚动按钮的CSS属性：  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

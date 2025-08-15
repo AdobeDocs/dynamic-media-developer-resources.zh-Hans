@@ -1,6 +1,6 @@
 ---
 title: 高级渲染设置
-description: 晕影创作工具(Dynamic Media图像创作包的一部分)提供了用于控制晕影渲染引擎低级方面的机制。
+description: 晕影创作工具（Dynamic Media图像创作包的一部分）提供了用于控制晕影渲染引擎低级方面的机制。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # 高级渲染设置{#advanced-render-settings}
 
-晕影创作工具(Dynamic Media图像创作包的一部分)提供了用于控制晕影渲染引擎低级方面的机制。
+晕影创作工具（Dynamic Media图像创作包的一部分）提供了用于控制晕影渲染引擎低级方面的机制。
 
 >[!NOTE]
 >

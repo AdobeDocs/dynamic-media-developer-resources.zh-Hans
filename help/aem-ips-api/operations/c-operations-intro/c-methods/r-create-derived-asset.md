@@ -44,7 +44,7 @@ ht-degree: 8%
 | folderHandle | `xsd:string` | 是 | 在其中创建新派生资源的文件夹的句柄。 |
 | 名称 | `xsd:string` | 是 | 派生资源的名称。 |
 | 类型 | `xsd:string` | 是 | 新派生资源的资源类型： `AdjustedView`或`LayerView`。 |
-| urlModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*请求或`urlPostApplyModifier`命令之前应用了*&#x200B;个。 |
+| urlModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*请求或*&#x200B;命令之前应用了`urlPostApplyModifier`个。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*之后*&#x200B;应用于请求或`urlPostApplyModifier`命令。 |
 
 **输出(createDerivedAssetParam)**

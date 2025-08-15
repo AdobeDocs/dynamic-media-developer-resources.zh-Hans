@@ -31,7 +31,7 @@ ImageServer现在保留升级安装期间更改的所有文件的安装日志和
 * 检查[!DNL ImageServerRegistry.xml]中的物理内存设置。 如果其他内存密集型应用程序在同一系统上运行，则不应超过50%。 默认值为20%。
 * 确保服务器上的交换空间至少是物理RAM大小的两倍。 交换空间设置不足可能导致此问题。
 
-**缓存文件夹使用的实际磁盘空间超过了[!DNL PlatformServer.conf]**&#x200B;中设置的` *[!DNL cache.maxSize]*`
+**缓存文件夹使用的实际磁盘空间超过了` *[!DNL cache.maxSize]*`中设置的[!DNL PlatformServer.conf]**
 
 这并不表示有问题。 文件系统开销未包含在[!DNL Platform Server]的磁盘缓存设置中。 所述系统报告的总量可以显着高于所述设置。 建议保留两倍于` *[!DNL cache.maxSize]*`中指定的磁盘空间。
 
@@ -47,7 +47,7 @@ is-docs示例中的&#x200B;**损坏的图像**
 
 **日志文件占用太多磁盘空间**
 
-图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[!DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
+图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[！DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
 
 **如果您的服务器上安装了防病毒软件**
 

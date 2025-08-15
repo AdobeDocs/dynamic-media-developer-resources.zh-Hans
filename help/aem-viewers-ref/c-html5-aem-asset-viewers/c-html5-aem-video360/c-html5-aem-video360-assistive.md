@@ -22,6 +22,6 @@ ht-degree: 0%
 
 滑块组件的角色`slider`具有属性`aria-valuenow`、`aria-valuemin`和`aria-valuemax`，用于描述当前滑块位置。
 
-下拉列表由按钮激活，这些按钮具有设置为`true`的其他`aria-haspopup`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
+下拉列表由按钮激活，这些按钮具有设置为`aria-haspopup`的其他`true`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
 
 模式对话框具有角色`dialog`。 对话框的标头元素由`aria-labelledby`属性引用。

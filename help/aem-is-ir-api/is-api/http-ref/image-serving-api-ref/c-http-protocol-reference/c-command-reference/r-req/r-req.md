@@ -39,7 +39,7 @@ ht-degree: 10%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-除非在详细说明中另有说明，否则服务器返回MIME类型为`text/plain`的`text`响应。 许多请求类型允许您指定响应类型，例如通常是默认的`text`、`javascript`、`xml`或`json`。 关联的响应MIME类型分别为`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
+除非在详细说明中另有说明，否则服务器返回MIME类型为`text`的`text/plain`响应。 许多请求类型允许您指定响应类型，例如通常是默认的`text`、`javascript`、`xml`或`json`。 关联的响应MIME类型分别为`text/plain`、`text/javascript`、`text/xml`和`text/javascript`。
 
 除非另有说明，否则响应会将响应格式化为一组`name=value`对。
 

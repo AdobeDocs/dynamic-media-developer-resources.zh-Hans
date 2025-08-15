@@ -1,6 +1,6 @@
 ---
 title: 量化
-description: 颜色量化。 指定用于GIF输出转换的颜色量化属性。
+description: 颜色量化。 指定GIF输出转换的颜色量化属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 量化{#quantize}
 
-颜色量化。 指定用于GIF输出转换的颜色量化属性。
+颜色量化。 指定GIF输出转换的颜色量化属性。
 
 ` quantize= *`类型`*[, *`递色`*[, *`numColors`*[, *`颜色列表`*]]]`
 
@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">颜色列表</span> </span> </p> </td> 
-  <td class="stentry"> <p>以逗号分隔的强制十六进制RGB颜色列表。 允许您指定要包含在“<span class="codeph">最合适</span>”调色板中的强制颜色。 如果指定的颜色数小于<span class="codeph"> numColors </span>，则根据图像内容计算其他颜色。 </p> <p>仅在<span class="codeph"> fmt=gif </span>或<span class="codeph"> fmt=gif-alpha </span>时使用。 否则，将忽略。 使用<span class="codeph"> <span class="varname"> colorList </span> </span>指定的颜色必须是十六进制6格式的RGB值（请参阅<span class="codeph"> color </span>）；不允许使用其他颜色说明符。 </p> </td> 
+  <td class="stentry"> <p>以逗号分隔的强制十六进制RGB颜色列表。 允许您指定要包含在“<span class="codeph">最合适</span>”调色板中的强制颜色。 如果指定的颜色数小于<span class="codeph"> numColors </span>，则根据图像内容计算其他颜色。 </p> <p>仅在<span class="codeph"> fmt=gif </span>或<span class="codeph"> fmt=gif-alpha </span>时使用。 否则，将忽略。 使用<span class="codeph"> <span class="varname"> colorList </span> </span>指定的颜色必须是十六进制格式的RGB值（请参阅<span class="codeph">颜色</span>）；不允许使用其他颜色说明符。 </p> </td> 
  </tr> 
 </table>
 
@@ -47,6 +47,6 @@ ht-degree: 1%
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-将图像转换为具有关键色透明度的双调GIF，并强制将颜色转换为黑白：
+将图像转换为具有关键颜色透明度的双调GIF并强制将颜色转换为黑白：
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

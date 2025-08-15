@@ -32,7 +32,7 @@ IP地址的逗号分隔列表。 每个单独的地址可以包括一个可选�
 
 如果`<addressfilter>`为空或未指定，则访问不受限制。
 
-如果`<rule>`元素中的`<expression>`不存在或为空，则会将`<addressfilter>`应用于所有请求。
+如果`<expression>`元素中的`<rule>`不存在或为空，则会将`<addressfilter>`应用于所有请求。
 
 ## 另请参阅 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

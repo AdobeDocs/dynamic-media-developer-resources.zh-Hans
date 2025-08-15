@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * 行数不超过`\copyfitmaxlines`设置的最大值和文本输入中的显式行数。
 * 图像集中需要匹配的大括号和括号。 如果大括号与括号不匹配，则需要对URL进行编码。
 * 服务器端全局响应时间警报包括错误响应。
-* 将`rect=`命令与图像或蒙版请求一起使用时，当前需要`id=`命令。
+* 将`id=`命令与图像或蒙版请求一起使用时，当前需要`rect=`命令。
 
 ## 已知差异textPs=与text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
   对于图像渲染的非金字塔晕影，请增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]配置文件中IrMaxNonPyrVignetteSize的属性值。
 
-  对于图像服务非金字塔TIFF，在[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]配置文件中增加`MaxNonDsfSize`的属性值。
+  对于图像服务非金字塔TIFF，在`MaxNonDsfSize`配置文件中增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]的属性值。
 
-* 默认情况下，Adobe[!DNL Photoshop] CS3不保存分层PSD文件的复合图像。
+* 默认情况下，Adobe [!DNL Photoshop] CS3不会将分层的PSD文件保存为复合图像。
 
   *症状*：
 
-  Adobe[!DNL Photoshop] CS3分层PSD文件显示为黑色，并带有文本声明：“此分层[!DNL Photoshop]文件未与复合图像一起保存。” 图像服务回复图像或IPS中的回复图像。
+  Adobe [!DNL Photoshop] CS3分层PSD文件显示为黑色，并带有文本声明：“此分层[!DNL Photoshop]文件未随复合图像一起保存。” 图像服务回复图像或IPS中的回复图像。
 
   *解決辦法*︰
 
-  在启用了最大兼容性的情况下保存Adobe[!DNL Photoshop] CS3文件。
+  在启用了最大兼容性的情况下保存Adobe [!DNL Photoshop] CS3文件。
 
 * 将ICC配置文件分配给CMYK/JPEG回复图像会导致某些浏览器中的颜色反转。*解决方法*：
 
@@ -117,22 +117,22 @@ ht-degree: 0%
 * 嵌入了颜色配置文件的PNG图像的颜色校正使用硬编码选项。 渲染意图是相对比色，并且已为PhotoFont文本打开黑场补偿。
 * 在公司[!DNL ini]文件中启用区域设置翻译时，不支持基于文件的查找。
 * 图像服务无法正确写入非闭合[!DNL Photoshop]路径。
-* 图像服务当前不支持处理使用Adobe Media Encoder 4.0.1或更早版本导出的TIFF文件。 Adobe Media Encoder包含在Premiere ProCS4、After Effects CS4和Creative Suite4 Production Premium中。
+* 图像服务当前不支持处理使用Adobe Media Encoder 4.0.1或更早版本导出的TIFF文件。 Adobe Media Encoder包含在Premiere Pro CS4、After Effects CS4和Creative Suite 4 Production Premium中。
 * 将`text=`与自调整图层结合使用不支持使用多个设置进行行对齐的RTF字符串。
 
   *示例*
 
   RTF字符串不能对自调整大小的文本图层同时使用左右行对齐。
 
-* 对于未嵌入到SVG文件中的所引用SVG的字体查找路径，字体具有其自己的属性。
+* SVG对于未嵌入到SVG文件中的引用字体的字体查找路径拥有自己的属性。
 
   *症状*
 
-  包含字体定义的渲染SVG图像使用的字体不正确。
+  包含字体定义的已渲染SVG图像使用的字体不正确。
 
   *解决方法*
 
-  在[!DNL install_root/ImageServing/conf/PlatformServer.conf]中设置属性`svgProvider.fontRoot=`。
+  在`svgProvider.fontRoot=`中设置属性[!DNL install_root/ImageServing/conf/PlatformServer.conf]。
 
 * 裁切当前使用`bgColor=`而不是`color=`来填充任何新扩展区域。
 
@@ -152,4 +152,4 @@ ht-degree: 0%
 
 ## 仅适用于实用程序的限制 {#section-906a6b2378154b3da122b2332983f7a5}
 
-使用`control-c`停止时，`ImageConvert`有时会因分段错误而崩溃。
+使用`ImageConvert`停止时，`control-c`有时会因分段错误而崩溃。

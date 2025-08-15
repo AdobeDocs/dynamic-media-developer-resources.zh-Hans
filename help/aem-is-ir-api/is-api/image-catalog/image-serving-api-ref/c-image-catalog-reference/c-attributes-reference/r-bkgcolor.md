@@ -1,5 +1,5 @@
 ---
-description: 默认背景颜色。 用于填充不包含实际图像数据的回复图像的任意区域的RGB值。
+description: 默认背景颜色。 RGB值，用于填充不包含实际图像数据的回复图像的任意区域。
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # BkgColor{#bkgcolor}
 
-默认背景颜色。 用于填充不包含实际图像数据的回复图像的任意区域的RGB值。
+默认背景颜色。 RGB值，用于填充不包含实际图像数据的回复图像的任意区域。
 
 ## 属性 {#section-2768b2beee214676aa32f17e2a0e3343}
 

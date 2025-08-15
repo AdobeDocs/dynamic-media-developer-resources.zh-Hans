@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**访问Dynamic Media地区的URL**
+**访问Dynamic Media区域的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,7 +131,7 @@ IPS API Web服务仅支持SOAP绑定。
 
 **支持的传输**
 
-IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP请求。
+IPS API SOAP绑定仅支持HTTP传输。 使用HTTPS POST方法发出所有SOAP请求。
 
 **SOAP操作标头**
 
@@ -197,7 +197,7 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 用于覆盖错误响应的HTTP状态代码的可选参数。 默认情况下，错误响应返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括AdobeFlash)无法读取响应正文，除非返回200 (OK)状态代码。 </p> </td> 
+   <td colname="col2"> <p> 用于覆盖错误响应的HTTP状态代码的可选参数。 默认情况下，错误响应返回HTTP状态代码500（内部服务器错误）。 某些客户端平台(包括Adobe Flash)无法读取响应正文，除非返回状态代码200 (OK)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 如果由于某种原因您的客户端应用程序无法传递`authHeader` SOAP标头，则API请求还可以使用HTTP基本身份验证（如RFC 2617中所指定）指定凭据。
 
-对于HTTP Basic身份验证，每个SOAPPOST请求的HTTP标头部分必须包含表单的标头：
+对于HTTP基本身份验证，每个SOAP POST请求的HTTP标头部分必须包含表单的标头：
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
@@ -229,7 +229,7 @@ IPS API SOAP绑定仅支持HTTP传输。 使用HTTPSPOST方法发出所有SOAP�
 
 使用初始请求抢先发送授权标头。 如果请求中未包含任何身份验证凭据，`IpsApiService`将不会以状态代码`401 (Unauthorized)`做出响应。 相反，返回的状态代码为`500 (Internal Server Error)`，其中包含SOAP错误正文，说明无法对请求进行身份验证。
 
-在IPS 3.8之前，通过SOAP标头的身份验证是使用命名空间`http://www.scene7.com/IpsApi`中的`AuthUser`和`AuthPassword`元素实现的。 例如：
+在IPS 3.8之前，通过SOAP标头的身份验证是使用命名空间`AuthUser`中的`AuthPassword`和`http://www.scene7.com/IpsApi`元素实现的。 例如：
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**SOAP错误**
+**SOAP故障**
 
-当操作遇到异常情况时，SOAP故障将作为SOAP消息正文返回，而不是作为正常响应返回。 例如，如果非管理员用户尝试发送前`addCompany`个请求，则会返回以下响应：
+当操作遇到异常条件时，SOAP故障将作为SOAP消息正文返回，而不是正常响应。 例如，如果非管理员用户尝试发送前`addCompany`个请求，则会返回以下响应：
 
 ```
 HTTP/1.1 500 Internal Server Error 

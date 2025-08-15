@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> 指示查看器是否在视频播放结束时显示“行动号召”面板。 </p> </td> 
+   <td colname="col2"> <p> 指示查看器是否在视频播放结束时显示“call-to-action”面板。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

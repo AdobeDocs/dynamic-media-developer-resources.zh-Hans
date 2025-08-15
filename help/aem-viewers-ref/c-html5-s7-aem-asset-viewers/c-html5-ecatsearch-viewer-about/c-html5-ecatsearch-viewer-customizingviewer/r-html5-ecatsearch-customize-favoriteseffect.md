@@ -57,7 +57,7 @@ ht-degree: 0%
 }
 ```
 
-在桌面系统上，该组件支持可应用于`.s7favoriteseffect`类的`cursortype`属性选择器，并根据所选的用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，该组件支持可应用于`cursortype`类的`.s7favoriteseffect`属性选择器，并根据所选的用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 

@@ -69,7 +69,7 @@ ht-degree: 3%
    <td colname="col3">设置为： 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>：仅返回原始资源。 </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：返回生成的内容。 例如，来自已上传PDF的图像。 </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>：返回生成的内容。 例如，上传的PDF中的图像。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 

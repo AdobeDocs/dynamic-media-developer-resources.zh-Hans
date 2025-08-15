@@ -1,5 +1,5 @@
 ---
-description: 将提供的URL列表转发给Dynamic Media CDN（内容分发网络）提供程序，以使其现有的HTTP响应缓存失效。
+description: 将提供的URL列表转发给Dynamic Media CDN（内容分发网络）提供商，以使其现有的HTTP响应缓存失效。
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-将提供的URL列表转发给Dynamic Media CDN（内容分发网络）提供程序，以使其现有的HTTP响应缓存失效。
+将提供的URL列表转发给Dynamic Media CDN（内容分发网络）提供商，以使其现有的HTTP响应缓存失效。
 
 ## cdnCacheInvalidation：关于 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-在通过CDN网络处理此失效请求后，CDN缓存失效会强制根据Dynamic Media网络上的当前已发布数据重新验证这些URL的所有HTTP请求。 任何未连接到Dynamic Media服务URL结构且与创建公司时分配的Dynamic Media公司根ID直接匹配的URL都会导致整个请求的API出错。 CDN不支持的任何被视为无效的无效URL也会导致整个请求的API出错。
+在通过CDN网络处理此失效请求后，CDN缓存失效会强制根据Dynamic Media网络上的当前已发布数据重新验证这些URL的所有HTTP请求。 任何未连接到Dynamic Media服务URL结构并与创建公司时分配的Dynamic Media公司根ID直接匹配的URL都会导致整个请求的API出错。 CDN不支持的任何被视为无效的无效URL也会导致整个请求的API出错。
 
 **使用频率：规则**
 
-控制此功能使用频率的规则由Dynamic Media的CDN合作伙伴控制。 CDN保留降低这些失效的响应性的酌处权，以保持其向其用户提供的服务的最佳性能。 如果Dynamic Media收到过度使用此功能的通知，Adobe必须基于每个公司或整个服务禁用该功能。
+控制使用此功能频率的规则由Dynamic Media的CDN合作伙伴控制。 CDN保留降低这些失效的响应性的酌处权，以保持其向其用户提供的服务的最佳性能。 如果Dynamic Media收到过度使用此功能的通知，Adobe必须基于每个公司或整个服务禁用该功能。
 
 **确认电子邮件**
 
-Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创建者或其他5个电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认。 如果提供的URL数量超过Dynamic Media在单个通知中可向CDN合作伙伴提供的数量，则对`cdnCacheInvalidation`的单次调用可以发送多个电子邮件。 目前，这表示请求将超过100个URL，但可能会根据CDN合作伙伴的请求而发生更改。
+来自Dynamic Media CDN合作伙伴的确认电子邮件最多可以发送给列表创建者或其他5个电子邮件地址。 当通知整个CDN网络电子邮件中引用的URL已被清除时，API会发送确认。 如果提供的URL数超过Dynamic Media在单个通知中可向CDN合作伙伴提供的数量，则对`cdnCacheInvalidation`的单次调用可以发送多个电子邮件。 目前，这表示请求将超过100个URL，但可能会根据CDN合作伙伴的请求而发生更改。
 
 **自**&#x200B;起便受支持
 

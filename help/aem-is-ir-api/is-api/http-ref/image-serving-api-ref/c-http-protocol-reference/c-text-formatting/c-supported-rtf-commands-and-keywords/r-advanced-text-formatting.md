@@ -83,7 +83,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
    <td> <p>启用复制管接头并设置允许的最大字体大小。 </p> </td> 
-   <td> <p>字体大小，以半点为单位；<span class="codeph"> textPs=仅限</span>；Dynamic Media扩展。 </p> </td> 
+   <td> <p>以半点为单位的字体大小；<span class="codeph"> textPs=仅限</span>；Dynamic Media扩展。 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 

@@ -32,7 +32,7 @@ Image Server作为Linux®守护程序安装。
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 在响应中，检查是否存在以`imageServer`开头的项，这表示[!DNL Platform Server]可以成功与图像服务器通信。
 

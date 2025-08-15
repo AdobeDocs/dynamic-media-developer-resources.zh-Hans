@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \colortbl </span> </td> 
-   <td> <p>颜色表RGB。 </p> </td> 
+   <td> <p>RGB色表。 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

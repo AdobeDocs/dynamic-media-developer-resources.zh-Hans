@@ -1,5 +1,5 @@
 ---
-description: RGB默认输出颜色配置文件。 指定在通过icc=未指定输出色彩空间时用于RGB响应图像的ICC色彩配置文件的名称，以及指定通过各种“图像提供”命令（如color=）指定的某些RGB色彩值的名称。
+description: RGB默认输出颜色配置文件。 指定在通过icc=未指定输出色彩空间时用于RGB响应图像的ICC色彩配置文件的名称，以及指定通过各种图像服务命令（例如color=）指定的某些RGB色彩值的名称。
 solution: Experience Manager
 title: IccProfileRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # IccProfileRgb{#iccprofilergb}
 
-RGB默认输出颜色配置文件。 指定在通过icc=未指定输出色彩空间时用于RGB响应图像的ICC色彩配置文件的名称，以及指定通过各种“图像提供”命令（如color=）指定的某些RGB色彩值的名称。
+RGB默认输出颜色配置文件。 指定在通过icc=未指定输出色彩空间时用于RGB响应图像的ICC色彩配置文件的名称，以及指定通过各种图像服务命令（例如color=）指定的某些RGB色彩值的名称。
 
 ## 属性 {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 

@@ -1,5 +1,5 @@
 ---
-description: 允许重新处理以前上载的主文件的作业类型，包括重新翻录PDF和重新优化图像。
+description: 允许重新处理先前上载的主文件的作业类型，包括重新翻录PDF和重新优化图像。
 solution: Experience Manager
 title: 重新处理资产作业
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-允许重新处理以前上载的主文件的作业类型，包括重新翻录PDF和重新优化图像。
+允许重新处理先前上载的主文件的作业类型，包括重新翻录PDF和重新优化图像。
 
 语法
 
@@ -152,7 +152,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">类型：UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>允许您在创建优化的金字塔TIF文件时控制钝化蒙版设置的选项。 使用这些设置帮助提高图像锐度。 </p> <p>查看<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=zh-Hans"> UnsharpMaskOptions</a>。 </p> </td> 
+   <td colname="col3"> <p>允许您在创建优化的金字塔TIF文件时控制钝化蒙版设置的选项。 使用这些设置帮助提高图像锐度。 </p> <p>查看<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

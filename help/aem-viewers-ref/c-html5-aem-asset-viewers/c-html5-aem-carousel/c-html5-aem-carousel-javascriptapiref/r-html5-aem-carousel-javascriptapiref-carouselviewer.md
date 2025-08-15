@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `CarouselViewer([config])`
 
-构造函数，创建HTML5轮播查看器实例。
+构造函数，创建HTML 5轮播查看器实例。
 
 ## 参数 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

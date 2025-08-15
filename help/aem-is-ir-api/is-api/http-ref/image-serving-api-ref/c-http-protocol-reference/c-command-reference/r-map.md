@@ -39,11 +39,11 @@ ht-degree: 2%
 
 ## 属性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-层属性。 应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射之后。 已忽略，除非`req=map`。 被效果层忽略。 如果同时指定了`map=`，则忽略`mapA=`。
+层属性。 应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射之后。 已忽略，除非`req=map`。 被效果层忽略。 如果同时指定了`mapA=`，则忽略`map=`。
 
 ## 默认 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-如果未指定`map=`，则使用`catalog::Map`。
+如果未指定`catalog::Map`，则使用`map=`。
 
 ## 示例 {#section-cd7691c94f984222845c86dcb0051ce8}
 

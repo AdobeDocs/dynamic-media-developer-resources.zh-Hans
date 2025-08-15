@@ -1,5 +1,5 @@
 ---
-description: 文件属性InDesign。
+description: InDesign文件属性。
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-文件属性InDesign。
+InDesign文件属性。
 
 语法
 

@@ -43,7 +43,7 @@ ht-degree: 1%
 
 图像或图层属性。 应用于图层0（如果`layer=comp`）。 被效果层忽略。
 
-*`object`*&#x200B;不能解析为`catalog::Modifier`中包含`src=`或`mask=`命令的目录记录。
+*`object`*&#x200B;不能解析为`src=`中包含`mask=`或`catalog::Modifier`命令的目录记录。
 
 `is`和`ir`前缀不区分大小写。
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 已添加`PostScriptOptions/alpha`字段。
 
-已为`getProperty`操作添加`VideoRootUrl`和`SwfRootUrl`属性。
+已为`VideoRootUrl`操作添加`SwfRootUrl`和`getProperty`属性。
 
 已将可选`appName`和`appVersion`参数添加到`authHeader`以跟踪调用应用程序。 已将日志记录添加到`ipsApiService.log`。
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 添加了`'Asset'`资源类型字符串常量，主要是为了允许跨资源元数据字段。
 
-已为`searchAssets`实施`trashState`参数。
+已为`trashState`实施`searchAssets`参数。
 
 已实施`getAssetPublishHistory`操作。
 
-添加了可选的`faultHttpStatusCode` SOAP标头，以便在Flex中启用错误处理。 对于Flex，请使用`<faultHttpStatusCode>200</faultHttpStatusCode>`。 错误响应的默认状态代码为`500 (Internal Server Error)`。
+添加了可选的`faultHttpStatusCode`SOAP标头，以便在Flex中启用错误处理。 对于Flex，请使用`<faultHttpStatusCode>200</faultHttpStatusCode>`。 错误响应的默认状态代码为`500 (Internal Server Error)`。
 
 添加了从垃圾桶中还原资源以及从垃圾桶中还原空资源的操作。
 
@@ -65,13 +65,13 @@ ht-degree: 0%
 
 已实现`getAssetCounts`。
 
-添加了对`setImageSetMembers`的支持，以便在`ImageSet`资源中包含`RenderSet`个成员。
+添加了对`setImageSetMembers`的支持，以便在`RenderSet`资源中包含`ImageSet`个成员。
 
 添加了`replaceImage`操作。
 
 添加了`copyImage`操作。
 
-已为`LayerViewInfo`、`TemplateInfo`和`WatermarkInfo`添加`setUrlModifier`操作和`urlModifier/urlPostApplyModifier`字段。
+已为`setUrlModifier`、`urlModifier/urlPostApplyModifier`和`LayerViewInfo`添加`TemplateInfo`操作和`WatermarkInfo`字段。
 
 添加了`createDerivedAsset`操作。 当前，`ownerHandle`必须引用图像资源，并且类型可以是`AdjustedView`或`LayerView`。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 IPS公司设置`CompanySettings`已移植到Web服务API。
 
-已将`excludeByproducts`筛选器标志添加到`searchAssets`操作。 将此标记设置为true将运行`PSDlayer`个图像并PDF翻录的图像。
+已将`excludeByproducts`筛选器标志添加到`searchAssets`操作。 将此标记设置为true可运行`PSDlayer`个图像和PDF翻录的图像。
 
 添加了`getGenerationInfo`操作。
 
@@ -171,10 +171,10 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
 添加了对强类型元数据字段条件的searchAssets的支持。
 
 * 对于所有字段类型，可以使用字符串比较运算符(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)传递值
-* 对于布尔字段，可以使用`Equals`操作传递`boolVal`。
-* 对于Int字段，可以使用数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`longVal`，或者可以使用数字范围运算(`Between, NotBetween`)传递`minLong/maxLong`。
-* 对于Float字段，可以使用数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`doubleVal`，或者可以使用数字范围运算(`Between, NotBetween`)传递`minDouble/maxDouble`。
-* 对于日期字段，您可以通过数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`dateVal`，或者您可以通过数字范围运算(`Between, NotBetween`)传递minDate/maxDate。
+* 对于布尔字段，可以使用`boolVal`操作传递`Equals`。
+* 对于Int字段，可以使用数字比较运算符(`longVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者可以使用数字范围运算(`minLong/maxLong`)传递`Between, NotBetween`。
+* 对于Float字段，可以使用数字比较运算符(`doubleVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者可以使用数字范围运算(`minDouble/maxDouble`)传递`Between, NotBetween`。
+* 对于日期字段，您可以通过数字比较运算符(`dateVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者您可以通过数字范围运算(`Between, NotBetween`)传递minDate/maxDate。
 
 已将描述`jobSubType`和`originalJobName`字段添加到`JobLog`类型。
 
@@ -235,7 +235,7 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
  </tbody> 
 </table>
 
-向`UploadDirectoryJob`和`UploadUrlsJob`添加了其他选项，以独立控制Postscript、Illustrator和PDF文件的处理。 所有现有作业都为三条处理管道中的每条管道提供必要参数，以便它们与今天完全相同。 原始`PostScriptOptions`块用于设置Illustrator和EPS/PS文件的处理。 或者，可以提供特定的文件选项块来指定处理。 更改列表包括：
+向`UploadDirectoryJob`和`UploadUrlsJob`添加了其他选项，用于控制独立处理Postscript、Illustrator和PDF文件。 所有现有作业都为三条处理管道中的每条管道提供必要参数，以便它们与今天完全相同。 原始`PostScriptOptions`块用于设置Illustrator和EPS/PS文件的处理。 或者，可以提供特定的文件选项块来指定处理。 更改列表包括：
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -322,12 +322,12 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;布尔值&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定义是否在呈现后将多页PDF合并到eCatalog中（默认值为true）。 </p> </td> 
+   <td colname="col4"> <p>定义在呈现后是否将多页PDF合并到eCatalog中（默认为true）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> extractSearchWords </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;布尔值&gt; </span> </p> </td> 
-   <td colname="col4"> <p>定义是否将来自PDF的单词提取到数据库中以供以后提供给搜索服务器（默认值为false）。 </p> </td> 
+   <td colname="col4"> <p>定义是否将PDF中的单词提取到数据库中以供以后提供给搜索服务器（默认值为false）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

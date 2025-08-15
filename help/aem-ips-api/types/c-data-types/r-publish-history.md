@@ -23,6 +23,6 @@ ht-degree: 11%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | serverName | `xsd:string` | 拥有发布历史记录的服务器的名称。 |
-| contextName | `xsd:string` | Publish历史记录上下文名称。 |
-| publishformat | `xsd:string` | Publish格式。 |
+| contextName | `xsd:string` | 发布历史记录上下文名称。 |
+| publishformat | `xsd:string` | 发布格式。 |
 | lastPublished | `xsd:dateTime` | 上次发布资源的日期和时间。 |

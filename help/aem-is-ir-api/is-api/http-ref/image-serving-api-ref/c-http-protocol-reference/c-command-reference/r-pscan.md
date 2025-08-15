@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: 渐进式JPEG扫描。 渐进式JPEG以这样的方式显示图像，即最初显示整个模糊/低质量的照片。
+description: 渐进式JPEG扫描。 渐进式JPEG显示图像的方式使其最初完整显示模糊/低质量的照片。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # pscan{#pscan}
 
-渐进式JPEG扫描。 渐进式JPEG以这样的方式显示图像，即最初显示整个模糊/低质量的照片。 随着扫描的继续，随着图像数据的下载更充分，它变得更清晰。 此参数允许您设置显示整个图像所需的扫描次数（3、4或5）。
+渐进式JPEG扫描。 渐进式JPEG显示图像的方式使其最初完整显示模糊/低质量的照片。 随着扫描的继续，随着图像数据的下载更充分，它变得更清晰。 此参数允许您设置显示整个图像所需的扫描次数（3、4或5）。
 
 `pscan=auto|3|4|5`
 
 每次扫描的实际速度取决于用户系统和接收和解压缩数据的计算机的传输速度。
 
-`Auto`使用由独立JPEG库计算并取决于颜色模型的扫描设置。 将JPEG文件另存为pjpeg(渐进式JPEG)时，`3`、`4`、`5`的值对应于Adobe Photoshop中的“扫描”设置。
+`Auto`使用由独立的JPEG库计算并取决于颜色模型的扫描设置。 `3`、`4`、`5`的值对应于在将JPEG文件另存为pjpeg(渐进式JPEG)时在Adobe Photoshop中找到的扫描设置。
 
 如果未设置`pscan`，则默认为`auto`。
 
 ## 属性 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-请求属性。 无论当前图层设置如何，均适用。 如果输出JPEG不是渐进格式，则忽略。
+请求属性。 无论当前图层设置如何，均适用。 如果输出格式不是渐进式JPEG，则忽略。
 
 ## 默认 {#section-01948f6cd7a2415091004cd7526436c7}
 

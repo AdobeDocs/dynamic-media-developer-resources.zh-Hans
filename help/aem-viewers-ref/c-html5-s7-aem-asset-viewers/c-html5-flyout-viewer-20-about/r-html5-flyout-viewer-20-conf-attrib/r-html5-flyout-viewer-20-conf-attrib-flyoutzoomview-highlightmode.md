@@ -28,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">图像|可用</span> </p> </td> 
-   <td colname="col2"> <p> 控制导航框架位置。 </p> <p>如果图像</span>上设置为<span class="codeph">，则导航框架只能位于主视图中的实际图像区域内。 </p> <p>如果设置为<span class="codeph"> free </span>，则用户可以将导航框架移动到逻辑主视图区域中的任意位置，甚至移动到图像内容之外的位置。 </p> </td> 
+   <td colname="col2"> <p> 控制导航框架位置。 </p> <p>如果图像<span class="codeph">上设置为</span>，则导航框架只能位于主视图中的实际图像区域内。 </p> <p>如果设置为<span class="codeph"> free </span>，则用户可以将导航框架移动到逻辑主视图区域中的任意位置，甚至移动到图像内容之外的位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

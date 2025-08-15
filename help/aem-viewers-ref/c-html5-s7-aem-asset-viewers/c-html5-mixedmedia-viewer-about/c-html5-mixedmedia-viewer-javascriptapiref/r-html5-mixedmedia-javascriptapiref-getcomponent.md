@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`null`。
+`{Object}`对查看器SDK组件的引用。 如果`null`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`componentId`。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

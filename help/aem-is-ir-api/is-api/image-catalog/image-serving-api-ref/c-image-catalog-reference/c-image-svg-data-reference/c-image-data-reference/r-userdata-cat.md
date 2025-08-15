@@ -22,7 +22,7 @@ ht-degree: 3%
 
 缩放、旋转和小册子查看器客户端假定此字段使用属性数据格式。 这些客户端使用此字段进行查看器配置和自定义。 有关详细信息，请参阅查看器文档。
 
-此字段参与文本字符串本地化。 有关详细信息，请参阅&#x200B;*HTTP协议引用*&#x200B;中的[文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此字段参与文本字符串本地化。 有关详细信息，请参阅[HTTP协议引用](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文本字符串本地化*。
 
 ## 默认 {#section-7ee879762130467199745f2abc662f1e}
 

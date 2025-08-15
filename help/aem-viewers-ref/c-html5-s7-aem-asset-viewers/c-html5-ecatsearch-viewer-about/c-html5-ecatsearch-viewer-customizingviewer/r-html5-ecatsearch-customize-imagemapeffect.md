@@ -103,7 +103,7 @@ opacity: 1;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为<span class="codeph"> <span class="varname">宽度</span>纯色<span class="varname">颜色</span> </span>，其中<span class="codeph"> <span class="varname">宽度</span> </span>以像素表示，<span class="codeph"> <span class="varname">颜色</span> </span>设置为#RRGGBB，RGB(R，G，B)或RGBA(R，G，B，A)。 </p> </td> 
+   <td colname="col2"> <p> 图像映射区域边框样式。 </p> <p>指定为<span class="codeph"> <span class="varname">宽度</span>纯色<span class="varname">颜色</span> </span>，其中<span class="codeph"> <span class="varname">宽度</span> </span>以像素表示，<span class="codeph"> <span class="varname">颜色</span> </span>设置为#RRGGBB、RGB(R，G，B)或RGBA(R，G，B，A)。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

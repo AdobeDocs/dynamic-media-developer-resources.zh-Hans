@@ -46,7 +46,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">命令</span> </p> </td> 
-   <td colname="col2"> <p>&lbrace;<span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
+   <td colname="col2"> <p>{<span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">宏</span> </p> </td> 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 **个评论**
 
-注释可以嵌入到任何位置的请求字符串中，并通过句点(.)进行标识 紧跟在命令分隔符(&amp;)之后。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
+注释可以嵌入到请求字符串的任何位置，并且由紧跟命令分隔符(&amp;)后面的句点(.)来标识。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
 
 **HTTP解码**
 

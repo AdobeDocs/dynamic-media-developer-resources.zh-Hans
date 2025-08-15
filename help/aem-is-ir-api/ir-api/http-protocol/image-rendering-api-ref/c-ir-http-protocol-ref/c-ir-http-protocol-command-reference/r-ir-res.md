@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-如果存在贴花材料，则在同时指定`size=`和`res=`的情况下`size=`优先。
+如果存在贴花材料，则在同时指定`size=`和`size=`的情况下`res=`优先。
 
 ## 属性 {#section-6a458ddc202f46e0b668c9f040a65cef}
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 默认 {#section-ee4088a994014df59105fc1dbb2aa042}
 
-如果材料基于目录条目，`catalog::Resolution`；否则，如果未指定`res= is`或将其设置为小于或等于0的值，则`attribute::Resolution`。
+如果材料基于目录条目，`catalog::Resolution`；否则，如果未指定`attribute::Resolution`或将其设置为小于或等于0的值，则`res= is`。
 
 ## 另请参阅 {#section-c00f6fb7b3e74719ac361de9a9ce4e52}
 

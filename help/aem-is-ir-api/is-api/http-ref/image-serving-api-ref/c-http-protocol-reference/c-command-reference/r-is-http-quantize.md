@@ -1,6 +1,6 @@
 ---
 title: 量化
-description: 颜色量化。 指定用于GIF输出转换的颜色量化属性。
+description: 颜色量化。 指定GIF输出转换的颜色量化属性。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 量化{#quantize}
 
-颜色量化。 指定用于GIF输出转换的颜色量化属性。
+颜色量化。 指定GIF输出转换的颜色量化属性。
 
 ` quantize= *`类型`*[, *`递色`*[, *`numColors`*[, *`颜色列表`*]]]`
 
@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">类型</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定调色板类型。 </p> <p>设置为<span class="codeph">自适应</span>以计算图像的最佳调色板。 </p> <p>设置为<span class="codeph"> web </span>或<span class="codeph"> mac </span>以选择预定义的调色板。 </p> <p> <p>注意： <span class="codeph"> mac </span>托盘类型仅支持GIF和PNG8格式，不支持GIFAlpha和PNG8Alpha格式。</p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>指定调色板类型。 </p> <p>设置为<span class="codeph">自适应</span>以计算图像的最佳调色板。 </p> <p>设置为<span class="codeph"> web </span>或<span class="codeph"> mac </span>以选择预定义的调色板。 </p> <p> <p>注意： <span class="codeph"> mac </span>托盘类型仅支持GIF和PNG8格式，不支持GIF-Alpha和PNG8-Alpha格式。</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">仿色</span> </span> </p> </td> 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 请求属性。 无论当前图层设置如何，它都适用。 仅在`fmt=gif`、`fmt=gif-alpha`、`fmt=png8`或`fmt=png8-alpha`时使用。 否则，将忽略。
 
-使用&#x200B;*`colorList`*&#x200B;指定的颜色必须包含十六进制6格式的RGB值（请参阅不带`0x`前缀的[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)）。 不允许使用其他颜色说明符。 修饰符&#x200B;*`numColors`*&#x200B;必须为2-256。
+使用&#x200B;*`colorList`*&#x200B;指定的颜色必须包含十六进制格式的RGB值（请参阅不带[前缀的](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)color`0x`）。 不允许使用其他颜色说明符。 修饰符&#x200B;*`numColors`*&#x200B;必须为2-256。
 
 ## 默认 {#section-ca3e817617244e8798ccff67b2023a32}
 

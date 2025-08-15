@@ -1,7 +1,7 @@
 ---
-description: AdobeDynamic Media图像服务和图像渲染API主页
+description: Adobe Dynamic Media图像服务和图像渲染API主页
 solution: Experience Manager
-title: AdobeDynamic Media图像服务和图像渲染API主页
+title: Adobe Dynamic Media图像服务和图像渲染API主页
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# AdobeDynamic Media图像服务和图像渲染API主页{#adobe-scene-image-serving-and-image-rendering-api-home}
+# Adobe Dynamic Media图像服务和图像渲染API主页{#adobe-scene-image-serving-and-image-rendering-api-home}
 
 本文档包含有关图像服务和图像渲染API以及相关技术的信息。 如果您处理Dynamic Media Classic与AEM的集成，则应该参考此API的图像服务部分。

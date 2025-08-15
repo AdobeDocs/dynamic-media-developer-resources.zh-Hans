@@ -1,5 +1,5 @@
 ---
-description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中或InDesign中的PDF预设生成的文件。
+description: 应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在InDesign的“另存为PDF选项”对话框中或PDF预设中生成的文件。
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # joboption{#joboption}
 
-应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在“另存为PDF选项”对话框中或InDesign中的PDF预设生成的文件。
+应用PDF作业选项。 作业选项文件或PDF预设是Illustrator在InDesign的“另存为PDF选项”对话框中或PDF预设中生成的文件。
 
 ` joboption= *`值`*`
 

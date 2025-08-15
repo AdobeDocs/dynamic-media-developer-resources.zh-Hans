@@ -65,7 +65,7 @@ ht-degree: 1%
 
 在视图图像之外扩展的ROI的任何区域都使用`bgc=`填充。
 
-重要事项`rect=`在&#x200B;*最终缩放并符合`scl=`、`wid=`、`hei=`、`fit=`、`rgn=`和`align=`后*&#x200B;应用。
+重要事项`rect=`在&#x200B;*最终缩放并符合*、`scl=`、`wid=`、`hei=`、`fit=`和`rgn=`后`align=`应用。
 
 ## 默认 {#section-b296d3bbfb19441f87137a452b70f19a}
 

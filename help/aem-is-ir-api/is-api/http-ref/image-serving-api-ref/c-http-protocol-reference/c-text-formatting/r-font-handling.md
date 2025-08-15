@@ -20,7 +20,7 @@ RTF字符串中引用的所有字体必须在默认目录或当前图像目录�
 
 在RTF字符串中未显式指定任何字面时，将使用使用`attribute::DefaultFont`指定的字体。
 
-图像服务支持TrueType、OpenType®、Adobe Type1（仅限Windows）字体。
+图像服务支持TrueType、OpenType®、Adobe Type 1（仅限Windows）字体。
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

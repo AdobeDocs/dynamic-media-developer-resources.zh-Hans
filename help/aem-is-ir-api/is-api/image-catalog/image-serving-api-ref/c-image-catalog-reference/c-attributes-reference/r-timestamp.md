@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 时间值&#x200B;*`zzz`*&#x200B;是三或四个字符的时区代码，如`GMT`或`PST`。 夏令时必须在时区代码中说明（例如，太平洋标准时间为`PST`，太平洋夏令时为`PDT`）。
 
-时间值&#x200B;*`offset`*&#x200B;是以小时或小时：分钟为单位的时区偏移，相对于GMT。 例如，`PDT`相当于`GMT -7`。
+时间值&#x200B;*`offset`*&#x200B;是以小时或小时为单位的时区偏移:minutes，相对于GMT。 例如，`PDT`相当于`GMT -7`。
 
 字符串格式日期/时间值的所有元素都必须存在。 如果日期/时间值的格式不正确，将忽略该值，并改用&#x200B;[!DNL *`catalog`*.ini]文件的修改时间。
 

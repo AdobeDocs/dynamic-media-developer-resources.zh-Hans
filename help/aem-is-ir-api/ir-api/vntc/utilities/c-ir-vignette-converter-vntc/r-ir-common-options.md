@@ -31,7 +31,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>为嵌入在输出文件中的RGB和灰度图像数据选择有损JPEG编码，而不是无损PNG。 带有Alpha (RGBA)的图像始终使用PNG编码进行保存。 <span class="varname"> ival </span>指定了JPEG质量(1...100)；建议使用85或更高版本。 默认值为<span class="codeph"> -jpegquality 0 </span>，它选择PNG编码。 </p> </td> 
+  <td class="stentry"> <p>选择用于RGB的有损JPEG编码和嵌入到输出文件中的灰度图像数据，而不是无损PNG。 带有Alpha (RGBA)的图像始终使用PNG编码进行保存。 <span class="varname"> ival </span>指定了JPEG质量(1...100)；建议使用85或更高版本。 默认值为<span class="codeph"> -jpegquality 0 </span>，它选择PNG编码。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname">路径</span> </span> </p> </td> 

@@ -31,13 +31,13 @@ eCatalog Search Viewer是一种目录查看器，以跨页或逐页方式在跨�
 
 ## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## 使用eCatalog查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-eCatalog搜索查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有Viewer SDK组件、资源、CSS)，这些文件由查看器在运行时下载
+eCatalog搜索查看器表示一个主JavaScript文件以及查看器在运行时下载的一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS)
 
-您可以使用随IS-Viewers提供的生产就绪型HTML页在弹出模式下使用eCatalog Search Viewer，也可以使用嵌入式模式使用，在嵌入式模式下，使用文档记录的API将其集成到目标网页中。
+您可以使用随IS-Viewers提供的生产就绪型HTML页面在弹出模式下使用eCatalog Search Viewer，或者使用嵌入式模式，其中使用文档记录的API将eCatalog Search Viewer集成到目标网页中。
 
 其配置和外观设计与其他查看器的配置和外观设计类似。 所有外观设计都是通过自定义CSS实现的。
 
@@ -86,7 +86,7 @@ eCatalog Search Viewer支持其他移动设备应用程序中常见的以下触�
 
 eCatalog搜索查看器支持社交共享工具。 它们作为主控件栏中的按钮提供，当用户单击或点按它时，该按钮将扩展为共享工具栏。
 
-共享工具栏包含各种支持的共享渠道类型的图标，包括Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交服务重定向到标准共享对话框。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
+共享工具栏包含各种支持的共享渠道类型的图标，包括Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看者会将用户重定向到社交服务中的标准共享对话框。 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
 查看器的搜索功能作为主工具栏中的镜面图标提供。 单击或点按图标会激活包含输入字段的搜索面板。 输入关键字或短语并按Enter键后，查看器将在面板中呈现搜索结果，并在主视图中突出显示找到的单词。
 
@@ -98,9 +98,9 @@ eCatalog搜索查看器支持社交共享工具。 它们作为主控件栏中�
 
 在弹出模式下，查看器将在单独的Web浏览器窗口或选项卡中打开。 它采用整个浏览器窗口区域，并在浏览器调整大小或移动设备的方向更改时进行调整。
 
-弹出模式是移动设备中最常见的一种模式。 该网页使用`window.open()` JavaScript调用、正确配置的`A`HTML元素或任何其他合适的方法加载查看器。
+弹出模式是移动设备中最常见的一种模式。 该网页使用`window.open()` JavaScript调用、正确配置的`A` HTML元素或任何其他合适的方法加载查看器。
 
-建议您为弹出操作模式使用现成的HTML页面。 在这种情况下，该文件夹名为[!DNL eCatalogSearchViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹中：
+建议您为弹出窗口操作模式使用现成的HTML页面。 在这种情况下，该文件夹名为[!DNL eCatalogSearchViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹中：
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -137,11 +137,11 @@ eCatalog搜索查看器支持社交共享工具。 它们作为主控件栏中�
 
 1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL eCatalogSearchViewer.js]。 [!DNL eCatalogSearchViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
+   创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL eCatalogSearchViewer.js]。 [!DNL eCatalogSearchViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-如果查看器部署在某个AdobeDynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您可以指定已安装IS-Viewers的某个AdobeDynamic Media服务器的完整路径。
+如果查看器部署在某个Adobe Dynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您可以指定已安装IS-Viewers的某个Adobe Dynamic Media服务器的完整路径。
 
 相对路径如下所示：
 
@@ -169,7 +169,7 @@ eCatalog搜索查看器支持社交共享工具。 它们作为主控件栏中�
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义eCatalog查看器](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
-   以下是在“HTML”页中定义静态查看器大小的示例：
+   以下是在HTML页面中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
@@ -189,7 +189,7 @@ eCatalog搜索查看器支持社交共享工具。 它们作为主控件栏中�
 
    完成上述步骤后，创建`s7viewers.eCatalogSearchViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少具有`containerId`字段，该字段保存了查看器容器ID的名称，并嵌套`params` JSON对象，其中包含查看器支持的配置参数。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 但是，为了最大程度地兼容，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 但是，为了最大程度地兼容，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
 
    同时，容器元素目前也不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 发生这种情况时，查看器加载会自动恢复。
 

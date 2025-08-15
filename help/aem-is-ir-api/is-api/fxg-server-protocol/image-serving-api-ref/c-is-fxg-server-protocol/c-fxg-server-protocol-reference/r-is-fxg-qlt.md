@@ -21,7 +21,7 @@ Jpeg品质。 指定用于控制压缩级别的JPEG编码属性。 这反过来�
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">品质</span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG的编码质量(1...100 int)。 </p> </td> 
+  <td class="stentry"> <p>JPEG编码质量(1...100 int)。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname">色度</span> </span> </p> </td> 
@@ -33,7 +33,7 @@ Jpeg品质。 指定用于控制压缩级别的JPEG编码属性。 这反过来�
 
 高品质值可增大文件并提升品质，低品质值可减小文件并降低可感知的图像品质。如果值大于 90，所产生的图像往往与未解压缩图像几乎没有区别。
 
-设置`chroma`标志以禁用典型JPEG编码器采用的RGB色度缩减采样。 当边缘由色相变化而不是亮度变化来定义时，这可以增加图像中边缘的感知锐度。 设置此标志可能会导致文件大小略有增加。 如果文本看起来稍微模糊，请尝试使用此设置。
+设置`chroma`标志以禁用典型RGB编码器采用的JPEG色度缩减像素采样。 当边缘由色相变化而不是亮度变化来定义时，这可以增加图像中边缘的感知锐度。 设置此标志可能会导致文件大小略有增加。 如果文本看起来稍微模糊，请尝试使用此设置。
 
 如果输出像素类型为CMYK或灰度，则忽略`chroma`。
 

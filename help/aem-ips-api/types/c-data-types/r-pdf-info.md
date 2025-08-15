@@ -1,5 +1,5 @@
 ---
-description: 文件属性PDF。
+description: PDF文件属性。
 solution: Experience Manager
 title: PdfInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL PdfInfo]{#pdfinfo}
 
-文件属性PDF。
+PDF文件属性。
 
 语法
 

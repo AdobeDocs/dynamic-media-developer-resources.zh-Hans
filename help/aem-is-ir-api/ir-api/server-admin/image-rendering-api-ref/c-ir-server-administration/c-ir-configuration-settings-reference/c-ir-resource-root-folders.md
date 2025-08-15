@@ -16,4 +16,4 @@ ht-degree: 0%
 
 以分号分隔的路径列表用作具有相对文件路径的所有数据文件的根。
 
-它可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 指定多个路径时，服务器会按指定顺序尝试每个根，直到找到文件为止。 默认根路径[!DNL install_folder/resources]的默认值为[!DNL ./resources]。
+它可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 指定多个路径时，服务器会按指定顺序尝试每个根，直到找到文件为止。 默认根路径[!DNL ./resources]的默认值为[!DNL install_folder/resources]。

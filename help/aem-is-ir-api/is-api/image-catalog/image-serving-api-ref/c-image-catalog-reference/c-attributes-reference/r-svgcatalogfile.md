@@ -1,5 +1,5 @@
 ---
-description: 数据文件路径SVG。 指定包含此目录的SVG数据的文件。
+description: SVG数据文件路径。 指定包含此目录的SVG数据的文件。
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-数据文件路径SVG。 指定包含此目录的SVG数据的文件。
+SVG数据文件路径。 指定包含此目录的SVG数据的文件。
 
-SVG数据文件将按照指定的确切顺序加载到所有图像数据文件之后。 如果同一个`catalog::Id`值出现在多个记录中(在同一或不同的图像或SVG目录文件中)，则最后一个实例将优先。
+SVG数据文件会按照指定的确切顺序加载到所有图像数据文件之后。 如果同一个`catalog::Id`值出现在多个记录中(在相同或不同的图像或SVG目录文件中)，则最后一个实例将优先。
 
 ## 属性 {#section-fc2d549f76474792837b2b92ec2087ea}
 

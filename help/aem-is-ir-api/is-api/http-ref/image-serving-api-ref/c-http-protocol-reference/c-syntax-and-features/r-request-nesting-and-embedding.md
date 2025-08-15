@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->FXG图形渲染仅在Dynamic Media托管环境中可用，并且可能需要额外的许可。 有关更多信息，请联系Dynamic Media技术支持。
+>FXG图形渲染仅在Dynamic Media托管的环境中可用，并且可能需要额外的许可。 有关更多信息，请联系Dynamic Media技术支持。
 
 *[!DNL renderRequest]*&#x200B;是常用的FXG渲染请求，不包括HTTP根路径` http:// *[!DNL server]*/agm/render/`。
 

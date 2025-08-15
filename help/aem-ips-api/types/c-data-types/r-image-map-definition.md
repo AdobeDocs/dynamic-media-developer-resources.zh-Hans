@@ -24,6 +24,6 @@ ht-degree: 12%
 |---|---|---|
 | 名称 | `xsd:string` | 图像映射定义的名称。 |
 | shapeType | `xsd:string` | 区域形状值之一。 |
-| 地区 | `xsd:string` | 图像映射坐标。 格式基于HTML`<area>`标记属性。 |
-| 操作 | `xsd:string` | 要包含在HTML`<area>`标记中的其他属性，包括`href` URL。 |
+| 地区 | `xsd:string` | 图像映射坐标。 格式基于HTML `<area>`标记属性。 |
+| 操作 | `xsd:string` | 要包含在HTML `<area>`标记中的其他属性，包括`href` URL。 |
 | 已启用 | `xsd:boolean` | 如果启用了图像映射，则为True。 |

@@ -23,6 +23,6 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md#reference-c540fe87640e41f7a689a14a05ef5c72" type="reference" format="dita" scope="local"> HttpFlashStreamingContext</a> </span> </p></td> 
-  <td class="stentry"> <p>流服务器URL前缀Flash。 </p></td> 
+  <td class="stentry"> <p>Flash流服务器URL前缀。 </p></td> 
  </tr> 
 </table>

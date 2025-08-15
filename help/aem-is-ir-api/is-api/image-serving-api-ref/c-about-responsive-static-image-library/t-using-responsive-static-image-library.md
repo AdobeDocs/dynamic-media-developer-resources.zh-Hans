@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用响应图像库**
 
-1. 在Dynamic Media Classic中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=zh-Hans#image-sizing)，以防您计划将Responsive图像库与预设一起使用。
+1. 在Dynamic Media Classic中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以防您计划将Responsive图像库与预设一起使用。
 
    定义与响应图像库一起使用的图像预设时，请勿使用任何影响图像大小的设置，如`wid=`、`hei=`或`scl=`。 请勿在图像预设中指定任何大小字段。 相反，请将其保留为空白值。
 1. 将库JavaScript文件添加到您的网页。
@@ -30,9 +30,9 @@ ht-degree: 0%
 
    库会从其正在处理的图像实例中读取某些配置属性。 在为此类图像调用`s7responsiveImage` API函数之前定义属性。
 
-   还建议您将现有图像URL放入`data-src`属性中。 然后，将现有`src`属性设置为将一个1x1GIF图像编码为数据URI。 这样可以减少网页在加载时发送的HTTP请求数。 但请注意，如果需要SEO（搜索引擎优化），最好在图像实例上设置`title`属性。
+   还建议您将现有图像URL放入`data-src`属性中。 然后，将现有`src`属性设置为将一个1x1 GIF图像编码为数据URI。 这样可以减少网页在加载时发送的HTTP请求数。 但请注意，如果需要SEO（搜索引擎优化），最好在图像实例上设置`title`属性。
 
-   以下是定义图像的`data-breakpoints`属性并使用编码为数据URI的1x1GIF的示例：
+   以下是定义图像的`data-breakpoints`属性并使用编码为数据URI的1x1 GIF的示例：
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 **使用智能裁切**
 
-AEM 6.4和Dynamic Media Viewer 5.9中有两种智能裁切模式可用：
+AEM 6.4和Dynamic Media Viewer 5.9中有两种智能裁剪模式可用：
 
 * **手动** — 用户定义的断点和相应的图像服务命令在图像元素的属性中定义。
 * **智能裁切** — 将自动从投放服务器中检索计算智能裁切再现。 使用图像元素的运行时大小选择最佳演绎版。

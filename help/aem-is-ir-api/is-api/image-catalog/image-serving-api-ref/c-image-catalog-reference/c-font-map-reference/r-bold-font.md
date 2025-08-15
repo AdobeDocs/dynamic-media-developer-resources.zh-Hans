@@ -1,5 +1,5 @@
 ---
-description: 粗体旗帜。 指定在RTF粗体命令(b)请求时，是否应使用此字体映射记录引用的字体文件。
+description: 粗体旗帜。 指定在RTF粗体命令(\b)请求时，是否应使用此字体映射记录引用的字体文件。
 solution: Experience Manager
 title: 粗体
 feature: Dynamic Media Classic,SDK/API

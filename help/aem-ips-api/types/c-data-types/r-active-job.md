@@ -170,7 +170,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上载的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=zh-Hans" format="http" scope="external">导出作业</a>。 </td> 
+   <td colname="col3">允许授权导出以前上载的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">导出作业</a>。 </td> 
   </tr> 
  </tbody> 
 </table>

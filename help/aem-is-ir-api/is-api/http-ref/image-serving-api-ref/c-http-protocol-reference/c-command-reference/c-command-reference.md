@@ -20,15 +20,15 @@ ht-degree: 4%
 >
 >尝试使用Dynamic Media [_快照_](https://snapshot.scene7.com/)来发现Dynamic Media图像修饰符和智能成像的好处。
 >
-> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并优化以下各项的智能成像：
+> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，以及针对以下各项的智能成像优化：
 >* 文件大小（使用WebP和AVIF交付）
 >* 网络带宽
 >* DPR（设备像素比率）
 >
->要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=zh-Hans)（3分17秒）。
+>要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)（3分17秒）。
 
 
-**仅适用于Adobe Experience Manager中的Dynamic Media** — 除了用户界面中可用的基本图像设置之外，AEM ([!DNL Adobe Experience Manager])中的[!DNL Dynamic Media]还支持您可以在&#x200B;**图像修饰符**&#x200B;字段中指定的大量高级图像修改。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
+**仅适用于Adobe Experience Manager中的Dynamic Media** — 除了用户界面中可用的基本图像设置之外，AEM中的[!DNL Dynamic Media] ([!DNL Adobe Experience Manager])还支持您可以在&#x200B;**图像修饰符**&#x200B;字段中指定的大量高级图像修改。 这些参数定义如下。 但是，请注意，AEM中的Dynamic Media不支持以下功能。
 
 * 颜色校正命令： `icc=`和`iccEmbed=`。
 * 基本模板化和文本渲染命令： `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=`和`textPs=`。
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-另请参阅AEM 6.5文档中的Dynamic Media [图像预设选项](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=zh-Hans#dynamic)。
+另请参阅AEM 6.5文档中的Dynamic Media [图像预设选项](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)。
 
 * [对齐](r-align.md)
 * [锚记](r-anchor.md)

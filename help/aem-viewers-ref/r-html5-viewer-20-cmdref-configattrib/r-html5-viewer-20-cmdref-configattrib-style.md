@@ -27,7 +27,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-CSS文件中的所有资源引用都是针对CSS文件位置解析的，而不是针对调用HTML页面的位置解析的。
+CSS文件中的所有资源引用都是根据CSS文件位置而不是调用HTML页面的位置解析的。
 
 ## 属性 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

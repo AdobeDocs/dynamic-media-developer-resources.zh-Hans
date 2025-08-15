@@ -53,7 +53,7 @@ ExportJob不支持以下资产类型：
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd：字符串</span> </p> </td> 
-   <td colname="col3"> <p>指定附加到ExportJob <span class="codeph"> convert</span>请求的<span class="codeph"> ImageServer</span>渲染URL字符串。 </p> <p>有关发送IS修饰符的详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hans" scope="external" format="html"> IS文档</a>。 </p> </td> 
+   <td colname="col3"> <p>指定附加到ExportJob <span class="codeph"> convert</span>请求的<span class="codeph"> ImageServer</span>渲染URL字符串。 </p> <p>有关发送IS修饰符的详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS文档</a>。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

@@ -41,11 +41,11 @@ ht-degree: 2%
 
 `http:// *`服务器`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-将`size=`应用于图层0以设置视图大小，而不是使用`wid=`和`hei=`。 此方法允许在不更改`labelImage`的最终大小的情况下调整`myImageId`的大小。 此外，请指定`scl=1`，否则复合图像可能会缩放到`attribute::DefaultPix`（除非该图像设置为0,0）。 修饰符`color=`在旋转之前将半不透明的背景颜色添加到文本框。
+将`size=`应用于图层0以设置视图大小，而不是使用`wid=`和`hei=`。 此方法允许在不更改`myImageId`的最终大小的情况下调整`labelImage`的大小。 此外，请指定`scl=1`，否则复合图像可能会缩放到`attribute::DefaultPix`（除非该图像设置为0,0）。 修饰符`color=`在旋转之前将半不透明的背景颜色添加到文本框。
 
 两个图层的原点都设置为左上角，以实现所需的对齐。 图层1的原点在旋转后应用于`labelImage`。
 
-有关旋转文本的示例，请参阅[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)。
+有关旋转文本的示例，请参阅[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
 
 ## 另请参阅 {#section-c371ee0845994b7382c02e782d1bc595}
 

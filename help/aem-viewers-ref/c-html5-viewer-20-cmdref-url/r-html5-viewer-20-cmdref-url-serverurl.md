@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>相对或绝对图像服务根路径。 </p> <p> 指定到图像服务的相对或绝对路径，查看器将从中检索图像。 如果路径没有前导<span class="filepath"> /</span>，则它是相对于查看器HTML页的位置的。 如果路径前置<span class="filepath"> /</span>，则它指定同一服务器上的绝对路径。 </p> <p> 在查看器中启用电子邮件共享模块时，请仅使用绝对路径。 </p> </td> 
+   <td colname="col2"> <p>相对或绝对图像服务根路径。 </p> <p> 指定到图像服务的相对或绝对路径，查看器将从中检索图像。 如果路径没有前导<span class="filepath"> /</span>，则它是相对于查看器HTML页面的位置的。 如果路径前置<span class="filepath"> /</span>，则它指定同一服务器上的绝对路径。 </p> <p> 在查看器中启用电子邮件共享模块时，请仅使用绝对路径。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

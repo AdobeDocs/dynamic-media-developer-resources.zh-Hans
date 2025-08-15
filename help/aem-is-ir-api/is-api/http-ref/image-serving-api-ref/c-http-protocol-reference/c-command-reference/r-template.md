@@ -27,11 +27,11 @@ ht-degree: 4%
 
 *`template`*&#x200B;必须是模板正文包含在`catalog::Modifier`中的图像目录条目。
 
-当存在`template=`时，请求路径中指定的对象不会应用为层0的源。 但是，通过使用预定义的路径变量`$object$`作为`src=`值，可以将它作为`src=`或`mask=`引用到模板中的任何位置。 在请求路径中指定的对象的`catalog::Modifier`仅在模板中应用`$object$`的替换，而始终应用`catalog::PostModifier`。
+当存在`template=`时，请求路径中指定的对象不会应用为层0的源。 但是，通过使用预定义的路径变量`src=`作为`mask=`值，可以将它作为`$object$`或`src=`引用到模板中的任何位置。 在请求路径中指定的对象的`catalog::Modifier`仅在模板中应用`$object$`的替换，而始终应用`catalog::PostModifier`。
 
 层0在模板主体中定义，可以是图像、纯色、文本、嵌套或嵌入的请求层。
 
-将&#x200B;*`object`*&#x200B;与`template=`一起使用时，已忽略&#x200B;*`object`*&#x200B;的`catalog:PostModifier`。
+将`catalog:PostModifier`与&#x200B;*`object`*&#x200B;一起使用时，已忽略&#x200B;*`object`*&#x200B;的`template=`。
 
 ## 默认 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 

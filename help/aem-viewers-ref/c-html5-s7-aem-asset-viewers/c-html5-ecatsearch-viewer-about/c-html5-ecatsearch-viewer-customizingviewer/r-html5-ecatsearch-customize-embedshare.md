@@ -243,7 +243,7 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7embeddialog .s7closebutton
 ```
 
-关闭按钮的&#x200B;**CSS属性**
+关闭按钮的**CSS属性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -531,7 +531,7 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogviewarea
 ```
 
-对话框查看区域的&#x200B;**CSS属性**
+对话框查看区域的**CSS属性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -568,7 +568,7 @@ background-color: #ffffff;
 
 如果此容器的高度看起来比主对话框区域大，则组件会自动启用垂直滚动。
 
-对话框正文的&#x200B;**CSS属性**
+对话框正文的**CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -595,7 +595,7 @@ background-color: #ffffff;
 
 此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面各个位置的文本。
 
-对话框标签的&#x200B;**CSS属性。 &#x200B;**
+对话框标签的**CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持可能值为`true`和`false`的`expanded`属性选择器。 组合框显示预定义的嵌入大小之一时使用值`true`，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时，将使用值`false`，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
+>组合框支持可能值为`expanded`和`true`的`false`属性选择器。 组合框显示预定义的嵌入大小之一时使用值`true`，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时，将使用值`false`，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
 
 示例 — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 

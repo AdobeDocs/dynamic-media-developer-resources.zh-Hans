@@ -16,7 +16,7 @@ ht-degree: 0%
 
 交互式视频查看器显示的某些内容需要进行本地化。 此类内容包括用户界面元素工具提示和当视频无法播放时显示的错误消息。
 
-查看器中的每个可本地化的文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为任意数量的区域设置用户定义的值。
+查看器中可本地化的每个文本内容都由名为SYMBOL的特殊查看器SDK标识符表示。 任何SYMBOL都具有随现成查看器提供的英语区域设置(`"en"`)的默认关联文本值。 它还可以根据需要为任意数量的区域设置用户定义的值。
 
 当查看器启动时，它会检查当前区域设置，查看此类区域设置的每个受支持的SYMBOL是否存在用户定义的值。 如果存在，则使用用户定义的值；否则，它会回退到现成的默认文本。
 
@@ -154,15 +154,15 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>“Facebook共享”按钮。 </p> </td> 
+   <td colname="col2"> <p>Facebook共享按钮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>“共享”按钮Twitter。 </p> </td> 
+   <td colname="col2"> <p>Twitter共享按钮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>行动面板关闭按钮。 </p> </td> 
+   <td colname="col2"> <p>call to action面板的“关闭”按钮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.错误</span> </p> </td> 

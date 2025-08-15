@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ` *[!DNL catalogPath]*`是绝对或相对文件路径/名称。 *[!DNL requestPath]*&#x200B;必须为相对文件路径/名称。
 
-可在[!DNL PlatformServer.conf]中定义多个`PS::staticContent.rootPaths`值。 这允许跨多个文件系统分发源数据文件。 [!DNL Platform Server]将按指定的顺序尝试备用路径，直到找到数据文件为止。
+可在`PS::staticContent.rootPaths`中定义多个[!DNL PlatformServer.conf]值。 这允许跨多个文件系统分发源数据文件。 [!DNL Platform Server]将按指定的顺序尝试备用路径，直到找到数据文件为止。

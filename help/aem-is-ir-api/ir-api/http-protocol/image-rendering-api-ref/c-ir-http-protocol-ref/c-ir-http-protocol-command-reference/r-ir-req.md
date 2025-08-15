@@ -166,7 +166,7 @@ ht-degree: 3%
 
 映射数据未缩放到`wid=`或`hei=`或以其他方式修改。 响应MIME类型为`<text/xml>`。
 
-响应数据由包含一组`<area>`元素的`<map>`元素组成，类似于HTML`<AREA>`标记。
+响应数据由包含一组`<map>`元素的`<area>`元素组成，与HTML `<AREA>`标记类似。
 
 每个`<area>`元素都包含标准`type=`和`coord=`属性，以及指定晕影组名称或名称路径的`name=`属性。 如果相应对象组的掩码具有不连续的区域，则存在多个同名的`<area>`元素。
 
@@ -226,7 +226,7 @@ ht-degree: 3%
   <tr> 
    <td> <p> <span class="codeph"> image.pixTyp </span> </p> </td> 
    <td> <p> 字符串型 </p> </td> 
-   <td> <p> 回复图像类型，可以是“CMYK”、“RGB”或“BW”（用于灰度图像） </p> </td> 
+   <td> <p> 回复图像类型，可以是“CMYK”、“RGB”或“BW”（适用于灰度图像） </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -298,7 +298,7 @@ ht-degree: 3%
 
 `userdata`
 
-返回`vignette::UserData`的内容。 服务器将`vignette::UserData`中所有出现的`'??'`替换为行终止符(`<cr><lf>`)。 在响应MIME类型设置为&lt;text/plain>的情况下，将回复格式化为文本数据。
+返回`vignette::UserData`的内容。 服务器将`'??'`中所有出现的`vignette::UserData`替换为行终止符(`<cr><lf>`)。 在响应MIME类型设置为&lt;text/plain>的情况下，将回复格式化为文本数据。
 
 如果URL路径中指定的对象未解析为有效的晕影映射条目，或者`vignette::UserData`为空，则回复仅包含行终止符(`CR/LF`)。
 

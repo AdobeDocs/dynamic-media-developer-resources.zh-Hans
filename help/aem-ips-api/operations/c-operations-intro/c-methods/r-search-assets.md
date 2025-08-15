@@ -96,7 +96,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> Publish州选择。 </td> 
+   <td colname="col4"> 发布状态选择。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -180,7 +180,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 如果为true，则将从搜索结果中排除摄取主资产期间生成的副产品资产，例如翻录的PDF页面图像。 默认值为 false。 </td> 
+   <td colname="col4"> 如果为true，则在摄取主资产期间生成的副产品资产(例如翻录的PDF页面图像)将从搜索结果中排除。 默认值为 false。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 

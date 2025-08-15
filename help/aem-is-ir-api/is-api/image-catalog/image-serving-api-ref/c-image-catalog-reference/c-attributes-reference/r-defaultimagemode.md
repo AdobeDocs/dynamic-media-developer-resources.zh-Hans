@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ## 限制 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-当嵌套的图像渲染、FXG或`req=set`请求失败时，图像服务将还原为`DefaultImageMode=0`。
+当嵌套的图像渲染、FXG或`DefaultImageMode=0`请求失败时，图像服务将还原为`req=set`。
 
 ## 默认 {#section-9e318524a2a5496386901286748c7ee7}
 

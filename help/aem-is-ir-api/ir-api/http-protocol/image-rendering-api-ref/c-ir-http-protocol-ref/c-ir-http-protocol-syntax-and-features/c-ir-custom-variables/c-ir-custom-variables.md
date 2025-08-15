@@ -30,6 +30,6 @@ ht-degree: 0%
 
 通过在命令值中的任意位置嵌入变量名称（由前导和尾随`$`括起来）来引用变量。 例如，在命令名称后面的`=`与后续`&`或请求结尾之间。 服务器将每个出现的`$ [!DNL name]$`替换为`[!DNL string]`。 在命令名称（在命令的等号之前）和请求的路径部分中`$ [!DNL name]$`的任何匹配项都不会发生替换。
 
-自定义变量不能嵌套。 在`[!DNL string]`内出现的`$ [!DNL name]$`均不会被替换。 例如，请求片段`$var2=apple&$var1=my$var2$tree&text=$var1$`解析为`text=my$var2$tree`。
+自定义变量不能嵌套。 在`$ [!DNL name]$`内出现的`[!DNL string]`均不会被替换。 例如，请求片段`$var2=apple&$var1=my$var2$tree&text=$var1$`解析为`text=my$var2$tree`。
 
 `$`不是保留字符；它可能在请求中出现。 例如，`src=my$texture$file.tif`是有效的命令（假定存在名为`[!DNL my$texture$file.tif]`的材质目录条目或纹理文件），而`wid=$number$`则否，因为`wid=`需要数值参数。

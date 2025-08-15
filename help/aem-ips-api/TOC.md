@@ -1,24 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media图像生产系统API
 feature-set: Experience Manager Assets
 user-guide-description: IPS（图像生产系统） Web服务API使外部应用程序和第三方开发人员能够以编程方式访问IPS资源和功能。
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Dynamic Media Image Production System API {#image-production-api}
+# Dynamic Media图像生产系统API {#image-production-api}
 
-+ [关于Dynamic Media Image Production System API](c-overview.md)
++ [关于Dynamic Media图像生产系统API](c-overview.md)
 + [已弃用的调用](c-deprecated-calls.md)
 + [IPS Web服务WSDL版本](c-wsdl-versions.md)
-+ 操作方法{#operation-methods}
++ 操作方法 {#operation-methods}
    + [操作方法](operations/c-operations-intro/c-operations-intro.md)
-   + 操作参数{#operation-parameters}
+   + 操作参数 {#operation-parameters}
       + [操作参数概述](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -176,7 +176,7 @@ ht-degree: 3%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ 数据类型{#data-types}
++ 数据类型 {#data-types}
    + [数据类型](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [活动作业](types/c-data-types/r-active-job.md)
@@ -397,7 +397,7 @@ ht-degree: 3%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
-+ 字符串常量{#sting-constants}
++ 字符串常量 {#sting-constants}
    + [字符串常量](string-constants/c-string-constants/c-string-constants.md)
    + [活动作业状态](string-constants/c-string-constants/r-active-job-states.md)
    + [资产搜索系统字段](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -425,10 +425,10 @@ ht-degree: 3%
    + [Photoshop图层命名模式](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript颜色空间模式](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [配置文件类](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish State](string-constants/c-string-constants/r-publish-state.md)
+   + [发布状态](string-constants/c-string-constants/r-publish-state.md)
    + [属性集类型](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish上下文](string-constants/c-string-constants/r-publish-context.md)
-   + [Publish类型](string-constants/c-string-constants/r-publish-types.md)
+   + [发布上下文](string-constants/c-string-constants/r-publish-context.md)
+   + [发布类型](string-constants/c-string-constants/r-publish-types.md)
    + [区域形状](string-constants/c-string-constants/r-region-shape.md)
    + [搜索匹配模式](string-constants/c-string-constants/r-search-match-modes.md)
    + [方向排序](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,39 +438,39 @@ ht-degree: 3%
    + [用户角色](string-constants/c-string-constants/r-user-roles.md)
    + [用户排序字段](string-constants/c-string-constants/r-user-sort-fields.md)
    + [查看器类型](string-constants/c-string-constants/r-viewer-type.md)
-+ 错误{#faults}
++ 故障 {#faults}
    + [故障概述](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ 更改日志{#change-log}
++ 更改日志 {#change-log}
    + [更改日志](change-log/c-change-log.md)
-   + 版本6.0 {#version-6-0}
+   + 6.0 版 {#version-6-0}
       + [6.0 版](change-log/c-change-log/c-6/c-6.md)
       + [操作：新建和已修改](change-log/c-change-log/c-6/r-6-operations.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-6/r-6-types.md)
-   + 版本4.5 {#version-4-5}
+   + 4.5 版 {#version-4-5}
       + [4.5 版](change-log/c-change-log/c-4-5/c-4-5.md)
       + [操作：新建和已修改](change-log/c-change-log/c-4-5/r-4-5-operations.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [限制使用](change-log/c-change-log/c-4-5/r-restricted-use.md)
-   + 版本4.4 {#version-4-4}
+   + 4.4 版 {#version-4-4}
       + [4.4 版](change-log/c-change-log/c-4-4/c-4-4.md)
       + [操作：新建和已修改](change-log/c-change-log/c-4-4/r-4-4-operations.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-4-4/r-4-4-types.md)
       + [字符串常量：新增和已修改](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
-   + 版本4.2 {#version-4-2}
+   + 4.2 版 {#version-4-2}
       + [4.2 版](change-log/c-change-log/c-4-2/c-4-2.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-4-2/r-4-2-types.md)
-   + 版本4.0 {#version-4-0}
+   + 4.0 版 {#version-4-0}
       + [4.0 版](change-log/c-change-log/c-4-0/c-4-0.md)
       + [新增和变更](change-log/c-change-log/c-4-0/r-4-0-new.md)
-   + 版本3.8 {#version-3-8}
+   + 3.8 版 {#version-3-8}
       + [3.8 版](change-log/c-change-log/c-3-8/c-3-8.md)
       + [操作：新建和已修改](change-log/c-change-log/c-3-8/r-3-8-operations.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-3-8/r-3-8-types.md)
       + [字符串常量：新增和已修改](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
-   + 版本3.7 {#version-3-7}
+   + 3.7 版 {#version-3-7}
       + [3.7 版](change-log/c-change-log/c-3-7/c-3-7.md)
       + [操作：新建和已修改](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [数据类型：新增和已修改](change-log/c-change-log/c-3-7/r-3-7-types.md)

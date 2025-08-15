@@ -18,7 +18,7 @@ SvgRender组件是一个独立的Java应用程序。
 
 SVG配置设置位于[!DNL PlatformServer.conf]、[!DNL SVG.conf]、[!DNL ImageServerRegistry.xml]和[!DNL ServerSupervisorRegistry.xml]中。
 
-套接字连接用于在SvgRender和图像服务器之间进行通信。 端口号为27346。 如有必要，可以通过将[!DNL svg.conf]中的`SVGRender.port`和[!DNL ImageServerRegistry.xml]中的`<SVGTcpPort>`设置为新值来更改它。
+套接字连接用于在SvgRender和图像服务器之间进行通信。 端口号为27346。 如有必要，可以通过将`SVGRender.port`中的[!DNL svg.conf]和`<SVGTcpPort>`中的[!DNL ImageServerRegistry.xml]设置为新值来更改它。
 
 ## 另请参阅 {#section-c085b47d54d44059bdaa67fd5e226e91}
 

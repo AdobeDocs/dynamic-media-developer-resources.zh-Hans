@@ -29,7 +29,7 @@ ht-degree: 1%
 **要在同一服务器上安装多个查看器：**
 
 1. 将查看器.war重命名为所需的上下文，并将文件部署到所需的位置。
-1. 在`config.js`中设置`this.isViewerRoot`参数。
+1. 在`this.isViewerRoot`中设置`config.js`参数。
 1. 在新创建的查看器文件夹的根目录中打开`config.js`。
 1. 将参数`this.isViewerRoot = "/s7viewers"`设置为`s7viewers.war`文件的上下文。 例如，`"/s7viewers-4.0"`。
 1. 保存文件并关闭。

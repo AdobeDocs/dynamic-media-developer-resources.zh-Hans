@@ -1,5 +1,5 @@
 ---
-description: 图像服务实用程序指南包含有关与Dynamic Media图像服务器和图像渲染一起使用的实用程序的信息。
+description: 图像服务实用程序指南包含有关用于Dynamic Media图像服务器和图像渲染的实用程序的信息。
 solution: Experience Manager
 title: 图像服务实用程序
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 图像服务实用程序{#image-serving-utilities}
 
-图像服务实用程序指南包含有关与Dynamic Media图像服务器和图像渲染一起使用的实用程序的信息。
+图像服务实用程序指南包含有关用于Dynamic Media图像服务器和图像渲染的实用程序的信息。
 
 * [实用程序的位置](c-location-of-utilities.md)
 * [集成电路](r-ic.md)

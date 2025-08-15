@@ -22,12 +22,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">格式</span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>JPEG有损。 </p> </td> 
+  <td class="stentry"> <p>JPEG的亏损。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>JPG有损。 </p> </td> 
+  <td class="stentry"> <p>JPG的亏损。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,12 +57,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>有损JPEG和嵌入到Macromedia swf文件中的Deflate-compressed蒙版。 </p> </td> 
+  <td class="stentry"> <p>有损JPEG和嵌入到Macromedia swf文件中的deflate-compressed蒙版。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>pdf </p> </td> 
-  <td class="stentry"> <p>嵌入到PDF中的图像。 </p> </td> 
+  <td class="stentry"> <p>PDF中嵌入的图像。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -72,12 +72,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif </p> </td> 
-  <td class="stentry"> <p>256色GIF。 </p> </td> 
+  <td class="stentry"> <p>GIF，256色。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif-alpha </p> </td> 
-  <td class="stentry"> <p>255色GIF加上键色透明度。 </p> </td> 
+  <td class="stentry"> <p>GIF具有255色和关键色透明度。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
@@ -118,9 +118,9 @@ ht-degree: 4%
 
 *`pixelType`*&#x200B;在未指定`icc=`时影响输出色彩空间转换；应用与&#x200B;*`pixelType`*&#x200B;对应的默认色彩配置文件。 如果禁用颜色管理，则应用朴素转换。 *`pixelType`*&#x200B;在指定`icc=`时忽略，它决定了输出像素类型。
 
-*`compression`*&#x200B;仅在将tif、tif-alpha或PDF指定为&#x200B;*`format`*&#x200B;时才允许。 有关这些图像格式支持的压缩选项，请参阅下表。
+仅当将tif、tif-alpha或PDF指定为&#x200B;*`compression`*&#x200B;时才允许&#x200B;*`format`*。 有关这些图像格式支持的压缩选项，请参阅下表。
 
-`qlt-`为以下格式设置JPEG编码选项：JPEG、使用JPEG压缩的TIFF、使用JPEG压缩的PDF和SWF文件。 如果`fmt=gif`或`fmt=gif-alpha`，则使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+`qlt-`为以下格式设置JPEG编码选项：JPEG、使用JPEG压缩的TIFF、使用JPEG压缩的PDF和SWF文件。 如果`quantize=`或`fmt=gif`，则使用`fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
 对于所有格式和像素类型，每像素分量将返回8位。
 
@@ -169,7 +169,7 @@ ht-degree: 4%
    <td colname="col1"> <p>swf， swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb，灰度 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p>(Flash Player会忽略嵌入的ICC配置文件。) </p> </td> 
+   <td colname="col4"> <p>否 </p> <p>（Flash Player会忽略嵌入的ICC配置文件。） </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>，<span class="codeph">属性：：TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ ht-degree: 4%
 
 ## 默认 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`*&#x200B;默认为`attribute::Format`，*`tiffCompression`*&#x200B;默认为`attribute::TiffEncoding`。 *`pixelType`*&#x200B;如果未指定`icc=`，则默认为`rgb`，否则它对应于指定ICC配置文件的像素类型。
+*`format`*&#x200B;默认为`attribute::Format`，*`tiffCompression`*&#x200B;默认为`attribute::TiffEncoding`。 *`pixelType`*&#x200B;如果未指定`rgb`，则默认为`icc=`，否则它对应于指定ICC配置文件的像素类型。
 
 ## 另请参阅 {#section-c55efc881fc94c70bff91b870e026a7b}
 

@@ -103,14 +103,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-在使用SDK API时，请务必按照[Viewer SDK命名空间]中的说明使用正确的完全限定的SDK命名空间
+在使用SDK API时，请务必使用[查看器SDK命名空间]中所述的正确完全限定的SDK命名空间
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153)。
 
 有关特定组件的更多信息，请参阅查看器SDK API文档。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`null`。
+`{Object}`对查看器SDK组件的引用。 如果`null`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`componentId`。
 
 ## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

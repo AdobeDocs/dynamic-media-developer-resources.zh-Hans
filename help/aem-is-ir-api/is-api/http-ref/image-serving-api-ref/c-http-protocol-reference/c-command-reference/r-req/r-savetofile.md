@@ -62,7 +62,7 @@ ht-degree: 1%
 
 如果成功，则返回HTTP响应状态200；如果请求失败或超时，则返回403。 响应具有MIME类型`text/plain`且不可缓存。
 
-重要信息必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 如果`attribute::SavePath`为空，`saveToFile=`将失败。
+重要信息必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 如果`saveToFile=`为空，`attribute::SavePath`将失败。
 
 *`file`*&#x200B;是必需的，并且必须是与`attribute::SavePath`组合的相对路径。 图像服务不会创建文件夹。 目标文件夹必须存在于服务器上，并且具有适当的权限设置，图像服务才能创建文件。
 

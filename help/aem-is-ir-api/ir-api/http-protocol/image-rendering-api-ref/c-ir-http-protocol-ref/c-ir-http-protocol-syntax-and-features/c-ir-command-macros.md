@@ -18,7 +18,7 @@ ht-degree: 0%
 
 `$ *[!DNL name]*$`
 
-***[!DNL name]***&#x200B;宏名称
+***[!DNL name]***宏名称
 
 宏在单独的宏定义文件中定义，这些文件可以附加到材料目录或缺省目录。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-由于第三个请求的`qlt=`不同，在调用宏后，软件将覆盖该值（在&#x200B;*`$render$`之前指定`qlt=`*&#x200B;无效）。
+由于第三个请求的`qlt=`不同，在调用宏后，软件将覆盖该值（在`qlt=` *之前指定* `$render$`无效）。
 
 **另请参阅**
 

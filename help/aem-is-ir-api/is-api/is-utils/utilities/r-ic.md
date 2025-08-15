@@ -18,9 +18,9 @@ ht-degree: 0%
 
 `ic`是一个命令行工具，可将图像文件转换为优化的金字塔TIFF格式(PTIFF)。 虽然图像服务可以处理图像而不进行转换，但我们建议将所有大于512x512像素的图像转换为PTIFF。 此转换可确保最佳服务器性能和资源使用率，并最大限度地缩短响应时间。
 
-建议对包含照片内容的PTIFF文件进行JPEG编码（指定`-jpegcompress`）。 计算机生成的内容可从无损压缩（`-deflatecompress`或`-lzwcompress`）中受益。 除非需要进行色彩转换或像素类型转换，否则将JPEG源图像数据传送到PTIFF而不进行解码，以避免质量下降。 在这种情况下，指定的压缩选项仅适用于较低分辨率的金字塔级别。
+建议对包含照片内容的PTIFF文件进行JPEG编码（指定`-jpegcompress`）。 计算机生成的内容可从无损压缩（`-deflatecompress`或`-lzwcompress`）中受益。 除非需要进行颜色转换或像素类型转换，否则JPEG源图像数据将传送到PTIFF而不进行解码，以避免质量下降。 在这种情况下，指定的压缩选项仅适用于较低分辨率的金字塔级别。
 
-如果不转换大图像，则不必设置控制要使用多少内存的参数。 但是，如果是，请使用下面描述的`-maxmem`设置再分配`ic`内存。 计算所需内存量的一个好的经验法则是将图像宽度乘以图像高度再乘以通道数。 例如，对于Alpha乘以3的RGB图像，为4。 此外，如果每个组件的通道为16位，而不是8位，则最终结果会翻倍。
+如果不转换大图像，则不必设置控制要使用多少内存的参数。 但是，如果是，请使用下面描述的`ic`设置再分配`-maxmem`内存。 计算所需内存量的一个好的经验法则是将图像宽度乘以图像高度再乘以通道数。 例如，对于Alpha乘以3的RGB图像，为4。 此外，如果每个组件的通道为16位，而不是8位，则最终结果会翻倍。
 
 ## 使用 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -85,7 +85,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominance </span> </p> </td> 
-   <td colname="col2"> <p>禁用JPEG色度缩减像素采样（可提高彩色文本和图形的质量）。 这对CMYK或灰度的输出图像没有影响。 </p> </td> 
+   <td colname="col2"> <p>禁用JPEG色度缩减像素采样（可提高颜色文本和图形的质量）。 这对CMYK或灰度的输出图像没有影响。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname">数量</span>&gt; &lt; <span class="varname">半径</span>&gt; &lt; <span class="varname">阈值</span>&gt; &lt; <span class="varname">单色</span>&gt; </span> </p> </td> 
@@ -279,7 +279,7 @@ ht-degree: 0%
    <td> <p> 如果存在，调色板中的透明度值将转换为Alpha。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <b>JPG</b> <p> (JFIF/JPEG) </p> </td> 
+   <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
    <td> <p> CMYK | RGB | 灰色 </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
@@ -307,7 +307,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <b>TIFF</b> </td> 
+   <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 灰色 | 灰色A | 已索引 </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 未压缩 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | 数据包位 </p> </td> 
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 可以在EPS、JPG、PSD、PNG和TIFF文件中识别嵌入的ICC配置文件。
 
-可以在EPS、JPG、PSD和TIFF文件中识别嵌入路径和XMP元数据。
+可以在EPS、JPG、PSD和XMP文件中识别嵌入路径和TIFF元数据。
 
 ## 示例 {#section-3c1986b30315431989bd76b1ee5bef6d}
 

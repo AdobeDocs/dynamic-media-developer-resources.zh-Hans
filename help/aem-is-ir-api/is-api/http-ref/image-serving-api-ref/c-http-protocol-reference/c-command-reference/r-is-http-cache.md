@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## 属性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`catalog::Expiration`具有负值），将忽略*`clientControl`*选项。
+请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`clientControl`具有负值），将忽略*`catalog::Expiration`*选项。
 
 客户端缓存控制（仅限`on`和`off`）也可用于[!DNL /is/content/]处的静态内容请求。
 

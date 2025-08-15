@@ -24,4 +24,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 [!DNL default.ini]中的`attribute::RootId`必须为空。
+>除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 `attribute::RootId`中的[!DNL default.ini]必须为空。

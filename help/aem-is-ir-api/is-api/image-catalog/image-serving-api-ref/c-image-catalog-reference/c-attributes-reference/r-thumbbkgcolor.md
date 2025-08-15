@@ -1,5 +1,5 @@
 ---
-description: 缩略图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像的区域的RGB值。
+description: 缩略图的默认背景颜色。 RGB值，用于填充不包含实际图像数据的输出缩略图图像的区域。
 solution: Experience Manager
 title: ThumbbkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ThumbbkgColor{#thumbbkgcolor}
 
-缩略图的默认背景颜色。 用于填充不包含实际图像数据的输出缩略图图像的区域的RGB值。
+缩略图的默认背景颜色。 RGB值，用于填充不包含实际图像数据的输出缩略图图像的区域。
 
 仅用于缩略图请求(`req=tmb`)以及将`catalog::ThumbType`设置为2或3的情况。
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 此字段中的命令始终覆盖HTTP请求和`catalog::Modifier`中的命令。
 
-如果某些图像需要特殊设置（通常由URL控制），例如`qlt=`或`resmode=`，则`catalog::PostModifier`非常有用。 `catalog::Modifier`应该用于设置图像目录中的大多数IS命令。
+如果某些图像需要特殊设置（通常由URL控制），例如`catalog::PostModifier`或`qlt=`，则`resmode=`非常有用。 `catalog::Modifier`应该用于设置图像目录中的大多数IS命令。
 
 `catalog::PostModifier`中允许使用宏，只要这些宏是在同一目录或默认目录中定义的。 也可以使用自定义变量。
 

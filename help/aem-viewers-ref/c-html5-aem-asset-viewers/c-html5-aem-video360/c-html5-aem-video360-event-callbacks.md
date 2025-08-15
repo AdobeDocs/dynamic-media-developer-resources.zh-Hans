@@ -25,7 +25,7 @@ ht-degree: 0%
 
    * `objID {String}`当前未使用。
    * `compClass {String}`当前未使用。
-   * `instName {String}`触发事件的HTML5查看器SDK组件的实例名称。
+   * `instName {String}`触发事件的HTML5 Viewer SDK组件的实例名称。
    * `timeStamp {Number}`事件时间戳。
    * `eventInfo {String}`事件有效负载。
 

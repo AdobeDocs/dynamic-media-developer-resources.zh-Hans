@@ -97,9 +97,9 @@ ht-degree: 1%
 
 ## 翻译过程 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-给定上面的示例翻译映射和请求`/is/image/myCat/myItem?req=&locale=nl`，服务器首先在区域设置映射中查找“`nl`”。 匹配的条目`nl,N`指示对于每个&#x200B;*`stringElement`*，应返回标记为`^loc=N^`的&#x200B;*`localizedString`*。 如果&#x200B;*`stringElement`*&#x200B;中不存在此&#x200B;*`localizationToken`*，则返回空值。
+给定上面的示例翻译映射和请求`/is/image/myCat/myItem?req=&locale=nl`，服务器首先在区域设置映射中查找“`nl`”。 匹配的条目`nl,N`指示对于每个&#x200B;*`stringElement`*，应返回标记为&#x200B;*`localizedString`*&#x200B;的`^loc=N^`。 如果&#x200B;*`localizationToken`*&#x200B;中不存在此&#x200B;*`stringElement`*，则返回空值。
 
-假设`myCat/myItem`的`catalog::UserData`包含以下内容（为清楚起见，插入了换行符）：
+假设`catalog::UserData`的`myCat/myItem`包含以下内容（为清楚起见，插入了换行符）：
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 

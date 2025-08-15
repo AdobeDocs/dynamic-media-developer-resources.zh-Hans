@@ -23,4 +23,4 @@ ht-degree: 6%
 | 名称 | 类型 | 说明 |
 |---|---|---|
 | 创作者 | `xsd:boolean` | 如果为true，则包括用户的Web服务用户帐户，该帐户是指定从Dynamic Media CDN接收电子邮件确认的电子邮件列表。 |
-| ccOthersArray | `types:EmailArray` | 用于从Dynamic Media CDN接收确认通知的电子邮件地址数组（最多5个）。 |
+| ccOthersArray | `types:EmailArray` | 指定用于从Dynamic Media CDN接收确认通知的电子邮件地址数组（最多5个）。 |

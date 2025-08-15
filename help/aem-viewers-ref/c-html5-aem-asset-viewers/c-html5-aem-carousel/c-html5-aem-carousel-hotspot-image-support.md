@@ -22,8 +22,8 @@ ht-degree: 0%
 
 ## 概览热点 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-这些类型的热点或图像映射应使用Adobe Experience Manager的Dynamic Media中的“快速视图”操作类型进行创作。 当用户激活此类热点或图像映射时，查看器运行`quickViewActivate` JavaScript回调并将热点或图像映射数据传递给它。 嵌入网页应侦听此回调。 在触发页面时，它会打开自己的概览实施。
+这些类型的热点或图像映射应使用Adobe Experience Manager的Dynamic Media中的“快速查看”操作类型进行创作。 当用户激活此类热点或图像映射时，查看器运行`quickViewActivate` JavaScript回调并将热点或图像映射数据传递给它。 嵌入网页应侦听此回调。 在触发页面时，它会打开自己的概览实施。
 
 ## 重定向到外部网页 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-在Experience Manager的Dynamic Media中为操作类型“快速视图”创作的热点或图像映射会将用户重定向到外部URL。 根据创作期间所做的设置，URL将在新的浏览器选项卡、同一窗口或指定的浏览器窗口中打开。
+在Experience Manager的Dynamic Media中为操作类型“Quickview”创作的热点或图像映射会将用户重定向到外部URL。 根据创作期间所做的设置，URL将在新的浏览器选项卡、同一窗口或指定的浏览器窗口中打开。

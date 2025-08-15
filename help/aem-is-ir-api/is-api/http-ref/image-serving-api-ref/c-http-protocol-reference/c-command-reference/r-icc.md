@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ## 默认 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`fmt=`指定的图像类型匹配的输出配置文件(`attribute::IccProfile*`)。
+如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`attribute::IccProfile*`指定的图像类型匹配的输出配置文件(`fmt=`)。
 
 如果未指定，*`renderIntent`*&#x200B;继承自`attribute::IccRenderIntent`，*`blackpointComp`*&#x200B;继承自`attribute::IccBlackPointCompensation`，*`dither`*&#x200B;继承自`attribute::IccDither`。
 

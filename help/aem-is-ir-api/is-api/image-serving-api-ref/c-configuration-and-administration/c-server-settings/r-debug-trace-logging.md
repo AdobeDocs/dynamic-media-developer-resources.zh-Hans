@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## SV：：log — 服务器主管跟踪日志文件路径 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Server Supervisor日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 服务器主管将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议将所有日志文件发送到与[!DNL Platform Server]日志文件(`PS::LogFolder`)相同的文件夹，以使用[!DNL Platform Server] (`PS::LogDays`)实现的日志文件管理。 默认值为[!DNL logs/Supervisor.log]。
+Server Supervisor日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 服务器主管将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议将所有日志文件发送到[!DNL Platform Server]日志文件(`PS::LogFolder`)所在的文件夹，以使用[!DNL Platform Server] (`PS::LogDays`)实施的日志文件管理。 默认值为[!DNL logs/Supervisor.log]。
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Server Supervisor日志文件的文件夹和基本文件名。 路径可以是�
 
 ## IS：：Log — 映像服务器调试日志文件路径 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-映像服务器跟踪日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 ImageServer将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议您将图像服务器日志文件发送到与[!DNL Platform Server]日志文件(`PS::LogFolder`)相同的文件夹，以使用[!DNL Platform Server]实现的日志文件管理（请参阅`PS::LogDays`）。
+映像服务器跟踪日志文件的文件夹和基本文件名。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 ImageServer将连字符和当前日期(*[!DNL -yyyy-mm-dd]*)附加到文件名（在文件后缀之前，如果有的话）。 Adobe建议您将图像服务器日志文件发送到与[!DNL Platform Server]日志文件(`PS::LogFolder`)相同的文件夹，以使用由[!DNL Platform Server]实现的日志文件管理（请参阅`PS::LogDays`）。
 
 >[!NOTE]
 >
 >在更改此设置之前，必须创建新文件夹。 确保设置了访问权限，以便图像服务具有必要的创建、读取和写入权限。
 
-## IS：TraceClient — 图像服务器调试日志级别 {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient — 映像服务器调试日志级别 {#section-3851f1f68e404430985c629ac80534db}
 
 日志级别可以是1、2、3或4（默认值为2）
 

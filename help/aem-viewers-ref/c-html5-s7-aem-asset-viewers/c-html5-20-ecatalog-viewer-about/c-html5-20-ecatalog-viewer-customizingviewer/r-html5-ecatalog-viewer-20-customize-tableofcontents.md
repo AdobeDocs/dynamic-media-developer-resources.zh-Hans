@@ -200,7 +200,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->通过为`s7index` CSS类设置`display:none`，可以完全隐藏页面索引。
+>通过为`display:none` CSS类设置`s7index`，可以完全隐藏页面索引。
 
 示例1 — 设置一个页面索引，其中最小宽度为40像素，最大宽度为70像素，右侧具有5像素边距：
 

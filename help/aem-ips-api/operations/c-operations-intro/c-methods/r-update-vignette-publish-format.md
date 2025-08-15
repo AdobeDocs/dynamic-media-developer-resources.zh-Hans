@@ -30,8 +30,8 @@ ht-degree: 5%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 公司句柄。 |
-| vignetteFormatHandle | `xsd:string` | 是 | Publish格式句柄。 |
-| 名称 | `xsd:string` | 否 | Publish格式名称。 |
+| vignetteFormatHandle | `xsd:string` | 是 | 发布格式句柄。 |
+| 名称 | `xsd:string` | 否 | 发布格式名称。 |
 | targetwidth | `xsd:int` | 是 | 指定生成的晕影视图的目标宽度（以像素为单位）。 使用零以使输出晕影具有与主晕影相同的大小。 |
 | targetHeight | `xsd:int` | 是 | 指定生成的晕影视图的目标高度（以像素为单位）。 使用零以使输出晕影具有与主晕影相同的大小。 |
 | createPyramid | `xsd:boolean` | 是 | 创建为图像渲染服务器上的缩放而优化的金字塔晕影。 从目标晕影大小字段设置的最大大小开始，这会在单个晕影输出文件中创建多个大小视图。 每个后续视图大小都减半，直到宽度和高度在128x128像素以内。 |

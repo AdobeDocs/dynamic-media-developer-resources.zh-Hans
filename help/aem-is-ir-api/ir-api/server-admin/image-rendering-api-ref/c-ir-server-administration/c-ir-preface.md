@@ -1,5 +1,5 @@
 ---
-description: 本文档讨论了服务器管理问题，并介绍了Dynamic Media图像渲染的配置设置。
+description: 本文档讨论了服务器管理问题，并描述了Dynamic Media图像渲染的配置设置。
 solution: Experience Manager
 title: 服务器管理前言
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 服务器管理前言{#server-administration-preface}
 
-本文档讨论了服务器管理问题，并介绍了Dynamic Media图像渲染的配置设置。
+本文档讨论了服务器管理问题，并描述了Dynamic Media图像渲染的配置设置。
 
 **目标受众**
 

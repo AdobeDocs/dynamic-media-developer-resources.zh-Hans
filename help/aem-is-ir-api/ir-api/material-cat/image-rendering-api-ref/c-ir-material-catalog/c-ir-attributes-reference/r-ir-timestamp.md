@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,13 @@ Java™格式的日期/时间值。 可以是自午夜1970 UTC/GMT年1月1日以
 
 *[!DNL zzz]*&#x200B;是三或四个字符的时区代码，如“GMT”或“PST”。 夏令时必须在时区代码中说明（例如，太平洋标准时间为“PST”，而太平洋夏令时为“PDT”）。
 
-*[!DNL offset]*&#x200B;是相对于GMT的时区偏移，以小时或小时：分钟为单位。 例如，“PDT”等同于“GMT -7”。
+*[!DNL offset]*&#x200B;是以小时或小时为单位的时区偏移:minutes，相对于GMT。 例如，“PDT”等同于“GMT -7”。
 
-字符串格式日期/时间值的所有元素都必须存在。 如果日期/时间值的格式不正确，将忽略该值，并改用[!DNL *[!DNL catalog]*.ini]文件的修改时间。
+字符串格式日期/时间值的所有元素都必须存在。 如果日期/时间值的格式不正确，将忽略该值，并改用[！DNL *[!DNL catalog]*.ini]文件的修改时间。
 
 ## 默认 {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-如果为空或未定义，则服务器将使用此[!DNL *[!DNL catalog]*.ini]文件的文件修改时间。
+如果为空或未定义，则服务器将使用此[！DNL *[!DNL catalog]*.ini]文件的文件修改时间。
 
 ## 另请参阅 {#section-764188f9b1734ad1a6270f5fecd28532}
 

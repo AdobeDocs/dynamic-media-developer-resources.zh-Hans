@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## HTML5视频查看器 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* 仅软件HLS和FlashHDS播放支持`IntialBitRate`修饰符。 使用本机播放器播放时，此选项不起作用。
+* 仅软件HLS和Flash HDS播放支持`IntialBitRate`修饰符。 使用本机播放器播放时，此选项不起作用。
 * 不支持OGG和WebM渐进式播放。
 * 浏览器缩放导致视频播放器的显示大小不正确(包括Windows®控制面板显示设置)。
 * 在Safari上使用HLS流播放的视频搜寻不一致。
@@ -70,6 +70,6 @@ ht-degree: 0%
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1或更高版本： Internet插件设置可阻止Flash视频播放。
+* Safari 6.1或更高版本： Internet插件设置阻止Flash视频播放。
 * 在Safari上使用HLS流播放的视频搜寻不一致。
 * 无法使用HLS流在Safari 6上搜寻视频结尾。

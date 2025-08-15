@@ -50,7 +50,7 @@ ht-degree: 0%
 
 有效规则集XML文件中始终需要`<?xml>`和`<ruleset>`元素，即使未定义实际规则也是如此。
 
-允许一个包含任意数量的`<rule>`元素的`<ruleset>`元素。
+允许一个包含任意数量的`<ruleset>`元素的`<rule>`元素。
 
 预处理规则文件的内容区分大小写。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## OnMatch属性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-可以使用`<rule>`元素的`OnMatch`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error`。
+可以使用`OnMatch`元素的`<rule>`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error`。
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 

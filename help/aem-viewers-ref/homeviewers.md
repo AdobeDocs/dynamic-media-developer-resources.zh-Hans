@@ -1,6 +1,6 @@
 ---
-title: AdobeDynamic Media查看器参考指南
-description: AdobeDynamic Media查看器参考指南，用于基本缩放、ecatalog、缩放、ecatalog搜索、弹出、内联缩放、混合媒体、旋转、视频、轮播、维度、交互式视频、交互式图像和视频360查看器。
+title: Adobe Dynamic Media查看器参考指南
+description: Adobe Dynamic Media查看器参考指南，用于基本缩放、ecatalog、缩放、ecatalog搜索、弹出、内联缩放、混合媒体、旋转、视频、轮播、维度、交互式视频、交互式图像和视频360查看器。
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f

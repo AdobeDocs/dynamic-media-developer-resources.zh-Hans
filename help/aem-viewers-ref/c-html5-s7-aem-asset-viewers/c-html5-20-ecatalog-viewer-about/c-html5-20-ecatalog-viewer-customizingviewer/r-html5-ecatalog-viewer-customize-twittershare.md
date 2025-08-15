@@ -1,6 +1,6 @@
 ---
-title: twitter共享
-description: twitter共享工具包括一个添加到社交共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
+title: Twitter共享
+description: Twitter共享工具包含添加到“社交”共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# twitter共享{#twitter-share}
+# Twitter共享{#twitter-share}
 
-twitter共享工具包括一个添加到社交共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
+Twitter共享工具包含添加到“社交”共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-“Twitter共享”按钮的外观可通过以下CSS类选择器来控制：
+Twitter共享按钮的外观可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogviewer .s7twittershare
 ```
 
-twitter共享工具的&#x200B;**CSS属性**
+Twitter共享工具的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 

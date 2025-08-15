@@ -43,7 +43,7 @@ ht-degree: 14%
 | 名称 | 类型 | 必需 | 说明 |
 |---|---|---|---|
 | companyHandle | `xsd:string` | 是 | 处理公司。 |
-| assetHandleArray | ` `类型：HandleArray” | 是 | 要查询活动（标记为发布）上下文的资源列表。 |
+| assetHandleArray | ` `类型:HandleArray | 是 | 要查询活动（标记为发布）上下文的资源列表。 |
 
 **输出(batchGetAssetPublishContextsReturn)**
 

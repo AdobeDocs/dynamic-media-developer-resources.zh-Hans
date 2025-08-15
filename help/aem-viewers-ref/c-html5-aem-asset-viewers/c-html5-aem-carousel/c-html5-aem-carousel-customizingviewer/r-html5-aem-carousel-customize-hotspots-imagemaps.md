@@ -84,15 +84,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景</span> </p> </td> 
-   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此颜色。 </p> </td> 
+   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">背景色</span> </p> </td> 
-   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此颜色。 </p> </td> 
+   <td colname="col2"> <p>图像映射区域填充颜色。 </p> <p>以<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>格式指定此颜色。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">边框</span> </p> </td> 
-   <td colname="col2"> <p> 图像映射区域边框样式。 应指定为“<span class="codeph">宽度</span> <span class="codeph">纯色</span>”，其中<span class="codeph">宽度</span>以像素表示，<span class="codeph">颜色</span>设置为<span class="codeph"> #RRGGBB </span>、<span class="codeph">RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>。 </p> </td> 
+   <td colname="col2"> <p> 图像映射区域边框样式。 应指定为“<span class="codeph">宽度</span> <span class="codeph">纯色</span>”，其中<span class="codeph">宽度</span>以像素表示，<span class="codeph">颜色</span>设置为<span class="codeph"> #RRGGBB </span>、<span class="codeph"> RGB(R，G，B) </span>或<span class="codeph"> RGBA(R，G，B，A) </span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

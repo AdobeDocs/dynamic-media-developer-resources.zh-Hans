@@ -53,7 +53,7 @@ ht-degree: 1%
 }
 ```
 
-在桌面系统上，组件支持可应用于`.s7zoomview`类的`cursortype`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`cursortype`类的`.s7zoomview`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 

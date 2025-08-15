@@ -20,7 +20,7 @@ ht-degree: 1%
 
 *`reqId`*&#x200B;唯一请求标识符
 
-返回名为`catalogRecord.exists`的单个属性。 如果图像或默认目录中存在指定的目录条目，则属性值设置为“1”，否则属性值设置为“0”。 针对`/is/content`上下文的`req=exists`请求指示静态内容目录中是否存在指定记录。
+返回名为`catalogRecord.exists`的单个属性。 如果图像或默认目录中存在指定的目录条目，则属性值设置为“1”，否则属性值设置为“0”。 针对`req=exists`上下文的`/is/content`请求指示静态内容目录中是否存在指定记录。
 
 请求字符串中的其他命令将被忽略。 可使用基于`attribute::NonImgExpiration`的TTL来缓存HTTP响应。
 

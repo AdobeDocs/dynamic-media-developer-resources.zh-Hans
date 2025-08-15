@@ -1,6 +1,6 @@
 ---
 title: 验证安装
-description: 安装Dynamic Media图像服务后，应验证是否已安装。
+description: 安装Dynamic Media图像服务后，应验证安装。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 验证安装 {#verifying-the-installation}
 
-安装Dynamic Media图像服务后，应验证是否已安装。
+安装Dynamic Media图像服务后，应验证安装。
 
 映像服务器安装为Windows服务。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 检查响应中是否存在“`imageServer.`”项，这表示图像服务器正在侦听。
 >如果安装了，则可以使用文档和演示软件包的示例页面执行其他验证。

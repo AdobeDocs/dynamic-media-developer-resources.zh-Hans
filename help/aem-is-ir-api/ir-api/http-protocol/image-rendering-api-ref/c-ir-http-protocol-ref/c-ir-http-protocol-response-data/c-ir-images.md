@@ -20,4 +20,4 @@ HTTP响应MIME类型由`fmt=`确定，如果未指定`fmt=`，则它依赖于`at
 
 如果请求方法是无条件的`GET`或`HEAD`，则HTTP响应状态为“200 OK”。
 
-服务器可能会以状态“304”（未修改）回复，并且不会返回任何图像数据以响应条件性`GET`请求（在`request-header`中存在[!DNL If-Modified-Since]字段）。
+服务器可能会以状态“304”（未修改）回复，并且不会返回任何图像数据以响应条件性`GET`请求（在[!DNL If-Modified-Since]中存在`request-header`字段）。

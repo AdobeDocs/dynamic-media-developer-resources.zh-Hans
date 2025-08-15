@@ -25,7 +25,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-返回`catalog::UserData`的内容。 当指定“text”格式时，`catalog::UserData`中`??`的所有实例都替换为行终止符，并且末尾附加一个单行终止符(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应仅由单行终止符组成。 在请求“xml”或“json”格式时应用相应的格式。
+返回`catalog::UserData`的内容。 当指定“text”格式时，`??`中`catalog::UserData`的所有实例都替换为行终止符，并且末尾附加一个单行终止符(CR/LF)。 如果URL路径未解析为有效的目录条目，则响应仅由单行终止符组成。 在请求“xml”或“json”格式时应用相应的格式。
 
 请求字符串中的其他命令将被忽略。
 

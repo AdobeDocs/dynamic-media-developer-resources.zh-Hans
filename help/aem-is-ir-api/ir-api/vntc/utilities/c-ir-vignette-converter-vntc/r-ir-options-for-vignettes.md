@@ -39,7 +39,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -imagemap</span> </p></td> 
-  <td class="stentry"> <p>启用从晕影中提取图像映射文件。 将映射数据写入仅包含<span class="codeph"> &lt;map&gt;</span>元素的HTML文件。 输出文件的名称与输出图像文件的名称相同，但后缀为<span class="filepath"> .htm</span>。 如果指定命令但晕影中不存在映射数据，则会生成警告消息并且不创建文件。 </p></td> 
+  <td class="stentry"> <p>启用从晕影中提取图像映射文件。 映射数据将写入一个仅包含<span class="codeph"> &lt;map&gt;</span>元素的HTML文件。 输出文件的名称与输出图像文件的名称相同，但后缀为<span class="filepath"> .htm</span>。 如果指定命令但晕影中不存在映射数据，则会生成警告消息并且不创建文件。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 配置文件</span> </p></td> 
@@ -47,7 +47,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 金字塔</span> </p></td> 
-  <td class="stentry"> <p>创建金字塔晕影。 在渲染的图像将使用Dynamic Media缩放查看器显示时需要。 有关详细信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a>。 </p></td> 
+  <td class="stentry"> <p>创建金字塔晕影。 在渲染的图像要通过Dynamic Media缩放查看器显示时必需。 有关详细信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a>。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> — 缩略图<span class="varname"> ival</span></span> </p></td> 

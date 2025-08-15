@@ -1,5 +1,5 @@
 ---
-description: 将PDF文件中的文本转换为外框。
+description: 将PDF文件中的文本转换为大纲。
 solution: Experience Manager
 title: convertTextToOutline
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # convertTextToOutline{#converttexttooutlines}
 
-将PDF文件中的文本转换为外框。
+将PDF文件中的文本转换为大纲。
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 

@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: 流服务器URL前缀Flash。 生成具有req=mbrSet的多比特率f4m响应时使用的Flash流服务器URL前缀。
+description: Flash流服务器URL前缀。 生成具有req=mbrSet的多比特率f4m响应时使用的Flash Streaming Server URL前缀。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-流服务器URL前缀Flash。 生成具有req=mbrSet的多比特率f4m响应时使用的Flash流服务器URL前缀。
+Flash流服务器URL前缀。 生成具有req=mbrSet的多比特率f4m响应时使用的Flash Streaming Server URL前缀。
 
 ## 属性 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

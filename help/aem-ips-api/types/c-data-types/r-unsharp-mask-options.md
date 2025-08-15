@@ -20,7 +20,7 @@ ht-degree: 11%
 
 ## 参数 {#section-c3f0d03136ba4422819cb463bd393885}
 
-为带有`minOccurs=" *`n`*".`的`unsharpMaskOptions`选项指定一个值
+为带有`unsharpMaskOptions`n`minOccurs=" *`的`*".`选项指定一个值
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -92,4 +92,4 @@ ht-degree: 11%
 
 >[!MORELIKETHIS]
 >
->* [图像服务API引用：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=zh-Hans)
+>* [图像服务API引用：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

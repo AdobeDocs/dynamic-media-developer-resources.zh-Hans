@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Adobe将于2022年9月1日终止支持`ExcludeMasterVideoFromAVS`参数。 另请参阅[已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md)。
+>Adobe将于2022年9月1日终止对`ExcludeMasterVideoFromAVS`参数的支持。 另请参阅[已弃用的调用](/help/aem-ips-api/c-deprecated-calls.md)。
 
 从自适应视频集中排除主视频。
 

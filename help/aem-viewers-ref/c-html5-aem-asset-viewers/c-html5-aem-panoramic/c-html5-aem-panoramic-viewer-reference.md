@@ -1,6 +1,6 @@
 ---
 title: 全景查看器
-description: HTML5全景查看器是显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
+description: HTML5 Panoramic Viewer是一个显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
 keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 全景{#panoramic}
 
-HTML5全景查看器是显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
+HTML5 Panoramic Viewer是一个显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
 
 请参阅[系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
@@ -27,9 +27,9 @@ HTML5全景查看器是显示全景图像的图像查看器。 此查看器的�
 
 ## 使用全景查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5全景查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 该帮助程序文件集是单个JavaScript包含，以及此特定查看器、资源、CSS使用的所有HTML5 Viewer SDK组件。
-HTML5全景查看器既可以在弹出模式下使用(使用随IS-Viewers提供的生产就绪HTML页)，也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
-配置和外观设计与其他HTML5查看器的配置和外观设计类似。 所有外观设计均可通过自定义CSS获得。
+HTML5全景查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 该帮助程序文件集是单个JavaScript，其中包含此特定查看器、资源、CSS使用的所有HTML5 Viewer SDK组件。
+HTML5全景查看器既可以在弹出模式下使用(使用随IS-Viewers提供的生产就绪型HTML页面)，也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
+其配置和外观设计与其他HTML5查看器的配置和外观设计类似。 所有外观设计均可通过自定义CSS获得。
 
 查看所有查看者通用的[命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有查看者通用的[命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -70,13 +70,13 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的HTML元素或任何其他合适的方式加载查看器。
 
-建议您为弹出操作模式使用现成的HTML页面。 它名为[!DNL PanoramicViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
+建议您为弹出窗口操作模式使用现成的HTML页面。 它名为[!DNL PanoramicViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
 可以通过应用自定义CSS来实现可视化自定义。
 
-以下是在新窗口中打开查看器的HTML代码示例：
+以下是HTML代码示例，该代码将在新窗口中打开查看器：
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
@@ -107,7 +107,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL PanoramicViewer.js]。 [!DNL PanoramicViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
+   创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL PanoramicViewer.js]。 [!DNL PanoramicViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -143,7 +143,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
    可以通过以绝对单位为`.s7panoramicviewer`顶级CSS类声明查看器静态大小，也可以使用修饰符`stagesize`来设置查看器的静态大小。
 
-   CSS的大小调整可直接放置在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给AOD中的查看器预设记录或者使用样式命令显式传递。 有关使用CSS设置查看器样式的更多信息，请参阅自定义查看器一节。 下面是在“HTML”页中定义静态查看器大小的示例：
+   CSS的大小调整可直接放置在HTML页面或自定义查看器CSS文件中，该文件稍后将分配给AOD中的查看器预设记录或者使用样式命令显式传递。 有关使用CSS设置查看器样式的更多信息，请参阅自定义查看器一节。 以下是在HTML页面中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -164,7 +164,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
    完成上述步骤后，创建`s7viewers.PanoramicViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init(`)方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有containerId字段，该字段保存查看器容器ID的名称，以及包含查看器支持的配置参数的嵌套参数JSON对象。 在这种情况下，params对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为资产参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载将自动继续。
 
@@ -213,7 +213,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 **高度不受限制的响应式设计嵌入**
 
-通过响应式嵌入，网页通常具有某种灵活的布局，可指示查看者的容器DIV的运行时大小。 在本例中，我们假设网页允许查看器的容器DIV占用Web浏览器窗口大小的80%，并且其高度不受限制。 网页HTML代码可能如下所示：
+通过响应式嵌入，网页通常具有某种灵活的布局，可指示查看者的容器DIV的运行时大小。 在本例中，我们假设网页允许查看器的容器DIV占用Web浏览器窗口大小的80%，并且其高度不受限制。 HTML代码的网页可能如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -271,7 +271,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定义了宽度和高度的响应式设计嵌入**
 

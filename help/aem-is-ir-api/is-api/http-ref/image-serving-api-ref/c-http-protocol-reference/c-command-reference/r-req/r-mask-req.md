@@ -18,6 +18,6 @@ ht-degree: 0%
 
 `req=mask`
 
-支持与`req=img`相同的命令。 服务器以相同的方式处理，但服务器不返回RGB或RGBA数据，而是丢弃颜色信息并仅返回蒙版（alpha通道）数据。 回复数据格式和响应MIME类型由`fmt=`确定。
+支持与`req=img`相同的命令。 服务器以相同的方式处理，但服务器不会返回RGB或RGBA数据，而是丢弃颜色信息并仅返回蒙版（alpha通道）数据。 回复数据格式和响应MIME类型由`fmt=`确定。
 
 可使用基于`catalog::Expiration`的TTL来缓存HTTP响应。

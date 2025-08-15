@@ -123,7 +123,7 @@ vntc生成文本数据，该数据将发送到stderr或日志文件。
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">suffix=<span class="varname">字符串</span></span> </p></td> 
-  <td class="stentry"> <p>如果<span class="varname"> sourceFile</span>是晕影，则为<span class="codeph"> vnt</span>；如果<span class="varname"> sourceFile</span>是封包样式，则为<span class="codeph"> vnc</span>；如果<span class="varname"> sourceFile</span>是窗口覆盖样式，则为<span class="codeph"> vnw</span>。 </p></td> 
+  <td class="stentry"> <p>如果<span class="codeph"> sourceFile</span>是晕影，则为<span class="varname"> vnt</span>；如果<span class="codeph"> sourceFile</span>是封包样式，则为<span class="varname"> vnc</span>；如果<span class="codeph"> sourceFile</span>是窗口覆盖样式，则为<span class="varname"> vnw</span>。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 

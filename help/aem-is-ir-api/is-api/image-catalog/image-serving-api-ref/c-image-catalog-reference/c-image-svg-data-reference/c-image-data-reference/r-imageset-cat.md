@@ -52,7 +52,7 @@ ht-degree: 1%
 | `*`imageId`*` | IS图像引用（目录/ID） |
 | `*`swatchId`*` | IS图像引用（目录/ID） |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`标签`*]'}'` |
-| `*`rrggbb`*` | 纯色样本的打包6位十六进制RGB色值 |
+| `*`rrggbb`*` | 用于纯色样本的打包6位十六进制RGB色值 |
 | `*`标签`*` | 纯色样本的可选文本标签 |
 
 **分层样本集**
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 文本字符串。 `catalog::Id`值、绝对图像服务器文件路径或相对于`attribute::RootPath`的文件路径的逗号分隔列表。 同一图像在集中可能会被多次引用。 定义目录记录可出现在集合的任何位置。
 
-此字段参与文本字符串本地化。 除了&#x200B;*`label`*&#x200B;字符串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果所有分隔字段至少包含一个“`^loc=…^`”本地化令牌，则对其进行本地化。 有关详细信息，请参阅&#x200B;*HTTP协议引用*&#x200B;中的[文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
+此字段参与文本字符串本地化。 除了&#x200B;*`label`*&#x200B;字符串（*`solidColorSpecifier`*&#x200B;的一部分）之外，如果所有分隔字段至少包含一个“`^loc=…^`”本地化令牌，则对其进行本地化。 有关详细信息，请参阅[HTTP协议引用](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文本字符串本地化*。
 
 ## 默认 {#section-c3a60e360393478284f0f2d2da5b963b}
 

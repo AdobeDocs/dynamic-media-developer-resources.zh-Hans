@@ -33,7 +33,7 @@ ht-degree: 0%
 
 以前要求有效视频条目包含`catalog::VideoBitRate`值的要求现已放松。 该项可以包含&#x200B;`catalog::VideoBitRate`*或* `catalog::AudioBitRate`*或* `catalog::TotalStreamBitRate`的值。 要使视频条目有效，只需定义其中的一个即可。 请注意，`catalog::Path`和有效的视频文件扩展名的要求未发生更改。
 
-响应旨在供Apple和Flash流服务器使用，因此在结构上符合这些规范。 使用前缀`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成URL。
+响应旨在供Apple和Flash Streaming Server使用，因此在结构上符合这些规范。 使用前缀`attribute::HttpAppleStreamingContext`和`attribute::HttpFlashStreamingContext`生成URL。
 
 m3u8响应仅包含mp4文件（如果视频集中存在任何文件）。 如果没有mp4文件，则这些响应仅包含f4v文件。 如果既不存在mp4文件，也不存在f4v文件，则响应为空。
 

@@ -1,6 +1,6 @@
 ---
 title: TiffEncoding
-description: 编码格式TIFF。 指定TIFF图像的压缩格式（实际上是fmt=命令的第三个值的默认值）。
+description: TIFF编码格式。 指定TIFF图像的压缩格式（实际上是fmt=命令的第三个值的默认值）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # TiffEncoding{#tiffencoding}
 
-编码格式TIFF。 指定TIFF图像的压缩格式（实际上是`fmt=`命令的第三个值的默认值）。
+TIFF编码格式。 指定TIFF图像的压缩格式（实际上是`fmt=`命令的第三个值的默认值）。
 
 设置为`0`表示无压缩，`1`表示LZW，`2`表示deflate (ZIP)，`3`表示JPEG压缩。
 

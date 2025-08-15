@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 默认颜色空间 {#section-8cfe60808bce49968091995e4e521dba}
 
-每个图像目录（和默认目录）可以定义一组ICC配置文件，这些配置文件构成此目录的默认RGB空间 — 灰度、颜色和CMYK数据各有一个输入配置文件和一个输出配置文件。 请参阅
+每个图像目录（和默认目录）可以定义一组ICC配置文件，这些配置文件构成此目录的默认颜色空间 — 灰度、RGB和CMYK数据各有一个输入配置文件和一个输出配置文件。 请参阅
 [属性：：IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
 [attribute：：IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
 [attribute：：IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
@@ -54,7 +54,7 @@ Source图像可以嵌入ICC配置文件以定义输入颜色空间。 如果未�
 
 >[!NOTE]
 >
->命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`RGB操作。 仅当图层颜色空间具有RGB像素类型时，这些操作才会保持颜色保真度。 如果除了RGB之外，数据还使用天真的颜色转换转换为RGB，结果具有有限的颜色保真度。 此类图层的图层颜色空间应视为不确定。
+>命令`op_brightness=`、`op_colorbalance=`、`op_colorize=`、`op_contrast=`、`op_hue=`和`op_saturation=`是RGB操作。 仅当图层色彩空间具有RGB像素类型时，这些操作才会保持色彩保真度。 如果除了RGB之外，数据还通过天真的颜色转换转换为RGB，结果颜色保真度有限。 此类图层的图层颜色空间应视为不确定。
 
 颜色转换选项随`icc=`提供，如果未指定`icc=`，则随`attribute::IccRenderIntent`、`attribute::IccBlackPointCompensation`和`attribute::IccDither`提供。
 
@@ -76,7 +76,7 @@ Source图像可以嵌入ICC配置文件以定义输入颜色空间。 如果未�
 
 ## 包含的ICC颜色配置文件 {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-图像服务包括默认图像目录中的大多数标准AdobeICC配置文件。 可以通过这些配置文件的通用名称(例如，在Photoshop中看到)或使用较短的标识符访问这些配置文件。 下表列出了所有标准ICC配置文件。 当在`icc=`命令中通过其公用名引用配置文件时，必须将空格编码为`%20`。
+图像服务包括默认图像目录中的大多数标准Adobe ICC配置文件。 可以通过这些配置文件的通用名称(例如，在Photoshop中看到)或使用较短的标识符访问这些配置文件。 下表列出了所有标准ICC配置文件。 当在`icc=`命令中通过其公用名引用配置文件时，必须将空格编码为`%20`。
 
 可以将其他配置文件添加到标准配置文件，即添加到默认目录或特定图像目录。 有关详细信息，请参阅[ICC配置文件映射引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)。
 
@@ -88,19 +88,19 @@ Source图像可以嵌入ICC配置文件以定义输入颜色空间。 如果未�
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | AppleRGB | AppleRGB.icc |
-| `CIERGB` | CIERGB | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatchRGB | ColorMatchRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
+| `CIERGB` | CIE RGB | CIERGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC （1953年） | NTSC1953.icc |
 | `PAL` | PAL/SECAM | pal_SECAM.icc |
-| `ProPhoto` | ProPhotoRGB | ProPhoto.icm |
+| `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb色彩空间Profile.icm |
 | `WideGamutRGB` | 宽色域RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | 涂层的FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | 涂层纸FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `CoatedGraCol` | 涂层纸GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `CoatedFogra39` | 涂层的FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedGraCol` | 涂层的GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 欧洲ISO铜版FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Euroscale涂层纸 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -127,19 +127,19 @@ Source图像可以嵌入ICC配置文件以定义输入颜色空间。 如果未�
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | AppleRGB | AppleRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
 | `CIERGB|CIE RGB` | CIERGB.icc |
-| `ColorMatchRGB` | ColorMatchRGB | ColorMatchRGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC （1953年） | NTSC1953.icc |
 | `PAL` | PAL/SECAM | pal_SECAM.icc |
-| `ProPhoto RGB` | ProPhotoRGB | ProPhotoRGB.icm |
+| `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | sRgb色彩空间Profile.icm |
 | `WideGamutRGB` | 宽色域RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
 | `CoatedFogra27` | 涂层的FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | 涂层纸FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `Coated GRACoL 2006 (ISO 12647-2:2004)` | 涂层纸GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `CoatedFogra39` | 涂层的FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `Coated GRACoL 2006 (ISO 12647-2:2004)` | 涂层的GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 欧洲ISO铜版FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -162,4 +162,4 @@ Source图像可以嵌入ICC配置文件以定义输入颜色空间。 如果未�
 
 ## 另请参阅 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[国际颜色联盟](https://www.color.org/index.xalter)，[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)，[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，[attribute：：IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;，[attribute：：IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;，[attribute：：IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)，[attribute：：IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)，[attribute：：IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)，[&#128279;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)ICC配置文件映射参考7&rbrace;，[COLOR=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)，[BGC=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)，[*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[国际颜色联盟](https://www.color.org/index.xalter)，[icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517)，[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)，[attribute：：IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;，[attribute：：IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;，[attribute：：IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)，[attribute：：IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)，[attribute：：IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)，[ICC配置文件映射引用](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)，[颜色=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)，[BGC=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)，[*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

@@ -16,7 +16,7 @@ ht-degree: 8%
 
 设置与图像集关联的资源列表。
 
-此操作忽略`ImageSets`和`SpinSets`的`pageReset`参数，并强制将该值设置为true。
+此操作忽略`pageReset`和`ImageSets`的`SpinSets`参数，并强制将该值设置为true。
 
 ## 授权用户类型 {#section-8968d6a39a344cfc8521020d92ae8916}
 

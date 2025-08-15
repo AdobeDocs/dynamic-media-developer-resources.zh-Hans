@@ -35,7 +35,7 @@ ht-degree: 2%
 
 也可以将其应用于文本图层。
 
-选择`layer=comp`时，某些命令（包括`extend=`）隐式应用于图层0而非复合图层。 在这种情况下，自动分配到层0的所有命令在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
+选择`extend=`时，某些命令（包括`layer=comp`）隐式应用于图层0而非复合图层。 在这种情况下，自动分配到层0的所有命令在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
 
 >[!NOTE]
 >

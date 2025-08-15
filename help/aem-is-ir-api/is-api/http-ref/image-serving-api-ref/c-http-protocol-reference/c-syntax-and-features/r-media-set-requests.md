@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 请求语法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-可以使用`req=set`修饰符并引用Net路径中的目录记录ID来检索`catalog::ImageSet`的设置响应。 或者，可以使用`imageset=`修饰符直接在URL中指定图像集。 如果使用`imageset=`修饰符指定图像集，则应将整个值括在大括号中，以便对图像集值进行转义，并确保所包含的任何修饰符均不会解释为URL查询字符串的一部分。
+可以使用`catalog::ImageSet`修饰符并引用Net路径中的目录记录ID来检索`req=set`的设置响应。 或者，可以使用`imageset=`修饰符直接在URL中指定图像集。 如果使用`imageset=`修饰符指定图像集，则应将整个值括在大括号中，以便对图像集值进行转义，并确保所包含的任何修饰符均不会解释为URL查询字符串的一部分。
 
 ## 集合响应的类型 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 标签键 {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=`修饰符与`catalog::UserData`字段一起使用，以生成图像和样本的标签。 `catalog:UserData`字段被解析为一组键/值对，该组中的标签键索引用于检索给定键的值。 此值随后在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;特性中返回。
+`labelkey=`修饰符与`catalog::UserData`字段一起使用，以生成图像和样本的标签。 `catalog:UserData`字段被解析为一组键/值对，该组中的标签键索引用于检索给定键的值。 此值随后在&#x200B;*`l`*&#x200B;和&#x200B;*`s`*&#x200B;的&#x200B;*`i`*&#x200B;特性中返回。
 
 ## 强制限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ## 示例 {#section-588c9d33aa05482c86cd2b1936887228}
 
-有关`req=set`请求的示例XML响应，请参阅HTML示例标题下的“属性”页。
+有关`req=set`请求的示例XML响应，请参阅HTML示例标题下的属性页面。
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

@@ -35,7 +35,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> req=props</b>中的<b>版本标识符 </th> 
+   <th class="entry"> req=props<b>中的</b>版本标识符 </th> 
   </tr> 
  </thead>
  <tbody> 

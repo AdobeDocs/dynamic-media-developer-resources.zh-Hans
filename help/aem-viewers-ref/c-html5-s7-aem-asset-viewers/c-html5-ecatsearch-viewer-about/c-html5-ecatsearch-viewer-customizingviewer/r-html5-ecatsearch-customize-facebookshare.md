@@ -1,6 +1,6 @@
 ---
-title: facebook共享
-description: facebook共享工具包括一个添加到社交共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
+title: Facebook共享
+description: Facebook共享工具包含一个添加到Social共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# facebook共享{#facebook-share}
+# Facebook共享{#facebook-share}
 
-facebook共享工具包括一个添加到社交共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
+Facebook共享工具包含一个添加到Social共享面板的按钮。 选择该按钮后，用户将被重定向到社交服务提供的一个共享对话框。 按钮的位置完全由社交共享工具管理。
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-facebook共享按钮的外观可通过以下CSS类选择器控制：
+Facebook共享按钮的外观可通过以下CSS类选择器进行控制：
 
 ```
 .s7ecatalogsearchviewer .s7facebookshare
 ```
 
-facebook共享工具的&#x200B;**CSS属性**
+Facebook共享工具的&#x200B;**CSS属性**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -55,7 +55,7 @@ facebook共享工具的&#x200B;**CSS属性**
 
 按钮工具提示可以本地化。 有关详细信息，请参阅[用户界面元素的本地化](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)。
 
-示例 — 设置一个28 x 28像素的Facebook共享按钮，并为四种不同的按钮状态分别显示不同的图像：
+示例 — 设置28 x 28像素的Facebook共享按钮，并为四种不同的按钮状态分别显示不同的图像：
 
 ```
 .s7ecatalogsearchviewer .s7facebookshare { 

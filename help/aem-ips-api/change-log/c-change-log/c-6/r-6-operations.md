@@ -81,7 +81,7 @@ ht-degree: 1%
 
 **已删除**
 
-* 已从`renameAsset`中移除`renameFiles`。
+* 已从`renameFiles`中移除`renameAsset`。
 
 * 已删除`getXMPPanelViewDefinition`。
 * 已删除`searchAssetsByFulltext`和`searchAssetsBySimilarity`。

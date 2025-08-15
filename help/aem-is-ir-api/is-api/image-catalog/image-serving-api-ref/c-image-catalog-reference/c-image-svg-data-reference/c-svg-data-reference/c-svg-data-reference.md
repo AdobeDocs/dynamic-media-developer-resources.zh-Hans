@@ -1,7 +1,7 @@
 ---
 description: 本节介绍SVG数据属性。
 solution: Experience Manager
-title: SVG数据引用
+title: SVG数据参考
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# SVG数据引用{#svg-data-reference}
+# SVG数据参考{#svg-data-reference}
 
 本节介绍SVG数据属性。
 

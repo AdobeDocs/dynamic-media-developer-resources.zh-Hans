@@ -16,7 +16,7 @@ ht-degree: 0%
 
 本节介绍目录数据字段。
 
-* [图像SVG数据](r-image-svg-data.md)
+* [Image_SVG数据](r-image-svg-data.md)
 * [静态内容数据](r-static-contents-data.md)
 * [宏定义](r-macro-definitions.md)
 * [字体映射](r-font-maps.md)

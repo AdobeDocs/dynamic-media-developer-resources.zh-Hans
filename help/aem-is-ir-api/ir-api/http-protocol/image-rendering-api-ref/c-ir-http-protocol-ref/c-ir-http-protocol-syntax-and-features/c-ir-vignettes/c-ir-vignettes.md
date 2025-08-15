@@ -1,6 +1,6 @@
 ---
 title: 晕影
-description: 晕影是使用Dynamic Media图像创作功能创作的、用于图像渲染的图像。
+description: 晕影是通过Dynamic Media图像创作功能创作的、用于图像渲染的图像。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 晕影{#vignettes}
 
-晕影是使用Dynamic Media图像创作功能创作的、用于图像渲染的图像。
+晕影是通过Dynamic Media图像创作功能创作的、用于图像渲染的图像。
 
 IR支持两种基本类型的晕影： *2D*&#x200B;和&#x200B;*3D*。 房间场景通常是3D晕影，可以渲染反射，而大多数其他场景，例如服装或室内装饰，通常是不具有反射渲染功能的2D晕影。
 

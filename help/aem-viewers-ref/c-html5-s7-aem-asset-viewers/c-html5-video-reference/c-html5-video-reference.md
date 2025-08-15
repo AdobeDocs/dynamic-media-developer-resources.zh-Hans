@@ -1,6 +1,6 @@
 ---
 title: 视频
-description: 视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。 它通过Dynamic Media Classic或Adobe Experience Manager与Dynamic Media一起提供。
+description: 视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。 它通过Dynamic Media从Dynamic Media Classic或Adobe Experience Manager提供。
 keywords: 响应式
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 视频{#video}
 
-视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。 它是从Dynamic Media Classic或通过Dynamic MediaExperience Manager提供的。
+视频查看器是一种视频播放器，可播放以H.264格式编码的流视频和渐进视频。 它通过Dynamic Media从Dynamic Media Classic或Experience Manager提供。
 
 请参阅[系统要求和先决条件](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)。
 
-支持单个视频和自适应视频集。 此外，查看器支持使用托管在外部位置的渐进式视频和HLS流。 它设计为可在支持HTML5视频的桌面和移动Web浏览器上工作。 此查看器还支持在视频内容、视频章节导航和社交媒体共享工具顶部显示的可选隐藏式字幕。
+支持单个视频和自适应视频集。 此外，查看器支持使用托管在外部位置的渐进式视频流和HLS流。 它设计为可在支持HTML5视频的桌面和移动Web浏览器上工作。 此查看器还支持在视频内容、视频章节导航和社交媒体共享工具顶部显示的可选隐藏式字幕。
 
-只要底层系统支持，视频查看器就会在其默认配置中使用HLS格式的HTML5流视频播放。 在不支持HTML5流式传输的系统上，查看器回退到HTML5渐进式视频交付。
+只要底层系统支持，视频查看器就会在其默认配置中使用HLS格式的HTML5流视频播放。 在不支持HTML5流传输的系统上，查看器回退到HTML5渐进式视频交付。
 
 查看器类型506。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 视频查看器表示一个主JavaScript文件和一组帮助程序文件 — 单个JavaScript包含此特定查看器使用的所有Viewer SDK组件、资源以及查看器在运行时下载的CSS。
 
-您可以使用随IS-Viewer提供的生产就绪型HTML页在弹出模式下使用视频查看器。 或者，您可以在嵌入模式下使用查看器，在该模式下，使用文档记录的API将其集成到目标网页中。
+您可以使用随IS-Viewer提供的生产就绪型HTML页面在弹出模式下使用视频查看器。 或者，您可以在嵌入模式下使用查看器，在该模式下，使用文档记录的API将其集成到目标网页中。
 
 配置查看器和为其设置外观的任务与其他查看器的任务类似。 所有外观设计都是通过自定义CSS实现的。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 视频查看器支持社交媒体共享工具。 它们可用作用户界面中的单个按钮，当用户单击或点按时，该按钮将扩展为共享工具栏。
 
-共享工具栏中包含支持的各种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 调用Facebook或Twitter时，查看器会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具被激活时，视频播放也会自动暂停。
+共享工具栏中包含有关支持的每种共享渠道类型的图标，例如Facebook、Twitter、电子邮件共享、嵌入代码共享和链接共享。 激活电子邮件共享、嵌入共享或链接共享工具后，查看器会显示一个模式对话框，其中包含相应的数据输入表单。 在调用Facebook或Twitter时，查看者会将用户从社交媒体服务重定向到标准共享对话框。 此外，当共享工具被激活时，视频播放也会自动暂停。
 
 由于Web浏览器安全限制，共享工具在全屏模式下不可用。
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
 在弹出模式下，查看器将在单独的Web浏览器窗口或选项卡中打开。 它采用整个浏览器窗口区域，并在浏览器大小调整或设备方向更改时进行调整。
 
-此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的`A`HTML元素或任何其他合适的方法加载查看器。
+此模式最适用于移动设备。 该网页使用`window.open()` JavaScript调用、正确配置的`A` HTML元素或任何其他合适的方法加载查看器。
 
-建议您为弹出操作模式使用现成的HTML页面。 它名为[!DNL VideoViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
+建议您为弹出窗口操作模式使用现成的HTML页面。 它名为[!DNL VideoViewer.html]，位于标准IS-Viewers部署的[!DNL html5/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL FlyoutViewer.js]。 [!DNL FlyoutViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
+   创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL FlyoutViewer.js]。 [!DNL FlyoutViewer.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -153,7 +153,7 @@ ht-degree: 0%
 
    有关使用CSS设置查看器样式的详细信息，请参阅[自定义视频查看器](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)。
 
-   以下是在HTML页中定义静态查看器大小的示例：
+   以下是在HTML页面中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
    完成上述步骤后，创建`s7viewers.VideoViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段保存查看器容器ID的名称，并嵌套`params` JSON对象，其中包含查看器支持的配置参数。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，将视频服务器URL作为`videoserverurl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载将自动继续。
 
@@ -284,7 +284,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **定义了宽度和高度的响应式设计嵌入**
 

@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 指定发送到客户端的图像数据的图像编码格式以及HTTP回复标头的相应响应MIME类型。 </p> <p> <span class="codeph"> jpeg </span>：有损JPEG </p> <p> <span class="codeph"> png </span>：无损失PNG </p> <p> <span class="codeph"> png-alpha </span>：带有alpha通道的无损PNG </p> <p> <span class="codeph"> tif </span>：TIFF </p> <p> <span class="codeph"> tif-alpha </span>：带有alpha通道的TIFF </p> <p> <span class="codeph"> swf </span>：嵌入到Adobeswf文件中的有损JPEG </p> <p> <span class="codeph"> pdf </span>：图像嵌入到PDF中 </p> <p> <span class="codeph"> gif </span>：GIF为2到256色 </p> <p> <span class="codeph"> gif-alpha </span>：GIF为2到255色，加上键色透明度 </p> <p> <span class="codeph"> fxg </span>：应用了变量和DOM操作的FXG </p> <p> <span class="codeph"> fxgraw </span>：原始FXG存储在服务器上 </p> </td> 
+  <td class="stentry"> <p> 指定发送到客户端的图像数据的图像编码格式以及HTTP回复标头的相应响应MIME类型。 </p> <p> <span class="codeph"> jpeg </span>：有损JPEG </p> <p> <span class="codeph"> png </span>：无损失PNG </p> <p> <span class="codeph"> png-alpha </span>：带有alpha通道的无损PNG </p> <p> <span class="codeph"> tif </span>： TIFF </p> <p> <span class="codeph"> tif-alpha </span>：带有alpha通道的TIFF </p> <p> <span class="codeph"> swf </span>：嵌入到Adobe swf文件中的有损JPEG </p> <p> <span class="codeph"> pdf </span>：图像嵌入到PDF中 </p> <p> <span class="codeph"> gif </span>： GIF具有2到256色 </p> <p> <span class="codeph"> gif-alpha </span>：GIF，具有2到255色加上键色透明度 </p> <p> <span class="codeph"> fxg </span>：应用了变量和DOM操作的FXG </p> <p> <span class="codeph"> fxgraw </span>：原始FXG存储在服务器上 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 仅当指定tif、tif-alpha作为格式时，才允许`tiffCompression`。 有关这些图像格式支持的压缩选项，请参阅下表。
 
-`qlt=`可用于设置以下格式的JPEG编码选项：JPEG、带有JPEG压缩的TIFF。 如果fmt=gif或fmt=gif-alpha，可以使用quantize=。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+`qlt=`可用于为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF。 如果fmt=gif或fmt=gif-alpha，可以使用quantize=。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
 对于所有格式和`pixelTypes[7]`，每像素组件返回8位。
 

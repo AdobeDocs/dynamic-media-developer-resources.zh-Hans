@@ -160,7 +160,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
-  <td class="stentry"> <p>编码格式TIFF。 </p></td> 
+  <td class="stentry"> <p>TIFF编码格式。 </p></td> 
  </tr> 
 </table>
 
@@ -171,7 +171,7 @@ ht-degree: 1%
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb </a> </p></td> 
-  <td class="stentry"> 默认RGB输出色彩配置文件。</td> 
+  <td class="stentry"> 默认RGB输出颜色配置文件。</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 

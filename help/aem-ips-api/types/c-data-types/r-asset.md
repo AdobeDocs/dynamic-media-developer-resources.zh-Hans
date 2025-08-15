@@ -37,7 +37,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：AnimatedGifInfo</span> </td> 
-   <td colname="col3"> 有关动画GIF文件的详细信息。 </td> 
+   <td colname="col3"> 有关GIF动画文件的详细信息。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 

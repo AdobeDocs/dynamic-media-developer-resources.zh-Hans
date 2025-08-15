@@ -1,12 +1,12 @@
 ---
-title: AdobeDynamic Media开发人员资源
+title: Adobe Dynamic Media开发人员资源
 cloud: Experience Cloud
 product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
-user-guide-title: AdobeDynamic Media开发人员资源
+user-guide-title: Adobe Dynamic Media开发人员资源
 breadcrumb-title: Dynamic Media开发人员资源
-user-guide-description: 访问Dynamic Media开发人员资源，例如《查看器参考指南》、《图像生产系统API》、《图像服务和渲染API》以及归档的Scene7发行说明。
+user-guide-description: 访问Dynamic Media开发人员资源，如查看器参考指南、图像生产系统API、图像服务和渲染API以及归档的Scene7发行说明。
 feature-set: Experience Manager Assets
 index: y
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8

@@ -1,6 +1,6 @@
 ---
 title: 通过HTTP POST将资产上传到UploadFile Servlet
-description: 将资源上传到 [!DNL Dynamic Media] Classic中涉及一个或多个HTTPPOST请求，这些请求设置作业以协调与上传的文件关联的所有日志活动。
+description: 将资产上传到 [!DNL Dynamic Media] Classic涉及一个或多个HTTP POST请求，这些请求设置了一个作业来协调与上传的文件关联的所有日志活动。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 通过HTTP POST将资产上传到UploadFile Servlet{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-将资源上传到Dynamic Media Classic涉及一个或多个HTTPPOST请求，这些请求设置作业以协调与上传文件关联的所有日志活动。
+将资源上传到Dynamic Media Classic涉及一个或多个HTTP POST请求，这些请求设置作业以协调与上传文件关联的所有日志活动。
 
 使用以下URL访问UploadFile Servlet：
 
@@ -26,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >上载作业的所有POST请求必须来自相同的IP地址。
 
-**访问Dynamic Media地区的URL**
+**访问Dynamic Media区域的URL**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -63,12 +63,12 @@ https://<server>/scene7/UploadFile
 >
 >上载作业的所有POST请求必须来自相同的IP地址。
 
-|  HTTPPOST表单部件  |  描述  |
+|  HTTP POST表单部件  |  描述  |
 |---|---|
-| `auth`  |   必需。 指定身份验证和客户端信息的XML authHeader文档。 请参阅[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**请求身份验证**。 |
+| `auth`  |   必需。 指定身份验证和客户端信息的XML authHeader文档。 请参阅&#x200B;**SOAP**&#x200B;下的[请求身份验证](/help/aem-ips-api/c-wsdl-versions.md)。 |
 | `file params`  |   可选。 您可以包含一个或多个要随每个POST请求上传的文件。 每个文件部分都可在Content-Disposition标头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
 
-|  HTTPPOST表单部件   |  uploadPostParams元素名称   |  类型   |  描述   |
+|  HTTP POST表单部件   |  uploadPostParams元素名称   |  类型   |  描述   |
 |---|---|---|---|
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档   |   `companyHandle`  |  `xsd:string`  | 必需。 将文件上传到的公司的句柄。  |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上载作业的名称。  |
@@ -86,9 +86,9 @@ https://<server>/scene7/UploadFile
 
 虽然您可能认为可以将各个文件的`uploadParams`参数作为同一作业的一部分进行更改，但情况并非如此。 对整个作业使用相同的`uploadParams`参数。
 
-新上载作业的初始POST请求应指定`jobName`参数，最好使用唯一的作业名称来简化后续作业状态轮询和作业日志查询。 对于同一上载作业的其他POST请求，应使用从初始请求返回的`jobHandle`值指定`jobHandle`参数而不是`jobName`。
+新上载作业的初始POST请求应指定`jobName`参数，最好使用唯一的作业名称来简化后续作业状态轮询和作业日志查询。 相同上载作业的其他POST请求应使用从初始请求返回的`jobHandle`值指定`jobName`参数而不是`jobHandle`。
 
-上载作业的最终POST请求应将`endJob`参数设置为true，以便将来不会为此作业发布任何文件。 反过来，这允许作业在摄取所有POSTed文件后立即完成。 否则，如果未在30分钟内收到其他POST请求，作业将超时。
+上载作业的最终POST请求应将`endJob`参数设置为true，以便将来不会为此作业发布任何文件。 反过来，这允许作业在摄取所有POSTed文件后立即完成。 否则，如果未在30分钟内收到其他POST请求，则作业会超时。
 
 ## uploadpost响应 {#section-421df5cc04d44e23a464059aad86d64e}
 

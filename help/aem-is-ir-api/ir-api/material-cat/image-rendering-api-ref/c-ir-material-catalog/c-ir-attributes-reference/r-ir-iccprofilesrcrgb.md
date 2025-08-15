@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcRgb
-description: 默认输入RGB配置文件。 指定用于RGB材质图像和不嵌入颜色配置文件的晕影的ICC颜色配置文件的名称。 对于通过各种“图像渲染”命令（例如bgc=和color=）指定的RGB颜色值，也是如此。
+description: RGB默认输入颜色配置文件。 指定用于RGB材质图像和不嵌入颜色配置文件的ICC颜色配置文件的名称。 对于通过各种“图像渲染”命令（例如bgc=和color=）指定的RGB颜色值，也是如此。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-默认输入RGB配置文件。 指定用于RGB材质图像和不嵌入颜色配置文件的晕影的ICC颜色配置文件的名称。 此外，对于通过各种图像渲染命令（如`bgc=`和`color=`）指定的RGB颜色值。
+RGB默认输入颜色配置文件。 指定用于RGB材质图像和不嵌入颜色配置文件的ICC颜色配置文件的名称。 此外，对于通过各种图像渲染命令（如`bgc=`和`color=`）指定的RGB颜色值。
 
 ## 属性 {#section-c22966bba03e43c08e9d3fb91bfdd465}
 

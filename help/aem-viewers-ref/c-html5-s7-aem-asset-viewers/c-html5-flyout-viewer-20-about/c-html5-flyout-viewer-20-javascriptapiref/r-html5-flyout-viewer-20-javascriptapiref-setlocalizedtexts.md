@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">本地化信息</span> </span> </p> </td> 
-   <td colname="col2"> <p> 包含本地化数据的{<span class="codeph">对象</span>} JSON对象。 </p> <p>有关详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local">用户界面元素</a>的本地化。 </p> <p>有关对象内容的更多信息，请参阅<i>Viewer SDK用户指南</i>和示例。 </p> </td> 
+   <td colname="col2"> <p> 包含本地化数据的{<span class="codeph">对象</span>} JSON对象。 </p> <p>有关详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local">用户界面元素</a>的本地化。 </p> <p>有关对象内容的更多信息，请参阅<i>查看器SDK用户指南</i>和示例。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

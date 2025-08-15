@@ -1,6 +1,6 @@
 ---
 title: 系统要求和先决条件
-description: 在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
+description: 在使用Dynamic Media图像服务之前，请确保您的系统符合系统要求。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 系统要求和先决条件{#system-requirements-and-prerequisites}
 
-在使用Dynamic Media图像服务之前，请确保您的系统满足系统要求。
+在使用Dynamic Media图像服务之前，请确保您的系统符合系统要求。
 
 ## 服务器硬件 {#section-f3c14a7bc1b745118602659628df779f}
 

@@ -26,7 +26,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>选择双三次插值。 比双线性插值占用更多的CPU资源，但生成更锐利的图像，出现的锯齿伪像较少。 </p> </td> 
+   <td colname="col2"> <p>选择双三次插值。 CPU比双线性插值更加密集，但生成的图像更锐利，出现的锯齿伪像更少。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph">锐化2 </span> </p> </td> 

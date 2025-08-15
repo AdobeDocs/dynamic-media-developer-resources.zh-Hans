@@ -1,5 +1,5 @@
 ---
-description: 文件选项PDF。
+description: PDF文件选项。
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-文件选项PDF。
+PDF文件选项。
 
 语法
 

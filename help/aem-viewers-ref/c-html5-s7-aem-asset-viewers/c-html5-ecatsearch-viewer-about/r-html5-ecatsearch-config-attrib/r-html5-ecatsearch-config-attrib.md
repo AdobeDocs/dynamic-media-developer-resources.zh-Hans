@@ -18,7 +18,7 @@ eCatalog查看器的配置属性文档。
 
 任何配置命令都可以在URL中设置，或者使用`setParam()`、`setParams()`或API方法同时设置。 您还可以指定在服务器端配置记录中指定的任何配置属性。
 
-对于某些配置命令，您可以使用相应Viewer SDK组件的类名称或实例名称作为前缀。 组件的实例名称是动态的，取决于传递给`setContainerId()` API方法的查看器容器DOM元素的ID。 文档包含此类命令的可选前缀。 例如，`zoomstep`命令记录如下：
+对于某些配置命令，您可以使用相应查看器SDK组件的类名或实例名作为前缀。 组件的实例名称是动态的，取决于传递给`setContainerId()` API方法的查看器容器DOM元素的ID。 文档包含此类命令的可选前缀。 例如，`zoomstep`命令记录如下：
 
 `[PageView.|<containerId>_pageView].zoomstep`
 

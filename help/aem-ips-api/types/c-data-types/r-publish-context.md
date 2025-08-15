@@ -57,4 +57,4 @@ Assets为每个发布状态和上下文维护一个单独的标记。 使用[set
 
 >[!MORELIKETHIS]
 >
->* [Publish上下文](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [发布上下文](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

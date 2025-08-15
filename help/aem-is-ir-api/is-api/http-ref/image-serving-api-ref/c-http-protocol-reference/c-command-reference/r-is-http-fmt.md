@@ -25,27 +25,27 @@ ht-degree: 2%
 | `avif-alpha` | 带有Alpha通道的有损无损AVIF。 |
 | `avif` | 有损、无损的AVIF。 |
 | `eps` | 未压缩的二进制文件封装的PostScript。 |
-| `f4m` | Streaming Server清单格式Flash。 |
-| `gif-alpha` | 2到255色GIF加上键色透明度。 |
-| `gif` | GIF为2到256色。 |
+| `f4m` | Flash Streaming Server清单格式。 |
+| `gif-alpha` | GIF具有2到255色和关键色透明度。 |
+| `gif` | GIF，2到256色。 |
 | `heic` | 无损HEIC。 如果不支持此格式，则默认从浏览器下载。 |
-| `jpeg` | JPEG有损。 |
-| `jpeg2000-alpha` | 具有Alpha通道的有损和无损JPEG2000。 |
-| `jpeg2000` | 有损和无损JPEG2000。 |
-| `jpegxr-alpha` | 带Alpha通道的有损无损JPEGXR。 |
-| `jpegxr` | 有损无损JPEGXR。 |
-| `jpg` | JPG有损。 |
+| `jpeg` | JPEG的亏损。 |
+| `jpeg2000-alpha` | 带Alpha通道的有损无损JPEG 2000。 |
+| `jpeg2000` | 无损的JPEG 2000。 |
+| `jpegxr-alpha` | 带有Alpha通道的JPEG XR有损和无损。 |
+| `jpegxr` | 无损的JPEG XR。 |
+| `jpg` | JPG的亏损。 |
 | `m3u8` | Apple流服务器清单格式。 |
-| `pdf` | 嵌入到PDF中的图像。 |
+| `pdf` | PDF中嵌入的图像。 |
 | `pjpeg` | 渐进式JPEG。 |
 | `png-alpha` | 带有Alpha通道的24位无损PNG。 |
 | `png` | 24位无损PNG。 |
 | `png8-alpha` | 带有Alpha通道的8位无损PNG。 |
 | `png8` | 8位无损PNG。 |
-| `swf-alpha` | 嵌入到AdobeAS2 swf文件中的有损JPEG和Deflate-Compressed掩码。 |
-| `swf` | 嵌入到AdobeAS2 swf文件中的有损JPEG。 |
-| `swf3-alpha` | 嵌入到AdobeAS3 swf文件中的有损JPEG和Deflate-Compressed掩码。 **注意：** swf和swf-alpha格式最适合用于ActionScript2应用程序(Flash Player8或更早版本)。 建议将swf3和swf3-alpha格式用于ActionScript3应用程序(Flash Player9及更高版本)。 |
-| `swf3` | 嵌入到AdobeAS3 swf文件中的有损JPEG。 |
+| `swf-alpha` | 嵌入到Adobe AS2 swf文件中的有损JPEG和deflate-compressed掩码。 |
+| `swf` | 嵌入到Adobe AS2 swf文件中的有损JPEG。 |
+| `swf3-alpha` | 嵌入到Adobe AS3 swf文件中的有损JPEG和deflate-compressed掩码。 **注意：** swf和swf-alpha格式最适合用于ActionScript 2应用程序（Flash Player 8及更早版本）。 对于ActionScript3应用程序（Flash Player 9及更高版本），建议使用swf3和swf3-alpha格式。 |
+| `swf3` | 嵌入到Adobe AS3 swf文件中的有损JPEG。 |
 | `tif-alpha` | 带有Alpha通道的TIFF。 |
 | `tif` | TIFF。 |
 | `webp-alpha` | 带有Alpha通道的有损无损WebP。 |
@@ -64,22 +64,22 @@ ht-degree: 2%
 | *`compression`* | 说明 |
 |---|---|
 | `jpeg` | JPEG压缩（有损）。 |
-| `lossy` | JPEG2000、JPEGXR压缩（有损）和WebP。 |
-| `lossless` | HEIC、JPEG2000、JPEGXR压缩（无损）和WebP。 |
+| `lossy` | JPEG 2000、JPEG XR压缩（有损）和WebP。 |
+| `lossless` | HEIC、JPEG 2000、JPEG XR压缩（无损）和WebP。 |
 | `lzw` | LZW (Lempel-Ziv-Welch)压缩（无损）。 |
 | `none` | 未压缩。 |
 | `zip` | “Deflate”压缩（无损）。 |
 
 * *`format`*&#x200B;为发送到客户端的图像数据指定图像编码格式，并为HTTP响应标头指定相应的响应MIME类型。
-* 如果未指定`icc=`，则可使用&#x200B;*`pixelType`*&#x200B;实现输出色彩空间转换。
+* 如果未指定&#x200B;*`pixelType`*，则可使用`icc=`实现输出色彩空间转换。
 
-  应用与&#x200B;*`pixelType`*&#x200B;对应的默认颜色配置文件。 如果禁用颜色管理，则应用朴素转换。 在指定`icc=`时忽略&#x200B;*`pixelType`*，这决定了输出像素类型。
+  应用与&#x200B;*`pixelType`*&#x200B;对应的默认颜色配置文件。 如果禁用颜色管理，则应用朴素转换。 在指定&#x200B;*`pixelType`*&#x200B;时忽略`icc=`，这决定了输出像素类型。
 
-* 仅当将`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`、`jpegxr`或`jpegxr-alpha`指定为&#x200B;*`format`*&#x200B;时才允许&#x200B;*`compression`*。 有关这些图像格式支持的压缩选项，请参阅下表。
+* 仅当将&#x200B;*`compression`*、`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`或`jpegxr`指定为`jpegxr-alpha`时才允许&#x200B;*`format`*。 有关这些图像格式支持的压缩选项，请参阅下表。
 
-您可以使用`qlt=`为以下格式设置JPEG编码选项：JPEG、使用JPEG压缩的TIFF、使用JPEG压缩的PDF和SWF。 WebP、JPEG2000和JPEGXR也使用`qlt=`，但是这些值导致不同格式的品质不同。 如果`fmt=gif`或`fmt=gif-alpha`，则使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+您可以使用`qlt=`为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF、带有JPEG压缩的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值导致不同格式具有不同的品质。 如果`quantize=`或`fmt=gif`，则使用`fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
-对于所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;返回8位/像素组件(对于GIF，返回8位/像素)。
+对于所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;返回8位/像素组件(对于GIF，每像素8位/像素)。
 
 下表列出了*`format`*和&#x200B;*`pixelType`*&#x200B;的有效组合、相应的HTTP响应MIME类型、是否可以嵌入ICC配置文件（请参阅[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)）以及可以应用的特定于格式的选项。
 
@@ -168,7 +168,7 @@ ht-degree: 2%
    <td colname="col1"> <p> swf，swf3， swf-alpha， swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb，灰度 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>否 </p> <p> <p>注意：AdobeFlash Player会忽略嵌入的ICC配置文件。 </p> </p> </td> 
+   <td colname="col4"> <p>否 </p> <p> <p>注意：Adobe Flash Player会忽略嵌入的ICC配置文件。 </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>，<span class="codeph">属性：：TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -192,15 +192,15 @@ ht-degree: 2%
 
 请求属性。 如果`req=img`（默认）或`req=mask`为适用对象，而不考虑当前图层设置；否则将忽略。
 
-如果指定了`iccProfile=`，则忽略&#x200B;*`type`*。
+如果指定了&#x200B;*`type`*，则忽略`iccProfile=`。
 
 ## 默认 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`，其中&#x200B;*`defaultType`*&#x200B;按如下方式处理：如果指定了`icc=`，则&#x200B;*`defaultType`*&#x200B;对应于指定ICC配置文件的像素类型。 如果未指定`icc=`，如果`req=mask`，*`defaultType`*&#x200B;为`gray`，否则为`rgb`。
+` fmt=jpeg, *`defaultType`*,none`，其中&#x200B;*`defaultType`*&#x200B;按如下方式处理：如果指定了`icc=`，则&#x200B;*`defaultType`*&#x200B;对应于指定ICC配置文件的像素类型。 如果未指定`icc=`，如果&#x200B;*`defaultType`*，`gray`为`req=mask`，否则为`rgb`。
 
 ## 示例 {#section-b93222e652df404a84c69025247f07df}
 
-**请求JPEG格式的小质量预览图像（默认）：**
+**请求一个JPEG格式的低质量小预览图像（默认）：**
 
 ` http:// *`服务器`*/myRootId/myImageId?qlt=60&wid=200`
 
@@ -212,7 +212,7 @@ ht-degree: 2%
 
 ` http:// *`服务器`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**为灰度级TIFF图像请求同一图像的Alpha通道：**
+**为灰度为TIFF图像的同一图像请求Alpha通道：**
 
 ` http:// *`服务器`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
@@ -220,15 +220,15 @@ ht-degree: 2%
 
 ` http:// *`服务器`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**使用其他ICC配置文件将同一图像转换为cmyk，并将配置文件嵌入到TIFF图像中：**
+**使用其他ICC配置文件将同一图像转换为cmyk，并将配置文件嵌入到TIFF图像：**
 
 ` http:// *`服务器`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**将此图像作为TIF文件传递，并进行JPEG压缩而不进行像素类型转换：**
+**以JPEG压缩的TIF文件形式传递此图像，而不进行像素类型转换：**
 
 ` http:// *`服务器`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
-**将图像转换为具有关键色透明度的双调GIF并强制将颜色转换为黑白：**
+**将图像转换为具有关键颜色透明度的双调GIF并强制将颜色转换为黑白：**
 
 ` http:// *`服务器`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

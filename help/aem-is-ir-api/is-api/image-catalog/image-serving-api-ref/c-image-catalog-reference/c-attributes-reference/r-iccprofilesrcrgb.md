@@ -1,5 +1,5 @@
 ---
-description: 默认输入RGB配置文件。 指定用于未嵌入RGB配置文件的颜色源图像的ICC颜色配置文件的名称，以及用于使用各种“图像提供”命令（例如color=）指定的某些RGB颜色值的名称。
+description: RGB默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的RGB源图像的ICC颜色配置文件的名称，以及用于通过各种“图像提供”命令（例如color=）指定的某些RGB颜色值的ICC颜色配置文件的名称。
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-默认输入RGB配置文件。 指定用于未嵌入RGB配置文件的颜色源图像的ICC颜色配置文件的名称，以及用于使用各种“图像提供”命令（例如color=）指定的某些RGB颜色值的名称。
+RGB默认输入颜色配置文件。 指定用于未嵌入颜色配置文件的RGB源图像的ICC颜色配置文件的名称，以及用于通过各种“图像提供”命令（例如color=）指定的某些RGB颜色值的ICC颜色配置文件的名称。
 
 ## 属性 {#section-3cd753196959462e9e674dab0b033d08}
 

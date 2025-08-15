@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >不允许对自调整大小的纯色图层使用`scale=`、`rotate=`和`anchor=`命令。
 
-`*`pathDefinition`*`接受与SVG`<path>`元素的`d=`属性的值类似的字符串，只不过使用逗号而不是空格来分隔值。 `*`pathDefinition`*`可以包含一个或多个闭环子路径。
+`*`pathDefinition`*`接受一个与SVG `d=`元素的`<path>`属性的值类似的字符串，只不过该字符串使用逗号而不是空格来分隔值。 `*`pathDefinition`*`可以包含一个或多个闭环子路径。
 
 `*`pathDefinition`*`支持以下路径命令：
 

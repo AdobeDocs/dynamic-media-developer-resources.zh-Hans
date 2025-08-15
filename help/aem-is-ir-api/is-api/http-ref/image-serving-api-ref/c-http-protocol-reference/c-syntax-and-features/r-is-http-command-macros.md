@@ -49,7 +49,7 @@ ht-degree: 0%
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在&#x200B;*`$view$`之前指定`wid=`*&#x200B;无效）。
+由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在&#x200B;`wid=`**&#x200B;之前指定`$view$`无效）。
 
 ## 另请参阅 {#section-8cdba0ed2480444ca61e719e54f8871c}
 

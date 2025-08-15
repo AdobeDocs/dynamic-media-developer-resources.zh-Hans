@@ -18,7 +18,7 @@ ht-degree: 2%
 
 应用程序只能使用全局对象ID进行编写，并且图像服务会自动替换特定于区域设置的图像和其他内容（如果可用）。
 
-使用`locale=`命令在图像服务请求中指定&#x200B;*`locale`*。
+使用&#x200B;*`locale`*&#x200B;命令在图像服务请求中指定`locale=`。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 范围 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-对图像、SVG和静态内容目录中的条目的所有引用都被视为翻译字体，并且ICC配置文件引用不会进行翻译。 除了[!DNL /is/image]和[!DNL /is/static requests]路径中的&#x200B;*`object`*&#x200B;之外，这些命令和目录属性还受ID转换的影响： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
+对图像、SVG和静态内容目录中的条目的所有引用都被视为翻译字体，并且ICC配置文件引用不会进行翻译。 除了&#x200B;*`object`*&#x200B;和[!DNL /is/image]路径中的[!DNL /is/static requests]之外，这些命令和目录属性还受ID转换的影响： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
 
 ## ID转换映射 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -114,7 +114,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> </span>的<span class="codeph"> </p> </td> 
+   <td> <p> <span class="codeph">的</span> </p> </td> 
    <td> <p> <span class="codeph"> myImg_22、myImg_23、myImg_1、myImg_2、myImg_3 </span> </p> </td> 
   </tr> 
   <tr> 

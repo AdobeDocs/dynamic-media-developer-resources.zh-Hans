@@ -53,7 +53,7 @@ ht-degree: 2%
 }
 ```
 
-在桌面系统上，组件支持可应用于`.s7pageview`类的`cursortype`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`cursortype`类的`.s7pageview`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 

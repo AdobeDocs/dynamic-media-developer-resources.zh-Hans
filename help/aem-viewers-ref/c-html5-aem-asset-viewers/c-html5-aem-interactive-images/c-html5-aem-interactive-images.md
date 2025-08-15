@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html?lang=zh-Hans)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 使用交互式图像查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-交互式图像查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有Viewer SDK组件、资源、CSS)，这些文件由查看器在运行时下载。
+交互式图像查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS)，这些文件由查看器在运行时下载。
 
 交互式图像查看器只能在嵌入式模式下使用，在该模式下，它使用文档记录的API集成到目标网页中。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. 正在将查看器JavaScript文件添加到您的网页。
 
-   创建查看器需要您在HTML头中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL InterativeImage.js]。 [!DNL InteractiveImage.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
+   创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括[!DNL InterativeImage.js]。 [!DNL InteractiveImage.js]文件位于标准IS-Viewers部署的[!DNL html5/js/]子文件夹下：
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js]
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文HTML加载的库SDK `Utils.js`库（所谓的统一SDK `include`）。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -114,11 +114,11 @@ ht-degree: 0%
 
    您可以通过声明查看器为`.s7interactiveimage`顶级CSS类（以绝对单位表示）或使用`stagesize`修饰符来设置查看器的静态大小。
 
-   您可以在“HTML”页面上直接放置在CSS中的大小。 或者，您可以将大小调整放入自定义查看器CSS文件中，该文件随后将根据需要分配给Adobe Experience Manager Assets中的查看器预设记录，或使用`style`命令显式传递。
+   您可以在HTML页面上直接放置在CSS中的大小。 或者，您可以将大小调整放入自定义查看器CSS文件中，该文件随后将根据需要分配给Adobe Experience Manager Assets中的查看器预设记录，或使用`style`命令显式传递。
 
    有关使用CSS设置查看器样式的详细信息，请参阅[视频](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)。
 
-   以下是在“HTML”页中定义静态查看器大小的示例：
+   以下是在HTML页面中定义静态查看器大小的示例：
 
    ```html {.line-numbers}
    #s7viewer.s7interactiveimage { 
@@ -127,7 +127,7 @@ ht-degree: 0%
    }
    ```
 
-   您可以使用查看器初始化代码通过`params`集合明确传递`stagesize`修饰符，或者作为API调用进行传递，如命令引用部分中所述，如下所示：
+   您可以使用查看器初始化代码通过`stagesize`集合明确传递`params`修饰符，或者作为API调用进行传递，如命令引用部分中所述，如下所示：
 
    ```html {.line-numbers}
    interactiveImage.setParam("stagesize", "1174,500");
@@ -139,7 +139,7 @@ ht-degree: 0%
 
    完成上述步骤后，创建`s7viewers.InteractiveImage`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段保存查看器容器ID的名称，并嵌套`params` JSON对象，其中包含查看器支持的配置参数。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 发生此事件时，查看器加载会自动恢复。
 
@@ -244,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 以下示例页面说明了高度不受限制的响应式设计嵌入的更多实际用途：
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html?lang=zh-Hans)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 定义宽度和高度的&#x200B;**灵活大小嵌入**
 

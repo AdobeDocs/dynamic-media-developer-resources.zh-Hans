@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## PS：：saveToFile.saveTimeout — 文件保存超时 {#section-d22afd8ad86144b28684ed95a59db40e}
 
-未指定`timeout=`时`req=saveToFile`的默认超时值。 `msec`。 如果未在指定的时间内完成保存操作，则会返回错误。
+未指定`req=saveToFile`时`timeout=`的默认超时值。 `msec`。 如果未在指定的时间内完成保存操作，则会返回错误。

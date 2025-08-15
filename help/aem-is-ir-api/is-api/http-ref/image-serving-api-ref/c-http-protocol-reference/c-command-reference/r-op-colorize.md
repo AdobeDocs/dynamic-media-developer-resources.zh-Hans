@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname">颜色</span> </p> </td> 
-  <td class="stentry"> <p>替换RGB颜色。 </p> </td> 
+  <td class="stentry"> <p>替代RGB颜色。 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph">折扣</span> </p> </td> 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 图层命令。 应用于当前图层或复合图像（如果`layer=comp`）。 被效果层忽略。
 
-*`color`*&#x200B;必须是RGB的值；不支持灰色或CMYK *`color`*&#x200B;值。
+*`color`*&#x200B;必须是RGB值；不支持灰色或CMYK *`color`*&#x200B;值。
 
 如果关闭亮度补偿，则忽略&#x200B;*`contrast`*&#x200B;值。
 

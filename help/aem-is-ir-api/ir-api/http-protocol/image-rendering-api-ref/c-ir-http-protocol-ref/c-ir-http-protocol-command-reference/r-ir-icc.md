@@ -57,7 +57,7 @@ CMYK输出设备配置文件更有可能支持不同的渲染意图。
 
 ## 默认 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`fmt=`指定的图像类型匹配的输出配置文件(`attribute::IccProfile*`)。
+如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`attribute::IccProfile*`指定的图像类型匹配的输出配置文件(`fmt=`)。
 
 如果未指定，*`renderIntent`*&#x200B;继承自`attribute::IccRenderIntent`，*`blackpointComp`*&#x200B;继承自`attribute::IccBlackPointCompensation`。
 

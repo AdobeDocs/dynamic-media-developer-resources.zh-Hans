@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,13 @@ Java™格式的日期/时间值。 它可以是自午夜1970 UTC/GMT年1月1日
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*： *[!DNL mm]*： *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]*&#x200B;在0-23范围内。
 * *[!DNL zzz]*&#x200B;是三或四个字符的时区代码，如“GMT”或“PST”。 夏令时必须在时区代码中说明（例如，太平洋标准时间为“PST”，而太平洋夏令时为“PDT”）。
-* *[!DNL offset]*&#x200B;是相对于GMT的时区偏移，以小时或小时：分钟为单位。 例如，“PDT”等同于“GMT -7”。
+* *[!DNL offset]*&#x200B;是以小时或小时为单位的时区偏移:minutes，相对于GMT。 例如，“PDT”等同于“GMT -7”。
 
-字符串格式日期/时间值的所有元素都必须存在。 如果日期/时间值的格式不正确，将忽略该值，并改用[!DNL *[!DNL catalog]*.ini]文件的修改时间。
+字符串格式日期/时间值的所有元素都必须存在。 如果日期/时间值的格式不正确，将忽略该值，并改用[！DNL *[!DNL catalog]*.ini]文件的修改时间。
 
 ## 默认 {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
