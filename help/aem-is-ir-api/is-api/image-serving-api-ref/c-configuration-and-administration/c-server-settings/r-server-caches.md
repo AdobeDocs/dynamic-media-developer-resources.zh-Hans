@@ -42,7 +42,7 @@ HTTP响应缓存的最大大小（字节）。 此设置限制要缓存的实际
 
 ## SV：：temp — 服务器主管临时文件文件夹 {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-服务器管理员有时需要将中间数据保存到磁盘。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 默认为[！DNL *[!DNL install_folder]*/temp]。
+服务器管理员有时需要将中间数据保存到磁盘。 路径可以是绝对路径或相对于&#x200B;*[!DNL install_folder]*&#x200B;的路径。 默认为[!DNL *[!DNL install_folder]*/temp]。
 
 >[!NOTE]
 >

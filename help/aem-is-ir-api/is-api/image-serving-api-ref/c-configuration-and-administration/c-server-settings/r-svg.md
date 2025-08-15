@@ -40,7 +40,7 @@ SVG源文件的最大大小（以k字节为单位）。 尝试渲染大于此限
 
 ## PS：：svgProvider.fontRoot - SVG字体文件文件夹 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[！DNL *[!DNL install_folder]*/images]。
+指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[!DNL *[!DNL install_folder]*/images]。
 
 ## SVG：：SVGRender.port， IS：：SVGTcpPort - SVG通信端口 {#section-608687123aa644b7b58fe42385d71b79}
 

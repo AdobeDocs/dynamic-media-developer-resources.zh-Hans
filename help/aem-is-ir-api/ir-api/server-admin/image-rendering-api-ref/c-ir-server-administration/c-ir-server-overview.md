@@ -25,6 +25,6 @@ ht-degree: 0%
 
 图像渲染与图像服务共享许多服务器功能，所有选项都通过编辑配置文件进行配置。 默认目录([!DNL default.ini])或特定材质目录提供了其他配置属性。 有关详细信息，请参阅物料目录。
 
-图像渲染安装文件夹(*[!DNL install_folder]*)是[！DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，默认&#x200B;*[!DNL install_root]*&#x200B;为`C:\Program Files\Scene7`。 安装过程中可以指定其他文件夹。 在Linux上，*[!DNL install_root]*&#x200B;必须始终为[!DNL /usr/local/scene7]。 可以使用符号链接。
+图像渲染安装文件夹(*[!DNL install_folder]*)是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，默认&#x200B;*[!DNL install_root]*&#x200B;为`C:\Program Files\Scene7`。 安装过程中可以指定其他文件夹。 在Linux上，*[!DNL install_root]*&#x200B;必须始终为[!DNL /usr/local/scene7]。 可以使用符号链接。
 
 所有文件路径在UNIX上均区分大小写，在Windows上则不区分大小写。

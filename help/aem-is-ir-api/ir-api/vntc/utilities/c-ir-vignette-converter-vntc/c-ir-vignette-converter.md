@@ -16,7 +16,7 @@ ht-degree: 0%
 
 晕影转换器(vntc)是一个命令行实用程序，用于准备通过图像创作创建的内容以进行图像渲染部署。
 
-[!DNL vntc]在[！DNL *[!DNL install_root]*\ImageServing\bin]中。 它具有以下功能：
+[!DNL vntc]在[!DNL *[!DNL install_root]*\ImageServing\bin]中。 它具有以下功能：
 
 * 将主晕影转换为单分辨率、多分辨率或金字塔生产晕影（请参阅[晕影缩放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)）。
 * 生成生产文件柜和覆盖样式文件的窗口（请参见`-resolution`和`-jpegquality`）。

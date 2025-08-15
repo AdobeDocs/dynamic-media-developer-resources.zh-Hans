@@ -24,7 +24,7 @@ ht-degree: 0%
 * 如果路径是相对路径，则以`catalog::RootPath`为前缀（来自命名材质目录）。
 * 如果路径为绝对路径，则使用该路径；否则，该路径将以`default::RootPath`为前缀（来自默认目录）。
 * 如果该路径为绝对路径，则使用该路径；否则，服务器会将其与[ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2)中指定的路径合并。
-* 如果路径现在为绝对路径，则使用该路径；否则，将假定该路径相对于[！DNL *[!DNL install_folder]*]。
+* 如果路径现在为绝对路径，则使用该路径；否则，将假定该路径相对于[!DNL *[!DNL install_folder]*]。
 
 如果未涉及图像目录，则路径将与`default::RootPath`组合在一起，然后按上述方式处理。
 

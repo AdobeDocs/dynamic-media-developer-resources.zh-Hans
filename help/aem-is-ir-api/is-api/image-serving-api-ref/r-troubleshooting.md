@@ -47,7 +47,7 @@ is-docs示例中的&#x200B;**损坏的图像**
 
 **日志文件占用太多磁盘空间**
 
-图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[！DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
+图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[!DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
 
 **如果您的服务器上安装了防病毒软件**
 

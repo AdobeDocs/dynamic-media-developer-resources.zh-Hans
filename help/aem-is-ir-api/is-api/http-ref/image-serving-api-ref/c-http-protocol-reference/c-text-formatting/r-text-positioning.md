@@ -28,25 +28,25 @@ ht-degree: 0%
 
 以下示例适用于预先调整大小的文本。 自调整文本大小的行为不同。
 
-** `Text=`始终在顶部提供窄边距：**
+**&#x200B; `Text=`始终在顶部提供窄边距：**
 
 ![文本定位示例一个图像](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=`呈现文本与文本框顶部紧密对齐，这会导致轻微剪切，即使对于Arial®：**等常见字体也是如此
+**&#x200B; `textPs=`呈现文本与文本框顶部紧密对齐，这会导致轻微剪切，即使对于Arial®：**&#x200B;等常见字体也是如此
 
 ![文本定位示例2图像](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=`自动将渲染的文本下移以避免剪切：**
+**&#x200B; `text=`自动将渲染的文本下移以避免剪切：**
 
 ![文本定位示例三张图像](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=`不移动包含凸起部分的文本，如果文本位于图层0：**上，则会导致显着剪切
+**&#x200B; `textPs=`不移动包含凸起部分的文本，如果文本位于图层0：**&#x200B;上，则会导致显着剪切
 
 ![文本定位示例4图像](assets/tp04.png)
 

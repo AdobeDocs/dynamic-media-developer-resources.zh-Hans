@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS：：errorRedirect.rootUrl — 重定向服务器 {#section-85f22e48d68842a490b0e1191543b558}
 
-应将本地失败的请求重定向到的次映像服务部署的根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*])。 当此设置为空或未定义时，将禁用错误重定向（默认）。
+应将本地失败的请求重定向到的次映像服务部署的根URL ( HTTP:// *[!DNL domain]*[: *[!DNL port]*])。 当此设置为空或未定义时，将禁用错误重定向（默认）。
 
 ## PS：：errorRedirect.connectTimeout — 重定向连接超时 {#section-3971be8f720d4b32a2cc7860b4085971}
 

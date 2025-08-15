@@ -16,7 +16,7 @@ ht-degree: 0%
 
 图像渲染会对非金字塔晕影实施200万像素大小限制。
 
-如果您的应用程序需要支持图像区域（宽度x高度）大于此限制的非金字塔晕影，请修改[！DNL `IrMaxNonPyrVignetteSize` /ImageServing/conf /ImageServerRegistry.conf]中的&#x200B;*[!DNL install_root]*&#x200B;值。
+如果您的应用程序需要支持图像区域（宽度x高度）大于此限制的非金字塔晕影，请修改[!DNL `IrMaxNonPyrVignetteSize` /ImageServing/conf /ImageServerRegistry.conf]中的&#x200B;*[!DNL install_root]*&#x200B;值。
 
 >[!NOTE]
 >

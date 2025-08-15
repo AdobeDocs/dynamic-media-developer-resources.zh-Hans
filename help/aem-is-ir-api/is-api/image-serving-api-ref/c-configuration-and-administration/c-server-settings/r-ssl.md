@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## TC：：keystoreFile - Keystore文件路径 {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-指定SSL密钥库文件的路径/名称。 可以是绝对路径或相对于[！DNL *[!DNL install_folder]*/conf]的路径。 默认值为&#x200B;*install_folder*/conf/scene7keystore。
+指定SSL密钥库文件的路径/名称。 可以是绝对路径或相对于[!DNL *[!DNL install_folder]*/conf]的路径。 默认值为&#x200B;*install_folder*/conf/scene7keystore。
 
 ## TC：：keystorePass - Keystore密码 {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
