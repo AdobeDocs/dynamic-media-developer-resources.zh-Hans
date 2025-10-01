@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **使用响应图像库**
 
-1. 在Dynamic Media Classic中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=zh-Hans#image-sizing)，以防您计划将Responsive图像库与预设一起使用。
+1. 在Dynamic Media Classic中，[创建图像预设](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)，以防您计划将Responsive图像库与预设一起使用。
 
    定义与响应图像库一起使用的图像预设时，请勿使用任何影响图像大小的设置，如`wid=`、`hei=`或`scl=`。 请勿在图像预设中指定任何大小字段。 相反，请将其保留为空白值。
 1. 将库JavaScript文件添加到您的网页。
@@ -32,11 +32,13 @@ ht-degree: 0%
 
    还建议您将现有图像URL放入`data-src`属性中。 然后，将现有`src`属性设置为将一个1x1 GIF图像编码为数据URI。 这样可以减少网页在加载时发送的HTTP请求数。 但请注意，如果需要SEO（搜索引擎优化），最好在图像实例上设置`title`属性。
 
-   以下是定义图像的`data-breakpoints`属性并使用编码为数据URI的1x1 GIF的示例：
+<!--
+   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
+-->
 
 1. 为库管理的每个图像实例调用`s7responsiveImage` API函数。
 
@@ -56,7 +58,8 @@ ht-degree: 0%
 
 网页负责设置图像元素的样式，使其在大小上更加灵活。 Responsive图像库本身不区分固定大小图像和“流畅”图像。 如果应用于固定大小的图像，则只加载新图像一次。
 
-以下代码是一个简单的网页的完整示例，该网页具有由Responsive Image库管理的单个流体图像。 该示例包含额外的CSS样式，以使图像对Web浏览器窗口大小具有“响应性”：
+<!--
+The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -81,7 +84,9 @@ ht-degree: 0%
   </script> 
  </body> 
 </html>
+
 ```
+-->
 
 **使用智能裁切**
 

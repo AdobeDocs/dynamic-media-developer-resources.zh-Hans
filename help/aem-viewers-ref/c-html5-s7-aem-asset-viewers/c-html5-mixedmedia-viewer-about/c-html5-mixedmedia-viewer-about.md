@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample](https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## 使用混合媒体查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
    您可以在下面的示例页面上看到带有固定外部查看器区域的行为。 请注意，在组之间切换时，外部查看器大小不会更改：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
    要使主视图维度为静态维度，请使用`Container` CSS选择器或使用`.s7mixedmediaviewer .s7container`修饰符为内部`stagesize` SDK组件定义查看器大小（以绝对单位表示）。
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
    以下示例页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态状态，网页内容将垂直移动：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    您可以在Dynamic Media Classic中的查看器预设记录中设置`stagesize`修饰符，或通过`params`集合显式传递查看器初始化代码。 或者，作为一个API调用，如本帮助的命令参考部分中所述，如下所示：
 
@@ -329,7 +329,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 

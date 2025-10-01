@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2177'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,14 @@ ht-degree: 0%
 
 查看器类型为510。
 
+
 ## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=zh-Hans)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-和
-
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=zh-Hans)
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
+-->
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -280,7 +281,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 定义宽度和高度的&#x200B;**响应式嵌入**
 

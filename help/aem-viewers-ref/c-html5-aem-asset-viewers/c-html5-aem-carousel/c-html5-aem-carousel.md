@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## 演示URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hans)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ ht-degree: 0%
 
 您可以通过应用自定义CSS来实现可视化自定义。
 
-以下是在新窗口中打开查看器的HTML代码示例：
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **关于固定大小嵌入模式和响应式设计嵌入模式**
 
@@ -161,6 +167,7 @@ ht-degree: 0%
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 当此功能生效时，查看器加载会自动恢复。
 
+
    以下示例用于创建查看器实例、将最低必要的配置选项传递给构造函数以及调用`init()`方法。 该示例假设`carouselViewer`是查看器实例；`s7viewer`是占位符`DIV`的名称；`https://adobedemo62-h.assetsadobe.com/is/image`是图像服务URL，`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`是资源：
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ ht-degree: 0%
    }).init(); 
    </script>
    ```
+
 
    以下代码是嵌入固定大小轮盘查看器的简单网页的完整示例：
 
@@ -206,7 +214,9 @@ ht-degree: 0%
 
 **高度不受限制的响应式设计嵌入**
 
-通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器`DIV`的运行时大小。 对于以下示例，假设网页允许查看者的容器`DIV`占用Web浏览器窗口大小的40%。 而且，它的高度不受限制。 网页HTML代码如下所示：
+通过响应式设计嵌入，网页通常具有某种灵活的布局，可指定查看器容器`DIV`的运行时大小。
+
+对于以下示例，假设网页允许查看者的容器`DIV`占用Web浏览器窗口大小的40%。 而且，它的高度不受限制。 网页HTML代码如下所示：
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 以下示例页面说明了高度不受限制的响应式设计嵌入的更多实际用途：
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hans)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 定义宽度和高度的&#x200B;**灵活大小嵌入**
 
 在定义了宽度和高度的灵活大小嵌入中，网页的样式不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%。
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **使用基于Setter的API嵌入**
 
 可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会接受任何参数，配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
+
 
 以下示例说明了如何将固定大小嵌入与基于setter的API一起使用：
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

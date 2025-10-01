@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '2315'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&stagesize=500,400)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## 使用内联缩放查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
    您可以在下面的示例页面上看到带有固定外部查看器区域的行为。 请注意，在组之间切换时，外部查看器大小不会更改：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
    要使主视图维度为静态维度，请使用`Container` CSS选择器为内部`.s7flyoutviewer .s7container` SDK组件定义查看器大小（以绝对单位表示）。 此外，您应将默认查看器CSS设置为`.s7flyoutviewer`，以覆盖为`auto`顶级CSS类定义的固定大小。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    以下示例页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态状态，网页内容将垂直移动：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
    此外，默认查看器CSS为开箱即用的外部区域提供固定大小。
 
@@ -331,7 +331,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 定义宽度和高度的灵活大小嵌入 {#section-0a329016f9414d199039776645c693de}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Scene7 2016年秋季发行说明是Adobe Experience Cloud中Adobe Experien
 
 Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全面提升。
 
-请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hans#dynamic)。
+请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 图像生成系统 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans)
+有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新增功能、增强功能和错误修复**
 
@@ -58,7 +58,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **针对图像服务5.5.3的错误修复**
 
@@ -68,7 +68,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **针对图像服务5.5.2的错误修复**
 
@@ -77,7 +77,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **图像服务5.5.1的新增功能、增强功能和错误修复**
 
@@ -151,10 +151,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 **已知问题和限制**
 
-* 来自`iscommands`的图像服务修饰符未按设计添加到`req=set`请求中。 仅影响图像显示的修饰符工作正常。 必须在复杂资源中使用影响大小的修饰符。 例如︰
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* 来自`iscommands`的图像服务修饰符未按设计添加到`req=set`请求中。 仅影响图像显示的修饰符工作正常。 必须在复杂资源中使用影响大小的修饰符。
 * 鼠标关闭后，[弹出] IE9有时仍保留在屏幕上。
 * 浏览器缩放会导致调整大小错误。
 * iPad 2：大型eCatalog资源在iOS上崩溃Safari。

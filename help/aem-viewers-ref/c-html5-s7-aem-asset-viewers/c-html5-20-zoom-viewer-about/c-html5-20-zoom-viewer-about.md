@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## 使用缩放查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -178,7 +178,7 @@ target="_blank">Open popup viewer</a>
 
    您可以在下例中查看使用固定外部查看器的行为。 请注意，在组之间切换时，外部查看器大小不会更改：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    要使主视图维度为静态维度，请使用`Container` `.s7zoomviewer` CSS选择器或使用`.s7container`修饰符为内部`stagesize` SDK组件定义查看器大小（以绝对单位表示）。
 
@@ -193,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    以下演示页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态状态，网页内容将垂直移动。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    您可以在Dynamic Media Classic中的查看器预设记录中设置`stagesize`修饰符。 或者，您也可以使用`params`集合中的查看器初始化代码显式传递它，或者作为API调用显式传递它，如本帮助的“命令引用”部分中所述，如下所示：
 

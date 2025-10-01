@@ -5,9 +5,9 @@ title: 命令引用 — 配置属性
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 0%
 可选.
 
 图像服务所提供图像的URL。 如果URL不存在，则库将使用`src`属性中设置的值作为回退。 此属性用于提供初始图像和Responsive图像库从不同位置管理的动态图像。
-
-**示例**
+<!--
+**Example** 
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -34,13 +35,15 @@ ht-degree: 0%
 
 如果未设置`data-src`，则`src`是必需的，并且必须包含图像服务所服务图像的URL。
 
-**示例**
+<!--
+**Example**
 
-正在为`src`属性使用数据URI，为`data-src`属性使用图像服务URL：
+Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## 数据断点 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -52,23 +55,26 @@ ht-degree: 0%
 
 多个图像服务命令或图像预设名称使用“`&`”字符分隔。 如果图像服务命令的值中包含逗号，则此类逗号将替换为`%2C`。 图像预设名称用美元符号(`$`)括起来。
 
-**示例**
+<!--
+**Examples**
 
-**仅使用断点**
+**Using breakpoints only**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**使用图像服务命令**
+**Using Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**使用图像预设**
+**Using Image Presets**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**使用图像预设和图像服务命令**
+**Using Image Presets & Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+-->
 
 ## 数据模式 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

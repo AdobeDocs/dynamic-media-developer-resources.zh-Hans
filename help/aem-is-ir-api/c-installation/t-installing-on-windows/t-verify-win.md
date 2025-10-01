@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3fcb1f20-8334-497e-8b3e-9097751ca5c1
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -23,7 +23,8 @@ ht-degree: 0%
 
    `http:// server:port /is/image`
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
 检查响应中是否存在“`imageServer.`”项，这表示图像服务器正在侦听。
+
 >如果安装了，则可以使用文档和演示软件包的示例页面执行其他验证。

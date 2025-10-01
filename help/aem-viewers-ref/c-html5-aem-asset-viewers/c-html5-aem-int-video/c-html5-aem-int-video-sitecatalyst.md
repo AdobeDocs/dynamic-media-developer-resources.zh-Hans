@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ HTML5 Video360查看器支持开箱即用的Adobe Analytics跟踪。
 
 ## 自定义跟踪 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。 以下代码是此类处理程序函数的示例：
+要与第三方分析系统集成，必须侦听`trackEvent`查看器回调，并根据需要处理回调函数的`eventInfo`参数。
+
+<!--
+The following code is an example of such handler function:
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -46,6 +49,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 } 
 });
 ```
+-->
 
 查看器跟踪以下SDK用户事件：
 
