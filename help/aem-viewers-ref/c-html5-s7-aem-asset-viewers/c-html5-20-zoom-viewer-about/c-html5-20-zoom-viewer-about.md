@@ -178,7 +178,7 @@ target="_blank">Open popup viewer</a>
 
    您可以在下例中查看使用固定外部查看器的行为。 请注意，在组之间切换时，外部查看器大小不会更改：
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans)
 
    要使主视图维度为静态维度，请使用`Container` `.s7zoomviewer` CSS选择器或使用`.s7container`修饰符为内部`stagesize` SDK组件定义查看器大小（以绝对单位表示）。
 
@@ -193,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    以下演示页面显示了固定主视图大小的查看器行为。 请注意，在页面集之间切换时，主视图将保持静态状态，网页内容将垂直移动。
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans)
 
    您可以在Dynamic Media Classic中的查看器预设记录中设置`stagesize`修饰符。 或者，您也可以使用`params`集合中的查看器初始化代码显式传递它，或者作为API调用显式传递它，如本帮助的“命令引用”部分中所述，如下所示：
 

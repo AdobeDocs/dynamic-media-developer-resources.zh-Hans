@@ -273,7 +273,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 [实时演示](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[备用演示位置](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
 
 **定义了宽度和高度的响应式设计嵌入**
 
