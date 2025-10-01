@@ -23,7 +23,7 @@ ht-degree: 0%
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 检查响应中是否存在“`imageServer.`”项，这表示图像服务器正在侦听。
 
