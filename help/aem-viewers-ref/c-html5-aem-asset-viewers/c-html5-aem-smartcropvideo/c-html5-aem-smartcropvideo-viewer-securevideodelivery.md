@@ -34,7 +34,7 @@ ht-degree: 0%
 
   -->
 
-另请参阅[将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)。
+另请参阅[将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)。
 
 * 如果您使用嵌入代码发布Dynamic Media视频，则在嵌入代码片段中将`SmartCropVideoPlayer.ssl`添加到其他查看器配置参数列表中。
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
   -->
 
-另请参阅[在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。
+另请参阅[在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)。
