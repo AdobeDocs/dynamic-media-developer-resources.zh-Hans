@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ ht-degree: 0%
 
 根据您在Adobe Experience Manager中使用的发布[!DNL Dynamic Media]视频的方法，`VideoPlayer.ssl`配置属性的应用有所不同，如以下所示：
 
-* 如果您发布带有URL的[!DNL Dynamic Media]视频，则会将`VideoPlayer.ssl`附加到URL。 例如，要强制安全视频交付，请将`&VideoPlayer.ssl=on`附加到以下查看器URL示例的末尾：
+* 如果您发布带有URL的[!DNL Dynamic Media]视频，则会将`VideoPlayer.ssl`附加到URL。
+
+<!-- For example, to force secure video delivery, you append `&VideoPlayer.ssl=on` to the end of the following viewer URL example:-->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  另请参阅[将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)
+-->
 
-* 如果使用嵌入代码发布[!DNL Dynamic Media]视频，请将`VideoPlayer.ssl`添加到嵌入代码片段中的其他查看器配置参数列表中。 例如，要强制HTTPS视频交付，您可以附加`&VideoPlayer.ssl=on`，如以下示例所示：
+另请参阅[将URL链接到您的Web应用程序](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+
+* 如果使用嵌入代码发布[!DNL Dynamic Media]视频，请将`VideoPlayer.ssl`添加到嵌入代码片段中的其他查看器配置参数列表中。
+
+<!-- For example, to force HTTPS video delivery, you append `&VideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```html {.line-numbers}
   <style type="text/css"> 
@@ -76,5 +86,6 @@ ht-degree: 0%
    s7interactivevideoviewer.init(); 
   </script>
   ```
+-->
 
-  另请参阅[在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=zh-Hans#dynamic)。
+另请参阅[在网页上嵌入视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)。

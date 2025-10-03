@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=zh-Hans)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 -->
 
 ## 系统要求 {#section-b7270cc4290043399681dc504f043609}
@@ -167,8 +167,13 @@ The following is an example of HTML code that opens the viewer in a new window:
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 当此功能生效时，查看器加载会自动恢复。
 
+<!--
 
-   以下示例用于创建查看器实例、将最低必要的配置选项传递给构造函数以及调用`init()`方法。 该示例假设`carouselViewer`是查看器实例；`s7viewer`是占位符`DIV`的名称；`https://adobedemo62-h.assetsadobe.com/is/image`是图像服务URL，`/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`是资源：
+   The following is an example of creating a viewer instance, passing minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes `carouselViewer` is the viewer instance; `s7viewer` is the name of placeholder `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is the Image Serving URL, and `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is the asset:
+
+-->
+
+<!--
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -182,8 +187,13 @@ The following is an example of HTML code that opens the viewer in a new window:
    </script>
    ```
 
+-->
 
-   以下代码是嵌入固定大小轮盘查看器的简单网页的完整示例：
+<!--
+   The following code is a complete example of a trivial web page that embeds the Carousel Viewer with a fixed size:
+-->
+
+<!--
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,6 +221,8 @@ The following is an example of HTML code that opens the viewer in a new window:
    </body> 
    </html>
    ```
+-->
+
 
 **高度不受限制的响应式设计嵌入**
 
@@ -240,7 +252,11 @@ The following is an example of HTML code that opens the viewer in a new window:
 1. 正在定义容器`DIV`。
 1. 创建和初始化查看器。
 
-上述所有步骤与嵌入固定大小相同。 将容器`DIV`添加到现有`"holder"` `DIV`。 以下代码是一个完整的示例。 请注意当浏览器调整大小时查看器大小如何变化，以及查看器纵横比如何与资源匹配。
+上述所有步骤与嵌入固定大小相同。 将容器`DIV`添加到现有`"holder"` `DIV`。
+
+<!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,14 +286,21 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-以下示例页面说明了高度不受限制的响应式设计嵌入的更多实际用途：
+-->
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=zh-Hans)
+<!-- The following examples page illustrates more real-life uses of responsive design embedding with unrestricted height: -->
+
+<!--
+
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+
+-->
 
 定义宽度和高度的&#x200B;**灵活大小嵌入**
 
-在定义了宽度和高度的灵活大小嵌入中，网页的样式不同。 它为`"holder"` DIV提供两种大小，并将其居中在浏览器窗口中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%。
+在定义了宽度和高度的灵活大小嵌入中，网页的样式不同。 它为`"holder"` DIV提供两种大小，并将其放在浏览器窗口中居中。 此外，网页将`HTML`和`BODY`元素的大小设置为100%。
 
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -303,7 +326,7 @@ height: 60%;
 </html>
 ```
 
-其余嵌入步骤与用于高度不受限制的响应式嵌入的步骤相同。 生成的示例如下：
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,13 +364,16 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+-->
+
 
 **使用基于Setter的API嵌入**
 
 可以使用基于setter的API和no-args构造函数，而不是使用基于JSON的初始化。 使用此API构造函数不会接受任何参数，配置参数是使用`setContainerId()`、`setParam()`和`setAsset()` API方法通过单独的JavaScript调用指定的。
 
+<!-- The following example illustrates using fixed size embedding with the setter-based API: -->
 
-以下示例说明了如何将固定大小嵌入与基于setter的API一起使用：
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -373,4 +399,6 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+
+-->
 

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ eCatalog Viewer是一种目录查看器，以跨页或逐页方式在跨页中�
 
 此查看器可与eCatalog配合使用，并且支持可选的图像映射和社交共享工具。 它具有缩放工具、目录导航工具、全屏支持、缩略图和可选的关闭按钮。 查看器还支持社交共享工具、打印、下载和收藏夹。 它设计为可在台式机和移动设备上工作。
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## 演示URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
--->
+
 
 ## 使用eCatalog查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
