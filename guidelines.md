@@ -37,7 +37,7 @@ Adobe知道，AdobeDynamic Media用户在竞争激烈的环境中工作，努力
 
 欢迎您对改进文档的任何想法作为投稿。 但是，评论、问题和拉取请求仅用于 *投稿* 仅限。 它们不是用来回答您有关如何使用Dynamic Media、实施您的项目或解决技术问题。
 
-如果您对Dynamic Media的使用有任何疑问或遇到任何技术问题，应通过以下网站报告： [Experience Cloud企业支持门户](https://experienceleague.adobe.com/zh-hans?support-solution=General&amp;support-tab=home#support) 或在 [Experience Manager社区。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+如果您对Dynamic Media的使用有任何疑问或遇到任何技术问题，应通过以下网站报告： [Experience Cloud企业支持门户](https://experienceleague.adobe.com/zh-hans?support-solution=General&support-tab=home#support) 或在 [Experience Manager社区。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
 ***文档投稿无法替代Adobe客户关怀*** 任何试图获取支持相关问题答案的此类投稿都将被拒绝。
 
