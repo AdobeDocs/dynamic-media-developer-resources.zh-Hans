@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的逗号分隔框架列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意：此功能在Adobe Dynamic Media Classic中受支持；在Adobe Experience Manager Assets中不受支持。 </p> </p> </td> 
+   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;&lbrack;,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的逗号分隔框架列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意：此功能在Adobe Dynamic Media Classic中受支持；在Adobe Experience Manager Assets中不受支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">修饰符</span> </span> </p> </td> 
