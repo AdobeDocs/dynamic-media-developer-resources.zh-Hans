@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -36,22 +36,22 @@ Dynamic Media HTML5查看器的系统要求。
 **组件查看器的客户端浏览器最低要求：**
 
 * 在以下操作系统版本或更高版本上受支持：
-   * Microsoft® Windows® 7
+   * ® Windows® 7
    * macOS X 10.12
 * 在以下浏览器/平台版本或更高版本上受支持：
-   * Android™操作系统4.x
+   * ™操作系统4.x
    * 本机浏览器上的BlackBerry® 10。 仅支持视频播放。
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * IOS6
-   * iPad 2(仅限Safari和Chrome浏览器)
+   * iPad 2（仅限Safari和Chrome浏览器）
    * iPhone 3GS
    * Safari 11
 * 不支持移动设备上的Internet Explorer。
 * 以下浏览器/平台版本或更高版本支持&#x200B;*PanoramicViewer*：
-   * Android™ 4.4（仅限电话设备）
+   * ™ 4.4（仅限电话设备）
    * Chrome 82
    * Edge
    * Firefox 77
@@ -59,14 +59,14 @@ Dynamic Media HTML5查看器的系统要求。
    * iOS 10
    * Safari 11
 * 以下浏览器/平台版本或更高版本支持&#x200B;*Video360Viewer*&#x200B;和&#x200B;*DimensionalViewer*：
-   * Android™ 5（仅限电话设备）
+   * ™ 5（仅限电话设备）
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
 * 以下浏览器/平台版本或更高版本支持&#x200B;*ZoomVerticalViewer*：
-   * Android™ 4.x
+   * ™ 4.x
    * Chrome 82
    * Edge
    * Firefox 77
@@ -136,5 +136,6 @@ Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support 
 * Baidu January 2015
 
 NOTE
-FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
+FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform.
+-->
 

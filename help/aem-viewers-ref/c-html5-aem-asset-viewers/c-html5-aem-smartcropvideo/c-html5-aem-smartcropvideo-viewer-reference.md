@@ -2,11 +2,12 @@
 title: 智能裁剪视频查看器
 description: 智能裁切视频查看器可播放以H.264格式编码的流视频和渐进视频，并增加了智能裁切支持。 它通过Dynamic Media从Dynamic Media Classic或Adobe Experience Manager提供。
 keywords: 响应式
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 0%
@@ -78,7 +79,7 @@ ht-degree: 0%
 
 不同的网页对查看者的行为具有不同的需求。 有时，网页会提供一个链接，选中该链接后，查看器将在单独的浏览器窗口中打开。 在其他情况下，需要直接将查看器嵌入到托管页面上。 在后一种情况下，网页可能具有静态页面布局，或者使用响应式设计，该设计在不同的设备上或对于不同的浏览器窗口大小显示不同。 为了满足这些需求，查看器支持三种主要操作模式：弹出窗口、固定大小嵌入和响应式设计嵌入。
 
-平板电脑和移动设备支持在同一页面上嵌入多个视频。 通常，一次只能播放一个视频。 当用户开始播放一个视频，然后尝试播放另一个视频时，第一个视频自动暂停。 自动暂停的视频会记住其当前播放时间，因此用户始终可以返回并继续播放。 此规则唯一的例外是在Android™ 4.x设备上的Chrome浏览器中，该浏览器可以并行播放视频。
+平板电脑和移动设备支持在同一页面上嵌入多个视频。 通常，一次只能播放一个视频。 当用户开始播放一个视频，然后尝试播放另一个视频时，第一个视频自动暂停。 自动暂停的视频会记住其当前播放时间，因此用户始终可以返回并继续播放。 此规则唯一的例外是在™ 4.x设备上的Chrome浏览器中，该浏览器可以并行播放视频。
 
 **关于弹出模式**
 
@@ -108,7 +109,7 @@ ht-degree: 0%
 
 响应式设计嵌入假定查看器必须在运行时调整大小以响应其容器`DIV`的大小更改。 最常见的用例是将查看器添加到使用灵活页面布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页调整其容器`DIV`大小的方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 此方法可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式设计布局框架(如Bootstrap或基础)的网页。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页调整其容器`DIV`大小的方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 此方法可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式设计布局框架（如Bootstrap或基础）的网页。
 
 否则，如果网页同时设置了查看器容器`DIV`的宽度和高度，则查看器仅填充该区域，并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口的大小调整大小。
 
@@ -137,7 +138,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径（所谓的统一HTML `/s7viewers`）加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -297,7 +298,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

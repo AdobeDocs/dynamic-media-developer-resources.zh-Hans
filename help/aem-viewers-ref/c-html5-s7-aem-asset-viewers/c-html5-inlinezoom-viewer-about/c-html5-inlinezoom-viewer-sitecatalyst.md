@@ -3,9 +3,9 @@ title: 支持Adobe Analytics跟踪
 description: 弹出查看器支持开箱即用的Adobe Analytics跟踪。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

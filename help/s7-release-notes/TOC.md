@@ -8,10 +8,11 @@ archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Media Classic
 role: Developer,User
-user-guide-description: Adobe Dynamic Media Classic (Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分)的最新发行说明。
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+user-guide-title: Adobe Dynamic Media Classic发行说明
+user-guide-description: Adobe Dynamic Media Classic （Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分）的最新发行说明。
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---

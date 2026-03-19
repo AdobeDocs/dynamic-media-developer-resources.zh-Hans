@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 `fmt=format[,` `[`*`pixelType`*`]`，`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png8-alpha | png8 | swf-alpha | swf3-alpha | swf3 | tif-alpha | web-alpha | webp
 
 | *`format`* | 说明 |
 |---|---|
@@ -51,7 +51,7 @@ ht-degree: 2%
 | `webp-alpha` | 带有Alpha通道的有损无损WebP。 |
 | `webp` | 有损无损WebP。 |
 
-*`pixelType`* - rgb | 灰色 | cmyk
+*`pixelType`* - rgb |灰色| cmyk
 
 | *`pixelType`* | 说明 |
 |---|---|
@@ -59,7 +59,7 @@ ht-degree: 2%
 | `gray` | 返回灰度图像数据。 |
 | `rgb` | 返回RGB图像数据。 |
 
-*`compression`* - jpeg | 有损 | 无损 | lzw | 无 | zip
+*`compression`* - jpeg |有损|无损| lzw |无| zip
 
 | *`compression`* | 说明 |
 |---|---|
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 您可以使用`qlt=`为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF、带有JPEG压缩的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值导致不同格式具有不同的品质。 如果`quantize=`或`fmt=gif`，则使用`fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
-对于所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;返回8位/像素组件(对于GIF，每像素8位/像素)。
+对于所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;返回8位/像素组件（对于GIF，每像素8位/像素）。
 
 下表列出了*`format`*和&#x200B;*`pixelType`*&#x200B;的有效组合、相应的HTTP响应MIME类型、是否可以嵌入ICC配置文件（请参阅[iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)）以及可以应用的特定于格式的选项。
 

@@ -1,11 +1,12 @@
 ---
 title: 播放/暂停按钮
 description: 播放/暂停按钮可让智能裁切视频播放器在用户单击视频内容时播放或暂停该内容。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 03b819cc-a709-496a-9edb-29813b13e979
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -39,6 +39,8 @@ ht-degree: 0%
 
 为了正确运行渲染服务器，默认目录的目录属性文件必须命名为[!DNL default.ini]。 它还必须始终存在于目录文件夹中，并且必须用所有必需的属性完全填充，不包括`attribute::RootId`以及对各种目录数据文件的引用，所有这些都是可选的。
 
-<!-- **See also**
+<!--
+ **See also**
 
-`PlatformServer::ir.catalogRootPath` -->
+`PlatformServer::ir.catalogRootPath`
+-->

@@ -1,11 +1,12 @@
 ---
 title: 可变音量
 description: 可静音音量控件最初显示为按钮，允许用户将智能裁剪视频播放器声音静音或取消静音。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e0a3e849-842b-4137-acc2-34301e89518f
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%

@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义Dynamic Media查看器，以在桌面设备和触摸屏设备上使用。 包括交互式图像和视频、轮盘、旋转集等。
-source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Dynamic Media查看器参考指南 {#library}
 
-+ [Dynamic Media查看器参考指南](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans) -->
++ [Dynamic Media查看器参考指南](homeviewers.md)
 + [查看器库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [系统要求](c-system-requirements-and-prerequisites.md)
 + [在同一服务器上安装多个查看器](t-installing-the-viewers.md)
@@ -635,8 +635,8 @@ ht-degree: 2%
       + [全屏支持](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-full-screen-support.md)
       + [外部视频支持](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md)
       + [查看器SDK命名空间](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
-   + 缩放 {#zoom}
-      + [缩放](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
+   + Zoom {#zoom}
+      + [Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
       + 命令引用 — 配置属性 {#command-reference-configuration-attributes-zoom}
          + [命令引用 — 配置属性](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib.md)
          + [关闭按钮](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-closebutton.md)
@@ -1012,3 +1012,4 @@ ht-degree: 2%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

@@ -1,11 +1,12 @@
 ---
 title: 电子邮件共享
 description: 电子邮件共享工具由添加到“社交”共享面板的按钮以及激活工具时显示的模式对话框组成。 按钮的位置完全由社交共享工具管理。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '3029'
 ht-degree: 0%
@@ -241,7 +242,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-关闭按钮的&#x200B;**CSS属性**
+关闭按钮的**CSS属性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -527,7 +528,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-对话框查看区域的&#x200B;**CSS属性**
+对话框查看区域的**CSS属性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +572,7 @@ background-color: #ffffff;
 
 如果此容器的高度看起来比主对话框区域大，则组件会自动启用垂直滚动。
 
-对话框正文的&#x200B;**CSS属性**
+对话框正文的**CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +624,7 @@ background-color: #ffffff;
 
 此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面各个位置的文本。
 
-对话框标签的&#x200B;**CSS属性。 &#x200B;**
+对话框标签的**CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +960,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-对话框内容的&#x200B;**CSS属性**
+对话框内容的**CSS属性**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1095,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-对话框内容源&#x200B;**的**&#x200B;CSS属性
+对话框内容源**的**CSS属性
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

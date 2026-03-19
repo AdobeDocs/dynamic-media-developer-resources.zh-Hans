@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media图像服务和渲染API
 breadcrumb-title: Dynamic Media图像服务和渲染API
 feature-set: Experience Manager Assets
 user-guide-description: 查看有关IS（图像服务）和IR（图像渲染）API以及相关技术的文档。
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 8%
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # Dynamic Media图像服务和渲染API {#image-serving-api}
 
-+ [Dynamic Media图像服务和图像渲染API主页](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hans) -->
++ [Dynamic Media图像服务和图像渲染API主页](homeisir.md)
 + [关于此版本](r-about-this-release.md)
 + [系统要求和先决条件](r-requirements-and-prerequisites.md)
 + [磁盘空间要求和建议](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 8%
       + [CAB样式文件的选项](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [返回](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [输出](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

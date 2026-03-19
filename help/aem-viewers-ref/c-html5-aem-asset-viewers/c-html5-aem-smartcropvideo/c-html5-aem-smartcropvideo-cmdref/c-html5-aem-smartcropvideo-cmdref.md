@@ -1,12 +1,13 @@
 ---
 title: 命令引用 — 配置属性
 description: 智能裁剪视频查看器的配置属性文档。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 mini-toc-levels: 3
 exl-id: 698c03b1-bec0-44bf-9c79-c66e0192344a
-source-git-commit: eaf59166fcc1ff8ec5a2e846ef0eb180c8cbdd5a
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

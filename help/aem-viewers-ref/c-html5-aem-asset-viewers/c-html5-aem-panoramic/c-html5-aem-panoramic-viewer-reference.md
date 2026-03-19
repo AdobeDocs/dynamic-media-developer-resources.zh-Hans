@@ -2,10 +2,11 @@
 title: 全景查看器
 description: HTML5 Panoramic Viewer是一个显示全景图像的图像查看器。 此查看器的目的是显示球面全景，也称为等矩形图像。 它支持通过陀螺运动实现自动平移和平移。 它设计为可在台式机和移动设备上工作。 虚拟现实观看模式适用于支持移动设备的设备。
 keywords: 响应式
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -30,7 +31,7 @@ HTML5 Panoramic Viewer是一个显示全景图像的图像查看器。 此查看
 ## 使用全景查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
 HTML5全景查看器表示主JavaScript文件以及查看器在运行时下载的一组帮助程序文件。 该帮助程序文件集是单个JavaScript，其中包含此特定查看器、资源、CSS使用的所有HTML5 Viewer SDK组件。
-HTML5全景查看器既可以在弹出模式下使用(使用随IS-Viewers提供的生产就绪型HTML页面)，也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
+HTML5全景查看器既可以在弹出模式下使用（使用随IS-Viewers提供的生产就绪型HTML页面），也可以在嵌入式模式下使用（使用文档记录的API将其集成到目标网页中）。
 其配置和外观设计与其他HTML5查看器的配置和外观设计类似。 所有外观设计均可通过自定义CSS获得。
 
 查看所有查看者通用的[命令引用 — 配置属性](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)和所有查看者通用的[命令引用 — URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
@@ -94,7 +95,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 响应式嵌入假定查看器必须在运行时调整大小以响应其容器DIV的大小更改。 最常见的用例是将查看器添加到使用灵活布局的网页。
 
-在响应模式下，查看器的行为方式有所不同，具体取决于网页确定其容器DIV大小的方式。 如果网页仅设置容器DIV的宽度，而不限制其高度，则查看者会根据所用资产的纵横比自动选择其高度。 此方法可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式布局框架(如Bootstrap、基础等)的网页。
+在响应模式下，查看器的行为方式有所不同，具体取决于网页确定其容器DIV大小的方式。 如果网页仅设置容器DIV的宽度，而不限制其高度，则查看者会根据所用资产的纵横比自动选择其高度。 此方法可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式布局框架（如Bootstrap、基础等）的网页。
 
 否则，如果网页同时设置了查看器容器DIV的宽度和高度，则查看器会填充该区域并遵循网页布局提供的大小。 一个很好的示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
@@ -123,7 +124,7 @@ HTML5全景查看器支持通过拖动或陀螺仪移动进行自动平移和导
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径（所谓的统一HTML `/s7viewers`）加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -275,7 +276,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

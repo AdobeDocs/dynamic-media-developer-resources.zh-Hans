@@ -1,11 +1,12 @@
 ---
 title: 题注按钮
 description: 此按钮可打开和关闭隐藏式字幕显示。 如果未指定描述参数，则不会显示标题。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%

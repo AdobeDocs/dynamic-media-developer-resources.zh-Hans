@@ -5,9 +5,9 @@ title: 图像集
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 | `*`basicSwatchSet`*` | `*`样本项`*&#42;[',' *`样本项`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`样本`*]` |
-| `*`样本`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`样本`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | IS图像引用（目录/ID） |
 | `*`swatchId`*` | IS图像引用（目录/ID） |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`标签`*]'}'` |
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`样本`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;；&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | 对定义基本样本集的目录记录的IS引用（目录/ID） |
 
 **基本旋转集**
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | 对定义基本旋转集的目录记录的IS引用（目录/ID） |
 
 **页面集**
@@ -93,12 +93,12 @@ ht-degree: 1%
 
 | `*`媒体集`*` | `*`项`* &#42;[ , *`项`* ]` |
 |---|---|
-| `*`项`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`已保留`* ] ] ]` |
+| `*`项`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ； `[`*`ID`*`]` `[` ； `[`*`reserved`*`] ] ]` |
 | `*`videoItem`*` | `*`视频`* ; *`色板ID`*` |
 | `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ； *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \|基本\|高级图像\| img \| img \| img_set \|高级图像集\|高级样本集\|旋转\|视频`]` |
 | `*`swatchId`*` | IS图像ID |
 | `*`视频`*` | 视频/动画文件路径或静态目录ID |
 | `*`剪辑`*` | 剪辑定义XML文件路径或静态目录ID |

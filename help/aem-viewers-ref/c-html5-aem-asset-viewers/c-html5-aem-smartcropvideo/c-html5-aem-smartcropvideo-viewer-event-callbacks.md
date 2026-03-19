@@ -1,11 +1,12 @@
 ---
 title: 事件回调
 description: 事件回调
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 21962c01-f224-408d-8072-1c7f5d78ac4b
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 * `initComplete` — 查看器初始化完成并创建所有内部组件时触发，以便可以使用`getComponent()` API。 回调处理程序不接受任何参数。
 
-* `trackEvent` — 每次在查看器中发生事件时都会触发，该事件可能由事件跟踪系统(如Adobe Analytics)处理。 回调处理程序采用以下参数：
+* `trackEvent` — 每次在查看器中发生事件时都会触发，该事件可能由事件跟踪系统（如Adobe Analytics）处理。 回调处理程序采用以下参数：
 
    * `objID {String}`当前未使用。
    * `compClass {String}`当前未使用。

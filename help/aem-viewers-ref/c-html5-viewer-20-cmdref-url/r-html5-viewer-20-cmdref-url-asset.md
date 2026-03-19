@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <span class="codeph"> (（<span class="varname">水平旋转集</span>）[，（<span class="varname">水平旋转集</span>）]) </span> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的逗号分隔框架列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意：此功能在Adobe Dynamic Media Classic中受支持；在Adobe Experience Manager Assets中不受支持。 </p> </p> </td> 
+   <td colname="col2"> <p>使用以下语法指定显式多维旋转集： </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> 其中<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>是给定水平轴的逗号分隔框架列表。 所有<span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>应具有相同的帧数。 </p> <p> <p>注意：此功能在Adobe Dynamic Media Classic中受支持；在Adobe Experience Manager Assets中不受支持。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">修饰符</span> </span> </p> </td> 

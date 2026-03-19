@@ -1,11 +1,12 @@
 ---
 title: 支持Adobe Analytics跟踪
 description: 智能裁剪视频查看器支持开箱即用的Adobe Analytics跟踪。
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%

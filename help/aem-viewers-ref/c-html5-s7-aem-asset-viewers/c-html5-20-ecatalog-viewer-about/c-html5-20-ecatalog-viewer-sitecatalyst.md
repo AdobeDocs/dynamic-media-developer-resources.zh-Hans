@@ -3,9 +3,9 @@ title: 支持Adobe Analytics跟踪
 description: eCatalog查看器支持开箱即用的Adobe Analytics跟踪。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%

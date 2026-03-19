@@ -1,11 +1,12 @@
 ---
 title: setvideo
 description: 智能裁剪视频查看器的JavaScript API参考
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
@@ -21,7 +22,7 @@ ht-degree: 2%
 设置新的外部视频和可选的其他视频数据。 可以在`init()`之前和之后随时调用。 如果在`init()`之后调用，则查看器会在运行时交换视频。
 
 另请参阅[初始化]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)。
+(#reference-3b570ba8b35045d6b30fb178c21a66c6)。
 
 ## 参数 {#section-b6affc90b3a84584b684641c86862e01}
 
