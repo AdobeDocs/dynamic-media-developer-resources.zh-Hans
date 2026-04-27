@@ -1,18 +1,16 @@
 ---
 source-git-commit: 8bb72078ad582e6a23e9048a9daa152b7cd5bb54
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 # Adobe Dynamic Media开发人员资源文档
 
-这是Adobe Dynamic Media Developer Resources文档的存储库。
+这是Adobe Dynamic Media开发人员资源文档存储库。
 
-欢迎您为文档作出贡献。 请参阅以下资源：
+欢迎您贡献文档内容。 请参阅以下资源：
 
-* [arcompiting.](contributing.md) md有关如何为文档贡献的概述。
-* [guidelines.](guidelines.md) md有关稿件中预期内容以及如何编写文档稿件的概述。
-* [code-of-conduct.md有关](code-of-conduct.md) 我们在您为本文档项目提供信息时所期望的行为标准的概述。
-
+* [contributing.md](contributing.md)概述如何贡献文档内容。
+* [guidelines.md](guidelines.md)概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md)概述为文档项目贡献内容时应遵循的行为标准。
