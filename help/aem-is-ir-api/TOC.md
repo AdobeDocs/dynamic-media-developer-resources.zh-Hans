@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media图像服务和渲染API
 breadcrumb-title: Dynamic Media图像服务和渲染API
 feature-set: Experience Manager Assets
 user-guide-description: 查看有关IS（图像服务）和IR（图像渲染）API以及相关技术的文档。
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 8%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 8%
 + [限制和已知问题](r-restrictions-and-known-issues.md)
 + [技术支持](r-tech-support.md)
 + [文档惯例](r-document-conventions.md)
-+ 安装 {#install}
++ 安裝 {#install}
    + [安装概述](c-installation/c-installation.md)
    + [许可](c-installation/c-licensing.md)
    + [内容](c-installation/c-contents.md)
@@ -193,7 +193,7 @@ ht-degree: 8%
          + [翻转](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md)
          + [格式](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md)
          + [hei](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md)
-         + [隐藏](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md)
+         + [隱藏](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md)
          + [icc](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md)
          + [iccEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md)
          + [id](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md)
@@ -244,19 +244,19 @@ ht-degree: 8%
             + [mbrSet](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md)
             + [消息](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-message.md)
             + [prop](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-props.md)
-            + [解决](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-resolve.md)
+            + [解決](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-resolve.md)
             + [saveToFile](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-savetofile.md)
             + [设置](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md)
-            + [目标](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-targets.md)
+            + [目標](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-targets.md)
             + [tmb](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-tmb.md)
             + [用户数据](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-userdata.md)
-            + [确认](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-is-http-validate.md)
+            + [驗證](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-is-http-validate.md)
             + [xlate](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xlate.md)
             + [xmp](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xmp.md)
          + [res](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
          + [解析模式](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md)
          + [rgn](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md)
-         + [旋转](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md)
+         + [旋轉](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md)
          + [缩放](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md)
          + [scl](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md)
          + [大小](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md)
@@ -372,7 +372,7 @@ ht-degree: 8%
       + 常见数据类型 {#common-data-types}
          + [常见数据类型](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/c-common-data-types.md)
          + [颜色](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-is-cat-color.md)
-         + [标记](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-flag.md)
+         + [標幟](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-flag.md)
          + [枚举](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-enum.md)
          + [整数](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-integer-number.md)
          + [实数](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-real-number.md)
@@ -488,12 +488,12 @@ ht-degree: 8%
    + 宏定义 {#macro-definition}
       + [宏定义引用](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md)
       + [名称](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-name-macro.md)
-      + [定义](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md)
+      + [定義](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md)
    + 字体映射 {#font-map}
       + [字体映射引用](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md)
-      + [粗体](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md)
+      + [粗體](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md)
       + [字体路径](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md)
-      + [斜体](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md)
+      + [斜體](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md)
       + [量度路径](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md)
       + [名称](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
       + [PsName](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md)
@@ -510,7 +510,7 @@ ht-degree: 8%
       + [规则集](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [替换](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [图像服务器代理](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [图像服务器示例](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[图像服务器示例](is-api/image-serving-api-ref/r-examples-is.md)
    + 响应式静态图像库 {#responsive-static-image-library}
       + [响应式静态图像库](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [使用Responsive图像库](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -609,13 +609,13 @@ ht-degree: 8%
          + [缓存](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-cache.md)
          + [颜色](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md)
          + [贴花](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md)
-         + [标志](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md)
+         + [標幟](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md)
          + [格式](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md)
          + [光泽](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md)
          + [glossmap](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md)
          + [灌浆](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md)
          + [hei](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md)
-         + [隐藏](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md)
+         + [隱藏](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md)
          + [icc](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md)
          + [iccEmbed](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md)
          + [illum](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-illum.md)
@@ -625,11 +625,11 @@ ht-degree: 8%
          + [printRes](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md)
          + [pos](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md)
          + [qlt](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md)
-         + [重复](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md)
+         + [重複](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md)
          + [需要](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md)
          + [res](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md)
          + [解析模式](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)
-         + [旋转](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md)
+         + [旋轉](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md)
          + [粗加工](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md)
          + [rs](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md)
          + [scl](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-scl.md)
@@ -734,7 +734,7 @@ ht-degree: 8%
       + 宏定义引用 {#macro-definition-reference}
          + [宏定义引用](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [名称](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)
-         + [定义](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
+         + [定義](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
       + ICC配置文件映射引用 {#icc-profile-map-reference}
          + [ICC配置文件映射引用](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [名称](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
@@ -753,7 +753,7 @@ ht-degree: 8%
       + [实用程序的位置](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [集成电路](is-api/is-utils/utilities/r-ic.md)
       + [Imageserving](is-api/is-utils/utilities/r-imageserving.md)
-      + [确认](is-api/is-utils/utilities/r-is-utils-validate.md)
+      + [驗證](is-api/is-utils/utilities/r-is-utils-validate.md)
       + [“playlog”实用程序](is-api/is-utils/utilities/c-playlog.md)
    + 晕影转换器(vntc){#vignette-converter-vntc}
       + [晕影转换器(vntc)](utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
@@ -768,6 +768,6 @@ ht-degree: 8%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hans)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
