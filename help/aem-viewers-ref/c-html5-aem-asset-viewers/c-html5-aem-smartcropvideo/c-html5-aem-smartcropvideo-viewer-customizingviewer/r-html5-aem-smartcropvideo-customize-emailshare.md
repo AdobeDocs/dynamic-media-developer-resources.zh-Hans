@@ -7,9 +7,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
 TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 3093
@@ -246,7 +250,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-关闭按钮的**CSS属性**
+关闭按钮的&#x200B;**CSS属性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -532,7 +536,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-对话框查看区域的**CSS属性**
+对话框查看区域的&#x200B;**CSS属性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -576,7 +580,7 @@ background-color: #ffffff;
 
 如果此容器的高度看起来比主对话框区域大，则组件会自动启用垂直滚动。
 
-对话框正文的**CSS属性**
+对话框正文的&#x200B;**CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -628,7 +632,7 @@ background-color: #ffffff;
 
 此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面各个位置的文本。
 
-对话框标签的**CSS属性。 **
+对话框标签的&#x200B;**CSS属性。 &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -964,7 +968,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-对话框内容的**CSS属性**
+对话框内容的&#x200B;**CSS属性**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1099,7 +1103,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-对话框内容源**的**CSS属性
+对话框内容源&#x200B;**的**&#x200B;CSS属性
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

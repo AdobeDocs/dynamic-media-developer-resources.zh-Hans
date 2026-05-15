@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
 TQID: 'https://experienceleague.adobe.com/4m5oktRjrVv4Ro3e74fNYBgsxWfl0t7XOrGtNnCq334'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 525
@@ -52,7 +57,7 @@ is-docs示例中的&#x200B;**损坏的图像**
 
 **日志文件占用太多磁盘空间**
 
-图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[！DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
+图像服务器和[!DNL Platform Server]每天启动一个新日志文件。 默认情况下，这些目录将放置在[!DNL *[!DNL install_root]*/ImageServing/logs]中。 日志文件大小、保留的日志数以及可以配置的日志内容。 请参阅文档。
 
 **如果您的服务器上安装了防病毒软件**
 

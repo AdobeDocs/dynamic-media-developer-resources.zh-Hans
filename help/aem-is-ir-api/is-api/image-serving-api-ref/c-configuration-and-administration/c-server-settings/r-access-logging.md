@@ -6,10 +6,16 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 681
@@ -25,7 +31,7 @@ ht-degree: 0%
 
 ## TC：：directory — 日志文件文件夹 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-[!DNL Platform Server]写入日志文件的文件夹。 这可以是绝对路径或相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL  *`install_folder`*/日志]。
+[!DNL Platform Server]写入日志文件的文件夹。 这可以是绝对路径或相对于&#x200B;*`install_folder`*&#x200B;的路径。 默认值为&#x200B;[!DNL &#x200B; *`install_folder`*/日志]。
 
 >[!NOTE]
 >
@@ -37,7 +43,7 @@ ht-degree: 0%
 
 ## TC：：prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
-将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为“`access-`”。
+将访问日志数据写入其中的文件的名称前缀。 日期和文件后缀([!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log])附加到指定的字符串。 访问日志文件的名称必须与跟踪日志文件的名称不同。 默认值为“`access-`”。
 
 ## TC：：pattern — 访问日志模式 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
