@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c35aa7-aa8b-49af-a9ea-4bc704e4eebd
-source-git-commit: 9254f7eefe66fcdadef2c7d9efeef11756e3eb59
+TQID: 'https://experienceleague.adobe.com/zfO9OTWBlE9DcTzhq3MwTVYNmi-lUbLWuvPtP1dq-HM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: 86
 ht-degree: 2%
 
 ---
@@ -52,7 +60,7 @@ ht-degree: 2%
 
 ![RTF编码示例10个图像](assets/rtf09.png)
 
-## 另请参阅 {#section-e702276fd0e847779cb75a6ccb92fbc8}
+## 請亦參閱 {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
 [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ，[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)，[textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)，[HTTP编码](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)
 

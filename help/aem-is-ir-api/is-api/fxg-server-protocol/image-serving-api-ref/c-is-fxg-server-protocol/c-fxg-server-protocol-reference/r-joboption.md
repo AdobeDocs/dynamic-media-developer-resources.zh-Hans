@@ -5,10 +5,18 @@ title: joboption
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/YZk3XGX8gY3M3yQjcK8CLabeVYJTiseH1Li4ZhntUTE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 38%
+source-wordcount: 244
+ht-degree: 43%
 
 ---
 
@@ -44,7 +52,7 @@ ht-degree: 38%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>颜色 </p></td> 
-  <td class="stentry"> <p> 颜色策略（仅标记图像被视为标记所有内容） </p> <p> 文档渲染方法 </p> <p> 4.2.5仅支持以下工作空间。 </p> <p> 
+  <td class="stentry"> <p> 颜色策略（仅标记图像被视为标记所有内容） </p> <p> 文档渲染方法 </p> <p> 4.2.5 仅支持下列工作空间。 </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 

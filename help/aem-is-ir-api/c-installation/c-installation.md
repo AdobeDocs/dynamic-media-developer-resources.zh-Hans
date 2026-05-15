@@ -1,13 +1,21 @@
 ---
-title: 安装
+title: 安裝
 description: 正在安装图像服务。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZO-MmJwt1d0jX3v0p4gqW-gLQgwzsPnhSchaDp-nqGo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: 96
 ht-degree: 2%
 
 ---
@@ -17,7 +25,7 @@ ht-degree: 2%
 安装图像服务包括两个主要的服务器组件：
 
 * 图像服务器。 独立的原生代码可执行文件。
-* [!DNL Platform Server]。 独立的Java™ Web应用程序和应用程序服务器。
+* [!DNL Platform Server]. 独立的Java™ Web应用程序和应用程序服务器。
 
 “图像渲染”是这两个服务器组件的一部分。
 

@@ -5,9 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+autotag-review: '2026-05-13T21:03:11.123Z'
+TQID: 'https://experienceleague.adobe.com/4iK-oLqDVtdeWfreRttUqRBBNOf6nTftLhmYnKtj08w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 422
 ht-degree: 0%
 
 ---
@@ -55,7 +64,7 @@ ht-degree: 0%
 
 * 仅软件HLS和Flash HDS播放支持`IntialBitRate`修饰符。 使用本机播放器播放时，此选项不起作用。
 * 不支持OGG和WebM渐进式播放。
-* 浏览器缩放导致视频播放器的显示大小不正确(包括Windows®控制面板显示设置)。
+* 浏览器缩放导致视频播放器的显示大小不正确（包括Windows控制面板显示设置）。
 * 在Safari上使用HLS流播放的视频搜寻不一致。
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}

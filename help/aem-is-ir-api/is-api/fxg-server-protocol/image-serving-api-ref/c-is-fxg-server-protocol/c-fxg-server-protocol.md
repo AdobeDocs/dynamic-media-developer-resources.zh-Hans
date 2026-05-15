@@ -1,27 +1,35 @@
 ---
 title: FXG服务器协议
-description: 要处理图形，可以使用与指南针点类似的参照点。
+description: 要处理图形，您可以使用参考点（类似于罗经点）。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/DXmhIshiUYoP-BlVe5cJFXbII9sEIdyo5YDkoKP-t0w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 18%
+source-wordcount: 275
+ht-degree: 28%
 
 ---
 
 # FXG服务器协议{#fxg-server-protocol}
 
-要处理图形，可以使用与指南针点类似的参照点。
+要处理图形，您可以使用参考点（类似于罗经点）。
 
-使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。参考点为`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通过使用中心参照点，可以将图形中心旋转45°。 下图显示了参考点所在的位置、图形、图形从其`northWest`参考点旋转20°，以及图形从其`east`参考点旋转20°。
+使用参考点，您可以相对于某个特定参考点旋转、缩放或调整图形的大小。 参考点为`northWest`、`north`、`northEast`、`west`、`center`、`east`、`southWest`、`south`和`southeast`。 例如，通过使用中心参照点，可以将图形中心旋转45°。 下图显示了参考点所在的位置、图形、图形从其`northWest`参考点旋转20°，以及图形从其`east`参考点旋转20°。
 
 ![参考点图像](assets/wp_ref_points.png)
 
 * A.参考点位置
-* B.图形
+* B. 图形
 * C.图形从其`northWest`参考点旋转20°
 * D.图形从其`east`参考点旋转20°
 

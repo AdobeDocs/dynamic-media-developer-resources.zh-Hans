@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/Q-rNL-xTx6sYsxw9eW557vwI-5vIu6DJbtPbuEqvo2E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -242,4 +250,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-在上述代码示例中，`0`组件上的卷级别设置为`mutableVolume`。 然后，同一组件被停用，因此最终用户无法使用该组件。
+在上述代码示例中，`mutableVolume`组件上的卷级别设置为`0`。 然后，同一组件被停用，因此最终用户无法使用该组件。

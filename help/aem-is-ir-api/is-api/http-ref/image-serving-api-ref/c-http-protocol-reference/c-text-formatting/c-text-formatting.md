@@ -5,9 +5,17 @@ title: 文本格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/OzCs0opEKfoih79LE4UuXEOJnN4Zh6iBtQNdRxCddAE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 579
 ht-degree: 6%
 
 ---
@@ -155,7 +163,7 @@ RTF字符串支持基于UTF-8和ISO标准的语言编码，作为标准RTF字符
 
 如果要通过http传输字符串，则必须对所有非HTTP兼容字符进行正确转义。 如果字符串合并到图像目录记录的`catalog::Modifiers`字段中，则只需转义“=”、“&amp;”和“%”。 应始终删除控制字符，包括`<CR>`、`<LF>`和`<TAB>`。
 
-图像服务文本引擎解释由富文本格式(RTF)规范版本1.6定义的命令子集。该子集侧重于字体/字符格式、简单的段落格式以及对国际字体和字符集的支持。 目前不支持更高级的格式结构，如样式表和表格。
+图像服务文本引擎解释由富文本格式(RTF)规范版本1.6定义的命令子集。 该子集侧重于字体/字符格式、简单的段落格式以及对国际字体和字符集的支持。 目前不支持更高级的格式结构，如样式表和表格。
 
 尝试手动构建RTF编码的文本字符串时，需要熟悉由Microsoft发布的富文本格式(RTF)规范。
 

@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 2ab5a083-5995-440a-a9a6-6642277b8a58
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/nLVjtwe8hj5YpMX6M1GKt1Fx-tZK2Qxe1kdWcK8BQPw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 194
 ht-degree: 0%
 
 ---
@@ -19,7 +27,7 @@ ht-degree: 0%
 
 外部视频支持的格式为H.264格式的MP4或HLS流的M3U8清单。
 
-查看器既可以使用Dynamic Media Classic，也可以使用Experience Manager - Dynamic Media视频，或者使用外部视频。 如果查看器首先显示Dynamic Media Classic/Dynamic Media视频，然后将其与此资源类型一起使用，则无法使用[`setVideo`]将外部视频加载到此查看器中
+查看器既可以使用Dynamic Media Classic，也可以使用Experience Manager - Dynamic Media视频，或者使用外部视频。 如果查看器首先显示Dynamic Media Classic/Dynamic Media视频，然后将其与此类资源类型一起使用，则无法使用将外部视频加载到此查看器中 [`setVideo`]
 (#reference-85d3422d6ce64a36ac74827120b5a17c)方法。 反之：如果查看器最初加载了外部视频，则它应该只处理外部视频。
 
 处理外部视频时，查看器会忽略playback修饰符的值，并检测外部视频扩展中的播放类型。 如果外部视频URL以`.M3U8`结尾，则查看器正在使用HLS播放，否则使用渐进式播放。

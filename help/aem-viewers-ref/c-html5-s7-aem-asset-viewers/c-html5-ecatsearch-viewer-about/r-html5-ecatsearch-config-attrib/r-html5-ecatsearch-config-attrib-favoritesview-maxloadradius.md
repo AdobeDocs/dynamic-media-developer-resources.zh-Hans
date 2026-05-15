@@ -1,18 +1,26 @@
 ---
-description: FavoritesView.maxloadradius
+description: 收藏夹视图.maxloadradius
 solution: Experience Manager
-title: FavoritesView.maxloadradius
+title: 收藏夹视图.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 440f147e-865c-4615-8d83-ea6431271612
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Y6Yv-DLzkKMZMsiuZEPqdyTRpsMzqol4Lt8QTCTyVNs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 58
 ht-degree: 5%
 
 ---
 
-# FavoritesView.maxloadradius{#favoritesview-maxloadradius}
+# 收藏夹视图.maxloadradius{#favoritesview-maxloadradius}
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`]
 

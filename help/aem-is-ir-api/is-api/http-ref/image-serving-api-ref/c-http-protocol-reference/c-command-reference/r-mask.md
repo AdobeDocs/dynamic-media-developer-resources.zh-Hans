@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/QV2kCpSVhXdG59s5WjrQ7ENp-F5qkDuHCJeL-nkwuP4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 1%
 
 ---
@@ -43,7 +51,7 @@ ht-degree: 1%
 
 图像或图层属性。 应用于图层0（如果`layer=comp`）。 被效果层忽略。
 
-*`object`*&#x200B;不能解析为`src=`中包含`mask=`或`catalog::Modifier`命令的目录记录。
+*`object`*&#x200B;不能解析为`catalog::Modifier`中包含`src=`或`mask=`命令的目录记录。
 
 `is`和`ir`前缀不区分大小写。
 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/O1v1LorIfXLyRso4ZRVJd7qx5A4kciWKVoG-df8q-Xg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: 166
 ht-degree: 4%
 
 ---
@@ -27,11 +35,11 @@ ht-degree: 4%
 
 *`template`*&#x200B;必须是模板正文包含在`catalog::Modifier`中的图像目录条目。
 
-当存在`template=`时，请求路径中指定的对象不会应用为层0的源。 但是，通过使用预定义的路径变量`src=`作为`mask=`值，可以将它作为`$object$`或`src=`引用到模板中的任何位置。 在请求路径中指定的对象的`catalog::Modifier`仅在模板中应用`$object$`的替换，而始终应用`catalog::PostModifier`。
+当存在`template=`时，请求路径中指定的对象不会应用为层0的源。 但是，通过使用预定义的路径变量`$object$`作为`src=`值，可以将它作为`src=`或`mask=`引用到模板中的任何位置。 在请求路径中指定的对象的`catalog::Modifier`仅在模板中应用`$object$`的替换，而始终应用`catalog::PostModifier`。
 
 层0在模板主体中定义，可以是图像、纯色、文本、嵌套或嵌入的请求层。
 
-将`catalog:PostModifier`与&#x200B;*`object`*&#x200B;一起使用时，已忽略&#x200B;*`object`*&#x200B;的`template=`。
+将&#x200B;*`object`*&#x200B;与`template=`一起使用时，已忽略&#x200B;*`object`*&#x200B;的`catalog:PostModifier`。
 
 ## 默认 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 

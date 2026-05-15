@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2430ab43-c032-4c2f-93c3-225e8116f100
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/hNtdD3lH2laX-X-1PXoeAZegB0Ly9c7-bn7gdinQxwg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 76
 ht-degree: 5%
 
 ---
@@ -29,7 +37,7 @@ ht-degree: 5%
 
 ## 属性 {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-文本图层属性（仅限`textPs=`）。 已被其他层忽略或指定时未使用`textFlowPath=`。 如果为`layer=0`指定，则应用于`layer=comp`。
+文本图层属性（仅限`textPs=`）。 已被其他层忽略或指定时未使用`textFlowPath=`。 如果为`layer=comp`指定，则应用于`layer=0`。
 
 ## 默认 {#section-9405cda904684d829ed12a9e40a4dc46}
 

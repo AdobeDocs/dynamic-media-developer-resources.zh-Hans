@@ -5,10 +5,20 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+TQID: 'https://experienceleague.adobe.com/NURaQ7eznu6tyM5IhrlLMxaZ1L38L7t9lHb826jSyfs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: 324
+ht-degree: 3%
 
 ---
 
@@ -65,7 +75,7 @@ ht-degree: 4%
 * [翻转](r-flip.md)
 * [格式](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
-* [隐藏](r-hide.md)
+* [隱藏](r-hide.md)
 * [icc](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [id](r-id.md)
@@ -107,7 +117,7 @@ ht-degree: 4%
 * [res](r-res.md)
 * [解析模式](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
-* [旋转](r-rotate.md)
+* [旋轉](r-rotate.md)
 * [缩放](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [大小](r-size-reference.md)

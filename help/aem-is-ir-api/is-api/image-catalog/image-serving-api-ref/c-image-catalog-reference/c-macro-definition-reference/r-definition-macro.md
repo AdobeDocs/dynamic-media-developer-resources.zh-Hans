@@ -1,18 +1,26 @@
 ---
 description: 宏定义。 包含一个或多个完整命令的图像服务协议片段，以“&”字符分隔。
 solution: Experience Manager
-title: 定义
+title: 定義
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b8815f5-c8e0-43e1-828c-2e389388cdde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/ybpc3bnMagdDO3HckWR82GJAp34-ORiLzR9tBqYQq8I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: 104
 ht-degree: 4%
 
 ---
 
-# 定义{#definition}
+# 定義{#definition}
 
 宏定义。 包含一个或多个完整命令的图像服务协议片段，以“&amp;”字符分隔。
 

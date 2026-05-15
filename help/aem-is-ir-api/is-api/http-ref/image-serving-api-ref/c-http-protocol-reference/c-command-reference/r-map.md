@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/9JJUVcw5-wl0B-rP-m6DC1c1DGIqxaV2UgboocFGGV8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 224
 ht-degree: 2%
 
 ---
@@ -39,11 +47,11 @@ ht-degree: 2%
 
 ## 属性 {#section-a18d9ea95c71414a905a68b8839c0843}
 
-层属性。 应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射之后。 已忽略，除非`req=map`。 被效果层忽略。 如果同时指定了`mapA=`，则忽略`map=`。
+层属性。 应用到`layer=comp`时，指定的映射数据将分层到所有其他图像映射之后。 已忽略，除非`req=map`。 被效果层忽略。 如果同时指定了`map=`，则忽略`mapA=`。
 
 ## 默认 {#section-620c19b3f3b84ba49706062de3f12f05}
 
-如果未指定`catalog::Map`，则使用`map=`。
+如果未指定`map=`，则使用`catalog::Map`。
 
 ## 示例 {#section-cd7691c94f984222845c86dcb0051ce8}
 

@@ -5,9 +5,17 @@ title: 图像服务HTTP协议基本语法
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
@@ -19,7 +27,7 @@ HTTP协议的基本语法如下：
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">请求</span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="filepath">http://<span class="varname">服务器</span>/is/image[/<span class="varname">对象</span>][？<span class="varname">修饰符</span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="filepath">http://<span class="varname">服务器</span>/is/image[/<span class="varname">对象</span>][？<span class="varname"> 修饰符</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">服务器</span> </span> </p></td> 
@@ -35,7 +43,7 @@ HTTP协议的基本语法如下：
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">修饰符</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">命令|{$<span class="varname">宏</span>$}|{。<span class="varname">评论</span>}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">命令|{$<span class="varname">宏</span>$}|{.<span class="varname"> 评论</span>}</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">命令</span> </span> </p> </td> 
@@ -81,7 +89,7 @@ HTTP协议的基本语法如下：
 
 ## 注释 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-注释可以嵌入到请求字符串的任何位置，并且由紧跟命令分隔符(&amp;)后面的句点(.)来标识。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
+注释可以嵌入到任何位置的请求字符串中，并通过句点(.)进行标识 紧跟在命令分隔符(&amp;)之后。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
 
 ## 另请参阅 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

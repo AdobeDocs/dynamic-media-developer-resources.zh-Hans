@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/FFRoxO7iVDzE7Kta5Vig4RtaPWa890tNHPwsAOcWVCw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 模板作为记录存储在图像目录中，模板正文位于`catalog::Modifier`字段中，`catalog::Path`字段为空，或者指定了无法动态更改的静态背景图像。
 
-模板是通过`template=`命令或在请求URL的路径组件中指定的。 对于大多数应用程序，建议使用`template=`命令指定模板。 `template=`命令不能出现在`catalog::PostModifier`字段中，而且只能出现在嵌套IS请求（即`catalog::Modifier`构造）的`src=is{...}`字段中。 `src=`或`mask=`命令中可能未引用模板记录。
+模板是通过`template=`命令或在请求URL的路径组件中指定的。 对于大多数应用程序，建议使用`template=`命令指定模板。 `template=`命令不能出现在`catalog::PostModifier`字段中，而且只能出现在嵌套IS请求（即`src=is{...}`构造）的`catalog::Modifier`字段中。 `src=`或`mask=`命令中可能未引用模板记录。
 
 模板中嵌入的任何`src=`或`mask=`命令都可以解析为请求的主目录或不同的图像目录。 如果未显式指定`rootId`，则假定为主目录。 使用`template=`指定的模板也可能位于主目录或其他图像目录中。
 

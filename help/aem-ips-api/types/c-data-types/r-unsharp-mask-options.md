@@ -5,10 +5,18 @@ title: UnsharpMaskOptions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/J9LoVO0ZOapo0ao5gJoyNXc5qu3A3fNDD8ALRAiHudg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 11%
+source-wordcount: 205
+ht-degree: 9%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 11%
 
 ## 参数 {#section-c3f0d03136ba4422819cb463bd393885}
 
-为带有`unsharpMaskOptions`n`minOccurs=" *`的`*".`选项指定一个值
+为带有`minOccurs=" *`n`*".`的`unsharpMaskOptions`选项指定一个值
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -51,7 +59,7 @@ ht-degree: 11%
      </ul></p></td>
   </tr>
   <tr>
-   <td colname="col1"><span class="codeph"><span class="varname"> 阀值</span></span></td>
+   <td colname="col1"><span class="codeph"><span class="varname"> 臨界值</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
    <td colname="col3"><p>确定不同的像素与周围区域必须有多大的差异，才会被视为边缘像素并且可以锐化。 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">

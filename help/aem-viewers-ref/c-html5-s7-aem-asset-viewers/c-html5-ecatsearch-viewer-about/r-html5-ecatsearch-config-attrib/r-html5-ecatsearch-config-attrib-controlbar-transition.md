@@ -5,10 +5,18 @@ title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2e08a62b-9499-41f8-927b-89bed972b4eb
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/bcpeaqLRZ8ClN2OulOfO9ujXzz44Yb2HTmy-GyPQ8mU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: 121
+ht-degree: 2%
 
 ---
 
@@ -35,7 +43,7 @@ ht-degree: 1%
 
 ## 属性 {#section-f42369774e2740dcb399626a0e4e930e}
 
-可选。 在禁用了控制栏自动隐藏的触控设备上，此命令将被忽略。
+可选. 在禁用了控制栏自动隐藏的触控设备上，此命令将被忽略。
 
 ## 默认 {#section-d016470e92a74f98a18c4ab3489410a5}
 

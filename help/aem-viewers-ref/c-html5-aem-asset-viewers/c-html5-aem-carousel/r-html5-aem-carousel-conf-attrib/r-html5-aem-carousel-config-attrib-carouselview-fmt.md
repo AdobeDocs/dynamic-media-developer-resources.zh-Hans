@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: a43ca095-2a59-4a0c-a460-f465cbd4ed5f
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/99Ro91SwAOW1pEl1NIsq5pyCiEfNPGFueyX6oDpouuU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 75
 ht-degree: 4%
 
 ---

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/QufpY0RGr-YjuCtYjNEWcIvJu-hd9Sb5Bzs3f9CxdD4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: 2687
 ht-degree: 0%
 
 ---
@@ -794,7 +802,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持可能值为`expanded`和`true`的`false`属性选择器。 组合框显示预定义的嵌入大小之一时使用值`true`，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时，将使用值`false`，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
+>组合框支持可能值为`true`和`false`的`expanded`属性选择器。 组合框显示预定义的嵌入大小之一时使用值`true`，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时，将使用值`false`，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
 
 示例 — 将嵌入大小组合框设置为在显示预定义项目时为300像素宽，在显示自定义大小时为110像素宽：
 

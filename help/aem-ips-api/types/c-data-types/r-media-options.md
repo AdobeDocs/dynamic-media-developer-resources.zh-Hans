@@ -5,10 +5,18 @@ title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/iQIXgFgGM6FBg9657kCd0a7FKGWkSQgLAlXn9Vaici0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: 121
+ht-degree: 5%
 
 ---
 
@@ -42,7 +50,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：ThumbnailOptions</span> </td> 
-   <td colname="col3">可选。 允许您选择特定的视频帧作为缩略图像。 <p>要指定缩略图图像，请为要使用的帧传入时间（以从视频开始到现在的毫秒为单位）。 值的范围从0到视频的结尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
+   <td colname="col3">可选. 允许您选择特定的视频帧作为缩略图像。 <p>要指定缩略图图像，请为要使用的帧传入时间（以从视频开始到现在的毫秒为单位）。 值的范围从0到视频的结尾。 <p>注意：如果指定时间不正确，<span class="codeph"> generateThumbnail</span>默认为true。 </p></p><p>请参阅<a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>。 </p></td> 
   </tr> 
  </tbody> 
 </table>

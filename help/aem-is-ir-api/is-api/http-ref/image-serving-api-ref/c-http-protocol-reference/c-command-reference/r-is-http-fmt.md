@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/TZi2AdS9MK2A2WtCCJMmMRvwZ70Kdt2aeHOP--QtA4U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 1061
 ht-degree: 2%
 
 ---
@@ -16,9 +24,9 @@ ht-degree: 2%
 
 响应图像格式。
 
-`fmt=format[,` `[`*`pixelType`*`]`，`[`*`compression`*`]]`
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png8-alpha | png8 | swf-alpha | swf3-alpha | swf3 | tif-alpha | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif |黑克 | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alph | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | 说明 |
 |---|---|
@@ -51,7 +59,7 @@ ht-degree: 2%
 | `webp-alpha` | 带有Alpha通道的有损无损WebP。 |
 | `webp` | 有损无损WebP。 |
 
-*`pixelType`* - rgb |灰色| cmyk
+*`pixelType`* - rgb |灰色 | cmyk
 
 | *`pixelType`* | 说明 |
 |---|---|
@@ -59,7 +67,7 @@ ht-degree: 2%
 | `gray` | 返回灰度图像数据。 |
 | `rgb` | 返回RGB图像数据。 |
 
-*`compression`* - jpeg |有损|无损| lzw |无| zip
+*`compression`* - jpeg |有损 |无损 | lzw |无 | zip
 
 | *`compression`* | 说明 |
 |---|---|
@@ -71,13 +79,13 @@ ht-degree: 2%
 | `zip` | “Deflate”压缩（无损）。 |
 
 * *`format`*&#x200B;为发送到客户端的图像数据指定图像编码格式，并为HTTP响应标头指定相应的响应MIME类型。
-* 如果未指定&#x200B;*`pixelType`*，则可使用`icc=`实现输出色彩空间转换。
+* 如果未指定`icc=`，则可使用&#x200B;*`pixelType`*&#x200B;实现输出色彩空间转换。
 
-  应用与&#x200B;*`pixelType`*&#x200B;对应的默认颜色配置文件。 如果禁用颜色管理，则应用朴素转换。 在指定&#x200B;*`pixelType`*&#x200B;时忽略`icc=`，这决定了输出像素类型。
+  应用与&#x200B;*`pixelType`*&#x200B;对应的默认颜色配置文件。 如果禁用颜色管理，则应用朴素转换。 在指定`icc=`时忽略&#x200B;*`pixelType`*，这决定了输出像素类型。
 
-* 仅当将&#x200B;*`compression`*、`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`或`jpegxr`指定为`jpegxr-alpha`时才允许&#x200B;*`format`*。 有关这些图像格式支持的压缩选项，请参阅下表。
+* 仅当将`tif`、`tif-alpha`、`pdf`、`webp`、`webp-alpha`、`jpeg2000`、`jpeg2000-alpha`、`jpegxr`或`jpegxr-alpha`指定为&#x200B;*`format`*&#x200B;时才允许&#x200B;*`compression`*。 有关这些图像格式支持的压缩选项，请参阅下表。
 
-您可以使用`qlt=`为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF、带有JPEG压缩的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值导致不同格式具有不同的品质。 如果`quantize=`或`fmt=gif`，则使用`fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+您可以使用`qlt=`为以下格式设置JPEG编码选项：JPEG、带有JPEG压缩的TIFF、带有JPEG压缩的PDF以及SWF。 WebP、JPEG 2000和JPEG XR也使用`qlt=`，但值导致不同格式具有不同的品质。 如果`fmt=gif`或`fmt=gif-alpha`，则使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
 对于所有&#x200B;*`formats`*&#x200B;和&#x200B;*`pixelTypes`*&#x200B;返回8位/像素组件（对于GIF，每像素8位/像素）。
 
@@ -192,11 +200,11 @@ ht-degree: 2%
 
 请求属性。 如果`req=img`（默认）或`req=mask`为适用对象，而不考虑当前图层设置；否则将忽略。
 
-如果指定了&#x200B;*`type`*，则忽略`iccProfile=`。
+如果指定了`iccProfile=`，则忽略&#x200B;*`type`*。
 
 ## 默认 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`，其中&#x200B;*`defaultType`*&#x200B;按如下方式处理：如果指定了`icc=`，则&#x200B;*`defaultType`*&#x200B;对应于指定ICC配置文件的像素类型。 如果未指定`icc=`，如果&#x200B;*`defaultType`*，`gray`为`req=mask`，否则为`rgb`。
+` fmt=jpeg, *`defaultType`*,none`，其中&#x200B;*`defaultType`*&#x200B;按如下方式处理：如果指定了`icc=`，则&#x200B;*`defaultType`*&#x200B;对应于指定ICC配置文件的像素类型。 如果未指定`icc=`，如果`req=mask`，*`defaultType`*&#x200B;为`gray`，否则为`rgb`。
 
 ## 示例 {#section-b93222e652df404a84c69025247f07df}
 

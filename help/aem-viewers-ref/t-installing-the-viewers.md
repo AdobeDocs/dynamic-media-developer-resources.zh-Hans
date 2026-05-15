@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Zz0BTc333AIELPKRWFeIxhNvTyOJZH1RHLYNvZpt-ZY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 1%
 
 ---
@@ -29,7 +37,7 @@ ht-degree: 1%
 **要在同一服务器上安装多个查看器：**
 
 1. 将查看器.war重命名为所需的上下文，并将文件部署到所需的位置。
-1. 在`this.isViewerRoot`中设置`config.js`参数。
+1. 在`config.js`中设置`this.isViewerRoot`参数。
 1. 在新创建的查看器文件夹的根目录中打开`config.js`。
 1. 将参数`this.isViewerRoot = "/s7viewers"`设置为`s7viewers.war`文件的上下文。 例如，`"/s7viewers-4.0"`。
 1. 保存文件并关闭。

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UB-6NSVes81igYNQs-XoMSWq2Ch1xxiVTsC8tstbmyM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 97
 ht-degree: 3%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph">开启|关闭</span> </p> </td> 
-  <td class="stentry"> <p>指定用于将JPEG或PNG图像转换为较小的浏览器专用文件格式的浏览器格式转换功能是true （<span class="codeph">上的</span>）还是false （<span class="codeph">上的</span>折扣，表示无浏览器专用格式转换）。 </p> </td> 
+  <td class="stentry"> <p>指定用于将JPEG或PNG图像转换为较小的浏览器专用文件格式的浏览器格式转换功能是true （</span>上的<span class="codeph">）还是false （</span>上的<span class="codeph">折扣，表示无浏览器专用格式转换）。 </p> </td> 
  </tr> 
 </table>
 

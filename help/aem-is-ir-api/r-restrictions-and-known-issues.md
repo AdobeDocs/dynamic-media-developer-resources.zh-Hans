@@ -5,9 +5,17 @@ title: 限制和已知问题
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TCVO43J9ABVIbKSBwPE6jSfMR8I-2sc-7Nj-gGDEyPM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1250
 ht-degree: 0%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 0%
 * 行数不超过`\copyfitmaxlines`设置的最大值和文本输入中的显式行数。
 * 图像集中需要匹配的大括号和括号。 如果大括号与括号不匹配，则需要对URL进行编码。
 * 服务器端全局响应时间警报包括错误响应。
-* 将`id=`命令与图像或蒙版请求一起使用时，当前需要`rect=`命令。
+* 将`rect=`命令与图像或蒙版请求一起使用时，当前需要`id=`命令。
 
 ## 已知差异textPs=与text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -74,7 +82,7 @@ ht-degree: 0%
 
   *示例*：
 
-  `/is/image/MyCompany?src=/YourCompany/MyImage` 。
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
   而不是： `/is/image/MyCompany?src=YourCompany/MyImage` 。
 
@@ -88,7 +96,7 @@ ht-degree: 0%
 
   对于图像渲染的非金字塔晕影，请增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]配置文件中IrMaxNonPyrVignetteSize的属性值。
 
-  对于图像服务非金字塔TIFF，在`MaxNonDsfSize`配置文件中增加[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]的属性值。
+  对于图像服务非金字塔TIFF，在[!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]配置文件中增加`MaxNonDsfSize`的属性值。
 
 * 默认情况下，Adobe [!DNL Photoshop] CS3不会将分层的PSD文件保存为复合图像。
 
@@ -105,7 +113,7 @@ ht-degree: 0%
   使用`fmt=`更改回复图像格式
 
 * 压缩后的HTTP响应图像数据（包括文件头）的大小限制为16 MB。
-* “ ...” 不允许在HTTP请求的任何路径元素中使用。
+* &quot; ..&quot; 不允许在HTTP请求的任何路径元素中使用。
 * 卸载可能会从&#x200B;*[!DNL install_root]*&#x200B;或任何子文件夹中删除用户创建或修改的文件。 在卸载之前，将此类文件复制到其他位置。
 
 ## 仅适用于图像服务的限制 {#section-b08ad535e4454265b8157dec244c4faf}
@@ -132,7 +140,7 @@ ht-degree: 0%
 
   *解决方法*
 
-  在`svgProvider.fontRoot=`中设置属性[!DNL install_root/ImageServing/conf/PlatformServer.conf]。
+  在[!DNL install_root/ImageServing/conf/PlatformServer.conf]中设置属性`svgProvider.fontRoot=`。
 
 * 裁切当前使用`bgColor=`而不是`color=`来填充任何新扩展区域。
 
@@ -152,4 +160,4 @@ ht-degree: 0%
 
 ## 仅适用于实用程序的限制 {#section-906a6b2378154b3da122b2332983f7a5}
 
-使用`ImageConvert`停止时，`control-c`有时会因分段错误而崩溃。
+使用`control-c`停止时，`ImageConvert`有时会因分段错误而崩溃。

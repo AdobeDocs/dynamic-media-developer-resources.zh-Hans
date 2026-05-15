@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/iT-q5yLQijvkYDB0xOq3E6r1k3DIbU9BWu3Jkqs8wUI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 672
 ht-degree: 1%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 1%
 
 服务器将与`locale=`指定的区域设置匹配的表示返回到客户端，从而避免客户端本地化，并允许应用程序通过发送相应的`locale=`值和IS文本请求来切换区域设置。
 
-## 范围 {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
+## 範圍 {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
 文本字符串本地化应用于以下目录字段中包含本地化令牌` ^loc= *`locId`*^`的所有字符串元素：
 
@@ -40,7 +48,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">目录：：目标</span> </p> </td> 
-   <td> <p>任何<span class="codeph">目标的值。*.label </span>和<span class="codeph">目标*.userdata </span>属性。 </p> </td> 
+   <td> <p>任何<span class="codeph"> target.*.label </span>和<span class="codeph"> target.*.userdata </span>属性的值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">目录：：UserData </span> </p> </td> 
@@ -97,9 +105,9 @@ ht-degree: 1%
 
 ## 翻译过程 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-给定上面的示例翻译映射和请求`/is/image/myCat/myItem?req=&locale=nl`，服务器首先在区域设置映射中查找“`nl`”。 匹配的条目`nl,N`指示对于每个&#x200B;*`stringElement`*，应返回标记为&#x200B;*`localizedString`*&#x200B;的`^loc=N^`。 如果&#x200B;*`localizationToken`*&#x200B;中不存在此&#x200B;*`stringElement`*，则返回空值。
+给定上面的示例翻译映射和请求`/is/image/myCat/myItem?req=&locale=nl`，服务器首先在区域设置映射中查找“`nl`”。 匹配的条目`nl,N`指示对于每个&#x200B;*`stringElement`*，应返回标记为`^loc=N^`的&#x200B;*`localizedString`*。 如果&#x200B;*`stringElement`*&#x200B;中不存在此&#x200B;*`localizationToken`*，则返回空值。
 
-假设`catalog::UserData`的`myCat/myItem`包含以下内容（为清楚起见，插入了换行符）：
+假设`myCat/myItem`的`catalog::UserData`包含以下内容（为清楚起见，插入了换行符）：
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 

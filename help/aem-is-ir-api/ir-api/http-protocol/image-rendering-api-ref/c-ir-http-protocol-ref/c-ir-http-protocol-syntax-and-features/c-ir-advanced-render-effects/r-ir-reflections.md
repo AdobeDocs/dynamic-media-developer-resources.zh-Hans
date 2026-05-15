@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/IzqnNnq7aFgXgEYQ6MJwxqnajYSJlULdEKxaa0OtGWI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: 140
+ht-degree: 3%
 
 ---
 
@@ -50,6 +58,6 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-渲染器根据`gloss=`调整`rough=`和`type=`属性的范围。 某些材料类型（如织物）的反射比材料类型（如石材或金属）少。 此外，为某一面指定的相同光泽量通常导致与另一面不同的反射效果。 如果未指定`gloss=`或将其设置为`type=`，则属性`0`和粗糙度具有相当宽的色域。
+渲染器根据`type=`调整`gloss=`和`rough=`属性的范围。 某些材料类型（如织物）的反射比材料类型（如石材或金属）少。 此外，为某一面指定的相同光泽量通常导致与另一面不同的反射效果。 如果未指定`type=`或将其设置为`0`，则属性`gloss=`和粗糙度具有相当宽的色域。
 
 `glossmap=`用于逐像素控制材料的光泽度。

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 0%
 
 目录数据文件可以具有任何名称和文件后缀（`.ini`除外）。
 
-可以使用支持以制表符分隔的文本数据文件的应用程序(如Microsoft®Excel和Access)轻松维护目录数据文件。
+可以使用支持以制表符分隔的文本数据文件的应用程序（如®Excel和Access）轻松维护目录数据文件。
 
 目录数据文件本质上是一个二维表，由标题记录组成，标题记录标识数据列和任意数量的数据记录（行）。 标题记录和数据记录中的字段均由单个`<TAB>`字符分隔。 记录由单个`<CR>` （ASCII代码`0xD`）、单个`<LF>` （ASCII代码`0xA`）或`<CR><LF>`对分隔。
 
@@ -30,7 +38,7 @@ ht-degree: 0%
 
 除非另有说明，否则同一字段中的多个数据值用逗号(&#39;，&#39;)分隔。
 
-名称以“。”开头的列 将被忽略；这允许将数据存储在图像渲染不感兴趣的材质目录中。 将忽略标头名称未知的列，并向日志文件中写入警告。
+忽略名称以“。”开头的列；这允许将数据存储在图像渲染不感兴趣的材料目录中。 将忽略标头名称未知的列，并向日志文件中写入警告。
 
 字段名称可以由ASCII字母、数字、“ — ”和“_”的任意组合组成。
 

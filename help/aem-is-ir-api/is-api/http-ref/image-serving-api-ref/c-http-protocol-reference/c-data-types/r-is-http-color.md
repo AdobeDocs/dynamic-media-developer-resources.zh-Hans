@@ -5,10 +5,18 @@ title: 颜色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
-source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
+TQID: 'https://experienceleague.adobe.com/3NfMrvwXTP9A-KoxjVPtps-0rhO5xNd04WUlrdCQEo8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 3%
+source-wordcount: 456
+ht-degree: 9%
 
 ---
 
@@ -19,7 +27,7 @@ ht-degree: 3%
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">颜色</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&amp;amp；lcub；&amp;amp；lcub；<span class="varname"> gray</span>[，<span class="varname"> alpha</span>][g]&amp;amp；rcub；|</span> </p> <p> <span class="codeph"> {<span class="varname">红色</span>，<span class="varname">绿色</span>，<span class="varname">蓝色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname">青色</span>，<span class="varname">洋红色</span>，<span class="varname">黄色</span>，<span class="varname">黑色</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname">十六进制6</span>|<span class="varname">十六进制8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname">十六进制8</span>|<span class="varname">十六进制10</span>}k}&amp;amp；rcub；[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub；&amp;lcub；<span class="varname"> gray</span>[，<span class="varname"> alpha</span>][g]&amp;rcub；|</span> </p> <p> <span class="codeph"> {<span class="varname">红色</span>，<span class="varname">绿色</span>，<span class="varname">蓝色</span>[ ，<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname">青色</span>，<span class="varname">洋红色</span>，<span class="varname">黄色</span>，<span class="varname">黑色</span>[，alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname">十六进制6</span>|<span class="varname">十六进制8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname">十六进制8</span>|<span class="varname">十六进制10</span>}k}&amp;rcub；[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">红色</span>，<span class="varname">绿色</span>，<span class="varname">蓝色</span>，<span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -103,7 +111,7 @@ CMYK颜色值需要类型后缀“k”。 可以选择为RGB和灰色值指定�
   <tr> 
    <td> <p>0x010203秒 </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>1,2，3 </p> </td> 
+   <td> <p>1,2,3 </p> </td> 
    <td> <p>255 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/A7uOgsYtOH6AmVOtbUfQDVJHwJEkCSXqBYavY9CbRkw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 154
 ht-degree: 1%
 
 ---
@@ -41,7 +49,7 @@ ht-degree: 1%
 
 层属性。 如果该层不包含`textPs=`和`textPath=`命令，则忽略。
 
-*`startPos`*&#x200B;必须大于或等于0且小于1.0。*`endPos`*&#x200B;在应用于开放路径时必须大于&#x200B;*`startPos`*&#x200B;且小于或等于1.0，或者在应用于封闭路径时小于或等于(*`startPos`* + 1.0)。
+*`startPos`*&#x200B;必须大于或等于0且小于1.0。 *`endPos`*&#x200B;在应用于开放路径时必须大于&#x200B;*`startPos`*&#x200B;且小于或等于1.0，或者在应用于封闭路径时必须小于或等于(*`startPos`* + 1.0)。
 
 ## 默认 {#section-3e757970885c45e7b6100e78dc08626f}
 

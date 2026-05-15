@@ -5,9 +5,20 @@ title: 访问日志记录
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -28,7 +39,7 @@ ht-degree: 0%
 
 ## TC：：maxDays — 保留日志文件的天数 {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-日志文件应保留的天数。 每天的午夜创建新日志文件。 此时，服务器将删除日志文件文件夹中所有超过指定天数的文件，包括由图像服务器或渲染服务器写入的文件。 默认值为 10。
+日志文件应保留的天数。 每天的午夜创建新日志文件。 此时，服务器将删除日志文件文件夹中所有超过指定天数的文件，包括由图像服务器或渲染服务器写入的文件。 默认值为10。
 
 ## TC：：prefix — 访问日志文件名 {#section-1003856323b844049632710a5a056aa7}
 
@@ -76,11 +87,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>日期和时间，格式为<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> mm </span>： <span class="varname"> ss </span>。 <span class="varname"> SSS </span>偏移</span> </p> <p> （<span class="varname"> SSS </span>为毫秒，<span class="varname">偏移量</span>为GMT时间偏移量）；在将响应发送到客户端时捕获时间值。 </p> </td> 
+   <td> <p>日期和时间，格式为<span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>： <span class="varname"> mm </span>： <span class="varname"> ss </span>。<span class="varname"> SSS </span>偏移</span> </p> <p> （<span class="varname"> SSS </span>为毫秒，<span class="varname">偏移量</span>为GMT时间偏移量）；在将响应发送到客户端时捕获时间值。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>请求方法(<span class="codeph"> GET </span>、<span class="codeph"> POST </span>等)。 </p> </td> 
+   <td> <p>请求方法（<span class="codeph"> GET </span>、<span class="codeph"> POST </span>等）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -92,7 +103,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>查询字符串（以“？”为前缀） （如果存在）。 </p> </td> 
+   <td> <p>查询字符串（如果存在，则在前面加上“？”）。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -136,7 +147,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] 缓存管理关键字： <span class="codeph"> {已重用 | 已创建 | 已更新 | 远程 | REMOTE_CREATED | 远程更新 | 远程缓存 | 已验证 | 已忽略 | 未定义} </span>。 </p> </td> 
+   <td> <p>[!DNL Platform Server] 缓存管理关键字： <span class="codeph"> {已重用 |已创建 |已更新 |远程 |远程创建 |远程更新 |远程缓存 |已验证 |已忽略 |未定义} </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 

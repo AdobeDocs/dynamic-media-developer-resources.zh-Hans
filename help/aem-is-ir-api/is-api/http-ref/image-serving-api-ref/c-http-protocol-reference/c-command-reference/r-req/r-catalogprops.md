@@ -5,9 +5,17 @@ title: catalogprops
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Ct7Sj0HAQT4rSfu32PKf329sDqCcTSZDdav5FoxquHQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 217
 ht-degree: 4%
 
 ---
@@ -31,7 +39,7 @@ ht-degree: 4%
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选。 默认值为`s7jsonResponse`。
+`<reqHandler>`是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选. 默认值为`s7jsonResponse`。
 
 返回以下属性值：
 
@@ -64,17 +72,17 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.expiration</span> </p> </td> 
-   <td> <p> 真实 </p> </td> 
+   <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph">属性：：Expiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultExpiration</span> </p> </td> 
-   <td> <p> 真实 </p> </td> 
+   <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph">属性：：DefaultExpiration</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.nonImgExpiration</span> </p> </td> 
-   <td> <p> 真实 </p> </td> 
+   <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph">属性：：NonImgExpiration</span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -109,7 +117,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
-   <td> <p> 真实 </p> </td> 
+   <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph">属性：：Resolution</span> </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +132,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph">目录.thumbRes</span> </p> </td> 
-   <td> <p> 真实 </p> </td> 
+   <td> <p> 真實 </p> </td> 
    <td> <p> <span class="codeph">属性：：ThumbRes</span> </p> </td> 
   </tr> 
   <tr> 

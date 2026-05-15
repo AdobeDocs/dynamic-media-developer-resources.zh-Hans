@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: d800dbbc-2c40-4911-8f29-c8413847f7be
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/Pb4p9FaDF9vNV0Ldpm-ozKNj7XBVWHaWTT6gfbCwoMg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 3%
 
 ---
@@ -20,13 +28,13 @@ ht-degree: 3%
 
 指定零个或多个回调处理程序。 对此方法的调用将完全覆盖以前为该查看器实例分配的事件处理程序。 必须在`init()`之前调用。
 
-## 参数 {#section-b60f082cca1542748b605689b1d43f8a}
+## 參數 {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">处理程序</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span>具有查看器事件回调的JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local">事件回调</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON对象具有查看器事件回调，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local">事件回调</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +43,7 @@ ht-degree: 3%
 
 无。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setHandlers({ 

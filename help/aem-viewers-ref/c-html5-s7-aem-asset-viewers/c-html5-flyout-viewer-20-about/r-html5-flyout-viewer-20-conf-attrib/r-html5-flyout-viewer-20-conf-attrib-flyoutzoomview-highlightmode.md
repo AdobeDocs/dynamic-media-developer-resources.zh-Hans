@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x43ipzx6iKOODZ10S8o8yJA9pg0Gl8mldfS5fEiVQJ4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 1%
 
 ---
@@ -28,7 +36,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">图像|可用</span> </p> </td> 
-   <td colname="col2"> <p> 控制导航框架位置。 </p> <p>如果图像<span class="codeph">上设置为</span>，则导航框架只能位于主视图中的实际图像区域内。 </p> <p>如果设置为<span class="codeph"> free </span>，则用户可以将导航框架移动到逻辑主视图区域中的任意位置，甚至移动到图像内容之外的位置。 </p> </td> 
+   <td colname="col2"> <p> 控制导航框架位置。 </p> <p>如果图像</span>上设置为<span class="codeph">，则导航框架只能位于主视图中的实际图像区域内。 </p> <p>如果设置为<span class="codeph"> free </span>，则用户可以将导航框架移动到逻辑主视图区域中的任意位置，甚至移动到图像内容之外的位置。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

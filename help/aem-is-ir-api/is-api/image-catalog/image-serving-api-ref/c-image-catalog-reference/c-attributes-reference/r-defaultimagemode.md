@@ -5,9 +5,17 @@ title: 默认图像模式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/pe73D8ZWHMpPQSfd6KEk7rh4hD-eJCBuUrHC9n-yIUw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: 106
 ht-degree: 2%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 2%
 
 ## 限制 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-当嵌套的图像渲染、FXG或`DefaultImageMode=0`请求失败时，图像服务将还原为`req=set`。
+当嵌套的图像渲染、FXG或`req=set`请求失败时，图像服务将还原为`DefaultImageMode=0`。
 
 ## 默认 {#section-9e318524a2a5496386901286748c7ee7}
 

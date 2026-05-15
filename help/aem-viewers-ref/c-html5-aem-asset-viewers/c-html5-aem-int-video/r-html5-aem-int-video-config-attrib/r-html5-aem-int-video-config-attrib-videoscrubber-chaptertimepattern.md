@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 93c1d38c-1f45-4794-8084-f520f9caf257
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/Md2edYK3N0jOA-KSqNXq1ttto1-3-tIgcWOkspphIqA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: 122
 ht-degree: 2%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 为章节标签的标题栏中显示的时间设置模式，其中<span class="codeph"> h</span>表示小时，<span class="codeph"> m</span>表示分钟，<span class="codeph"> s</span>表示秒。 </p> <p>用于每个时间单位的字母数决定了时间单位显示的位数。 如果数字不符合指定的位数，则会在后续单元中显示对等值。 </p> <p>例如，如果当前的电影时间为67分5秒，则时间模式<span class="codeph"> m：ss</span>显示为67:05。 如果时间模式为:07: h<span class="codeph">s:mm:，则相同的时间显示为1</span>5。 </p> </td> 
+   <td colname="col2"> <p> 为章节标签的标题栏中显示的时间设置模式，其中<span class="codeph"> h</span>表示小时，<span class="codeph"> m</span>表示分钟，<span class="codeph"> s</span>表示秒。 </p> <p>用于每个时间单位的字母数决定了时间单位显示的位数。 如果数字不符合指定的位数，则会在后续单元中显示对等值。 </p> <p>例如，如果当前的电影时间为67分5秒，则时间模式<span class="codeph"> m：ss</span>显示为67:05。 如果时间模式为<span class="codeph"> h:mm:s</span>，则相同的时间显示为1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +43,7 @@ ht-degree: 2%
 
 `m:ss`
 
-## 示例 {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## 示例： {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 ```
 chaptertimepattern=h:mm:ss

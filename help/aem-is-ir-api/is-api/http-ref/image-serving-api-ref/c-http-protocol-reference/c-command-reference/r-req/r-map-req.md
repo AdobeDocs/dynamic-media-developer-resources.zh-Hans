@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/Ly1JWjeEyZWUEiyVcv-t-OKf0cp6uuMsbR0B6BE1fhY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 0%
+source-wordcount: 224
+ht-degree: 1%
 
 ---
 
@@ -33,7 +41,7 @@ ht-degree: 0%
 
 如果在请求中指定了任何其他命令，则会返回复合图像映射。 复合图像映射是通过缩放、裁切、旋转和分层请求中包含的所有`catalog::Map`和/或`map=`命令派生的，就像图像数据将包含`req=img`一样。
 
-指定`text`或省略第二个参数，以便您可以返回响应MIME类型为`HTML <AREA>`的`text/plain`元素字符串形式的图像映射数据。
+指定`text`或省略第二个参数，以便您可以返回响应MIME类型为`text/plain`的`HTML <AREA>`元素字符串形式的图像映射数据。
 
 指定`xml`，以便可以将响应格式化为XML，而不是HTML。 可以选择指定文本编码。 默认值为`UTF-8`。
 
@@ -45,6 +53,6 @@ ht-degree: 0%
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>`是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选。 默认值为`s7jsonResponse`。
+`<reqHandler>`是JSONP响应中存在的JS处理程序的名称。 只允许使用a-z、A-Z和0-9字符。 可选. 默认值为`s7jsonResponse`。
 
 查看[图像映射](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)。

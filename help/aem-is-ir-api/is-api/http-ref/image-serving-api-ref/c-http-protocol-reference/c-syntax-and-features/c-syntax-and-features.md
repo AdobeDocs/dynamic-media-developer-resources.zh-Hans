@@ -5,9 +5,17 @@ title: 语法和功能
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 44981754-017b-4293-9d44-7611b7a470c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/cZm-XCZXwQ5hRfcAMf2lwgRpXReGNEe4KB-NGd0Nw1E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: 93
 ht-degree: 0%
 
 ---
@@ -17,7 +25,7 @@ ht-degree: 0%
 本节中的主题介绍HTTP协议的语法和功能。
 
 * [图像服务HTTP协议基本语法](r-basic-syntax.md)
-* [图像服务HTTP协议命令   概述](c-command-overview/c-command-overview.md)
+* [图像服务HTTP协议命令概述](c-command-overview/c-command-overview.md)
 * [分层概述](c-layering-overview/c-layering-overview.md)
 * [图层操作](c-layering-overview/c-layer-operations.md)
 * [图层效果](r-layer-effects.md)

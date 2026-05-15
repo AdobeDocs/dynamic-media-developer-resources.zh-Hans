@@ -5,9 +5,19 @@ title: 区域设置字符串映射
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/tEpdZ-AEabQKLIV1Zkwh9JG7-LHV4gABlmv9PLPqz08'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: 237
 ht-degree: 0%
 
 ---
@@ -57,7 +67,7 @@ ht-degree: 0%
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph">目录：：目标</span> </p> </td> 
-   <td> <p>任何<span class="filepath">目标的值。*.label </span>和<span class="filepath">目标*.userdata </span>属性。 </p> </td> 
+   <td> <p>任何<span class="filepath"> target.*.label </span>和<span class="filepath"> target.*.userdata </span>属性的值。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph">目录：：UserData </span> </p> </td> 

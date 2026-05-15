@@ -5,9 +5,20 @@ title: 规则集引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -50,7 +61,7 @@ ht-degree: 0%
 
 有效规则集XML文件中始终需要`<?xml>`和`<ruleset>`元素，即使未定义实际规则也是如此。
 
-允许一个包含任意数量的`<ruleset>`元素的`<rule>`元素。
+允许一个包含任意数量的`<rule>`元素的`<ruleset>`元素。
 
 预处理规则文件的内容区分大小写。
 
@@ -70,7 +81,7 @@ ht-degree: 0%
 
 ## OnMatch属性 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-可以使用`OnMatch`元素的`<rule>`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error`。
+可以使用`<rule>`元素的`OnMatch`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error`。
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -132,7 +143,7 @@ ht-degree: 0%
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**示例B.**&#x200B;特定Web应用程序不允许查询字符串。 定义一个将结尾路径元素`small`、`medium`或`large`转换为模板的规则，使用路径的其余部分作为图像名称。 例如，`myCat/myImage/small`将转换为`myCat/smallTemplate?src=myCat/myImage`。
+**示例B.** 特定的Web应用程序不允许查询字符串。 定义一个将结尾路径元素`small`、`medium`或`large`转换为模板的规则，使用路径的其余部分作为图像名称。 例如，`myCat/myImage/small`将转换为`myCat/smallTemplate?src=myCat/myImage`。
 
 我们可以使用子字符串来重构请求：
 

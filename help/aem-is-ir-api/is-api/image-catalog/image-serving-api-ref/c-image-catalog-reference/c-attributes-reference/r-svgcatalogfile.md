@@ -5,10 +5,18 @@ title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 654579a2-33ff-4633-a6d0-3c03ec8d5aed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/m1-nKj-KiVQlN70GYy1AFAAQN-M1wnxTGmmj-e3t9AY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 2%
+source-wordcount: 115
+ht-degree: 3%
 
 ---
 
@@ -16,11 +24,11 @@ ht-degree: 2%
 
 SVG数据文件路径。 指定包含此目录的SVG数据的文件。
 
-SVG数据文件会按照指定的确切顺序加载到所有图像数据文件之后。 如果同一个`catalog::Id`值出现在多个记录中(在相同或不同的图像或SVG目录文件中)，则最后一个实例将优先。
+SVG数据文件会按照指定的确切顺序加载到所有图像数据文件之后。 如果同一个`catalog::Id`值出现在多个记录中（在相同或不同的图像或SVG目录文件中），则最后一个实例将优先。
 
 ## 属性 {#section-fc2d549f76474792837b2b92ec2087ea}
 
-一个或多个文本字符串值，用逗号分隔。 可选。 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
+一个或多个文本字符串值，用逗号分隔。 可选. 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
 
 ## 默认 {#section-a4e58951f3c249599665b823566433c9}
 

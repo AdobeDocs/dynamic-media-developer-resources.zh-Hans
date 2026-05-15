@@ -1,18 +1,26 @@
 ---
-title: 页面查看
+title: 頁面檢視
 description: 主视图由目录图像组成。 它可以滑动以转到其他页面或缩放。
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/IN5BJWNHvq-xzVmyu8gX-yIYCt-QvkgI3pvOp6nOP-Y'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 388
 ht-degree: 2%
 
 ---
 
-# 页面查看{#page-view}
+# 頁面檢視{#page-view}
 
 主视图由目录图像组成。 它可以滑动以转到其他页面或缩放。
 
@@ -53,7 +61,7 @@ ht-degree: 2%
 }
 ```
 
-在桌面系统上，组件支持可应用于`cursortype`类的`.s7pageview`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`.s7pageview`类的`cursortype`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 

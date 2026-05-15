@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/PRayyg-oBmqHohNjYBa4bgtxdK9tdb6qd6vaLkGJZEg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 每个服装/附件照片被遮罩并裁剪到遮罩边界框以最小化图像大小。 仔细控制图像锚点和分辨率以保持图层与背景图像之间的对齐，并且所有图像都添加到图像目录中，相应的值存储在`catalog::Resolution`和`catalog::Anchor`中。
 
-除了分层外，您还需要更改所选项目的颜色。 对这些项目的记录进行预处理，以去除原始颜色，并以适合彩色化命令的方式调整亮度和对比度。 此预处理可以使用图像编辑工具(如Adobe Photoshop)离线完成，或者在简单情况下，可以通过将`op_brightness=`和`op_contrast=`添加到`catalog::Modifier`字段来逐个完成。
+除了分层外，您还需要更改所选项目的颜色。 对这些项目的记录进行预处理，以去除原始颜色，并以适合彩色化命令的方式调整亮度和对比度。 此预处理可以使用图像编辑工具（如Adobe Photoshop）离线完成，或者在简单情况下，可以通过将`op_brightness=`和`op_contrast=`添加到`catalog::Modifier`字段来逐个完成。
 
 此应用程序不保证使用单独的模板，因为所有对象已由其图像锚点( `catalog::Anchor`)正确对齐，并已缩放( `catalog::Resolution`)。 由客户端来确保适当的层顺序。
 
@@ -42,7 +50,7 @@ layer=6&res=999&src=rootId/shoes21
 
 如果所有源图像在全尺度上具有相同的分辨率，则可以省略`res=`命令（这有可能是这种类型的应用程序的情况）。
 
-必须为所有`rootId`命令指定`src=`，即使它们与URL路径中指定的`rootId`相同。
+必须为所有`src=`命令指定`rootId`，即使它们与URL路径中指定的`rootId`相同。
 
 如果不使用图像目录，则无法使用基于分辨率的缩放方法。 在这种情况下，必须根据每个图层的`catalog::Resolution`值与背景图层的`catalog::Resolution`值的比值，为每个图层项计算显式比例因子。 因此，复合请求（层数较少）可能如下所示：
 

@@ -5,9 +5,17 @@ title: setImageSetMember
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/nacym3xe-m5gu-Hi2Gqkz-O03-CbqB9B-uCDRVkhrvc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 121
 ht-degree: 8%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 8%
 
 设置与图像集关联的资源列表。
 
-此操作忽略`pageReset`和`ImageSets`的`SpinSets`参数，并强制将该值设置为true。
+此操作忽略`ImageSets`和`SpinSets`的`pageReset`参数，并强制将该值设置为true。
 
 ## 授权用户类型 {#section-8968d6a39a344cfc8521020d92ae8916}
 

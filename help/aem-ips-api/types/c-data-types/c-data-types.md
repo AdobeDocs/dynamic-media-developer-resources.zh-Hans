@@ -5,9 +5,20 @@ title: 数据类型
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
-source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
+autotag-review: '2026-05-13T21:03:23.689Z'
+TQID: 'https://experienceleague.adobe.com/0pMr5C9eNe2w7EMh4fGUkf-wIvUHFWwljBRy3Ntknkk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 3%
 
 ---

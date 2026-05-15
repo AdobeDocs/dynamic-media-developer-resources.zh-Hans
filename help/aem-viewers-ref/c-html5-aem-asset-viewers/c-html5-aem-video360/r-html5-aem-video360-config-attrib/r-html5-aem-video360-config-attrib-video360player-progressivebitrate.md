@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/Hn-KzfsFcpgPY4V66gMvEZ0avivukDTEzW-ul3uO1Po'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 94
 ht-degree: 3%
 
 ---
@@ -35,7 +43,7 @@ Video360 Viewer的配置属性。
 
 `700`
 
-## 示例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## 示例： {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 progressivebitrate=600

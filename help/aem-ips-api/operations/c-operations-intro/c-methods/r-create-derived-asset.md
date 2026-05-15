@@ -5,9 +5,17 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/zREQqRBLpYJ30WoTEa2cmVplhQAlcqoBgzRIsMAy5sg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 259
 ht-degree: 8%
 
 ---
@@ -44,7 +52,7 @@ ht-degree: 8%
 | folderHandle | `xsd:string` | 是 | 在其中创建新派生资源的文件夹的句柄。 |
 | 名称 | `xsd:string` | 是 | 派生资源的名称。 |
 | 类型 | `xsd:string` | 是 | 新派生资源的资源类型： `AdjustedView`或`LayerView`。 |
-| urlModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*请求或*&#x200B;命令之前应用了`urlPostApplyModifier`个。 |
+| urlModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*请求或`urlPostApplyModifier`命令之前应用了*&#x200B;个。 |
 | urlPostApplyModifier | `xsd:string` | 否 | 图像服务或图像渲染协议命令在&#x200B;*之后*&#x200B;应用于请求或`urlPostApplyModifier`命令。 |
 
 **输出(createDerivedAssetParam)**

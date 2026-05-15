@@ -5,10 +5,20 @@ title: searchAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/dH731pRjwnoj8sT18m3QxX6lEM8lzI14Sr9emp0aQc0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 6%
+source-wordcount: 602
+ht-degree: 7%
 
 ---
 
@@ -120,7 +130,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：string</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> <p>选择用于组合<span class="codeph"> systemFieldCondition</span>匹配的搜索匹配模式。 默认为<span class="codeph"> MatchAll</span> </p>。 </td> 
+   <td colname="col4"> <p>选择用于组合<span class="codeph"> systemFieldCondition</span>匹配的搜索匹配模式。 默认为<span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -180,7 +190,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> 否 </td> 
-   <td colname="col4"> 如果为true，则在摄取主资产期间生成的副产品资产(例如翻录的PDF页面图像)将从搜索结果中排除。 默认值为 false。 </td> 
+   <td colname="col4"> 如果为true，则在摄取主资产期间生成的副产品资产（例如翻录的PDF页面图像）将从搜索结果中排除。 默认值为 false。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 

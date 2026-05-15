@@ -5,9 +5,17 @@ title: SVG支持
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/yN93vSajgH09FJqxpDsa1j3fFlBR9EdCREXvhUy8q2U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 514
 ht-degree: 0%
 
 ---
@@ -32,7 +40,7 @@ ht-degree: 0%
 
 ## 图像引用 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-可以使用`<image>`元素将图像插入SVG。 `xlink::href`元素的`<image>`属性引用的图像必须是有效的图像服务请求。 不允许使用外部URL。
+可以使用`<image>`元素将图像插入SVG。 `<image>`元素的`xlink::href`属性引用的图像必须是有效的图像服务请求。 不允许使用外部URL。
 
 指定一个以`http://`开头的完整图像服务请求，或指定一个以`/is/image`开头的相对URL。 如果指定了完整的HTTP路径，则会从路径中删除域名，以转换为相对格式。 使用完整HTTP路径可能会有好处，因为它允许使用第三方SVG渲染器预览文件。
 

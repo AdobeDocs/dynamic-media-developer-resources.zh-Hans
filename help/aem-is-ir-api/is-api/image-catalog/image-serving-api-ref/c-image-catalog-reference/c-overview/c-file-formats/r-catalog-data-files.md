@@ -1,20 +1,28 @@
 ---
-description: 目录数据文件可以具有任何名称和文件后缀（.ini除外）。 可以使用支持以制表符分隔的文本数据文件的应用程序(例如Microsoft Excel和Access)轻松维护这些文件。
+description: 目录数据文件可以具有任何名称和文件后缀（.ini除外）。 可以使用支持以制表符分隔的文本数据文件的应用程序（例如Microsoft Excel和Access）轻松维护这些文件。
 solution: Experience Manager
 title: 编录数据文件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/h4-MIosWMEWhmbAYbpS9xm22nDzEPO6APGEezCA1B-Q'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 353
 ht-degree: 0%
 
 ---
 
 # 编录数据文件{#catalog-data-files}
 
-目录数据文件可以具有任何名称和文件后缀（.ini除外）。 可以使用支持以制表符分隔的文本数据文件的应用程序(例如Microsoft Excel和Access)轻松维护这些文件。
+目录数据文件可以具有任何名称和文件后缀（.ini除外）。 可以使用支持以制表符分隔的文本数据文件的应用程序（例如Microsoft Excel和Access）轻松维护这些文件。
 
 目录数据文件本质上是一个二维表，由标题记录组成，标题记录标识数据列和任意数量的数据记录（行）。 标题记录和数据记录中的字段均由单个`<TAB>`字符分隔。 记录由单个`<CR>` （ASCII代码`0xD`）、单个`<LF>` （ASCII代码`0xA`）或`<CR><LF>`对分隔。
 

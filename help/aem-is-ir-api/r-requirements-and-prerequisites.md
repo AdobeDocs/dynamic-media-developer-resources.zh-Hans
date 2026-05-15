@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/SKAe9OsVsSkTRR5E3s5lBcPct4CgG1h1uIh7ayIpINA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: 390
 ht-degree: 0%
 
 ---
@@ -44,7 +52,7 @@ ht-degree: 0%
 
 `SELINUX=enforcing`
 
-收件人
+收件者
 
 `SELINUX=disabled`
 
@@ -58,7 +66,7 @@ Dynamic Media图像服务需要以下服务器软件。
 
 **Windows**
 
-* Microsoft® Windows Server 2008。
+* ® Windows Server 2008。
 * 64位操作系统
 
 **Linux®**
@@ -66,4 +74,4 @@ Dynamic Media图像服务需要以下服务器软件。
 * Red Hat® Enterprise 5或CentOS 5.5及更高版本，带有最新的修补程序包。
 * 64位操作系统
 
-**注意：**&#x200B;要在Windows上使用图像服务，必须安装Microsoft® Visual Studio 2010。
+**注意：**&#x200B;要在Windows上使用图像服务，必须安装® Visual Studio 2010。

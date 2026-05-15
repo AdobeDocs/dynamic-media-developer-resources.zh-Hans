@@ -1,18 +1,26 @@
 ---
-title: 隐藏
+title: 隱藏
 description: 隐藏重叠对象。 隐藏应用于当前选区中窗口覆盖框架的所有重叠对象或窗口覆盖。
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m-kauRNM-pbWF8-sz-enHmS3oUuVyOT6grdXVrL-FUc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: 91
 ht-degree: 5%
 
 ---
 
-# 隐藏{#hide}
+# 隱藏{#hide}
 
 隐藏重叠对象。 隐藏应用于当前选区中窗口覆盖框架的所有重叠对象或窗口覆盖。
 

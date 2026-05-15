@@ -5,9 +5,19 @@ title: 规则集引用
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/HxgWcboIyA2RYuXbHMKaUiRQFL8IDNKegdOqMgz2plE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 642
 ht-degree: 0%
 
 ---
@@ -49,7 +59,7 @@ ht-degree: 0%
 
 有效规则集XML文件中始终需要`<?xml>`、`<!DOCTYPE>`和`<ruleset>`元素，即使未定义实际规则也是如此。
 
-允许一个包含任意数量的`<ruleset>`元素的`<rule>`元素。
+允许一个包含任意数量的`<rule>`元素的`<ruleset>`元素。
 
 预处理规则文件的内容区分大小写。
 
@@ -65,7 +75,7 @@ ht-degree: 0%
 
 ## OnMatch属性 {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-可以使用`OnMatch`元素的`<rule>`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error.`
+可以使用`<rule>`元素的`OnMatch`属性修改默认行为。 `OnMatch`可以设置为`break`（默认）、`continue`或`error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -92,7 +102,7 @@ ht-degree: 0%
 
 ## 覆盖目录属性 {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-当规则成功匹配且设置了`<rule>`时，`OnMatch="break"`元素可以选择定义覆盖相应目录属性的属性。 如果设置了`OnMatch="continue"`，则不会应用任何属性。 有关可使用规则控制的属性列表，请参阅`<rule>`的说明。
+当规则成功匹配且设置了`OnMatch="break"`时，`<rule>`元素可以选择定义覆盖相应目录属性的属性。 如果设置了`OnMatch="continue"`，则不会应用任何属性。 有关可使用规则控制的属性列表，请参阅`<rule>`的说明。
 
 ## 正则表达式 {#section-4d326507b52544b0960a9a5f303e3fe6}
 

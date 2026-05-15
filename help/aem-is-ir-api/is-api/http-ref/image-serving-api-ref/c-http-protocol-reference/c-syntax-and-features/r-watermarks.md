@@ -5,9 +5,17 @@ title: 水印
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/5gqAaM5kFHj67LxcMVGeEU2uus6mA-BT9kCewY1cZOw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +38,7 @@ ht-degree: 0%
 
 请求命令（如`fmt=`）和视图命令（如`wid=`）在水印记录中被忽略，但`align=`除外。 `align=`可用于相对于水印图像相对于目标图像定位水印图像。 这允许相对于目标图像的角或边缘定位水印。
 
-缩放和对齐后，服务器使用为水印图像的`blendMode=`或`opac=`指定的`layer=0`和`layer=comp`值在目标图像上叠加水印图像。 最后，应用为目标图像指定的请求和视图命令来构造回复图像。
+缩放和对齐后，服务器使用为水印图像的`layer=0`或`layer=comp`指定的`blendMode=`和`opac=`值在目标图像上叠加水印图像。 最后，应用为目标图像指定的请求和视图命令来构造回复图像。
 
 请注意，水印图像决不会超过`wid=`和`hei=`命令添加到回复图像的任何空格。
 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b64f16c8-03bf-4603-972f-845a4c1e2b02
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+TQID: 'https://experienceleague.adobe.com/GyKNYDNJOuQ04yCMiXp-T4wETxNe1AXD1o4m0Buz5X4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 204
 ht-degree: 3%
 
 ---
@@ -26,11 +34,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">配置</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span>可选JSON配置对象，允许所有查看器设置传递到构造函数，并避免调用单个setter方法。 包含以下属性： </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span>可选JSON配置对象，允许所有查看器设置传递到构造函数并避免调用单个setter方法。 包含以下属性： </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
       <li id="li_71857BBD652243A094E936C2C8EA9702"> 查看器插入的DOM容器的<span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID（通常为<span class="codeph"> DIV </span>）。 在调用此方法时，无需创建容器元素。 但是，运行<span class="codeph"> init() </span>时容器必须存在。 必需. </li> 
       <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph">参数</span> - <span class="codeph"> {Object} </span> JSON对象具有查看器配置参数，其中属性名称是查看器特定的配置选项或SDK修饰符，并且该属性的值是相应的设置值。 必需. </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph">处理程序</span> - <span class="codeph"> {Object} </span>具有查看器事件回调的JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 可选. <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local">事件回调</a>。 </p> </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph">处理程序</span> - <span class="codeph"> {Object} </span> JSON对象具有查看器事件回调，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 可选. <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local">事件回调</a>。 </p> </li> 
       <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph">对象</span>} JSON对象包含本地化数据。 可选. </p> <p>有关详细信息，请参阅<a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local">用户界面元素</a>的本地化。 </p> <p>有关对象内容的更多信息，请参阅<i>查看器SDK用户指南</i>和示例。 可选. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -41,7 +49,7 @@ ht-degree: 3%
 
 无。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```javascript {.line-numbers}
 var flyoutViewer = new s7viewers.FlyoutViewer({ 

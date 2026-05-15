@@ -5,9 +5,19 @@ title: 疑难解答
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/4m5oktRjrVv4Ro3e74fNYBgsxWfl0t7XOrGtNnCq334'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 525
 ht-degree: 0%
 
 ---
@@ -31,7 +41,7 @@ ImageServer现在保留升级安装期间更改的所有文件的安装日志和
 * 检查[!DNL ImageServerRegistry.xml]中的物理内存设置。 如果其他内存密集型应用程序在同一系统上运行，则不应超过50%。 默认值为20%。
 * 确保服务器上的交换空间至少是物理RAM大小的两倍。 交换空间设置不足可能导致此问题。
 
-**缓存文件夹使用的实际磁盘空间超过了` *[!DNL cache.maxSize]*`中设置的[!DNL PlatformServer.conf]**
+**缓存文件夹使用的实际磁盘空间超过了[!DNL PlatformServer.conf]**&#x200B;中设置的` *[!DNL cache.maxSize]*`
 
 这并不表示有问题。 文件系统开销未包含在[!DNL Platform Server]的磁盘缓存设置中。 所述系统报告的总量可以显着高于所述设置。 建议保留两倍于` *[!DNL cache.maxSize]*`中指定的磁盘空间。
 

@@ -5,9 +5,17 @@ title: 格式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e179fc51-0461-4000-99eb-4390c35d5606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/tqpsn2LTwuUX-SDJTtMKhfpF391ZjjxohgfJn4a-Mdo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 307
 ht-degree: 3%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 3%
 <table id="simpletable_66FAABB7BD7A4BBB815A570BEA4C1AE8"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">格式</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alpha | tif | tif-alpha | swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> jpeg | png | png-alph | tif | tif-alpha | swf | pdf | gif | gif-alpha | fxg | fxgraw</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
@@ -29,7 +37,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> rgb | 灰色 | cmyk</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> rgb |灰色 | cmyk</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
@@ -52,7 +60,7 @@ ht-degree: 3%
    <th colname="col2" class="entry"> <p><span class="varname"> pixelType</span> </p> </th> 
    <th colname="col3" class="entry"> <p>响应MIME类型 </p> </th> 
    <th colname="col4" class="entry"> <p>嵌入ICC配置文件 </p> </th> 
-   <th colname="col5" class="entry"> <p>选项 </p> </th> 
+   <th colname="col5" class="entry"> <p>選項 </p> </th> 
   </tr> 
  </thead>
  <tbody> 

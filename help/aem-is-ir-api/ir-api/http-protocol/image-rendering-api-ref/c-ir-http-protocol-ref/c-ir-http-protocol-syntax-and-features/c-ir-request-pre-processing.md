@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
-source-git-commit: 20f4922402bd31c71ae650a01597b574220809fa
+TQID: 'https://experienceleague.adobe.com/zs4izZzuO7u6wYOPmdd8AT7r4q-cUFXWUlB1MW6aV0Y'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -24,7 +32,7 @@ ht-degree: 0%
 
 * 实施&#x200B;*虚拟路径*&#x200B;机制，该机制允许将请求路径重新映射到文件、FTP和HTTP路径。
 * 禁止使用CPU密集型命令以防止服务器滥用。
-* 根据请求路径或图像名称控制图像质量设置(例如JPEG质量或锐化)。
+* 根据请求路径或图像名称控制图像质量设置（例如JPEG质量或锐化）。
 
 有关创建、使用和管理规则集的详细信息，请参阅规则集参考。
 

@@ -5,10 +5,20 @@ title: UploadPostJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/HyBhZzT6yi-kgeyJmPZT4clh4FrdwhYqGCo1uZv1riI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 5%
+source-wordcount: 447
+ht-degree: 6%
 
 ---
 
@@ -134,7 +144,7 @@ ht-degree: 5%
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：boolean</span> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>控制任何现有裁切定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应的值，则无论是否使用preserveCrop值，新值（不包括0,0，0,0）都会应用于资源。</p><p>如果您<i>未</i>提供manualCropOptions参数，则保留preserveCrop的值。 如果为true，则会保留现有的preserveCrop值；如果为false，则会删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>控制任何现有裁切定义的保留。 默认为 true。</p> <p>如果您提供manualCropOptions参数和相应的值，则无论是否使用preserveCrop值，新值（不包括0,0，0,0）都会应用于资源。</p><p>如果您<i>未</i>提供manualCropOptions参数，则保留preserveCrop的值。 如果为true，则会保留现有的preserveCrop值；如果为false，则会删除preserveCrop值。</p><p>示例：</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br /> &lt;left&gt;190&lt;/left&gt;<br /> &lt;right&gt;310&lt;/right&gt;<br /> &lt;top&gt;160&lt;/top&gt;<br /> &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 

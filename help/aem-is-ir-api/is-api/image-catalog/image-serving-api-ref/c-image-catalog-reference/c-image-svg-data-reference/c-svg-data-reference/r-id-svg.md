@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+TQID: 'https://experienceleague.adobe.com/88PPZnicSyrr3x97836bu0gZpqWV-d8t-u5y-tn7nvY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 193
 ht-degree: 3%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 3%
 
 ## 属性 {#section-874a6853f67b4b229341ca76682884ae}
 
-文本字符串。 必需。 图像/SVG或静态内容数据表的记录标识符。 此图像目录/SVG目录或此静态内容目录中的每个`catalog::Id`值都必须是唯一的，并且不得包含“，”字符。
+文本字符串。 必需. 图像/SVG或静态内容数据表的记录标识符。 此图像目录/SVG目录或此静态内容目录中的每个`catalog::Id`值都必须是唯一的，并且不得包含“，”字符。
 
 ## 默认 {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

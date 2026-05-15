@@ -5,9 +5,17 @@ title: 图像映射
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/r0AiVRiFWvxKwq-80xpo-G4gZZDCRE6WjciJpiz9V-U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -47,7 +55,7 @@ IS通过将空间变换（例如缩放和旋转）应用于地图坐标，然后
 
 所有其他命令将被有效忽略。
 
-在处理`SHAPE`请求期间，可以修改`COORDS`的`AREA`和`req=map`属性，无需修改即可传递`AREA`元素的所有其他属性。 在大多数情况下，这涉及将`SHAPE`值从`DEFAULT`更改为`RECT`（这还将添加`COORDS`属性），或更改`COORDS`值。
+在处理`req=map`请求期间，可以修改`AREA`的`SHAPE`和`COORDS`属性，无需修改即可传递`AREA`元素的所有其他属性。 在大多数情况下，这涉及将`SHAPE`值从`DEFAULT`更改为`RECT`（这还将添加`COORDS`属性），或更改`COORDS`值。
 
 将完全删除处理期间变为空的所有`AREA`元素。 如果某个地图与`layer=comp`关联，则该地图将位于所有其他地图之后。 数据以文本形式作为或多个HTML `AREA`元素返回。 空回复字符串表示指定对象不存在图像映射。
 

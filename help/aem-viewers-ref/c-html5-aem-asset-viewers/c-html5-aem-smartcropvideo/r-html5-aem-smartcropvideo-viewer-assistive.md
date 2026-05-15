@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
 exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+TQID: 'https://experienceleague.adobe.com/obdWIz9XkQQ9RCpfejLJrjVKKxCoPK3Qt-rW1BXad20'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 181
 ht-degree: 0%
 
 ---
@@ -22,6 +32,6 @@ ht-degree: 0%
 
 滑块组件的角色`slider`具有属性`aria-valuenow`、`aria-valuemin`和`aria-valuemax`，用于描述当前滑块位置。
 
-下拉列表由按钮激活，这些按钮具有设置为`aria-haspopup`的其他`true`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
+下拉列表由按钮激活，这些按钮具有设置为`true`的其他`aria-haspopup`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
 
 模式对话框具有角色`dialog`。 对话框的标头元素由`aria-labelledby`属性引用。

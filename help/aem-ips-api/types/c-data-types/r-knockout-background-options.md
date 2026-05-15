@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/8DZwQo12bsutVbNdfz2XtpX4sO4pTbbjdtYqrn00-1w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 191
 ht-degree: 2%
 
 ---
@@ -54,7 +62,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname">容差</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd：double</span> </td> 
-   <td colname="col3">一个可选设置，用于根据透明度从图像边缘中去除空格。 接受从0.0到1.0的值的范围。指定： 
+   <td colname="col3">一个可选设置，用于根据透明度从图像边缘中去除空格。 接受从0.0到1.0的值的范围。 指定： 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0表示完全匹配颜色。 </li>
      <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1启用最大的颜色差异。 </li>

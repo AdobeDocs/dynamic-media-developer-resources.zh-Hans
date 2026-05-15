@@ -5,9 +5,17 @@ title: 文本图层
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/cIgicI7IPJKVWkhlyocD7g7nuXbJXaTAborYvt3Muyg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -43,7 +51,7 @@ textPs=支持本节所述许多不同的使用模式。
 
 ## 矩形文本框 {#section-1d3ab11df26d4004a1a801546756475d}
 
-如果除了`size=`之外还指定了`textPs=`（不包括`textPath=`和`textFlowPath=`），则文本将约束到指定的矩形。 图层按常规方式放置。 文本框边缘附近的字符字形可能会部分呈现在文本框的外部。
+如果除了`textPs=`之外还指定了`size=`（不包括`textPath=`和`textFlowPath=`），则文本将约束到指定的矩形。 图层按常规方式放置。 文本框边缘附近的字符字形可能会部分呈现在文本框的外部。
 
 `color=`填充由`size=`定义的区域。
 

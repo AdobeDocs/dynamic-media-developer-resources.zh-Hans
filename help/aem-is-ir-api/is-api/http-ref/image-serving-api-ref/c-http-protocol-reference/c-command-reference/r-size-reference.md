@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/DQG9OdxhfenQe-vv7opfQUYljxn7N7XaRIsl1LkSry4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 424
 ht-degree: 1%
 
 ---
@@ -39,7 +47,7 @@ ht-degree: 1%
 
 ## 属性 {#section-5f254b66fcba49bcb63f9c9ea40b230c}
 
-层属性。 应用于图层0（如果`layer=comp`）。 `sizeN=`或`layer=0`不允许使用`layer=comp`。 仅定义水印图像的目录记录中允许`sizeN=`和`layer=0`使用`layer=comp`。 在这种情况下，`sizeN`定义水印图像相对于将应用水印的复合图像的缩放比例。 如果指定了`size=`，则忽略该层的`res=`和`scale=`。 被效果层忽略。
+层属性。 应用于图层0（如果`layer=comp`）。 `layer=0`或`layer=comp`不允许使用`sizeN=`。 仅定义水印图像的目录记录中允许`layer=0`和`layer=comp`使用`sizeN=`。 在这种情况下，`sizeN`定义水印图像相对于将应用水印的复合图像的缩放比例。 如果指定了`size=`，则忽略该层的`res=`和`scale=`。 被效果层忽略。
 
 ## 默认 {#section-43d129deba6a441da66a1fdb63d1c85c}
 
@@ -49,7 +57,7 @@ ht-degree: 1%
 
 ## 示例 {#section-d1adaddd9e0b4ca881fd8e0a7541e5d9}
 
-查看[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)中的[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)。
+查看[模板](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)中的[示例A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)。
 
 ## 另请参阅 {#section-63dfdf3750e249d2ab4c825ccd2e7181}
 
