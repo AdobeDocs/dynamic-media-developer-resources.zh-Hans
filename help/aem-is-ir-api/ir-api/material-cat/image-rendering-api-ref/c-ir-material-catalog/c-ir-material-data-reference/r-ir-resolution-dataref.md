@@ -5,9 +5,13 @@ title: 分辨率
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 45b12324-3148-4530-82cd-0ee32e9f98f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/EV1kiy21nLXMKmrDDBQclvZvdB-h-zi9SCkskvzUJNQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: 104
 ht-degree: 4%
 
 ---

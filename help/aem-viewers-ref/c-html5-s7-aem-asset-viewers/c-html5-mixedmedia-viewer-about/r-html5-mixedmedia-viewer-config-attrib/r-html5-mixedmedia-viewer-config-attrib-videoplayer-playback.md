@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/BWApI4QtEvmeQk1vNJDLtKIvrG3uO02oUlOVEGhyl2s'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 109
 ht-degree: 2%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自动|渐进式</span> </p> </td> 
-   <td colname="col2"> <p> 设置查看器使用的播放类型。 如果设置了<span class="codeph"> auto</span>，则在大多数桌面浏览器和所有iOS设备上，查看器将使用HLS格式的HTML5流视频。 它回退到某些系统(如旧版Internet Explorer和Android™)上的渐进式HTML5播放。 </p> <p>如果指定了<span class="codeph"> progressive</span>，则查看器仅依赖浏览器本机支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关自动和渐进模式下的播放选择的更多信息，请参阅查看器SDK用户指南。 </p> </td> 
+   <td colname="col2"> <p> 设置查看器使用的播放类型。 如果设置了<span class="codeph"> auto</span>，则在大多数桌面浏览器和所有iOS设备上，查看器将使用HLS格式的HTML5流视频。 它回退到某些系统（如旧版Internet Explorer和™）上的渐进式HTML5播放。 </p> <p>如果指定了<span class="codeph"> progressive</span>，则查看器仅依赖浏览器本机支持的HTML5播放，并在所有系统上逐步播放视频。 </p> <p>有关自动和渐进模式下的播放选择的更多信息，请参阅查看器SDK用户指南。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7RG0rzG40Mp5eQe663S5Ayyf99SIfSLPHgqbSL2Unn4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 2%
 
 ---
@@ -35,7 +39,7 @@ ht-degree: 2%
 
 也可以将其应用于文本图层。
 
-选择`extend=`时，某些命令（包括`layer=comp`）隐式应用于图层0而非复合图层。 在这种情况下，自动分配到层0的所有命令在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
+选择`layer=comp`时，某些命令（包括`extend=`）隐式应用于图层0而非复合图层。 在这种情况下，自动分配到层0的所有命令在应用于`layer=comp`的命令之前应用。 因此，当`layer=comp`时，`extend=`在`flip=`之前应用。
 
 >[!NOTE]
 >

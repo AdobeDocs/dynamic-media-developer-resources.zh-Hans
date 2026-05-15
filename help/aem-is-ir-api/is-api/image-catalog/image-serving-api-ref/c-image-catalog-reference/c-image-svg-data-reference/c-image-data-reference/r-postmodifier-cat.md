@@ -5,9 +5,13 @@ title: PostModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/hPHoHlBkRN-eXFvLzZ2LpWhmtiT4lGyehTvwFw9ItJo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 128
 ht-degree: 3%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 3%
 
 此字段中的命令始终覆盖HTTP请求和`catalog::Modifier`中的命令。
 
-如果某些图像需要特殊设置（通常由URL控制），例如`catalog::PostModifier`或`qlt=`，则`resmode=`非常有用。 `catalog::Modifier`应该用于设置图像目录中的大多数IS命令。
+如果某些图像需要特殊设置（通常由URL控制），例如`qlt=`或`resmode=`，则`catalog::PostModifier`非常有用。 `catalog::Modifier`应该用于设置图像目录中的大多数IS命令。
 
 `catalog::PostModifier`中允许使用宏，只要这些宏是在同一目录或默认目录中定义的。 也可以使用自定义变量。
 

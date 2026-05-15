@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/fKaiG7uobh7Bax18dT0aVRcBvNPwwphdxbbs2c36b64'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: 2679
 ht-degree: 0%
 
 ---
@@ -243,7 +247,7 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7closebutton
 ```
 
-关闭按钮的&#x200B;**CSS属性**
+关闭按钮的**CSS属性**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -531,7 +535,7 @@ background-color: #ffffff;
 .s7video360viewer .s7embeddialog .s7dialogviewarea
 ```
 
-对话框查看区域的&#x200B;**CSS属性**
+对话框查看区域的**CSS属性**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -568,7 +572,7 @@ background-color: #ffffff;
 
 如果此容器的高度看起来比主对话框区域大，则组件会自动启用垂直滚动。
 
-对话框正文的&#x200B;**CSS属性**
+对话框正文的**CSS属性**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -595,7 +599,7 @@ background-color: #ffffff;
 
 此类不适合控制标签大小或位置，因为您可以将其应用于表单用户界面各个位置的文本。
 
-对话框标签的&#x200B;**CSS属性。 &#x200B;**
+对话框标签的**CSS属性。 **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -794,7 +798,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->组合框支持可能值为`expanded`和`true`的`false`属性选择器。 当组合框显示预定义的嵌入大小之一时使用`true`值，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时使用`false`值，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
+>组合框支持可能值为`true`和`false`的`expanded`属性选择器。 当组合框显示预定义的嵌入大小之一时使用`true`值，因此应采用所有可用宽度。 在组合框中选择了自定义大小选项时使用`false`值，因此它应该收缩以便为自定义宽度和高度输入字段留出空间。
 
 **示例** — 将嵌入大小组合框设置为显示预定义项时为300像素宽，显示自定义大小时为110像素宽：
 

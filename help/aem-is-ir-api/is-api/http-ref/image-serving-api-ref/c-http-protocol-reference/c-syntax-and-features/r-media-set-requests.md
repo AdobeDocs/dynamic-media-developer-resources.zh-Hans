@@ -5,9 +5,14 @@ title: 媒体集请求
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/mcwY5R2hIttDyWKya6b3Jyvt2zwMdLyS4Xp8otY0c34'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: 968
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## 请求语法 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-可以使用`catalog::ImageSet`修饰符并引用Net路径中的目录记录ID来检索`req=set`的设置响应。 或者，可以使用`imageset=`修饰符直接在URL中指定图像集。 如果使用`imageset=`修饰符指定图像集，则应将整个值括在大括号中，以便对图像集值进行转义，并确保所包含的任何修饰符均不会解释为URL查询字符串的一部分。
+可以使用`req=set`修饰符并引用Net路径中的目录记录ID来检索`catalog::ImageSet`的设置响应。 或者，可以使用`imageset=`修饰符直接在URL中指定图像集。 如果使用`imageset=`修饰符指定图像集，则应将整个值括在大括号中，以便对图像集值进行转义，并确保所包含的任何修饰符均不会解释为URL查询字符串的一部分。
 
 ## 集合响应的类型 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 ## 标签键 {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=`修饰符与`catalog::UserData`字段一起使用，以生成图像和样本的标签。 `catalog:UserData`字段被解析为一组键/值对，该组中的标签键索引用于检索给定键的值。 此值随后在&#x200B;*`l`*&#x200B;和&#x200B;*`s`*&#x200B;的&#x200B;*`i`*&#x200B;特性中返回。
+`labelkey=`修饰符与`catalog::UserData`字段一起使用，以生成图像和样本的标签。 `catalog:UserData`字段被解析为一组键/值对，该组中的标签键索引用于检索给定键的值。 此值随后在&#x200B;*`s`*&#x200B;和&#x200B;*`i`*&#x200B;的&#x200B;*`l`*&#x200B;特性中返回。
 
 ## 强制限制 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 

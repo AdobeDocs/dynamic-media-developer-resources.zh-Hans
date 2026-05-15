@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/Dlc-HhO8gjpNds-8-cv3vCxILlTePVblpu1D1MP8eN0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 220
 ht-degree: 2%
 
 ---
@@ -39,7 +43,7 @@ ht-degree: 2%
 
 ## 默认 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-如果贴花材料基于目录条目，则为`catalog::Size`；否则为`size=0,0,0`。 如果未指定`res=`和&#x200B;*`wid`*&#x200B;或将其设置为0，则从&#x200B;*`hei`*&#x200B;计算贴花大小。 如果未指定&#x200B;*`thickness`*&#x200B;或将其设置为0，则不呈现投影。
+如果贴花材料基于目录条目，则为`catalog::Size`；否则为`size=0,0,0`。 如果未指定&#x200B;*`wid`*&#x200B;和&#x200B;*`hei`*&#x200B;或将其设置为0，则从`res=`计算贴花大小。 如果未指定&#x200B;*`thickness`*&#x200B;或将其设置为0，则不呈现投影。
 
 ## 示例 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

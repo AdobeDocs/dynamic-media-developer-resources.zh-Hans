@@ -5,9 +5,13 @@ title: AllowDirectaccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/h2bcjdutPEZID471oI-MWfxG4trg87bIeyAxvoMyKEA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: 166
 ht-degree: 0%
 
 ---
@@ -43,7 +47,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* 允许直接访问除`IS`和`STATIC` `AllowDirectAccess=exclude:IS,STATIC`之外的所有对象类型
+* 允许直接访问除`IS`和`STATIC``AllowDirectAccess=exclude:IS,STATIC`之外的所有对象类型
 
 * 允许直接访问&#x200B;*no*&#x200B;对象类型（即，不包括）
 

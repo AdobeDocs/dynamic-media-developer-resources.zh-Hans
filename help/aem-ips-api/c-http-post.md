@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: 716
+ht-degree: 2%
 
 ---
 
@@ -38,7 +42,7 @@ https://<server>/scene7/UploadFile
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>北美 </p> </td> 
+   <td colname="col1"> <p>北美洲 </p> </td> 
    <td colname="col2"> <p> https://s7sps1ssl.scene7.com/scene7/UploadFile </p> </td> 
    <td colname="col3"> <p> https://s7sps1ssl-staging.scene7.com/scene7/UploadFile </p> </td> 
   </tr> 
@@ -63,21 +67,21 @@ https://<server>/scene7/UploadFile
 >
 >上载作业的所有POST请求必须来自相同的IP地址。
 
-|  HTTP POST表单部件  |  描述  |
+|  HTTP POST表单部件  |  说明  |
 |---|---|
-| `auth`  |   必需。 指定身份验证和客户端信息的XML authHeader文档。 请参阅&#x200B;**SOAP**&#x200B;下的[请求身份验证](/help/aem-ips-api/c-wsdl-versions.md)。 |
-| `file params`  |   可选。 您可以包含一个或多个要随每个POST请求上传的文件。 每个文件部分都可在Content-Disposition标头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
+| `auth`  |   必需. 指定身份验证和客户端信息的XML authHeader文档。 请参阅[SOAP](/help/aem-ips-api/c-wsdl-versions.md)下的&#x200B;**请求身份验证**。 |
+| `file params`  |   可选. 您可以包含一个或多个要随每个POST请求上传的文件。 每个文件部分都可在Content-Disposition标头中包含一个文件名参数，如果未指定`uploadPostParams/fileName`参数，则该参数将用作IPS中的目标文件名。 |
 
-|  HTTP POST表单部件   |  uploadPostParams元素名称   |  类型   |  描述   |
+|  HTTP POST表单部件   |  uploadPostParams元素名称   |  类型   |  说明   |
 |---|---|---|---|
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档   |   `companyHandle`  |  `xsd:string`  | 必需。 将文件上传到的公司的句柄。  |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档   |   `companyHandle`  |  `xsd:string`  | 必需. 将文件上传到的公司的句柄。  |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上载作业的名称。  |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 对在上一个请求中启动的上载作业的处理。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `locale`  |  `xsd:string`  | 可选。 本地化的语言和国家/地区代码。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `description`  |  `xsd:string`  | 可选。 作业的描述。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `destFolder`  |  `xsd:string`  | 可选。 文件名属性的前缀的目标文件夹路径，特别是对于可能不支持文件名中完整路径的浏览器和其他客户端。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `fileName`  |  `xsd:string`  | 可选。 目标文件的名称。 覆盖filename属性。 |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `endJob`  |  `xsd:boolean`  | 可选。 默认值为 false。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `locale`  |  `xsd:string`  | 可选. 本地化的语言和国家/地区代码。  |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `description`  |  `xsd:string`  | 可选. 作业的描述。  |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `destFolder`  |  `xsd:string`  | 可选. 文件名属性的前缀的目标文件夹路径，特别是对于可能不支持文件名中完整路径的浏览器和其他客户端。  |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `fileName`  |  `xsd:string`  | 可选. 目标文件的名称。 覆盖filename属性。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `endJob`  |  `xsd:boolean`  | 可选. 默认值为 false。 |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `uploadParams`  |  `types:UploadPostJob`  | 如果这是针对现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽略`uploadParams`并使用现有作业上载参数。 查看[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 `<uploadPostParams>`块内是指定处理所包含文件的`<uploadParams>`块。
@@ -86,7 +90,7 @@ https://<server>/scene7/UploadFile
 
 虽然您可能认为可以将各个文件的`uploadParams`参数作为同一作业的一部分进行更改，但情况并非如此。 对整个作业使用相同的`uploadParams`参数。
 
-新上载作业的初始POST请求应指定`jobName`参数，最好使用唯一的作业名称来简化后续作业状态轮询和作业日志查询。 相同上载作业的其他POST请求应使用从初始请求返回的`jobHandle`值指定`jobName`参数而不是`jobHandle`。
+新上载作业的初始POST请求应指定`jobName`参数，最好使用唯一的作业名称来简化后续作业状态轮询和作业日志查询。 相同上载作业的其他POST请求应使用从初始请求返回的`jobHandle`值指定`jobHandle`参数而不是`jobName`。
 
 上载作业的最终POST请求应将`endJob`参数设置为true，以便将来不会为此作业发布任何文件。 反过来，这允许作业在摄取所有POSTed文件后立即完成。 否则，如果未在30分钟内收到其他POST请求，则作业会超时。
 

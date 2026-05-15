@@ -6,14 +6,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/L-Dy2JpWs29wOU5v-sAqS2DO9uAtbo93hNLDWThMAmk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 2337
 ht-degree: 0%
 
 ---
 
-# 缩放{#zoom}
+# Zoom{#zoom}
 
 缩放查看器是显示可缩放图像的图像查看器。 此查看器适用于图像集，并且使用样本完成导航。 它具有缩放工具、全屏支持、色板和可选的关闭按钮。 它设计为可在台式机和移动设备上工作。
 
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 ## 使用缩放查看器 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-缩放查看器表示一个主JavaScript文件和一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS)，这些文件由查看器在运行时下载。
+缩放查看器表示一个主JavaScript文件和一组帮助程序文件（单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS），这些文件由查看器在运行时下载。
 
 您可以在弹出模式下使用随IS-Viewers提供的生产就绪型HTML页面，或者在嵌入模式下使用缩放查看器，其中使用文档记录的API将其集成到目标网页中。
 
@@ -113,7 +118,7 @@ target="_blank">Open popup viewer</a>
 
 响应式设计嵌入模式假定由于查看器容器`DIV`的大小更改，运行时需要调整查看器大小。 最常见的用例是将查看器添加到使用灵活布局的网页。
 
-在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页调整其容器`DIV`大小的方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 此逻辑可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式布局框架(如Bootstrap和Foundation)的网页。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页调整其容器`DIV`大小的方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 此逻辑可确保资产完全适合视图，而不会在两侧添加任何边距。 此用例最常见于使用响应式布局框架（如Bootstrap和Foundation）的网页。
 
 如果网页同时设置了查看器容器`DIV`的宽度和高度，则查看器会填充该区域并遵循网页提供的大小。 例如，将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
@@ -142,7 +147,7 @@ target="_blank">Open popup viewer</a>
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文路径（所谓的统一HTML `include`）加载的SDK5 SDK `Utils.js`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -180,11 +185,11 @@ target="_blank">Open popup viewer</a>
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
 -->
 
-要使主视图维度为静态维度，请使用`Container` `.s7zoomviewer` CSS选择器或使用`.s7container`修饰符为内部`stagesize` SDK组件定义查看器大小（以绝对单位表示）。
+要使主视图维度为静态维度，请使用`.s7zoomviewer` `.s7container` CSS选择器或使用`stagesize`修饰符为内部`Container` SDK组件定义查看器大小（以绝对单位表示）。
 
 下面是一个示例，用于为内部`Container` SDK组件定义查看器大小，以便在切换资源时主视图区域不会更改其大小：
 
@@ -199,7 +204,7 @@ target="_blank">Open popup viewer</a>
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
 -->
 
@@ -218,7 +223,7 @@ target="_blank">Open popup viewer</a>
 
    配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段保存查看器容器ID的名称，并使用查看器支持的配置参数嵌套`params` JSON对象。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
+   必须将查看器容器添加到DOM，以便查看器代码可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 执行此操作后，查看器加载将自动继续。
 

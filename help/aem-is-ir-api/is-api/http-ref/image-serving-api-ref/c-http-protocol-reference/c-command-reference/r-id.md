@@ -5,10 +5,15 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TPRGzHQ-TxTusgeqo2eLlCG0fNOtmJ1IHIxuUy8bh2I'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: 267
+ht-degree: 4%
 
 ---
 
@@ -35,7 +40,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b> req= type</b> </th> 
-   <th class="entry"> req=props<b>中的</b>版本标识符 </th> 
+   <th class="entry"> req=props</b>中的<b>版本标识符 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -52,7 +57,7 @@ ht-degree: 3%
    <td> <p> image.version </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> 目标 </p> </td> 
+   <td> <p> 目標 </p> </td> 
    <td> <p> metadata.version </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +79,7 @@ ht-degree: 3%
 
 ## 属性 {#section-62e973d0d5884abebbb0679f9278ae2c}
 
-请求属性。 可选。 服务器始终忽略。
+请求属性。 可选. 服务器始终忽略。
 
 ## 默认 {#section-96136720c82842c89505347ec39e6024}
 
@@ -84,6 +89,6 @@ ht-degree: 3%
 
 查看[rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3)的说明以了解用法示例。
 
-## 另请参阅 {#section-6b4befb47202415195a68516f60e9988}
+## 請亦參閱 {#section-6b4befb47202415195a68516f60e9988}
 
 [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ， [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3)，[目录：：Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a)，[属性：：NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)

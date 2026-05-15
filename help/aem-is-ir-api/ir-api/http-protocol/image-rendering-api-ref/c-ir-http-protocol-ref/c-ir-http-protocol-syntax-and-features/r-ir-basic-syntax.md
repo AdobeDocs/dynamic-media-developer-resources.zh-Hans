@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/v-ucFAnnoq6ywaB97QSXodqnO4VWFvaK6I2HJ2-a4Fc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -20,13 +24,13 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>商品 </p> </th> 
-   <th colname="col2" class="entry"> <p>定义 </p> </th> 
+   <th colname="col2" class="entry"> <p>定義 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="varname">请求</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname">服务器</span>/ir/render[/<span class="varname">晕影</span> ] [ ？<span class="varname">修饰符</span> ] </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname">服务器</span>/ir/render[/<span class="varname">晕影</span> ] [ ？<span class="varname"> 修饰符</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">服务器</span> </p> </td> 
@@ -42,11 +46,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">修饰符</span> </p> </td> 
-   <td colname="col2"> <p><span class="varname">命令</span> | { $ <span class="varname">宏</span> $ } | { .<span class="varname">注释</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname">命令</span> | { $ <span class="varname">宏</span> $ } | { .<span class="varname"> 注释</span> } </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">命令</span> </p> </td> 
-   <td colname="col2"> <p>&lbrace;<span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
+   <td colname="col2"> <p>{<span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname">值</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname">宏</span> </p> </td> 
@@ -79,7 +83,7 @@ ht-degree: 0%
 
 **个评论**
 
-注释可以嵌入到请求字符串的任何位置，并且由紧跟命令分隔符(&amp;)后面的句点(.)来标识。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
+注释可以嵌入到任何位置的请求字符串中，并通过句点(.)进行标识 紧跟在命令分隔符(&amp;)之后。 该注释被下一个出现的（未编码的）命令分隔符终止。 此功能可用于向请求添加不供图像服务使用的信息，例如时间戳和数据库ID。
 
 **HTTP解码**
 

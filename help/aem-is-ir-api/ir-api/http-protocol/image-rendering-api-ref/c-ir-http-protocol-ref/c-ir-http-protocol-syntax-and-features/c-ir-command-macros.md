@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/cXLJJQ5CS-Apmq-8qYV-ew-lcvfRjoNfIbl2qyyKB6U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -18,11 +22,11 @@ ht-degree: 0%
 
 `$ *[!DNL name]*$`
 
-***[!DNL name]***&#x200B;宏名称
+***[!DNL name]***宏名称
 
 宏在单独的宏定义文件中定义，这些文件可以附加到材料目录或缺省目录。
 
-*[!DNL name]*&#x200B;不区分大小写，并且可以由ASCII字母、数字、“ — ”、“_”和“。”的任意组合组成 个字符。
+*[!DNL name]*&#x200B;不区分大小写，并且可以由ASCII字母、数字、“ — ”、“_”和“。”字符的任意组合组成。
 
 在“？”之后的请求中或`vignette::Modifier`字段中的任何位置调用宏。 宏只能表示一个或多个图像渲染命令，并且必须使用“&amp;”分隔符与其他命令分开。
 
@@ -46,7 +50,7 @@ ht-degree: 0%
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-由于第三个请求的`qlt=`不同，在调用宏后，软件将覆盖该值（在`qlt=` *之前指定* `$render$`无效）。
+由于第三个请求的`qlt=`不同，在调用宏后，软件将覆盖该值（在&#x200B;*`$render$`之前指定`qlt=`*&#x200B;无效）。
 
 **另请参阅**
 

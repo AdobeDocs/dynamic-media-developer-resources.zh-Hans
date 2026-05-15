@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39b25f7c-ed3c-4132-8241-e7f3aab07b00
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/vC889xf6GmyiSls7qG81NPIegfh6OMZM2zMc4JKppAU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: 235
 ht-degree: 1%
 
 ---
@@ -25,7 +29,7 @@ icc= *`profile`*[， *`renderIntent`*[，*`blackpointComp`*]]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname">渲染意图</span> </span> </p></td> 
-  <td class="stentry"> <p>可感知 | 相对 | 饱和度 | 绝对 </p></td> 
+  <td class="stentry"> <p>可感知 |相对 |饱和度 |绝对 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> blackpointComp</span> </span> </p></td> 
@@ -33,7 +37,7 @@ icc= *`profile`*[， *`renderIntent`*[，*`blackpointComp`*]]
  </tr> 
 </table>
 
-*`profile`*&#x200B;指定呈现的图像与工作配置文件不同时应转换到的输出色彩空间配置文件。 *`profile`*&#x200B;必须是图像目录或默认目录的ICC配置文件映射中定义的有效`icc::Name`，或者是配置文件相对路径（通常具有[!DNL `.icc`]或[!DNL `.icm`]后缀）。
+*`profile`*&#x200B;指定呈现的图像与工作配置文件不同时应转换到的输出色彩空间配置文件。*`profile`* 必须为图像目录或默认目录的ICC配置文件映射中定义的有效`icc::Name`，或配置文件相对路径（通常具有[!DNL `.icc`]或[!DNL `.icm`]后缀）。
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ CMYK输出设备配置文件更有可能支持不同的渲染意图。
 
 ## 默认 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`attribute::IccProfile*`指定的图像类型匹配的输出配置文件(`fmt=`)。
+如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`fmt=`指定的图像类型匹配的输出配置文件(`attribute::IccProfile*`)。
 
 如果未指定，*`renderIntent`*&#x200B;继承自`attribute::IccRenderIntent`，*`blackpointComp`*&#x200B;继承自`attribute::IccBlackPointCompensation`。
 

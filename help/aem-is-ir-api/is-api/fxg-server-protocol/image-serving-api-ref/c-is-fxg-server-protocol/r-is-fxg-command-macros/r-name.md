@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
+TQID: 'https://experienceleague.adobe.com/tCSbSmtybRMKqnyW8pSex4Pma-D4RfDBTlOa8hGhIEg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: 34
+ht-degree: 5%
 
 ---
 

@@ -6,9 +6,13 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 193719b8-f158-4ffc-9916-b7b1bf36b2de
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/KXOrfuS5NgmGdUkx7AcgbtJxjcIuDYOU7nnUom42b-w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: 87
 ht-degree: 2%
 
 ---
@@ -42,7 +46,7 @@ ht-degree: 2%
 
 无。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setParam("style", "customStyle.css")

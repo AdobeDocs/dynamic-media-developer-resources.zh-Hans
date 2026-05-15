@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/QuVnFsc1R-WcjFpnyENi6n9US7Y7V-cETwitnVsmMss'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 0%
 
 已添加`PostScriptOptions/alpha`字段。
 
-已为`VideoRootUrl`操作添加`SwfRootUrl`和`getProperty`属性。
+已为`getProperty`操作添加`VideoRootUrl`和`SwfRootUrl`属性。
 
 已将可选`appName`和`appVersion`参数添加到`authHeader`以跟踪调用应用程序。 已将日志记录添加到`ipsApiService.log`。
 
@@ -35,7 +40,7 @@ ht-degree: 0%
 
 添加了`'Asset'`资源类型字符串常量，主要是为了允许跨资源元数据字段。
 
-已为`trashState`实施`searchAssets`参数。
+已为`searchAssets`实施`trashState`参数。
 
 已实施`getAssetPublishHistory`操作。
 
@@ -65,13 +70,13 @@ ht-degree: 0%
 
 已实现`getAssetCounts`。
 
-添加了对`setImageSetMembers`的支持，以便在`RenderSet`资源中包含`ImageSet`个成员。
+添加了对`setImageSetMembers`的支持，以便在`ImageSet`资源中包含`RenderSet`个成员。
 
 添加了`replaceImage`操作。
 
 添加了`copyImage`操作。
 
-已为`setUrlModifier`、`urlModifier/urlPostApplyModifier`和`LayerViewInfo`添加`TemplateInfo`操作和`WatermarkInfo`字段。
+已为`LayerViewInfo`、`TemplateInfo`和`WatermarkInfo`添加`setUrlModifier`操作和`urlModifier/urlPostApplyModifier`字段。
 
 添加了`createDerivedAsset`操作。 当前，`ownerHandle`必须引用图像资源，并且类型可以是`AdjustedView`或`LayerView`。
 
@@ -171,10 +176,10 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
 添加了对强类型元数据字段条件的searchAssets的支持。
 
 * 对于所有字段类型，可以使用字符串比较运算符(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)传递值
-* 对于布尔字段，可以使用`boolVal`操作传递`Equals`。
-* 对于Int字段，可以使用数字比较运算符(`longVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者可以使用数字范围运算(`minLong/maxLong`)传递`Between, NotBetween`。
-* 对于Float字段，可以使用数字比较运算符(`doubleVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者可以使用数字范围运算(`minDouble/maxDouble`)传递`Between, NotBetween`。
-* 对于日期字段，您可以通过数字比较运算符(`dateVal`)传递`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`，或者您可以通过数字范围运算(`Between, NotBetween`)传递minDate/maxDate。
+* 对于布尔字段，可以使用`Equals`操作传递`boolVal`。
+* 对于Int字段，可以使用数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`longVal`，或者可以使用数字范围运算(`Between, NotBetween`)传递`minLong/maxLong`。
+* 对于Float字段，可以使用数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`doubleVal`，或者可以使用数字范围运算(`Between, NotBetween`)传递`minDouble/maxDouble`。
+* 对于日期字段，您可以通过数字比较运算符(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)传递`dateVal`，或者您可以通过数字范围运算(`Between, NotBetween`)传递minDate/maxDate。
 
 已将描述`jobSubType`和`originalJobName`字段添加到`JobLog`类型。
 
@@ -218,15 +223,15 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> WordDoc </span> </p> </td> 
-   <td colname="col2"> <p>Microsoft® Word文档，用于以.doc结尾的文件。 </p> </td> 
+   <td colname="col2"> <p>® Word文档，用于以.doc结尾的文件。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ExcelDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.xls结尾的文件对应的Microsoft® Excel文档。 </p> </td> 
+   <td colname="col2"> <p>以.xls结尾的文件对应的® Excel文档。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PowerPointDoc </span> </p> </td> 
-   <td colname="col2"> <p>以.ppt结尾的文件的Microsoft® PowerPoint文档。 </p> </td> 
+   <td colname="col2"> <p>以.ppt结尾的文件的® PowerPoint文档。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
@@ -240,8 +245,8 @@ IPS公司设置`CompanySettings`已移植到Web服务API。
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>字段 </p> </th> 
-   <th colname="col2" class="entry"> <p>参数 </p> </th> 
+   <th colname="col1" class="entry"> <p>欄位 </p> </th> 
+   <th colname="col2" class="entry"> <p>參數 </p> </th> 
    <th colname="col3" class="entry"> <p>值 </p> </th> 
    <th colname="col4" class="entry"> <p>说明 </p> </th> 
   </tr> 

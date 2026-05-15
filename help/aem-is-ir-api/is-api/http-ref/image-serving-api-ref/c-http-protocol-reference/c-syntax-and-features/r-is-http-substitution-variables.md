@@ -5,9 +5,13 @@ title: 替代变量
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -39,9 +43,9 @@ ht-degree: 0%
 >
 >*`value`*&#x200B;必须为单通道URL编码，以便安全HTTP传输。 如果通过HTTP重新传输&#x200B;*`value`*，则需要双重编码。 当&#x200B;*`value`*&#x200B;被替换为嵌套外部请求或SVG `<image>`元素的href属性时，就是这种情况。
 
-变量引用包括由前导和尾随分隔的变量名称“$”($*var*$)。 引用可以出现在任何IS命令的值部分的任何位置（即，在命令名称后面的“=”和后续的“&amp;”或请求结尾之间）。 自定义变量无法应用于`layer=`和`effect=`命令。 同一命令值中允许使用多个变量。 服务器使用` $ *`替换`*$`var *`value`*&#x200B;的每个匹配项。
+变量引用包括由前导和尾随分隔的变量名称“$”($*var*$)。 引用可以出现在任何IS命令的值部分的任何位置（即，在命令名称后面的“=”和后续的“&amp;”或请求结尾之间）。 自定义变量无法应用于`layer=`和`effect=`命令。 同一命令值中允许使用多个变量。 服务器使用&#x200B;*`value`*&#x200B;替换` $ *`var`*$`的每个匹配项。
 
-变量引用不能嵌套。 在` $ *`内出现的`*$`var *`value`*&#x200B;均不会被替换。
+变量引用不能嵌套。 在&#x200B;*`value`*&#x200B;内出现的` $ *`var`*$`均不会被替换。
 
 例如，请求片段：
 
@@ -57,9 +61,9 @@ ht-degree: 0%
 
 ## 嵌套请求中的变量处理 {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$`引用可能出现在嵌套图像服务或图像渲染请求的大括号内的任何位置，包括“？”的左侧 将路径与查询分开。 在进一步解析和处理嵌套请求之前，服务器会将这些引用替换为来自URL或主图像目录的`catalog::Modifier`的值。
+` $ *`var`*$`引用可能出现在嵌套图像服务或图像渲染请求的大括号内的任何位置，包括在“？”左侧的位置，该位置将路径与查询分开。 在进一步解析和处理嵌套请求之前，服务器会将这些引用替换为来自URL或主图像目录的`catalog::Modifier`的值。
 
-此外，URL或` $ *`中的所有`*=`var`catalog::Modifier`定义都将转发到所有嵌套的图像服务和图像渲染请求。 这样可以确保所有变量定义都可用于所有模板，而不管嵌套级别如何。
+此外，URL或`catalog::Modifier`中的所有` $ *`var`*=`定义都将转发到所有嵌套的图像服务和图像渲染请求。 这样可以确保所有变量定义都可用于所有模板，而不管嵌套级别如何。
 
 无论嵌套级别如何，必须只对变量值应用单次HTTP编码，这些变量值将在嵌套图像渲染或图像服务请求或其关联的`catalog::Modifier`字符串中的任意位置被替换。
 
@@ -89,13 +93,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-可以使用所需的值显式指定`*`对象`*`，以覆盖` $ *`$object`*=`的定义。
+可以使用所需的值显式指定` $ *`对象`*=`，以覆盖`*`$object`*`的定义。
 
 预定义的路径变量通常与`template=`结合使用。
 
 ## 默认 {#section-b02483d15529444586a2e9504805b155}
 
-无。 只有已定义的变量才会被服务器替换（预定义的路径变量$object除外，它始终被替换）。 如果` $ *`var`*$`无法与现有变量定义匹配，则`*`var`*`的任何匹配项均保持为文本。
+无。 只有已定义的变量才会被服务器替换（预定义的路径变量$object除外，它始终被替换）。 如果`*`var`*`无法与现有变量定义匹配，则` $ *`var`*$`的任何匹配项均保持为文本。
 
 ## 示例 {#section-fba9393df6984247b7e30b3f93992e86}
 

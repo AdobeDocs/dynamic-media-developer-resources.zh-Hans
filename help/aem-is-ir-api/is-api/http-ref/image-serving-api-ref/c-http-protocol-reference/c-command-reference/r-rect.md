@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/v-sAA1KXCiZvFp6NATVZtxYxnQCji3YJZCFa-hcHQYA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 366
 ht-degree: 1%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname">大小</span> </p></td> 
-  <td class="stentry"> <p>ROI的大小，以像素为单位(int， int)。 指定回复图像大小。 在视图图像未覆盖的区域使用<span class="codeph"> bgc=</span>填充图像(如果请求中存在<span class="codeph"> fmt=*-alpha</span>，则保持透明)。 </p></td> 
+  <td class="stentry"> <p>ROI的大小，以像素为单位(int， int)。 指定回复图像大小。 在视图图像未覆盖的区域使用<span class="codeph"> bgc=</span>填充图像（如果请求中存在<span class="codeph"> fmt=*-alpha</span>，则保持透明）。 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname">比例</span> </p></td> 
@@ -65,12 +69,12 @@ ht-degree: 1%
 
 在视图图像之外扩展的ROI的任何区域都使用`bgc=`填充。
 
-重要事项`rect=`在&#x200B;*最终缩放并符合*、`scl=`、`wid=`、`hei=`、`fit=`和`rgn=`后`align=`应用。
+重要事项`rect=`在&#x200B;*最终缩放并符合`scl=`、`wid=`、`hei=`、`fit=`、`rgn=`和`align=`后*&#x200B;应用。
 
 ## 默认 {#section-b296d3bbfb19441f87137a452b70f19a}
 
 未修改的整个视图图像(`rect=0,0,width,height,1.0`)。
 
-## 另请参阅 {#section-74015202c0c545ec82aec614d74b4bbd}
+## 請亦參閱 {#section-74015202c0c545ec82aec614d74b4bbd}
 
 [crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ， [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)， [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47)， [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)， [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc)， [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)， [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)， [rgn=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)， [attribute：：MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)， [id=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0)

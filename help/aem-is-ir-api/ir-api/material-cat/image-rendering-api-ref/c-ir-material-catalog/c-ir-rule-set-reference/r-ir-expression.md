@@ -5,10 +5,15 @@ title: 表达式
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5fb95e93-cf14-4042-a338-d9d7df6e3b58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/zMAFfzeypXmMIx1aO1xmHdF-UkHJPHKp7KUgi05F94w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 5%
+source-wordcount: 151
+ht-degree: 4%
 
 ---
 

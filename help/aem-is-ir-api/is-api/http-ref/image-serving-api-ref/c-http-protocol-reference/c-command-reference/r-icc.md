@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/Hg1FY5migettNtLHrXevywDf07HhOejo5Z05l8d4lRU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: 281
 ht-degree: 1%
 
 ---
@@ -63,7 +67,7 @@ ht-degree: 1%
 
 ## 默认 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`attribute::IccProfile*`指定的图像类型匹配的输出配置文件(`fmt=`)。
+如果启用了颜色管理并且未指定`icc=`，则服务器将图像传递到与`fmt=`指定的图像类型匹配的输出配置文件(`attribute::IccProfile*`)。
 
 如果未指定，*`renderIntent`*&#x200B;继承自`attribute::IccRenderIntent`，*`blackpointComp`*&#x200B;继承自`attribute::IccBlackPointCompensation`，*`dither`*&#x200B;继承自`attribute::IccDither`。
 

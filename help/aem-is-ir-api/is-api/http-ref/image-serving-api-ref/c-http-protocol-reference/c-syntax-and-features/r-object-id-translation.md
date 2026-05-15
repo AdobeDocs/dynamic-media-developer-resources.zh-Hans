@@ -5,10 +5,14 @@ title: 对象标识转换
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -18,15 +22,15 @@ ht-degree: 2%
 
 应用程序只能使用全局对象ID进行编写，并且图像服务会自动替换特定于区域设置的图像和其他内容（如果可用）。
 
-使用&#x200B;*`locale`*&#x200B;命令在图像服务请求中指定`locale=`。
+使用`locale=`命令在图像服务请求中指定&#x200B;*`locale`*。
 
 >[!NOTE]
 >
 >对象ID转换仅适用于基于目录的图像服务使用。 无法翻译文件名。
 
-## 范围 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
+## 範圍 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-对图像、SVG和静态内容目录中的条目的所有引用都被视为翻译字体，并且ICC配置文件引用不会进行翻译。 除了&#x200B;*`object`*&#x200B;和[!DNL /is/image]路径中的[!DNL /is/static requests]之外，这些命令和目录属性还受ID转换的影响： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
+对图像、SVG和静态内容目录中的条目的所有引用都被视为翻译字体，并且ICC配置文件引用不会进行翻译。 除了[!DNL /is/image]和[!DNL /is/static requests]路径中的&#x200B;*`object`*&#x200B;之外，这些命令和目录属性还受ID转换的影响： `src=`、`mask=`、`template=`、`defaultImage=`、`attribute::DefaultImage`和`attribute::Watermark`。
 
 ## ID转换映射 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -58,7 +62,7 @@ ht-degree: 2%
 
 通常，将区域设置分组（例如，欧洲、中东、北美）以符合区域标准是值得的。 这可以通过多层查找来实现。
 
-对于此示例，我们希望支持收藏集供西方和中东使用。 这两个集合都基于通用图像集合，而且都添加或修改某些图像。然后针对特定区域设置进一步优化这两个集合（针对两个中东变体为`m1`、`m2`，针对三个西方区域设置为`w1`、`w2`和`w3`），但针对`w1`和`w3`共享图像的情况除外。 未知区域设置仅映射到通用收藏集，无法访问特定于区域设置的图像。
+对于此示例，我们希望支持收藏集供西方和中东使用。 这两个集合都基于通用图像集合，而且都添加或修改某些图像。 然后针对特定区域设置进一步优化这两个集合（针对两个中东变体为`m1`、`m2`，针对三个西方区域设置为`w1`、`w2`和`w3`），但针对`w1`和`w3`共享图像的情况除外。 未知区域设置仅映射到通用集合，而且无法访问区域设置特定的图像。
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -114,7 +118,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph">的</span> </p> </td> 
+   <td> <p> </span>的<span class="codeph"> </p> </td> 
    <td> <p> <span class="codeph"> myImg_22、myImg_23、myImg_1、myImg_2、myImg_3 </span> </p> </td> 
   </tr> 
   <tr> 

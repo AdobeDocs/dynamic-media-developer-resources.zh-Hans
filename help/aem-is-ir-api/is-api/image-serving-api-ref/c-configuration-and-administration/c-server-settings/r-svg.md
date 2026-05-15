@@ -5,10 +5,15 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/B9kyf-cEvz6A-IPoeY6jLzP4mUnGoG2ZjxAGKexdDpE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 2%
+source-wordcount: 271
+ht-degree: 0%
 
 ---
 
@@ -30,7 +35,7 @@ SVG源文件的最大大小（以k字节为单位）。 尝试渲染大于此限
 
 ## IS：：SvgMAxRenderRgnPixels - SVG输出图像大小限制 {#section-5be1fd9639424d878a5ffd11736d3920}
 
-它限制了SVGRender可以生成的图像的大小。 大于0的整数值（百万像素）。 如果渲染操作超出大小限制，则返回错误。 默认值为 4。
+它限制了SVGRender可以生成的图像的大小。 大于0的整数值（百万像素）。 如果渲染操作超出大小限制，则返回错误。 默认值为4。
 
 ## PS：：svgProvider.port - [!DNL Platform Server]侦听端口 {#section-f7e42a96c2dd4523b46f0557c239e659}
 
@@ -40,7 +45,7 @@ SVG源文件的最大大小（以k字节为单位）。 尝试渲染大于此限
 
 ## PS：：svgProvider.fontRoot - SVG字体文件文件夹 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[!DNL *[!DNL install_folder]*/images]。
+指定SvgRender在何处查找呈现SVG文本所需的字体文件；通常是`IS::RootPaths`中指定的路径之一。 默认值为[！DNL *[!DNL install_folder]*/images]。
 
 ## SVG：：SVGRender.port， IS：：SVGTcpPort - SVG通信端口 {#section-608687123aa644b7b58fe42385d71b79}
 

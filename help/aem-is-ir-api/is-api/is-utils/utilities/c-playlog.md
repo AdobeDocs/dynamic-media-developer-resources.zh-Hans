@@ -5,9 +5,13 @@ title: “playlog”实用程序
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/z8SkpY0A2aAo5ULL61m5uUiesuovSrcVjhzNRGbkAUQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -47,7 +51,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname">后缀</span> </span> </p> </td> 
-  <td class="stentry"> <p>附加到从日志文件提取的请求的后缀；可用于将播放的请求与日志文件中的实时请求分开；“？” 或自动插入“&amp;”分隔符；后缀可以按大括号内的位置引用任何日志字段，默认值对应于md5签名字段。 </p> <p>默认： <span class="codeph">播放日志={25} </span>) </p> </td> 
+  <td class="stentry"> <p>附加到从日志文件提取的请求的后缀；可用于将播放的请求与日志文件中的实时请求分开；自动插入“？”或“&amp;”分隔符；后缀可以按大括号内的位置引用任何日志字段，默认对应于md5签名字段。 </p> <p>默认： <span class="codeph">播放日志={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 

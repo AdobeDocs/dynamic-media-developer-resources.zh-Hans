@@ -6,9 +6,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/8a2nFReDg4jHF9DrvGHuXIMZWrqdDpoUGvqvh4f6CcM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: 1414
 ht-degree: 0%
 
 ---
@@ -203,7 +207,7 @@ background-position: -0px -560px;
 * [主查看器区域](r-html5-ecatsearch-customize-mainviewerarea.md)
 * [“下一页”按钮](r-html5-ecatsearch-customize-nextpagebutton.md)
 * [页面指示器](r-html5-ecatsearch-customize-pageindicator.md)
-* [页面查看](r-html5-ecatsearch-customize-pageview.md)
+* [頁面檢視](r-html5-ecatsearch-customize-pageview.md)
 * [“上一页”按钮](r-html5-ecatsearch-customize-previouspagebutton.md)
 * [打印](r-html5-ecatsearch-customize-print.md)
 * [“删除收藏夹”按钮](r-html5-ecatsearch-customize-removefavorite.md)

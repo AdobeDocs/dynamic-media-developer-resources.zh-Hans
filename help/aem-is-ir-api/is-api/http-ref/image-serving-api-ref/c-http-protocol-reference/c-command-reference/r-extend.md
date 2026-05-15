@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/9toLDEF2GoV-F5J-lxjswISzwgooS4FwqeGF4Gav0tc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 233
 ht-degree: 1%
 
 ---
@@ -31,11 +36,11 @@ ht-degree: 1%
  </tr> 
 </table>
 
-在`extend=`之后将&#x200B;*应用于图层*&#x200B;将裁剪图像(`crop=`)，并且已应用所有图层转换，包括`rotate=`。
+在&#x200B;*之后将`extend=`应用于图层*&#x200B;将裁剪图像(`crop=`)，并且已应用所有图层转换，包括`rotate=`。
 
 扩展区域已填充`bgColor=`，如果未指定，则保持透明。
 
-在应用层转换（包括`extendN=`）之后，`rotate=`的参数值将相对于层矩形的大小进行标准化。
+在应用层转换（包括`rotate=`）之后，`extendN=`的参数值将相对于层矩形的大小进行标准化。
 
 ## 属性 {#section-8fc94de871f841f3bf5e1df135972ca9}
 

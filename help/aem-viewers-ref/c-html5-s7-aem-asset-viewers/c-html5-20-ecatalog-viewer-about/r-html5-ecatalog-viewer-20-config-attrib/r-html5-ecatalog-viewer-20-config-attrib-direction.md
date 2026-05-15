@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d7d3df37-3e8b-438f-8b24-035b6982dc14
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/uP4fUmV4KEFWLzfhN-68CZexuApogdpf2MxIPd12FNs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 232
 ht-degree: 2%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">自动|左|右</span> </p> </td> 
-   <td colname="col2"> <p>指定页面在主视图和缩略图中的显示方式。 它还指定用户与查看器用户界面的交互方式，以便在目录框架之间更改。 </p> <p>当使用<span class="codeph"> left </span>时，它将为初始页面设置右对齐方式，为最后一页设置左对齐方式。 它会按照从左到右的渲染顺序拼接单个页面子图像。 它还将主视图设置为使用从右至左幻灯片动画来推进目录（如果<span class="codeph"> PageView.frametransition </span>设置为幻灯片）。 最后，缩略图设置为从左至右的填充顺序。 </p> <p>同样，当使用<span class="codeph">右</span>时，它将为初始页面设置左对齐方式，为最后一页设置右对齐方式。 它会按照从右到左的渲染顺序拼接单个页面子图像。 它还将主视图设置为使用从左至右幻灯片动画来推进目录（如果<span class="codeph"> PageView.frametransition </span>设置为幻灯片）。 最后，它会反转缩略图顺序，以便按从右至左、从上至下的方向填充缩略图视图。 </p> <p>当设置了<span class="codeph">自动</span>时，当区域设置设置为<span class="codeph"> ja时，查看器应用</span>右<span class="codeph">模式；否则，查看器使用</span>左<span class="codeph">模式。</span> </p> </td> 
+   <td colname="col2"> <p>指定页面在主视图和缩略图中的显示方式。 它还指定用户与查看器用户界面的交互方式，以便在目录框架之间更改。 </p> <p>当使用<span class="codeph"> left </span>时，它将为初始页面设置右对齐方式，为最后一页设置左对齐方式。 它会按照从左到右的渲染顺序拼接单个页面子图像。 它还将主视图设置为使用从右至左幻灯片动画来推进目录（如果<span class="codeph"> PageView.frametransition </span>设置为幻灯片）。 最后，缩略图设置为从左至右的填充顺序。 </p> <p>同样，当使用<span class="codeph">右</span>时，它将为初始页面设置左对齐方式，为最后一页设置右对齐方式。 它会按照从右到左的渲染顺序拼接单个页面子图像。 它还将主视图设置为使用从左至右幻灯片动画来推进目录（如果<span class="codeph"> PageView.frametransition </span>设置为幻灯片）。 最后，它会反转缩略图顺序，以便按从右至左、从上至下的方向填充缩略图视图。 </p> <p>当设置了<span class="codeph">自动</span>时，当区域设置设置为<span class="codeph"> ja时，查看器应用<span class="codeph">右</span>模式；否则，查看器使用<span class="codeph">左</span>模式。 </span></p> </td> 
   </tr> 
  </tbody> 
 </table>

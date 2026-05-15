@@ -5,9 +5,14 @@ title: 警报阈值
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/mu--4-idJqrtGhbeVu3GP3LxJ4ZRL6zn1XZxTH7DLw4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 410
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 当取样间隔内HTTP错误响应与总响应的比率超过指定的阈值时，将发出错误警报。
 
-介于0.0和1.0之间的实际值。通常设置为介于0.005和0.1之间。设置为1可禁用错误警报。
+介于0.0和1.0之间的实际值。通常设置为介于0.005和0.1之间。 设置为1可禁用错误警报。
 
 ## AS：：monitorAlertGenerator.minRequestRate — 低流量阈值 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 

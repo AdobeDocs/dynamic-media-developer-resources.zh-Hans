@@ -5,9 +5,13 @@ title: 地图
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/JY0barcvbF72sTyYW4iIhjFE-8tfqtbI78PDccLcXV0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 135
 ht-degree: 4%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 4%
 
 文本字符串值。 如果指定，则必须是一个或多个完整的HTML `<AREA>`元素。
 
-此字段参与文本字符串本地化。 有关详细信息，请参阅[HTTP协议引用](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文本字符串本地化*。
+此字段参与文本字符串本地化。 有关详细信息，请参阅&#x200B;*HTTP协议引用*&#x200B;中的[文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 ## 默认 {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

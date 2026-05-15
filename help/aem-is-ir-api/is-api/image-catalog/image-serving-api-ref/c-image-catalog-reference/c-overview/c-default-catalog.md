@@ -5,9 +5,13 @@ title: 默认目录
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/qbfEwBJ-eQmCbBR0MJQhP7x3ZEd30nfLJHWjBVoXIjc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 215
 ht-degree: 0%
 
 ---
@@ -24,4 +28,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 `attribute::RootId`中的[!DNL default.ini]必须为空。
+>除[!DNL default.ini]之外的所有目录属性文件都必须包含唯一的`attribute::RootId`值。 [!DNL default.ini]中的`attribute::RootId`必须为空。

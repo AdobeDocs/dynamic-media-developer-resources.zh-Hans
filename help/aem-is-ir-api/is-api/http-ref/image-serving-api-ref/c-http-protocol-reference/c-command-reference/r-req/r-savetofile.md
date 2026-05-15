@@ -5,9 +5,13 @@ title: saveToFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/6JtqM7IKcYInFZ4zyuAIVwOabdXIltB2ZsVZP6pLL4E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
@@ -62,7 +66,7 @@ ht-degree: 1%
 
 如果成功，则返回HTTP响应状态200；如果请求失败或超时，则返回403。 响应具有MIME类型`text/plain`且不可缓存。
 
-重要信息必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 如果`saveToFile=`为空，`attribute::SavePath`将失败。
+重要信息必须通过指定`attribute::SavePath`中现有可写文件夹的路径来启用保存到文件。 如果`attribute::SavePath`为空，`saveToFile=`将失败。
 
 *`file`*&#x200B;是必需的，并且必须是与`attribute::SavePath`组合的相对路径。 图像服务不会创建文件夹。 目标文件夹必须存在于服务器上，并且具有适当的权限设置，图像服务才能创建文件。
 

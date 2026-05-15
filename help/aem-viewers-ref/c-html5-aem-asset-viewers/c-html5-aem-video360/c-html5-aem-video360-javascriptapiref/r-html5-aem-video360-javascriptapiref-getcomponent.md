@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/aMJ73kVcGom3yqh71uGTQh9dih9g0JO1GAnQASVgS4o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 194
 ht-degree: 1%
 
 ---
@@ -101,9 +105,9 @@ Video360 Viewer的JavaScript API参考。
 
 ## 返回 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}`是对查看器SDK组件的引用。 如果`null`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`componentId`。
+`{Object}`是对查看器SDK组件的引用。 如果`componentId`不是受支持的查看器组件，或者该组件尚未由查看器逻辑创建，则此方法将返回`null`。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setHandlers({ 

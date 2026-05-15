@@ -5,9 +5,14 @@ title: UploadUrlsJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/tCabiIUxptH3sDUEeWs1oCNWbplXgSXim3x6pIqU7H8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 412
 ht-degree: 1%
 
 ---
@@ -72,7 +77,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> clokoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：挖空背景选项</span> </td> 
-   <td colname="col3">蒙版所选图像的背景。 这样，您就可以将它们叠加到其他图层中，并在主题图像之外具有透明度。 可选。 请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ClokoutBackgroundOptions</a>。 </td> 
+   <td colname="col3">蒙版所选图像的背景。 这样，您就可以将它们叠加到其他图层中，并在主题图像之外具有透明度。 可选. 请参阅<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> ClokoutBackgroundOptions</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 

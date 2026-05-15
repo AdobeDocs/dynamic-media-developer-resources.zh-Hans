@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/rANyVj9GuwAbFPrO2-xVCD0cvvo4kZutjyDrkj60yVU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 1%
 
 ---
@@ -34,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 
-   <td colname="col2"> <p> 每次在查看器中发生事件时都会触发，该事件可以由事件跟踪系统(例如Adobe Analytics)处理。 回调处理程序接受以下参数： </p> <p> 
+   <td colname="col2"> <p> 每次在查看器中发生事件时都会触发，该事件可以由事件跟踪系统（例如Adobe Analytics）处理。 回调处理程序接受以下参数： </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
       <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String} </span> — 当前未使用。 </p> </li> 
       <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> — 当前未使用。 </p> </li> 

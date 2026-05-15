@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/1M49Q4-lJ8K3oo-wzc2BGpQuXa-pKJN4FbgD9Ddo4FE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 362
 ht-degree: 1%
 
 ---
@@ -170,7 +174,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph">类型：ExportJob</span> </td> 
-   <td colname="col3">允许授权导出以前上载的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=zh-Hans" format="http" scope="external">导出作业</a>。 </td> 
+   <td colname="col3">允许授权导出以前上载的文件。 请参阅<a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external">导出作业</a>。 </td> 
   </tr> 
  </tbody> 
 </table>

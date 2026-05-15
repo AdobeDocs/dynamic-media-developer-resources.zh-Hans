@@ -5,9 +5,13 @@ title: 缓存
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/X6q0OKRjjjpgNxl8XDuzkNBzrzTBS4E5BtXQGuJWgmk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 97
 ht-degree: 0%
 
 ---
@@ -37,6 +41,6 @@ ht-degree: 0%
 
 如果只指定一个&#x200B;*`cacheControl`*&#x200B;值，则它同时应用于客户端和服务器缓存。
 
-请求属性。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果&#x200B;*`clientControl`*&#x200B;具有负值），将忽略`catalog::Expiration`。
+请求属性。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`catalog::Expiration`具有负值），将忽略&#x200B;*`clientControl`*。
 
 默认为`cache=on,on`。

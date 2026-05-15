@@ -5,10 +5,14 @@ title: getAssociatedAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/BXdn8IyYoO-xNDMctD-a--Ux-FZABw4dqJFDD1EtH7Q'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 5%
+source-wordcount: 395
+ht-degree: 6%
 
 ---
 
@@ -134,7 +138,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-您可以使用参数`responseFieldArray`或`excludeFieldArray`来限制响应大小。 特别是，`GenerationInfo`或`generatorArray`中返回的`generatedArray`项默认包含发起者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
+您可以使用参数`responseFieldArray`或`excludeFieldArray`来限制响应大小。 特别是，`generatorArray`或`generatedArray`中返回的`GenerationInfo`项默认包含发起者和生成的资源记录。 对于PDF资源类型，此行为会导致响应中出现“创作者”PDF资源记录的多份不需要的副本。 您可以通过将`generatedArray/items/originator`添加到`excludeFieldArray`来消除此问题。 或者，您可以指定要包含在`responseFieldArray`中的响应字段的显式列表。
 
 ## 示例 {#section-8946ea4b9cb94912a8408249c897f192}
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
+TQID: 'https://experienceleague.adobe.com/Pybf0hF-KwNbs3P9f-SO3xY8gPlxea73WYvRQsBvNGQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: 97
 ht-degree: 3%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 3%
 
 另请参阅[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)。
 
-## 参数 {#section-add05f3d7ca0426897bd74bf7ac9b9cd}
+## 參數 {#section-add05f3d7ca0426897bd74bf7ac9b9cd}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
@@ -39,7 +43,7 @@ ht-degree: 3%
 
 无。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setParams("CarouselView.fmt=png&CarouselView.iscommand=op_sharpen%3d1")

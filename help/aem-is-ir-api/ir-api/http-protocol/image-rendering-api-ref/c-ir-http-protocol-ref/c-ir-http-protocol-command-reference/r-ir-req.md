@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UyITy7WNd7wQzOa7UaS4xLgVfjnRwkws2sonnmbaVN0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 950
 ht-degree: 3%
 
 ---
@@ -166,7 +170,7 @@ ht-degree: 3%
 
 映射数据未缩放到`wid=`或`hei=`或以其他方式修改。 响应MIME类型为`<text/xml>`。
 
-响应数据由包含一组`<map>`元素的`<area>`元素组成，与HTML `<AREA>`标记类似。
+响应数据由包含一组`<area>`元素的`<map>`元素组成，与HTML `<AREA>`标记类似。
 
 每个`<area>`元素都包含标准`type=`和`coord=`属性，以及指定晕影组名称或名称路径的`name=`属性。 如果相应对象组的掩码具有不连续的区域，则存在多个同名的`<area>`元素。
 
@@ -298,7 +302,7 @@ ht-degree: 3%
 
 `userdata`
 
-返回`vignette::UserData`的内容。 服务器将`'??'`中所有出现的`vignette::UserData`替换为行终止符(`<cr><lf>`)。 在响应MIME类型设置为&lt;text/plain>的情况下，将回复格式化为文本数据。
+返回`vignette::UserData`的内容。 服务器将`vignette::UserData`中所有出现的`'??'`替换为行终止符(`<cr><lf>`)。 在响应MIME类型设置为&lt;text/plain>的情况下，将回复格式化为文本数据。
 
 如果URL路径中指定的对象未解析为有效的晕影映射条目，或者`vignette::UserData`为空，则回复仅包含行终止符(`CR/LF`)。
 

@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+TQID: 'https://experienceleague.adobe.com/Vw0AZGyd8m9C04UalHnPU10-I9hw1u4tlq-1hwmqllM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: 116
 ht-degree: 2%
 
 ---
@@ -22,7 +27,7 @@ Video360 Viewer的配置属性。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h：]m|mm：s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 为时间泡中显示的时间设置模式，其中<span class="codeph"> h</span>是小时，<span class="codeph"> m</span>是分钟，<span class="codeph"> s</span>是秒。 </p> <p>用于每个时间单位的字母数决定了时间单位显示的位数。 如果数字不符合指定的位数，则会在后续单元中显示对等值。 </p> <p>例如，如果当前的电影时间为67分5秒，则时间模式<span class="codeph"> m：ss</span>显示为67:05。 如果给定的时间模式为:07: h<span class="codeph">s:mm:，则相同的时间显示为1</span>5。 </p> </td> 
+   <td colname="col2"> <p> 为时间泡中显示的时间设置模式，其中<span class="codeph"> h</span>是小时，<span class="codeph"> m</span>是分钟，<span class="codeph"> s</span>是秒。 </p> <p>用于每个时间单位的字母数决定了时间单位显示的位数。 如果数字不符合指定的位数，则会在后续单元中显示对等值。 </p> <p>例如，如果当前的电影时间为67分5秒，则时间模式<span class="codeph"> m：ss</span>显示为67:05。 如果给定的时间模式为<span class="codeph"> h:mm:s</span>，则相同的时间显示为1:07:5。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +40,7 @@ Video360 Viewer的配置属性。
 
 `m:ss`
 
-## 示例 {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## 示例： {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 timepattern=h:mm:ss

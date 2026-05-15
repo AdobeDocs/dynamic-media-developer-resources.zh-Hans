@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/BRm7DkWXxfUao0dvoWOvhNF605lnuZfJsyKvlB7Rhb8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 182
 ht-degree: 0%
 
 ---
@@ -57,7 +61,7 @@ ht-degree: 0%
 }
 ```
 
-在桌面系统上，该组件支持可应用于`cursortype`类的`.s7favoriteseffect`属性选择器，并根据所选的用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，该组件支持可应用于`.s7favoriteseffect`类的`cursortype`属性选择器，并根据所选的用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 

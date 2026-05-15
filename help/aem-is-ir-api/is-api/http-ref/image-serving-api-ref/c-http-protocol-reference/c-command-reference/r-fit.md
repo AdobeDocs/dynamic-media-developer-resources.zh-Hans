@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/qCi-M0u1lJZ2SSc3bnezs1jjpXhcqsv-pKCvQ60XSo8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 488
 ht-degree: 1%
 
 ---
@@ -34,8 +38,8 @@ ht-degree: 1%
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 参数 </th> 
-   <th colname="col2" class="entry"> 定义 </th> 
+   <th colname="col1" class="entry"> 參數 </th> 
+   <th colname="col2" class="entry"> 定義 </th> 
   </tr> 
  </thead>
  <tbody> 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/ub5sNABbFHA-V5yaiNmUAHZ1NwTGIlzNecIL5KlJPg4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: 165
 ht-degree: 1%
 
 ---
@@ -53,7 +57,7 @@ ht-degree: 1%
 }
 ```
 
-在桌面系统上，组件支持可应用于`cursortype`类的`.s7zoomview`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
+在桌面系统上，组件支持可应用于`.s7zoomview`类的`cursortype`属性选择器，并根据组件状态和用户操作控制游标类型。 支持以下`cursortype`值：
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 

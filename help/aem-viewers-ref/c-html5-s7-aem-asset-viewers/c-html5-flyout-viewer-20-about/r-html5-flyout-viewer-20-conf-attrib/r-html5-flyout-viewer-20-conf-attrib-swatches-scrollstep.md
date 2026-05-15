@@ -1,18 +1,22 @@
 ---
-title: Swatches.scrollstep
-description: Swatches.scrollstep
+title: 色板.scrollstep
+description: 色板.scrollstep
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/cogFIPHmuTSkiNmnZ0QyOk5F1CvmNnG9n6WqGD0zSPA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: 31
 ht-degree: 9%
 
 ---
 
-# Swatches.scrollstep{#swatches-scrollstep}
+# 色板.scrollstep{#swatches-scrollstep}
 
 ` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
 

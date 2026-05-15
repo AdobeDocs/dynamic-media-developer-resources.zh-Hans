@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m3ZesKWdK5ltybJWB9ZTOQa19Bimlu-g7xRE2OrQ-rY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 597
 ht-degree: 4%
 
 ---
@@ -116,11 +120,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-*`pixelType`*&#x200B;在未指定`icc=`时影响输出色彩空间转换；应用与&#x200B;*`pixelType`*&#x200B;对应的默认色彩配置文件。 如果禁用颜色管理，则应用朴素转换。 *`pixelType`*&#x200B;在指定`icc=`时忽略，它决定了输出像素类型。
+*`pixelType`*&#x200B;在未指定`icc=`时影响输出色彩空间转换；应用与&#x200B;*`pixelType`*&#x200B;对应的默认色彩配置文件。 如果禁用颜色管理，则应用朴素转换。*`pixelType`* 在指定`icc=`时忽略，它确定输出像素类型。
 
-仅当将tif、tif-alpha或PDF指定为&#x200B;*`compression`*&#x200B;时才允许&#x200B;*`format`*。 有关这些图像格式支持的压缩选项，请参阅下表。
+仅当将tif、tif-alpha或PDF指定为&#x200B;*`format`*&#x200B;时才允许&#x200B;*`compression`*。 有关这些图像格式支持的压缩选项，请参阅下表。
 
-`qlt-`为以下格式设置JPEG编码选项：JPEG、使用JPEG压缩的TIFF、使用JPEG压缩的PDF和SWF文件。 如果`quantize=`或`fmt=gif`，则使用`fmt=gif-alpha`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
+`qlt-`为以下格式设置JPEG编码选项：JPEG、使用JPEG压缩的TIFF、使用JPEG压缩的PDF和SWF文件。 如果`fmt=gif`或`fmt=gif-alpha`，则使用`quantize=`。 有关详细信息，请参阅命令说明。 其他格式没有可设置的选项。
 
 对于所有格式和像素类型，每像素分量将返回8位。
 
@@ -133,7 +137,7 @@ ht-degree: 4%
    <th colname="col2" class="entry"> <p> <span class="varname"> pixelType </span> </p> </th> 
    <th colname="col3" class="entry"> <p>响应MIME类型 </p> </th> 
    <th colname="col4" class="entry"> <p>嵌入ICC配置文件 </p> </th> 
-   <th colname="col5" class="entry"> <p>选项 </p> </th> 
+   <th colname="col5" class="entry"> <p>選項 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -206,7 +210,7 @@ ht-degree: 4%
 
 ## 默认 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`*&#x200B;默认为`attribute::Format`，*`tiffCompression`*&#x200B;默认为`attribute::TiffEncoding`。 *`pixelType`*&#x200B;如果未指定`rgb`，则默认为`icc=`，否则它对应于指定ICC配置文件的像素类型。
+*`format`*&#x200B;默认为`attribute::Format`，*`tiffCompression`*&#x200B;默认为`attribute::TiffEncoding`。*`pixelType`* 如果未指定`icc=`，则默认为`rgb`，否则它与指定ICC配置文件的像素类型相对应。
 
 ## 另请参阅 {#section-c55efc881fc94c70bff91b870e026a7b}
 

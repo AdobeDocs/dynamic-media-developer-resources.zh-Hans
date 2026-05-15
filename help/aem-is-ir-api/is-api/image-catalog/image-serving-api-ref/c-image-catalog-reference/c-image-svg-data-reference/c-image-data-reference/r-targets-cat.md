@@ -5,9 +5,13 @@ title: 目标
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/kP22kltIPZqErqxNKpYp2eNkII-GdYQQeiVH3wEYOvM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 331
 ht-degree: 1%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 1%
 
 缩放目标数据。 没有或多个缩放目标属性，这些属性可以与缩放查看器客户端结合使用。
 
-服务器在替换“`req=targets`”记录终止符令牌后返回此字段的内容，以响应`??`。
+服务器在替换“`??`”记录终止符令牌后返回此字段的内容，以响应`req=targets`。
 
 每个缩放目标最多可以关联四个属性：
 
@@ -57,7 +61,7 @@ ht-degree: 1%
 
 目标。 每个缩放目标都需要&#x200B;*`num`*.rect，并且必须在图像内完全指定一个矩形。 所有其他属性都是可选的。
 
-*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;参与文本字符串本地化。 有关详细信息，请参阅[HTTP协议引用](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)中的&#x200B;*文本字符串本地化*。
+*`label`*&#x200B;和&#x200B;*`userData`*&#x200B;参与文本字符串本地化。 有关详细信息，请参阅&#x200B;*HTTP协议引用*&#x200B;中的[文本字符串本地化](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)。
 
 对于涉及旋转和小册子查看器客户端的应用程序，必须在定义图像集的同一目录记录中定义缩放目标。 查看器将忽略图像集成员的目录记录中的任何缩放目标定义。
 

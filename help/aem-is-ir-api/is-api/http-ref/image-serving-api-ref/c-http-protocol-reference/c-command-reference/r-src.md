@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/4BChH5cLIy-7A3mnQqqo0S7Z4XfoC4T-34gI-YM-tGY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 192
 ht-degree: 2%
 
 ---
@@ -45,7 +49,7 @@ ht-degree: 2%
 
 层属性。 应用于`layer=0`（如果`layer=comp`）。 与同一图层中的`text=`和`textPs=`互斥；最后出现的`text=`、`textPs=`或`src=`占上风，并确定这是图像图层还是文本图层。 被效果层忽略。
 
-*`object`*无法解析为其`src=`中包含`mask=`或`catalog::Modifier`命令的另一个目录记录。 （使用请求嵌套可实现类似效果。）
+*`object`*无法解析为其`catalog::Modifier`中包含`src=`或`mask=`命令的另一个目录记录。 （使用请求嵌套可实现类似效果。）
 
 `is`、`ir`和`fxg`前缀区分大小写。
 

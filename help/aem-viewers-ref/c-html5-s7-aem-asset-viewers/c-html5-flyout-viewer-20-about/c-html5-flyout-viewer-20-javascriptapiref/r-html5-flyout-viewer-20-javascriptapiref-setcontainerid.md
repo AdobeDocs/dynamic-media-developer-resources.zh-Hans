@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 5e07cbba-c1c1-4c85-af2b-ab2d84fbb709
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+TQID: 'https://experienceleague.adobe.com/g8kD78LKvXjaDeuhH096R0QeSNNNAOz-qU-mX9dL4-s'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 84
 ht-degree: 2%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> 容器的<span class="codeph"> {string} </span> ID。 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}容器的</span> ID。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,7 +37,7 @@ ht-degree: 2%
 
 无。
 
-## 示例 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## 示例： {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setContainerId("s7viewer");

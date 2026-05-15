@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/jh0UxfQzO3UY8nogOZl4f0qHSGGG-fUC7AKtEPdGvOs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 2%
 
 ---
@@ -27,11 +31,11 @@ ht-degree: 2%
 
 请参阅[clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)以获取其他信息，包括&#x200B;*`pathDefinition`*&#x200B;的说明。
 
-存在`\margl`时，将忽略RTF边距命令`\margr`、`\margt`、`\margb`和`textFlowPath=`。 如果未指定路径定义，则忽略`textFlowPath=`。
+存在`textFlowPath=`时，将忽略RTF边距命令`\margl`、`\margr`、`\margt`和`\margb`。 如果未指定路径定义，则忽略`textFlowPath=`。
 
 ## 属性 {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=0`指定，则应用于`layer=comp`。
+文本图层属性（仅限`textPs=`）。 被其他层忽略。 如果为`layer=comp`指定，则应用于`layer=0`。
 
 ## 默认 {#section-68c4559b9e8242059b82e5a39a455dfc}
 

@@ -1,9 +1,13 @@
 ---
 title: Adobe Dynamic Media Classic发行说明
 description: Adobe Dynamic Media Classic发行说明
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+autotag-review: '2026-05-13T22:13:33.339Z'
+TQID: 'https://experienceleague.adobe.com/c4I-XVx6SyHNE68OeCAQ2nXD-eSlTR2OIZcbDdhnFXk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: 27
 ht-degree: 0%
 
 ---
@@ -11,4 +15,4 @@ ht-degree: 0%
 
 # Dynamic Media发行说明{#dynamic-media-release-notes}
 
-[!DNL Adobe Dynamic Media Classic]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Experience Cloud]部分的最新发行说明。
+[!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Dynamic Media Classic]部分的最新发行说明。

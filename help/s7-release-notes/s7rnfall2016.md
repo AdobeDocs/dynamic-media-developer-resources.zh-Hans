@@ -1,13 +1,18 @@
 ---
 title: Scene7 2016年秋季版本
-description: Adobe Scene7 2016年秋季版本(Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分)的最新发行说明。
+description: Adobe Scene7 2016年秋季版本（Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分）的最新发行说明。
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: 2295
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Adobe Scene7 2016年秋季发行说明是Adobe Experience Cloud中Adobe Experien
 
 ## Scene7 2016年秋季版本 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-[!DNL Adobe Scene7]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Experience Cloud] 2016年秋季发行版的最新发行说明。
+[!DNL Adobe Experience Cloud]中[!DNL Adobe Experience Manager]解决方案的[!DNL Adobe Scene7] 2016年秋季发行版的最新发行说明。
 
 * [常规](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [场景 7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -32,11 +37,11 @@ Adobe Scene7 2016年秋季发行说明是Adobe Experience Cloud中Adobe Experien
 
 Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全面提升。
 
-请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=zh-Hans#dynamic)。
+请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 图像生成系统 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans)
+有关完整文档，请参阅[https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **新增功能、增强功能和错误修复**
 
@@ -58,7 +63,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.3） {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **针对图像服务5.5.3的错误修复**
 
@@ -68,7 +73,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.2） {#section-9932c988cfee45749594af481dfc6476}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **针对图像服务5.5.2的错误修复**
 
@@ -77,7 +82,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 ## 查看器（图像服务5.5.1） {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans)。
+有关完整文档，请参阅[查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)。
 
 **图像服务5.5.1的新增功能、增强功能和错误修复**
 
@@ -195,7 +200,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
    * 当iPad设备上的背景设置为白色/透明时，VideoPlayer组件的一侧会显示黑色边框。
    * 在使用iOS 7的iPad上，视频的最后一帧可能会失真。
    * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式下，在视频搜寻期间可能会出现偶尔宏阻塞。
-      * 首次来访的访客可能无法在Microsoft® Edge浏览器中显示海报图像。
+      * 首次来访的访客可能无法在® Edge浏览器中显示海报图像。
       * 当使用渐进式播放时，在Internet Explorer 9中加载视频后，海报图像可能会隐藏。
 
 ## Scene7 HTML5查看器SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
@@ -214,7 +219,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
    * 添加了HLS流视频播放，作为大多数桌面系统的默认视频交付方法。 基于Flash的HDS视频流仍可用作替代播放选项。
    * 添加了SearchManager、SearchPanel、SearchEffect和SearchButton组件，以支持eCatalog查看器中的新“搜索”功能。
    * 添加了对在Chrome浏览器上运行鼠标和触摸输入的设备的支持。
-   * 重构了Android™版本检测，以支持操作系统的未来版本。
+   * 重构了™版本检测，以支持操作系统的未来版本。
    * 在特定于eCatalog的SDK组件中添加对从右到左方向的支持。
 
 * 控件栏
@@ -227,7 +232,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
 **兼容性说明**
 
-* Android™ 4.x
+* ™ 4.x
 
    * 要禁用默认值，必须为组件添加蓝色突出显示以下CSS规则：
 
@@ -339,7 +344,7 @@ Adobe很高兴地宣布推出HTTP/2内容交付功能，这意味着性能将全
 
    * 如果将搜寻设置为100%并将回退设置为auto，则视频帧不会更新。
    * 在Chrome、Firefox和Internet Explorer浏览器的HLS流模式中搜索视频时，可能会偶尔出现宏阻塞。
-   * 首次来访的访客可能无法在Microsoft® Edge浏览器中显示海报图像。
+   * 首次来访的访客可能无法在® Edge浏览器中显示海报图像。
    * 当使用渐进式播放时，在Internet Explorer 9中加载视频后，海报图像可能会隐藏。
 
 ## Dynamic Media图像服务6.3.2和图像渲染6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}

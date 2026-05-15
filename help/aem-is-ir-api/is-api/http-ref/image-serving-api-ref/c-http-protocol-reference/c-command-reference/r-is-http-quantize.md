@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/gQ4YOSwrnbp0uNqQzC-aexuXaU9DZwQHXz3PdfaTaV0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 237
 ht-degree: 1%
 
 ---
@@ -43,7 +47,7 @@ ht-degree: 1%
 
 请求属性。 无论当前图层设置如何，它都适用。 仅在`fmt=gif`、`fmt=gif-alpha`、`fmt=png8`或`fmt=png8-alpha`时使用。 否则，将忽略。
 
-使用&#x200B;*`colorList`*&#x200B;指定的颜色必须包含十六进制格式的RGB值（请参阅不带[前缀的](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)color`0x`）。 不允许使用其他颜色说明符。 修饰符&#x200B;*`numColors`*&#x200B;必须为2-256。
+使用&#x200B;*`colorList`*&#x200B;指定的颜色必须包含十六进制格式的RGB值（请参阅不带`0x`前缀的[color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)）。 不允许使用其他颜色说明符。 修饰符&#x200B;*`numColors`*&#x200B;必须为2-256。
 
 ## 默认 {#section-ca3e817617244e8798ccff67b2023a32}
 

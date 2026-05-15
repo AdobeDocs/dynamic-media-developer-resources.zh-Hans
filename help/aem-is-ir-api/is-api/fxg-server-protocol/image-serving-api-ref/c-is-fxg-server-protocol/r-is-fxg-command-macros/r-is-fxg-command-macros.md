@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dc149977-3ca8-4612-ad05-4d565440d00a
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/DbXn35KC7OLFI0Dulgobj3UFPHnubmCisNDS541j8lE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 248
 ht-degree: 0%
 
 ---
@@ -44,6 +48,6 @@ ht-degree: 0%
 
 [!DNL `http://server/cat/8243?$view$&wid=480`]
 
-由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在`wid=` *之前指定* `$view$`无效）。
+由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在&#x200B;*`$view$`之前指定`wid=`*&#x200B;无效）。
 
 + [名称](r-name.md)

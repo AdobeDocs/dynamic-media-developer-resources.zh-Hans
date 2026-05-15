@@ -5,9 +5,14 @@ title: 错误重定向
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/3fcob7pfE-bMms-4PtD5MKkcolKHmXEWdzEL7vgzLhc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 ## PS：：errorRedirect.rootUrl — 重定向服务器 {#section-85f22e48d68842a490b0e1191543b558}
 
-应将本地失败的请求重定向到的次映像服务部署的根URL ( HTTP:// *[!DNL domain]*[: *[!DNL port]*])。 当此设置为空或未定义时，将禁用错误重定向（默认）。
+应将本地失败的请求重定向到的次映像服务部署的根URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*])。 当此设置为空或未定义时，将禁用错误重定向（默认）。
 
 ## PS：：errorRedirect.connectTimeout — 重定向连接超时 {#section-3971be8f720d4b32a2cc7860b4085971}
 

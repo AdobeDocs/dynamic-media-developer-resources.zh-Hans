@@ -1,18 +1,22 @@
 ---
-title: Swatches.fmt
-description: Swatches.fmt
+title: 色板.fmt
+description: 色板.fmt
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 043196c8-63ab-439e-a28f-b76d1467f26e
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/NnTMuxR40MApTOju2Az1jDzk-U7VHBKuJdJSxbGt74E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 76
+ht-degree: 3%
 
 ---
 
-# Swatches.fmt{#swatches-fmt}
+# 色板.fmt{#swatches-fmt}
 
 `[Swatches.|<containerId>_swatches.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/dGeDNaI5x5kVOS2RUeKVZX9CfE685dBW-UQM0vi7Sc8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 192
 ht-degree: 3%
 
 ---
@@ -30,8 +34,8 @@ ht-degree: 3%
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
       <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> 查看器插入的DOM容器的<span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID（通常为<span class="codeph"> DIV </span>）。 在调用此方法时，无需创建容器元素。 但是，运行<span class="codeph"> init() </span>时容器必须存在。 </p> <p>必需. </p> </li> 
       <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph">参数</span> - <span class="codeph"> {Object} </span> JSON对象具有查看器配置参数，其中属性名称是查看器特定的配置选项或SDK修饰符，并且该属性的值是相应的设置值。 </p> <p>必需. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph">处理程序</span> - <span class="codeph"> {Object} </span>具有查看器事件回调的JSON对象，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 </p> <p>可选. </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回调</a>。 </p> </li> 
-      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph">本地化文本</span> - <span class="codeph"> {Object} </span> </p> <p> 包含本地化数据的JSON对象。 有关对象内容的更多信息，请参阅用户界面元素的本地化和示例。 </p> <p>可选 </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph">处理程序</span> - <span class="codeph"> {Object} </span> JSON对象具有查看器事件回调，其中属性名称是支持的查看器事件的名称，属性值是对相应回调的JavaScript函数引用。 </p> <p>可选. </p> <p>有关查看器事件的详细信息，请参阅<a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local">事件回调</a>。 </p> </li> 
+      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph">本地化文本</span> - <span class="codeph"> {对象} </span> </p> <p> 包含本地化数据的JSON对象。 有关对象内容的更多信息，请参阅用户界面元素的本地化和示例。 </p> <p>可选 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

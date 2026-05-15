@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/HeszuJDuoMh-RTfrnFklpJWqT28PQ74N8GfBe0yZl7k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 177
 ht-degree: 1%
 
 ---
@@ -35,7 +39,7 @@ ht-degree: 1%
 
 ## 属性 {#section-170458cbd6984bd59a3434431258b20f}
 
-可能出现在请求中的任何位置。 如果在命令序列中的`wid=`之后发生`hei=`或`scl=`，则忽略该参数。
+可能出现在请求中的任何位置。 如果在命令序列中的`scl=`之后发生`wid=`或`hei=`，则忽略该参数。
 
 使用`scl=`调整图像大小不会更改响应图像中嵌入的打印分辨率值。
 

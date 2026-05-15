@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/-52nQ085AMsFuqDNv8JdEtXjwYFtIr3aXfHlrERSDoI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 260
 ht-degree: 1%
 
 ---
@@ -45,7 +50,7 @@ ht-degree: 1%
 
 ## 属性 {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
-请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`clientControl`具有负值），将忽略*`catalog::Expiration`*选项。
+请求属性。 无论当前图层设置如何，均适用。 在请求未返回回复图像时忽略。 当图像目录禁用客户端缓存时（如果`catalog::Expiration`具有负值），将忽略*`clientControl`*选项。
 
 客户端缓存控制（仅限`on`和`off`）也可用于[!DNL /is/content/]处的静态内容请求。
 

@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/KZibvornkiv7U3dfqaJQncz-dBNtrF2a58oENB36ojg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 4%
+source-wordcount: 121
+ht-degree: 7%
 
 ---
 
@@ -19,7 +23,7 @@ ht-degree: 4%
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname">颜色</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{ {红色，绿色，蓝色} | 灰色} | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {红色，绿色，蓝色} | gray } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>红色，绿色，蓝色，灰色</i> </p></td> 
@@ -50,7 +54,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
-  <td class="stentry"> <p>(1,2，3) </p></td> 
+  <td class="stentry"> <p>(1,2,3) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 

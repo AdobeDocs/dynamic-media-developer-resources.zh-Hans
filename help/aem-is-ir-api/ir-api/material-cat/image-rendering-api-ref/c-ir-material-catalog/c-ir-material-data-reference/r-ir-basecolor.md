@@ -5,9 +5,13 @@ title: 基色
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/m8Q2EVcHDmyTgZGv2AdIEoYfu9r9D38ha4kk-6OXE7w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: 78
 ht-degree: 3%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 3%
 
 主图像颜色。 减色颜色，用于纹理上色。 应为纹理图像中的平均主色。
 
-如果将没有`BaseColor`的纹理材质应用于不可纹理的晕影对象，则还可以使用`catalog::Color`作为填充颜色。
+如果将没有`catalog::Color`的纹理材质应用于不可纹理的晕影对象，则还可以使用`BaseColor`作为填充颜色。
 
 ## 属性 {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

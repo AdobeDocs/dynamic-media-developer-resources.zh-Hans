@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/xq-8hE9RB7I-CMb-yguhBcEttxTv6IRRHWzh0lDvn6E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: 201
 ht-degree: 1%
 
 ---
@@ -23,15 +27,15 @@ ht-degree: 1%
 <table id="simpletable_CBB5DFBD48B444A4AA806B11299BC43E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> cacheControl</span> </p> </td> 
-  <td class="stentry"> <p>日期 | 关 | 验证 </p></td> 
+  <td class="stentry"> <p>日期 |关 |验证 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> clientControl </span> </p> </td> 
-  <td class="stentry"> <p>日期 | 关 </p></td> 
+  <td class="stentry"> <p>日期 |关 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> serverControl </span> </p></td> 
-  <td class="stentry"> <p>日期 | 关 </p></td> 
+  <td class="stentry"> <p>日期 |关 </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +47,7 @@ ht-degree: 1%
 
 ## 属性 {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-可能出现在请求中的任何位置。 在请求未返回回复图像时忽略。 材料目录禁用客户端缓存时（如果&#x200B;*`clientControl`*&#x200B;具有负值），将忽略属性`attribute::Expiration`。 如果服务器缓存被禁用( *`serverControl`*)，则忽略属性`PlatformServer::cache.enable`。
+可能出现在请求中的任何位置。 在请求未返回回复图像时忽略。 材料目录禁用客户端缓存时（如果`attribute::Expiration`具有负值），将忽略属性&#x200B;*`clientControl`*。 如果服务器缓存被禁用( `PlatformServer::cache.enable`)，则忽略属性&#x200B;*`serverControl`*。
 
 ## 默认 {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 

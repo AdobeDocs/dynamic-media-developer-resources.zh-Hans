@@ -5,9 +5,14 @@ title: 蒙版路径
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/tUXD-vnkr3qkaH3B-dE-e9wfSPXAcnwRbqG9KuJej9E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 175
 ht-degree: 2%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 2%
 
 ## 属性 {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-文本字符串值。 可选。 如果已指定，则必须是有效的相对或绝对图像服务器文件路径。 如果没有文件后缀，则会附加`attribute::DefaultExt`。
+文本字符串值。 可选. 如果已指定，则必须是有效的相对或绝对图像服务器文件路径。 如果没有文件后缀，则会附加`attribute::DefaultExt`。
 
 如果在目录记录中定义了主图像(`catalog::Path`)和蒙版图像(`catalog::MaskPath`)，则两者必须具有完全相同的像素大小。 蒙版图像必须为8位灰度。
 

@@ -6,9 +6,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/NSZ3RPawFT-2Rsw4hlzAI9Lc0hYjTHMufVWJE5NssOU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: 1989
 ht-degree: 0%
 
 ---
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 ## 使用弹出查看器 {#section-f21ac23d3f6449ad9765588d69584772}
 
-弹出查看器表示一个主JavaScript文件以及查看器在运行时下载的一组帮助程序文件(单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS)
+弹出查看器表示一个主JavaScript文件以及查看器在运行时下载的一组帮助程序文件（单个JavaScript包含此特定查看器使用的所有SDK组件、资源、CSS）
 
 弹出查看器仅用于嵌入用途，这意味着它使用文档记录的API集成到网页中。 没有可用于弹出查看器的生产就绪网页。
 
@@ -82,7 +87,7 @@ ht-degree: 0%
 
 在弹出查看器中使用响应式设计嵌入模式时，请确保使用`imagereload`参数为主视图图像指定显式断点。 理想情况下，将断点与网页CSS指令的查看器宽度断点相匹配。
 
-在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页容器`DIV`的大小方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 这项功能意味着资产可以完美地融入视图中，而不会有任何边距。 此特定用例最常见于使用响应式设计布局框架(如Bootstrap和Foundation)的网页。
+在响应式设计嵌入模式下，查看器的行为方式有所不同，具体取决于网页容器`DIV`的大小方式。 如果网页仅设置容器`DIV`的宽度，而不限制其高度，则查看器会根据所用资源的长宽比自动选择其高度。 这项功能意味着资产可以完美地融入视图中，而不会有任何边距。 此特定用例最常见于使用响应式设计布局框架（如Bootstrap和Foundation）的网页。
 
 否则，如果网页同时设置了查看器容器`DIV`的宽度和高度，则查看器将仅填充该区域，并遵循网页布局提供的大小。 一个良好的用例示例是将查看器嵌入到模式叠加中，其中叠加根据Web浏览器窗口大小调整大小。
 
@@ -111,7 +116,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`Utils.js`上下文路径(所谓的统一HTML `/s7viewers`)加载的SDK5 SDK `include`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+>仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文路径（所谓的统一HTML `include`）加载的SDK5 SDK `Utils.js`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
 >
 >
 >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
@@ -151,11 +156,11 @@ ht-degree: 0%
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
 -->
 
-要使主视图维度为静态维度，请使用`Container` CSS选择器为内部`.s7flyoutviewer .s7container` SDK组件定义查看器大小（以绝对单位表示）。 此外，您应将默认查看器CSS设置为`.s7flyoutviewer`，以覆盖为`auto`顶级CSS类定义的固定大小。
+要使主视图维度为静态维度，请使用`.s7flyoutviewer .s7container` CSS选择器为内部`Container` SDK组件定义查看器大小（以绝对单位表示）。 此外，您应将默认查看器CSS设置为`auto`，以覆盖为`.s7flyoutviewer`顶级CSS类定义的固定大小。
 
 下面是一个示例，用于为内部`Container` SDK组件定义查看器大小，以便在切换资源时主视图区域不会更改其大小：
 
@@ -174,7 +179,7 @@ ht-degree: 0%
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
 -->
 
@@ -184,7 +189,7 @@ ht-degree: 0%
 
    完成上述步骤后，创建`s7viewers.FlyoutViewer`类的实例，将所有配置信息传递到其构造函数，并在查看器实例上调用`init()`方法。 配置信息作为JSON对象传递给构造函数。 此对象至少应具有`containerId`字段，该字段包含查看器容器ID的名称，并嵌套`params` JSON对象以及查看器支持的配置参数。 在这种情况下，`params`对象必须至少将图像服务URL作为`serverUrl`属性传递，并将初始资产作为`asset`参数传递。 基于JSON的初始化API允许您通过一行代码创建和启动查看器。
 
-   将查看器容器添加到DOM很重要，这样查看器代码就可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`init()`标记之前或主体`BODY`事件上调用`onload()`方法。
+   将查看器容器添加到DOM很重要，这样查看器代码就可以按其ID查找容器元素。 某些浏览器会延迟构建DOM，直到网页结尾。 要获得最大兼容性，请在结束`BODY`标记之前或主体`onload()`事件上调用`init()`方法。
 
    同时，容器元素还不一定是网页布局的一部分。 例如，可以使用分配给它的`display:none`样式隐藏它。 在这种情况下，查看器会延迟其初始化过程，直到网页将容器元素带回布局为止。 进行此操作后，查看器加载会自动恢复。
 
@@ -312,7 +317,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

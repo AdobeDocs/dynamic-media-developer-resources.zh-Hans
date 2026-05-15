@@ -5,9 +5,14 @@ title: 辅助技术支持
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Accessibility
 role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/iaM1o85zC7GNh-RZcMYfjGk99eb8RfobLSGLzwtbOqk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: 398
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 显示样本的组件具有角色`listbox`，`aria-label`属性设置为该组件的`LABEL`本地化符号的值。 单个样本具有角色`option`，该角色具有`aria-setsize`和`aria-posinset`属性，用于描述样本在集中的位置。 如果选择了样本，它将获得`aria-selected`属性设置为`true`。
 
-下拉列表由按钮激活，这些按钮具有设置为`aria-haspopup`的额外`true`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
+下拉列表由按钮激活，这些按钮具有设置为`true`的额外`aria-haspopup`属性和引用实际下拉面板元素的`aria-controls`属性。 下拉面板本身的角色为`menu`，子元素的角色为`menuitem`。 每个菜单项都指定了`aria-label`属性。
 
 搜索用户界面已分组到角色为`search`的元素中。 搜索输入字段具有角色`searchbox`，并引用了由`SearchPanel.INFO_PROMPT`本地化符号控制且具有`aria-describedby`属性的信息标签。
 

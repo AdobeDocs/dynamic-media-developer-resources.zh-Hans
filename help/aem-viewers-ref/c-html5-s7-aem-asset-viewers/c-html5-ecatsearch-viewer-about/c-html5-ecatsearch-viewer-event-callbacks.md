@@ -5,9 +5,13 @@ title: 事件回调
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 21aa4440-c629-440d-b37b-bb98f91ddfd3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/eyIgqFzzfI3BmTsrLYSGyu6xbw59ztJV-Tcxjoc3PXw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: 147
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 * `initComplete` — 查看器初始化完成并创建所有内部组件时触发，以便可以使用`getComponent()` API。 回调处理程序不接受任何参数。
 
-* `trackEvent` — 每次在查看器中发生事件时都会触发，该事件可能由事件跟踪系统(如Adobe Analytics)处理。 回调处理程序采用以下参数：
+* `trackEvent` — 每次在查看器中发生事件时都会触发，该事件可能由事件跟踪系统（如Adobe Analytics）处理。 回调处理程序采用以下参数：
 
    * `objID {String}`当前未使用。
    * `compClass {String}`当前未使用。

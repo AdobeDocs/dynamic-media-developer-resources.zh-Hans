@@ -5,10 +5,15 @@ title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/3Ak0AiifRbFxbKF8uUq5RQd2Y2dhbQigDmK5RJmbddQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: 328
+ht-degree: 6%
 
 ---
 
@@ -97,7 +102,7 @@ ht-degree: 7%
    <td colname="col1"> <p><span class="codeph"> <span class="varname">条记录PerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd：int</span> </p> </td> 
    <td colname="col3"> <p>否 </p> </td> 
-   <td colname="col4"> <p>响应返回的资源的数量。 預設值為 1000。 </p> </td> 
+   <td colname="col4"> <p>响应返回的资源的数量。 默认值为1000。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname">结果页面</span> </span> </p> </td> 

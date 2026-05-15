@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/hWfVo7g-LL9l-G8FkN4HZ4B1X7uX85LlklZFjNBsjZI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 251
 ht-degree: 3%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 3%
 
 可重复纹理包括内部和外部材料，例如织物（服装和室内装饰）、从墙到墙的地板覆盖物、墙纸、台面材料、木纹纹纹理、屋顶和侧边材料以及任何其他通用纹理。
 
-可重复纹理可应用于平面、流线、草图、平面、壁和机箱对象。 应用于不可纹理的对象时，该对象将使用`color=`绘制（如果未指定`bgc=`，则使用`color=`）。
+可重复纹理可应用于平面、流线、草图、平面、壁和机箱对象。 应用于不可纹理的对象时，该对象将使用`color=`绘制（如果未指定`color=`，则使用`bgc=`）。
 
 如果材质包含用于指定图像的`src=`属性，并且材质出现在除贴花或墙边框之外的MSS中，则该材质将被视为纹理。
 

@@ -5,10 +5,14 @@ title: 目录文件
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/MhxEBtyw3JIvMg5miQotPPCeoLeWATtXy0fbRtE7ePs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 2%
+source-wordcount: 108
+ht-degree: 3%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 2%
 
 ## 属性 {#section-6da55f145ecd4e31a5de52637a436983}
 
-一个或多个文本字符串值，用逗号分隔。 可选。 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
+一个或多个文本字符串值，用逗号分隔。 可选. 每个值都必须是绝对文件路径或相对于目录文件夹的路径。
 
 ## 默认 {#section-80f91cd7a6b2479ebb310319e9c74da7}
 

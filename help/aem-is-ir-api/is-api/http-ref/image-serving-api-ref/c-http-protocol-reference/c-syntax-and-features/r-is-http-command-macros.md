@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/a7vbT8heEkiWfmxn3wPudnzYTRN-H-I5D22038P4mJE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-`*`name`*`不区分大小写，并且可以由ASCII字母、数字、“ — ”、“_”和“。”的任意组合组成 个字符。
+`*`name`*`不区分大小写，并且可以由ASCII字母、数字、“ — ”、“_”和“。”字符的任意组合组成。
 
 宏可以在“？”之后的请求中任何位置调用，也可以在`catalog::Modifier`或`catalog::PostModifier`字段中的任何位置调用。 宏只能表示一个或多个完整的图像提供命令，并且必须使用`&`分隔符与其他命令分开。
 
@@ -49,7 +53,7 @@ ht-degree: 0%
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在&#x200B;`wid=`**&#x200B;之前指定`$view$`无效）。
+由于第三个请求的`wid=`不同，您只需在&#x200B;*之后覆盖值*&#x200B;即可调用宏（在&#x200B;*`$view$`之前指定`wid=`*&#x200B;无效）。
 
 ## 另请参阅 {#section-8cdba0ed2480444ca61e719e54f8871c}
 
