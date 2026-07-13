@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
 TQID: 'https://experienceleague.adobe.com/NZsbUGCd25rHyvrmt-Rh3XN0p3pHqEtGZrXLp-7JBsc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 337
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 晕影转换器(vntc)是一个命令行实用程序，用于准备通过图像创作创建的内容以进行图像渲染部署。
 
-[!DNL vntc]在[！DNL *[!DNL install_root]*\ImageServing\bin]中。 它具有以下功能：
+[!DNL vntc]在[!DNL *[!DNL install_root]*\ImageServing\bin]中。 它具有以下功能：
 
 * 将主晕影转换为单分辨率、多分辨率或金字塔生产晕影（请参阅[晕影缩放](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)）。
 * 生成生产文件柜和覆盖样式文件的窗口（请参见`-resolution`和`-jpegquality`）。
