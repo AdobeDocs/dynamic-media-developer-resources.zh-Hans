@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 TQID: 'https://experienceleague.adobe.com/J9LoVO0ZOapo0ao5gJoyNXc5qu3A3fNDD8ALRAiHudg'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 9%
@@ -51,8 +47,7 @@ ht-degree: 9%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 半径</span></span></td>
    <td colname="col2"><span class="codeph"> xsd：double</span></td>
-   <td colname="col3"><p>通过设置图像边缘周围的像素数来控制锐度。 值正确与否取决于图像的大小。 
-     <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
+   <td colname="col3"><p>通过设置图像边缘周围的像素数来控制锐度。 值正确与否取决于图像的大小。 <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">范围：0.0 - 250.0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">低值仅锐化边缘像素。 </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">高值会锐化较宽的像素范围。 </li>
@@ -100,4 +95,5 @@ ht-degree: 9%
 
 >[!MORELIKETHIS]
 >
->* [图像服务API引用：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=zh-Hans)
+>* [图像服务API引用：op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+
