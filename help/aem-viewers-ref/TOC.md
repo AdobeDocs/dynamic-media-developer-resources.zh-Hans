@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media查看器参考指南
 feature-set: Experience Manager Assets
 user-guide-description: 自定义Dynamic Media查看器，以在桌面设备和触摸屏设备上使用。 包括交互式图像和视频、轮盘、旋转集等。
 nudge: true
-source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 2%
@@ -1013,4 +1013,4 @@ ht-degree: 2%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
-<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=zh-Hans) -->
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
