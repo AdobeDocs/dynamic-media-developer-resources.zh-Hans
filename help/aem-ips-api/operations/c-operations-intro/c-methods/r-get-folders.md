@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
 TQID: 'https://experienceleague.adobe.com/155R9mUWjM5flIW9EdpyaxGIlyiCjWOubs90otdHgQ8'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +22,7 @@ ht-degree: 7%
 
 ## 文件夹用途 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-利用文件夹，可组织子文件夹和资源。 所有文件夹和资产名称必须唯一。 共享相同名称的文件夹和资产会导致命名空间冲突，即使它们位于不同的文件夹层次结构中也是如此。
-语法
+利用文件夹，可组织子文件夹和资源。 所有文件夹和资产名称必须唯一。 共享相同名称的文件夹和资产会导致命名空间冲突，即使它们位于不同的文件夹层次结构中也是如此。语法
 
 ## 授权用户类型 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +96,4 @@ ht-degree: 7%
    </folderArray>
 </getFoldersReturn>
 ```
+
