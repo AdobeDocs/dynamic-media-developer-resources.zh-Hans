@@ -4,7 +4,8 @@ user-guide-title: Dynamic Media图像服务和渲染API
 breadcrumb-title: Dynamic Media图像服务和渲染API
 feature-set: Experience Manager Assets
 user-guide-description: 查看有关IS（图像服务）和IR（图像渲染）API以及相关技术的文档。
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: f2f81d61572ac294b836be02e46797b83f4f21cf
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 8%
@@ -768,6 +769,6 @@ ht-degree: 8%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=zh-Hans)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
