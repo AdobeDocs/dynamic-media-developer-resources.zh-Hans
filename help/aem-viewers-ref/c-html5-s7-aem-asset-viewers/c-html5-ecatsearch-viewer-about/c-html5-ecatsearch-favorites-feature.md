@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 0%
@@ -29,3 +29,4 @@ ht-degree: 0%
 搜索结果显示为搜索文本所在页面的缩略图。 此外，查看器会显示搜索期间找到的页面和点击总数。 用户可以单击或点按搜索结果缩略图以导航到目录的相应页面。
 
 最后，查看器使用半透明的黄色区域突出显示主视图中的搜索点击。
+

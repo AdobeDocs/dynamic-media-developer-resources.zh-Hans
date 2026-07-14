@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 717
 ht-degree: 0%
@@ -117,3 +117,4 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 区域设置参数使用格式`<language_code>[-<country_code>]`
 
 其中语言代码是由ISO-639指定的小写形式的双字母代码，而可选国家/地区代码是由ISO-3266指定的大写形式的双字母代码。 例如，美式英语的区域设置字符串为`en-US`。
+

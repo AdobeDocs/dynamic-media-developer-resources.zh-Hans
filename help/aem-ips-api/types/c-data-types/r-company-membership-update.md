@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 35
 ht-degree: 14%
@@ -31,3 +31,4 @@ ht-degree: 14%
 | companyHandle | `xsd:string` | 处理公司。 |
 | 角色 | `xsd:string` | 用户对其所属的每个公司具有的角色。 |
 | isActive | `xsd:boolean` | 设置用户所属每个公司的状态。 |
+

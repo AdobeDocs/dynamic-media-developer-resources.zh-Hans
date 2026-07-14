@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 702
 ht-degree: 0%
@@ -150,3 +150,4 @@ vntc生成文本数据，该数据将发送到stderr或日志文件。
   <td class="stentry"> <p>警告消息（例如，当指定了<span class="codeph"> -imagemap</span>，但在晕影中未找到映射数据时）。 </p></td> 
  </tr> 
 </table>
+

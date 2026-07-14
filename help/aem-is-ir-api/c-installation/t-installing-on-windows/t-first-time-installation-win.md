@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 367
 ht-degree: 0%
@@ -73,3 +73,4 @@ ht-degree: 0%
 1. 选择&#x200B;**[!UICONTROL 上一步]**&#x200B;以进行更改，或选择&#x200B;**[!UICONTROL 下一步]**&#x200B;开始安装。
 
 1. 选择&#x200B;**[!UICONTROL 完成]**&#x200B;以退出安装向导。
+

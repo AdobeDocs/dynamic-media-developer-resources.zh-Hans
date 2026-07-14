@@ -10,7 +10,8 @@ feature: Dynamic Media Classic
 role: Developer,User
 user-guide-title: Adobe Dynamic Media Classic发行说明
 user-guide-description: Adobe Dynamic Media Classic （Adobe Experience Cloud中Adobe Experience Manager解决方案的一部分）的最新发行说明。
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: b3ed420d9e4d7adcc76921aa763e253bcfe0d1b3
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 42
 ht-degree: 14%
@@ -35,3 +35,4 @@ ZIP文件中的条目。
 | lastModified | `xsd:dateTime` | 上次修改的日期和时间。 |
 | compressedSize | `xsd:long` | 压缩大小。 |
 | uncompressedsize | `xsd:long` | 未压缩的大小。 |
+

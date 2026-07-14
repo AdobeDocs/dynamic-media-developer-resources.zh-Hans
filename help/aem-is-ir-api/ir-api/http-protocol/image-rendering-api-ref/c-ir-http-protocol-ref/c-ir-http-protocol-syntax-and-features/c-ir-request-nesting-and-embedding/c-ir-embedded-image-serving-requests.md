@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 如果嵌套请求的结果图像包含蒙版(alpha)数据，则始终会将该数据传递给材料。 使用纯色背景图像图层可避免不需要的Alpha。
 
 通过包含`cache=on`，可以选择缓存嵌入式IS请求的图像结果。 默认情况下，将禁用中间数据的缓存。 仅当在合理的时间段内在不同的请求中重用中间图像时，才应启用缓存。 标准服务器端缓存管理适用。 数据以无损格式进行缓存。
+

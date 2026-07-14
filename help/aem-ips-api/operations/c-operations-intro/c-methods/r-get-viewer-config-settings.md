@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 68
 ht-degree: 22%
@@ -48,3 +48,4 @@ ht-degree: 22%
 |---|---|---|---|
 | 类型 | `xsd:string` | 是 | 配置设置应用于的查看器类型。 |
 | configSettingsArray | `types:ConfigSettingsArray` | 是 | 查看器配置设置数组。 |
+

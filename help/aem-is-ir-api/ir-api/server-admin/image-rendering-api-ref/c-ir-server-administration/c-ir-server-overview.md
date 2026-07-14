@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +39,4 @@ ht-degree: 0%
 图像渲染安装文件夹(*[!DNL install_folder]*)是[!DNL *[!DNL install_root]*/ImageRendering]。 在Windows上，默认&#x200B;*[!DNL install_root]*&#x200B;为`C:\Program Files\Scene7`。 安装过程中可以指定其他文件夹。 在Linux上，*[!DNL install_root]*&#x200B;必须始终为[!DNL /usr/local/scene7]。 可以使用符号链接。
 
 所有文件路径在UNIX上均区分大小写，在Windows上则不区分大小写。
+

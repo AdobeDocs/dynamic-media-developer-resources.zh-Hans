@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 12%
@@ -35,3 +35,4 @@ PostScript文件选项。
 | 颜色空间 | `xsd:string` | PostScript色彩空间模式。 |
 | alpha | `xsd:boolean` | 是否将文件栅格化为图像。 如果是这样，如果以这种方式定义了原始文件，则它会创建一个透明背景。 通常用于创建叠加徽标。 |
 | extractSearchWords | `xsd:boolean` | 是否从PostScript文件中提取搜索词。 |
+

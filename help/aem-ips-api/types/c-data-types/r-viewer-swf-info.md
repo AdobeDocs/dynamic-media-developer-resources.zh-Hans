@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 42
 ht-degree: 11%
@@ -35,3 +35,4 @@ ht-degree: 11%
 | 原始路径 | `xsd:string` | 最初上载的查看器SWF文件的相对路径。 |
 | 原始文件 | `xsd:string` | 原始查看器SWF文件的文件名。 |
 | fileSize | `xsd:int` | 文件大小。 |
+

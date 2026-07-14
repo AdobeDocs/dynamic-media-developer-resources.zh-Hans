@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -38,3 +38,4 @@ ht-degree: 0%
 替换材质文件或晕影时，[!DNL Platform Server]缓存条目会自动失效。 替换ICC配置文件不会使缓存失效。
 
 为了避免替换文件带来的麻烦，建议为替换文件提供一个新名称并更新相应的目录条目。 这允许在服务器处于活动状态时替换任何数据文件，并导致服务器缓存条目自动失效，而无需其他干预。 此方法可用于由图像目录管理的所有数据文件。
+

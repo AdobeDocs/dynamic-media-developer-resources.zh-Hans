@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 27
 ht-degree: 18%
@@ -33,3 +33,4 @@ RTF文件资源的属性。
 | 原始路径 | `xsd:string` | 文件路径。 |
 | 原始文件 | `xsd:string` | 文件名。 |
 | fileSize | `xsd:int` | 文件大小。 |
+

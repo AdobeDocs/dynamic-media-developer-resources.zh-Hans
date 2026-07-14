@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 462
 ht-degree: 0%
@@ -66,3 +66,4 @@ ht-degree: 0%
   <td class="stentry"> <p>一个或多个输出晕影宽度（像素）。 如果指定了<span class="codeph"> -info</span>，则忽略。 <span class="varname"> ival</span>可以为0，表示输入晕影的高度。 有关详细信息，请参阅<a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local">晕影缩放</a>。 </p></td> 
  </tr> 
 </table>
+

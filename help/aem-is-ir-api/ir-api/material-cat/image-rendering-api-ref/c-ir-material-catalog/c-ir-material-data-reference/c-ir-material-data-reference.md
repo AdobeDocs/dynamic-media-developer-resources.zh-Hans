@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 0%
@@ -25,3 +25,4 @@ ht-degree: 0%
 如果材料目录需要材料数据，则必须在attribute：：CatalogFile中指定材料数据文件的相对路径或绝对路径。
 
 特定材料目录的材料数据文件中的条目将改写默认目录的材料数据文件中的条目。
+

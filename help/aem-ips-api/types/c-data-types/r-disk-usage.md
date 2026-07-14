@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 50
 ht-degree: 10%
@@ -35,3 +35,4 @@ ht-degree: 10%
 | imageCount | `xsd:int` | 存储的图像数。 |
 | 磁盘空间使用情况 | `xsd:long` | 文件端总数（以KB为单位）。 |
 | lastModified | `xsd:dateTime` | 上次修改`DiskUsage`类型的日期、时间和时区。 |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 0%
@@ -25,3 +25,4 @@ ht-degree: 0%
 Zoom Viewer的主类是BasicZoomViewer。 它在s7viewers命名空间中声明。 此JavaScript API涵盖此特定类的构造函数、方法和回调。
 
 在以下所有示例中，`<instance>`表示从`s7viewers.ZoomViewer`类实例化的JavaScript查看器对象的实际名称。
+

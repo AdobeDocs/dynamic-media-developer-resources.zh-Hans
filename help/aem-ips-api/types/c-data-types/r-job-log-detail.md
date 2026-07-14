@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 8%
@@ -36,3 +36,4 @@ ht-degree: 8%
 | 资产类型 | `xsd:string` | 资源类型的选择。 |
 | assetHandle | `xsd:string` | 作业日志中引用的资产句柄。 |
 | 辅助阵列 | `types:JobLogDetailAuxArray` | 提供上述五种作业日志类型以外的其他详细作业日志信息。 |
+

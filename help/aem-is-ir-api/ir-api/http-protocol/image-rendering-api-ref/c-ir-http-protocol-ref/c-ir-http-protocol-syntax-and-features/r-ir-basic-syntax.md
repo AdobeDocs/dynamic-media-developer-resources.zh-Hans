@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 227
 ht-degree: 0%
@@ -92,3 +92,4 @@ ht-degree: 0%
 **HTTP解码**
 
 图像渲染首先从传入请求中提取&#x200B;*`object`*&#x200B;和&#x200B;*`modifiers`*。 然后将&#x200B;*`object`*&#x200B;分隔为单独进行HTTP解码的路径元素。 *`modifiers`*&#x200B;字符串被分为&#x200B;*`command`*= *`value`*&#x200B;对，然后在命令特定的处理之前对&#x200B;*`value`*&#x200B;进行HTTP解码。
+

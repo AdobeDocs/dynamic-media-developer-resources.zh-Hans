@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 92
 ht-degree: 7%
@@ -33,3 +33,4 @@ ht-degree: 7%
 | assetHandle | `xsd:string` | 失败的操作的资产句柄。 |
 | 代码 | `xsd:int` | 操作错误代码。 |
 | 原因 | `xsd:string` | 错误描述或原因。 |
+

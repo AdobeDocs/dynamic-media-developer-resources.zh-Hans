@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -49,3 +49,4 @@ ht-degree: 0%
 在更新期间，[!DNL ImageServing/conf/server.xml]文件将更新为最新设置。 如果您更改或添加了任何值，则应保存现有[!DNL server.xml]，并在升级后重新实施更改。
 
 进行更新安装后，请考虑先预热HTTP响应缓存，然后再使服务器处于活动状态。 有关详细信息，请参阅`playlog`实用程序的说明。
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 0%
@@ -44,3 +44,4 @@ ht-degree: 0%
 * 属性名称可以由ASCII字母、数字和`-`、`_`和`.`字符的任意组合组成。
 * 如果同一属性文件中多次出现相同的属性名称，则最后一个出现的属性名称优先。
 * 使用`#`作为第一个字符，将任何记录标记为分析器忽略的注释。
+

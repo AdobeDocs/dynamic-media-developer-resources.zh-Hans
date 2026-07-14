@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 
 * Windows服务控制面板可用于启动、停止、重新启动和验证`Dynamic Media Image Serving`服务的状态。
 * **[!UICONTROL 开始菜单]**> **[!UICONTROL 所有程序]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL 图像服务]**> **[!UICONTROL 控制服务]**&#x200B;提供用于启动、停止和重新启动`Dynamic Media Image Serving`服务的命令。
+

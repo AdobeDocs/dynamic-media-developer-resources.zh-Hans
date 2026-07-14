@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 图像渲染利用图像服务缓存功能来保存响应图像数据、用于嵌套/嵌入请求的中间数据以及从外部源获得的源图像数据（例如纹理）。
 
 有关缓存机制的描述，请参阅图像服务文档。
+

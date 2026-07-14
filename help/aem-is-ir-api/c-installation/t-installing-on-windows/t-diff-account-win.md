@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 1. 选择&#x200B;**[!UICONTROL 安全设置]** > **[!UICONTROL 本地策略]** > **[!UICONTROL 用户权限分配]**。
 1. 双击&#x200B;**[!UICONTROL 作为服务登录]**&#x200B;策略。
 1. 选择&#x200B;**[!UICONTROL 添加……]**&#x200B;并选择用户或组，然后选择&#x200B;**[!UICONTROL 确定]**&#x200B;进行确认。
+

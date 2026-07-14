@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 301
 ht-degree: 0%
@@ -43,3 +43,4 @@ ht-degree: 0%
 字段名称可以由ASCII字母、数字、“ — ”和“_”的任意组合组成。
 
 一个或多个列可用作索引键。 如果同一密钥在同一个数据文件中出现多次，则较晚的实例将优先。
+

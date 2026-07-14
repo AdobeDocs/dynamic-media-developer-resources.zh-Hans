@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 100
 ht-degree: 1%
@@ -52,3 +52,4 @@ ht-degree: 1%
 * `saveMetadataField`包含可选的`isHidden`参数。
 * `searchAssets`
 * `renameFiles`参数在以前的版本中已弃用，已从`renameAsset`操作中删除。 虚拟文件路径将更改以匹配新的资源名称（保留文件扩展名），而物理文件路径不受影响。 在更新到新的API版本时，API客户端需要移除对此参数的引用。
+

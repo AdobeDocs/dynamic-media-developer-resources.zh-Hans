@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 55
 ht-degree: 9%
@@ -34,3 +34,4 @@ Adobe Illustrator文件的选项。
 | [!DNL resolution] | `xsd:string` | 文件解析。 |
 | 色彩空间 | `xsd:string` | 目标颜色空间。 |
 | [!DNL alpha] | `xsd:boolean` | 是否将文件栅格化为图像。 如果是这样，如果以这种方式定义原始文件以创建叠加徽标，则创建透明背景。 |
+

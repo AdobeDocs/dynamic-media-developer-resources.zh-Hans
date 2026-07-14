@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 244
 ht-degree: 2%
@@ -41,3 +41,4 @@ ht-degree: 2%
 | diskSpaceWarningMin | `xsd:int` | 发出警告之前映像目录可用磁盘空间的最小量。 |
 | emailTrashCleanupWarning | `xsd:boolean` | 确定在自动删除垃圾桶项目之前是否发送电子邮件。 |
 | javascriptuploadenabled | `types:Asset` | 确定是否上传JavaScript文件。 此选项存在潜在安全风险，因此请谨慎使用。 |
+

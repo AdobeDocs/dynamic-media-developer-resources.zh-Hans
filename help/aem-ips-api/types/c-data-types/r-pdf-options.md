@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 68
 ht-degree: 10%
@@ -36,3 +36,4 @@ PDF文件选项。
 | pdfCatalog | `xsd:boolean` | 是否在呈现后将多页PDF合并到eCatalog中（默认值为true）。 |
 | extractSearchWords | `xsd:boolean` | 是否从PDF文件中提取搜索词。 |
 | extractLinks | `xsd:boolean` | 是否将PDF链接提取到分配给IPS内栅格化页面的图像映射中。 |
+

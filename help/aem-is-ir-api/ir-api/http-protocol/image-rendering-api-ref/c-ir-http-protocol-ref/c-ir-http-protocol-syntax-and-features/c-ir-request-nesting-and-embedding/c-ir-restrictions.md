@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 70
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 为了使服务器具有良好的性能，嵌套请求返回的图像分辨率应该与材质所应用对象的纹理分辨率合理匹配。
 
 外部图像缓存在本地。 只有在本地缓存条目失效后（基于expires HTTP标头），才会检测到对这些图像所做的任何更改。
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 2%
@@ -78,12 +78,12 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST表单部件   |  uploadPostParams元素名称   |  类型   |  说明   |
 |---|---|---|---|
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档   |   `companyHandle`  |  `xsd:string`  | 必需. 将文件上传到的公司的句柄。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上载作业的名称。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 对在上一个请求中启动的上载作业的处理。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `locale`  |  `xsd:string`  | 可选. 本地化的语言和国家/地区代码。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `description`  |  `xsd:string`  | 可选. 作业的描述。  |
-| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `destFolder`  |  `xsd:string`  | 可选. 文件名属性的前缀的目标文件夹路径，特别是对于可能不支持文件名中完整路径的浏览器和其他客户端。  |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档   |   `companyHandle`  |  `xsd:string`  | 必需. 将文件上传到的公司的句柄。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobName`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 上载作业的名称。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `jobHandle`  |  `xsd:string`  | 需要`jobName`或`jobHandle`。 对在上一个请求中启动的上载作业的处理。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `locale`  |  `xsd:string`  | 可选. 本地化的语言和国家/地区代码。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `description`  |  `xsd:string`  | 可选. 作业的描述。 |
+| `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `destFolder`  |  `xsd:string`  | 可选. 文件名属性的前缀的目标文件夹路径，特别是对于可能不支持文件名中完整路径的浏览器和其他客户端。 |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `fileName`  |  `xsd:string`  | 可选. 目标文件的名称。 覆盖filename属性。 |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `endJob`  |  `xsd:boolean`  | 可选. 默认值为 false。 |
 | `uploadParams` (必需。 指定上载参数的XML `uploadParams`文档 | `uploadParams`  |  `types:UploadPostJob`  | 如果这是针对现有活动作业的后续请求，则为可选。 如果存在现有作业，则忽略`uploadParams`并使用现有作业上载参数。 查看[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -212,3 +212,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+

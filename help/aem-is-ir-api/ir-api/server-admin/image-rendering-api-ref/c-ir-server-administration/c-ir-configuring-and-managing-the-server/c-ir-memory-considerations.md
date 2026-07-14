@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 图像渲染共享图像服务器的内存管理。 使用图像渲染时，应分配额外的内存。 30%到50%的物理内存可能是合理的。
 
 有关如何更改图像服务器内存分配(ImageServer：：PhysicalMemory)的信息，请参阅图像服务文档。
+

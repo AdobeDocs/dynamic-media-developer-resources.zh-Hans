@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 345
 ht-degree: 0%
@@ -46,3 +46,4 @@ ht-degree: 0%
 通过指定`-pyramid`创建金字塔晕影。 这种晕影的最大分辨率级别与单个分辨率晕影的分辨率级别完全相同。 通过将每个级别缩放到与先前级别相比的0.5倍，自动确定附加分辨率级别，其中最小级别不超过128x128像素。
 
 可以为金字塔晕影指定附加分辨率级别，就像为多分辨率晕影一样。
+
