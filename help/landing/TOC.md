@@ -9,7 +9,7 @@ breadcrumb-title: Dynamic Media开发人员资源
 user-guide-description: 访问Dynamic Media开发人员资源，如查看器参考指南、图像生产系统API、图像服务和渲染API以及归档的Scene7发行说明。
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 476d3ecdc678bb0c2cd84dff4084cfe38d594ec4
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Dynamic Media开发人员资源{#landing}
 
-+ [主页](home.md)
++ [首頁](home.md)
 
 <!--
 This TOC may not be necessary. Not sure, so leaving it in.
@@ -29,3 +29,4 @@ This TOC may not be necessary. Not sure, so leaving it in.
 + [Image Authoring](/help/aem-ia/aem-ia-home.md)
 + [Dynamic Media Classic Release Notes](/help/s7-release-notes/homern.md)
 -->
+
