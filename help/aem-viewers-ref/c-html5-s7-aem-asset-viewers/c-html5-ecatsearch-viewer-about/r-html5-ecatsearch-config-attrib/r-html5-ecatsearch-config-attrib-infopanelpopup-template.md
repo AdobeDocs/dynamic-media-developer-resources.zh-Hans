@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 2%
@@ -59,3 +59,4 @@ ht-degree: 2%
 假定信息服务器响应将产品名称作为变量`$1$`返回，产品图像URL作为变量`$2$`返回。
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
+
