@@ -1,7 +1,7 @@
 ---
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 项目维护者有权并有责任删除、编辑或拒绝不符合本行为准则的评论、提交、代码、Wiki编辑、问题和其他投稿。 或者，暂时或永久禁止任何他们认为不适当、威胁、冒犯、有害行为的贡献者。
 
-## 范围
+## 範圍
 
 当个人代表项目或其社区时，本行为准则同时适用于项目空间和公共空间。 代表项目或社区的示例包括使用官方项目电子邮件地址、通过官方社交媒体帐户发布内容，或在线上或线下活动中担任指定代表。 项目的呈现方式可由其项目维护者进行进一步的定义和解释。
 
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 ## 归因
 
-本行为准则改编自 [投稿人公约](https://www.contributor-covenant.org/)，版本1.4，此版本位于 [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+本行为准则改编自[参与者公约](https://www.contributor-covenant.org/)版本1.4，此公约位于[https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)。
