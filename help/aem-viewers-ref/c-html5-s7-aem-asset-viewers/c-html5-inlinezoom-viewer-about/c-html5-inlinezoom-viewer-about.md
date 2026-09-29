@@ -9,20 +9,23 @@ exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
 TQID: 'https://experienceleague.adobe.com/Ax15caVJejy24gSoUX0wsA4cOjSR08FLNtpAjr06LtI'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Accessibility
+source-git-commit: 5ad66db3177c50e45f5ee5a51efa4bfde89290d3
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: '2305'
 ht-degree: 0%
-
 ---
-
 # 内联缩放{#inline-zoom}
 
 内联缩放查看器是一个图像查看器。 当用户滑过或触摸主视图时，它会显示一个静态图像，该静态图像上会显示缩放后的版本。 此查看器适用于图像集，并且使用样本完成导航。 它设计为可在台式机和移动设备上工作。
@@ -133,22 +136,22 @@ ht-degree: 0%
 
    创建查看器需要您在HTML head中添加脚本标记。 在使用查看器API之前，请确保包括`FlyoutViewer.js`。 `FlyoutViewer.js`在标准IS-Viewers部署的以下[!DNL html5/js/]子文件夹中：
 
-[!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
+   [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-如果查看器部署在某个Adobe Dynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您可以指定已安装IS-Viewers的某个Adobe Dynamic Media服务器的完整路径。
+   如果查看器部署在某个Adobe Dynamic Media服务器上，并且来自同一域，则可以使用相对路径。 否则，您可以指定已安装IS-Viewers的某个Adobe Dynamic Media服务器的完整路径。
 
-相对路径如下所示：
+   相对路径如下所示：
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
+   ```
 
->[!NOTE]
->
->仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文路径（所谓的统一HTML `include`）加载的SDK5 SDK `Utils.js`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
->
->
->因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
+   >[!NOTE]
+   >
+   >仅引用页面上的主查看器JavaScript `include`文件。 请勿在网页代码中引用任何其他JavaScript文件，这些文件可能由查看器的逻辑在运行时下载。 特别是，请勿直接引用查看器从`/s7viewers`上下文路径（所谓的统一HTML `include`）加载的SDK5 SDK `Utils.js`库。 原因是`Utils.js`或类似的运行时查看器库的位置完全由查看器的逻辑管理，并且查看器版本之间的位置会发生变化。 Adobe不会在服务器上保留旧版本的辅助查看器`includes`。
+   >
+   >
+   >因此，将来在部署新产品版本时，在页面上直接引用查看器使用的任何二级JavaScript `include`会破坏查看器功能。
 
 1. 定义容器DIV。
 
@@ -185,7 +188,7 @@ ht-degree: 0%
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-outer-area.html)
 
 -->
 
@@ -208,7 +211,7 @@ ht-degree: 0%
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hans](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html?lang=zh-Hans)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
 -->
 
@@ -351,7 +354,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=zh-Hans)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 
