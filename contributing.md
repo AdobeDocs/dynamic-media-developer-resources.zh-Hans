@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您提交的内容将受[Adobe使用条款的约束。](https://www.adobe.com/legal/terms.html)
+>您提交的内容将受[Adobe使用条款的约束。](https://www.adobe.com/cn/legal/terms.html)
 
 ### 创建问题 {#create-an-issue}
 
