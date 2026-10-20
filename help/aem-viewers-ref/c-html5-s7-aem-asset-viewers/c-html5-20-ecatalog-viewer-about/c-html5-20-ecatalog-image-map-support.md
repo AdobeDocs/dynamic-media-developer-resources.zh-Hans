@@ -34,11 +34,11 @@ eCatalog查看器支持在主视图上方呈现图像映射图标。
 
 以下是简单的URL重定向示例：
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/cn`
 
 在此示例中，同一URL使用`loadProduct()`函数封装：
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/cn");void(0);`
 
 将JavaScript代码添加到图像映射的`HREF`属性中时，该代码会在客户端计算机上运行。 因此，请确保JavaScript代码是安全的。
 
